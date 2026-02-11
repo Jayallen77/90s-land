@@ -1,0 +1,613 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>90s.land - Coming Soon</title>
+  <style>
+    /* Core neon terminal palette */
+    :root {
+      --black: #000000;
+      --panel: #060606;
+      --panel-alt: #0b0b0b;
+      --white: #f1f1f1;
+      --green: #00ff66;
+      --cyan: #00ffff;
+      --magenta: #ff00ff;
+      --yellow: #ffff00;
+      --border-light: #d6d6d6;
+      --border-dark: #1f1f1f;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      min-height: 100%;
+    }
+
+    body {
+      background-color: var(--black);
+      background-image: url("data:image/gif;base64,R0lGODlhIAAgAPIAAAAAAP///2b///9m////ZgAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh+QQACgAAACwAAAAAIAAgAAADLAi63P5glJPWF2zWm0PSgdQQkqV5oumXsh3WwrE8PwJ9MyO+85HdA76Aw0wCADs=");
+      background-repeat: repeat;
+      color: var(--white);
+      font-family: "Courier New", "Lucida Console", monospace;
+      line-height: 1.4;
+      text-align: center;
+      animation: star-scroll 80s linear infinite;
+      position: relative;
+      overflow-x: hidden;
+    }
+
+    /* CRT scanlines */
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      background-image: url("data:image/gif;base64,R0lGODlhAgACAPAAAP8A/wAAACH/C05FVFNDQVBFMi4wAwEAAAAh+QQBCgAAACwAAAAAAgACAAACAwQiCgA7");
+      background-repeat: repeat;
+      opacity: 0.16;
+      z-index: 5;
+    }
+
+    @keyframes star-scroll {
+      from {
+        background-position: 0 0;
+      }
+      to {
+        background-position: -240px 240px;
+      }
+    }
+
+    /* Centered late-90s boxed shell */
+    main {
+      width: 760px;
+      max-width: 94%;
+      margin: 36px auto;
+      padding: 16px;
+      background-color: var(--panel);
+      border: 4px solid var(--border-light);
+      border-right-color: var(--border-dark);
+      border-bottom-color: var(--border-dark);
+      position: relative;
+      z-index: 10;
+    }
+
+    header {
+      border: 2px solid var(--cyan);
+      background-color: #000000;
+      padding: 14px 10px;
+    }
+
+    h1 {
+      margin: 2px 0 0;
+      color: var(--green);
+      font-size: 56px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      text-shadow: 0 0 6px rgba(0, 255, 102, 0.6);
+      animation: header-flicker 8s steps(1, end) infinite;
+    }
+
+    h2 {
+      margin: 8px 0 0;
+      color: var(--magenta);
+      font-size: 22px;
+      text-shadow: 0 0 6px rgba(255, 0, 255, 0.5);
+      animation: header-flicker 9s steps(1, end) infinite;
+    }
+
+    h3 {
+      margin: 0 0 8px;
+      color: var(--yellow);
+      font-size: 18px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+
+    @keyframes header-flicker {
+      0%,
+      19%,
+      21%,
+      63%,
+      65%,
+      100% {
+        opacity: 1;
+      }
+      20%,
+      64% {
+        opacity: 0.82;
+      }
+    }
+
+    /* Slow occasional blink for accent text */
+    .slow-blink {
+      animation: slow-blink 2.8s steps(1, end) infinite;
+    }
+
+    @keyframes slow-blink {
+      0%,
+      67% {
+        visibility: visible;
+      }
+      68%,
+      100% {
+        visibility: hidden;
+      }
+    }
+
+    .panel {
+      margin-top: 14px;
+      padding: 12px;
+      border: 2px solid var(--magenta);
+      background-color: var(--panel-alt);
+      text-align: left;
+    }
+
+    .panel strong {
+      color: var(--cyan);
+    }
+
+    .status-chip {
+      display: inline-block;
+      margin-bottom: 6px;
+      padding: 2px 8px;
+      border: 1px solid var(--yellow);
+      color: var(--yellow);
+      font-size: 12px;
+      letter-spacing: 1px;
+    }
+
+    /* Marquee strip */
+    .marquee-strip {
+      margin-top: 14px;
+      padding: 4px 0;
+      border: 2px solid var(--yellow);
+      background-color: #101010;
+      text-align: center;
+    }
+
+    marquee {
+      color: var(--yellow);
+      font-size: 15px;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    .intro {
+      border-color: var(--cyan);
+      color: var(--cyan);
+      font-size: 18px;
+      text-align: center;
+    }
+
+    .coming-list ul {
+      margin: 0;
+      padding-left: 20px;
+      color: var(--green);
+    }
+
+    .coming-list li {
+      margin: 4px 0;
+    }
+
+    /* Dial-up console + passive sound toggle */
+    .console-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      margin-bottom: 8px;
+    }
+
+    .sound-toggle {
+      border: 2px outset #d8d8d8;
+      background-color: var(--yellow);
+      color: #000000;
+      font-family: "Courier New", "Lucida Console", monospace;
+      font-size: 12px;
+      font-weight: bold;
+      padding: 5px 8px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      cursor: pointer;
+    }
+
+    .sound-toggle:active {
+      border-style: inset;
+    }
+
+    .dialup-console {
+      margin: 0;
+      min-height: 88px;
+      padding: 8px;
+      border: 2px inset #d8d8d8;
+      background-color: #000000;
+      color: var(--green);
+      font-size: 14px;
+      line-height: 1.35;
+      white-space: pre-wrap;
+      text-shadow: 0 0 4px rgba(0, 255, 102, 0.4);
+      overflow: hidden;
+    }
+
+    /* Rotating message panel */
+    .message-line {
+      margin: 0;
+      color: var(--cyan);
+      min-height: 24px;
+      font-size: 16px;
+    }
+
+    /* GIF accents */
+    .accents {
+      border-color: var(--cyan);
+    }
+
+    .gif-row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 16px;
+      text-align: center;
+    }
+
+    .gif-item {
+      min-width: 120px;
+      color: var(--yellow);
+      font-size: 12px;
+      letter-spacing: 1px;
+    }
+
+    .gif-item img {
+      display: block;
+      margin: 0 auto 4px;
+      image-rendering: pixelated;
+      border: 1px solid #333333;
+      background-color: #000000;
+    }
+
+    /* Meta information: counter, location, timestamp */
+    .meta {
+      border-color: var(--green);
+      color: var(--white);
+    }
+
+    .meta-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 10px;
+      text-align: center;
+      font-size: 14px;
+    }
+
+    .meta-card {
+      border: 1px solid #3a3a3a;
+      background-color: #050505;
+      padding: 8px 6px;
+    }
+
+    .counter-label {
+      color: var(--magenta);
+      display: block;
+      margin-bottom: 4px;
+      font-size: 12px;
+      letter-spacing: 1px;
+    }
+
+    .counter {
+      display: inline-block;
+      border: 2px inset #d8d8d8;
+      background-color: #000000;
+      color: var(--green);
+      padding: 4px 8px;
+      letter-spacing: 2px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    /* Fake badges row */
+    .badges {
+      border-color: var(--yellow);
+      text-align: center;
+    }
+
+    .badge-row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 8px;
+    }
+
+    .badge {
+      border: 2px outset #d8d8d8;
+      background-color: #141414;
+      color: var(--cyan);
+      font-size: 12px;
+      padding: 4px 8px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+
+    footer {
+      margin-top: 14px;
+      padding-top: 10px;
+      border-top: 1px dashed var(--cyan);
+      color: #dcdcdc;
+      font-size: 13px;
+      text-align: center;
+    }
+
+    /* Keep retro proportions on small screens */
+    @media (max-width: 640px) {
+      main {
+        width: 92%;
+        margin: 20px auto;
+        padding: 12px 10px;
+      }
+
+      h1 {
+        font-size: 40px;
+      }
+
+      h2 {
+        font-size: 18px;
+      }
+
+      .intro {
+        font-size: 16px;
+      }
+
+      .console-head {
+        flex-direction: column;
+        align-items: stretch;
+      }
+
+      .sound-toggle {
+        width: 100%;
+      }
+
+      .meta-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .counter {
+        font-size: 16px;
+        letter-spacing: 1px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <!-- Header block -->
+    <header>
+      <span class="status-chip slow-blink">TRANSMISSION ACTIVE</span>
+      <h1>90s.land</h1>
+      <h2>Rebooting the Internet… Coming Soon</h2>
+    </header>
+
+    <!-- Scrolling retro banner -->
+    <section class="marquee-strip" aria-label="Scrolling announcement">
+      <marquee behavior="alternate" scrollamount="5">WELCOME TO 90s.land // NO ADS, NO POPUPS, JUST CURIOSITY // MODEM SONGS IN PROGRESS</marquee>
+    </section>
+
+    <!-- Core description -->
+    <section class="panel intro">
+      <p>An interactive portal celebrating games, chatrooms, music, and the culture of the early web.</p>
+    </section>
+
+    <!-- Planned sections list -->
+    <section class="panel coming-list" aria-labelledby="coming-online-title">
+      <h3 id="coming-online-title">What's Coming Online</h3>
+      <ul>
+        <li>Retro browser games</li>
+        <li>AIM-style chatrooms</li>
+        <li>90s radio &amp; music players</li>
+        <li>Virtual desktops &amp; themes</li>
+        <li>User profiles &amp; guestbooks</li>
+      </ul>
+    </section>
+
+    <!-- Passive dial-up console -->
+    <section class="panel" aria-labelledby="dialup-title">
+      <div class="console-head">
+        <h3 id="dialup-title">Dial-Up Status Console</h3>
+        <button id="sound-toggle" class="sound-toggle" type="button" aria-pressed="false">Sound: Off</button>
+      </div>
+      <pre id="dialup-console" class="dialup-console" aria-live="polite"></pre>
+    </section>
+
+    <!-- Rotating nostalgic messages -->
+    <section class="panel" aria-labelledby="message-title">
+      <h3 id="message-title">System Message</h3>
+      <p id="message-line" class="message-line"></p>
+    </section>
+
+    <!-- GIF accents -->
+    <section class="panel accents" aria-labelledby="accents-title">
+      <h3 id="accents-title">Web Relics</h3>
+      <div class="gif-row">
+        <div class="gif-item">
+          <img src="data:image/gif;base64,R0lGODlhEAAQAPIAAAAAAAB4/wD//wD/Zv///wAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh+QQADAAAACwAAAAAEAAQAAADNgi63P4gCJPCSYig0wVCaRUzDeUUcss5bGyqkCj5SiDlBuOm4blKYsl8vxmqIxR1NsNI08lIAAAh+QQADAAAACwAAAAAEAAQAAADNgi63P4gCJPCSUgQNLiQUdvUTMIwcNUScui4Bqg4uUwquh3MmZxNc810K1zKo0m9jr5I0+lIAAAh+QQADAAAACwAAAAAEAAQAAADMgi63P4gCJPCScgUtYVMgV0wCAPIKRSpotKosQFzBps5zfTWasN9EtmAohrNMowklY0EACH5BAAMAAAALAAAAAAQABAAAAM2CLrc/iAIk8JJSBA0uJBR29RMwjBw1RJy6LgGqDi5TCq6HcyZnE1zzXQrXMqjSb2OvkjT6UgAADs=" width="16" height="16" alt="Spinning globe GIF">
+          <span>SPINNING GLOBE</span>
+        </div>
+        <div class="gif-item">
+          <img src="data:image/gif;base64,R0lGODlhEAAQAPIAAAAAAKCgoFpaWgD/////AP////8A/wAAACH/C05FVFNDQVBFMi4wAwEAAAAh+QQACgAAACwAAAAAEAAQAAADOQi63P6ckJNKJkKoWN8sDOHACZ4mjp+5qQuXwXDpBoV92x2N47qC4d0Is18tWPABXjHZZVOBRKWPBAAh+QQACgAAACwAAAAAEAAQAAADOAi63P6ckJNKJkKoWN8sDOHACZ4mjp+5qQuXwXDpBoV92x2N47qC4d0As18tWPANY8vkZgOBRh8JACH5BAAKAAAALAAAAAAQABAAAAM5CLrc/pyQk0omQqhY3ywM4cAJniaOn7mpC5fBcOkGhX3bHY3juoLh3QizXy1Y8AFeMdllU4FEpY8EACH5BAAKAAAALAAAAAAQABAAAAM4CLrc/pyQk0omQqhY3ywM4cAJniaOn7mpC5fBcOkGhX3bHY3juoLh3QCzXy1Y8A1jy+RmA4FGHwkAIfkEAAoAAAAsAAAAABAAEAAAAzkIutz+nJCTSiZCqFjfLAzhwAmeJo6fuakLl8Fw6QaFfdsdjeO6guHdDLNfLVjwAV4x2WVTgUSljwQAIfkEAAoAAAAsAAAAABAAEAAAAzgIutz+nJCTSiZCqFjfLAzhwAmeJo6fuakLl8Fw6QaFfdsdjeO6guHdALNfLVjwDWPL5GYDgUYfCQA7" width="16" height="16" alt="Floppy disk GIF">
+          <span>FLOPPY DISK</span>
+        </div>
+        <div class="gif-item">
+          <img src="data:image/gif;base64,R0lGODlhWAASAPAAAAAAAP//ACH/C05FVFNDQVBFMi4wAwEAAAAh+QQACAAAACwAAAAAWAASAAACmowPQZfRA4vgJbnosRdjrTjIA72JI0HqNMVVG1m0clvrnTs4fVT8TnM7oOMjq9EkNmNP+SsZeE1m0DeVDjch6lVbRB4jyRK06l2Wo2fyZLy1dsHfRpz9lpvhdzuaRMxj9/TUAtv4+gD/BBEJ8Q6F6hQfDRMlFxvSKiEzHDW5OI0YJ50aRUPD8AYjSTEpU031Mp82Yztn3TzTCgAAIfkEAAgAAAAsAAAAAFgAEgAAAp2Mz0CX0QOL4CHZaLIKc707j4NCUBMnx0Mx9STZl/qOtrRc05bwKn5qsFzwZqP5UseeUJY0LjLLXxNKHO50EyAziuQqq1vVxRrBgaVep/iJHYevZDd6PXuX2+x43i42w/n25v4Eywa7zg4NvxTVru706gjlEh8BZyYXKyUDKTEbKzkzPakYSTU7AyNRVUVDP0dHuFYsZzdZX11NMQsAACH5BAAIAAAALAAAAABYABIAAAKbjA9S9xoXdA5G+Wiyb+Ksg87TQuADQ1NpyBT92NcdVQOeuxaP9duzLT9JkMMDRoYrmbEoVDZJlR4lh6FOd1CaNLqsYq9bqJX79Ia13WzpSyaa0+0kDgxnsO1nUZ0Wv7zL6AD7amTw9vQEDRPRFvUY3QIhB0+YJBURLR/l/jIxNyPX8kIPRxtLO09NKDk/J5H8IlVfCStbFVE/CgAAIfkEAAgAAAAsAAAAAFgAEgAAAp2MA1L3+hYEzkU2X00Xa5O77ZM25CPL7IQ8kxTVNoyvCK3g1J2nVxdXvluwNgTKfpajUElkGmnIJDTnlPJ2lKgCt5x2r1RvrSl+gr/Z8JloTqMbveq2mLS6yes2HLsPz+VAyuz63ji+AvMGDfHu9BbbRgAjBf8oERsV6SoTNzE7CRlPbEIfM0cdWdRET03jLCc5L0VdY2E9ZUs/HwoAACH5BAAIAAAALAAAAABYABIAAAKZTABTjfsUdA5Gyeiyhj4MtM37QHHUSrArs1NMUdKNV9aCW++VcRrRczPMTxjsDTnFCg+5jDBtOyiwWZPAlFIiNXHEWnfVSfQ7zT7J2k433LiZveLyY81Nsi/jeHpD99nrtvwCTVLa8gzl9M4U4Qrd0BYR9xjv/gTfKlUi8RIdDzknJTdDOi8gG0FHNVFJQ/EoATFjTzMf4woAADs=" width="88" height="18" alt="Under construction GIF">
+          <span class="slow-blink">UNDER CONSTRUCTION</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Authentic details -->
+    <section class="panel meta" aria-label="Site details">
+      <div class="meta-grid">
+        <div class="meta-card">
+          <span class="counter-label">VISITORS:</span>
+          <span id="hit-counter" class="counter">000000000</span>
+        </div>
+        <div class="meta-card">You are visitor from: Earth</div>
+        <div class="meta-card">Last updated: <span id="last-updated">--/--/----</span></div>
+      </div>
+    </section>
+
+    <!-- Badge / award row -->
+    <section class="panel badges" aria-labelledby="awards-title">
+      <h3 id="awards-title">Totally Real Web Awards</h3>
+      <div class="badge-row">
+        <span class="badge">Cool Site of the Day</span>
+        <span class="badge">Netscape Gold</span>
+        <span class="badge">HTML 3.2 Ready</span>
+        <span class="badge">No Pop-Ups Promise</span>
+      </div>
+    </section>
+
+    <footer>Best viewed at 800x600 | Netscape Navigator Compatible 😉</footer>
+  </main>
+
+  <script>
+    // Hit counter: increments on each page load using localStorage.
+    (function initHitCounter() {
+      var counterEl = document.getElementById("hit-counter");
+      var storageKey = "nineties_land_hits";
+      var count = 42390;
+
+      try {
+        var stored = parseInt(localStorage.getItem(storageKey), 10);
+        if (!Number.isNaN(stored)) {
+          count = stored;
+        }
+      } catch (error) {
+        // Ignore storage failures and keep default.
+      }
+
+      count += 1;
+      counterEl.textContent = String(count).padStart(9, "0");
+
+      try {
+        localStorage.setItem(storageKey, String(count));
+      } catch (error) {
+        // Ignore storage failures.
+      }
+    })();
+
+    // Last updated line uses the document timestamp.
+    (function initLastUpdated() {
+      var updatedEl = document.getElementById("last-updated");
+      var stamp = new Date(document.lastModified);
+      if (!Number.isNaN(stamp.getTime())) {
+        updatedEl.textContent = stamp.toLocaleString();
+      }
+    })();
+
+    // Passive dial-up console cycling through nostalgic status lines.
+    (function initDialUpConsole() {
+      var consoleEl = document.getElementById("dialup-console");
+      var soundToggle = document.getElementById("sound-toggle");
+      var lines = [];
+      var soundEnabled = false;
+      var audioCtx = null;
+
+      var statusMessages = [
+        "Connecting to 90s.land...",
+        "Negotiating modem...",
+        "Loading nostalgia modules...",
+        "Mounting floppy disk cache...",
+        "Syncing guestbook packets...",
+        "Rendering CRT-compatible interface..."
+      ];
+
+      function ensureAudioContext() {
+        if (!audioCtx) {
+          var Ctx = window.AudioContext || window.webkitAudioContext;
+          if (Ctx) {
+            audioCtx = new Ctx();
+          }
+        }
+      }
+
+      function beep(freq, duration) {
+        if (!soundEnabled || !audioCtx) {
+          return;
+        }
+
+        if (audioCtx.state === "suspended") {
+          audioCtx.resume();
+        }
+
+        var oscillator = audioCtx.createOscillator();
+        var gain = audioCtx.createGain();
+        oscillator.type = "square";
+        oscillator.frequency.value = freq;
+
+        gain.gain.value = 0.02;
+        oscillator.connect(gain);
+        gain.connect(audioCtx.destination);
+
+        var now = audioCtx.currentTime;
+        oscillator.start(now);
+        oscillator.stop(now + duration);
+      }
+
+      function printLine(text) {
+        lines.push("[" + new Date().toLocaleTimeString() + "] " + text);
+        if (lines.length > 5) {
+          lines.shift();
+        }
+        consoleEl.textContent = lines.join("\n");
+        beep(420, 0.06);
+      }
+
+      var cursor = 0;
+      function cycleStatus() {
+        printLine(statusMessages[cursor]);
+        cursor = (cursor + 1) % statusMessages.length;
+      }
+
+      soundToggle.addEventListener("click", function () {
+        ensureAudioContext();
+        soundEnabled = !soundEnabled;
+        soundToggle.textContent = soundEnabled ? "Sound: On" : "Sound: Off";
+        soundToggle.setAttribute("aria-pressed", soundEnabled ? "true" : "false");
+        beep(660, 0.05);
+      });
+
+      cycleStatus();
+      cycleStatus();
+      cycleStatus();
+      setInterval(cycleStatus, 2600);
+    })();
+
+    // Rotating nostalgic quote/system message.
+    (function initRotatingMessages() {
+      var messageEl = document.getElementById("message-line");
+      var messages = [
+        '"You have entered a calm corner of the early web."',
+        '"No feeds. No nudges. Just dial-up wonder."',
+        '"Packet received: curiosity.exe"',
+        '"Guestbook daemon says hello."',
+        '"Tip: Press refresh for another tiny time machine ride."'
+      ];
+
+      var idx = 0;
+      function rotate() {
+        messageEl.textContent = messages[idx];
+        idx = (idx + 1) % messages.length;
+      }
+
+      rotate();
+      setInterval(rotate, 4800);
+    })();
+  </script>
+</body>
+</html>
