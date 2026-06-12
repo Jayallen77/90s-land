@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="90s.land is a nostalgic portal, museum, and playground for the pre-algorithm internet." />
+  <title>90s.land — guestbook</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <div class="crt" aria-hidden="true"></div>
+  <div class="starfield" aria-hidden="true"></div>
+  
+<header class="topbar" id="top">
+  <a class="brand" href="/" aria-label="90s.land home"><span class="logo-box">90s</span><span>.land</span></a>
+  <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="siteNav">☰ Menu</button>
+  <nav class="nav" id="siteNav" aria-label="Retro portal navigation">
+    <a href="/timeline/">Timeline</a>
+    <a href="/zones/internet-culture/">Internet Culture</a>
+    <a href="/zones/music/">Music</a>
+    <a href="/zones/games/">Games</a>
+    <a href="/zones/tv-movies/">TV/Movies</a>
+    <a href="/zones/tech-toys/">Tech/Toys</a>
+    <a href="/zones/fashion/">Fashion</a>
+    <a href="/webring/">Explore</a>
+    <a href="/guestbook/">Guestbook</a>
+  </nav>
+</header>
+
+  <main>
+  <section class="guestbook window"><div class="window-bar"><span>GUESTBOOK.HTML</span><span class="window-buttons">♡ ×</span></div><div class="page-pad"><nav class="breadcrumbs"><a href="/">Home</a> / Guestbook</nav><h1>Sign the guestbook</h1><p>This is still a local preview guestbook for now — a real persistent version can come later.</p><form id="guestbookForm"><label>Your handle <input name="handle" maxlength="24" placeholder="xX_sk8r_1997_Xx" required></label><label>Your message <textarea name="message" maxlength="140" placeholder="this site rules!!!" required></textarea></label><button class="button primary" type="submit">sign guestbook</button></form><div class="guestbook-entries" id="guestbookEntries"></div></div></section>
+  </main>
+  <footer class="footer"><p>© 1999–forever 90s.land // handmade for curious people // <a href="#top">back to top</a></p></footer>
+  <script src="/script.js"></script>
+</body>
+</html>

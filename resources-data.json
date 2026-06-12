@@ -1,0 +1,626 @@
+[
+  {
+    "title": "Wayback Machine",
+    "url": "https://web.archive.org/",
+    "description": "The default first stop for recovering vanished 1990s pages, dead promotional microsites, and old personal homepages through URL and date-based captures.",
+    "tag": "web-preservation",
+    "usage": "Archived pages are only as complete as the original crawl, and original copyrights still apply.",
+    "category": "Old Web & GeoCities"
+  },
+  {
+    "title": "Internet Archive",
+    "url": "https://archive.org/",
+    "description": "The parent digital library behind the Wayback Machine and many of the best vintage media/software collections, useful as a broad discovery hub when you want more than websites alone.",
+    "tag": "archives",
+    "usage": "Holdings span many rightsholders and uploader types, so reuse permissions vary by item.",
+    "category": "Old Web & GeoCities"
+  },
+  {
+    "title": "TheOldNet",
+    "url": "https://theoldnet.com/",
+    "description": "A streamlined portal for accessing old internet archives with a deliberately old-web feel, good for people who want a more “period correct” browsing experience than the standard Wayback interface.",
+    "tag": "old-web recreation",
+    "usage": "It is a discovery/proxy layer, so what you see still depends on archived availability underneath.",
+    "category": "Old Web & GeoCities"
+  },
+  {
+    "title": "oldweb.today",
+    "url": "https://oldweb.today/",
+    "description": "Lets visitors replay archived sites through emulated historical browsers, which is especially useful if you want to show not just old pages but old rendering behavior.",
+    "tag": "web-preservation / browser emulation",
+    "usage": "Best for demonstration and nostalgia; performance and completeness vary by browser-image and archive source.",
+    "category": "Old Web & GeoCities"
+  },
+  {
+    "title": "ProtoWeb",
+    "url": "https://protoweb.org/",
+    "description": "A community-driven service that hosts restored historical internet websites and is designed to demonstrate the early web, including on vintage computers.",
+    "tag": "old-web recreation",
+    "usage": "Hosted reconstructions are restorative rather than always perfectly original, so label it as a recreation/preservation layer.",
+    "category": "Old Web & GeoCities"
+  },
+  {
+    "title": "Cameron’s World",
+    "url": "https://www.cameronsworld.net/",
+    "description": "A collage-style tribute built from GeoCities-era graphics that works as an instant mood-setter for the maximalist, glitter-GIF side of 1990s web memory.",
+    "tag": "GeoCities tribute",
+    "usage": "Best presented as an art project inspired by archives, not as a literal mirror of one site.",
+    "category": "Old Web & GeoCities"
+  },
+  {
+    "title": "Neocities Browse",
+    "url": "https://neocities.org/browse",
+    "description": "The browse view of Neocities surfaces current hand-built personal sites by tags, popularity, and recent activity, making it one of the best “living Web 1.0 revival” directories.",
+    "tag": "old-web revival / community",
+    "usage": "Modern user-created sites vary in quality and appropriateness, so curate specific outbound picks if you want tighter editorial control.",
+    "category": "Communities & Marketplaces"
+  },
+  {
+    "title": "GifCities",
+    "url": "https://gifcities.org/",
+    "description": "Internet Archive’s GeoCities GIF search engine is one of the best resources for authentic-era animated GIFs, buttons, icons, and page chrome.",
+    "tag": "image-gif archives",
+    "usage": "Great for research and inspiration; rights in uploaded graphics still belong to original creators where applicable.",
+    "category": "Old Web & GeoCities"
+  },
+  {
+    "title": "One Terabyte of Kilobyte Age",
+    "url": "https://oneterabyteofkilobyteage.tumblr.com/",
+    "description": "An endlessly fascinating stream of automatically generated screenshots from rescued GeoCities home pages; it is less a search tool and more a pure browse-by-serendipity nostalgia machine.",
+    "tag": "GeoCities research / screenshot archive",
+    "usage": "Best for discovery and ambience rather than targeted lookup.",
+    "category": "Old Web & GeoCities"
+  },
+  {
+    "title": "The Geocities Gallery",
+    "url": "https://geocities.restorativland.org/",
+    "description": "A restorativland project that visually reassembles archived GeoCities sites by neighborhood, making old homepages feel explorable again instead of buried in raw dumps.",
+    "tag": "GeoCities mirror / visualization",
+    "usage": "Includes a content warning; treat it as a restored gallery of archived material.",
+    "category": "Old Web & GeoCities"
+  },
+  {
+    "title": "OoCities",
+    "url": "https://www.oocities.org/",
+    "description": "A long-running GeoCities mirror built from pages saved around the 2009 shutdown, useful when you want direct page-level browsing rather than screenshots or abstract curation.",
+    "tag": "GeoCities mirror",
+    "usage": "Community mirror of historical pages; content quality and copyright status vary page by page.",
+    "category": "Old Web & GeoCities"
+  },
+  {
+    "title": "404PageFound",
+    "url": "https://www.404pagefound.com/",
+    "description": "A directory focused on old websites that are still inexplicably alive and largely unchanged, which makes it excellent for “still online from the 90s” roundups.",
+    "tag": "living relics / web-preservation",
+    "usage": "Because it surfaces live sites, expect occasional breakage, redesigns, or dead links over time.",
+    "category": "Old Web & GeoCities"
+  },
+  {
+    "title": "Wiby",
+    "url": "https://wiby.me/",
+    "description": "A search engine for older-style, lightweight web pages that feels much closer to browsing the small-web/personal-web ecosystem than modern mainstream search.",
+    "tag": "search / old-web discovery",
+    "usage": "Indexing is intentionally selective and low-bloat, so it complements rather than replaces broader archives.",
+    "category": "Old Web & GeoCities"
+  },
+  {
+    "title": "Web Design Museum",
+    "url": "https://www.webdesignmuseum.org/",
+    "description": "A high-value visual archive of thousands of screenshots and videos spanning websites, apps, software, and Flash games from the 1990s onward.",
+    "tag": "design history",
+    "usage": "Best for visual comparison and curation; it documents appearance rather than always providing playable originals.",
+    "category": "Design / Internet History"
+  },
+  {
+    "title": "Version Museum",
+    "url": "https://www.versionmuseum.com/",
+    "description": "A visual history site covering website, OS, app, and game evolution, especially useful for side-by-side “then vs now” storytelling and product-history rabbit holes.",
+    "tag": "design history / timelines",
+    "usage": "Strong for polished retrospectives; use primary archives if you need the actual runnable/original artifact.",
+    "category": "Design / Internet History"
+  },
+  {
+    "title": "WebMuseum",
+    "url": "https://www.ibiblio.org/wm/",
+    "description": "One of the earliest still-live web museums, valuable less as a 1990s *subject* archive than as an actual 1990s web artifact that still smells like the early web.",
+    "tag": "living relic / web history",
+    "usage": "Link it as a surviving early-web example, not as a comprehensive nostalgia portal.",
+    "category": "Design / Internet History"
+  },
+  {
+    "title": "Archive Team",
+    "url": "https://wiki.archiveteam.org/",
+    "description": "The key volunteer collective for emergency preservation of endangered online content; its wiki is useful both as a resource itself and as a map to what communities are trying to save.",
+    "tag": "preservation community",
+    "usage": "More preservation meta-resource than casual nostalgia browse, but essential for credibility and context.",
+    "category": "Communities & Marketplaces"
+  },
+  {
+    "title": "TEXTFILES.COM",
+    "url": "https://textfiles.com/",
+    "description": "A foundational archive of BBS-era and subcultural text material that spills into 1990s online history and early hacker/shareware culture.",
+    "tag": "text archives / proto-web culture",
+    "usage": "Mostly plain-text historical material; ideal for deep-cut internet history pages rather than casual mainstream nostalgia.",
+    "category": "Old Web & GeoCities"
+  },
+  {
+    "title": "BBSLIST.TEXTFILES.COM",
+    "url": "https://bbslist.textfiles.com/",
+    "description": "A historical record of BBS numbers and related information, especially good if you want a “pre-web online culture” branch inside your directory.",
+    "tag": "communities / BBS history",
+    "usage": "Historical reference only; many listed systems are, of course, long gone.",
+    "category": "Old Web & GeoCities"
+  },
+  {
+    "title": "CD.TEXTFILES.COM",
+    "url": "https://cd.textfiles.com/",
+    "description": "“The Past on Plastic” is a strong nostalgia link for shareware-CD culture and the weird abundance of late-90s software distribution.",
+    "tag": "vintage software / CD-ROM archives",
+    "usage": "Best framed as historical software archaeology; content rights vary across discs and programs.",
+    "category": "Software Archives"
+  },
+  {
+    "title": "noclip.website",
+    "url": "https://noclip.website/",
+    "description": "A digital museum of video game levels that lets you freely explore many classic game maps in-browser, exactly the kind of “walk around your memories” experience users love.",
+    "tag": "games / 3D map viewers",
+    "usage": "Viewing-only resource, not a game-download site.",
+    "category": "Games & Emulation"
+  },
+  {
+    "title": "Flashpoint Archive",
+    "url": "https://flashpointarchive.org/",
+    "description": "The most important preservation project for browser games and animations across Flash and many other web technologies, with a huge searchable catalog.",
+    "tag": "games / web preservation",
+    "usage": "The preservation software is legit; rights in the preserved games/animations remain with original creators and rightsholders.",
+    "category": "Games & Emulation"
+  },
+  {
+    "title": "Internet Archive Software Library",
+    "url": "https://archive.org/details/software",
+    "description": "The broadest vintage-software umbrella here, pointing to CD-ROM Software, MS-DOS, Vintage Software, Tucows, Shareware CD-ROMs, and more.",
+    "tag": "software archives",
+    "usage": "Item-level legality and completeness vary because this is a multi-collection platform with mixed uploader sources.",
+    "category": "Software Archives"
+  },
+  {
+    "title": "Internet Arcade",
+    "url": "https://archive.org/details/internetarcade",
+    "description": "Internet Archive’s browser-playable arcade collection, focused on coin-op titles from the 1970s through the 1990s via JSMAME.",
+    "tag": "games / browser emulation",
+    "usage": "Great for in-browser nostalgia; commercial-game rights remain distinct from the preservation layer.",
+    "category": "Games & Emulation"
+  },
+  {
+    "title": "The Emularity / Emulation Station",
+    "url": "https://archive.org/details/emulation",
+    "description": "Browser-based emulation stack that powers huge amounts of playable archival software without requiring plugins or local setup.",
+    "tag": "emulation / archives",
+    "usage": "Treat the emulator framework as infrastructural and verify rights for any specific software you spotlight.",
+    "category": "Games & Emulation"
+  },
+  {
+    "title": "MS-DOS Games on the Internet Archive",
+    "url": "https://archive.org/details/softwarelibrary_msdos_games",
+    "description": "A very practical entry point for 90s PC gaming nostalgia, especially for browser-playable DOS titles across genres.",
+    "tag": "games / software archives",
+    "usage": "Best for educational/preservation framing; some titles may have more robust modern commercial re-releases elsewhere.",
+    "category": "Games & Emulation"
+  },
+  {
+    "title": "The Vintage Software Collection",
+    "url": "https://archive.org/details/vintagesoftware",
+    "description": "Internet Archive’s umbrella collection for preserved historical software efforts; useful as a high-level “browse the whole scene” link.",
+    "tag": "software archives",
+    "usage": "Very broad collection with mixed provenance; use it as a portal rather than a blanket endorsement of every item.",
+    "category": "Software Archives"
+  },
+  {
+    "title": "WinWorld",
+    "url": "https://winworldpc.com/",
+    "description": "One of the strongest software-preservation sites for old Windows, DOS, Macintosh, Amiga, and pre-release software, presented as an online museum.",
+    "tag": "vintage software",
+    "usage": "Community-run abandonware archive; clearly label it as preservation/historical access rather than official vendor distribution.",
+    "category": "Software Archives"
+  },
+  {
+    "title": "Macintosh Garden",
+    "url": "https://macintoshgarden.org/",
+    "description": "Excellent archive for classic Mac OS-era games, apps, guides, and community fixes, and especially useful for educational, shareware, and forgotten Mac titles.",
+    "tag": "vintage software / Mac",
+    "usage": "The site explicitly says it does not claim rights and removes software on request, so present it as a community preservation archive.",
+    "category": "Software Archives"
+  },
+  {
+    "title": "Macintosh Repository",
+    "url": "https://www.macintoshrepository.org/",
+    "description": "A large old-Mac software archive with searchable apps, games, ROM-related materials, and compatibility notes.",
+    "tag": "vintage software / Mac",
+    "usage": "Community archive; always separate the idea of preserving old Mac software from any assumption of unrestricted redistribution rights.",
+    "category": "Software Archives"
+  },
+  {
+    "title": "OldVersion",
+    "url": "https://oldversion.com/",
+    "description": "Great for downloading older versions of mainstream programs, browsers, utilities, and games when the nostalgia target is “the software you used,” not just the hardware.",
+    "tag": "vintage software / versions",
+    "usage": "Independent software archive not endorsed by publishers; use for compatibility/history, not as proof of licensing.",
+    "category": "Software Archives"
+  },
+  {
+    "title": "DOS Games Archive",
+    "url": "https://www.dosgamesarchive.com/",
+    "description": "A clean, modern-feeling catalog for classic DOS games with both download and play-online options.",
+    "tag": "games / DOS",
+    "usage": "Rights status varies by game type and release status; note that individual titles may be freeware, shareware, or full versions.",
+    "category": "Games & Emulation"
+  },
+  {
+    "title": "ClassicReload",
+    "url": "https://classicreload.com/",
+    "description": "A browser-playable abandonware/preservation site that emphasizes quick access to old DOS, Windows, and console-era software.",
+    "tag": "games / browser emulation",
+    "usage": "The site frames itself around preservation and research; still label commercial titles carefully.",
+    "category": "Games & Emulation"
+  },
+  {
+    "title": "My Abandonware",
+    "url": "https://www.myabandonware.com/",
+    "description": "Huge index of old games by platform and year, very useful for rediscovering half-remembered PC titles.",
+    "tag": "games / abandonware",
+    "usage": "The site itself acknowledges legality depends on country and encourages buying official versions first, which makes it a resource to label with caution.",
+    "category": "Games & Emulation"
+  },
+  {
+    "title": "ScummVM",
+    "url": "https://www.scummvm.org/",
+    "description": "One of the best legit tools for replaying classic adventure games and related engines on modern systems, with official compatibility info and some freeware downloads.",
+    "tag": "emulation / tools",
+    "usage": "The interpreter is legal; most commercial game data files still need to be obtained lawfully.",
+    "category": "Games & Emulation"
+  },
+  {
+    "title": "DOSBox",
+    "url": "https://www.dosbox.com/",
+    "description": "The classic MS-DOS emulator, still essential for reliving 1990s PC games and software in a familiar environment.",
+    "tag": "emulation / tools",
+    "usage": "Emulator only; game and software files are separate licensing questions.",
+    "category": "Games & Emulation"
+  },
+  {
+    "title": "MAME",
+    "url": "https://www.mamedev.org/",
+    "description": "A preservation-first emulation framework whose stated purpose is to preserve decades of software history across arcade, console, and computer systems.",
+    "tag": "emulation / preservation",
+    "usage": "MAME does not ship copyrighted machine software/ROM sets with the core project.",
+    "category": "Games & Emulation"
+  },
+  {
+    "title": "RetroArch",
+    "url": "https://www.retroarch.com/",
+    "description": "A polished frontend for many emulators and game engines, useful if you want a single modern entry point for broad retro play.",
+    "tag": "emulation / frontend",
+    "usage": "Frontend only; cores, discs, BIOS files, and game images have separate licenses and legality.",
+    "category": "Games & Emulation"
+  },
+  {
+    "title": "OpenEmu",
+    "url": "https://openemu.org/",
+    "description": "Mac-focused all-in-one retro library frontend that auto-organizes ROM backups with box art, making it one of the friendliest nostalgia tools for Apple users.",
+    "tag": "emulation / frontend",
+    "usage": "Mac-only software; bring-your-own lawful backups.",
+    "category": "Games & Emulation"
+  },
+  {
+    "title": "EmulatorJS",
+    "url": "https://emulatorjs.org/",
+    "description": "Useful less as a destination than as a builder tool if you ever want to embed browser emulation directly into 90s.land or a microsite offshoot.",
+    "tag": "emulation / developer tool",
+    "usage": "Official docs explicitly frame it as an embed tool, not a ROM-distribution site.",
+    "category": "Games & Emulation"
+  },
+  {
+    "title": "Ruffle",
+    "url": "https://ruffle.rs/",
+    "description": "Open-source Flash emulation for restoring old Flash websites and animations in modern browsers without the original Flash Player.",
+    "tag": "web tech / Flash preservation",
+    "usage": "Excellent for preservation-facing embeds; compatibility with specific SWFs can still vary.",
+    "category": "Games & Emulation"
+  },
+  {
+    "title": "VGMaps",
+    "url": "https://www.vgmaps.com/",
+    "description": "A long-running archive of ripped and hand-made video game maps, especially useful for 2D-era console and handheld nostalgia.",
+    "tag": "games / map archive",
+    "usage": "The site explicitly says it does not host commercial ROMs; map art remains the property of original rightsholders.",
+    "category": "Games & Emulation"
+  },
+  {
+    "title": "MobyGames",
+    "url": "https://www.mobygames.com/",
+    "description": "A huge, long-running video game database that works well for box art, credits, release history, platform lookup, and “what was that game called?” moments.",
+    "tag": "games / database",
+    "usage": "Primarily reference and metadata, not a download archive.",
+    "category": "Games & Emulation"
+  },
+  {
+    "title": "Video Game History Foundation Digital Archive",
+    "url": "https://archive.gamehistory.org/",
+    "description": "Searchable digitized collections of magazines, documents, and ephemera, excellent for citation-grade nostalgia research.",
+    "tag": "games / archive",
+    "usage": "Still a work in progress, so use the catalog alongside the digital archive for best coverage.",
+    "category": "Games & Emulation"
+  },
+  {
+    "title": "Video Game History Foundation Library Catalog",
+    "url": "https://library.gamehistory.org/",
+    "description": "The broader catalog for VGHF holdings, including development materials, magazines, artwork, and ephemera beyond what is currently digitized.",
+    "tag": "games / library",
+    "usage": "Some items are cataloged but not fully digitized online yet.",
+    "category": "Games & Emulation"
+  },
+  {
+    "title": "Retromags",
+    "url": "https://www.retromags.com/",
+    "description": "One of the best destinations for preserved video game magazines, strategy guides, and indexed issue metadata across countries and platforms.",
+    "tag": "magazines / games",
+    "usage": "Volunteer-run preservation project; scans and issue access policies vary across titles.",
+    "category": "Games & Emulation"
+  },
+  {
+    "title": "EmuVR",
+    "url": "https://www.emuvr.net/",
+    "description": "Recreates the “90s bedroom with a CRT and stacks of cartridges” fantasy in VR or 2D mode, which makes it unusually effective as an emotional nostalgia device.",
+    "tag": "immersive nostalgia / emulation",
+    "usage": "The project does not provide games; users bring their own legal media/ROM material.",
+    "category": "Games & Emulation"
+  },
+  {
+    "title": "My 90’s TV",
+    "url": "https://90s.myretrotvs.com/",
+    "description": "A nostalgia TV simulator that recreates the feel of 1990s channel surfing with ads, music videos, movie trailers, shows, and news clips.",
+    "tag": "video / interactive recreation",
+    "usage": "Best framed as nostalgia browsing; underlying clip rights remain with original owners.",
+    "category": "TV, Music & Media"
+  },
+  {
+    "title": "RetroJunk",
+    "url": "https://www.retrojunk.com/",
+    "description": "A broad nostalgia site covering commercials, TV, movies, articles, and forums, especially strong for ad breaks, intros, and fan memories.",
+    "tag": "video / community",
+    "usage": "User-uploaded/community material means quality and rights posture vary by clip.",
+    "category": "TV, Music & Media"
+  },
+  {
+    "title": "TV Ark",
+    "url": "https://tvark.org/",
+    "description": "An online TV museum preserving presentation graphics, idents, promos, titles, commercials, and station branding, with exceptional value for broadcast-design nostalgia.",
+    "tag": "TV archives",
+    "usage": "Museum-style archival presentation; rights in clips and images remain separate from the site’s curation.",
+    "category": "TV, Music & Media"
+  },
+  {
+    "title": "TV Brain",
+    "url": "https://www.tvbrain.info/",
+    "description": "A searchable UK television history database covering broadcasts, holdings, and even missing/lost episodes, useful for deeper research rather than casual browsing.",
+    "tag": "TV database",
+    "usage": "Much of the value is metadata and archive knowledge, not open streaming.",
+    "category": "TV, Music & Media"
+  },
+  {
+    "title": "FuzzyMemories",
+    "url": "https://fuzzymemories.tv/",
+    "description": "A beloved archive of vintage local-TV clips, commercials, station IDs, and broadcast fragments, especially strong for Chicago-area memory lanes.",
+    "tag": "local TV / commercials",
+    "usage": "Best used as regional nostalgia and ephemera history; clip availability can fluctuate.",
+    "category": "TV, Music & Media"
+  },
+  {
+    "title": "Paley Archive",
+    "url": "https://www.paleycenter.org/collection-2",
+    "description": "A serious institutional media archive and catalog for TV, radio, and advertising, with over 160,000 programs and ads in its permanent collection.",
+    "tag": "institutional archive",
+    "usage": "The catalog is searchable online, but many recordings are for onsite/library access rather than unrestricted streaming.",
+    "category": "TV, Music & Media"
+  },
+  {
+    "title": "American Archive of Public Broadcasting",
+    "url": "https://americanarchive.org/",
+    "description": "Excellent for historic public TV/radio programming, local history, education, arts, and PBS-adjacent research.",
+    "tag": "institutional archive / video",
+    "usage": "Strong for historically significant public-broadcast content, though not every record is a “90s fun” entry point.",
+    "category": "TV, Music & Media"
+  },
+  {
+    "title": "Internet Archive TV News Archive",
+    "url": "https://archive.org/details/tv",
+    "description": "Searchable archive of U.S. television broadcasts via closed captioning, ideal for recovering period news language, coverage, and broadcast texture.",
+    "tag": "news / video archive",
+    "usage": "Built for research and search, not always the smoothest casual entertainment experience.",
+    "category": "TV, Music & Media"
+  },
+  {
+    "title": "Kid’s Shows on VHS",
+    "url": "https://archive.org/details/vhskids",
+    "description": "A nostalgic Internet Archive collection for VHS-preserved children’s television, especially good for deep-cut 80s/90s tape-era browsing.",
+    "tag": "VHS / video archive",
+    "usage": "Collection contents are user-uploaded archival items, so rights and completeness vary.",
+    "category": "TV, Music & Media"
+  },
+  {
+    "title": "Space Jam 1996",
+    "url": "https://www.spacejam.com/1996/",
+    "description": "The canonical surviving 1990s movie promo site, still online with its original sections, graphics, trivia, and “Jam Central” structure.",
+    "tag": "movie promo / living relic",
+    "usage": "Official relic of a specific film site, so it is perfect as an example entry in a “surviving promo sites” cluster.",
+    "category": "TV, Music & Media"
+  },
+  {
+    "title": "Discogs",
+    "url": "https://www.discogs.com/",
+    "description": "The biggest music database/marketplace combo in this list and one of the best tools for checking 90s releases, formats, pressings, label connections, and collector demand.",
+    "tag": "music / marketplace / database",
+    "usage": "Metadata is excellent, but buying/selling is marketplace-based and seller-dependent.",
+    "category": "TV, Music & Media"
+  },
+  {
+    "title": "MusicBrainz",
+    "url": "https://musicbrainz.org/",
+    "description": "Open music encyclopedia with very strong metadata and a nonprofit/open-data feel that suits archival 90s music research.",
+    "tag": "music / database",
+    "usage": "Metadata resource only; it does not host the recordings themselves.",
+    "category": "TV, Music & Media"
+  },
+  {
+    "title": "Radiooooo",
+    "url": "https://radiooooo.com/",
+    "description": "“The Musical Time Machine” is great for decade-and-country exploration when you want to evoke the sound of a place in the 1990s rather than search one artist at a time.",
+    "tag": "music / interactive exploration",
+    "usage": "Streaming service experience; licensing, skips, and premium features vary by platform/account.",
+    "category": "TV, Music & Media"
+  },
+  {
+    "title": "Live Music Archive",
+    "url": "https://archive.org/details/etree",
+    "description": "Stronger for concert nostalgia than radio nostalgia, but still valuable for reliving live recordings and scene history from the late 1990s onward.",
+    "tag": "music / live archive",
+    "usage": "Mostly artist-permitted live recordings, not a general commercial-album archive.",
+    "category": "TV, Music & Media"
+  },
+  {
+    "title": "Netlabel Archive",
+    "url": "https://netlabelarchive.org/",
+    "description": "Preservation project for web-native music labels and releases, useful if your nostalgia lens includes late-90s/early-2000s internet music culture.",
+    "tag": "music / preservation",
+    "usage": "More niche than Discogs or MusicBrainz, but a strong contextual link for web-era music archaeology.",
+    "category": "TV, Music & Media"
+  },
+  {
+    "title": "Computer History Museum Collections",
+    "url": "https://computerhistory.org/collections/",
+    "description": "A high-authority source for digitized artifacts, documents, source code, and archival materials across computing history.",
+    "tag": "institutional archive / computing",
+    "usage": "More research-oriented than entertainment-oriented, but excellent for credible context pages.",
+    "category": "Software Archives"
+  },
+  {
+    "title": "CHM Software History Center",
+    "url": "https://computerhistory.org/software-history-center/",
+    "description": "Focused specifically on collecting and preserving historical software, archives, and oral histories, which makes it ideal for “why this mattered” editorial sections.",
+    "tag": "software history",
+    "usage": "Reference and interpretation resource, not a casual download site.",
+    "category": "Software Archives"
+  },
+  {
+    "title": "CHM Oral Histories",
+    "url": "https://computerhistory.org/oral-histories/",
+    "description": "Firsthand interviews and demonstrations from computing pioneers, perfect for adding depth around the people behind the tools and sites your audience remembers.",
+    "tag": "oral history / computing",
+    "usage": "Best for research, quotation, and deeper editorial work.",
+    "category": "Software Archives"
+  },
+  {
+    "title": "Software Heritage",
+    "url": "https://www.softwareheritage.org/",
+    "description": "A universal source-code archive with real institutional weight, useful when your nostalgia coverage intersects with preservation of software itself rather than just the UX around it.",
+    "tag": "software preservation",
+    "usage": "Source-code archive, not a consumer-software nostalgia portal.",
+    "category": "Software Archives"
+  },
+  {
+    "title": "VOGONS",
+    "url": "https://www.vogons.org/",
+    "description": "Still one of the best forums for getting old DOS and Windows games working on modern hardware, and a goldmine of compatibility wisdom.",
+    "tag": "community / retro computing",
+    "usage": "Forum advice is excellent but user-generated; verify specific technical steps before republishing them.",
+    "category": "Communities & Marketplaces"
+  },
+  {
+    "title": "AtariAge",
+    "url": "https://www.atariage.com/",
+    "description": "Long-running retro community with news, boards, rarity guides, manuals, pictures, articles, and a game database, especially strong for Atari-era collectors.",
+    "tag": "community / collecting",
+    "usage": "Great community signal; marketplace and hardware details should still be independently verified when high stakes.",
+    "category": "Communities & Marketplaces"
+  },
+  {
+    "title": "Doomworld",
+    "url": "https://www.doomworld.com/",
+    "description": "One of the most important surviving 1990s-born game communities, still central for WADs, mods, mapping, and Doom culture.",
+    "tag": "community / games",
+    "usage": "Best for community, history, and file discovery; mod legality depends on the underlying assets and engines involved.",
+    "category": "Communities & Marketplaces"
+  },
+  {
+    "title": "r/90s",
+    "url": "https://www.reddit.com/r/90s/",
+    "description": "Active mainstream nostalgia community dedicated specifically to the decade, useful for idea mining and current audience pulse.",
+    "tag": "community",
+    "usage": "User-generated discussion, so it is great for trends and memory prompts but not authoritative fact by itself.",
+    "category": "Communities & Marketplaces"
+  },
+  {
+    "title": "r/nostalgia",
+    "url": "https://www.reddit.com/r/nostalgia/",
+    "description": "Broader nostalgia community that frequently surfaces defunct websites, commercials, toys, and tech memories from the 1990s.",
+    "tag": "community",
+    "usage": "Treat as community texture and discovery, not primary evidence.",
+    "category": "Communities & Marketplaces"
+  },
+  {
+    "title": "r/retrogaming",
+    "url": "https://www.reddit.com/r/retrogaming/",
+    "description": "A large community for vintage gaming with a strong CRT, hardware, collecting, and authenticity bent.",
+    "tag": "community / games",
+    "usage": "High signal for enthusiast questions, but still forum-style advice rather than curated documentation.",
+    "category": "Communities & Marketplaces"
+  },
+  {
+    "title": "r/oldinternet",
+    "url": "https://www.reddit.com/r/oldinternet/",
+    "description": "Small but useful community centered on old forums, defunct sites, internet culture, and the social texture of earlier online life.",
+    "tag": "community / old web",
+    "usage": "Best for discovery and conversation; archive claims still need verification.",
+    "category": "Communities & Marketplaces"
+  },
+  {
+    "title": "eBay Nostalgia Toy Box",
+    "url": "https://www.ebay.com/b/Nostalgia-Toy-Box-Collectors-Hobbyists-Toys-Hobbies/220/bn_80737684",
+    "description": "A practical outbound link when your visitors want to turn memory into collecting, especially for toys and hobby items.",
+    "tag": "marketplace",
+    "usage": "Listings are seller-generated; authenticity, condition, and pricing vary widely.",
+    "category": "Communities & Marketplaces"
+  },
+  {
+    "title": "Etsy Vintage Marketplace",
+    "url": "https://www.etsy.com/market/vintage_marketplace",
+    "description": "Good for 90s décor, handmade tributes, repurposed ephemera, and smaller-scale collectible finds that feel more curated than auction-market hunting.",
+    "tag": "marketplace",
+    "usage": "Item quality and originality depend on individual sellers; “vintage-inspired” and actually vintage are not the same thing.",
+    "category": "Communities & Marketplaces"
+  },
+  {
+    "title": "ShopGoodwill",
+    "url": "https://shopgoodwill.com/",
+    "description": "Online thrift marketplace with enough vintage electronics, media, and oddball household nostalgia to justify inclusion.",
+    "tag": "marketplace",
+    "usage": "Auction inventory is highly variable and condition descriptions can be sparse, so buy-side caution matters.",
+    "category": "Communities & Marketplaces"
+  },
+  {
+    "title": "Mercari",
+    "url": "https://www.mercari.com/",
+    "description": "Useful consumer marketplace for secondhand collectibles, electronics, games, books, and nostalgia-adjacent odds and ends.",
+    "tag": "marketplace",
+    "usage": "Seller-generated marketplace; verify authenticity and shipped condition.",
+    "category": "Communities & Marketplaces"
+  },
+  {
+    "title": "Reverb",
+    "url": "https://reverb.com/",
+    "description": "If your 90s nostalgia coverage extends into instruments, samplers, pedals, and production gear, Reverb is the best dedicated marketplace in this list.",
+    "tag": "marketplace / music gear",
+    "usage": "Marketplace protections exist, but vintage-gear condition and originality should still be scrutinized closely.",
+    "category": "Communities & Marketplaces"
+  }
+]
