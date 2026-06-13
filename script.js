@@ -1,16 +1,16 @@
 const years = {
   1990: {
     title: "1990: The decade boots up",
-    summary: "The 90s begins as an analog decade with a digital future quietly warming up in the background.",
+    summary: "The 90s begins as an analog-to-digital runway where glossy late-80s culture, stranger TV, friendlier PCs, and the early web overlap for a second.",
     categories: {
-      "Music": ["Madchester, house, hip-hop, pop, and alt-rock all keep mutating into scenes that will define the decade.", "CD collections start feeling like personal identity shelves, not just music storage."],
-      "Games": ["Super Famicom/SNES arrives in Japan, setting up the 16-bit living-room rivalry.", "Arcades are still loud public places where graphics feel ahead of home machines."],
-      "Tech / Internet": ["Tim Berners-Lee's World Wide Web work at CERN moves from proposal toward working system.", "Most home computing still means beige boxes, floppy disks, and command-line anxiety for normal people."],
-      "Screens": ["Twin Peaks makes broadcast TV feel stranger and more cinematic.", "Home video culture keeps weekend movie discovery centered around rental shelves."],
-      "Culture / Everyday": ["Pagers, malls, print magazines, and cable TV shape youth culture before phones become portable internet machines.", "The decade's look is still partly late-80s neon, but grunge and minimalism are waiting offstage."]
+      "Music": ["Wilson Phillips, Roxette, Mariah, Madonna, and Bell Biv DeVoe show how polished pop, ballads, and new jack swing shared the same radio universe.", "The charts still sound more late-80s than late-90s, which makes 1990 a perfect hinge-year for tracking what changes next."],
+      "Games": ["Super Famicom launches in Japan and starts the 16-bit chapter in earnest.", "Arcades are still loud public places where fighting games, racers, and high-score rituals feel more futuristic than many living rooms."],
+      "Tech / Internet": ["Windows 3.0 makes beige PCs feel more visual and less intimidating.", "Tim Berners-Lee pushes the web from proposal toward working browser/server reality, even though normal users still have no idea what's coming."],
+      "Screens": ["Twin Peaks makes broadcast TV feel stranger, moodier, and more obsessively discussable.", "Fresh Prince, Ghost, Goodfellas, and Home Alone show how wide the era's screen culture could be all at once."],
+      "Culture / Everyday": ["Mandela's release, German reunification, and Hubble all make 1990 feel globally important beyond nostalgia objects alone.", "Pagers, malls, magazines, cassettes, and rental aisles still organize daily life before the web reaches ordinary people."]
     },
-    artifact: "A labeled VHS tape, a Maxell cassette, and a computer magazine promising the future.",
-    vibe: "You are labeling VHS tapes with masking tape and feeling like the future is hidden inside beige computers."
+    artifact: "A Windows 3.0 box, a VHS tape with commercials, and a radio chart scribbled on notebook paper.",
+    vibe: "The future is real, but it still sounds like mall radio and arrives in beige plastic."
   },
   1991: {
     title: "1991: Nevermind the old rules",
