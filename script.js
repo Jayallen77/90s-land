@@ -416,7 +416,55 @@ const realtime90sData = {
   1992: { music: "The Chronic, TLC, Whitney, rave flyers, and video-era pop stretch the sound.", screens: "Cartoon Network and Batman TAS sharpen cable/kid culture.", games: "Mortal Kombat makes arcade controversy a schoolyard topic.", tech: "Windows 3.1 and online services make home computing friendlier.", world: "Barcelona and the Dream Team turn global TV into a shared stage.", artifact: "A Mortal Kombat cabinet glowing near the food court." },
   1993: { music: "Whitney, Wu-Tang, Janet, and radio dance hits share the dial.", screens: "Jurassic Park and X-Files make screens feel like portals.", games: "Doom and Myst make PCs feel mysterious, dangerous, and cool.", tech: "Mosaic gives the web a front door normal people can imagine.", world: "Computer labs, CD-ROMs, and campus networks start leaking into daily life.", artifact: "A Doom shareware disk beside a gray browser toolbar." },
   1994: { music: "Dookie, Illmatic, Biggie, Ace of Base, and soundtracks fight for attention.", screens: "Friends and Pulp Fiction reshape TV hangouts and movie cool.", games: "PlayStation launches in Japan while Donkey Kong Country flexes SNES polish.", tech: "Yahoo and Netscape make the hand-built web easier to enter.", world: "Homepages and directories turn the internet into a place with signs.", artifact: "A visitor counter under a tiled homepage background." },
-  1995: { music: "TLC, Alanis, Coolio, Seal, and blockbuster CDs dominate the year.", screens: "Toy Story, Batman Forever, ER, Friends, and cable blocks define shared viewing.", games: "PlayStation, Warcraft II, and Command & Conquer pull gaming forward.", tech: "Windows 95, Amazon, eBay, and AOL discs make online life feel mainstream-adjacent.", world: "The future becomes installable, clickable, and sold in a box.", artifact: "An AOL trial CD next to a Windows 95 box." },
+  1995: {
+    music: "TLC, Alanis, Coolio, Seal, and blockbuster CDs make the year sound huge, glossy, and a little overdramatic in the best way.",
+    screens: "Toy Story, Batman Forever, ER, Friends, and cable blocks define shared viewing while CGI starts feeling normal.",
+    games: "PlayStation, Warcraft II, and Command & Conquer make 1995 feel like the year games split into cooler consoles and deeper PC strategy worlds.",
+    tech: "Windows 95, Netscape, Amazon, eBay, and AOL discs make online life feel mainstream-adjacent instead of purely nerdy.",
+    world: "The future becomes installable, clickable, and sold in a box.",
+    artifact: "An AOL trial CD next to a Windows 95 box and a first printed web order receipt.",
+    months: {
+      august: {
+        anchor: 'month-aug',
+        ctaLabel: 'Open August 1995',
+        highlights: ['August 1995', 'Netscape IPO', 'Windows 95'],
+        cards: [
+          ['Music', 'Coolio, TLC, Seal, and Alanis are all part of the same glossy late-summer radio weather.'],
+          ['Tech / Web', 'Netscape goes public on August 9, then Windows 95 hits retail on August 24 — the browser and the family PC both suddenly feel like pop culture.'],
+          ['Games', 'The console future is almost here and magazine previews make fall hardware feel mythic before it even lands.'],
+          ['Movies / TV', 'Summer-blockbuster season keeps the mall and multiplex tied together while the computer aisle starts stealing some of that excitement.'],
+          ['Why it matters', 'August 1995 is the exact month where “using a computer” starts turning into “joining the future.”'],
+          ['Random artifact', 'A Windows 95 shopping bag slumped next to a stack of AOL starter discs.']
+        ]
+      },
+      september: {
+        anchor: 'month-sep',
+        ctaLabel: 'Open September 1995',
+        highlights: ['September 1995', 'PlayStation', 'eBay'],
+        cards: [
+          ['Music', 'Back-to-school 1995 still sounds like giant R&B hooks, soundtrack singles, and jewel cases rattling in backpacks.'],
+          ['Games', 'Sony releases the PlayStation in North America on September 9 and the whole console mood gets cooler, sleeker, and more polygonal.'],
+          ['Tech / Web', 'eBay is founded in September, which quietly says the web might become a marketplace as much as a library.'],
+          ['Movies / TV', 'School-night TV and weekend rentals still own the routine even as the computer starts getting a piece of your attention.'],
+          ['Why it matters', 'September is where 1995 stops being “new software year” and becomes a whole new consumer-internet lifestyle.'],
+          ['Random artifact', 'A longbox PlayStation game resting on top of a computer-magazine subscription card.']
+        ]
+      },
+      november: {
+        anchor: 'month-nov',
+        ctaLabel: 'Open November 1995',
+        highlights: ['November 1995', 'Toy Story', 'holiday future'],
+        cards: [
+          ['Music', 'Holiday-season radio is already stacking ballads, soundtrack cuts, and mall-loop comfort food for long shopping nights.'],
+          ['Movies / TV', 'Toy Story lands on November 22 and makes computer animation feel warm, emotional, and mainstream all at once.'],
+          ['Games', 'Wish-list season is in full effect: PlayStation hardware, strategy games, and glossy PC boxes all look like portal objects.'],
+          ['Tech / Web', 'Online shopping still feels experimental, but suddenly it is part of the same holiday imagination as toys and software.'],
+          ['Why it matters', 'November 1995 is when the future stops looking cold and starts looking friendly enough to wrap and put under a tree.'],
+          ['Random artifact', 'A Toy Story ticket stub tucked into a folded Toys “R” Us circular.']
+        ]
+      }
+    }
+  },
   1996: {
     music: "Macarena, Fugees, Tupac, Mariah, and ska/alt-pop all crowd the air.",
     screens: "Summer blockbusters, cable glow, and Scream-at-the-end-of-the-year self-awareness make the year hyper-quotable.",
