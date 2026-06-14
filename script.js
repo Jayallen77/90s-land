@@ -440,8 +440,104 @@ const realtime90sData = {
       }
     }
   },
-  1997: { music: "Biggie, Jewel, Spice Girls, Radiohead, and Puff Daddy mark the radio split-screen.", screens: "Titanic and Buffy make the year cinematic and mythic.", games: "Final Fantasy VII and GoldenEye turn living rooms into emotional/competitive arenas.", tech: "AIM and DVD make identity and media feel more portable.", world: "Collector mania and screen names turn selfhood into something you manage.", artifact: "An AIM buddy list beside a PlayStation memory card." },
-  1998: { music: "Lauryn Hill, Brandy/Monica, TRL, MP3s, and pop crossover define the room.", screens: "Dawson’s Creek, Saving Private Ryan, Truman Show, and cable chatter carry the year.", games: "Ocarina, Half-Life, StarCraft, Metal Gear, and Pokémon make 1998 stacked.", tech: "Google and the iMac make the web easier to search and the computer easier to love.", world: "Translucent plastic, slime, link cables, and strategy guides make the future tactile.", artifact: "A Bondi blue iMac beside a Furby box." },
+  1997: {
+    music: "Biggie, Jewel, Spice Girls, Radiohead, and Puff Daddy mark the radio split-screen.",
+    screens: "Titanic, Men in Black, Buffy, and South Park make the year cinematic and mythic.",
+    games: "Final Fantasy VII and GoldenEye turn living rooms into emotional and competitive arenas.",
+    tech: "AIM and DVD talk make identity and media feel more portable.",
+    world: "Collector mania and screen names turn selfhood into something you manage.",
+    artifact: "An AIM buddy list beside a PlayStation memory card.",
+    months: {
+      june: {
+        anchor: 'month-jun',
+        ctaLabel: 'Open June 1997',
+        highlights: ['June 1997', 'collector summer', 'bookstore buzz'],
+        cards: [
+          ['Music', 'Jewel, Puff Daddy, Toni Braxton, Spice Girls, and radio-ballad comfort make June 1997 feel glossy and emotionally overclocked.'],
+          ['Movies / TV', 'Summer hype is building before Men in Black fully owns the multiplex and Buffy fandom starts spreading between episodes.'],
+          ['Games', 'Final Fantasy VII is already legend material and PlayStation culture is becoming its own language.'],
+          ['Tech / Web', 'AIM-era social habits are taking shape while the handmade web still feels small enough to wander.'],
+          ['Why it matters', 'June 1997 is a perfect hinge: collector panic, fandom sorting, and blockbuster energy all warming up at once.'],
+          ['Random artifact', 'A mall bookstore receipt tucked into a Beanie Baby tag protector.']
+        ]
+      },
+      july: {
+        anchor: 'month-jul',
+        ctaLabel: 'Open July 1997',
+        highlights: ['July 1997', 'Men in Black', 'summer cool'],
+        cards: [
+          ['Music', 'Return of the Mack, Spice Girls hooks, and soundtrack-era radio keep the whole month feeling sleek and public.'],
+          ['Movies / TV', 'Men in Black gives July 1997 its exact temperature: chrome sunglasses, weird bureaucracy, and giant repeat-watch energy.'],
+          ['Games', 'PlayStation and N64 both feel essential now — one for cinematic obsession, one for couch bragging rights.'],
+          ['Tech / Web', 'AIM and fan pages are making pop culture follow you home instead of ending at the theater exit.'],
+          ['Why it matters', 'July is where 1997 stops being abstract and turns into a fully shareable friend-sendable route.'],
+          ['Random artifact', 'A Men in Black ticket stub next to a folded AOL signup insert.']
+        ]
+      },
+      august: {
+        anchor: 'month-aug',
+        ctaLabel: 'Open August 1997',
+        highlights: ['August 1997', 'South Park', 'tabloid grief'],
+        cards: [
+          ['Music', 'The radio is still glossy, but public emotion gets heavier by month-end and the year starts sounding different.'],
+          ['Movies / TV', 'South Park debuts on August 13 and instantly announces a harsher, stranger cable mood.'],
+          ['Games', 'Late-summer anticipation for GoldenEye and fall releases makes magazine culture feel electric.'],
+          ['Tech / Web', 'Buddy-list culture is ready to absorb every shock, rumor, joke, and tabloid update in real time.'],
+          ['Why it matters', 'August 1997 is a weirdly honest snapshot of the decade: crude comedy, giant mourning, and hyper-connected chatter in one month.'],
+          ['Random artifact', 'A Comedy Central promo blurb clipped next to a supermarket tabloid cover.']
+        ]
+      }
+    }
+  },
+  1998: {
+    music: "Lauryn Hill, Brandy/Monica, TRL, MP3s, and pop crossover define the room.",
+    screens: "Dawson’s Creek, Saving Private Ryan, Truman Show, and cable chatter carry the year.",
+    games: "Ocarina, Half-Life, StarCraft, Metal Gear, and Pokémon make 1998 stacked.",
+    tech: "Google and the iMac make the web easier to search and the computer easier to love.",
+    world: "Translucent plastic, slime, link cables, and strategy guides make the future tactile.",
+    artifact: "A Bondi blue iMac beside a Furby box.",
+    months: {
+      july: {
+        anchor: 'month-jul',
+        ctaLabel: 'Open July 1998',
+        highlights: ['July 1998', 'Pokémon summer', 'link cables'],
+        cards: [
+          ['Music', 'Summer countdown radio and mall-store singles make July 1998 feel sugary and everywhere.'],
+          ['Games', 'Pokémon becomes a social system: trades, rumors, batteries dying at the worst possible moment, and lunch-table bragging rights.'],
+          ['Tech / Web', 'The internet still feels roomy enough that guides, cheats, and fan pages are part of how kids learn the game.'],
+          ['Movies / TV', 'Summer marketing makes toys, TV, movies, and games feel like one giant shared ad campaign.'],
+          ['Why it matters', 'July 1998 is the exact point where kid internet, handheld gaming, and mall culture lock together.'],
+          ['Random artifact', 'A Game Boy link cable tangled under a TV Guide.']
+        ]
+      },
+      september: {
+        anchor: 'month-sep',
+        ctaLabel: 'Open September 1998',
+        highlights: ['September 1998', 'TRL', 'after-school ritual'],
+        cards: [
+          ['Music', 'TRL turns after-school music fandom into a daily public sport with screams, rankings, and instant arguments.'],
+          ['Movies / TV', 'Teen drama and music TV now feed each other constantly — songs, looks, and attitudes travel as a bundle.'],
+          ['Games', 'Strategy guides and magazine hype keep the fall lineup feeling mythic before the holidays even land.'],
+          ['Tech / Web', 'The web is becoming less directory-driven and more update-driven, but still handmade enough to feel fun.'],
+          ['Why it matters', 'September 1998 is when late-90s pop starts behaving like a real-time interface.'],
+          ['Random artifact', 'A handwritten TRL ranking list on the back of homework.']
+        ]
+      },
+      november: {
+        anchor: 'month-nov',
+        ctaLabel: 'Open November 1998',
+        highlights: ['November 1998', 'Ocarina', 'holiday myth'],
+        cards: [
+          ['Music', 'Holiday-season radio smoothness sits right next to peak game-store obsession, which is the whole late-90s mood in miniature.'],
+          ['Games', 'Ocarina of Time lands and instantly turns guidebooks, secrets, and N64 time into sacred routine.'],
+          ['Tech / Web', 'Search, cheats, and early fan pages become part of the same discovery loop.'],
+          ['Movies / TV', 'Prestige movies and kid hype coexist without conflict — you can feel the decade widening.'],
+          ['Why it matters', 'November 1998 is the “open this now” route for anyone whose nostalgia is game-store carpet plus glossy late-90s screens.'],
+          ['Random artifact', 'A bent-corner Ocarina strategy guide beside a translucent controller.']
+        ]
+      }
+    }
+  },
   1999: { music: "Napster, teen pop, nu-metal, hip-hop, R&B, and burned CDs collide.", screens: "The Matrix, SpongeBob, Blair Witch, and Y2K news make reality feel unstable.", games: "Dreamcast and Tony Hawk bring modems, style, and soundtrack identity to the edge.", tech: "Dot-com energy and Y2K anxiety make computers headline news.", world: "The decade ends like a countdown clock with a modem sound underneath.", artifact: "A burned CD labeled in Sharpie beside a Y2K chain email." }
 };
 
