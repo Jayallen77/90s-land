@@ -417,7 +417,29 @@ const realtime90sData = {
   1993: { music: "Whitney, Wu-Tang, Janet, and radio dance hits share the dial.", screens: "Jurassic Park and X-Files make screens feel like portals.", games: "Doom and Myst make PCs feel mysterious, dangerous, and cool.", tech: "Mosaic gives the web a front door normal people can imagine.", world: "Computer labs, CD-ROMs, and campus networks start leaking into daily life.", artifact: "A Doom shareware disk beside a gray browser toolbar." },
   1994: { music: "Dookie, Illmatic, Biggie, Ace of Base, and soundtracks fight for attention.", screens: "Friends and Pulp Fiction reshape TV hangouts and movie cool.", games: "PlayStation launches in Japan while Donkey Kong Country flexes SNES polish.", tech: "Yahoo and Netscape make the hand-built web easier to enter.", world: "Homepages and directories turn the internet into a place with signs.", artifact: "A visitor counter under a tiled homepage background." },
   1995: { music: "TLC, Alanis, Coolio, Seal, and blockbuster CDs dominate the year.", screens: "Toy Story, Batman Forever, ER, Friends, and cable blocks define shared viewing.", games: "PlayStation, Warcraft II, and Command & Conquer pull gaming forward.", tech: "Windows 95, Amazon, eBay, and AOL discs make online life feel mainstream-adjacent.", world: "The future becomes installable, clickable, and sold in a box.", artifact: "An AOL trial CD next to a Windows 95 box." },
-  1996: { music: "Macarena, Fugees, Tupac, Mariah, and ska/alt-pop all crowd the air.", screens: "Space Jam, Scream, cable blocks, and teen horror make the year hyper-quotable.", games: "Pokémon starts in Japan and Nintendo 64 turns analog-stick 3D into a ritual.", tech: "GeoCities, ICQ, counters, and guestbooks make the web feel social and handmade.", world: "Collecting culture explodes: pocket monsters, Beanie Babies, digital pets, and web stats.", artifact: "A guestbook entry next to an N64 controller and a digital pet." },
+  1996: {
+    music: "Macarena, Fugees, Tupac, Mariah, and ska/alt-pop all crowd the air.",
+    screens: "Summer blockbusters, cable glow, and Scream-at-the-end-of-the-year self-awareness make the year hyper-quotable.",
+    games: "Pokémon starts in Japan and Nintendo 64 turns analog-stick 3D into a ritual.",
+    tech: "GeoCities, counters, guestbooks, and early messaging make the web feel social and handmade.",
+    world: "Collecting culture explodes: pocket monsters, Beanie Babies, digital pets, and web stats.",
+    artifact: "A guestbook entry next to an N64 controller and a digital pet.",
+    months: {
+      june: {
+        anchor: 'month-jun',
+        ctaLabel: 'Open June 1996',
+        highlights: ['June 1996', 'E3 hype', 'summer radio'],
+        cards: [
+          ['Music', 'Macarena, Mariah, Tracy Chapman, and soundtrack-season radio make June 1996 feel sunny, crowded, and impossible to escape.'],
+          ['Games', 'E3 1996 and Super Mario 64 screenshots turn the Nintendo 64 into the summer obsession before the U.S. launch even happens.'],
+          ['Tech / Web', 'GeoCities pages, guestbooks, and counters are becoming the handmade backdrop for the same kids reading game magazines and chart pages.'],
+          ['Movies / TV', 'Twister-sized blockbuster season and cable reruns keep shared-screen culture loud before the web becomes the main entertainment layer.'],
+          ['Why it matters', 'June is where 1996 stops feeling like a generic middle year and starts feeling collectible: mall heat, game hype, and social-web texture in one month.'],
+          ['Random artifact', 'A folded game-magazine preview of Mario 64 sitting next to a scribbled summer radio countdown.']
+        ]
+      }
+    }
+  },
   1997: { music: "Biggie, Jewel, Spice Girls, Radiohead, and Puff Daddy mark the radio split-screen.", screens: "Titanic and Buffy make the year cinematic and mythic.", games: "Final Fantasy VII and GoldenEye turn living rooms into emotional/competitive arenas.", tech: "AIM and DVD make identity and media feel more portable.", world: "Collector mania and screen names turn selfhood into something you manage.", artifact: "An AIM buddy list beside a PlayStation memory card." },
   1998: { music: "Lauryn Hill, Brandy/Monica, TRL, MP3s, and pop crossover define the room.", screens: "Dawson’s Creek, Saving Private Ryan, Truman Show, and cable chatter carry the year.", games: "Ocarina, Half-Life, StarCraft, Metal Gear, and Pokémon make 1998 stacked.", tech: "Google and the iMac make the web easier to search and the computer easier to love.", world: "Translucent plastic, slime, link cables, and strategy guides make the future tactile.", artifact: "A Bondi blue iMac beside a Furby box." },
   1999: { music: "Napster, teen pop, nu-metal, hip-hop, R&B, and burned CDs collide.", screens: "The Matrix, SpongeBob, Blair Witch, and Y2K news make reality feel unstable.", games: "Dreamcast and Tony Hawk bring modems, style, and soundtrack identity to the edge.", tech: "Dot-com energy and Y2K anxiety make computers headline news.", world: "The decade ends like a countdown clock with a modem sound underneath.", artifact: "A burned CD labeled in Sharpie beside a Y2K chain email." }
@@ -431,16 +453,25 @@ function renderThisMonth90s() {
   if (mappedYear < 1990) mappedYear = 1990;
   if (mappedYear > 1999) mappedYear = 1999;
   const monthName = now.toLocaleString('en-US', { month: 'long' });
+  const monthKey = monthName.toLowerCase();
   const data = realtime90sData[mappedYear] || realtime90sData[1996];
+  const monthFocus = data.months?.[monthKey];
   const title = document.querySelector('#thisMonthTitle');
   const subtitle = document.querySelector('#thisMonthSubtitle');
   const cta = document.querySelector('#thisMonthCta');
   const grid = document.querySelector('#thisMonthGrid');
-  title.textContent = `This Month in ${mappedYear}`;
-  subtitle.textContent = `Following the 90s in real time, 30 years later — ${monthName} ${mappedYear}.`;
-  cta.href = `/timeline/${mappedYear}/`;
-  cta.textContent = `Open the full ${mappedYear} capsule`;
-  const cards = [
+  const highlights = document.querySelector('#thisMonthHighlights');
+  title.textContent = `This Month in ${monthName} ${mappedYear}`;
+  subtitle.textContent = monthFocus
+    ? `Following the 90s in real time, 30 years later — a month-specific rabbit hole for ${monthName} ${mappedYear}.`
+    : `Following the 90s in real time, 30 years later — ${monthName} ${mappedYear}.`;
+  cta.href = monthFocus?.anchor ? `/timeline/${mappedYear}/#${monthFocus.anchor}` : `/timeline/${mappedYear}/`;
+  cta.textContent = monthFocus?.ctaLabel || `Open the full ${mappedYear} capsule`;
+  if (highlights) {
+    const badgeList = monthFocus?.highlights || [monthName + ' ' + mappedYear, '30 years later', 'open the capsule'];
+    highlights.innerHTML = badgeList.map(item => `<span>${item}</span>`).join('');
+  }
+  const cards = monthFocus?.cards || [
     ['Music', data.music], ['Movies / TV', data.screens], ['Games', data.games],
     ['Tech / Web', data.tech], ['World / Culture', data.world], ['Random artifact', data.artifact]
   ];
