@@ -409,6 +409,51 @@ if (resourceGrid) {
   updateResourceDirectory();
 }
 
+// Site-wide portal search
+const siteSearchGrid = document.querySelector('#siteSearchGrid');
+const siteSearchInput = document.querySelector('#siteSearchInput');
+const siteSearchCount = document.querySelector('#siteSearchCount');
+const siteSearchNoResults = document.querySelector('#siteSearchNoResults');
+const siteSearchFilters = document.querySelectorAll('[data-site-filter]');
+let activeSiteFilter = 'all';
+
+function updateSiteSearch() {
+  if (!siteSearchGrid) return;
+  const cards = Array.from(siteSearchGrid.querySelectorAll('.site-search-card'));
+  const query = (siteSearchInput?.value || '').trim().toLowerCase();
+  let visible = 0;
+  cards.forEach(card => {
+    const matchesFilter = activeSiteFilter === 'all' || card.dataset.searchCategory === activeSiteFilter;
+    const haystack = `${card.textContent} ${card.dataset.title || ''} ${card.dataset.tags || ''}`.toLowerCase();
+    const matchesSearch = !query || haystack.includes(query);
+    const show = matchesFilter && matchesSearch;
+    card.classList.toggle('is-hidden', !show);
+    if (show) visible += 1;
+  });
+  if (siteSearchCount) siteSearchCount.textContent = `Showing ${visible} route${visible === 1 ? '' : 's'}.`;
+  if (siteSearchNoResults) siteSearchNoResults.hidden = visible !== 0;
+}
+
+if (siteSearchGrid) {
+  const params = new URLSearchParams(window.location.search);
+  const initialFilter = params.get('filter');
+  const initialQuery = params.get('q');
+  if (initialQuery && siteSearchInput) siteSearchInput.value = initialQuery;
+  if (initialFilter && Array.from(siteSearchFilters).some(button => button.dataset.siteFilter === initialFilter)) {
+    activeSiteFilter = initialFilter;
+  }
+  siteSearchFilters.forEach(button => {
+    button.classList.toggle('active', button.dataset.siteFilter === activeSiteFilter);
+    button.addEventListener('click', () => {
+      activeSiteFilter = button.dataset.siteFilter || 'all';
+      siteSearchFilters.forEach(btn => btn.classList.toggle('active', btn === button));
+      updateSiteSearch();
+    });
+  });
+  siteSearchInput?.addEventListener('input', updateSiteSearch);
+  updateSiteSearch();
+}
+
 
 const realtime90sData = {
   1990: { music: "Wilson Phillips, Madonna, Mariah, and new jack swing keep radio glossy.", screens: "Twin Peaks, Fresh Prince, Ghost, Goodfellas, and Home Alone define the first folder.", games: "Arcades still rule while Super Famicom points toward 16-bit living rooms.", tech: "Windows 3.0 and the earliest working web pieces make beige computers feel less beige.", world: "Mandela, Hubble, and German reunification make the year feel bigger than nostalgia.", artifact: "A Windows 3.0 box with a mall-radio cassette nearby." },

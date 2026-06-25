@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Search 90s.land by year, zone, route, and nostalgia rabbit hole." />
+  <title>90s.land — Portal search</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <div class="crt" aria-hidden="true"></div>
+  <div class="starfield" aria-hidden="true"></div>
+  <header class="topbar" id="top">
+    <a class="brand" href="/" aria-label="90s.land home"><span class="logo-box">90s</span><span>.land</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="siteNav">☰ Menu</button>
+    <nav class="nav" id="siteNav" aria-label="Retro portal navigation">
+      <a href="/timeline/">Timeline</a>
+      <a href="/zones/internet-culture/">Internet Culture</a>
+      <a href="/zones/music/">Music</a>
+      <a href="/zones/games/">Games</a>
+      <a href="/zones/tv-movies/">TV/Movies</a>
+      <a href="/zones/tech-toys/">Tech/Toys</a>
+      <a href="/zones/fashion/">Fashion</a>
+      <a href="/webring/">Explore</a>
+      <a href="/search/">Search</a>
+      <a href="/sitemap/">Sitemap</a>
+      <a href="/guestbook/">Guestbook</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="window page-hero">
+      <div class="window-bar"><span>PORTAL_FINDER.EXE</span><span class="window-buttons">_ □ ×</span></div>
+      <div class="page-pad">
+        <nav class="breadcrumbs"><a href="/">Home</a> / Portal Search</nav>
+        <p class="eyebrow">Navigation utility // site-wide route finder</p>
+        <h1>Find the right rabbit hole fast.</h1>
+        <p class="lede">90s.land is finally big enough to need a proper portal finder. Search years, zones, media routes, community pages, and curated jump-offs without guessing which folder hides the good stuff.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#finder">Search the portal</a>
+          <a class="button" href="/sitemap/">Open sitemap</a>
+          <a class="button" href="/webring/">Browse Explore</a>
+        </div>
+        <div class="highlight-strip">
+          <span>10 year capsules</span>
+          <span>6 portal zones</span>
+          <span>community + search tools</span>
+          <span>handpicked deep links</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel resource-console" id="finder" aria-label="Portal search controls">
+      <div class="resource-console-grid">
+        <div>
+          <p class="eyebrow">Search the museum</p>
+          <h2>Portal finder</h2>
+          <p>Type a vibe, object, show, artist, year, or route name: <i>pokemon</i>, <i>x-files</i>, <i>mall</i>, <i>mixtape</i>, <i>guestbook</i>, <i>geocities</i>, <i>1997</i>.</p>
+        </div>
+        <div class="resource-search-wrap">
+          <label for="siteSearchInput">Search routes</label>
+          <input id="siteSearchInput" type="search" placeholder="try: AOL, Jurassic Park, Blockbuster, Pokémon, TRL..." autocomplete="off" />
+        </div>
+      </div>
+      <div class="site-filter-row" aria-label="Filter portal routes">
+        <button class="resource-filter active" data-site-filter="all">All <span>29</span></button>
+        <button class="resource-filter" data-site-filter="highlights">Highlights <span>5</span></button>
+        <button class="resource-filter" data-site-filter="years">Years <span>10</span></button>
+        <button class="resource-filter" data-site-filter="zones">Zones <span>6</span></button>
+        <button class="resource-filter" data-site-filter="community">Community <span>2</span></button>
+        <button class="resource-filter" data-site-filter="explore">Explore tools <span>6</span></button>
+      </div>
+      <p class="resource-jumps">Tip: if you do not know where to start, filter to <b>Highlights</b> and open one route that feels instantly personal.</p>
+    </section>
+
+    <section class="panel resource-directory">
+      <p class="eyebrow">Results</p>
+      <h2>Portal routes</h2>
+      <p class="resource-count" id="siteSearchCount">Showing 29 routes.</p>
+      <div class="chart-year-grid site-search-grid" id="siteSearchGrid">
+        <a class="chart-year-card ready site-search-card" href="/timeline/1993/#month-sep" data-search-category="highlights" data-title="1993 browser dawn x-files myst doom jurassic park mosaic" data-tags="web dawn aliens cd-rom september computer lab weird tv">
+          <span>HIGHLIGHT</span>
+          <h3>1993: Browser dawn + paranoia-TV night</h3>
+          <p>Open the flagship 1993 route for Mosaic, CERN, <i>The X-Files</i>, <i>Myst</i>, <i>Jurassic Park</i>, Wu-Tang, and <i>Doom</i>.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="/timeline/1995/#month-aug" data-search-category="highlights" data-title="1995 windows 95 netscape toy story browser wars aol" data-tags="install future launch night start menu family pc august">
+          <span>HIGHLIGHT</span>
+          <h3>1995: Install-the-future launch night</h3>
+          <p>The cleanest mass-internet hinge point on the site: Netscape IPO heat, Windows 95 retail chaos, and a family-PC future you could buy in a box.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="/timeline/1997/#month-jul" data-search-category="highlights" data-title="1997 aim titanic men in black south park final fantasy blockbuster" data-tags="screen names buddy list summer blockbuster july">
+          <span>HIGHLIGHT</span>
+          <h3>1997: Screen names + summer blockbuster mode</h3>
+          <p>Jump into the mid-to-late decade sweet spot: AIM handles, <i>Men in Black</i>, Beanie panic, PlayStation obsession, and Titanic monoculture.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="/timeline/1998/#month-sep" data-search-category="highlights" data-title="1998 trl pokemon imac mp3 google furby" data-tags="after-school ritual pop countdown late 90s september">
+          <span>HIGHLIGHT</span>
+          <h3>1998: TRL + translucent future</h3>
+          <p>Go straight to late-90s kid-internet mode: TRL, Bondi blue iMacs, link cables, MP3 curiosity, and hallway pop chatter.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="/timeline/1999/" data-search-category="highlights" data-title="1999 napster matrix y2k dreamcast spongebob" data-tags="millennium panic burned cds file sharing">
+          <span>HIGHLIGHT</span>
+          <h3>1999: Y2K countdown route</h3>
+          <p>The finale page: Napster, <i>The Matrix</i>, Dreamcast, SpongeBob, Blair Witch rumors, and the whole millennium-breaking mood.</p>
+        </a>
+
+        <a class="chart-year-card ready site-search-card" href="/timeline/1990/" data-search-category="years" data-title="1990 decade boots up twin peaks fresh prince windows 3.0" data-tags="early decade beige pc radio cassette">
+          <span>YEAR</span>
+          <h3>1990: The decade boots up</h3>
+          <p>Start at the hinge where mall radio, VHS glow, and early web machinery overlap.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="/timeline/1991/" data-search-category="years" data-title="1991 nevermind sonic linux street fighter ii grunge" data-tags="flannel genesis alternative breakthrough">
+          <span>YEAR</span>
+          <h3>1991: Nevermind the old rules</h3>
+          <p>Grunge, Sonic speed, Linux beginnings, and the public web leaving the lab.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="/timeline/1992/" data-search-category="years" data-title="1992 windows 3.1 cartoon network batman mortal kombat chronic" data-tags="arcade panic cable cartoons dream team">
+          <span>YEAR</span>
+          <h3>1992: Cable, cartoons, cartridges</h3>
+          <p>A fuller early-decade route through SNICK, Batman TAS, the Dream Team, and mall-PC culture.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="/timeline/1993/" data-search-category="years" data-title="1993 mosaic cern jurassic park x-files myst doom wu-tang" data-tags="browser dawn cd-rom portals">
+          <span>YEAR</span>
+          <h3>1993: The web gets a front door</h3>
+          <p>The year page where screens start acting like connected worlds instead of separate hobbies.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="/timeline/1994/" data-search-category="years" data-title="1994 netscape yahoo friends pulp fiction dook ie illmatic homepages" data-tags="homepage era early web sitcom culture">
+          <span>YEAR</span>
+          <h3>1994: Homepages begin</h3>
+          <p>Open the homepage-era year for Netscape, Yahoo, early personal pages, and cooler alt-media confidence.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="/timeline/1995/" data-search-category="years" data-title="1995 windows 95 netscape amazon ebay playstation toy story" data-tags="browser wars family pc online shopping">
+          <span>YEAR</span>
+          <h3>1995: Start me up</h3>
+          <p>The strongest mid-decade “future arrives” route on the site.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="/timeline/1996/" data-search-category="years" data-title="1996 pokemon nintendo 64 geocities icq scream macarena tamagotchi" data-tags="web counters collectible chaos summer 1996">
+          <span>YEAR</span>
+          <h3>1996: Pocket monsters and web counters</h3>
+          <p>Collecting culture, GeoCities social texture, and N64 anticipation all in one shareable year.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="/timeline/1997/" data-search-category="years" data-title="1997 aim buffy south park final fantasy vii titanic goldeneye" data-tags="buddy list collector mania blockbuster year">
+          <span>YEAR</span>
+          <h3>1997: Handles, hype, and huge screen glow</h3>
+          <p>One of the flagship year capsules: dense, scannable, and built for rabbit holes.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="/timeline/1998/" data-search-category="years" data-title="1998 google trl imac pokemon ocarina furby mp3" data-tags="kid internet translucent plastic countdown TV">
+          <span>YEAR</span>
+          <h3>1998: Search, slime, translucent plastic</h3>
+          <p>Late-decade kid internet, pop countdowns, and candy-colored hardware energy.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="/timeline/1999/" data-search-category="years" data-title="1999 napster matrix dreamcast spongebob y2k blair witch" data-tags="millennium countdown future panic">
+          <span>YEAR</span>
+          <h3>1999: Party like the clock might break</h3>
+          <p>The decade-ending route for file sharing, rumor-web horror, and millennium panic.</p>
+        </a>
+
+        <a class="chart-year-card ready site-search-card" href="/zones/internet-culture/#surf-path" data-search-category="zones" data-title="internet culture geocities guestbooks webrings surf path handmade web" data-tags="old web browse view source counters">
+          <span>ZONE</span>
+          <h3>Internet Culture: guided surf path</h3>
+          <p>The cleanest old-web entry point: Wayback → GeoCities glitter → living small-web revival.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="/zones/music/#mixtape-path" data-search-category="zones" data-title="music mixtape trl rave flyers winamp discogs chart dial" data-tags="radio CDs mp3s listening path">
+          <span>ZONE</span>
+          <h3>Music: mixtape listening path</h3>
+          <p>Mixtapes, mall CDs, TRL, radio call-ins, scene flyers, and the file-sharing cliff.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="/zones/games/" data-search-category="zones" data-title="games nintendo sega playstation arcades lan parties cheat codes" data-tags="console wars shareware pc arcade">
+          <span>ZONE</span>
+          <h3>Games: couch chaos + arcades</h3>
+          <p>Console wars, shareware lore, arcade crowds, and basement multiplayer energy.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="/zones/tv-movies/#channel-surf-path" data-search-category="zones" data-title="tv movies blockbuster nickelodeon tgif channel surf vhs" data-tags="cable trailers cartoons rewinds">
+          <span>ZONE</span>
+          <h3>TV/Movies: channel-surf path</h3>
+          <p>Appointment TV, VHS stacks, Blockbuster nights, trailers, and commercial archaeology.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="/zones/tech-toys/#museum-shelves" data-search-category="zones" data-title="tech toys windows 95 pagers tamagotchi beanie babies aol" data-tags="family pc gadgets toy shelf">
+          <span>ZONE</span>
+          <h3>Tech/Toys: museum shelves</h3>
+          <p>Family PCs, AOL discs, pagers, translucent gadgets, and collectible toy hype.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="/zones/fashion/#style-shelves" data-search-category="zones" data-title="fashion flannel chokers rave mall style lookbook" data-tags="outfits trends mallrat">
+          <span>ZONE</span>
+          <h3>Fashion: lookbook route</h3>
+          <p>Flannel, chokers, rave color, mall uniforms, and late-90s shine in a scannable lookbook room.</p>
+        </a>
+
+        <a class="chart-year-card ready site-search-card" href="/guestbook/" data-search-category="community" data-title="guestbook sign memory radio story nostalgia note" data-tags="community message handles">
+          <span>COMMUNITY</span>
+          <h3>Guestbook</h3>
+          <p>Drop a memory, a handle, a radio story, or a short note like it is still 1998.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="/sitemap/" data-search-category="community" data-title="sitemap directory routes navigation map where to start" data-tags="site map browse all folders">
+          <span>COMMUNITY</span>
+          <h3>Sitemap</h3>
+          <p>Use the full site map when you want the whole museum layout at a glance.</p>
+        </a>
+
+        <a class="chart-year-card ready site-search-card" href="/webring/" data-search-category="explore" data-title="explore webring resources old web archives nostalgia links" data-tags="directory curated outbound portals">
+          <span>EXPLORE</span>
+          <h3>Explore: full nostalgia directory</h3>
+          <p>All 78 curated outbound resources, archives, tools, communities, and preservation links.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="/webring/?filter=old-web-geocities#directory" data-search-category="explore" data-title="old web geocities wiby oldweb today protoweb gifcities" data-tags="homepages webrings handmade sites">
+          <span>EXPLORE</span>
+          <h3>Old Web &amp; GeoCities shelf</h3>
+          <p>Use this filter when you want homepages, mirrors, archives, emulated browsers, and glitter-GIF archaeology.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="/webring/?filter=games-emulation#directory" data-search-category="explore" data-title="games emulation flashpoint noclip dos archive gamehistory" data-tags="arcades console history game maps">
+          <span>EXPLORE</span>
+          <h3>Games &amp; Emulation shelf</h3>
+          <p>Browser-playable worlds, digital museums, DOS archives, and game-history research trails.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="/webring/?filter=tv-music-media#directory" data-search-category="explore" data-title="tv music media my 90s tv discogs media shelf" data-tags="soundtracks radio videos TV clips">
+          <span>EXPLORE</span>
+          <h3>TV, Music &amp; Media shelf</h3>
+          <p>The fastest jump for Discogs trails, TV simulators, soundtrack rabbit holes, and media research.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="/webring/?filter=software-archives#directory" data-search-category="explore" data-title="software archives winworld macintosh dos old software" data-tags="download preservation shareware utilities">
+          <span>EXPLORE</span>
+          <h3>Software Archives shelf</h3>
+          <p>Vintage software museums, old operating systems, CD-ROM archaeology, and utility history.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="/webring/?filter=communities-marketplaces#directory" data-search-category="explore" data-title="communities marketplaces neocities ebay forums collector nostalgia" data-tags="small web living community browse">
+          <span>EXPLORE</span>
+          <h3>Communities &amp; Marketplaces shelf</h3>
+          <p>Living small-web communities, nostalgia marketplaces, and still-breathing corners of the handmade internet.</p>
+        </a>
+      </div>
+      <div class="portal-box resource-notes" id="siteSearchNoResults" hidden>
+        <h3>No exact route match yet.</h3>
+        <p>Try a broader word like <b>music</b>, <b>games</b>, <b>GeoCities</b>, <b>AOL</b>, <b>TV</b>, <b>1995</b>, or jump to the <a href="/sitemap/">sitemap</a> for the full museum layout.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><p>© 1999–forever 90s.land // handmade for curious people // <a href="#top">back to top</a></p></footer>
+  <script src="/script.js"></script>
+</body>
+</html>
