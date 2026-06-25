@@ -48,6 +48,10 @@
       </div>
     </section>
 
+    <nav class="capsule-jump-nav" aria-label="TV and movie room navigation">
+      <a href="#channel-surf-path">Surf path</a><a href="#screen-shelves">Shelves</a><a href="#screen-artifacts">Objects</a><a href="#screen-media">Media</a><a href="#screen-links">Related routes</a>
+    </nav>
+
     <section class="portal-content standalone">
       <div class="portal-box artifact-box">
         <p class="portal-kicker">Room note</p>
@@ -153,34 +157,68 @@
             <li><a href="/timeline/1999/">1999</a> — <i>The Matrix</i>, <i>The Blair Witch Project</i>, and end-of-decade media mythology.</li>
           </ul>
         </div>
-        <div class="portal-box">
-          <h4>Artifacts to collect</h4>
-          <ul>
-            <li>A VHS tape with a handwritten spine label and two commercials left before the episode.</li>
-            <li>A Blockbuster case, rental receipt, or “please rewind” sticker.</li>
-            <li>A TV Guide page with circles around the night’s plan.</li>
-            <li>A movie ticket stub, lobby standee photo, or newspaper showtime clipping.</li>
-            <li>A fan-site screenshot, webring badge, recap printout, or forum theory thread.</li>
-          </ul>
+        <div class="portal-box" id="screen-artifacts">
+          <div class="section-heading compact-heading"><p class="eyebrow">Museum objects now on display</p><h2>Screen culture is easier to understand when the props are labeled.</h2><p>The old artifact list was too abstract. This turns the room into an actual display case.</p></div>
+          <div class="museum-object-grid">
+            <article class="museum-object-card">
+              <div class="object-meta"><span>tape object</span><span>recorded off live TV</span></div>
+              <h3>VHS tape with a handwritten spine and two ads left in</h3>
+              <p>The accidental commercials are half the memory: local car lots, toy promos, station IDs, and whatever got preserved because nobody hit pause fast enough.</p>
+              <p class="object-note"><strong>Why it matters:</strong> 90s screen memory includes the broadcast wrapper, not just the show.</p>
+              <div class="object-links"><a href="https://archive.org/details/vhsvault" target="_blank" rel="noreferrer">VHS Vault ↗</a><a href="/timeline/1993/">1993 screen stop</a></div>
+            </article>
+            <article class="museum-object-card">
+              <div class="object-meta"><span>rental object</span><span>fluorescent aisle evidence</span></div>
+              <h3>Blockbuster case with a late-fee receipt inside</h3>
+              <p>Movie choice used to be box art, staff picks, and whether the new-release copy was actually still there when you arrived.</p>
+              <p class="object-note"><strong>Why it matters:</strong> discovery was physical, social, and constrained — which made the pick itself memorable.</p>
+              <div class="object-links"><a href="https://archive.org/details/vhsvault" target="_blank" rel="noreferrer">rental-era tape trail ↗</a><a href="#channel-surf-path">back to surf path</a></div>
+            </article>
+            <article class="museum-object-card">
+              <div class="object-meta"><span>schedule object</span><span>coffee table / fridge magnet zone</span></div>
+              <h3>TV Guide page with circles around the night plan</h3>
+              <p>A whole household media algorithm drawn in pen: sitcoms, one movie, maybe an awards show, and the exact time everyone needs to be near the couch.</p>
+              <p class="object-note"><strong>Why it matters:</strong> the decade’s screen life runs on schedules, not infinite scroll.</p>
+              <div class="object-links"><a href="/timeline/1994/">1994 couch-TV bridge</a><a href="/timeline/1997/">1997 blockbuster bridge</a></div>
+            </article>
+          </div>
         </div>
       </div>
 
-      <div class="portal-columns">
+      <div class="portal-columns" id="screen-media">
         <div class="portal-box">
-          <h4>Surf links / resources</h4>
-          <ul class="portal-link-list">
-            <li><a href="https://90s.myretrotvs.com/" target="_blank" rel="noreferrer">My 90’s TV</a> — a nostalgia channel-surfer for clips, ads, trailers, news, and music-video fragments.</li>
-            <li><a href="https://archive.org/details/vhsvault" target="_blank" rel="noreferrer">Internet Archive VHS Vault</a> — VHS-era uploads and tape-culture ephemera.</li>
-            <li><a href="https://letterboxd.com/films/decade/1990s/" target="_blank" rel="noreferrer">Letterboxd 1990s films</a> — a browsable movie rabbit hole by decade.</li>
-            <li><a href="/webring/?filter=tv-music-media#directory">Explore/Webring TV + media shelf</a> — broader 90s.land media resources.</li>
-          </ul>
+          <div class="section-heading compact-heading"><p class="eyebrow">Media desk</p><h2>Open the right source for the right kind of memory.</h2><p>The point is not autoplay everywhere. It is having the right launchpad for clips, tape texture, trailers, and browsing.</p></div>
+          <div class="media-callout-grid">
+            <article class="media-callout">
+              <div class="callout-meta"><span>ambient watch path</span><span>TV texture</span></div>
+              <h3>My 90’s TV for accidental channel energy</h3>
+              <p>Best when you want commercials, news fragments, trailers, and channel bumps to put the room back in motion.</p>
+              <p class="callout-note"><strong>Source context:</strong> nostalgia channel-surf simulator — more mood machine than exact archive.</p>
+              <div class="callout-links"><a href="https://90s.myretrotvs.com/" target="_blank" rel="noreferrer">Open My 90’s TV ↗</a><a href="/webring/?filter=tv-music-media#directory">TV/media shelf</a></div>
+            </article>
+            <article class="media-callout">
+              <div class="callout-meta"><span>archive watch path</span><span>broadcast leftovers</span></div>
+              <h3>Internet Archive VHS Vault for tape-era texture</h3>
+              <p>Use this when you specifically want preserved broadcasts, commercials, tape wobble, and the messy edges that streaming usually strips away.</p>
+              <p class="callout-note"><strong>Source context:</strong> archival uploads / preservation layer, best for ephemera and wrapper culture.</p>
+              <div class="callout-links"><a href="https://archive.org/details/vhsvault" target="_blank" rel="noreferrer">Open VHS Vault ↗</a><a href="#screen-artifacts">artifact shelf</a></div>
+            </article>
+            <article class="media-callout">
+              <div class="callout-meta"><span>browse path</span><span>film rabbit hole</span></div>
+              <h3>Letterboxd decade browsing for movie memory drift</h3>
+              <p>When you remember the poster, the cast, or the year but not the exact title, this is the cleanest movie-rabbit-hole companion to the room.</p>
+              <p class="callout-note"><strong>Source context:</strong> modern catalog / discovery tool, useful as a browse layer rather than a preservation archive.</p>
+              <div class="callout-links"><a href="https://letterboxd.com/films/decade/1990s/" target="_blank" rel="noreferrer">Browse 1990s films ↗</a><a href="/timeline/1999/">1999 movie mythology</a></div>
+            </article>
+          </div>
         </div>
-        <div class="portal-box">
+        <div class="portal-box" id="screen-links">
           <h4>Related portal folders</h4>
           <ul class="portal-link-list">
             <li><a href="/zones/music/">Music</a> — MTV, soundtracks, TRL, radio, and music-video culture.</li>
             <li><a href="/zones/games/">Games</a> — movie tie-ins, arcade cabinets, couch multiplayer, and screen-adjacent play.</li>
             <li><a href="/zones/internet-culture/">Internet Culture</a> — fan pages, quote archives, episode guides, and message-board theories.</li>
+            <li><a href="/webring/?filter=tv-music-media#directory">Explore/Webring TV + media shelf</a> — broader 90s.land media resources.</li>
             <li><a href="/guestbook/">Guestbook</a> — leave a VHS, sitcom, cable, or movie-night memory.</li>
           </ul>
         </div>
