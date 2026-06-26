@@ -430,7 +430,7 @@ function updateSiteSearch() {
     card.classList.toggle('is-hidden', !show);
     if (show) visible += 1;
   });
-  if (siteSearchCount) siteSearchCount.textContent = `Showing ${visible} route${visible === 1 ? '' : 's'}.`;
+  if (siteSearchCount) siteSearchCount.textContent = `Showing ${visible} match${visible === 1 ? '' : 'es'}.`;
   if (siteSearchNoResults) siteSearchNoResults.hidden = visible !== 0;
 }
 
