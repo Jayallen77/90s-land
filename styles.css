@@ -1313,3 +1313,81 @@ textarea { min-height: 92px; resize: vertical; }
   .capsule-jump-nav { display: flex; overflow-x: auto; flex-wrap: nowrap; padding: .45rem; }
   .capsule-jump-nav a { white-space: nowrap; font-size: .72rem; padding: .36rem .45rem; }
 }
+
+
+/* 2026-06 phone-width correction: reduce nested padding so content uses the screen */
+@media (max-width: 640px) {
+  main,
+  .capsule-main,
+  .home-main {
+    width: calc(100% - .25rem);
+    max-width: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .topbar { padding-left: .45rem; padding-right: .45rem; }
+  .window, .panel { border-left-width: 2px; border-right-width: 2px; }
+  .page-hero { margin-top: .45rem; }
+  .portal-content,
+  .capsule-layout,
+  .year-deep-dive,
+  .standalone {
+    padding: .25rem !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    width: 100% !important;
+    max-width: none !important;
+  }
+  .capsule-section,
+  .portal-box,
+  .why-card,
+  .chart-section.capsule-section {
+    padding: .55rem !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    width: 100% !important;
+    max-width: none !important;
+  }
+  .media-figure-grid,
+  .timeline-card-grid,
+  .capsule-month-grid,
+  .capsule-card-grid,
+  .museum-object-grid,
+  .media-callout-grid,
+  .artifact-grid,
+  .song-grid,
+  .portal-columns {
+    grid-template-columns: 1fr !important;
+    gap: .55rem !important;
+    width: 100% !important;
+  }
+  .media-figure-card,
+  .timeline-card,
+  .museum-object-card,
+  .media-callout,
+  .month-card,
+  .song-card,
+  .artifact-tile,
+  .capsule-card {
+    width: 100% !important;
+    max-width: none !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  .media-figure-card figcaption { padding: .65rem .7rem !important; }
+  .media-figure-card p,
+  .museum-object-card p,
+  .media-callout p,
+  .month-card p,
+  .timeline-card p { line-height: 1.34; }
+  .media-figure-card strong,
+  .museum-object-card h3,
+  .media-callout h3,
+  .month-card h3 { font-size: .95rem; line-height: 1.28; }
+  .figure-source { font-size: .72rem; }
+  .highlight-strip span,
+  .capsule-tags span,
+  .mini-tags em,
+  .object-meta span,
+  .callout-meta span { font-size: .64rem; }
+}
