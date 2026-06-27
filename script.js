@@ -521,12 +521,13 @@ const realtime90sData = {
       june: {
         anchor: 'month-jun',
         ctaLabel: 'Open June 1996',
-        highlights: ['June 1996', 'E3 hype', 'summer radio'],
+        highlights: ['June 1996', 'E3 hype', 'summer radio', 'US + world news'],
         cards: [
           ['Music', 'Macarena, Mariah, Tracy Chapman, and soundtrack-season radio make June 1996 feel sunny, crowded, and impossible to escape.'],
           ['Games', 'E3 1996 and Super Mario 64 screenshots turn the Nintendo 64 into the summer obsession before the U.S. launch even happens.'],
           ['Tech / Web', 'GeoCities pages, guestbooks, and counters are becoming the handmade backdrop for the same kids reading game magazines and chart pages.'],
           ['Movies / TV', 'Twister-sized blockbuster season and cable reruns keep shared-screen culture loud before the web becomes the main entertainment layer.'],
+          ['US / World news', 'The same month carries real headlines too: Russia holds its presidential election on June 16, and the Khobar Towers bombing hits U.S. forces in Saudi Arabia on June 25.'],
           ['Why it matters', 'June is where 1996 stops feeling like a generic middle year and starts feeling collectible: mall heat, game hype, and social-web texture in one month.'],
           ['Random artifact', 'A folded game-magazine preview of Mario 64 sitting next to a scribbled summer radio countdown.']
         ]
@@ -662,7 +663,7 @@ function renderThisMonth90s() {
   }
   const cards = monthFocus?.cards || [
     ['Music', data.music], ['Movies / TV', data.screens], ['Games', data.games],
-    ['Tech / Web', data.tech], ['World / Culture', data.world], ['Random artifact', data.artifact]
+    ['Tech / Web', data.tech], ['US / World news', data.world], ['Random artifact', data.artifact]
   ];
   grid.innerHTML = cards.map(([label, text]) => `<article class="micro-card"><span>${label}</span><p>${text}</p></article>`).join('');
 }
