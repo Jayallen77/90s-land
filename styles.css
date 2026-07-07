@@ -1348,6 +1348,88 @@ textarea { min-height: 92px; resize: vertical; }
     width: 100% !important;
     max-width: none !important;
   }
+  .resource-console,
+  .resource-directory,
+  .timeline-product-panel,
+  .starter-pack,
+  .this-month-panel,
+  .home-feature-strip {
+    padding: .65rem !important;
+  }
+  .site-filter-row,
+  .resource-filters,
+  .highlight-strip,
+  .chart-pill-grid {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    overflow-x: auto;
+    gap: .45rem !important;
+    padding-bottom: .2rem;
+    scrollbar-width: thin;
+  }
+  .site-filter-row .resource-filter,
+  .resource-filters .resource-filter,
+  .highlight-strip span,
+  .chart-pill-grid a {
+    flex: 0 0 auto;
+    white-space: nowrap;
+  }
+  .resource-filter {
+    padding: .48rem .58rem;
+    font-size: .74rem;
+    box-shadow: 2px 2px 0 rgba(255,79,216,.38);
+  }
+  .resource-jumps,
+  .resource-count,
+  .micro-note,
+  .mini-link-list li,
+  .chart-year-card p,
+  .site-search-card p {
+    font-size: .83rem;
+    line-height: 1.32;
+  }
+  .timeline-card {
+    grid-template-columns: 68px minmax(0, 1fr) !important;
+    gap: .6rem !important;
+    padding: .65rem !important;
+    align-items: start;
+  }
+  .timeline-year {
+    min-height: 58px;
+    font-size: .66rem;
+  }
+  .chart-year-card,
+  .site-search-card,
+  .resource-card,
+  .portal-box,
+  .micro-card {
+    padding: .7rem !important;
+  }
+  .chart-year-card h3,
+  .site-search-card h3,
+  .resource-card h3,
+  .timeline-card h3,
+  .portal-box h3 {
+    font-size: .92rem;
+    line-height: 1.22;
+    margin-bottom: .35rem;
+  }
+  .resource-card { min-height: auto; }
+  .resource-link {
+    width: 100%;
+    text-align: center;
+    padding: .58rem .65rem;
+  }
+  .chart-year-card span,
+  .timeline-year,
+  .resource-category,
+  .resource-tag {
+    font-size: .62rem;
+  }
+  .mini-link-list {
+    gap: .55rem;
+    padding-left: 1rem;
+  }
   .media-figure-grid,
   .timeline-card-grid,
   .capsule-month-grid,
