@@ -415,7 +415,32 @@ const siteSearchInput = document.querySelector('#siteSearchInput');
 const siteSearchCount = document.querySelector('#siteSearchCount');
 const siteSearchNoResults = document.querySelector('#siteSearchNoResults');
 const siteSearchFilters = document.querySelectorAll('[data-site-filter]');
+const searchSummaryYears = document.querySelector('#searchSummaryYears');
+const searchSummaryZones = document.querySelector('#searchSummaryZones');
+const searchSummaryHighlights = document.querySelector('#searchSummaryHighlights');
+const searchSummaryObjects = document.querySelector('#searchSummaryObjects');
 let activeSiteFilter = 'all';
+
+function syncSiteSearchCounts(cards) {
+  const totals = cards.reduce((acc, card) => {
+    const category = card.dataset.searchCategory || 'uncategorized';
+    acc.total += 1;
+    acc[category] = (acc[category] || 0) + 1;
+    return acc;
+  }, { total: 0 });
+
+  siteSearchFilters.forEach(button => {
+    const key = button.dataset.siteFilter || 'all';
+    const count = key === 'all' ? totals.total : (totals[key] || 0);
+    const badge = button.querySelector('span');
+    if (badge) badge.textContent = String(count);
+  });
+
+  if (searchSummaryYears) searchSummaryYears.textContent = String(totals.years || 0);
+  if (searchSummaryZones) searchSummaryZones.textContent = String(totals.zones || 0);
+  if (searchSummaryHighlights) searchSummaryHighlights.textContent = String(totals.highlights || 0);
+  if (searchSummaryObjects) searchSummaryObjects.textContent = String(totals.objects || 0);
+}
 
 function updateSiteSearch() {
   if (!siteSearchGrid) return;
@@ -435,6 +460,8 @@ function updateSiteSearch() {
 }
 
 if (siteSearchGrid) {
+  const cards = Array.from(siteSearchGrid.querySelectorAll('.site-search-card'));
+  syncSiteSearchCounts(cards);
   const params = new URLSearchParams(window.location.search);
   const initialFilter = params.get('filter');
   const initialQuery = params.get('q');
