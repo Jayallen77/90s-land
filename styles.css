@@ -1006,6 +1006,8 @@ textarea { min-height: 92px; resize: vertical; }
 .capsule-card h3 { color: var(--yellow); margin: .1rem 0 .45rem; }
 .capsule-card p { color: var(--muted); margin: 0 0 .9rem; line-height: 1.45; }
 .capsule-card a { margin-top: auto; color: var(--cyan); font-weight: 700; }
+.news-wire-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.news-wire-card { min-height: 100%; }
 .artifact-grid { grid-template-columns: repeat(6, minmax(0, 1fr)); }
 .museum-object-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 .media-callout-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }

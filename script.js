@@ -518,6 +518,20 @@ const realtime90sData = {
     world: "Collecting culture explodes: pocket monsters, Beanie Babies, digital pets, and web stats.",
     artifact: "A guestbook entry next to an N64 controller and a digital pet.",
     months: {
+      july: {
+        anchor: 'news-desk',
+        ctaLabel: 'Open July 1996 news desk',
+        highlights: ['July 1996', 'Olympics', 'Hotmail', 'US + world news'],
+        cards: [
+          ['Music', 'Macarena, Mariah, and soundtrack-season radio make July 1996 feel huge, public, and impossible to avoid.'],
+          ['Movies / TV', 'Olympics coverage and nonstop cable-news interruption give the month a real shared-screen intensity instead of generic summer blur.'],
+          ['Games', 'Nintendo 64 anticipation, guidebook chatter, and Pokémon rumor energy keep kid culture humming under the headline layer.'],
+          ['Tech / Web', 'Hotmail launches on July 4, a clean symbol that the web is becoming practical enough to check from whatever computer you can get to.'],
+          ['US / World news', 'July 1996 swings from Olympic spectacle to shock: TWA Flight 800 crashes on July 17, the Atlanta Games open on July 19, and the Centennial Olympic Park bombing hits on July 27.'],
+          ['Why it matters', 'This month makes 1996 feel real: the social web is getting useful at the exact same time shared-screen America is bouncing between celebration and catastrophe.'],
+          ['Random artifact', 'A Hotmail signup printout folded inside an Olympics TV schedule with one breaking-news interruption circled in pen.']
+        ]
+      },
       june: {
         anchor: 'month-jun',
         ctaLabel: 'Open June 1996',
