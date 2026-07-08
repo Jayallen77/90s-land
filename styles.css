@@ -1322,19 +1322,20 @@ textarea { min-height: 92px; resize: vertical; }
   main,
   .capsule-main,
   .home-main {
-    width: calc(100% - .25rem);
+    width: calc(100% - .12rem);
     max-width: none;
     margin-left: auto;
     margin-right: auto;
   }
-  .topbar { padding-left: .45rem; padding-right: .45rem; }
+  .topbar { padding-left: .35rem; padding-right: .35rem; }
   .window, .panel { border-left-width: 2px; border-right-width: 2px; }
-  .page-hero { margin-top: .45rem; }
+  .page-hero { margin-top: .3rem; }
+  .panel, .hero-grid, .capsule-hero .page-pad, .page-pad { padding: .58rem !important; }
   .portal-content,
   .capsule-layout,
   .year-deep-dive,
   .standalone {
-    padding: .25rem !important;
+    padding: .08rem !important;
     margin-left: 0 !important;
     margin-right: 0 !important;
     width: 100% !important;
@@ -1344,7 +1345,7 @@ textarea { min-height: 92px; resize: vertical; }
   .portal-box,
   .why-card,
   .chart-section.capsule-section {
-    padding: .55rem !important;
+    padding: .18rem !important;
     margin-left: 0 !important;
     margin-right: 0 !important;
     width: 100% !important;
