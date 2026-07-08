@@ -1475,3 +1475,93 @@ textarea { min-height: 92px; resize: vertical; }
   .object-meta span,
   .callout-meta span { font-size: .64rem; }
 }
+
+/* 2026-07 phone-density follow-through: discovery surfaces and year-media cards should use the viewport, not sit in postcard-width columns. */
+@media (max-width: 640px) {
+  .chart-year-grid,
+  .site-search-grid,
+  .resource-grid,
+  .featured-grid,
+  .site-map-grid {
+    grid-template-columns: 1fr !important;
+    gap: .5rem !important;
+  }
+
+  .timeline-product-panel,
+  .resource-directory,
+  .starter-pack,
+  .resource-console,
+  .this-month-panel,
+  .home-feature-strip,
+  .capsule-section {
+    scroll-margin-top: 5.5rem;
+  }
+
+  .site-search-card,
+  .chart-year-card,
+  .resource-card,
+  .timeline-card {
+    display: grid;
+    gap: .35rem;
+  }
+
+  .site-search-card p,
+  .chart-year-card p,
+  .resource-card p,
+  .timeline-card p,
+  .resource-usage {
+    max-width: none;
+  }
+
+  .capsule-main .media-figure-card,
+  .capsule-main .feature-figure {
+    display: grid;
+    grid-template-columns: minmax(108px, 32vw) minmax(0, 1fr);
+    align-items: stretch;
+    min-height: 0;
+  }
+
+  .capsule-main .media-figure-card img,
+  .capsule-main .feature-figure img {
+    height: 100%;
+    min-height: 124px;
+    aspect-ratio: auto;
+  }
+
+  .capsule-main .media-figure-card figcaption {
+    padding: .6rem .65rem .65rem !important;
+    gap: .45rem;
+  }
+
+  .capsule-main .figure-links {
+    gap: .35rem;
+    padding-top: .2rem;
+  }
+
+  .capsule-main .figure-links a {
+    font-size: .72rem;
+  }
+
+  .capsule-main .figure-source {
+    font-size: .7rem;
+  }
+
+  .month-links,
+  .object-links,
+  .callout-links,
+  .resource-card-top {
+    gap: .35rem;
+  }
+
+  .resource-link,
+  .button {
+    min-height: 44px;
+  }
+}
+
+@media (max-width: 480px) {
+  .capsule-main .media-figure-card,
+  .capsule-main .feature-figure {
+    grid-template-columns: 96px minmax(0, 1fr);
+  }
+}
