@@ -1,95 +1,226 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="no-js">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="90s.land is a nostalgic portal, museum, and playground for the pre-algorithm internet." />
-  <title>90s.land — surf the old web</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/styles.css?v=mobile-density-5" />
+<!-- generated:head:start -->
+  <meta name="description" content="Browse the decade. Open its objects. Get lost on purpose." />
+  <title>90s.land — A playable museum of the 1990s</title>
+  <link rel="canonical" href="https://90s.land/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="90s.land" />
+  <meta property="og:title" content="90s.land — A playable museum of the 1990s" />
+  <meta property="og:description" content="Browse the decade. Open its objects. Get lost on purpose." />
+  <meta property="og:url" content="https://90s.land/" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="90s.land — A playable museum of the 1990s" />
+  <meta name="twitter:description" content="Browse the decade. Open its objects. Get lost on purpose." />
+  <meta property="og:image" content="https://90s.land/assets/generated/og-card.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="90s.land playable museum lobby in neon CRT colors." />
+  <meta name="twitter:image" content="https://90s.land/assets/generated/og-card.png" />
+  <link rel="preload" href="/assets/fonts/space-mono-regular.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/assets/fonts/space-mono-bold.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/assets/fonts/press-start-2p-regular.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32.png" />
+  <link rel="apple-touch-icon" sizes="192x192" href="/assets/icons/icon-192.png" />
+  <link rel="manifest" href="/manifest.webmanifest" />
+<!-- generated:head:end -->
+  <link rel="stylesheet" href="/styles.css?v=playable-museum-1" />
 </head>
-<body>
+<body data-route="/" data-room="highlights">
+  <a class="skip-link" href="#main-content">Skip to museum content</a>
   <div class="crt" aria-hidden="true"></div>
   <div class="starfield" aria-hidden="true"></div>
   <header class="topbar" id="top">
   <a class="brand" href="/" aria-label="90s.land home"><span class="logo-box">90s</span><span>.land</span></a>
   <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="siteNav">☰ Menu</button>
-  <nav class="nav" id="siteNav" aria-label="Retro portal navigation">
-    <a href="/timeline/">Years</a>
-    <a href="/zones/music/">Music</a>
-    <a href="/zones/games/">Games</a>
-    <a href="/zones/tv-movies/">TV + Movies</a>
-    <a href="/zones/tech-toys/">Tech + Toys</a>
-    <a href="/zones/transparent-tech/">Transparent Tech</a>
-    <a href="/webring/">Explore</a>
-    <a href="/search/">Search</a>
-  </nav>
+  <!-- generated:navigation:start -->
+    <nav class="nav" id="siteNav" aria-label="Museum navigation">
+      <a href="/timeline/">Years</a>
+      <a href="/sitemap/">Museum Map</a>
+      <a href="/tours/before-the-feed/">Tour</a>
+      <a href="/webring/">Explore</a>
+      <a href="/search/">Search</a>
+      <div class="museum-toolbelt" aria-label="Museum tools">
+        <a class="museum-tool surprise-tool" href="/surprise/" data-surprise-trigger>Surprise me</a>
+        <button class="museum-tool passport-tool" type="button" data-passport-trigger hidden>
+          Passport <span data-passport-count aria-hidden="true">0</span>
+        </button>
+      </div>
+    </nav>
+<!-- generated:navigation:end -->
 </header>
 
-  <main class="home-main simplified-home">
-    <section class="hero window" id="enter">
-      <div class="window-bar"><span>WELCOME.EXE</span><span class="window-buttons">□ ×</span></div>
-      <div class="hero-grid home-hero-clean">
-        <div>
-          <p class="eyebrow">dial-up // mixtapes // pixel dust</p>
-          <h1>An ode to the web before the feed.</h1>
-          <p class="lede hero-lede-short">A clearer, more visual nostalgia portal for the 1990s: year capsules, music charts, games, TV nights, early-web culture, and the objects that made the decade feel human.</p>
-          <div class="hero-actions"><a class="button primary" href="/timeline/">Browse the years</a><a class="button" href="#this-month-90s">This month in the 90s</a><a class="button" href="/search/">Search by memory</a></div>
+  <main id="main-content" class="home-main museum-desk">
+    <section class="hero window museum-lobby" id="enter">
+      <div class="window-bar"><span>MUSEUM_DESK.EXE</span><span class="window-buttons" aria-hidden="true">□ ×</span></div>
+      <div class="museum-lobby-grid">
+        <div class="museum-lobby-copy">
+          <p class="eyebrow">Visitor desk // Admit one curious human</p>
+          <h1>A playable museum of the 1990s.</h1>
+          <p class="lede">Browse the decade. Open its objects. Get lost on purpose.</p>
+          <div class="hero-actions museum-primary-actions">
+            <a class="button primary" href="/tours/before-the-feed/">Start a 10-minute tour</a>
+            <a class="button" href="/surprise/" data-surprise-trigger>Surprise me</a>
+            <a class="button" href="#museum-rooms">Browse the museum</a>
+          </div>
+          <p class="lobby-note">No account. No feed. Your optional passport stays in this browser.</p>
         </div>
-        <figure class="hero-photo-card">
-          <img src="/assets/media/tech-toys/family-pc-rotterdam-1999.jpg" alt="A late-1990s family computer desk with a CRT monitor and beige PC setup." />
-          <figcaption><strong>The home computer becomes a portal.</strong><span>Photos now belong inside the content flow — not as isolated promo pages.</span></figcaption>
-        </figure>
+        <article class="lobby-artifact display-case" id="artifact-family-pc" data-artifact-id="family-pc">
+          <div class="display-case-glass">
+            <picture class="responsive-artifact">
+              <source type="image/avif" srcset="/assets/generated/family-pc-480.avif 480w" />
+              <source type="image/webp" srcset="/assets/generated/family-pc-480.webp 480w" />
+              <img src="/assets/media/tech-toys/family-pc-rotterdam-1999.jpg" alt="Late-1990s family desktop PC with CRT monitor and beige tower in a shared room." width="832" height="624" loading="eager" decoding="async" fetchpriority="high" />
+            </picture>
+          </div>
+          <div class="museum-label">
+            <p class="artifact-label">Object 01 · Shared-room portal · 1995–1999</p>
+            <h2>The family computer becomes a portal.</h2>
+            <p>The future arrived in a shared room, surrounded by homework, mouse pads, and a phone line everyone needed.</p>
+            <div class="artifact-actions">
+              <button class="button inspect-button" type="button" data-artifact-inspect="family-pc">Inspect + stamp</button>
+              <a href="/zones/tech-toys/#artifact-family-pc">Open exhibit</a>
+            </div>
+          </div>
+        </article>
       </div>
     </section>
 
-    <section class="panel this-month-panel" id="this-month-90s" aria-label="This Month in the 90s">
-      <div class="this-month-head">
-        <div>
-          <p class="eyebrow">30-year real-time capsule</p>
-          <h2 id="thisMonthTitle">This Month in 1996</h2>
-          <p id="thisMonthSubtitle">Following the 90s in real time, 30 years later — now with music, games, tech, screens, and US/world headlines in the same snapshot.</p>
-          <div class="highlight-strip" id="thisMonthHighlights"><span>June 1996</span><span>news + culture</span><span>summer radio</span></div>
-        </div>
-        <a class="button primary" id="thisMonthCta" href="/timeline/1996/#month-jun">Open June 1996</a>
+    <section class="panel monthly-exhibit" id="this-month-90s" aria-labelledby="thisMonthTitle">
+      <div>
+        <p class="eyebrow">This month in the 90s · Exhibit case 07/96</p>
+        <h2 id="thisMonthTitle">July 1996</h2>
+        <p>A compact cross-section of one summer when portals, pop culture, and the Atlanta Olympics shared the same CRT glow.</p>
       </div>
-      <div class="this-month-grid" id="thisMonthGrid">
-        <article class="micro-card"><span>Music</span><p>Loading the decade...</p></article>
+      <ul class="monthly-highlights" aria-label="Three July 1996 highlights">
+        <li><strong>Hotmail launches</strong><span>Webmail makes an inbox portable.</span></li>
+        <li><strong>Atlanta hosts the Olympics</strong><span>The Games arrive amid spectacle and breaking news.</span></li>
+        <li><strong>“Macarena” keeps climbing</strong><span>A dance-floor instruction manual becomes unavoidable.</span></li>
+      </ul>
+      <a class="button primary" href="/timeline/1996/#month-jul">Open July 1996</a>
+    </section>
+
+    <section class="portal-hub museum-room-directory" id="museum-rooms" aria-labelledby="museumRoomsTitle">
+      <div class="section-heading inline-heading">
+        <p class="eyebrow">Museum directory</p>
+        <h2 id="museumRoomsTitle">Choose a door.</h2>
+        <p>Every room keeps its own metaphor. The shared labels, passport, and related objects connect the museum.</p>
+      </div>
+      <div class="zone-grid museum-door-grid">
+        <a class="zone-card museum-door" href="/timeline/"><span class="pixel-icon">90–99</span><h3>Year doors</h3><p>Ten chronological capsules, month anchors, and object cases.</p><small>Start at 1990</small></a>
+        <a class="zone-card museum-door accent-pink" href="/zones/music/"><span class="pixel-icon">MIX</span><h3>Music</h3><p>Cassettes, Discmen, CDs, charts, radio, and MP3 drift.</p><small>Listening room</small></a>
+        <a class="zone-card museum-door accent-green" href="/zones/games/"><span class="pixel-icon">1UP</span><h3>Games</h3><p>Arcades, cartridges, couch multiplayer, shareware, and controllers.</p><small>Playable gallery</small></a>
+        <a class="zone-card museum-door accent-yellow" href="/zones/tv-movies/"><span class="pixel-icon">VHS</span><h3>TV + movies</h3><p>Friday-night rentals, cable surfing, trailers, and VHS rituals.</p><small>Screening room</small></a>
+        <a class="zone-card museum-door" href="/zones/tech-toys/"><span class="pixel-icon">CPU</span><h3>Tech + toys</h3><p>Family PCs, AOL discs, pagers, gadgets, and toy-store futures.</p><small>Object lab</small></a>
+        <a class="zone-card museum-door accent-pink" href="/zones/internet-culture/"><span class="pixel-icon">WWW</span><h3>Internet culture</h3><p>GeoCities, AIM, counters, guestbooks, and handmade pages.</p><small>Old-web neighborhood</small></a>
+        <a class="zone-card museum-door accent-green" href="/zones/fashion/"><span class="pixel-icon">FIT</span><h3>Fashion</h3><p>Silhouettes, mall labels, streetwear, and subculture signals.</p><small>Wardrobe archive</small></a>
+        <a class="zone-card museum-door accent-yellow" href="/zones/transparent-tech/"><span class="pixel-icon">CLR</span><h3>Transparent tech</h3><p>Bondi blue, Atomic Purple, clear shells, and visible circuitry.</p><small>Design showroom</small></a>
       </div>
     </section>
 
-    <section class="portal-hub home-entry-panel" id="hub">
-      <div class="section-heading inline-heading"><p class="eyebrow">Start here</p><h2>Pick a path, not a pile of links.</h2><p>The homepage is now a lobby. The deeper rooms carry the detail.</p></div>
-      <div class="zone-grid home-zone-grid">
-        <a class="zone-card image-zone-card" href="/timeline/"><img src="/assets/media/timeline-1995/windows95-start-button.png" alt="Windows 95 Start button screenshot used as a year-by-year timeline thumbnail." /><span class="pixel-icon">TIME</span><h3>Year by year</h3><p>1990–1999 time capsules with months, artifacts, charts, and rabbit holes.</p><small>best first click</small></a>
-        <a class="zone-card image-zone-card" href="/zones/music/"><img src="/assets/media/music/compact-cassette-maxell.jpg" alt="A compact cassette thumbnail for the 90s music room." /><span class="pixel-icon">MIX</span><h3>Music + charts</h3><p>Mixtapes, CDs, radio, TRL, MP3 drift, and Billboard Top 10s by year.</p><small>charts available by year</small></a>
-        <a class="zone-card image-zone-card" href="/zones/games/"><img src="/assets/media/games/marble-madness-arcade-cabinet.jpg" alt="A 1990s arcade cabinet thumbnail for the games room." /><span class="pixel-icon">1UP</span><h3>Games</h3><p>Arcades, couch multiplayer, cartridges, controller lore, shareware, and LAN-night drift.</p><small>strong section</small></a>
-        <a class="zone-card image-zone-card" href="/zones/tv-movies/"><img src="/assets/media/tv-movies/vhs-videocassette-front.jpg" alt="A VHS videocassette thumbnail for TV and movies." /><span class="pixel-icon">VHS</span><h3>TV + movies</h3><p>Blockbuster nights, cable surfing, cartoons, trailers, VHS texture, and screen rituals.</p><small>Friday-night route</small></a>
-        <a class="zone-card image-zone-card" href="/zones/tech-toys/"><img src="/assets/media/tech-toys/aol-promotional-cds.jpg" alt="A pile of AOL promotional CDs used as a Tech and Toys thumbnail." /><span class="pixel-icon">CPU</span><h3>Tech + toys</h3><p>Family PCs, AOL discs, pagers, Tamagotchi, Beanie Babies, and the bigger domestic-future backdrop behind the dedicated clear-shell room.</p><small>home base for gadgets + toys</small></a>
-        <a class="zone-card image-zone-card" href="/webring/"><img src="/assets/media/timeline-1999/cdr-spindle.jpg" alt="A CD-R spindle thumbnail representing the Explore archive and outbound resources." /><span class="pixel-icon">LINK</span><h3>Explore</h3><p>Curated links, archives, old-web resources, and rabbit holes beyond 90s.land.</p><small>directory</small></a>
+    <section class="panel museum-connections" aria-labelledby="connectionsTitle">
+      <div>
+        <p class="eyebrow">Get lost on purpose</p>
+        <h2 id="connectionsTitle">Three ways through the collection.</h2>
       </div>
-    </section>
-
-    <section class="panel home-feature-strip" aria-label="Featured routes">
-      <div class="section-heading inline-heading"><p class="eyebrow">Keep exploring</p><h2>Five routes worth opening next.</h2><p>Fewer homepage blocks. Better deep pages.</p></div>
       <div class="compact-route-grid">
-        <a class="compact-route-card" href="/timeline/1993/#news-desk"><strong>1993 browser-dawn news desk</strong><span>Open the upgraded 1993 route where the WTC bombing, Waco, Oslo, and Europe's reshuffle now sit beside Mosaic, <i>The X-Files</i>, <i>Myst</i>, <i>Jurassic Park</i>, and Doom-disk menace.</span></a>
-        <a class="compact-route-card" href="/timeline/1991/#news-desk"><strong>1991 analog-to-digital desk</strong><span>Open the sharper 1991 hinge-year route where Gulf War TV glow, Rodney King, the first website, and the Soviet collapse sit beside Nicktoons, Sonic, mixtapes, and grunge spillover.</span></a>
-        <a class="compact-route-card" href="/timeline/1996/#news-desk"><strong>1996 July news desk</strong><span>Open the live This Month route where Hotmail, the Atlanta Olympics, TWA Flight 800, and the Olympic Park bombing sit beside the photo-led 1996 capsule.</span></a>
-        <a class="compact-route-card" href="/zones/transparent-tech/#showroom"><strong>Transparent Tech</strong><span>Bondi blue iMacs, Atomic Purple handhelds, clear-shell controllers, and jelly-phone spillover in one fast visual room.</span></a>
-        <a class="compact-route-card" href="/search/?filter=objects"><strong>Search by object</strong><span>AOL disc, cassette, memory card, guestbook, TV Guide, Tamagotchi, clear shell.</span></a>
+        <a class="compact-route-card" href="/tours/before-the-feed/#mosaic-visual-web"><strong>Follow a curator</strong><span>Jump directly to Mosaic in the six-stop Before the Feed tour.</span></a>
+        <a class="compact-route-card" href="/search/?filter=objects"><strong>Look up an object</strong><span>Search all 30 cataloged artifacts, routes, tours, and exit-hall resources.</span></a>
+        <a class="compact-route-card" href="/webring/"><strong>Leave through the gift shop</strong><span>Open 78 labeled archives, recreations, references, marketplaces, and living sites.</span></a>
       </div>
-    </section>
-
-    <section class="manifesto panel compact-panel home-manifesto">
-      <h2>Before algorithms ran our lives</h2>
-      <p>This is for the internet that felt personal: homepages, guestbooks, fan shrines, strange directories, and under-construction dreams. The site should feel like browsing a real archive, not fighting a neon junk drawer.</p>
-      <div class="badges"><span>NO ALGORITHM ZONE</span><span>OPEN THE YEARS</span><span>PHOTOS WITH PURPOSE</span></div>
     </section>
   </main>
-  <footer class="footer"><p>© 1999–forever 90s.land // handmade for curious people // <a href="#top">back to top</a></p></footer>
-  <script src="/script.js?v=mobile-overhaul-2"></script>
+  <footer class="footer"><p>© 1999–forever 90s.land // handmade for curious people // <a href="/credits/">credits</a> // <a href="#top">back to top</a></p></footer>
+  <!-- generated:shared-ui:start -->
+  <p class="sr-only" id="museumStatus" aria-live="polite" aria-atomic="true"></p>
+
+  <dialog class="museum-dialog surprise-dialog" id="surpriseDialog" aria-labelledby="surpriseTitle">
+    <div class="dialog-window">
+      <div class="window-bar"><span>RANDOM_MEMORY.EXE</span><button type="button" class="dialog-close" data-dialog-close="surpriseDialog" aria-label="Close Surprise Me">×</button></div>
+      <div class="dialog-body" data-surprise-loading>
+        <p class="eyebrow">Loading from CD-ROM…</p>
+        <div class="cd-loader" aria-hidden="true"></div>
+        <p>Finding a memory you have not just seen.</p>
+      </div>
+      <div class="dialog-body" data-surprise-ready hidden>
+        <p class="eyebrow">Random memory loaded</p>
+        <h2 id="surpriseTitle" data-surprise-title>Surprise Me</h2>
+        <p data-surprise-teaser></p>
+        <p class="artifact-meta-line" data-surprise-meta></p>
+        <div class="dialog-actions">
+          <a class="button primary" href="/surprise/" data-surprise-open>Open memory</a>
+          <button class="button" type="button" data-surprise-again>Try another</button>
+          <button class="button subtle" type="button" data-dialog-close="surpriseDialog">Not now</button>
+        </div>
+      </div>
+    </div>
+  </dialog>
+
+  <dialog class="museum-dialog passport-dialog" id="passportDialog" aria-labelledby="passportTitle">
+    <div class="dialog-window">
+      <div class="window-bar"><span>MUSEUM_PASSPORT.CARD</span><button type="button" class="dialog-close" data-dialog-close="passportDialog" aria-label="Close Museum Passport">×</button></div>
+      <div class="dialog-body">
+        <p class="eyebrow">Local museum progress</p>
+        <h2 id="passportTitle">Your Museum Passport</h2>
+        <p class="storage-note" data-storage-note>Saved only on this device. No account, tracking, or personal data.</p>
+        <div class="passport-stats" aria-label="Museum Passport totals">
+          <span><strong data-passport-rooms>0</strong> rooms visited</span>
+          <span><strong data-passport-artifacts>0</strong> objects inspected</span>
+          <span><strong data-passport-stamps>0</strong> stamps earned</span>
+        </div>
+        <ul class="passport-stamp-grid" aria-label="Passport stamps">
+          <li class="passport-stamp is-locked" data-passport-stamp="first-touch">
+            <span class="stamp-mark" aria-hidden="true">admit-one</span>
+            <strong>Object Handler</strong>
+            <span>Inspect your first museum artifact.</span>
+          </li>
+          <li class="passport-stamp is-locked" data-passport-stamp="room-hopper">
+            <span class="stamp-mark" aria-hidden="true">library-card</span>
+            <strong>Room Hopper</strong>
+            <span>Visit three different museum rooms.</span>
+          </li>
+          <li class="passport-stamp is-locked" data-passport-stamp="random-memory">
+            <span class="stamp-mark" aria-hidden="true">cd-rom</span>
+            <strong>Random Access Memory</strong>
+            <span>Open a Surprise Me destination.</span>
+          </li>
+          <li class="passport-stamp is-locked" data-passport-stamp="object-collector">
+            <span class="stamp-mark" aria-hidden="true">sticker-sheet</span>
+            <strong>Pocket Curator</strong>
+            <span>Inspect five museum artifacts.</span>
+          </li>
+          <li class="passport-stamp is-locked" data-passport-stamp="before-the-feed">
+            <span class="stamp-mark" aria-hidden="true">passport-seal</span>
+            <strong>Before the Feed</strong>
+            <span>Complete the guided tour.</span>
+          </li>
+        </ul>
+        <div class="passport-resume" data-tour-resume hidden>
+          <p><strong>Tour in progress:</strong> <span data-tour-resume-label></span></p>
+          <a class="button" data-tour-resume-link href="/tours/before-the-feed/">Resume tour</a>
+        </div>
+        <button class="button danger" type="button" data-passport-reset-open>Reset local passport</button>
+      </div>
+    </div>
+  </dialog>
+
+  <dialog class="museum-dialog reset-dialog" id="passportResetDialog" aria-labelledby="passportResetTitle">
+    <div class="dialog-window">
+      <div class="window-bar"><span>RESET_CONFIRM.TXT</span></div>
+      <div class="dialog-body">
+        <h2 id="passportResetTitle">Reset this passport?</h2>
+        <p>This removes visited rooms, inspected objects, stamps, and tour progress from this browser. It cannot be undone.</p>
+        <div class="dialog-actions">
+          <button class="button" type="button" data-passport-reset-cancel>Keep my passport</button>
+          <button class="button danger" type="button" data-passport-reset-confirm>Reset passport</button>
+        </div>
+      </div>
+    </div>
+  </dialog>
+<!-- generated:shared-ui:end -->
+  <script type="module" src="/js/app.js?v=playable-museum-1"></script>
 </body>
 </html>

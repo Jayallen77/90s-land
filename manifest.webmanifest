@@ -1,0 +1,21 @@
+{
+  "name": "90s.land \u2014 A playable museum of the 1990s",
+  "short_name": "90s.land",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#070018",
+  "theme_color": "#0b001c",
+  "description": "Browse the decade. Open its objects. Get lost on purpose.",
+  "icons": [
+    {
+      "src": "/assets/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

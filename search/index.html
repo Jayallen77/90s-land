@@ -1,36 +1,61 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="no-js">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+<!-- generated:head:start -->
   <meta name="description" content="Search 90s.land by year, zone, route, and nostalgia rabbit hole." />
-  <title>90s.land — Portal search</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/styles.css?v=mobile-density-5" />
+  <title>Portal search — 90s.land</title>
+  <link rel="canonical" href="https://90s.land/search/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="90s.land" />
+  <meta property="og:title" content="Portal search — 90s.land" />
+  <meta property="og:description" content="Search 90s.land by year, zone, route, and nostalgia rabbit hole." />
+  <meta property="og:url" content="https://90s.land/search/" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Portal search — 90s.land" />
+  <meta name="twitter:description" content="Search 90s.land by year, zone, route, and nostalgia rabbit hole." />
+  <meta property="og:image" content="https://90s.land/assets/generated/og-card.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="90s.land playable museum lobby in neon CRT colors." />
+  <meta name="twitter:image" content="https://90s.land/assets/generated/og-card.png" />
+  <link rel="preload" href="/assets/fonts/space-mono-regular.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/assets/fonts/space-mono-bold.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/assets/fonts/press-start-2p-regular.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32.png" />
+  <link rel="apple-touch-icon" sizes="192x192" href="/assets/icons/icon-192.png" />
+  <link rel="manifest" href="/manifest.webmanifest" />
+<!-- generated:head:end -->
+  <link rel="stylesheet" href="/styles.css?v=playable-museum-1" />
 </head>
-<body>
+<body data-route="/search/" data-room="highlights">
+  <a class="skip-link" href="#main-content">Skip to museum content</a>
   <div class="crt" aria-hidden="true"></div>
   <div class="starfield" aria-hidden="true"></div>
   <header class="topbar" id="top">
     <a class="brand" href="/" aria-label="90s.land home"><span class="logo-box">90s</span><span>.land</span></a>
     <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="siteNav">☰ Menu</button>
-    <nav class="nav" id="siteNav" aria-label="Retro portal navigation">
-    <a href="/timeline/">Years</a>
-    <a href="/zones/music/">Music</a>
-    <a href="/zones/games/">Games</a>
-    <a href="/zones/tv-movies/">TV + Movies</a>
-    <a href="/zones/tech-toys/">Tech + Toys</a>
-    <a href="/zones/transparent-tech/">Transparent Tech</a>
-    <a href="/webring/">Explore</a>
-    <a href="/search/">Search</a>
-  </nav>
+    <!-- generated:navigation:start -->
+    <nav class="nav" id="siteNav" aria-label="Museum navigation">
+      <a href="/timeline/">Years</a>
+      <a href="/sitemap/">Museum Map</a>
+      <a href="/tours/before-the-feed/">Tour</a>
+      <a href="/webring/">Explore</a>
+      <a href="/search/">Search</a>
+      <div class="museum-toolbelt" aria-label="Museum tools">
+        <a class="museum-tool surprise-tool" href="/surprise/" data-surprise-trigger>Surprise me</a>
+        <button class="museum-tool passport-tool" type="button" data-passport-trigger hidden>
+          Passport <span data-passport-count aria-hidden="true">0</span>
+        </button>
+      </div>
+    </nav>
+<!-- generated:navigation:end -->
   </header>
 
-  <main>
+  <main id="main-content">
     <section class="window page-hero">
-      <div class="window-bar"><span>PORTAL_FINDER.EXE</span><span class="window-buttons">_ □ ×</span></div>
+      <div class="window-bar"><span>PORTAL_FINDER.EXE</span><span class="window-buttons" aria-hidden="true">_ □ ×</span></div>
       <div class="page-pad">
         <nav class="breadcrumbs"><a href="/">Home</a> / Portal Search</nav>
         <p class="eyebrow">Navigation utility // site-wide route finder</p>
@@ -50,400 +75,1042 @@
       </div>
     </section>
 
+    <!-- generated:search-controls:start -->
     <section class="panel resource-console" id="finder" aria-label="Portal search controls">
       <div class="resource-console-grid">
-        <div>
-          <p class="eyebrow">Search the museum</p>
-          <h2>Portal finder + artifact atlas</h2>
-          <p>Type a vibe, object, show, artist, year, or route name: <i>pokemon</i>, <i>x-files</i>, <i>mall</i>, <i>mixtape</i>, <i>guestbook</i>, <i>geocities</i>, <i>aol disc</i>, <i>memory card</i>, <i>1997</i>.</p>
-        </div>
+        <div><p class="eyebrow">Search the museum</p><h2>Portal finder + artifact atlas</h2><p>Type a year, room, object, tour stop, or external resource.</p></div>
         <div class="resource-search-wrap">
           <label for="siteSearchInput">Search routes + objects</label>
-          <input id="siteSearchInput" type="search" placeholder="try: AOL, Jurassic Park, Blockbuster, Pokémon, TRL..." autocomplete="off" />
+          <input id="siteSearchInput" type="search" placeholder="try: Mosaic, cassette, Blockbuster, GeoCities…" autocomplete="off" />
         </div>
       </div>
       <div class="site-filter-row" aria-label="Filter portal routes">
-        <button class="resource-filter active" data-site-filter="all">All <span>70</span></button>
-        <button class="resource-filter" data-site-filter="highlights">Highlights <span>17</span></button>
-        <button class="resource-filter" data-site-filter="years">Years <span>10</span></button>
-        <button class="resource-filter" data-site-filter="zones">Zones <span>7</span></button>
-        <button class="resource-filter" data-site-filter="objects">Objects <span>28</span></button>
-        <button class="resource-filter" data-site-filter="community">Community <span>2</span></button>
-        <button class="resource-filter" data-site-filter="explore">Explore tools <span>6</span></button>
+        <button class="resource-filter active" type="button" data-site-filter="all" aria-pressed="true">All <span>130</span></button>
+        <button class="resource-filter" type="button" data-site-filter="highlights" aria-pressed="false">Highlights <span>2</span></button>
+        <button class="resource-filter" type="button" data-site-filter="years" aria-pressed="false">Years <span>10</span></button>
+        <button class="resource-filter" type="button" data-site-filter="zones" aria-pressed="false">Rooms <span>7</span></button>
+        <button class="resource-filter" type="button" data-site-filter="objects" aria-pressed="false">Objects <span>30</span></button>
+        <button class="resource-filter" type="button" data-site-filter="tours" aria-pressed="false">Tours <span>1</span></button>
+        <button class="resource-filter" type="button" data-site-filter="community" aria-pressed="false">Community <span>1</span></button>
+        <button class="resource-filter" type="button" data-site-filter="explore" aria-pressed="false">Explore tools <span>79</span></button>
       </div>
-      <p class="resource-jumps">Tip: use <b>Objects</b> when you remember the thing first, <b>Highlights</b> when you want the strongest finished routes, and jump straight to the 1990–1993 news desks or the 1999 photo route when you want the sharpest year-page proof fast.</p>
     </section>
+<!-- generated:search-controls:end -->
 
-    <section class="panel resource-directory">
+    <!-- generated:search-results:start -->
+    <section class="panel resource-directory" aria-labelledby="searchResultsTitle">
       <p class="eyebrow">Results</p>
-      <h2>Portal routes + museum objects</h2>
-      <p class="resource-count" id="siteSearchCount">Showing 70 matches.</p>
+      <h2 id="searchResultsTitle">Routes, objects, tours, and exit-hall resources</h2>
+      <p class="resource-count" id="siteSearchCount" aria-live="polite" aria-atomic="true">Showing 130 matches.</p>
       <div class="chart-year-grid site-search-grid" id="siteSearchGrid">
-        <a class="chart-year-card ready site-search-card" href="/timeline/1993/#news-desk" data-search-category="highlights" data-title="1993 browser dawn news desk x-files myst doom jurassic park mosaic waco oslo wtc" data-tags="web dawn headlines aliens cd-rom september computer lab weird tv sourced visuals">
-          <span>HIGHLIGHT</span>
-          <h3>1993: Browser dawn + headline-weather desk</h3>
-          <p>Open the upgraded 1993 route where WTC, Waco, Oslo, and Europe's reshuffle now sit beside Mosaic browser proof, first-website texture, Doom-disk menace, and the <i>X-Files</i> / <i>Myst</i> / <i>Jurassic Park</i> room mood.</p>
+        <a class="chart-year-card ready site-search-card" href="/guestbook/"
+          data-search-category="community" data-record-type="route"
+          data-title="guestbook" data-tags="90s a algorithm and for guestbook internet is land museum nostalgic playground portal pre the">
+          <span>ROUTE</span>
+          <h3>guestbook</h3>
+          <p>90s.land is a nostalgic portal, museum, and playground for the pre-algorithm internet.</p>
         </a>
-        <a class="chart-year-card ready site-search-card" href="/timeline/1995/#photo-showroom" data-search-category="highlights" data-title="1995 windows 95 netscape toy story browser wars aol playstation photo stack" data-tags="install future photo stack start menu family pc aol discs playstation">
-          <span>HIGHLIGHT</span>
-          <h3>1995: Install-the-future photo stack</h3>
-          <p>Open the new visual 1995 route first: Start-button proof, AOL-disc clutter, PlayStation hardware, then the Netscape IPO / Windows 95 launch path that turns the family PC into pop culture.</p>
+        <a class="chart-year-card ready site-search-card" href="/surprise/"
+          data-search-category="highlights" data-record-type="route"
+          data-title="surprise me" data-tags="surprise random memory artifact">
+          <span>ROUTE</span>
+          <h3>Surprise Me</h3>
+          <p>Open a mystery envelope and let the museum choose the next memory.</p>
         </a>
-        <a class="chart-year-card ready site-search-card" href="/timeline/1997/#photo-showroom" data-search-category="highlights" data-title="1997 aim titanic men in black south park final fantasy blockbuster photo stack" data-tags="screen names buddy list blockbuster photo stack aol discs playstation blockbuster video">
-          <span>HIGHLIGHT</span>
-          <h3>1997: Screen names + blockbuster photo stack</h3>
-          <p>Open the new visual-first 1997 route for AOL-disc clutter, PlayStation-night proof, Blockbuster glow, and the tighter AIM / Buffy / Titanic year story behind them.</p>
+        <a class="chart-year-card ready site-search-card" href="/timeline/"
+          data-search-category="highlights" data-record-type="route"
+          data-title="timeline" data-tags="90s as browse by capsules interactive land polished time timeline year">
+          <span>ROUTE</span>
+          <h3>timeline</h3>
+          <p>Browse 90s.land year-by-year as polished interactive time capsules.</p>
         </a>
-        <a class="chart-year-card ready site-search-card" href="/timeline/1998/#photo-showroom" data-search-category="highlights" data-title="1998 trl pokemon imac mp3 google furby photo stack transparent tech" data-tags="after-school ritual pop countdown late 90s september sourced photos clear shells">
-          <span>HIGHLIGHT</span>
-          <h3>1998: TRL + translucent future</h3>
-          <p>Go straight to the photo-led 1998 route: Bondi blue iMacs, link cables, TRL countdown energy, MP3 curiosity, and late-90s kid-internet proof instead of a text-only intro.</p>
+        <a class="chart-year-card ready site-search-card" href="/webring/"
+          data-search-category="explore" data-record-type="route"
+          data-title="explore more nostalgia" data-tags="90s a and archives communities curated directory explore for games land libraries more nostalgia old resource retro simulators">
+          <span>ROUTE</span>
+          <h3>Explore More Nostalgia</h3>
+          <p>A curated 90s.land resource directory for old-web archives, retro games, TV simulators, software libraries, and nostalgia communities.</p>
         </a>
-        <a class="chart-year-card ready site-search-card" href="/timeline/1999/#photo-showroom" data-search-category="highlights" data-title="1999 napster matrix y2k dreamcast spongebob photo stack burned cds" data-tags="millennium panic burned cds file sharing dreamcast photo stack y2k">
-          <span>HIGHLIGHT</span>
-          <h3>1999: Dreamcast glow + Y2K countdown route</h3>
-          <p>Open the new visual-first 1999 route for Dreamcast launch proof, blank-CD burn culture, and response-room Y2K nerves before dropping into Napster, <i>The Matrix</i>, and the final countdown.</p>
+        <a class="chart-year-card ready site-search-card" href="/timeline/1990/"
+          data-search-category="years" data-record-type="route"
+          data-title="1990 time capsule" data-tags="1990 90s a and artifacts boots capsule cards decade events first games holes interactive land month music photo">
+          <span>ROUTE</span>
+          <h3>1990 time capsule</h3>
+          <p>1990: The decade boots up interactive 90s.land time capsule with a visual-first 1990 photo stack, month cards, music, games, TV, tech, world events, artifacts, and rabbit holes.</p>
         </a>
-
-        <a class="chart-year-card ready site-search-card" href="/timeline/1994/#photo-showroom" data-search-category="highlights" data-title="1994 homepage era photo stack netscape yahoo friends playstation CRT browser desktop" data-tags="browser chrome homepage era coffee shop TV media desk sourced visuals">
-          <span>HIGHLIGHT</span>
-          <h3>1994: Homepage-era photo stack</h3>
-          <p>Open the rebuilt visual-first 1994 route for desktop-browser proof, Friends couch glow, PlayStation future leak, and a tighter homepage-era fast-read before the month cards.</p>
+        <a class="chart-year-card ready site-search-card" href="/timeline/1991/"
+          data-search-category="years" data-record-type="route"
+          data-title="1991 time capsule" data-tags="1991 90s a and capsule cards charts first game labels land media month music nevermind object old proof">
+          <span>ROUTE</span>
+          <h3>1991 time capsule</h3>
+          <p>1991: Nevermind the old rules — a visual-first 90s.land time capsule with month cards, music charts, TV/game/tech routes, object labels, and safe-source media proof.</p>
         </a>
-        <a class="chart-year-card ready site-search-card" href="/timeline/1992/#news-desk" data-search-category="highlights" data-title="1992 news desk los angeles riots maastricht treaty barcelona olympics clinton election cartoon network mortal kombat snick dream team" data-tags="headline layer cable boom arcade panic world news political reset sourced visuals">
-          <span>HIGHLIGHT</span>
-          <h3>1992: headline-aware early-90s capsule</h3>
-          <p>Open the upgraded 1992 route where LA unrest, Maastricht, Barcelona, and the Clinton upset now sit beside Cartoon Network, Mortal Kombat, SNICK, and Dream Team summer.</p>
+        <a class="chart-year-card ready site-search-card" href="/timeline/1992/"
+          data-search-category="years" data-record-type="route"
+          data-title="1992 time capsule" data-tags="1992 90s a and by cable capsule cartoons cartridges desk first games holes interactive labels land month music">
+          <span>ROUTE</span>
+          <h3>1992 time capsule</h3>
+          <p>1992: Cable, cartoons, cartridges interactive 90s.land time capsule with a visual-first opening, a 1992 US/world news desk, month-by-month routes, music, games, TV, tech, object labels, and rabbit holes.</p>
         </a>
-        <a class="chart-year-card ready site-search-card" href="/timeline/1996/#news-desk" data-search-category="highlights" data-title="1996 july news desk hotmail atlanta olympics twa flight 800 olympic park bombing guestbook icq nintendo 64 social desktop" data-tags="collectibles social web sourced visuals july 1996 news headlines real-time route">
-          <span>HIGHLIGHT</span>
-          <h3>1996: July news desk + social-desktop route</h3>
-          <p>Open the live real-time 1996 route for Hotmail launch optimism, Olympics monoculture, TWA Flight 800 shock, and the Olympic Park bombing alongside the N64 / AOL / VHS room proof.</p>
+        <a class="chart-year-card ready site-search-card" href="/timeline/1993/"
+          data-search-category="years" data-record-type="route"
+          data-title="1993 time capsule" data-tags="1993 90s a and by capsule door first front games gets holes interactive labels land month music object">
+          <span>ROUTE</span>
+          <h3>1993 time capsule</h3>
+          <p>1993: The web gets a front door interactive 90s.land time capsule with a visual-first opening, month-by-month routes, music, games, TV, tech, object labels, and rabbit holes.</p>
         </a>
-        <a class="chart-year-card ready site-search-card" href="/zones/tv-movies/#photo-showroom" data-search-category="highlights" data-title="tv movies photo stack crt vhs blockbuster tv guide trailer media desk" data-tags="screen museum sourced photos tape culture commercials rental night">
-          <span>HIGHLIGHT</span>
-          <h3>TV / Movies: Friday-night rewind photo stack</h3>
-          <p>Open the rebuilt screen room for sourced CRT, VHS, and Blockbuster visuals first, then drop into object labels, channel-surf stops, and cleaner media launchpads.</p>
+        <a class="chart-year-card ready site-search-card" href="/timeline/1994/"
+          data-search-category="years" data-record-type="route"
+          data-title="1994 time capsule" data-tags="1994 90s a and artifacts begin by capsule console desktop era fast first history holes homepage homepages import">
+          <span>ROUTE</span>
+          <h3>1994 time capsule</h3>
+          <p>1994: Homepages begin visual-first 90s.land time capsule with sourced desktop, TV, and import-console proof, a fast-read homepage-era summary, month-by-month history, artifacts, and radio rabbit holes.</p>
         </a>
-        <a class="chart-year-card ready site-search-card" href="/zones/games/#photo-showroom" data-search-category="highlights" data-title="games photo stack arcade cabinet sega genesis controller n64 rental cartridge lan" data-tags="game museum sourced photos couch co-op guidebook lore controller hardware">
-          <span>HIGHLIGHT</span>
-          <h3>Games: arcade-to-LAN photo stack</h3>
-          <p>Open the rebuilt games room for sourced arcade and controller visuals first, then drop into rental-cartridge objects, guidebook lore, and a tighter co-op path.</p>
+        <a class="chart-year-card ready site-search-card" href="/timeline/1995/"
+          data-search-category="years" data-record-type="route"
+          data-title="1995 time capsule" data-tags="1995 90s 95 and aol browser by capsule disc land led me month nostalgia photo playstation plus sourced">
+          <span>ROUTE</span>
+          <h3>1995 time capsule</h3>
+          <p>1995: Start me up photo-led 90s.land time capsule with sourced Windows 95, AOL disc, and PlayStation visuals plus month-by-month browser-war nostalgia.</p>
         </a>
-        <a class="chart-year-card ready site-search-card" href="/zones/internet-culture/#artifact-atlas" data-search-category="highlights" data-title="internet culture artifact atlas guestbook webring geocities aim media desk" data-tags="handmade web object labels source-aware small web browser culture">
-          <span>HIGHLIGHT</span>
-          <h3>Internet Culture: handmade-web object atlas</h3>
-          <p>The old-web room is now a real destination: guestbooks, webring arrows, GeoCities clutter, AIM texture, and a source-aware media desk instead of one shallow surf card.</p>
+        <a class="chart-year-card ready site-search-card" href="/timeline/1996/"
+          data-search-category="years" data-record-type="route"
+          data-title="1996 time capsule" data-tags="1996 90s a and artifacts by capsule counters desk desktop fast first history holes july land monsters month">
+          <span>ROUTE</span>
+          <h3>1996 time capsule</h3>
+          <p>1996: pocket monsters and web counters visual-first 90s.land time capsule with sourced room-proof photos, a fast-read social-desktop summary, a July 1996 news desk, month-by-month history, artifacts, and rabbit holes.</p>
         </a>
-        <a class="chart-year-card ready site-search-card" href="/zones/tech-toys/#photo-showroom" data-search-category="highlights" data-title="tech toys photo stack family pc aol disc pager tamagotchi translucent media desk" data-tags="family pc objects gadget shelf software museum backpack future sourced photos">
-          <span>HIGHLIGHT</span>
-          <h3>Tech / Toys: domestic-future photo stack</h3>
-          <p>Open the rebuilt tech room for sourced family-PC, AOL-disc, and pager proof first, then keep moving through object labels, software trails, and backpack-future nostalgia.</p>
+        <a class="chart-year-card ready site-search-card" href="/timeline/1997/"
+          data-search-category="years" data-record-type="route"
+          data-title="1997 time capsule" data-tags="1997 90s and artifacts capsule events fashion games glow handles holes huge hype interactive land movies music rabbit">
+          <span>ROUTE</span>
+          <h3>1997 time capsule</h3>
+          <p>1997: Handles, hype, and huge screen glow interactive 90s.land time capsule with music, games, movies, tech, fashion, events, artifacts, and rabbit holes.</p>
         </a>
-        <a class="chart-year-card ready site-search-card" href="/zones/fashion/#style-objects" data-search-category="highlights" data-title="fashion object closet butterfly clips delias catalog silver backpack mall style y2k" data-tags="style museum labels mall-night fit catalog dreams accessories">
-          <span>HIGHLIGHT</span>
-          <h3>Fashion: object closet + style path</h3>
-          <p>The fashion room now opens like a real museum stop: butterfly clips, catalog page folds, silver mini-backpacks, scene spillover, and a guided route from grunge to Y2K shine.</p>
+        <a class="chart-year-card ready site-search-card" href="/timeline/1998/"
+          data-search-category="years" data-record-type="route"
+          data-title="1998 time capsule" data-tags="1998 90s and artifacts by capsule culture games history holes interactive land late month music plastic rabbit search">
+          <span>ROUTE</span>
+          <h3>1998 time capsule</h3>
+          <p>1998: Search, slime, translucent plastic interactive 90s.land time capsule with month-by-month late-90s culture, music, games, web history, artifacts, and rabbit holes.</p>
         </a>
-        <a class="chart-year-card ready site-search-card" href="/zones/transparent-tech/#showroom" data-search-category="highlights" data-title="transparent tech bondi blue imac atomic purple game boy clear shell jelly phone photo room" data-tags="clear-shell future sourced photos media desk translucent gadgets design culture">
-          <span>HIGHLIGHT</span>
-          <h3>Transparent Tech: whole-room clear-shell showroom</h3>
-          <p>Open the image-first route for Bondi blue iMacs, Atomic Purple handhelds, translucent controllers, clear phones, and the late-90s domestic-future mood they created together.</p>
+        <a class="chart-year-card ready site-search-card" href="/timeline/1999/"
+          data-search-category="years" data-record-type="route"
+          data-title="1999 time capsule" data-tags="1999 90s and break buildup burned by capsule cd clock culture dreamcast file holes interactive land late like">
+          <span>ROUTE</span>
+          <h3>1999 time capsule</h3>
+          <p>1999: Party like the clock might break interactive 90s.land time capsule with sourced Dreamcast, burned-CD, and Y2K visuals, month-by-month millennium buildup, file-sharing culture, late-90s pop, and rabbit holes.</p>
         </a>
-        <a class="chart-year-card ready site-search-card" href="/zones/music/#showroom" data-search-category="highlights" data-title="music photo stack cassette discman burned cd-r mixtape trl winamp" data-tags="music objects sourced photos physical media mp3 drift discman cassette burner era">
-          <span>HIGHLIGHT</span>
-          <h3>Music: mixtape photo stack</h3>
-          <p>Open the rebuilt music room for sourced cassette, Discman, and burned-CD visuals plus a tighter route from mall-CD shopping to Napster-era file drift.</p>
+        <a class="chart-year-card ready site-search-card" href="/tours/before-the-feed/"
+          data-search-category="tours" data-record-type="tour"
+          data-title="before the feed: how the web became personal" data-tags="tour web mosaic geocities aim search">
+          <span>TOUR</span>
+          <h3>Before the Feed: How the Web Became Personal</h3>
+          <p>A six-stop, ten-minute tour from the shared family computer to screen names, portals, and search.</p>
         </a>
-
-        <a class="chart-year-card ready site-search-card" href="/timeline/1990/#news-desk" data-search-category="highlights" data-title="1990 hinge year news desk mandela reunification hubble kuwait crisis twin peaks windows 3.0 vhs" data-tags="headline layer early decade desktop future world shift analog room sourced visuals">
-          <span>HIGHLIGHT</span>
-          <h3>1990: hinge-year headline desk</h3>
-          <p>Open the upgraded 1990 route where Mandela's release, German reunification, Hubble, and the Kuwait crisis now sit beside Twin Peaks, Windows 3.0, VHS texture, and the room-before-the-web mood.</p>
+        <a class="chart-year-card ready site-search-card" href="/zones/fashion/"
+          data-search-category="zones" data-record-type="route"
+          data-title="fashion" data-tags="90s a and catalog collectible dreams fashion feel for grunge land layers made mall museum objects rat rave">
+          <span>ROUTE</span>
+          <h3>Fashion</h3>
+          <p>A 90s.land fashion museum room for mall-rat uniforms, grunge layers, rave shine, catalog dreams, and the objects that made 90s style feel social and collectible.</p>
         </a>
-        <a class="chart-year-card ready site-search-card" href="/timeline/1991/#news-desk" data-search-category="highlights" data-title="1991 analog digital desk gulf war rodney king first website soviet collapse nicktoons sonic nevermind" data-tags="headline layer analog digital split grunge breakthrough couch wars first website sourced visuals">
-          <span>HIGHLIGHT</span>
-          <h3>1991: analog-to-digital headline desk</h3>
-          <p>Open the rebuilt 1991 route where Gulf War TV glow, Rodney King, the first website, and the Soviet collapse sit beside Nicktoons, Sonic, mixtapes, and grunge spillover.</p>
+        <a class="chart-year-card ready site-search-card" href="/zones/games/"
+          data-search-category="zones" data-record-type="route"
+          data-title="games" data-tags="90s a and arcade co controller faster for games guide labeled lan land launchpads museum night nostalgia objects">
+          <span>ROUTE</span>
+          <h3>Games</h3>
+          <p>A 90s.land games museum room with sourced arcade and controller visuals, a faster co-op path, labeled objects, and launchpads for rental-weekend, strategy-guide, and LAN-night nostalgia.</p>
         </a>
-        <a class="chart-year-card ready site-search-card" href="/timeline/1990/#news-desk" data-search-category="years" data-title="1990 decade boots up twin peaks fresh prince windows 3.0 hubble launch mandela reunification kuwait news desk" data-tags="early decade desktop future VHS cassette controller showroom headline layer">
-          <span>YEAR</span>
-          <h3>1990: The decade boots up</h3>
-          <p>Now also carries a stronger 1990 news desk — Mandela's release, German reunification, Hubble, and the Kuwait crisis sit beside the Windows 3.0 / Twin Peaks / VHS hinge-year flow.</p>
+        <a class="chart-year-card ready site-search-card" href="/zones/internet-culture/"
+          data-search-category="zones" data-record-type="route"
+          data-title="internet culture" data-tags="90s a and artifacts aware browser cleaner culture era geocities guestbooks handmade internet land launchpads media nostalgia rebuilt">
+          <span>ROUTE</span>
+          <h3>Internet Culture</h3>
+          <p>A rebuilt 90s.land Internet Culture room with handmade-web artifacts, source-aware media launchpads, and cleaner routes through GeoCities, guestbooks, webrings, and browser-era nostalgia.</p>
         </a>
-        <a class="chart-year-card ready site-search-card" href="/timeline/1991/#news-desk" data-search-category="years" data-title="1991 nevermind sonic linux street fighter ii grunge first website gulf war rodney king soviet union news desk" data-tags="flannel genesis alternative breakthrough crt cassette web doorway headline layer analog digital split">
-          <span>YEAR</span>
-          <h3>1991: Nevermind the old rules</h3>
-          <p>Now carries a stronger 1991 news desk too — Gulf War TV glow, Rodney King, the first website, and the Soviet collapse sit beside the Nicktoons / Sonic / Nevermind month flow.</p>
+        <a class="chart-year-card ready site-search-card" href="/zones/music/"
+          data-search-category="zones" data-record-type="route"
+          data-title="music zone" data-tags="90s a and burned cassette cd charts discman labels land launchpads media mixtape museum music object plus radio">
+          <span>ROUTE</span>
+          <h3>Music zone</h3>
+          <p>A 90s.land music museum room with sourced cassette, Discman, and burned-CD visuals plus mixtape routes, object labels, radio charts, and media launchpads.</p>
         </a>
-        <a class="chart-year-card ready site-search-card" href="/timeline/1992/#photo-showroom" data-search-category="years" data-title="1992 windows 3.1 cartoon network batman mortal kombat chronic photo stack news desk" data-tags="arcade panic cable cartoons dream team controller showroom headline layer">
-          <span>YEAR</span>
-          <h3>1992: Cable, cartoons, cartridges</h3>
-          <p>Now opens with Windows 3.1, arcade-cabinet, controller, and Cartoon Network visual proof before the SNICK / Batman / Dream Team month flow and a new 1992 news desk.</p>
+        <a class="chart-year-card ready site-search-card" href="/zones/tech-toys/"
+          data-search-category="zones" data-record-type="route"
+          data-title="tech / toys" data-tags="90s a and aol browsing clearer disc domestic family faster first future land nostalgia object pager pc rebuilt">
+          <span>ROUTE</span>
+          <h3>Tech / Toys</h3>
+          <p>A rebuilt 90s.land Tech / Toys room with sourced family-PC, AOL-disc, and pager visuals, faster object-first browsing, and clearer routes through domestic-future nostalgia.</p>
         </a>
-        <a class="chart-year-card ready site-search-card" href="/timeline/1993/#news-desk" data-search-category="years" data-title="1993 mosaic cern jurassic park x-files myst doom wu-tang news desk waco oslo wtc" data-tags="browser dawn cd-rom portals sourced visuals headline layer">
-          <span>YEAR</span>
-          <h3>1993: The web gets a front door</h3>
-          <p>Now also carries a real 1993 news desk — WTC, Waco, Oslo, and Europe's reshuffle — alongside sourced browser, shareware, controller, and VHS proof so the year feels tactile and historically awake.</p>
+        <a class="chart-year-card ready site-search-card" href="/zones/transparent-tech/"
+          data-search-category="zones" data-record-type="route"
+          data-title="transparent tech" data-tags="90s a and boys clear controllers culture dedicated design for game imacs jelly labels land late launchpads media">
+          <span>ROUTE</span>
+          <h3>Transparent Tech</h3>
+          <p>A dedicated 90s.land Transparent Tech room with sourced photos, object labels, and media launchpads for translucent iMacs, clear Game Boys, controllers, jelly phones, and see-through late-90s design culture.</p>
         </a>
-        <a class="chart-year-card ready site-search-card" href="/timeline/1994/#photo-showroom" data-search-category="years" data-title="1994 netscape yahoo friends pulp fiction dook ie illmatic homepages photo stack" data-tags="homepage era early web sitcom culture desktop browser">
-          <span>YEAR</span>
-          <h3>1994: Homepages begin</h3>
-          <p>Open the homepage-era year for browser-desktop proof, Friends couch glow, late-1994 PlayStation mood, and the month-by-month path behind them.</p>
+        <a class="chart-year-card ready site-search-card" href="/zones/tv-movies/"
+          data-search-category="zones" data-record-type="route"
+          data-title="tv / movies zone" data-tags="1990s 90s a and blockbuster channel crt culture for labels land launchpads media movies museum object paths plus">
+          <span>ROUTE</span>
+          <h3>TV / Movies zone</h3>
+          <p>A 90s.land TV and movies museum room with sourced CRT, VHS, and Blockbuster visuals plus channel-surf paths, object labels, and media launchpads for 1990s screen culture.</p>
         </a>
-        <a class="chart-year-card ready site-search-card" href="/timeline/1995/#photo-showroom" data-search-category="years" data-title="1995 windows 95 netscape amazon ebay playstation toy story photo stack" data-tags="browser wars family pc online shopping visuals">
-          <span>YEAR</span>
-          <h3>1995: Start me up</h3>
-          <p>The strongest mid-decade “future arrives” route on the site now opens with real 1995 visual proof before the month-by-month launch-year story.</p>
+        <a class="chart-year-card ready site-search-card" href="/zones/tech-toys/#artifact-family-pc"
+          data-search-category="objects" data-record-type="artifact"
+          data-title="the family computer becomes a portal" data-tags="computer home internet tech-toys 1995–1999">
+          <span>ARTIFACT</span>
+          <h3>The family computer becomes a portal</h3>
+          <p>The future arrived in a shared room, surrounded by homework, mouse pads, and a phone line everyone needed.</p>
         </a>
-        <a class="chart-year-card ready site-search-card" href="/timeline/1996/#news-desk" data-search-category="years" data-title="1996 pokemon nintendo 64 geocities icq scream macarena tamagotchi aol discs vhs july news desk hotmail olympics" data-tags="web counters collectible chaos summer 1996 sourced visuals social desktop real-time news">
-          <span>YEAR</span>
-          <h3>1996: Pocket monsters and web counters</h3>
-          <p>Now also carries a July 1996 news desk — Hotmail launch, Olympic spectacle, TWA Flight 800, and the Olympic Park bombing — alongside the sourced N64 / AOL / VHS room-proof opening.</p>
+        <a class="chart-year-card ready site-search-card" href="/timeline/1990/#artifact-windows-3"
+          data-search-category="objects" data-record-type="artifact"
+          data-title="windows 3.0 program manager" data-tags="windows software desktop timeline 1990">
+          <span>ARTIFACT</span>
+          <h3>Windows 3.0 Program Manager</h3>
+          <p>Colorful icons made the family PC feel less like office machinery and more like something worth exploring.</p>
         </a>
-        <a class="chart-year-card ready site-search-card" href="/timeline/1997/#photo-showroom" data-search-category="years" data-title="1997 aim buffy south park final fantasy vii titanic goldeneye photo stack" data-tags="buddy list collector mania blockbuster year sourced photos aol playstation">
-          <span>YEAR</span>
-          <h3>1997: Handles, hype, and huge screen glow</h3>
-          <p>Now opens with sourced AOL, PlayStation, and Blockbuster visuals so the year feels tactile before you hit the month cards and chart rabbit holes.</p>
+        <a class="chart-year-card ready site-search-card" href="/timeline/1991/#artifact-first-website"
+          data-search-category="objects" data-record-type="artifact"
+          data-title="the first world wide web site" data-tags="web cern hypertext internet-culture 1991">
+          <span>ARTIFACT</span>
+          <h3>The first World Wide Web site</h3>
+          <p>The first site looks almost modest: text, blue links, and an explanation of what the web is supposed to be.</p>
         </a>
-        <a class="chart-year-card ready site-search-card" href="/timeline/1998/#photo-showroom" data-search-category="years" data-title="1998 google trl imac pokemon ocarina furby mp3 photo stack" data-tags="kid internet translucent plastic countdown TV sourced imagery">
-          <span>YEAR</span>
-          <h3>1998: Search, slime, translucent plastic</h3>
-          <p>Late-decade kid internet, pop countdowns, candy-colored hardware energy, and a sourced photo stack that makes the year easier to feel fast.</p>
+        <a class="chart-year-card ready site-search-card" href="/timeline/1993/#artifact-mosaic-browser"
+          data-search-category="objects" data-record-type="artifact"
+          data-title="ncsa mosaic browser" data-tags="mosaic browser web internet-culture 1993">
+          <span>ARTIFACT</span>
+          <h3>NCSA Mosaic browser</h3>
+          <p>Gray chrome and inline images made the web feel like a navigable place rather than a technical rumor.</p>
         </a>
-        <a class="chart-year-card ready site-search-card" href="/timeline/1999/#photo-showroom" data-search-category="years" data-title="1999 napster matrix dreamcast spongebob y2k blair witch photo stack" data-tags="millennium countdown future panic dreamcast cd-r photos">
-          <span>YEAR</span>
-          <h3>1999: Party like the clock might break</h3>
-          <p>Now opens with sourced Dreamcast, CD-R, and Y2K-response visuals so the decade-ending route feels tactile before the month cards kick in.</p>
+        <a class="chart-year-card ready site-search-card" href="/zones/internet-culture/#artifact-geocities-homepage"
+          data-search-category="objects" data-record-type="artifact"
+          data-title="handmade geocities homepage" data-tags="geocities homepage personal web internet-culture 1994–1998">
+          <span>ARTIFACT</span>
+          <h3>Handmade GeoCities homepage</h3>
+          <p>Tiled stars, a loud title, and an under-construction badge made the page feel visibly owned.</p>
         </a>
-
-        <a class="chart-year-card ready site-search-card" href="/zones/internet-culture/#artifact-atlas" data-search-category="zones" data-title="internet culture geocities guestbooks webrings surf path handmade web artifact atlas media desk" data-tags="old web browse view source counters object shelf">
-          <span>ZONE</span>
-          <h3>Internet Culture: object atlas + surf path</h3>
-          <p>The rebuilt old-web room now combines guided surfing with labeled artifacts, glossary help, and a stronger media desk for deeper browsing.</p>
+        <a class="chart-year-card ready site-search-card" href="/zones/internet-culture/#artifact-visitor-counter"
+          data-search-category="objects" data-record-type="artifact"
+          data-title="six-digit visitor counter" data-tags="counter homepage audience internet-culture 1994–1999">
+          <span>ARTIFACT</span>
+          <h3>Six-digit visitor counter</h3>
+          <p>The number was tiny, public, and exciting precisely because each visit still felt like a person.</p>
         </a>
-        <a class="chart-year-card ready site-search-card" href="/zones/music/#showroom" data-search-category="zones" data-title="music mixtape cassette discman trl rave flyers winamp discogs chart dial photo stack" data-tags="radio CDs mp3s listening path music objects sourced photos">
-          <span>ZONE</span>
-          <h3>Music: photo stack + radio dial</h3>
-          <p>Mixtapes, cassettes, Discman carry, TRL countdowns, scene flyers, and the file-sharing cliff in one tighter room.</p>
-        </a>
-        <a class="chart-year-card ready site-search-card" href="/zones/games/#photo-showroom" data-search-category="zones" data-title="games nintendo sega playstation arcades lan parties cheat codes rental cartridge photo stack" data-tags="console wars shareware pc arcade co-op path sourced visuals">
-          <span>ZONE</span>
-          <h3>Games: photo stack + co-op path</h3>
-          <p>Arcade glow, rental weekends, couch chaos, cheat-code folklore, and the LAN-night bridge to the next era — now with real hardware visuals up front.</p>
-        </a>
-        <a class="chart-year-card ready site-search-card" href="/zones/tv-movies/#photo-showroom" data-search-category="zones" data-title="tv movies blockbuster nickelodeon tgif channel surf vhs crt photo stack" data-tags="cable trailers cartoons rewinds sourced visuals">
-          <span>ZONE</span>
-          <h3>TV/Movies: photo stack + channel-surf path</h3>
-          <p>Appointment TV, VHS stacks, Blockbuster nights, trailer-voice hype, and a visual-first route that feels faster to browse than the old text wall.</p>
-        </a>
-        <a class="chart-year-card ready site-search-card" href="/zones/tech-toys/#photo-showroom" data-search-category="zones" data-title="tech toys windows 95 pagers tamagotchi beanie babies aol family pc photo stack media desk" data-tags="family pc gadgets toy shelf backpack future sourced visuals">
-          <span>ZONE</span>
-          <h3>Tech/Toys: photo stack + object case</h3>
-          <p>Family PCs, AOL discs, pagers, Tamagotchi, collector logic, and translucent gadget culture in a deeper room that now feels visual before it feels archival.</p>
-        </a>
-        <a class="chart-year-card ready site-search-card" href="/zones/fashion/#style-path" data-search-category="zones" data-title="fashion flannel butterfly clips rave mall style object closet delias y2k" data-tags="outfits trends mallrat catalog scene spillover">
-          <span>ZONE</span>
-          <h3>Fashion: style path + object closet</h3>
-          <p>Flannel, butterfly clips, catalog dreamboards, rave nylon, mall uniforms, and late-90s shine in a fuller museum room.</p>
-        </a>
-        <a class="chart-year-card ready site-search-card" href="/zones/transparent-tech/#showroom" data-search-category="zones" data-title="transparent tech clear shell bondi blue imac atomic purple game boy jelly phone photo room" data-tags="translucent gadgets design culture media desk sourced photos">
-          <span>ZONE</span>
-          <h3>Transparent Tech: photo showroom + fast read</h3>
-          <p>Bondi blue iMacs, Atomic Purple handhelds, translucent controllers, clear phones, and a quicker explanation of how the clear-shell future escaped the computer desk.</p>
-        </a>
-
-        <a class="chart-year-card ready site-search-card" href="/timeline/1995/#month-aug" data-search-category="objects" data-title="windows 95 box start menu install future family pc object" data-tags="computer box shrinkwrap beige desktop august 1995">
-          <span>OBJECT</span>
-          <h3>Windows 95 box on the family computer desk</h3>
-          <p>The moment the PC stops feeling like office furniture and starts feeling like a retail event you bring home in a giant bright box.</p>
-        </a>
-        <a class="chart-year-card ready site-search-card" href="/zones/tech-toys/#object-display" data-search-category="objects" data-title="aol trial disc mailer pile keyword internet sign up object" data-tags="cd-rom free hours modem setup wizard tech toys">
-          <span>OBJECT</span>
-          <h3>AOL trial disc from the mailer pile</h3>
-          <p>The free shiny invitation that made the web feel close enough to touch, install, and accidentally tie up the phone line.</p>
-        </a>
-        <a class="chart-year-card ready site-search-card" href="/timeline/1996/#museum-objects" data-search-category="objects" data-title="guestbook six handles typo web object homepage proof of life" data-tags="internet social web geocities personal page sign here">
-          <span>OBJECT</span>
+        <a class="chart-year-card ready site-search-card" href="/zones/internet-culture/#artifact-guestbook"
+          data-search-category="objects" data-record-type="artifact"
+          data-title="guestbook with six handles and one typo" data-tags="guestbook community handles internet-culture 1994–1999">
+          <span>ARTIFACT</span>
           <h3>Guestbook with six handles and one typo</h3>
-          <p>A tiny proof that the web is no longer abstract — somebody was here, signed the page, and left the room feeling inhabited.</p>
+          <p>Names, timestamps, and one misspelling could make a personal page feel occupied.</p>
         </a>
-        <a class="chart-year-card ready site-search-card" href="/zones/games/#game-artifacts" data-search-category="objects" data-title="memory card fading marker controller object playstation save file" data-tags="game save portable progress backpack couch multiplayer">
-          <span>OBJECT</span>
-          <h3>Memory card labeled in fading marker</h3>
-          <p>Saves become possessions. Progress starts traveling between houses, sleepovers, and one borrowed controller with a busted shoulder button.</p>
+        <a class="chart-year-card ready site-search-card" href="/zones/internet-culture/#artifact-webring-bar"
+          data-search-category="objects" data-record-type="artifact"
+          data-title="previous / random / next webring bar" data-tags="webring navigation discovery internet-culture 1995–1999">
+          <span>ARTIFACT</span>
+          <h3>Previous / random / next Webring bar</h3>
+          <p>A small navigation strip let one strange site vouch for the next.</p>
         </a>
-        <a class="chart-year-card ready site-search-card" href="/zones/tv-movies/#screen-artifacts" data-search-category="objects" data-title="tv guide circles night plan schedule object couch tv" data-tags="appointment viewing sitcom fridge magnet family room">
-          <span>OBJECT</span>
-          <h3>TV Guide page with circles around the night plan</h3>
-          <p>A household algorithm drawn in pen: one sitcom, one movie, one awards show, and a hard deadline to be near the couch.</p>
+        <a class="chart-year-card ready site-search-card" href="/zones/internet-culture/#artifact-aim-away-message"
+          data-search-category="objects" data-record-type="artifact"
+          data-title="aim away message" data-tags="aim screen name messaging internet-culture 1997–1999">
+          <span>ARTIFACT</span>
+          <h3>AIM away message</h3>
+          <p>One dramatic lyric, an ASCII heart, and a carefully chosen screen name could carry an entire mood.</p>
         </a>
-        <a class="chart-year-card ready site-search-card" href="/zones/tv-movies/#screen-artifacts" data-search-category="objects" data-title="vhs tape handwritten spine commercials left in object" data-tags="recorded off tv ads please rewind tape wobble">
-          <span>OBJECT</span>
-          <h3>VHS tape with a handwritten spine and two ads left in</h3>
-          <p>The wrapper matters as much as the show: station IDs, toy commercials, and accidental local texture preserved because nobody hit pause fast enough.</p>
+        <a class="chart-year-card ready site-search-card" href="/zones/internet-culture/#artifact-yahoo-directory"
+          data-search-category="objects" data-record-type="artifact"
+          data-title="hand-built yahoo directory" data-tags="yahoo directory search internet-culture 1994–1998">
+          <span>ARTIFACT</span>
+          <h3>Hand-built Yahoo directory</h3>
+          <p>Categories and subcategories made the expanding web feel browsable by subject.</p>
         </a>
-        <a class="chart-year-card ready site-search-card" href="/timeline/1996/#museum-objects" data-search-category="objects" data-title="nintendo 64 controller carpet three prong object" data-tags="living room floor analog stick 3d couch turn waiting">
-          <span>OBJECT</span>
-          <h3>Three-prong Nintendo 64 controller on the carpet</h3>
-          <p>The 3D future arrives as a weird grip debate, a tangled controller cord, and a living-room floor full of waiting turns.</p>
+        <a class="chart-year-card ready site-search-card" href="/zones/tech-toys/#artifact-aol-cd"
+          data-search-category="objects" data-record-type="artifact"
+          data-title="aol promotional cd" data-tags="aol dial-up cd-rom tech-toys 1995–1999">
+          <span>ARTIFACT</span>
+          <h3>AOL promotional CD</h3>
+          <p>Bright trial discs promised free hours and a setup wizard while quietly taking over the family phone line.</p>
         </a>
-        <a class="chart-year-card ready site-search-card" href="/zones/internet-culture/#artifact-atlas" data-search-category="objects" data-title="geocities homepage tiled background under construction counter object" data-tags="old web handmade page glitter neighborhood home page visitor counter">
-          <span>OBJECT</span>
-          <h3>GeoCities homepage with a tiled background and visitor counter</h3>
-          <p>The classic handmade room: part diary, part shrine, part neighborhood sign that proves the old web was built out of personal obsession.</p>
+        <a class="chart-year-card ready site-search-card" href="/timeline/1995/#artifact-windows-95-start"
+          data-search-category="objects" data-record-type="artifact"
+          data-title="windows 95 start button" data-tags="windows 95 start button desktop timeline 1995">
+          <span>ARTIFACT</span>
+          <h3>Windows 95 Start button</h3>
+          <p>The new button gave the desktop a friendly, memorable center.</p>
         </a>
-        <a class="chart-year-card ready site-search-card" href="/timeline/1996/#museum-objects" data-search-category="objects" data-title="tamagotchi beeping class pocket pet object" data-tags="school contraband digital pet care loop keychain panic">
-          <span>OBJECT</span>
-          <h3>Tamagotchi beeping in the middle of math</h3>
-          <p>A needy future object clipped to a backpack: half toy, half lifestyle negotiation, fully capable of derailing class for one tiny beep.</p>
+        <a class="chart-year-card ready site-search-card" href="/zones/tech-toys/#artifact-pager"
+          data-search-category="objects" data-record-type="artifact"
+          data-title="motorola pager" data-tags="pager communication portable tech-toys 1992–1998">
+          <span>ARTIFACT</span>
+          <h3>Motorola pager</h3>
+          <p>The tiny display mattered less than the feeling that a message could come find you.</p>
         </a>
-        <a class="chart-year-card ready site-search-card" href="/timeline/1995/#month-sep" data-search-category="objects" data-title="playstation longbox game september 1995 object" data-tags="polygon cool retail launch disc case console future">
-          <span>OBJECT</span>
-          <h3>PlayStation longbox leaning against the TV</h3>
-          <p>The packaging alone says the mood has changed: sleeker, cooler, more CD-shaped, and pointed straight at the decade’s cinematic game future.</p>
+        <a class="chart-year-card ready site-search-card" href="/zones/music/#artifact-cassette"
+          data-search-category="objects" data-record-type="artifact"
+          data-title="mixtape cassette" data-tags="cassette mixtape radio music 1990–1997">
+          <span>ARTIFACT</span>
+          <h3>Mixtape cassette</h3>
+          <p>Pause-button edits and handwritten track lists made every tape a small act of authorship.</p>
         </a>
-        <a class="chart-year-card ready site-search-card" href="/zones/music/#mixtape-path" data-search-category="objects" data-title="cd longbox record store bin object music" data-tags="jewel case listening station mall cds liner notes hidden track">
-          <span>OBJECT</span>
-          <h3>CD longbox from the record-store bin</h3>
-          <p>An awkward retail artifact that still captures peak 90s music shopping: stickers, liner-note promise, and a full identity purchase in shrinkwrap.</p>
+        <a class="chart-year-card ready site-search-card" href="/zones/music/#artifact-discman"
+          data-search-category="objects" data-record-type="artifact"
+          data-title="sony discman" data-tags="discman cd portable music 1990–1999">
+          <span>ARTIFACT</span>
+          <h3>Sony Discman</h3>
+          <p>A careful walk, a pocket full of jewel cases, and anti-skip optimism created a personal soundtrack outside the house.</p>
         </a>
-        <a class="chart-year-card ready site-search-card" href="/zones/music/#object-cassette" data-search-category="objects" data-title="cassette tape mixtape j-card object music" data-tags="handwritten tracklist tape hiss boombox glovebox dubbing">
-          <span>OBJECT</span>
-          <h3>Mixtape with a handwritten J-card</h3>
-          <p>The tape that made curation feel handmade: radio timing, crossed-out track names, and the social meaning of giving someone side A and side B.</p>
+        <a class="chart-year-card ready site-search-card" href="/zones/music/#artifact-cdr-spindle"
+          data-search-category="objects" data-record-type="artifact"
+          data-title="blank cd-r spindle" data-tags="cd-r burned cd mp3 music 1997–1999">
+          <span>ARTIFACT</span>
+          <h3>Blank CD-R spindle</h3>
+          <p>The rainbow discs waited to become a summer mix, a backup, or a folder of badly labeled MP3s.</p>
         </a>
-        <a class="chart-year-card ready site-search-card" href="/zones/music/#object-discman" data-search-category="objects" data-title="discman portable cd player object music" data-tags="bus ride anti skip headphones backpack portable soundtrack">
-          <span>OBJECT</span>
-          <h3>Discman balanced so it would not skip</h3>
-          <p>Your private soundtrack becomes visible tech: batteries, zipper cases, and the exact stack of CDs you carried outside the house.</p>
+        <a class="chart-year-card ready site-search-card" href="/zones/tv-movies/#artifact-vhs-tape"
+          data-search-category="objects" data-record-type="artifact"
+          data-title="vhs videocassette" data-tags="vhs rental recording tv-movies 1990–1999">
+          <span>ARTIFACT</span>
+          <h3>VHS videocassette</h3>
+          <p>Handwritten labels, recorded commercials, trailers, and rewinding arguments lived inside the same plastic shell.</p>
         </a>
-        <a class="chart-year-card ready site-search-card" href="/zones/music/#object-cdr" data-search-category="objects" data-title="blank cd-r spindle burned mix object music" data-tags="cd burner mp3 folder sharpie mix disc stack file sharing">
-          <span>OBJECT</span>
-          <h3>Blank CD-R spindle before the summer burn session</h3>
-          <p>The quiet format-shift prop that turned a family PC into a mixtape factory and pushed music from shelves toward folders.</p>
+        <a class="chart-year-card ready site-search-card" href="/zones/tv-movies/#artifact-crt-television"
+          data-search-category="objects" data-record-type="artifact"
+          data-title="living-room crt television" data-tags="crt television shared screen tv-movies 1990–1999">
+          <span>ARTIFACT</span>
+          <h3>Living-room CRT television</h3>
+          <p>Cartoons, sitcoms, local ads, and half-finished movies all arrived through one household object.</p>
         </a>
-        <a class="chart-year-card ready site-search-card" href="/zones/tv-movies/#screen-artifacts" data-search-category="objects" data-title="blockbuster case late fee receipt object movie night" data-tags="rental aisle fluorescent cover art friday night rewind">
-          <span>OBJECT</span>
-          <h3>Blockbuster case with a late-fee receipt inside</h3>
-          <p>The whole ritual in one prop: fluorescent aisles, box-art decision making, and the low-grade panic of hoping the new release is still there.</p>
+        <a class="chart-year-card ready site-search-card" href="/zones/tv-movies/#artifact-blockbuster-store"
+          data-search-category="objects" data-record-type="artifact"
+          data-title="blockbuster storefront" data-tags="blockbuster rental movie night tv-movies 1990–1999">
+          <span>ARTIFACT</span>
+          <h3>Blockbuster storefront</h3>
+          <p>The glowing sign began a group negotiation conducted through box art and one-copy-left panic.</p>
         </a>
-        <a class="chart-year-card ready site-search-card" href="/zones/games/#game-artifacts" data-search-category="objects" data-title="strategy guide folded map object cheat code rumor" data-tags="guidebook schoolyard myth glossy pages margin notes secret character">
-          <span>OBJECT</span>
-          <h3>Strategy guide with creased corners and a folded map</h3>
-          <p>Before instant answers, discovery lived in glossy pages, dog-eared secrets, and whatever rumor sounded real enough to test after school.</p>
+        <a class="chart-year-card ready site-search-card" href="/zones/games/#artifact-arcade-cabinet"
+          data-search-category="objects" data-record-type="artifact"
+          data-title="arcade cabinet" data-tags="arcade cabinet quarters games 1990–1999">
+          <span>ARTIFACT</span>
+          <h3>Arcade cabinet</h3>
+          <p>Attract-mode audio, quarter stacks, and spectators made the machine a small public stage.</p>
         </a>
-        <a class="chart-year-card ready site-search-card" href="/zones/internet-culture/#artifact-atlas" data-search-category="objects" data-title="webring bar previous next random arrows object navigation human links" data-tags="old web discovery buttons link trail handmade navigation">
-          <span>OBJECT</span>
-          <h3>Webring bar with previous / next / random arrows</h3>
-          <p>The little navigation strip that made discovery feel like following another human's chain of endorsements instead of trusting an invisible ranking system.</p>
+        <a class="chart-year-card ready site-search-card" href="/zones/games/#artifact-genesis-controller"
+          data-search-category="objects" data-record-type="artifact"
+          data-title="sega genesis six-button controller" data-tags="sega genesis controller games 1993–1999">
+          <span>ARTIFACT</span>
+          <h3>Sega Genesis six-button controller</h3>
+          <p>The pad carried fighting-game technique, sports-game trash talk, and console loyalty.</p>
         </a>
-        <a class="chart-year-card ready site-search-card" href="/zones/internet-culture/#artifact-atlas" data-search-category="objects" data-title="aim away message profile ascii heart object internet culture" data-tags="screen name status profile after school chat identity">
-          <span>OBJECT</span>
-          <h3>AIM away message with one dramatic lyric and an ASCII heart</h3>
-          <p>Status text before feeds: half social clue, half personality flare, fully part of late-90s online identity.</p>
+        <a class="chart-year-card ready site-search-card" href="/zones/games/#artifact-n64-controller"
+          data-search-category="objects" data-record-type="artifact"
+          data-title="gray nintendo 64 controller" data-tags="nintendo 64 controller multiplayer games 1996–1999">
+          <span>ARTIFACT</span>
+          <h3>Gray Nintendo 64 controller</h3>
+          <p>Its odd shape and analog stick announced that 3D games would need a different kind of touch.</p>
         </a>
-        <a class="chart-year-card ready site-search-card" href="/zones/tech-toys/#object-display" data-search-category="objects" data-title="encarta cd rom jewel case object family pc encyclopedia" data-tags="software disc learning multimedia home computer desk">
-          <span>OBJECT</span>
-          <h3>Encarta CD-ROM in a jewel case with one fingerprint on the label</h3>
-          <p>The family PC becomes a portal because learning, wandering, and multimedia discovery all live on the same desk before the web fully takes over.</p>
+        <a class="chart-year-card ready site-search-card" href="/timeline/1994/#artifact-playstation-hardware"
+          data-search-category="objects" data-record-type="artifact"
+          data-title="original playstation hardware" data-tags="playstation cd-rom console games 1994–1999">
+          <span>ARTIFACT</span>
+          <h3>Original PlayStation hardware</h3>
+          <p>Gray hardware, CDs, and memory cards made the next console era feel sleek and cinematic.</p>
         </a>
-        <a class="chart-year-card ready site-search-card" href="/zones/tech-toys/#object-display" data-search-category="objects" data-title="pager clipped belt backpack object beeper tech toys" data-tags="portable signal social status number code future beep">
-          <span>OBJECT</span>
-          <h3>Pager clipped where everybody could see it</h3>
-          <p>A tiny future object that doubled as communication tool and status flex: the decade learning to make urgency portable.</p>
+        <a class="chart-year-card ready site-search-card" href="/zones/transparent-tech/#artifact-bondi-imac"
+          data-search-category="objects" data-record-type="artifact"
+          data-title="bondi blue imac g3" data-tags="imac apple transparent transparent-tech 1998–1999">
+          <span>ARTIFACT</span>
+          <h3>Bondi blue iMac G3</h3>
+          <p>The rounded translucent shell replaced beige utility with color, friendliness, and visible personality.</p>
         </a>
-        <a class="chart-year-card ready site-search-card" href="/zones/fashion/#style-objects" data-search-category="objects" data-title="butterfly clips zip pouch object fashion mall girl accessory" data-tags="hair clips school bathroom mirror backpack style swap">
-          <span>OBJECT</span>
-          <h3>Butterfly-clip stash in a cloudy zip pouch</h3>
-          <p>The tiny colorful accessory cache that made style feel portable, collectible, and easy to trade between classes.</p>
+        <a class="chart-year-card ready site-search-card" href="/timeline/1999/#artifact-dreamcast"
+          data-search-category="objects" data-record-type="artifact"
+          data-title="sega dreamcast" data-tags="dreamcast sega modem games 1999">
+          <span>ARTIFACT</span>
+          <h3>Sega Dreamcast</h3>
+          <p>The white hardware and VMU made the last year of the decade feel connected, arcade-bright, and slightly ahead of schedule.</p>
         </a>
-        <a class="chart-year-card ready site-search-card" href="/zones/fashion/#style-objects" data-search-category="objects" data-title="delias catalog folded page object fashion wish book silver pants" data-tags="mail order catalog teen room dreamboard page fold shopping">
-          <span>OBJECT</span>
-          <h3>Delia's catalog page folded to the silver-pants spread</h3>
-          <p>A mail-order mood board with pen circles and turned corners — style discovery before feeds flattened the browse.</p>
+        <a class="chart-year-card ready site-search-card" href="/timeline/1999/#artifact-y2k-office"
+          data-search-category="objects" data-record-type="artifact"
+          data-title="y2k response office" data-tags="y2k millennium infrastructure timeline 1999">
+          <span>ARTIFACT</span>
+          <h3>Y2K response office</h3>
+          <p>Rows of screens and response teams turned a date change into nightly-news suspense.</p>
         </a>
-        <a class="chart-year-card ready site-search-card" href="/zones/fashion/#style-objects" data-search-category="objects" data-title="silver mini backpack object y2k fashion chrome mall" data-tags="nylon shine future accessory late 90s club pop">
-          <span>OBJECT</span>
-          <h3>Silver mini-backpack hanging by the door</h3>
-          <p>The late-90s future condensed into one shiny object: impractical, social, and perfectly tuned for Y2K fashion mood.</p>
+        <a class="chart-year-card ready site-search-card" href="/timeline/1990/#artifact-hubble-launch"
+          data-search-category="objects" data-record-type="artifact"
+          data-title="hubble launch" data-tags="hubble nasa space timeline 1990">
+          <span>ARTIFACT</span>
+          <h3>Hubble launch</h3>
+          <p>The image belongs beside mall radio and VHS precisely because it shows how large the decade&#x27;s opening horizon felt.</p>
         </a>
-        <a class="chart-year-card ready site-search-card" href="/zones/transparent-tech/#objects" data-search-category="objects" data-title="bondi blue imac transparent computer object clear shell handle 1998" data-tags="translucent desktop internet decor family room future">
-          <span>OBJECT</span>
-          <h3>Bondi blue iMac with the carry handle in plain sight</h3>
-          <p>The home computer stops hiding and starts acting like a room-defining object with mood, color, and internet confidence.</p>
+        <a class="chart-year-card ready site-search-card" href="/timeline/1993/#artifact-doom-disks"
+          data-search-category="objects" data-record-type="artifact"
+          data-title="doom shareware disks" data-tags="doom shareware floppy games 1993">
+          <span>ARTIFACT</span>
+          <h3>Doom shareware disks</h3>
+          <p>The disks capture the after-hours secret life of the family computer better than a clean screenshot can.</p>
         </a>
-        <a class="chart-year-card ready site-search-card" href="/zones/transparent-tech/#objects" data-search-category="objects" data-title="atomic purple game boy color transparent object translucent handheld backpack" data-tags="clear shell handheld schoolyard portable flex batteries transparent">
-          <span>OBJECT</span>
-          <h3>Atomic Purple Game Boy Color in the backpack pocket</h3>
-          <p>The shell itself becomes part of the brag: a handheld that looked collectible before you even switched it on.</p>
+        <a class="chart-year-card ready site-search-card" href="/zones/transparent-tech/#artifact-game-boy-color"
+          data-search-category="objects" data-record-type="artifact"
+          data-title="atomic purple game boy color" data-tags="game boy color transparent handheld transparent-tech 1998–1999">
+          <span>ARTIFACT</span>
+          <h3>Atomic Purple Game Boy Color</h3>
+          <p>Visible circuitry and candy-colored plastic made the handheld itself part of the collection.</p>
         </a>
-        <a class="chart-year-card ready site-search-card" href="/zones/transparent-tech/#objects" data-search-category="objects" data-title="funtastic controller transparent translucent nintendo 64 object clear shell" data-tags="controller carpet multiplayer late 90s living room glow transparent">
-          <span>OBJECT</span>
-          <h3>Funtastic controller catching CRT light off the carpet</h3>
-          <p>By the end of the decade even the controller was a display piece, not just a tool for your next turn.</p>
+        <a class="chart-year-card ready site-search-card" href="/zones/transparent-tech/#artifact-transparent-n64-controller"
+          data-search-category="objects" data-record-type="artifact"
+          data-title="transparent purple n64 controller" data-tags="n64 transparent controller transparent-tech 1998–1999">
+          <span>ARTIFACT</span>
+          <h3>Transparent purple N64 controller</h3>
+          <p>A clear shell made even the controller on the carpet feel like room decor.</p>
         </a>
-        <a class="chart-year-card ready site-search-card" href="/zones/transparent-tech/#objects" data-search-category="objects" data-title="jelly phone transparent clear phone translucent cordless object bedroom kitchen" data-tags="see-through phone candy plastic landline room decor future transparent">
-          <span>OBJECT</span>
-          <h3>Jelly-plastic phone on the kitchen wall or bedroom table</h3>
-          <p>The clear-shell look escaped the computer store and reached the rest of the house, which is why the trend sticks in memory.</p>
+        <a class="chart-year-card ready site-search-card" href="https://web.archive.org/" target="_blank" rel="noopener noreferrer"
+          data-search-category="explore" data-record-type="archive"
+          data-title="wayback machine" data-tags="old web &amp; geocities web-preservation archive">
+          <span>ARCHIVE</span>
+          <h3>Wayback Machine</h3>
+          <p>The default first stop for recovering vanished 1990s pages, dead promotional microsites, and old personal homepages through URL and date-based captures.</p>
         </a>
-        <a class="chart-year-card ready site-search-card" href="/zones/transparent-tech/#showroom" data-search-category="objects" data-title="transparent tech clear shell trend object visible internals design culture" data-tags="late 90s design trend decor plastic translucent future">
-          <span>OBJECT</span>
-          <h3>Clear shell as a whole-room design mood</h3>
-          <p>Speakers, organizers, phones, and accessories all start matching the same translucent future logic.</p>
+        <a class="chart-year-card ready site-search-card" href="https://archive.org/" target="_blank" rel="noopener noreferrer"
+          data-search-category="explore" data-record-type="archive"
+          data-title="internet archive" data-tags="old web &amp; geocities archives archive">
+          <span>ARCHIVE</span>
+          <h3>Internet Archive</h3>
+          <p>The parent digital library behind the Wayback Machine and many of the best vintage media/software collections, useful as a broad discovery hub when you want more than websites alone.</p>
         </a>
-
-        <a class="chart-year-card ready site-search-card" href="/guestbook/" data-search-category="community" data-title="guestbook sign memory radio story nostalgia note" data-tags="community message handles">
-          <span>COMMUNITY</span>
-          <h3>Guestbook</h3>
-          <p>Drop a memory, a handle, a radio story, or a short note like it is still 1998.</p>
+        <a class="chart-year-card ready site-search-card" href="https://theoldnet.com/" target="_blank" rel="noopener noreferrer"
+          data-search-category="explore" data-record-type="recreation"
+          data-title="theoldnet" data-tags="old web &amp; geocities old-web recreation recreation">
+          <span>RECREATION</span>
+          <h3>TheOldNet</h3>
+          <p>A streamlined portal for accessing old internet archives with a deliberately old-web feel, good for people who want a more “period correct” browsing experience than the standard Wayback interface.</p>
         </a>
-        <a class="chart-year-card ready site-search-card" href="/sitemap/" data-search-category="community" data-title="sitemap directory routes navigation map where to start" data-tags="site map browse all folders">
-          <span>COMMUNITY</span>
-          <h3>Sitemap</h3>
-          <p>Use the full site map when you want the whole museum layout at a glance.</p>
+        <a class="chart-year-card ready site-search-card" href="https://oldweb.today/" target="_blank" rel="noopener noreferrer"
+          data-search-category="explore" data-record-type="recreation"
+          data-title="oldweb.today" data-tags="old web &amp; geocities web-preservation / browser emulation recreation">
+          <span>RECREATION</span>
+          <h3>oldweb.today</h3>
+          <p>Lets visitors replay archived sites through emulated historical browsers, which is especially useful if you want to show not just old pages but old rendering behavior.</p>
         </a>
-
-        <a class="chart-year-card ready site-search-card" href="/webring/" data-search-category="explore" data-title="explore webring resources old web archives nostalgia links" data-tags="directory curated outbound portals">
-          <span>EXPLORE</span>
-          <h3>Explore: full nostalgia directory</h3>
-          <p>All 78 curated outbound resources, archives, tools, communities, and preservation links.</p>
+        <a class="chart-year-card ready site-search-card" href="https://protoweb.org/" target="_blank" rel="noopener noreferrer"
+          data-search-category="explore" data-record-type="recreation"
+          data-title="protoweb" data-tags="old web &amp; geocities old-web recreation recreation">
+          <span>RECREATION</span>
+          <h3>ProtoWeb</h3>
+          <p>A community-driven service that hosts restored historical internet websites and is designed to demonstrate the early web, including on vintage computers.</p>
         </a>
-        <a class="chart-year-card ready site-search-card" href="/webring/?filter=old-web-geocities#directory" data-search-category="explore" data-title="old web geocities wiby oldweb today protoweb gifcities" data-tags="homepages webrings handmade sites">
-          <span>EXPLORE</span>
-          <h3>Old Web &amp; GeoCities shelf</h3>
-          <p>Use this filter when you want homepages, mirrors, archives, emulated browsers, and glitter-GIF archaeology.</p>
+        <a class="chart-year-card ready site-search-card" href="https://www.cameronsworld.net/" target="_blank" rel="noopener noreferrer"
+          data-search-category="explore" data-record-type="recreation"
+          data-title="cameron’s world" data-tags="old web &amp; geocities geocities tribute recreation">
+          <span>RECREATION</span>
+          <h3>Cameron’s World</h3>
+          <p>A collage-style tribute built from GeoCities-era graphics that works as an instant mood-setter for the maximalist, glitter-GIF side of 1990s web memory.</p>
         </a>
-        <a class="chart-year-card ready site-search-card" href="/webring/?filter=games-emulation#directory" data-search-category="explore" data-title="games emulation flashpoint noclip dos archive gamehistory" data-tags="arcades console history game maps">
-          <span>EXPLORE</span>
-          <h3>Games &amp; Emulation shelf</h3>
-          <p>Browser-playable worlds, digital museums, DOS archives, and game-history research trails.</p>
+        <a class="chart-year-card ready site-search-card" href="https://neocities.org/browse" target="_blank" rel="noopener noreferrer"
+          data-search-category="explore" data-record-type="marketplace"
+          data-title="neocities browse" data-tags="communities &amp; marketplaces old-web revival / community marketplace">
+          <span>MARKETPLACE</span>
+          <h3>Neocities Browse</h3>
+          <p>The browse view of Neocities surfaces current hand-built personal sites by tags, popularity, and recent activity, making it one of the best “living Web 1.0 revival” directories.</p>
         </a>
-        <a class="chart-year-card ready site-search-card" href="/webring/?filter=tv-music-media#directory" data-search-category="explore" data-title="tv music media my 90s tv discogs media shelf" data-tags="soundtracks radio videos TV clips">
-          <span>EXPLORE</span>
-          <h3>TV, Music &amp; Media shelf</h3>
-          <p>The fastest jump for Discogs trails, TV simulators, soundtrack rabbit holes, and media research.</p>
+        <a class="chart-year-card ready site-search-card" href="https://gifcities.org/" target="_blank" rel="noopener noreferrer"
+          data-search-category="explore" data-record-type="archive"
+          data-title="gifcities" data-tags="old web &amp; geocities image-gif archives archive">
+          <span>ARCHIVE</span>
+          <h3>GifCities</h3>
+          <p>Internet Archive’s GeoCities GIF search engine is one of the best resources for authentic-era animated GIFs, buttons, icons, and page chrome.</p>
         </a>
-        <a class="chart-year-card ready site-search-card" href="/webring/?filter=software-archives#directory" data-search-category="explore" data-title="software archives winworld macintosh dos old software" data-tags="download preservation shareware utilities">
-          <span>EXPLORE</span>
-          <h3>Software Archives shelf</h3>
-          <p>Vintage software museums, old operating systems, CD-ROM archaeology, and utility history.</p>
+        <a class="chart-year-card ready site-search-card" href="https://oneterabyteofkilobyteage.tumblr.com/" target="_blank" rel="noopener noreferrer"
+          data-search-category="explore" data-record-type="archive"
+          data-title="one terabyte of kilobyte age" data-tags="old web &amp; geocities geocities research / screenshot archive archive">
+          <span>ARCHIVE</span>
+          <h3>One Terabyte of Kilobyte Age</h3>
+          <p>An endlessly fascinating stream of automatically generated screenshots from rescued GeoCities home pages; it is less a search tool and more a pure browse-by-serendipity nostalgia machine.</p>
         </a>
-        <a class="chart-year-card ready site-search-card" href="/webring/?filter=communities-marketplaces#directory" data-search-category="explore" data-title="communities marketplaces neocities ebay forums collector nostalgia" data-tags="small web living community browse">
-          <span>EXPLORE</span>
-          <h3>Communities &amp; Marketplaces shelf</h3>
-          <p>Living small-web communities, nostalgia marketplaces, and still-breathing corners of the handmade internet.</p>
+        <a class="chart-year-card ready site-search-card" href="https://geocities.restorativland.org/" target="_blank" rel="noopener noreferrer"
+          data-search-category="explore" data-record-type="living-site"
+          data-title="the geocities gallery" data-tags="old web &amp; geocities geocities mirror / visualization living-site">
+          <span>LIVING-SITE</span>
+          <h3>The Geocities Gallery</h3>
+          <p>A restorativland project that visually reassembles archived GeoCities sites by neighborhood, making old homepages feel explorable again instead of buried in raw dumps.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="https://www.oocities.org/" target="_blank" rel="noopener noreferrer"
+          data-search-category="explore" data-record-type="living-site"
+          data-title="oocities" data-tags="old web &amp; geocities geocities mirror living-site">
+          <span>LIVING-SITE</span>
+          <h3>OoCities</h3>
+          <p>A long-running GeoCities mirror built from pages saved around the 2009 shutdown, useful when you want direct page-level browsing rather than screenshots or abstract curation.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="https://www.404pagefound.com/" target="_blank" rel="noopener noreferrer"
+          data-search-category="explore" data-record-type="recreation"
+          data-title="404pagefound" data-tags="old web &amp; geocities living relics / web-preservation recreation">
+          <span>RECREATION</span>
+          <h3>404PageFound</h3>
+          <p>A directory focused on old websites that are still inexplicably alive and largely unchanged, which makes it excellent for “still online from the 90s” roundups.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="https://wiby.me/" target="_blank" rel="noopener noreferrer"
+          data-search-category="explore" data-record-type="reference"
+          data-title="wiby" data-tags="old web &amp; geocities search / old-web discovery reference">
+          <span>REFERENCE</span>
+          <h3>Wiby</h3>
+          <p>A search engine for older-style, lightweight web pages that feels much closer to browsing the small-web/personal-web ecosystem than modern mainstream search.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="https://www.webdesignmuseum.org/" target="_blank" rel="noopener noreferrer"
+          data-search-category="explore" data-record-type="archive"
+          data-title="web design museum" data-tags="design / internet history design history archive">
+          <span>ARCHIVE</span>
+          <h3>Web Design Museum</h3>
+          <p>A high-value visual archive of thousands of screenshots and videos spanning websites, apps, software, and Flash games from the 1990s onward.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="https://www.versionmuseum.com/" target="_blank" rel="noopener noreferrer"
+          data-search-category="explore" data-record-type="archive"
+          data-title="version museum" data-tags="design / internet history design history / timelines archive">
+          <span>ARCHIVE</span>
+          <h3>Version Museum</h3>
+          <p>A visual history site covering website, OS, app, and game evolution, especially useful for side-by-side “then vs now” storytelling and product-history rabbit holes.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="https://www.ibiblio.org/wm/" target="_blank" rel="noopener noreferrer"
+          data-search-category="explore" data-record-type="recreation"
+          data-title="webmuseum" data-tags="design / internet history living relic / web history recreation">
+          <span>RECREATION</span>
+          <h3>WebMuseum</h3>
+          <p>One of the earliest still-live web museums, valuable less as a 1990s *subject* archive than as an actual 1990s web artifact that still smells like the early web.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="https://wiki.archiveteam.org/" target="_blank" rel="noopener noreferrer"
+          data-search-category="explore" data-record-type="marketplace"
+          data-title="archive team" data-tags="communities &amp; marketplaces preservation community marketplace">
+          <span>MARKETPLACE</span>
+          <h3>Archive Team</h3>
+          <p>The key volunteer collective for emergency preservation of endangered online content; its wiki is useful both as a resource itself and as a map to what communities are trying to save.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="https://textfiles.com/" target="_blank" rel="noopener noreferrer"
+          data-search-category="explore" data-record-type="archive"
+          data-title="textfiles.com" data-tags="old web &amp; geocities text archives / proto-web culture archive">
+          <span>ARCHIVE</span>
+          <h3>TEXTFILES.COM</h3>
+          <p>A foundational archive of BBS-era and subcultural text material that spills into 1990s online history and early hacker/shareware culture.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="https://bbslist.textfiles.com/" target="_blank" rel="noopener noreferrer"
+          data-search-category="explore" data-record-type="reference"
+          data-title="bbslist.textfiles.com" data-tags="old web &amp; geocities communities / bbs history reference">
+          <span>REFERENCE</span>
+          <h3>BBSLIST.TEXTFILES.COM</h3>
+          <p>A historical record of BBS numbers and related information, especially good if you want a “pre-web online culture” branch inside your directory.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="https://cd.textfiles.com/" target="_blank" rel="noopener noreferrer"
+          data-search-category="explore" data-record-type="archive"
+          data-title="cd.textfiles.com" data-tags="software archives vintage software / cd-rom archives archive">
+          <span>ARCHIVE</span>
+          <h3>CD.TEXTFILES.COM</h3>
+          <p>“The Past on Plastic” is a strong nostalgia link for shareware-CD culture and the weird abundance of late-90s software distribution.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="https://noclip.website/" target="_blank" rel="noopener noreferrer"
+          data-search-category="explore" data-record-type="recreation"
+          data-title="noclip.website" data-tags="games &amp; emulation games / 3d map viewers recreation">
+          <span>RECREATION</span>
+          <h3>noclip.website</h3>
+          <p>A digital museum of video game levels that lets you freely explore many classic game maps in-browser, exactly the kind of “walk around your memories” experience users love.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="https://flashpointarchive.org/" target="_blank" rel="noopener noreferrer"
+          data-search-category="explore" data-record-type="recreation"
+          data-title="flashpoint archive" data-tags="games &amp; emulation games / web preservation recreation">
+          <span>RECREATION</span>
+          <h3>Flashpoint Archive</h3>
+          <p>The most important preservation project for browser games and animations across Flash and many other web technologies, with a huge searchable catalog.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="https://archive.org/details/software" target="_blank" rel="noopener noreferrer"
+          data-search-category="explore" data-record-type="archive"
+          data-title="internet archive software library" data-tags="software archives software archives archive">
+          <span>ARCHIVE</span>
+          <h3>Internet Archive Software Library</h3>
+          <p>The broadest vintage-software umbrella here, pointing to CD-ROM Software, MS-DOS, Vintage Software, Tucows, Shareware CD-ROMs, and more.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="https://archive.org/details/internetarcade" target="_blank" rel="noopener noreferrer"
+          data-search-category="explore" data-record-type="recreation"
+          data-title="internet arcade" data-tags="games &amp; emulation games / browser emulation recreation">
+          <span>RECREATION</span>
+          <h3>Internet Arcade</h3>
+          <p>Internet Archive’s browser-playable arcade collection, focused on coin-op titles from the 1970s through the 1990s via JSMAME.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="https://archive.org/details/emulation" target="_blank" rel="noopener noreferrer"
+          data-search-category="explore" data-record-type="recreation"
+          data-title="the emularity / emulation station" data-tags="games &amp; emulation emulation / archives recreation">
+          <span>RECREATION</span>
+          <h3>The Emularity / Emulation Station</h3>
+          <p>Browser-based emulation stack that powers huge amounts of playable archival software without requiring plugins or local setup.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="https://archive.org/details/softwarelibrary_msdos_games" target="_blank" rel="noopener noreferrer"
+          data-search-category="explore" data-record-type="recreation"
+          data-title="ms-dos games on the internet archive" data-tags="games &amp; emulation games / software archives recreation">
+          <span>RECREATION</span>
+          <h3>MS-DOS Games on the Internet Archive</h3>
+          <p>A very practical entry point for 90s PC gaming nostalgia, especially for browser-playable DOS titles across genres.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="https://archive.org/details/vintagesoftware" target="_blank" rel="noopener noreferrer"
+          data-search-category="explore" data-record-type="archive"
+          data-title="the vintage software collection" data-tags="software archives software archives archive">
+          <span>ARCHIVE</span>
+          <h3>The Vintage Software Collection</h3>
+          <p>Internet Archive’s umbrella collection for preserved historical software efforts; useful as a high-level “browse the whole scene” link.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="https://winworldpc.com/" target="_blank" rel="noopener noreferrer"
+          data-search-category="explore" data-record-type="archive"
+          data-title="winworld" data-tags="software archives vintage software archive">
+          <span>ARCHIVE</span>
+          <h3>WinWorld</h3>
+          <p>One of the strongest software-preservation sites for old Windows, DOS, Macintosh, Amiga, and pre-release software, presented as an online museum.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="https://macintoshgarden.org/" target="_blank" rel="noopener noreferrer"
+          data-search-category="explore" data-record-type="archive"
+          data-title="macintosh garden" data-tags="software archives vintage software / mac archive">
+          <span>ARCHIVE</span>
+          <h3>Macintosh Garden</h3>
+          <p>Excellent archive for classic Mac OS-era games, apps, guides, and community fixes, and especially useful for educational, shareware, and forgotten Mac titles.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="https://www.macintoshrepository.org/" target="_blank" rel="noopener noreferrer"
+          data-search-category="explore" data-record-type="archive"
+          data-title="macintosh repository" data-tags="software archives vintage software / mac archive">
+          <span>ARCHIVE</span>
+          <h3>Macintosh Repository</h3>
+          <p>A large old-Mac software archive with searchable apps, games, ROM-related materials, and compatibility notes.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="https://oldversion.com/" target="_blank" rel="noopener noreferrer"
+          data-search-category="explore" data-record-type="archive"
+          data-title="oldversion" data-tags="software archives vintage software / versions archive">
+          <span>ARCHIVE</span>
+          <h3>OldVersion</h3>
+          <p>Great for downloading older versions of mainstream programs, browsers, utilities, and games when the nostalgia target is “the software you used,” not just the hardware.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="https://www.dosgamesarchive.com/" target="_blank" rel="noopener noreferrer"
+          data-search-category="explore" data-record-type="recreation"
+          data-title="dos games archive" data-tags="games &amp; emulation games / dos recreation">
+          <span>RECREATION</span>
+          <h3>DOS Games Archive</h3>
+          <p>A clean, modern-feeling catalog for classic DOS games with both download and play-online options.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="https://classicreload.com/" target="_blank" rel="noopener noreferrer"
+          data-search-category="explore" data-record-type="recreation"
+          data-title="classicreload" data-tags="games &amp; emulation games / browser emulation recreation">
+          <span>RECREATION</span>
+          <h3>ClassicReload</h3>
+          <p>A browser-playable abandonware/preservation site that emphasizes quick access to old DOS, Windows, and console-era software.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="https://www.myabandonware.com/" target="_blank" rel="noopener noreferrer"
+          data-search-category="explore" data-record-type="recreation"
+          data-title="my abandonware" data-tags="games &amp; emulation games / abandonware recreation">
+          <span>RECREATION</span>
+          <h3>My Abandonware</h3>
+          <p>Huge index of old games by platform and year, very useful for rediscovering half-remembered PC titles.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="https://www.scummvm.org/" target="_blank" rel="noopener noreferrer"
+          data-search-category="explore" data-record-type="recreation"
+          data-title="scummvm" data-tags="games &amp; emulation emulation / tools recreation">
+          <span>RECREATION</span>
+          <h3>ScummVM</h3>
+          <p>One of the best legit tools for replaying classic adventure games and related engines on modern systems, with official compatibility info and some freeware downloads.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="https://www.dosbox.com/" target="_blank" rel="noopener noreferrer"
+          data-search-category="explore" data-record-type="recreation"
+          data-title="dosbox" data-tags="games &amp; emulation emulation / tools recreation">
+          <span>RECREATION</span>
+          <h3>DOSBox</h3>
+          <p>The classic MS-DOS emulator, still essential for reliving 1990s PC games and software in a familiar environment.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="https://www.mamedev.org/" target="_blank" rel="noopener noreferrer"
+          data-search-category="explore" data-record-type="recreation"
+          data-title="mame" data-tags="games &amp; emulation emulation / preservation recreation">
+          <span>RECREATION</span>
+          <h3>MAME</h3>
+          <p>A preservation-first emulation framework whose stated purpose is to preserve decades of software history across arcade, console, and computer systems.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="https://www.retroarch.com/" target="_blank" rel="noopener noreferrer"
+          data-search-category="explore" data-record-type="recreation"
+          data-title="retroarch" data-tags="games &amp; emulation emulation / frontend recreation">
+          <span>RECREATION</span>
+          <h3>RetroArch</h3>
+          <p>A polished frontend for many emulators and game engines, useful if you want a single modern entry point for broad retro play.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="https://openemu.org/" target="_blank" rel="noopener noreferrer"
+          data-search-category="explore" data-record-type="recreation"
+          data-title="openemu" data-tags="games &amp; emulation emulation / frontend recreation">
+          <span>RECREATION</span>
+          <h3>OpenEmu</h3>
+          <p>Mac-focused all-in-one retro library frontend that auto-organizes ROM backups with box art, making it one of the friendliest nostalgia tools for Apple users.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="https://emulatorjs.org/" target="_blank" rel="noopener noreferrer"
+          data-search-category="explore" data-record-type="recreation"
+          data-title="emulatorjs" data-tags="games &amp; emulation emulation / developer tool recreation">
+          <span>RECREATION</span>
+          <h3>EmulatorJS</h3>
+          <p>Useful less as a destination than as a builder tool if you ever want to embed browser emulation directly into 90s.land or a microsite offshoot.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="https://ruffle.rs/" target="_blank" rel="noopener noreferrer"
+          data-search-category="explore" data-record-type="recreation"
+          data-title="ruffle" data-tags="games &amp; emulation web tech / flash preservation recreation">
+          <span>RECREATION</span>
+          <h3>Ruffle</h3>
+          <p>Open-source Flash emulation for restoring old Flash websites and animations in modern browsers without the original Flash Player.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="https://www.vgmaps.com/" target="_blank" rel="noopener noreferrer"
+          data-search-category="explore" data-record-type="recreation"
+          data-title="vgmaps" data-tags="games &amp; emulation games / map archive recreation">
+          <span>RECREATION</span>
+          <h3>VGMaps</h3>
+          <p>A long-running archive of ripped and hand-made video game maps, especially useful for 2D-era console and handheld nostalgia.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="https://www.mobygames.com/" target="_blank" rel="noopener noreferrer"
+          data-search-category="explore" data-record-type="reference"
+          data-title="mobygames" data-tags="games &amp; emulation games / database reference">
+          <span>REFERENCE</span>
+          <h3>MobyGames</h3>
+          <p>A huge, long-running video game database that works well for box art, credits, release history, platform lookup, and “what was that game called?” moments.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="https://archive.gamehistory.org/" target="_blank" rel="noopener noreferrer"
+          data-search-category="explore" data-record-type="recreation"
+          data-title="video game history foundation digital archive" data-tags="games &amp; emulation games / archive recreation">
+          <span>RECREATION</span>
+          <h3>Video Game History Foundation Digital Archive</h3>
+          <p>Searchable digitized collections of magazines, documents, and ephemera, excellent for citation-grade nostalgia research.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="https://library.gamehistory.org/" target="_blank" rel="noopener noreferrer"
+          data-search-category="explore" data-record-type="recreation"
+          data-title="video game history foundation library catalog" data-tags="games &amp; emulation games / library recreation">
+          <span>RECREATION</span>
+          <h3>Video Game History Foundation Library Catalog</h3>
+          <p>The broader catalog for VGHF holdings, including development materials, magazines, artwork, and ephemera beyond what is currently digitized.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="https://www.retromags.com/" target="_blank" rel="noopener noreferrer"
+          data-search-category="explore" data-record-type="recreation"
+          data-title="retromags" data-tags="games &amp; emulation magazines / games recreation">
+          <span>RECREATION</span>
+          <h3>Retromags</h3>
+          <p>One of the best destinations for preserved video game magazines, strategy guides, and indexed issue metadata across countries and platforms.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="https://www.emuvr.net/" target="_blank" rel="noopener noreferrer"
+          data-search-category="explore" data-record-type="recreation"
+          data-title="emuvr" data-tags="games &amp; emulation immersive nostalgia / emulation recreation">
+          <span>RECREATION</span>
+          <h3>EmuVR</h3>
+          <p>Recreates the “90s bedroom with a CRT and stacks of cartridges” fantasy in VR or 2D mode, which makes it unusually effective as an emotional nostalgia device.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="https://90s.myretrotvs.com/" target="_blank" rel="noopener noreferrer"
+          data-search-category="explore" data-record-type="recreation"
+          data-title="my 90’s tv" data-tags="tv, music &amp; media video / interactive recreation recreation">
+          <span>RECREATION</span>
+          <h3>My 90’s TV</h3>
+          <p>A nostalgia TV simulator that recreates the feel of 1990s channel surfing with ads, music videos, movie trailers, shows, and news clips.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="https://www.retrojunk.com/" target="_blank" rel="noopener noreferrer"
+          data-search-category="explore" data-record-type="living-site"
+          data-title="retrojunk" data-tags="tv, music &amp; media video / community living-site">
+          <span>LIVING-SITE</span>
+          <h3>RetroJunk</h3>
+          <p>A broad nostalgia site covering commercials, TV, movies, articles, and forums, especially strong for ad breaks, intros, and fan memories.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="https://tvark.org/" target="_blank" rel="noopener noreferrer"
+          data-search-category="explore" data-record-type="archive"
+          data-title="tv ark" data-tags="tv, music &amp; media tv archives archive">
+          <span>ARCHIVE</span>
+          <h3>TV Ark</h3>
+          <p>An online TV museum preserving presentation graphics, idents, promos, titles, commercials, and station branding, with exceptional value for broadcast-design nostalgia.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="https://www.tvbrain.info/" target="_blank" rel="noopener noreferrer"
+          data-search-category="explore" data-record-type="reference"
+          data-title="tv brain" data-tags="tv, music &amp; media tv database reference">
+          <span>REFERENCE</span>
+          <h3>TV Brain</h3>
+          <p>A searchable UK television history database covering broadcasts, holdings, and even missing/lost episodes, useful for deeper research rather than casual browsing.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="https://fuzzymemories.tv/" target="_blank" rel="noopener noreferrer"
+          data-search-category="explore" data-record-type="archive"
+          data-title="fuzzymemories" data-tags="tv, music &amp; media local tv / commercials archive">
+          <span>ARCHIVE</span>
+          <h3>FuzzyMemories</h3>
+          <p>A beloved archive of vintage local-TV clips, commercials, station IDs, and broadcast fragments, especially strong for Chicago-area memory lanes.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="https://www.paleycenter.org/collection-2" target="_blank" rel="noopener noreferrer"
+          data-search-category="explore" data-record-type="archive"
+          data-title="paley archive" data-tags="tv, music &amp; media institutional archive archive">
+          <span>ARCHIVE</span>
+          <h3>Paley Archive</h3>
+          <p>A serious institutional media archive and catalog for TV, radio, and advertising, with over 160,000 programs and ads in its permanent collection.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="https://americanarchive.org/" target="_blank" rel="noopener noreferrer"
+          data-search-category="explore" data-record-type="archive"
+          data-title="american archive of public broadcasting" data-tags="tv, music &amp; media institutional archive / video archive">
+          <span>ARCHIVE</span>
+          <h3>American Archive of Public Broadcasting</h3>
+          <p>Excellent for historic public TV/radio programming, local history, education, arts, and PBS-adjacent research.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="https://archive.org/details/tv" target="_blank" rel="noopener noreferrer"
+          data-search-category="explore" data-record-type="archive"
+          data-title="internet archive tv news archive" data-tags="tv, music &amp; media news / video archive archive">
+          <span>ARCHIVE</span>
+          <h3>Internet Archive TV News Archive</h3>
+          <p>Searchable archive of U.S. television broadcasts via closed captioning, ideal for recovering period news language, coverage, and broadcast texture.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="https://archive.org/details/vhskids" target="_blank" rel="noopener noreferrer"
+          data-search-category="explore" data-record-type="archive"
+          data-title="kid’s shows on vhs" data-tags="tv, music &amp; media vhs / video archive archive">
+          <span>ARCHIVE</span>
+          <h3>Kid’s Shows on VHS</h3>
+          <p>A nostalgic Internet Archive collection for VHS-preserved children’s television, especially good for deep-cut 80s/90s tape-era browsing.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="https://www.spacejam.com/1996/" target="_blank" rel="noopener noreferrer"
+          data-search-category="explore" data-record-type="recreation"
+          data-title="space jam 1996" data-tags="tv, music &amp; media movie promo / living relic recreation">
+          <span>RECREATION</span>
+          <h3>Space Jam 1996</h3>
+          <p>The canonical surviving 1990s movie promo site, still online with its original sections, graphics, trivia, and “Jam Central” structure.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="https://www.discogs.com/" target="_blank" rel="noopener noreferrer"
+          data-search-category="explore" data-record-type="marketplace"
+          data-title="discogs" data-tags="tv, music &amp; media music / marketplace / database marketplace">
+          <span>MARKETPLACE</span>
+          <h3>Discogs</h3>
+          <p>The biggest music database/marketplace combo in this list and one of the best tools for checking 90s releases, formats, pressings, label connections, and collector demand.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="https://musicbrainz.org/" target="_blank" rel="noopener noreferrer"
+          data-search-category="explore" data-record-type="reference"
+          data-title="musicbrainz" data-tags="tv, music &amp; media music / database reference">
+          <span>REFERENCE</span>
+          <h3>MusicBrainz</h3>
+          <p>Open music encyclopedia with very strong metadata and a nonprofit/open-data feel that suits archival 90s music research.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="https://radiooooo.com/" target="_blank" rel="noopener noreferrer"
+          data-search-category="explore" data-record-type="living-site"
+          data-title="radiooooo" data-tags="tv, music &amp; media music / interactive exploration living-site">
+          <span>LIVING-SITE</span>
+          <h3>Radiooooo</h3>
+          <p>“The Musical Time Machine” is great for decade-and-country exploration when you want to evoke the sound of a place in the 1990s rather than search one artist at a time.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="https://archive.org/details/etree" target="_blank" rel="noopener noreferrer"
+          data-search-category="explore" data-record-type="archive"
+          data-title="live music archive" data-tags="tv, music &amp; media music / live archive archive">
+          <span>ARCHIVE</span>
+          <h3>Live Music Archive</h3>
+          <p>Stronger for concert nostalgia than radio nostalgia, but still valuable for reliving live recordings and scene history from the late 1990s onward.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="https://netlabelarchive.org/" target="_blank" rel="noopener noreferrer"
+          data-search-category="explore" data-record-type="archive"
+          data-title="netlabel archive" data-tags="tv, music &amp; media music / preservation archive">
+          <span>ARCHIVE</span>
+          <h3>Netlabel Archive</h3>
+          <p>Preservation project for web-native music labels and releases, useful if your nostalgia lens includes late-90s/early-2000s internet music culture.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="https://computerhistory.org/collections/" target="_blank" rel="noopener noreferrer"
+          data-search-category="explore" data-record-type="archive"
+          data-title="computer history museum collections" data-tags="software archives institutional archive / computing archive">
+          <span>ARCHIVE</span>
+          <h3>Computer History Museum Collections</h3>
+          <p>A high-authority source for digitized artifacts, documents, source code, and archival materials across computing history.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="https://computerhistory.org/software-history-center/" target="_blank" rel="noopener noreferrer"
+          data-search-category="explore" data-record-type="archive"
+          data-title="chm software history center" data-tags="software archives software history archive">
+          <span>ARCHIVE</span>
+          <h3>CHM Software History Center</h3>
+          <p>Focused specifically on collecting and preserving historical software, archives, and oral histories, which makes it ideal for “why this mattered” editorial sections.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="https://computerhistory.org/oral-histories/" target="_blank" rel="noopener noreferrer"
+          data-search-category="explore" data-record-type="archive"
+          data-title="chm oral histories" data-tags="software archives oral history / computing archive">
+          <span>ARCHIVE</span>
+          <h3>CHM Oral Histories</h3>
+          <p>Firsthand interviews and demonstrations from computing pioneers, perfect for adding depth around the people behind the tools and sites your audience remembers.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="https://www.softwareheritage.org/" target="_blank" rel="noopener noreferrer"
+          data-search-category="explore" data-record-type="archive"
+          data-title="software heritage" data-tags="software archives software preservation archive">
+          <span>ARCHIVE</span>
+          <h3>Software Heritage</h3>
+          <p>A universal source-code archive with real institutional weight, useful when your nostalgia coverage intersects with preservation of software itself rather than just the UX around it.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="https://www.vogons.org/" target="_blank" rel="noopener noreferrer"
+          data-search-category="explore" data-record-type="marketplace"
+          data-title="vogons" data-tags="communities &amp; marketplaces community / retro computing marketplace">
+          <span>MARKETPLACE</span>
+          <h3>VOGONS</h3>
+          <p>Still one of the best forums for getting old DOS and Windows games working on modern hardware, and a goldmine of compatibility wisdom.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="https://www.atariage.com/" target="_blank" rel="noopener noreferrer"
+          data-search-category="explore" data-record-type="marketplace"
+          data-title="atariage" data-tags="communities &amp; marketplaces community / collecting marketplace">
+          <span>MARKETPLACE</span>
+          <h3>AtariAge</h3>
+          <p>Long-running retro community with news, boards, rarity guides, manuals, pictures, articles, and a game database, especially strong for Atari-era collectors.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="https://www.doomworld.com/" target="_blank" rel="noopener noreferrer"
+          data-search-category="explore" data-record-type="marketplace"
+          data-title="doomworld" data-tags="communities &amp; marketplaces community / games marketplace">
+          <span>MARKETPLACE</span>
+          <h3>Doomworld</h3>
+          <p>One of the most important surviving 1990s-born game communities, still central for WADs, mods, mapping, and Doom culture.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="https://www.reddit.com/r/90s/" target="_blank" rel="noopener noreferrer"
+          data-search-category="explore" data-record-type="marketplace"
+          data-title="r/90s" data-tags="communities &amp; marketplaces community marketplace">
+          <span>MARKETPLACE</span>
+          <h3>r/90s</h3>
+          <p>Active mainstream nostalgia community dedicated specifically to the decade, useful for idea mining and current audience pulse.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="https://www.reddit.com/r/nostalgia/" target="_blank" rel="noopener noreferrer"
+          data-search-category="explore" data-record-type="marketplace"
+          data-title="r/nostalgia" data-tags="communities &amp; marketplaces community marketplace">
+          <span>MARKETPLACE</span>
+          <h3>r/nostalgia</h3>
+          <p>Broader nostalgia community that frequently surfaces defunct websites, commercials, toys, and tech memories from the 1990s.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="https://www.reddit.com/r/retrogaming/" target="_blank" rel="noopener noreferrer"
+          data-search-category="explore" data-record-type="marketplace"
+          data-title="r/retrogaming" data-tags="communities &amp; marketplaces community / games marketplace">
+          <span>MARKETPLACE</span>
+          <h3>r/retrogaming</h3>
+          <p>A large community for vintage gaming with a strong CRT, hardware, collecting, and authenticity bent.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="https://www.reddit.com/r/oldinternet/" target="_blank" rel="noopener noreferrer"
+          data-search-category="explore" data-record-type="marketplace"
+          data-title="r/oldinternet" data-tags="communities &amp; marketplaces community / old web marketplace">
+          <span>MARKETPLACE</span>
+          <h3>r/oldinternet</h3>
+          <p>Small but useful community centered on old forums, defunct sites, internet culture, and the social texture of earlier online life.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="https://www.ebay.com/b/Nostalgia-Toy-Box-Collectors-Hobbyists-Toys-Hobbies/220/bn_80737684" target="_blank" rel="noopener noreferrer"
+          data-search-category="explore" data-record-type="marketplace"
+          data-title="ebay nostalgia toy box" data-tags="communities &amp; marketplaces marketplace marketplace">
+          <span>MARKETPLACE</span>
+          <h3>eBay Nostalgia Toy Box</h3>
+          <p>A practical outbound link when your visitors want to turn memory into collecting, especially for toys and hobby items.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="https://www.etsy.com/market/vintage_marketplace" target="_blank" rel="noopener noreferrer"
+          data-search-category="explore" data-record-type="marketplace"
+          data-title="etsy vintage marketplace" data-tags="communities &amp; marketplaces marketplace marketplace">
+          <span>MARKETPLACE</span>
+          <h3>Etsy Vintage Marketplace</h3>
+          <p>Good for 90s décor, handmade tributes, repurposed ephemera, and smaller-scale collectible finds that feel more curated than auction-market hunting.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="https://shopgoodwill.com/" target="_blank" rel="noopener noreferrer"
+          data-search-category="explore" data-record-type="marketplace"
+          data-title="shopgoodwill" data-tags="communities &amp; marketplaces marketplace marketplace">
+          <span>MARKETPLACE</span>
+          <h3>ShopGoodwill</h3>
+          <p>Online thrift marketplace with enough vintage electronics, media, and oddball household nostalgia to justify inclusion.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="https://www.mercari.com/" target="_blank" rel="noopener noreferrer"
+          data-search-category="explore" data-record-type="marketplace"
+          data-title="mercari" data-tags="communities &amp; marketplaces marketplace marketplace">
+          <span>MARKETPLACE</span>
+          <h3>Mercari</h3>
+          <p>Useful consumer marketplace for secondhand collectibles, electronics, games, books, and nostalgia-adjacent odds and ends.</p>
+        </a>
+        <a class="chart-year-card ready site-search-card" href="https://reverb.com/" target="_blank" rel="noopener noreferrer"
+          data-search-category="explore" data-record-type="marketplace"
+          data-title="reverb" data-tags="communities &amp; marketplaces marketplace / music gear marketplace">
+          <span>MARKETPLACE</span>
+          <h3>Reverb</h3>
+          <p>If your 90s nostalgia coverage extends into instruments, samplers, pedals, and production gear, Reverb is the best dedicated marketplace in this list.</p>
         </a>
       </div>
       <div class="portal-box resource-notes" id="siteSearchNoResults" hidden>
-        <h3>No exact route match yet.</h3>
-        <p>Try a broader word like <b>music</b>, <b>games</b>, <b>GeoCities</b>, <b>AOL</b>, <b>TV</b>, <b>1995</b>, or jump to the <a href="/sitemap/">sitemap</a> for the full museum layout.</p>
+        <h3>No memory found under that label.</h3>
+        <p>Try a shorter word, clear the filters, or let the museum choose.</p>
+        <div class="hero-actions"><button class="button" type="button" data-search-clear>Clear search</button><a class="button" href="/surprise/" data-surprise-trigger>Surprise me</a><a class="button" href="/sitemap/">Open museum map</a></div>
       </div>
     </section>
+<!-- generated:search-results:end -->
   </main>
 
-  <footer class="footer"><p>© 1999–forever 90s.land // handmade for curious people // <a href="#top">back to top</a></p></footer>
-  <script src="/script.js?v=mobile-overhaul-2"></script>
+  <footer class="footer"><p>© 1999–forever 90s.land // handmade for curious people // <a href="/credits/">credits</a> // <a href="#top">back to top</a></p></footer>
+  <!-- generated:shared-ui:start -->
+  <p class="sr-only" id="museumStatus" aria-live="polite" aria-atomic="true"></p>
+
+  <dialog class="museum-dialog surprise-dialog" id="surpriseDialog" aria-labelledby="surpriseTitle">
+    <div class="dialog-window">
+      <div class="window-bar"><span>RANDOM_MEMORY.EXE</span><button type="button" class="dialog-close" data-dialog-close="surpriseDialog" aria-label="Close Surprise Me">×</button></div>
+      <div class="dialog-body" data-surprise-loading>
+        <p class="eyebrow">Loading from CD-ROM…</p>
+        <div class="cd-loader" aria-hidden="true"></div>
+        <p>Finding a memory you have not just seen.</p>
+      </div>
+      <div class="dialog-body" data-surprise-ready hidden>
+        <p class="eyebrow">Random memory loaded</p>
+        <h2 id="surpriseTitle" data-surprise-title>Surprise Me</h2>
+        <p data-surprise-teaser></p>
+        <p class="artifact-meta-line" data-surprise-meta></p>
+        <div class="dialog-actions">
+          <a class="button primary" href="/surprise/" data-surprise-open>Open memory</a>
+          <button class="button" type="button" data-surprise-again>Try another</button>
+          <button class="button subtle" type="button" data-dialog-close="surpriseDialog">Not now</button>
+        </div>
+      </div>
+    </div>
+  </dialog>
+
+  <dialog class="museum-dialog passport-dialog" id="passportDialog" aria-labelledby="passportTitle">
+    <div class="dialog-window">
+      <div class="window-bar"><span>MUSEUM_PASSPORT.CARD</span><button type="button" class="dialog-close" data-dialog-close="passportDialog" aria-label="Close Museum Passport">×</button></div>
+      <div class="dialog-body">
+        <p class="eyebrow">Local museum progress</p>
+        <h2 id="passportTitle">Your Museum Passport</h2>
+        <p class="storage-note" data-storage-note>Saved only on this device. No account, tracking, or personal data.</p>
+        <div class="passport-stats" aria-label="Museum Passport totals">
+          <span><strong data-passport-rooms>0</strong> rooms visited</span>
+          <span><strong data-passport-artifacts>0</strong> objects inspected</span>
+          <span><strong data-passport-stamps>0</strong> stamps earned</span>
+        </div>
+        <ul class="passport-stamp-grid" aria-label="Passport stamps">
+          <li class="passport-stamp is-locked" data-passport-stamp="first-touch">
+            <span class="stamp-mark" aria-hidden="true">admit-one</span>
+            <strong>Object Handler</strong>
+            <span>Inspect your first museum artifact.</span>
+          </li>
+          <li class="passport-stamp is-locked" data-passport-stamp="room-hopper">
+            <span class="stamp-mark" aria-hidden="true">library-card</span>
+            <strong>Room Hopper</strong>
+            <span>Visit three different museum rooms.</span>
+          </li>
+          <li class="passport-stamp is-locked" data-passport-stamp="random-memory">
+            <span class="stamp-mark" aria-hidden="true">cd-rom</span>
+            <strong>Random Access Memory</strong>
+            <span>Open a Surprise Me destination.</span>
+          </li>
+          <li class="passport-stamp is-locked" data-passport-stamp="object-collector">
+            <span class="stamp-mark" aria-hidden="true">sticker-sheet</span>
+            <strong>Pocket Curator</strong>
+            <span>Inspect five museum artifacts.</span>
+          </li>
+          <li class="passport-stamp is-locked" data-passport-stamp="before-the-feed">
+            <span class="stamp-mark" aria-hidden="true">passport-seal</span>
+            <strong>Before the Feed</strong>
+            <span>Complete the guided tour.</span>
+          </li>
+        </ul>
+        <div class="passport-resume" data-tour-resume hidden>
+          <p><strong>Tour in progress:</strong> <span data-tour-resume-label></span></p>
+          <a class="button" data-tour-resume-link href="/tours/before-the-feed/">Resume tour</a>
+        </div>
+        <button class="button danger" type="button" data-passport-reset-open>Reset local passport</button>
+      </div>
+    </div>
+  </dialog>
+
+  <dialog class="museum-dialog reset-dialog" id="passportResetDialog" aria-labelledby="passportResetTitle">
+    <div class="dialog-window">
+      <div class="window-bar"><span>RESET_CONFIRM.TXT</span></div>
+      <div class="dialog-body">
+        <h2 id="passportResetTitle">Reset this passport?</h2>
+        <p>This removes visited rooms, inspected objects, stamps, and tour progress from this browser. It cannot be undone.</p>
+        <div class="dialog-actions">
+          <button class="button" type="button" data-passport-reset-cancel>Keep my passport</button>
+          <button class="button danger" type="button" data-passport-reset-confirm>Reset passport</button>
+        </div>
+      </div>
+    </div>
+  </dialog>
+<!-- generated:shared-ui:end -->
+  <script type="module" src="/js/app.js?v=playable-museum-1"></script>
 </body>
 </html>

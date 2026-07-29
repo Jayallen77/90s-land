@@ -10,18 +10,29 @@ Simple static site:
 
 - `index.html`
 - `styles.css`
-- `script.js`
+- `js/` contains small page-aware ES modules.
+- `data/` contains the route, artifact, resource, tour, navigation, and stamp
+  catalogs.
+- `tools/render_site.py` rewrites only marked generated regions.
 
-No build step. This keeps iteration fast, cheap, and easy to publish to here.now.
+Generated HTML is committed. The deployed site remains dependency-free.
 
 ## Local preview
 
-```bash
-cd /home/hermes/projects/90s-land-next
+```sh
 python3 -m http.server 4173
 ```
 
-Open `http://localhost:4173`.
+Open `http://127.0.0.1:4173/`.
+
+Before review, run:
+
+```sh
+python3 tools/render_site.py --check
+python3 tools/process_media.py --check
+python3 tools/audit_site.py
+pnpm test
+```
 
 ## Current concept
 
@@ -37,4 +48,5 @@ A nostalgic interactive portal/museum/playground for the 90s and pre-algorithm i
 
 ## Deployment
 
-Published with here.now from this project directory. Do not deploy to the real 90s.land domain until Justin explicitly approves.
+Do not deploy, push, or alter 90s.land production until Justin explicitly
+approves a separate production task.

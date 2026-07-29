@@ -1,0 +1,23 @@
+{
+  "name": "90s-land-playable-museum",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "author": "python3 tools/render_site.py && python3 tools/process_media.py",
+    "author:check": "python3 tools/render_site.py --check && python3 tools/process_media.py --check",
+    "audit": "python3 tools/audit_site.py",
+    "test": "playwright test",
+    "test:qa": "playwright test tests/site.spec.mjs",
+    "screenshots": "node tools/capture_screenshots.mjs",
+    "social-card": "python3 tools/build_social_card.py",
+    "lighthouse": "node tools/run_lighthouse.mjs"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.12.1",
+    "@playwright/test": "1.62.0",
+    "chrome-launcher": "1.2.1",
+    "lighthouse": "13.4.1",
+    "sharp": "0.35.3"
+  },
+  "packageManager": "pnpm@11.9.0"
+}
