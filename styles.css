@@ -1,3 +1,6 @@
+@layer legacy, museum, utilities, motion;
+
+@layer legacy {
 :root {
   --bg: #070018;
   --panel: rgba(13, 8, 42, 0.92);
@@ -1164,7 +1167,7 @@ textarea { min-height: 92px; resize: vertical; }
 }
 .figure-source {
   font-size: .82rem;
-  color: var(--text) !important;
+  color: var(--text);
 }
 .figure-links {
   display: flex;
@@ -1255,7 +1258,7 @@ textarea { min-height: 92px; resize: vertical; }
 .compact-route-card strong { color: var(--yellow); }
 .compact-route-card span { color: var(--muted); font-size: .9rem; line-height: 1.35; }
 .chart-pill-grid a { color: var(--cyan); font-weight: 700; text-align: center; }
-.visual-strip, .gif-desktop { display: none !important; }
+.visual-strip, .gif-desktop { display: none; }
 
 /* Denser mobile readability: more content per screen, less neon padding tax. */
 @media (max-width: 820px) {
@@ -1345,26 +1348,26 @@ textarea { min-height: 92px; resize: vertical; }
   .topbar { padding-left: .35rem; padding-right: .35rem; }
   .window, .panel { border-left-width: 2px; border-right-width: 2px; }
   .page-hero { margin-top: .3rem; }
-  .panel, .hero-grid, .capsule-hero .page-pad, .page-pad { padding: .58rem !important; }
+  .panel, .hero-grid, .capsule-hero .page-pad, .page-pad { padding: .58rem; }
   .portal-content,
   .capsule-layout,
   .year-deep-dive,
   .standalone {
-    padding: .08rem !important;
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-    width: 100% !important;
-    max-width: none !important;
+    padding: .08rem;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    max-width: none;
   }
   .capsule-section,
   .portal-box,
   .why-card,
   .chart-section.capsule-section {
-    padding: .18rem !important;
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-    width: 100% !important;
-    max-width: none !important;
+    padding: .18rem;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    max-width: none;
   }
   .resource-console,
   .resource-directory,
@@ -1372,16 +1375,16 @@ textarea { min-height: 92px; resize: vertical; }
   .starter-pack,
   .this-month-panel,
   .home-feature-strip {
-    padding: .65rem !important;
+    padding: .65rem;
   }
   .site-filter-row,
   .resource-filters,
   .highlight-strip,
   .chart-pill-grid {
-    display: flex !important;
-    flex-wrap: nowrap !important;
+    display: flex;
+    flex-wrap: nowrap;
     overflow-x: auto;
-    gap: .45rem !important;
+    gap: .45rem;
     padding-bottom: .2rem;
     scrollbar-width: thin;
   }
@@ -1407,9 +1410,9 @@ textarea { min-height: 92px; resize: vertical; }
     line-height: 1.32;
   }
   .timeline-card {
-    grid-template-columns: 68px minmax(0, 1fr) !important;
-    gap: .6rem !important;
-    padding: .65rem !important;
+    grid-template-columns: 68px minmax(0, 1fr);
+    gap: .6rem;
+    padding: .65rem;
     align-items: start;
   }
   .timeline-year {
@@ -1421,7 +1424,7 @@ textarea { min-height: 92px; resize: vertical; }
   .resource-card,
   .portal-box,
   .micro-card {
-    padding: .7rem !important;
+    padding: .7rem;
   }
   .chart-year-card h3,
   .site-search-card h3,
@@ -1457,9 +1460,9 @@ textarea { min-height: 92px; resize: vertical; }
   .artifact-grid,
   .song-grid,
   .portal-columns {
-    grid-template-columns: 1fr !important;
-    gap: .55rem !important;
-    width: 100% !important;
+    grid-template-columns: 1fr;
+    gap: .55rem;
+    width: 100%;
   }
   .media-figure-card,
   .timeline-card,
@@ -1469,12 +1472,12 @@ textarea { min-height: 92px; resize: vertical; }
   .song-card,
   .artifact-tile,
   .capsule-card {
-    width: 100% !important;
-    max-width: none !important;
-    margin-left: 0 !important;
-    margin-right: 0 !important;
+    width: 100%;
+    max-width: none;
+    margin-left: 0;
+    margin-right: 0;
   }
-  .media-figure-card figcaption { padding: .65rem .7rem !important; }
+  .media-figure-card figcaption { padding: .65rem .7rem; }
   .media-figure-card p,
   .museum-object-card p,
   .media-callout p,
@@ -1499,8 +1502,8 @@ textarea { min-height: 92px; resize: vertical; }
   .resource-grid,
   .featured-grid,
   .site-map-grid {
-    grid-template-columns: 1fr !important;
-    gap: .5rem !important;
+    grid-template-columns: 1fr;
+    gap: .5rem;
   }
 
   .timeline-product-panel,
@@ -1581,7 +1584,7 @@ textarea { min-height: 92px; resize: vertical; }
   }
 
   .capsule-main .media-figure-card figcaption {
-    padding: .6rem .65rem .65rem !important;
+    padding: .6rem .65rem .65rem;
     gap: .45rem;
   }
 
@@ -1615,5 +1618,1264 @@ textarea { min-height: 92px; resize: vertical; }
   .capsule-main .media-figure-card,
   .capsule-main .feature-figure {
     grid-template-columns: 96px minmax(0, 1fr);
+  }
+}
+}
+
+@layer museum {
+  @font-face {
+    font-family: "Press Start 2P";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src:
+      url("/assets/fonts/press-start-2p-regular.woff2") format("woff2"),
+      url("/assets/fonts/press-start-2p-regular.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src:
+      url("/assets/fonts/space-mono-regular.woff2") format("woff2"),
+      url("/assets/fonts/space-mono-regular.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src:
+      url("/assets/fonts/space-mono-bold.woff2") format("woff2"),
+      url("/assets/fonts/space-mono-bold.ttf") format("truetype");
+  }
+
+  :root {
+    --ink: #050017;
+    --case: rgba(7, 4, 30, .94);
+    --paper: #fffce8;
+    --line: rgba(248, 242, 255, .2);
+    --focus: #fff35c;
+    color-scheme: dark;
+  }
+
+  html {
+    overflow-x: clip;
+    scroll-padding-top: 6.5rem;
+  }
+
+  body {
+    overflow-x: clip;
+    font-family: "Space Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    line-height: 1.6;
+  }
+
+  [hidden] {
+    display: none;
+  }
+
+  img,
+  svg,
+  video,
+  canvas {
+    display: block;
+    max-width: 100%;
+  }
+
+  img {
+    height: auto;
+  }
+
+  .responsive-artifact {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  .responsive-artifact > img {
+    width: 100%;
+    height: 100%;
+    object-fit: inherit;
+  }
+
+  button,
+  input,
+  textarea,
+  select {
+    font: inherit;
+  }
+
+  a,
+  button,
+  input,
+  textarea,
+  summary {
+    border-radius: 2px;
+  }
+
+  :where(a, button, input, textarea, summary):focus-visible {
+    outline: 3px solid var(--focus);
+    outline-offset: 4px;
+    box-shadow: 0 0 0 7px rgba(5, 0, 23, .92);
+  }
+
+  .skip-link {
+    position: fixed;
+    z-index: 100;
+    top: .75rem;
+    left: .75rem;
+    padding: .7rem 1rem;
+    color: var(--ink);
+    background: var(--yellow);
+    border: 2px solid var(--ink);
+    font-weight: 700;
+    transform: translateY(-180%);
+  }
+
+  .skip-link:focus {
+    transform: translateY(0);
+  }
+
+  h1,
+  h2,
+  h3 {
+    max-width: 32ch;
+    font-family: "Space Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    line-height: 1.12;
+    text-wrap: balance;
+  }
+
+  h1 {
+    font-size: clamp(2.25rem, 5.8vw, 4.8rem);
+    letter-spacing: -.05em;
+  }
+
+  h2 {
+    font-size: clamp(1.55rem, 3.2vw, 2.65rem);
+    letter-spacing: -.035em;
+  }
+
+  h3 {
+    line-height: 1.25;
+  }
+
+  p,
+  li {
+    text-wrap: pretty;
+  }
+
+  main,
+  .footer {
+    width: min(1180px, calc(100% - clamp(1rem, 4vw, 3rem)));
+  }
+
+  .topbar {
+    min-height: 64px;
+    gap: 1rem;
+    padding-block: .65rem;
+  }
+
+  .nav {
+    align-items: center;
+    justify-content: flex-end;
+    gap: clamp(.55rem, 1.5vw, 1rem);
+  }
+
+  .nav > a {
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .museum-toolbelt {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    padding-left: .65rem;
+    border-left: 1px solid rgba(57, 255, 242, .35);
+  }
+
+  .museum-tool {
+    min-height: 40px;
+    display: inline-flex;
+    align-items: center;
+    gap: .4rem;
+    padding: .45rem .65rem;
+    color: var(--ink);
+    background: var(--yellow);
+    border: 2px solid var(--ink);
+    box-shadow: 3px 3px 0 var(--pink);
+    font-weight: 800;
+    text-decoration: none;
+  }
+
+  .passport-tool {
+    color: var(--ink);
+    background: var(--green);
+    cursor: pointer;
+  }
+
+  .passport-tool span {
+    display: inline-grid;
+    min-width: 1.55rem;
+    min-height: 1.55rem;
+    place-items: center;
+    border-radius: 50%;
+    color: var(--text);
+    background: var(--ink);
+  }
+
+  .window,
+  .panel {
+    min-width: 0;
+    border-width: 2px;
+  }
+
+  .panel {
+    padding: clamp(1rem, 3.5vw, 2rem);
+  }
+
+  .window-bar {
+    align-items: center;
+    min-height: 36px;
+  }
+
+  .window-buttons {
+    user-select: none;
+  }
+
+  .button,
+  .resource-link {
+    min-height: 44px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .button[disabled] {
+    opacity: .7;
+    cursor: default;
+    transform: none;
+  }
+
+  .button.danger {
+    color: var(--text);
+    background: #80194d;
+    box-shadow: 4px 4px 0 var(--yellow);
+  }
+
+  details {
+    border-block: 1px solid var(--line);
+    padding-block: .7rem;
+  }
+
+  summary {
+    color: var(--cyan);
+    cursor: pointer;
+    font-weight: 800;
+  }
+
+  .museum-lobby {
+    margin-bottom: clamp(1rem, 3vw, 1.75rem);
+  }
+
+  .museum-lobby-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1.25fr) minmax(320px, .75fr);
+    gap: clamp(1.25rem, 4vw, 3rem);
+    align-items: center;
+    padding: clamp(1.15rem, 3vw, 2rem);
+  }
+
+  .museum-lobby-copy .eyebrow {
+    margin-top: 0;
+  }
+
+  .museum-lobby-copy h1 {
+    margin-bottom: .75rem;
+  }
+
+  .museum-lobby-copy .lede {
+    max-width: 42ch;
+    margin-block: 0 1rem;
+    color: var(--text);
+    font-size: clamp(1.05rem, 1.9vw, 1.28rem);
+  }
+
+  .museum-primary-actions {
+    margin-block: 1rem .8rem;
+  }
+
+  .lobby-note {
+    max-width: 58ch;
+    margin: 0;
+    color: var(--muted);
+    font-size: .82rem;
+  }
+
+  .display-case {
+    min-width: 0;
+    padding: .7rem;
+    color: var(--text);
+    background:
+      linear-gradient(135deg, rgba(57, 255, 242, .12), transparent 42%),
+      var(--case);
+    border: 1px solid rgba(57, 255, 242, .6);
+    box-shadow: inset 0 0 28px rgba(57, 255, 242, .08), 7px 7px 0 rgba(255, 79, 216, .28);
+  }
+
+  .display-case-glass {
+    position: relative;
+    overflow: hidden;
+    aspect-ratio: 4 / 2.35;
+    background: #050014;
+    border: 1px solid rgba(248, 242, 255, .38);
+  }
+
+  .display-case-glass::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background: linear-gradient(115deg, rgba(255, 255, 255, .18), transparent 24% 70%, rgba(57, 255, 242, .08));
+  }
+
+  .display-case-glass img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .museum-label {
+    padding: .8rem .25rem .2rem;
+  }
+
+  .museum-label h2 {
+    margin-block: .25rem .45rem;
+    font-size: clamp(1.05rem, 2vw, 1.35rem);
+  }
+
+  .museum-label > p:not(.artifact-label) {
+    margin-block: .35rem;
+    color: var(--muted);
+    font-size: .8rem;
+  }
+
+  .artifact-label,
+  .tour-step-label {
+    margin: 0;
+    color: var(--green);
+    font-size: .72rem;
+    font-weight: 800;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+  }
+
+  .artifact-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .7rem;
+    align-items: center;
+    margin-top: .75rem;
+  }
+
+  .artifact-actions a {
+    color: var(--cyan);
+    font-weight: 800;
+  }
+
+  .inspect-button.is-inspected {
+    color: var(--ink);
+    background: var(--green);
+    box-shadow: 4px 4px 0 var(--cyan);
+  }
+
+  .monthly-exhibit {
+    display: grid;
+    grid-template-columns: minmax(0, 1.1fr) minmax(0, 1.35fr) auto;
+    gap: clamp(1rem, 3vw, 2rem);
+    align-items: center;
+    margin-bottom: clamp(1rem, 3vw, 1.75rem);
+    background:
+      linear-gradient(90deg, rgba(255, 243, 92, .08), transparent 45%),
+      var(--panel);
+    border-color: var(--yellow);
+  }
+
+  .monthly-exhibit h2 {
+    font-size: clamp(1.55rem, 3vw, 2.25rem);
+  }
+
+  .monthly-exhibit p {
+    margin-bottom: 0;
+  }
+
+  .monthly-highlights {
+    display: grid;
+    gap: .65rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .monthly-highlights li {
+    display: grid;
+    grid-template-columns: minmax(9rem, .8fr) minmax(0, 1.2fr);
+    gap: .75rem;
+    padding-bottom: .45rem;
+    border-bottom: 1px dotted rgba(255, 243, 92, .45);
+  }
+
+  .monthly-highlights span {
+    color: var(--muted);
+    font-size: .8rem;
+  }
+
+  .museum-room-directory {
+    scroll-margin-top: 6.5rem;
+  }
+
+  .museum-door-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .museum-door {
+    min-height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+    border-color: var(--cyan);
+    background:
+      linear-gradient(145deg, rgba(57, 255, 242, .12), transparent 58%),
+      rgba(13, 8, 42, .96);
+  }
+
+  .museum-door.accent-pink {
+    border-color: var(--pink);
+    background:
+      linear-gradient(145deg, rgba(255, 79, 216, .14), transparent 58%),
+      rgba(13, 8, 42, .96);
+  }
+
+  .museum-door.accent-green {
+    border-color: var(--green);
+    background:
+      linear-gradient(145deg, rgba(121, 255, 122, .12), transparent 58%),
+      rgba(13, 8, 42, .96);
+  }
+
+  .museum-door.accent-yellow {
+    border-color: var(--yellow);
+    background:
+      linear-gradient(145deg, rgba(255, 243, 92, .12), transparent 58%),
+      rgba(13, 8, 42, .96);
+  }
+
+  .museum-door .pixel-icon {
+    align-self: flex-start;
+    min-width: 3.2rem;
+  }
+
+  .museum-connections {
+    margin-top: 1.5rem;
+  }
+
+  .museum-year-door {
+    position: relative;
+  }
+
+  .year-object-labels {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .35rem;
+  }
+
+  .year-object-labels em {
+    padding: .25rem .4rem;
+    color: var(--ink);
+    background: var(--green);
+    border: 1px solid var(--ink);
+    font-size: .67rem;
+    font-style: normal;
+  }
+
+  .visited-door-label {
+    display: inline-block;
+    margin-top: .7rem;
+    color: var(--muted);
+    font-size: .7rem;
+  }
+
+  .museum-year-door.is-visited {
+    border-color: var(--green);
+    box-shadow: 6px 6px 0 rgba(121, 255, 122, .35);
+  }
+
+  .museum-year-door.is-visited .visited-door-label {
+    color: var(--green);
+    font-weight: 800;
+  }
+
+  .artifact-shelf {
+    margin-block: 1.5rem;
+    scroll-margin-top: 6.5rem;
+  }
+
+  .artifact-ticket-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+  }
+
+  .artifact-ticket {
+    min-width: 0;
+    display: grid;
+    grid-template-columns: minmax(130px, .38fr) minmax(0, .62fr);
+    gap: 1rem;
+    padding: .8rem;
+    color: var(--text);
+    background: rgba(4, 2, 22, .68);
+    border: 1px solid rgba(57, 255, 242, .45);
+  }
+
+  .artifact-ticket-media {
+    display: grid;
+    min-height: 140px;
+    place-items: center;
+    overflow: hidden;
+    background: rgba(57, 255, 242, .06);
+    border: 1px solid var(--line);
+  }
+
+  .artifact-ticket-media img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .artifact-ticket h3 {
+    font-size: 1.15rem;
+  }
+
+  .artifact-credit {
+    font-size: .7rem;
+  }
+
+  .artifact-recreation {
+    width: 100%;
+    min-height: 150px;
+    display: grid;
+    place-items: center;
+    padding: .8rem;
+    color: var(--ink);
+    background:
+      linear-gradient(90deg, transparent 48%, rgba(0, 0, 0, .15) 50% 52%, transparent 54%),
+      linear-gradient(var(--yellow), var(--pink));
+    border: 8px ridge #c9c9c9;
+    font-size: .75rem;
+    font-weight: 900;
+    text-align: center;
+  }
+
+  .recreation-visitor-counter {
+    color: #ff4545;
+    background: #050505;
+    border-color: #777;
+    font-family: ui-monospace, monospace;
+    font-size: 1.15rem;
+    letter-spacing: .1em;
+  }
+
+  .recreation-aim-away-message {
+    color: #101020;
+    background: #f1f1e8;
+    border-color: #3774bb;
+  }
+
+  .recreation-yahoo-directory {
+    color: #3b1270;
+    background: #fff;
+    border-color: #7040aa;
+  }
+
+  .recreation-windows-95-start {
+    color: #fff;
+    background: #008080;
+    border-color: #c0c0c0;
+  }
+
+  .recreation-guestbook,
+  .recreation-webring-bar {
+    color: var(--text);
+    background:
+      radial-gradient(circle, #fff 1px, transparent 1px) 0 0 / 12px 12px,
+      #190044;
+  }
+
+  .museum-dialog {
+    width: min(620px, calc(100% - 1.25rem));
+    max-height: min(86vh, 760px);
+    padding: 0;
+    overflow: auto;
+    color: var(--text);
+    background: var(--case);
+    border: 2px solid var(--cyan);
+    box-shadow: 12px 12px 0 rgba(255, 79, 216, .42);
+  }
+
+  .museum-dialog::backdrop {
+    background: rgba(2, 0, 15, .82);
+    backdrop-filter: blur(5px);
+  }
+
+  .dialog-window {
+    min-width: 0;
+  }
+
+  .dialog-close {
+    min-width: 34px;
+    min-height: 34px;
+    color: var(--ink);
+    background: var(--paper);
+    border: 2px solid var(--ink);
+    cursor: pointer;
+  }
+
+  .dialog-body {
+    padding: clamp(1rem, 4vw, 1.75rem);
+  }
+
+  .dialog-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .75rem;
+    margin-top: 1.25rem;
+  }
+
+  .cd-loader {
+    width: 80px;
+    aspect-ratio: 1;
+    margin: 1.25rem auto;
+    border: 12px solid rgba(57, 255, 242, .35);
+    border-top-color: var(--pink);
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 12px var(--case);
+    animation: cd-spin .65s linear infinite;
+  }
+
+  .passport-stats {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: .6rem;
+    margin-block: 1rem;
+  }
+
+  .passport-stats span {
+    padding: .65rem;
+    text-align: center;
+    background: rgba(57, 255, 242, .08);
+    border: 1px solid var(--line);
+  }
+
+  .passport-stats strong {
+    display: block;
+    color: var(--yellow);
+    font-size: 1.5rem;
+  }
+
+  .passport-stamp-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: .7rem;
+    padding: 0;
+    list-style: none;
+  }
+
+  .passport-stamp {
+    display: grid;
+    gap: .25rem;
+    min-width: 0;
+    padding: .75rem;
+    background: rgba(255, 243, 92, .08);
+    border: 1px dashed var(--yellow);
+  }
+
+  .passport-stamp > span:last-child {
+    color: var(--muted);
+    font-size: .75rem;
+  }
+
+  .passport-stamp.is-locked {
+    filter: grayscale(1);
+    opacity: .48;
+  }
+
+  .passport-stamp.is-earned {
+    transform: rotate(-1deg);
+    box-shadow: 4px 4px 0 rgba(255, 79, 216, .35);
+  }
+
+  .stamp-mark {
+    color: var(--green);
+    font-size: .65rem;
+    font-weight: 900;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+  }
+
+  .storage-note.is-warning,
+  .sandbox-notice {
+    padding: .75rem;
+    color: var(--ink);
+    background: var(--yellow);
+    border: 2px solid var(--pink);
+  }
+
+  .passport-resume {
+    margin-block: 1rem;
+    padding: .8rem;
+    border: 1px solid var(--green);
+  }
+
+  .tour-main {
+    width: min(980px, calc(100% - clamp(1rem, 4vw, 3rem)));
+  }
+
+  .tour-hero .page-pad {
+    padding: clamp(1rem, 4vw, 2rem);
+  }
+
+  .tour-progress {
+    width: 100%;
+    height: 12px;
+    overflow: hidden;
+    background: rgba(255, 255, 255, .12);
+    border: 1px solid var(--cyan);
+  }
+
+  .tour-progress span {
+    display: block;
+    width: calc(100% / 6);
+    height: 100%;
+    background: linear-gradient(90deg, var(--cyan), var(--pink));
+    transition: width .25s ease;
+  }
+
+  .tour-progress-copy {
+    color: var(--muted);
+    font-size: .82rem;
+  }
+
+  .tour-deck {
+    display: grid;
+    gap: 1.25rem;
+  }
+
+  .tour-stop {
+    scroll-margin-top: 6.5rem;
+    padding: clamp(1rem, 4vw, 2rem);
+    background: var(--panel);
+    border: 2px solid var(--pink);
+    box-shadow: 8px 8px 0 rgba(57, 255, 242, .22);
+  }
+
+  .tour-stop:target {
+    border-color: var(--yellow);
+  }
+
+  .tour-curator-text {
+    color: var(--paper);
+    font-size: clamp(1.05rem, 2vw, 1.2rem);
+  }
+
+  .tour-artifact-row {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: .8rem;
+    margin-block: 1rem;
+  }
+
+  .tour-artifact-row .artifact-ticket {
+    grid-template-columns: 110px minmax(0, 1fr);
+  }
+
+  .tour-artifact-row .artifact-actions {
+    font-size: .8rem;
+  }
+
+  .tour-controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .75rem;
+    margin-top: 1.25rem;
+  }
+
+  .no-js .tour-progress,
+  .no-js .tour-progress-copy,
+  .no-js [data-tour-back],
+  .no-js [data-tour-next] {
+    display: none;
+  }
+
+  .homepage-builder {
+    margin-block: 1.2rem;
+    padding: .8rem;
+    background: #bdbdbd;
+    border: 3px outset #efefef;
+  }
+
+  .homepage-preview {
+    min-height: 230px;
+    display: grid;
+    place-items: center;
+    padding: 1rem;
+    color: #0b0b71;
+    background: #fff;
+    border: 3px inset #ddd;
+    text-align: center;
+  }
+
+  .homepage-preview.has-stars {
+    color: var(--yellow);
+    background:
+      radial-gradient(circle, #fff 1px, transparent 2px) 0 0 / 18px 18px,
+      #080044;
+  }
+
+  .homepage-title {
+    color: #ff00b7;
+    font-size: clamp(1.2rem, 4vw, 2rem);
+    font-weight: 900;
+    text-shadow: 2px 2px #39fff2;
+  }
+
+  .homepage-controls,
+  .builder-controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+    margin-top: .75rem;
+  }
+
+  .homepage-controls button,
+  .builder-controls button {
+    min-height: 44px;
+    color: #101010;
+    background: #ddd;
+    border: 2px outset #fff;
+  }
+
+  .mystery-envelope-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: .8rem;
+  }
+
+  .mystery-envelope {
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: .35rem;
+    padding: .8rem;
+    color: var(--ink);
+    background:
+      linear-gradient(150deg, transparent 49%, rgba(0, 0, 0, .12) 50%, transparent 51%),
+      var(--paper);
+    border: 3px double var(--pink);
+    box-shadow: 5px 5px 0 rgba(57, 255, 242, .4);
+    text-decoration: none;
+  }
+
+  .mystery-envelope small {
+    color: #463f55;
+  }
+
+  .resource-card[hidden],
+  .site-search-card[hidden] {
+    display: none;
+  }
+
+  .featured-resource-section,
+  .resource-directory,
+  .resource-console {
+    margin-block: 1.25rem;
+  }
+
+  .featured-resource-grid,
+  .resource-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: .8rem;
+  }
+
+  .resource-card {
+    min-width: 0;
+  }
+
+  .resource-tag {
+    text-transform: uppercase;
+  }
+
+  .resource-availability {
+    padding: .55rem;
+    color: var(--yellow);
+    background: rgba(255, 243, 92, .08);
+    border-left: 3px solid var(--yellow);
+    font-size: .72rem;
+  }
+
+  .site-filter-row,
+  .resource-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+    margin-top: 1rem;
+  }
+
+  .resource-filter[aria-pressed="true"] {
+    color: var(--ink);
+    background: var(--yellow);
+  }
+
+  .site-search-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .guestbook form {
+    display: grid;
+    gap: 1rem;
+    max-width: 720px;
+  }
+
+  .guestbook label {
+    display: grid;
+    gap: .4rem;
+    font-weight: 800;
+  }
+
+  .guestbook input,
+  .guestbook textarea {
+    width: 100%;
+    padding: .75rem;
+    color: var(--ink);
+    background: var(--paper);
+    border: 2px inset #bbb;
+  }
+
+  .guestbook textarea {
+    min-height: 130px;
+    resize: vertical;
+  }
+
+  .guestbook-preview {
+    margin-top: 1rem;
+    padding: 1rem;
+    border: 1px dashed var(--cyan);
+  }
+
+  .credits-list {
+    display: grid;
+    gap: .7rem;
+    padding-left: 1.25rem;
+  }
+
+  .footer {
+    margin-inline: auto;
+  }
+
+  @media (max-width: 980px) {
+    .museum-lobby-grid {
+      grid-template-columns: minmax(0, 1.05fr) minmax(280px, .95fr);
+    }
+
+    .museum-door-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .monthly-exhibit {
+      grid-template-columns: 1fr 1.15fr;
+    }
+
+    .monthly-exhibit > .button {
+      grid-column: 1 / -1;
+      justify-self: start;
+    }
+
+    .artifact-ticket-grid,
+    .featured-resource-grid,
+    .resource-grid,
+    .site-search-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  @media (max-width: 800px) {
+    .topbar {
+      flex-wrap: wrap;
+    }
+
+    .menu-toggle {
+      min-height: 44px;
+      display: inline-flex;
+      align-items: center;
+      gap: .35rem;
+      padding: .45rem .65rem;
+      color: var(--text);
+      background: rgba(29, 20, 88, .95);
+      border: 2px solid var(--cyan);
+      cursor: pointer;
+    }
+
+    .nav {
+      width: 100%;
+      display: none;
+      align-items: stretch;
+      justify-content: flex-start;
+      padding-block: .45rem .2rem;
+    }
+
+    .nav.is-open {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .nav > a {
+      justify-content: center;
+      padding: .45rem;
+      border: 1px solid rgba(57, 255, 242, .25);
+    }
+
+    .museum-toolbelt {
+      grid-column: 1 / -1;
+      justify-content: center;
+      padding: .65rem 0 0;
+      border-top: 1px solid rgba(57, 255, 242, .3);
+      border-left: 0;
+    }
+
+    .museum-lobby-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .museum-lobby-copy h1 {
+      font-size: clamp(2.25rem, 11vw, 3.7rem);
+    }
+
+    .lobby-artifact {
+      max-width: 620px;
+    }
+
+    .monthly-exhibit {
+      grid-template-columns: 1fr;
+    }
+
+    .monthly-exhibit > .button {
+      grid-column: auto;
+    }
+
+    .artifact-ticket,
+    .tour-artifact-row .artifact-ticket {
+      grid-template-columns: minmax(100px, .4fr) minmax(0, .6fr);
+    }
+
+    .mystery-envelope-grid {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
+
+  @media (max-width: 620px) {
+    main,
+    .footer,
+    .tour-main {
+      width: calc(100% - 1rem);
+    }
+
+    .museum-lobby-grid {
+      padding: .85rem;
+      gap: .9rem;
+    }
+
+    .museum-lobby-copy .eyebrow {
+      font-size: .7rem;
+    }
+
+    .museum-lobby-copy h1 {
+      margin-top: .15rem;
+      font-size: clamp(2rem, 11vw, 2.75rem);
+    }
+
+    .museum-primary-actions {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: .55rem;
+    }
+
+    .museum-primary-actions .primary {
+      grid-column: 1 / -1;
+    }
+
+    .museum-primary-actions .button {
+      padding: .62rem .7rem;
+      font-size: .8rem;
+      text-align: center;
+    }
+
+    .display-case-glass {
+      max-height: 180px;
+    }
+
+    .museum-label {
+      padding-top: .55rem;
+    }
+
+    .museum-label > p:not(.artifact-label) {
+      display: none;
+    }
+
+    .museum-door-grid,
+    .artifact-ticket-grid,
+    .tour-artifact-row,
+    .featured-resource-grid,
+    .resource-grid,
+    .site-search-grid,
+    .passport-stamp-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .museum-door {
+      min-height: 180px;
+    }
+
+    .monthly-highlights li {
+      grid-template-columns: 1fr;
+      gap: .2rem;
+    }
+
+    .highlight-strip,
+    .chart-pill-grid,
+    .capsule-jump-nav {
+      flex-wrap: wrap;
+      overflow-x: visible;
+    }
+
+    .highlight-strip > :where(a, span),
+    .chart-pill-grid > a {
+      flex: 0 1 auto;
+      white-space: normal;
+    }
+
+    .capsule-jump-nav a {
+      flex: 1 1 7rem;
+      justify-content: center;
+      white-space: normal;
+      text-align: center;
+    }
+
+    .artifact-ticket,
+    .tour-artifact-row .artifact-ticket {
+      grid-template-columns: 96px minmax(0, 1fr);
+      gap: .65rem;
+      padding: .65rem;
+    }
+
+    .artifact-ticket-media {
+      min-height: 110px;
+    }
+
+    .artifact-actions {
+      align-items: stretch;
+    }
+
+    .artifact-actions .button {
+      width: 100%;
+    }
+
+    .passport-stats {
+      grid-template-columns: 1fr;
+    }
+
+    .mystery-envelope-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .dialog-actions {
+      display: grid;
+    }
+  }
+
+  @media (max-width: 390px) {
+    .topbar {
+      padding-inline: .65rem;
+    }
+
+    .brand {
+      font-size: .82rem;
+    }
+
+    .nav.is-open {
+      grid-template-columns: 1fr;
+    }
+
+    .museum-toolbelt {
+      grid-column: auto;
+    }
+
+    .museum-primary-actions {
+      grid-template-columns: 1fr;
+    }
+
+    .museum-primary-actions .primary {
+      grid-column: auto;
+    }
+
+    .mystery-envelope-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+}
+
+@layer utilities {
+  [hidden] {
+    display: none;
+  }
+
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+}
+
+@layer motion {
+  @keyframes cd-spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      scroll-behavior: auto;
+      animation-duration: .01ms;
+      animation-iteration-count: 1;
+      transition-duration: .01ms;
+    }
+
+    .crt,
+    .starfield {
+      display: none;
+    }
   }
 }
