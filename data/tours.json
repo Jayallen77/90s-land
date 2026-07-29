@@ -1,0 +1,74 @@
+[
+  {
+    "id": "before-the-feed",
+    "slug": "before-the-feed",
+    "title": "Before the Feed: How the Web Became Personal",
+    "shortTitle": "Before the Feed",
+    "durationMinutes": 10,
+    "description": "Six stops from the shared family computer to handmade homepages, screen names, portals, and search.",
+    "completionStampId": "before-the-feed",
+    "stops": [
+      {
+        "id": "family-pc-portal",
+        "number": 1,
+        "title": "The family computer becomes a portal",
+        "artifactIds": ["family-pc", "aol-cd"],
+        "curatorText": "The early web did not arrive in a pocket. It arrived in one shared room, on one glowing CRT, through a phone line everybody else still needed. The family computer turned going online into a household negotiation and made the screen feel like a doorway.",
+        "detail": "AOL discs and setup wizards made access feel consumer-friendly, but the experience was still physical: mailers, modem sounds, mouse pads, printed passwords, and time limits.",
+        "exhibitHref": "/zones/tech-toys/#artifact-family-pc",
+        "exhibitLabel": "Open the family-PC exhibit"
+      },
+      {
+        "id": "mosaic-visual-web",
+        "number": 2,
+        "title": "Mosaic gives the web a visual front door",
+        "artifactIds": ["first-website", "mosaic-browser"],
+        "curatorText": "The first website looked like lab notes. Mosaic helped the same linked-document idea become something people could see themselves exploring: gray window chrome, blue links, and images sitting inside the page.",
+        "detail": "The change was not instant mass adoption. It was a shift in imagination—the web started looking like a place rather than a protocol.",
+        "exhibitHref": "/timeline/1993/#artifact-mosaic-browser",
+        "exhibitLabel": "Inspect Mosaic in the 1993 capsule"
+      },
+      {
+        "id": "handmade-geocities",
+        "number": 3,
+        "title": "GeoCities turns pages into rooms",
+        "artifactIds": ["geocities-homepage", "yahoo-directory"],
+        "curatorText": "Personal homepages were part diary, part fan shrine, and part self-invention project. Their rough edges were evidence that a person had chosen every color, GIF, link, and sentence.",
+        "detail": "GeoCities neighborhoods supplied a loose map while human-curated directories helped visitors find the next handmade corner.",
+        "exhibitHref": "/zones/internet-culture/#artifact-geocities-homepage",
+        "exhibitLabel": "Enter the handmade-web room",
+        "interaction": "homepage-builder"
+      },
+      {
+        "id": "traces-and-webrings",
+        "number": 4,
+        "title": "Guestbooks, counters, and Webrings leave traces",
+        "artifactIds": ["guestbook", "visitor-counter", "webring-bar"],
+        "curatorText": "A counter said somebody had arrived. A guestbook showed who stayed long enough to leave a note. A Webring trusted one small site to point toward another.",
+        "detail": "These tiny objects made the web feel inhabited and gave discovery a visible human chain instead of an invisible ranking system.",
+        "exhibitHref": "/zones/internet-culture/#artifact-webring-bar",
+        "exhibitLabel": "Inspect the social-web objects"
+      },
+      {
+        "id": "screen-name-self",
+        "number": 5,
+        "title": "Screen names make presence personal",
+        "artifactIds": ["aim-away-message", "pager"],
+        "curatorText": "Buddy lists and away messages turned identity into something you edited in public. A screen name, a lyric, and an ASCII heart could communicate mood, availability, and belonging.",
+        "detail": "The page stopped being the only place you performed a self online. Presence moved into a live social layer that followed the rest of pop culture home.",
+        "exhibitHref": "/zones/internet-culture/#artifact-aim-away-message",
+        "exhibitLabel": "Read the AIM identity exhibit"
+      },
+      {
+        "id": "portals-and-precursors",
+        "number": 6,
+        "title": "Portals and search begin sorting the neighborhood",
+        "artifactIds": ["yahoo-directory", "bondi-imac"],
+        "curatorText": "By the late 1990s, the web was too large to navigate only by hand. Portals bundled news, mail, search, and identity into a starting screen while cleaner search tools promised a faster route through the noise.",
+        "detail": "The handmade web did not disappear overnight, but the center of gravity shifted from choosing a neighbor to querying an index—the beginning of the road toward today's feed-shaped internet.",
+        "exhibitHref": "/timeline/1998/#photo-showroom",
+        "exhibitLabel": "Open the 1998 search-and-iMac bridge"
+      }
+    ]
+  }
+]

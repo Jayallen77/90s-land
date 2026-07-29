@@ -1,0 +1,22 @@
+[
+  {
+    "label": "Years",
+    "href": "/timeline/"
+  },
+  {
+    "label": "Museum Map",
+    "href": "/sitemap/"
+  },
+  {
+    "label": "Tour",
+    "href": "/tours/before-the-feed/"
+  },
+  {
+    "label": "Explore",
+    "href": "/webring/"
+  },
+  {
+    "label": "Search",
+    "href": "/search/"
+  }
+]
