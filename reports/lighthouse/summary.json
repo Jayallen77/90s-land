@@ -1,0 +1,110 @@
+[
+  {
+    "page": "home",
+    "path": "/",
+    "mode": "mobile",
+    "performance": 99,
+    "accessibility": 100,
+    "best-practices": 100,
+    "seo": 100
+  },
+  {
+    "page": "home",
+    "path": "/",
+    "mode": "desktop",
+    "performance": 100,
+    "accessibility": 100,
+    "best-practices": 100,
+    "seo": 100
+  },
+  {
+    "page": "timeline",
+    "path": "/timeline/",
+    "mode": "mobile",
+    "performance": 99,
+    "accessibility": 100,
+    "best-practices": 100,
+    "seo": 100
+  },
+  {
+    "page": "timeline",
+    "path": "/timeline/",
+    "mode": "desktop",
+    "performance": 100,
+    "accessibility": 100,
+    "best-practices": 100,
+    "seo": 100
+  },
+  {
+    "page": "year-1994",
+    "path": "/timeline/1994/",
+    "mode": "mobile",
+    "performance": 97,
+    "accessibility": 100,
+    "best-practices": 100,
+    "seo": 100
+  },
+  {
+    "page": "year-1994",
+    "path": "/timeline/1994/",
+    "mode": "desktop",
+    "performance": 100,
+    "accessibility": 100,
+    "best-practices": 100,
+    "seo": 100
+  },
+  {
+    "page": "internet-culture",
+    "path": "/zones/internet-culture/",
+    "mode": "mobile",
+    "performance": 99,
+    "accessibility": 100,
+    "best-practices": 100,
+    "seo": 100
+  },
+  {
+    "page": "internet-culture",
+    "path": "/zones/internet-culture/",
+    "mode": "desktop",
+    "performance": 100,
+    "accessibility": 100,
+    "best-practices": 100,
+    "seo": 100
+  },
+  {
+    "page": "tour",
+    "path": "/tours/before-the-feed/",
+    "mode": "mobile",
+    "performance": 98,
+    "accessibility": 100,
+    "best-practices": 100,
+    "seo": 100
+  },
+  {
+    "page": "tour",
+    "path": "/tours/before-the-feed/",
+    "mode": "desktop",
+    "performance": 100,
+    "accessibility": 100,
+    "best-practices": 100,
+    "seo": 100
+  },
+  {
+    "page": "search",
+    "path": "/search/?q=mosaic&filter=objects",
+    "mode": "mobile",
+    "performance": 97,
+    "accessibility": 100,
+    "best-practices": 100,
+    "seo": 100
+  },
+  {
+    "page": "search",
+    "path": "/search/?q=mosaic&filter=objects",
+    "mode": "desktop",
+    "performance": 100,
+    "accessibility": 100,
+    "best-practices": 100,
+    "seo": 100
+  }
+]

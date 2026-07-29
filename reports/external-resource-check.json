@@ -1,0 +1,1082 @@
+{
+  "checkedAt": "2026-07-29T00:45:34.602581+00:00",
+  "method": "HEAD followed by GET fallback, 12-second timeout",
+  "summary": {
+    "blocked-or-rate-limited": 5,
+    "reachable": 69,
+    "unresolved": 4
+  },
+  "results": [
+    {
+      "id": "404pagefound",
+      "title": "404PageFound",
+      "url": "https://www.404pagefound.com/",
+      "finalUrl": "https://www.404pagefound.com/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "id": "american-archive-of-public-broadcasting",
+      "title": "American Archive of Public Broadcasting",
+      "url": "https://americanarchive.org/",
+      "finalUrl": "https://americanarchive.org/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "id": "archive-team",
+      "title": "Archive Team",
+      "url": "https://wiki.archiveteam.org/",
+      "finalUrl": "https://wiki.archiveteam.org/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "id": "atariage",
+      "title": "AtariAge",
+      "url": "https://www.atariage.com/",
+      "finalUrl": "https://www.atariage.com/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "id": "bbslist-textfiles-com",
+      "title": "BBSLIST.TEXTFILES.COM",
+      "url": "https://bbslist.textfiles.com/",
+      "finalUrl": "https://bbslist.textfiles.com/",
+      "classification": "unresolved",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "error": "URLError: <urlopen error timed out>"
+        },
+        {
+          "method": "GET",
+          "error": "URLError: <urlopen error timed out>"
+        }
+      ],
+      "error": "URLError: <urlopen error timed out>"
+    },
+    {
+      "id": "camerons-world",
+      "title": "Cameron\u2019s World",
+      "url": "https://www.cameronsworld.net/",
+      "finalUrl": "https://www.cameronsworld.net/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "id": "cd-textfiles-com",
+      "title": "CD.TEXTFILES.COM",
+      "url": "https://cd.textfiles.com/",
+      "finalUrl": "https://cd.textfiles.com/",
+      "classification": "unresolved",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "error": "URLError: <urlopen error timed out>"
+        },
+        {
+          "method": "GET",
+          "error": "URLError: <urlopen error timed out>"
+        }
+      ],
+      "error": "URLError: <urlopen error timed out>"
+    },
+    {
+      "id": "chm-oral-histories",
+      "title": "CHM Oral Histories",
+      "url": "https://computerhistory.org/oral-histories/",
+      "finalUrl": "https://computerhistory.org/oral-histories/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "id": "chm-software-history-center",
+      "title": "CHM Software History Center",
+      "url": "https://computerhistory.org/software-history-center/",
+      "finalUrl": "https://computerhistory.org/software-history-center/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "id": "classicreload",
+      "title": "ClassicReload",
+      "url": "https://classicreload.com/",
+      "finalUrl": "https://classicreload.com/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "id": "computer-history-museum-collections",
+      "title": "Computer History Museum Collections",
+      "url": "https://computerhistory.org/collections/",
+      "finalUrl": "https://computerhistory.org/collections/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "id": "discogs",
+      "title": "Discogs",
+      "url": "https://www.discogs.com/",
+      "finalUrl": "https://www.discogs.com/",
+      "classification": "blocked-or-rate-limited",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 403
+        },
+        {
+          "method": "GET",
+          "status": 403
+        }
+      ],
+      "error": "Forbidden"
+    },
+    {
+      "id": "doomworld",
+      "title": "Doomworld",
+      "url": "https://www.doomworld.com/",
+      "finalUrl": "https://www.doomworld.com/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 520
+        },
+        {
+          "method": "GET",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "id": "dos-games-archive",
+      "title": "DOS Games Archive",
+      "url": "https://www.dosgamesarchive.com/",
+      "finalUrl": "https://www.dosgamesarchive.com/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "id": "dosbox",
+      "title": "DOSBox",
+      "url": "https://www.dosbox.com/",
+      "finalUrl": "https://www.dosbox.com/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "id": "ebay-nostalgia-toy-box",
+      "title": "eBay Nostalgia Toy Box",
+      "url": "https://www.ebay.com/b/Nostalgia-Toy-Box-Collectors-Hobbyists-Toys-Hobbies/220/bn_80737684",
+      "finalUrl": "https://www.ebay.com/splashui/challenge?ap=1&appName=orch&ru=https%3A%2F%2Fwww.ebay.com%2Fb%2FNostalgia-Toy-Box-Collectors-Hobbyists-Toys-Hobbies%2F220%2Fbn_80737684&iid=edd6f742-6c08-4783-9de2-4f816faf76f3&iim=FNzUuNK&iia=KczAuMjJw&iiz=EybQuMzc*FET",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 404
+        },
+        {
+          "method": "GET",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "id": "emulatorjs",
+      "title": "EmulatorJS",
+      "url": "https://emulatorjs.org/",
+      "finalUrl": "https://emulatorjs.org/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "id": "emuvr",
+      "title": "EmuVR",
+      "url": "https://www.emuvr.net/",
+      "finalUrl": "https://www.emuvr.net/wiki/Main_Page",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "id": "etsy-vintage-marketplace",
+      "title": "Etsy Vintage Marketplace",
+      "url": "https://www.etsy.com/market/vintage_marketplace",
+      "finalUrl": "https://www.etsy.com/market/vintage_marketplace",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "id": "flashpoint-archive",
+      "title": "Flashpoint Archive",
+      "url": "https://flashpointarchive.org/",
+      "finalUrl": "https://flashpointarchive.org/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "id": "fuzzymemories",
+      "title": "FuzzyMemories",
+      "url": "https://fuzzymemories.tv/",
+      "finalUrl": "https://fuzzymemories.tv/",
+      "classification": "unresolved",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1129)>"
+        },
+        {
+          "method": "GET",
+          "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1129)>"
+        }
+      ],
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1129)>"
+    },
+    {
+      "id": "gifcities",
+      "title": "GifCities",
+      "url": "https://gifcities.org/",
+      "finalUrl": "https://gifcities.org/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "id": "internet-arcade",
+      "title": "Internet Arcade",
+      "url": "https://archive.org/details/internetarcade",
+      "finalUrl": "https://archive.org/details/internetarcade",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "id": "internet-archive",
+      "title": "Internet Archive",
+      "url": "https://archive.org/",
+      "finalUrl": "https://archive.org/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "id": "internet-archive-software-library",
+      "title": "Internet Archive Software Library",
+      "url": "https://archive.org/details/software",
+      "finalUrl": "https://archive.org/details/software",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "id": "internet-archive-tv-news-archive",
+      "title": "Internet Archive TV News Archive",
+      "url": "https://archive.org/details/tv",
+      "finalUrl": "https://archive.org/details/tv",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "id": "kids-shows-on-vhs",
+      "title": "Kid\u2019s Shows on VHS",
+      "url": "https://archive.org/details/vhskids",
+      "finalUrl": "https://archive.org/details/vhskids",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "id": "live-music-archive",
+      "title": "Live Music Archive",
+      "url": "https://archive.org/details/etree",
+      "finalUrl": "https://archive.org/details/etree",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "id": "macintosh-garden",
+      "title": "Macintosh Garden",
+      "url": "https://macintoshgarden.org/",
+      "finalUrl": "https://macintoshgarden.org/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "id": "macintosh-repository",
+      "title": "Macintosh Repository",
+      "url": "https://www.macintoshrepository.org/",
+      "finalUrl": "https://www.macintoshrepository.org/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "id": "mame",
+      "title": "MAME",
+      "url": "https://www.mamedev.org/",
+      "finalUrl": "https://www.mamedev.org/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "id": "mercari",
+      "title": "Mercari",
+      "url": "https://www.mercari.com/",
+      "finalUrl": "https://www.mercari.com/",
+      "classification": "blocked-or-rate-limited",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 403
+        },
+        {
+          "method": "GET",
+          "status": 403
+        }
+      ],
+      "error": "Forbidden"
+    },
+    {
+      "id": "mobygames",
+      "title": "MobyGames",
+      "url": "https://www.mobygames.com/",
+      "finalUrl": "https://www.mobygames.com/",
+      "classification": "blocked-or-rate-limited",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 403
+        },
+        {
+          "method": "GET",
+          "status": 403
+        }
+      ],
+      "error": "Forbidden"
+    },
+    {
+      "id": "ms-dos-games-on-the-internet-archive",
+      "title": "MS-DOS Games on the Internet Archive",
+      "url": "https://archive.org/details/softwarelibrary_msdos_games",
+      "finalUrl": "https://archive.org/details/softwarelibrary_msdos_games",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "id": "musicbrainz",
+      "title": "MusicBrainz",
+      "url": "https://musicbrainz.org/",
+      "finalUrl": "https://musicbrainz.org/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "id": "my-90s-tv",
+      "title": "My 90\u2019s TV",
+      "url": "https://90s.myretrotvs.com/",
+      "finalUrl": "https://90s.myretrotvs.com/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "id": "my-abandonware",
+      "title": "My Abandonware",
+      "url": "https://www.myabandonware.com/",
+      "finalUrl": "https://www.myabandonware.com/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "id": "neocities-browse",
+      "title": "Neocities Browse",
+      "url": "https://neocities.org/browse",
+      "finalUrl": "https://neocities.org/browse",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "id": "netlabel-archive",
+      "title": "Netlabel Archive",
+      "url": "https://netlabelarchive.org/",
+      "finalUrl": "https://netlabelarchive.org/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "id": "noclip-website",
+      "title": "noclip.website",
+      "url": "https://noclip.website/",
+      "finalUrl": "https://noclip.website/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "id": "oldversion",
+      "title": "OldVersion",
+      "url": "https://oldversion.com/",
+      "finalUrl": "https://www.oldversion.com/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "id": "oldweb-today",
+      "title": "oldweb.today",
+      "url": "https://oldweb.today/",
+      "finalUrl": "https://oldweb.today/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "id": "one-terabyte-of-kilobyte-age",
+      "title": "One Terabyte of Kilobyte Age",
+      "url": "https://oneterabyteofkilobyteage.tumblr.com/",
+      "finalUrl": "https://oneterabyteofkilobyteage.tumblr.com/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "id": "oocities",
+      "title": "OoCities",
+      "url": "https://www.oocities.org/",
+      "finalUrl": "https://www.oocities.org/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "id": "openemu",
+      "title": "OpenEmu",
+      "url": "https://openemu.org/",
+      "finalUrl": "https://openemu.org/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "id": "paley-archive",
+      "title": "Paley Archive",
+      "url": "https://www.paleycenter.org/collection-2",
+      "finalUrl": "https://www.paleycenter.org/collection-2",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "id": "protoweb",
+      "title": "ProtoWeb",
+      "url": "https://protoweb.org/",
+      "finalUrl": "https://protoweb.org/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "id": "r-90s",
+      "title": "r/90s",
+      "url": "https://www.reddit.com/r/90s/",
+      "finalUrl": "https://www.reddit.com/r/90s/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "id": "r-nostalgia",
+      "title": "r/nostalgia",
+      "url": "https://www.reddit.com/r/nostalgia/",
+      "finalUrl": "https://www.reddit.com/r/nostalgia/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "id": "r-oldinternet",
+      "title": "r/oldinternet",
+      "url": "https://www.reddit.com/r/oldinternet/",
+      "finalUrl": "https://www.reddit.com/r/oldinternet/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "id": "r-retrogaming",
+      "title": "r/retrogaming",
+      "url": "https://www.reddit.com/r/retrogaming/",
+      "finalUrl": "https://www.reddit.com/r/retrogaming/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "id": "radiooooo",
+      "title": "Radiooooo",
+      "url": "https://radiooooo.com/",
+      "finalUrl": "https://app.radiooooo.com/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "id": "retroarch",
+      "title": "RetroArch",
+      "url": "https://www.retroarch.com/",
+      "finalUrl": "https://www.retroarch.com/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "id": "retrojunk",
+      "title": "RetroJunk",
+      "url": "https://www.retrojunk.com/",
+      "finalUrl": "https://www.retrojunk.com/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 405
+        },
+        {
+          "method": "GET",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "id": "retromags",
+      "title": "Retromags",
+      "url": "https://www.retromags.com/",
+      "finalUrl": "https://www.retromags.com/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "id": "reverb",
+      "title": "Reverb",
+      "url": "https://reverb.com/",
+      "finalUrl": "https://reverb.com/",
+      "classification": "blocked-or-rate-limited",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 403
+        },
+        {
+          "method": "GET",
+          "status": 403
+        }
+      ],
+      "error": "Forbidden"
+    },
+    {
+      "id": "ruffle",
+      "title": "Ruffle",
+      "url": "https://ruffle.rs/",
+      "finalUrl": "https://ruffle.rs/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "id": "scummvm",
+      "title": "ScummVM",
+      "url": "https://www.scummvm.org/",
+      "finalUrl": "https://www.scummvm.org/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "id": "shopgoodwill",
+      "title": "ShopGoodwill",
+      "url": "https://shopgoodwill.com/",
+      "finalUrl": "https://shopgoodwill.com/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "id": "software-heritage",
+      "title": "Software Heritage",
+      "url": "https://www.softwareheritage.org/",
+      "finalUrl": "https://www.softwareheritage.org/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "id": "space-jam-1996",
+      "title": "Space Jam 1996",
+      "url": "https://www.spacejam.com/1996/",
+      "finalUrl": "https://www.spacejam.com/1996/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "id": "textfiles-com",
+      "title": "TEXTFILES.COM",
+      "url": "https://textfiles.com/",
+      "finalUrl": "https://textfiles.com/",
+      "classification": "unresolved",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "error": "URLError: <urlopen error timed out>"
+        },
+        {
+          "method": "GET",
+          "error": "URLError: <urlopen error timed out>"
+        }
+      ],
+      "error": "URLError: <urlopen error timed out>"
+    },
+    {
+      "id": "the-emularity-emulation-station",
+      "title": "The Emularity / Emulation Station",
+      "url": "https://archive.org/details/emulation",
+      "finalUrl": "https://archive.org/details/emulation",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "id": "the-geocities-gallery",
+      "title": "The Geocities Gallery",
+      "url": "https://geocities.restorativland.org/",
+      "finalUrl": "https://geocities.restorativland.org/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "id": "the-vintage-software-collection",
+      "title": "The Vintage Software Collection",
+      "url": "https://archive.org/details/vintagesoftware",
+      "finalUrl": "https://archive.org/details/vintagesoftware",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "id": "theoldnet",
+      "title": "TheOldNet",
+      "url": "https://theoldnet.com/",
+      "finalUrl": "https://theoldnet.com/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "id": "tv-ark",
+      "title": "TV Ark",
+      "url": "https://tvark.org/",
+      "finalUrl": "https://tvark.org/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "id": "tv-brain",
+      "title": "TV Brain",
+      "url": "https://www.tvbrain.info/",
+      "finalUrl": "https://www.tvbrain.info/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "id": "version-museum",
+      "title": "Version Museum",
+      "url": "https://www.versionmuseum.com/",
+      "finalUrl": "https://www.versionmuseum.com/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "id": "vgmaps",
+      "title": "VGMaps",
+      "url": "https://www.vgmaps.com/",
+      "finalUrl": "https://www.vgmaps.com/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "id": "video-game-history-foundation-digital-archive",
+      "title": "Video Game History Foundation Digital Archive",
+      "url": "https://archive.gamehistory.org/",
+      "finalUrl": "https://archive.gamehistory.org/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "id": "video-game-history-foundation-library-catalog",
+      "title": "Video Game History Foundation Library Catalog",
+      "url": "https://library.gamehistory.org/",
+      "finalUrl": "https://library.gamehistory.org/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "id": "vogons",
+      "title": "VOGONS",
+      "url": "https://www.vogons.org/",
+      "finalUrl": "https://www.vogons.org/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "id": "wayback-machine",
+      "title": "Wayback Machine",
+      "url": "https://web.archive.org/",
+      "finalUrl": "https://web.archive.org/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "id": "web-design-museum",
+      "title": "Web Design Museum",
+      "url": "https://www.webdesignmuseum.org/",
+      "finalUrl": "https://www.webdesignmuseum.org/",
+      "classification": "blocked-or-rate-limited",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 403
+        },
+        {
+          "method": "GET",
+          "status": 403
+        }
+      ],
+      "error": "Forbidden"
+    },
+    {
+      "id": "webmuseum",
+      "title": "WebMuseum",
+      "url": "https://www.ibiblio.org/wm/",
+      "finalUrl": "https://www.ibiblio.org/wm/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "id": "wiby",
+      "title": "Wiby",
+      "url": "https://wiby.me/",
+      "finalUrl": "https://wiby.me/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "id": "winworld",
+      "title": "WinWorld",
+      "url": "https://winworldpc.com/",
+      "finalUrl": "https://winworldpc.com/home",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    }
+  ]
+}
