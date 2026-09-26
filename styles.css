@@ -2882,8 +2882,8 @@ textarea { min-height: 92px; resize: vertical; }
 }
 
 /* Year capsule timeline controls */
-.timeline-controls { display:grid; grid-template-columns:minmax(0,1fr) auto; align-items:center; gap:12px; margin:0 0 16px; }
-.month-jump-nav { display:flex; gap:6px; overflow-x:auto; padding:4px 2px 8px; scrollbar-width:thin; }
+.timeline-controls { display:grid; grid-template-columns:minmax(0,1fr) auto; align-items:center; gap:12px; margin:0 0 16px; min-width:0; }
+.month-jump-nav { display:flex; min-width:0; max-width:100%; gap:6px; overflow-x:auto; padding:4px 2px 8px; scrollbar-width:thin; }
 .month-jump-nav a { flex:0 0 auto; padding:7px 9px; border:1px solid var(--line,#514b70); border-radius:4px; color:inherit; font:700 .72rem/1 "Space Mono",monospace; text-decoration:none; }
 .month-jump-nav a:hover,.month-jump-nav a:focus-visible { color:var(--accent,#ff4fd8); border-color:currentColor; }
 .timeline-view-switch { display:flex; gap:4px; }
