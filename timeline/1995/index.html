@@ -27,7 +27,7 @@
   <link rel="apple-touch-icon" sizes="192x192" href="/assets/icons/icon-192.png" />
   <link rel="manifest" href="/manifest.webmanifest" />
 <!-- generated:head:end -->
-  <link rel="stylesheet" href="/styles.css?v=playable-museum-1" />
+  <link rel="stylesheet" href="/styles.css?v=timeline-views-1" />
 </head>
 <body data-route="/timeline/1995/" data-room="timeline-1995">
   <a class="skip-link" href="#main-content">Skip to museum content</a>
@@ -139,6 +139,13 @@
       </div>
       <section class="portal-box capsule-section month-timeline" id="timeline-months">
         <div class="section-heading compact-heading"><p class="eyebrow">Month-by-month</p><h2>A browsable 1995 calendar.</h2><p>This version works like a real nostalgia route now: month anchors, specific release-era shifts, and enough links to keep surfing without turning the page into homework.</p></div>
+        <div class="timeline-controls">
+          <nav class="month-jump-nav" aria-label="Jump to a month">
+            <a href="#month-jan">JAN</a><a href="#month-feb">FEB</a><a href="#month-mar">MAR</a><a href="#month-apr">APR</a><a href="#month-may">MAY</a><a href="#month-jun">JUN</a><a href="#month-jul">JUL</a><a href="#month-aug">AUG</a><a href="#month-sep">SEP</a><a href="#month-oct">OCT</a><a href="#month-nov">NOV</a><a href="#month-dec">DEC</a>
+          </nav>
+          <div class="timeline-view-switch" role="group" aria-label="Month display style"><button type="button" data-month-view="grid" aria-pressed="true">Grid</button><button type="button" data-month-view="list" aria-pressed="false">List</button><button type="button" data-month-view="calendar" aria-pressed="false">Calendar</button></div>
+          <span class="sr-only" data-month-view-status aria-live="polite">Grid view</span>
+        </div>
         <div class="month-grid capsule-month-grid"><article class="month-card compact-month" id="month-jan"><span>JAN</span><h3>The year opens with CD binders and computer-store tension</h3><p>1995 starts in that perfect hinge mood: <i>Jagged Little Pill</i> is still a few months away, but mall music stores, Windows 3.1 desktops, and “should we get a modem?” family debates are already warming up.</p><div class="month-links"><a href="/zones/music/#chart-dial">music room</a><a href="/zones/tech-toys/">tech / toys</a></div></article>
 <article class="month-card compact-month" id="month-feb"><span>FEB</span><h3>Coffeehouse feelings and R&amp;B polish own the stereo</h3><p><i>CrazySexyCool</i>, Boyz II Men ballads, Seal drama, and radio countdowns make early-1995 feel smooth, expensive, and a little emotionally overwhelming.</p><div class="month-links"><a href="/timeline/1995/#top-songs">top songs</a><a href="/zones/music/#mixtape-path">mixtape path</a></div></article>
 <article class="month-card compact-month" id="month-mar"><span>MAR</span><h3>The future still hides inside beige boxes</h3><p>Spring 1995 is all demos and possibility: school labs, computer-store towers, CD-ROM encyclopedias, and the sense that the internet is close, even if it still feels slightly nerd-coded.</p><div class="month-links"><a href="/zones/internet-culture/#surf-path">old-web path</a><a href="/zones/tech-toys/">computer shelf</a></div></article>
@@ -456,6 +463,6 @@
     </div>
   </dialog>
 <!-- generated:shared-ui:end -->
-  <script type="module" src="/js/app.js?v=playable-museum-1"></script>
+  <script type="module" src="/js/app.js?v=timeline-views-1"></script>
 </body>
 </html>

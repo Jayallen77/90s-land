@@ -27,7 +27,7 @@
   <link rel="apple-touch-icon" sizes="192x192" href="/assets/icons/icon-192.png" />
   <link rel="manifest" href="/manifest.webmanifest" />
 <!-- generated:head:end -->
-  <link rel="stylesheet" href="/styles.css?v=playable-museum-1" />
+  <link rel="stylesheet" href="/styles.css?v=timeline-views-1" />
 </head>
 <body data-route="/timeline/1993/" data-room="timeline-1993">
   <a class="skip-link" href="#main-content">Skip to museum content</a>
@@ -195,6 +195,13 @@
 
       <section class="portal-box capsule-section month-timeline" id="timeline-months">
         <div class="section-heading compact-heading"><p class="eyebrow">Month-by-month</p><h2>A browsable 1993 calendar.</h2><p>This works like a real nostalgia route now: month anchors, specific release-era beats, and enough links to keep surfing without turning the page into homework.</p></div>
+        <div class="timeline-controls">
+          <nav class="month-jump-nav" aria-label="Jump to a month">
+            <a href="#month-jan">JAN</a><a href="#month-feb">FEB</a><a href="#month-mar">MAR</a><a href="#month-apr">APR</a><a href="#month-may">MAY</a><a href="#month-jun">JUN</a><a href="#month-jul">JUL</a><a href="#month-aug">AUG</a><a href="#month-sep">SEP</a><a href="#month-oct">OCT</a><a href="#month-nov">NOV</a><a href="#month-dec">DEC</a>
+          </nav>
+          <div class="timeline-view-switch" role="group" aria-label="Month display style"><button type="button" data-month-view="grid" aria-pressed="true">Grid</button><button type="button" data-month-view="list" aria-pressed="false">List</button><button type="button" data-month-view="calendar" aria-pressed="false">Calendar</button></div>
+          <span class="sr-only" data-month-view-status aria-live="polite">Grid view</span>
+        </div>
         <div class="month-grid capsule-month-grid"><article class="month-card compact-month" id="month-jan"><span>JAN</span><h3>The future still lives in the computer lab</h3><p>1993 opens with beige monitors, printer paper, mall music stores, and computer rooms that still feel a little forbidden. The web exists, but for most people it is nowhere near the living room yet.</p><div class="month-links"><a href="/zones/tech-toys/#photo-showroom">tech / toys</a><a href="/zones/internet-culture/#artifact-atlas">old-web room</a></div></article>
 <article class="month-card compact-month" id="month-feb"><span>FEB</span><h3>Mosaic starts making the web legible</h3><p>Early Mosaic builds start circulating in 1993, which matters because the web stops feeling like a command-line rumor and starts looking like something ordinary people might actually want to click.</p><div class="month-links"><a href="https://en.wikipedia.org/wiki/NCSA_Mosaic" target="_blank" rel="noopener noreferrer">Mosaic ↗</a><a href="#photo-showroom">photo stack</a></div></article>
 <article class="month-card compact-month" id="month-mar"><span>MAR</span><h3>Slackers, sarcasm, and alt-TV tone set in</h3><p>By spring, MTV irony and couch-surf attitude are becoming a whole vibe. 1993 starts feeling less glossy than the early 90s and more deadpan, weird, and quoteable.</p><div class="month-links"><a href="/zones/tv-movies/">TV / Movies</a><a href="/zones/fashion/">lookbook</a></div></article>
@@ -478,6 +485,6 @@
     </div>
   </dialog>
 <!-- generated:shared-ui:end -->
-  <script type="module" src="/js/app.js?v=playable-museum-1"></script>
+  <script type="module" src="/js/app.js?v=timeline-views-1"></script>
 </body>
 </html>

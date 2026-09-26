@@ -2879,3 +2879,17 @@ textarea { min-height: 92px; resize: vertical; }
     }
   }
 }
+
+/* Year capsule timeline controls */
+.timeline-controls { display:grid; grid-template-columns:minmax(0,1fr) auto; align-items:center; gap:12px; margin:0 0 16px; }
+.month-jump-nav { display:flex; gap:6px; overflow-x:auto; padding:4px 2px 8px; scrollbar-width:thin; }
+.month-jump-nav a { flex:0 0 auto; padding:7px 9px; border:1px solid var(--line,#514b70); border-radius:4px; color:inherit; font:700 .72rem/1 "Space Mono",monospace; text-decoration:none; }
+.month-jump-nav a:hover,.month-jump-nav a:focus-visible { color:var(--accent,#ff4fd8); border-color:currentColor; }
+.timeline-view-switch { display:flex; gap:4px; }
+.timeline-view-switch button { padding:8px 10px; border:1px solid var(--line,#514b70); border-radius:4px; color:inherit; background:transparent; font:700 .72rem "Space Mono",monospace; cursor:pointer; }
+.timeline-view-switch button[aria-pressed="true"] { color:#130d22; background:var(--accent,#ff4fd8); border-color:var(--accent,#ff4fd8); }
+.capsule-month-grid[data-view="list"] { grid-template-columns:1fr; }
+.capsule-month-grid[data-view="list"] .month-card { display:grid; grid-template-columns:minmax(70px,.18fr) 1fr; gap:0 14px; }
+.capsule-month-grid[data-view="list"] .month-card > span { grid-row:span 3; }
+.capsule-month-grid[data-view="calendar"] { grid-template-columns:repeat(4,minmax(0,1fr)); }
+@media(max-width:760px) { .timeline-controls { grid-template-columns:1fr; } .timeline-view-switch { justify-content:flex-start; } .capsule-month-grid[data-view="calendar"] { grid-template-columns:1fr; } }

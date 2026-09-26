@@ -31,3 +31,8 @@ if (document.querySelector("[data-guestbook-form]")) {
   const { initializeGuestbook } = await import("./guestbook.js");
   initializeGuestbook();
 }
+
+if (document.querySelector(".month-timeline")) {
+  const { initializeTimelineViews } = await import("./timeline.js");
+  initializeTimelineViews();
+}

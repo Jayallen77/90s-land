@@ -27,7 +27,7 @@
   <link rel="apple-touch-icon" sizes="192x192" href="/assets/icons/icon-192.png" />
   <link rel="manifest" href="/manifest.webmanifest" />
 <!-- generated:head:end -->
-  <link rel="stylesheet" href="/styles.css?v=playable-museum-1" />
+  <link rel="stylesheet" href="/styles.css?v=timeline-views-1" />
 </head>
 <body data-route="/timeline/1990/" data-room="timeline-1990">
   <a class="skip-link" href="#main-content">Skip to museum content</a>
@@ -189,6 +189,13 @@
 
       <section class="portal-box capsule-section month-timeline" id="timeline-months">
         <div class="section-heading compact-heading"><p class="eyebrow">Month-by-month</p><h2>A browsable 1990 calendar.</h2><p>Now the year has real anchors and a stronger headline layer too: big global news, stranger TV, friendlier PCs, and the exact moments when the decade starts acting like itself.</p></div>
+        <div class="timeline-controls">
+          <nav class="month-jump-nav" aria-label="Jump to a month">
+            <a href="#month-jan">JAN</a><a href="#month-feb">FEB</a><a href="#month-mar">MAR</a><a href="#month-apr">APR</a><a href="#month-may">MAY</a><a href="#month-jun">JUN</a><a href="#month-jul">JUL</a><a href="#month-aug">AUG</a><a href="#month-sep">SEP</a><a href="#month-oct">OCT</a><a href="#month-nov">NOV</a><a href="#month-dec">DEC</a>
+          </nav>
+          <div class="timeline-view-switch" role="group" aria-label="Month display style"><button type="button" data-month-view="grid" aria-pressed="true">Grid</button><button type="button" data-month-view="list" aria-pressed="false">List</button><button type="button" data-month-view="calendar" aria-pressed="false">Calendar</button></div>
+          <span class="sr-only" data-month-view-status aria-live="polite">Grid view</span>
+        </div>
         <div class="month-grid capsule-month-grid"><article class="month-card compact-month" id="month-jan"><span>JAN</span><h3>Old mood, new decade</h3><p>Glossy radio, mall walking, arcade noise, and VHS routines still feel like the default setting even as everyone starts saying “the 90s” out loud for the first time.</p><div class="month-links"><a href="/zones/music/#showroom">music room</a><a href="/zones/tv-movies/#photo-showroom">screen room</a></div></article>
 <article class="month-card compact-month" id="month-feb"><span>FEB</span><h3>Mandela walks free</h3><p>Nelson Mandela’s release becomes one of the decade’s first unforgettable global images and immediately makes 1990 feel historically larger than mall-culture memory alone.</p><div class="month-links"><a href="https://en.wikipedia.org/wiki/Release_of_Nelson_Mandela" target="_blank" rel="noopener noreferrer">Mandela released ↗</a><a href="#why">why this year matters</a></div></article>
 <article class="month-card compact-month" id="month-mar"><span>MAR</span><h3>The web is still invisible</h3><p>Linked-information ideas keep moving at CERN, but almost nobody living the year would feel that shift yet. That hiddenness is part of the point.</p><div class="month-links"><a href="https://en.wikipedia.org/wiki/Tim_Berners-Lee" target="_blank" rel="noopener noreferrer">Tim Berners-Lee ↗</a><a href="/zones/internet-culture/#artifact-atlas">internet-culture atlas</a></div></article>
@@ -523,6 +530,6 @@
     </div>
   </dialog>
 <!-- generated:shared-ui:end -->
-  <script type="module" src="/js/app.js?v=playable-museum-1"></script>
+  <script type="module" src="/js/app.js?v=timeline-views-1"></script>
 </body>
 </html>

@@ -27,7 +27,7 @@
   <link rel="apple-touch-icon" sizes="192x192" href="/assets/icons/icon-192.png" />
   <link rel="manifest" href="/manifest.webmanifest" />
 <!-- generated:head:end -->
-  <link rel="stylesheet" href="/styles.css?v=playable-museum-1" />
+  <link rel="stylesheet" href="/styles.css?v=timeline-views-1" />
 </head>
 <body data-route="/timeline/1997/" data-room="timeline-1997">
   <a class="skip-link" href="#main-content">Skip to museum content</a>
@@ -142,6 +142,13 @@
       </div>
       <section class="portal-box capsule-section month-timeline" id="timeline-months">
         <div class="section-heading compact-heading"><p class="eyebrow">Month-by-month</p><h2>A browsable 1997 calendar.</h2><p>Think blockbuster movies, first screen names, collector panic, and one of the decade's sharpest summer-to-holiday runs.</p></div>
+        <div class="timeline-controls">
+          <nav class="month-jump-nav" aria-label="Jump to a month">
+            <a href="#month-jan">JAN</a><a href="#month-feb">FEB</a><a href="#month-mar">MAR</a><a href="#month-apr">APR</a><a href="#month-may">MAY</a><a href="#month-jun">JUN</a><a href="#month-jul">JUL</a><a href="#month-aug">AUG</a><a href="#month-sep">SEP</a><a href="#month-oct">OCT</a><a href="#month-nov">NOV</a><a href="#month-dec">DEC</a>
+          </nav>
+          <div class="timeline-view-switch" role="group" aria-label="Month display style"><button type="button" data-month-view="grid" aria-pressed="true">Grid</button><button type="button" data-month-view="list" aria-pressed="false">List</button><button type="button" data-month-view="calendar" aria-pressed="false">Calendar</button></div>
+          <span class="sr-only" data-month-view-status aria-live="polite">Grid view</span>
+        </div>
         <div class="month-grid capsule-month-grid"><article class="month-card compact-month" id="month-jan"><span>JAN</span><h3><i>Final Fantasy VII</i> redraws the imagination map</h3><p>Square launches <i>Final Fantasy VII</i> in Japan, and suddenly RPGs feel bigger, moodier, and way more cinematic than the old cartridge mental model.</p><div class="month-links"><a href="https://en.wikipedia.org/wiki/Final_Fantasy_VII" target="_blank" rel="noopener noreferrer">game ↗</a><a href="/zones/games/">games shelf</a></div></article>
 <article class="month-card compact-month" id="month-feb"><span>FEB</span><h3>Spice-pop and shiny-suit radio take over</h3><p>By late winter, 1997 radio feels split between coffeehouse heartbreak, glossy R&amp;B, Bad Boy swagger, and pop hooks built to turn every mall into a chorus.</p><div class="month-links"><a href="/timeline/1997/#top-songs">top songs</a><a href="/zones/music/#chart-dial">music room</a></div></article>
 <article class="month-card compact-month" id="month-mar"><span>MAR</span><h3><i>Buffy</i> makes teen TV mythic</h3><p><i>Buffy the Vampire Slayer</i> premieres on March 10, and suddenly teen life, monster lore, sarcasm, and serialized fandom start sharing the same screen.</p><div class="month-links"><a href="https://en.wikipedia.org/wiki/Buffy_the_Vampire_Slayer_(TV_series)" target="_blank" rel="noopener noreferrer">series ↗</a><a href="/zones/tv-movies/">TV room</a></div></article>
@@ -379,6 +386,6 @@
     </div>
   </dialog>
 <!-- generated:shared-ui:end -->
-  <script type="module" src="/js/app.js?v=playable-museum-1"></script>
+  <script type="module" src="/js/app.js?v=timeline-views-1"></script>
 </body>
 </html>

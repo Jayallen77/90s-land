@@ -27,7 +27,7 @@
   <link rel="apple-touch-icon" sizes="192x192" href="/assets/icons/icon-192.png" />
   <link rel="manifest" href="/manifest.webmanifest" />
 <!-- generated:head:end -->
-  <link rel="stylesheet" href="/styles.css?v=playable-museum-1" />
+  <link rel="stylesheet" href="/styles.css?v=timeline-views-1" />
 </head>
 <body data-route="/timeline/1991/" data-room="timeline-1991">
   <a class="skip-link" href="#main-content">Skip to museum content</a>
@@ -186,6 +186,13 @@
 
       <section class="portal-box capsule-section month-timeline" id="timeline-months">
         <div class="section-heading compact-heading"><p class="eyebrow">Month-by-month</p><h2>A browsable 1991 calendar.</h2><p>Now the year has real anchors, tighter copy, and month cards that act like route starters instead of generic filler.</p></div>
+        <div class="timeline-controls">
+          <nav class="month-jump-nav" aria-label="Jump to a month">
+            <a href="#month-jan">JAN</a><a href="#month-feb">FEB</a><a href="#month-mar">MAR</a><a href="#month-apr">APR</a><a href="#month-may">MAY</a><a href="#month-jun">JUN</a><a href="#month-jul">JUL</a><a href="#month-aug">AUG</a><a href="#month-sep">SEP</a><a href="#month-oct">OCT</a><a href="#month-nov">NOV</a><a href="#month-dec">DEC</a>
+          </nav>
+          <div class="timeline-view-switch" role="group" aria-label="Month display style"><button type="button" data-month-view="grid" aria-pressed="true">Grid</button><button type="button" data-month-view="list" aria-pressed="false">List</button><button type="button" data-month-view="calendar" aria-pressed="false">Calendar</button></div>
+          <span class="sr-only" data-month-view-status aria-live="polite">Grid view</span>
+        </div>
         <div class="month-grid capsule-month-grid">
           <article class="month-card compact-month" id="month-jan"><span>JAN</span><h3>CNN-war glow and the last polished pre-breakthrough mood</h3><p>The year opens with Gulf War news saturation, glossy adult-pop radio, and household TV culture still acting like one giant synchronized room.</p><div class="month-links"><a href="https://en.wikipedia.org/wiki/Gulf_War" target="_blank" rel="noopener noreferrer">Gulf War ↗</a><a href="/zones/tv-movies/">TV / Movies room</a></div></article>
           <article class="month-card compact-month" id="month-feb"><span>FEB</span><h3>Silence of the Lambs makes prestige creep into pop talk</h3><p><i>The Silence of the Lambs</i> hits theaters in February and becomes the kind of movie people reference even when the rest of the room is still running on sitcoms, cartoons, and mall soundtracks.</p><div class="month-links"><a href="https://en.wikipedia.org/wiki/The_Silence_of_the_Lambs_(film)" target="_blank" rel="noopener noreferrer">Silence of the Lambs ↗</a><a href="/zones/tv-movies/">screen room</a></div></article>
@@ -566,6 +573,6 @@
     </div>
   </dialog>
 <!-- generated:shared-ui:end -->
-  <script type="module" src="/js/app.js?v=playable-museum-1"></script>
+  <script type="module" src="/js/app.js?v=timeline-views-1"></script>
 </body>
 </html>

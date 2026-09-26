@@ -204,6 +204,41 @@ test("core museum content and fallbacks work without JavaScript", async ({ brows
   await context.close();
 });
 
+test("year capsule timeline jumps to months and switches reading modes", async ({ page }) => {
+  await page.setViewportSize({ width: 1280, height: 800 });
+  await page.goto("/timeline/1996/");
+  const monthNav = page.getByRole("navigation", { name: "Jump to a month" });
+  const grid = page.locator(".capsule-month-grid");
+  await expect(monthNav.getByRole("link")).toHaveCount(12);
+  await expect(grid.locator(".month-card")).toHaveCount(12);
+  await expect(grid).toHaveAttribute("data-view", "grid");
+
+  for (const view of ["list", "calendar", "grid"]) {
+    const button = page.locator(`[data-month-view="${view}"]`);
+    await button.click();
+    await expect(grid).toHaveAttribute("data-view", view);
+    await expect(button).toHaveAttribute("aria-pressed", "true");
+    expect(await page.locator('[data-month-view][aria-pressed="false"]').count()).toBe(2);
+  }
+
+  await monthNav.locator('a[href="#month-jul"]').click();
+  await expect(page).toHaveURL(/#month-jul$/);
+  await expect(page.locator("#month-jul")).toBeVisible();
+
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.goto("/timeline/1996/");
+  await page.locator('[data-month-view="calendar"]').click();
+  const mobileLayout = await page.evaluate(() => ({
+    pageWidth: document.documentElement.scrollWidth,
+    viewportWidth: window.innerWidth,
+    monthRailScrollable: document.querySelector(".month-jump-nav").scrollWidth > document.querySelector(".month-jump-nav").clientWidth,
+    columns: getComputedStyle(document.querySelector(".capsule-month-grid")).gridTemplateColumns.split(" ").length
+  }));
+  expect(mobileLayout.pageWidth).toBeLessThanOrEqual(mobileLayout.viewportWidth);
+  expect(mobileLayout.monthRailScrollable).toBe(true);
+  expect(mobileLayout.columns).toBe(1);
+});
+
 for (const path of [
   "/",
   "/timeline/",

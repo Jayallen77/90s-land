@@ -733,6 +733,32 @@ def inject_artifact_shelf(source: str, route: dict) -> str:
     return source.replace("</main>", region("artifact-shelf", content) + "\n  </main>", 1)
 
 
+def inject_timeline_controls(source: str, route: dict) -> str:
+    if route["type"] != "years":
+        return source
+    controls = '''        <div class="timeline-controls">
+          <nav class="month-jump-nav" aria-label="Jump to a month">
+            <a href="#month-jan">JAN</a><a href="#month-feb">FEB</a><a href="#month-mar">MAR</a><a href="#month-apr">APR</a><a href="#month-may">MAY</a><a href="#month-jun">JUN</a><a href="#month-jul">JUL</a><a href="#month-aug">AUG</a><a href="#month-sep">SEP</a><a href="#month-oct">OCT</a><a href="#month-nov">NOV</a><a href="#month-dec">DEC</a>
+          </nav>
+          <div class="timeline-view-switch" role="group" aria-label="Month display style"><button type="button" data-month-view="grid" aria-pressed="true">Grid</button><button type="button" data-month-view="list" aria-pressed="false">List</button><button type="button" data-month-view="calendar" aria-pressed="false">Calendar</button></div>
+          <span class="sr-only" data-month-view-status aria-live="polite">Grid view</span>
+        </div>'''
+    marker = '      <section class="portal-box capsule-section month-timeline" id="timeline-months">'
+    if marker not in source:
+        raise ValueError(f"Missing month timeline section for {route['path']}")
+    start = source.index(marker)
+    end = source.index("      </section>", start)
+    section = source[start:end]
+    old = re.compile(r'        <div class="timeline-controls">.*?\n        </div>\s*', re.S)
+    if old.search(section):
+        section = old.sub("", section, count=1)
+    month_grid = '<div class="month-grid capsule-month-grid">'
+    if month_grid not in section:
+        raise ValueError(f"Missing month grid for {route['path']}")
+    section = section.replace(month_grid, controls + "\n        " + month_grid, 1)
+    return source[:start] + section + source[end:]
+
+
 def inject_museum_tools_map(source: str) -> str:
     content = """    <section class="panel museum-map-tools" id="museum-tools">
       <p class="eyebrow">Playable museum tools</p>
@@ -791,7 +817,7 @@ def normalize_existing_page(source: str, route: dict) -> str:
     source = source.replace('rel="noreferrer"', 'rel="noopener noreferrer"')
     source = re.sub(
         r'<script\s+src="/script\.js[^"]*"></script>',
-        '<script type="module" src="/js/app.js?v=playable-museum-1"></script>',
+        '<script type="module" src="/js/app.js?v=timeline-views-1"></script>',
         source,
         flags=re.I,
     )
@@ -809,7 +835,7 @@ def normalize_existing_page(source: str, route: dict) -> str:
     )
     source = re.sub(
         r'<link\s+rel="stylesheet"\s+href="/styles\.css[^"]*"\s*/?>',
-        '<link rel="stylesheet" href="/styles.css?v=playable-museum-1" />',
+        '<link rel="stylesheet" href="/styles.css?v=timeline-views-1" />',
         source,
         count=1,
         flags=re.I,
@@ -882,6 +908,8 @@ def render_existing_page(route: dict) -> str:
             "timeline-doors",
             render_timeline_doors(),
         )
+    if route["type"] == "years":
+        source = inject_timeline_controls(source, route)
     return normalize_existing_page(source, route)
 
 
