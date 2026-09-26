@@ -469,8 +469,12 @@ def render_timeline_doors() -> str:
             f"<em>{esc(artifact['title'])}</em>" for artifact in artifacts
         )
         lead_media = ""
-        if artifacts and artifacts[0].get("media", {}).get("kind") == "image":
-            media = artifacts[0]["media"]
+        lead_artifact = next(
+            (artifact for artifact in artifacts if artifact.get("media", {}).get("kind") == "image"),
+            None,
+        )
+        if lead_artifact:
+            media = lead_artifact["media"]
             lead_media = (
                 f'          <img class="timeline-card-image" src="{esc(media["src"])}" '
                 f'alt="{esc(media["alt"])}" width="{int(media["width"])}" '
