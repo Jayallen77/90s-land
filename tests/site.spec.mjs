@@ -211,6 +211,14 @@ test("core museum content and fallbacks work without JavaScript", async ({ brows
   await context.close();
 });
 
+test("timeline year-door artwork identifies its exhibit and editorial recreations", async ({ page }) => {
+  await page.goto("/timeline/");
+  await expect(page.locator(".timeline-card-artwork")).toHaveCount(10);
+  await expect(page.locator('[data-timeline-room="timeline-1994"] .timeline-artwork-label')).toHaveText("EDITORIAL RECREATION · PERSONAL HOMEPAGE");
+  await expect(page.locator('[data-timeline-room="timeline-1997"] .timeline-artwork-label')).toHaveText("EDITORIAL RECREATION · BUDDY LIST");
+  await expect(page.locator('[data-timeline-room="timeline-1995"] .timeline-artwork-label')).toContainText("COLLECTION OBJECT");
+});
+
 test("year capsule timeline jumps to months and switches reading modes", async ({ page }) => {
   await page.setViewportSize({ width: 1280, height: 800 });
   await page.goto("/timeline/1996/");
