@@ -1134,6 +1134,11 @@ textarea { min-height: 92px; resize: vertical; }
 .rabbit-card small { color: var(--muted); }
 .related-grid { display: flex; }
 .timeline-product-panel { margin: 1.5rem 0 4rem; }
+.timeline-year-index { display: grid; grid-template-columns: auto repeat(10, minmax(0, 1fr)); gap: .45rem; align-items: center; margin: 1.1rem 0 1.35rem; padding: .75rem; border: 1px solid rgba(255,243,92,.34); background: linear-gradient(90deg, rgba(255,243,92,.09), rgba(57,255,242,.04)); }
+.timeline-index-label { color: var(--yellow); font: 700 .65rem/1.4 "Space Mono", monospace; letter-spacing: .1em; }
+.timeline-year-index a { display: grid; min-height: 2.6rem; place-items: center; border: 1px solid rgba(57,255,242,.35); background: rgba(5,0,23,.62); color: var(--cyan); font: 700 .8rem "Space Mono", monospace; text-decoration: none; transition: background .16s ease, color .16s ease, transform .16s ease; }
+.timeline-year-index a:hover, .timeline-year-index a:focus-visible { transform: translateY(-2px); background: var(--cyan); color: #050017; }
+@media (max-width: 640px) { .timeline-year-index { grid-template-columns: repeat(5, minmax(0, 1fr)); } .timeline-index-label { grid-column: 1 / -1; } }
 .timeline-card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 .decade-signal-rail { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .8rem; margin: 1.25rem 0 1.5rem; }
 .decade-signal { display: flex; flex-direction: column; gap: .45rem; min-height: 145px; padding: 1rem; border: 1px solid rgba(57,255,242,.32); border-top: 3px solid var(--cyan); background: linear-gradient(145deg, rgba(57,255,242,.09), rgba(255,255,255,.025)); color: var(--text); text-decoration: none; transition: transform .18s ease, border-color .18s ease, background .18s ease; }
