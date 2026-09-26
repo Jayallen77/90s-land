@@ -231,11 +231,11 @@ test("year capsule timeline jumps to months and switches reading modes", async (
   const mobileLayout = await page.evaluate(() => ({
     pageWidth: document.documentElement.scrollWidth,
     viewportWidth: window.innerWidth,
-    monthRailScrollable: document.querySelector(".month-jump-nav").scrollWidth > document.querySelector(".month-jump-nav").clientWidth,
+    monthNavFits: document.querySelector(".month-jump-nav").scrollWidth <= document.querySelector(".month-jump-nav").clientWidth,
     columns: getComputedStyle(document.querySelector(".capsule-month-grid")).gridTemplateColumns.split(" ").length
   }));
   expect(mobileLayout.pageWidth).toBeLessThanOrEqual(mobileLayout.viewportWidth);
-  expect(mobileLayout.monthRailScrollable).toBe(true);
+  expect(mobileLayout.monthNavFits).toBe(true);
   expect(mobileLayout.columns).toBe(1);
 });
 

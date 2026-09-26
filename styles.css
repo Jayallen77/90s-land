@@ -2893,4 +2893,4 @@ textarea { min-height: 92px; resize: vertical; }
 .capsule-month-grid[data-view="list"] .month-card { display:grid; grid-template-columns:minmax(70px,.18fr) 1fr; gap:0 14px; }
 .capsule-month-grid[data-view="list"] .month-card > span { grid-row:span 3; }
 .capsule-month-grid[data-view="calendar"] { grid-template-columns:repeat(4,minmax(0,1fr)); }
-@media(max-width:760px) { .timeline-controls { grid-template-columns:1fr; } .timeline-view-switch { justify-content:flex-start; } .capsule-month-grid[data-view="calendar"] { grid-template-columns:1fr; } }
+@media(max-width:760px) { .timeline-controls { grid-template-columns:1fr; } .month-jump-nav { display:grid; grid-template-columns:repeat(6,minmax(0,1fr)); overflow:visible; } .month-jump-nav a { text-align:center; padding:8px 3px; } .timeline-view-switch { justify-content:flex-start; } .capsule-month-grid[data-view="calendar"] { grid-template-columns:1fr; } }
