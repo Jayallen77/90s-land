@@ -494,8 +494,10 @@ def render_timeline_doors() -> str:
             )
         cards.append(
             f"""        <a class="timeline-card museum-year-door" href="{esc(route["path"])}" data-timeline-room="timeline-{year}">
-{lead_media}          <span class="timeline-year">{year}</span>
-          <div>
+          <span class="timeline-card-artwork">
+{lead_media}            <span class="timeline-year">{year}</span>
+          </span>
+          <div class="timeline-card-copy">
             <p class="artifact-label">Door {int(year) - 1989:02d} · catalog case</p>
             <h3>{esc(route["title"])}</h3>
             <p>{esc(route["summary"])}</p>
@@ -671,7 +673,7 @@ def page_document(route: dict, main: str, body_class: str = "") -> str:
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 {region("head", render_head(route))}
-  <link rel="stylesheet" href="/styles.css?v=decade-visual-rail-3" />
+  <link rel="stylesheet" href="/styles.css?v=timeline-image-doors-4" />
 </head>
 <body{body_attr} data-route="{esc(route["path"])}" data-room="{esc(route_room(route))}">
   <a class="skip-link" href="#main-content">Skip to museum content</a>
@@ -864,7 +866,7 @@ def normalize_existing_page(source: str, route: dict) -> str:
     )
     source = re.sub(
         r'<link\s+rel="stylesheet"\s+href="/styles\.css[^"]*"\s*/?>',
-        '<link rel="stylesheet" href="/styles.css?v=decade-visual-rail-3" />',
+        '\u003clink rel="stylesheet" href="/styles.css?v=timeline-image-doors-4" />',
         source,
         count=1,
         flags=re.I,

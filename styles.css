@@ -1149,15 +1149,17 @@ textarea { min-height: 92px; resize: vertical; }
 .decade-signal:nth-child(3) span { color: var(--green); }
 .decade-signal strong { font-family: var(--pixel); font-size: .76rem; line-height: 1.6; }
 .decade-signal small { color: var(--muted); font-size: .82rem; line-height: 1.5; }
-.timeline-card { display: grid; grid-template-columns: 92px 1fr; gap: 1rem; padding: 1rem; align-items: start; }
-.timeline-card-image { grid-column: 1 / -1; display: block; width: 100%; aspect-ratio: 16 / 7; object-fit: cover; object-position: center; border: 1px solid rgba(57,255,242,.35); background: rgba(0,0,0,.3); }
-.timeline-card:hover,
-.rabbit-card:hover,
-.capsule-card:hover { border-color: var(--yellow); transform: translateY(-1px); }
-.timeline-year { display: grid; place-items: center; min-height: 70px; margin: 0; background: var(--yellow); color: #050017; border: 2px solid #050017; font-family: "Press Start 2P", system-ui; }
+.timeline-card { display: grid; grid-template-columns: minmax(0, 1fr); gap: 0; padding: 0; align-items: stretch; overflow: hidden; }
+.timeline-card-artwork { position: relative; display: block; min-width: 0; overflow: hidden; background: #100c29; }
+.timeline-card-image { display: block; width: 100%; aspect-ratio: 16 / 8; object-fit: cover; object-position: center; border: 0; border-bottom: 1px solid rgba(57,255,242,.35); background: rgba(0,0,0,.3); transition: transform .25s ease, filter .25s ease; }
+.timeline-card-artwork:not(:has(.timeline-card-image)) { min-height: 9rem; background: radial-gradient(ellipse at 70% 20%, rgba(57,255,242,.25), transparent 45%), linear-gradient(135deg, rgba(255,79,216,.28), transparent 55%), #100c29; }
+.timeline-card:hover .timeline-card-image { transform: scale(1.025); filter: saturate(1.12); }
+.timeline-card-copy { display: flex; flex-direction: column; align-items: flex-start; gap: .25rem; padding: 1rem 1.1rem 1.1rem; }
+.timeline-card .timeline-year { position: absolute; left: .75rem; bottom: .75rem; display: grid; place-items: center; min-width: 5.7rem; min-height: 2.7rem; margin: 0; padding: .45rem .65rem; background: var(--yellow); color: #050017; border: 2px solid #050017; box-shadow: 3px 3px 0 rgba(255,79,216,.85); font-family: "Press Start 2P", system-ui; font-size: .9rem; }
 .timeline-card h3 { margin-top: 0; color: var(--yellow); }
 .timeline-card p { color: var(--muted); }
-.timeline-card strong { color: var(--green); }
+.timeline-card strong { color: var(--green); margin-top: auto; }
+.timeline-card .year-object-labels { margin-top: .2rem; }
 .chart-section.capsule-section .song-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 .chart-section.capsule-section .song-note { display: none; }
 .chart-section.capsule-section .song-card { box-shadow: none; }
