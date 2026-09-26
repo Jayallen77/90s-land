@@ -473,7 +473,19 @@ def render_timeline_doors() -> str:
             (artifact for artifact in artifacts if artifact.get("media", {}).get("kind") == "image"),
             None,
         )
-        if lead_artifact:
+        # Years without a sourced lead photograph get an original, clearly
+        # editorial illustration rather than borrowing an unrelated year image.
+        editorial_previews = {
+            "1994": ("/assets/media/timeline-previews/1994-homepage.svg", "Original illustration of a 1994 personal homepage on a CRT desktop, with tiled stars and an under-construction badge."),
+            "1997": ("/assets/media/timeline-previews/1997-buddy-list.svg", "Original illustration of a late-1990s instant-messaging buddy list with an away-message window."),
+        }
+        if year in editorial_previews:
+            src, alt = editorial_previews[year]
+            lead_media = (
+                f'          <img class="timeline-card-image" src="{src}" '
+                f'alt="{esc(alt)}" width="960" height="540" loading="lazy" decoding="async" />\n'
+            )
+        elif lead_artifact:
             media = lead_artifact["media"]
             lead_media = (
                 f'          <img class="timeline-card-image" src="{esc(media["src"])}" '
