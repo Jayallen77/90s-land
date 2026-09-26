@@ -1115,6 +1115,16 @@ textarea { min-height: 92px; resize: vertical; }
 .related-grid { display: flex; }
 .timeline-product-panel { margin: 1.5rem 0 4rem; }
 .timeline-card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.decade-signal-rail { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .8rem; margin: 1.25rem 0 1.5rem; }
+.decade-signal { display: flex; flex-direction: column; gap: .45rem; min-height: 145px; padding: 1rem; border: 1px solid rgba(57,255,242,.32); border-top: 3px solid var(--cyan); background: linear-gradient(145deg, rgba(57,255,242,.09), rgba(255,255,255,.025)); color: var(--text); text-decoration: none; transition: transform .18s ease, border-color .18s ease, background .18s ease; }
+.decade-signal:nth-child(2) { border-top-color: var(--pink); }
+.decade-signal:nth-child(3) { border-top-color: var(--green); }
+.decade-signal:hover, .decade-signal:focus-visible { transform: translateY(-3px); border-color: var(--cyan); background-color: rgba(57,255,242,.08); }
+.decade-signal span { color: var(--cyan); font-size: .7rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; }
+.decade-signal:nth-child(2) span { color: var(--pink); }
+.decade-signal:nth-child(3) span { color: var(--green); }
+.decade-signal strong { font-family: var(--pixel); font-size: .76rem; line-height: 1.6; }
+.decade-signal small { color: var(--muted); font-size: .82rem; line-height: 1.5; }
 .timeline-card { display: grid; grid-template-columns: 92px 1fr; gap: 1rem; padding: 1rem; align-items: start; }
 .timeline-card-image { grid-column: 1 / -1; display: block; width: 100%; aspect-ratio: 16 / 7; object-fit: cover; object-position: center; border: 1px solid rgba(57,255,242,.35); background: rgba(0,0,0,.3); }
 .timeline-card:hover,
@@ -1197,6 +1207,8 @@ textarea { min-height: 92px; resize: vertical; }
   .media-callout-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .rabbit-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .timeline-card-grid { grid-template-columns: 1fr; }
+  .decade-signal-rail { grid-template-columns: 1fr; gap: .6rem; }
+  .decade-signal { min-height: 0; }
 }
 @media (max-width: 820px) {
   .this-month-head,

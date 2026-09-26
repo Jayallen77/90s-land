@@ -511,6 +511,11 @@ def render_timeline_doors() -> str:
         <h2 id="timelineDoorsTitle">Choose a year. Carry the objects forward.</h2>
         <p>Each door previews three catalog objects. Your local passport marks a door after you enter it.</p>
       </div>
+      <nav class="decade-signal-rail" aria-label="Three shifts across the decade">
+        <a class="decade-signal" href="/timeline/1990/"><span>01 / 1990–92</span><strong>Analog rooms</strong><small>Cable, cartridges, mixtapes — the future still shares the family room.</small></a>
+        <a class="decade-signal" href="/timeline/1993/"><span>02 / 1993–95</span><strong>The web gets a door</strong><small>Mosaic, homepages, Start buttons — the internet moves toward everyday life.</small></a>
+        <a class="decade-signal" href="/timeline/1996/"><span>03 / 1996–99</span><strong>Always almost online</strong><small>Buddy lists, portals, translucent plastic, and a millennium countdown.</small></a>
+      </nav>
       <div class="timeline-card-grid">
 {chr(10).join(cards)}
       </div>
@@ -666,7 +671,7 @@ def page_document(route: dict, main: str, body_class: str = "") -> str:
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 {region("head", render_head(route))}
-  <link rel="stylesheet" href="/styles.css?v=timeline-controls-mobile-grid-1" />
+  <link rel="stylesheet" href="/styles.css?v=decade-signal-rail-1" />
 </head>
 <body{body_attr} data-route="{esc(route["path"])}" data-room="{esc(route_room(route))}">
   <a class="skip-link" href="#main-content">Skip to museum content</a>
@@ -859,7 +864,7 @@ def normalize_existing_page(source: str, route: dict) -> str:
     )
     source = re.sub(
         r'<link\s+rel="stylesheet"\s+href="/styles\.css[^"]*"\s*/?>',
-        '<link rel="stylesheet" href="/styles.css?v=timeline-controls-mobile-grid-1" />',
+        '<link rel="stylesheet" href="/styles.css?v=decade-signal-rail-1" />',
         source,
         count=1,
         flags=re.I,
