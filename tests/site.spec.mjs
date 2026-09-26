@@ -153,6 +153,13 @@ test("tour deep links, recreation, resume, and completion work", async ({ page }
   );
 });
 
+test("search counts stay synchronized with the catalog", async ({ page }) => {
+  await page.goto("/search/");
+  await expect(page.locator('[data-site-filter="objects"] span')).toHaveText("30");
+  await expect(page.locator("#searchSummaryObjects")).toHaveText("30");
+  await expect(page.locator('[data-site-filter="all"] span')).toHaveText("130");
+});
+
 test("search preserves URL state and gives recovery actions", async ({ page }) => {
   await page.goto("/search/?q=mosaic&filter=objects");
   await expect(page.locator("#siteSearchInput")).toHaveValue("mosaic");

@@ -17,6 +17,30 @@ export function initializeSearch() {
   const empty = document.querySelector("#siteSearchNoResults");
   if (!input || !cards.length || !buttons.length) return;
 
+  // Keep both count surfaces tied to the actual catalog, so new entries cannot
+  // make the hero summary and filter badges disagree.
+  const totals = cards.reduce((result, card) => {
+    const category = card.dataset.searchCategory || "unknown";
+    result[category] = (result[category] || 0) + 1;
+    return result;
+  }, {});
+  buttons.forEach((button) => {
+    const badge = button.querySelector("span");
+    if (badge) badge.textContent = button.dataset.siteFilter === "all"
+      ? String(cards.length)
+      : String(totals[button.dataset.siteFilter] || 0);
+  });
+  const summaryIds = {
+    years: "#searchSummaryYears",
+    zones: "#searchSummaryZones",
+    highlights: "#searchSummaryHighlights",
+    objects: "#searchSummaryObjects",
+  };
+  Object.entries(summaryIds).forEach(([category, selector]) => {
+    const summary = document.querySelector(selector);
+    if (summary) summary.textContent = String(totals[category] || 0);
+  });
+
   let filter = "all";
 
   function stateFromUrl() {
