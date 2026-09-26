@@ -684,7 +684,7 @@ def page_document(route: dict, main: str, body_class: str = "") -> str:
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 {region("head", render_head(route))}
-  <link rel="stylesheet" href="/styles.css?v=timeline-year-index-1" />
+  <link rel="stylesheet" href="/styles.css?v=timeline-hero-exhibit-1" />
 </head>
 <body{body_attr} data-route="{esc(route["path"])}" data-room="{esc(route_room(route))}">
   <a class="skip-link" href="#main-content">Skip to museum content</a>
@@ -877,7 +877,7 @@ def normalize_existing_page(source: str, route: dict) -> str:
     )
     source = re.sub(
         r'<link\s+rel="stylesheet"\s+href="/styles\.css[^"]*"\s*/?>',
-        '\u003clink rel="stylesheet" href="/styles.css?v=timeline-year-index-1" />',
+        '\u003clink rel="stylesheet" href="/styles.css?v=timeline-hero-exhibit-1" />',
         source,
         count=1,
         flags=re.I,
