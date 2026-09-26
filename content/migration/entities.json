@@ -1,0 +1,1682 @@
+{
+  "schemaVersion": 1,
+  "kind": "entities",
+  "records": [
+    {
+      "id": "song-00ee1a94ff9b1876",
+      "type": "song",
+      "title": "Hold On",
+      "artistCredit": "En Vogue",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-aa0748c7af6595a5"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1990-top-10",
+          "rank": 8
+        }
+      ]
+    },
+    {
+      "id": "song-041b450145adb30f",
+      "type": "song",
+      "title": "The Boy Is Mine",
+      "artistCredit": "Brandy and Monica",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-a0cefc83dda4fbc5"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1998-top-10",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "song-07b220ab95287902",
+      "type": "song",
+      "title": "Creep",
+      "artistCredit": "TLC",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-97e8b00bb9993d9c"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1995-top-10",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": "song-084ed0c3a2c704fb",
+      "type": "song",
+      "title": "Blaze of Glory",
+      "artistCredit": "Jon Bon Jovi",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-aa0748c7af6595a5"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1990-top-10",
+          "rank": 10
+        }
+      ]
+    },
+    {
+      "id": "song-0a02bc222358e3c7",
+      "type": "song",
+      "title": "The First Time",
+      "artistCredit": "Surface",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-5fde6102fdfe539f"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1991-top-10",
+          "rank": 9
+        }
+      ]
+    },
+    {
+      "id": "song-0aaf7849fd4a9d6b",
+      "type": "song",
+      "title": "Nobody Knows",
+      "artistCredit": "The Tony Rich Project",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-58fa4f5b171ad04d"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1996-top-10",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "id": "song-0b61462eeedbfb9f",
+      "type": "song",
+      "title": "Gonna Make You Sweat (Everybody Dance Now)",
+      "artistCredit": "C+C Music Factory",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-5fde6102fdfe539f"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1991-top-10",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": "song-1000986f1f9b9873",
+      "type": "song",
+      "title": "...Baby One More Time",
+      "artistCredit": "Britney Spears",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-fee4805769419ae2"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1999-top-10",
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "id": "song-1591d00f39f86fd4",
+      "type": "song",
+      "title": "Tha Crossroads",
+      "artistCredit": "Bone Thugs-n-Harmony",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-58fa4f5b171ad04d"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1996-top-10",
+          "rank": 7
+        }
+      ]
+    },
+    {
+      "id": "song-182002498d65434d",
+      "type": "song",
+      "title": "Rush Rush",
+      "artistCredit": "Paula Abdul",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-5fde6102fdfe539f"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1991-top-10",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "id": "song-18d131ffda939939",
+      "type": "song",
+      "title": "Vision of Love",
+      "artistCredit": "Mariah Carey",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-aa0748c7af6595a5"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1990-top-10",
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "id": "song-1b3fdc09eaf64bb1",
+      "type": "song",
+      "title": "Kiss from a Rose",
+      "artistCredit": "Seal",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-97e8b00bb9993d9c"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1995-top-10",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "id": "song-1bdee65672a307a1",
+      "type": "song",
+      "title": "Angel of Mine",
+      "artistCredit": "Monica",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-fee4805769419ae2"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1999-top-10",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": "song-1d3a731caf21f6ad",
+      "type": "song",
+      "title": "My Lovin' (You're Never Gonna Get It)",
+      "artistCredit": "En Vogue",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-15cf2eb715575b16"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1992-top-10",
+          "rank": 7
+        }
+      ]
+    },
+    {
+      "id": "song-2145fab912e5a80c",
+      "type": "song",
+      "title": "Vogue",
+      "artistCredit": "Madonna",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-aa0748c7af6595a5"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1990-top-10",
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "id": "song-22d5a6c34ba1f719",
+      "type": "song",
+      "title": "Unbelievable",
+      "artistCredit": "EMF",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-5fde6102fdfe539f"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1991-top-10",
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "id": "song-2390610b9e64f851",
+      "type": "song",
+      "title": "Livin' la Vida Loca",
+      "artistCredit": "Ricky Martin",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-fee4805769419ae2"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1999-top-10",
+          "rank": 10
+        }
+      ]
+    },
+    {
+      "id": "song-26314f0acd862adc",
+      "type": "song",
+      "title": "Nothing Compares 2 U",
+      "artistCredit": "Sinéad O'Connor",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-aa0748c7af6595a5"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1990-top-10",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": "song-274c908edcd88e46",
+      "type": "song",
+      "title": "Baby-Baby-Baby",
+      "artistCredit": "TLC",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-15cf2eb715575b16"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1992-top-10",
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "id": "song-28020044a64f9b46",
+      "type": "song",
+      "title": "Un-Break My Heart",
+      "artistCredit": "Toni Braxton",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-52307fc76a691020"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1997-top-10",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "id": "song-2bfe133586ce1263",
+      "type": "song",
+      "title": "Fantasy",
+      "artistCredit": "Mariah Carey",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-97e8b00bb9993d9c"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1995-top-10",
+          "rank": 7
+        }
+      ]
+    },
+    {
+      "id": "song-2eceb2eca4f08aac",
+      "type": "song",
+      "title": "Nice & Slow",
+      "artistCredit": "Usher",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-a0cefc83dda4fbc5"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1998-top-10",
+          "rank": 9
+        }
+      ]
+    },
+    {
+      "id": "song-32b128b0b30938d8",
+      "type": "song",
+      "title": "Macarena (Bayside Boys Mix)",
+      "artistCredit": "Los del Río",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-58fa4f5b171ad04d"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1996-top-10",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "song-34656e2d2594a1ef",
+      "type": "song",
+      "title": "Candle in the Wind 1997 / Something About the Way You Look Tonight",
+      "artistCredit": "Elton John",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-52307fc76a691020",
+        "source-a0cefc83dda4fbc5"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1997-top-10",
+          "rank": 1
+        },
+        {
+          "chartId": "billboard-year-end-hot-100-1998-top-10",
+          "rank": 8
+        }
+      ]
+    },
+    {
+      "id": "song-35504871aca8335b",
+      "type": "song",
+      "title": "Too Close",
+      "artistCredit": "Next",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-a0cefc83dda4fbc5"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1998-top-10",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "song-3dc7dae578a8254c",
+      "type": "song",
+      "title": "Freak Me",
+      "artistCredit": "Silk",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-4316dd64735de95d"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1993-top-10",
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "id": "song-3f43dbc725acc0d7",
+      "type": "song",
+      "title": "I'll Be Missing You",
+      "artistCredit": "Puff Daddy, Faith Evans, and 112",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-52307fc76a691020"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1997-top-10",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": "song-40913545e7b4ce19",
+      "type": "song",
+      "title": "Tears in Heaven",
+      "artistCredit": "Eric Clapton",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-15cf2eb715575b16"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1992-top-10",
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "id": "song-40ef45ce8bb8d44a",
+      "type": "song",
+      "title": "Waterfalls",
+      "artistCredit": "TLC",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-97e8b00bb9993d9c"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1995-top-10",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "song-47a39cee728b7518",
+      "type": "song",
+      "title": "I Will Always Love You",
+      "artistCredit": "Whitney Houston",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-4316dd64735de95d"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1993-top-10",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "song-4947d6be04e88e91",
+      "type": "song",
+      "title": "All 4 Love",
+      "artistCredit": "Color Me Badd",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-15cf2eb715575b16"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1992-top-10",
+          "rank": 9
+        }
+      ]
+    },
+    {
+      "id": "song-4af2374d561ebe2c",
+      "type": "song",
+      "title": "Save the Best for Last",
+      "artistCredit": "Vanessa Williams",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-15cf2eb715575b16"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1992-top-10",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "id": "song-4df0b8df135f2a25",
+      "type": "song",
+      "title": "Because You Loved Me",
+      "artistCredit": "Celine Dion",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-58fa4f5b171ad04d"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1996-top-10",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": "song-4e75d8f031c4411e",
+      "type": "song",
+      "title": "I Swear",
+      "artistCredit": "All-4-One",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-48d4b48b008597ec"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1994-top-10",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "song-538933d9492530c6",
+      "type": "song",
+      "title": "No Scrubs",
+      "artistCredit": "TLC",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-fee4805769419ae2"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1999-top-10",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "song-54e575f6278d5fe8",
+      "type": "song",
+      "title": "On Bended Knee",
+      "artistCredit": "Boyz II Men",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-97e8b00bb9993d9c"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1995-top-10",
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "id": "song-56f19834c8e425ec",
+      "type": "song",
+      "title": "You're Still the One",
+      "artistCredit": "Shania Twain",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-a0cefc83dda4fbc5"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1998-top-10",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": "song-57fc384ab281f0b3",
+      "type": "song",
+      "title": "Truly Madly Deeply",
+      "artistCredit": "Savage Garden",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-a0cefc83dda4fbc5"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1998-top-10",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "id": "song-5c916cbf3060dca5",
+      "type": "song",
+      "title": "Gangsta's Paradise",
+      "artistCredit": "Coolio featuring L.V.",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-97e8b00bb9993d9c"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1995-top-10",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "song-5fe91c5f9a71c117",
+      "type": "song",
+      "title": "Return of the Mack",
+      "artistCredit": "Mark Morrison",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-52307fc76a691020"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1997-top-10",
+          "rank": 8
+        }
+      ]
+    },
+    {
+      "id": "song-6485ef10614edf8a",
+      "type": "song",
+      "title": "All for Love",
+      "artistCredit": "Bryan Adams, Rod Stewart, and Sting",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-48d4b48b008597ec"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1994-top-10",
+          "rank": 8
+        }
+      ]
+    },
+    {
+      "id": "song-69637e3da4dfd4a8",
+      "type": "song",
+      "title": "Hero",
+      "artistCredit": "Mariah Carey",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-48d4b48b008597ec"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1994-top-10",
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "id": "song-6be302dbe40d4fae",
+      "type": "song",
+      "title": "Cradle of Love",
+      "artistCredit": "Billy Idol",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-aa0748c7af6595a5"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1990-top-10",
+          "rank": 9
+        }
+      ]
+    },
+    {
+      "id": "song-6d428cca399deaa6",
+      "type": "song",
+      "title": "You Were Meant for Me / Foolish Games",
+      "artistCredit": "Jewel",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-52307fc76a691020"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1997-top-10",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "song-6db06fb693f95bf1",
+      "type": "song",
+      "title": "Hold On",
+      "artistCredit": "Wilson Phillips",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-aa0748c7af6595a5"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1990-top-10",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "song-6e33a7afae7c5d46",
+      "type": "song",
+      "title": "Kiss Me",
+      "artistCredit": "Sixpence None the Richer",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-fee4805769419ae2"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1999-top-10",
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "id": "song-6fa1b75526d29db0",
+      "type": "song",
+      "title": "How Do I Live",
+      "artistCredit": "LeAnn Rimes",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-52307fc76a691020",
+        "source-a0cefc83dda4fbc5"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1997-top-10",
+          "rank": 9
+        },
+        {
+          "chartId": "billboard-year-end-hot-100-1998-top-10",
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "id": "song-7019c2749113b1f5",
+      "type": "song",
+      "title": "That's the Way Love Goes",
+      "artistCredit": "Janet Jackson",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-4316dd64735de95d"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1993-top-10",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "id": "song-70c4844ebd82cb14",
+      "type": "song",
+      "title": "(Everything I Do) I Do It for You",
+      "artistCredit": "Bryan Adams",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-5fde6102fdfe539f"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1991-top-10",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "song-73a7e83a265f3bd1",
+      "type": "song",
+      "title": "Another Night",
+      "artistCredit": "Real McCoy",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-97e8b00bb9993d9c"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1995-top-10",
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "id": "song-763dbbd36cc734c4",
+      "type": "song",
+      "title": "Can't Help Falling in Love",
+      "artistCredit": "UB40",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-4316dd64735de95d"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1993-top-10",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": "song-772b8cf7d5b22fc1",
+      "type": "song",
+      "title": "Can't Nobody Hold Me Down",
+      "artistCredit": "Puff Daddy featuring Mase",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-52307fc76a691020"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1997-top-10",
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "id": "song-7737c2054f44afe9",
+      "type": "song",
+      "title": "Don't Take It Personal (Just One of Dem Days)",
+      "artistCredit": "Monica",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-97e8b00bb9993d9c"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1995-top-10",
+          "rank": 9
+        }
+      ]
+    },
+    {
+      "id": "song-7947ee4fe6f44556",
+      "type": "song",
+      "title": "Whoomp! (There It Is)",
+      "artistCredit": "Tag Team",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-4316dd64735de95d"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1993-top-10",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "song-7b8abe9495583e50",
+      "type": "song",
+      "title": "Nobody's Supposed to Be Here",
+      "artistCredit": "Deborah Cox",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-fee4805769419ae2"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1999-top-10",
+          "rank": 9
+        }
+      ]
+    },
+    {
+      "id": "song-8db349eff8af4e5b",
+      "type": "song",
+      "title": "Stay (I Missed You)",
+      "artistCredit": "Lisa Loeb and Nine Stories",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-48d4b48b008597ec"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1994-top-10",
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "id": "song-8e4461f64648259c",
+      "type": "song",
+      "title": "Every Morning",
+      "artistCredit": "Sugar Ray",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-fee4805769419ae2"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1999-top-10",
+          "rank": 8
+        }
+      ]
+    },
+    {
+      "id": "song-8f17a2d922aeca6f",
+      "type": "song",
+      "title": "I Don't Want to Wait",
+      "artistCredit": "Paula Cole",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-a0cefc83dda4fbc5"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1998-top-10",
+          "rank": 10
+        }
+      ]
+    },
+    {
+      "id": "song-923568f355417c8c",
+      "type": "song",
+      "title": "It Must Have Been Love",
+      "artistCredit": "Roxette",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-aa0748c7af6595a5"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1990-top-10",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "song-9558f4915b4ae15b",
+      "type": "song",
+      "title": "You're Makin' Me High / Let It Flow",
+      "artistCredit": "Toni Braxton",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-58fa4f5b171ad04d"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1996-top-10",
+          "rank": 9
+        }
+      ]
+    },
+    {
+      "id": "song-997a3d13b5feea37",
+      "type": "song",
+      "title": "Don't Turn Around",
+      "artistCredit": "Ace of Base",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-48d4b48b008597ec"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1994-top-10",
+          "rank": 10
+        }
+      ]
+    },
+    {
+      "id": "song-9a97bde18f983626",
+      "type": "song",
+      "title": "Take a Bow",
+      "artistCredit": "Madonna",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-97e8b00bb9993d9c"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1995-top-10",
+          "rank": 8
+        }
+      ]
+    },
+    {
+      "id": "song-9b4f8e46cfbf5f73",
+      "type": "song",
+      "title": "Twisted",
+      "artistCredit": "Keith Sweat",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-58fa4f5b171ad04d"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1996-top-10",
+          "rank": 10
+        }
+      ]
+    },
+    {
+      "id": "song-9d57a2a77705c2e3",
+      "type": "song",
+      "title": "Just Another Day",
+      "artistCredit": "Jon Secada",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-15cf2eb715575b16"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1992-top-10",
+          "rank": 10
+        }
+      ]
+    },
+    {
+      "id": "song-9d616bf43ed30ea0",
+      "type": "song",
+      "title": "If I Ever Fall in Love",
+      "artistCredit": "Shai",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-4316dd64735de95d"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1993-top-10",
+          "rank": 7
+        }
+      ]
+    },
+    {
+      "id": "song-a03dce50ea4e5c7d",
+      "type": "song",
+      "title": "I Like the Way (The Kissing Game)",
+      "artistCredit": "Hi-Five",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-5fde6102fdfe539f"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1991-top-10",
+          "rank": 8
+        }
+      ]
+    },
+    {
+      "id": "song-a1df7bd8ccda5c9f",
+      "type": "song",
+      "title": "Genie in a Bottle",
+      "artistCredit": "Christina Aguilera",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-fee4805769419ae2"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1999-top-10",
+          "rank": 7
+        }
+      ]
+    },
+    {
+      "id": "song-a1ef8d9c3e6601c5",
+      "type": "song",
+      "title": "All My Life",
+      "artistCredit": "K-Ci & JoJo",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-a0cefc83dda4fbc5"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1998-top-10",
+          "rank": 7
+        }
+      ]
+    },
+    {
+      "id": "song-a339b32b220e7735",
+      "type": "song",
+      "title": "I Believe I Can Fly",
+      "artistCredit": "R. Kelly",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-52307fc76a691020"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1997-top-10",
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "id": "song-a7f14238a1769b4f",
+      "type": "song",
+      "title": "Baby Baby",
+      "artistCredit": "Amy Grant",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-5fde6102fdfe539f"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1991-top-10",
+          "rank": 10
+        }
+      ]
+    },
+    {
+      "id": "song-ad4807f7bacf21d2",
+      "type": "song",
+      "title": "Breathe Again",
+      "artistCredit": "Toni Braxton",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-48d4b48b008597ec"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1994-top-10",
+          "rank": 7
+        }
+      ]
+    },
+    {
+      "id": "song-ad9118029edab8ae",
+      "type": "song",
+      "title": "Jump",
+      "artistCredit": "Kris Kross",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-15cf2eb715575b16"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1992-top-10",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": "song-af022b4a89f63ece",
+      "type": "song",
+      "title": "Together Again",
+      "artistCredit": "Janet Jackson",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-a0cefc83dda4fbc5"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1998-top-10",
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "id": "song-b0b99917b6609b01",
+      "type": "song",
+      "title": "Don't Let Go (Love)",
+      "artistCredit": "En Vogue",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-52307fc76a691020"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1997-top-10",
+          "rank": 7
+        }
+      ]
+    },
+    {
+      "id": "song-b24ff0b4949b5dd6",
+      "type": "song",
+      "title": "One Sweet Day",
+      "artistCredit": "Mariah Carey and Boyz II Men",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-58fa4f5b171ad04d"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1996-top-10",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "song-b66fed9225f89088",
+      "type": "song",
+      "title": "Under the Bridge",
+      "artistCredit": "Red Hot Chili Peppers",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-15cf2eb715575b16"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1992-top-10",
+          "rank": 8
+        }
+      ]
+    },
+    {
+      "id": "song-b6c6205b004500fc",
+      "type": "song",
+      "title": "More Than Words",
+      "artistCredit": "Extreme",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-5fde6102fdfe539f"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1991-top-10",
+          "rank": 7
+        }
+      ]
+    },
+    {
+      "id": "song-b983dd2df4d831dc",
+      "type": "song",
+      "title": "One More Try",
+      "artistCredit": "Timmy T",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-5fde6102fdfe539f"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1991-top-10",
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "id": "song-c4aa58b7ba4ccefa",
+      "type": "song",
+      "title": "Rump Shaker",
+      "artistCredit": "Wreckx-n-Effect",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-4316dd64735de95d"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1993-top-10",
+          "rank": 9
+        }
+      ]
+    },
+    {
+      "id": "song-c5316c4311fe84ff",
+      "type": "song",
+      "title": "Heartbreak Hotel",
+      "artistCredit": "Whitney Houston featuring Faith Evans and Kelly Price",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-fee4805769419ae2"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1999-top-10",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "id": "song-c601fdd200a6c323",
+      "type": "song",
+      "title": "I'll Make Love to You",
+      "artistCredit": "Boyz II Men",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-48d4b48b008597ec"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1994-top-10",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": "song-c63f8a2167f6df6c",
+      "type": "song",
+      "title": "The Sign",
+      "artistCredit": "Ace of Base",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-48d4b48b008597ec"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1994-top-10",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "song-c7e4f68bf6959ca5",
+      "type": "song",
+      "title": "Another Day in Paradise",
+      "artistCredit": "Phil Collins",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-aa0748c7af6595a5"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1990-top-10",
+          "rank": 7
+        }
+      ]
+    },
+    {
+      "id": "song-cd1900e74aa84285",
+      "type": "song",
+      "title": "Dreamlover",
+      "artistCredit": "Mariah Carey",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-4316dd64735de95d"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1993-top-10",
+          "rank": 8
+        }
+      ]
+    },
+    {
+      "id": "song-d36eef7a4cae7699",
+      "type": "song",
+      "title": "End of the Road",
+      "artistCredit": "Boyz II Men",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-15cf2eb715575b16"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1992-top-10",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "song-d6a544700e424fca",
+      "type": "song",
+      "title": "Informer",
+      "artistCredit": "Snow",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-4316dd64735de95d"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1993-top-10",
+          "rank": 10
+        }
+      ]
+    },
+    {
+      "id": "song-d793df28d0491d42",
+      "type": "song",
+      "title": "Believe",
+      "artistCredit": "Cher",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-fee4805769419ae2"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1999-top-10",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "song-e3130b3c8f2da473",
+      "type": "song",
+      "title": "Wannabe",
+      "artistCredit": "Spice Girls",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-52307fc76a691020"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1997-top-10",
+          "rank": 10
+        }
+      ]
+    },
+    {
+      "id": "song-eaa95555918f705a",
+      "type": "song",
+      "title": "Give Me One Reason",
+      "artistCredit": "Tracy Chapman",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-58fa4f5b171ad04d"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1996-top-10",
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "id": "song-ebc7a66b8ed7cbfc",
+      "type": "song",
+      "title": "Poison",
+      "artistCredit": "Bell Biv DeVoe",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-aa0748c7af6595a5"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1990-top-10",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "id": "song-ef82c74cfcdc1fcc",
+      "type": "song",
+      "title": "I Love You Always Forever",
+      "artistCredit": "Donna Lewis",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-58fa4f5b171ad04d"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1996-top-10",
+          "rank": 8
+        }
+      ]
+    },
+    {
+      "id": "song-f13b65c4454c2310",
+      "type": "song",
+      "title": "The Power of Love",
+      "artistCredit": "Celine Dion",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-48d4b48b008597ec"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1994-top-10",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "id": "song-f29812541da66991",
+      "type": "song",
+      "title": "Baby Got Back",
+      "artistCredit": "Sir Mix-a-Lot",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-15cf2eb715575b16"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1992-top-10",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "song-f45e3e62a0b2a45f",
+      "type": "song",
+      "title": "Always Be My Baby",
+      "artistCredit": "Mariah Carey",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-58fa4f5b171ad04d"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1996-top-10",
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "id": "song-f4b0e3389f1c665b",
+      "type": "song",
+      "title": "I Wanna Sex You Up",
+      "artistCredit": "Color Me Badd",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-5fde6102fdfe539f"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1991-top-10",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "song-f5614558fd9e630a",
+      "type": "song",
+      "title": "Weak",
+      "artistCredit": "SWV",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-4316dd64735de95d"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1993-top-10",
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "id": "song-f6b2cc895bac3ce7",
+      "type": "song",
+      "title": "This Is How We Do It",
+      "artistCredit": "Montell Jordan",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-97e8b00bb9993d9c"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1995-top-10",
+          "rank": 10
+        }
+      ]
+    },
+    {
+      "id": "song-f97e3631b7001811",
+      "type": "song",
+      "title": "All That She Wants",
+      "artistCredit": "Ace of Base",
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "sourceIds": [
+        "source-48d4b48b008597ec"
+      ],
+      "appearances": [
+        {
+          "chartId": "billboard-year-end-hot-100-1994-top-10",
+          "rank": 9
+        }
+      ]
+    }
+  ]
+}

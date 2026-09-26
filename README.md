@@ -1,8 +1,9 @@
-# 90s.land Next
+# 90s.land
 
-Experimental rebuild for **90s.land**.
-
-Safety boundary: this project lives at `/home/hermes/projects/90s-land-next` and must not modify or deploy `/home/justin/sites/90s-land` without explicit Justin approval.
+Static nostalgia site, with a reference-driven editorial rebuild in progress.
+The current presentation remains in place while Phase 1 preserves and extracts
+the archive. Hosting paths from earlier prototype notes are not a verified
+deployment target for this checkout.
 
 ## Stack
 
@@ -16,6 +17,17 @@ Simple static site:
 - `tools/render_site.py` rewrites only marked generated regions.
 
 Generated HTML is committed. The deployed site remains dependency-free.
+
+## Rebuild preparation
+
+- [Phase 1 report and review queue](reports/PHASE_1_MIGRATION.md)
+- [Import schemas, source ownership, and preservation checks](docs/CONTENT_MIGRATION.md)
+- [Approved rebuild decisions and remaining phases](docs/REBUILD_HANDOFF.md)
+
+`content/migration/` contains reproducible, unreviewed import records. They do not
+feed the current site. Frozen HTML/catalog snapshots and six visual baselines
+live under `reports/baseline/phase-1/`; the three supplied designs are development
+fixtures under `docs/design/references/`.
 
 ## Local preview
 
@@ -31,6 +43,10 @@ Before review, run:
 python3 tools/render_site.py --check
 python3 tools/process_media.py --check
 python3 tools/audit_site.py
+pnpm content:check
+pnpm content:baseline
+pnpm content:visual-check
+pnpm test:content
 pnpm test
 ```
 

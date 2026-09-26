@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "revision": "a015cd39a15d0f062eac30fe4097a4e97078b651",
+  "capturedAt": "2026-09-26T15:30:25.678Z",
+  "browser": "151.0.7922.34",
+  "reducedMotion": true,
+  "captures": [
+    {
+      "name": "home",
+      "route": "/",
+      "viewport": {
+        "width": 1086,
+        "height": 724
+      },
+      "file": "reports/baseline/phase-1/screenshots/home-1086x724.png",
+      "sha256": "60590f0462734788f1b6c476b5d0354c399e022ce399e55c26e521d6ca44d823",
+      "layout": {
+        "documentHeight": 2440,
+        "documentWidth": 1086,
+        "heading": "A playable museum of the 1990s.",
+        "mainTop": 86.40625
+      }
+    },
+    {
+      "name": "timeline",
+      "route": "/timeline/1996/",
+      "viewport": {
+        "width": 1086,
+        "height": 724
+      },
+      "file": "reports/baseline/phase-1/screenshots/timeline-1086x724.png",
+      "sha256": "46a5818c7025a1dbcdd82b599bc116444a32e5d912816af40de99d4eaf2ec058",
+      "layout": {
+        "documentHeight": 11814,
+        "documentWidth": 1086,
+        "heading": "1996: Pocket monsters and web counters",
+        "mainTop": 90.40625
+      }
+    },
+    {
+      "name": "games",
+      "route": "/zones/games/",
+      "viewport": {
+        "width": 1182,
+        "height": 665
+      },
+      "file": "reports/baseline/phase-1/screenshots/games-1182x665.png",
+      "sha256": "667516f632fb96ca0f1c40d61fab75745392eb85016653db53c8ea2c076c0b42",
+      "layout": {
+        "documentHeight": 7316,
+        "documentWidth": 1182,
+        "heading": "1UP Games",
+        "mainTop": 90.40625
+      }
+    },
+    {
+      "name": "home",
+      "route": "/",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "file": "reports/baseline/phase-1/screenshots/home-390x844.png",
+      "sha256": "094da89f4dd7ba1d95c1ca932b5f68bbbbbeb0e2012d5454c287fa510c891942",
+      "layout": {
+        "documentHeight": 4157,
+        "documentWidth": 390,
+        "heading": "A playable museum of the 1990s.",
+        "mainTop": 77.78125
+      }
+    },
+    {
+      "name": "timeline",
+      "route": "/timeline/1996/",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "file": "reports/baseline/phase-1/screenshots/timeline-390x844.png",
+      "sha256": "3afac2d01a7b9e14742706a58cb906b33101d285605b67ced7b8d21d47233d69",
+      "layout": {
+        "documentHeight": 20541,
+        "documentWidth": 390,
+        "heading": "1996: Pocket monsters and web counters",
+        "mainTop": 77.78125
+      }
+    },
+    {
+      "name": "games",
+      "route": "/zones/games/",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "file": "reports/baseline/phase-1/screenshots/games-390x844.png",
+      "sha256": "fe0d3ace4fd91d9b9d263cbce037ac9b21732b20a0ed1d4ebe1259bbb5aa6b74",
+      "layout": {
+        "documentHeight": 10843,
+        "documentWidth": 390,
+        "heading": "1UP Games",
+        "mainTop": 77.78125
+      }
+    }
+  ]
+}

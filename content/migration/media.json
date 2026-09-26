@@ -1,0 +1,1094 @@
+{
+  "schemaVersion": 1,
+  "kind": "media",
+  "records": [
+    {
+      "id": "media-f57fb8e11d4fa918",
+      "src": "/assets/media/games/marble-madness-arcade-cabinet.jpg",
+      "sha256": "c772789ed7641f9c99a536ab1470ea942b32b21b42010a8309c0c942bf33ce33",
+      "bytes": 498507,
+      "attributionClaims": [
+        {
+          "artifactId": "arcade-cabinet",
+          "credit": "Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Marble_Madness_arcade_cabinet.jpg",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "occurrences": [
+        {
+          "pageId": "timeline-1992",
+          "alt": "Marble Madness arcade cabinet with side art, controls, and lit screen.",
+          "line": 382
+        },
+        {
+          "pageId": "zones-games",
+          "alt": "A Marble Madness arcade cabinet standing upright with side art, joystick controls, and the lit game screen visible.",
+          "line": 107
+        },
+        {
+          "pageId": "zones-games",
+          "alt": "Marble Madness arcade cabinet with side art, controls, and lit screen.",
+          "line": 286
+        }
+      ],
+      "rightsStatus": "recorded-unverified"
+    },
+    {
+      "id": "media-523218a3c6a690d1",
+      "src": "/assets/media/games/n64-controller-gray.jpg",
+      "sha256": "0891e7a8cce9a107029158caf3767cf4c5a83dcf6d61b2739c5211211c881f1a",
+      "bytes": 106576,
+      "attributionClaims": [
+        {
+          "artifactId": "n64-controller",
+          "credit": "Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:N64-Controller-Gray.jpg",
+          "license": "Public domain"
+        }
+      ],
+      "occurrences": [
+        {
+          "pageId": "home",
+          "alt": "Gray Nintendo 64 controller with three-prong grip and central analog stick.",
+          "line": 100
+        },
+        {
+          "pageId": "timeline",
+          "alt": "Gray Nintendo 64 controller with three-prong grip and central analog stick.",
+          "line": 164
+        },
+        {
+          "pageId": "timeline-1996",
+          "alt": "A gray Nintendo 64 controller photographed at an angle, showing the three-prong grip and analog stick in the center.",
+          "line": 91
+        },
+        {
+          "pageId": "timeline-1996",
+          "alt": "Gray Nintendo 64 controller with three-prong grip and central analog stick.",
+          "line": 396
+        },
+        {
+          "pageId": "zones-games",
+          "alt": "A gray Nintendo 64 controller photographed at an angle, showing the three-prong grip and analog stick in the center.",
+          "line": 125
+        },
+        {
+          "pageId": "zones-games",
+          "alt": "Gray Nintendo 64 controller with three-prong grip and central analog stick.",
+          "line": 320
+        }
+      ],
+      "rightsStatus": "recorded-unverified"
+    },
+    {
+      "id": "media-6f2bdca93064bbf3",
+      "src": "/assets/media/games/sega-genesis-6-button-controller.jpg",
+      "sha256": "d808854d3038c831f7bcbb588b380df092332d33bdef3f984a2446a5d669f5a4",
+      "bytes": 91383,
+      "attributionClaims": [
+        {
+          "artifactId": "genesis-controller",
+          "credit": "Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sega-Genesis-Mk2-6button.jpg",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "occurrences": [
+        {
+          "pageId": "timeline-1990",
+          "alt": "A Sega Genesis six-button controller photographed from above, showing the D-pad, shoulder curve, and rows of face buttons.",
+          "line": 112
+        },
+        {
+          "pageId": "timeline-1991",
+          "alt": "A Sega Genesis six-button controller photographed from above, showing its D-pad, shoulder curve, and rows of face buttons.",
+          "line": 100
+        },
+        {
+          "pageId": "timeline-1991",
+          "alt": "Black Sega Genesis six-button controller seen from above.",
+          "line": 451
+        },
+        {
+          "pageId": "timeline-1993",
+          "alt": "A Sega Genesis six-button controller photographed from above, showing its D-pad, curved handles, and six face buttons.",
+          "line": 118
+        },
+        {
+          "pageId": "timeline-1993",
+          "alt": "Black Sega Genesis six-button controller seen from above.",
+          "line": 380
+        },
+        {
+          "pageId": "zones-games",
+          "alt": "A Sega Genesis six-button controller photographed from above, showing its D-pad, shoulder curve, and rows of face buttons.",
+          "line": 116
+        },
+        {
+          "pageId": "zones-games",
+          "alt": "Black Sega Genesis six-button controller seen from above.",
+          "line": 303
+        }
+      ],
+      "rightsStatus": "recorded-unverified"
+    },
+    {
+      "id": "media-4c9271227c4b5696",
+      "src": "/assets/media/music/cd-r-spindle.jpg",
+      "sha256": "2f60af576c3478a10489996e1d0a55d3c86b9ed38fbd415035fca552bc98bce0",
+      "bytes": 224891,
+      "attributionClaims": [
+        {
+          "artifactId": "cdr-spindle",
+          "credit": "Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:CD-R-Stapel.jpg",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "occurrences": [
+        {
+          "pageId": "timeline-1997",
+          "alt": "Spindle of blank CD-R discs with rainbow reflections.",
+          "line": 264
+        },
+        {
+          "pageId": "zones-music",
+          "alt": "A spindle stack of blank CD-R discs photographed from above, showing translucent rainbow reflections across the discs.",
+          "line": 125
+        },
+        {
+          "pageId": "zones-music",
+          "alt": "Spindle of blank CD-R discs with rainbow reflections.",
+          "line": 408
+        }
+      ],
+      "rightsStatus": "recorded-unverified"
+    },
+    {
+      "id": "media-1ca073fa6c4a5a25",
+      "src": "/assets/media/music/compact-cassette-maxell.jpg",
+      "sha256": "952616fe38612197cd3a0470eb07777644359992ed364c7e7fcb6a671784d044",
+      "bytes": 208856,
+      "attributionClaims": [
+        {
+          "artifactId": "cassette",
+          "credit": "Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Compact_Cassette_-_Maxell_MX_60.JPG",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "occurrences": [
+        {
+          "pageId": "timeline-1990",
+          "alt": "Compact cassette with visible reels and label area.",
+          "line": 425
+        },
+        {
+          "pageId": "timeline-1991",
+          "alt": "A compact cassette with visible tape reels photographed straight on.",
+          "line": 118
+        },
+        {
+          "pageId": "timeline-1991",
+          "alt": "Compact cassette with visible reels and label area.",
+          "line": 468
+        },
+        {
+          "pageId": "zones-music",
+          "alt": "A mid-1990s Maxell MX 60 compact cassette photographed straight on, showing the tape reels through the clear shell.",
+          "line": 107
+        },
+        {
+          "pageId": "zones-music",
+          "alt": "Compact cassette with visible reels and label area.",
+          "line": 374
+        }
+      ],
+      "rightsStatus": "recorded-unverified"
+    },
+    {
+      "id": "media-356e3d90140155e9",
+      "src": "/assets/media/music/discman-d121.jpg",
+      "sha256": "7411c126cf5a81e3f771c7307bd4cb8f9e0972567ad1ef3e3e0abb2bf8e50b3f",
+      "bytes": 265704,
+      "attributionClaims": [
+        {
+          "artifactId": "discman",
+          "credit": "Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Discman_D121.jpg",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "occurrences": [
+        {
+          "pageId": "timeline-1997",
+          "alt": "Open black Sony Discman D121 portable CD player.",
+          "line": 281
+        },
+        {
+          "pageId": "zones-music",
+          "alt": "A black Sony Discman D121 portable CD player photographed open, with the circular lid and buttons visible.",
+          "line": 116
+        },
+        {
+          "pageId": "zones-music",
+          "alt": "Open black Sony Discman D121 portable CD player.",
+          "line": 391
+        }
+      ],
+      "rightsStatus": "recorded-unverified"
+    },
+    {
+      "id": "media-befff3448085adb7",
+      "src": "/assets/media/tech-toys/aol-promotional-cds.jpg",
+      "sha256": "3af3b12b7defa12feb311f73f018e04009ab8742bf039dc358332302e5246ad9",
+      "bytes": 220421,
+      "attributionClaims": [
+        {
+          "artifactId": "aol-cd",
+          "credit": "Jeran Renz, Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:AOL_promotional_CDs_in_Canada.jpg",
+          "license": "CC0"
+        }
+      ],
+      "occurrences": [
+        {
+          "pageId": "timeline-1995",
+          "alt": "Stack of AOL promotional CDs scattered like mailer clutter, representing the trial-disc era of mainstream internet signups.",
+          "line": 99
+        },
+        {
+          "pageId": "timeline-1995",
+          "alt": "Stack of colorful AOL promotional CDs and sleeves.",
+          "line": 341
+        },
+        {
+          "pageId": "timeline-1996",
+          "alt": "Stack of late-1990s AOL promotional CDs in colorful sleeves, showing the junk-mail era of getting online.",
+          "line": 100
+        },
+        {
+          "pageId": "timeline-1997",
+          "alt": "A small stack of AOL promotional CDs, evoking the dial-up setup era that turned screen names and buddy lists into daily ritual.",
+          "line": 94
+        },
+        {
+          "pageId": "tour-before-the-feed",
+          "alt": "Stack of colorful AOL promotional CDs and sleeves.",
+          "line": 88
+        },
+        {
+          "pageId": "zones-tech-toys",
+          "alt": "Stack of late-1990s AOL promotional CDs in colorful sleeves, showing the junk-mail era of getting online.",
+          "line": 140
+        },
+        {
+          "pageId": "zones-tech-toys",
+          "alt": "Stack of colorful AOL promotional CDs and sleeves.",
+          "line": 380
+        }
+      ],
+      "rightsStatus": "recorded-unverified"
+    },
+    {
+      "id": "media-e31d65e10982d2cc",
+      "src": "/assets/media/tech-toys/family-pc-rotterdam-1999.jpg",
+      "sha256": "cf8a7acb16622d39b7c55f164a86d6b7bbf5cc0851473e0fbdf0d91e32046bd1",
+      "bytes": 108263,
+      "attributionClaims": [
+        {
+          "artifactId": "family-pc",
+          "credit": "Oompje, Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mypc11999.jpg",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "occurrences": [
+        {
+          "pageId": "home",
+          "alt": "Late-1990s family desktop PC with CRT monitor and beige tower in a shared room.",
+          "line": 76
+        },
+        {
+          "pageId": "timeline-1999",
+          "alt": "Late-1990s family desktop PC with CRT monitor and beige tower in a shared room.",
+          "line": 387
+        },
+        {
+          "pageId": "tour-before-the-feed",
+          "alt": "Late-1990s family desktop PC with CRT monitor and beige tower in a shared room.",
+          "line": 76
+        },
+        {
+          "pageId": "zones-tech-toys",
+          "alt": "Late-1990s family desktop PC setup with CRT monitor and beige computer tower, showing how home computing lived in an ordinary room rather than a lab.",
+          "line": 131
+        },
+        {
+          "pageId": "zones-tech-toys",
+          "alt": "Late-1990s family desktop PC with CRT monitor and beige tower in a shared room.",
+          "line": 363
+        }
+      ],
+      "rightsStatus": "recorded-unverified"
+    },
+    {
+      "id": "media-485ee06ea37025f7",
+      "src": "/assets/media/tech-toys/motorola-pager-teletrim.jpg",
+      "sha256": "f720f9122f041ce455a5d3c7e40befbc3b3487ef26218b026e3bd99639b68fa2",
+      "bytes": 222645,
+      "attributionClaims": [
+        {
+          "artifactId": "pager",
+          "credit": "Andrepinto40, Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pager_teletrim.JPG",
+          "license": "Public domain"
+        }
+      ],
+      "occurrences": [
+        {
+          "pageId": "timeline",
+          "alt": "Black Motorola pager with a small display and belt clip.",
+          "line": 104
+        },
+        {
+          "pageId": "timeline-1992",
+          "alt": "Black Motorola pager with a small display and belt clip.",
+          "line": 348
+        },
+        {
+          "pageId": "tour-before-the-feed",
+          "alt": "Black Motorola pager with a small display and belt clip.",
+          "line": 261
+        },
+        {
+          "pageId": "zones-tech-toys",
+          "alt": "Motorola pager from the 1990s, representing the belt-clip era of portable messages and visible social status.",
+          "line": 149
+        },
+        {
+          "pageId": "zones-tech-toys",
+          "alt": "Black Motorola pager with a small display and belt clip.",
+          "line": 397
+        }
+      ],
+      "rightsStatus": "recorded-unverified"
+    },
+    {
+      "id": "media-b51ae73bb10ee6df",
+      "src": "/assets/media/timeline-1990/hubble-launch.jpg",
+      "sha256": "86ca6746d44ca68e94490f4b030adc7b0e11ccb2f33e28869c76ac713e7066ca",
+      "bytes": 2040864,
+      "attributionClaims": [
+        {
+          "artifactId": "hubble-launch",
+          "credit": "NASA / ESA, Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hubble_Launch_(hst_launch_hi).jpg",
+          "license": "Public domain"
+        }
+      ],
+      "occurrences": [
+        {
+          "pageId": "timeline-1990",
+          "alt": "Space Shuttle Discovery launching with the Hubble Space Telescope aboard, leaving a bright plume against a dark sky.",
+          "line": 102
+        },
+        {
+          "pageId": "timeline-1990",
+          "alt": "Space Shuttle Discovery launching Hubble with a bright plume.",
+          "line": 408
+        }
+      ],
+      "rightsStatus": "recorded-unverified"
+    },
+    {
+      "id": "media-2cd9ad02946aaaa5",
+      "src": "/assets/media/timeline-1990/windows-3-0-program-manager.png",
+      "sha256": "e70ac3445fb580c82ed136acb17c63dc3602cc59edfdd14ca967bf298da0f72e",
+      "bytes": 6999,
+      "attributionClaims": [
+        {
+          "artifactId": "windows-3",
+          "credit": "Public-domain screenshot, Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:VirtualBox_Windows_3.0_20241202_02_12_2024_20_17_10.png",
+          "license": "Public domain"
+        }
+      ],
+      "occurrences": [
+        {
+          "pageId": "timeline",
+          "alt": "Windows 3.0 Program Manager with colorful icons on a gray desktop.",
+          "line": 74
+        },
+        {
+          "pageId": "timeline-1990",
+          "alt": "Windows 3.0 Program Manager screenshot with colorful square icons and simple gray desktop interface.",
+          "line": 90
+        },
+        {
+          "pageId": "timeline-1990",
+          "alt": "Windows 3.0 Program Manager with colorful icons on a gray desktop.",
+          "line": 391
+        },
+        {
+          "pageId": "timeline-1992",
+          "alt": "Windows 3.0 Program Manager with colorful icons on a gray desktop.",
+          "line": 365
+        }
+      ],
+      "rightsStatus": "recorded-unverified"
+    },
+    {
+      "id": "media-782d59ed5cf9b0b8",
+      "src": "/assets/media/timeline-1991/w3-first-website.png",
+      "sha256": "3fbe8196b7dbfbad1c3318d97831520a5e8ae4a0b63aafbf6142e59d64a3eb6e",
+      "bytes": 27252,
+      "attributionClaims": [
+        {
+          "artifactId": "first-website",
+          "credit": "CERN / Tim Berners-Lee, Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:W3_First_Website.png",
+          "license": "Public domain"
+        }
+      ],
+      "occurrences": [
+        {
+          "pageId": "timeline",
+          "alt": "Plain text-and-link view of the first World Wide Web site.",
+          "line": 89
+        },
+        {
+          "pageId": "timeline-1991",
+          "alt": "Screenshot of the first World Wide Web site, showing a plain text early-web page with blue links and minimal styling.",
+          "line": 91
+        },
+        {
+          "pageId": "timeline-1991",
+          "alt": "Plain text-and-link view of the first World Wide Web site.",
+          "line": 434
+        },
+        {
+          "pageId": "tour-before-the-feed",
+          "alt": "Plain text-and-link view of the first World Wide Web site.",
+          "line": 113
+        }
+      ],
+      "rightsStatus": "recorded-unverified"
+    },
+    {
+      "id": "media-f9263ddb4ea943fe",
+      "src": "/assets/media/timeline-1992/cartoon-network-1992-2004.png",
+      "sha256": "897c40da222f9c6b235c917b325ee0f4b033e4b410e6bf133351fb2de482ac73",
+      "bytes": 31509,
+      "attributionClaims": [],
+      "occurrences": [
+        {
+          "pageId": "timeline-1992",
+          "alt": "Cartoon Network's original black-and-white checkerboard logo used from 1992 into the early 2000s.",
+          "line": 118
+        }
+      ],
+      "rightsStatus": "needs-review"
+    },
+    {
+      "id": "media-620a796efe5dee9b",
+      "src": "/assets/media/timeline-1992/mortal-kombat-ii-arcade-cabinet.jpg",
+      "sha256": "9c8924e2feac456eb68d3ca3e4480810d77de7540e1b197ae5edd330c7f1793e",
+      "bytes": 136091,
+      "attributionClaims": [],
+      "occurrences": [
+        {
+          "pageId": "timeline-1992",
+          "alt": "A Mortal Kombat II arcade cabinet photographed in a public arcade setting.",
+          "line": 100
+        }
+      ],
+      "rightsStatus": "needs-review"
+    },
+    {
+      "id": "media-0277d3451a24143f",
+      "src": "/assets/media/timeline-1992/super-nintendo-controller.jpg",
+      "sha256": "3c2f500464595247575ab828769197defd12cbefb20d30d616475569192a2c12",
+      "bytes": 49271,
+      "attributionClaims": [],
+      "occurrences": [
+        {
+          "pageId": "timeline-1992",
+          "alt": "A Super Nintendo controller photographed from above, showing the gray body and purple face buttons.",
+          "line": 109
+        }
+      ],
+      "rightsStatus": "needs-review"
+    },
+    {
+      "id": "media-c0e2a7f6d9494894",
+      "src": "/assets/media/timeline-1992/windows-3-1-about-box.png",
+      "sha256": "1173a8958d1e3016298c94fbae6e4fd12631dc474934952fa933f154a10893c9",
+      "bytes": 3037,
+      "attributionClaims": [],
+      "occurrences": [
+        {
+          "pageId": "timeline-1992",
+          "alt": "Windows 3.1 About dialog screenshot showing the colorful Windows 3.1 branding and version information.",
+          "line": 91
+        },
+        {
+          "pageId": "timeline-1994",
+          "alt": "Windows 3.1 About dialog screenshot showing the colorful Windows 3.1 branding and version information.",
+          "line": 91
+        }
+      ],
+      "rightsStatus": "needs-review"
+    },
+    {
+      "id": "media-ca40ed0e6006ccd8",
+      "src": "/assets/media/timeline-1993/doom-disks.jpg",
+      "sha256": "f2c72a59a5c439fc78484b499cf9f995c0c79c599427d41674636490db15b04d",
+      "bytes": 361015,
+      "attributionClaims": [
+        {
+          "artifactId": "doom-disks",
+          "credit": "Pelle Wessman, Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Doom_Disks_(2954946319).jpg",
+          "license": "CC BY-SA 2.0"
+        }
+      ],
+      "occurrences": [
+        {
+          "pageId": "timeline-1993",
+          "alt": "A small stack of Doom floppy disks spread on a table, photographed from above.",
+          "line": 109
+        },
+        {
+          "pageId": "timeline-1993",
+          "alt": "Small stack of Doom floppy disks spread across a table.",
+          "line": 363
+        }
+      ],
+      "rightsStatus": "recorded-unverified"
+    },
+    {
+      "id": "media-f3b90eb22d70d4e3",
+      "src": "/assets/media/timeline-1993/ncsa-mosaic-browser-screenshot.png",
+      "sha256": "f74dc1a1503d58ed8461b97cf19fef5bb49c4705ae30d3e1a6e3696c327cb2ea",
+      "bytes": 227256,
+      "attributionClaims": [
+        {
+          "artifactId": "mosaic-browser",
+          "credit": "Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:NCSA_Mosaic_Browser_Screenshot.png",
+          "license": "CC0"
+        }
+      ],
+      "occurrences": [
+        {
+          "pageId": "timeline",
+          "alt": "NCSA Mosaic browser showing an early graphical view of the World Wide Web.",
+          "line": 54
+        },
+        {
+          "pageId": "timeline",
+          "alt": "NCSA Mosaic browser, an early graphical window onto the web.",
+          "line": 68
+        },
+        {
+          "pageId": "timeline",
+          "alt": "NCSA Mosaic browser displaying an early web page inside gray window chrome.",
+          "line": 119
+        },
+        {
+          "pageId": "timeline-1993",
+          "alt": "Screenshot of the NCSA Mosaic browser showing an early web page inside a gray desktop window interface.",
+          "line": 91
+        },
+        {
+          "pageId": "timeline-1993",
+          "alt": "NCSA Mosaic browser displaying an early web page inside gray window chrome.",
+          "line": 346
+        },
+        {
+          "pageId": "tour-before-the-feed",
+          "alt": "NCSA Mosaic browser displaying an early web page inside gray window chrome.",
+          "line": 125
+        }
+      ],
+      "rightsStatus": "recorded-unverified"
+    },
+    {
+      "id": "media-6e91c7d10bdc94d8",
+      "src": "/assets/media/timeline-1993/w3-first-website.png",
+      "sha256": "3fbe8196b7dbfbad1c3318d97831520a5e8ae4a0b63aafbf6142e59d64a3eb6e",
+      "bytes": 27252,
+      "attributionClaims": [],
+      "occurrences": [
+        {
+          "pageId": "timeline-1993",
+          "alt": "Screenshot of the first website with a simple text-only page explaining the World Wide Web project.",
+          "line": 100
+        }
+      ],
+      "rightsStatus": "needs-review"
+    },
+    {
+      "id": "media-0347aa9a21255947",
+      "src": "/assets/media/timeline-1995/playstation-controller.jpg",
+      "sha256": "f814e74166c845ee7bcf4e4f4466baf19f708e0cd39d9d30450cbca939ca5586",
+      "bytes": 58806,
+      "attributionClaims": [
+        {
+          "artifactId": "playstation-hardware",
+          "credit": "Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:PlayStation-SCPH-1000-with-Controller.jpg",
+          "license": "See source page"
+        }
+      ],
+      "occurrences": [
+        {
+          "pageId": "timeline-1994",
+          "alt": "Original gray Sony PlayStation console photographed with its controller, representing the late-1994 import-console shift toward a sleeker CD-era future.",
+          "line": 109
+        },
+        {
+          "pageId": "timeline-1994",
+          "alt": "Original gray PlayStation console with its controller.",
+          "line": 399
+        },
+        {
+          "pageId": "timeline-1995",
+          "alt": "Original gray Sony PlayStation console photographed with its controller, representing the early 3D console shift of 1995.",
+          "line": 108
+        },
+        {
+          "pageId": "timeline-1996",
+          "alt": "Original gray PlayStation console with its controller.",
+          "line": 413
+        },
+        {
+          "pageId": "timeline-1997",
+          "alt": "An original gray PlayStation console with controller attached, standing in for the cinematic-console shift that defined 1997 game obsession.",
+          "line": 103
+        }
+      ],
+      "rightsStatus": "needs-review"
+    },
+    {
+      "id": "media-795bf3d4262c626f",
+      "src": "/assets/media/timeline-1995/windows95-start-button.png",
+      "sha256": "b9dc88d9fe7f25b80bc7b00189d356e3c890200c838e35837e38dad7cadd8e44",
+      "bytes": 5743,
+      "attributionClaims": [
+        {
+          "artifactId": "windows-95-start",
+          "credit": "Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Windows95-4.0.302-Desktop,_start_button.png",
+          "license": "See source page"
+        }
+      ],
+      "occurrences": [
+        {
+          "pageId": "timeline",
+          "alt": "Windows 95 desktop with the Start button visible on the taskbar.",
+          "line": 149
+        },
+        {
+          "pageId": "timeline-1995",
+          "alt": "Windows 95 desktop screenshot with the new Start button visible in the taskbar, representing the moment the family PC felt newly approachable.",
+          "line": 90
+        },
+        {
+          "pageId": "timeline-1995",
+          "alt": "Windows 95 desktop with the Start button visible on the taskbar.",
+          "line": 324
+        }
+      ],
+      "rightsStatus": "needs-review"
+    },
+    {
+      "id": "media-0746a085e8eefb8f",
+      "src": "/assets/media/timeline-1999/cdr-spindle.jpg",
+      "sha256": "2df9b8cded30e7c322898fc7a1ab78d476e86679924ada74e07efa07154fe75c",
+      "bytes": 56695,
+      "attributionClaims": [],
+      "occurrences": [
+        {
+          "pageId": "timeline-1999",
+          "alt": "A spindle of blank CD-R discs, standing in for the burned-mix culture and MP3-copy ritual that exploded in 1999.",
+          "line": 108
+        }
+      ],
+      "rightsStatus": "needs-review"
+    },
+    {
+      "id": "media-baa809978f89abe8",
+      "src": "/assets/media/timeline-1999/dreamcast-console.jpg",
+      "sha256": "b0ddd291d97c5609dbb894b47fe435902d7f2d93fd20c2de95890e396b5ab480",
+      "bytes": 55732,
+      "attributionClaims": [
+        {
+          "artifactId": "dreamcast",
+          "credit": "Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sega-Dreamcast-Console-Set.jpg",
+          "license": "See source page"
+        }
+      ],
+      "occurrences": [
+        {
+          "pageId": "timeline",
+          "alt": "White Sega Dreamcast console with controller and VMU.",
+          "line": 209
+        },
+        {
+          "pageId": "timeline-1999",
+          "alt": "White Sega Dreamcast console with controller and VMU, representing the event-launch hardware glow of late 1999.",
+          "line": 99
+        },
+        {
+          "pageId": "timeline-1999",
+          "alt": "White Sega Dreamcast console with controller and VMU.",
+          "line": 353
+        }
+      ],
+      "rightsStatus": "needs-review"
+    },
+    {
+      "id": "media-4f694faebf42f48c",
+      "src": "/assets/media/timeline-1999/y2k-response-office.jpg",
+      "sha256": "e367a0a8926edd808c3b1829fc42ada4ce2c2a01c6e01d2898b16286ac431a6c",
+      "bytes": 26729,
+      "attributionClaims": [
+        {
+          "artifactId": "y2k-office",
+          "credit": "Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Y2K_command_center.jpg",
+          "license": "See source page"
+        }
+      ],
+      "occurrences": [
+        {
+          "pageId": "timeline-1999",
+          "alt": "Year 2000 problem response office with staff facing screens and equipment, representing the institutional Y2K panic that spilled into nightly news and home conversation in late 1999.",
+          "line": 117
+        },
+        {
+          "pageId": "timeline-1999",
+          "alt": "Year 2000 response office with staff, screens, and equipment.",
+          "line": 370
+        }
+      ],
+      "rightsStatus": "needs-review"
+    },
+    {
+      "id": "media-13d65b47217ad56d",
+      "src": "/assets/media/timeline-previews/1994-homepage.svg",
+      "sha256": "de38c7947212775f01603360fc3f9c0873f10a4fa03bbd85ca1487f4c6ff43e8",
+      "bytes": 2511,
+      "attributionClaims": [],
+      "occurrences": [
+        {
+          "pageId": "timeline",
+          "alt": "Original illustration of a 1994 personal homepage on a CRT desktop, with tiled stars and an under-construction badge.",
+          "line": 134
+        }
+      ],
+      "rightsStatus": "needs-review"
+    },
+    {
+      "id": "media-a5159963de4687d2",
+      "src": "/assets/media/timeline-previews/1997-buddy-list.svg",
+      "sha256": "207f654ae73ee3ed17c01342b45b6f269db39a930e9162ca14d1b2fba0c53b18",
+      "bytes": 3221,
+      "attributionClaims": [],
+      "occurrences": [
+        {
+          "pageId": "timeline",
+          "alt": "Original illustration of a late-1990s instant-messaging buddy list with an away-message window.",
+          "line": 179
+        }
+      ],
+      "rightsStatus": "needs-review"
+    },
+    {
+      "id": "media-dccdc099cba81ae1",
+      "src": "/assets/media/transparent-tech/game-boy-color-purple.jpg",
+      "sha256": "9ef95a4061700d3a7cbedfd2d845f5a60f50b2fad3de04b6d32064dc9bfb3d51",
+      "bytes": 27193,
+      "attributionClaims": [
+        {
+          "artifactId": "game-boy-color",
+          "credit": "Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Game_Boy_Color_Purple.jpg",
+          "license": "CC BY-SA 3.0"
+        }
+      ],
+      "occurrences": [
+        {
+          "pageId": "timeline-1998",
+          "alt": "Atomic Purple Game Boy Color handheld in translucent purple plastic, showing how 1998 made even portable game hardware part of the look.",
+          "line": 108
+        },
+        {
+          "pageId": "timeline-1998",
+          "alt": "Atomic Purple Game Boy Color with a translucent shell.",
+          "line": 374
+        },
+        {
+          "pageId": "zones-tech-toys",
+          "alt": "Atomic Purple Game Boy Color handheld previewing the clear-shell design trend page.",
+          "line": 219
+        },
+        {
+          "pageId": "zones-transparent-tech",
+          "alt": "Atomic Purple Game Boy Color handheld standing upright with its translucent purple plastic shell visible.",
+          "line": 116
+        },
+        {
+          "pageId": "zones-transparent-tech",
+          "alt": "Atomic Purple Game Boy Color with a translucent shell.",
+          "line": 295
+        }
+      ],
+      "rightsStatus": "recorded-unverified"
+    },
+    {
+      "id": "media-e3ceb57f48f00d3f",
+      "src": "/assets/media/transparent-tech/imac-g3-bondi-blue.png",
+      "sha256": "35d5e2a6c6f5251b892c42bb193764e7cb074ad113bf7403824792741af913fe",
+      "bytes": 681868,
+      "attributionClaims": [
+        {
+          "artifactId": "bondi-imac",
+          "credit": "Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:IMac_G3_Bondi_Blue,_three-quarters_view.png",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "occurrences": [
+        {
+          "pageId": "timeline",
+          "alt": "Bondi blue translucent iMac, a symbol of late-decade colorful technology.",
+          "line": 69
+        },
+        {
+          "pageId": "timeline",
+          "alt": "Bondi blue iMac G3 with rounded translucent shell.",
+          "line": 194
+        },
+        {
+          "pageId": "timeline-1998",
+          "alt": "Bondi blue iMac G3 with a rounded translucent shell, representing the moment 1998 made the family computer look friendly and decorative.",
+          "line": 99
+        },
+        {
+          "pageId": "timeline-1998",
+          "alt": "Bondi blue iMac G3 with rounded translucent shell.",
+          "line": 357
+        },
+        {
+          "pageId": "tour-before-the-feed",
+          "alt": "Bondi blue iMac G3 with rounded translucent shell.",
+          "line": 298
+        },
+        {
+          "pageId": "zones-tech-toys",
+          "alt": "Bondi blue iMac G3 with a translucent blue shell previewing the dedicated Transparent Tech room.",
+          "line": 210
+        },
+        {
+          "pageId": "zones-transparent-tech",
+          "alt": "Bondi blue iMac G3 with a translucent shell and rounded CRT body, photographed at a three-quarter angle.",
+          "line": 107
+        },
+        {
+          "pageId": "zones-transparent-tech",
+          "alt": "Bondi blue iMac G3 with rounded translucent shell.",
+          "line": 278
+        }
+      ],
+      "rightsStatus": "recorded-unverified"
+    },
+    {
+      "id": "media-5e295d62c6dcb1d6",
+      "src": "/assets/media/transparent-tech/imac-g3-color-carousel.gif",
+      "sha256": "d40ac93b1124f2d4fc100f95f83872c1981d75a66e7868290a3770faad983f83",
+      "bytes": 1648734,
+      "attributionClaims": [],
+      "occurrences": [
+        {
+          "pageId": "timeline-1998",
+          "alt": "Animated lineup of colorful translucent iMac G3 models, showing that 1998 hardware suddenly behaved like a palette instead of a beige appliance.",
+          "line": 117
+        },
+        {
+          "pageId": "zones-transparent-tech",
+          "alt": "Animated lineup of iMac G3 color variants rotating like a showroom carousel.",
+          "line": 146
+        }
+      ],
+      "rightsStatus": "needs-review"
+    },
+    {
+      "id": "media-a3096b0cff0526eb",
+      "src": "/assets/media/transparent-tech/n64-controller-purple.jpg",
+      "sha256": "7416386129633d401451197d527318b23fad05d03650dbfc0d7a107ea4caf950",
+      "bytes": 299323,
+      "attributionClaims": [
+        {
+          "artifactId": "transparent-n64-controller",
+          "credit": "mboverload, Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:N64-controller-purple.jpg",
+          "license": "Public domain"
+        }
+      ],
+      "occurrences": [
+        {
+          "pageId": "zones-transparent-tech",
+          "alt": "A translucent purple Nintendo 64 controller photographed from above, showing the three-prong shell and analog stick.",
+          "line": 125
+        },
+        {
+          "pageId": "zones-transparent-tech",
+          "alt": "Translucent purple Nintendo 64 controller viewed from above.",
+          "line": 312
+        }
+      ],
+      "rightsStatus": "recorded-unverified"
+    },
+    {
+      "id": "media-ebaa66bac9850c85",
+      "src": "/assets/media/transparent-tech/transparent-digifon-phone.jpg",
+      "sha256": "4e67f453ca64996731ff5bd528bf99f5eb350a97312a04191cf8e415d12c4b70",
+      "bytes": 225601,
+      "attributionClaims": [],
+      "occurrences": [
+        {
+          "pageId": "zones-transparent-tech",
+          "alt": "A transparent desk phone with visible internal components and clear casing, photographed at an angle in a museum setting.",
+          "line": 134
+        }
+      ],
+      "rightsStatus": "needs-review"
+    },
+    {
+      "id": "media-8d992dad4ca6b0a5",
+      "src": "/assets/media/tv-movies/1990s-television-set.jpg",
+      "sha256": "f32d1683e51bdf6780ba1fd9e97d21f07b82c7312112ce90c4fc9739a45f8c21",
+      "bytes": 29806,
+      "attributionClaims": [
+        {
+          "artifactId": "crt-television",
+          "credit": "Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:1990s_Television_Set.jpg",
+          "license": "CC BY 4.0"
+        }
+      ],
+      "occurrences": [
+        {
+          "pageId": "timeline",
+          "alt": "A 1990s television set, the living-room screen of the early decade.",
+          "line": 67
+        },
+        {
+          "pageId": "timeline-1991",
+          "alt": "A chunky 1990s CRT television set photographed front-on with built-in speakers and a curved glass screen.",
+          "line": 109
+        },
+        {
+          "pageId": "timeline-1994",
+          "alt": "A chunky 1990s CRT television set photographed front-on with built-in speakers and a curved glass screen.",
+          "line": 100
+        },
+        {
+          "pageId": "zones-tv-movies",
+          "alt": "A chunky 1990s CRT television set photographed front-on with built-in speakers and a curved glass screen.",
+          "line": 107
+        },
+        {
+          "pageId": "zones-tv-movies",
+          "alt": "Chunky 1990s CRT television with curved glass and built-in speakers.",
+          "line": 309
+        }
+      ],
+      "rightsStatus": "recorded-unverified"
+    },
+    {
+      "id": "media-86521951eff068e2",
+      "src": "/assets/media/tv-movies/blockbuster-storefront.jpg",
+      "sha256": "86acd674e44abbfd044793278bafee67629ad37a3f8c3ed49f17dc98da7bde2d",
+      "bytes": 504359,
+      "attributionClaims": [
+        {
+          "artifactId": "blockbuster-store",
+          "credit": "Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anchorage_Blockbuster_video_store_(41894012562).jpg",
+          "license": "CC BY 2.0"
+        }
+      ],
+      "occurrences": [
+        {
+          "pageId": "timeline-1997",
+          "alt": "A Blockbuster Video storefront at dusk, representing the Friday-night rental glow behind Titanic and Men in Black era screen culture.",
+          "line": 112
+        },
+        {
+          "pageId": "zones-tv-movies",
+          "alt": "A Blockbuster Video storefront at dusk with the large blue-and-yellow sign glowing above the entrance.",
+          "line": 125
+        },
+        {
+          "pageId": "zones-tv-movies",
+          "alt": "Blockbuster Video storefront at dusk with its blue-and-yellow sign lit.",
+          "line": 326
+        }
+      ],
+      "rightsStatus": "recorded-unverified"
+    },
+    {
+      "id": "media-66d0d8d1c1cfcfe6",
+      "src": "/assets/media/tv-movies/vhs-videocassette-front.jpg",
+      "sha256": "d5b6eb59353c3eec5f84c98296b2fbac5a1593430f8fcb5f6c534c7fdf27937b",
+      "bytes": 155315,
+      "attributionClaims": [
+        {
+          "artifactId": "vhs-tape",
+          "credit": "Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:VHS_videocassette_-_front.jpg",
+          "license": "CC BY-SA 4.0"
+        }
+      ],
+      "occurrences": [
+        {
+          "pageId": "timeline-1990",
+          "alt": "A black VHS videocassette photographed from the front, with its label area and clear reel windows visible.",
+          "line": 121
+        },
+        {
+          "pageId": "timeline-1993",
+          "alt": "A black VHS videocassette photographed from the front with clear reel windows and a blank label area visible.",
+          "line": 127
+        },
+        {
+          "pageId": "timeline-1996",
+          "alt": "A black VHS videocassette photographed from the front, with its label area and clear reel windows visible.",
+          "line": 109
+        },
+        {
+          "pageId": "timeline-1996",
+          "alt": "Black VHS cassette with clear reel windows and blank label area.",
+          "line": 430
+        },
+        {
+          "pageId": "zones-tv-movies",
+          "alt": "A black VHS videocassette photographed from the front, with its label area and clear reel windows visible.",
+          "line": 116
+        },
+        {
+          "pageId": "zones-tv-movies",
+          "alt": "Black VHS cassette with clear reel windows and blank label area.",
+          "line": 292
+        }
+      ],
+      "rightsStatus": "recorded-unverified"
+    }
+  ]
+}

@@ -1,0 +1,4237 @@
+{
+  "schemaVersion": 1,
+  "kind": "months",
+  "records": [
+    {
+      "id": "month-1990-01",
+      "kind": "monthly-context",
+      "year": 1990,
+      "month": 1,
+      "datePrecision": "month",
+      "title": "Old mood, new decade",
+      "paragraphs": [
+        "Glossy radio, mall walking, arcade noise, and VHS routines still feel like the default setting even as everyone starts saying “the 90s” out loud for the first time."
+      ],
+      "links": [
+        {
+          "label": "music room",
+          "href": "/zones/music/#showroom"
+        },
+        {
+          "label": "screen room",
+          "href": "/zones/tv-movies/#photo-showroom"
+        }
+      ],
+      "sourceIds": [],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1990/#month-jan",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1990.html.txt",
+        "start": 19476,
+        "end": 19895,
+        "lineStart": 199,
+        "lineEnd": 199,
+        "sha256": "c99c2f88aceb3500b0a19997ad530adf0e88e2eace562b3c1836e48eb8ce0bcc"
+      }
+    },
+    {
+      "id": "month-1990-02",
+      "kind": "monthly-context",
+      "year": 1990,
+      "month": 2,
+      "datePrecision": "month",
+      "title": "Mandela walks free",
+      "paragraphs": [
+        "Nelson Mandela’s release becomes one of the decade’s first unforgettable global images and immediately makes 1990 feel historically larger than mall-culture memory alone."
+      ],
+      "links": [
+        {
+          "label": "Mandela released ↗",
+          "href": "https://en.wikipedia.org/wiki/Release_of_Nelson_Mandela"
+        },
+        {
+          "label": "why this year matters",
+          "href": "#why"
+        }
+      ],
+      "sourceIds": [
+        "source-0d8d4401def9bbab"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1990/#month-feb",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1990.html.txt",
+        "start": 19896,
+        "end": 20384,
+        "lineStart": 200,
+        "lineEnd": 200,
+        "sha256": "9b44040dfa2583e21c9968b11aa92bf7b296ce47f86b5a02972ba7c408d94eef"
+      }
+    },
+    {
+      "id": "month-1990-03",
+      "kind": "monthly-context",
+      "year": 1990,
+      "month": 3,
+      "datePrecision": "month",
+      "title": "The web is still invisible",
+      "paragraphs": [
+        "Linked-information ideas keep moving at CERN, but almost nobody living the year would feel that shift yet. That hiddenness is part of the point."
+      ],
+      "links": [
+        {
+          "label": "Tim Berners-Lee ↗",
+          "href": "https://en.wikipedia.org/wiki/Tim_Berners-Lee"
+        },
+        {
+          "label": "internet-culture atlas",
+          "href": "/zones/internet-culture/#artifact-atlas"
+        }
+      ],
+      "sourceIds": [
+        "source-614dc21d6a18d596"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1990/#month-mar",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1990.html.txt",
+        "start": 20385,
+        "end": 20880,
+        "lineStart": 201,
+        "lineEnd": 201,
+        "sha256": "d464a2d07204051f4b3e413b81bb6c147277b3072b258317e04272f0a6123f90"
+      }
+    },
+    {
+      "id": "month-1990-04",
+      "kind": "monthly-context",
+      "year": 1990,
+      "month": 4,
+      "datePrecision": "month",
+      "title": "TV gets stranger while Hubble leaves the planet",
+      "paragraphs": [
+        "Twin Peaks premieres in April and Hubble launches later that month, which is a perfect 1990 pairing: one weirdly intimate and one cosmic, both clearly unlike the decade before."
+      ],
+      "links": [
+        {
+          "label": "Twin Peaks ↗",
+          "href": "https://en.wikipedia.org/wiki/Twin_Peaks"
+        },
+        {
+          "label": "Hubble ↗",
+          "href": "https://en.wikipedia.org/wiki/Hubble_Space_Telescope"
+        }
+      ],
+      "sourceIds": [
+        "source-4a2ffd0e4102a401",
+        "source-65a471aac559ce78"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1990/#month-apr",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1990.html.txt",
+        "start": 20881,
+        "end": 21467,
+        "lineStart": 202,
+        "lineEnd": 202,
+        "sha256": "554c84bb82a79912507fcfb708fc7ad9d480df9547cbefbeab61018d824d653a"
+      }
+    },
+    {
+      "id": "month-1990-05",
+      "kind": "monthly-context",
+      "year": 1990,
+      "month": 5,
+      "datePrecision": "month",
+      "title": "PCs get friendlier",
+      "paragraphs": [
+        "Windows 3.0 makes graphical computing feel more approachable, and the family computer starts inching away from office-furniture energy toward something closer to domestic curiosity."
+      ],
+      "links": [
+        {
+          "label": "Windows 3.0 ↗",
+          "href": "https://en.wikipedia.org/wiki/Windows_3.0"
+        },
+        {
+          "label": "tech / toys room",
+          "href": "/zones/tech-toys/#photo-showroom"
+        }
+      ],
+      "sourceIds": [
+        "source-98f650a51851393f"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1990/#month-may",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1990.html.txt",
+        "start": 21468,
+        "end": 21971,
+        "lineStart": 203,
+        "lineEnd": 203,
+        "sha256": "4f614b786727a3da7fc42a4b3144ef0144d7677cedfc9c25f4027306717e3944"
+      }
+    },
+    {
+      "id": "month-1990-06",
+      "kind": "monthly-context",
+      "year": 1990,
+      "month": 6,
+      "datePrecision": "month",
+      "title": "Summer future shock",
+      "paragraphs": [
+        "Total Recall brings loud sci-fi spectacle to multiplexes while the rest of the culture still hangs onto cassettes, TV blocks, and mall-center normalcy."
+      ],
+      "links": [
+        {
+          "label": "Total Recall ↗",
+          "href": "https://en.wikipedia.org/wiki/Total_Recall_(1990_film)"
+        },
+        {
+          "label": "movie trails",
+          "href": "/zones/tv-movies/"
+        }
+      ],
+      "sourceIds": [
+        "source-c43d986ec9d70ba9"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1990/#month-jun",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1990.html.txt",
+        "start": 21972,
+        "end": 22448,
+        "lineStart": 204,
+        "lineEnd": 204,
+        "sha256": "9a789cb0b223250da32adc5fc387d2aaee924ff0b985aa73db60f3ca0cbe58c2"
+      }
+    },
+    {
+      "id": "month-1990-07",
+      "kind": "monthly-context",
+      "year": 1990,
+      "month": 7,
+      "datePrecision": "month",
+      "title": "Blockbuster sincerity",
+      "paragraphs": [
+        "Ghost turns romance, grief, and pottery-wheel imagery into shared movie memory, the kind of VHS-era hit that ends up quoted in living rooms for months."
+      ],
+      "links": [
+        {
+          "label": "Ghost ↗",
+          "href": "https://en.wikipedia.org/wiki/Ghost_(1990_film)"
+        },
+        {
+          "label": "VHS route",
+          "href": "/zones/tv-movies/#photo-showroom"
+        }
+      ],
+      "sourceIds": [
+        "source-76e3f9f889a37f30"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1990/#month-jul",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1990.html.txt",
+        "start": 22449,
+        "end": 22925,
+        "lineStart": 205,
+        "lineEnd": 205,
+        "sha256": "4988383b7cf27b3943e7280569b04d79ca8b7dcff137ca596f5519ca71b83a21"
+      }
+    },
+    {
+      "id": "month-1990-08",
+      "kind": "monthly-context",
+      "year": 1990,
+      "month": 8,
+      "datePrecision": "month",
+      "title": "The room still feels normal while the wider world sharpens",
+      "paragraphs": [
+        "Radio, MTV, magazines, and rental aisles still decide what most people find, but Iraq's invasion of Kuwait gives late 1990 a harder geopolitical edge behind the same familiar household rhythms."
+      ],
+      "links": [
+        {
+          "label": "Kuwait crisis ↗",
+          "href": "https://en.wikipedia.org/wiki/Invasion_of_Kuwait"
+        },
+        {
+          "label": "VHS object search",
+          "href": "/search/?filter=objects&q=VHS"
+        }
+      ],
+      "sourceIds": [
+        "source-6cd98ab2dfd09f62"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1990/#month-aug",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1990.html.txt",
+        "start": 22926,
+        "end": 23488,
+        "lineStart": 206,
+        "lineEnd": 206,
+        "sha256": "3be751f255c8ad09332020d3f01bb88d7bbf9b0f37b945bc077cd23082481478"
+      }
+    },
+    {
+      "id": "month-1990-09",
+      "kind": "monthly-context",
+      "year": 1990,
+      "month": 9,
+      "datePrecision": "month",
+      "title": "Sitcom swagger meets gangster cool",
+      "paragraphs": [
+        "The Fresh Prince of Bel-Air arrives, while Goodfellas sharpens grown-up movie conversation. The year keeps bouncing between bright TV confidence and harder-edged adult style."
+      ],
+      "links": [
+        {
+          "label": "Fresh Prince ↗",
+          "href": "https://en.wikipedia.org/wiki/The_Fresh_Prince_of_Bel-Air"
+        },
+        {
+          "label": "Goodfellas ↗",
+          "href": "https://en.wikipedia.org/wiki/Goodfellas"
+        }
+      ],
+      "sourceIds": [
+        "source-3907a4a3ddd24be0",
+        "source-b3db56adf4361d4a"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1990/#month-sep",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1990.html.txt",
+        "start": 23489,
+        "end": 24078,
+        "lineStart": 207,
+        "lineEnd": 207,
+        "sha256": "275a2cca92e0b3ac62dee304fec2f8a9a7c8e45566d6836545f115e0ed8cb3ed"
+      }
+    },
+    {
+      "id": "month-1990-10",
+      "kind": "monthly-context",
+      "year": 1990,
+      "month": 10,
+      "datePrecision": "month",
+      "title": "Europe redraws itself",
+      "paragraphs": [
+        "German reunification becomes official and helps set the larger post-Cold War backdrop behind the era’s domestic media memories."
+      ],
+      "links": [
+        {
+          "label": "German reunification ↗",
+          "href": "https://en.wikipedia.org/wiki/German_reunification"
+        },
+        {
+          "label": "context ↗",
+          "href": "#why"
+        }
+      ],
+      "sourceIds": [
+        "source-523596b25375228e"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1990/#month-oct",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1990.html.txt",
+        "start": 24079,
+        "end": 24514,
+        "lineStart": 208,
+        "lineEnd": 208,
+        "sha256": "13d17862c81f9574979010c604c44870267330e82611665a376d51b5bf12dea6"
+      }
+    },
+    {
+      "id": "month-1990-11",
+      "kind": "monthly-context",
+      "year": 1990,
+      "month": 11,
+      "datePrecision": "month",
+      "title": "16-bit runway opens",
+      "paragraphs": [
+        "Super Famicom launches in Japan and home-console identity starts shifting harder toward sharper color, faster mascots, and new bragging rights."
+      ],
+      "links": [
+        {
+          "label": "SNES / Super Famicom ↗",
+          "href": "https://en.wikipedia.org/wiki/Super_Nintendo_Entertainment_System"
+        },
+        {
+          "label": "games room",
+          "href": "/zones/games/#photo-showroom"
+        }
+      ],
+      "sourceIds": [
+        "source-329fe206c4f45b34"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1990/#month-nov",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1990.html.txt",
+        "start": 24515,
+        "end": 25004,
+        "lineStart": 209,
+        "lineEnd": 209,
+        "sha256": "f7df678445bffc2d3459b310f498623046924da3c9cdce2393810583e550a126"
+      }
+    },
+    {
+      "id": "month-1990-12",
+      "kind": "monthly-context",
+      "year": 1990,
+      "month": 12,
+      "datePrecision": "month",
+      "title": "The wiring is in place",
+      "paragraphs": [
+        "The web’s core pieces, 16-bit momentum, stranger TV taste, and friendlier desktop software are all queued for the sharper early-90s years right after this."
+      ],
+      "links": [
+        {
+          "label": "Open 1991 next →",
+          "href": "/timeline/1991/#photo-showroom"
+        },
+        {
+          "label": "Jump to 1992 →",
+          "href": "/timeline/1992/#photo-showroom"
+        }
+      ],
+      "sourceIds": [],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1990/#month-dec",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1990.html.txt",
+        "start": 25005,
+        "end": 25432,
+        "lineStart": 210,
+        "lineEnd": 210,
+        "sha256": "978f02f0938344b3cd93a6c4425b617474cd95d65df9425d64999d5404697636"
+      }
+    },
+    {
+      "id": "month-1991-01",
+      "kind": "monthly-context",
+      "year": 1991,
+      "month": 1,
+      "datePrecision": "month",
+      "title": "CNN-war glow and the last polished pre-breakthrough mood",
+      "paragraphs": [
+        "The year opens with Gulf War news saturation, glossy adult-pop radio, and household TV culture still acting like one giant synchronized room."
+      ],
+      "links": [
+        {
+          "label": "Gulf War ↗",
+          "href": "https://en.wikipedia.org/wiki/Gulf_War"
+        },
+        {
+          "label": "TV / Movies room",
+          "href": "/zones/tv-movies/"
+        }
+      ],
+      "sourceIds": [
+        "source-86585b180b458a6f"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1991/#month-jan",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1991.html.txt",
+        "start": 18759,
+        "end": 19239,
+        "lineStart": 197,
+        "lineEnd": 197,
+        "sha256": "025abb8df9f79b6827368baeb3d9ca4dec465ef752a94a977fe5f3e5c78590e4"
+      }
+    },
+    {
+      "id": "month-1991-02",
+      "kind": "monthly-context",
+      "year": 1991,
+      "month": 2,
+      "datePrecision": "month",
+      "title": "Silence of the Lambs makes prestige creep into pop talk",
+      "paragraphs": [
+        "The Silence of the Lambs hits theaters in February and becomes the kind of movie people reference even when the rest of the room is still running on sitcoms, cartoons, and mall soundtracks."
+      ],
+      "links": [
+        {
+          "label": "Silence of the Lambs ↗",
+          "href": "https://en.wikipedia.org/wiki/The_Silence_of_the_Lambs_(film)"
+        },
+        {
+          "label": "screen room",
+          "href": "/zones/tv-movies/"
+        }
+      ],
+      "sourceIds": [
+        "source-f2f326bf39fd6ea6"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1991/#month-feb",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1991.html.txt",
+        "start": 19250,
+        "end": 19814,
+        "lineStart": 198,
+        "lineEnd": 198,
+        "sha256": "91911544415333412a4adc6ed0e12d5065c9592ec97bd5f7851c2ecc29ab106f"
+      }
+    },
+    {
+      "id": "month-1991-03",
+      "kind": "monthly-context",
+      "year": 1991,
+      "month": 3,
+      "datePrecision": "month",
+      "title": "Arcade rumor culture turns technical",
+      "paragraphs": [
+        "Fighting-game talk gets stickier: move lists, cabinet crowds, and the feeling that arcade skill is becoming a real identity lane instead of a side hobby."
+      ],
+      "links": [
+        {
+          "label": "Street Fighter II ↗",
+          "href": "https://en.wikipedia.org/wiki/Street_Fighter_II"
+        },
+        {
+          "label": "games route",
+          "href": "/zones/games/#photo-showroom"
+        }
+      ],
+      "sourceIds": [
+        "source-9697ce1ff8571521"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1991/#month-mar",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1991.html.txt",
+        "start": 19825,
+        "end": 20321,
+        "lineStart": 199,
+        "lineEnd": 199,
+        "sha256": "f756ee75dfd5d2e6d6d1d960c1aecd6ce40d5360ee28be4658f918f5687486c6"
+      }
+    },
+    {
+      "id": "month-1991-04",
+      "kind": "monthly-context",
+      "year": 1991,
+      "month": 4,
+      "datePrecision": "month",
+      "title": "The hallway soundtrack gets rougher",
+      "paragraphs": [
+        "Alternative rock, hip-hop, and DIY-feeling scenes keep pushing against the polished radio center, even before the biggest crossover moments hit in the fall."
+      ],
+      "links": [
+        {
+          "label": "alternative rock ↗",
+          "href": "https://en.wikipedia.org/wiki/Alternative_rock"
+        },
+        {
+          "label": "music room",
+          "href": "/zones/music/"
+        }
+      ],
+      "sourceIds": [
+        "source-2cb8be7f5ab74bc7"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1991/#month-apr",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1991.html.txt",
+        "start": 20332,
+        "end": 20812,
+        "lineStart": 200,
+        "lineEnd": 200,
+        "sha256": "2a7e39b0ab7cd5a2730ae1635eff39b6fd85e68bd849155c6f115507117c3ba9"
+      }
+    },
+    {
+      "id": "month-1991-05",
+      "kind": "monthly-context",
+      "year": 1991,
+      "month": 5,
+      "datePrecision": "month",
+      "title": "Summer trailers promise metal, speed, and bigger spectacle",
+      "paragraphs": [
+        "The buildup to blockbuster season makes the year feel louder: heavier marketing, more aggressive poster energy, and a stronger sense that pop culture is about events."
+      ],
+      "links": [
+        {
+          "label": "Terminator 2 ↗",
+          "href": "https://en.wikipedia.org/wiki/Terminator_2:_Judgment_Day"
+        },
+        {
+          "label": "movie trails",
+          "href": "/zones/tv-movies/"
+        }
+      ],
+      "sourceIds": [
+        "source-cd39da8ea43443ab"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1991/#month-may",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1991.html.txt",
+        "start": 20823,
+        "end": 21348,
+        "lineStart": 201,
+        "lineEnd": 201,
+        "sha256": "8a55c77bcca6d984495342264adb384fced3b885bad57edc96e8b56ec8139ed0"
+      }
+    },
+    {
+      "id": "month-1991-06",
+      "kind": "monthly-context",
+      "year": 1991,
+      "month": 6,
+      "datePrecision": "month",
+      "title": "Sonic gives Sega a cleaner identity",
+      "paragraphs": [
+        "Sonic the Hedgehog arrives in North America in June and turns mascot speed into a real mood: brighter, faster, and easier to rally around than generic console branding."
+      ],
+      "links": [
+        {
+          "label": "Sonic the Hedgehog",
+          "href": "https://en.wikipedia.org/wiki/Sonic_the_Hedgehog_(1991_video_game)"
+        },
+        {
+          "label": "Sonic ↗",
+          "href": "https://en.wikipedia.org/wiki/Sonic_the_Hedgehog_(1991_video_game)"
+        },
+        {
+          "label": "games room",
+          "href": "/zones/games/"
+        }
+      ],
+      "sourceIds": [
+        "source-2777e8a194e13e1e"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1991/#month-jun",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1991.html.txt",
+        "start": 21359,
+        "end": 21983,
+        "lineStart": 202,
+        "lineEnd": 202,
+        "sha256": "d2783ebe65ebc18b098bdc01c27937d2f6accf4f824640540fcf27ee1db2b549"
+      }
+    },
+    {
+      "id": "month-1991-07",
+      "kind": "monthly-context",
+      "year": 1991,
+      "month": 7,
+      "datePrecision": "month",
+      "title": "Lollapalooza and Terminator 2 make summer feel like a fork in the road",
+      "paragraphs": [
+        "Terminator 2 dominates multiplex conversation while Lollapalooza starts proving alternative culture can travel like a real national event."
+      ],
+      "links": [
+        {
+          "label": "Lollapalooza",
+          "href": "https://en.wikipedia.org/wiki/Lollapalooza"
+        },
+        {
+          "label": "Lollapalooza ↗",
+          "href": "https://en.wikipedia.org/wiki/Lollapalooza"
+        },
+        {
+          "label": "T2 ↗",
+          "href": "https://en.wikipedia.org/wiki/Terminator_2:_Judgment_Day"
+        }
+      ],
+      "sourceIds": [
+        "source-9731b8725bda73e6",
+        "source-cd39da8ea43443ab"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1991/#month-jul",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1991.html.txt",
+        "start": 21994,
+        "end": 22668,
+        "lineStart": 203,
+        "lineEnd": 203,
+        "sha256": "dbdf751992d9d3e705cc37d09d95c848dfaf64ed7b0c7d7c816396017e279bc0"
+      }
+    },
+    {
+      "id": "month-1991-08",
+      "kind": "monthly-context",
+      "year": 1991,
+      "month": 8,
+      "datePrecision": "month",
+      "title": "Nicktoons, the first website, and the SNES all hit the same transition month",
+      "paragraphs": [
+        "August 1991 quietly looks like the future arriving from three directions at once: Nicktoons begins, the first website goes public, and the SNES launches in North America."
+      ],
+      "links": [
+        {
+          "label": "Nicktoons",
+          "href": "https://en.wikipedia.org/wiki/Nicktoons"
+        },
+        {
+          "label": "first website",
+          "href": "https://en.wikipedia.org/wiki/World_Wide_Web#History"
+        },
+        {
+          "label": "SNES launches in North America",
+          "href": "https://en.wikipedia.org/wiki/Super_Nintendo_Entertainment_System#North_America"
+        },
+        {
+          "label": "Nicktoons ↗",
+          "href": "https://en.wikipedia.org/wiki/Nicktoons"
+        },
+        {
+          "label": "CERN / first website ↗",
+          "href": "https://info.cern.ch/"
+        }
+      ],
+      "sourceIds": [
+        "source-39613bba311611d1",
+        "source-54cb8d7e90dafc1a",
+        "source-879bfb14adacea34",
+        "source-a377f8d5dee23dd3"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1991/#month-aug",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1991.html.txt",
+        "start": 22679,
+        "end": 23603,
+        "lineStart": 204,
+        "lineEnd": 204,
+        "sha256": "a76c5b4904ed2ced2eeda277966a12fedd71809d7aaa61eea10ee1d55c888dcd"
+      }
+    },
+    {
+      "id": "month-1991-09",
+      "kind": "monthly-context",
+      "year": 1991,
+      "month": 9,
+      "datePrecision": "month",
+      "title": "Nevermind turns the hallway inside out",
+      "paragraphs": [
+        "Nevermind lands in late September and becomes the kind of album that changes clothes, hair, posters, guitar-store chatter, and what “cool” sounds like almost immediately."
+      ],
+      "links": [
+        {
+          "label": "Nevermind ↗",
+          "href": "https://en.wikipedia.org/wiki/Nevermind"
+        },
+        {
+          "label": "1991 charts",
+          "href": "#top-songs"
+        }
+      ],
+      "sourceIds": [
+        "source-26768ce81bab73a3"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1991/#month-sep",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1991.html.txt",
+        "start": 23614,
+        "end": 24102,
+        "lineStart": 205,
+        "lineEnd": 205,
+        "sha256": "403586166f318acb1a8f84c5f7acb134cc0a9f0731b71de7cf560486515a62b7"
+      }
+    },
+    {
+      "id": "month-1991-10",
+      "kind": "monthly-context",
+      "year": 1991,
+      "month": 10,
+      "datePrecision": "month",
+      "title": "The weirdness no longer feels niche",
+      "paragraphs": [
+        "By October, darker alt culture, horror energy, arcade competition, and rougher guitar textures all feel less like subculture leaks and more like the decade choosing a direction."
+      ],
+      "links": [
+        {
+          "label": "grunge ↗",
+          "href": "https://en.wikipedia.org/wiki/Grunge"
+        },
+        {
+          "label": "arcade search",
+          "href": "/search/?q=arcade"
+        }
+      ],
+      "sourceIds": [
+        "source-66cb068bec36f221"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1991/#month-oct",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1991.html.txt",
+        "start": 24113,
+        "end": 24601,
+        "lineStart": 206,
+        "lineEnd": 206,
+        "sha256": "9867ffe1c7fa9a627c1e16bc2325ad2135dca9378eb5cf4662b4df7602399f3c"
+      }
+    },
+    {
+      "id": "month-1991-11",
+      "kind": "monthly-context",
+      "year": 1991,
+      "month": 11,
+      "datePrecision": "month",
+      "title": "Beauty and the Beast proves the family-movie lane still rules",
+      "paragraphs": [
+        "Beauty and the Beast hits in November and reminds you that 1991 is not one-note rebellion — the decade still supports giant shared family-viewing events too."
+      ],
+      "links": [
+        {
+          "label": "Beauty and the Beast ↗",
+          "href": "https://en.wikipedia.org/wiki/Beauty_and_the_Beast_(1991_film)"
+        },
+        {
+          "label": "screen room",
+          "href": "/zones/tv-movies/"
+        }
+      ],
+      "sourceIds": [
+        "source-632653fe5f7f9ac0"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1991/#month-nov",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1991.html.txt",
+        "start": 24612,
+        "end": 25151,
+        "lineStart": 207,
+        "lineEnd": 207,
+        "sha256": "83eec3cf61030edcd16dfa80a7a462ea46ed2fe9e694900e236dab451f3006aa"
+      }
+    },
+    {
+      "id": "month-1991-12",
+      "kind": "monthly-context",
+      "year": 1991,
+      "month": 12,
+      "datePrecision": "month",
+      "title": "Linux and the post-Soviet world make the year feel newly open",
+      "paragraphs": [
+        "By year’s end, Linux has entered the picture and the Soviet Union dissolves, giving 1991 a broader “systems are changing” feeling far beyond nostalgia objects alone."
+      ],
+      "links": [
+        {
+          "label": "Linux",
+          "href": "https://en.wikipedia.org/wiki/Linux_kernel#History"
+        },
+        {
+          "label": "Soviet Union dissolves",
+          "href": "https://en.wikipedia.org/wiki/Dissolution_of_the_Soviet_Union"
+        },
+        {
+          "label": "Linux ↗",
+          "href": "https://en.wikipedia.org/wiki/Linux_kernel#History"
+        },
+        {
+          "label": "USSR end ↗",
+          "href": "https://en.wikipedia.org/wiki/Dissolution_of_the_Soviet_Union"
+        }
+      ],
+      "sourceIds": [
+        "source-8889d5261bd74217",
+        "source-db43c7a59041e002"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1991/#month-dec",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1991.html.txt",
+        "start": 25162,
+        "end": 25985,
+        "lineStart": 208,
+        "lineEnd": 208,
+        "sha256": "dcf86d262d00ee0aa25dc656d68fd0681d4539af679f16f78ed3cd8a67d95483"
+      }
+    },
+    {
+      "id": "month-1992-01",
+      "kind": "monthly-context",
+      "year": 1992,
+      "month": 1,
+      "datePrecision": "month",
+      "title": "Wayne’s World and VHS quote culture",
+      "paragraphs": [
+        "Wayne’s World lands in theaters and instantly becomes the kind of comedy people re-enact at lunch tables, in mall parking lots, and later on dubbed VHS copies."
+      ],
+      "links": [
+        {
+          "label": "Wayne’s World ↗",
+          "href": "https://en.wikipedia.org/wiki/Wayne%27s_World_(film)"
+        },
+        {
+          "label": "TV / Movies room",
+          "href": "/zones/tv-movies/"
+        }
+      ],
+      "sourceIds": [
+        "source-721d1ba3afae9859"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1992/#month-jan",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1992.html.txt",
+        "start": 14546,
+        "end": 15049,
+        "lineStart": 162,
+        "lineEnd": 162,
+        "sha256": "32f3bac24dab9e180176d017fb03c7e0d2a2ae0e3448f6026ac2805fa34cd9d0"
+      }
+    },
+    {
+      "id": "month-1992-02",
+      "kind": "monthly-context",
+      "year": 1992,
+      "month": 2,
+      "datePrecision": "month",
+      "title": "Mall-rap and radio hooks sync up",
+      "paragraphs": [
+        "Kris Kross’ Jump turns playground style into chart power while glossy R&B and pop still dominate the same radio universe."
+      ],
+      "links": [
+        {
+          "label": "Kris Kross ↗",
+          "href": "https://en.wikipedia.org/wiki/Jump_(Kris_Kross_song)"
+        },
+        {
+          "label": "1992 chart module",
+          "href": "#top-songs"
+        }
+      ],
+      "sourceIds": [
+        "source-0b058d408493b196"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1992/#month-feb",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1992.html.txt",
+        "start": 15060,
+        "end": 15517,
+        "lineStart": 163,
+        "lineEnd": 163,
+        "sha256": "ec9ec4c12d6e6db21b9000837c947060351d95b45f79f7b29dfc7681d97eca17"
+      }
+    },
+    {
+      "id": "month-1992-03",
+      "kind": "monthly-context",
+      "year": 1992,
+      "month": 3,
+      "datePrecision": "month",
+      "title": "Kid TV gets stranger and better dressed",
+      "paragraphs": [
+        "Nickelodeon and Fox Kids are already building the after-school mood board: louder colors, catchphrases, slime logic, and appointment-cartoon habits."
+      ],
+      "links": [
+        {
+          "label": "Fox Kids ↗",
+          "href": "https://en.wikipedia.org/wiki/Fox_Kids"
+        },
+        {
+          "label": "Channel-surf path",
+          "href": "/zones/tv-movies/"
+        }
+      ],
+      "sourceIds": [
+        "source-259f3f81780dee77"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1992/#month-mar",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1992.html.txt",
+        "start": 15528,
+        "end": 15999,
+        "lineStart": 164,
+        "lineEnd": 164,
+        "sha256": "aee4f8be8dcff797c4c0a1aa720d2f41ca0f1d25dc3eb7f82153699befcc6802"
+      }
+    },
+    {
+      "id": "month-1992-04",
+      "kind": "monthly-context",
+      "year": 1992,
+      "month": 4,
+      "datePrecision": "month",
+      "title": "Windows 3.1 makes beige PCs feel less scary",
+      "paragraphs": [
+        "Microsoft releases Windows 3.1 on April 6, pushing more homes, schools, and offices toward click-able computing instead of command-line mystique."
+      ],
+      "links": [
+        {
+          "label": "Windows 3.1",
+          "href": "https://en.wikipedia.org/wiki/Windows_3.1"
+        },
+        {
+          "label": "Windows 3.1 ↗",
+          "href": "https://en.wikipedia.org/wiki/Windows_3.1"
+        },
+        {
+          "label": "Tech / Toys shelf",
+          "href": "/zones/tech-toys/"
+        }
+      ],
+      "sourceIds": [
+        "source-1f5319096ffbb1fe"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1992/#month-apr",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1992.html.txt",
+        "start": 16010,
+        "end": 16586,
+        "lineStart": 165,
+        "lineEnd": 165,
+        "sha256": "52df58b6e3aba75b7783a3eb360924f3b686a3c1ac7e55c11807903c45dbe281"
+      }
+    },
+    {
+      "id": "month-1992-05",
+      "kind": "monthly-context",
+      "year": 1992,
+      "month": 5,
+      "datePrecision": "month",
+      "title": "Batman gets darker before school lets out",
+      "paragraphs": [
+        "Batman Returns gives 1992 blockbuster season a weird gothic edge, proving kid-facing franchises can also feel moody, merch-heavy, and a little unsettling."
+      ],
+      "links": [
+        {
+          "label": "Batman Returns ↗",
+          "href": "https://en.wikipedia.org/wiki/Batman_Returns"
+        },
+        {
+          "label": "Movie rabbit holes",
+          "href": "/zones/tv-movies/"
+        }
+      ],
+      "sourceIds": [
+        "source-d9e3b40f1e06446d"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1992/#month-may",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1992.html.txt",
+        "start": 16597,
+        "end": 17096,
+        "lineStart": 166,
+        "lineEnd": 166,
+        "sha256": "77abc363c1d08f3ce6710346be3d57e359d33774692a3b82d09cf97371e45936"
+      }
+    },
+    {
+      "id": "month-1992-06",
+      "kind": "monthly-context",
+      "year": 1992,
+      "month": 6,
+      "datePrecision": "month",
+      "title": "Summer turns into a toy-commercial marathon",
+      "paragraphs": [
+        "School is out, arcades and food courts get louder, and every trip to the mall feels like a crossover episode between shoe ads, game rumors, and soundtrack singles."
+      ],
+      "links": [
+        {
+          "label": "Mall culture ↗",
+          "href": "https://en.wikipedia.org/wiki/Mall"
+        },
+        {
+          "label": "Games shelf",
+          "href": "/zones/games/"
+        }
+      ],
+      "sourceIds": [
+        "source-fb83157582f46a43"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1992/#month-jun",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1992.html.txt",
+        "start": 17107,
+        "end": 17587,
+        "lineStart": 167,
+        "lineEnd": 167,
+        "sha256": "233c876d2bc15b7417449f80f6f902608f4bdfca313ef08aee8a879a4b63c0b6"
+      }
+    },
+    {
+      "id": "month-1992-07",
+      "kind": "monthly-context",
+      "year": 1992,
+      "month": 7,
+      "datePrecision": "month",
+      "title": "The Dream Team turns sports into pop spectacle",
+      "paragraphs": [
+        "Barcelona summer coverage makes the Dream Team feel like a cartoonishly stacked celebrity roster, not just a basketball team."
+      ],
+      "links": [
+        {
+          "label": "Dream Team",
+          "href": "https://en.wikipedia.org/wiki/1992_United_States_men%27s_Olympic_basketball_team"
+        },
+        {
+          "label": "1992 Olympics ↗",
+          "href": "https://en.wikipedia.org/wiki/1992_Summer_Olympics"
+        },
+        {
+          "label": "media shelf",
+          "href": "/webring/?filter=tv-music-media#directory"
+        }
+      ],
+      "sourceIds": [
+        "source-c6a3c75f4a912f6a",
+        "source-d993b622ff2a7d5a"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1992/#month-jul",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1992.html.txt",
+        "start": 17598,
+        "end": 18225,
+        "lineStart": 168,
+        "lineEnd": 168,
+        "sha256": "b6f3b00b49e2dfcc4ee07d153dc3ce3023452743bdd6df63bde118f29792f36c"
+      }
+    },
+    {
+      "id": "month-1992-08",
+      "kind": "monthly-context",
+      "year": 1992,
+      "month": 8,
+      "datePrecision": "month",
+      "title": "Saturday nights get a teen lane",
+      "paragraphs": [
+        "SNICK launches on August 15 and gives preteens a real Saturday-night block: spooky, goofy, social, and built for quoting at school on Monday."
+      ],
+      "links": [
+        {
+          "label": "SNICK",
+          "href": "https://en.wikipedia.org/wiki/SNICK"
+        },
+        {
+          "label": "SNICK ↗",
+          "href": "https://en.wikipedia.org/wiki/SNICK"
+        },
+        {
+          "label": "Leave a TV memory",
+          "href": "/guestbook/"
+        }
+      ],
+      "sourceIds": [
+        "source-cf369bb271bedb56"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1992/#month-aug",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1992.html.txt",
+        "start": 18236,
+        "end": 18772,
+        "lineStart": 169,
+        "lineEnd": 169,
+        "sha256": "902ab7a963c4283b9a35626876e44d120be7549ad3d67d9f59ea1503cdaf3d61"
+      }
+    },
+    {
+      "id": "month-1992-09",
+      "kind": "monthly-context",
+      "year": 1992,
+      "month": 9,
+      "datePrecision": "month",
+      "title": "Batman: The Animated Series arrives",
+      "paragraphs": [
+        "Batman: The Animated Series premieres on September 5 and immediately upgrades weekday animation with deco noir, orchestral drama, and serious-kid taste."
+      ],
+      "links": [
+        {
+          "label": "Batman: The Animated Series",
+          "href": "https://en.wikipedia.org/wiki/Batman:_The_Animated_Series"
+        },
+        {
+          "label": "Batman TAS ↗",
+          "href": "https://en.wikipedia.org/wiki/Batman:_The_Animated_Series"
+        },
+        {
+          "label": "TV / Movies room",
+          "href": "/zones/tv-movies/"
+        }
+      ],
+      "sourceIds": [
+        "source-e2702101ff6c7cc7"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1992/#month-sep",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1992.html.txt",
+        "start": 18783,
+        "end": 19388,
+        "lineStart": 170,
+        "lineEnd": 170,
+        "sha256": "48e120fa5af4d380af456b1a3a198d1ff8de2fa7b0496e4b2281a6e552a55241"
+      }
+    },
+    {
+      "id": "month-1992-10",
+      "kind": "monthly-context",
+      "year": 1992,
+      "month": 10,
+      "datePrecision": "month",
+      "title": "Cartoon Network and Mortal Kombat make the month feel loud",
+      "paragraphs": [
+        "Cartoon Network launches on October 1 while Mortal Kombat starts turning arcade violence into parent-news controversy. This is the most “1992” route on the page."
+      ],
+      "links": [
+        {
+          "label": "Cartoon Network",
+          "href": "https://en.wikipedia.org/wiki/Cartoon_Network"
+        },
+        {
+          "label": "Mortal Kombat",
+          "href": "https://en.wikipedia.org/wiki/Mortal_Kombat_(1992_video_game)"
+        },
+        {
+          "label": "Cartoon Network ↗",
+          "href": "https://en.wikipedia.org/wiki/Cartoon_Network"
+        },
+        {
+          "label": "Mortal Kombat ↗",
+          "href": "https://en.wikipedia.org/wiki/Mortal_Kombat_(1992_video_game)"
+        }
+      ],
+      "sourceIds": [
+        "source-5085287cae8317a0",
+        "source-84715f11f1807e2a"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1992/#month-oct",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1992.html.txt",
+        "start": 19399,
+        "end": 20220,
+        "lineStart": 171,
+        "lineEnd": 171,
+        "sha256": "05220d9b161b20fd3e08a195ea1508861ad38771ebf895f01190bc150ef947fd"
+      }
+    },
+    {
+      "id": "month-1992-11",
+      "kind": "monthly-context",
+      "year": 1992,
+      "month": 11,
+      "datePrecision": "month",
+      "title": "Disney event-movie season hits peak family rotation",
+      "paragraphs": [
+        "Aladdin arrives in theaters in November and becomes the kind of movie every household seems to see, quote, soundtrack-buy, and eventually loop on VHS."
+      ],
+      "links": [
+        {
+          "label": "Aladdin ↗",
+          "href": "https://en.wikipedia.org/wiki/Aladdin_(1992_Disney_film)"
+        },
+        {
+          "label": "Blockbuster-night shelf",
+          "href": "/zones/tv-movies/"
+        }
+      ],
+      "sourceIds": [
+        "source-e9b029be0667b4a1"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1992/#month-nov",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1992.html.txt",
+        "start": 20231,
+        "end": 20746,
+        "lineStart": 172,
+        "lineEnd": 172,
+        "sha256": "bfe66fee2f3ff41abe360d6a710f95d5faa82830c683acec0bf3b51e09c082b2"
+      }
+    },
+    {
+      "id": "month-1992-12",
+      "kind": "monthly-context",
+      "year": 1992,
+      "month": 12,
+      "datePrecision": "month",
+      "title": "The Chronic closes the year by changing the car stereo",
+      "paragraphs": [
+        "Dr. Dre releases The Chronic on December 15, setting up a whole visual and sonic lane for the rest of the decade."
+      ],
+      "links": [
+        {
+          "label": "The Chronic",
+          "href": "https://en.wikipedia.org/wiki/The_Chronic"
+        },
+        {
+          "label": "The Chronic ↗",
+          "href": "https://en.wikipedia.org/wiki/The_Chronic"
+        },
+        {
+          "label": "Music room",
+          "href": "/zones/music/"
+        }
+      ],
+      "sourceIds": [
+        "source-3758185c6fbd6cb6"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1992/#month-dec",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1992.html.txt",
+        "start": 20757,
+        "end": 21308,
+        "lineStart": 173,
+        "lineEnd": 173,
+        "sha256": "bab096ac0fa31c60e3faa7ccc335d3fbb25520496924ae2d3e955d6e9d5d8f5e"
+      }
+    },
+    {
+      "id": "month-1993-01",
+      "kind": "monthly-context",
+      "year": 1993,
+      "month": 1,
+      "datePrecision": "month",
+      "title": "The future still lives in the computer lab",
+      "paragraphs": [
+        "1993 opens with beige monitors, printer paper, mall music stores, and computer rooms that still feel a little forbidden. The web exists, but for most people it is nowhere near the living room yet."
+      ],
+      "links": [
+        {
+          "label": "tech / toys",
+          "href": "/zones/tech-toys/#photo-showroom"
+        },
+        {
+          "label": "old-web room",
+          "href": "/zones/internet-culture/#artifact-atlas"
+        }
+      ],
+      "sourceIds": [],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1993/#month-jan",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1993.html.txt",
+        "start": 20509,
+        "end": 21001,
+        "lineStart": 205,
+        "lineEnd": 205,
+        "sha256": "e6f1a9bfe2fef62c7bad182fb56226e3191a1e99a83a06e60ba7d7053a613373"
+      }
+    },
+    {
+      "id": "month-1993-02",
+      "kind": "monthly-context",
+      "year": 1993,
+      "month": 2,
+      "datePrecision": "month",
+      "title": "Mosaic starts making the web legible",
+      "paragraphs": [
+        "Early Mosaic builds start circulating in 1993, which matters because the web stops feeling like a command-line rumor and starts looking like something ordinary people might actually want to click."
+      ],
+      "links": [
+        {
+          "label": "Mosaic ↗",
+          "href": "https://en.wikipedia.org/wiki/NCSA_Mosaic"
+        },
+        {
+          "label": "photo stack",
+          "href": "#photo-showroom"
+        }
+      ],
+      "sourceIds": [
+        "source-54bee3d75cef328e"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1993/#month-feb",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1993.html.txt",
+        "start": 21002,
+        "end": 21511,
+        "lineStart": 206,
+        "lineEnd": 206,
+        "sha256": "5172221a3e0a25849ab5dbad8538bb2a7d05bf3e1026764d15ccfd9d460dfc2c"
+      }
+    },
+    {
+      "id": "month-1993-03",
+      "kind": "monthly-context",
+      "year": 1993,
+      "month": 3,
+      "datePrecision": "month",
+      "title": "Slackers, sarcasm, and alt-TV tone set in",
+      "paragraphs": [
+        "By spring, MTV irony and couch-surf attitude are becoming a whole vibe. 1993 starts feeling less glossy than the early 90s and more deadpan, weird, and quoteable."
+      ],
+      "links": [
+        {
+          "label": "TV / Movies",
+          "href": "/zones/tv-movies/"
+        },
+        {
+          "label": "lookbook",
+          "href": "/zones/fashion/"
+        }
+      ],
+      "sourceIds": [],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1993/#month-mar",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1993.html.txt",
+        "start": 21512,
+        "end": 21926,
+        "lineStart": 207,
+        "lineEnd": 207,
+        "sha256": "2984dfaf12e4b7e8d624852bbd57533fe78cc430c14fe7a8cec8ce16c698f6a2"
+      }
+    },
+    {
+      "id": "month-1993-04",
+      "kind": "monthly-context",
+      "year": 1993,
+      "month": 4,
+      "datePrecision": "month",
+      "title": "Mosaic 1.0 lands, then CERN frees the web",
+      "paragraphs": [
+        "NCSA Mosaic 1.0 ships on April 21, and on April 30 CERN announces that the World Wide Web will be free to anyone with no fees due. That is the month the web stops feeling like a lab artifact and starts becoming public infrastructure."
+      ],
+      "links": [
+        {
+          "label": "Mosaic 1.0 ↗",
+          "href": "https://en.wikipedia.org/wiki/NCSA_Mosaic"
+        },
+        {
+          "label": "CERN decision ↗",
+          "href": "https://en.wikipedia.org/wiki/History_of_the_World_Wide_Web"
+        }
+      ],
+      "sourceIds": [
+        "source-54bee3d75cef328e",
+        "source-bd7dbb7f92903c07"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1993/#month-apr",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1993.html.txt",
+        "start": 21927,
+        "end": 22572,
+        "lineStart": 208,
+        "lineEnd": 208,
+        "sha256": "990840995eb613b62f44d7ac1d1cf93ffb90884e037c8cc0a4e770497745da62"
+      }
+    },
+    {
+      "id": "month-1993-05",
+      "kind": "monthly-context",
+      "year": 1993,
+      "month": 5,
+      "datePrecision": "month",
+      "title": "CD-ROM wonder keeps building pressure",
+      "paragraphs": [
+        "Game magazines, software aisles, and demo disks keep promising richer worlds. Even before the biggest releases hit, 1993 already feels like screens are getting deeper, moodier, and more expensive-looking."
+      ],
+      "links": [
+        {
+          "label": "software shelf",
+          "href": "/webring/?filter=software-archives#directory"
+        },
+        {
+          "label": "games shelf",
+          "href": "/zones/games/"
+        }
+      ],
+      "sourceIds": [],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1993/#month-may",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1993.html.txt",
+        "start": 22573,
+        "end": 23056,
+        "lineStart": 209,
+        "lineEnd": 209,
+        "sha256": "3fabe68cd71b72148e45f6372fd7b8bba1adb2a7cfe433f9aa54c74208f2de2e"
+      }
+    },
+    {
+      "id": "month-1993-06",
+      "kind": "monthly-context",
+      "year": 1993,
+      "month": 6,
+      "datePrecision": "month",
+      "title": "Jurassic Park makes digital magic feel mainstream",
+      "paragraphs": [
+        "Jurassic Park opens in the U.S. on June 11, 1993 and suddenly CGI stops feeling like a niche effects trick. Summer 1993 is blockbuster awe, lunchbox tie-ins, and everyone talking about whether those dinosaurs looked real."
+      ],
+      "links": [
+        {
+          "label": "film ↗",
+          "href": "https://en.wikipedia.org/wiki/Jurassic_Park_(film)"
+        },
+        {
+          "label": "channel surf",
+          "href": "/zones/tv-movies/#channel-surf-path"
+        }
+      ],
+      "sourceIds": [
+        "source-783be01d3d3df51d"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1993/#month-jun",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1993.html.txt",
+        "start": 23057,
+        "end": 23646,
+        "lineStart": 210,
+        "lineEnd": 210,
+        "sha256": "ab8e8f310ae55d723628e70c437110af2051f991f4f4257369bcc7a18c6ccbcd"
+      }
+    },
+    {
+      "id": "month-1993-07",
+      "kind": "monthly-context",
+      "year": 1993,
+      "month": 7,
+      "datePrecision": "month",
+      "title": "The mall is still the social internet",
+      "paragraphs": [
+        "Arcades, theaters, record stores, food courts, and game counters still organize discovery. 1993 can talk about the future all it wants, but July proves the decade still runs on hanging around in person."
+      ],
+      "links": [
+        {
+          "label": "arcade shelf",
+          "href": "/zones/games/#photo-showroom"
+        },
+        {
+          "label": "music room",
+          "href": "/zones/music/#showroom"
+        }
+      ],
+      "sourceIds": [],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1993/#month-jul",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1993.html.txt",
+        "start": 23647,
+        "end": 24118,
+        "lineStart": 211,
+        "lineEnd": 211,
+        "sha256": "56f83f8a7292c5c351150832d715136107372639611989aeded6bba1aa924844"
+      }
+    },
+    {
+      "id": "month-1993-08",
+      "kind": "monthly-context",
+      "year": 1993,
+      "month": 8,
+      "datePrecision": "month",
+      "title": "Back-to-school computer mythology spreads",
+      "paragraphs": [
+        "School labs, encyclopedia discs, printer banners, and whispered software tips make August feel like the month more kids start treating computers as places, not just homework machines."
+      ],
+      "links": [
+        {
+          "label": "computer shelf",
+          "href": "/zones/tech-toys/#photo-showroom"
+        },
+        {
+          "label": "install-era links",
+          "href": "/webring/?filter=software-archives#directory"
+        }
+      ],
+      "sourceIds": [],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1993/#month-aug",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1993.html.txt",
+        "start": 24119,
+        "end": 24610,
+        "lineStart": 212,
+        "lineEnd": 212,
+        "sha256": "7d9cc611d9ac3aa1926b438e9a42c7bb44d1a5736828805ea7ae22b1db8f01e2"
+      }
+    },
+    {
+      "id": "month-1993-09",
+      "kind": "monthly-context",
+      "year": 1993,
+      "month": 9,
+      "datePrecision": "month",
+      "title": "The X-Files and Myst turn September into a portal month",
+      "paragraphs": [
+        "The X-Files premieres on September 10, and Myst releases on September 24. One opens a whole late-night paranoia channel; the other turns quiet clicking into a blockbuster computer fantasy."
+      ],
+      "links": [
+        {
+          "label": "X-Files ↗",
+          "href": "https://en.wikipedia.org/wiki/The_X-Files"
+        },
+        {
+          "label": "Myst ↗",
+          "href": "https://en.wikipedia.org/wiki/Myst"
+        }
+      ],
+      "sourceIds": [
+        "source-189b6dfa5141d7fc",
+        "source-e8b9c67d0309b27d"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1993/#month-sep",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1993.html.txt",
+        "start": 24611,
+        "end": 25216,
+        "lineStart": 213,
+        "lineEnd": 213,
+        "sha256": "2d938a084c97db9b57c5d821397e205a375fc8155e3a10bb3d5bbfe492f5b34e"
+      }
+    },
+    {
+      "id": "month-1993-10",
+      "kind": "monthly-context",
+      "year": 1993,
+      "month": 10,
+      "datePrecision": "month",
+      "title": "Autumn 1993 belongs to weird-night energy",
+      "paragraphs": [
+        "Alien rumors, darker TV, game-demo tension, and the glow of monitors after dinner all start stacking together. October is where the year's creepy-cool personality really locks in."
+      ],
+      "links": [
+        {
+          "label": "screen room",
+          "href": "/zones/tv-movies/#photo-showroom"
+        },
+        {
+          "label": "weird web trail",
+          "href": "/zones/internet-culture/#surf-path"
+        }
+      ],
+      "sourceIds": [],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1993/#month-oct",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1993.html.txt",
+        "start": 25217,
+        "end": 25689,
+        "lineStart": 214,
+        "lineEnd": 214,
+        "sha256": "0feb7746d61a6f53ff70021ce38e483e483d2ece8a1951dfeebcfb179ba8f70a"
+      }
+    },
+    {
+      "id": "month-1993-11",
+      "kind": "monthly-context",
+      "year": 1993,
+      "month": 11,
+      "datePrecision": "month",
+      "title": "Wu-Tang and Mosaic 2.0 make November feel new from two directions",
+      "paragraphs": [
+        "Wu-Tang Clan's Enter the Wu-Tang (36 Chambers) arrives on November 9, and Mosaic 2.0 releases on November 10. One roughens the sound of hip-hop mythmaking; the other makes browsing feel more real and reachable."
+      ],
+      "links": [
+        {
+          "label": "Wu-Tang ↗",
+          "href": "https://en.wikipedia.org/wiki/Enter_the_Wu-Tang_(36_Chambers)"
+        },
+        {
+          "label": "Mosaic 2.0 ↗",
+          "href": "https://en.wikipedia.org/wiki/NCSA_Mosaic"
+        }
+      ],
+      "sourceIds": [
+        "source-54bee3d75cef328e",
+        "source-5b4fac2996326bd9"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1993/#month-nov",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1993.html.txt",
+        "start": 25690,
+        "end": 26339,
+        "lineStart": 215,
+        "lineEnd": 215,
+        "sha256": "18778d6f9034d81ad7bb60a8c7ba4c554a0c1315c106d9710dc6c315c052ca5d"
+      }
+    },
+    {
+      "id": "month-1993-12",
+      "kind": "monthly-context",
+      "year": 1993,
+      "month": 12,
+      "datePrecision": "month",
+      "title": "Doom closes the year with shareware menace",
+      "paragraphs": [
+        "Doom releases on December 10 and suddenly the family PC is not just for homework, adventure games, or encyclopedias — it can feel fast, scary, loud, and slightly illicit. 1993 ends with the monitor glowing red."
+      ],
+      "links": [
+        {
+          "label": "Doom ↗",
+          "href": "https://en.wikipedia.org/wiki/Doom_(1993_video_game)"
+        },
+        {
+          "label": "games shelf",
+          "href": "/zones/games/#photo-showroom"
+        }
+      ],
+      "sourceIds": [
+        "source-a90ce77a82a92b2d"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1993/#month-dec",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1993.html.txt",
+        "start": 26340,
+        "end": 26905,
+        "lineStart": 216,
+        "lineEnd": 216,
+        "sha256": "efa353d3326519e03726ebedea5f54056bccfc7c9e9ec8f229918d6c63201ab5"
+      }
+    },
+    {
+      "id": "month-1994-01",
+      "kind": "monthly-context",
+      "year": 1994,
+      "month": 1,
+      "datePrecision": "month",
+      "title": "Human-powered web maps",
+      "paragraphs": [
+        "Yahoo starts life as a hand-built guide to the web, which is a perfect 1994 detail: the internet is still small enough to organize like a favorite-links page."
+      ],
+      "links": [
+        {
+          "label": "Yahoo! ↗",
+          "href": "https://en.wikipedia.org/wiki/Yahoo!"
+        },
+        {
+          "label": "old-web path",
+          "href": "/zones/internet-culture/"
+        }
+      ],
+      "sourceIds": [
+        "source-490e9918c1eb1f7c"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1994/#month-jan",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1994.html.txt",
+        "start": 13520,
+        "end": 14045,
+        "lineStart": 156,
+        "lineEnd": 161,
+        "sha256": "540220ceef7bcbffc2fe9f07c46689c38860eb8112f0337c18ca43299f080dda"
+      }
+    },
+    {
+      "id": "month-1994-02",
+      "kind": "monthly-context",
+      "year": 1994,
+      "month": 2,
+      "datePrecision": "month",
+      "title": "Dookie hits the mall stereo",
+      "paragraphs": [
+        "Green Day’s breakout turns bratty, melodic punk into something way more public: skate-shop attitude leaking into food courts, mixtapes, and bedroom posters."
+      ],
+      "links": [
+        {
+          "label": "album ↗",
+          "href": "https://en.wikipedia.org/wiki/Dookie"
+        },
+        {
+          "label": "punk lane",
+          "href": "/zones/music/#genre-shelves"
+        }
+      ],
+      "sourceIds": [
+        "source-e2fbf2d9971ac6e5"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1994/#month-feb",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1994.html.txt",
+        "start": 14056,
+        "end": 14590,
+        "lineStart": 162,
+        "lineEnd": 167,
+        "sha256": "42afa10e2504cb6ead4416d4f8177822c749769a8a1966f6931246e4fdeaccab"
+      }
+    },
+    {
+      "id": "month-1994-03",
+      "kind": "monthly-context",
+      "year": 1994,
+      "month": 3,
+      "datePrecision": "month",
+      "title": "Directories beat search",
+      "paragraphs": [
+        "In early 1994, “finding something online” usually means browsing categories, bookmarks, or forum recommendations instead of typing a query and letting an algorithm decide."
+      ],
+      "links": [
+        {
+          "label": "directory logic ↗",
+          "href": "https://en.wikipedia.org/wiki/Yahoo!"
+        },
+        {
+          "label": "explore old web",
+          "href": "/webring/?filter=old-web-geocities#directory"
+        }
+      ],
+      "sourceIds": [
+        "source-490e9918c1eb1f7c"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1994/#month-mar",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1994.html.txt",
+        "start": 14601,
+        "end": 15172,
+        "lineStart": 168,
+        "lineEnd": 173,
+        "sha256": "2d974a6a441abeebe410fa6a45a1959f529769632d05580f8034f3d7f3f47471"
+      }
+    },
+    {
+      "id": "month-1994-04",
+      "kind": "monthly-context",
+      "year": 1994,
+      "month": 4,
+      "datePrecision": "month",
+      "title": "Illmatic makes New York feel permanent",
+      "paragraphs": [
+        "Nas drops a canonical city record in April, and suddenly 1994 isn’t just friendly sitcoms and tidy pop — it is also exact, cinematic, and hyper-local."
+      ],
+      "links": [
+        {
+          "label": "album ↗",
+          "href": "https://en.wikipedia.org/wiki/Illmatic"
+        },
+        {
+          "label": "hip-hop lane",
+          "href": "/zones/music/#genre-shelves"
+        }
+      ],
+      "sourceIds": [
+        "source-21b7b1779d122095"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1994/#month-apr",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1994.html.txt",
+        "start": 15183,
+        "end": 15727,
+        "lineStart": 174,
+        "lineEnd": 179,
+        "sha256": "eb8b8d802d6a7e434a45cb66ab299d54b594fb4c6716a1d89025c0f060786ea4"
+      }
+    },
+    {
+      "id": "month-1994-05",
+      "kind": "monthly-context",
+      "year": 1994,
+      "month": 5,
+      "datePrecision": "month",
+      "title": "Indie-cool goes global",
+      "paragraphs": [
+        "Pulp Fiction wins Cannes and starts radiating outward as a whole attitude: soundtrack deep cuts, diner iconography, quotable dialogue, and video-store cool."
+      ],
+      "links": [
+        {
+          "label": "film ↗",
+          "href": "https://en.wikipedia.org/wiki/Pulp_Fiction"
+        },
+        {
+          "label": "screen room",
+          "href": "/zones/tv-movies/"
+        }
+      ],
+      "sourceIds": [
+        "source-da56a1e2cbf27c4d"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1994/#month-may",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1994.html.txt",
+        "start": 15738,
+        "end": 16264,
+        "lineStart": 180,
+        "lineEnd": 185,
+        "sha256": "28a6ff944c8495543bf5bcc50a8cd3bd48183dc29e29a3ef4457f812c5b28b6a"
+      }
+    },
+    {
+      "id": "month-1994-06",
+      "kind": "monthly-context",
+      "year": 1994,
+      "month": 6,
+      "datePrecision": "month",
+      "title": "Summer monoculture still works",
+      "paragraphs": [
+        "Blockbusters, radio singles, food-court hangs, and big-summer movies still give nearly everybody the same reference points before feeds fracture attention."
+      ],
+      "links": [
+        {
+          "label": "channel surf",
+          "href": "/zones/tv-movies/#channel-surf-path"
+        },
+        {
+          "label": "radio dial",
+          "href": "/zones/music/#chart-dial"
+        }
+      ],
+      "sourceIds": [],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1994/#month-jun",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1994.html.txt",
+        "start": 16275,
+        "end": 16764,
+        "lineStart": 186,
+        "lineEnd": 191,
+        "sha256": "ca22142a538a821bdf815e4c9c5af45accd998ec473758963e478f077fd45806"
+      }
+    },
+    {
+      "id": "month-1994-07",
+      "kind": "monthly-context",
+      "year": 1994,
+      "month": 7,
+      "datePrecision": "month",
+      "title": "CD wallets and zines travel by hand",
+      "paragraphs": [
+        "The year’s culture keeps spreading physically: dubbed tapes, magazine clippings, mall flyers, and record-store recommendations still beat pure online discovery."
+      ],
+      "links": [
+        {
+          "label": "mixtape room",
+          "href": "/zones/music/"
+        },
+        {
+          "label": "leave a memory",
+          "href": "/guestbook/"
+        }
+      ],
+      "sourceIds": [],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1994/#month-jul",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1994.html.txt",
+        "start": 16775,
+        "end": 17243,
+        "lineStart": 192,
+        "lineEnd": 197,
+        "sha256": "33cecf0c520076f219d890854c951cede908b857bdb8ae20fc8f7861d527e64a"
+      }
+    },
+    {
+      "id": "month-1994-08",
+      "kind": "monthly-context",
+      "year": 1994,
+      "month": 8,
+      "datePrecision": "month",
+      "title": "Back-to-school identity building",
+      "paragraphs": [
+        "Flannel, coffee-shop mood, soundtrack CDs, and “which shows do you watch?” all become part of the same personality bundle as fall approaches."
+      ],
+      "links": [
+        {
+          "label": "lookbook",
+          "href": "/zones/fashion/"
+        },
+        {
+          "label": "TV room",
+          "href": "/zones/tv-movies/"
+        }
+      ],
+      "sourceIds": [],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1994/#month-aug",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1994.html.txt",
+        "start": 17254,
+        "end": 17697,
+        "lineStart": 198,
+        "lineEnd": 203,
+        "sha256": "79bf60a753bf2dd4be7e79e23d0ce58da582f7ff4eeaa5255d9fa006e61bb038"
+      }
+    },
+    {
+      "id": "month-1994-09",
+      "kind": "monthly-context",
+      "year": 1994,
+      "month": 9,
+      "datePrecision": "month",
+      "title": "Friends finds the couch",
+      "paragraphs": [
+        "NBC premieres Friends on September 22, locking in coffee-shop hangout energy as one of the decade’s most enduring screen textures."
+      ],
+      "links": [
+        {
+          "label": "series ↗",
+          "href": "https://en.wikipedia.org/wiki/Friends"
+        },
+        {
+          "label": "TV room",
+          "href": "/zones/tv-movies/"
+        }
+      ],
+      "sourceIds": [
+        "source-eedbc92698f95f28"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1994/#month-sep",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1994.html.txt",
+        "start": 17708,
+        "end": 18209,
+        "lineStart": 204,
+        "lineEnd": 209,
+        "sha256": "77881db1285a266156fb26d5af4b234bf42ec1df5cebd35f92a09ed216122bc4"
+      }
+    },
+    {
+      "id": "month-1994-10",
+      "kind": "monthly-context",
+      "year": 1994,
+      "month": 10,
+      "datePrecision": "month",
+      "title": "Netscape and Pulp Fiction rewire cool",
+      "paragraphs": [
+        "Netscape announces its browser in October while Pulp Fiction hits theaters, which feels exactly right: browsing the web and browsing culture both get more stylish at once."
+      ],
+      "links": [
+        {
+          "label": "Navigator ↗",
+          "href": "https://en.wikipedia.org/wiki/Netscape_Navigator"
+        },
+        {
+          "label": "film ↗",
+          "href": "https://en.wikipedia.org/wiki/Pulp_Fiction"
+        }
+      ],
+      "sourceIds": [
+        "source-da56a1e2cbf27c4d",
+        "source-e7ce21ad9ad35672"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1994/#month-oct",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1994.html.txt",
+        "start": 18220,
+        "end": 18856,
+        "lineStart": 210,
+        "lineEnd": 215,
+        "sha256": "6836a7c94701bf2a44024235ba8292b18f66524a24df1a882006b86c1ce44c38"
+      }
+    },
+    {
+      "id": "month-1994-11",
+      "kind": "monthly-context",
+      "year": 1994,
+      "month": 11,
+      "datePrecision": "month",
+      "title": "Holiday shelves go glossy",
+      "paragraphs": [
+        "Donkey Kong Country flexes pre-rendered SNES polish, while the broader season leans hard into collectible, giftable media objects: carts, CDs, VHS, and game guides."
+      ],
+      "links": [
+        {
+          "label": "game ↗",
+          "href": "https://en.wikipedia.org/wiki/Donkey_Kong_Country"
+        },
+        {
+          "label": "games shelf",
+          "href": "/zones/games/"
+        }
+      ],
+      "sourceIds": [
+        "source-4ff83359b9b9ea2c"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1994/#month-nov",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1994.html.txt",
+        "start": 18867,
+        "end": 19407,
+        "lineStart": 216,
+        "lineEnd": 221,
+        "sha256": "d25b005d4a6bf06149596050cf6a7257e1fd315add4da0c82e90c0f8425fbb5e"
+      }
+    },
+    {
+      "id": "month-1994-12",
+      "kind": "monthly-context",
+      "year": 1994,
+      "month": 12,
+      "datePrecision": "month",
+      "title": "PlayStation points at the next mood",
+      "paragraphs": [
+        "Sony’s PlayStation lands in Japan in December, and the decade quietly tilts toward CDs, 3D spaces, cooler branding, and a slightly older idea of who games are for."
+      ],
+      "links": [
+        {
+          "label": "console ↗",
+          "href": "https://en.wikipedia.org/wiki/PlayStation_(console)"
+        },
+        {
+          "label": "next-year bridge",
+          "href": "/timeline/1995/"
+        }
+      ],
+      "sourceIds": [
+        "source-92c477405d8d488a"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1994/#month-dec",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1994.html.txt",
+        "start": 19418,
+        "end": 19972,
+        "lineStart": 222,
+        "lineEnd": 227,
+        "sha256": "68c2d529ad79508058d02ca74abb533335a79e57ed5150338cb436f017e202ee"
+      }
+    },
+    {
+      "id": "month-1995-01",
+      "kind": "monthly-context",
+      "year": 1995,
+      "month": 1,
+      "datePrecision": "month",
+      "title": "The year opens with CD binders and computer-store tension",
+      "paragraphs": [
+        "1995 starts in that perfect hinge mood: Jagged Little Pill is still a few months away, but mall music stores, Windows 3.1 desktops, and “should we get a modem?” family debates are already warming up."
+      ],
+      "links": [
+        {
+          "label": "music room",
+          "href": "/zones/music/#chart-dial"
+        },
+        {
+          "label": "tech / toys",
+          "href": "/zones/tech-toys/"
+        }
+      ],
+      "sourceIds": [],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1995/#month-jan",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1995.html.txt",
+        "start": 12911,
+        "end": 13396,
+        "lineStart": 149,
+        "lineEnd": 149,
+        "sha256": "ffbcbcca88622a2b267d9247b0cb7addaf3776fe5973c81ca26cd4c9fae1d227"
+      }
+    },
+    {
+      "id": "month-1995-02",
+      "kind": "monthly-context",
+      "year": 1995,
+      "month": 2,
+      "datePrecision": "month",
+      "title": "Coffeehouse feelings and R&B polish own the stereo",
+      "paragraphs": [
+        "CrazySexyCool, Boyz II Men ballads, Seal drama, and radio countdowns make early-1995 feel smooth, expensive, and a little emotionally overwhelming."
+      ],
+      "links": [
+        {
+          "label": "top songs",
+          "href": "/timeline/1995/#top-songs"
+        },
+        {
+          "label": "mixtape path",
+          "href": "/zones/music/#mixtape-path"
+        }
+      ],
+      "sourceIds": [],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1995/#month-feb",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1995.html.txt",
+        "start": 13397,
+        "end": 13837,
+        "lineStart": 150,
+        "lineEnd": 150,
+        "sha256": "e9aaaafcf8c133f09cc3e435ad7597552d7e412cef17bb78a1634f2402abd6f7"
+      }
+    },
+    {
+      "id": "month-1995-03",
+      "kind": "monthly-context",
+      "year": 1995,
+      "month": 3,
+      "datePrecision": "month",
+      "title": "The future still hides inside beige boxes",
+      "paragraphs": [
+        "Spring 1995 is all demos and possibility: school labs, computer-store towers, CD-ROM encyclopedias, and the sense that the internet is close, even if it still feels slightly nerd-coded."
+      ],
+      "links": [
+        {
+          "label": "old-web path",
+          "href": "/zones/internet-culture/#surf-path"
+        },
+        {
+          "label": "computer shelf",
+          "href": "/zones/tech-toys/"
+        }
+      ],
+      "sourceIds": [],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1995/#month-mar",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1995.html.txt",
+        "start": 13838,
+        "end": 14301,
+        "lineStart": 151,
+        "lineEnd": 151,
+        "sha256": "086a90756b4caf26aee25bfbb6332ac92d6819dfb5e12cfb807d135d923f1c2a"
+      }
+    },
+    {
+      "id": "month-1995-04",
+      "kind": "monthly-context",
+      "year": 1995,
+      "month": 4,
+      "datePrecision": "month",
+      "title": "Formats start competing for your identity",
+      "paragraphs": [
+        "Cassettes, CDs, VHS, cartridges, and software boxes all still matter at once, which is exactly why 1995 feels so tactile: everything comes in packaging and every package promises a new self."
+      ],
+      "links": [
+        {
+          "label": "software shelf",
+          "href": "/webring/?filter=software-archives#directory"
+        },
+        {
+          "label": "screen room",
+          "href": "/zones/tv-movies/"
+        }
+      ],
+      "sourceIds": [],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1995/#month-apr",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1995.html.txt",
+        "start": 14302,
+        "end": 14779,
+        "lineStart": 152,
+        "lineEnd": 152,
+        "sha256": "295c339e9f87eb582360095f7c7e65120832a75bd3b55fc2357d5a51338799cb"
+      }
+    },
+    {
+      "id": "month-1995-05",
+      "kind": "monthly-context",
+      "year": 1995,
+      "month": 5,
+      "datePrecision": "month",
+      "title": "Summer-hype season boots up early",
+      "paragraphs": [
+        "By late spring, the year is already stacking its main attractions: blockbuster trailers, game-magazine previews, soundtrack singles, and the growing sense that Christmas will be all about Windows and PlayStation boxes."
+      ],
+      "links": [
+        {
+          "label": "channel surf",
+          "href": "/zones/tv-movies/#channel-surf-path"
+        },
+        {
+          "label": "games shelf",
+          "href": "/zones/games/"
+        }
+      ],
+      "sourceIds": [],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1995/#month-may",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1995.html.txt",
+        "start": 14780,
+        "end": 15262,
+        "lineStart": 153,
+        "lineEnd": 153,
+        "sha256": "f9fb8fab53d7360a006eef3b8a45df20456ab576983ed7edc68ddcb16f4ae1d9"
+      }
+    },
+    {
+      "id": "month-1995-06",
+      "kind": "monthly-context",
+      "year": 1995,
+      "month": 6,
+      "datePrecision": "month",
+      "title": "Jagged Little Pill and Batman-summer energy collide",
+      "paragraphs": [
+        "Alanis Morissette’s Jagged Little Pill lands on June 13, just as summer-movie marketing and mall-culture heat kick in. 1995 starts sounding more confessional, more sarcastic, and more impossible to avoid."
+      ],
+      "links": [
+        {
+          "label": "album ↗",
+          "href": "https://en.wikipedia.org/wiki/Jagged_Little_Pill"
+        },
+        {
+          "label": "genre shelves",
+          "href": "/zones/music/#genre-shelves"
+        }
+      ],
+      "sourceIds": [
+        "source-d69a576201bf614e"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1995/#month-jun",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1995.html.txt",
+        "start": 15263,
+        "end": 15829,
+        "lineStart": 154,
+        "lineEnd": 154,
+        "sha256": "bcce6f3aad745dafce9cba3a10b153c5a3e0f8a428ee8efbf17745d5438ee01a"
+      }
+    },
+    {
+      "id": "month-1995-07",
+      "kind": "monthly-context",
+      "year": 1995,
+      "month": 7,
+      "datePrecision": "month",
+      "title": "Amazon quietly opens a weird new kind of store",
+      "paragraphs": [
+        "Amazon launches for public sales on July 16. It still just looks like an online bookstore, but July 1995 is one of those hindsight months where the future sneaks in wearing a plain website."
+      ],
+      "links": [
+        {
+          "label": "Amazon ↗",
+          "href": "https://en.wikipedia.org/wiki/Amazon_(company)"
+        },
+        {
+          "label": "web culture",
+          "href": "/zones/internet-culture/"
+        }
+      ],
+      "sourceIds": [
+        "source-4dd10a48f1bc0d83"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1995/#month-jul",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1995.html.txt",
+        "start": 15830,
+        "end": 16356,
+        "lineStart": 155,
+        "lineEnd": 155,
+        "sha256": "5fbd7bb4236c1b1a38f65efb9aac83d3f9f7b40e1cf5b870ad50ed393d3ae218"
+      }
+    },
+    {
+      "id": "month-1995-08",
+      "kind": "monthly-context",
+      "year": 1995,
+      "month": 8,
+      "datePrecision": "month",
+      "title": "Netscape goes public, then Windows 95 hits retail",
+      "paragraphs": [
+        "August 1995 is the real ignition point: Netscape’s IPO on August 9 turns the browser into a cultural signal, then Windows 95 launches on August 24 and suddenly the family PC feels like a big shiny event instead of office furniture."
+      ],
+      "links": [
+        {
+          "label": "Netscape ↗",
+          "href": "https://en.wikipedia.org/wiki/Netscape"
+        },
+        {
+          "label": "Windows 95 ↗",
+          "href": "https://en.wikipedia.org/wiki/Windows_95"
+        }
+      ],
+      "sourceIds": [
+        "source-5646b70aa2487cf2",
+        "source-a020f29493a9f861"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1995/#month-aug",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1995.html.txt",
+        "start": 16357,
+        "end": 16981,
+        "lineStart": 156,
+        "lineEnd": 156,
+        "sha256": "ed8aee55ff72b4530ea75c6b57463363646a415e4a1f63ed7115a18085b712bb"
+      }
+    },
+    {
+      "id": "month-1995-09",
+      "kind": "monthly-context",
+      "year": 1995,
+      "month": 9,
+      "datePrecision": "month",
+      "title": "PlayStation and eBay make September feel newly clickable",
+      "paragraphs": [
+        "Sony releases the PlayStation in North America on September 9, and eBay is founded later that month. One path says games are getting cooler and more cinematic; the other says even shopping might migrate onto the web."
+      ],
+      "links": [
+        {
+          "label": "PlayStation ↗",
+          "href": "https://en.wikipedia.org/wiki/PlayStation_(console)"
+        },
+        {
+          "label": "eBay ↗",
+          "href": "https://en.wikipedia.org/wiki/EBay"
+        }
+      ],
+      "sourceIds": [
+        "source-92c477405d8d488a",
+        "source-e6b93b8aba17b90e"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1995/#month-sep",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1995.html.txt",
+        "start": 16982,
+        "end": 17602,
+        "lineStart": 157,
+        "lineEnd": 157,
+        "sha256": "ba4fcc57948ce71543b7100b7c7b10a4e842dc468edd1113d63b8fad78f38b3f"
+      }
+    },
+    {
+      "id": "month-1995-10",
+      "kind": "monthly-context",
+      "year": 1995,
+      "month": 10,
+      "datePrecision": "month",
+      "title": "AOL-disc season and browser-curiosity month",
+      "paragraphs": [
+        "Back-to-school 1995 feels like installing things: trial discs, bookmarked web directories, computer-lab rumors, and the first real sense that being “online” could become part of ordinary teenage identity."
+      ],
+      "links": [
+        {
+          "label": "surf path",
+          "href": "/zones/internet-culture/#surf-path"
+        },
+        {
+          "label": "old-web shelf",
+          "href": "/webring/?filter=old-web-geocities#directory"
+        }
+      ],
+      "sourceIds": [],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1995/#month-oct",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1995.html.txt",
+        "start": 17603,
+        "end": 18110,
+        "lineStart": 158,
+        "lineEnd": 158,
+        "sha256": "6ba1ad8bea5b72a3abcb5cba590685583d7a5e1835bfbbada5c0545ed72628dc"
+      }
+    },
+    {
+      "id": "month-1995-11",
+      "kind": "monthly-context",
+      "year": 1995,
+      "month": 11,
+      "datePrecision": "month",
+      "title": "Toy Story proves CGI can carry a whole feeling",
+      "paragraphs": [
+        "Toy Story opens on November 22 and instantly makes the future look friendlier, cleaner, and more emotional. November 1995 is plastic toys, rendered light, and multiplex wonder all at once."
+      ],
+      "links": [
+        {
+          "label": "film ↗",
+          "href": "https://en.wikipedia.org/wiki/Toy_Story"
+        },
+        {
+          "label": "TV / Movies",
+          "href": "/zones/tv-movies/"
+        }
+      ],
+      "sourceIds": [
+        "source-4e7ff62496024517"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1995/#month-nov",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1995.html.txt",
+        "start": 18111,
+        "end": 18634,
+        "lineStart": 159,
+        "lineEnd": 159,
+        "sha256": "7245ea6a99072a9eec1382909d2dd4f5bebb42162bad71f87f0972103d0312f7"
+      }
+    },
+    {
+      "id": "month-1995-12",
+      "kind": "monthly-context",
+      "year": 1995,
+      "month": 12,
+      "datePrecision": "month",
+      "title": "Warcraft II and holiday installs close the year",
+      "paragraphs": [
+        "Warcraft II: Tides of Darkness releases on December 5, holiday wish lists turn into software stacks, and 1995 ends with the exact mood of a new computer, a new console, and a room full of boxes waiting to be opened."
+      ],
+      "links": [
+        {
+          "label": "Warcraft II ↗",
+          "href": "https://en.wikipedia.org/wiki/Warcraft_II:_Tides_of_Darkness"
+        },
+        {
+          "label": "games shelf",
+          "href": "/zones/games/"
+        }
+      ],
+      "sourceIds": [
+        "source-85797df5e5a598c2"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1995/#month-dec",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1995.html.txt",
+        "start": 18635,
+        "end": 19210,
+        "lineStart": 160,
+        "lineEnd": 160,
+        "sha256": "1fad94dc4f49e4cbceb5b2de46f380f4cd8d05e3b5d627785a499b9783531b71"
+      }
+    },
+    {
+      "id": "month-1996-01",
+      "kind": "monthly-context",
+      "year": 1996,
+      "month": 1,
+      "datePrecision": "month",
+      "title": "School resumes, but the web feels scrappier",
+      "paragraphs": [
+        "Computer-lab internet still means directories, under-construction GIFs, and bookmarking weird personal pages by hand. The social layer is tiny, but you can feel it trying to appear."
+      ],
+      "links": [
+        {
+          "label": "old-web path",
+          "href": "/zones/internet-culture/#surf-path"
+        },
+        {
+          "label": "GeoCities shelf",
+          "href": "/webring/?filter=old-web-geocities#directory"
+        }
+      ],
+      "sourceIds": [],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1996/#month-jan",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1996.html.txt",
+        "start": 13303,
+        "end": 13855,
+        "lineStart": 152,
+        "lineEnd": 157,
+        "sha256": "fdf58573e354c24d0083b56e3c1ec0304224e4585817be45430437df351a4f06"
+      }
+    },
+    {
+      "id": "month-1996-02",
+      "kind": "monthly-context",
+      "year": 1996,
+      "month": 2,
+      "datePrecision": "month",
+      "title": "The year starts sounding wider",
+      "paragraphs": [
+        "The Score lands on February 13 and instantly becomes part of the year’s radio weather: rap, R&B, pop hooks, and crossover cool all sharing the same bus ride."
+      ],
+      "links": [
+        {
+          "label": "album ↗",
+          "href": "https://en.wikipedia.org/wiki/The_Score_(album)"
+        },
+        {
+          "label": "music lanes",
+          "href": "/zones/music/#genre-shelves"
+        }
+      ],
+      "sourceIds": [
+        "source-c80b834872ee802f"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1996/#month-feb",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1996.html.txt",
+        "start": 13866,
+        "end": 14421,
+        "lineStart": 158,
+        "lineEnd": 163,
+        "sha256": "3be58c52d0f7fedbc32a0b02ab62906715aeafc5c3ab9dae25165d4a0e456def"
+      }
+    },
+    {
+      "id": "month-1996-03",
+      "kind": "monthly-context",
+      "year": 1996,
+      "month": 3,
+      "datePrecision": "month",
+      "title": "Pokémon quietly starts in Japan",
+      "paragraphs": [
+        "Pokémon Red and Green launch for Game Boy on February 27, then March becomes the beginning of a schoolyard system built on link cables, rumors, trades, and creature names everybody will soon know."
+      ],
+      "links": [
+        {
+          "label": "games ↗",
+          "href": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Red,_Blue,_and_Yellow"
+        },
+        {
+          "label": "games shelf",
+          "href": "/zones/games/"
+        }
+      ],
+      "sourceIds": [
+        "source-db5ba5f197e1eb95"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1996/#month-mar",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1996.html.txt",
+        "start": 14432,
+        "end": 15033,
+        "lineStart": 164,
+        "lineEnd": 169,
+        "sha256": "ce85d50171484c2ede513c485e927111d40ee25675fbb6fcbc7d75830e1d14c5"
+      }
+    },
+    {
+      "id": "month-1996-04",
+      "kind": "monthly-context",
+      "year": 1996,
+      "month": 4,
+      "datePrecision": "month",
+      "title": "Personal pages start feeling friend-shaped",
+      "paragraphs": [
+        "By spring, the handmade web is less abstract: fan shrines, guestbooks, counters, and homepage neighborhoods make online life feel like wandering through actual people’s rooms."
+      ],
+      "links": [
+        {
+          "label": "GeoCities ↗",
+          "href": "https://en.wikipedia.org/wiki/GeoCities"
+        },
+        {
+          "label": "internet culture",
+          "href": "/zones/internet-culture/"
+        }
+      ],
+      "sourceIds": [
+        "source-8b448dc502f503f4"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1996/#month-apr",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1996.html.txt",
+        "start": 15044,
+        "end": 15616,
+        "lineStart": 170,
+        "lineEnd": 175,
+        "sha256": "b0ab75949b8dcb8fd1ad08a88936eaa576bcb612d50adabb91eb8d14237ecb47"
+      }
+    },
+    {
+      "id": "month-1996-05",
+      "kind": "monthly-context",
+      "year": 1996,
+      "month": 5,
+      "datePrecision": "month",
+      "title": "Big-screen disaster and glossy radio go hand in hand",
+      "paragraphs": [
+        "Twister opens on May 10 and the season starts tilting toward giant-soundtrack summer mode: radio hits, movie tie-ins, snack brands, and toy aisles all syncing up again."
+      ],
+      "links": [
+        {
+          "label": "film ↗",
+          "href": "https://en.wikipedia.org/wiki/Twister_(1996_film)"
+        },
+        {
+          "label": "screen room",
+          "href": "/zones/tv-movies/"
+        }
+      ],
+      "sourceIds": [
+        "source-e09a98b7df897bf8"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1996/#month-may",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1996.html.txt",
+        "start": 15627,
+        "end": 16202,
+        "lineStart": 176,
+        "lineEnd": 181,
+        "sha256": "8e35e57aea748829a4ad3cf7db184f0378103d8466ca20044d5217edcc69b057"
+      }
+    },
+    {
+      "id": "month-1996-06",
+      "kind": "monthly-context",
+      "year": 1996,
+      "month": 6,
+      "datePrecision": "month",
+      "title": "Nintendo 64 summer starts loading",
+      "paragraphs": [
+        "June 1996 feels like anticipation as much as arrival: E3 puts the Nintendo 64 and Super Mario 64 in front of the whole industry, kids are staring at magazine screenshots, and summer radio is full of Macarena, Mariah, Tracy Chapman, and movie-trailer energy."
+      ],
+      "links": [
+        {
+          "label": "E3 1996 ↗",
+          "href": "https://en.wikipedia.org/wiki/E3_1996"
+        },
+        {
+          "label": "Mario 64 ↗",
+          "href": "https://en.wikipedia.org/wiki/Super_Mario_64"
+        },
+        {
+          "label": "1996 radio dial",
+          "href": "#top-songs"
+        }
+      ],
+      "sourceIds": [
+        "source-7fe756915b87f8df",
+        "source-a19b44eda5ec1489"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1996/#month-jun",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1996.html.txt",
+        "start": 16213,
+        "end": 16957,
+        "lineStart": 182,
+        "lineEnd": 187,
+        "sha256": "b82ef66999e5908f9a8b55bb60dde09ee86811aa195c763015acf6ac24775131"
+      }
+    },
+    {
+      "id": "month-1996-07",
+      "kind": "monthly-context",
+      "year": 1996,
+      "month": 7,
+      "datePrecision": "month",
+      "title": "The Atlanta Olympics become shared-screen summer",
+      "paragraphs": [
+        "The 1996 Summer Olympics open on July 19 and take over TVs, commercials, cereal boxes, and school-break conversation. But the month is not just victory-lap glow: Hotmail launches on July 4, TWA Flight 800 crashes on July 17, and the Centennial Olympic Park bombing hits Atlanta on July 27."
+      ],
+      "links": [
+        {
+          "label": "Olympics ↗",
+          "href": "https://en.wikipedia.org/wiki/1996_Summer_Olympics"
+        },
+        {
+          "label": "July news desk",
+          "href": "#news-desk"
+        },
+        {
+          "label": "channel surf",
+          "href": "/zones/tv-movies/#channel-surf-path"
+        }
+      ],
+      "sourceIds": [
+        "source-fa5e70dea6c24948"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1996/#month-jul",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1996.html.txt",
+        "start": 16968,
+        "end": 17716,
+        "lineStart": 188,
+        "lineEnd": 193,
+        "sha256": "19df08f26a8cfe65fa7631936f5e3e122d8715b7d40b9bd947d1009c25b77a21"
+      }
+    },
+    {
+      "id": "month-1996-08",
+      "kind": "monthly-context",
+      "year": 1996,
+      "month": 8,
+      "datePrecision": "month",
+      "title": "Macarena becomes public infrastructure",
+      "paragraphs": [
+        "By late summer, the dance is everywhere: weddings, camps, school gyms, cookouts, TV shows, and every cousin who swears they know the steps better than you do."
+      ],
+      "links": [
+        {
+          "label": "song ↗",
+          "href": "https://en.wikipedia.org/wiki/Macarena_(song)"
+        },
+        {
+          "label": "chart module",
+          "href": "#top-songs"
+        }
+      ],
+      "sourceIds": [
+        "source-506137b23fb10e7d"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1996/#month-aug",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1996.html.txt",
+        "start": 17727,
+        "end": 18261,
+        "lineStart": 194,
+        "lineEnd": 199,
+        "sha256": "0625ff2c459711a6656dc44b0e15deac893abad47cd1dd38408190a1e04c91d5"
+      }
+    },
+    {
+      "id": "month-1996-09",
+      "kind": "monthly-context",
+      "year": 1996,
+      "month": 9,
+      "datePrecision": "month",
+      "title": "Nintendo 64 lands in North America",
+      "paragraphs": [
+        "The console launches on September 29 and immediately becomes a floor-sitting, controller-tangling event. Super Mario 64 feels like a before-and-after moment the second people touch the analog stick."
+      ],
+      "links": [
+        {
+          "label": "console ↗",
+          "href": "https://en.wikipedia.org/wiki/Nintendo_64"
+        },
+        {
+          "label": "games shelf",
+          "href": "/zones/games/"
+        }
+      ],
+      "sourceIds": [
+        "source-6413880ab4b252a7"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1996/#month-sep",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1996.html.txt",
+        "start": 18272,
+        "end": 18850,
+        "lineStart": 200,
+        "lineEnd": 205,
+        "sha256": "b907bd2894f03dd91c08b14ad7e4eab06dabfdea6619011edde5308c8f42d004"
+      }
+    },
+    {
+      "id": "month-1996-10",
+      "kind": "monthly-context",
+      "year": 1996,
+      "month": 10,
+      "datePrecision": "month",
+      "title": "Personal pages start multiplying",
+      "paragraphs": [
+        "GeoCities neighborhoods, fan shrines, MIDI files, guestbooks, and visitor counters make October-night web browsing feel like wandering through bedrooms with glowing monitors in them."
+      ],
+      "links": [
+        {
+          "label": "GeoCities ↗",
+          "href": "https://en.wikipedia.org/wiki/GeoCities"
+        },
+        {
+          "label": "explore old web",
+          "href": "/webring/?filter=old-web-geocities#directory"
+        }
+      ],
+      "sourceIds": [
+        "source-8b448dc502f503f4"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1996/#month-oct",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1996.html.txt",
+        "start": 18861,
+        "end": 19449,
+        "lineStart": 206,
+        "lineEnd": 211,
+        "sha256": "345654c9badc8d99bd926404ed7eaac8ea428eb061e5ffa245dbbe9f2850df28"
+      }
+    },
+    {
+      "id": "month-1996-11",
+      "kind": "monthly-context",
+      "year": 1996,
+      "month": 11,
+      "datePrecision": "month",
+      "title": "Space Jam and Tamagotchi point at the toy future",
+      "paragraphs": [
+        "Space Jam opens on November 15, while Bandai’s Tamagotchi launches in Japan on November 23. The result is pure 1996: one part media blitz, one part tiny digital life-form in your pocket."
+      ],
+      "links": [
+        {
+          "label": "Tamagotchi ↗",
+          "href": "https://en.wikipedia.org/wiki/Tamagotchi"
+        },
+        {
+          "label": "tech / toys shelf",
+          "href": "/zones/tech-toys/"
+        }
+      ],
+      "sourceIds": [
+        "source-c50e6f8abd80a9ab"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1996/#month-nov",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1996.html.txt",
+        "start": 19460,
+        "end": 20066,
+        "lineStart": 212,
+        "lineEnd": 217,
+        "sha256": "bd5bf2f01b97d4dde630d2a2f7c52dc95173db1837dc93f45db043411a3f1bb4"
+      }
+    },
+    {
+      "id": "month-1996-12",
+      "kind": "monthly-context",
+      "year": 1996,
+      "month": 12,
+      "datePrecision": "month",
+      "title": "Scream closes the year by quoting the decade back to itself",
+      "paragraphs": [
+        "Scream arrives on December 20 and turns horror literacy, VHS habits, and teenage screen-awareness into the perfect year-end note. 1996 leaves behind collectibles, handles, and self-aware media everywhere."
+      ],
+      "links": [
+        {
+          "label": "film ↗",
+          "href": "https://en.wikipedia.org/wiki/Scream_(1996_film)"
+        },
+        {
+          "label": "TV / Movies",
+          "href": "/zones/tv-movies/"
+        }
+      ],
+      "sourceIds": [
+        "source-94a282f668e0fb58"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1996/#month-dec",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1996.html.txt",
+        "start": 20077,
+        "end": 20701,
+        "lineStart": 218,
+        "lineEnd": 223,
+        "sha256": "4ff456b73337f4acadbfd08c18e82c6bb8eb35be00b510d1a59e761d568763d4"
+      }
+    },
+    {
+      "id": "month-1997-01",
+      "kind": "monthly-context",
+      "year": 1997,
+      "month": 1,
+      "datePrecision": "month",
+      "title": "Final Fantasy VII redraws the imagination map",
+      "paragraphs": [
+        "Square launches Final Fantasy VII in Japan, and suddenly RPGs feel bigger, moodier, and way more cinematic than the old cartridge mental model."
+      ],
+      "links": [
+        {
+          "label": "game ↗",
+          "href": "https://en.wikipedia.org/wiki/Final_Fantasy_VII"
+        },
+        {
+          "label": "games shelf",
+          "href": "/zones/games/"
+        }
+      ],
+      "sourceIds": [
+        "source-b41163f606d8bb67"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1997/#month-jan",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1997.html.txt",
+        "start": 12861,
+        "end": 13342,
+        "lineStart": 152,
+        "lineEnd": 152,
+        "sha256": "1017470ae4366e5a52f965701980c515241c1783d2e67d9792f3928bf3ceda8b"
+      }
+    },
+    {
+      "id": "month-1997-02",
+      "kind": "monthly-context",
+      "year": 1997,
+      "month": 2,
+      "datePrecision": "month",
+      "title": "Spice-pop and shiny-suit radio take over",
+      "paragraphs": [
+        "By late winter, 1997 radio feels split between coffeehouse heartbreak, glossy R&B, Bad Boy swagger, and pop hooks built to turn every mall into a chorus."
+      ],
+      "links": [
+        {
+          "label": "top songs",
+          "href": "/timeline/1997/#top-songs"
+        },
+        {
+          "label": "music room",
+          "href": "/zones/music/#chart-dial"
+        }
+      ],
+      "sourceIds": [],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1997/#month-feb",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1997.html.txt",
+        "start": 13343,
+        "end": 13768,
+        "lineStart": 153,
+        "lineEnd": 153,
+        "sha256": "f48da28cbd2569737a0b721778c502afd76c2d07a5ff26cd43331d11cc924226"
+      }
+    },
+    {
+      "id": "month-1997-03",
+      "kind": "monthly-context",
+      "year": 1997,
+      "month": 3,
+      "datePrecision": "month",
+      "title": "Buffy makes teen TV mythic",
+      "paragraphs": [
+        "Buffy the Vampire Slayer premieres on March 10, and suddenly teen life, monster lore, sarcasm, and serialized fandom start sharing the same screen."
+      ],
+      "links": [
+        {
+          "label": "series ↗",
+          "href": "https://en.wikipedia.org/wiki/Buffy_the_Vampire_Slayer_(TV_series)"
+        },
+        {
+          "label": "TV room",
+          "href": "/zones/tv-movies/"
+        }
+      ],
+      "sourceIds": [
+        "source-a6fc817c7bfe44db"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1997/#month-mar",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1997.html.txt",
+        "start": 13769,
+        "end": 14256,
+        "lineStart": 154,
+        "lineEnd": 154,
+        "sha256": "d3b5cf936ce3a0694ac2fa64674ddaf998f5c8ada0ec663ff6823d1b8102c8f0"
+      }
+    },
+    {
+      "id": "month-1997-04",
+      "kind": "monthly-context",
+      "year": 1997,
+      "month": 4,
+      "datePrecision": "month",
+      "title": "DVD talk and collector brains start syncing",
+      "paragraphs": [
+        "The spring mood is all about formats: people are still renting VHS, but DVD chatter, music packaging, and game-box fetishism make media feel more collectible than ever."
+      ],
+      "links": [
+        {
+          "label": "format ↗",
+          "href": "https://en.wikipedia.org/wiki/DVD"
+        },
+        {
+          "label": "screen room",
+          "href": "/zones/tv-movies/"
+        }
+      ],
+      "sourceIds": [
+        "source-8273beddd57a702b"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1997/#month-apr",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1997.html.txt",
+        "start": 14257,
+        "end": 14739,
+        "lineStart": 155,
+        "lineEnd": 155,
+        "sha256": "141ede654cfdd6c95cbe3d8ae0be3647ae8fca5ec461d72341103607e8f0713b"
+      }
+    },
+    {
+      "id": "month-1997-05",
+      "kind": "monthly-context",
+      "year": 1997,
+      "month": 5,
+      "datePrecision": "month",
+      "title": "AIM starts turning names into handles",
+      "paragraphs": [
+        "AOL Instant Messenger shows up in 1997 and the spring vibe fits perfectly: buddy lists, away messages, and lowercase screen names make identity feel editable."
+      ],
+      "links": [
+        {
+          "label": "AIM ↗",
+          "href": "https://en.wikipedia.org/wiki/AOL_Instant_Messenger"
+        },
+        {
+          "label": "old-web path",
+          "href": "/zones/internet-culture/"
+        }
+      ],
+      "sourceIds": [
+        "source-201ff4d39e1f6580"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1997/#month-may",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1997.html.txt",
+        "start": 14740,
+        "end": 15229,
+        "lineStart": 156,
+        "lineEnd": 156,
+        "sha256": "a4e121310e99a3c98882222f2241b27b4a70a6c46894352ec31c5b3fc1494ab8"
+      }
+    },
+    {
+      "id": "month-1997-06",
+      "kind": "monthly-context",
+      "year": 1997,
+      "month": 6,
+      "datePrecision": "month",
+      "title": "Summer splits into readers, collectors, and hype kids",
+      "paragraphs": [
+        "Harry Potter and the Philosopher's Stone arrives in the UK, Beanie Baby talk keeps spreading, and school-break culture starts sorting itself into fandom tribes."
+      ],
+      "links": [
+        {
+          "label": "book ↗",
+          "href": "https://en.wikipedia.org/wiki/Harry_Potter_and_the_Philosopher%27s_Stone"
+        },
+        {
+          "label": "media shelf",
+          "href": "/webring/?filter=tv-music-media#directory"
+        }
+      ],
+      "sourceIds": [
+        "source-8b90c9a1bdc9cecb"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1997/#month-jun",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1997.html.txt",
+        "start": 15230,
+        "end": 15782,
+        "lineStart": 157,
+        "lineEnd": 157,
+        "sha256": "dc52d03da5d17e0bf378246fab5a12ed911983cf4773c8f528507aa8b49f7a04"
+      }
+    },
+    {
+      "id": "month-1997-07",
+      "kind": "monthly-context",
+      "year": 1997,
+      "month": 7,
+      "datePrecision": "month",
+      "title": "Men in Black owns the multiplex",
+      "paragraphs": [
+        "Will Smith cool, alien bureaucracy, and giant summer-movie confidence make July 1997 feel sleek, quotable, and built for repeat theater trips."
+      ],
+      "links": [
+        {
+          "label": "film ↗",
+          "href": "https://en.wikipedia.org/wiki/Men_in_Black_(1997_film)"
+        },
+        {
+          "label": "screen room",
+          "href": "/zones/tv-movies/"
+        }
+      ],
+      "sourceIds": [
+        "source-9b4bce996a53bfbb"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1997/#month-jul",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1997.html.txt",
+        "start": 15783,
+        "end": 16253,
+        "lineStart": 158,
+        "lineEnd": 158,
+        "sha256": "259d5b51063e6aa106f7d3b60cc064ffe0be6b61d1389dec187b1e98c1a4b405"
+      }
+    },
+    {
+      "id": "month-1997-08",
+      "kind": "monthly-context",
+      "year": 1997,
+      "month": 8,
+      "datePrecision": "month",
+      "title": "South Park debuts while tabloid grief hits hard",
+      "paragraphs": [
+        "South Park premieres on August 13 and Diana dies on August 31, which says everything about 1997: crude new cable irreverence and massive public emotion sharing the same month."
+      ],
+      "links": [
+        {
+          "label": "South Park ↗",
+          "href": "https://en.wikipedia.org/wiki/South_Park"
+        },
+        {
+          "label": "Diana ↗",
+          "href": "https://en.wikipedia.org/wiki/Death_of_Diana,_Princess_of_Wales"
+        }
+      ],
+      "sourceIds": [
+        "source-9bd3ee465c30bb68",
+        "source-c4ba8f00f70a9ac5"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1997/#month-aug",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1997.html.txt",
+        "start": 16254,
+        "end": 16849,
+        "lineStart": 159,
+        "lineEnd": 159,
+        "sha256": "6a57fa86ff08801bebc19d64196fb0023ed7dea79d32f4f10d72491a7c2cf59c"
+      }
+    },
+    {
+      "id": "month-1997-09",
+      "kind": "monthly-context",
+      "year": 1997,
+      "month": 9,
+      "datePrecision": "month",
+      "title": "Final Fantasy VII reaches North America",
+      "paragraphs": [
+        "Now the PlayStation epic becomes school-bus and game-magazine conversation, not just import-kid lore. Cinematic games stop feeling niche."
+      ],
+      "links": [
+        {
+          "label": "game ↗",
+          "href": "https://en.wikipedia.org/wiki/Final_Fantasy_VII"
+        },
+        {
+          "label": "games shelf",
+          "href": "/zones/games/"
+        }
+      ],
+      "sourceIds": [
+        "source-b41163f606d8bb67"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1997/#month-sep",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1997.html.txt",
+        "start": 16850,
+        "end": 17312,
+        "lineStart": 160,
+        "lineEnd": 160,
+        "sha256": "98e18a25e1fa100e57659720c34a07ac2f6d4811ff1ac70a0d731ff6fb767ab1"
+      }
+    },
+    {
+      "id": "month-1997-10",
+      "kind": "monthly-context",
+      "year": 1997,
+      "month": 10,
+      "datePrecision": "month",
+      "title": "Screen-name season begins",
+      "paragraphs": [
+        "Back-to-school 1997 means buddy lists after homework, photocopied flyers, soundtrack CDs, and the first sense that hanging out can continue after you get home."
+      ],
+      "links": [
+        {
+          "label": "AIM ↗",
+          "href": "https://en.wikipedia.org/wiki/AOL_Instant_Messenger"
+        },
+        {
+          "label": "mixtape room",
+          "href": "/zones/music/"
+        }
+      ],
+      "sourceIds": [
+        "source-201ff4d39e1f6580"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1997/#month-oct",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1997.html.txt",
+        "start": 17313,
+        "end": 17780,
+        "lineStart": 161,
+        "lineEnd": 161,
+        "sha256": "342147a89e2373fa056d78a1b9987230cd4097ed28915d584bd23d904fa894f4"
+      }
+    },
+    {
+      "id": "month-1997-11",
+      "kind": "monthly-context",
+      "year": 1997,
+      "month": 11,
+      "datePrecision": "month",
+      "title": "GoldenEye 007 turns basements into arenas",
+      "paragraphs": [
+        "GoldenEye 007 hits N64 and the holiday conversation changes fast: split-screen arguments, proximity mines, and “just one more round” all night."
+      ],
+      "links": [
+        {
+          "label": "game ↗",
+          "href": "https://en.wikipedia.org/wiki/GoldenEye_007_(1997_video_game)"
+        },
+        {
+          "label": "games shelf",
+          "href": "/zones/games/"
+        }
+      ],
+      "sourceIds": [
+        "source-08891aa897e51cb6"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1997/#month-nov",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1997.html.txt",
+        "start": 17781,
+        "end": 18272,
+        "lineStart": 162,
+        "lineEnd": 162,
+        "sha256": "c4f91267af49a05baedc0edd2b6f1dd9fe476c11ca271cebd4679c52324a2a3f"
+      }
+    },
+    {
+      "id": "month-1997-12",
+      "kind": "monthly-context",
+      "year": 1997,
+      "month": 12,
+      "datePrecision": "month",
+      "title": "Titanic closes the year as monoculture",
+      "paragraphs": [
+        "Titanic arrives at the holiday finish line and becomes bigger than a movie: soundtrack, gossip, fashion, tears, and endless repeat viewings."
+      ],
+      "links": [
+        {
+          "label": "film ↗",
+          "href": "https://en.wikipedia.org/wiki/Titanic_(1997_film)"
+        },
+        {
+          "label": "TV / Movies",
+          "href": "/zones/tv-movies/"
+        }
+      ],
+      "sourceIds": [
+        "source-4d1daac8eba0be72"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1997/#month-dec",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1997.html.txt",
+        "start": 18273,
+        "end": 18750,
+        "lineStart": 163,
+        "lineEnd": 163,
+        "sha256": "f1b20840e4c62db65ee6ca12c052f785865ed9ca2f7b9094b856bd3f931a0090"
+      }
+    },
+    {
+      "id": "month-1998-01",
+      "kind": "monthly-context",
+      "year": 1998,
+      "month": 1,
+      "datePrecision": "month",
+      "title": "Titanic still owns the room",
+      "paragraphs": [
+        "1998 opens with Titanic still swallowing multiplexes, school conversations, and soundtrack sales, which tells you monoculture still works before the web fragments everything."
+      ],
+      "links": [
+        {
+          "label": "film ↗",
+          "href": "https://en.wikipedia.org/wiki/Titanic_(1997_film)"
+        },
+        {
+          "label": "screen room",
+          "href": "/zones/tv-movies/"
+        }
+      ],
+      "sourceIds": [
+        "source-4d1daac8eba0be72"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1998/#month-jan",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1998.html.txt",
+        "start": 13177,
+        "end": 13733,
+        "lineStart": 164,
+        "lineEnd": 169,
+        "sha256": "25312930f095d51e66cf949f014f0d71d598ecc4aec58c36f917eb693b9724e3"
+      }
+    },
+    {
+      "id": "month-1998-02",
+      "kind": "monthly-context",
+      "year": 1998,
+      "month": 2,
+      "datePrecision": "month",
+      "title": "Pop drama fills the radio",
+      "paragraphs": [
+        "Brandy and Monica’s \"The Boy Is Mine\"-era mood starts taking over pop/R&B conversation, and the year’s radio already sounds glossy, competitive, and video-first."
+      ],
+      "links": [
+        {
+          "label": "top songs",
+          "href": "/timeline/1998/#top-songs"
+        },
+        {
+          "label": "radio dial",
+          "href": "/zones/music/#chart-dial"
+        }
+      ],
+      "sourceIds": [],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1998/#month-feb",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1998.html.txt",
+        "start": 13744,
+        "end": 14225,
+        "lineStart": 170,
+        "lineEnd": 175,
+        "sha256": "252fbd2dddacdfca34fa4d18c89784849f9b4aaad1608dc2a12790afc5fe2b4e"
+      }
+    },
+    {
+      "id": "month-1998-03",
+      "kind": "monthly-context",
+      "year": 1998,
+      "month": 3,
+      "datePrecision": "month",
+      "title": "MP3 curiosity leaks outward",
+      "paragraphs": [
+        "By spring, ripped tracks, Winamp skins, and weirdly named files are moving from nerd corners toward regular teen curiosity, even before Napster flips the whole table."
+      ],
+      "links": [
+        {
+          "label": "mixtape room",
+          "href": "/zones/music/"
+        },
+        {
+          "label": "old-web path",
+          "href": "/zones/internet-culture/"
+        }
+      ],
+      "sourceIds": [],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1998/#month-mar",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1998.html.txt",
+        "start": 14236,
+        "end": 14713,
+        "lineStart": 176,
+        "lineEnd": 181,
+        "sha256": "cb2b90ae655b4ebe805068c8a3f7f525454a086396e46b9170c9779397440987"
+      }
+    },
+    {
+      "id": "month-1998-04",
+      "kind": "monthly-context",
+      "year": 1998,
+      "month": 4,
+      "datePrecision": "month",
+      "title": "TV gets more teen-coded",
+      "paragraphs": [
+        "Dawson’s Creek arrives in January and keeps building spring conversation, pushing self-aware, soundtrack-heavy teen melodrama into the center of late-90s screen culture."
+      ],
+      "links": [
+        {
+          "label": "series ↗",
+          "href": "https://en.wikipedia.org/wiki/Dawson%27s_Creek"
+        },
+        {
+          "label": "TV room",
+          "href": "/zones/tv-movies/"
+        }
+      ],
+      "sourceIds": [
+        "source-f0be3bf8adae27b9"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1998/#month-apr",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1998.html.txt",
+        "start": 14724,
+        "end": 15266,
+        "lineStart": 182,
+        "lineEnd": 187,
+        "sha256": "8d90201ff546b4bafc0bdf764ac231c498c6cad2953fa9f3f0656967f83651f4"
+      }
+    },
+    {
+      "id": "month-1998-05",
+      "kind": "monthly-context",
+      "year": 1998,
+      "month": 5,
+      "datePrecision": "month",
+      "title": "The iMac makes computers decorative",
+      "paragraphs": [
+        "Steve Jobs unveils the Bondi blue iMac in May, and suddenly the family computer is not just beige equipment — it is a lifestyle object with a color story and a mood."
+      ],
+      "links": [
+        {
+          "label": "iMac G3 ↗",
+          "href": "https://en.wikipedia.org/wiki/IMac_G3"
+        },
+        {
+          "label": "transparent-tech room",
+          "href": "/zones/transparent-tech/"
+        }
+      ],
+      "sourceIds": [
+        "source-beae912e8397db13"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1998/#month-may",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1998.html.txt",
+        "start": 15277,
+        "end": 15833,
+        "lineStart": 188,
+        "lineEnd": 193,
+        "sha256": "de171dee262f7ea1f4786108bb393246f096e8faa5105d6b96be9627d5894e1c"
+      }
+    },
+    {
+      "id": "month-1998-06",
+      "kind": "monthly-context",
+      "year": 1998,
+      "month": 6,
+      "datePrecision": "month",
+      "title": "Summer turns into a giant crossover ad",
+      "paragraphs": [
+        "Mulan, summer movie trailers, radio countdowns, toy aisles, and magazine covers all start syncing up. 1998 summer feels commercial in the most memorable way possible."
+      ],
+      "links": [
+        {
+          "label": "film ↗",
+          "href": "https://en.wikipedia.org/wiki/Mulan_(1998_film)"
+        },
+        {
+          "label": "media shelf",
+          "href": "/webring/?filter=tv-music-media#directory"
+        }
+      ],
+      "sourceIds": [
+        "source-b4fd97d0283920e3"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1998/#month-jun",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1998.html.txt",
+        "start": 15844,
+        "end": 16425,
+        "lineStart": 194,
+        "lineEnd": 199,
+        "sha256": "5744ee96d90e14de60fc6bcccdf76ac3febacd51a838c0a163484f8c4b9cb0b7"
+      }
+    },
+    {
+      "id": "month-1998-07",
+      "kind": "monthly-context",
+      "year": 1998,
+      "month": 7,
+      "datePrecision": "month",
+      "title": "Pokémon becomes a social system",
+      "paragraphs": [
+        "The U.S. Pokémon rollout starts turning schoolyards, lunch tables, and Game Boy link cables into a daily culture loop. It is game discovery, toy collecting, and friend drama in one package."
+      ],
+      "links": [
+        {
+          "label": "games ↗",
+          "href": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Red,_Blue,_and_Yellow"
+        },
+        {
+          "label": "games shelf",
+          "href": "/zones/games/"
+        }
+      ],
+      "sourceIds": [
+        "source-db5ba5f197e1eb95"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1998/#month-jul",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1998.html.txt",
+        "start": 16436,
+        "end": 17016,
+        "lineStart": 200,
+        "lineEnd": 205,
+        "sha256": "4ff4327300362230011e28863d69d2c19a25ab9e646c712eb9e44c5e89bfe572"
+      }
+    },
+    {
+      "id": "month-1998-08",
+      "kind": "monthly-context",
+      "year": 1998,
+      "month": 8,
+      "datePrecision": "month",
+      "title": "Translucent hardware hits the desk",
+      "paragraphs": [
+        "The iMac reaches stores in August and becomes a perfect late-90s object: internet-ready, colorful, visible, and impossible to mistake for an office machine."
+      ],
+      "links": [
+        {
+          "label": "hardware ↗",
+          "href": "https://en.wikipedia.org/wiki/IMac_G3"
+        },
+        {
+          "label": "transparent-tech room",
+          "href": "/zones/transparent-tech/"
+        }
+      ],
+      "sourceIds": [
+        "source-beae912e8397db13"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1998/#month-aug",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1998.html.txt",
+        "start": 17027,
+        "end": 17574,
+        "lineStart": 206,
+        "lineEnd": 211,
+        "sha256": "4e804d9ce1e34eb4349e82f565a36e75581ddbc574d5e0c27af11b2276c3897c"
+      }
+    },
+    {
+      "id": "month-1998-09",
+      "kind": "monthly-context",
+      "year": 1998,
+      "month": 9,
+      "datePrecision": "month",
+      "title": "TRL turns after-school time into a countdown ritual",
+      "paragraphs": [
+        "MTV premieres Total Request Live on September 14, making pop fandom, screaming studio crowds, and daily chart jockeying feel like a real-time national sport."
+      ],
+      "links": [
+        {
+          "label": "TRL ↗",
+          "href": "https://en.wikipedia.org/wiki/Total_Request_Live"
+        },
+        {
+          "label": "music room",
+          "href": "/zones/music/#chart-dial"
+        }
+      ],
+      "sourceIds": [
+        "source-4c69902525246337"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1998/#month-sep",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1998.html.txt",
+        "start": 17585,
+        "end": 18152,
+        "lineStart": 212,
+        "lineEnd": 217,
+        "sha256": "3591bff26ef60163cbbe1688ebe4307e7b41b8d42d643dd41274710220f4a420"
+      }
+    },
+    {
+      "id": "month-1998-10",
+      "kind": "monthly-context",
+      "year": 1998,
+      "month": 10,
+      "datePrecision": "month",
+      "title": "Google names the next internet habit",
+      "paragraphs": [
+        "Google is founded in September and the fall mood fits it perfectly: the web is now big enough that finding things is becoming a product category all by itself."
+      ],
+      "links": [
+        {
+          "label": "Google ↗",
+          "href": "https://en.wikipedia.org/wiki/Google"
+        },
+        {
+          "label": "old-web path",
+          "href": "/zones/internet-culture/"
+        }
+      ],
+      "sourceIds": [
+        "source-3b81d0aef0db5a49"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1998/#month-oct",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1998.html.txt",
+        "start": 18163,
+        "end": 18703,
+        "lineStart": 218,
+        "lineEnd": 223,
+        "sha256": "810677e343f71c9bd853b9ee8add16c40790135a5de1fd06ebe45e19605bf106"
+      }
+    },
+    {
+      "id": "month-1998-11",
+      "kind": "monthly-context",
+      "year": 1998,
+      "month": 11,
+      "datePrecision": "month",
+      "title": "Ocarina of Time lands like a myth",
+      "paragraphs": [
+        "Nintendo releases The Legend of Zelda: Ocarina of Time in November in Japan and North America, and suddenly guidebooks, secret hunting, and N64 time become sacred."
+      ],
+      "links": [
+        {
+          "label": "game ↗",
+          "href": "https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Ocarina_of_Time"
+        },
+        {
+          "label": "games shelf",
+          "href": "/zones/games/"
+        }
+      ],
+      "sourceIds": [
+        "source-9eb670693cd50fc4"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1998/#month-nov",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1998.html.txt",
+        "start": 18714,
+        "end": 19285,
+        "lineStart": 224,
+        "lineEnd": 229,
+        "sha256": "ed6769120157d4d9da37373352cad8359a0b980dbb5a00bd5599204430d18576"
+      }
+    },
+    {
+      "id": "month-1998-12",
+      "kind": "monthly-context",
+      "year": 1998,
+      "month": 12,
+      "datePrecision": "month",
+      "title": "Furby panic completes the year",
+      "paragraphs": [
+        "Furby, originally released in October, becomes a holiday-season obsession by December. 1998 ends exactly how it should: toy shortages, weird animatronic eyes, and adults trying to understand kid hype."
+      ],
+      "links": [
+        {
+          "label": "toy ↗",
+          "href": "https://en.wikipedia.org/wiki/Furby"
+        },
+        {
+          "label": "toy shelf",
+          "href": "/zones/tech-toys/"
+        }
+      ],
+      "sourceIds": [
+        "source-6af91b3c1e518963"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1998/#month-dec",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1998.html.txt",
+        "start": 19296,
+        "end": 19857,
+        "lineStart": 230,
+        "lineEnd": 235,
+        "sha256": "ddcdd9577f4d1f782482b5fa8fcc115d3b64a8130ff89f81d863e1965f12a516"
+      }
+    },
+    {
+      "id": "month-1999-01",
+      "kind": "monthly-context",
+      "year": 1999,
+      "month": 1,
+      "datePrecision": "month",
+      "title": "Teen pop takes the mall",
+      "paragraphs": [
+        "Britney’s \"...Baby One More Time\" arrives like a retail-season takeover and instantly proves 1999 radio will be bigger, glossier, and more youth-coded than ever."
+      ],
+      "links": [
+        {
+          "label": "song ↗",
+          "href": "https://en.wikipedia.org/wiki/...Baby_One_More_Time_(song)"
+        },
+        {
+          "label": "music room",
+          "href": "/zones/music/#chart-dial"
+        }
+      ],
+      "sourceIds": [
+        "source-c227e90ef9d762d0"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1999/#month-jan",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1999.html.txt",
+        "start": 13436,
+        "end": 13983,
+        "lineStart": 164,
+        "lineEnd": 169,
+        "sha256": "50748e5f849738f1b6c0b19045781ef9556153b14c87550b17792582687da62a"
+      }
+    },
+    {
+      "id": "month-1999-02",
+      "kind": "monthly-context",
+      "year": 1999,
+      "month": 2,
+      "datePrecision": "month",
+      "title": "Dot-com confidence feels normal",
+      "paragraphs": [
+        "By early 1999, portal brands, startup optimism, and internet-business talk are regular dinner-table conversation. The web starts sounding like infrastructure, not novelty."
+      ],
+      "links": [
+        {
+          "label": "old-web path",
+          "href": "/zones/internet-culture/"
+        },
+        {
+          "label": "source trails",
+          "href": "/webring/?filter=design-internet-history#directory"
+        }
+      ],
+      "sourceIds": [],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1999/#month-feb",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1999.html.txt",
+        "start": 13994,
+        "end": 14518,
+        "lineStart": 170,
+        "lineEnd": 175,
+        "sha256": "59856b86d7950fe5d90b16c3eb9e59cedf3fad492896ad4d9a8a501278cad011"
+      }
+    },
+    {
+      "id": "month-1999-03",
+      "kind": "monthly-context",
+      "year": 1999,
+      "month": 3,
+      "datePrecision": "month",
+      "title": "The Matrix rewires screen cool",
+      "paragraphs": [
+        "The Matrix hits theaters on March 31 and changes the whole year’s visual language: black vinyl, green code, bullet time, and “what is real?” talk everywhere."
+      ],
+      "links": [
+        {
+          "label": "film ↗",
+          "href": "https://en.wikipedia.org/wiki/The_Matrix"
+        },
+        {
+          "label": "screen room",
+          "href": "/zones/tv-movies/#photo-showroom"
+        }
+      ],
+      "sourceIds": [
+        "source-5716568b8bed64de"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1999/#month-mar",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1999.html.txt",
+        "start": 14529,
+        "end": 15084,
+        "lineStart": 176,
+        "lineEnd": 181,
+        "sha256": "9d1e79a53ad128e85ee28e8894942c8f0c979aa08f1e3a1e1fe01174261a4ba5"
+      }
+    },
+    {
+      "id": "month-1999-04",
+      "kind": "monthly-context",
+      "year": 1999,
+      "month": 4,
+      "datePrecision": "month",
+      "title": "CD burners feel like power tools",
+      "paragraphs": [
+        "Sharing music still takes effort, but the tools are spreading: MP3 folders, blank discs, Winamp playlists, and the sense that your home computer can now become your own radio station."
+      ],
+      "links": [
+        {
+          "label": "mixtape room",
+          "href": "/zones/music/#showroom"
+        },
+        {
+          "label": "CD-R photo stack",
+          "href": "#photo-showroom"
+        }
+      ],
+      "sourceIds": [],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1999/#month-apr",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1999.html.txt",
+        "start": 15095,
+        "end": 15598,
+        "lineStart": 182,
+        "lineEnd": 187,
+        "sha256": "cf0b8669f6b143c78b7bc9e8ec1e6ff7f7411cddb5b9125a8b62d87f98402351"
+      }
+    },
+    {
+      "id": "month-1999-05",
+      "kind": "monthly-context",
+      "year": 1999,
+      "month": 5,
+      "datePrecision": "month",
+      "title": "SpongeBob quietly enters the channel lineup",
+      "paragraphs": [
+        "SpongeBob SquarePants first airs as a sneak preview on May 1 before becoming a full Nickelodeon fixture later that summer — one of the decade’s biggest long-tail cartoon launches."
+      ],
+      "links": [
+        {
+          "label": "series ↗",
+          "href": "https://en.wikipedia.org/wiki/SpongeBob_SquarePants"
+        },
+        {
+          "label": "TV room",
+          "href": "/zones/tv-movies/"
+        }
+      ],
+      "sourceIds": [
+        "source-b6f9088843ae0c6a"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1999/#month-may",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1999.html.txt",
+        "start": 15609,
+        "end": 16186,
+        "lineStart": 188,
+        "lineEnd": 193,
+        "sha256": "83abd27ae5a2bfee37261f56a788951eb0c56bfba4405caabf7336366e98982d"
+      }
+    },
+    {
+      "id": "month-1999-06",
+      "kind": "monthly-context",
+      "year": 1999,
+      "month": 6,
+      "datePrecision": "month",
+      "title": "Napster launches and the old music economy starts wobbling",
+      "paragraphs": [
+        "Napster launches on June 1, 1999, and suddenly discovery is not just radio, MTV, or the record store. It is a search box, a modem, and a folder of files."
+      ],
+      "links": [
+        {
+          "label": "Napster ↗",
+          "href": "https://en.wikipedia.org/wiki/Napster"
+        },
+        {
+          "label": "mixtape room",
+          "href": "/zones/music/#showroom"
+        }
+      ],
+      "sourceIds": [
+        "source-e4c570271b1da292"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1999/#month-jun",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1999.html.txt",
+        "start": 16197,
+        "end": 16753,
+        "lineStart": 194,
+        "lineEnd": 199,
+        "sha256": "1ba93601c309fe6dfcd3c38ec401d4827ece3d47f7bf21c45a5f760557b409fb"
+      }
+    },
+    {
+      "id": "month-1999-07",
+      "kind": "monthly-context",
+      "year": 1999,
+      "month": 7,
+      "datePrecision": "month",
+      "title": "Blair Witch turns the web into a rumor machine",
+      "paragraphs": [
+        "The Blair Witch Project expands wide in July after web-driven buzz helps sell the illusion that the footage might be real. Internet myth-making becomes part of movie marketing."
+      ],
+      "links": [
+        {
+          "label": "film ↗",
+          "href": "https://en.wikipedia.org/wiki/The_Blair_Witch_Project"
+        },
+        {
+          "label": "old-web object atlas",
+          "href": "/zones/internet-culture/#artifact-atlas"
+        }
+      ],
+      "sourceIds": [
+        "source-d297b0a0bc1d9563"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1999/#month-jul",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1999.html.txt",
+        "start": 16764,
+        "end": 17383,
+        "lineStart": 200,
+        "lineEnd": 205,
+        "sha256": "da686ccbb01022164647d32e3fc31f64294e765e83b2422c15e5c4d32e77fddf"
+      }
+    },
+    {
+      "id": "month-1999-08",
+      "kind": "monthly-context",
+      "year": 1999,
+      "month": 8,
+      "datePrecision": "month",
+      "title": "Burned CDs become social currency",
+      "paragraphs": [
+        "By late summer, the ideal teenage object is increasingly homemade: a Sharpie-labeled disc full of radio hits, Napster grabs, soundtrack cuts, and one mystery track."
+      ],
+      "links": [
+        {
+          "label": "CD-R object trail",
+          "href": "/search/?filter=objects&q=CD-R"
+        },
+        {
+          "label": "music room",
+          "href": "/zones/music/#showroom"
+        }
+      ],
+      "sourceIds": [],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1999/#month-aug",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1999.html.txt",
+        "start": 17394,
+        "end": 17893,
+        "lineStart": 206,
+        "lineEnd": 211,
+        "sha256": "20da3b8785640a386974e811df8ad6f2fa534ad9ce07e4ba1e41182b3ec21aea"
+      }
+    },
+    {
+      "id": "month-1999-09",
+      "kind": "monthly-context",
+      "year": 1999,
+      "month": 9,
+      "datePrecision": "month",
+      "title": "Dreamcast lands on 9/9/99",
+      "paragraphs": [
+        "Sega launches Dreamcast in North America on September 9, 1999 — a perfect late-decade flex: modem-ready, arcade-bright, and marketed like an event instead of a toy."
+      ],
+      "links": [
+        {
+          "label": "console ↗",
+          "href": "https://en.wikipedia.org/wiki/Sega_Dreamcast"
+        },
+        {
+          "label": "games shelf",
+          "href": "/zones/games/#photo-showroom"
+        }
+      ],
+      "sourceIds": [
+        "source-0bf16ae8b7bf8fd4"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1999/#month-sep",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1999.html.txt",
+        "start": 17904,
+        "end": 18450,
+        "lineStart": 212,
+        "lineEnd": 217,
+        "sha256": "b5d8e762284f824a9faa6625a346e3325ec51637383c4bd4b8c8b6cd52baf5b0"
+      }
+    },
+    {
+      "id": "month-1999-10",
+      "kind": "monthly-context",
+      "year": 1999,
+      "month": 10,
+      "datePrecision": "month",
+      "title": "Y2K coverage gets louder",
+      "paragraphs": [
+        "By fall, Y2K stops being a nerd acronym and becomes normal news-anchor conversation: backups, banks, planes, power grids, office drills, and chain-email warnings everywhere."
+      ],
+      "links": [
+        {
+          "label": "Y2K ↗",
+          "href": "https://en.wikipedia.org/wiki/Year_2000_problem"
+        },
+        {
+          "label": "response-office photo",
+          "href": "#photo-showroom"
+        }
+      ],
+      "sourceIds": [
+        "source-8768be0594e06637"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1999/#month-oct",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1999.html.txt",
+        "start": 18461,
+        "end": 19011,
+        "lineStart": 218,
+        "lineEnd": 223,
+        "sha256": "9af3ab5c6a9bceb6e4dd085a7ab116c75ea824acb49904759be2656292f2e46a"
+      }
+    },
+    {
+      "id": "month-1999-11",
+      "kind": "monthly-context",
+      "year": 1999,
+      "month": 11,
+      "datePrecision": "month",
+      "title": "Holiday culture goes silver and digital",
+      "paragraphs": [
+        "Shopping season pushes shiny plastics, game hardware, music formats, and internet services all at once. The future looks metallic, compressed, and a little unstable."
+      ],
+      "links": [
+        {
+          "label": "tech shelf",
+          "href": "/zones/tech-toys/#photo-showroom"
+        },
+        {
+          "label": "games shelf",
+          "href": "/zones/games/#photo-showroom"
+        }
+      ],
+      "sourceIds": [],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1999/#month-nov",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1999.html.txt",
+        "start": 19022,
+        "end": 19530,
+        "lineStart": 224,
+        "lineEnd": 229,
+        "sha256": "b45cc7332a888e6ea205c98bbf5f464302bcf92b653a8912b08a28430a73b71a"
+      }
+    },
+    {
+      "id": "month-1999-12",
+      "kind": "monthly-context",
+      "year": 1999,
+      "month": 12,
+      "datePrecision": "month",
+      "title": "The countdown becomes the content",
+      "paragraphs": [
+        "Nothing in 1999 beats the last month: Y2K jokes, survival kits, TV specials, dot-com optimism, and a whole planet waiting to see if midnight is dramatic or boring."
+      ],
+      "links": [
+        {
+          "label": "Y2K ↗",
+          "href": "https://en.wikipedia.org/wiki/Year_2000_problem"
+        },
+        {
+          "label": "restart the decade",
+          "href": "/timeline/"
+        }
+      ],
+      "sourceIds": [
+        "source-8768be0594e06637"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1999/#month-dec",
+      "provenance": {
+        "snapshot": "reports/baseline/phase-1/pages/timeline-1999.html.txt",
+        "start": 19541,
+        "end": 20082,
+        "lineStart": 230,
+        "lineEnd": 235,
+        "sha256": "ea7f4b9d156d4e9d95da6073ed22bf68b9f64665ef97b68f5b02e2c7d80a4651"
+      }
+    }
+  ]
+}

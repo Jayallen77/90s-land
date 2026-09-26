@@ -1,0 +1,1222 @@
+[
+  {
+    "id": "family-pc",
+    "slug": "family-pc",
+    "title": "The family computer becomes a portal",
+    "dateRange": {
+      "startYear": 1995,
+      "endYear": 1999,
+      "label": "1995–1999"
+    },
+    "room": "tech-toys",
+    "label": "shared-room portal",
+    "curatorNote": "The future arrived in a shared room, surrounded by homework, mouse pads, and a phone line everyone needed.",
+    "whyItMattered": "Home computing made the web an everyday place instead of a specialist tool.",
+    "media": {
+      "kind": "image",
+      "src": "/assets/media/tech-toys/family-pc-rotterdam-1999.jpg",
+      "alt": "Late-1990s family desktop PC with CRT monitor and beige tower in a shared room.",
+      "width": 832,
+      "height": 624,
+      "credit": "Oompje, Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mypc11999.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    "relatedYears": [
+      1995,
+      1999
+    ],
+    "relatedArtifacts": [],
+    "relatedRoutes": [
+      "/zones/tech-toys/"
+    ],
+    "target": "/zones/tech-toys/#artifact-family-pc",
+    "interaction": null,
+    "status": "verified",
+    "randomEligible": true,
+    "tags": [
+      "computer",
+      "home",
+      "internet"
+    ]
+  },
+  {
+    "id": "windows-3",
+    "slug": "windows-3",
+    "title": "Windows 3.0 Program Manager",
+    "dateRange": {
+      "startYear": 1990,
+      "endYear": 1990,
+      "label": "1990"
+    },
+    "room": "timeline",
+    "label": "clickable beige future",
+    "curatorNote": "Colorful icons made the family PC feel less like office machinery and more like something worth exploring.",
+    "whyItMattered": "A friendlier visual interface helped normalize home computing before the mass web.",
+    "media": {
+      "kind": "image",
+      "src": "/assets/media/timeline-1990/windows-3-0-program-manager.png",
+      "alt": "Windows 3.0 Program Manager with colorful icons on a gray desktop.",
+      "width": 640,
+      "height": 480,
+      "credit": "Public-domain screenshot, Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:VirtualBox_Windows_3.0_20241202_02_12_2024_20_17_10.png",
+      "license": "Public domain"
+    },
+    "relatedYears": [
+      1990,
+      1992
+    ],
+    "relatedArtifacts": [],
+    "relatedRoutes": [
+      "/timeline/1990/"
+    ],
+    "target": "/timeline/1990/#artifact-windows-3",
+    "interaction": null,
+    "status": "verified",
+    "randomEligible": true,
+    "tags": [
+      "windows",
+      "software",
+      "desktop"
+    ]
+  },
+  {
+    "id": "first-website",
+    "slug": "first-website",
+    "title": "The first World Wide Web site",
+    "dateRange": {
+      "startYear": 1991,
+      "endYear": 1991,
+      "label": "1991"
+    },
+    "room": "internet-culture",
+    "label": "lab notes become a place",
+    "curatorNote": "The first site looks almost modest: text, blue links, and an explanation of what the web is supposed to be.",
+    "whyItMattered": "It established the linked-document grammar that everything else in the museum builds on.",
+    "media": {
+      "kind": "image",
+      "src": "/assets/media/timeline-1991/w3-first-website.png",
+      "alt": "Plain text-and-link view of the first World Wide Web site.",
+      "width": 1366,
+      "height": 655,
+      "credit": "CERN / Tim Berners-Lee, Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:W3_First_Website.png",
+      "license": "Public domain"
+    },
+    "relatedYears": [
+      1991
+    ],
+    "relatedArtifacts": [],
+    "relatedRoutes": [
+      "/timeline/1991/"
+    ],
+    "target": "/timeline/1991/#artifact-first-website",
+    "interaction": null,
+    "status": "verified",
+    "randomEligible": true,
+    "tags": [
+      "web",
+      "cern",
+      "hypertext"
+    ]
+  },
+  {
+    "id": "mosaic-browser",
+    "slug": "mosaic-browser",
+    "title": "NCSA Mosaic browser",
+    "dateRange": {
+      "startYear": 1993,
+      "endYear": 1993,
+      "label": "1993"
+    },
+    "room": "internet-culture",
+    "label": "the web gets a visual front door",
+    "curatorNote": "Gray chrome and inline images made the web feel like a navigable place rather than a technical rumor.",
+    "whyItMattered": "Mosaic helped visual browsing become legible to a much wider audience.",
+    "media": {
+      "kind": "image",
+      "src": "/assets/media/timeline-1993/ncsa-mosaic-browser-screenshot.png",
+      "alt": "NCSA Mosaic browser displaying an early web page inside gray window chrome.",
+      "width": 772,
+      "height": 668,
+      "credit": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:NCSA_Mosaic_Browser_Screenshot.png",
+      "license": "CC0"
+    },
+    "relatedYears": [
+      1993
+    ],
+    "relatedArtifacts": [],
+    "relatedRoutes": [
+      "/timeline/1993/"
+    ],
+    "target": "/timeline/1993/#artifact-mosaic-browser",
+    "interaction": null,
+    "status": "verified",
+    "randomEligible": true,
+    "tags": [
+      "mosaic",
+      "browser",
+      "web"
+    ]
+  },
+  {
+    "id": "geocities-homepage",
+    "slug": "geocities-homepage",
+    "title": "Handmade GeoCities homepage",
+    "dateRange": {
+      "startYear": 1994,
+      "endYear": 1998,
+      "label": "1994–1998"
+    },
+    "room": "internet-culture",
+    "label": "one person's corner of the web",
+    "curatorNote": "Tiled stars, a loud title, and an under-construction badge made the page feel visibly owned.",
+    "whyItMattered": "Personal publishing let ordinary people build identity and community without waiting for a platform.",
+    "media": {
+      "kind": "recreation",
+      "label": "GEOCITIES_HOME.HTML",
+      "alt": "CSS recreation of a bright handmade homepage with tiled stars and an under-construction badge.",
+      "credit": "Original HTML/CSS recreation by 90s.land",
+      "sourceUrl": null,
+      "license": "Original editorial recreation"
+    },
+    "relatedYears": [
+      1994,
+      1998
+    ],
+    "relatedArtifacts": [],
+    "relatedRoutes": [
+      "/zones/internet-culture/"
+    ],
+    "target": "/zones/internet-culture/#artifact-geocities-homepage",
+    "interaction": "homepage-builder",
+    "status": "editorial",
+    "randomEligible": true,
+    "tags": [
+      "geocities",
+      "homepage",
+      "personal web"
+    ]
+  },
+  {
+    "id": "visitor-counter",
+    "slug": "visitor-counter",
+    "title": "Six-digit visitor counter",
+    "dateRange": {
+      "startYear": 1994,
+      "endYear": 1999,
+      "label": "1994–1999"
+    },
+    "room": "internet-culture",
+    "label": "proof somebody came by",
+    "curatorNote": "The number was tiny, public, and exciting precisely because each visit still felt like a person.",
+    "whyItMattered": "Counters made audience traces visible before engagement dashboards and follower totals.",
+    "media": {
+      "kind": "recreation",
+      "label": "000247",
+      "alt": "CSS recreation of a segmented six-digit visitor counter reading 000247.",
+      "credit": "Original HTML/CSS recreation by 90s.land",
+      "sourceUrl": null,
+      "license": "Original editorial recreation"
+    },
+    "relatedYears": [
+      1994,
+      1999
+    ],
+    "relatedArtifacts": [],
+    "relatedRoutes": [
+      "/zones/internet-culture/"
+    ],
+    "target": "/zones/internet-culture/#artifact-visitor-counter",
+    "interaction": null,
+    "status": "editorial",
+    "randomEligible": true,
+    "tags": [
+      "counter",
+      "homepage",
+      "audience"
+    ]
+  },
+  {
+    "id": "guestbook",
+    "slug": "guestbook",
+    "title": "Guestbook with six handles and one typo",
+    "dateRange": {
+      "startYear": 1994,
+      "endYear": 1999,
+      "label": "1994–1999"
+    },
+    "room": "internet-culture",
+    "label": "homepage proof of life",
+    "curatorNote": "Names, timestamps, and one misspelling could make a personal page feel occupied.",
+    "whyItMattered": "The early web felt social because human traces were visible instead of abstracted into metrics.",
+    "media": {
+      "kind": "recreation",
+      "label": "SIGN_GUESTBOOK.HTML",
+      "alt": "CSS recreation of a small guestbook entry list with screen names and timestamps.",
+      "credit": "Original HTML/CSS recreation by 90s.land",
+      "sourceUrl": null,
+      "license": "Original editorial recreation"
+    },
+    "relatedYears": [
+      1994,
+      1999
+    ],
+    "relatedArtifacts": [],
+    "relatedRoutes": [
+      "/zones/internet-culture/"
+    ],
+    "target": "/zones/internet-culture/#artifact-guestbook",
+    "interaction": null,
+    "status": "editorial",
+    "randomEligible": true,
+    "tags": [
+      "guestbook",
+      "community",
+      "handles"
+    ]
+  },
+  {
+    "id": "webring-bar",
+    "slug": "webring-bar",
+    "title": "Previous / random / next Webring bar",
+    "dateRange": {
+      "startYear": 1995,
+      "endYear": 1999,
+      "label": "1995–1999"
+    },
+    "room": "internet-culture",
+    "label": "human-made discovery path",
+    "curatorNote": "A small navigation strip let one strange site vouch for the next.",
+    "whyItMattered": "Webrings created sideways discovery through explicit community membership rather than invisible ranking.",
+    "media": {
+      "kind": "recreation",
+      "label": "← PREV · RANDOM · NEXT →",
+      "alt": "CSS recreation of a classic Webring navigation bar.",
+      "credit": "Original HTML/CSS recreation by 90s.land",
+      "sourceUrl": null,
+      "license": "Original editorial recreation"
+    },
+    "relatedYears": [
+      1995,
+      1999
+    ],
+    "relatedArtifacts": [],
+    "relatedRoutes": [
+      "/zones/internet-culture/"
+    ],
+    "target": "/zones/internet-culture/#artifact-webring-bar",
+    "interaction": null,
+    "status": "editorial",
+    "randomEligible": true,
+    "tags": [
+      "webring",
+      "navigation",
+      "discovery"
+    ]
+  },
+  {
+    "id": "aim-away-message",
+    "slug": "aim-away-message",
+    "title": "AIM away message",
+    "dateRange": {
+      "startYear": 1997,
+      "endYear": 1999,
+      "label": "1997–1999"
+    },
+    "room": "internet-culture",
+    "label": "screen-name identity object",
+    "curatorNote": "One dramatic lyric, an ASCII heart, and a carefully chosen screen name could carry an entire mood.",
+    "whyItMattered": "Buddy lists turned online identity and availability into an everyday social performance.",
+    "media": {
+      "kind": "recreation",
+      "label": "xXstargrrl97Xx is away",
+      "alt": "CSS recreation of an AIM-style buddy and away-message window.",
+      "credit": "Original HTML/CSS recreation by 90s.land",
+      "sourceUrl": null,
+      "license": "Original editorial recreation"
+    },
+    "relatedYears": [
+      1997,
+      1998,
+      1999
+    ],
+    "relatedArtifacts": [],
+    "relatedRoutes": [
+      "/zones/internet-culture/"
+    ],
+    "target": "/zones/internet-culture/#artifact-aim-away-message",
+    "interaction": null,
+    "status": "editorial",
+    "randomEligible": true,
+    "tags": [
+      "aim",
+      "screen name",
+      "messaging"
+    ]
+  },
+  {
+    "id": "yahoo-directory",
+    "slug": "yahoo-directory",
+    "title": "Hand-built Yahoo directory",
+    "dateRange": {
+      "startYear": 1994,
+      "endYear": 1998,
+      "label": "1994–1998"
+    },
+    "room": "internet-culture",
+    "label": "the web sorted by people",
+    "curatorNote": "Categories and subcategories made the expanding web feel browsable by subject.",
+    "whyItMattered": "Human-curated directories were a key bridge between wandering links and algorithmic search.",
+    "media": {
+      "kind": "recreation",
+      "label": "YAHOO! DIRECTORY",
+      "alt": "CSS recreation of a purple directory page with human-curated categories.",
+      "credit": "Original HTML/CSS recreation by 90s.land",
+      "sourceUrl": null,
+      "license": "Original editorial recreation"
+    },
+    "relatedYears": [
+      1994,
+      1998
+    ],
+    "relatedArtifacts": [],
+    "relatedRoutes": [
+      "/zones/internet-culture/"
+    ],
+    "target": "/zones/internet-culture/#artifact-yahoo-directory",
+    "interaction": null,
+    "status": "editorial",
+    "randomEligible": true,
+    "tags": [
+      "yahoo",
+      "directory",
+      "search"
+    ]
+  },
+  {
+    "id": "aol-cd",
+    "slug": "aol-cd",
+    "title": "AOL promotional CD",
+    "dateRange": {
+      "startYear": 1995,
+      "endYear": 1999,
+      "label": "1995–1999"
+    },
+    "room": "tech-toys",
+    "label": "the internet arrives in the mailbox",
+    "curatorNote": "Bright trial discs promised free hours and a setup wizard while quietly taking over the family phone line.",
+    "whyItMattered": "Mass distribution turned getting online into a consumer ritual.",
+    "media": {
+      "kind": "image",
+      "src": "/assets/media/tech-toys/aol-promotional-cds.jpg",
+      "alt": "Stack of colorful AOL promotional CDs and sleeves.",
+      "width": 960,
+      "height": 720,
+      "credit": "Jeran Renz, Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:AOL_promotional_CDs_in_Canada.jpg",
+      "license": "CC0"
+    },
+    "relatedYears": [
+      1995,
+      1999
+    ],
+    "relatedArtifacts": [],
+    "relatedRoutes": [
+      "/zones/tech-toys/"
+    ],
+    "target": "/zones/tech-toys/#artifact-aol-cd",
+    "interaction": null,
+    "status": "verified",
+    "randomEligible": true,
+    "tags": [
+      "aol",
+      "dial-up",
+      "cd-rom"
+    ]
+  },
+  {
+    "id": "windows-95-start",
+    "slug": "windows-95-start",
+    "title": "Windows 95 Start button",
+    "dateRange": {
+      "startYear": 1995,
+      "endYear": 1995,
+      "label": "1995"
+    },
+    "room": "timeline",
+    "label": "the future gets a start point",
+    "curatorNote": "The new button gave the desktop a friendly, memorable center.",
+    "whyItMattered": "Windows 95 made personal computing an unmistakable mass-culture event.",
+    "media": {
+      "kind": "image",
+      "src": "/assets/media/timeline-1995/windows95-start-button.png",
+      "alt": "Windows 95 desktop with the Start button visible on the taskbar.",
+      "width": 1440,
+      "height": 560,
+      "credit": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Windows95-4.0.302-Desktop,_start_button.png",
+      "license": "See source page"
+    },
+    "relatedYears": [
+      1995
+    ],
+    "relatedArtifacts": [],
+    "relatedRoutes": [
+      "/timeline/1995/"
+    ],
+    "target": "/timeline/1995/#artifact-windows-95-start",
+    "interaction": null,
+    "status": "verified",
+    "randomEligible": true,
+    "tags": [
+      "windows 95",
+      "start button",
+      "desktop"
+    ]
+  },
+  {
+    "id": "pager",
+    "slug": "pager",
+    "title": "Motorola pager",
+    "dateRange": {
+      "startYear": 1992,
+      "endYear": 1998,
+      "label": "1992–1998"
+    },
+    "room": "tech-toys",
+    "label": "pocket-status beep",
+    "curatorNote": "The tiny display mattered less than the feeling that a message could come find you.",
+    "whyItMattered": "Pagers normalized portable availability before phones became pocket computers.",
+    "media": {
+      "kind": "image",
+      "src": "/assets/media/tech-toys/motorola-pager-teletrim.jpg",
+      "alt": "Black Motorola pager with a small display and belt clip.",
+      "width": 960,
+      "height": 720,
+      "credit": "Andrepinto40, Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pager_teletrim.JPG",
+      "license": "Public domain"
+    },
+    "relatedYears": [
+      1992,
+      1998
+    ],
+    "relatedArtifacts": [],
+    "relatedRoutes": [
+      "/zones/tech-toys/"
+    ],
+    "target": "/zones/tech-toys/#artifact-pager",
+    "interaction": null,
+    "status": "verified",
+    "randomEligible": true,
+    "tags": [
+      "pager",
+      "communication",
+      "portable"
+    ]
+  },
+  {
+    "id": "cassette",
+    "slug": "cassette",
+    "title": "Mixtape cassette",
+    "dateRange": {
+      "startYear": 1990,
+      "endYear": 1997,
+      "label": "1990–1997"
+    },
+    "room": "music",
+    "label": "hand-built sequence",
+    "curatorNote": "Pause-button edits and handwritten track lists made every tape a small act of authorship.",
+    "whyItMattered": "The mixtape made music discovery physical, social, and intentionally sequenced.",
+    "media": {
+      "kind": "image",
+      "src": "/assets/media/music/compact-cassette-maxell.jpg",
+      "alt": "Compact cassette with visible reels and label area.",
+      "width": 1280,
+      "height": 960,
+      "credit": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Compact_Cassette_-_Maxell_MX_60.JPG",
+      "license": "CC BY-SA 4.0"
+    },
+    "relatedYears": [
+      1990,
+      1991,
+      1997
+    ],
+    "relatedArtifacts": [],
+    "relatedRoutes": [
+      "/zones/music/"
+    ],
+    "target": "/zones/music/#artifact-cassette",
+    "interaction": null,
+    "status": "verified",
+    "randomEligible": true,
+    "tags": [
+      "cassette",
+      "mixtape",
+      "radio"
+    ]
+  },
+  {
+    "id": "discman",
+    "slug": "discman",
+    "title": "Sony Discman",
+    "dateRange": {
+      "startYear": 1990,
+      "endYear": 1999,
+      "label": "1990–1999"
+    },
+    "room": "music",
+    "label": "portable CD ritual",
+    "curatorNote": "A careful walk, a pocket full of jewel cases, and anti-skip optimism created a personal soundtrack outside the house.",
+    "whyItMattered": "Portable CD players made album ownership mobile while keeping the format tactile.",
+    "media": {
+      "kind": "image",
+      "src": "/assets/media/music/discman-d121.jpg",
+      "alt": "Open black Sony Discman D121 portable CD player.",
+      "width": 1280,
+      "height": 1427,
+      "credit": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Discman_D121.jpg",
+      "license": "CC BY-SA 3.0"
+    },
+    "relatedYears": [
+      1990,
+      1997,
+      1999
+    ],
+    "relatedArtifacts": [],
+    "relatedRoutes": [
+      "/zones/music/"
+    ],
+    "target": "/zones/music/#artifact-discman",
+    "interaction": null,
+    "status": "verified",
+    "randomEligible": true,
+    "tags": [
+      "discman",
+      "cd",
+      "portable"
+    ]
+  },
+  {
+    "id": "cdr-spindle",
+    "slug": "cdr-spindle",
+    "title": "Blank CD-R spindle",
+    "dateRange": {
+      "startYear": 1997,
+      "endYear": 1999,
+      "label": "1997–1999"
+    },
+    "room": "music",
+    "label": "burn-your-own future",
+    "curatorNote": "The rainbow discs waited to become a summer mix, a backup, or a folder of badly labeled MP3s.",
+    "whyItMattered": "CD burners shifted music collections from sealed packages toward personal copying and sequencing.",
+    "media": {
+      "kind": "image",
+      "src": "/assets/media/music/cd-r-spindle.jpg",
+      "alt": "Spindle of blank CD-R discs with rainbow reflections.",
+      "width": 1280,
+      "height": 960,
+      "credit": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:CD-R-Stapel.jpg",
+      "license": "CC BY-SA 3.0"
+    },
+    "relatedYears": [
+      1997,
+      1998,
+      1999
+    ],
+    "relatedArtifacts": [],
+    "relatedRoutes": [
+      "/zones/music/"
+    ],
+    "target": "/zones/music/#artifact-cdr-spindle",
+    "interaction": null,
+    "status": "verified",
+    "randomEligible": true,
+    "tags": [
+      "cd-r",
+      "burned cd",
+      "mp3"
+    ]
+  },
+  {
+    "id": "vhs-tape",
+    "slug": "vhs-tape",
+    "title": "VHS videocassette",
+    "dateRange": {
+      "startYear": 1990,
+      "endYear": 1999,
+      "label": "1990–1999"
+    },
+    "room": "tv-movies",
+    "label": "the whole night on one tape",
+    "curatorNote": "Handwritten labels, recorded commercials, trailers, and rewinding arguments lived inside the same plastic shell.",
+    "whyItMattered": "VHS made screen culture ownable, repeatable, and full of accidental context.",
+    "media": {
+      "kind": "image",
+      "src": "/assets/media/tv-movies/vhs-videocassette-front.jpg",
+      "alt": "Black VHS cassette with clear reel windows and blank label area.",
+      "width": 1280,
+      "height": 854,
+      "credit": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:VHS_videocassette_-_front.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    "relatedYears": [
+      1990,
+      1996,
+      1999
+    ],
+    "relatedArtifacts": [],
+    "relatedRoutes": [
+      "/zones/tv-movies/"
+    ],
+    "target": "/zones/tv-movies/#artifact-vhs-tape",
+    "interaction": null,
+    "status": "verified",
+    "randomEligible": true,
+    "tags": [
+      "vhs",
+      "rental",
+      "recording"
+    ]
+  },
+  {
+    "id": "crt-television",
+    "slug": "crt-television",
+    "title": "Living-room CRT television",
+    "dateRange": {
+      "startYear": 1990,
+      "endYear": 1999,
+      "label": "1990–1999"
+    },
+    "room": "tv-movies",
+    "label": "shared-screen gravity",
+    "curatorNote": "Cartoons, sitcoms, local ads, and half-finished movies all arrived through one household object.",
+    "whyItMattered": "The shared television schedule gave the decade a common rhythm before streaming fragmented attention.",
+    "media": {
+      "kind": "image",
+      "src": "/assets/media/tv-movies/1990s-television-set.jpg",
+      "alt": "Chunky 1990s CRT television with curved glass and built-in speakers.",
+      "width": 409,
+      "height": 592,
+      "credit": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:1990s_Television_Set.jpg",
+      "license": "CC BY 4.0"
+    },
+    "relatedYears": [
+      1990,
+      1999
+    ],
+    "relatedArtifacts": [],
+    "relatedRoutes": [
+      "/zones/tv-movies/"
+    ],
+    "target": "/zones/tv-movies/#artifact-crt-television",
+    "interaction": null,
+    "status": "verified",
+    "randomEligible": true,
+    "tags": [
+      "crt",
+      "television",
+      "shared screen"
+    ]
+  },
+  {
+    "id": "blockbuster-store",
+    "slug": "blockbuster-store",
+    "title": "Blockbuster storefront",
+    "dateRange": {
+      "startYear": 1990,
+      "endYear": 1999,
+      "label": "1990–1999"
+    },
+    "room": "tv-movies",
+    "label": "Friday-night starting gun",
+    "curatorNote": "The glowing sign began a group negotiation conducted through box art and one-copy-left panic.",
+    "whyItMattered": "Rental stores turned choosing media into a physical, social ritual.",
+    "media": {
+      "kind": "image",
+      "src": "/assets/media/tv-movies/blockbuster-storefront.jpg",
+      "alt": "Blockbuster Video storefront at dusk with its blue-and-yellow sign lit.",
+      "width": 1280,
+      "height": 960,
+      "credit": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anchorage_Blockbuster_video_store_(41894012562).jpg",
+      "license": "CC BY 2.0"
+    },
+    "relatedYears": [
+      1990,
+      1999
+    ],
+    "relatedArtifacts": [],
+    "relatedRoutes": [
+      "/zones/tv-movies/"
+    ],
+    "target": "/zones/tv-movies/#artifact-blockbuster-store",
+    "interaction": null,
+    "status": "verified",
+    "randomEligible": true,
+    "tags": [
+      "blockbuster",
+      "rental",
+      "movie night"
+    ]
+  },
+  {
+    "id": "arcade-cabinet",
+    "slug": "arcade-cabinet",
+    "title": "Arcade cabinet",
+    "dateRange": {
+      "startYear": 1990,
+      "endYear": 1999,
+      "label": "1990–1999"
+    },
+    "room": "games",
+    "label": "public confidence test",
+    "curatorNote": "Attract-mode audio, quarter stacks, and spectators made the machine a small public stage.",
+    "whyItMattered": "Arcades made play communal, noisy, and performative before online matchmaking.",
+    "media": {
+      "kind": "image",
+      "src": "/assets/media/games/marble-madness-arcade-cabinet.jpg",
+      "alt": "Marble Madness arcade cabinet with side art, controls, and lit screen.",
+      "width": 1280,
+      "height": 1707,
+      "credit": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Marble_Madness_arcade_cabinet.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    "relatedYears": [
+      1990,
+      1992,
+      1999
+    ],
+    "relatedArtifacts": [],
+    "relatedRoutes": [
+      "/zones/games/"
+    ],
+    "target": "/zones/games/#artifact-arcade-cabinet",
+    "interaction": null,
+    "status": "verified",
+    "randomEligible": true,
+    "tags": [
+      "arcade",
+      "cabinet",
+      "quarters"
+    ]
+  },
+  {
+    "id": "genesis-controller",
+    "slug": "genesis-controller",
+    "title": "Sega Genesis six-button controller",
+    "dateRange": {
+      "startYear": 1993,
+      "endYear": 1999,
+      "label": "1993–1999"
+    },
+    "room": "games",
+    "label": "couch-war muscle memory",
+    "curatorNote": "The pad carried fighting-game technique, sports-game trash talk, and console loyalty.",
+    "whyItMattered": "Controller feel became part of personal and group identity during the console wars.",
+    "media": {
+      "kind": "image",
+      "src": "/assets/media/games/sega-genesis-6-button-controller.jpg",
+      "alt": "Black Sega Genesis six-button controller seen from above.",
+      "width": 1280,
+      "height": 658,
+      "credit": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sega-Genesis-Mk2-6button.jpg",
+      "license": "CC BY-SA 3.0"
+    },
+    "relatedYears": [
+      1991,
+      1993,
+      1999
+    ],
+    "relatedArtifacts": [],
+    "relatedRoutes": [
+      "/zones/games/"
+    ],
+    "target": "/zones/games/#artifact-genesis-controller",
+    "interaction": null,
+    "status": "verified",
+    "randomEligible": true,
+    "tags": [
+      "sega",
+      "genesis",
+      "controller"
+    ]
+  },
+  {
+    "id": "n64-controller",
+    "slug": "n64-controller",
+    "title": "Gray Nintendo 64 controller",
+    "dateRange": {
+      "startYear": 1996,
+      "endYear": 1999,
+      "label": "1996–1999"
+    },
+    "room": "games",
+    "label": "three-prong multiplayer sculpture",
+    "curatorNote": "Its odd shape and analog stick announced that 3D games would need a different kind of touch.",
+    "whyItMattered": "The controller became an icon of couch multiplayer and experimental 3D design.",
+    "media": {
+      "kind": "image",
+      "src": "/assets/media/games/n64-controller-gray.jpg",
+      "alt": "Gray Nintendo 64 controller with three-prong grip and central analog stick.",
+      "width": 1280,
+      "height": 1021,
+      "credit": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:N64-Controller-Gray.jpg",
+      "license": "Public domain"
+    },
+    "relatedYears": [
+      1996,
+      1999
+    ],
+    "relatedArtifacts": [],
+    "relatedRoutes": [
+      "/zones/games/"
+    ],
+    "target": "/zones/games/#artifact-n64-controller",
+    "interaction": null,
+    "status": "verified",
+    "randomEligible": true,
+    "tags": [
+      "nintendo 64",
+      "controller",
+      "multiplayer"
+    ]
+  },
+  {
+    "id": "playstation-hardware",
+    "slug": "playstation-hardware",
+    "title": "Original PlayStation hardware",
+    "dateRange": {
+      "startYear": 1994,
+      "endYear": 1999,
+      "label": "1994–1999"
+    },
+    "room": "games",
+    "label": "the console grows up",
+    "curatorNote": "Gray hardware, CDs, and memory cards made the next console era feel sleek and cinematic.",
+    "whyItMattered": "PlayStation broadened the audience and language of console games.",
+    "media": {
+      "kind": "image",
+      "src": "/assets/media/timeline-1995/playstation-controller.jpg",
+      "alt": "Original gray PlayStation console with its controller.",
+      "width": 1600,
+      "height": 696,
+      "credit": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:PlayStation-SCPH-1000-with-Controller.jpg",
+      "license": "See source page"
+    },
+    "relatedYears": [
+      1994,
+      1995,
+      1996,
+      1999
+    ],
+    "relatedArtifacts": [],
+    "relatedRoutes": [
+      "/timeline/1995/"
+    ],
+    "target": "/timeline/1994/#artifact-playstation-hardware",
+    "interaction": null,
+    "status": "verified",
+    "randomEligible": true,
+    "tags": [
+      "playstation",
+      "cd-rom",
+      "console"
+    ]
+  },
+  {
+    "id": "bondi-imac",
+    "slug": "bondi-imac",
+    "title": "Bondi blue iMac G3",
+    "dateRange": {
+      "startYear": 1998,
+      "endYear": 1999,
+      "label": "1998–1999"
+    },
+    "room": "transparent-tech",
+    "label": "the computer becomes room decor",
+    "curatorNote": "The rounded translucent shell replaced beige utility with color, friendliness, and visible personality.",
+    "whyItMattered": "The iMac made consumer hardware design part of mainstream identity.",
+    "media": {
+      "kind": "image",
+      "src": "/assets/media/transparent-tech/imac-g3-bondi-blue.png",
+      "alt": "Bondi blue iMac G3 with rounded translucent shell.",
+      "width": 960,
+      "height": 895,
+      "credit": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:IMac_G3_Bondi_Blue,_three-quarters_view.png",
+      "license": "CC BY-SA 4.0"
+    },
+    "relatedYears": [
+      1998,
+      1999
+    ],
+    "relatedArtifacts": [],
+    "relatedRoutes": [
+      "/zones/transparent-tech/"
+    ],
+    "target": "/zones/transparent-tech/#artifact-bondi-imac",
+    "interaction": null,
+    "status": "verified",
+    "randomEligible": true,
+    "tags": [
+      "imac",
+      "apple",
+      "transparent"
+    ]
+  },
+  {
+    "id": "dreamcast",
+    "slug": "dreamcast",
+    "title": "Sega Dreamcast",
+    "dateRange": {
+      "startYear": 1999,
+      "endYear": 1999,
+      "label": "1999"
+    },
+    "room": "games",
+    "label": "a modem inside the console",
+    "curatorNote": "The white hardware and VMU made the last year of the decade feel connected, arcade-bright, and slightly ahead of schedule.",
+    "whyItMattered": "Dreamcast previewed online console habits that would become normal in the next decade.",
+    "media": {
+      "kind": "image",
+      "src": "/assets/media/timeline-1999/dreamcast-console.jpg",
+      "alt": "White Sega Dreamcast console with controller and VMU.",
+      "width": 1400,
+      "height": 678,
+      "credit": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sega-Dreamcast-Console-Set.jpg",
+      "license": "See source page"
+    },
+    "relatedYears": [
+      1999
+    ],
+    "relatedArtifacts": [],
+    "relatedRoutes": [
+      "/timeline/1999/"
+    ],
+    "target": "/timeline/1999/#artifact-dreamcast",
+    "interaction": null,
+    "status": "verified",
+    "randomEligible": true,
+    "tags": [
+      "dreamcast",
+      "sega",
+      "modem"
+    ]
+  },
+  {
+    "id": "y2k-office",
+    "slug": "y2k-office",
+    "title": "Y2K response office",
+    "dateRange": {
+      "startYear": 1999,
+      "endYear": 1999,
+      "label": "1999"
+    },
+    "room": "timeline",
+    "label": "the countdown becomes infrastructure",
+    "curatorNote": "Rows of screens and response teams turned a date change into nightly-news suspense.",
+    "whyItMattered": "Y2K made invisible software dependencies feel like a public cultural object.",
+    "media": {
+      "kind": "image",
+      "src": "/assets/media/timeline-1999/y2k-response-office.jpg",
+      "alt": "Year 2000 response office with staff, screens, and equipment.",
+      "width": 300,
+      "height": 226,
+      "credit": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Y2K_command_center.jpg",
+      "license": "See source page"
+    },
+    "relatedYears": [
+      1999
+    ],
+    "relatedArtifacts": [],
+    "relatedRoutes": [
+      "/timeline/1999/"
+    ],
+    "target": "/timeline/1999/#artifact-y2k-office",
+    "interaction": null,
+    "status": "verified",
+    "randomEligible": true,
+    "tags": [
+      "y2k",
+      "millennium",
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "hubble-launch",
+    "slug": "hubble-launch",
+    "title": "Hubble launch",
+    "dateRange": {
+      "startYear": 1990,
+      "endYear": 1990,
+      "label": "1990"
+    },
+    "room": "timeline",
+    "label": "the future as a launch plume",
+    "curatorNote": "The image belongs beside mall radio and VHS precisely because it shows how large the decade's opening horizon felt.",
+    "whyItMattered": "Hubble connected everyday screen culture to a sustained new view of the universe.",
+    "media": {
+      "kind": "image",
+      "src": "/assets/media/timeline-1990/hubble-launch.jpg",
+      "alt": "Space Shuttle Discovery launching Hubble with a bright plume.",
+      "width": 1904,
+      "height": 2860,
+      "credit": "NASA / ESA, Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hubble_Launch_(hst_launch_hi).jpg",
+      "license": "Public domain"
+    },
+    "relatedYears": [
+      1990
+    ],
+    "relatedArtifacts": [],
+    "relatedRoutes": [
+      "/timeline/1990/"
+    ],
+    "target": "/timeline/1990/#artifact-hubble-launch",
+    "interaction": null,
+    "status": "verified",
+    "randomEligible": true,
+    "tags": [
+      "hubble",
+      "nasa",
+      "space"
+    ]
+  },
+  {
+    "id": "doom-disks",
+    "slug": "doom-disks",
+    "title": "Doom shareware disks",
+    "dateRange": {
+      "startYear": 1993,
+      "endYear": 1993,
+      "label": "1993"
+    },
+    "room": "games",
+    "label": "hand-to-hand software menace",
+    "curatorNote": "The disks capture the after-hours secret life of the family computer better than a clean screenshot can.",
+    "whyItMattered": "Shareware distribution helped Doom spread as both software and social folklore.",
+    "media": {
+      "kind": "image",
+      "src": "/assets/media/timeline-1993/doom-disks.jpg",
+      "alt": "Small stack of Doom floppy disks spread across a table.",
+      "width": 1632,
+      "height": 1224,
+      "credit": "Pelle Wessman, Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Doom_Disks_(2954946319).jpg",
+      "license": "CC BY-SA 2.0"
+    },
+    "relatedYears": [
+      1993
+    ],
+    "relatedArtifacts": [],
+    "relatedRoutes": [
+      "/timeline/1993/"
+    ],
+    "target": "/timeline/1993/#artifact-doom-disks",
+    "interaction": null,
+    "status": "verified",
+    "randomEligible": true,
+    "tags": [
+      "doom",
+      "shareware",
+      "floppy"
+    ]
+  },
+  {
+    "id": "game-boy-color",
+    "slug": "game-boy-color",
+    "title": "Atomic Purple Game Boy Color",
+    "dateRange": {
+      "startYear": 1998,
+      "endYear": 1999,
+      "label": "1998–1999"
+    },
+    "room": "transparent-tech",
+    "label": "the backpack gets a clear shell",
+    "curatorNote": "Visible circuitry and candy-colored plastic made the handheld itself part of the collection.",
+    "whyItMattered": "Translucent design turned portable hardware into fashion and display.",
+    "media": {
+      "kind": "image",
+      "src": "/assets/media/transparent-tech/game-boy-color-purple.jpg",
+      "alt": "Atomic Purple Game Boy Color with a translucent shell.",
+      "width": 383,
+      "height": 625,
+      "credit": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Game_Boy_Color_Purple.jpg",
+      "license": "CC BY-SA 3.0"
+    },
+    "relatedYears": [
+      1998,
+      1999
+    ],
+    "relatedArtifacts": [],
+    "relatedRoutes": [
+      "/zones/transparent-tech/"
+    ],
+    "target": "/zones/transparent-tech/#artifact-game-boy-color",
+    "interaction": null,
+    "status": "verified",
+    "randomEligible": true,
+    "tags": [
+      "game boy color",
+      "transparent",
+      "handheld"
+    ]
+  },
+  {
+    "id": "transparent-n64-controller",
+    "slug": "transparent-n64-controller",
+    "title": "Transparent purple N64 controller",
+    "dateRange": {
+      "startYear": 1998,
+      "endYear": 1999,
+      "label": "1998–1999"
+    },
+    "room": "transparent-tech",
+    "label": "multiplayer gear becomes collectible",
+    "curatorNote": "A clear shell made even the controller on the carpet feel like room decor.",
+    "whyItMattered": "The trend blurred the line between tool, toy, and identity object.",
+    "media": {
+      "kind": "image",
+      "src": "/assets/media/transparent-tech/n64-controller-purple.jpg",
+      "alt": "Translucent purple Nintendo 64 controller viewed from above.",
+      "width": 1255,
+      "height": 1200,
+      "credit": "mboverload, Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:N64-controller-purple.jpg",
+      "license": "Public domain"
+    },
+    "relatedYears": [
+      1998,
+      1999
+    ],
+    "relatedArtifacts": [],
+    "relatedRoutes": [
+      "/zones/transparent-tech/"
+    ],
+    "target": "/zones/transparent-tech/#artifact-transparent-n64-controller",
+    "interaction": null,
+    "status": "verified",
+    "randomEligible": true,
+    "tags": [
+      "n64",
+      "transparent",
+      "controller"
+    ]
+  }
+]

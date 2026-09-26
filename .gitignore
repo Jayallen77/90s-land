@@ -1,5 +1,6 @@
 .herenow/
 .DS_Store
+__pycache__/
 node_modules/
 .pnpm-store/
 test-results/

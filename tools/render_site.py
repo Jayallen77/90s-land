@@ -12,6 +12,8 @@ from collections import Counter
 from pathlib import Path
 from urllib.parse import quote
 
+from validate_content import validate_catalogs as validate_existing_catalogs
+
 ROOT = Path(__file__).resolve().parents[1]
 SITE_URL = "https://90s.land"
 
@@ -1003,35 +1005,7 @@ def build_outputs() -> dict[Path, str]:
 
 
 def validate_catalogs() -> list[str]:
-    errors = []
-    artifact_ids = [item["id"] for item in ARTIFACTS]
-    if len(artifact_ids) != 30:
-        errors.append(f"Expected 30 artifacts, found {len(artifact_ids)}")
-    if len(set(artifact_ids)) != len(artifact_ids):
-        errors.append("Artifact IDs are not unique")
-    if len({item["id"] for item in RESOURCES}) != len(RESOURCES):
-        errors.append("Resource IDs are not unique")
-    if len(RESOURCES) != 78:
-        errors.append(f"Expected 78 unique resources, found {len(RESOURCES)}")
-    if sum(bool(item["featured"]) for item in RESOURCES) != 12:
-        errors.append("Expected 12 featured resource references")
-    for artifact in ARTIFACTS:
-        if artifact["status"] == "needs-source" and artifact["randomEligible"]:
-            errors.append(f'{artifact["id"]} is unsourced but random eligible')
-        if artifact["media"]["kind"] == "image":
-            media_path = ROOT / artifact["media"]["src"].lstrip("/")
-            if not media_path.exists():
-                errors.append(f"Missing artifact media: {media_path}")
-    for tour in TOURS:
-        if not 5 <= len(tour["stops"]) <= 7:
-            errors.append(f'{tour["id"]} must have 5–7 stops')
-        for stop in tour["stops"]:
-            for artifact_id in stop["artifactIds"]:
-                if artifact_id not in ARTIFACT_BY_ID:
-                    errors.append(f"Unknown tour artifact: {artifact_id}")
-        if tour["completionStampId"] not in STAMP_BY_ID:
-            errors.append(f'Unknown completion stamp: {tour["completionStampId"]}')
-    return errors
+    return validate_existing_catalogs(ROOT)
 
 
 def main() -> int:

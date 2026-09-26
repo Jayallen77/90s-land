@@ -1,6 +1,8 @@
 import { expect, test } from "@playwright/test";
 import AxeBuilder from "@axe-core/playwright";
 import routes from "../data/routes.json" with { type: "json" };
+import artifacts from "../data/artifacts.json" with { type: "json" };
+import resources from "../data/resources.json" with { type: "json" };
 
 const viewports = [
   { name: "mobile", width: 390, height: 844 },
@@ -155,9 +157,14 @@ test("tour deep links, recreation, resume, and completion work", async ({ page }
 
 test("search counts stay synchronized with the catalog", async ({ page }) => {
   await page.goto("/search/");
-  await expect(page.locator('[data-site-filter="objects"] span')).toHaveText("30");
-  await expect(page.locator("#searchSummaryObjects")).toHaveText("30");
-  await expect(page.locator('[data-site-filter="all"] span')).toHaveText("130");
+  const searchableRoutes = routes.filter(
+    (route) => !["/", "/search/", "/sitemap/", "/credits/"].includes(route.path)
+  );
+  await expect(page.locator('[data-site-filter="objects"] span')).toHaveText(String(artifacts.length));
+  await expect(page.locator("#searchSummaryObjects")).toHaveText(String(artifacts.length));
+  await expect(page.locator('[data-site-filter="all"] span')).toHaveText(
+    String(searchableRoutes.length + artifacts.length + resources.length)
+  );
 });
 
 test("search preserves URL state and gives recovery actions", async ({ page }) => {
@@ -207,7 +214,9 @@ test("core museum content and fallbacks work without JavaScript", async ({ brows
   await expect(page.locator("[data-tour-stop]")).toHaveCount(6);
   await expect(page.locator("[data-tour-stop]:visible")).toHaveCount(6);
   await page.goto("http://127.0.0.1:4173/surprise/");
-  await expect(page.locator(".mystery-envelope")).toHaveCount(30);
+  await expect(page.locator(".mystery-envelope")).toHaveCount(
+    artifacts.filter((artifact) => artifact.randomEligible && artifact.status !== "needs-source").length
+  );
   await context.close();
 });
 

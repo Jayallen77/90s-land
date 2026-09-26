@@ -1,0 +1,431 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+<!-- generated:head:start -->
+  <meta name="description" content="A 90s.land games museum room with sourced arcade and controller visuals, a faster co-op path, labeled objects, and launchpads for rental-weekend, strategy-guide, and LAN-night nostalgia." />
+  <title>Games — 90s.land</title>
+  <link rel="canonical" href="https://90s.land/zones/games/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="90s.land" />
+  <meta property="og:title" content="Games — 90s.land" />
+  <meta property="og:description" content="A 90s.land games museum room with sourced arcade and controller visuals, a faster co-op path, labeled objects, and launchpads for rental-weekend, strategy-guide, and LAN-night nostalgia." />
+  <meta property="og:url" content="https://90s.land/zones/games/" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Games — 90s.land" />
+  <meta name="twitter:description" content="A 90s.land games museum room with sourced arcade and controller visuals, a faster co-op path, labeled objects, and launchpads for rental-weekend, strategy-guide, and LAN-night nostalgia." />
+  <meta property="og:image" content="https://90s.land/assets/generated/og-card.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="90s.land playable museum lobby in neon CRT colors." />
+  <meta name="twitter:image" content="https://90s.land/assets/generated/og-card.png" />
+  <link rel="preload" href="/assets/fonts/space-mono-regular.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/assets/fonts/space-mono-bold.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/assets/fonts/press-start-2p-regular.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32.png" />
+  <link rel="apple-touch-icon" sizes="192x192" href="/assets/icons/icon-192.png" />
+  <link rel="manifest" href="/manifest.webmanifest" />
+<!-- generated:head:end -->
+  <link rel="stylesheet" href="/styles.css?v=timeline-hero-exhibit-1" />
+</head>
+<body data-route="/zones/games/" data-room="games">
+  <a class="skip-link" href="#main-content">Skip to museum content</a>
+  <div class="crt" aria-hidden="true"></div>
+  <div class="starfield" aria-hidden="true"></div>
+
+  <header class="topbar" id="top">
+    <a class="brand" href="/" aria-label="90s.land home"><span class="logo-box">90s</span><span>.land</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="siteNav">☰ Menu</button>
+    <!-- generated:navigation:start -->
+    <nav class="nav" id="siteNav" aria-label="Museum navigation">
+      <a href="/timeline/">Years</a>
+      <a href="/sitemap/">Museum Map</a>
+      <a href="/tours/before-the-feed/">Tour</a>
+      <a href="/webring/">Explore</a>
+      <a href="/search/">Search</a>
+      <div class="museum-toolbelt" aria-label="Museum tools">
+        <a class="museum-tool surprise-tool" href="/surprise/" data-surprise-trigger>Surprise me</a>
+        <button class="museum-tool passport-tool" type="button" data-passport-trigger hidden>
+          Passport <span data-passport-count aria-hidden="true">0</span>
+        </button>
+      </div>
+    </nav>
+<!-- generated:navigation:end -->
+  </header>
+
+  <main id="main-content" class="capsule-main">
+    <section class="window page-hero year-page capsule-hero">
+      <div class="window-bar"><span>GAMES_1UP_ARCADE.HTML</span><span class="window-buttons" aria-hidden="true">_ □ ×</span></div>
+      <div class="page-pad capsule-hero-grid">
+        <div>
+          <nav class="breadcrumbs"><a href="/">Home</a> / Zones / Games</nav>
+          <p class="eyebrow">portal zone // media-first museum room</p>
+          <h1><span class="pixel-icon">1UP</span> Games</h1>
+          <p class="lede">Arcade cabinets, six-button controllers, rental cartridges, strategy guides, link-up bragging rights, and LAN-night drift — the physical props of 90s play now show up before the long explanations do.</p>
+          <div class="highlight-strip"><span>arcade glow</span><span>rental weekends</span><span>couch co-op</span><span>guidebook lore</span><span>LAN-night future</span></div>
+          <div class="hero-actions">
+            <a class="button primary" href="#photo-showroom">Open photo stack</a>
+            <a class="button" href="#game-artifacts">Browse objects</a>
+            <a class="button" href="#game-media">Open media desk</a>
+          </div>
+        </div>
+        <aside class="capsule-glance" aria-label="Games room at a glance">
+          <p class="portal-kicker">At a glance</p>
+          <h2>From arcade line to couch floor to bedroom LAN</h2>
+          <div class="capsule-tags"><span>visual proof</span><span>friend-sendable route</span><span>object-level nostalgia</span></div>
+          <p class="mini-note">This rebuild trims the wall of text down into a faster room: sourced game hardware imagery first, a four-stop co-op path second, then labeled objects and launchpads for the exact kind of memory you want.</p>
+          <a class="button primary" href="#co-op-path">Start the co-op path</a>
+        </aside>
+      </div>
+    </section>
+
+    <nav class="capsule-jump-nav" aria-label="Games room navigation">
+      <a href="#why">Why it mattered</a>
+      <a href="#photo-showroom">Photo stack</a>
+      <a href="#fast-read">Fast read</a>
+      <a href="#co-op-path">Co-op path</a>
+      <a href="#game-artifacts">Objects</a>
+      <a href="#game-media">Media desk</a>
+    </nav>
+
+    <section class="portal-content standalone year-deep-dive capsule-layout">
+      <section class="portal-box capsule-section why-card" id="why">
+        <p class="portal-kicker">Why this room matters</p>
+        <h2>90s game culture lived in the hardware around the play.</h2>
+        <p>The decade's game memories are not just titles and release dates. They are cabinet art glowing from across the room, thumb-worn controllers, strategy guides with folded corners, rental labels, save files carried in pockets, and the first PCs that made game night feel slightly technical. The room gets easier to understand once those props appear immediately.</p>
+      </section>
+
+      <section class="portal-box capsule-section" id="photo-showroom">
+        <div class="section-heading compact-heading">
+          <p class="eyebrow">Photo stack</p>
+          <h2>Sourced visuals from the arcade-to-living-room route.</h2>
+          <p>Three anchors for the room: the cabinet people gathered around, the controller people argued over, and the weirder three-prong future sitting in the middle of the carpet.</p>
+        </div>
+        <div class="media-figure-grid">
+          <figure class="media-figure-card feature-figure">
+            <img src="/assets/media/games/marble-madness-arcade-cabinet.jpg" alt="A Marble Madness arcade cabinet standing upright with side art, joystick controls, and the lit game screen visible."  width="1280" height="1707"  loading="lazy"  decoding="async" />
+            <figcaption>
+              <strong>Arcade cabinet as public confidence test</strong>
+              <p>Before every household had the same gear, the cabinet was the shared stage: attract-mode music, quarter stacks, spectators leaning in, and one machine controlling the whole mood of the room.</p>
+              <p class="figure-source">Source: Wikimedia Commons, "Marble Madness arcade cabinet" (CC BY-SA 4.0).</p>
+              <div class="figure-links"><a href="https://commons.wikimedia.org/wiki/File:Marble_Madness_arcade_cabinet.jpg" target="_blank" rel="noopener noreferrer">source ↗</a><a href="/timeline/1992/">1992 arcade panic</a></div>
+            </figcaption>
+          </figure>
+          <figure class="media-figure-card">
+            <img src="/assets/media/games/sega-genesis-6-button-controller.jpg" alt="A Sega Genesis six-button controller photographed from above, showing its D-pad, shoulder curve, and rows of face buttons."  width="1280" height="658"  loading="lazy"  decoding="async" />
+            <figcaption>
+              <strong>Six-button controller from the couch-war era</strong>
+              <p>The pad itself carried rivalry and technique. You can feel fighting-game muscle memory, sports-game trash talk, and the tiny status difference between owning the better controller and borrowing the weird one.</p>
+              <p class="figure-source">Source: Wikimedia Commons, "Sega-Genesis-Mk2-6button" (CC BY-SA 3.0).</p>
+              <div class="figure-links"><a href="https://commons.wikimedia.org/wiki/File:Sega-Genesis-Mk2-6button.jpg" target="_blank" rel="noopener noreferrer">source ↗</a><a href="/timeline/1991/">1991 console identity</a></div>
+            </figcaption>
+          </figure>
+          <figure class="media-figure-card">
+            <img src="/assets/media/games/n64-controller-gray.jpg" alt="A gray Nintendo 64 controller photographed at an angle, showing the three-prong grip and analog stick in the center."  width="1280" height="1021"  loading="lazy"  decoding="async" />
+            <figcaption>
+              <strong>N64 controller as multiplayer-era sculpture</strong>
+              <p>The weird middle handle made 90s game hardware feel experimental, tactile, and instantly recognizable from across a room full of pizza boxes and strategy guides.</p>
+              <p class="figure-source">Source: Wikimedia Commons, "N64-Controller-Gray" (public domain).</p>
+              <div class="figure-links"><a href="https://commons.wikimedia.org/wiki/File:N64-Controller-Gray.jpg" target="_blank" rel="noopener noreferrer">source ↗</a><a href="/timeline/1996/#museum-objects">1996 N64 object shelf</a></div>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="portal-box capsule-section" id="fast-read">
+        <p class="portal-kicker">Fast read</p>
+        <h2>Why 90s game culture clicks into place fast</h2>
+        <ul>
+          <li><strong>The room mattered.</strong> Arcades, basements, bedrooms, school labs, and rental counters all changed the mood of the exact same hobby.</li>
+          <li><strong>The hardware mattered.</strong> Controllers, memory cards, cartridges, and link cables were part of the story, not side accessories.</li>
+          <li><strong>The rumor chain mattered.</strong> Guides, hotline tips, magazine previews, and schoolyard myths were the search engine before search became instant.</li>
+          <li><strong>The social friction mattered.</strong> One copy, one rental window, one second controller, one cabinet line, one save file everyone touched.</li>
+        </ul>
+        <h3>Open the strongest game-memory clicks first</h3>
+        <ul>
+          <li><a href="/timeline/1992/">1992</a> — arcades, Mortal Kombat panic, and the public side of the hobby getting louder.</li>
+          <li><a href="/timeline/1997/">1997</a> — <i>Final Fantasy VII</i>, <i>GoldenEye 007</i>, and blockbuster-console obsession.</li>
+          <li><a href="/timeline/1998/">1998</a> — Pokémon, <i>Ocarina</i>, handheld flex, strategy-guide aisles, and candy-color hardware.</li>
+          <li><a href="/webring/?filter=games-emulation#directory">Games &amp; Emulation ↗</a> — preservation paths when you want the room to keep going.</li>
+        </ul>
+      </section>
+
+      <section class="portal-box capsule-section" id="co-op-path">
+        <div class="section-heading compact-heading">
+          <p class="eyebrow">Guided co-op path</p>
+          <h2>Four quick stops from quarter line to LAN-night glow.</h2>
+          <p>Shorter, clearer, and more shareable than a generic everything-list.</p>
+        </div>
+        <div class="capsule-card-grid">
+          <article class="portal-box capsule-card">
+            <p class="portal-kicker">01 // public-play boot screen</p>
+            <h3>Start where people watched before they played</h3>
+            <p>Arcade carpet, cabinet side art, and one clearly best player in the room setting the whole tone.</p>
+            <a href="/timeline/1992/">Visit 1992 arcade panic</a>
+          </article>
+          <article class="portal-box capsule-card">
+            <p class="portal-kicker">02 // living-room rivalry</p>
+            <h3>Slide into the console-war couch</h3>
+            <p>SNES vs. Genesis loyalty, rental-weekend urgency, sports-game trash talk, and the second controller everybody blamed.</p>
+            <a href="/timeline/1995/">Open 1995 polygon shift</a>
+          </article>
+          <article class="portal-box capsule-card">
+            <p class="portal-kicker">03 // guidebook + rumor layer</p>
+            <h3>Then hit the cheat-code folklore</h3>
+            <p>Glossy walkthroughs, hotline tips, fake secret characters, magazine maps, and fan pages with blinking proof-of-concept confidence.</p>
+            <a href="/zones/internet-culture/#surf-path">Follow the old-web clue trail</a>
+          </article>
+          <article class="portal-box capsule-card">
+            <p class="portal-kicker">04 // local-network future</p>
+            <h3>Finish with shareware and LAN-night drift</h3>
+            <p>Beige towers, Doom / Quake installs, snack-stained keyboards, and the first feeling that the next match might happen online.</p>
+            <a href="/timeline/1999/">Visit 1999 networked future</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="portal-box capsule-section" id="game-artifacts">
+        <div class="section-heading compact-heading">
+          <p class="eyebrow">Object shelf</p>
+          <h2>Five props that explain the room faster than a big genre essay.</h2>
+          <p>Use the object layer when you remember the thing before the title.</p>
+        </div>
+        <div class="museum-object-grid">
+          <article class="museum-object-card">
+            <div class="object-meta"><span>rental object</span><span>weekend clock ticking</span></div>
+            <h3>Rented cartridge with somebody else's half-finished save file</h3>
+            <p>You learned games through leftovers: odd character names, half-spent items, and the weird intimacy of stepping into a stranger's progress on Friday night.</p>
+            <p class="object-note"><strong>Why it matters:</strong> access was temporary, communal, and shaped by whatever the store still had in stock.</p>
+            <div class="object-links"><a href="https://archive.org/details/consolelivingroom" target="_blank" rel="noopener noreferrer">Console Living Room ↗</a><a href="#co-op-path">back to co-op path</a></div>
+          </article>
+          <article class="museum-object-card">
+            <div class="object-meta"><span>guide object</span><span>folded map + highlighted page</span></div>
+            <h3>Strategy guide with one heavily creased spread</h3>
+            <p>The guide was part walkthrough, part flex, part pre-search-engine rumor delivery system. Seeing what existed ahead of you was half the thrill.</p>
+            <p class="object-note"><strong>Why it matters:</strong> discovery lived in print, repetition, and friend networks — not instant wiki answers.</p>
+            <div class="object-links"><a href="https://gamehistory.org/library/" target="_blank" rel="noopener noreferrer">VGHF library ↗</a><a href="/search/?filter=objects&q=strategy+guide">artifact atlas query</a></div>
+          </article>
+          <article class="museum-object-card">
+            <div class="object-meta"><span>session object</span><span>backpack pocket / friend-house carry</span></div>
+            <h3>Memory card labeled in fading marker</h3>
+            <p>Portable progress changed the texture of the decade. Saves became possessions, and bringing your data somewhere else felt faintly futuristic.</p>
+            <p class="object-note"><strong>Why it matters:</strong> games stopped belonging only to one machine in one room.</p>
+            <div class="object-links"><a href="/timeline/1997/">1997 console glow</a><a href="/search/?filter=objects&q=memory+card">artifact atlas query</a></div>
+          </article>
+          <article class="museum-object-card">
+            <div class="object-meta"><span>cabinet object</span><span>public room / quarter stack zone</span></div>
+            <h3>Arcade machine everybody watched before their turn</h3>
+            <p>The crowd around the machine mattered as much as the machine: shoulder-check spectators, sudden experts, and one skilled stranger becoming local legend for ten minutes.</p>
+            <p class="object-note"><strong>Why it matters:</strong> part of 90s game culture was public performance, not just private ownership.</p>
+            <div class="object-links"><a href="#photo-showroom">photo stack</a><a href="/timeline/1992/">1992 arcade bridge</a></div>
+          </article>
+          <article class="museum-object-card">
+            <div class="object-meta"><span>PC object</span><span>desk corner / school-lab afterthought</span></div>
+            <h3>Shareware floppy or demo disc with a scribbled label</h3>
+            <p>A tiny piece of media carrying a huge mood shift: suddenly the family computer could feel loud, illicit, and social instead of educational.</p>
+            <p class="object-note"><strong>Why it matters:</strong> the PC path pushed games toward modding, networking, and the next era of online play.</p>
+            <div class="object-links"><a href="/timeline/1993/">1993 Doom bridge</a><a href="/timeline/1999/">1999 LAN bridge</a></div>
+          </article>
+        </div>
+      </section>
+
+      <div class="portal-columns" id="game-media">
+        <div class="portal-box">
+          <div class="section-heading compact-heading">
+            <p class="eyebrow">Media desk</p>
+            <h2>Open the right source for the right game memory.</h2>
+            <p>The point is not to dump every archive. It is to give the cleanest next click for box art, playable preservation, and paper-trail history.</p>
+          </div>
+          <div class="media-callout-grid">
+            <article class="media-callout">
+              <div class="callout-meta"><span>browse path</span><span>cover-memory lookup</span></div>
+              <h3>MobyGames when you remember the box before the year</h3>
+              <p>Best for title lookup, screenshots, platform drift, credits, and the exact "I know this cover" jolt.</p>
+              <p class="callout-note"><strong>Media context:</strong> huge reference catalog for rediscovery, less about preserved play.</p>
+              <div class="callout-links"><a href="https://www.mobygames.com/" target="_blank" rel="noopener noreferrer">Browse MobyGames ↗</a><a href="#game-artifacts">object shelf</a></div>
+            </article>
+            <article class="media-callout">
+              <div class="callout-meta"><span>play path</span><span>living-room texture</span></div>
+              <h3>Internet Archive Console Living Room when you want the museum to boot up</h3>
+              <p>Use this when you want couch-side preservation energy instead of just a text description of old console software.</p>
+              <p class="callout-note"><strong>Media context:</strong> preservation and emulation layer for tactile nostalgia.</p>
+              <div class="callout-links"><a href="https://archive.org/details/consolelivingroom" target="_blank" rel="noopener noreferrer">Open Console Living Room ↗</a><a href="/webring/?filter=games-emulation#directory">games archive shelf</a></div>
+            </article>
+            <article class="media-callout">
+              <div class="callout-meta"><span>history path</span><span>magazines + ephemera</span></div>
+              <h3>Video Game History Foundation when you want the paper trail too</h3>
+              <p>Magazine scans, preservation reporting, artwork, catalogs, and the packaging around the hobby — especially useful when the prop is the memory.</p>
+              <p class="callout-note"><strong>Media context:</strong> scholarship + preservation layer for the culture around the games.</p>
+              <div class="callout-links"><a href="https://gamehistory.org/" target="_blank" rel="noopener noreferrer">Visit VGHF ↗</a><a href="/timeline/1998/">1998 strategy-guide aisle</a></div>
+            </article>
+          </div>
+        </div>
+        <div class="portal-box" id="game-links">
+          <h3>Related portal exits</h3>
+          <ul class="portal-link-list">
+            <li><a href="/timeline/1992/">1992</a> — arcade heat, controversy, and the public side of game culture getting louder.</li>
+            <li><a href="/timeline/1997/">1997</a> — blockbuster-console year when save files and split-screen mythology explode.</li>
+            <li><a href="/timeline/1998/">1998</a> — Pokémon, <i>Ocarina</i>, handheld flex, and game-store density at full power.</li>
+            <li><a href="/zones/transparent-tech/#objects">Transparent Tech</a> — clear-shell controllers and handhelds when the hardware itself is the nostalgia hit.</li>
+            <li><a href="/search/?filter=objects&q=memory+card">Artifact atlas: memory card</a> — navigate by remembered thing instead of page name.</li>
+            <li><a href="/guestbook/">Guestbook</a> — leave one rental-weekend memory, one fake cheat code, or one LAN-night story for the museum wall.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  <!-- generated:artifact-shelf:start -->
+    <section class="panel artifact-shelf" aria-labelledby="artifactShelfTitle-zones-games">
+      <div class="section-heading compact-heading">
+        <p class="eyebrow">Passport exhibit tray</p>
+        <h2 id="artifactShelfTitle-zones-games">Objects you can inspect here.</h2>
+        <p>Open a curator label, stamp the object, then follow its next connection.</p>
+      </div>
+      <div class="artifact-ticket-grid">
+      <article class="artifact-ticket" id="artifact-arcade-cabinet" data-artifact-id="arcade-cabinet">
+        <div class="artifact-ticket-media"><img src="/assets/media/games/marble-madness-arcade-cabinet.jpg" alt="Marble Madness arcade cabinet with side art, controls, and lit screen." width="1280" height="1707" loading="lazy" decoding="async" /></div>
+        <div class="artifact-ticket-copy">
+          <p class="artifact-label">public confidence test · 1990–1999</p>
+          <h3>Arcade cabinet</h3>
+        <details>
+          <summary>Open curator label</summary>
+          <p>Attract-mode audio, quarter stacks, and spectators made the machine a small public stage.</p>
+          <p><strong>Why it mattered:</strong> Arcades made play communal, noisy, and performative before online matchmaking.</p>
+          <p class="artifact-credit"><a href="https://commons.wikimedia.org/wiki/File:Marble_Madness_arcade_cabinet.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons ↗</a> · CC BY-SA 4.0</p>
+        </details>
+          <div class="artifact-actions">
+            <button class="button inspect-button" type="button" data-artifact-inspect="arcade-cabinet">Inspect + stamp</button>
+            <a href="/zones/games/#artifact-arcade-cabinet">Open exhibit</a>
+          </div>
+        </div>
+      </article>
+      <article class="artifact-ticket" id="artifact-genesis-controller" data-artifact-id="genesis-controller">
+        <div class="artifact-ticket-media"><img src="/assets/media/games/sega-genesis-6-button-controller.jpg" alt="Black Sega Genesis six-button controller seen from above." width="1280" height="658" loading="lazy" decoding="async" /></div>
+        <div class="artifact-ticket-copy">
+          <p class="artifact-label">couch-war muscle memory · 1993–1999</p>
+          <h3>Sega Genesis six-button controller</h3>
+        <details>
+          <summary>Open curator label</summary>
+          <p>The pad carried fighting-game technique, sports-game trash talk, and console loyalty.</p>
+          <p><strong>Why it mattered:</strong> Controller feel became part of personal and group identity during the console wars.</p>
+          <p class="artifact-credit"><a href="https://commons.wikimedia.org/wiki/File:Sega-Genesis-Mk2-6button.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons ↗</a> · CC BY-SA 3.0</p>
+        </details>
+          <div class="artifact-actions">
+            <button class="button inspect-button" type="button" data-artifact-inspect="genesis-controller">Inspect + stamp</button>
+            <a href="/zones/games/#artifact-genesis-controller">Open exhibit</a>
+          </div>
+        </div>
+      </article>
+      <article class="artifact-ticket" id="artifact-n64-controller" data-artifact-id="n64-controller">
+        <div class="artifact-ticket-media"><img src="/assets/media/games/n64-controller-gray.jpg" alt="Gray Nintendo 64 controller with three-prong grip and central analog stick." width="1280" height="1021" loading="lazy" decoding="async" /></div>
+        <div class="artifact-ticket-copy">
+          <p class="artifact-label">three-prong multiplayer sculpture · 1996–1999</p>
+          <h3>Gray Nintendo 64 controller</h3>
+        <details>
+          <summary>Open curator label</summary>
+          <p>Its odd shape and analog stick announced that 3D games would need a different kind of touch.</p>
+          <p><strong>Why it mattered:</strong> The controller became an icon of couch multiplayer and experimental 3D design.</p>
+          <p class="artifact-credit"><a href="https://commons.wikimedia.org/wiki/File:N64-Controller-Gray.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons ↗</a> · Public domain</p>
+        </details>
+          <div class="artifact-actions">
+            <button class="button inspect-button" type="button" data-artifact-inspect="n64-controller">Inspect + stamp</button>
+            <a href="/zones/games/#artifact-n64-controller">Open exhibit</a>
+          </div>
+        </div>
+      </article>
+      </div>
+    </section>
+<!-- generated:artifact-shelf:end -->
+  </main>
+
+  <footer class="footer"><p>© 1999–forever 90s.land // handmade for curious people // <a href="/credits/">credits</a> // <a href="#top">back to top</a></p></footer>
+  <!-- generated:shared-ui:start -->
+  <p class="sr-only" id="museumStatus" aria-live="polite" aria-atomic="true"></p>
+
+  <dialog class="museum-dialog surprise-dialog" id="surpriseDialog" aria-labelledby="surpriseTitle">
+    <div class="dialog-window">
+      <div class="window-bar"><span>RANDOM_MEMORY.EXE</span><button type="button" class="dialog-close" data-dialog-close="surpriseDialog" aria-label="Close Surprise Me">×</button></div>
+      <div class="dialog-body" data-surprise-loading>
+        <p class="eyebrow">Loading from CD-ROM…</p>
+        <div class="cd-loader" aria-hidden="true"></div>
+        <p>Finding a memory you have not just seen.</p>
+      </div>
+      <div class="dialog-body" data-surprise-ready hidden>
+        <p class="eyebrow">Random memory loaded</p>
+        <h2 id="surpriseTitle" data-surprise-title>Surprise Me</h2>
+        <p data-surprise-teaser></p>
+        <p class="artifact-meta-line" data-surprise-meta></p>
+        <div class="dialog-actions">
+          <a class="button primary" href="/surprise/" data-surprise-open>Open memory</a>
+          <button class="button" type="button" data-surprise-again>Try another</button>
+          <button class="button subtle" type="button" data-dialog-close="surpriseDialog">Not now</button>
+        </div>
+      </div>
+    </div>
+  </dialog>
+
+  <dialog class="museum-dialog passport-dialog" id="passportDialog" aria-labelledby="passportTitle">
+    <div class="dialog-window">
+      <div class="window-bar"><span>MUSEUM_PASSPORT.CARD</span><button type="button" class="dialog-close" data-dialog-close="passportDialog" aria-label="Close Museum Passport">×</button></div>
+      <div class="dialog-body">
+        <p class="eyebrow">Local museum progress</p>
+        <h2 id="passportTitle">Your Museum Passport</h2>
+        <p class="storage-note" data-storage-note>Saved only on this device. No account, tracking, or personal data.</p>
+        <div class="passport-stats" aria-label="Museum Passport totals">
+          <span><strong data-passport-rooms>0</strong> rooms visited</span>
+          <span><strong data-passport-artifacts>0</strong> objects inspected</span>
+          <span><strong data-passport-stamps>0</strong> stamps earned</span>
+        </div>
+        <ul class="passport-stamp-grid" aria-label="Passport stamps">
+          <li class="passport-stamp is-locked" data-passport-stamp="first-touch">
+            <span class="stamp-mark" aria-hidden="true">admit-one</span>
+            <strong>Object Handler</strong>
+            <span>Inspect your first museum artifact.</span>
+          </li>
+          <li class="passport-stamp is-locked" data-passport-stamp="room-hopper">
+            <span class="stamp-mark" aria-hidden="true">library-card</span>
+            <strong>Room Hopper</strong>
+            <span>Visit three different museum rooms.</span>
+          </li>
+          <li class="passport-stamp is-locked" data-passport-stamp="random-memory">
+            <span class="stamp-mark" aria-hidden="true">cd-rom</span>
+            <strong>Random Access Memory</strong>
+            <span>Open a Surprise Me destination.</span>
+          </li>
+          <li class="passport-stamp is-locked" data-passport-stamp="object-collector">
+            <span class="stamp-mark" aria-hidden="true">sticker-sheet</span>
+            <strong>Pocket Curator</strong>
+            <span>Inspect five museum artifacts.</span>
+          </li>
+          <li class="passport-stamp is-locked" data-passport-stamp="before-the-feed">
+            <span class="stamp-mark" aria-hidden="true">passport-seal</span>
+            <strong>Before the Feed</strong>
+            <span>Complete the guided tour.</span>
+          </li>
+        </ul>
+        <div class="passport-resume" data-tour-resume hidden>
+          <p><strong>Tour in progress:</strong> <span data-tour-resume-label></span></p>
+          <a class="button" data-tour-resume-link href="/tours/before-the-feed/">Resume tour</a>
+        </div>
+        <button class="button danger" type="button" data-passport-reset-open>Reset local passport</button>
+      </div>
+    </div>
+  </dialog>
+
+  <dialog class="museum-dialog reset-dialog" id="passportResetDialog" aria-labelledby="passportResetTitle">
+    <div class="dialog-window">
+      <div class="window-bar"><span>RESET_CONFIRM.TXT</span></div>
+      <div class="dialog-body">
+        <h2 id="passportResetTitle">Reset this passport?</h2>
+        <p>This removes visited rooms, inspected objects, stamps, and tour progress from this browser. It cannot be undone.</p>
+        <div class="dialog-actions">
+          <button class="button" type="button" data-passport-reset-cancel>Keep my passport</button>
+          <button class="button danger" type="button" data-passport-reset-confirm>Reset passport</button>
+        </div>
+      </div>
+    </div>
+  </dialog>
+<!-- generated:shared-ui:end -->
+  <script type="module" src="/js/app.js?v=playable-museum-1"></script>
+</body>
+</html>

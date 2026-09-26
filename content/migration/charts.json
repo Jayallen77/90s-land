@@ -1,0 +1,3492 @@
+{
+  "schemaVersion": 1,
+  "kind": "charts",
+  "records": [
+    {
+      "id": "billboard-year-end-hot-100-1990-top-10",
+      "title": "Billboard Year-End Hot 100: Top 10 of 1990",
+      "year": 1990,
+      "scope": "year-end",
+      "region": "US",
+      "sourceIds": [
+        "source-aa0748c7af6595a5"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1990/#top-songs",
+      "entries": [
+        {
+          "rank": 1,
+          "entityId": "song-6db06fb693f95bf1",
+          "titleAsPublished": "Hold On",
+          "artistCreditAsPublished": "Wilson Phillips",
+          "editorialNote": "Harmony-pop optimism that sounds like a new decade trying to talk itself into courage.",
+          "links": [
+            {
+              "label": "Hold On",
+              "href": "https://en.wikipedia.org/wiki/Hold_On_(Wilson_Phillips_song)"
+            },
+            {
+              "label": "Wilson Phillips",
+              "href": "https://en.wikipedia.org/wiki/Wilson_Phillips"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=Hold+On+Wilson+Phillips"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/Hold+On+Wilson+Phillips"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1990.html.txt",
+            "start": 34418,
+            "end": 35193,
+            "lineStart": 284,
+            "lineEnd": 292,
+            "sha256": "63bb3405b327548635194430559affb2fba29163fb2e0391553bb98d427b6983"
+          }
+        },
+        {
+          "rank": 2,
+          "entityId": "song-923568f355417c8c",
+          "titleAsPublished": "It Must Have Been Love",
+          "artistCreditAsPublished": "Roxette",
+          "editorialNote": "A Pretty Woman-powered ballad that kept soundtrack singles glued to radio.",
+          "links": [
+            {
+              "label": "It Must Have Been Love",
+              "href": "https://en.wikipedia.org/wiki/It_Must_Have_Been_Love"
+            },
+            {
+              "label": "Roxette",
+              "href": "https://en.wikipedia.org/wiki/Roxette"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=It+Must+Have+Been+Love+Roxette"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/It+Must+Have+Been+Love+Roxette"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1990.html.txt",
+            "start": 35194,
+            "end": 35962,
+            "lineStart": 293,
+            "lineEnd": 301,
+            "sha256": "5cd8f5259f96786ee2a31f9fad45bc8f307814c56fcaf2b4b21d1f29a12e5955"
+          }
+        },
+        {
+          "rank": 3,
+          "entityId": "song-26314f0acd862adc",
+          "titleAsPublished": "Nothing Compares 2 U",
+          "artistCreditAsPublished": "Sinéad O'Connor",
+          "editorialNote": "Sparse, devastating, and inseparable from one of the decade’s most memorable videos.",
+          "links": [
+            {
+              "label": "Nothing Compares 2 U",
+              "href": "https://en.wikipedia.org/wiki/Nothing_Compares_2_U"
+            },
+            {
+              "label": "Sinéad O'Connor",
+              "href": "https://en.wikipedia.org/wiki/Sin%C3%A9ad_O%27Connor"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=Nothing+Compares+2+U+Sinéad+O%27Connor"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/Nothing+Compares+2+U+Sinéad+O%27Connor"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1990.html.txt",
+            "start": 35963,
+            "end": 36776,
+            "lineStart": 302,
+            "lineEnd": 310,
+            "sha256": "4cc2be5dd49b828984400708cb840c19659e3e4fad48848e7ef55f62af881391"
+          }
+        },
+        {
+          "rank": 4,
+          "entityId": "song-ebc7a66b8ed7cbfc",
+          "titleAsPublished": "Poison",
+          "artistCreditAsPublished": "Bell Biv DeVoe",
+          "editorialNote": "New jack swing with a bassline and warning-label hook that still jumps out of speakers.",
+          "links": [
+            {
+              "label": "Poison",
+              "href": "https://en.wikipedia.org/wiki/Poison_(Bell_Biv_DeVoe_song)"
+            },
+            {
+              "label": "Bell Biv DeVoe",
+              "href": "https://en.wikipedia.org/wiki/Bell_Biv_DeVoe"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=Poison+Bell+Biv+DeVoe"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/Poison+Bell+Biv+DeVoe"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1990.html.txt",
+            "start": 36777,
+            "end": 37544,
+            "lineStart": 311,
+            "lineEnd": 319,
+            "sha256": "aef85f719b54a600f5aade6259d38d4db95b9744ce5fe2e34d3cab504fb1662f"
+          }
+        },
+        {
+          "rank": 5,
+          "entityId": "song-2145fab912e5a80c",
+          "titleAsPublished": "Vogue",
+          "artistCreditAsPublished": "Madonna",
+          "editorialNote": "Club culture, fashion poses, and black-and-white video glamour crossing into total pop dominance.",
+          "links": [
+            {
+              "label": "Vogue",
+              "href": "https://en.wikipedia.org/wiki/Vogue_(Madonna_song)"
+            },
+            {
+              "label": "Madonna",
+              "href": "https://en.wikipedia.org/wiki/Madonna"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=Vogue+Madonna"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/Vogue+Madonna"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1990.html.txt",
+            "start": 37545,
+            "end": 38283,
+            "lineStart": 320,
+            "lineEnd": 328,
+            "sha256": "385bf838c7531d4ca96db72727db0384150aab27526a079d91705337ddaf0c34"
+          }
+        },
+        {
+          "rank": 6,
+          "entityId": "song-18d131ffda939939",
+          "titleAsPublished": "Vision of Love",
+          "artistCreditAsPublished": "Mariah Carey",
+          "editorialNote": "The arrival of a voice that would reshape 90s pop and R&B ballad expectations.",
+          "links": [
+            {
+              "label": "Vision of Love",
+              "href": "https://en.wikipedia.org/wiki/Vision_of_Love"
+            },
+            {
+              "label": "Mariah Carey",
+              "href": "https://en.wikipedia.org/wiki/Mariah_Carey"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=Vision+of+Love+Mariah+Carey"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/Vision+of+Love+Mariah+Carey"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1990.html.txt",
+            "start": 38284,
+            "end": 39048,
+            "lineStart": 329,
+            "lineEnd": 337,
+            "sha256": "a438435e456f74159988f74c4008522c83a85d4df8729649cd717a31af8f2cd2"
+          }
+        },
+        {
+          "rank": 7,
+          "entityId": "song-c7e4f68bf6959ca5",
+          "titleAsPublished": "Another Day in Paradise",
+          "artistCreditAsPublished": "Phil Collins",
+          "editorialNote": "Late-80s adult-contemporary gravity carrying into the decade’s first year.",
+          "links": [
+            {
+              "label": "Another Day in Paradise",
+              "href": "https://en.wikipedia.org/wiki/Another_Day_in_Paradise"
+            },
+            {
+              "label": "Phil Collins",
+              "href": "https://en.wikipedia.org/wiki/Phil_Collins"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=Another+Day+in+Paradise+Phil+Collins"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/Another+Day+in+Paradise+Phil+Collins"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1990.html.txt",
+            "start": 39049,
+            "end": 39841,
+            "lineStart": 338,
+            "lineEnd": 346,
+            "sha256": "be21dea3f7565a97a196eb31953231056345076d0e0de6439a09d2877499d223"
+          }
+        },
+        {
+          "rank": 8,
+          "entityId": "song-00ee1a94ff9b1876",
+          "titleAsPublished": "Hold On",
+          "artistCreditAsPublished": "En Vogue",
+          "editorialNote": "A sleek vocal-group launchpad pointing toward 90s R&B’s cooler, sharper future.",
+          "links": [
+            {
+              "label": "Hold On",
+              "href": "https://en.wikipedia.org/wiki/Hold_On_(En_Vogue_song)"
+            },
+            {
+              "label": "En Vogue",
+              "href": "https://en.wikipedia.org/wiki/En_Vogue"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=Hold+On+En+Vogue"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/Hold+On+En+Vogue"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1990.html.txt",
+            "start": 39842,
+            "end": 40579,
+            "lineStart": 347,
+            "lineEnd": 355,
+            "sha256": "6f742b1d8f62bea33897a13d6e34a55c05b071724529a9a785ba83898fa02628"
+          }
+        },
+        {
+          "rank": 9,
+          "entityId": "song-6be302dbe40d4fae",
+          "titleAsPublished": "Cradle of Love",
+          "artistCreditAsPublished": "Billy Idol",
+          "editorialNote": "MTV-era rock swagger hanging around as the decade starts changing clothes.",
+          "links": [
+            {
+              "label": "Cradle of Love",
+              "href": "https://en.wikipedia.org/wiki/Cradle_of_Love_(Billy_Idol_song)"
+            },
+            {
+              "label": "Billy Idol",
+              "href": "https://en.wikipedia.org/wiki/Billy_Idol"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=Cradle+of+Love+Billy+Idol"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/Cradle+of+Love+Billy+Idol"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1990.html.txt",
+            "start": 40580,
+            "end": 41346,
+            "lineStart": 356,
+            "lineEnd": 364,
+            "sha256": "7ecdc5feafb452e839da5a76b123dbc24d459c258f24de95401f9c515b6cfb84"
+          }
+        },
+        {
+          "rank": 10,
+          "entityId": "song-084ed0c3a2c704fb",
+          "titleAsPublished": "Blaze of Glory",
+          "artistCreditAsPublished": "Jon Bon Jovi",
+          "editorialNote": "Movie-theme rock drama from the Young Guns II soundtrack side of radio.",
+          "links": [
+            {
+              "label": "Blaze of Glory",
+              "href": "https://en.wikipedia.org/wiki/Blaze_of_Glory_(Jon_Bon_Jovi_song)"
+            },
+            {
+              "label": "Jon Bon Jovi",
+              "href": "https://en.wikipedia.org/wiki/Jon_Bon_Jovi"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=Blaze+of+Glory+Jon+Bon+Jovi"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/Blaze+of+Glory+Jon+Bon+Jovi"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1990.html.txt",
+            "start": 41347,
+            "end": 42121,
+            "lineStart": 365,
+            "lineEnd": 373,
+            "sha256": "e6c80ad048afeb8e90d29e187a205b854fa495caa36779b8b90285add470af6e"
+          }
+        }
+      ]
+    },
+    {
+      "id": "billboard-year-end-hot-100-1991-top-10",
+      "title": "Billboard Year-End Hot 100: Top 10 of 1991",
+      "year": 1991,
+      "scope": "year-end",
+      "region": "US",
+      "sourceIds": [
+        "source-5fde6102fdfe539f"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1991/#top-songs",
+      "entries": [
+        {
+          "rank": 1,
+          "entityId": "song-70c4844ebd82cb14",
+          "titleAsPublished": "(Everything I Do) I Do It for You",
+          "artistCreditAsPublished": "Bryan Adams",
+          "editorialNote": "A mega-ballad so huge it practically lived in every car stereo while the rest of the decade was revving up behind it.",
+          "links": [
+            {
+              "label": "(Everything I Do) I Do It for You",
+              "href": "https://en.wikipedia.org/wiki/(Everything_I_Do)_I_Do_It_for_You"
+            },
+            {
+              "label": "Bryan Adams",
+              "href": "https://en.wikipedia.org/wiki/Bryan_Adams"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=%28Everything+I+Do%29+I+Do+It+for+You+Bryan+Adams"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/%28Everything+I+Do%29+I+Do+It+for+You+Bryan+Adams"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1991.html.txt",
+            "start": 39055,
+            "end": 39934,
+            "lineStart": 327,
+            "lineEnd": 335,
+            "sha256": "19967db030c7da70ca84cdf77c508b9de08279b1576934a29da8405546a0ca61"
+          }
+        },
+        {
+          "rank": 2,
+          "entityId": "song-f4b0e3389f1c665b",
+          "titleAsPublished": "I Wanna Sex You Up",
+          "artistCreditAsPublished": "Color Me Badd",
+          "editorialNote": "New jack swing flirting turned all the way up — school-dance energy with perfect early-90s polish.",
+          "links": [
+            {
+              "label": "I Wanna Sex You Up",
+              "href": "https://en.wikipedia.org/wiki/I_Wanna_Sex_You_Up"
+            },
+            {
+              "label": "Color Me Badd",
+              "href": "https://en.wikipedia.org/wiki/Color_Me_Badd"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=I+Wanna+Sex+You+Up+Color+Me+Badd"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/I+Wanna+Sex+You+Up+Color+Me+Badd"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1991.html.txt",
+            "start": 39935,
+            "end": 40735,
+            "lineStart": 336,
+            "lineEnd": 344,
+            "sha256": "568364b04b1350f0bc7f094565e6a8dbf53ea5b0c63798780ba489d6c3e05229"
+          }
+        },
+        {
+          "rank": 3,
+          "entityId": "song-0b61462eeedbfb9f",
+          "titleAsPublished": "Gonna Make You Sweat (Everybody Dance Now)",
+          "artistCreditAsPublished": "C+C Music Factory",
+          "editorialNote": "Dance-pop command language: instant gym-class, party, arena, and commercial-break energy.",
+          "links": [
+            {
+              "label": "Gonna Make You Sweat (Everybody Dance Now)",
+              "href": "https://en.wikipedia.org/wiki/Gonna_Make_You_Sweat_(Everybody_Dance_Now)"
+            },
+            {
+              "label": "C+C Music Factory",
+              "href": "https://en.wikipedia.org/wiki/C%2BC_Music_Factory"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=Gonna+Make+You+Sweat+%28Everybody+Dance+Now%29+C+C+Music+Factory"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/Gonna+Make+You+Sweat+%28Everybody+Dance+Now%29+C+C+Music+Factory"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1991.html.txt",
+            "start": 40736,
+            "end": 41649,
+            "lineStart": 345,
+            "lineEnd": 353,
+            "sha256": "95fa2389b0b2b9dcb4600b338d7eb12495348f69bb71237bd788489982da94e5"
+          }
+        },
+        {
+          "rank": 4,
+          "entityId": "song-182002498d65434d",
+          "titleAsPublished": "Rush Rush",
+          "artistCreditAsPublished": "Paula Abdul",
+          "editorialNote": "Soft-focus romance from the choreographed-pop side of the timeline, right before alt-rock changed the room temperature.",
+          "links": [
+            {
+              "label": "Rush Rush",
+              "href": "https://en.wikipedia.org/wiki/Rush_Rush_(Paula_Abdul_song)"
+            },
+            {
+              "label": "Paula Abdul",
+              "href": "https://en.wikipedia.org/wiki/Paula_Abdul"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=Rush+Rush+Paula+Abdul"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/Rush+Rush+Paula+Abdul"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1991.html.txt",
+            "start": 41650,
+            "end": 42446,
+            "lineStart": 354,
+            "lineEnd": 362,
+            "sha256": "c91cced8b8a2cef3cfec6c59805f62fcdf37978b9476d025a186516420ed1f20"
+          }
+        },
+        {
+          "rank": 5,
+          "entityId": "song-b983dd2df4d831dc",
+          "titleAsPublished": "One More Try",
+          "artistCreditAsPublished": "Timmy T",
+          "editorialNote": "Freestyle-adjacent heartbreak that proves early-91 radio was still deep in its sincere, soft-lit feelings era.",
+          "links": [
+            {
+              "label": "One More Try",
+              "href": "https://en.wikipedia.org/wiki/One_More_Try_(Timmy_T_song)"
+            },
+            {
+              "label": "Timmy T",
+              "href": "https://en.wikipedia.org/wiki/Timmy_T"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=One+More+Try+Timmy+T"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/One+More+Try+Timmy+T"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1991.html.txt",
+            "start": 42447,
+            "end": 43226,
+            "lineStart": 363,
+            "lineEnd": 371,
+            "sha256": "ba41babc57c2af7892f497f17671e27a4e36a9f0e3e9bb2f7b3988208ef1e2e9"
+          }
+        },
+        {
+          "rank": 6,
+          "entityId": "song-22d5a6c34ba1f719",
+          "titleAsPublished": "Unbelievable",
+          "artistCreditAsPublished": "EMF",
+          "editorialNote": "Baggy UK alt-dance attitude sneaking into the mainstream before grunge fully kicked the door down.",
+          "links": [
+            {
+              "label": "Unbelievable",
+              "href": "https://en.wikipedia.org/wiki/Unbelievable_(EMF_song)"
+            },
+            {
+              "label": "EMF",
+              "href": "https://en.wikipedia.org/wiki/EMF_(band)"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=Unbelievable+EMF"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/Unbelievable+EMF"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1991.html.txt",
+            "start": 43227,
+            "end": 43981,
+            "lineStart": 372,
+            "lineEnd": 380,
+            "sha256": "351136efd83db5f457dce9c7348962fe06794d1e686d235822f92a7135e3fa55"
+          }
+        },
+        {
+          "rank": 7,
+          "entityId": "song-b6c6205b004500fc",
+          "titleAsPublished": "More Than Words",
+          "artistCreditAsPublished": "Extreme",
+          "editorialNote": "Acoustic lighter-waver from a rock band in a year that was about to get much louder and much less polished.",
+          "links": [
+            {
+              "label": "More Than Words",
+              "href": "https://en.wikipedia.org/wiki/More_Than_Words"
+            },
+            {
+              "label": "Extreme",
+              "href": "https://en.wikipedia.org/wiki/Extreme_(band)"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=More+Than+Words+Extreme"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/More+Than+Words+Extreme"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1991.html.txt",
+            "start": 43982,
+            "end": 44762,
+            "lineStart": 381,
+            "lineEnd": 389,
+            "sha256": "31dd5a946dc8d44d5c2667648ce66f41af34525b4bbc9103d2c85a27ddb0184d"
+          }
+        },
+        {
+          "rank": 8,
+          "entityId": "song-a03dce50ea4e5c7d",
+          "titleAsPublished": "I Like the Way (The Kissing Game)",
+          "artistCreditAsPublished": "Hi-Five",
+          "editorialNote": "Sweet teen R&B built for dedications, dances, and countdown shows recorded off the radio.",
+          "links": [
+            {
+              "label": "I Like the Way (The Kissing Game)",
+              "href": "https://en.wikipedia.org/wiki/I_Like_the_Way_(The_Kissing_Game)"
+            },
+            {
+              "label": "Hi-Five",
+              "href": "https://en.wikipedia.org/wiki/Hi-Five"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=I+Like+the+Way+%28The+Kissing+Game%29+Hi-Five"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/I+Like+the+Way+%28The+Kissing+Game%29+Hi-Five"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1991.html.txt",
+            "start": 44763,
+            "end": 45598,
+            "lineStart": 390,
+            "lineEnd": 398,
+            "sha256": "141d8e81640a236b4f135339d387cdd53d77a47ace310c5f78fa02be038afeb1"
+          }
+        },
+        {
+          "rank": 9,
+          "entityId": "song-0a02bc222358e3c7",
+          "titleAsPublished": "The First Time",
+          "artistCreditAsPublished": "Surface",
+          "editorialNote": "Smooth adult-R&B radio comfort right before the decade’s louder youth culture starts grabbing the wheel.",
+          "links": [
+            {
+              "label": "The First Time",
+              "href": "https://en.wikipedia.org/wiki/The_First_Time_(Surface_song)"
+            },
+            {
+              "label": "Surface",
+              "href": "https://en.wikipedia.org/wiki/Surface_(band)"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=The+First+Time+Surface"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/The+First+Time+Surface"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1991.html.txt",
+            "start": 45599,
+            "end": 46387,
+            "lineStart": 399,
+            "lineEnd": 407,
+            "sha256": "a25ec185d457dcaa27e671b4e0aa7e105c6197d5dfdc3255b4700bf1e56565ba"
+          }
+        },
+        {
+          "rank": 10,
+          "entityId": "song-a7f14238a1769b4f",
+          "titleAsPublished": "Baby Baby",
+          "artistCreditAsPublished": "Amy Grant",
+          "editorialNote": "Bright crossover pop that sounds like mall fountains, daytime radio, and family-stereo Saturday errands.",
+          "links": [
+            {
+              "label": "Baby Baby",
+              "href": "https://en.wikipedia.org/wiki/Baby_Baby_(Amy_Grant_song)"
+            },
+            {
+              "label": "Amy Grant",
+              "href": "https://en.wikipedia.org/wiki/Amy_Grant"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=Baby+Baby+Amy+Grant"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/Baby+Baby+Amy+Grant"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1991.html.txt",
+            "start": 46388,
+            "end": 47160,
+            "lineStart": 408,
+            "lineEnd": 416,
+            "sha256": "86ab2b7c0d4a6e04d9a56bf820695068a9b8dc4567398cce23c0a561d1fe31b5"
+          }
+        }
+      ]
+    },
+    {
+      "id": "billboard-year-end-hot-100-1992-top-10",
+      "title": "Billboard Year-End Hot 100: Top 10 of 1992",
+      "year": 1992,
+      "scope": "year-end",
+      "region": "US",
+      "sourceIds": [
+        "source-15cf2eb715575b16"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1992/#top-songs",
+      "entries": [
+        {
+          "rank": 1,
+          "entityId": "song-d36eef7a4cae7699",
+          "titleAsPublished": "End of the Road",
+          "artistCreditAsPublished": "Boyz II Men",
+          "editorialNote": "A mega-ballad that owned school dances, prom energy, and every slow-jam request line.",
+          "links": [
+            {
+              "label": "End of the Road",
+              "href": "https://en.wikipedia.org/wiki/End_of_the_Road_(Boyz_II_Men_song)"
+            },
+            {
+              "label": "Boyz II Men",
+              "href": "https://en.wikipedia.org/wiki/Boyz_II_Men"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=End+of+the+Road+Boyz+II+Men"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/End+of+the+Road+Boyz+II+Men"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1992.html.txt",
+            "start": 38657,
+            "end": 39413,
+            "lineStart": 320,
+            "lineEnd": 320,
+            "sha256": "850aa28d67ba929dfcbcd3db9f85139b4df456e72bf4962fbdbc1a9c6d73d2a7"
+          }
+        },
+        {
+          "rank": 2,
+          "entityId": "song-f29812541da66991",
+          "titleAsPublished": "Baby Got Back",
+          "artistCreditAsPublished": "Sir Mix-a-Lot",
+          "editorialNote": "Bass-heavy joke-song swagger that somehow became a permanent part of sports arenas and party playlists.",
+          "links": [
+            {
+              "label": "Baby Got Back",
+              "href": "https://en.wikipedia.org/wiki/Baby_Got_Back"
+            },
+            {
+              "label": "Sir Mix-a-Lot",
+              "href": "https://en.wikipedia.org/wiki/Sir_Mix-a-Lot"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=Baby+Got+Back+Sir+Mix-a-Lot"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/Baby+Got+Back+Sir+Mix-a-Lot"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1992.html.txt",
+            "start": 39424,
+            "end": 40179,
+            "lineStart": 321,
+            "lineEnd": 321,
+            "sha256": "97aad70115571d7ab8228da3c5169daaef1f94ea04713339acb43aa1a28f5e57"
+          }
+        },
+        {
+          "rank": 3,
+          "entityId": "song-ad9118029edab8ae",
+          "titleAsPublished": "Jump",
+          "artistCreditAsPublished": "Kris Kross",
+          "editorialNote": "Pure playground takeover music — backwards clothes, catchphrases, and kid-rap dominance.",
+          "links": [
+            {
+              "label": "Jump",
+              "href": "https://en.wikipedia.org/wiki/Jump_(Kris_Kross_song)"
+            },
+            {
+              "label": "Kris Kross",
+              "href": "https://en.wikipedia.org/wiki/Kris_Kross"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=Jump+Kris+Kross"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/Jump+Kris+Kross"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1992.html.txt",
+            "start": 40190,
+            "end": 40900,
+            "lineStart": 322,
+            "lineEnd": 322,
+            "sha256": "afa408298eefead57b9a78e239d72c383af736b79c5e5ecd0df5caf713117602"
+          }
+        },
+        {
+          "rank": 4,
+          "entityId": "song-4af2374d561ebe2c",
+          "titleAsPublished": "Save the Best for Last",
+          "artistCreditAsPublished": "Vanessa Williams",
+          "editorialNote": "An easy mall-speaker memory: polished adult-pop that still floated through grocery stores and car radios.",
+          "links": [
+            {
+              "label": "Save the Best for Last",
+              "href": "https://en.wikipedia.org/wiki/Save_the_Best_for_Last"
+            },
+            {
+              "label": "Vanessa Williams",
+              "href": "https://en.wikipedia.org/wiki/Vanessa_Williams"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=Save+the+Best+for+Last+Vanessa+Williams"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/Save+the+Best+for+Last+Vanessa+Williams"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1992.html.txt",
+            "start": 40911,
+            "end": 41716,
+            "lineStart": 323,
+            "lineEnd": 323,
+            "sha256": "0a75af164b4eee342c1f815513f821c24d09a2a0b1061d1d70229ca8893eef9a"
+          }
+        },
+        {
+          "rank": 5,
+          "entityId": "song-274c908edcd88e46",
+          "titleAsPublished": "Baby-Baby-Baby",
+          "artistCreditAsPublished": "TLC",
+          "editorialNote": "A key sign that 90s girl-group cool was about to become a whole style language.",
+          "links": [
+            {
+              "label": "Baby-Baby-Baby",
+              "href": "https://en.wikipedia.org/wiki/Baby-Baby-Baby"
+            },
+            {
+              "label": "TLC",
+              "href": "https://en.wikipedia.org/wiki/TLC_(group)"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=Baby-Baby-Baby+TLC"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/Baby-Baby-Baby+TLC"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1992.html.txt",
+            "start": 41727,
+            "end": 42430,
+            "lineStart": 324,
+            "lineEnd": 324,
+            "sha256": "db15bc277f7362645a4879390aa192ebf4990db8ff1ed5a430bc3ad9c5e4e749"
+          }
+        },
+        {
+          "rank": 6,
+          "entityId": "song-40913545e7b4ce19",
+          "titleAsPublished": "Tears in Heaven",
+          "artistCreditAsPublished": "Eric Clapton",
+          "editorialNote": "Soft-rock radio in its reflective mode — the kind of song adults left on in the car.",
+          "links": [
+            {
+              "label": "Tears in Heaven",
+              "href": "https://en.wikipedia.org/wiki/Tears_in_Heaven"
+            },
+            {
+              "label": "Eric Clapton",
+              "href": "https://en.wikipedia.org/wiki/Eric_Clapton"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=Tears+in+Heaven+Eric+Clapton"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/Tears+in+Heaven+Eric+Clapton"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1992.html.txt",
+            "start": 42441,
+            "end": 43181,
+            "lineStart": 325,
+            "lineEnd": 325,
+            "sha256": "4b87ecfd0cb16c19dfe104fe5b955b19151d8e7bfdaacf43818d24e4f1c9ac07"
+          }
+        },
+        {
+          "rank": 7,
+          "entityId": "song-1d3a731caf21f6ad",
+          "titleAsPublished": "My Lovin' (You're Never Gonna Get It)",
+          "artistCreditAsPublished": "En Vogue",
+          "editorialNote": "Sharp harmonies, sharper attitude, and peak “you heard this at the roller rink” energy.",
+          "links": [
+            {
+              "label": "My Lovin' (You're Never Gonna Get It)",
+              "href": "https://en.wikipedia.org/wiki/My_Lovin%27_(You%27re_Never_Gonna_Get_It)"
+            },
+            {
+              "label": "En Vogue",
+              "href": "https://en.wikipedia.org/wiki/En_Vogue"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=My+Lovin%27+%28You%27re+Never+Gonna+Get+It%29+En+Vogue"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/My+Lovin%27+%28You%27re+Never+Gonna+Get+It%29+En+Vogue"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1992.html.txt",
+            "start": 43192,
+            "end": 44027,
+            "lineStart": 326,
+            "lineEnd": 326,
+            "sha256": "a2a43908e6407d0cd9f13375c62ebf8549e034a2d04d9b5be6b0205d33f6840a"
+          }
+        },
+        {
+          "rank": 8,
+          "entityId": "song-b66fed9225f89088",
+          "titleAsPublished": "Under the Bridge",
+          "artistCreditAsPublished": "Red Hot Chili Peppers",
+          "editorialNote": "Alternative radio broke through the mainstream hard enough to live beside ballads and rap megahits.",
+          "links": [
+            {
+              "label": "Under the Bridge",
+              "href": "https://en.wikipedia.org/wiki/Under_the_Bridge"
+            },
+            {
+              "label": "Red Hot Chili Peppers",
+              "href": "https://en.wikipedia.org/wiki/Red_Hot_Chili_Peppers"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=Under+the+Bridge+Red+Hot+Chili+Peppers"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/Under+the+Bridge+Red+Hot+Chili+Peppers"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1992.html.txt",
+            "start": 44038,
+            "end": 44833,
+            "lineStart": 327,
+            "lineEnd": 327,
+            "sha256": "541266d6baccf56bcc1f02b1e65e3ce5a4c2fc119619303bea3715298159f2d7"
+          }
+        },
+        {
+          "rank": 9,
+          "entityId": "song-4947d6be04e88e91",
+          "titleAsPublished": "All 4 Love",
+          "artistCreditAsPublished": "Color Me Badd",
+          "editorialNote": "The sort of glossy harmony-pop that lived comfortably between teen magazines and wedding DJs.",
+          "links": [
+            {
+              "label": "All 4 Love",
+              "href": "https://en.wikipedia.org/wiki/All_4_Love"
+            },
+            {
+              "label": "Color Me Badd",
+              "href": "https://en.wikipedia.org/wiki/Color_Me_Badd"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=All+4+Love+Color+Me+Badd"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/All+4+Love+Color+Me+Badd"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1992.html.txt",
+            "start": 44844,
+            "end": 45577,
+            "lineStart": 328,
+            "lineEnd": 328,
+            "sha256": "86fd885628c920b971ea1b363b7faf13bf36b1941afedfa68d98f898e42861d3"
+          }
+        },
+        {
+          "rank": 10,
+          "entityId": "song-9d57a2a77705c2e3",
+          "titleAsPublished": "Just Another Day",
+          "artistCreditAsPublished": "Jon Secada",
+          "editorialNote": "Smooth crossover-pop with exactly the kind of radio ubiquity that makes adults say “oh wow, I forgot this one.”",
+          "links": [
+            {
+              "label": "Just Another Day",
+              "href": "https://en.wikipedia.org/wiki/Just_Another_Day_(Jon_Secada_song)"
+            },
+            {
+              "label": "Jon Secada",
+              "href": "https://en.wikipedia.org/wiki/Jon_Secada"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=Just+Another+Day+Jon+Secada"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/Just+Another+Day+Jon+Secada"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1992.html.txt",
+            "start": 45588,
+            "end": 46370,
+            "lineStart": 329,
+            "lineEnd": 329,
+            "sha256": "89e9dd9a9754c7eb6def5b6a712371e3a7ba5a55a421881deeef97bf5712ab71"
+          }
+        }
+      ]
+    },
+    {
+      "id": "billboard-year-end-hot-100-1993-top-10",
+      "title": "Billboard Year-End Hot 100: Top 10 of 1993",
+      "year": 1993,
+      "scope": "year-end",
+      "region": "US",
+      "sourceIds": [
+        "source-4316dd64735de95d"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1993/#top-songs",
+      "entries": [
+        {
+          "rank": 1,
+          "entityId": "song-47a39cee728b7518",
+          "titleAsPublished": "I Will Always Love You",
+          "artistCreditAsPublished": "Whitney Houston",
+          "editorialNote": "The soundtrack-ballad supernova that made one movie feel even bigger than its VHS shelf life.",
+          "links": [
+            {
+              "label": "I Will Always Love You",
+              "href": "https://en.wikipedia.org/wiki/I_Will_Always_Love_You"
+            },
+            {
+              "label": "Whitney Houston",
+              "href": "https://en.wikipedia.org/wiki/Whitney_Houston"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=I+Will+Always+Love+You+Whitney+Houston"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/I+Will+Always+Love+You+Whitney+Houston"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1993.html.txt",
+            "start": 40110,
+            "end": 40899,
+            "lineStart": 323,
+            "lineEnd": 323,
+            "sha256": "5ce4274425d7f895a5b9c9d41a24b167ce8a73c559d5e6291ca04a7b2360e967"
+          }
+        },
+        {
+          "rank": 2,
+          "entityId": "song-7947ee4fe6f44556",
+          "titleAsPublished": "Whoomp! (There It Is)",
+          "artistCreditAsPublished": "Tag Team",
+          "editorialNote": "Arena chant, dance-floor slogan, and pure “everybody yell this together” radio energy.",
+          "links": [
+            {
+              "label": "Whoomp! (There It Is)",
+              "href": "https://en.wikipedia.org/wiki/Whoomp!_(There_It_Is)"
+            },
+            {
+              "label": "Tag Team",
+              "href": "https://en.wikipedia.org/wiki/Tag_Team_(group)"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=Whoomp%21+%28There+It+Is%29+Tag+Team"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/Whoomp%21+%28There+It+Is%29+Tag+Team"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1993.html.txt",
+            "start": 40910,
+            "end": 41680,
+            "lineStart": 324,
+            "lineEnd": 324,
+            "sha256": "7278162e09b3b67cb083f146991fbf91eb6be0dbac9711f1a7d469eb864db71c"
+          }
+        },
+        {
+          "rank": 3,
+          "entityId": "song-763dbbd36cc734c4",
+          "titleAsPublished": "Can't Help Falling in Love",
+          "artistCreditAsPublished": "UB40",
+          "editorialNote": "A cover that let soft-focus romance and reggae-pop crossover coexist on the same station.",
+          "links": [
+            {
+              "label": "Can't Help Falling in Love",
+              "href": "https://en.wikipedia.org/wiki/Can%27t_Help_Falling_in_Love_(UB40_song)"
+            },
+            {
+              "label": "UB40",
+              "href": "https://en.wikipedia.org/wiki/UB40"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=Can%27t+Help+Falling+in+Love+UB40"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/Can%27t+Help+Falling+in+Love+UB40"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1993.html.txt",
+            "start": 41691,
+            "end": 42466,
+            "lineStart": 325,
+            "lineEnd": 325,
+            "sha256": "74b89292e55a9e3f688f5b1e83f81d72cfe5db4f13cbbfc199c4ee7754354f0d"
+          }
+        },
+        {
+          "rank": 4,
+          "entityId": "song-7019c2749113b1f5",
+          "titleAsPublished": "That's the Way Love Goes",
+          "artistCreditAsPublished": "Janet Jackson",
+          "editorialNote": "Smooth, confident, and impossible to separate from 90s cool turning more minimalist and grown.",
+          "links": [
+            {
+              "label": "That's the Way Love Goes",
+              "href": "https://en.wikipedia.org/wiki/That%27s_the_Way_Love_Goes_(Janet_Jackson_song)"
+            },
+            {
+              "label": "Janet Jackson",
+              "href": "https://en.wikipedia.org/wiki/Janet_Jackson"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=That%27s+the+Way+Love+Goes+Janet+Jackson"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/That%27s+the+Way+Love+Goes+Janet+Jackson"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1993.html.txt",
+            "start": 42477,
+            "end": 43294,
+            "lineStart": 326,
+            "lineEnd": 326,
+            "sha256": "ed36e40c6b34b445e912650dc90b1e79e09b364761482257b4d962303c8d943c"
+          }
+        },
+        {
+          "rank": 5,
+          "entityId": "song-3dc7dae578a8254c",
+          "titleAsPublished": "Freak Me",
+          "artistCreditAsPublished": "Silk",
+          "editorialNote": "Peak slow-jam radio — one of those tracks that instantly places you in a dimly lit car stereo memory.",
+          "links": [
+            {
+              "label": "Freak Me",
+              "href": "https://en.wikipedia.org/wiki/Freak_Me"
+            },
+            {
+              "label": "Silk",
+              "href": "https://en.wikipedia.org/wiki/Silk_(group)"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=Freak+Me+Silk"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/Freak+Me+Silk"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1993.html.txt",
+            "start": 43305,
+            "end": 44010,
+            "lineStart": 327,
+            "lineEnd": 327,
+            "sha256": "dea0c6f55abb772449aa3928d1a7460737c675f65429f990129ed32e1e9fa1fe"
+          }
+        },
+        {
+          "rank": 6,
+          "entityId": "song-f5614558fd9e630a",
+          "titleAsPublished": "Weak",
+          "artistCreditAsPublished": "SWV",
+          "editorialNote": "The kind of R&B smash that made the pop charts feel softer, smoother, and more bedroom-stereo friendly.",
+          "links": [
+            {
+              "label": "Weak",
+              "href": "https://en.wikipedia.org/wiki/Weak_(SWV_song)"
+            },
+            {
+              "label": "SWV",
+              "href": "https://en.wikipedia.org/wiki/SWV"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=Weak+SWV"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/Weak+SWV"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1993.html.txt",
+            "start": 44021,
+            "end": 44715,
+            "lineStart": 328,
+            "lineEnd": 328,
+            "sha256": "0906a07b0260a2097ce5d8322cee9dae04765abb91896723a38a7bd0801950fe"
+          }
+        },
+        {
+          "rank": 7,
+          "entityId": "song-9d616bf43ed30ea0",
+          "titleAsPublished": "If I Ever Fall in Love",
+          "artistCreditAsPublished": "Shai",
+          "editorialNote": "A cappella-ish romantic radio that belongs in every “remember this hallway slow dance?” playlist.",
+          "links": [
+            {
+              "label": "If I Ever Fall in Love",
+              "href": "https://en.wikipedia.org/wiki/If_I_Ever_Fall_in_Love"
+            },
+            {
+              "label": "Shai",
+              "href": "https://en.wikipedia.org/wiki/Shai_(group)"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=If+I+Ever+Fall+in+Love+Shai"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/If+I+Ever+Fall+in+Love+Shai"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1993.html.txt",
+            "start": 44726,
+            "end": 45483,
+            "lineStart": 329,
+            "lineEnd": 329,
+            "sha256": "58ba372b7e205ddf60ae818370256eb211888d582ebe3fa2384d650eceb97c82"
+          }
+        },
+        {
+          "rank": 8,
+          "entityId": "song-cd1900e74aa84285",
+          "titleAsPublished": "Dreamlover",
+          "artistCreditAsPublished": "Mariah Carey",
+          "editorialNote": "Bright, playful Mariah pop that sounded like sunshine hitting a mall food court skylight.",
+          "links": [
+            {
+              "label": "Dreamlover",
+              "href": "https://en.wikipedia.org/wiki/Dreamlover"
+            },
+            {
+              "label": "Mariah Carey",
+              "href": "https://en.wikipedia.org/wiki/Mariah_Carey"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=Dreamlover+Mariah+Carey"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/Dreamlover+Mariah+Carey"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1993.html.txt",
+            "start": 45494,
+            "end": 46219,
+            "lineStart": 330,
+            "lineEnd": 330,
+            "sha256": "60d58e7340df52e5f45149a27019f52d2ea92d5f2a6b871ed36a0585f09d61a9"
+          }
+        },
+        {
+          "rank": 9,
+          "entityId": "song-c4aa58b7ba4ccefa",
+          "titleAsPublished": "Rump Shaker",
+          "artistCreditAsPublished": "Wreckx-n-Effect",
+          "editorialNote": "New jack swing party fuel that still feels like a snapshot of 1993 radio's rowdier side.",
+          "links": [
+            {
+              "label": "Rump Shaker",
+              "href": "https://en.wikipedia.org/wiki/Rump_Shaker"
+            },
+            {
+              "label": "Wreckx-n-Effect",
+              "href": "https://en.wikipedia.org/wiki/Wreckx-n-Effect"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=Rump+Shaker+Wreckx-n-Effect"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/Rump+Shaker+Wreckx-n-Effect"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1993.html.txt",
+            "start": 46230,
+            "end": 46970,
+            "lineStart": 331,
+            "lineEnd": 331,
+            "sha256": "f447dc61e33e9e15f26b4e3d966001041a63ea19df86872e520ba54c98ccf2c9"
+          }
+        },
+        {
+          "rank": 10,
+          "entityId": "song-d6a544700e424fca",
+          "titleAsPublished": "Informer",
+          "artistCreditAsPublished": "Snow",
+          "editorialNote": "A weird, catchy crossover hit that proves 1993 radio loved curveballs.",
+          "links": [
+            {
+              "label": "Informer",
+              "href": "https://en.wikipedia.org/wiki/Informer_(song)"
+            },
+            {
+              "label": "Snow",
+              "href": "https://en.wikipedia.org/wiki/Snow_(musician)"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=Informer+Snow"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/Informer+Snow"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1993.html.txt",
+            "start": 46981,
+            "end": 47666,
+            "lineStart": 332,
+            "lineEnd": 332,
+            "sha256": "e0f3eea3ca80ee73e96a69c6d3b53fa0fcdc226dad537447bf69cb8bc3a78ecb"
+          }
+        }
+      ]
+    },
+    {
+      "id": "billboard-year-end-hot-100-1994-top-10",
+      "title": "Billboard Year-End Hot 100: Top 10 of 1994",
+      "year": 1994,
+      "scope": "year-end",
+      "region": "US",
+      "sourceIds": [
+        "source-48d4b48b008597ec"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1994/#top-songs",
+      "entries": [
+        {
+          "rank": 1,
+          "entityId": "song-c63f8a2167f6df6c",
+          "titleAsPublished": "The Sign",
+          "artistCreditAsPublished": "Ace of Base",
+          "editorialNote": "Sleek Swedish pop that made 1994 radio feel bright, polished, and permanently installed in every mall speaker.",
+          "links": [
+            {
+              "label": "The Sign",
+              "href": "https://en.wikipedia.org/wiki/The_Sign_(Ace_of_Base_song)"
+            },
+            {
+              "label": "Ace of Base",
+              "href": "https://en.wikipedia.org/wiki/Ace_of_Base"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=The+Sign+Ace+of+Base"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/The+Sign+Ace+of+Base"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1994.html.txt",
+            "start": 32636,
+            "end": 33389,
+            "lineStart": 337,
+            "lineEnd": 337,
+            "sha256": "acfacdff5d6db3a99ccc0e5023a9f4f11a119ff3d7db563efdc2b15b11b52886"
+          }
+        },
+        {
+          "rank": 2,
+          "entityId": "song-4e75d8f031c4411e",
+          "titleAsPublished": "I Swear",
+          "artistCreditAsPublished": "All-4-One",
+          "editorialNote": "Peak school-dance sincerity — the kind of crossover ballad that lived equally in weddings, slow dances, and grocery-store overhead speakers.",
+          "links": [
+            {
+              "label": "I Swear",
+              "href": "https://en.wikipedia.org/wiki/I_Swear"
+            },
+            {
+              "label": "All-4-One",
+              "href": "https://en.wikipedia.org/wiki/All-4-One"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=I+Swear+All-4-One"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/I+Swear+All-4-One"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1994.html.txt",
+            "start": 33400,
+            "end": 34152,
+            "lineStart": 338,
+            "lineEnd": 338,
+            "sha256": "38849beb1af8a5dc757cc5d720559e316f0a23b3ba2755f1d9b2ef94c82cd248"
+          }
+        },
+        {
+          "rank": 3,
+          "entityId": "song-c601fdd200a6c323",
+          "titleAsPublished": "I'll Make Love to You",
+          "artistCreditAsPublished": "Boyz II Men",
+          "editorialNote": "A slow-jam giant that shows how dominant R&B ballad craft was in the middle of the decade.",
+          "links": [
+            {
+              "label": "I'll Make Love to You",
+              "href": "https://en.wikipedia.org/wiki/I%27ll_Make_Love_to_You"
+            },
+            {
+              "label": "Boyz II Men",
+              "href": "https://en.wikipedia.org/wiki/Boyz_II_Men"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=I%27ll+Make+Love+to+You+Boyz+II+Men"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/I%27ll+Make+Love+to+You+Boyz+II+Men"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1994.html.txt",
+            "start": 34163,
+            "end": 34939,
+            "lineStart": 339,
+            "lineEnd": 339,
+            "sha256": "5310a3977315ab9fb70407d9d403c684ec44e374157e4276514442a9f2ac8c97"
+          }
+        },
+        {
+          "rank": 4,
+          "entityId": "song-f13b65c4454c2310",
+          "titleAsPublished": "The Power of Love",
+          "artistCreditAsPublished": "Celine Dion",
+          "editorialNote": "Big-voice adult-contemporary drama that reminds you the 90s radio map included way more than just MTV cool.",
+          "links": [
+            {
+              "label": "The Power of Love",
+              "href": "https://en.wikipedia.org/wiki/The_Power_of_Love_(Jennifer_Rush_song)"
+            },
+            {
+              "label": "Celine Dion",
+              "href": "https://en.wikipedia.org/wiki/Celine_Dion"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=The+Power+of+Love+Celine+Dion"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/The+Power+of+Love+Celine+Dion"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1994.html.txt",
+            "start": 34950,
+            "end": 35738,
+            "lineStart": 340,
+            "lineEnd": 340,
+            "sha256": "05413c0651a3cc920c8ca48c01fb861699779cf3b1b3e62d00ccff85515a414b"
+          }
+        },
+        {
+          "rank": 5,
+          "entityId": "song-69637e3da4dfd4a8",
+          "titleAsPublished": "Hero",
+          "artistCreditAsPublished": "Mariah Carey",
+          "editorialNote": "An inspirational power-ballad giant — part mall-pop, part graduation soundtrack, part daily-life wallpaper.",
+          "links": [
+            {
+              "label": "Hero",
+              "href": "https://en.wikipedia.org/wiki/Hero_(Mariah_Carey_song)"
+            },
+            {
+              "label": "Mariah Carey",
+              "href": "https://en.wikipedia.org/wiki/Mariah_Carey"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=Hero+Mariah+Carey"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/Hero+Mariah+Carey"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1994.html.txt",
+            "start": 35749,
+            "end": 36488,
+            "lineStart": 341,
+            "lineEnd": 341,
+            "sha256": "19367c2f822868ca7e068c3c39e9027a9d49a811686f1461f56b1068d71ca40a"
+          }
+        },
+        {
+          "rank": 6,
+          "entityId": "song-8db349eff8af4e5b",
+          "titleAsPublished": "Stay (I Missed You)",
+          "artistCreditAsPublished": "Lisa Loeb and Nine Stories",
+          "editorialNote": "Coffeehouse-adjacent, movie-linked, glasses-iconic alt-pop that feels right at home beside the whole 1994 slacker-romance mood.",
+          "links": [
+            {
+              "label": "Stay (I Missed You)",
+              "href": "https://en.wikipedia.org/wiki/Stay_(I_Missed_You)"
+            },
+            {
+              "label": "Lisa Loeb and Nine Stories",
+              "href": "https://en.wikipedia.org/wiki/Lisa_Loeb_%26_Nine_Stories"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=Stay+%28I+Missed+You%29+Lisa+Loeb+and+Nine+Stories"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/Stay+%28I+Missed+You%29+Lisa+Loeb+and+Nine+Stories"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1994.html.txt",
+            "start": 36499,
+            "end": 37362,
+            "lineStart": 342,
+            "lineEnd": 342,
+            "sha256": "8c087cf2311894ffac8dfc901f3f46d20e5661d79f0485f913f90ca0c2d5cfe3"
+          }
+        },
+        {
+          "rank": 7,
+          "entityId": "song-ad4807f7bacf21d2",
+          "titleAsPublished": "Breathe Again",
+          "artistCreditAsPublished": "Toni Braxton",
+          "editorialNote": "The smooth-radio side of 1994: grown, elegant, and permanently associated with quiet-night stereo energy.",
+          "links": [
+            {
+              "label": "Breathe Again",
+              "href": "https://en.wikipedia.org/wiki/Breathe_Again"
+            },
+            {
+              "label": "Toni Braxton",
+              "href": "https://en.wikipedia.org/wiki/Toni_Braxton"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=Breathe+Again+Toni+Braxton"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/Breathe+Again+Toni+Braxton"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1994.html.txt",
+            "start": 37373,
+            "end": 38126,
+            "lineStart": 343,
+            "lineEnd": 343,
+            "sha256": "c5e01f9e4fd6be30f314374f2f6f568382003751eb1d60bc7382ad173a5efa41"
+          }
+        },
+        {
+          "rank": 8,
+          "entityId": "song-6485ef10614edf8a",
+          "titleAsPublished": "All for Love",
+          "artistCreditAsPublished": "Bryan Adams, Rod Stewart, and Sting",
+          "editorialNote": "A giant movie-tie-in single that feels like the last gasp of maximalist soundtrack power-ballad culture.",
+          "links": [
+            {
+              "label": "All for Love",
+              "href": "https://en.wikipedia.org/wiki/All_for_Love_(Bryan_Adams%2C_Rod_Stewart_and_Sting_song)"
+            },
+            {
+              "label": "Bryan Adams",
+              "href": "https://en.wikipedia.org/wiki/Bryan_Adams"
+            },
+            {
+              "label": "Rod Stewart",
+              "href": "https://en.wikipedia.org/wiki/Rod_Stewart"
+            },
+            {
+              "label": "Sting",
+              "href": "https://en.wikipedia.org/wiki/Sting_(musician)"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=All+for+Love+Bryan+Adams+Rod+Stewart+Sting"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/All+for+Love+Bryan+Adams+Rod+Stewart+Sting"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1994.html.txt",
+            "start": 38137,
+            "end": 39186,
+            "lineStart": 344,
+            "lineEnd": 344,
+            "sha256": "c5f0c8573dd676b46eed1e3b67aa999308e5ba87920bcdd141c6c1f4493b0d46"
+          }
+        },
+        {
+          "rank": 9,
+          "entityId": "song-f97e3631b7001811",
+          "titleAsPublished": "All That She Wants",
+          "artistCreditAsPublished": "Ace of Base",
+          "editorialNote": "Another reminder that imported dance-pop hooks were fully embedded in American radio by this point.",
+          "links": [
+            {
+              "label": "All That She Wants",
+              "href": "https://en.wikipedia.org/wiki/All_That_She_Wants"
+            },
+            {
+              "label": "Ace of Base",
+              "href": "https://en.wikipedia.org/wiki/Ace_of_Base"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=All+That+She+Wants+Ace+of+Base"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/All+That+She+Wants+Ace+of+Base"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1994.html.txt",
+            "start": 39197,
+            "end": 39960,
+            "lineStart": 345,
+            "lineEnd": 345,
+            "sha256": "77c156ff3138329b3a27ba7846a758668843b34c11e00c1f9956c7dfa3c42390"
+          }
+        },
+        {
+          "rank": 10,
+          "entityId": "song-997a3d13b5feea37",
+          "titleAsPublished": "Don't Turn Around",
+          "artistCreditAsPublished": "Ace of Base",
+          "editorialNote": "Ace of Base owning three of the top ten says a lot about how 1994 balanced soft-focus emotion with relentlessly catchy pop sheen.",
+          "links": [
+            {
+              "label": "Don't Turn Around",
+              "href": "https://en.wikipedia.org/wiki/Don%27t_Turn_Around_(Ace_of_Base_song)"
+            },
+            {
+              "label": "Ace of Base",
+              "href": "https://en.wikipedia.org/wiki/Ace_of_Base"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=Don%27t+Turn+Around+Ace+of+Base"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/Don%27t+Turn+Around+Ace+of+Base"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1994.html.txt",
+            "start": 39971,
+            "end": 40786,
+            "lineStart": 346,
+            "lineEnd": 346,
+            "sha256": "a42086116e7ad008ae32562cd1cf17af17267313ea86e911f5836b0624cf5ca6"
+          }
+        }
+      ]
+    },
+    {
+      "id": "billboard-year-end-hot-100-1995-top-10",
+      "title": "Billboard Year-End Hot 100: Top 10 of 1995",
+      "year": 1995,
+      "scope": "year-end",
+      "region": "US",
+      "sourceIds": [
+        "source-97e8b00bb9993d9c"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1995/#top-songs",
+      "entries": [
+        {
+          "rank": 1,
+          "entityId": "song-5c916cbf3060dca5",
+          "titleAsPublished": "Gangsta's Paradise",
+          "artistCreditAsPublished": "Coolio featuring L.V.",
+          "editorialNote": "Dangerous Minds made this feel like the serious, cinematic sound of 1995.",
+          "links": [
+            {
+              "label": "Gangsta's Paradise",
+              "href": "https://en.wikipedia.org/wiki/Gangsta%27s_Paradise"
+            },
+            {
+              "label": "Coolio featuring L.V.",
+              "href": "https://en.wikipedia.org/wiki/Coolio"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=Gangsta%27s+Paradise+Coolio+featuring+L.V."
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/Gangsta%27s+Paradise+Coolio+featuring+L.V."
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1995.html.txt",
+            "start": 30473,
+            "end": 31271,
+            "lineStart": 216,
+            "lineEnd": 224,
+            "sha256": "95c76329a69df58dbce285052483d5080ea03deef4554662e7a37815a4a45624"
+          }
+        },
+        {
+          "rank": 2,
+          "entityId": "song-40ef45ce8bb8d44a",
+          "titleAsPublished": "Waterfalls",
+          "artistCreditAsPublished": "TLC",
+          "editorialNote": "A socially conscious pop/R&B blockbuster with a video everyone remembers.",
+          "links": [
+            {
+              "label": "Waterfalls",
+              "href": "https://en.wikipedia.org/wiki/Waterfalls_(TLC_song)"
+            },
+            {
+              "label": "TLC",
+              "href": "https://en.wikipedia.org/wiki/TLC_(group)"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=Waterfalls+TLC"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/Waterfalls+TLC"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1995.html.txt",
+            "start": 31272,
+            "end": 31994,
+            "lineStart": 225,
+            "lineEnd": 233,
+            "sha256": "552062b8b33acbb304d97fa2cd71ab0be66069a4379c617607f029a20aa88c3b"
+          }
+        },
+        {
+          "rank": 3,
+          "entityId": "song-07b220ab95287902",
+          "titleAsPublished": "Creep",
+          "artistCreditAsPublished": "TLC",
+          "editorialNote": "Silky, cool, and impossible to separate from the CrazySexyCool era.",
+          "links": [
+            {
+              "label": "Creep",
+              "href": "https://en.wikipedia.org/wiki/Creep_(TLC_song)"
+            },
+            {
+              "label": "TLC",
+              "href": "https://en.wikipedia.org/wiki/TLC_(group)"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=Creep+TLC"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/Creep+TLC"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1995.html.txt",
+            "start": 31995,
+            "end": 32691,
+            "lineStart": 234,
+            "lineEnd": 242,
+            "sha256": "f3bbccfa5e130c463a00d34c6af180480f617928b9dbb577a3f6432ae03597af"
+          }
+        },
+        {
+          "rank": 4,
+          "entityId": "song-1b3fdc09eaf64bb1",
+          "titleAsPublished": "Kiss from a Rose",
+          "artistCreditAsPublished": "Seal",
+          "editorialNote": "Batman Forever helped push this dramatic ballad into permanent 90s rotation.",
+          "links": [
+            {
+              "label": "Kiss from a Rose",
+              "href": "https://en.wikipedia.org/wiki/Kiss_from_a_Rose"
+            },
+            {
+              "label": "Seal",
+              "href": "https://en.wikipedia.org/wiki/Seal_(musician)"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=Kiss+from+a+Rose+Seal"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/Kiss+from+a+Rose+Seal"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1995.html.txt",
+            "start": 32692,
+            "end": 33437,
+            "lineStart": 243,
+            "lineEnd": 251,
+            "sha256": "0126bda9a234be47286185c6d2b440df9453d523e6d333170141ba64000fd69b"
+          }
+        },
+        {
+          "rank": 5,
+          "entityId": "song-54e575f6278d5fe8",
+          "titleAsPublished": "On Bended Knee",
+          "artistCreditAsPublished": "Boyz II Men",
+          "editorialNote": "Peak slow-jam vocal drama from the group that owned mid-90s ballads.",
+          "links": [
+            {
+              "label": "On Bended Knee",
+              "href": "https://en.wikipedia.org/wiki/On_Bended_Knee"
+            },
+            {
+              "label": "Boyz II Men",
+              "href": "https://en.wikipedia.org/wiki/Boyz_II_Men"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=On+Bended+Knee+Boyz+II+Men"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/On+Bended+Knee+Boyz+II+Men"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1995.html.txt",
+            "start": 33438,
+            "end": 34184,
+            "lineStart": 252,
+            "lineEnd": 260,
+            "sha256": "a11b9c5e6ba60ec681e9ccc2f9cd2537a488cae47f72fae93534143db37a9193"
+          }
+        },
+        {
+          "rank": 6,
+          "entityId": "song-73a7e83a265f3bd1",
+          "titleAsPublished": "Another Night",
+          "artistCreditAsPublished": "Real McCoy",
+          "editorialNote": "Eurodance oxygen: mall stores, skating rinks, radio, and school dances.",
+          "links": [
+            {
+              "label": "Another Night",
+              "href": "https://en.wikipedia.org/wiki/Another_Night_(Real_McCoy_song)"
+            },
+            {
+              "label": "Real McCoy",
+              "href": "https://en.wikipedia.org/wiki/Real_McCoy_(band)"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=Another+Night+Real+McCoy"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/Another+Night+Real+McCoy"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1995.html.txt",
+            "start": 34185,
+            "end": 34951,
+            "lineStart": 261,
+            "lineEnd": 269,
+            "sha256": "8b0dbcf310d852a4c3bed40d7c19ed7515984ec2cf4ed0ba1d57bffee9167755"
+          }
+        },
+        {
+          "rank": 7,
+          "entityId": "song-2bfe133586ce1263",
+          "titleAsPublished": "Fantasy",
+          "artistCreditAsPublished": "Mariah Carey",
+          "editorialNote": "A bright pop/R&B crossover moment that helped point toward remix culture.",
+          "links": [
+            {
+              "label": "Fantasy",
+              "href": "https://en.wikipedia.org/wiki/Fantasy_(Mariah_Carey_song)"
+            },
+            {
+              "label": "Mariah Carey",
+              "href": "https://en.wikipedia.org/wiki/Mariah_Carey"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=Fantasy+Mariah+Carey"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/Fantasy+Mariah+Carey"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1995.html.txt",
+            "start": 34952,
+            "end": 35699,
+            "lineStart": 270,
+            "lineEnd": 278,
+            "sha256": "91957d697d87ea2d77b8f6385e577f766d8d4e9a76859d50c1ce71cadda36cc6"
+          }
+        },
+        {
+          "rank": 8,
+          "entityId": "song-9a97bde18f983626",
+          "titleAsPublished": "Take a Bow",
+          "artistCreditAsPublished": "Madonna",
+          "editorialNote": "A polished ballad from Madonna’s softer mid-90s chapter.",
+          "links": [
+            {
+              "label": "Take a Bow",
+              "href": "https://en.wikipedia.org/wiki/Take_a_Bow_(Madonna_song)"
+            },
+            {
+              "label": "Madonna",
+              "href": "https://en.wikipedia.org/wiki/Madonna"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=Take+a+Bow+Madonna"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/Take+a+Bow+Madonna"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1995.html.txt",
+            "start": 35700,
+            "end": 36417,
+            "lineStart": 279,
+            "lineEnd": 287,
+            "sha256": "612c04125ba6d7bbfd0de504f9c43e5d38ffd570ff2422174010f33f6f40c62c"
+          }
+        },
+        {
+          "rank": 9,
+          "entityId": "song-7737c2054f44afe9",
+          "titleAsPublished": "Don't Take It Personal (Just One of Dem Days)",
+          "artistCreditAsPublished": "Monica",
+          "editorialNote": "Teen R&B confidence with the exact title energy of an away-message mood.",
+          "links": [
+            {
+              "label": "Don't Take It Personal (Just One of Dem Days)",
+              "href": "https://en.wikipedia.org/wiki/Don%27t_Take_It_Personal_(Just_One_of_Dem_Days)"
+            },
+            {
+              "label": "Monica",
+              "href": "https://en.wikipedia.org/wiki/Monica_(singer)"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=Don%27t+Take+It+Personal+%28Just+One+of+Dem+Days%29+Monica"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/Don%27t+Take+It+Personal+%28Just+One+of+Dem+Days%29+Monica"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1995.html.txt",
+            "start": 36418,
+            "end": 37295,
+            "lineStart": 288,
+            "lineEnd": 296,
+            "sha256": "5acc14ab05506d9e9b794633d8d715d596a82d4ee1456e9f0e01671657ec18f7"
+          }
+        },
+        {
+          "rank": 10,
+          "entityId": "song-f6b2cc895bac3ce7",
+          "titleAsPublished": "This Is How We Do It",
+          "artistCreditAsPublished": "Montell Jordan",
+          "editorialNote": "The house-party starter that still works instantly.",
+          "links": [
+            {
+              "label": "This Is How We Do It",
+              "href": "https://en.wikipedia.org/wiki/This_Is_How_We_Do_It"
+            },
+            {
+              "label": "Montell Jordan",
+              "href": "https://en.wikipedia.org/wiki/Montell_Jordan"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=This+Is+How+We+Do+It+Montell+Jordan"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/This+Is+How+We+Do+It+Montell+Jordan"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1995.html.txt",
+            "start": 37296,
+            "end": 38062,
+            "lineStart": 297,
+            "lineEnd": 305,
+            "sha256": "bbf4ed58cba904b029ddeefe7687d58da6857aa30e770eff6d5c786adcff985d"
+          }
+        }
+      ]
+    },
+    {
+      "id": "billboard-year-end-hot-100-1996-top-10",
+      "title": "Billboard Year-End Hot 100: Top 10 of 1996",
+      "year": 1996,
+      "scope": "year-end",
+      "region": "US",
+      "sourceIds": [
+        "source-58fa4f5b171ad04d"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1996/#top-songs",
+      "entries": [
+        {
+          "rank": 1,
+          "entityId": "song-32b128b0b30938d8",
+          "titleAsPublished": "Macarena (Bayside Boys Mix)",
+          "artistCreditAsPublished": "Los del Río",
+          "editorialNote": "Less a song than a full-body civic duty: weddings, gym class, summer camp, school dances, and every cousin who thought they knew the moves.",
+          "links": [
+            {
+              "label": "Macarena (Bayside Boys Mix)",
+              "href": "https://en.wikipedia.org/wiki/Special:Search?search=Macarena+%28Bayside+Boys+Mix%29"
+            },
+            {
+              "label": "Los del Río",
+              "href": "https://en.wikipedia.org/wiki/Special:Search?search=Los+del+R%C3%ADo"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=Macarena+%28Bayside+Boys+Mix%29+Los+del+R%C3%ADo"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/Macarena+%28Bayside+Boys+Mix%29+Los+del+R%C3%ADo"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1996.html.txt",
+            "start": 37134,
+            "end": 38044,
+            "lineStart": 368,
+            "lineEnd": 368,
+            "sha256": "86321ff63386ad5d19caf8f3964bcfa7507de3ef367d216e228c3439681f036b"
+          }
+        },
+        {
+          "rank": 2,
+          "entityId": "song-b24ff0b4949b5dd6",
+          "titleAsPublished": "One Sweet Day",
+          "artistCreditAsPublished": "Mariah Carey and Boyz II Men",
+          "editorialNote": "Peak slow-jam grandeur — the kind of CD-single era heartbreak that turned mall speakers and bedroom stereos into the same emotional climate.",
+          "links": [
+            {
+              "label": "One Sweet Day",
+              "href": "https://en.wikipedia.org/wiki/Special:Search?search=One+Sweet+Day"
+            },
+            {
+              "label": "Mariah Carey and Boyz II Men",
+              "href": "https://en.wikipedia.org/wiki/Special:Search?search=Mariah+Carey+and+Boyz+II+Men"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=One+Sweet+Day+Mariah+Carey+and+Boyz+II+Men"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/One+Sweet+Day+Mariah+Carey+and+Boyz+II+Men"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1996.html.txt",
+            "start": 38055,
+            "end": 38951,
+            "lineStart": 369,
+            "lineEnd": 369,
+            "sha256": "9be8fa702d0b25be83d709a99b21b94e842855f9b7acc8f5c7c8f631e26091e0"
+          }
+        },
+        {
+          "rank": 3,
+          "entityId": "song-4df0b8df135f2a25",
+          "titleAsPublished": "Because You Loved Me",
+          "artistCreditAsPublished": "Celine Dion",
+          "editorialNote": "A movie-ballad superweapon from the era when one adult-contemporary chorus could occupy radio, graduations, and every drugstore speaker at once.",
+          "links": [
+            {
+              "label": "Because You Loved Me",
+              "href": "https://en.wikipedia.org/wiki/Special:Search?search=Because+You+Loved+Me"
+            },
+            {
+              "label": "Celine Dion",
+              "href": "https://en.wikipedia.org/wiki/Special:Search?search=Celine+Dion"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=Because+You+Loved+Me+Celine+Dion"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/Because+You+Loved+Me+Celine+Dion"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1996.html.txt",
+            "start": 38962,
+            "end": 39822,
+            "lineStart": 370,
+            "lineEnd": 370,
+            "sha256": "e4aae8b18a5aec3a97f544118e0a136994af301aa0930cae8c2960c99902a473"
+          }
+        },
+        {
+          "rank": 4,
+          "entityId": "song-0aaf7849fd4a9d6b",
+          "titleAsPublished": "Nobody Knows",
+          "artistCreditAsPublished": "The Tony Rich Project",
+          "editorialNote": "Quiet-storm radio with real mall-CD-store gravity — exactly the kind of hit you rediscover and suddenly remember hearing in every parking lot.",
+          "links": [
+            {
+              "label": "Nobody Knows",
+              "href": "https://en.wikipedia.org/wiki/Special:Search?search=Nobody+Knows"
+            },
+            {
+              "label": "The Tony Rich Project",
+              "href": "https://en.wikipedia.org/wiki/Special:Search?search=The+Tony+Rich+Project"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=Nobody+Knows+The+Tony+Rich+Project"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/Nobody+Knows+The+Tony+Rich+Project"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1996.html.txt",
+            "start": 39833,
+            "end": 40699,
+            "lineStart": 371,
+            "lineEnd": 371,
+            "sha256": "064fdd6da776a2629884f8bf81e8117bc09ebfe320346c2b87a61e7075b1c8e5"
+          }
+        },
+        {
+          "rank": 5,
+          "entityId": "song-f45e3e62a0b2a45f",
+          "titleAsPublished": "Always Be My Baby",
+          "artistCreditAsPublished": "Mariah Carey",
+          "editorialNote": "Mariah in full glossy-pop command, floating above summer radio with the kind of hook that lives forever in roller-rink and sleepover memory.",
+          "links": [
+            {
+              "label": "Always Be My Baby",
+              "href": "https://en.wikipedia.org/wiki/Special:Search?search=Always+Be+My+Baby"
+            },
+            {
+              "label": "Mariah Carey",
+              "href": "https://en.wikipedia.org/wiki/Special:Search?search=Mariah+Carey"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=Always+Be+My+Baby+Mariah+Carey"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/Always+Be+My+Baby+Mariah+Carey"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1996.html.txt",
+            "start": 40710,
+            "end": 41558,
+            "lineStart": 372,
+            "lineEnd": 372,
+            "sha256": "de016b6e057669a2748fb49f4ac8e3963915d72d0eea02ca8b4083e9dbab9699"
+          }
+        },
+        {
+          "rank": 6,
+          "entityId": "song-eaa95555918f705a",
+          "titleAsPublished": "Give Me One Reason",
+          "artistCreditAsPublished": "Tracy Chapman",
+          "editorialNote": "Proof that even in a maximalist year, one dry guitar riff and one cool voice could still cut through every neon, dance craze, and CD-tower display.",
+          "links": [
+            {
+              "label": "Give Me One Reason",
+              "href": "https://en.wikipedia.org/wiki/Special:Search?search=Give+Me+One+Reason"
+            },
+            {
+              "label": "Tracy Chapman",
+              "href": "https://en.wikipedia.org/wiki/Special:Search?search=Tracy+Chapman"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=Give+Me+One+Reason+Tracy+Chapman"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/Give+Me+One+Reason+Tracy+Chapman"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1996.html.txt",
+            "start": 41569,
+            "end": 42432,
+            "lineStart": 373,
+            "lineEnd": 373,
+            "sha256": "02fe12b98914d56c9fe3ac13dff79bc12f2fa9cdde50c906321efd746a314b02"
+          }
+        },
+        {
+          "rank": 7,
+          "entityId": "song-1591d00f39f86fd4",
+          "titleAsPublished": "Tha Crossroads",
+          "artistCreditAsPublished": "Bone Thugs-n-Harmony",
+          "editorialNote": "Melodic rap grief turned into a real mainstream weather system — car-radio, MTV, and lunch-table memory all at the same time.",
+          "links": [
+            {
+              "label": "Tha Crossroads",
+              "href": "https://en.wikipedia.org/wiki/Special:Search?search=Tha+Crossroads"
+            },
+            {
+              "label": "Bone Thugs-n-Harmony",
+              "href": "https://en.wikipedia.org/wiki/Special:Search?search=Bone+Thugs-n-Harmony"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=Tha+Crossroads+Bone+Thugs-n-Harmony"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/Tha+Crossroads+Bone+Thugs-n-Harmony"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1996.html.txt",
+            "start": 42443,
+            "end": 43296,
+            "lineStart": 374,
+            "lineEnd": 374,
+            "sha256": "f44021fe4c738c18ed8307c86951100e49d96eb23a176f82d67a359557f27e40"
+          }
+        },
+        {
+          "rank": 8,
+          "entityId": "song-ef82c74cfcdc1fcc",
+          "titleAsPublished": "I Love You Always Forever",
+          "artistCreditAsPublished": "Donna Lewis",
+          "editorialNote": "Dreamy, airy, and weirdly omnipresent — the kind of song that makes department stores, teen bedrooms, and late-summer radio all blur together.",
+          "links": [
+            {
+              "label": "I Love You Always Forever",
+              "href": "https://en.wikipedia.org/wiki/Special:Search?search=I+Love+You+Always+Forever"
+            },
+            {
+              "label": "Donna Lewis",
+              "href": "https://en.wikipedia.org/wiki/Special:Search?search=Donna+Lewis"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=I+Love+You+Always+Forever+Donna+Lewis"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/I+Love+You+Always+Forever+Donna+Lewis"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1996.html.txt",
+            "start": 43307,
+            "end": 44185,
+            "lineStart": 375,
+            "lineEnd": 375,
+            "sha256": "bef90fc771c8f6d94b243c9551cda2013814477c39ed8b547bf5d79bafba9be2"
+          }
+        },
+        {
+          "rank": 9,
+          "entityId": "song-9558f4915b4ae15b",
+          "titleAsPublished": "You're Makin' Me High / Let It Flow",
+          "artistCreditAsPublished": "Toni Braxton",
+          "editorialNote": "Sleek late-night R&B with soundtrack spillover energy — the kind of song that makes 1996 feel grown-up, dramatic, and expensive.",
+          "links": [
+            {
+              "label": "You're Makin' Me High / Let It Flow",
+              "href": "https://en.wikipedia.org/wiki/Special:Search?search=You%27re+Makin%27+Me+High+%2F+Let+It+Flow"
+            },
+            {
+              "label": "Toni Braxton",
+              "href": "https://en.wikipedia.org/wiki/Special:Search?search=Toni+Braxton"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=You%27re+Makin%27+Me+High+%2F+Let+It+Flow+Toni+Braxton"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/You%27re+Makin%27+Me+High+%2F+Let+It+Flow+Toni+Braxton"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1996.html.txt",
+            "start": 44196,
+            "end": 45126,
+            "lineStart": 376,
+            "lineEnd": 376,
+            "sha256": "ec7d2f1a769743e7cf5d975a72bcef11800e544fade0b41fa400f89fab9934e9"
+          }
+        },
+        {
+          "rank": 10,
+          "entityId": "song-9b4f8e46cfbf5f73",
+          "titleAsPublished": "Twisted",
+          "artistCreditAsPublished": "Keith Sweat",
+          "editorialNote": "One more reminder that 1996 radio was smoother, slower, and more R&B-heavy than people remember when they reduce the year to just Macarena and movie tie-ins.",
+          "links": [
+            {
+              "label": "Twisted",
+              "href": "https://en.wikipedia.org/wiki/Special:Search?search=Twisted"
+            },
+            {
+              "label": "Keith Sweat",
+              "href": "https://en.wikipedia.org/wiki/Special:Search?search=Keith+Sweat"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=Twisted+Keith+Sweat"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/Twisted+Keith+Sweat"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1996.html.txt",
+            "start": 45137,
+            "end": 45963,
+            "lineStart": 377,
+            "lineEnd": 377,
+            "sha256": "8c9bfe9de5624febe1d1478222fec962e94db62cff6c01b47dd25718c96320df"
+          }
+        }
+      ]
+    },
+    {
+      "id": "billboard-year-end-hot-100-1997-top-10",
+      "title": "Billboard Year-End Hot 100: Top 10 of 1997",
+      "year": 1997,
+      "scope": "year-end",
+      "region": "US",
+      "sourceIds": [
+        "source-52307fc76a691020"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1997/#top-songs",
+      "entries": [
+        {
+          "rank": 1,
+          "entityId": "song-34656e2d2594a1ef",
+          "titleAsPublished": "Candle in the Wind 1997 / Something About the Way You Look Tonight",
+          "artistCreditAsPublished": "Elton John",
+          "editorialNote": "A memorial single so huge it instantly fused tabloid grief, radio repetition, and late-1997 public emotion into one chart marker.",
+          "links": [
+            {
+              "label": "Candle in the Wind 1997 / Something About the Way You Look Tonight",
+              "href": "https://en.wikipedia.org/wiki/Candle_in_the_Wind_1997"
+            },
+            {
+              "label": "Elton John",
+              "href": "https://en.wikipedia.org/wiki/Elton_John"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=Candle+in+the+Wind+1997+Something+About+the+Way+You+Look+Tonight+Elton+John"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/Candle%20in%20the%20Wind%201997%20Something%20About%20the%20Way%20You%20Look%20Tonight%20Elton%20John"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1997.html.txt",
+            "start": 28536,
+            "end": 29496,
+            "lineStart": 219,
+            "lineEnd": 219,
+            "sha256": "a286063e6000b4c8c026662b4a308a7b12a456cfdb2b7a85228f5e91744d4edd"
+          }
+        },
+        {
+          "rank": 2,
+          "entityId": "song-6d428cca399deaa6",
+          "titleAsPublished": "You Were Meant for Me / Foolish Games",
+          "artistCreditAsPublished": "Jewel",
+          "editorialNote": "Peak coffeehouse confession-pop — the kind of CD you bought because one song from a movie or late-night radio quietly wrecked you.",
+          "links": [
+            {
+              "label": "You Were Meant for Me / Foolish Games",
+              "href": "https://en.wikipedia.org/wiki/You_Were_Meant_for_Me_(Jewel_song)"
+            },
+            {
+              "label": "Jewel",
+              "href": "https://en.wikipedia.org/wiki/Jewel_(singer)"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=You+Were+Meant+for+Me+Foolish+Games+Jewel"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/You%20Were%20Meant%20for%20Me%20Foolish%20Games%20Jewel"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1997.html.txt",
+            "start": 29507,
+            "end": 30369,
+            "lineStart": 220,
+            "lineEnd": 220,
+            "sha256": "bb8f58e7607738583fe62d31a975481b661f35731152dfbeb8461d291ac580a4"
+          }
+        },
+        {
+          "rank": 3,
+          "entityId": "song-3f43dbc725acc0d7",
+          "titleAsPublished": "I'll Be Missing You",
+          "artistCreditAsPublished": "Puff Daddy, Faith Evans, and 112",
+          "editorialNote": "A tribute hit that turned hip-hop mourning into unavoidable pop-culture atmosphere after the death of the Notorious B.I.G..",
+          "links": [
+            {
+              "label": "I'll Be Missing You",
+              "href": "https://en.wikipedia.org/wiki/I%27ll_Be_Missing_You"
+            },
+            {
+              "label": "Puff Daddy",
+              "href": "https://en.wikipedia.org/wiki/Puff_Daddy"
+            },
+            {
+              "label": "Faith Evans",
+              "href": "https://en.wikipedia.org/wiki/Faith_Evans"
+            },
+            {
+              "label": "112",
+              "href": "https://en.wikipedia.org/wiki/112_(American_group)"
+            },
+            {
+              "label": "the Notorious B.I.G.",
+              "href": "https://en.wikipedia.org/wiki/The_Notorious_B.I.G."
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=I%27ll+Be+Missing+You+Puff+Daddy+Faith+Evans+112"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/I%27ll%20Be%20Missing%20You%20Puff%20Daddy%20Faith%20Evans%20112"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1997.html.txt",
+            "start": 30380,
+            "end": 31555,
+            "lineStart": 221,
+            "lineEnd": 221,
+            "sha256": "9d33e3e92f383423ce05c0eb8c5ea8870f86b11ec7d870f0862d70bd9c992ff5"
+          }
+        },
+        {
+          "rank": 4,
+          "entityId": "song-28020044a64f9b46",
+          "titleAsPublished": "Un-Break My Heart",
+          "artistCreditAsPublished": "Toni Braxton",
+          "editorialNote": "Big-voice drama that lived equally in bedroom stereos, wedding-DJ playlists, and every chain-store speaker system in America.",
+          "links": [
+            {
+              "label": "Un-Break My Heart",
+              "href": "https://en.wikipedia.org/wiki/Un-Break_My_Heart"
+            },
+            {
+              "label": "Toni Braxton",
+              "href": "https://en.wikipedia.org/wiki/Toni_Braxton"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=Un-Break+My+Heart+Toni+Braxton"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/Un-Break%20My%20Heart%20Toni%20Braxton"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1997.html.txt",
+            "start": 31566,
+            "end": 32363,
+            "lineStart": 222,
+            "lineEnd": 222,
+            "sha256": "38e352bb56271a53d241c2abb0b650598740012cd766149b572d96a80181f6a2"
+          }
+        },
+        {
+          "rank": 5,
+          "entityId": "song-772b8cf7d5b22fc1",
+          "titleAsPublished": "Can't Nobody Hold Me Down",
+          "artistCreditAsPublished": "Puff Daddy featuring Mase",
+          "editorialNote": "Glossy Bad Boy swagger: expensive-video rap, shiny-suit confidence, and the feeling that hip-hop had fully colonized mainstream airplay.",
+          "links": [
+            {
+              "label": "Can't Nobody Hold Me Down",
+              "href": "https://en.wikipedia.org/wiki/Can%27t_Nobody_Hold_Me_Down"
+            },
+            {
+              "label": "Puff Daddy",
+              "href": "https://en.wikipedia.org/wiki/Puff_Daddy"
+            },
+            {
+              "label": "Mase",
+              "href": "https://en.wikipedia.org/wiki/Mase"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=Can%27t+Nobody+Hold+Me+Down+Puff+Daddy+Mase"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/Can%27t%20Nobody%20Hold%20Me%20Down%20Puff%20Daddy%20Mase"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1997.html.txt",
+            "start": 32374,
+            "end": 33334,
+            "lineStart": 223,
+            "lineEnd": 223,
+            "sha256": "ecf15677200794ec05092cb97fdeb7249c749542b7ba0793f9635c48fa975940"
+          }
+        },
+        {
+          "rank": 6,
+          "entityId": "song-a339b32b220e7735",
+          "titleAsPublished": "I Believe I Can Fly",
+          "artistCreditAsPublished": "R. Kelly",
+          "editorialNote": "One of those unavoidable soundtrack-era uplift songs that drifted from movie tie-in to graduation staple in record time.",
+          "links": [
+            {
+              "label": "I Believe I Can Fly",
+              "href": "https://en.wikipedia.org/wiki/I_Believe_I_Can_Fly"
+            },
+            {
+              "label": "R. Kelly",
+              "href": "https://en.wikipedia.org/wiki/R._Kelly"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=I+Believe+I+Can+Fly+R+Kelly"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/I%20Believe%20I%20Can%20Fly%20R%20Kelly"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1997.html.txt",
+            "start": 33345,
+            "end": 34131,
+            "lineStart": 224,
+            "lineEnd": 224,
+            "sha256": "ca81df542ef0684629b43cdfc3fe9764c0d472f74d7bafc32fb1e3baf44e018d"
+          }
+        },
+        {
+          "rank": 7,
+          "entityId": "song-b0b99917b6609b01",
+          "titleAsPublished": "Don't Let Go (Love)",
+          "artistCreditAsPublished": "En Vogue",
+          "editorialNote": "A sleek slow-burn R&B hit that captures how adult cool, soundtrack romance, and radio polish could still dominate the same year as teen-pop mania.",
+          "links": [
+            {
+              "label": "Don't Let Go (Love)",
+              "href": "https://en.wikipedia.org/wiki/Don%27t_Let_Go_(Love)"
+            },
+            {
+              "label": "En Vogue",
+              "href": "https://en.wikipedia.org/wiki/En_Vogue"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=Don%27t+Let+Go+Love+En+Vogue"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/Don%27t%20Let%20Go%20Love%20En%20Vogue"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1997.html.txt",
+            "start": 34142,
+            "end": 34960,
+            "lineStart": 225,
+            "lineEnd": 225,
+            "sha256": "338ec10fe346adbf07adad81138b3245599ce67c9318fb2da80589601eb84748"
+          }
+        },
+        {
+          "rank": 8,
+          "entityId": "song-5fe91c5f9a71c117",
+          "titleAsPublished": "Return of the Mack",
+          "artistCreditAsPublished": "Mark Morrison",
+          "editorialNote": "Pure strut — one of those songs that makes the whole year feel cooler, shinier, and more ready for a chrome music-video treatment.",
+          "links": [
+            {
+              "label": "Return of the Mack",
+              "href": "https://en.wikipedia.org/wiki/Return_of_the_Mack"
+            },
+            {
+              "label": "Mark Morrison",
+              "href": "https://en.wikipedia.org/wiki/Mark_Morrison"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=Return+of+the+Mack+Mark+Morrison"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/Return%20of%20the%20Mack%20Mark%20Morrison"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1997.html.txt",
+            "start": 34971,
+            "end": 35783,
+            "lineStart": 226,
+            "lineEnd": 226,
+            "sha256": "c545880cfba664547f906eccd4cf2e8985ec0052e6ca651e5a8416f0dfac1951"
+          }
+        },
+        {
+          "rank": 9,
+          "entityId": "song-6fa1b75526d29db0",
+          "titleAsPublished": "How Do I Live",
+          "artistCreditAsPublished": "LeAnn Rimes",
+          "editorialNote": "A radio-everywhere ballad that proves the real 1997 soundtrack included car rides, supermarket aisles, and family-stereo territory too.",
+          "links": [
+            {
+              "label": "How Do I Live",
+              "href": "https://en.wikipedia.org/wiki/How_Do_I_Live"
+            },
+            {
+              "label": "LeAnn Rimes",
+              "href": "https://en.wikipedia.org/wiki/LeAnn_Rimes"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=How+Do+I+Live+LeAnn+Rimes"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/How%20Do%20I%20Live%20LeAnn%20Rimes"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1997.html.txt",
+            "start": 35794,
+            "end": 36583,
+            "lineStart": 227,
+            "lineEnd": 227,
+            "sha256": "6fea38bfac9cc3162ef1601ee89339f254046990ad28567d6c722125e8b7d6ab"
+          }
+        },
+        {
+          "rank": 10,
+          "entityId": "song-e3130b3c8f2da473",
+          "titleAsPublished": "Wannabe",
+          "artistCreditAsPublished": "Spice Girls",
+          "editorialNote": "Global sugar-rush pop that made 1997 feel like a giant, hyper-marketable sleepover with perfect hooks and catchphrases.",
+          "links": [
+            {
+              "label": "Wannabe",
+              "href": "https://en.wikipedia.org/wiki/Wannabe"
+            },
+            {
+              "label": "Spice Girls",
+              "href": "https://en.wikipedia.org/wiki/Spice_Girls"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=Wannabe+Spice+Girls"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/Wannabe%20Spice%20Girls"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1997.html.txt",
+            "start": 36594,
+            "end": 37338,
+            "lineStart": 228,
+            "lineEnd": 228,
+            "sha256": "273dac9173aced410b84aba12d24015fa76f6b8a003bcb3a69befd6a9adc9ce1"
+          }
+        }
+      ]
+    },
+    {
+      "id": "billboard-year-end-hot-100-1998-top-10",
+      "title": "Billboard Year-End Hot 100: Top 10 of 1998",
+      "year": 1998,
+      "scope": "year-end",
+      "region": "US",
+      "sourceIds": [
+        "source-a0cefc83dda4fbc5"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1998/#top-songs",
+      "entries": [
+        {
+          "rank": 1,
+          "entityId": "song-35504871aca8335b",
+          "titleAsPublished": "Too Close",
+          "artistCreditAsPublished": "Next",
+          "editorialNote": "A sleek late-90s R&B groove that feels like mall speakers, dance floors, and radio dedications all at once.",
+          "links": [
+            {
+              "label": "Too Close",
+              "href": "https://en.wikipedia.org/wiki/Too_Close"
+            },
+            {
+              "label": "Next",
+              "href": "https://en.wikipedia.org/wiki/Next_(American_group)"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=Too+Close+Next"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/Too+Close+Next"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1998.html.txt",
+            "start": 31008,
+            "end": 31736,
+            "lineStart": 329,
+            "lineEnd": 329,
+            "sha256": "6bd83aeaa761ec64500e55414b7218d78b71e1f864957cfc09542dc898eb5479"
+          }
+        },
+        {
+          "rank": 2,
+          "entityId": "song-041b450145adb30f",
+          "titleAsPublished": "The Boy Is Mine",
+          "artistCreditAsPublished": "Brandy and Monica",
+          "editorialNote": "Peak video-era pop drama: a duet that turned radio listeners into side-picking gossip participants.",
+          "links": [
+            {
+              "label": "The Boy Is Mine",
+              "href": "https://en.wikipedia.org/wiki/The_Boy_Is_Mine"
+            },
+            {
+              "label": "Brandy",
+              "href": "https://en.wikipedia.org/wiki/Brandy_Norwood"
+            },
+            {
+              "label": "Monica",
+              "href": "https://en.wikipedia.org/wiki/Monica_(singer)"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=The+Boy+Is+Mine+Brandy+Monica"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/The+Boy+Is+Mine+Brandy+Monica"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1998.html.txt",
+            "start": 31747,
+            "end": 32613,
+            "lineStart": 330,
+            "lineEnd": 330,
+            "sha256": "8a409dff624f297d40a7364f1fe19f0e0a43b60e72c01a46be96e1fedef397c5"
+          }
+        },
+        {
+          "rank": 3,
+          "entityId": "song-56f19834c8e425ec",
+          "titleAsPublished": "You're Still the One",
+          "artistCreditAsPublished": "Shania Twain",
+          "editorialNote": "Country-pop crossover polished enough to live on wedding playlists, car radios, and CD changers without friction.",
+          "links": [
+            {
+              "label": "You're Still the One",
+              "href": "https://en.wikipedia.org/wiki/You%27re_Still_the_One"
+            },
+            {
+              "label": "Shania Twain",
+              "href": "https://en.wikipedia.org/wiki/Shania_Twain"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=You%27re+Still+the+One+Shania+Twain"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/You%27re+Still+the+One+Shania+Twain"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1998.html.txt",
+            "start": 32624,
+            "end": 33419,
+            "lineStart": 331,
+            "lineEnd": 331,
+            "sha256": "0bce37382a641faa3ba0e411263f8d9ca240afe46af17daec16096a3e27f7e13"
+          }
+        },
+        {
+          "rank": 4,
+          "entityId": "song-57fc384ab281f0b3",
+          "titleAsPublished": "Truly Madly Deeply",
+          "artistCreditAsPublished": "Savage Garden",
+          "editorialNote": "Soft-focus mall romance in song form — one of the cleanest emotional shortcuts back to 1998 radio.",
+          "links": [
+            {
+              "label": "Truly Madly Deeply",
+              "href": "https://en.wikipedia.org/wiki/Truly_Madly_Deeply_(Savage_Garden_song)"
+            },
+            {
+              "label": "Savage Garden",
+              "href": "https://en.wikipedia.org/wiki/Savage_Garden"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=Truly+Madly+Deeply+Savage+Garden"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/Truly+Madly+Deeply+Savage+Garden"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1998.html.txt",
+            "start": 33430,
+            "end": 34221,
+            "lineStart": 332,
+            "lineEnd": 332,
+            "sha256": "e5fede4a563b4be535d635a4bc25eb3264ae523d621c04bf4674fa3e58db2e29"
+          }
+        },
+        {
+          "rank": 5,
+          "entityId": "song-6fa1b75526d29db0",
+          "titleAsPublished": "How Do I Live",
+          "artistCreditAsPublished": "LeAnn Rimes",
+          "editorialNote": "A huge, polished adult-contemporary crossover that proves 1998 radio was way broader than the TRL surface suggests.",
+          "links": [
+            {
+              "label": "How Do I Live",
+              "href": "https://en.wikipedia.org/wiki/How_Do_I_Live"
+            },
+            {
+              "label": "LeAnn Rimes",
+              "href": "https://en.wikipedia.org/wiki/LeAnn_Rimes"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=How+Do+I+Live+LeAnn+Rimes"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/How+Do+I+Live+LeAnn+Rimes"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1998.html.txt",
+            "start": 34232,
+            "end": 34991,
+            "lineStart": 333,
+            "lineEnd": 333,
+            "sha256": "5d1c20d113650a9d5799ddf3ab0acecdbf779e2ed8097146250f3b9fd6485b3f"
+          }
+        },
+        {
+          "rank": 6,
+          "entityId": "song-af022b4a89f63ece",
+          "titleAsPublished": "Together Again",
+          "artistCreditAsPublished": "Janet Jackson",
+          "editorialNote": "A warm, club-friendly Janet hit that sits right at the intersection of dance-floor uplift and mainstream pop polish.",
+          "links": [
+            {
+              "label": "Together Again",
+              "href": "https://en.wikipedia.org/wiki/Together_Again_(Janet_Jackson_song)"
+            },
+            {
+              "label": "Janet Jackson",
+              "href": "https://en.wikipedia.org/wiki/Janet_Jackson"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=Together+Again+Janet+Jackson"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/Together+Again+Janet+Jackson"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1998.html.txt",
+            "start": 35002,
+            "end": 35795,
+            "lineStart": 334,
+            "lineEnd": 334,
+            "sha256": "078646e760c643a9f2c36caaac931eeb42a93809a086842a7f9faabf31685079"
+          }
+        },
+        {
+          "rank": 7,
+          "entityId": "song-a1ef8d9c3e6601c5",
+          "titleAsPublished": "All My Life",
+          "artistCreditAsPublished": "K-Ci & JoJo",
+          "editorialNote": "Pure slow-jam devotion — the kind of song that lived on dedication shows, dances, and homemade mix CDs.",
+          "links": [
+            {
+              "label": "All My Life",
+              "href": "https://en.wikipedia.org/wiki/All_My_Life_(K-Ci_%26_JoJo_song)"
+            },
+            {
+              "label": "K-Ci & JoJo",
+              "href": "https://en.wikipedia.org/wiki/K-Ci_%26_JoJo"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=All+My+Life+K-Ci+and+JoJo"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/All+My+Life+K-Ci+and+JoJo"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1998.html.txt",
+            "start": 35806,
+            "end": 36576,
+            "lineStart": 335,
+            "lineEnd": 335,
+            "sha256": "b0fec104d451ff70d64b55c610977f9e80b08f0818253dacf85cc85dacdf8228"
+          }
+        },
+        {
+          "rank": 8,
+          "entityId": "song-34656e2d2594a1ef",
+          "titleAsPublished": "Candle in the Wind 1997 / Something About the Way You Look Tonight",
+          "artistCreditAsPublished": "Elton John",
+          "editorialNote": "A reminder that 1998 still carried over giant emotional event-singles from the previous year into everyday listening life.",
+          "links": [
+            {
+              "label": "Candle in the Wind 1997 / Something About the Way You Look Tonight",
+              "href": "https://en.wikipedia.org/wiki/Candle_in_the_Wind_1997"
+            },
+            {
+              "label": "Elton John",
+              "href": "https://en.wikipedia.org/wiki/Elton_John"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=Candle+in+the+Wind+1997+Elton+John"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/Candle+in+the+Wind+1997+Elton+John"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1998.html.txt",
+            "start": 36587,
+            "end": 37432,
+            "lineStart": 336,
+            "lineEnd": 336,
+            "sha256": "455bf38742e0df1d4174a3125c807fae70c4ca3b6c1004ef8554dfdcb0fbef5e"
+          }
+        },
+        {
+          "rank": 9,
+          "entityId": "song-2eceb2eca4f08aac",
+          "titleAsPublished": "Nice & Slow",
+          "artistCreditAsPublished": "Usher",
+          "editorialNote": "Late-night R&B with enough swagger to feel personal and enough polish to become universal radio wallpaper.",
+          "links": [
+            {
+              "label": "Nice & Slow",
+              "href": "https://en.wikipedia.org/wiki/Nice_%26_Slow"
+            },
+            {
+              "label": "Usher",
+              "href": "https://en.wikipedia.org/wiki/Usher"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=Nice+and+Slow+Usher"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/Nice+and+Slow+Usher"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1998.html.txt",
+            "start": 37443,
+            "end": 38175,
+            "lineStart": 337,
+            "lineEnd": 337,
+            "sha256": "a34e07643540d2221d5f982f04d50414c60fc77e93f32cdaed5d688e4afa456c"
+          }
+        },
+        {
+          "rank": 10,
+          "entityId": "song-8f17a2d922aeca6f",
+          "titleAsPublished": "I Don't Want to Wait",
+          "artistCreditAsPublished": "Paula Cole",
+          "editorialNote": "An earnest, TV-linked hit that instantly drags you back to teen-drama openings and late-90s emotional sincerity.",
+          "links": [
+            {
+              "label": "I Don't Want to Wait",
+              "href": "https://en.wikipedia.org/wiki/I_Don%27t_Want_to_Wait"
+            },
+            {
+              "label": "Paula Cole",
+              "href": "https://en.wikipedia.org/wiki/Paula_Cole"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=I+Don%27t+Want+to+Wait+Paula+Cole"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/I+Don%27t+Want+to+Wait+Paula+Cole"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1998.html.txt",
+            "start": 38186,
+            "end": 38973,
+            "lineStart": 338,
+            "lineEnd": 338,
+            "sha256": "eb668705615f40c901a33722aff5bc89e12728baba6c6bc7e12b9e00bdfe625d"
+          }
+        }
+      ]
+    },
+    {
+      "id": "billboard-year-end-hot-100-1999-top-10",
+      "title": "Billboard Year-End Hot 100: Top 10 of 1999",
+      "year": 1999,
+      "scope": "year-end",
+      "region": "US",
+      "sourceIds": [
+        "source-fee4805769419ae2"
+      ],
+      "verificationStatus": "unreviewed",
+      "publicationStatus": "imported-draft",
+      "legacyHref": "/timeline/1999/#top-songs",
+      "entries": [
+        {
+          "rank": 1,
+          "entityId": "song-d793df28d0491d42",
+          "titleAsPublished": "Believe",
+          "artistCreditAsPublished": "Cher",
+          "editorialNote": "Auto-Tune turns into a pop-culture effect and makes 1999 sound futuristic in the most immediate possible way.",
+          "links": [
+            {
+              "label": "Believe",
+              "href": "https://en.wikipedia.org/wiki/Believe_(Cher_song)"
+            },
+            {
+              "label": "Cher",
+              "href": "https://en.wikipedia.org/wiki/Cher"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=Believe+Cher"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/Believe+Cher"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1999.html.txt",
+            "start": 31438,
+            "end": 32151,
+            "lineStart": 327,
+            "lineEnd": 327,
+            "sha256": "656c522228ccd7f9c53d7fe8da58e9718038ee9c2dd7e1fecba675e902debbb2"
+          }
+        },
+        {
+          "rank": 2,
+          "entityId": "song-538933d9492530c6",
+          "titleAsPublished": "No Scrubs",
+          "artistCreditAsPublished": "TLC",
+          "editorialNote": "A giant attitude record that still feels like a complete late-90s worldview in under four minutes.",
+          "links": [
+            {
+              "label": "No Scrubs",
+              "href": "https://en.wikipedia.org/wiki/No_Scrubs"
+            },
+            {
+              "label": "TLC",
+              "href": "https://en.wikipedia.org/wiki/TLC_(group)"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=No+Scrubs+TLC"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/No+Scrubs+TLC"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1999.html.txt",
+            "start": 32152,
+            "end": 32854,
+            "lineStart": 328,
+            "lineEnd": 328,
+            "sha256": "05c87e9bdfdbf4475ac1162e96c111d12ea31ecc585eeb741d6fa1fc47637302"
+          }
+        },
+        {
+          "rank": 3,
+          "entityId": "song-1bdee65672a307a1",
+          "titleAsPublished": "Angel of Mine",
+          "artistCreditAsPublished": "Monica",
+          "editorialNote": "A slow-dance essential from the R&B side of 1999’s massively crowded pop map.",
+          "links": [
+            {
+              "label": "Angel of Mine",
+              "href": "https://en.wikipedia.org/wiki/Angel_of_Mine"
+            },
+            {
+              "label": "Monica",
+              "href": "https://en.wikipedia.org/wiki/Monica_(singer)"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=Angel+of+Mine+Monica"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/Angel+of+Mine+Monica"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1999.html.txt",
+            "start": 32855,
+            "end": 33569,
+            "lineStart": 329,
+            "lineEnd": 329,
+            "sha256": "97fd2b2cf4a4c91b2215e091357da456c01f5510c06fcedb2f489d3c6bcd8d6c"
+          }
+        },
+        {
+          "rank": 4,
+          "entityId": "song-c5316c4311fe84ff",
+          "titleAsPublished": "Heartbreak Hotel",
+          "artistCreditAsPublished": "Whitney Houston featuring Faith Evans and Kelly Price",
+          "editorialNote": "Three huge voices, one radio drama, and exactly the kind of emotional excess 1999 still had room for.",
+          "links": [
+            {
+              "label": "Heartbreak Hotel",
+              "href": "https://en.wikipedia.org/wiki/Heartbreak_Hotel_(Whitney_Houston_song)"
+            },
+            {
+              "label": "Whitney Houston",
+              "href": "https://en.wikipedia.org/wiki/Whitney_Houston"
+            },
+            {
+              "label": "Faith Evans",
+              "href": "https://en.wikipedia.org/wiki/Faith_Evans"
+            },
+            {
+              "label": "Kelly Price",
+              "href": "https://en.wikipedia.org/wiki/Kelly_Price"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=Heartbreak+Hotel+Whitney+Houston+Faith+Evans+Kelly+Price"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/Heartbreak+Hotel+Whitney+Houston+Faith+Evans+Kelly+Price"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1999.html.txt",
+            "start": 33570,
+            "end": 34648,
+            "lineStart": 330,
+            "lineEnd": 330,
+            "sha256": "39e10ed94715fcd0f8342d4f8d90c844b6efb7d493766ef64ef8d6f3ec881491"
+          }
+        },
+        {
+          "rank": 5,
+          "entityId": "song-1000986f1f9b9873",
+          "titleAsPublished": "...Baby One More Time",
+          "artistCreditAsPublished": "Britney Spears",
+          "editorialNote": "The school-uniform video and the Max Martin hook basically define 1999 mall-pop memory by themselves.",
+          "links": [
+            {
+              "label": "...Baby One More Time",
+              "href": "https://en.wikipedia.org/wiki/...Baby_One_More_Time_(song)"
+            },
+            {
+              "label": "Britney Spears",
+              "href": "https://en.wikipedia.org/wiki/Britney_Spears"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=Baby+One+More+Time+Britney+Spears"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/Baby+One+More+Time+Britney+Spears"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1999.html.txt",
+            "start": 34649,
+            "end": 35439,
+            "lineStart": 331,
+            "lineEnd": 331,
+            "sha256": "e99cb10a53bdbd1afcff21bf7cecc985d1a1b99e524c0c06c9ff0ba06a27c832"
+          }
+        },
+        {
+          "rank": 6,
+          "entityId": "song-6e33a7afae7c5d46",
+          "titleAsPublished": "Kiss Me",
+          "artistCreditAsPublished": "Sixpence None the Richer",
+          "editorialNote": "Soft-focus late-90s sweetness for TV promos, rom-com moods, and the nicer side of end-of-century radio.",
+          "links": [
+            {
+              "label": "Kiss Me",
+              "href": "https://en.wikipedia.org/wiki/Kiss_Me"
+            },
+            {
+              "label": "Sixpence None the Richer",
+              "href": "https://en.wikipedia.org/wiki/Sixpence_None_the_Richer"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=Kiss+Me+Sixpence+None+the+Richer"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/Kiss+Me+Sixpence+None+the+Richer"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1999.html.txt",
+            "start": 35440,
+            "end": 36215,
+            "lineStart": 332,
+            "lineEnd": 332,
+            "sha256": "d7b28dd81fbd0352eabdaeabf899102f0108ac34b338e17584237ae80032c1b0"
+          }
+        },
+        {
+          "rank": 7,
+          "entityId": "song-a1df7bd8ccda5c9f",
+          "titleAsPublished": "Genie in a Bottle",
+          "artistCreditAsPublished": "Christina Aguilera",
+          "editorialNote": "Teen-pop polish with a bigger-vocal edge, perfect for the 1999 era where everything had to be louder and glossier.",
+          "links": [
+            {
+              "label": "Genie in a Bottle",
+              "href": "https://en.wikipedia.org/wiki/Genie_in_a_Bottle"
+            },
+            {
+              "label": "Christina Aguilera",
+              "href": "https://en.wikipedia.org/wiki/Christina_Aguilera"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=Genie+in+a+Bottle+Christina+Aguilera"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/Genie+in+a+Bottle+Christina+Aguilera"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1999.html.txt",
+            "start": 36216,
+            "end": 37018,
+            "lineStart": 333,
+            "lineEnd": 333,
+            "sha256": "ef6ace90cbbb762118ea5a815b1108a4442c264eeca10afb2259038c1f0671c5"
+          }
+        },
+        {
+          "rank": 8,
+          "entityId": "song-8e4461f64648259c",
+          "titleAsPublished": "Every Morning",
+          "artistCreditAsPublished": "Sugar Ray",
+          "editorialNote": "A radio-sunshine hit that feels like beach ads, skateboard graphics, and lazy summer TV in one file.",
+          "links": [
+            {
+              "label": "Every Morning",
+              "href": "https://en.wikipedia.org/wiki/Every_Morning_(Sugar_Ray_song)"
+            },
+            {
+              "label": "Sugar Ray",
+              "href": "https://en.wikipedia.org/wiki/Sugar_Ray"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=Every+Morning+Sugar+Ray"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/Every+Morning+Sugar+Ray"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1999.html.txt",
+            "start": 37019,
+            "end": 37772,
+            "lineStart": 334,
+            "lineEnd": 334,
+            "sha256": "afbe350b2909d6fef8b6ef3c664de5ad1a43e32fd3288383912fb75d1cfb6c03"
+          }
+        },
+        {
+          "rank": 9,
+          "entityId": "song-7b8abe9495583e50",
+          "titleAsPublished": "Nobody's Supposed to Be Here",
+          "artistCreditAsPublished": "Deborah Cox",
+          "editorialNote": "One of those giant dance/R&B crossover hits that lived equally on mainstream radio and in club-remix memory.",
+          "links": [
+            {
+              "label": "Nobody's Supposed to Be Here",
+              "href": "https://en.wikipedia.org/wiki/Nobody%27s_Supposed_to_Be_Here"
+            },
+            {
+              "label": "Deborah Cox",
+              "href": "https://en.wikipedia.org/wiki/Deborah_Cox"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=Nobody%27s+Supposed+to+Be+Here+Deborah+Cox"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/Nobody%27s+Supposed+to+Be+Here+Deborah+Cox"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1999.html.txt",
+            "start": 37773,
+            "end": 38595,
+            "lineStart": 335,
+            "lineEnd": 335,
+            "sha256": "cdaf367ff712945524c17032ec2d4eccca24166097defff07c11785776f81f74"
+          }
+        },
+        {
+          "rank": 10,
+          "entityId": "song-2390610b9e64f851",
+          "titleAsPublished": "Livin' la Vida Loca",
+          "artistCreditAsPublished": "Ricky Martin",
+          "editorialNote": "A perfect end-of-decade explosion: Latin pop crossover, impossible hook, and total turn-of-the-millennium momentum.",
+          "links": [
+            {
+              "label": "Livin' la Vida Loca",
+              "href": "https://en.wikipedia.org/wiki/Livin%27_la_Vida_Loca"
+            },
+            {
+              "label": "Ricky Martin",
+              "href": "https://en.wikipedia.org/wiki/Ricky_Martin"
+            },
+            {
+              "label": "YouTube search",
+              "href": "https://www.youtube.com/results?search_query=Livin%27+la+Vida+Loca+Ricky+Martin"
+            },
+            {
+              "label": "Spotify search",
+              "href": "https://open.spotify.com/search/Livin%27+la+Vida+Loca+Ricky+Martin"
+            }
+          ],
+          "provenance": {
+            "snapshot": "reports/baseline/phase-1/pages/timeline-1999.html.txt",
+            "start": 38596,
+            "end": 39390,
+            "lineStart": 336,
+            "lineEnd": 336,
+            "sha256": "3b854c2427d2a63ac86dcce3acedeea76dd53c12a38b111d823c0ce7881c3002"
+          }
+        }
+      ]
+    }
+  ]
+}

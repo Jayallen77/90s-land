@@ -1,0 +1,6090 @@
+{
+  "schemaVersion": 1,
+  "kind": "legacy-links",
+  "records": [
+    {
+      "id": "anchor-home-top",
+      "from": "/#top",
+      "to": "/#top",
+      "pageId": "home",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-home-menuToggle",
+      "from": "/#menuToggle",
+      "to": "/#menuToggle",
+      "pageId": "home",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-home-siteNav",
+      "from": "/#siteNav",
+      "to": "/#siteNav",
+      "pageId": "home",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-home-main-content",
+      "from": "/#main-content",
+      "to": "/#main-content",
+      "pageId": "home",
+      "blockId": null,
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-home-enter",
+      "from": "/#enter",
+      "to": "/#enter",
+      "pageId": "home",
+      "blockId": "legacy-home-0001",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-home-artifact-family-pc",
+      "from": "/#artifact-family-pc",
+      "to": "/#artifact-family-pc",
+      "pageId": "home",
+      "blockId": "legacy-home-0002",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-home-this-month-90s",
+      "from": "/#this-month-90s",
+      "to": "/#this-month-90s",
+      "pageId": "home",
+      "blockId": "legacy-home-0003",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-home-thisMonthTitle",
+      "from": "/#thisMonthTitle",
+      "to": "/#thisMonthTitle",
+      "pageId": "home",
+      "blockId": "legacy-home-0004",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-home-museum-rooms",
+      "from": "/#museum-rooms",
+      "to": "/#museum-rooms",
+      "pageId": "home",
+      "blockId": "legacy-home-0004",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-home-museumRoomsTitle",
+      "from": "/#museumRoomsTitle",
+      "to": "/#museumRoomsTitle",
+      "pageId": "home",
+      "blockId": "legacy-home-0005",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-home-connectionsTitle",
+      "from": "/#connectionsTitle",
+      "to": "/#connectionsTitle",
+      "pageId": "home",
+      "blockId": "legacy-home-0014",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-home-museumStatus",
+      "from": "/#museumStatus",
+      "to": "/#museumStatus",
+      "pageId": "home",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-home-surpriseDialog",
+      "from": "/#surpriseDialog",
+      "to": "/#surpriseDialog",
+      "pageId": "home",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-home-surpriseTitle",
+      "from": "/#surpriseTitle",
+      "to": "/#surpriseTitle",
+      "pageId": "home",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-home-passportDialog",
+      "from": "/#passportDialog",
+      "to": "/#passportDialog",
+      "pageId": "home",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-home-passportTitle",
+      "from": "/#passportTitle",
+      "to": "/#passportTitle",
+      "pageId": "home",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-home-passportResetDialog",
+      "from": "/#passportResetDialog",
+      "to": "/#passportResetDialog",
+      "pageId": "home",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-home-passportResetTitle",
+      "from": "/#passportResetTitle",
+      "to": "/#passportResetTitle",
+      "pageId": "home",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-credits-top",
+      "from": "/credits/#top",
+      "to": "/credits/#top",
+      "pageId": "credits",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-credits-siteNav",
+      "from": "/credits/#siteNav",
+      "to": "/credits/#siteNav",
+      "pageId": "credits",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-credits-main-content",
+      "from": "/credits/#main-content",
+      "to": "/credits/#main-content",
+      "pageId": "credits",
+      "blockId": null,
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-credits-museumStatus",
+      "from": "/credits/#museumStatus",
+      "to": "/credits/#museumStatus",
+      "pageId": "credits",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-credits-surpriseDialog",
+      "from": "/credits/#surpriseDialog",
+      "to": "/credits/#surpriseDialog",
+      "pageId": "credits",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-credits-surpriseTitle",
+      "from": "/credits/#surpriseTitle",
+      "to": "/credits/#surpriseTitle",
+      "pageId": "credits",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-credits-passportDialog",
+      "from": "/credits/#passportDialog",
+      "to": "/credits/#passportDialog",
+      "pageId": "credits",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-credits-passportTitle",
+      "from": "/credits/#passportTitle",
+      "to": "/credits/#passportTitle",
+      "pageId": "credits",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-credits-passportResetDialog",
+      "from": "/credits/#passportResetDialog",
+      "to": "/credits/#passportResetDialog",
+      "pageId": "credits",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-credits-passportResetTitle",
+      "from": "/credits/#passportResetTitle",
+      "to": "/credits/#passportResetTitle",
+      "pageId": "credits",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-guestbook-top",
+      "from": "/guestbook/#top",
+      "to": "/guestbook/#top",
+      "pageId": "guestbook",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-guestbook-menuToggle",
+      "from": "/guestbook/#menuToggle",
+      "to": "/guestbook/#menuToggle",
+      "pageId": "guestbook",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-guestbook-siteNav",
+      "from": "/guestbook/#siteNav",
+      "to": "/guestbook/#siteNav",
+      "pageId": "guestbook",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-guestbook-main-content",
+      "from": "/guestbook/#main-content",
+      "to": "/guestbook/#main-content",
+      "pageId": "guestbook",
+      "blockId": null,
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-guestbook-guestbookNotice",
+      "from": "/guestbook/#guestbookNotice",
+      "to": "/guestbook/#guestbookNotice",
+      "pageId": "guestbook",
+      "blockId": "legacy-guestbook-0002",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-guestbook-guestbookForm",
+      "from": "/guestbook/#guestbookForm",
+      "to": "/guestbook/#guestbookForm",
+      "pageId": "guestbook",
+      "blockId": "legacy-guestbook-0002",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-guestbook-museumStatus",
+      "from": "/guestbook/#museumStatus",
+      "to": "/guestbook/#museumStatus",
+      "pageId": "guestbook",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-guestbook-surpriseDialog",
+      "from": "/guestbook/#surpriseDialog",
+      "to": "/guestbook/#surpriseDialog",
+      "pageId": "guestbook",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-guestbook-surpriseTitle",
+      "from": "/guestbook/#surpriseTitle",
+      "to": "/guestbook/#surpriseTitle",
+      "pageId": "guestbook",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-guestbook-passportDialog",
+      "from": "/guestbook/#passportDialog",
+      "to": "/guestbook/#passportDialog",
+      "pageId": "guestbook",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-guestbook-passportTitle",
+      "from": "/guestbook/#passportTitle",
+      "to": "/guestbook/#passportTitle",
+      "pageId": "guestbook",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-guestbook-passportResetDialog",
+      "from": "/guestbook/#passportResetDialog",
+      "to": "/guestbook/#passportResetDialog",
+      "pageId": "guestbook",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-guestbook-passportResetTitle",
+      "from": "/guestbook/#passportResetTitle",
+      "to": "/guestbook/#passportResetTitle",
+      "pageId": "guestbook",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-search-top",
+      "from": "/search/#top",
+      "to": "/search/#top",
+      "pageId": "search",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-search-menuToggle",
+      "from": "/search/#menuToggle",
+      "to": "/search/#menuToggle",
+      "pageId": "search",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-search-siteNav",
+      "from": "/search/#siteNav",
+      "to": "/search/#siteNav",
+      "pageId": "search",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-search-main-content",
+      "from": "/search/#main-content",
+      "to": "/search/#main-content",
+      "pageId": "search",
+      "blockId": null,
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-search-searchSummaryYears",
+      "from": "/search/#searchSummaryYears",
+      "to": "/search/#searchSummaryYears",
+      "pageId": "search",
+      "blockId": "legacy-search-0002",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-search-searchSummaryZones",
+      "from": "/search/#searchSummaryZones",
+      "to": "/search/#searchSummaryZones",
+      "pageId": "search",
+      "blockId": "legacy-search-0002",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-search-searchSummaryHighlights",
+      "from": "/search/#searchSummaryHighlights",
+      "to": "/search/#searchSummaryHighlights",
+      "pageId": "search",
+      "blockId": "legacy-search-0002",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-search-searchSummaryObjects",
+      "from": "/search/#searchSummaryObjects",
+      "to": "/search/#searchSummaryObjects",
+      "pageId": "search",
+      "blockId": "legacy-search-0002",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-search-finder",
+      "from": "/search/#finder",
+      "to": "/search/#finder",
+      "pageId": "search",
+      "blockId": "legacy-search-0002",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-search-siteSearchInput",
+      "from": "/search/#siteSearchInput",
+      "to": "/search/#siteSearchInput",
+      "pageId": "search",
+      "blockId": "legacy-search-0003",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-search-searchResultsTitle",
+      "from": "/search/#searchResultsTitle",
+      "to": "/search/#searchResultsTitle",
+      "pageId": "search",
+      "blockId": "legacy-search-0004",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-search-siteSearchCount",
+      "from": "/search/#siteSearchCount",
+      "to": "/search/#siteSearchCount",
+      "pageId": "search",
+      "blockId": "legacy-search-0004",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-search-siteSearchGrid",
+      "from": "/search/#siteSearchGrid",
+      "to": "/search/#siteSearchGrid",
+      "pageId": "search",
+      "blockId": "legacy-search-0004",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-search-siteSearchNoResults",
+      "from": "/search/#siteSearchNoResults",
+      "to": "/search/#siteSearchNoResults",
+      "pageId": "search",
+      "blockId": "legacy-search-0134",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-search-museumStatus",
+      "from": "/search/#museumStatus",
+      "to": "/search/#museumStatus",
+      "pageId": "search",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-search-surpriseDialog",
+      "from": "/search/#surpriseDialog",
+      "to": "/search/#surpriseDialog",
+      "pageId": "search",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-search-surpriseTitle",
+      "from": "/search/#surpriseTitle",
+      "to": "/search/#surpriseTitle",
+      "pageId": "search",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-search-passportDialog",
+      "from": "/search/#passportDialog",
+      "to": "/search/#passportDialog",
+      "pageId": "search",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-search-passportTitle",
+      "from": "/search/#passportTitle",
+      "to": "/search/#passportTitle",
+      "pageId": "search",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-search-passportResetDialog",
+      "from": "/search/#passportResetDialog",
+      "to": "/search/#passportResetDialog",
+      "pageId": "search",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-search-passportResetTitle",
+      "from": "/search/#passportResetTitle",
+      "to": "/search/#passportResetTitle",
+      "pageId": "search",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-sitemap-top",
+      "from": "/sitemap/#top",
+      "to": "/sitemap/#top",
+      "pageId": "sitemap",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-sitemap-menuToggle",
+      "from": "/sitemap/#menuToggle",
+      "to": "/sitemap/#menuToggle",
+      "pageId": "sitemap",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-sitemap-siteNav",
+      "from": "/sitemap/#siteNav",
+      "to": "/sitemap/#siteNav",
+      "pageId": "sitemap",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-sitemap-main-content",
+      "from": "/sitemap/#main-content",
+      "to": "/sitemap/#main-content",
+      "pageId": "sitemap",
+      "blockId": null,
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-sitemap-museum-tools",
+      "from": "/sitemap/#museum-tools",
+      "to": "/sitemap/#museum-tools",
+      "pageId": "sitemap",
+      "blockId": "legacy-sitemap-0042",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-sitemap-museumStatus",
+      "from": "/sitemap/#museumStatus",
+      "to": "/sitemap/#museumStatus",
+      "pageId": "sitemap",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-sitemap-surpriseDialog",
+      "from": "/sitemap/#surpriseDialog",
+      "to": "/sitemap/#surpriseDialog",
+      "pageId": "sitemap",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-sitemap-surpriseTitle",
+      "from": "/sitemap/#surpriseTitle",
+      "to": "/sitemap/#surpriseTitle",
+      "pageId": "sitemap",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-sitemap-passportDialog",
+      "from": "/sitemap/#passportDialog",
+      "to": "/sitemap/#passportDialog",
+      "pageId": "sitemap",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-sitemap-passportTitle",
+      "from": "/sitemap/#passportTitle",
+      "to": "/sitemap/#passportTitle",
+      "pageId": "sitemap",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-sitemap-passportResetDialog",
+      "from": "/sitemap/#passportResetDialog",
+      "to": "/sitemap/#passportResetDialog",
+      "pageId": "sitemap",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-sitemap-passportResetTitle",
+      "from": "/sitemap/#passportResetTitle",
+      "to": "/sitemap/#passportResetTitle",
+      "pageId": "sitemap",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-surprise-top",
+      "from": "/surprise/#top",
+      "to": "/surprise/#top",
+      "pageId": "surprise",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-surprise-siteNav",
+      "from": "/surprise/#siteNav",
+      "to": "/surprise/#siteNav",
+      "pageId": "surprise",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-surprise-main-content",
+      "from": "/surprise/#main-content",
+      "to": "/surprise/#main-content",
+      "pageId": "surprise",
+      "blockId": null,
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-surprise-museumStatus",
+      "from": "/surprise/#museumStatus",
+      "to": "/surprise/#museumStatus",
+      "pageId": "surprise",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-surprise-surpriseDialog",
+      "from": "/surprise/#surpriseDialog",
+      "to": "/surprise/#surpriseDialog",
+      "pageId": "surprise",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-surprise-surpriseTitle",
+      "from": "/surprise/#surpriseTitle",
+      "to": "/surprise/#surpriseTitle",
+      "pageId": "surprise",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-surprise-passportDialog",
+      "from": "/surprise/#passportDialog",
+      "to": "/surprise/#passportDialog",
+      "pageId": "surprise",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-surprise-passportTitle",
+      "from": "/surprise/#passportTitle",
+      "to": "/surprise/#passportTitle",
+      "pageId": "surprise",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-surprise-passportResetDialog",
+      "from": "/surprise/#passportResetDialog",
+      "to": "/surprise/#passportResetDialog",
+      "pageId": "surprise",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-surprise-passportResetTitle",
+      "from": "/surprise/#passportResetTitle",
+      "to": "/surprise/#passportResetTitle",
+      "pageId": "surprise",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-top",
+      "from": "/timeline/#top",
+      "to": "/timeline/#top",
+      "pageId": "timeline",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-menuToggle",
+      "from": "/timeline/#menuToggle",
+      "to": "/timeline/#menuToggle",
+      "pageId": "timeline",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-siteNav",
+      "from": "/timeline/#siteNav",
+      "to": "/timeline/#siteNav",
+      "pageId": "timeline",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-main-content",
+      "from": "/timeline/#main-content",
+      "to": "/timeline/#main-content",
+      "pageId": "timeline",
+      "blockId": null,
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-timelineDoorsTitle",
+      "from": "/timeline/#timelineDoorsTitle",
+      "to": "/timeline/#timelineDoorsTitle",
+      "pageId": "timeline",
+      "blockId": "legacy-timeline-0003",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-year-1990",
+      "from": "/timeline/#year-1990",
+      "to": "/timeline/#year-1990",
+      "pageId": "timeline",
+      "blockId": "legacy-timeline-0003",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-year-1991",
+      "from": "/timeline/#year-1991",
+      "to": "/timeline/#year-1991",
+      "pageId": "timeline",
+      "blockId": "legacy-timeline-0004",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-year-1992",
+      "from": "/timeline/#year-1992",
+      "to": "/timeline/#year-1992",
+      "pageId": "timeline",
+      "blockId": "legacy-timeline-0005",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-year-1993",
+      "from": "/timeline/#year-1993",
+      "to": "/timeline/#year-1993",
+      "pageId": "timeline",
+      "blockId": "legacy-timeline-0006",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-year-1994",
+      "from": "/timeline/#year-1994",
+      "to": "/timeline/#year-1994",
+      "pageId": "timeline",
+      "blockId": "legacy-timeline-0007",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-year-1995",
+      "from": "/timeline/#year-1995",
+      "to": "/timeline/#year-1995",
+      "pageId": "timeline",
+      "blockId": "legacy-timeline-0008",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-year-1996",
+      "from": "/timeline/#year-1996",
+      "to": "/timeline/#year-1996",
+      "pageId": "timeline",
+      "blockId": "legacy-timeline-0009",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-year-1997",
+      "from": "/timeline/#year-1997",
+      "to": "/timeline/#year-1997",
+      "pageId": "timeline",
+      "blockId": "legacy-timeline-0010",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-year-1998",
+      "from": "/timeline/#year-1998",
+      "to": "/timeline/#year-1998",
+      "pageId": "timeline",
+      "blockId": "legacy-timeline-0011",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-year-1999",
+      "from": "/timeline/#year-1999",
+      "to": "/timeline/#year-1999",
+      "pageId": "timeline",
+      "blockId": "legacy-timeline-0012",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-music-charts",
+      "from": "/timeline/#music-charts",
+      "to": "/timeline/#music-charts",
+      "pageId": "timeline",
+      "blockId": "legacy-timeline-0013",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-museumStatus",
+      "from": "/timeline/#museumStatus",
+      "to": "/timeline/#museumStatus",
+      "pageId": "timeline",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-surpriseDialog",
+      "from": "/timeline/#surpriseDialog",
+      "to": "/timeline/#surpriseDialog",
+      "pageId": "timeline",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-surpriseTitle",
+      "from": "/timeline/#surpriseTitle",
+      "to": "/timeline/#surpriseTitle",
+      "pageId": "timeline",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-passportDialog",
+      "from": "/timeline/#passportDialog",
+      "to": "/timeline/#passportDialog",
+      "pageId": "timeline",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-passportTitle",
+      "from": "/timeline/#passportTitle",
+      "to": "/timeline/#passportTitle",
+      "pageId": "timeline",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-passportResetDialog",
+      "from": "/timeline/#passportResetDialog",
+      "to": "/timeline/#passportResetDialog",
+      "pageId": "timeline",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-passportResetTitle",
+      "from": "/timeline/#passportResetTitle",
+      "to": "/timeline/#passportResetTitle",
+      "pageId": "timeline",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-webring-top",
+      "from": "/webring/#top",
+      "to": "/webring/#top",
+      "pageId": "webring",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-webring-menuToggle",
+      "from": "/webring/#menuToggle",
+      "to": "/webring/#menuToggle",
+      "pageId": "webring",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-webring-siteNav",
+      "from": "/webring/#siteNav",
+      "to": "/webring/#siteNav",
+      "pageId": "webring",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-webring-main-content",
+      "from": "/webring/#main-content",
+      "to": "/webring/#main-content",
+      "pageId": "webring",
+      "blockId": null,
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-webring-resourceSearch",
+      "from": "/webring/#resourceSearch",
+      "to": "/webring/#resourceSearch",
+      "pageId": "webring",
+      "blockId": "legacy-webring-0003",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-webring-featuredResourcesTitle",
+      "from": "/webring/#featuredResourcesTitle",
+      "to": "/webring/#featuredResourcesTitle",
+      "pageId": "webring",
+      "blockId": "legacy-webring-0004",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-webring-directory",
+      "from": "/webring/#directory",
+      "to": "/webring/#directory",
+      "pageId": "webring",
+      "blockId": "legacy-webring-0016",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-webring-resourceCount",
+      "from": "/webring/#resourceCount",
+      "to": "/webring/#resourceCount",
+      "pageId": "webring",
+      "blockId": "legacy-webring-0017",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-webring-resourceGrid",
+      "from": "/webring/#resourceGrid",
+      "to": "/webring/#resourceGrid",
+      "pageId": "webring",
+      "blockId": "legacy-webring-0017",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-webring-resourceNoResults",
+      "from": "/webring/#resourceNoResults",
+      "to": "/webring/#resourceNoResults",
+      "pageId": "webring",
+      "blockId": "legacy-webring-0095",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-webring-museumStatus",
+      "from": "/webring/#museumStatus",
+      "to": "/webring/#museumStatus",
+      "pageId": "webring",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-webring-surpriseDialog",
+      "from": "/webring/#surpriseDialog",
+      "to": "/webring/#surpriseDialog",
+      "pageId": "webring",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-webring-surpriseTitle",
+      "from": "/webring/#surpriseTitle",
+      "to": "/webring/#surpriseTitle",
+      "pageId": "webring",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-webring-passportDialog",
+      "from": "/webring/#passportDialog",
+      "to": "/webring/#passportDialog",
+      "pageId": "webring",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-webring-passportTitle",
+      "from": "/webring/#passportTitle",
+      "to": "/webring/#passportTitle",
+      "pageId": "webring",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-webring-passportResetDialog",
+      "from": "/webring/#passportResetDialog",
+      "to": "/webring/#passportResetDialog",
+      "pageId": "webring",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-webring-passportResetTitle",
+      "from": "/webring/#passportResetTitle",
+      "to": "/webring/#passportResetTitle",
+      "pageId": "webring",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1990-top",
+      "from": "/timeline/1990/#top",
+      "to": "/timeline/1990/#top",
+      "pageId": "timeline-1990",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1990-menuToggle",
+      "from": "/timeline/1990/#menuToggle",
+      "to": "/timeline/1990/#menuToggle",
+      "pageId": "timeline-1990",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1990-siteNav",
+      "from": "/timeline/1990/#siteNav",
+      "to": "/timeline/1990/#siteNav",
+      "pageId": "timeline-1990",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1990-main-content",
+      "from": "/timeline/1990/#main-content",
+      "to": "/timeline/1990/#main-content",
+      "pageId": "timeline-1990",
+      "blockId": null,
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1990-why",
+      "from": "/timeline/1990/#why",
+      "to": "/timeline/1990/#why",
+      "pageId": "timeline-1990",
+      "blockId": "legacy-timeline-1990-0003",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1990-photo-showroom",
+      "from": "/timeline/1990/#photo-showroom",
+      "to": "/timeline/1990/#photo-showroom",
+      "pageId": "timeline-1990",
+      "blockId": "legacy-timeline-1990-0004",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1990-fast-read",
+      "from": "/timeline/1990/#fast-read",
+      "to": "/timeline/1990/#fast-read",
+      "pageId": "timeline-1990",
+      "blockId": "legacy-timeline-1990-0005",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1990-news-desk",
+      "from": "/timeline/1990/#news-desk",
+      "to": "/timeline/1990/#news-desk",
+      "pageId": "timeline-1990",
+      "blockId": "legacy-timeline-1990-0007",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1990-timeline-months",
+      "from": "/timeline/1990/#timeline-months",
+      "to": "/timeline/1990/#timeline-months",
+      "pageId": "timeline-1990",
+      "blockId": "legacy-timeline-1990-0012",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1990-month-jan",
+      "from": "/timeline/1990/#month-jan",
+      "to": "/timeline/1990/#month-jan",
+      "pageId": "timeline-1990",
+      "blockId": "legacy-timeline-1990-0013",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1990-month-feb",
+      "from": "/timeline/1990/#month-feb",
+      "to": "/timeline/1990/#month-feb",
+      "pageId": "timeline-1990",
+      "blockId": "legacy-timeline-1990-0014",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1990-month-mar",
+      "from": "/timeline/1990/#month-mar",
+      "to": "/timeline/1990/#month-mar",
+      "pageId": "timeline-1990",
+      "blockId": "legacy-timeline-1990-0015",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1990-month-apr",
+      "from": "/timeline/1990/#month-apr",
+      "to": "/timeline/1990/#month-apr",
+      "pageId": "timeline-1990",
+      "blockId": "legacy-timeline-1990-0016",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1990-month-may",
+      "from": "/timeline/1990/#month-may",
+      "to": "/timeline/1990/#month-may",
+      "pageId": "timeline-1990",
+      "blockId": "legacy-timeline-1990-0017",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1990-month-jun",
+      "from": "/timeline/1990/#month-jun",
+      "to": "/timeline/1990/#month-jun",
+      "pageId": "timeline-1990",
+      "blockId": "legacy-timeline-1990-0018",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1990-month-jul",
+      "from": "/timeline/1990/#month-jul",
+      "to": "/timeline/1990/#month-jul",
+      "pageId": "timeline-1990",
+      "blockId": "legacy-timeline-1990-0019",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1990-month-aug",
+      "from": "/timeline/1990/#month-aug",
+      "to": "/timeline/1990/#month-aug",
+      "pageId": "timeline-1990",
+      "blockId": "legacy-timeline-1990-0020",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1990-month-sep",
+      "from": "/timeline/1990/#month-sep",
+      "to": "/timeline/1990/#month-sep",
+      "pageId": "timeline-1990",
+      "blockId": "legacy-timeline-1990-0021",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1990-month-oct",
+      "from": "/timeline/1990/#month-oct",
+      "to": "/timeline/1990/#month-oct",
+      "pageId": "timeline-1990",
+      "blockId": "legacy-timeline-1990-0022",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1990-month-nov",
+      "from": "/timeline/1990/#month-nov",
+      "to": "/timeline/1990/#month-nov",
+      "pageId": "timeline-1990",
+      "blockId": "legacy-timeline-1990-0023",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1990-month-dec",
+      "from": "/timeline/1990/#month-dec",
+      "to": "/timeline/1990/#month-dec",
+      "pageId": "timeline-1990",
+      "blockId": "legacy-timeline-1990-0024",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1990-culture-grid",
+      "from": "/timeline/1990/#culture-grid",
+      "to": "/timeline/1990/#culture-grid",
+      "pageId": "timeline-1990",
+      "blockId": "legacy-timeline-1990-0025",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1990-artifacts",
+      "from": "/timeline/1990/#artifacts",
+      "to": "/timeline/1990/#artifacts",
+      "pageId": "timeline-1990",
+      "blockId": "legacy-timeline-1990-0032",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1990-media-desk",
+      "from": "/timeline/1990/#media-desk",
+      "to": "/timeline/1990/#media-desk",
+      "pageId": "timeline-1990",
+      "blockId": "legacy-timeline-1990-0037",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1990-top-songs",
+      "from": "/timeline/1990/#top-songs",
+      "to": "/timeline/1990/#top-songs",
+      "pageId": "timeline-1990",
+      "blockId": "legacy-timeline-1990-0041",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1990-artifactShelfTitle-timeline-1990",
+      "from": "/timeline/1990/#artifactShelfTitle-timeline-1990",
+      "to": "/timeline/1990/#artifactShelfTitle-timeline-1990",
+      "pageId": "timeline-1990",
+      "blockId": "legacy-timeline-1990-0054",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1990-artifact-windows-3",
+      "from": "/timeline/1990/#artifact-windows-3",
+      "to": "/timeline/1990/#artifact-windows-3",
+      "pageId": "timeline-1990",
+      "blockId": "legacy-timeline-1990-0054",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1990-artifact-hubble-launch",
+      "from": "/timeline/1990/#artifact-hubble-launch",
+      "to": "/timeline/1990/#artifact-hubble-launch",
+      "pageId": "timeline-1990",
+      "blockId": "legacy-timeline-1990-0055",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1990-artifact-cassette",
+      "from": "/timeline/1990/#artifact-cassette",
+      "to": "/timeline/1990/#artifact-cassette",
+      "pageId": "timeline-1990",
+      "blockId": "legacy-timeline-1990-0056",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1990-museumStatus",
+      "from": "/timeline/1990/#museumStatus",
+      "to": "/timeline/1990/#museumStatus",
+      "pageId": "timeline-1990",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1990-surpriseDialog",
+      "from": "/timeline/1990/#surpriseDialog",
+      "to": "/timeline/1990/#surpriseDialog",
+      "pageId": "timeline-1990",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1990-surpriseTitle",
+      "from": "/timeline/1990/#surpriseTitle",
+      "to": "/timeline/1990/#surpriseTitle",
+      "pageId": "timeline-1990",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1990-passportDialog",
+      "from": "/timeline/1990/#passportDialog",
+      "to": "/timeline/1990/#passportDialog",
+      "pageId": "timeline-1990",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1990-passportTitle",
+      "from": "/timeline/1990/#passportTitle",
+      "to": "/timeline/1990/#passportTitle",
+      "pageId": "timeline-1990",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1990-passportResetDialog",
+      "from": "/timeline/1990/#passportResetDialog",
+      "to": "/timeline/1990/#passportResetDialog",
+      "pageId": "timeline-1990",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1990-passportResetTitle",
+      "from": "/timeline/1990/#passportResetTitle",
+      "to": "/timeline/1990/#passportResetTitle",
+      "pageId": "timeline-1990",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1991-top",
+      "from": "/timeline/1991/#top",
+      "to": "/timeline/1991/#top",
+      "pageId": "timeline-1991",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1991-menuToggle",
+      "from": "/timeline/1991/#menuToggle",
+      "to": "/timeline/1991/#menuToggle",
+      "pageId": "timeline-1991",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1991-siteNav",
+      "from": "/timeline/1991/#siteNav",
+      "to": "/timeline/1991/#siteNav",
+      "pageId": "timeline-1991",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1991-main-content",
+      "from": "/timeline/1991/#main-content",
+      "to": "/timeline/1991/#main-content",
+      "pageId": "timeline-1991",
+      "blockId": null,
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1991-why",
+      "from": "/timeline/1991/#why",
+      "to": "/timeline/1991/#why",
+      "pageId": "timeline-1991",
+      "blockId": "legacy-timeline-1991-0003",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1991-photo-showroom",
+      "from": "/timeline/1991/#photo-showroom",
+      "to": "/timeline/1991/#photo-showroom",
+      "pageId": "timeline-1991",
+      "blockId": "legacy-timeline-1991-0004",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1991-fast-read",
+      "from": "/timeline/1991/#fast-read",
+      "to": "/timeline/1991/#fast-read",
+      "pageId": "timeline-1991",
+      "blockId": "legacy-timeline-1991-0005",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1991-news-desk",
+      "from": "/timeline/1991/#news-desk",
+      "to": "/timeline/1991/#news-desk",
+      "pageId": "timeline-1991",
+      "blockId": "legacy-timeline-1991-0007",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1991-timeline-months",
+      "from": "/timeline/1991/#timeline-months",
+      "to": "/timeline/1991/#timeline-months",
+      "pageId": "timeline-1991",
+      "blockId": "legacy-timeline-1991-0012",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1991-month-jan",
+      "from": "/timeline/1991/#month-jan",
+      "to": "/timeline/1991/#month-jan",
+      "pageId": "timeline-1991",
+      "blockId": "legacy-timeline-1991-0013",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1991-month-feb",
+      "from": "/timeline/1991/#month-feb",
+      "to": "/timeline/1991/#month-feb",
+      "pageId": "timeline-1991",
+      "blockId": "legacy-timeline-1991-0014",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1991-month-mar",
+      "from": "/timeline/1991/#month-mar",
+      "to": "/timeline/1991/#month-mar",
+      "pageId": "timeline-1991",
+      "blockId": "legacy-timeline-1991-0015",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1991-month-apr",
+      "from": "/timeline/1991/#month-apr",
+      "to": "/timeline/1991/#month-apr",
+      "pageId": "timeline-1991",
+      "blockId": "legacy-timeline-1991-0016",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1991-month-may",
+      "from": "/timeline/1991/#month-may",
+      "to": "/timeline/1991/#month-may",
+      "pageId": "timeline-1991",
+      "blockId": "legacy-timeline-1991-0017",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1991-month-jun",
+      "from": "/timeline/1991/#month-jun",
+      "to": "/timeline/1991/#month-jun",
+      "pageId": "timeline-1991",
+      "blockId": "legacy-timeline-1991-0018",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1991-month-jul",
+      "from": "/timeline/1991/#month-jul",
+      "to": "/timeline/1991/#month-jul",
+      "pageId": "timeline-1991",
+      "blockId": "legacy-timeline-1991-0019",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1991-month-aug",
+      "from": "/timeline/1991/#month-aug",
+      "to": "/timeline/1991/#month-aug",
+      "pageId": "timeline-1991",
+      "blockId": "legacy-timeline-1991-0020",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1991-month-sep",
+      "from": "/timeline/1991/#month-sep",
+      "to": "/timeline/1991/#month-sep",
+      "pageId": "timeline-1991",
+      "blockId": "legacy-timeline-1991-0021",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1991-month-oct",
+      "from": "/timeline/1991/#month-oct",
+      "to": "/timeline/1991/#month-oct",
+      "pageId": "timeline-1991",
+      "blockId": "legacy-timeline-1991-0022",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1991-month-nov",
+      "from": "/timeline/1991/#month-nov",
+      "to": "/timeline/1991/#month-nov",
+      "pageId": "timeline-1991",
+      "blockId": "legacy-timeline-1991-0023",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1991-month-dec",
+      "from": "/timeline/1991/#month-dec",
+      "to": "/timeline/1991/#month-dec",
+      "pageId": "timeline-1991",
+      "blockId": "legacy-timeline-1991-0024",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1991-culture-grid",
+      "from": "/timeline/1991/#culture-grid",
+      "to": "/timeline/1991/#culture-grid",
+      "pageId": "timeline-1991",
+      "blockId": "legacy-timeline-1991-0025",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1991-artifacts",
+      "from": "/timeline/1991/#artifacts",
+      "to": "/timeline/1991/#artifacts",
+      "pageId": "timeline-1991",
+      "blockId": "legacy-timeline-1991-0032",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1991-rabbit-holes",
+      "from": "/timeline/1991/#rabbit-holes",
+      "to": "/timeline/1991/#rabbit-holes",
+      "pageId": "timeline-1991",
+      "blockId": "legacy-timeline-1991-0038",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1991-media-desk",
+      "from": "/timeline/1991/#media-desk",
+      "to": "/timeline/1991/#media-desk",
+      "pageId": "timeline-1991",
+      "blockId": "legacy-timeline-1991-0039",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1991-top-songs",
+      "from": "/timeline/1991/#top-songs",
+      "to": "/timeline/1991/#top-songs",
+      "pageId": "timeline-1991",
+      "blockId": "legacy-timeline-1991-0044",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1991-artifactShelfTitle-timeline-1991",
+      "from": "/timeline/1991/#artifactShelfTitle-timeline-1991",
+      "to": "/timeline/1991/#artifactShelfTitle-timeline-1991",
+      "pageId": "timeline-1991",
+      "blockId": "legacy-timeline-1991-0057",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1991-artifact-first-website",
+      "from": "/timeline/1991/#artifact-first-website",
+      "to": "/timeline/1991/#artifact-first-website",
+      "pageId": "timeline-1991",
+      "blockId": "legacy-timeline-1991-0057",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1991-artifact-genesis-controller",
+      "from": "/timeline/1991/#artifact-genesis-controller",
+      "to": "/timeline/1991/#artifact-genesis-controller",
+      "pageId": "timeline-1991",
+      "blockId": "legacy-timeline-1991-0058",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1991-artifact-cassette",
+      "from": "/timeline/1991/#artifact-cassette",
+      "to": "/timeline/1991/#artifact-cassette",
+      "pageId": "timeline-1991",
+      "blockId": "legacy-timeline-1991-0059",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1991-museumStatus",
+      "from": "/timeline/1991/#museumStatus",
+      "to": "/timeline/1991/#museumStatus",
+      "pageId": "timeline-1991",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1991-surpriseDialog",
+      "from": "/timeline/1991/#surpriseDialog",
+      "to": "/timeline/1991/#surpriseDialog",
+      "pageId": "timeline-1991",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1991-surpriseTitle",
+      "from": "/timeline/1991/#surpriseTitle",
+      "to": "/timeline/1991/#surpriseTitle",
+      "pageId": "timeline-1991",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1991-passportDialog",
+      "from": "/timeline/1991/#passportDialog",
+      "to": "/timeline/1991/#passportDialog",
+      "pageId": "timeline-1991",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1991-passportTitle",
+      "from": "/timeline/1991/#passportTitle",
+      "to": "/timeline/1991/#passportTitle",
+      "pageId": "timeline-1991",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1991-passportResetDialog",
+      "from": "/timeline/1991/#passportResetDialog",
+      "to": "/timeline/1991/#passportResetDialog",
+      "pageId": "timeline-1991",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1991-passportResetTitle",
+      "from": "/timeline/1991/#passportResetTitle",
+      "to": "/timeline/1991/#passportResetTitle",
+      "pageId": "timeline-1991",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1992-top",
+      "from": "/timeline/1992/#top",
+      "to": "/timeline/1992/#top",
+      "pageId": "timeline-1992",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1992-menuToggle",
+      "from": "/timeline/1992/#menuToggle",
+      "to": "/timeline/1992/#menuToggle",
+      "pageId": "timeline-1992",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1992-siteNav",
+      "from": "/timeline/1992/#siteNav",
+      "to": "/timeline/1992/#siteNav",
+      "pageId": "timeline-1992",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1992-main-content",
+      "from": "/timeline/1992/#main-content",
+      "to": "/timeline/1992/#main-content",
+      "pageId": "timeline-1992",
+      "blockId": null,
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1992-why",
+      "from": "/timeline/1992/#why",
+      "to": "/timeline/1992/#why",
+      "pageId": "timeline-1992",
+      "blockId": "legacy-timeline-1992-0003",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1992-photo-showroom",
+      "from": "/timeline/1992/#photo-showroom",
+      "to": "/timeline/1992/#photo-showroom",
+      "pageId": "timeline-1992",
+      "blockId": "legacy-timeline-1992-0004",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1992-fast-read",
+      "from": "/timeline/1992/#fast-read",
+      "to": "/timeline/1992/#fast-read",
+      "pageId": "timeline-1992",
+      "blockId": "legacy-timeline-1992-0005",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1992-timeline-months",
+      "from": "/timeline/1992/#timeline-months",
+      "to": "/timeline/1992/#timeline-months",
+      "pageId": "timeline-1992",
+      "blockId": "legacy-timeline-1992-0007",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1992-month-jan",
+      "from": "/timeline/1992/#month-jan",
+      "to": "/timeline/1992/#month-jan",
+      "pageId": "timeline-1992",
+      "blockId": "legacy-timeline-1992-0008",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1992-month-feb",
+      "from": "/timeline/1992/#month-feb",
+      "to": "/timeline/1992/#month-feb",
+      "pageId": "timeline-1992",
+      "blockId": "legacy-timeline-1992-0009",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1992-month-mar",
+      "from": "/timeline/1992/#month-mar",
+      "to": "/timeline/1992/#month-mar",
+      "pageId": "timeline-1992",
+      "blockId": "legacy-timeline-1992-0010",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1992-month-apr",
+      "from": "/timeline/1992/#month-apr",
+      "to": "/timeline/1992/#month-apr",
+      "pageId": "timeline-1992",
+      "blockId": "legacy-timeline-1992-0011",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1992-month-may",
+      "from": "/timeline/1992/#month-may",
+      "to": "/timeline/1992/#month-may",
+      "pageId": "timeline-1992",
+      "blockId": "legacy-timeline-1992-0012",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1992-month-jun",
+      "from": "/timeline/1992/#month-jun",
+      "to": "/timeline/1992/#month-jun",
+      "pageId": "timeline-1992",
+      "blockId": "legacy-timeline-1992-0013",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1992-month-jul",
+      "from": "/timeline/1992/#month-jul",
+      "to": "/timeline/1992/#month-jul",
+      "pageId": "timeline-1992",
+      "blockId": "legacy-timeline-1992-0014",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1992-month-aug",
+      "from": "/timeline/1992/#month-aug",
+      "to": "/timeline/1992/#month-aug",
+      "pageId": "timeline-1992",
+      "blockId": "legacy-timeline-1992-0015",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1992-month-sep",
+      "from": "/timeline/1992/#month-sep",
+      "to": "/timeline/1992/#month-sep",
+      "pageId": "timeline-1992",
+      "blockId": "legacy-timeline-1992-0016",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1992-month-oct",
+      "from": "/timeline/1992/#month-oct",
+      "to": "/timeline/1992/#month-oct",
+      "pageId": "timeline-1992",
+      "blockId": "legacy-timeline-1992-0017",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1992-month-nov",
+      "from": "/timeline/1992/#month-nov",
+      "to": "/timeline/1992/#month-nov",
+      "pageId": "timeline-1992",
+      "blockId": "legacy-timeline-1992-0018",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1992-month-dec",
+      "from": "/timeline/1992/#month-dec",
+      "to": "/timeline/1992/#month-dec",
+      "pageId": "timeline-1992",
+      "blockId": "legacy-timeline-1992-0019",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1992-news-desk",
+      "from": "/timeline/1992/#news-desk",
+      "to": "/timeline/1992/#news-desk",
+      "pageId": "timeline-1992",
+      "blockId": "legacy-timeline-1992-0020",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1992-culture-grid",
+      "from": "/timeline/1992/#culture-grid",
+      "to": "/timeline/1992/#culture-grid",
+      "pageId": "timeline-1992",
+      "blockId": "legacy-timeline-1992-0025",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1992-artifacts",
+      "from": "/timeline/1992/#artifacts",
+      "to": "/timeline/1992/#artifacts",
+      "pageId": "timeline-1992",
+      "blockId": "legacy-timeline-1992-0032",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1992-rabbit-holes",
+      "from": "/timeline/1992/#rabbit-holes",
+      "to": "/timeline/1992/#rabbit-holes",
+      "pageId": "timeline-1992",
+      "blockId": "legacy-timeline-1992-0038",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1992-media-desk",
+      "from": "/timeline/1992/#media-desk",
+      "to": "/timeline/1992/#media-desk",
+      "pageId": "timeline-1992",
+      "blockId": "legacy-timeline-1992-0039",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1992-top-songs",
+      "from": "/timeline/1992/#top-songs",
+      "to": "/timeline/1992/#top-songs",
+      "pageId": "timeline-1992",
+      "blockId": "legacy-timeline-1992-0044",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1992-artifactShelfTitle-timeline-1992",
+      "from": "/timeline/1992/#artifactShelfTitle-timeline-1992",
+      "to": "/timeline/1992/#artifactShelfTitle-timeline-1992",
+      "pageId": "timeline-1992",
+      "blockId": "legacy-timeline-1992-0057",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1992-artifact-pager",
+      "from": "/timeline/1992/#artifact-pager",
+      "to": "/timeline/1992/#artifact-pager",
+      "pageId": "timeline-1992",
+      "blockId": "legacy-timeline-1992-0057",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1992-artifact-windows-3",
+      "from": "/timeline/1992/#artifact-windows-3",
+      "to": "/timeline/1992/#artifact-windows-3",
+      "pageId": "timeline-1992",
+      "blockId": "legacy-timeline-1992-0058",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1992-artifact-arcade-cabinet",
+      "from": "/timeline/1992/#artifact-arcade-cabinet",
+      "to": "/timeline/1992/#artifact-arcade-cabinet",
+      "pageId": "timeline-1992",
+      "blockId": "legacy-timeline-1992-0059",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1992-museumStatus",
+      "from": "/timeline/1992/#museumStatus",
+      "to": "/timeline/1992/#museumStatus",
+      "pageId": "timeline-1992",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1992-surpriseDialog",
+      "from": "/timeline/1992/#surpriseDialog",
+      "to": "/timeline/1992/#surpriseDialog",
+      "pageId": "timeline-1992",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1992-surpriseTitle",
+      "from": "/timeline/1992/#surpriseTitle",
+      "to": "/timeline/1992/#surpriseTitle",
+      "pageId": "timeline-1992",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1992-passportDialog",
+      "from": "/timeline/1992/#passportDialog",
+      "to": "/timeline/1992/#passportDialog",
+      "pageId": "timeline-1992",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1992-passportTitle",
+      "from": "/timeline/1992/#passportTitle",
+      "to": "/timeline/1992/#passportTitle",
+      "pageId": "timeline-1992",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1992-passportResetDialog",
+      "from": "/timeline/1992/#passportResetDialog",
+      "to": "/timeline/1992/#passportResetDialog",
+      "pageId": "timeline-1992",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1992-passportResetTitle",
+      "from": "/timeline/1992/#passportResetTitle",
+      "to": "/timeline/1992/#passportResetTitle",
+      "pageId": "timeline-1992",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1993-top",
+      "from": "/timeline/1993/#top",
+      "to": "/timeline/1993/#top",
+      "pageId": "timeline-1993",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1993-menuToggle",
+      "from": "/timeline/1993/#menuToggle",
+      "to": "/timeline/1993/#menuToggle",
+      "pageId": "timeline-1993",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1993-siteNav",
+      "from": "/timeline/1993/#siteNav",
+      "to": "/timeline/1993/#siteNav",
+      "pageId": "timeline-1993",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1993-main-content",
+      "from": "/timeline/1993/#main-content",
+      "to": "/timeline/1993/#main-content",
+      "pageId": "timeline-1993",
+      "blockId": null,
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1993-why",
+      "from": "/timeline/1993/#why",
+      "to": "/timeline/1993/#why",
+      "pageId": "timeline-1993",
+      "blockId": "legacy-timeline-1993-0003",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1993-photo-showroom",
+      "from": "/timeline/1993/#photo-showroom",
+      "to": "/timeline/1993/#photo-showroom",
+      "pageId": "timeline-1993",
+      "blockId": "legacy-timeline-1993-0004",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1993-fast-read",
+      "from": "/timeline/1993/#fast-read",
+      "to": "/timeline/1993/#fast-read",
+      "pageId": "timeline-1993",
+      "blockId": "legacy-timeline-1993-0005",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1993-news-desk",
+      "from": "/timeline/1993/#news-desk",
+      "to": "/timeline/1993/#news-desk",
+      "pageId": "timeline-1993",
+      "blockId": "legacy-timeline-1993-0007",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1993-timeline-months",
+      "from": "/timeline/1993/#timeline-months",
+      "to": "/timeline/1993/#timeline-months",
+      "pageId": "timeline-1993",
+      "blockId": "legacy-timeline-1993-0012",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1993-month-jan",
+      "from": "/timeline/1993/#month-jan",
+      "to": "/timeline/1993/#month-jan",
+      "pageId": "timeline-1993",
+      "blockId": "legacy-timeline-1993-0013",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1993-month-feb",
+      "from": "/timeline/1993/#month-feb",
+      "to": "/timeline/1993/#month-feb",
+      "pageId": "timeline-1993",
+      "blockId": "legacy-timeline-1993-0014",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1993-month-mar",
+      "from": "/timeline/1993/#month-mar",
+      "to": "/timeline/1993/#month-mar",
+      "pageId": "timeline-1993",
+      "blockId": "legacy-timeline-1993-0015",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1993-month-apr",
+      "from": "/timeline/1993/#month-apr",
+      "to": "/timeline/1993/#month-apr",
+      "pageId": "timeline-1993",
+      "blockId": "legacy-timeline-1993-0016",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1993-month-may",
+      "from": "/timeline/1993/#month-may",
+      "to": "/timeline/1993/#month-may",
+      "pageId": "timeline-1993",
+      "blockId": "legacy-timeline-1993-0017",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1993-month-jun",
+      "from": "/timeline/1993/#month-jun",
+      "to": "/timeline/1993/#month-jun",
+      "pageId": "timeline-1993",
+      "blockId": "legacy-timeline-1993-0018",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1993-month-jul",
+      "from": "/timeline/1993/#month-jul",
+      "to": "/timeline/1993/#month-jul",
+      "pageId": "timeline-1993",
+      "blockId": "legacy-timeline-1993-0019",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1993-month-aug",
+      "from": "/timeline/1993/#month-aug",
+      "to": "/timeline/1993/#month-aug",
+      "pageId": "timeline-1993",
+      "blockId": "legacy-timeline-1993-0020",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1993-month-sep",
+      "from": "/timeline/1993/#month-sep",
+      "to": "/timeline/1993/#month-sep",
+      "pageId": "timeline-1993",
+      "blockId": "legacy-timeline-1993-0021",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1993-month-oct",
+      "from": "/timeline/1993/#month-oct",
+      "to": "/timeline/1993/#month-oct",
+      "pageId": "timeline-1993",
+      "blockId": "legacy-timeline-1993-0022",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1993-month-nov",
+      "from": "/timeline/1993/#month-nov",
+      "to": "/timeline/1993/#month-nov",
+      "pageId": "timeline-1993",
+      "blockId": "legacy-timeline-1993-0023",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1993-month-dec",
+      "from": "/timeline/1993/#month-dec",
+      "to": "/timeline/1993/#month-dec",
+      "pageId": "timeline-1993",
+      "blockId": "legacy-timeline-1993-0024",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1993-culture-grid",
+      "from": "/timeline/1993/#culture-grid",
+      "to": "/timeline/1993/#culture-grid",
+      "pageId": "timeline-1993",
+      "blockId": "legacy-timeline-1993-0025",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1993-artifacts",
+      "from": "/timeline/1993/#artifacts",
+      "to": "/timeline/1993/#artifacts",
+      "pageId": "timeline-1993",
+      "blockId": "legacy-timeline-1993-0032",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1993-rabbit-holes",
+      "from": "/timeline/1993/#rabbit-holes",
+      "to": "/timeline/1993/#rabbit-holes",
+      "pageId": "timeline-1993",
+      "blockId": "legacy-timeline-1993-0038",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1993-media-desk",
+      "from": "/timeline/1993/#media-desk",
+      "to": "/timeline/1993/#media-desk",
+      "pageId": "timeline-1993",
+      "blockId": "legacy-timeline-1993-0039",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1993-top-songs",
+      "from": "/timeline/1993/#top-songs",
+      "to": "/timeline/1993/#top-songs",
+      "pageId": "timeline-1993",
+      "blockId": "legacy-timeline-1993-0044",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1993-artifactShelfTitle-timeline-1993",
+      "from": "/timeline/1993/#artifactShelfTitle-timeline-1993",
+      "to": "/timeline/1993/#artifactShelfTitle-timeline-1993",
+      "pageId": "timeline-1993",
+      "blockId": "legacy-timeline-1993-0056",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1993-artifact-mosaic-browser",
+      "from": "/timeline/1993/#artifact-mosaic-browser",
+      "to": "/timeline/1993/#artifact-mosaic-browser",
+      "pageId": "timeline-1993",
+      "blockId": "legacy-timeline-1993-0056",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1993-artifact-doom-disks",
+      "from": "/timeline/1993/#artifact-doom-disks",
+      "to": "/timeline/1993/#artifact-doom-disks",
+      "pageId": "timeline-1993",
+      "blockId": "legacy-timeline-1993-0057",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1993-artifact-genesis-controller",
+      "from": "/timeline/1993/#artifact-genesis-controller",
+      "to": "/timeline/1993/#artifact-genesis-controller",
+      "pageId": "timeline-1993",
+      "blockId": "legacy-timeline-1993-0058",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1993-museumStatus",
+      "from": "/timeline/1993/#museumStatus",
+      "to": "/timeline/1993/#museumStatus",
+      "pageId": "timeline-1993",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1993-surpriseDialog",
+      "from": "/timeline/1993/#surpriseDialog",
+      "to": "/timeline/1993/#surpriseDialog",
+      "pageId": "timeline-1993",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1993-surpriseTitle",
+      "from": "/timeline/1993/#surpriseTitle",
+      "to": "/timeline/1993/#surpriseTitle",
+      "pageId": "timeline-1993",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1993-passportDialog",
+      "from": "/timeline/1993/#passportDialog",
+      "to": "/timeline/1993/#passportDialog",
+      "pageId": "timeline-1993",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1993-passportTitle",
+      "from": "/timeline/1993/#passportTitle",
+      "to": "/timeline/1993/#passportTitle",
+      "pageId": "timeline-1993",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1993-passportResetDialog",
+      "from": "/timeline/1993/#passportResetDialog",
+      "to": "/timeline/1993/#passportResetDialog",
+      "pageId": "timeline-1993",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1993-passportResetTitle",
+      "from": "/timeline/1993/#passportResetTitle",
+      "to": "/timeline/1993/#passportResetTitle",
+      "pageId": "timeline-1993",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1994-top",
+      "from": "/timeline/1994/#top",
+      "to": "/timeline/1994/#top",
+      "pageId": "timeline-1994",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1994-menuToggle",
+      "from": "/timeline/1994/#menuToggle",
+      "to": "/timeline/1994/#menuToggle",
+      "pageId": "timeline-1994",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1994-siteNav",
+      "from": "/timeline/1994/#siteNav",
+      "to": "/timeline/1994/#siteNav",
+      "pageId": "timeline-1994",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1994-main-content",
+      "from": "/timeline/1994/#main-content",
+      "to": "/timeline/1994/#main-content",
+      "pageId": "timeline-1994",
+      "blockId": null,
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1994-why",
+      "from": "/timeline/1994/#why",
+      "to": "/timeline/1994/#why",
+      "pageId": "timeline-1994",
+      "blockId": "legacy-timeline-1994-0003",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1994-photo-showroom",
+      "from": "/timeline/1994/#photo-showroom",
+      "to": "/timeline/1994/#photo-showroom",
+      "pageId": "timeline-1994",
+      "blockId": "legacy-timeline-1994-0004",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1994-fast-read",
+      "from": "/timeline/1994/#fast-read",
+      "to": "/timeline/1994/#fast-read",
+      "pageId": "timeline-1994",
+      "blockId": "legacy-timeline-1994-0005",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1994-timeline-months",
+      "from": "/timeline/1994/#timeline-months",
+      "to": "/timeline/1994/#timeline-months",
+      "pageId": "timeline-1994",
+      "blockId": "legacy-timeline-1994-0007",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1994-month-jan",
+      "from": "/timeline/1994/#month-jan",
+      "to": "/timeline/1994/#month-jan",
+      "pageId": "timeline-1994",
+      "blockId": "legacy-timeline-1994-0008",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1994-month-feb",
+      "from": "/timeline/1994/#month-feb",
+      "to": "/timeline/1994/#month-feb",
+      "pageId": "timeline-1994",
+      "blockId": "legacy-timeline-1994-0009",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1994-month-mar",
+      "from": "/timeline/1994/#month-mar",
+      "to": "/timeline/1994/#month-mar",
+      "pageId": "timeline-1994",
+      "blockId": "legacy-timeline-1994-0010",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1994-month-apr",
+      "from": "/timeline/1994/#month-apr",
+      "to": "/timeline/1994/#month-apr",
+      "pageId": "timeline-1994",
+      "blockId": "legacy-timeline-1994-0011",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1994-month-may",
+      "from": "/timeline/1994/#month-may",
+      "to": "/timeline/1994/#month-may",
+      "pageId": "timeline-1994",
+      "blockId": "legacy-timeline-1994-0012",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1994-month-jun",
+      "from": "/timeline/1994/#month-jun",
+      "to": "/timeline/1994/#month-jun",
+      "pageId": "timeline-1994",
+      "blockId": "legacy-timeline-1994-0013",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1994-month-jul",
+      "from": "/timeline/1994/#month-jul",
+      "to": "/timeline/1994/#month-jul",
+      "pageId": "timeline-1994",
+      "blockId": "legacy-timeline-1994-0014",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1994-month-aug",
+      "from": "/timeline/1994/#month-aug",
+      "to": "/timeline/1994/#month-aug",
+      "pageId": "timeline-1994",
+      "blockId": "legacy-timeline-1994-0015",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1994-month-sep",
+      "from": "/timeline/1994/#month-sep",
+      "to": "/timeline/1994/#month-sep",
+      "pageId": "timeline-1994",
+      "blockId": "legacy-timeline-1994-0016",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1994-month-oct",
+      "from": "/timeline/1994/#month-oct",
+      "to": "/timeline/1994/#month-oct",
+      "pageId": "timeline-1994",
+      "blockId": "legacy-timeline-1994-0017",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1994-month-nov",
+      "from": "/timeline/1994/#month-nov",
+      "to": "/timeline/1994/#month-nov",
+      "pageId": "timeline-1994",
+      "blockId": "legacy-timeline-1994-0018",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1994-month-dec",
+      "from": "/timeline/1994/#month-dec",
+      "to": "/timeline/1994/#month-dec",
+      "pageId": "timeline-1994",
+      "blockId": "legacy-timeline-1994-0019",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1994-culture-grid",
+      "from": "/timeline/1994/#culture-grid",
+      "to": "/timeline/1994/#culture-grid",
+      "pageId": "timeline-1994",
+      "blockId": "legacy-timeline-1994-0020",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1994-museum-objects",
+      "from": "/timeline/1994/#museum-objects",
+      "to": "/timeline/1994/#museum-objects",
+      "pageId": "timeline-1994",
+      "blockId": "legacy-timeline-1994-0027",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1994-media-desk",
+      "from": "/timeline/1994/#media-desk",
+      "to": "/timeline/1994/#media-desk",
+      "pageId": "timeline-1994",
+      "blockId": "legacy-timeline-1994-0034",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1994-rabbit-holes",
+      "from": "/timeline/1994/#rabbit-holes",
+      "to": "/timeline/1994/#rabbit-holes",
+      "pageId": "timeline-1994",
+      "blockId": "legacy-timeline-1994-0038",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1994-top-songs",
+      "from": "/timeline/1994/#top-songs",
+      "to": "/timeline/1994/#top-songs",
+      "pageId": "timeline-1994",
+      "blockId": "legacy-timeline-1994-0039",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1994-artifactShelfTitle-timeline-1994",
+      "from": "/timeline/1994/#artifactShelfTitle-timeline-1994",
+      "to": "/timeline/1994/#artifactShelfTitle-timeline-1994",
+      "pageId": "timeline-1994",
+      "blockId": "legacy-timeline-1994-0052",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1994-artifact-geocities-homepage",
+      "from": "/timeline/1994/#artifact-geocities-homepage",
+      "to": "/timeline/1994/#artifact-geocities-homepage",
+      "pageId": "timeline-1994",
+      "blockId": "legacy-timeline-1994-0052",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1994-artifact-visitor-counter",
+      "from": "/timeline/1994/#artifact-visitor-counter",
+      "to": "/timeline/1994/#artifact-visitor-counter",
+      "pageId": "timeline-1994",
+      "blockId": "legacy-timeline-1994-0053",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1994-artifact-playstation-hardware",
+      "from": "/timeline/1994/#artifact-playstation-hardware",
+      "to": "/timeline/1994/#artifact-playstation-hardware",
+      "pageId": "timeline-1994",
+      "blockId": "legacy-timeline-1994-0054",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1994-museumStatus",
+      "from": "/timeline/1994/#museumStatus",
+      "to": "/timeline/1994/#museumStatus",
+      "pageId": "timeline-1994",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1994-surpriseDialog",
+      "from": "/timeline/1994/#surpriseDialog",
+      "to": "/timeline/1994/#surpriseDialog",
+      "pageId": "timeline-1994",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1994-surpriseTitle",
+      "from": "/timeline/1994/#surpriseTitle",
+      "to": "/timeline/1994/#surpriseTitle",
+      "pageId": "timeline-1994",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1994-passportDialog",
+      "from": "/timeline/1994/#passportDialog",
+      "to": "/timeline/1994/#passportDialog",
+      "pageId": "timeline-1994",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1994-passportTitle",
+      "from": "/timeline/1994/#passportTitle",
+      "to": "/timeline/1994/#passportTitle",
+      "pageId": "timeline-1994",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1994-passportResetDialog",
+      "from": "/timeline/1994/#passportResetDialog",
+      "to": "/timeline/1994/#passportResetDialog",
+      "pageId": "timeline-1994",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1994-passportResetTitle",
+      "from": "/timeline/1994/#passportResetTitle",
+      "to": "/timeline/1994/#passportResetTitle",
+      "pageId": "timeline-1994",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1995-top",
+      "from": "/timeline/1995/#top",
+      "to": "/timeline/1995/#top",
+      "pageId": "timeline-1995",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1995-menuToggle",
+      "from": "/timeline/1995/#menuToggle",
+      "to": "/timeline/1995/#menuToggle",
+      "pageId": "timeline-1995",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1995-siteNav",
+      "from": "/timeline/1995/#siteNav",
+      "to": "/timeline/1995/#siteNav",
+      "pageId": "timeline-1995",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1995-main-content",
+      "from": "/timeline/1995/#main-content",
+      "to": "/timeline/1995/#main-content",
+      "pageId": "timeline-1995",
+      "blockId": null,
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1995-why",
+      "from": "/timeline/1995/#why",
+      "to": "/timeline/1995/#why",
+      "pageId": "timeline-1995",
+      "blockId": "legacy-timeline-1995-0003",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1995-photo-showroom",
+      "from": "/timeline/1995/#photo-showroom",
+      "to": "/timeline/1995/#photo-showroom",
+      "pageId": "timeline-1995",
+      "blockId": "legacy-timeline-1995-0004",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1995-timeline-months",
+      "from": "/timeline/1995/#timeline-months",
+      "to": "/timeline/1995/#timeline-months",
+      "pageId": "timeline-1995",
+      "blockId": "legacy-timeline-1995-0007",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1995-month-jan",
+      "from": "/timeline/1995/#month-jan",
+      "to": "/timeline/1995/#month-jan",
+      "pageId": "timeline-1995",
+      "blockId": "legacy-timeline-1995-0008",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1995-month-feb",
+      "from": "/timeline/1995/#month-feb",
+      "to": "/timeline/1995/#month-feb",
+      "pageId": "timeline-1995",
+      "blockId": "legacy-timeline-1995-0009",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1995-month-mar",
+      "from": "/timeline/1995/#month-mar",
+      "to": "/timeline/1995/#month-mar",
+      "pageId": "timeline-1995",
+      "blockId": "legacy-timeline-1995-0010",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1995-month-apr",
+      "from": "/timeline/1995/#month-apr",
+      "to": "/timeline/1995/#month-apr",
+      "pageId": "timeline-1995",
+      "blockId": "legacy-timeline-1995-0011",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1995-month-may",
+      "from": "/timeline/1995/#month-may",
+      "to": "/timeline/1995/#month-may",
+      "pageId": "timeline-1995",
+      "blockId": "legacy-timeline-1995-0012",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1995-month-jun",
+      "from": "/timeline/1995/#month-jun",
+      "to": "/timeline/1995/#month-jun",
+      "pageId": "timeline-1995",
+      "blockId": "legacy-timeline-1995-0013",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1995-month-jul",
+      "from": "/timeline/1995/#month-jul",
+      "to": "/timeline/1995/#month-jul",
+      "pageId": "timeline-1995",
+      "blockId": "legacy-timeline-1995-0014",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1995-month-aug",
+      "from": "/timeline/1995/#month-aug",
+      "to": "/timeline/1995/#month-aug",
+      "pageId": "timeline-1995",
+      "blockId": "legacy-timeline-1995-0015",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1995-month-sep",
+      "from": "/timeline/1995/#month-sep",
+      "to": "/timeline/1995/#month-sep",
+      "pageId": "timeline-1995",
+      "blockId": "legacy-timeline-1995-0016",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1995-month-oct",
+      "from": "/timeline/1995/#month-oct",
+      "to": "/timeline/1995/#month-oct",
+      "pageId": "timeline-1995",
+      "blockId": "legacy-timeline-1995-0017",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1995-month-nov",
+      "from": "/timeline/1995/#month-nov",
+      "to": "/timeline/1995/#month-nov",
+      "pageId": "timeline-1995",
+      "blockId": "legacy-timeline-1995-0018",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1995-month-dec",
+      "from": "/timeline/1995/#month-dec",
+      "to": "/timeline/1995/#month-dec",
+      "pageId": "timeline-1995",
+      "blockId": "legacy-timeline-1995-0019",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1995-culture-grid",
+      "from": "/timeline/1995/#culture-grid",
+      "to": "/timeline/1995/#culture-grid",
+      "pageId": "timeline-1995",
+      "blockId": "legacy-timeline-1995-0020",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1995-artifacts",
+      "from": "/timeline/1995/#artifacts",
+      "to": "/timeline/1995/#artifacts",
+      "pageId": "timeline-1995",
+      "blockId": "legacy-timeline-1995-0027",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1995-media-desk",
+      "from": "/timeline/1995/#media-desk",
+      "to": "/timeline/1995/#media-desk",
+      "pageId": "timeline-1995",
+      "blockId": "legacy-timeline-1995-0028",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1995-rabbit-holes",
+      "from": "/timeline/1995/#rabbit-holes",
+      "to": "/timeline/1995/#rabbit-holes",
+      "pageId": "timeline-1995",
+      "blockId": "legacy-timeline-1995-0032",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1995-top-songs",
+      "from": "/timeline/1995/#top-songs",
+      "to": "/timeline/1995/#top-songs",
+      "pageId": "timeline-1995",
+      "blockId": "legacy-timeline-1995-0033",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1995-artifactShelfTitle-timeline-1995",
+      "from": "/timeline/1995/#artifactShelfTitle-timeline-1995",
+      "to": "/timeline/1995/#artifactShelfTitle-timeline-1995",
+      "pageId": "timeline-1995",
+      "blockId": "legacy-timeline-1995-0046",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1995-artifact-windows-95-start",
+      "from": "/timeline/1995/#artifact-windows-95-start",
+      "to": "/timeline/1995/#artifact-windows-95-start",
+      "pageId": "timeline-1995",
+      "blockId": "legacy-timeline-1995-0046",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1995-artifact-aol-cd",
+      "from": "/timeline/1995/#artifact-aol-cd",
+      "to": "/timeline/1995/#artifact-aol-cd",
+      "pageId": "timeline-1995",
+      "blockId": "legacy-timeline-1995-0047",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1995-artifact-webring-bar",
+      "from": "/timeline/1995/#artifact-webring-bar",
+      "to": "/timeline/1995/#artifact-webring-bar",
+      "pageId": "timeline-1995",
+      "blockId": "legacy-timeline-1995-0048",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1995-museumStatus",
+      "from": "/timeline/1995/#museumStatus",
+      "to": "/timeline/1995/#museumStatus",
+      "pageId": "timeline-1995",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1995-surpriseDialog",
+      "from": "/timeline/1995/#surpriseDialog",
+      "to": "/timeline/1995/#surpriseDialog",
+      "pageId": "timeline-1995",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1995-surpriseTitle",
+      "from": "/timeline/1995/#surpriseTitle",
+      "to": "/timeline/1995/#surpriseTitle",
+      "pageId": "timeline-1995",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1995-passportDialog",
+      "from": "/timeline/1995/#passportDialog",
+      "to": "/timeline/1995/#passportDialog",
+      "pageId": "timeline-1995",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1995-passportTitle",
+      "from": "/timeline/1995/#passportTitle",
+      "to": "/timeline/1995/#passportTitle",
+      "pageId": "timeline-1995",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1995-passportResetDialog",
+      "from": "/timeline/1995/#passportResetDialog",
+      "to": "/timeline/1995/#passportResetDialog",
+      "pageId": "timeline-1995",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1995-passportResetTitle",
+      "from": "/timeline/1995/#passportResetTitle",
+      "to": "/timeline/1995/#passportResetTitle",
+      "pageId": "timeline-1995",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1996-top",
+      "from": "/timeline/1996/#top",
+      "to": "/timeline/1996/#top",
+      "pageId": "timeline-1996",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1996-menuToggle",
+      "from": "/timeline/1996/#menuToggle",
+      "to": "/timeline/1996/#menuToggle",
+      "pageId": "timeline-1996",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1996-siteNav",
+      "from": "/timeline/1996/#siteNav",
+      "to": "/timeline/1996/#siteNav",
+      "pageId": "timeline-1996",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1996-main-content",
+      "from": "/timeline/1996/#main-content",
+      "to": "/timeline/1996/#main-content",
+      "pageId": "timeline-1996",
+      "blockId": null,
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1996-why",
+      "from": "/timeline/1996/#why",
+      "to": "/timeline/1996/#why",
+      "pageId": "timeline-1996",
+      "blockId": "legacy-timeline-1996-0003",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1996-photo-showroom",
+      "from": "/timeline/1996/#photo-showroom",
+      "to": "/timeline/1996/#photo-showroom",
+      "pageId": "timeline-1996",
+      "blockId": "legacy-timeline-1996-0004",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1996-fast-read",
+      "from": "/timeline/1996/#fast-read",
+      "to": "/timeline/1996/#fast-read",
+      "pageId": "timeline-1996",
+      "blockId": "legacy-timeline-1996-0005",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1996-timeline-months",
+      "from": "/timeline/1996/#timeline-months",
+      "to": "/timeline/1996/#timeline-months",
+      "pageId": "timeline-1996",
+      "blockId": "legacy-timeline-1996-0007",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1996-month-jan",
+      "from": "/timeline/1996/#month-jan",
+      "to": "/timeline/1996/#month-jan",
+      "pageId": "timeline-1996",
+      "blockId": "legacy-timeline-1996-0008",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1996-month-feb",
+      "from": "/timeline/1996/#month-feb",
+      "to": "/timeline/1996/#month-feb",
+      "pageId": "timeline-1996",
+      "blockId": "legacy-timeline-1996-0009",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1996-month-mar",
+      "from": "/timeline/1996/#month-mar",
+      "to": "/timeline/1996/#month-mar",
+      "pageId": "timeline-1996",
+      "blockId": "legacy-timeline-1996-0010",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1996-month-apr",
+      "from": "/timeline/1996/#month-apr",
+      "to": "/timeline/1996/#month-apr",
+      "pageId": "timeline-1996",
+      "blockId": "legacy-timeline-1996-0011",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1996-month-may",
+      "from": "/timeline/1996/#month-may",
+      "to": "/timeline/1996/#month-may",
+      "pageId": "timeline-1996",
+      "blockId": "legacy-timeline-1996-0012",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1996-month-jun",
+      "from": "/timeline/1996/#month-jun",
+      "to": "/timeline/1996/#month-jun",
+      "pageId": "timeline-1996",
+      "blockId": "legacy-timeline-1996-0013",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1996-month-jul",
+      "from": "/timeline/1996/#month-jul",
+      "to": "/timeline/1996/#month-jul",
+      "pageId": "timeline-1996",
+      "blockId": "legacy-timeline-1996-0014",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1996-month-aug",
+      "from": "/timeline/1996/#month-aug",
+      "to": "/timeline/1996/#month-aug",
+      "pageId": "timeline-1996",
+      "blockId": "legacy-timeline-1996-0015",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1996-month-sep",
+      "from": "/timeline/1996/#month-sep",
+      "to": "/timeline/1996/#month-sep",
+      "pageId": "timeline-1996",
+      "blockId": "legacy-timeline-1996-0016",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1996-month-oct",
+      "from": "/timeline/1996/#month-oct",
+      "to": "/timeline/1996/#month-oct",
+      "pageId": "timeline-1996",
+      "blockId": "legacy-timeline-1996-0017",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1996-month-nov",
+      "from": "/timeline/1996/#month-nov",
+      "to": "/timeline/1996/#month-nov",
+      "pageId": "timeline-1996",
+      "blockId": "legacy-timeline-1996-0018",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1996-month-dec",
+      "from": "/timeline/1996/#month-dec",
+      "to": "/timeline/1996/#month-dec",
+      "pageId": "timeline-1996",
+      "blockId": "legacy-timeline-1996-0019",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1996-news-desk",
+      "from": "/timeline/1996/#news-desk",
+      "to": "/timeline/1996/#news-desk",
+      "pageId": "timeline-1996",
+      "blockId": "legacy-timeline-1996-0020",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1996-culture-grid",
+      "from": "/timeline/1996/#culture-grid",
+      "to": "/timeline/1996/#culture-grid",
+      "pageId": "timeline-1996",
+      "blockId": "legacy-timeline-1996-0025",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1996-museum-objects",
+      "from": "/timeline/1996/#museum-objects",
+      "to": "/timeline/1996/#museum-objects",
+      "pageId": "timeline-1996",
+      "blockId": "legacy-timeline-1996-0032",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1996-media-desk",
+      "from": "/timeline/1996/#media-desk",
+      "to": "/timeline/1996/#media-desk",
+      "pageId": "timeline-1996",
+      "blockId": "legacy-timeline-1996-0039",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1996-rabbit-holes",
+      "from": "/timeline/1996/#rabbit-holes",
+      "to": "/timeline/1996/#rabbit-holes",
+      "pageId": "timeline-1996",
+      "blockId": "legacy-timeline-1996-0043",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1996-top-songs",
+      "from": "/timeline/1996/#top-songs",
+      "to": "/timeline/1996/#top-songs",
+      "pageId": "timeline-1996",
+      "blockId": "legacy-timeline-1996-0044",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1996-artifactShelfTitle-timeline-1996",
+      "from": "/timeline/1996/#artifactShelfTitle-timeline-1996",
+      "to": "/timeline/1996/#artifactShelfTitle-timeline-1996",
+      "pageId": "timeline-1996",
+      "blockId": "legacy-timeline-1996-0057",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1996-artifact-n64-controller",
+      "from": "/timeline/1996/#artifact-n64-controller",
+      "to": "/timeline/1996/#artifact-n64-controller",
+      "pageId": "timeline-1996",
+      "blockId": "legacy-timeline-1996-0057",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1996-artifact-playstation-hardware",
+      "from": "/timeline/1996/#artifact-playstation-hardware",
+      "to": "/timeline/1996/#artifact-playstation-hardware",
+      "pageId": "timeline-1996",
+      "blockId": "legacy-timeline-1996-0058",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1996-artifact-vhs-tape",
+      "from": "/timeline/1996/#artifact-vhs-tape",
+      "to": "/timeline/1996/#artifact-vhs-tape",
+      "pageId": "timeline-1996",
+      "blockId": "legacy-timeline-1996-0059",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1996-museumStatus",
+      "from": "/timeline/1996/#museumStatus",
+      "to": "/timeline/1996/#museumStatus",
+      "pageId": "timeline-1996",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1996-surpriseDialog",
+      "from": "/timeline/1996/#surpriseDialog",
+      "to": "/timeline/1996/#surpriseDialog",
+      "pageId": "timeline-1996",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1996-surpriseTitle",
+      "from": "/timeline/1996/#surpriseTitle",
+      "to": "/timeline/1996/#surpriseTitle",
+      "pageId": "timeline-1996",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1996-passportDialog",
+      "from": "/timeline/1996/#passportDialog",
+      "to": "/timeline/1996/#passportDialog",
+      "pageId": "timeline-1996",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1996-passportTitle",
+      "from": "/timeline/1996/#passportTitle",
+      "to": "/timeline/1996/#passportTitle",
+      "pageId": "timeline-1996",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1996-passportResetDialog",
+      "from": "/timeline/1996/#passportResetDialog",
+      "to": "/timeline/1996/#passportResetDialog",
+      "pageId": "timeline-1996",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1996-passportResetTitle",
+      "from": "/timeline/1996/#passportResetTitle",
+      "to": "/timeline/1996/#passportResetTitle",
+      "pageId": "timeline-1996",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1997-top",
+      "from": "/timeline/1997/#top",
+      "to": "/timeline/1997/#top",
+      "pageId": "timeline-1997",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1997-menuToggle",
+      "from": "/timeline/1997/#menuToggle",
+      "to": "/timeline/1997/#menuToggle",
+      "pageId": "timeline-1997",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1997-siteNav",
+      "from": "/timeline/1997/#siteNav",
+      "to": "/timeline/1997/#siteNav",
+      "pageId": "timeline-1997",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1997-main-content",
+      "from": "/timeline/1997/#main-content",
+      "to": "/timeline/1997/#main-content",
+      "pageId": "timeline-1997",
+      "blockId": null,
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1997-why",
+      "from": "/timeline/1997/#why",
+      "to": "/timeline/1997/#why",
+      "pageId": "timeline-1997",
+      "blockId": "legacy-timeline-1997-0003",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1997-photo-showroom",
+      "from": "/timeline/1997/#photo-showroom",
+      "to": "/timeline/1997/#photo-showroom",
+      "pageId": "timeline-1997",
+      "blockId": "legacy-timeline-1997-0004",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1997-timeline-months",
+      "from": "/timeline/1997/#timeline-months",
+      "to": "/timeline/1997/#timeline-months",
+      "pageId": "timeline-1997",
+      "blockId": "legacy-timeline-1997-0007",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1997-month-jan",
+      "from": "/timeline/1997/#month-jan",
+      "to": "/timeline/1997/#month-jan",
+      "pageId": "timeline-1997",
+      "blockId": "legacy-timeline-1997-0008",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1997-month-feb",
+      "from": "/timeline/1997/#month-feb",
+      "to": "/timeline/1997/#month-feb",
+      "pageId": "timeline-1997",
+      "blockId": "legacy-timeline-1997-0009",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1997-month-mar",
+      "from": "/timeline/1997/#month-mar",
+      "to": "/timeline/1997/#month-mar",
+      "pageId": "timeline-1997",
+      "blockId": "legacy-timeline-1997-0010",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1997-month-apr",
+      "from": "/timeline/1997/#month-apr",
+      "to": "/timeline/1997/#month-apr",
+      "pageId": "timeline-1997",
+      "blockId": "legacy-timeline-1997-0011",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1997-month-may",
+      "from": "/timeline/1997/#month-may",
+      "to": "/timeline/1997/#month-may",
+      "pageId": "timeline-1997",
+      "blockId": "legacy-timeline-1997-0012",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1997-month-jun",
+      "from": "/timeline/1997/#month-jun",
+      "to": "/timeline/1997/#month-jun",
+      "pageId": "timeline-1997",
+      "blockId": "legacy-timeline-1997-0013",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1997-month-jul",
+      "from": "/timeline/1997/#month-jul",
+      "to": "/timeline/1997/#month-jul",
+      "pageId": "timeline-1997",
+      "blockId": "legacy-timeline-1997-0014",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1997-month-aug",
+      "from": "/timeline/1997/#month-aug",
+      "to": "/timeline/1997/#month-aug",
+      "pageId": "timeline-1997",
+      "blockId": "legacy-timeline-1997-0015",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1997-month-sep",
+      "from": "/timeline/1997/#month-sep",
+      "to": "/timeline/1997/#month-sep",
+      "pageId": "timeline-1997",
+      "blockId": "legacy-timeline-1997-0016",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1997-month-oct",
+      "from": "/timeline/1997/#month-oct",
+      "to": "/timeline/1997/#month-oct",
+      "pageId": "timeline-1997",
+      "blockId": "legacy-timeline-1997-0017",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1997-month-nov",
+      "from": "/timeline/1997/#month-nov",
+      "to": "/timeline/1997/#month-nov",
+      "pageId": "timeline-1997",
+      "blockId": "legacy-timeline-1997-0018",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1997-month-dec",
+      "from": "/timeline/1997/#month-dec",
+      "to": "/timeline/1997/#month-dec",
+      "pageId": "timeline-1997",
+      "blockId": "legacy-timeline-1997-0019",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1997-culture-grid",
+      "from": "/timeline/1997/#culture-grid",
+      "to": "/timeline/1997/#culture-grid",
+      "pageId": "timeline-1997",
+      "blockId": "legacy-timeline-1997-0020",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1997-artifacts",
+      "from": "/timeline/1997/#artifacts",
+      "to": "/timeline/1997/#artifacts",
+      "pageId": "timeline-1997",
+      "blockId": "legacy-timeline-1997-0027",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1997-media-desk",
+      "from": "/timeline/1997/#media-desk",
+      "to": "/timeline/1997/#media-desk",
+      "pageId": "timeline-1997",
+      "blockId": "legacy-timeline-1997-0028",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1997-top-songs",
+      "from": "/timeline/1997/#top-songs",
+      "to": "/timeline/1997/#top-songs",
+      "pageId": "timeline-1997",
+      "blockId": "legacy-timeline-1997-0032",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1997-artifactShelfTitle-timeline-1997",
+      "from": "/timeline/1997/#artifactShelfTitle-timeline-1997",
+      "to": "/timeline/1997/#artifactShelfTitle-timeline-1997",
+      "pageId": "timeline-1997",
+      "blockId": "legacy-timeline-1997-0045",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1997-artifact-aim-away-message",
+      "from": "/timeline/1997/#artifact-aim-away-message",
+      "to": "/timeline/1997/#artifact-aim-away-message",
+      "pageId": "timeline-1997",
+      "blockId": "legacy-timeline-1997-0045",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1997-artifact-cdr-spindle",
+      "from": "/timeline/1997/#artifact-cdr-spindle",
+      "to": "/timeline/1997/#artifact-cdr-spindle",
+      "pageId": "timeline-1997",
+      "blockId": "legacy-timeline-1997-0046",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1997-artifact-discman",
+      "from": "/timeline/1997/#artifact-discman",
+      "to": "/timeline/1997/#artifact-discman",
+      "pageId": "timeline-1997",
+      "blockId": "legacy-timeline-1997-0047",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1997-museumStatus",
+      "from": "/timeline/1997/#museumStatus",
+      "to": "/timeline/1997/#museumStatus",
+      "pageId": "timeline-1997",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1997-surpriseDialog",
+      "from": "/timeline/1997/#surpriseDialog",
+      "to": "/timeline/1997/#surpriseDialog",
+      "pageId": "timeline-1997",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1997-surpriseTitle",
+      "from": "/timeline/1997/#surpriseTitle",
+      "to": "/timeline/1997/#surpriseTitle",
+      "pageId": "timeline-1997",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1997-passportDialog",
+      "from": "/timeline/1997/#passportDialog",
+      "to": "/timeline/1997/#passportDialog",
+      "pageId": "timeline-1997",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1997-passportTitle",
+      "from": "/timeline/1997/#passportTitle",
+      "to": "/timeline/1997/#passportTitle",
+      "pageId": "timeline-1997",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1997-passportResetDialog",
+      "from": "/timeline/1997/#passportResetDialog",
+      "to": "/timeline/1997/#passportResetDialog",
+      "pageId": "timeline-1997",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1997-passportResetTitle",
+      "from": "/timeline/1997/#passportResetTitle",
+      "to": "/timeline/1997/#passportResetTitle",
+      "pageId": "timeline-1997",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1998-top",
+      "from": "/timeline/1998/#top",
+      "to": "/timeline/1998/#top",
+      "pageId": "timeline-1998",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1998-menuToggle",
+      "from": "/timeline/1998/#menuToggle",
+      "to": "/timeline/1998/#menuToggle",
+      "pageId": "timeline-1998",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1998-siteNav",
+      "from": "/timeline/1998/#siteNav",
+      "to": "/timeline/1998/#siteNav",
+      "pageId": "timeline-1998",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1998-main-content",
+      "from": "/timeline/1998/#main-content",
+      "to": "/timeline/1998/#main-content",
+      "pageId": "timeline-1998",
+      "blockId": null,
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1998-why",
+      "from": "/timeline/1998/#why",
+      "to": "/timeline/1998/#why",
+      "pageId": "timeline-1998",
+      "blockId": "legacy-timeline-1998-0003",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1998-photo-showroom",
+      "from": "/timeline/1998/#photo-showroom",
+      "to": "/timeline/1998/#photo-showroom",
+      "pageId": "timeline-1998",
+      "blockId": "legacy-timeline-1998-0004",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1998-timeline-months",
+      "from": "/timeline/1998/#timeline-months",
+      "to": "/timeline/1998/#timeline-months",
+      "pageId": "timeline-1998",
+      "blockId": "legacy-timeline-1998-0007",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1998-month-jan",
+      "from": "/timeline/1998/#month-jan",
+      "to": "/timeline/1998/#month-jan",
+      "pageId": "timeline-1998",
+      "blockId": "legacy-timeline-1998-0008",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1998-month-feb",
+      "from": "/timeline/1998/#month-feb",
+      "to": "/timeline/1998/#month-feb",
+      "pageId": "timeline-1998",
+      "blockId": "legacy-timeline-1998-0009",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1998-month-mar",
+      "from": "/timeline/1998/#month-mar",
+      "to": "/timeline/1998/#month-mar",
+      "pageId": "timeline-1998",
+      "blockId": "legacy-timeline-1998-0010",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1998-month-apr",
+      "from": "/timeline/1998/#month-apr",
+      "to": "/timeline/1998/#month-apr",
+      "pageId": "timeline-1998",
+      "blockId": "legacy-timeline-1998-0011",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1998-month-may",
+      "from": "/timeline/1998/#month-may",
+      "to": "/timeline/1998/#month-may",
+      "pageId": "timeline-1998",
+      "blockId": "legacy-timeline-1998-0012",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1998-month-jun",
+      "from": "/timeline/1998/#month-jun",
+      "to": "/timeline/1998/#month-jun",
+      "pageId": "timeline-1998",
+      "blockId": "legacy-timeline-1998-0013",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1998-month-jul",
+      "from": "/timeline/1998/#month-jul",
+      "to": "/timeline/1998/#month-jul",
+      "pageId": "timeline-1998",
+      "blockId": "legacy-timeline-1998-0014",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1998-month-aug",
+      "from": "/timeline/1998/#month-aug",
+      "to": "/timeline/1998/#month-aug",
+      "pageId": "timeline-1998",
+      "blockId": "legacy-timeline-1998-0015",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1998-month-sep",
+      "from": "/timeline/1998/#month-sep",
+      "to": "/timeline/1998/#month-sep",
+      "pageId": "timeline-1998",
+      "blockId": "legacy-timeline-1998-0016",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1998-month-oct",
+      "from": "/timeline/1998/#month-oct",
+      "to": "/timeline/1998/#month-oct",
+      "pageId": "timeline-1998",
+      "blockId": "legacy-timeline-1998-0017",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1998-month-nov",
+      "from": "/timeline/1998/#month-nov",
+      "to": "/timeline/1998/#month-nov",
+      "pageId": "timeline-1998",
+      "blockId": "legacy-timeline-1998-0018",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1998-month-dec",
+      "from": "/timeline/1998/#month-dec",
+      "to": "/timeline/1998/#month-dec",
+      "pageId": "timeline-1998",
+      "blockId": "legacy-timeline-1998-0019",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1998-culture-grid",
+      "from": "/timeline/1998/#culture-grid",
+      "to": "/timeline/1998/#culture-grid",
+      "pageId": "timeline-1998",
+      "blockId": "legacy-timeline-1998-0020",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1998-artifacts",
+      "from": "/timeline/1998/#artifacts",
+      "to": "/timeline/1998/#artifacts",
+      "pageId": "timeline-1998",
+      "blockId": "legacy-timeline-1998-0027",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1998-media-desk",
+      "from": "/timeline/1998/#media-desk",
+      "to": "/timeline/1998/#media-desk",
+      "pageId": "timeline-1998",
+      "blockId": "legacy-timeline-1998-0028",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1998-rabbit-holes",
+      "from": "/timeline/1998/#rabbit-holes",
+      "to": "/timeline/1998/#rabbit-holes",
+      "pageId": "timeline-1998",
+      "blockId": "legacy-timeline-1998-0032",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1998-top-songs",
+      "from": "/timeline/1998/#top-songs",
+      "to": "/timeline/1998/#top-songs",
+      "pageId": "timeline-1998",
+      "blockId": "legacy-timeline-1998-0033",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1998-artifactShelfTitle-timeline-1998",
+      "from": "/timeline/1998/#artifactShelfTitle-timeline-1998",
+      "to": "/timeline/1998/#artifactShelfTitle-timeline-1998",
+      "pageId": "timeline-1998",
+      "blockId": "legacy-timeline-1998-0046",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1998-artifact-bondi-imac",
+      "from": "/timeline/1998/#artifact-bondi-imac",
+      "to": "/timeline/1998/#artifact-bondi-imac",
+      "pageId": "timeline-1998",
+      "blockId": "legacy-timeline-1998-0046",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1998-artifact-game-boy-color",
+      "from": "/timeline/1998/#artifact-game-boy-color",
+      "to": "/timeline/1998/#artifact-game-boy-color",
+      "pageId": "timeline-1998",
+      "blockId": "legacy-timeline-1998-0047",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1998-artifact-yahoo-directory",
+      "from": "/timeline/1998/#artifact-yahoo-directory",
+      "to": "/timeline/1998/#artifact-yahoo-directory",
+      "pageId": "timeline-1998",
+      "blockId": "legacy-timeline-1998-0048",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1998-museumStatus",
+      "from": "/timeline/1998/#museumStatus",
+      "to": "/timeline/1998/#museumStatus",
+      "pageId": "timeline-1998",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1998-surpriseDialog",
+      "from": "/timeline/1998/#surpriseDialog",
+      "to": "/timeline/1998/#surpriseDialog",
+      "pageId": "timeline-1998",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1998-surpriseTitle",
+      "from": "/timeline/1998/#surpriseTitle",
+      "to": "/timeline/1998/#surpriseTitle",
+      "pageId": "timeline-1998",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1998-passportDialog",
+      "from": "/timeline/1998/#passportDialog",
+      "to": "/timeline/1998/#passportDialog",
+      "pageId": "timeline-1998",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1998-passportTitle",
+      "from": "/timeline/1998/#passportTitle",
+      "to": "/timeline/1998/#passportTitle",
+      "pageId": "timeline-1998",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1998-passportResetDialog",
+      "from": "/timeline/1998/#passportResetDialog",
+      "to": "/timeline/1998/#passportResetDialog",
+      "pageId": "timeline-1998",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1998-passportResetTitle",
+      "from": "/timeline/1998/#passportResetTitle",
+      "to": "/timeline/1998/#passportResetTitle",
+      "pageId": "timeline-1998",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1999-top",
+      "from": "/timeline/1999/#top",
+      "to": "/timeline/1999/#top",
+      "pageId": "timeline-1999",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1999-menuToggle",
+      "from": "/timeline/1999/#menuToggle",
+      "to": "/timeline/1999/#menuToggle",
+      "pageId": "timeline-1999",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1999-siteNav",
+      "from": "/timeline/1999/#siteNav",
+      "to": "/timeline/1999/#siteNav",
+      "pageId": "timeline-1999",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1999-main-content",
+      "from": "/timeline/1999/#main-content",
+      "to": "/timeline/1999/#main-content",
+      "pageId": "timeline-1999",
+      "blockId": null,
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1999-why",
+      "from": "/timeline/1999/#why",
+      "to": "/timeline/1999/#why",
+      "pageId": "timeline-1999",
+      "blockId": "legacy-timeline-1999-0003",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1999-photo-showroom",
+      "from": "/timeline/1999/#photo-showroom",
+      "to": "/timeline/1999/#photo-showroom",
+      "pageId": "timeline-1999",
+      "blockId": "legacy-timeline-1999-0004",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1999-timeline-months",
+      "from": "/timeline/1999/#timeline-months",
+      "to": "/timeline/1999/#timeline-months",
+      "pageId": "timeline-1999",
+      "blockId": "legacy-timeline-1999-0007",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1999-month-jan",
+      "from": "/timeline/1999/#month-jan",
+      "to": "/timeline/1999/#month-jan",
+      "pageId": "timeline-1999",
+      "blockId": "legacy-timeline-1999-0008",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1999-month-feb",
+      "from": "/timeline/1999/#month-feb",
+      "to": "/timeline/1999/#month-feb",
+      "pageId": "timeline-1999",
+      "blockId": "legacy-timeline-1999-0009",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1999-month-mar",
+      "from": "/timeline/1999/#month-mar",
+      "to": "/timeline/1999/#month-mar",
+      "pageId": "timeline-1999",
+      "blockId": "legacy-timeline-1999-0010",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1999-month-apr",
+      "from": "/timeline/1999/#month-apr",
+      "to": "/timeline/1999/#month-apr",
+      "pageId": "timeline-1999",
+      "blockId": "legacy-timeline-1999-0011",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1999-month-may",
+      "from": "/timeline/1999/#month-may",
+      "to": "/timeline/1999/#month-may",
+      "pageId": "timeline-1999",
+      "blockId": "legacy-timeline-1999-0012",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1999-month-jun",
+      "from": "/timeline/1999/#month-jun",
+      "to": "/timeline/1999/#month-jun",
+      "pageId": "timeline-1999",
+      "blockId": "legacy-timeline-1999-0013",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1999-month-jul",
+      "from": "/timeline/1999/#month-jul",
+      "to": "/timeline/1999/#month-jul",
+      "pageId": "timeline-1999",
+      "blockId": "legacy-timeline-1999-0014",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1999-month-aug",
+      "from": "/timeline/1999/#month-aug",
+      "to": "/timeline/1999/#month-aug",
+      "pageId": "timeline-1999",
+      "blockId": "legacy-timeline-1999-0015",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1999-month-sep",
+      "from": "/timeline/1999/#month-sep",
+      "to": "/timeline/1999/#month-sep",
+      "pageId": "timeline-1999",
+      "blockId": "legacy-timeline-1999-0016",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1999-month-oct",
+      "from": "/timeline/1999/#month-oct",
+      "to": "/timeline/1999/#month-oct",
+      "pageId": "timeline-1999",
+      "blockId": "legacy-timeline-1999-0017",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1999-month-nov",
+      "from": "/timeline/1999/#month-nov",
+      "to": "/timeline/1999/#month-nov",
+      "pageId": "timeline-1999",
+      "blockId": "legacy-timeline-1999-0018",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1999-month-dec",
+      "from": "/timeline/1999/#month-dec",
+      "to": "/timeline/1999/#month-dec",
+      "pageId": "timeline-1999",
+      "blockId": "legacy-timeline-1999-0019",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1999-culture-grid",
+      "from": "/timeline/1999/#culture-grid",
+      "to": "/timeline/1999/#culture-grid",
+      "pageId": "timeline-1999",
+      "blockId": "legacy-timeline-1999-0020",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1999-artifacts",
+      "from": "/timeline/1999/#artifacts",
+      "to": "/timeline/1999/#artifacts",
+      "pageId": "timeline-1999",
+      "blockId": "legacy-timeline-1999-0027",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1999-media-desk",
+      "from": "/timeline/1999/#media-desk",
+      "to": "/timeline/1999/#media-desk",
+      "pageId": "timeline-1999",
+      "blockId": "legacy-timeline-1999-0028",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1999-rabbit-holes",
+      "from": "/timeline/1999/#rabbit-holes",
+      "to": "/timeline/1999/#rabbit-holes",
+      "pageId": "timeline-1999",
+      "blockId": "legacy-timeline-1999-0032",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1999-top-songs",
+      "from": "/timeline/1999/#top-songs",
+      "to": "/timeline/1999/#top-songs",
+      "pageId": "timeline-1999",
+      "blockId": "legacy-timeline-1999-0033",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1999-artifactShelfTitle-timeline-1999",
+      "from": "/timeline/1999/#artifactShelfTitle-timeline-1999",
+      "to": "/timeline/1999/#artifactShelfTitle-timeline-1999",
+      "pageId": "timeline-1999",
+      "blockId": "legacy-timeline-1999-0046",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1999-artifact-dreamcast",
+      "from": "/timeline/1999/#artifact-dreamcast",
+      "to": "/timeline/1999/#artifact-dreamcast",
+      "pageId": "timeline-1999",
+      "blockId": "legacy-timeline-1999-0046",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1999-artifact-y2k-office",
+      "from": "/timeline/1999/#artifact-y2k-office",
+      "to": "/timeline/1999/#artifact-y2k-office",
+      "pageId": "timeline-1999",
+      "blockId": "legacy-timeline-1999-0047",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1999-artifact-family-pc",
+      "from": "/timeline/1999/#artifact-family-pc",
+      "to": "/timeline/1999/#artifact-family-pc",
+      "pageId": "timeline-1999",
+      "blockId": "legacy-timeline-1999-0048",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1999-museumStatus",
+      "from": "/timeline/1999/#museumStatus",
+      "to": "/timeline/1999/#museumStatus",
+      "pageId": "timeline-1999",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1999-surpriseDialog",
+      "from": "/timeline/1999/#surpriseDialog",
+      "to": "/timeline/1999/#surpriseDialog",
+      "pageId": "timeline-1999",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1999-surpriseTitle",
+      "from": "/timeline/1999/#surpriseTitle",
+      "to": "/timeline/1999/#surpriseTitle",
+      "pageId": "timeline-1999",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1999-passportDialog",
+      "from": "/timeline/1999/#passportDialog",
+      "to": "/timeline/1999/#passportDialog",
+      "pageId": "timeline-1999",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1999-passportTitle",
+      "from": "/timeline/1999/#passportTitle",
+      "to": "/timeline/1999/#passportTitle",
+      "pageId": "timeline-1999",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1999-passportResetDialog",
+      "from": "/timeline/1999/#passportResetDialog",
+      "to": "/timeline/1999/#passportResetDialog",
+      "pageId": "timeline-1999",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-timeline-1999-passportResetTitle",
+      "from": "/timeline/1999/#passportResetTitle",
+      "to": "/timeline/1999/#passportResetTitle",
+      "pageId": "timeline-1999",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-tour-before-the-feed-top",
+      "from": "/tours/before-the-feed/#top",
+      "to": "/tours/before-the-feed/#top",
+      "pageId": "tour-before-the-feed",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-tour-before-the-feed-siteNav",
+      "from": "/tours/before-the-feed/#siteNav",
+      "to": "/tours/before-the-feed/#siteNav",
+      "pageId": "tour-before-the-feed",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-tour-before-the-feed-main-content",
+      "from": "/tours/before-the-feed/#main-content",
+      "to": "/tours/before-the-feed/#main-content",
+      "pageId": "tour-before-the-feed",
+      "blockId": null,
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-tour-before-the-feed-family-pc-portal",
+      "from": "/tours/before-the-feed/#family-pc-portal",
+      "to": "/tours/before-the-feed/#family-pc-portal",
+      "pageId": "tour-before-the-feed",
+      "blockId": "legacy-tour-before-the-feed-0002",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-tour-before-the-feed-tour-family-pc-portal-family-pc",
+      "from": "/tours/before-the-feed/#tour-family-pc-portal-family-pc",
+      "to": "/tours/before-the-feed/#tour-family-pc-portal-family-pc",
+      "pageId": "tour-before-the-feed",
+      "blockId": "legacy-tour-before-the-feed-0003",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-tour-before-the-feed-tour-family-pc-portal-aol-cd",
+      "from": "/tours/before-the-feed/#tour-family-pc-portal-aol-cd",
+      "to": "/tours/before-the-feed/#tour-family-pc-portal-aol-cd",
+      "pageId": "tour-before-the-feed",
+      "blockId": "legacy-tour-before-the-feed-0004",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-tour-before-the-feed-mosaic-visual-web",
+      "from": "/tours/before-the-feed/#mosaic-visual-web",
+      "to": "/tours/before-the-feed/#mosaic-visual-web",
+      "pageId": "tour-before-the-feed",
+      "blockId": "legacy-tour-before-the-feed-0005",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-tour-before-the-feed-tour-mosaic-visual-web-first-website",
+      "from": "/tours/before-the-feed/#tour-mosaic-visual-web-first-website",
+      "to": "/tours/before-the-feed/#tour-mosaic-visual-web-first-website",
+      "pageId": "tour-before-the-feed",
+      "blockId": "legacy-tour-before-the-feed-0006",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-tour-before-the-feed-tour-mosaic-visual-web-mosaic-browser",
+      "from": "/tours/before-the-feed/#tour-mosaic-visual-web-mosaic-browser",
+      "to": "/tours/before-the-feed/#tour-mosaic-visual-web-mosaic-browser",
+      "pageId": "tour-before-the-feed",
+      "blockId": "legacy-tour-before-the-feed-0007",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-tour-before-the-feed-handmade-geocities",
+      "from": "/tours/before-the-feed/#handmade-geocities",
+      "to": "/tours/before-the-feed/#handmade-geocities",
+      "pageId": "tour-before-the-feed",
+      "blockId": "legacy-tour-before-the-feed-0008",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-tour-before-the-feed-tour-handmade-geocities-geocities-homepage",
+      "from": "/tours/before-the-feed/#tour-handmade-geocities-geocities-homepage",
+      "to": "/tours/before-the-feed/#tour-handmade-geocities-geocities-homepage",
+      "pageId": "tour-before-the-feed",
+      "blockId": "legacy-tour-before-the-feed-0009",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-tour-before-the-feed-tour-handmade-geocities-yahoo-directory",
+      "from": "/tours/before-the-feed/#tour-handmade-geocities-yahoo-directory",
+      "to": "/tours/before-the-feed/#tour-handmade-geocities-yahoo-directory",
+      "pageId": "tour-before-the-feed",
+      "blockId": "legacy-tour-before-the-feed-0010",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-tour-before-the-feed-traces-and-webrings",
+      "from": "/tours/before-the-feed/#traces-and-webrings",
+      "to": "/tours/before-the-feed/#traces-and-webrings",
+      "pageId": "tour-before-the-feed",
+      "blockId": "legacy-tour-before-the-feed-0011",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-tour-before-the-feed-tour-traces-and-webrings-guestbook",
+      "from": "/tours/before-the-feed/#tour-traces-and-webrings-guestbook",
+      "to": "/tours/before-the-feed/#tour-traces-and-webrings-guestbook",
+      "pageId": "tour-before-the-feed",
+      "blockId": "legacy-tour-before-the-feed-0012",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-tour-before-the-feed-tour-traces-and-webrings-visitor-counter",
+      "from": "/tours/before-the-feed/#tour-traces-and-webrings-visitor-counter",
+      "to": "/tours/before-the-feed/#tour-traces-and-webrings-visitor-counter",
+      "pageId": "tour-before-the-feed",
+      "blockId": "legacy-tour-before-the-feed-0013",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-tour-before-the-feed-tour-traces-and-webrings-webring-bar",
+      "from": "/tours/before-the-feed/#tour-traces-and-webrings-webring-bar",
+      "to": "/tours/before-the-feed/#tour-traces-and-webrings-webring-bar",
+      "pageId": "tour-before-the-feed",
+      "blockId": "legacy-tour-before-the-feed-0014",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-tour-before-the-feed-screen-name-self",
+      "from": "/tours/before-the-feed/#screen-name-self",
+      "to": "/tours/before-the-feed/#screen-name-self",
+      "pageId": "tour-before-the-feed",
+      "blockId": "legacy-tour-before-the-feed-0015",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-tour-before-the-feed-tour-screen-name-self-aim-away-message",
+      "from": "/tours/before-the-feed/#tour-screen-name-self-aim-away-message",
+      "to": "/tours/before-the-feed/#tour-screen-name-self-aim-away-message",
+      "pageId": "tour-before-the-feed",
+      "blockId": "legacy-tour-before-the-feed-0016",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-tour-before-the-feed-tour-screen-name-self-pager",
+      "from": "/tours/before-the-feed/#tour-screen-name-self-pager",
+      "to": "/tours/before-the-feed/#tour-screen-name-self-pager",
+      "pageId": "tour-before-the-feed",
+      "blockId": "legacy-tour-before-the-feed-0017",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-tour-before-the-feed-portals-and-precursors",
+      "from": "/tours/before-the-feed/#portals-and-precursors",
+      "to": "/tours/before-the-feed/#portals-and-precursors",
+      "pageId": "tour-before-the-feed",
+      "blockId": "legacy-tour-before-the-feed-0018",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-tour-before-the-feed-tour-portals-and-precursors-yahoo-directory",
+      "from": "/tours/before-the-feed/#tour-portals-and-precursors-yahoo-directory",
+      "to": "/tours/before-the-feed/#tour-portals-and-precursors-yahoo-directory",
+      "pageId": "tour-before-the-feed",
+      "blockId": "legacy-tour-before-the-feed-0019",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-tour-before-the-feed-tour-portals-and-precursors-bondi-imac",
+      "from": "/tours/before-the-feed/#tour-portals-and-precursors-bondi-imac",
+      "to": "/tours/before-the-feed/#tour-portals-and-precursors-bondi-imac",
+      "pageId": "tour-before-the-feed",
+      "blockId": "legacy-tour-before-the-feed-0020",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-tour-before-the-feed-museumStatus",
+      "from": "/tours/before-the-feed/#museumStatus",
+      "to": "/tours/before-the-feed/#museumStatus",
+      "pageId": "tour-before-the-feed",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-tour-before-the-feed-surpriseDialog",
+      "from": "/tours/before-the-feed/#surpriseDialog",
+      "to": "/tours/before-the-feed/#surpriseDialog",
+      "pageId": "tour-before-the-feed",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-tour-before-the-feed-surpriseTitle",
+      "from": "/tours/before-the-feed/#surpriseTitle",
+      "to": "/tours/before-the-feed/#surpriseTitle",
+      "pageId": "tour-before-the-feed",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-tour-before-the-feed-passportDialog",
+      "from": "/tours/before-the-feed/#passportDialog",
+      "to": "/tours/before-the-feed/#passportDialog",
+      "pageId": "tour-before-the-feed",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-tour-before-the-feed-passportTitle",
+      "from": "/tours/before-the-feed/#passportTitle",
+      "to": "/tours/before-the-feed/#passportTitle",
+      "pageId": "tour-before-the-feed",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-tour-before-the-feed-passportResetDialog",
+      "from": "/tours/before-the-feed/#passportResetDialog",
+      "to": "/tours/before-the-feed/#passportResetDialog",
+      "pageId": "tour-before-the-feed",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-tour-before-the-feed-passportResetTitle",
+      "from": "/tours/before-the-feed/#passportResetTitle",
+      "to": "/tours/before-the-feed/#passportResetTitle",
+      "pageId": "tour-before-the-feed",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-fashion-top",
+      "from": "/zones/fashion/#top",
+      "to": "/zones/fashion/#top",
+      "pageId": "zones-fashion",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-fashion-menuToggle",
+      "from": "/zones/fashion/#menuToggle",
+      "to": "/zones/fashion/#menuToggle",
+      "pageId": "zones-fashion",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-fashion-siteNav",
+      "from": "/zones/fashion/#siteNav",
+      "to": "/zones/fashion/#siteNav",
+      "pageId": "zones-fashion",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-fashion-main-content",
+      "from": "/zones/fashion/#main-content",
+      "to": "/zones/fashion/#main-content",
+      "pageId": "zones-fashion",
+      "blockId": null,
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-fashion-style-path",
+      "from": "/zones/fashion/#style-path",
+      "to": "/zones/fashion/#style-path",
+      "pageId": "zones-fashion",
+      "blockId": "legacy-zones-fashion-0003",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-fashion-style-shelves",
+      "from": "/zones/fashion/#style-shelves",
+      "to": "/zones/fashion/#style-shelves",
+      "pageId": "zones-fashion",
+      "blockId": "legacy-zones-fashion-0008",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-fashion-style-objects",
+      "from": "/zones/fashion/#style-objects",
+      "to": "/zones/fashion/#style-objects",
+      "pageId": "zones-fashion",
+      "blockId": "legacy-zones-fashion-0015",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-fashion-style-media",
+      "from": "/zones/fashion/#style-media",
+      "to": "/zones/fashion/#style-media",
+      "pageId": "zones-fashion",
+      "blockId": "legacy-zones-fashion-0019",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-fashion-style-rabbit-holes",
+      "from": "/zones/fashion/#style-rabbit-holes",
+      "to": "/zones/fashion/#style-rabbit-holes",
+      "pageId": "zones-fashion",
+      "blockId": "legacy-zones-fashion-0023",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-fashion-style-links",
+      "from": "/zones/fashion/#style-links",
+      "to": "/zones/fashion/#style-links",
+      "pageId": "zones-fashion",
+      "blockId": "legacy-zones-fashion-0024",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-fashion-museumStatus",
+      "from": "/zones/fashion/#museumStatus",
+      "to": "/zones/fashion/#museumStatus",
+      "pageId": "zones-fashion",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-fashion-surpriseDialog",
+      "from": "/zones/fashion/#surpriseDialog",
+      "to": "/zones/fashion/#surpriseDialog",
+      "pageId": "zones-fashion",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-fashion-surpriseTitle",
+      "from": "/zones/fashion/#surpriseTitle",
+      "to": "/zones/fashion/#surpriseTitle",
+      "pageId": "zones-fashion",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-fashion-passportDialog",
+      "from": "/zones/fashion/#passportDialog",
+      "to": "/zones/fashion/#passportDialog",
+      "pageId": "zones-fashion",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-fashion-passportTitle",
+      "from": "/zones/fashion/#passportTitle",
+      "to": "/zones/fashion/#passportTitle",
+      "pageId": "zones-fashion",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-fashion-passportResetDialog",
+      "from": "/zones/fashion/#passportResetDialog",
+      "to": "/zones/fashion/#passportResetDialog",
+      "pageId": "zones-fashion",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-fashion-passportResetTitle",
+      "from": "/zones/fashion/#passportResetTitle",
+      "to": "/zones/fashion/#passportResetTitle",
+      "pageId": "zones-fashion",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-games-top",
+      "from": "/zones/games/#top",
+      "to": "/zones/games/#top",
+      "pageId": "zones-games",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-games-menuToggle",
+      "from": "/zones/games/#menuToggle",
+      "to": "/zones/games/#menuToggle",
+      "pageId": "zones-games",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-games-siteNav",
+      "from": "/zones/games/#siteNav",
+      "to": "/zones/games/#siteNav",
+      "pageId": "zones-games",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-games-main-content",
+      "from": "/zones/games/#main-content",
+      "to": "/zones/games/#main-content",
+      "pageId": "zones-games",
+      "blockId": null,
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-games-why",
+      "from": "/zones/games/#why",
+      "to": "/zones/games/#why",
+      "pageId": "zones-games",
+      "blockId": "legacy-zones-games-0003",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-games-photo-showroom",
+      "from": "/zones/games/#photo-showroom",
+      "to": "/zones/games/#photo-showroom",
+      "pageId": "zones-games",
+      "blockId": "legacy-zones-games-0004",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-games-fast-read",
+      "from": "/zones/games/#fast-read",
+      "to": "/zones/games/#fast-read",
+      "pageId": "zones-games",
+      "blockId": "legacy-zones-games-0005",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-games-co-op-path",
+      "from": "/zones/games/#co-op-path",
+      "to": "/zones/games/#co-op-path",
+      "pageId": "zones-games",
+      "blockId": "legacy-zones-games-0007",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-games-game-artifacts",
+      "from": "/zones/games/#game-artifacts",
+      "to": "/zones/games/#game-artifacts",
+      "pageId": "zones-games",
+      "blockId": "legacy-zones-games-0012",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-games-game-media",
+      "from": "/zones/games/#game-media",
+      "to": "/zones/games/#game-media",
+      "pageId": "zones-games",
+      "blockId": "legacy-zones-games-0018",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-games-game-links",
+      "from": "/zones/games/#game-links",
+      "to": "/zones/games/#game-links",
+      "pageId": "zones-games",
+      "blockId": "legacy-zones-games-0022",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-games-artifactShelfTitle-zones-games",
+      "from": "/zones/games/#artifactShelfTitle-zones-games",
+      "to": "/zones/games/#artifactShelfTitle-zones-games",
+      "pageId": "zones-games",
+      "blockId": "legacy-zones-games-0024",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-games-artifact-arcade-cabinet",
+      "from": "/zones/games/#artifact-arcade-cabinet",
+      "to": "/zones/games/#artifact-arcade-cabinet",
+      "pageId": "zones-games",
+      "blockId": "legacy-zones-games-0024",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-games-artifact-genesis-controller",
+      "from": "/zones/games/#artifact-genesis-controller",
+      "to": "/zones/games/#artifact-genesis-controller",
+      "pageId": "zones-games",
+      "blockId": "legacy-zones-games-0025",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-games-artifact-n64-controller",
+      "from": "/zones/games/#artifact-n64-controller",
+      "to": "/zones/games/#artifact-n64-controller",
+      "pageId": "zones-games",
+      "blockId": "legacy-zones-games-0026",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-games-museumStatus",
+      "from": "/zones/games/#museumStatus",
+      "to": "/zones/games/#museumStatus",
+      "pageId": "zones-games",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-games-surpriseDialog",
+      "from": "/zones/games/#surpriseDialog",
+      "to": "/zones/games/#surpriseDialog",
+      "pageId": "zones-games",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-games-surpriseTitle",
+      "from": "/zones/games/#surpriseTitle",
+      "to": "/zones/games/#surpriseTitle",
+      "pageId": "zones-games",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-games-passportDialog",
+      "from": "/zones/games/#passportDialog",
+      "to": "/zones/games/#passportDialog",
+      "pageId": "zones-games",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-games-passportTitle",
+      "from": "/zones/games/#passportTitle",
+      "to": "/zones/games/#passportTitle",
+      "pageId": "zones-games",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-games-passportResetDialog",
+      "from": "/zones/games/#passportResetDialog",
+      "to": "/zones/games/#passportResetDialog",
+      "pageId": "zones-games",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-games-passportResetTitle",
+      "from": "/zones/games/#passportResetTitle",
+      "to": "/zones/games/#passportResetTitle",
+      "pageId": "zones-games",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-internet-culture-top",
+      "from": "/zones/internet-culture/#top",
+      "to": "/zones/internet-culture/#top",
+      "pageId": "zones-internet-culture",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-internet-culture-menuToggle",
+      "from": "/zones/internet-culture/#menuToggle",
+      "to": "/zones/internet-culture/#menuToggle",
+      "pageId": "zones-internet-culture",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-internet-culture-siteNav",
+      "from": "/zones/internet-culture/#siteNav",
+      "to": "/zones/internet-culture/#siteNav",
+      "pageId": "zones-internet-culture",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-internet-culture-main-content",
+      "from": "/zones/internet-culture/#main-content",
+      "to": "/zones/internet-culture/#main-content",
+      "pageId": "zones-internet-culture",
+      "blockId": null,
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-internet-culture-why",
+      "from": "/zones/internet-culture/#why",
+      "to": "/zones/internet-culture/#why",
+      "pageId": "zones-internet-culture",
+      "blockId": "legacy-zones-internet-culture-0003",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-internet-culture-surf-path",
+      "from": "/zones/internet-culture/#surf-path",
+      "to": "/zones/internet-culture/#surf-path",
+      "pageId": "zones-internet-culture",
+      "blockId": "legacy-zones-internet-culture-0006",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-internet-culture-artifact-atlas",
+      "from": "/zones/internet-culture/#artifact-atlas",
+      "to": "/zones/internet-culture/#artifact-atlas",
+      "pageId": "zones-internet-culture",
+      "blockId": "legacy-zones-internet-culture-0011",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-internet-culture-media-desk",
+      "from": "/zones/internet-culture/#media-desk",
+      "to": "/zones/internet-culture/#media-desk",
+      "pageId": "zones-internet-culture",
+      "blockId": "legacy-zones-internet-culture-0018",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-internet-culture-rabbit-holes",
+      "from": "/zones/internet-culture/#rabbit-holes",
+      "to": "/zones/internet-culture/#rabbit-holes",
+      "pageId": "zones-internet-culture",
+      "blockId": "legacy-zones-internet-culture-0022",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-internet-culture-glossary",
+      "from": "/zones/internet-culture/#glossary",
+      "to": "/zones/internet-culture/#glossary",
+      "pageId": "zones-internet-culture",
+      "blockId": "legacy-zones-internet-culture-0023",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-internet-culture-artifactShelfTitle-zones-internet-culture",
+      "from": "/zones/internet-culture/#artifactShelfTitle-zones-internet-culture",
+      "to": "/zones/internet-culture/#artifactShelfTitle-zones-internet-culture",
+      "pageId": "zones-internet-culture",
+      "blockId": "legacy-zones-internet-culture-0032",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-internet-culture-artifact-geocities-homepage",
+      "from": "/zones/internet-culture/#artifact-geocities-homepage",
+      "to": "/zones/internet-culture/#artifact-geocities-homepage",
+      "pageId": "zones-internet-culture",
+      "blockId": "legacy-zones-internet-culture-0032",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-internet-culture-artifact-visitor-counter",
+      "from": "/zones/internet-culture/#artifact-visitor-counter",
+      "to": "/zones/internet-culture/#artifact-visitor-counter",
+      "pageId": "zones-internet-culture",
+      "blockId": "legacy-zones-internet-culture-0033",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-internet-culture-artifact-guestbook",
+      "from": "/zones/internet-culture/#artifact-guestbook",
+      "to": "/zones/internet-culture/#artifact-guestbook",
+      "pageId": "zones-internet-culture",
+      "blockId": "legacy-zones-internet-culture-0034",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-internet-culture-artifact-webring-bar",
+      "from": "/zones/internet-culture/#artifact-webring-bar",
+      "to": "/zones/internet-culture/#artifact-webring-bar",
+      "pageId": "zones-internet-culture",
+      "blockId": "legacy-zones-internet-culture-0035",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-internet-culture-artifact-aim-away-message",
+      "from": "/zones/internet-culture/#artifact-aim-away-message",
+      "to": "/zones/internet-culture/#artifact-aim-away-message",
+      "pageId": "zones-internet-culture",
+      "blockId": "legacy-zones-internet-culture-0036",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-internet-culture-artifact-yahoo-directory",
+      "from": "/zones/internet-culture/#artifact-yahoo-directory",
+      "to": "/zones/internet-culture/#artifact-yahoo-directory",
+      "pageId": "zones-internet-culture",
+      "blockId": "legacy-zones-internet-culture-0037",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-internet-culture-museumStatus",
+      "from": "/zones/internet-culture/#museumStatus",
+      "to": "/zones/internet-culture/#museumStatus",
+      "pageId": "zones-internet-culture",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-internet-culture-surpriseDialog",
+      "from": "/zones/internet-culture/#surpriseDialog",
+      "to": "/zones/internet-culture/#surpriseDialog",
+      "pageId": "zones-internet-culture",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-internet-culture-surpriseTitle",
+      "from": "/zones/internet-culture/#surpriseTitle",
+      "to": "/zones/internet-culture/#surpriseTitle",
+      "pageId": "zones-internet-culture",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-internet-culture-passportDialog",
+      "from": "/zones/internet-culture/#passportDialog",
+      "to": "/zones/internet-culture/#passportDialog",
+      "pageId": "zones-internet-culture",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-internet-culture-passportTitle",
+      "from": "/zones/internet-culture/#passportTitle",
+      "to": "/zones/internet-culture/#passportTitle",
+      "pageId": "zones-internet-culture",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-internet-culture-passportResetDialog",
+      "from": "/zones/internet-culture/#passportResetDialog",
+      "to": "/zones/internet-culture/#passportResetDialog",
+      "pageId": "zones-internet-culture",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-internet-culture-passportResetTitle",
+      "from": "/zones/internet-culture/#passportResetTitle",
+      "to": "/zones/internet-culture/#passportResetTitle",
+      "pageId": "zones-internet-culture",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-music-top",
+      "from": "/zones/music/#top",
+      "to": "/zones/music/#top",
+      "pageId": "zones-music",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-music-menuToggle",
+      "from": "/zones/music/#menuToggle",
+      "to": "/zones/music/#menuToggle",
+      "pageId": "zones-music",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-music-siteNav",
+      "from": "/zones/music/#siteNav",
+      "to": "/zones/music/#siteNav",
+      "pageId": "zones-music",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-music-main-content",
+      "from": "/zones/music/#main-content",
+      "to": "/zones/music/#main-content",
+      "pageId": "zones-music",
+      "blockId": null,
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-music-why",
+      "from": "/zones/music/#why",
+      "to": "/zones/music/#why",
+      "pageId": "zones-music",
+      "blockId": "legacy-zones-music-0003",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-music-showroom",
+      "from": "/zones/music/#showroom",
+      "to": "/zones/music/#showroom",
+      "pageId": "zones-music",
+      "blockId": "legacy-zones-music-0004",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-music-objects",
+      "from": "/zones/music/#objects",
+      "to": "/zones/music/#objects",
+      "pageId": "zones-music",
+      "blockId": "legacy-zones-music-0005",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-music-object-cassette",
+      "from": "/zones/music/#object-cassette",
+      "to": "/zones/music/#object-cassette",
+      "pageId": "zones-music",
+      "blockId": "legacy-zones-music-0006",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-music-object-discman",
+      "from": "/zones/music/#object-discman",
+      "to": "/zones/music/#object-discman",
+      "pageId": "zones-music",
+      "blockId": "legacy-zones-music-0007",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-music-object-cdr",
+      "from": "/zones/music/#object-cdr",
+      "to": "/zones/music/#object-cdr",
+      "pageId": "zones-music",
+      "blockId": "legacy-zones-music-0008",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-music-mixtape-path",
+      "from": "/zones/music/#mixtape-path",
+      "to": "/zones/music/#mixtape-path",
+      "pageId": "zones-music",
+      "blockId": "legacy-zones-music-0011",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-music-genre-shelves",
+      "from": "/zones/music/#genre-shelves",
+      "to": "/zones/music/#genre-shelves",
+      "pageId": "zones-music",
+      "blockId": "legacy-zones-music-0016",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-music-chart-dial",
+      "from": "/zones/music/#chart-dial",
+      "to": "/zones/music/#chart-dial",
+      "pageId": "zones-music",
+      "blockId": "legacy-zones-music-0023",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-music-media-desk",
+      "from": "/zones/music/#media-desk",
+      "to": "/zones/music/#media-desk",
+      "pageId": "zones-music",
+      "blockId": "legacy-zones-music-0034",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-music-artifactShelfTitle-zones-music",
+      "from": "/zones/music/#artifactShelfTitle-zones-music",
+      "to": "/zones/music/#artifactShelfTitle-zones-music",
+      "pageId": "zones-music",
+      "blockId": "legacy-zones-music-0040",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-music-artifact-cassette",
+      "from": "/zones/music/#artifact-cassette",
+      "to": "/zones/music/#artifact-cassette",
+      "pageId": "zones-music",
+      "blockId": "legacy-zones-music-0040",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-music-artifact-discman",
+      "from": "/zones/music/#artifact-discman",
+      "to": "/zones/music/#artifact-discman",
+      "pageId": "zones-music",
+      "blockId": "legacy-zones-music-0041",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-music-artifact-cdr-spindle",
+      "from": "/zones/music/#artifact-cdr-spindle",
+      "to": "/zones/music/#artifact-cdr-spindle",
+      "pageId": "zones-music",
+      "blockId": "legacy-zones-music-0042",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-music-museumStatus",
+      "from": "/zones/music/#museumStatus",
+      "to": "/zones/music/#museumStatus",
+      "pageId": "zones-music",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-music-surpriseDialog",
+      "from": "/zones/music/#surpriseDialog",
+      "to": "/zones/music/#surpriseDialog",
+      "pageId": "zones-music",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-music-surpriseTitle",
+      "from": "/zones/music/#surpriseTitle",
+      "to": "/zones/music/#surpriseTitle",
+      "pageId": "zones-music",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-music-passportDialog",
+      "from": "/zones/music/#passportDialog",
+      "to": "/zones/music/#passportDialog",
+      "pageId": "zones-music",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-music-passportTitle",
+      "from": "/zones/music/#passportTitle",
+      "to": "/zones/music/#passportTitle",
+      "pageId": "zones-music",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-music-passportResetDialog",
+      "from": "/zones/music/#passportResetDialog",
+      "to": "/zones/music/#passportResetDialog",
+      "pageId": "zones-music",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-music-passportResetTitle",
+      "from": "/zones/music/#passportResetTitle",
+      "to": "/zones/music/#passportResetTitle",
+      "pageId": "zones-music",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-tech-toys-top",
+      "from": "/zones/tech-toys/#top",
+      "to": "/zones/tech-toys/#top",
+      "pageId": "zones-tech-toys",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-tech-toys-menuToggle",
+      "from": "/zones/tech-toys/#menuToggle",
+      "to": "/zones/tech-toys/#menuToggle",
+      "pageId": "zones-tech-toys",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-tech-toys-siteNav",
+      "from": "/zones/tech-toys/#siteNav",
+      "to": "/zones/tech-toys/#siteNav",
+      "pageId": "zones-tech-toys",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-tech-toys-main-content",
+      "from": "/zones/tech-toys/#main-content",
+      "to": "/zones/tech-toys/#main-content",
+      "pageId": "zones-tech-toys",
+      "blockId": null,
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-tech-toys-why",
+      "from": "/zones/tech-toys/#why",
+      "to": "/zones/tech-toys/#why",
+      "pageId": "zones-tech-toys",
+      "blockId": "legacy-zones-tech-toys-0003",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-tech-toys-photo-showroom",
+      "from": "/zones/tech-toys/#photo-showroom",
+      "to": "/zones/tech-toys/#photo-showroom",
+      "pageId": "zones-tech-toys",
+      "blockId": "legacy-zones-tech-toys-0006",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-tech-toys-path-grid",
+      "from": "/zones/tech-toys/#path-grid",
+      "to": "/zones/tech-toys/#path-grid",
+      "pageId": "zones-tech-toys",
+      "blockId": "legacy-zones-tech-toys-0007",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-tech-toys-transparent-tech-preview",
+      "from": "/zones/tech-toys/#transparent-tech-preview",
+      "to": "/zones/tech-toys/#transparent-tech-preview",
+      "pageId": "zones-tech-toys",
+      "blockId": "legacy-zones-tech-toys-0012",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-tech-toys-object-display",
+      "from": "/zones/tech-toys/#object-display",
+      "to": "/zones/tech-toys/#object-display",
+      "pageId": "zones-tech-toys",
+      "blockId": "legacy-zones-tech-toys-0014",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-tech-toys-media-desk",
+      "from": "/zones/tech-toys/#media-desk",
+      "to": "/zones/tech-toys/#media-desk",
+      "pageId": "zones-tech-toys",
+      "blockId": "legacy-zones-tech-toys-0021",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-tech-toys-rabbit-holes",
+      "from": "/zones/tech-toys/#rabbit-holes",
+      "to": "/zones/tech-toys/#rabbit-holes",
+      "pageId": "zones-tech-toys",
+      "blockId": "legacy-zones-tech-toys-0025",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-tech-toys-prompts",
+      "from": "/zones/tech-toys/#prompts",
+      "to": "/zones/tech-toys/#prompts",
+      "pageId": "zones-tech-toys",
+      "blockId": "legacy-zones-tech-toys-0026",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-tech-toys-artifactShelfTitle-zones-tech-toys",
+      "from": "/zones/tech-toys/#artifactShelfTitle-zones-tech-toys",
+      "to": "/zones/tech-toys/#artifactShelfTitle-zones-tech-toys",
+      "pageId": "zones-tech-toys",
+      "blockId": "legacy-zones-tech-toys-0031",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-tech-toys-artifact-family-pc",
+      "from": "/zones/tech-toys/#artifact-family-pc",
+      "to": "/zones/tech-toys/#artifact-family-pc",
+      "pageId": "zones-tech-toys",
+      "blockId": "legacy-zones-tech-toys-0031",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-tech-toys-artifact-aol-cd",
+      "from": "/zones/tech-toys/#artifact-aol-cd",
+      "to": "/zones/tech-toys/#artifact-aol-cd",
+      "pageId": "zones-tech-toys",
+      "blockId": "legacy-zones-tech-toys-0032",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-tech-toys-artifact-pager",
+      "from": "/zones/tech-toys/#artifact-pager",
+      "to": "/zones/tech-toys/#artifact-pager",
+      "pageId": "zones-tech-toys",
+      "blockId": "legacy-zones-tech-toys-0033",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-tech-toys-museumStatus",
+      "from": "/zones/tech-toys/#museumStatus",
+      "to": "/zones/tech-toys/#museumStatus",
+      "pageId": "zones-tech-toys",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-tech-toys-surpriseDialog",
+      "from": "/zones/tech-toys/#surpriseDialog",
+      "to": "/zones/tech-toys/#surpriseDialog",
+      "pageId": "zones-tech-toys",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-tech-toys-surpriseTitle",
+      "from": "/zones/tech-toys/#surpriseTitle",
+      "to": "/zones/tech-toys/#surpriseTitle",
+      "pageId": "zones-tech-toys",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-tech-toys-passportDialog",
+      "from": "/zones/tech-toys/#passportDialog",
+      "to": "/zones/tech-toys/#passportDialog",
+      "pageId": "zones-tech-toys",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-tech-toys-passportTitle",
+      "from": "/zones/tech-toys/#passportTitle",
+      "to": "/zones/tech-toys/#passportTitle",
+      "pageId": "zones-tech-toys",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-tech-toys-passportResetDialog",
+      "from": "/zones/tech-toys/#passportResetDialog",
+      "to": "/zones/tech-toys/#passportResetDialog",
+      "pageId": "zones-tech-toys",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-tech-toys-passportResetTitle",
+      "from": "/zones/tech-toys/#passportResetTitle",
+      "to": "/zones/tech-toys/#passportResetTitle",
+      "pageId": "zones-tech-toys",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-transparent-tech-top",
+      "from": "/zones/transparent-tech/#top",
+      "to": "/zones/transparent-tech/#top",
+      "pageId": "zones-transparent-tech",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-transparent-tech-menuToggle",
+      "from": "/zones/transparent-tech/#menuToggle",
+      "to": "/zones/transparent-tech/#menuToggle",
+      "pageId": "zones-transparent-tech",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-transparent-tech-siteNav",
+      "from": "/zones/transparent-tech/#siteNav",
+      "to": "/zones/transparent-tech/#siteNav",
+      "pageId": "zones-transparent-tech",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-transparent-tech-main-content",
+      "from": "/zones/transparent-tech/#main-content",
+      "to": "/zones/transparent-tech/#main-content",
+      "pageId": "zones-transparent-tech",
+      "blockId": null,
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-transparent-tech-why",
+      "from": "/zones/transparent-tech/#why",
+      "to": "/zones/transparent-tech/#why",
+      "pageId": "zones-transparent-tech",
+      "blockId": "legacy-zones-transparent-tech-0003",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-transparent-tech-showroom",
+      "from": "/zones/transparent-tech/#showroom",
+      "to": "/zones/transparent-tech/#showroom",
+      "pageId": "zones-transparent-tech",
+      "blockId": "legacy-zones-transparent-tech-0004",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-transparent-tech-fast-read",
+      "from": "/zones/transparent-tech/#fast-read",
+      "to": "/zones/transparent-tech/#fast-read",
+      "pageId": "zones-transparent-tech",
+      "blockId": "legacy-zones-transparent-tech-0005",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-transparent-tech-objects",
+      "from": "/zones/transparent-tech/#objects",
+      "to": "/zones/transparent-tech/#objects",
+      "pageId": "zones-transparent-tech",
+      "blockId": "legacy-zones-transparent-tech-0007",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-transparent-tech-media-desk",
+      "from": "/zones/transparent-tech/#media-desk",
+      "to": "/zones/transparent-tech/#media-desk",
+      "pageId": "zones-transparent-tech",
+      "blockId": "legacy-zones-transparent-tech-0013",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-transparent-tech-related",
+      "from": "/zones/transparent-tech/#related",
+      "to": "/zones/transparent-tech/#related",
+      "pageId": "zones-transparent-tech",
+      "blockId": "legacy-zones-transparent-tech-0017",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-transparent-tech-artifactShelfTitle-zones-transparent-tech",
+      "from": "/zones/transparent-tech/#artifactShelfTitle-zones-transparent-tech",
+      "to": "/zones/transparent-tech/#artifactShelfTitle-zones-transparent-tech",
+      "pageId": "zones-transparent-tech",
+      "blockId": "legacy-zones-transparent-tech-0019",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-transparent-tech-artifact-bondi-imac",
+      "from": "/zones/transparent-tech/#artifact-bondi-imac",
+      "to": "/zones/transparent-tech/#artifact-bondi-imac",
+      "pageId": "zones-transparent-tech",
+      "blockId": "legacy-zones-transparent-tech-0019",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-transparent-tech-artifact-game-boy-color",
+      "from": "/zones/transparent-tech/#artifact-game-boy-color",
+      "to": "/zones/transparent-tech/#artifact-game-boy-color",
+      "pageId": "zones-transparent-tech",
+      "blockId": "legacy-zones-transparent-tech-0020",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-transparent-tech-artifact-transparent-n64-controller",
+      "from": "/zones/transparent-tech/#artifact-transparent-n64-controller",
+      "to": "/zones/transparent-tech/#artifact-transparent-n64-controller",
+      "pageId": "zones-transparent-tech",
+      "blockId": "legacy-zones-transparent-tech-0021",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-transparent-tech-museumStatus",
+      "from": "/zones/transparent-tech/#museumStatus",
+      "to": "/zones/transparent-tech/#museumStatus",
+      "pageId": "zones-transparent-tech",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-transparent-tech-surpriseDialog",
+      "from": "/zones/transparent-tech/#surpriseDialog",
+      "to": "/zones/transparent-tech/#surpriseDialog",
+      "pageId": "zones-transparent-tech",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-transparent-tech-surpriseTitle",
+      "from": "/zones/transparent-tech/#surpriseTitle",
+      "to": "/zones/transparent-tech/#surpriseTitle",
+      "pageId": "zones-transparent-tech",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-transparent-tech-passportDialog",
+      "from": "/zones/transparent-tech/#passportDialog",
+      "to": "/zones/transparent-tech/#passportDialog",
+      "pageId": "zones-transparent-tech",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-transparent-tech-passportTitle",
+      "from": "/zones/transparent-tech/#passportTitle",
+      "to": "/zones/transparent-tech/#passportTitle",
+      "pageId": "zones-transparent-tech",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-transparent-tech-passportResetDialog",
+      "from": "/zones/transparent-tech/#passportResetDialog",
+      "to": "/zones/transparent-tech/#passportResetDialog",
+      "pageId": "zones-transparent-tech",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-transparent-tech-passportResetTitle",
+      "from": "/zones/transparent-tech/#passportResetTitle",
+      "to": "/zones/transparent-tech/#passportResetTitle",
+      "pageId": "zones-transparent-tech",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-tv-movies-top",
+      "from": "/zones/tv-movies/#top",
+      "to": "/zones/tv-movies/#top",
+      "pageId": "zones-tv-movies",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-tv-movies-menuToggle",
+      "from": "/zones/tv-movies/#menuToggle",
+      "to": "/zones/tv-movies/#menuToggle",
+      "pageId": "zones-tv-movies",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-tv-movies-siteNav",
+      "from": "/zones/tv-movies/#siteNav",
+      "to": "/zones/tv-movies/#siteNav",
+      "pageId": "zones-tv-movies",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-tv-movies-main-content",
+      "from": "/zones/tv-movies/#main-content",
+      "to": "/zones/tv-movies/#main-content",
+      "pageId": "zones-tv-movies",
+      "blockId": null,
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-tv-movies-why",
+      "from": "/zones/tv-movies/#why",
+      "to": "/zones/tv-movies/#why",
+      "pageId": "zones-tv-movies",
+      "blockId": "legacy-zones-tv-movies-0003",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-tv-movies-photo-showroom",
+      "from": "/zones/tv-movies/#photo-showroom",
+      "to": "/zones/tv-movies/#photo-showroom",
+      "pageId": "zones-tv-movies",
+      "blockId": "legacy-zones-tv-movies-0004",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-tv-movies-fast-read",
+      "from": "/zones/tv-movies/#fast-read",
+      "to": "/zones/tv-movies/#fast-read",
+      "pageId": "zones-tv-movies",
+      "blockId": "legacy-zones-tv-movies-0005",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-tv-movies-channel-surf-path",
+      "from": "/zones/tv-movies/#channel-surf-path",
+      "to": "/zones/tv-movies/#channel-surf-path",
+      "pageId": "zones-tv-movies",
+      "blockId": "legacy-zones-tv-movies-0007",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-tv-movies-screen-artifacts",
+      "from": "/zones/tv-movies/#screen-artifacts",
+      "to": "/zones/tv-movies/#screen-artifacts",
+      "pageId": "zones-tv-movies",
+      "blockId": "legacy-zones-tv-movies-0012",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-tv-movies-screen-media",
+      "from": "/zones/tv-movies/#screen-media",
+      "to": "/zones/tv-movies/#screen-media",
+      "pageId": "zones-tv-movies",
+      "blockId": "legacy-zones-tv-movies-0018",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-tv-movies-screen-links",
+      "from": "/zones/tv-movies/#screen-links",
+      "to": "/zones/tv-movies/#screen-links",
+      "pageId": "zones-tv-movies",
+      "blockId": "legacy-zones-tv-movies-0022",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-tv-movies-artifactShelfTitle-zones-tv-movies",
+      "from": "/zones/tv-movies/#artifactShelfTitle-zones-tv-movies",
+      "to": "/zones/tv-movies/#artifactShelfTitle-zones-tv-movies",
+      "pageId": "zones-tv-movies",
+      "blockId": "legacy-zones-tv-movies-0025",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-tv-movies-artifact-vhs-tape",
+      "from": "/zones/tv-movies/#artifact-vhs-tape",
+      "to": "/zones/tv-movies/#artifact-vhs-tape",
+      "pageId": "zones-tv-movies",
+      "blockId": "legacy-zones-tv-movies-0025",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-tv-movies-artifact-crt-television",
+      "from": "/zones/tv-movies/#artifact-crt-television",
+      "to": "/zones/tv-movies/#artifact-crt-television",
+      "pageId": "zones-tv-movies",
+      "blockId": "legacy-zones-tv-movies-0026",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-tv-movies-artifact-blockbuster-store",
+      "from": "/zones/tv-movies/#artifact-blockbuster-store",
+      "to": "/zones/tv-movies/#artifact-blockbuster-store",
+      "pageId": "zones-tv-movies",
+      "blockId": "legacy-zones-tv-movies-0027",
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-tv-movies-museumStatus",
+      "from": "/zones/tv-movies/#museumStatus",
+      "to": "/zones/tv-movies/#museumStatus",
+      "pageId": "zones-tv-movies",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-tv-movies-surpriseDialog",
+      "from": "/zones/tv-movies/#surpriseDialog",
+      "to": "/zones/tv-movies/#surpriseDialog",
+      "pageId": "zones-tv-movies",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-tv-movies-surpriseTitle",
+      "from": "/zones/tv-movies/#surpriseTitle",
+      "to": "/zones/tv-movies/#surpriseTitle",
+      "pageId": "zones-tv-movies",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-tv-movies-passportDialog",
+      "from": "/zones/tv-movies/#passportDialog",
+      "to": "/zones/tv-movies/#passportDialog",
+      "pageId": "zones-tv-movies",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-tv-movies-passportTitle",
+      "from": "/zones/tv-movies/#passportTitle",
+      "to": "/zones/tv-movies/#passportTitle",
+      "pageId": "zones-tv-movies",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-tv-movies-passportResetDialog",
+      "from": "/zones/tv-movies/#passportResetDialog",
+      "to": "/zones/tv-movies/#passportResetDialog",
+      "pageId": "zones-tv-movies",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-zones-tv-movies-passportResetTitle",
+      "from": "/zones/tv-movies/#passportResetTitle",
+      "to": "/zones/tv-movies/#passportResetTitle",
+      "pageId": "zones-tv-movies",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-not-found-top",
+      "from": "/404.html#top",
+      "to": "/404.html#top",
+      "pageId": "not-found",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-not-found-siteNav",
+      "from": "/404.html#siteNav",
+      "to": "/404.html#siteNav",
+      "pageId": "not-found",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-not-found-main-content",
+      "from": "/404.html#main-content",
+      "to": "/404.html#main-content",
+      "pageId": "not-found",
+      "blockId": null,
+      "owner": "main-content",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-not-found-museumStatus",
+      "from": "/404.html#museumStatus",
+      "to": "/404.html#museumStatus",
+      "pageId": "not-found",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-not-found-surpriseDialog",
+      "from": "/404.html#surpriseDialog",
+      "to": "/404.html#surpriseDialog",
+      "pageId": "not-found",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-not-found-surpriseTitle",
+      "from": "/404.html#surpriseTitle",
+      "to": "/404.html#surpriseTitle",
+      "pageId": "not-found",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-not-found-passportDialog",
+      "from": "/404.html#passportDialog",
+      "to": "/404.html#passportDialog",
+      "pageId": "not-found",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-not-found-passportTitle",
+      "from": "/404.html#passportTitle",
+      "to": "/404.html#passportTitle",
+      "pageId": "not-found",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-not-found-passportResetDialog",
+      "from": "/404.html#passportResetDialog",
+      "to": "/404.html#passportResetDialog",
+      "pageId": "not-found",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    },
+    {
+      "id": "anchor-not-found-passportResetTitle",
+      "from": "/404.html#passportResetTitle",
+      "to": "/404.html#passportResetTitle",
+      "pageId": "not-found",
+      "blockId": null,
+      "owner": "shared-ui",
+      "status": "preserve"
+    }
+  ]
+}

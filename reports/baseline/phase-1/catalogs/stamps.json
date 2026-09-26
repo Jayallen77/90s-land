@@ -1,0 +1,32 @@
+[
+  {
+    "id": "first-touch",
+    "title": "Object Handler",
+    "description": "Inspect your first museum artifact.",
+    "visual": "admit-one"
+  },
+  {
+    "id": "room-hopper",
+    "title": "Room Hopper",
+    "description": "Visit three different museum rooms.",
+    "visual": "library-card"
+  },
+  {
+    "id": "random-memory",
+    "title": "Random Access Memory",
+    "description": "Open a Surprise Me destination.",
+    "visual": "cd-rom"
+  },
+  {
+    "id": "object-collector",
+    "title": "Pocket Curator",
+    "description": "Inspect five museum artifacts.",
+    "visual": "sticker-sheet"
+  },
+  {
+    "id": "before-the-feed",
+    "title": "Before the Feed",
+    "description": "Complete the guided tour.",
+    "visual": "passport-seal"
+  }
+]

@@ -11,6 +11,8 @@ from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
 
+from validate_content import validate_catalogs
+
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -68,7 +70,10 @@ def main() -> int:
     resources = json.loads((ROOT / "data/resources.json").read_text())
     tours = json.loads((ROOT / "data/tours.json").read_text())
     stamps = json.loads((ROOT / "data/stamps.json").read_text())
-    errors = []
+    errors = validate_catalogs(ROOT)
+    if errors:
+        print("\n".join(f"ERROR: {error}" for error in errors), file=sys.stderr)
+        return 1
     docs = {}
 
     for route in routes:
@@ -131,12 +136,6 @@ def main() -> int:
     artifact_ids = {item["id"] for item in artifacts}
     route_paths = {item["path"] for item in routes}
     stamp_ids = {item["id"] for item in stamps}
-    if len(artifacts) != 30 or len(artifact_ids) != 30:
-        errors.append(f"artifact catalog expected 30 unique records, found {len(artifact_ids)}")
-    if len(resources) != 78 or len({item["id"] for item in resources}) != 78:
-        errors.append(f"resource catalog expected 78 unique records, found {len(resources)}")
-    if sum(bool(item["featured"]) for item in resources) != 12:
-        errors.append("resource catalog expected 12 featured references")
     required_artifact_fields = {
         "id", "slug", "dateRange", "room", "label", "curatorNote",
         "whyItMattered", "media", "relatedYears", "relatedArtifacts",
