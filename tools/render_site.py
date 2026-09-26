@@ -468,9 +468,17 @@ def render_timeline_doors() -> str:
         object_labels = "".join(
             f"<em>{esc(artifact['title'])}</em>" for artifact in artifacts
         )
+        lead_media = ""
+        if artifacts and artifacts[0].get("media", {}).get("kind") == "image":
+            media = artifacts[0]["media"]
+            lead_media = (
+                f'          <img class="timeline-card-image" src="{esc(media["src"])}" '
+                f'alt="{esc(media["alt"])}" width="{int(media["width"])}" '
+                f'height="{int(media["height"])}" loading="lazy" decoding="async" />\n'
+            )
         cards.append(
             f"""        <a class="timeline-card museum-year-door" href="{esc(route["path"])}" data-timeline-room="timeline-{year}">
-          <span class="timeline-year">{year}</span>
+{lead_media}          <span class="timeline-year">{year}</span>
           <div>
             <p class="artifact-label">Door {int(year) - 1989:02d} · catalog case</p>
             <h3>{esc(route["title"])}</h3>
