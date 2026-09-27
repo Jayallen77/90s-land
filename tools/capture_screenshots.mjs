@@ -45,6 +45,7 @@ try {
       path: path.join(output, `surprise-${viewport.label}.png`)
     });
     await page.locator('[data-dialog-close="surpriseDialog"]').first().click();
+    await page.locator('.ed-reading-room > summary').click();
     await page.locator('[data-artifact-inspect="family-pc"]').click();
     if (await page.locator(".menu-toggle").isVisible()) {
       await page.locator(".menu-toggle").click();

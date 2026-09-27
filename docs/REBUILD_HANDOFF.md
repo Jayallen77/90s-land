@@ -75,7 +75,7 @@ claims.
 - [x] Phase 1: deterministic editorial, monthly, chart, media, and link extraction.
 - [x] Phase 1: complete block inventory and independent preservation validation.
 - [x] Phase 1: remove fixed collection ceilings; test growth and loss detection.
-- [ ] Phase 2: logo, typography, tokens, shell, shared components, and first three
+- [x] Phase 2: logo, typography, tokens, shell, shared components, and first three
   hero compositions; compare Home, 1996, and Games against reference canvases.
 - [ ] Phase 3: complete static generation, event calendar, weekly behavior,
   detail pages, expanded search, preserved discovery tools, legacy links.

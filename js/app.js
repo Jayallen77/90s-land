@@ -11,6 +11,11 @@ initializeNavigation();
 initializePassport();
 initializeSurprise();
 
+if (document.querySelector(".ed-main")) {
+  const { initializeEditorial } = await import("./editorial.js");
+  initializeEditorial();
+}
+
 if (document.querySelector("[data-tour-id], [data-homepage-builder]")) {
   const { initializeHomepageBuilder, initializeTour } = await import("./tour.js");
   initializeTour();

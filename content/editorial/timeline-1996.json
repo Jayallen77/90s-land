@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "description": "Three individually sourced highlights for the Phase 2 June composition. This is not the complete event catalog.",
+  "reviewedAt": "2026-09-26",
+  "juneHighlights": [
+    {
+      "title": "Nintendo 64 arrives in Japan",
+      "label": "JUN 23, 1996 · JAPAN",
+      "description": "A new console, an analog stick, and a leap into three-dimensional play. The U.S. launch follows in September.",
+      "href": "https://www.nintendo.com/en-gb/Hardware/Nintendo-History/Nintendo-History-625945.html",
+      "art": "n64-controller"
+    },
+    {
+      "title": "Metallica turns the page with Load",
+      "label": "JUN 4, 1996 · U.S. RELEASE",
+      "description": "Metallica’s sixth studio album takes the band into a new chapter. Open the official discography.",
+      "href": "https://www.metallica.com/releases/",
+      "art": "discman"
+    },
+    {
+      "title": "Quake opens the Slipgate",
+      "label": "JUN 22, 1996 · PC",
+      "description": "id Software’s shooter brings a new kind of 3D world to the PC. Revisit the publisher’s anniversary retrospective.",
+      "href": "https://bethesda.net/en-US/news/celebrating-25-years-of-quake",
+      "art": "family-pc"
+    }
+  ]
+}

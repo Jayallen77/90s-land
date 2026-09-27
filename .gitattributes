@@ -1,3 +1,6 @@
 # Frozen source snapshots must retain their original bytes, including whitespace.
 reports/baseline/phase-1/pages/*.html.txt -text -whitespace
 reports/baseline/phase-1/catalogs/*.json -text
+
+# Preserve upstream font licenses verbatim, including their original whitespace.
+assets/fonts/OFL-*.txt -text -whitespace

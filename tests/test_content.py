@@ -32,9 +32,9 @@ class ContentMigrationTests(unittest.TestCase):
         change(data)
         path.write_text(json_text(data), encoding="utf-8")
 
-    def test_current_site_and_import_are_valid_and_unchanged(self):
+    def test_current_catalogs_and_frozen_import_are_valid(self):
         self.assertEqual(validate_catalogs(ROOT), [])
-        self.assertEqual(validate_migration(ROOT, baseline_unchanged=True), [])
+        self.assertEqual(validate_migration(ROOT), [])
 
     def test_unicode_entities_and_nested_markup_keep_exact_source_ranges(self):
         source = '<main id="main">é<p>A &amp; B <em>★</em></p><img src="x" /></main>'

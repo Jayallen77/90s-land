@@ -13,6 +13,7 @@ from pathlib import Path
 from urllib.parse import quote
 
 from validate_content import validate_catalogs as validate_existing_catalogs
+import editorial
 
 ROOT = Path(__file__).resolve().parents[1]
 SITE_URL = "https://90s.land"
@@ -117,10 +118,11 @@ def render_head(route: dict) -> str:
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="{esc(title)}" />
   <meta name="twitter:description" content="{esc(description)}" />{image_meta}
-  <link rel="preload" href="/assets/fonts/space-mono-regular.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="preload" href="/assets/fonts/space-mono-bold.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="preload" href="/assets/fonts/press-start-2p-regular.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/assets/fonts/Jersey10-Regular.ttf" as="font" type="font/ttf" crossorigin />
+  <link rel="preload" href="/assets/fonts/Barlow-Regular.ttf" as="font" type="font/ttf" crossorigin />
+  <link rel="preload" href="/assets/fonts/BarlowCondensed-Bold.ttf" as="font" type="font/ttf" crossorigin />
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32.png" />
+  <link rel="icon" type="image/svg+xml" href="/assets/editorial/palm-sunset.svg" />
   <link rel="apple-touch-icon" sizes="192x192" href="/assets/icons/icon-192.png" />
   <link rel="manifest" href="/manifest.webmanifest" />"""
 
@@ -669,10 +671,12 @@ def render_credits_main() -> str:
       <h2>Artifact media</h2>
       <ul class="credits-list">{''.join(credits)}</ul>
       <h2>Type</h2>
+      <p>The editorial interface uses locally hosted Jersey 10, Barlow, and Barlow Condensed from the <a href="https://github.com/google/fonts">Google Fonts repository</a>. Their SIL Open Font Licenses are included: <a href="/assets/fonts/OFL-jersey10.txt">Jersey 10</a>, <a href="/assets/fonts/OFL-barlow.txt">Barlow</a>, and <a href="/assets/fonts/OFL-barlowcondensed.txt">Barlow Condensed</a>.</p>
       <p>Press Start 2P and Space Mono are self-hosted from the Google Fonts distribution under the SIL Open Font License. Read the local <a href="/assets/fonts/OFL-Press-Start-2P.txt">Press Start 2P license</a> and <a href="/assets/fonts/OFL-Space-Mono.txt">Space Mono license</a>.</p>
       <h2>Editorial status</h2>
       <p><strong>Verified</strong> artifacts use a source trail. <strong>Editorial</strong> objects are clearly labeled original recreations. Items marked <strong>needs source</strong> are excluded from Surprise Me and guided tours.</p>
       <h2>Sharing artwork</h2>
+      <p>The Home, 1996 Timeline, and Games hero collages are original AI-generated editorial illustrations made with OpenAI’s built-in image tool on September 26, 2026. They evoke the decade and are not documentary photographs or evidence of release dates. Brands and illustrated products belong to their respective owners. The palm/sunset brand mark and interface icons are original SVG artwork.</p>
       <p>The 1200×630 social card uses one original OpenAI-generated museum-case background, based on the completed local lobby as a style reference, with all visible type applied deterministically from the self-hosted fonts.</p>
     </section>
   </main>"""
@@ -821,7 +825,6 @@ def inject_museum_tools_map(source: str) -> str:
 
 def normalize_existing_page(source: str, route: dict) -> str:
     source = inject_head(source, route)
-    source = inject_navigation(source)
     source = inject_shared_ui(source)
     source = inject_artifact_shelf(source, route)
     if route["path"] == "/sitemap/":
@@ -960,7 +963,11 @@ def render_existing_page(route: dict) -> str:
 def build_outputs() -> dict[Path, str]:
     outputs = {}
     for route in ROUTES:
-        if route["path"] == "/surprise/":
+        if route["path"] in editorial.CORE:
+            outputs[route_to_file(route["path"])] = page_document(
+                route, editorial.main(route), f'editorial-body editorial-{editorial.CORE[route["path"]]}'
+            )
+        elif route["path"] == "/surprise/":
             outputs[route_to_file(route["path"])] = page_document(
                 route, render_surprise_main(), "surprise-body"
             )
@@ -975,7 +982,10 @@ def build_outputs() -> dict[Path, str]:
         else:
             outputs[route_to_file(route["path"])] = render_existing_page(route)
 
-    outputs[ROOT / "404.html"] = render_404()
+        path = route_to_file(route["path"])
+        outputs[path] = editorial.apply_shell(outputs[path], route)
+
+    outputs[ROOT / "404.html"] = editorial.apply_shell(render_404(), {"path": "/404.html"})
     sitemap_urls = "\n".join(
         f"  <url><loc>{SITE_URL}{esc(route['path'])}</loc></url>" for route in ROUTES
     )

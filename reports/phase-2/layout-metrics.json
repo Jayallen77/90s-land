@@ -1,0 +1,62 @@
+[
+  {
+    "name": "home",
+    "route": "/",
+    "width": 1086,
+    "height": 724,
+    "overflow": 0,
+    "heroHeight": 266,
+    "firstModuleTop": 354,
+    "readingRoomTop": 788.734375
+  },
+  {
+    "name": "timeline",
+    "route": "/timeline/1996/",
+    "width": 1086,
+    "height": 724,
+    "overflow": 0,
+    "heroHeight": 170,
+    "firstModuleTop": 241,
+    "readingRoomTop": 812.921875
+  },
+  {
+    "name": "games",
+    "route": "/zones/games/",
+    "width": 1182,
+    "height": 665,
+    "overflow": 0,
+    "heroHeight": 215,
+    "firstModuleTop": 288,
+    "readingRoomTop": 741.546875
+  },
+  {
+    "name": "home-mobile",
+    "route": "/",
+    "width": 390,
+    "height": 844,
+    "overflow": 0,
+    "heroHeight": 328,
+    "firstModuleTop": 406,
+    "readingRoomTop": 1506.171875
+  },
+  {
+    "name": "timeline-mobile",
+    "route": "/timeline/1996/",
+    "width": 390,
+    "height": 844,
+    "overflow": 0,
+    "heroHeight": 263,
+    "firstModuleTop": 349,
+    "readingRoomTop": 1971.296875
+  },
+  {
+    "name": "games-mobile",
+    "route": "/zones/games/",
+    "width": 390,
+    "height": 844,
+    "overflow": 0,
+    "heroHeight": 340,
+    "firstModuleTop": 427,
+    "readingRoomTop": 2272.109375
+  }
+]

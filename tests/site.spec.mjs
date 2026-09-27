@@ -36,29 +36,17 @@ for (const viewport of viewports) {
   });
 }
 
-test("lobby actions and artifact meet above-fold requirements", async ({ page }) => {
+test("editorial home keeps its headline, hero and primary action above the fold", async ({ page }) => {
   for (const viewport of [
     { width: 390, height: 844 },
     { width: 1280, height: 800 }
   ]) {
     await page.setViewportSize(viewport);
     await page.goto("/");
-    for (const label of [
-      "Start a 10-minute tour",
-      "Surprise me",
-      "Browse the museum"
-    ]) {
-      await expect(
-        page.getByRole("link", { name: label, exact: true }).first()
-      ).toBeInViewport();
-    }
-    const artifactTop = await page
-      .locator(".lobby-artifact")
-      .evaluate((element) => element.getBoundingClientRect().top);
-    expect(artifactTop).toBeLessThan(viewport.height);
-    if (viewport.width === 1280) {
-      await expect(page.locator(".lobby-artifact")).toBeInViewport();
-    }
+    await expect(page.locator(".ed-hero h1")).toBeInViewport();
+    await expect(page.locator(".ed-hero > img")).toBeInViewport();
+    await expect(page.getByRole("link", { name: "Explore the decade", exact: true }).first()).toBeInViewport();
+    await expect(page.locator("#this-week")).toBeInViewport();
   }
 });
 
@@ -92,8 +80,10 @@ test("Surprise Me excludes the three most recent choices", async ({ page }) => {
 
 test("passport persists and resets through confirmation", async ({ page }) => {
   await page.goto("/");
+  await page.locator(".ed-reading-room > summary").click();
   await page.locator('[data-artifact-inspect="family-pc"]').click();
   await page.reload();
+  await page.locator(".ed-reading-room > summary").click();
   await expect(page.locator('[data-artifact-inspect="family-pc"]')).toHaveText(
     "Inspected ✓"
   );
@@ -231,6 +221,7 @@ test("timeline year-door artwork identifies its exhibit and editorial recreation
 test("year capsule timeline jumps to months and switches reading modes", async ({ page }) => {
   await page.setViewportSize({ width: 1280, height: 800 });
   await page.goto("/timeline/1996/");
+  await page.locator('.ed-month-rail a[href="#month-jun"]').click();
   const monthNav = page.getByRole("navigation", { name: "Jump to a month" });
   const grid = page.locator(".capsule-month-grid");
   await expect(monthNav.getByRole("link")).toHaveCount(12);
@@ -251,6 +242,7 @@ test("year capsule timeline jumps to months and switches reading modes", async (
 
   await page.setViewportSize({ width: 390, height: 844 });
   await page.goto("/timeline/1996/");
+  await page.locator('.ed-month-rail a[href="#month-jun"]').click();
   await page.locator('[data-month-view="calendar"]').click();
   const mobileLayout = await page.evaluate(() => ({
     pageWidth: document.documentElement.scrollWidth,
@@ -267,6 +259,8 @@ for (const path of [
   "/",
   "/timeline/",
   "/timeline/1994/",
+  "/timeline/1996/",
+  "/zones/games/",
   "/zones/internet-culture/",
   "/tours/before-the-feed/",
   "/search/"
