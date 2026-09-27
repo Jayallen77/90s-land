@@ -11,10 +11,6 @@ initializeNavigation();
 initializePassport();
 initializeSurprise();
 
-if (document.querySelector(".ed-main")) {
-  const { initializeEditorial } = await import("./editorial.js");
-  initializeEditorial();
-}
 
 if (document.querySelector("[data-tour-id], [data-homepage-builder]")) {
   const { initializeHomepageBuilder, initializeTour } = await import("./tour.js");
@@ -23,7 +19,7 @@ if (document.querySelector("[data-tour-id], [data-homepage-builder]")) {
 }
 
 if (document.querySelector("#siteSearchInput")) {
-  const { initializeSearch } = await import("./search.js");
+  const { initializeSearch } = await import("./search.js?v=phase4-1");
   initializeSearch();
 }
 
@@ -37,7 +33,18 @@ if (document.querySelector("[data-guestbook-form]")) {
   initializeGuestbook();
 }
 
-if (document.querySelector(".month-timeline")) {
-  const { initializeTimelineViews } = await import("./timeline.js");
-  initializeTimelineViews();
+if (document.querySelector('[data-timeline], [data-weekly], #this-week')) {
+  const { initializeArchiveTimeline, initializeWeek } = await import('./archive.js');
+  initializeArchiveTimeline();
+  initializeWeek();
+}
+
+if (document.querySelector(".ed-main")) {
+  const { initializeEditorial } = await import("./editorial.js?v=phase4-1");
+  initializeEditorial();
+}
+
+if (document.querySelector('[data-hub]')) {
+  const { initializeHubs } = await import('./hubs.js?v=phase4-1');
+  initializeHubs();
 }

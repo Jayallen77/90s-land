@@ -1,0 +1,384 @@
+<main id="main-content" class="capsule-main">
+    <section class="window page-hero year-page capsule-hero">
+      <div class="window-bar"><span>1990_TIME_CAPSULE</span><span class="window-buttons" aria-hidden="true">_ □ ×</span></div>
+      <div class="page-pad capsule-hero-grid">
+        <div>
+          <nav class="breadcrumbs"><a href="/">Home</a> / <a href="/timeline/">Timeline</a> / 1990</nav>
+          <p class="eyebrow">analog glow + digital runway</p>
+          <h1>1990: The decade boots up</h1>
+          <p class="lede">Broadcast culture still rules, but the future starts glowing through Windows 3.0, space-age imagery, stranger TV, 16-bit hardware swagger, and home-media objects that still organize the whole room.</p>
+          <div class="highlight-strip"><span>Twin Peaks</span><span>Mandela released</span><span>Hubble launches</span><span>Windows 3.0</span><span>Kuwait crisis</span><span>16-bit runway</span></div>
+          <div class="hero-actions"><a class="button primary" href="#photo-showroom">Open the photo stack</a><a class="button" href="#news-desk">Open 1990 news desk</a><a class="button" href="#timeline-months">Browse the months</a></div>
+        </div>
+        <aside class="capsule-glance" aria-label="1990 at a glance">
+          <p class="portal-kicker">At a glance</p>
+          <h2>1990</h2>
+          <div class="capsule-tags"><span>CRT monoculture</span><span>desktop future</span><span>world shift</span></div>
+          <p class="mini-note">This rebuild now gives 1990 the same stronger route logic as 1991: visual proof first, a real US/world news desk, faster scan paths, and tighter object/media exits instead of a text-only runway.</p>
+          <a class="button primary" href="#fast-read">Fast read first</a>
+        </aside>
+      </div>
+    </section>
+    <nav class="capsule-jump-nav" aria-label="Year section navigation">
+      <a href="#why">Why</a><a href="#photo-showroom">Photo proof</a><a href="#news-desk">News</a><a href="#fast-read">Fast read</a><a href="#timeline-months">Months</a><a href="#culture-grid">Culture</a><a href="#artifacts">Artifacts</a><a href="#media-desk">Media desk</a><a href="#top-songs">Music</a>
+    </nav>
+    <section class="portal-content standalone year-deep-dive capsule-layout">
+      <section class="portal-box capsule-section why-card" id="why">
+        <p class="portal-kicker">Why this year matters</p>
+        <h2>1990 is the moment the old room and the new machine still have to share the same carpet.</h2>
+        <p>VHS tapes, mall radio, sitcom timing, and strange network TV still shape daily life, but Windows gets friendlier, space coverage feels futuristic, and 16-bit hardware starts acting like a new identity system instead of just another toy upgrade.</p>
+      </section>
+
+      <section class="portal-box capsule-section" id="photo-showroom">
+        <div class="section-heading compact-heading"><p class="eyebrow">Photo proof</p><h2>1990 works better when the hinge-year texture shows up before the essay.</h2><p>This is the tactile version of the year: a friendlier desktop, a huge space-age launch image, controller plastic from the coming rivalry years, and the tape object that still carried the whole household schedule.</p></div>
+        <div class="media-figure-grid">
+          <figure class="media-figure-card feature-figure">
+            <img src="/assets/media/timeline-1990/windows-3-0-program-manager.png" alt="Windows 3.0 Program Manager screenshot with colorful square icons and simple gray desktop interface."  width="640" height="480"  loading="lazy"  decoding="async" />
+            <figcaption>
+              <strong>Windows 3.0 makes the home PC feel less office-only</strong>
+              <p>The interface is still plain, but 1990 matters because the future finally looks approachable on the desk instead of hidden behind commands and beige mystery.</p>
+              <p class="figure-source">Source: Wikimedia Commons, "VirtualBox Windows 3.0" (public domain screenshot upload).</p>
+              <div class="figure-links"><a href="https://commons.wikimedia.org/wiki/File:VirtualBox_Windows_3.0_20241202_02_12_2024_20_17_10.png" target="_blank" rel="noopener noreferrer">source ↗</a><a href="#month-may">May 1990</a><a href="/zones/tech-toys/#photo-showroom">tech / toys room</a></div>
+            </figcaption>
+          </figure>
+          <figure class="media-figure-card">
+            <picture class="responsive-artifact">
+              <source type="image/avif" srcset="/assets/generated/hubble-launch-480.avif 480w, /assets/generated/hubble-launch-960.avif 960w, /assets/generated/hubble-launch-1440.avif 1440w" sizes="(max-width: 620px) 96px, (max-width: 1000px) 32vw, 560px" />
+              <source type="image/webp" srcset="/assets/generated/hubble-launch-480.webp 480w, /assets/generated/hubble-launch-960.webp 960w, /assets/generated/hubble-launch-1440.webp 1440w" sizes="(max-width: 620px) 96px, (max-width: 1000px) 32vw, 560px" />
+              <img src="/assets/media/timeline-1990/hubble-launch.jpg" alt="Space Shuttle Discovery launching with the Hubble Space Telescope aboard, leaving a bright plume against a dark sky." width="1904" height="2860" loading="lazy" decoding="async" />
+            </picture>
+            <figcaption>
+              <strong>Hubble launch turns the year into a literal future postcard</strong>
+              <p>Not every 1990 memory lives in a bedroom or mall. This is one of the decade’s first giant “the future is happening now” images, and it belongs in the same year as Twin Peaks and mall-radio cassettes.</p>
+              <p class="figure-source">Source: Wikimedia Commons / NASA / ESA, "Hubble Launch" (public domain).</p>
+              <div class="figure-links"><a href="https://commons.wikimedia.org/wiki/File:Hubble_Launch_(hst_launch_hi).jpg" target="_blank" rel="noopener noreferrer">source ↗</a><a href="#month-apr">April 1990</a><a href="#media-desk">media desk</a></div>
+            </figcaption>
+          </figure>
+          <figure class="media-figure-card">
+            <img src="/assets/media/games/sega-genesis-6-button-controller.jpg" alt="A Sega Genesis six-button controller photographed from above, showing the D-pad, shoulder curve, and rows of face buttons."  width="1280" height="658"  loading="lazy"  decoding="async" />
+            <figcaption>
+              <strong>Controller plastic from the rivalry years already creeping in</strong>
+              <p>The exact six-button model lands later, so treat this as representative household texture, not a strict 1990 timestamp. It still captures the feel that matters: couch competition, mascot loyalty, and game hardware becoming identity gear.</p>
+              <p class="figure-source">Source: Wikimedia Commons, "Sega-Genesis-Mk2-6button" (CC BY-SA 3.0).</p>
+              <div class="figure-links"><a href="https://commons.wikimedia.org/wiki/File:Sega-Genesis-Mk2-6button.jpg" target="_blank" rel="noopener noreferrer">source ↗</a><a href="#month-nov">November 1990</a><a href="/zones/games/#photo-showroom">games photo stack</a></div>
+            </figcaption>
+          </figure>
+          <figure class="media-figure-card">
+            <img src="/assets/media/tv-movies/vhs-videocassette-front.jpg" alt="A black VHS videocassette photographed from the front, with its label area and clear reel windows visible."  width="1280" height="854"  loading="lazy"  decoding="async" />
+            <figcaption>
+              <strong>The VHS cassette still runs the room</strong>
+              <p>Before feeds, the tape itself carried the wrapper culture: trailers, recorded commercials, handwritten labels, rewinding arguments, and one family VCR deciding the night’s timing.</p>
+              <p class="figure-source">Source: Wikimedia Commons, "VHS videocassette - front" (CC BY-SA 4.0).</p>
+              <div class="figure-links"><a href="https://commons.wikimedia.org/wiki/File:VHS_videocassette_-_front.jpg" target="_blank" rel="noopener noreferrer">source ↗</a><a href="#month-jul">July 1990</a><a href="/zones/tv-movies/#photo-showroom">screen room</a></div>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <div class="portal-columns" id="fast-read">
+        <div class="portal-box">
+          <p class="portal-kicker">Fast read</p>
+          <h2>Why 1990 feels more alive after the visual pass</h2>
+          <ul class="portal-link-list">
+            <li><strong>The old room still wins.</strong> TV schedules, mall radio, VHS tapes, and shared household timing still organize most memory.</li>
+            <li><strong>The desk starts looking friendlier.</strong> Windows 3.0 makes the computer feel more like something a normal family might actually approach.</li>
+            <li><strong>The future shows up in bursts.</strong> Hubble, 16-bit momentum, and stranger TV imagery make the decade feel less polite than the late 80s on either side of it.</li>
+            <li><strong>Objects carry the mood.</strong> Tape shells, controllers, magazines, and software boxes do as much nostalgia work as the headlines.</li>
+          </ul>
+        </div>
+        <div class="portal-box">
+          <h3>Open the strongest 1990 clicks first</h3>
+          <ul class="portal-link-list">
+            <li><a href="#photo-showroom">Photo stack</a> — the fastest way to feel the year before reading the month cards.</li>
+            <li><a href="#news-desk">News desk</a> — Mandela, reunification, Hubble, and the Kuwait crisis make the year feel historically awake instead of just mood-board nostalgic.</li>
+            <li><a href="#month-apr">April</a> — Hubble launch and Twin Peaks weirdness in the same month lane.</li>
+            <li><a href="#artifacts">Object shelf</a> — where Windows 3.0, VHS, magazine racks, and mall-radio texture get labeled properly.</li>
+            <li><a href="#media-desk">Media desk</a> — best next clicks for Windows 3.0, Hubble, Twin Peaks, and 1990 radio recovery.</li>
+          </ul>
+        </div>
+      </div>
+
+      <section class="portal-box capsule-section" id="news-desk">
+        <div class="section-heading compact-heading"><p class="eyebrow">US / world news desk</p><h2>1990 works better when the analog room carries real headline weather too.</h2><p>The year is not just Twin Peaks mood, Windows 3.0, and VHS ritual. It is also Mandela walking free, Germany reunifying, Hubble launching, and the Kuwait crisis reminding everyone that the old geopolitical frame is breaking while the household still feels stubbornly analog.</p></div>
+        <div class="media-callout-grid news-wire-grid">
+          <article class="media-callout news-wire-card">
+            <div class="callout-meta"><span>world news</span><span>February 11, 1990</span></div>
+            <h3>Nelson Mandela's release gives the decade one of its first unmistakable world-historic images</h3>
+            <p>After 27 years in prison, Nelson Mandela is released in February. Even if you remember 1990 mostly through tapes, malls, and TV rooms, this image is one of the reasons the year instantly feels bigger than lifestyle memory alone.</p>
+            <p class="callout-note"><strong>Why it matters:</strong> it sets the decade's tone as a real political hinge, not just a fashion and media reset.</p>
+            <div class="callout-links"><a href="https://en.wikipedia.org/wiki/Release_of_Nelson_Mandela" target="_blank" rel="noopener noreferrer">Mandela source ↗</a><a href="#month-feb">February month card</a></div>
+          </article>
+          <article class="media-callout news-wire-card">
+            <div class="callout-meta"><span>world politics</span><span>October 3, 1990</span></div>
+            <h3>German reunification makes the post-Cold War reset feel concrete instead of abstract</h3>
+            <p>German reunification becomes official in October, turning a giant systems-level change into a visible fact of the year. The 90s do not just look different from the 80s — the political map is changing too.</p>
+            <p class="callout-note"><strong>Why it matters:</strong> it gives the page a stronger historical spine and makes 1990 read as the start of a new era, not just the leftovers of the last one.</p>
+            <div class="callout-links"><a href="https://en.wikipedia.org/wiki/German_reunification" target="_blank" rel="noopener noreferrer">reunification source ↗</a><a href="#month-oct">October month card</a></div>
+          </article>
+          <article class="media-callout news-wire-card">
+            <div class="callout-meta"><span>science / future</span><span>April 24, 1990</span></div>
+            <h3>Hubble launches and makes the year feel like a future postcard instead of a simple cultural bridge</h3>
+            <p>The Hubble Space Telescope launches aboard Discovery in April. It is one of those headline images that instantly widens the room: 1990 is still full of VHS wrappers and mall-radio normalcy, but the future is visibly leaving the ground too.</p>
+            <p class="callout-note"><strong>Why it matters:</strong> it pairs perfectly with the friendlier PC shift — both say the decade is opening, even if daily life has not fully caught up yet.</p>
+            <div class="callout-links"><a href="https://en.wikipedia.org/wiki/Hubble_Space_Telescope" target="_blank" rel="noopener noreferrer">Hubble source ↗</a><a href="#month-apr">April month card</a></div>
+          </article>
+          <article class="media-callout news-wire-card">
+            <div class="callout-meta"><span>world crisis</span><span>August 1990</span></div>
+            <h3>Iraq's invasion of Kuwait darkens the year's late-summer mood</h3>
+            <p>Iraq invades Kuwait in August, creating the crisis that will spill into the Gulf War headlines of early 1991. It gives late 1990 a sharper geopolitical edge behind the same household TV that is still playing Fresh Prince, MTV, and taped movies.</p>
+            <p class="callout-note"><strong>Why it matters:</strong> it connects 1990 directly to the stronger 1991 news route and makes the early decade feel like a continuous hinge, not isolated capsules.</p>
+            <div class="callout-links"><a href="https://en.wikipedia.org/wiki/Invasion_of_Kuwait" target="_blank" rel="noopener noreferrer">Kuwait crisis source ↗</a><a href="#month-aug">August month card</a></div>
+          </article>
+        </div>
+        <p class="micro-note">Source trail: Mandela's release, German reunification, Hubble's launch, and the invasion of Kuwait all link to reference pages above.</p>
+      </section>
+
+      <section class="portal-box capsule-section month-timeline" id="timeline-months">
+        <div class="section-heading compact-heading"><p class="eyebrow">Month-by-month</p><h2>A browsable 1990 calendar.</h2><p>Now the year has real anchors and a stronger headline layer too: big global news, stranger TV, friendlier PCs, and the exact moments when the decade starts acting like itself.</p></div>
+
+        <div class="month-grid capsule-month-grid"><article class="month-card compact-month" id="month-jan"><span>JAN</span><h3>Old mood, new decade</h3><p>Glossy radio, mall walking, arcade noise, and VHS routines still feel like the default setting even as everyone starts saying “the 90s” out loud for the first time.</p><div class="month-links"><a href="/zones/music/#showroom">music room</a><a href="/zones/tv-movies/#photo-showroom">screen room</a></div></article>
+<article class="month-card compact-month" id="month-feb"><span>FEB</span><h3>Mandela walks free</h3><p>Nelson Mandela’s release becomes one of the decade’s first unforgettable global images and immediately makes 1990 feel historically larger than mall-culture memory alone.</p><div class="month-links"><a href="https://en.wikipedia.org/wiki/Release_of_Nelson_Mandela" target="_blank" rel="noopener noreferrer">Mandela released ↗</a><a href="#why">why this year matters</a></div></article>
+<article class="month-card compact-month" id="month-mar"><span>MAR</span><h3>The web is still invisible</h3><p>Linked-information ideas keep moving at CERN, but almost nobody living the year would feel that shift yet. That hiddenness is part of the point.</p><div class="month-links"><a href="https://en.wikipedia.org/wiki/Tim_Berners-Lee" target="_blank" rel="noopener noreferrer">Tim Berners-Lee ↗</a><a href="/zones/internet-culture/#artifact-atlas">internet-culture atlas</a></div></article>
+<article class="month-card compact-month" id="month-apr"><span>APR</span><h3>TV gets stranger while Hubble leaves the planet</h3><p><i>Twin Peaks</i> premieres in April and Hubble launches later that month, which is a perfect 1990 pairing: one weirdly intimate and one cosmic, both clearly unlike the decade before.</p><div class="month-links"><a href="https://en.wikipedia.org/wiki/Twin_Peaks" target="_blank" rel="noopener noreferrer">Twin Peaks ↗</a><a href="https://en.wikipedia.org/wiki/Hubble_Space_Telescope" target="_blank" rel="noopener noreferrer">Hubble ↗</a></div></article>
+<article class="month-card compact-month" id="month-may"><span>MAY</span><h3>PCs get friendlier</h3><p>Windows 3.0 makes graphical computing feel more approachable, and the family computer starts inching away from office-furniture energy toward something closer to domestic curiosity.</p><div class="month-links"><a href="https://en.wikipedia.org/wiki/Windows_3.0" target="_blank" rel="noopener noreferrer">Windows 3.0 ↗</a><a href="/zones/tech-toys/#photo-showroom">tech / toys room</a></div></article>
+<article class="month-card compact-month" id="month-jun"><span>JUN</span><h3>Summer future shock</h3><p><i>Total Recall</i> brings loud sci-fi spectacle to multiplexes while the rest of the culture still hangs onto cassettes, TV blocks, and mall-center normalcy.</p><div class="month-links"><a href="https://en.wikipedia.org/wiki/Total_Recall_(1990_film)" target="_blank" rel="noopener noreferrer">Total Recall ↗</a><a href="/zones/tv-movies/">movie trails</a></div></article>
+<article class="month-card compact-month" id="month-jul"><span>JUL</span><h3>Blockbuster sincerity</h3><p><i>Ghost</i> turns romance, grief, and pottery-wheel imagery into shared movie memory, the kind of VHS-era hit that ends up quoted in living rooms for months.</p><div class="month-links"><a href="https://en.wikipedia.org/wiki/Ghost_(1990_film)" target="_blank" rel="noopener noreferrer">Ghost ↗</a><a href="/zones/tv-movies/#photo-showroom">VHS route</a></div></article>
+<article class="month-card compact-month" id="month-aug"><span>AUG</span><h3>The room still feels normal while the wider world sharpens</h3><p>Radio, MTV, magazines, and rental aisles still decide what most people find, but Iraq's invasion of Kuwait gives late 1990 a harder geopolitical edge behind the same familiar household rhythms.</p><div class="month-links"><a href="https://en.wikipedia.org/wiki/Invasion_of_Kuwait" target="_blank" rel="noopener noreferrer">Kuwait crisis ↗</a><a href="/search/?filter=objects&q=VHS">VHS object search</a></div></article>
+<article class="month-card compact-month" id="month-sep"><span>SEP</span><h3>Sitcom swagger meets gangster cool</h3><p><i>The Fresh Prince of Bel-Air</i> arrives, while <i>Goodfellas</i> sharpens grown-up movie conversation. The year keeps bouncing between bright TV confidence and harder-edged adult style.</p><div class="month-links"><a href="https://en.wikipedia.org/wiki/The_Fresh_Prince_of_Bel-Air" target="_blank" rel="noopener noreferrer">Fresh Prince ↗</a><a href="https://en.wikipedia.org/wiki/Goodfellas" target="_blank" rel="noopener noreferrer">Goodfellas ↗</a></div></article>
+<article class="month-card compact-month" id="month-oct"><span>OCT</span><h3>Europe redraws itself</h3><p>German reunification becomes official and helps set the larger post-Cold War backdrop behind the era’s domestic media memories.</p><div class="month-links"><a href="https://en.wikipedia.org/wiki/German_reunification" target="_blank" rel="noopener noreferrer">German reunification ↗</a><a href="#why">context ↗</a></div></article>
+<article class="month-card compact-month" id="month-nov"><span>NOV</span><h3>16-bit runway opens</h3><p>Super Famicom launches in Japan and home-console identity starts shifting harder toward sharper color, faster mascots, and new bragging rights.</p><div class="month-links"><a href="https://en.wikipedia.org/wiki/Super_Nintendo_Entertainment_System" target="_blank" rel="noopener noreferrer">SNES / Super Famicom ↗</a><a href="/zones/games/#photo-showroom">games room</a></div></article>
+<article class="month-card compact-month" id="month-dec"><span>DEC</span><h3>The wiring is in place</h3><p>The web’s core pieces, 16-bit momentum, stranger TV taste, and friendlier desktop software are all queued for the sharper early-90s years right after this.</p><div class="month-links"><a href="/timeline/1991/#photo-showroom">Open 1991 next →</a><a href="/timeline/1992/#photo-showroom">Jump to 1992 →</a></div></article></div>
+      </section>
+      <section class="portal-box capsule-section" id="culture-grid">
+        <div class="section-heading compact-heading"><p class="eyebrow">Culture grid</p><h2>Six ways into 1990.</h2></div>
+        <div class="capsule-card-grid"><article class="capsule-card"><span class="card-kicker">Music</span><h3>Radio polish + vocal power</h3><p>Mariah, Madonna, Wilson Phillips, new jack swing, and radio that still sounds more late-80s than late-90s — which is exactly why the year works as a hinge.</p><a href="/zones/music/#showroom">Explore →</a></article>
+<article class="capsule-card"><span class="card-kicker">Movies / TV</span><h3>Weird TV + giant hits</h3><p><i>Twin Peaks</i>, <i>Ghost</i>, <i>Goodfellas</i>, and <i>Fresh Prince</i> make the year feel both stranger and more quotable than its neat calendar suggests.</p><a href="/zones/tv-movies/#photo-showroom">Explore →</a></article>
+<article class="capsule-card"><span class="card-kicker">Games</span><h3>Arcades still rule public play</h3><p>Arcade noise still dominates public gaming while the 16-bit identity wars start heating up behind the couch.</p><a href="/zones/games/#photo-showroom">Explore →</a></article>
+<article class="capsule-card"><span class="card-kicker">Tech / Internet</span><h3>Friendly desktop, hidden web</h3><p>Windows 3.0 becomes visible while web history is still being built in the background, which makes 1990 more interesting than a simple “pre-internet” label.</p><a href="/zones/tech-toys/#photo-showroom">Explore →</a></article>
+<article class="capsule-card"><span class="card-kicker">Fashion / Toys</span><h3>Mall texture still runs everything</h3><p>Cassette singles, toy aisles, computer-magazine racks, and bright retail culture keep the year tactile instead of abstract.</p><a href="/zones/fashion/#style-path">Explore →</a></article>
+<article class="capsule-card"><span class="card-kicker">World / Culture</span><h3>Global shift behind the bedroom memories</h3><p>Mandela’s release, German reunification, Hubble, and the Kuwait crisis make the year feel instantly larger than a nostalgia-only scrapbook.</p><a href="#news-desk">Explore →</a></article></div>
+      </section>
+      <section class="portal-box capsule-section artifact-collection" id="artifacts">
+        <div class="section-heading compact-heading"><p class="eyebrow">Museum object shelf</p><h2>Artifacts that make 1990 tactile.</h2><p>These are the things that make the year easier to picture fast, not just facts to memorize.</p></div>
+        <div class="museum-object-grid">
+          <article class="museum-object-card">
+            <div class="object-meta"><span>desktop object</span><span>family desk / spare room</span></div>
+            <h3>Windows 3.0 box or setup disk beside the beige monitor</h3>
+            <p>The UI upgrade mattered because it made the computer feel less like office spillover and more like a thing a curious household might actually poke at.</p>
+            <p class="object-note"><strong>Why it matters:</strong> 1990 starts making the digital future visible in the room.</p>
+            <div class="object-links"><a href="#month-may">May 1990</a><a href="/zones/tech-toys/#photo-showroom">tech / toys bridge</a></div>
+          </article>
+          <article class="museum-object-card">
+            <div class="object-meta"><span>screen object</span><span>living-room shelf / VCR zone</span></div>
+            <h3>VHS tape with handwritten label and commercials still attached</h3>
+            <p>The tape carries more than the movie: local ads, station IDs, overrecording fear, and the proof that screen culture used to come with wrapper noise.</p>
+            <p class="object-note"><strong>Why it matters:</strong> 1990 memory is still stored in physical playback rituals.</p>
+            <div class="object-links"><a href="#month-jul">July 1990</a><a href="/search/?filter=objects&q=VHS">artifact atlas query</a></div>
+          </article>
+          <article class="museum-object-card">
+            <div class="object-meta"><span>game object</span><span>carpet / rental weekend / arcade carryover</span></div>
+            <h3>Controller that turns the couch into a team jersey</h3>
+            <p>Even before the decade’s biggest mascot years fully land, the controller already works like social shorthand: who you are, what system you back, and what kind of chaos your house supports.</p>
+            <p class="object-note"><strong>Why it matters:</strong> games stop being generic electronics and start becoming identity markers.</p>
+            <div class="object-links"><a href="#month-nov">November 1990</a><a href="/zones/games/#game-artifacts">games object shelf</a></div>
+          </article>
+          <article class="museum-object-card">
+            <div class="object-meta"><span>music object</span><span>radio / backpack / glove compartment</span></div>
+            <h3>Cassette single bought at the mall instead of discovered by algorithm</h3>
+            <p>Taste still moves through stores, friends, liner notes, and whoever hit record at the right moment when the song came on.</p>
+            <p class="object-note"><strong>Why it matters:</strong> the year still runs on human recommendation and physical carry.</p>
+            <div class="object-links"><a href="#top-songs">1990 charts</a><a href="/zones/music/#showroom">music room</a></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="portal-box capsule-section" id="media-desk">
+        <div class="section-heading compact-heading"><p class="eyebrow">Media desk</p><h2>Open the right launchpads.</h2><p>These are the best next clicks when you want the year to feel sourced, specific, and easy to keep exploring.</p></div>
+        <div class="media-callout-grid">
+          <article class="media-callout">
+            <div class="callout-meta"><span>software path</span><span>desktop-future context</span></div>
+            <h3>Windows 3.0 when you want the exact “the family PC is getting friendlier” moment</h3>
+            <p>Use this when the memory is not “the web” yet but the softer click of colorful desktop software finally becoming visible to normal households.</p>
+            <p class="callout-note"><strong>Media context:</strong> product-history and screenshot context around the desktop shift.</p>
+            <div class="callout-links"><a href="https://en.wikipedia.org/wiki/Windows_3.0" target="_blank" rel="noopener noreferrer">Windows 3.0 ↗</a><a href="https://commons.wikimedia.org/wiki/File:VirtualBox_Windows_3.0_20241202_02_12_2024_20_17_10.png" target="_blank" rel="noopener noreferrer">screenshot source ↗</a></div>
+          </article>
+          <article class="media-callout">
+            <div class="callout-meta"><span>world-event path</span><span>future postcard</span></div>
+            <h3>Hubble launch when you want proof that 1990 was not just mall culture and sitcoms</h3>
+            <p>Best for snapping the page outward: the year’s huge collective “future” image belongs beside the domestic objects, not outside the nostalgia frame.</p>
+            <p class="callout-note"><strong>Media context:</strong> launch image and mission history for the most instantly futuristic 1990 headline on the page.</p>
+            <div class="callout-links"><a href="https://en.wikipedia.org/wiki/Hubble_Space_Telescope" target="_blank" rel="noopener noreferrer">Hubble ↗</a><a href="https://commons.wikimedia.org/wiki/File:Hubble_Launch_(hst_launch_hi).jpg" target="_blank" rel="noopener noreferrer">launch source ↗</a></div>
+          </article>
+          <article class="media-callout">
+            <div class="callout-meta"><span>screen path</span><span>weird-TV + tape-wrapper mood</span></div>
+            <h3>Twin Peaks, Ghost, and VHS texture when you want the room back</h3>
+            <p>Open this lane when the real memory is the mood of the screen itself: weird weekly TV, giant summer hits, and tape-era wrapper noise.</p>
+            <p class="callout-note"><strong>Media context:</strong> source-aware launchpads into 1990 TV / movie / home-video memory.</p>
+            <div class="callout-links"><a href="https://en.wikipedia.org/wiki/Twin_Peaks" target="_blank" rel="noopener noreferrer">Twin Peaks ↗</a><a href="https://archive.org/details/vhsvault" target="_blank" rel="noopener noreferrer">VHS Vault ↗</a></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="chart-section portal-box capsule-section" id="top-songs">
+        <div class="section-heading compact-heading"><p class="eyebrow">Billboard Year-End Hot 100</p><h2>Top 10 songs of 1990</h2><p>Source: <a href="https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_1990" target="_blank" rel="noopener noreferrer">Billboard Year-End Hot 100 singles of 1990</a>. Each card is a launchpad: read the context, then search-listen without pretending we can embed licensed tracks.</p></div>
+        <div class="song-grid"><article class="song-card">
+  <div class="chart-rank">#1</div>
+  <div>
+    <h3><a href="https://en.wikipedia.org/wiki/Hold_On_(Wilson_Phillips_song)" target="_blank" rel="noopener noreferrer">Hold On</a></h3>
+    <p><a href="https://en.wikipedia.org/wiki/Wilson_Phillips" target="_blank" rel="noopener noreferrer">Wilson Phillips</a></p>
+    <p class="song-note">Harmony-pop optimism that sounds like a new decade trying to talk itself into courage.</p>
+    <div class="listen-links"><a href="https://www.youtube.com/results?search_query=Hold+On+Wilson+Phillips" target="_blank" rel="noopener noreferrer">YouTube search</a><a href="https://open.spotify.com/search/Hold+On+Wilson+Phillips" target="_blank" rel="noopener noreferrer">Spotify search</a></div>
+  </div>
+</article>
+<article class="song-card">
+  <div class="chart-rank">#2</div>
+  <div>
+    <h3><a href="https://en.wikipedia.org/wiki/It_Must_Have_Been_Love" target="_blank" rel="noopener noreferrer">It Must Have Been Love</a></h3>
+    <p><a href="https://en.wikipedia.org/wiki/Roxette" target="_blank" rel="noopener noreferrer">Roxette</a></p>
+    <p class="song-note">A Pretty Woman-powered ballad that kept soundtrack singles glued to radio.</p>
+    <div class="listen-links"><a href="https://www.youtube.com/results?search_query=It+Must+Have+Been+Love+Roxette" target="_blank" rel="noopener noreferrer">YouTube search</a><a href="https://open.spotify.com/search/It+Must+Have+Been+Love+Roxette" target="_blank" rel="noopener noreferrer">Spotify search</a></div>
+  </div>
+</article>
+<article class="song-card">
+  <div class="chart-rank">#3</div>
+  <div>
+    <h3><a href="https://en.wikipedia.org/wiki/Nothing_Compares_2_U" target="_blank" rel="noopener noreferrer">Nothing Compares 2 U</a></h3>
+    <p><a href="https://en.wikipedia.org/wiki/Sin%C3%A9ad_O%27Connor" target="_blank" rel="noopener noreferrer">Sinéad O'Connor</a></p>
+    <p class="song-note">Sparse, devastating, and inseparable from one of the decade’s most memorable videos.</p>
+    <div class="listen-links"><a href="https://www.youtube.com/results?search_query=Nothing+Compares+2+U+Sinéad+O%27Connor" target="_blank" rel="noopener noreferrer">YouTube search</a><a href="https://open.spotify.com/search/Nothing+Compares+2+U+Sinéad+O%27Connor" target="_blank" rel="noopener noreferrer">Spotify search</a></div>
+  </div>
+</article>
+<article class="song-card">
+  <div class="chart-rank">#4</div>
+  <div>
+    <h3><a href="https://en.wikipedia.org/wiki/Poison_(Bell_Biv_DeVoe_song)" target="_blank" rel="noopener noreferrer">Poison</a></h3>
+    <p><a href="https://en.wikipedia.org/wiki/Bell_Biv_DeVoe" target="_blank" rel="noopener noreferrer">Bell Biv DeVoe</a></p>
+    <p class="song-note">New jack swing with a bassline and warning-label hook that still jumps out of speakers.</p>
+    <div class="listen-links"><a href="https://www.youtube.com/results?search_query=Poison+Bell+Biv+DeVoe" target="_blank" rel="noopener noreferrer">YouTube search</a><a href="https://open.spotify.com/search/Poison+Bell+Biv+DeVoe" target="_blank" rel="noopener noreferrer">Spotify search</a></div>
+  </div>
+</article>
+<article class="song-card">
+  <div class="chart-rank">#5</div>
+  <div>
+    <h3><a href="https://en.wikipedia.org/wiki/Vogue_(Madonna_song)" target="_blank" rel="noopener noreferrer">Vogue</a></h3>
+    <p><a href="https://en.wikipedia.org/wiki/Madonna" target="_blank" rel="noopener noreferrer">Madonna</a></p>
+    <p class="song-note">Club culture, fashion poses, and black-and-white video glamour crossing into total pop dominance.</p>
+    <div class="listen-links"><a href="https://www.youtube.com/results?search_query=Vogue+Madonna" target="_blank" rel="noopener noreferrer">YouTube search</a><a href="https://open.spotify.com/search/Vogue+Madonna" target="_blank" rel="noopener noreferrer">Spotify search</a></div>
+  </div>
+</article>
+<article class="song-card">
+  <div class="chart-rank">#6</div>
+  <div>
+    <h3><a href="https://en.wikipedia.org/wiki/Vision_of_Love" target="_blank" rel="noopener noreferrer">Vision of Love</a></h3>
+    <p><a href="https://en.wikipedia.org/wiki/Mariah_Carey" target="_blank" rel="noopener noreferrer">Mariah Carey</a></p>
+    <p class="song-note">The arrival of a voice that would reshape 90s pop and R&amp;B ballad expectations.</p>
+    <div class="listen-links"><a href="https://www.youtube.com/results?search_query=Vision+of+Love+Mariah+Carey" target="_blank" rel="noopener noreferrer">YouTube search</a><a href="https://open.spotify.com/search/Vision+of+Love+Mariah+Carey" target="_blank" rel="noopener noreferrer">Spotify search</a></div>
+  </div>
+</article>
+<article class="song-card">
+  <div class="chart-rank">#7</div>
+  <div>
+    <h3><a href="https://en.wikipedia.org/wiki/Another_Day_in_Paradise" target="_blank" rel="noopener noreferrer">Another Day in Paradise</a></h3>
+    <p><a href="https://en.wikipedia.org/wiki/Phil_Collins" target="_blank" rel="noopener noreferrer">Phil Collins</a></p>
+    <p class="song-note">Late-80s adult-contemporary gravity carrying into the decade’s first year.</p>
+    <div class="listen-links"><a href="https://www.youtube.com/results?search_query=Another+Day+in+Paradise+Phil+Collins" target="_blank" rel="noopener noreferrer">YouTube search</a><a href="https://open.spotify.com/search/Another+Day+in+Paradise+Phil+Collins" target="_blank" rel="noopener noreferrer">Spotify search</a></div>
+  </div>
+</article>
+<article class="song-card">
+  <div class="chart-rank">#8</div>
+  <div>
+    <h3><a href="https://en.wikipedia.org/wiki/Hold_On_(En_Vogue_song)" target="_blank" rel="noopener noreferrer">Hold On</a></h3>
+    <p><a href="https://en.wikipedia.org/wiki/En_Vogue" target="_blank" rel="noopener noreferrer">En Vogue</a></p>
+    <p class="song-note">A sleek vocal-group launchpad pointing toward 90s R&amp;B’s cooler, sharper future.</p>
+    <div class="listen-links"><a href="https://www.youtube.com/results?search_query=Hold+On+En+Vogue" target="_blank" rel="noopener noreferrer">YouTube search</a><a href="https://open.spotify.com/search/Hold+On+En+Vogue" target="_blank" rel="noopener noreferrer">Spotify search</a></div>
+  </div>
+</article>
+<article class="song-card">
+  <div class="chart-rank">#9</div>
+  <div>
+    <h3><a href="https://en.wikipedia.org/wiki/Cradle_of_Love_(Billy_Idol_song)" target="_blank" rel="noopener noreferrer">Cradle of Love</a></h3>
+    <p><a href="https://en.wikipedia.org/wiki/Billy_Idol" target="_blank" rel="noopener noreferrer">Billy Idol</a></p>
+    <p class="song-note">MTV-era rock swagger hanging around as the decade starts changing clothes.</p>
+    <div class="listen-links"><a href="https://www.youtube.com/results?search_query=Cradle+of+Love+Billy+Idol" target="_blank" rel="noopener noreferrer">YouTube search</a><a href="https://open.spotify.com/search/Cradle+of+Love+Billy+Idol" target="_blank" rel="noopener noreferrer">Spotify search</a></div>
+  </div>
+</article>
+<article class="song-card">
+  <div class="chart-rank">#10</div>
+  <div>
+    <h3><a href="https://en.wikipedia.org/wiki/Blaze_of_Glory_(Jon_Bon_Jovi_song)" target="_blank" rel="noopener noreferrer">Blaze of Glory</a></h3>
+    <p><a href="https://en.wikipedia.org/wiki/Jon_Bon_Jovi" target="_blank" rel="noopener noreferrer">Jon Bon Jovi</a></p>
+    <p class="song-note">Movie-theme rock drama from the Young Guns II soundtrack side of radio.</p>
+    <div class="listen-links"><a href="https://www.youtube.com/results?search_query=Blaze+of+Glory+Jon+Bon+Jovi" target="_blank" rel="noopener noreferrer">YouTube search</a><a href="https://open.spotify.com/search/Blaze+of+Glory+Jon+Bon+Jovi" target="_blank" rel="noopener noreferrer">Spotify search</a></div>
+  </div>
+</article></div>
+        <p class="micro-note">This chart still sounds more like the late 80s than the late 90s — which is exactly why 1990 is such a useful hinge-year to explore.</p>
+      </section>
+
+      <section class="portal-box capsule-section related-portals">
+        <div class="section-heading compact-heading"><p class="eyebrow">Keep surfing</p><h2>Related portals</h2></div>
+        <div class="related-grid"><a href="/timeline/">Timeline index</a><a href="/timeline/1991/#news-desk">1991 headline desk</a><a href="/zones/music/#showroom">Music room</a><a href="/zones/games/#photo-showroom">Games room</a><a href="/zones/tv-movies/#photo-showroom">TV / Movies</a><a href="/zones/tech-toys/#photo-showroom">Tech / Toys</a></div>
+      </section>
+    </section>
+  <!-- generated:artifact-shelf:start -->
+    <section class="panel artifact-shelf" aria-labelledby="artifactShelfTitle-timeline-1990">
+      <div class="section-heading compact-heading">
+        <p class="eyebrow">Passport exhibit tray</p>
+        <h2 id="artifactShelfTitle-timeline-1990">Objects you can inspect here.</h2>
+        <p>Open a curator label, stamp the object, then follow its next connection.</p>
+      </div>
+      <div class="artifact-ticket-grid">
+      <article class="artifact-ticket" id="artifact-windows-3" data-artifact-id="windows-3">
+        <div class="artifact-ticket-media"><img src="/assets/media/timeline-1990/windows-3-0-program-manager.png" alt="Windows 3.0 Program Manager with colorful icons on a gray desktop." width="640" height="480" loading="lazy" decoding="async" /></div>
+        <div class="artifact-ticket-copy">
+          <p class="artifact-label">clickable beige future · 1990</p>
+          <h3>Windows 3.0 Program Manager</h3>
+        <details>
+          <summary>Open curator label</summary>
+          <p>Colorful icons made the family PC feel less like office machinery and more like something worth exploring.</p>
+          <p><strong>Why it mattered:</strong> A friendlier visual interface helped normalize home computing before the mass web.</p>
+          <p class="artifact-credit"><a href="https://commons.wikimedia.org/wiki/File:VirtualBox_Windows_3.0_20241202_02_12_2024_20_17_10.png" target="_blank" rel="noopener noreferrer">Public-domain screenshot, Wikimedia Commons ↗</a> · Public domain</p>
+        </details>
+          <div class="artifact-actions">
+            <button class="button inspect-button" type="button" data-artifact-inspect="windows-3">Inspect + stamp</button>
+            <a href="/timeline/1990/#artifact-windows-3">Open exhibit</a>
+          </div>
+        </div>
+      </article>
+      <article class="artifact-ticket" id="artifact-hubble-launch" data-artifact-id="hubble-launch">
+        <div class="artifact-ticket-media"><picture class="responsive-artifact"><source type="image/avif" srcset="/assets/generated/hubble-launch-480.avif 480w, /assets/generated/hubble-launch-960.avif 960w, /assets/generated/hubble-launch-1440.avif 1440w" /><source type="image/webp" srcset="/assets/generated/hubble-launch-480.webp 480w, /assets/generated/hubble-launch-960.webp 960w, /assets/generated/hubble-launch-1440.webp 1440w" /><img src="/assets/media/timeline-1990/hubble-launch.jpg" alt="Space Shuttle Discovery launching Hubble with a bright plume." width="1904" height="2860" loading="lazy" decoding="async" /></picture></div>
+        <div class="artifact-ticket-copy">
+          <p class="artifact-label">the future as a launch plume · 1990</p>
+          <h3>Hubble launch</h3>
+        <details>
+          <summary>Open curator label</summary>
+          <p>The image belongs beside mall radio and VHS precisely because it shows how large the decade&#x27;s opening horizon felt.</p>
+          <p><strong>Why it mattered:</strong> Hubble connected everyday screen culture to a sustained new view of the universe.</p>
+          <p class="artifact-credit"><a href="https://commons.wikimedia.org/wiki/File:Hubble_Launch_(hst_launch_hi).jpg" target="_blank" rel="noopener noreferrer">NASA / ESA, Wikimedia Commons ↗</a> · Public domain</p>
+        </details>
+          <div class="artifact-actions">
+            <button class="button inspect-button" type="button" data-artifact-inspect="hubble-launch">Inspect + stamp</button>
+            <a href="/timeline/1990/#artifact-hubble-launch">Open exhibit</a>
+          </div>
+        </div>
+      </article>
+      <article class="artifact-ticket" id="artifact-cassette" data-artifact-id="cassette">
+        <div class="artifact-ticket-media"><img src="/assets/media/music/compact-cassette-maxell.jpg" alt="Compact cassette with visible reels and label area." width="1280" height="960" loading="lazy" decoding="async" /></div>
+        <div class="artifact-ticket-copy">
+          <p class="artifact-label">hand-built sequence · 1990–1997</p>
+          <h3>Mixtape cassette</h3>
+        <details>
+          <summary>Open curator label</summary>
+          <p>Pause-button edits and handwritten track lists made every tape a small act of authorship.</p>
+          <p><strong>Why it mattered:</strong> The mixtape made music discovery physical, social, and intentionally sequenced.</p>
+          <p class="artifact-credit"><a href="https://commons.wikimedia.org/wiki/File:Compact_Cassette_-_Maxell_MX_60.JPG" target="_blank" rel="noopener noreferrer">Wikimedia Commons ↗</a> · CC BY-SA 4.0</p>
+        </details>
+          <div class="artifact-actions">
+            <button class="button inspect-button" type="button" data-artifact-inspect="cassette">Inspect + stamp</button>
+            <a href="/zones/music/#artifact-cassette">Open exhibit</a>
+          </div>
+        </div>
+      </article>
+      </div>
+    </section>
+<!-- generated:artifact-shelf:end -->
+  </main>

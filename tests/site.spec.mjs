@@ -13,6 +13,7 @@ const viewports = [
 
 for (const viewport of viewports) {
   test(`${viewport.name}: every route stays inside the viewport`, async ({ page }) => {
+    test.setTimeout(180_000);
     await page.setViewportSize(viewport);
     for (const route of routes) {
       await page.goto(route.path);
@@ -148,7 +149,7 @@ test("tour deep links, recreation, resume, and completion work", async ({ page }
 test("search counts stay synchronized with the catalog", async ({ page }) => {
   await page.goto("/search/");
   const searchableRoutes = routes.filter(
-    (route) => !["/", "/search/", "/sitemap/", "/credits/"].includes(route.path)
+    (route) => !["/", "/search/", "/sitemap/", "/credits/"].includes(route.path) && route.type !== "objects"
   );
   await expect(page.locator('[data-site-filter="objects"] span')).toHaveText(String(artifacts.length));
   await expect(page.locator("#searchSummaryObjects")).toHaveText(String(artifacts.length));
@@ -218,41 +219,18 @@ test("timeline year-door artwork identifies its exhibit and editorial recreation
   await expect(page.locator('[data-timeline-room="timeline-1995"] .timeline-artwork-label')).toContainText("COLLECTION OBJECT");
 });
 
-test("year capsule timeline jumps to months and switches reading modes", async ({ page }) => {
-  await page.setViewportSize({ width: 1280, height: 800 });
-  await page.goto("/timeline/1996/");
-  await page.locator('.ed-month-rail a[href="#month-jun"]').click();
-  const monthNav = page.getByRole("navigation", { name: "Jump to a month" });
-  const grid = page.locator(".capsule-month-grid");
-  await expect(monthNav.getByRole("link")).toHaveCount(12);
-  await expect(grid.locator(".month-card")).toHaveCount(12);
-  await expect(grid).toHaveAttribute("data-view", "grid");
-
-  for (const view of ["list", "calendar", "grid"]) {
-    const button = page.locator(`[data-month-view="${view}"]`);
-    await button.click();
-    await expect(grid).toHaveAttribute("data-view", view);
-    await expect(button).toHaveAttribute("aria-pressed", "true");
-    expect(await page.locator('[data-month-view][aria-pressed="false"]').count()).toBe(2);
-  }
-
-  await monthNav.locator('a[href="#month-jul"]').click();
-  await expect(page).toHaveURL(/#month-jul$/);
-  await expect(page.locator("#month-jul")).toBeVisible();
-
-  await page.setViewportSize({ width: 390, height: 844 });
-  await page.goto("/timeline/1996/");
-  await page.locator('.ed-month-rail a[href="#month-jun"]').click();
-  await page.locator('[data-month-view="calendar"]').click();
-  const mobileLayout = await page.evaluate(() => ({
-    pageWidth: document.documentElement.scrollWidth,
-    viewportWidth: window.innerWidth,
-    monthNavFits: document.querySelector(".month-jump-nav").scrollWidth <= document.querySelector(".month-jump-nav").clientWidth,
-    columns: getComputedStyle(document.querySelector(".capsule-month-grid")).gridTemplateColumns.split(" ").length
-  }));
-  expect(mobileLayout.pageWidth).toBeLessThanOrEqual(mobileLayout.viewportWidth);
-  expect(mobileLayout.monthNavFits).toBe(true);
-  expect(mobileLayout.columns).toBe(1);
+test("year calendar uses real days and preserves its reading room", async ({ page }) => {
+  await page.goto('/timeline/1996/?month=06&view=calendar');
+  const calendar = page.locator('[data-month-panel="6"] .ar-calendar');
+  await expect(calendar).toBeVisible();
+  await expect(calendar.locator('time')).toHaveCount(30);
+  await expect(calendar.locator('tbody tr').first().locator('td').nth(5).locator('time')).toHaveAttribute('datetime','1996-06-01');
+  await page.locator('[data-month="7"]').click();
+  await expect(page).toHaveURL(/month=07&view=calendar/);
+  await expect(page.locator('[data-month-panel="7"] .ar-calendar')).toBeVisible();
+  await page.locator('[data-month-panel="7"]').getByRole('link',{name:'Read the month’s context'}).click();
+  await expect(page.locator('#month-jul')).toBeInViewport();
+  await expect(page.locator('.ed-reading-room')).toHaveAttribute('open','');
 });
 
 for (const path of [

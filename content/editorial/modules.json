@@ -1,0 +1,196 @@
+{
+  "charts": {
+    "music": {
+      "title": "1996: the year-end five",
+      "period": "Billboard Year-End Hot 100 · 1996 · US",
+      "note": "Annual ranking; not a weekly countdown. Transcription via Wikipedia, checked September 27, 2026.",
+      "sourceLabel": "Chart and methodology",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_1996",
+      "rows": [
+        [
+          "Macarena (Bayside Boys Mix)",
+          "Los del Río"
+        ],
+        [
+          "One Sweet Day",
+          "Mariah Carey & Boyz II Men"
+        ],
+        [
+          "Because You Loved Me",
+          "Céline Dion"
+        ],
+        [
+          "Nobody Knows",
+          "The Tony Rich Project"
+        ],
+        [
+          "Always Be My Baby",
+          "Mariah Carey"
+        ]
+      ]
+    },
+    "movies-tv": {
+      "title": "1996 at the box office",
+      "period": "US/Canada · earnings during calendar 1996 · USD",
+      "note": "Nominal domestic grosses earned in 1996, including holdovers; not lifetime totals. Checked September 27, 2026.",
+      "sourceLabel": "The Numbers · annual chart",
+      "sourceUrl": "https://www.the-numbers.com/market/1996/top-grossing-movies",
+      "rows": [
+        [
+          "Independence Day",
+          "$306,169,255"
+        ],
+        [
+          "Twister",
+          "$243,783,813"
+        ],
+        [
+          "Mission: Impossible",
+          "$180,981,886"
+        ],
+        [
+          "The Rock",
+          "$134,069,511"
+        ],
+        [
+          "Ransom",
+          "$129,181,606"
+        ]
+      ]
+    }
+  },
+  "games": [
+    {
+      "title": "Super Mario 64",
+      "genre": "platformers",
+      "platform": "consoles",
+      "art": "n64-controller",
+      "storyId": "a-whole-new-dimension",
+      "summary": "A castle hub and an analog stick invite exploration in three dimensions.",
+      "sourceUrl": "https://www.nintendo.com/us/explore/characters/mario/history/",
+      "sourceLabel": "Publisher / museum record",
+      "checkedAt": "2026-09-27"
+    },
+    {
+      "title": "Rayman",
+      "genre": "platformers",
+      "platform": "consoles",
+      "art": "playstation-hardware",
+      "storyId": "the-console-war-couch",
+      "summary": "A colorful 2D platform adventure among PlayStation’s early worlds.",
+      "sourceUrl": "https://blog.playstation.com/2018/10/29/announcing-playstation-classics-full-lineup-of-20-games/",
+      "sourceLabel": "Publisher / museum record",
+      "checkedAt": "2026-09-27"
+    },
+    {
+      "title": "Final Fantasy VII",
+      "genre": "rpg",
+      "platform": "consoles",
+      "art": "playstation-hardware",
+      "storyId": "fifteen-blocks-of-memory",
+      "summary": "An extended role-playing journey makes a saved game a precious possession.",
+      "sourceUrl": "https://blog.playstation.com/2018/10/29/announcing-playstation-classics-full-lineup-of-20-games/",
+      "sourceLabel": "Publisher / museum record",
+      "checkedAt": "2026-09-27"
+    },
+    {
+      "title": "Wild Arms",
+      "genre": "rpg",
+      "platform": "consoles",
+      "art": "playstation-hardware",
+      "storyId": "fifteen-blocks-of-memory",
+      "summary": "A Western-flavored RPG from the original PlayStation library.",
+      "sourceUrl": "https://blog.playstation.com/2018/10/29/announcing-playstation-classics-full-lineup-of-20-games/",
+      "sourceLabel": "Publisher / museum record",
+      "checkedAt": "2026-09-27"
+    },
+    {
+      "title": "Ridge Racer Type 4",
+      "genre": "racing",
+      "platform": "consoles",
+      "art": "playstation-hardware",
+      "storyId": "make-room-for-player-two",
+      "summary": "Stylized racing built around the pleasure of the next corner.",
+      "sourceUrl": "https://blog.playstation.com/2018/10/29/announcing-playstation-classics-full-lineup-of-20-games/",
+      "sourceLabel": "Publisher / museum record",
+      "checkedAt": "2026-09-27"
+    },
+    {
+      "title": "Mario Kart 64",
+      "genre": "racing",
+      "platform": "consoles",
+      "art": "n64-controller",
+      "storyId": "make-room-for-player-two",
+      "summary": "A shared-screen race with room for up to four players.",
+      "sourceUrl": "https://www.nintendo.com/eu/media/downloads/games_8/emanuals/nintendo_8/Manual_Nintendo64_MarioKart64_EN.pdf",
+      "sourceLabel": "Publisher / museum record",
+      "checkedAt": "2026-09-27"
+    },
+    {
+      "title": "Quake",
+      "genre": "shooters",
+      "platform": "pc",
+      "art": "family-pc",
+      "storyId": "lan-party-night",
+      "summary": "An id Software shooter at the meeting of 3D spaces and networked PC play.",
+      "sourceUrl": "https://bethesda.net/en-US/news/celebrating-25-years-of-quake",
+      "sourceLabel": "Publisher / museum record",
+      "checkedAt": "2026-09-27"
+    },
+    {
+      "title": "Tekken 3",
+      "genre": "fighting",
+      "platform": "consoles",
+      "art": "playstation-hardware",
+      "storyId": "make-room-for-player-two",
+      "summary": "A fighting-game favorite in Sony’s retrospective Classic selection.",
+      "sourceUrl": "https://blog.playstation.com/2018/10/29/announcing-playstation-classics-full-lineup-of-20-games/",
+      "sourceLabel": "Publisher / museum record",
+      "checkedAt": "2026-09-27"
+    },
+    {
+      "title": "Street Fighter II",
+      "genre": "fighting",
+      "platform": "arcade",
+      "art": "arcade-cabinet",
+      "storyId": "the-secret-button-sequence",
+      "summary": "Character matchups and head-to-head competition at the cabinet.",
+      "sourceUrl": "https://www.museumofplay.org/games/street-fighter-ii/",
+      "sourceLabel": "Publisher / museum record",
+      "checkedAt": "2026-09-27"
+    },
+    {
+      "title": "Pokémon Red & Green",
+      "genre": "rpg",
+      "platform": "handhelds",
+      "art": "game-boy-color",
+      "storyId": "the-toy-that-needed-you",
+      "summary": "The original Japanese pair arrived on Game Boy in 1996. The pictured Color hardware came later.",
+      "sourceUrl": "https://press.pokemon.com/es-MX/releases/THE-POKEMON-COMPANY-INTERNATIONAL-UNVEILS-POKEMON-TOGETHER-BRAND-CAMPA",
+      "sourceLabel": "Publisher / museum record",
+      "checkedAt": "2026-09-27"
+    },
+    {
+      "title": "Super Mario Land 2",
+      "genre": "platformers",
+      "platform": "handhelds",
+      "art": "game-boy-color",
+      "storyId": "make-room-for-player-two",
+      "summary": "A portable Mario adventure for the original Game Boy; shown with later Color hardware.",
+      "sourceUrl": "https://www.nintendo.com/us/explore/characters/mario/history/",
+      "sourceLabel": "Publisher / museum record",
+      "checkedAt": "2026-09-27"
+    },
+    {
+      "title": "Metal Gear Solid",
+      "genre": "action",
+      "platform": "consoles",
+      "art": "playstation-hardware",
+      "storyId": "fifteen-blocks-of-memory",
+      "summary": "Stealth and cinematic presentation give the disc-era console another identity.",
+      "sourceUrl": "https://blog.playstation.com/2018/10/29/announcing-playstation-classics-full-lineup-of-20-games/",
+      "sourceLabel": "Publisher / museum record",
+      "checkedAt": "2026-09-27"
+    }
+  ]
+}

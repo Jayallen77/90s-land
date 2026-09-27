@@ -1,0 +1,146 @@
+[
+  {
+    "name": "home",
+    "size": "desktop",
+    "route": "/",
+    "width": 1440,
+    "height": 1000,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "name": "home",
+    "size": "mobile",
+    "route": "/",
+    "width": 390,
+    "height": 844,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "name": "timeline",
+    "size": "desktop",
+    "route": "/timeline/",
+    "width": 1440,
+    "height": 1000,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "name": "timeline",
+    "size": "mobile",
+    "route": "/timeline/",
+    "width": 390,
+    "height": 844,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "name": "games",
+    "size": "desktop",
+    "route": "/zones/games/",
+    "width": 1440,
+    "height": 1000,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "name": "games",
+    "size": "mobile",
+    "route": "/zones/games/",
+    "width": 390,
+    "height": 844,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "name": "music",
+    "size": "desktop",
+    "route": "/zones/music/",
+    "width": 1440,
+    "height": 1000,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "name": "music",
+    "size": "mobile",
+    "route": "/zones/music/",
+    "width": 390,
+    "height": 844,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "name": "movies",
+    "size": "desktop",
+    "route": "/zones/tv-movies/",
+    "width": 1440,
+    "height": 1000,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "name": "movies",
+    "size": "mobile",
+    "route": "/zones/tv-movies/",
+    "width": 390,
+    "height": 844,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "name": "tech",
+    "size": "desktop",
+    "route": "/zones/tech-toys/",
+    "width": 1440,
+    "height": 1000,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "name": "tech",
+    "size": "mobile",
+    "route": "/zones/tech-toys/",
+    "width": 390,
+    "height": 844,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "name": "culture",
+    "size": "desktop",
+    "route": "/zones/culture/",
+    "width": 1440,
+    "height": 1000,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "name": "culture",
+    "size": "mobile",
+    "route": "/zones/culture/",
+    "width": 390,
+    "height": 844,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "name": "week",
+    "size": "desktop",
+    "route": "/this-week/?date=1996-09-27",
+    "width": 1440,
+    "height": 1000,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "name": "week",
+    "size": "mobile",
+    "route": "/this-week/?date=1996-09-27",
+    "width": 390,
+    "height": 844,
+    "overflow": 0,
+    "errors": []
+  }
+]

@@ -1,5 +1,7 @@
 const VALID_FILTERS = new Set([
   "all",
+  "events",
+  "stories",
   "highlights",
   "years",
   "zones",
@@ -8,6 +10,8 @@ const VALID_FILTERS = new Set([
   "community",
   "explore",
 ]);
+
+const normalize = value => value.normalize("NFKD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
 
 export function initializeSearch() {
   const input = document.querySelector("#siteSearchInput");
@@ -61,14 +65,14 @@ export function initializeSearch() {
   }
 
   function render({ writeUrl = true, historyMode = "replace" } = {}) {
-    const query = input.value.trim().toLowerCase();
+    const words = normalize(input.value.trim()).split(/\s+/).filter(Boolean);
     let visible = 0;
     cards.forEach((card) => {
       const matchesFilter =
         filter === "all" || card.dataset.searchCategory === filter;
       const haystack =
-        `${card.dataset.title} ${card.dataset.tags} ${card.textContent}`.toLowerCase();
-      const show = matchesFilter && (!query || haystack.includes(query));
+        normalize(`${card.dataset.title} ${card.dataset.tags} ${card.textContent}`);
+      const show = matchesFilter && words.every(word => haystack.includes(word));
       card.hidden = !show;
       if (show) visible += 1;
     });

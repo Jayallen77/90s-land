@@ -6,5 +6,32 @@
     "home": "Use case: historical-scene. Asset type: polished website cinematic hero artwork, a very wide 3:1 panoramic digital photomontage, 1536 x 512. Rich photographic textures, 1990s entertainment magazine art direction, miniature practical props, deep midnight navy shadows, neon magenta edge light and cyan highlights, purple accents. Very dense overlapping objects on the RIGHT TWO THIRDS, almost black empty left third to place live HTML headings over. All main objects must fit inside image and stay visible in a shallow wide crop. This is artwork only, no interface, no headline, no website logo, no buttons, no borders, no watermarks. Create a nostalgia bedroom collage: centerpiece bulky black CRT TV with a cheerful young man in a colorful backward baseball cap and patterned 90s shirt on its screen. Surround with a grey first-generation game console and controller, stack of VHS tapes, purple transparent handheld, cassette tape, bright high-top basketball sneaker, bubble gum, teal-purple scribble-pattern disposable cup, colorful posters including a dinosaur silhouette and grunge band-style yellow smiley icon. Objects sit on a messy shelf, wall covered in layered 90s posters. Sharp photographic depth and tactile detail. The CRT is the largest object near center-right, purple handheld and cup on far right, sneaker at lower center. Nostalgic, exuberant, lifelike editorial collage.",
     "timeline": "Use case: historical-scene. A panoramic 3:1 hero artwork for a 1996 nostalgia timeline, original richly textured photographic digital collage. Dark empty navy on left third for HTML text. Across the right two thirds arrange a grey 1990s disc game console with controller, a Nintendo 64 style three-grip controller, a teal 1990s Japanese sports coupe, vintage colorful trading cards, a basketball, compact discs, a portable cassette player, boxed computer games, chunky beige desktop computer, VHS tapes. A scrapbook of the objects of 1996. Dramatic neon magenta and turquoise edge light, cosmic midnight background, pink floor perspective grid. Overlapping large sharp recognizable objects, rich photographic plastic and paper textures. No people, no interface, no headings, no watermark. Keep main objects in a shallow wide composition for website hero.",
     "games": "Use case: historical-scene. Asset type: polished website cinematic hero artwork, a very wide 3:1 panoramic digital photomontage, 1536 x 512. Rich photographic textures, 1990s entertainment magazine art direction, miniature practical props, deep midnight navy shadows, neon magenta edge light and cyan highlights, purple accents. Very dense overlapping objects on the RIGHT TWO THIRDS, almost black empty left third to place live HTML headings over. All main objects must fit inside image and stay visible in a shallow wide crop. This is artwork only, no interface, no headline, no website logo, no buttons, no borders, no watermarks. Create a spectacular 1990s bedroom arcade gaming collage. Big vintage black CRT television centered showing an original colorful 16-bit pixel platform game with a tiny adventurer, palm trees, blue sky and floating platforms. A grey disc-based 1990s console and matching controller span foreground center, purple transparent handheld on its left, game cartridges and jewel cases stacked around. Rightmost tall arcade cabinet with magenta illuminated marquee reading only ARCADE and colorful original space-shooter game on screen. Stacks of black game boxes, vibrant palm-tree and pink sports-car poster on back wall. Perspective magenta floor grid. Give objects real tactile photographed plastic textures and luminous screens. Rich and busy, carefully composed, big recognizable objects."
+  },
+  "phase4": {
+    "createdAt": "2026-09-27",
+    "tool": "Built-in image_gen",
+    "description": "Original AI illustrations. Briefs below summarize the art direction; source PNGs retain generated artwork and WebP variants only resize/compress it.",
+    "briefs": {
+      "music": "Wide photographic still-life collage of cassettes, portable CD player, boombox, records, jewel cases, headphones and rave flyers; empty dark left third for live type; dense objects on the right with cyan and magenta edge lighting.",
+      "movies": "Wide photographic still-life collage of a CRT television, VCR, VHS tapes, cinema popcorn, tickets and clapperboard; deep navy left third for live type; overlapping objects to the right with pink and teal highlights.",
+      "tech": "Wide photographic still-life collage of beige desktop computing, translucent desktop plastics, keyboard, floppy disks, CDs and pocket electronics; empty dark left third for live type; rich tangible objects on the right.",
+      "culture": "Wide photographic still-life collage of mall-era objects, basketball shoes, magazines, shopping bags, digital pet, skate and fashion accessories; dark left third for live type with dense magenta/cyan-lit objects on the right."
+    },
+    "sourceAssets": [
+      "assets/editorial/music-hero-source.png",
+      "assets/editorial/movies-hero-source.png",
+      "assets/editorial/tech-hero-source.png",
+      "assets/editorial/culture-hero-source.png"
+    ],
+    "derivatives": {
+      "widths": [
+        768,
+        1440,
+        2172
+      ],
+      "format": "WebP",
+      "quality": 86,
+      "heightAtFullWidth": 724
+    }
   }
 }

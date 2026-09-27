@@ -1,8 +1,4 @@
-"""Phase 2 editorial components. Frozen main content remains accessible below the new pages.
-
-The three page compositions are generated here, never patched into live HTML.
-Legacy main fragments are complete balanced snapshots, not migration block slices.
-"""
+"""Shared editorial shell and core compositions built from authored source files."""
 from __future__ import annotations
 
 import calendar
@@ -12,7 +8,7 @@ import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-CORE = {'/': 'home', '/timeline/1996/': 'timeline', '/zones/games/': 'games'}
+CORE = {'/': 'home', '/zones/games/': 'games'}
 ARTIFACTS = {a['id']: a for a in json.loads((ROOT / 'data/artifacts.json').read_text())}
 NAVIGATION = json.loads((ROOT / 'data/navigation.json').read_text())
 
@@ -72,13 +68,14 @@ def apply_shell(source, route):
     if route['path'] not in CORE:
         source = source.replace('<footer class="ed-footer">', discovery()+'\n<footer class="ed-footer">',1)
     if '/editorial.css?' not in source:
-        source = source.replace('</head>', '  <link rel="stylesheet" href="/editorial.css?v=phase2-1" />\n</head>')
+        source = source.replace('</head>', '  <link rel="stylesheet" href="/editorial.css?v=phase4-1" />\n</head>')
+    source = source.replace("</head>", '  <link rel="stylesheet" href="/archive.css?v=phase4-1" />\n  <link rel="stylesheet" href="/hub.css?v=phase4-1" />\n</head>')
     return source
 
 
 def media(key, *, hero=False):
-    if key in ('home','timeline','games'):
-        alt = {'home':'Original illustrated collage of a CRT television, VHS tapes, sneaker and game hardware.','timeline':'Original illustrated collage of 1996-era game consoles, sports car, basketball and music.','games':'Original illustrated collage of a CRT platform game, console, handheld and arcade cabinet.'}[key]
+    if key in ('home','timeline','games','music','movies','tech','culture'):
+        alt = {'home':'Original illustrated collage of a CRT television, VHS tapes, sneaker and game hardware.','timeline':'Original illustrated collage of 1996-era game consoles, sports car, basketball and music.','games':'Original illustrated collage of a CRT platform game, console, handheld and arcade cabinet.','music':'Original AI-generated still-life collage of cassettes, CDs, headphones and music equipment.','movies':'Original AI-generated still-life collage of VHS tapes, a CRT, popcorn and movie-night objects.','tech':'Original AI-generated still-life collage of a translucent computer, a beige PC, discs and portable electronics.','culture':'Original AI-generated still-life collage of mall-era shopping, sneakers, toys and personal accessories.'}[key]
         return f'<img src="/assets/editorial/{key}-hero-1440.webp" srcset="/assets/editorial/{key}-hero-768.webp 768w, /assets/editorial/{key}-hero-1440.webp 1440w, /assets/editorial/{key}-hero-2172.webp 2172w" sizes="'+('(max-width: 1440px) 100vw, 1440px' if hero else '(max-width: 600px) 90vw, 420px')+f'" alt="{alt}" width="2172" height="724" loading="'+('eager' if hero else 'lazy')+'" decoding="async"'+(' fetchpriority="high"' if hero else '')+' />'
     item = ARTIFACTS[key]['media']
     return f'<img src="{esc(item["src"])}" alt="{esc(item["alt"])}" width="{item["width"]}" height="{item["height"]}" loading="lazy" decoding="async" />'
@@ -103,27 +100,39 @@ def tile(title, href, art, subtitle='', badge='', cls=''):
 
 
 def preserved_content(route):
-    manifest = json.loads((ROOT/'reports/baseline/phase-1/manifest.json').read_text())
-    item = next(p for p in manifest['pages'] if p['route'] == route['path'])
-    source = (ROOT/item['snapshot']).read_text()
-    start,end = item['mainRange']
-    # mainRange is the inside of main. Preserve every original anchor and paragraph.
-    content = source[start:end]
+    import archive_content
+    source = archive_content.page_source(route)
+    content = re.sub(r'^<main[^>]*>', '', source.strip())
+    content = re.sub(r'</main>$', '', content)
     content = re.sub(r'<h1(\s[^>]*)?>', r'<h2\1>', content).replace('</h1>','</h2>')
     content = content.replace(' loading="eager"',' loading="lazy"').replace(' fetchpriority="high"','')
     # Primary actions live in discovery now, so avoid duplicate dialog triggers.
     content = content.replace(' data-surprise-trigger','')
-    title = {'/':'More to explore: the original museum desk','/timeline/1996/':'The complete 1996 reading room','/zones/games/':'The games reading room & hardware collection'}[route['path']]
+    title = {'/':'More to explore: the original museum desk','/timeline/1996/':'The complete 1996 reading room','/zones/games/':'The games reading room & hardware collection'}.get(route['path'], f'The complete {route["title"]} reading room')
     return f'<details class="ed-reading-room" data-reading-room><summary>{icon("book")} {title}<span>OPEN ARCHIVE +</span></summary><div class="ed-preserved">{content}</div></details>'
 
 
+def week_feature():
+    from datetime import date
+    import archive_content as archive
+    day = archive.historical_date(date.fromisoformat(archive.CATALOG['buildAsOf']))
+    start, end = archive.week_bounds(day)
+    picks = [e for e in archive.EVENTS if start.isoformat() <= e['date'] <= end.isoformat() and e['category'] != 'news']
+    pick = picks[0] if picks else None
+    summary = pick['summary'] if pick else 'Turn back the clock. Explore the week’s dates, the decade’s stories, and the objects you remember.'
+    title = pick['title'] if pick else 'Open the historical week →'
+    href = archive.event_url(pick) if pick else '/this-week/'
+    label = f'{start.strftime("%b %-d, %Y")} – {end.strftime("%b %-d, %Y")}'
+    return f'''<section class="ed-panel ed-week" id="this-week"><div class="ed-week-art">{media(pick['art'] if pick and pick.get('art') and (pick['art'] not in ARTIFACTS or ARTIFACTS[pick['art']]['media']['kind']=='image') else 'home')}</div><div class="ed-week-copy"><h2>{icon('calendar')} <span>THIS WEEK IN<strong>{day.year}</strong></span></h2><p class="ed-date">{label}</p><p data-home-week-copy>{esc(summary)}</p><a class="ed-cta" href="/this-week/">Explore this week {icon('arrow')}</a></div><div class="ed-week-note"><a href="{href}">{esc(title)} →</a></div></section>'''
+
+
 def home():
-    categories = [('Music','music','/zones/music/'),('Movies & TV','movies','/zones/tv-movies/'),('Games','games','/zones/games/'),('Tech','tech','/zones/tech-toys/'),('Culture','culture','/zones/internet-culture/'),('Fashion','fashion','/zones/fashion/')]
+    categories = [('Music','music','/zones/music/'),('Movies & TV','movies','/zones/tv-movies/'),('Games','games','/zones/games/'),('Tech','tech','/zones/tech-toys/'),('Culture','culture','/zones/culture/'),('Fashion','fashion','/zones/fashion/')]
     category_html = ''.join(f'<a class="ed-category ed-color-{i}" href="{href}">{icon(key)}<strong>{title}</strong></a>' for i,(title,key,href) in enumerate(categories))
-    picks = [('Friday night at the video store','/zones/tv-movies/#artifact-blockbuster-store','blockbuster-store'),('The art of the mixtape','/zones/music/#artifact-cassette','cassette'),('The controller that changed play','/zones/games/#artifact-n64-controller','n64-controller'),('Before every room had a screen','/zones/tech-toys/#artifact-family-pc','family-pc'),('The transparent tech obsession','/zones/transparent-tech/','game-boy-color'),('When the internet came in the mail','/zones/tech-toys/#artifact-aol-cd','aol-cd')]
+    picks = [('Friday night at the video store','/stories/friday-at-the-video-store/','blockbuster-store'),('The art of the mixtape','/stories/from-mixtape-to-file/','cassette'),('The controller that changed play','/stories/a-whole-new-dimension/','n64-controller'),('Before every room had a screen','/stories/the-family-computer/','family-pc'),('The transparent tech obsession','/stories/you-could-see-through-it/','game-boy-color'),('When the internet came in the mail','/stories/the-internet-came-in-the-mail/','aol-cd')]
     return hero('home')+f'''<div class="ed-home-grid">
-      <section class="ed-panel ed-week" id="this-week"><div class="ed-week-art">{media('games')}</div><div class="ed-week-copy"><h2>{icon('calendar')} <span>THIS WEEK IN<strong>1996</strong></span></h2><p class="ed-date">SEP 23 – SEP 29, 1996</p><p>A new dimension of play.<br />Nintendo 64 arrives in the U.S.,<br />with Super Mario 64 leading the way.</p><a class="ed-cta" href="/timeline/1996/#month-sep">Explore this week {icon('arrow')}</a></div><div class="ed-week-note"><span>{icon('games')} The Nintendo 64 era begins</span><a href="https://careers.nintendo.com/our-history/">Nintendo’s U.S. launch history ↗</a></div></section>
-      <section class="ed-panel ed-feature">{heading('Featured')}{tile('The see-through 90s','/zones/transparent-tech/#artifact-transparent-n64-controller','transparent-n64-controller','Inside the decade’s love affair with transparent tech.','TECH')}</section>
+      {week_feature()}
+      <section class="ed-panel ed-feature">{heading('Featured')}{tile('A web you could make your own','/stories/a-web-you-could-make/','first-website','A public idea. A more personal kind of internet.','STORY')}</section>
       <section class="ed-panel">{heading('Browse the 90s','folder')}<div class="ed-categories">{category_html}</div></section>
     </div><section class="ed-picks">{heading('On heavy rotation','bolt','/search/', '<span class="ed-selection-note">EDITOR PICKS</span>')}<div class="ed-six-up">{''.join(tile(t,h,a) for t,h,a in picks)}</div></section>'''
 
@@ -136,24 +145,15 @@ def games():
     facts=[('16-bit generation','Rivalries come home.','games'),('The rise of 3D','Explore a new dimension.','tech'),('Handheld boom','One more level, anywhere.','bolt'),('Arcade culture','Quarter up. Beat the score.','trophy'),('New connections','Play together. Stay up late.','culture')]
     dives=[('LAN parties','#game-media','family-pc','Friends. Cables. All night.'),('The 3D revolution','#artifact-n64-controller','n64-controller','A new dimension of play.'),('Memory cards','#game-artifacts','games','Small cards. Big saves.'),('Cheat codes','#game-artifacts','genesis-controller','Secrets passed between friends.'),('Couch co-op','#co-op-path','games','Multiplayer meant together.')]
     return hero('games')+f'''<nav class="ed-topic-rail" aria-label="Gaming topics">{''.join(f'<a href="{href}">{icon(glyph)} {title}</a>' for title,href,glyph in rail)}</nav>
-    <div class="ed-games-grid" id="game-guide"><section class="ed-panel ed-feature">{heading('Featured story')}{tile('The console wars of the 90s','#why','games','Rivalries, innovation, and a generation of gamers. Revisit the hardware that changed how we played.','HISTORY')}</section>
+    <div class="ed-games-grid" id="game-guide"><section class="ed-panel ed-feature">{heading('Featured story')}{tile('A whole new dimension','/stories/a-whole-new-dimension/','games','How 3D changed the spaces we explored—and the controllers in our hands.','STORY')}</section>
     <section class="ed-panel ed-ranking">{heading('Five ways into the era','trophy')}{ranks}<span class="ed-selection-note">A CURATOR’S STARTING FIVE</span></section>
     <section class="ed-panel ed-platforms">{heading('Browse by platform','folder')}<div class="ed-two-up">{''.join(tile(t,h,a,s) for t,h,a,s in platforms)}</div></section>
     <aside class="ed-panel ed-facts">{heading('Era at a glance','bolt')}{''.join(f'<a href="#fast-read">{icon(glyph)}<span><strong>{title}</strong><small>{desc}</small></span></a>' for title,desc,glyph in facts)}</aside></div>
     <div class="ed-games-bottom"><section class="ed-panel">{heading('Deep dives','book')}<div class="ed-five-up">{''.join(tile(t,h,a,s) for t,h,a,s in dives)}</div></section><section class="ed-panel">{heading('From the collection','bolt','/search/?filter=objects')}<div class="ed-three-up">{tile('The six-button advantage','#artifact-genesis-controller','genesis-controller')}{tile('The three-pronged future','#artifact-n64-controller','n64-controller')}{tile('Pocket-sized worlds','/zones/transparent-tech/','game-boy-color')}</div></section></div>'''
 
 
-def timeline():
-    catalog = json.loads((ROOT/'content/editorial/timeline-1996.json').read_text())
-    lead = ''.join(tile(x['title'],x['href'],x['art'],x['description'],x['label'],'ed-event') for x in catalog['juneHighlights'])
-    related = [('Video-store weekends','/zones/tv-movies/','vhs-tape','MOVIES & TV'),('The world goes online','/zones/internet-culture/','aol-cd','TECH'),('Your soundtrack, everywhere','/zones/music/','discman','MUSIC'),('A new way to play','/zones/games/','n64-controller','GAMES')]
-    related_html = ''.join(tile(t,h,a,'',b,'ed-event ed-context') for t,h,a,b in related)
-    months = ''.join(f'<a href="#month-{calendar.month_abbr[i].lower()}">{calendar.month_abbr[i].upper()}</a>' for i in range(1,13))
-    facts = [('GAMES','Nintendo 64 launches in Japan'),('MUSIC','Metallica releases Load'),('PC','Quake arrives on shareware'),('AT HOME','VHS, CDs, and shared screens'),('ON THE WEB','Directories and personal pages')]
-    return hero('timeline')+f'''<nav class="ed-month-rail" aria-label="Browse 1996 months">{months}</nav><div class="ed-timeline-layout"><section class="ed-timeline-main"><div class="ed-timeline-heading"><div><h2>{icon('calendar')} JUNE 1996</h2><p>THREE RELEASES TO REMEMBER · PLUS AROUND THE ARCHIVE</p></div><div class="ed-view-switch" role="group" aria-label="Highlights display style"><span>VIEW:</span><button type="button" data-editorial-view="grid" aria-pressed="true">Grid</button><button type="button" data-editorial-view="list" aria-pressed="false">List</button></div></div><div class="ed-event-grid" data-editorial-grid>{lead}<div class="ed-related-heading">AROUND THE ARCHIVE <span>Life in the decade</span></div><div class="ed-context-grid">{related_html}</div></div><p class="ed-timeline-footnote">Release dates link to publisher sources. Object images illustrate the era.</p></section><aside class="ed-timeline-sidebar"><section class="ed-panel">{heading('Quick facts','bolt')}<dl class="ed-quick-facts">{''.join(f'<div><dt>{title}</dt><dd>{value}</dd></div>' for title,value in facts)}</dl></section><section class="ed-panel">{heading('Cue up the memories','music')}<ol class="ed-spotlight"><li><a href="/zones/music/#artifact-cassette">Make a mixtape <span>›</span></a></li><li><a href="/zones/music/#artifact-discman">Take your CDs everywhere <span>›</span></a></li><li><a href="/zones/tv-movies/">Pick something for movie night <span>›</span></a></li><li><a href="/zones/games/">Call dibs on player one <span>›</span></a></li><li><a href="/zones/internet-culture/">Build a corner of the web <span>›</span></a></li></ol><a class="ed-text-link" href="#top-songs">EXPLORE THE YEAR’S MUSIC →</a></section></aside></div><nav class="ed-decade" aria-label="Explore the decade"><strong>{icon('calendar')} EXPLORE THE DECADE</strong>{''.join(f'<a href="/timeline/{year}/"'+(' aria-current="page"' if year==1996 else '')+f'>{year}</a>' for year in range(1990,2000))}<span>SAME DECADE<br />DIFFERENT DAY</span></nav>'''
-
 
 def main(route):
     kind = CORE[route['path']]
-    composition = {'home':home, 'games':games, 'timeline':timeline}[kind]()
+    composition = {'home':home, 'games':games}[kind]()
     return f'<main id="main-content" class="ed-main ed-page-{kind}">{composition}{discovery()}{preserved_content(route)}</main>'

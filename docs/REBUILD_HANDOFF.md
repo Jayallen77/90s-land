@@ -77,12 +77,18 @@ claims.
 - [x] Phase 1: remove fixed collection ceilings; test growth and loss detection.
 - [x] Phase 2: logo, typography, tokens, shell, shared components, and first three
   hero compositions; compare Home, 1996, and Games against reference canvases.
-- [ ] Phase 3: complete static generation, event calendar, weekly behavior,
+- [x] Phase 3: complete static generation, event calendar, weekly behavior,
   detail pages, expanded search, preserved discovery tools, legacy links.
-- [ ] Phase 4: all eight sections; complete stories/events; source/media review;
+- [x] Phase 4: all eight sections; complete stories/events; source/media review;
   coverage and meaningful filter destinations.
 - [ ] Phase 5: mobile refinement, visual comparison, accessibility, link and
   functional checks, performance measurement, release/rollback preparation.
 
 Read `docs/CONTENT_MIGRATION.md` before reusing or modifying extraction outputs.
 Production publication remains outside this implementation phase.
+
+Phase 3 implementation and authoring details: [PHASE_3.md](PHASE_3.md).
+Verification: [PHASE_3_QA.md](../reports/PHASE_3_QA.md).
+
+Phase 4 content, modules, and source qualifications: [PHASE_4.md](PHASE_4.md).
+Verification: [PHASE_4_QA.md](../reports/PHASE_4_QA.md).

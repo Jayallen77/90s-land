@@ -1,0 +1,50 @@
+[
+  {
+    "name": "calendar-desktop",
+    "route": "/timeline/1996/?month=06&view=calendar",
+    "width": 1440,
+    "height": 1000,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "name": "week-desktop",
+    "route": "/this-week/?date=1996-09-27",
+    "width": 1440,
+    "height": 1000,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "name": "story-desktop",
+    "route": "/stories/a-whole-new-dimension/",
+    "width": 1440,
+    "height": 1000,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "name": "calendar-mobile",
+    "route": "/timeline/1996/?month=06&view=calendar",
+    "width": 390,
+    "height": 844,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "name": "week-mobile",
+    "route": "/this-week/?date=1996-09-27",
+    "width": 390,
+    "height": 844,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "name": "object-mobile",
+    "route": "/archive/objects/n64-controller/",
+    "width": 390,
+    "height": 844,
+    "overflow": 0,
+    "errors": []
+  }
+]

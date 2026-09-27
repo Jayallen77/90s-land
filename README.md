@@ -1,42 +1,63 @@
 # 90s.land
 
-Static nostalgia site, with a reference-driven editorial rebuild in progress.
-Phase 2 replaces Home, the 1996 Timeline, and Games with the approved editorial
-visual system. The shared header/footer span the site; original reading rooms,
-objects, tools, and deep links remain available. Hosting paths from earlier
-prototype notes are not a verified deployment target for this checkout.
+Static nostalgia site with a reference-driven editorial rebuild in progress.
+Phase 4 completes all eight primary sections, with 384 sourced dated events,
+30 original stories, and working topic, genre, and platform filters. The shared editorial shell, original
+reading rooms, museum tools, and old deep links remain available. Hosting paths
+from earlier prototype notes are not a verified deployment target.
 
-## Stack
+## Stack and authoring
 
-Simple static site:
+Python generates dependency-free HTML, CSS, JSON, and browser ES modules.
+Generated public HTML is committed; edit its sources and run the renderer.
 
-- `index.html`
-- `styles.css`
-- `editorial.css` contains the shared design tokens, components, and responsive layouts.
-- `js/` contains small page-aware ES modules.
-- `data/` contains the route, artifact, resource, tour, navigation, and stamp
-  catalogs.
-- `tools/editorial.py` generates the three new compositions and shared shell.
-- `tools/render_site.py` assembles these pages and maintains generated regions in
-  the remaining legacy pages.
+- `content/pages.json` maps the 23 preserved main fragments in `content/pages/`.
+  These balanced fragments are authoritative editable prose, separate from the
+  immutable import. Generated regions inside them still come from catalogs.
+- `content/routes.json` owns the original route metadata. The renderer appends
+  event, story, object, and index routes and writes `data/routes.json`.
+- `content/editorial/catalog.json` owns reviewed events, original stories, source
+  records, relationships, and the explicit build date for static week fallbacks.
+- `content/editorial/modules.json` owns sourced chart snapshots and the curated
+  game shelf. `content/editorial/media-review.json` records the media review.
+- Existing `data/artifacts.json`, `resources.json`, `tours.json`, `stamps.json`, and
+  `navigation.json` remain authoritative for their collections and tools.
+- `data/routes.json`, `editorial-index.json`, and `search-index.json` are generated.
+- `tools/render_site.py` generates every public document; `tools/editorial.py`
+  supplies the shared shell and Home composition. `archive_content.py`
+  validates the dated archive; `archive_pages.py` renders its pages and
+  `hub_pages.py` supplies the section hubs and timeline overview.
+- `styles.css` supports preserved museum content; `editorial.css` supplies the
+  visual system; `archive.css` adds calendars and reading surfaces, and `hub.css`
+  supplies the dense section layouts.
+- `js/date-utils.js` provides civil-date arithmetic. `js/archive.js` progressively
+  enhances the static calendar and weekly page. `js/hubs.js` provides URL-based
+  category, topic, game genre, and platform filters.
 
-Generated HTML is committed. The deployed site remains dependency-free.
+```sh
+python3 tools/render_site.py
+```
 
-## Rebuild preparation
+No build reads public HTML or frozen snapshots. The source-independence test
+rejects either dependency. Do not edit generated HTML to change content.
+
+## Rebuild documentation
 
 - [Phase 1 report and review queue](reports/PHASE_1_MIGRATION.md)
-- [Import schemas, source ownership, and preservation checks](docs/CONTENT_MIGRATION.md)
-- [Approved rebuild decisions and remaining phases](docs/REBUILD_HANDOFF.md)
-- [Phase 2 design system and scope](docs/design/PHASE_2.md)
-- [Phase 2 verification and visual review](reports/PHASE_2_QA.md)
+- [Import schemas and preservation contract](docs/CONTENT_MIGRATION.md)
+- [Approved decisions and remaining phases](docs/REBUILD_HANDOFF.md)
+- [Phase 2 design system](docs/design/PHASE_2.md)
+- [Phase 2 verification](reports/PHASE_2_QA.md)
+- [Phase 3 authoring and behavior](docs/PHASE_3.md)
+- [Phase 3 verification](reports/PHASE_3_QA.md)
+- [Phase 4 content and sections](docs/PHASE_4.md)
+- [Phase 4 verification](reports/PHASE_4_QA.md)
 
-`content/migration/` contains reproducible, unreviewed import records. They do not
-feed the current site. Frozen HTML/catalog snapshots and six visual baselines
-live under `reports/baseline/phase-1/`; the three supplied designs are development
-fixtures under `docs/design/references/`.
-The three new pages include balanced copies of their original main content from
-those frozen snapshots inside expandable reading rooms. New editorial highlights
-live separately in `content/editorial/`; complete content promotion is Phase 3.
+`content/migration/` remains an unreviewed reproducible extraction, not a source
+of published events. Frozen snapshots under `reports/baseline/phase-1/` and supplied
+JPEG references under `docs/design/references/` remain intact. Promoted fragments
+preserve the old prose without certifying old historical claims; day-specific
+entries require separate sources and date notes.
 
 ## Local preview
 
@@ -52,11 +73,13 @@ Before review, run:
 python3 tools/render_site.py --check
 python3 tools/process_media.py --check
 python3 tools/audit_site.py
+python3 tools/check_editorial.py --check
 pnpm content:check
 pnpm content:visual-check
 pnpm test:content
+pnpm test:dates
 pnpm test
-node tools/capture_phase2.mjs
+node tools/capture_phase4.mjs
 ```
 
 `content:baseline` is the retired Phase 1 unchanged-presentation gate. It is

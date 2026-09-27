@@ -1,0 +1,255 @@
+[
+  {
+    "id": "home",
+    "path": "/",
+    "source": "content/pages/home.html.inc",
+    "bodyClass": "",
+    "legacyContentStatus": "preserved-existing-editorial",
+    "origin": {
+      "snapshot": "reports/baseline/phase-1/pages/home.html.txt",
+      "snapshotSha256": "2d42a11a4cc607c5e713399c370a7d48ff3fc40e0d00b4e691dceedd13889044"
+    }
+  },
+  {
+    "id": "guestbook",
+    "path": "/guestbook/",
+    "source": "content/pages/guestbook.html.inc",
+    "bodyClass": "",
+    "legacyContentStatus": "preserved-existing-editorial",
+    "origin": {
+      "snapshot": "reports/baseline/phase-1/pages/guestbook.html.txt",
+      "snapshotSha256": "6d9b4597c809784eafa5b7892139f46de2926e8a37aba0d530b9827cf5834003"
+    }
+  },
+  {
+    "id": "search",
+    "path": "/search/",
+    "source": "content/pages/search.html.inc",
+    "bodyClass": "",
+    "legacyContentStatus": "preserved-existing-editorial",
+    "origin": {
+      "snapshot": "reports/baseline/phase-1/pages/search.html.txt",
+      "snapshotSha256": "040f105d3f2f2b0e26e242de03768b546ae74110f0badf4ebd95b01dd0dc23b9"
+    }
+  },
+  {
+    "id": "sitemap",
+    "path": "/sitemap/",
+    "source": "content/pages/sitemap.html.inc",
+    "bodyClass": "",
+    "legacyContentStatus": "preserved-existing-editorial",
+    "origin": {
+      "snapshot": "reports/baseline/phase-1/pages/sitemap.html.txt",
+      "snapshotSha256": "08fb296f123a12f99b0e7c728905017a39a1b950b4a6f3da501b2f02ba1da5fa"
+    }
+  },
+  {
+    "id": "timeline",
+    "path": "/timeline/",
+    "source": "content/pages/timeline.html.inc",
+    "bodyClass": "",
+    "legacyContentStatus": "preserved-existing-editorial",
+    "origin": {
+      "snapshot": "reports/baseline/phase-1/pages/timeline.html.txt",
+      "snapshotSha256": "e7a3481b4f305618e0151c93eb78fbf7aee7f1932062f583c2cba11159ead35d"
+    }
+  },
+  {
+    "id": "webring",
+    "path": "/webring/",
+    "source": "content/pages/webring.html.inc",
+    "bodyClass": "",
+    "legacyContentStatus": "preserved-existing-editorial",
+    "origin": {
+      "snapshot": "reports/baseline/phase-1/pages/webring.html.txt",
+      "snapshotSha256": "adb9cf38138f4cdc1316f6c5896aa6179f39a6da3964af1778cd6b997efcf5c5"
+    }
+  },
+  {
+    "id": "timeline-1990",
+    "path": "/timeline/1990/",
+    "source": "content/pages/timeline-1990.html.inc",
+    "bodyClass": "",
+    "legacyContentStatus": "preserved-existing-editorial",
+    "origin": {
+      "snapshot": "reports/baseline/phase-1/pages/timeline-1990.html.txt",
+      "snapshotSha256": "22516587edd6c5e41eac8a49efcc0cebde57c7ba17116854c7a1eb7ffe85217b"
+    }
+  },
+  {
+    "id": "timeline-1991",
+    "path": "/timeline/1991/",
+    "source": "content/pages/timeline-1991.html.inc",
+    "bodyClass": "",
+    "legacyContentStatus": "preserved-existing-editorial",
+    "origin": {
+      "snapshot": "reports/baseline/phase-1/pages/timeline-1991.html.txt",
+      "snapshotSha256": "457b120bac82975928eca0a8ecb1c5cfeb4296c474865f256db66bd1aebce442"
+    }
+  },
+  {
+    "id": "timeline-1992",
+    "path": "/timeline/1992/",
+    "source": "content/pages/timeline-1992.html.inc",
+    "bodyClass": "",
+    "legacyContentStatus": "preserved-existing-editorial",
+    "origin": {
+      "snapshot": "reports/baseline/phase-1/pages/timeline-1992.html.txt",
+      "snapshotSha256": "66448f56f643450277b1dd96107674353a300975b4f1e620608f75cab745a8df"
+    }
+  },
+  {
+    "id": "timeline-1993",
+    "path": "/timeline/1993/",
+    "source": "content/pages/timeline-1993.html.inc",
+    "bodyClass": "",
+    "legacyContentStatus": "preserved-existing-editorial",
+    "origin": {
+      "snapshot": "reports/baseline/phase-1/pages/timeline-1993.html.txt",
+      "snapshotSha256": "37b1ea7cf2137690137c2a2a8b485f4b083e0de2b183c7000fa7c8484c2eb9ef"
+    }
+  },
+  {
+    "id": "timeline-1994",
+    "path": "/timeline/1994/",
+    "source": "content/pages/timeline-1994.html.inc",
+    "bodyClass": "",
+    "legacyContentStatus": "preserved-existing-editorial",
+    "origin": {
+      "snapshot": "reports/baseline/phase-1/pages/timeline-1994.html.txt",
+      "snapshotSha256": "70b5ac857bf6db946b59230babe022a1e91661ff7d6ee7544b20be70353be39c"
+    }
+  },
+  {
+    "id": "timeline-1995",
+    "path": "/timeline/1995/",
+    "source": "content/pages/timeline-1995.html.inc",
+    "bodyClass": "",
+    "legacyContentStatus": "preserved-existing-editorial",
+    "origin": {
+      "snapshot": "reports/baseline/phase-1/pages/timeline-1995.html.txt",
+      "snapshotSha256": "9df08fc648e43aa78e46cbbff0c972ba2454a6e24772f07f556b2d4f2002cbe5"
+    }
+  },
+  {
+    "id": "timeline-1996",
+    "path": "/timeline/1996/",
+    "source": "content/pages/timeline-1996.html.inc",
+    "bodyClass": "",
+    "legacyContentStatus": "preserved-existing-editorial",
+    "origin": {
+      "snapshot": "reports/baseline/phase-1/pages/timeline-1996.html.txt",
+      "snapshotSha256": "8727c0deb0c04a7c997241a4a1d676badf5eded3e7857f82aae4778c6efb7e3a"
+    }
+  },
+  {
+    "id": "timeline-1997",
+    "path": "/timeline/1997/",
+    "source": "content/pages/timeline-1997.html.inc",
+    "bodyClass": "",
+    "legacyContentStatus": "preserved-existing-editorial",
+    "origin": {
+      "snapshot": "reports/baseline/phase-1/pages/timeline-1997.html.txt",
+      "snapshotSha256": "93f8000d9777d33a23284fce11cd11cc7c55808f83038cdb7aadd8795f507b1c"
+    }
+  },
+  {
+    "id": "timeline-1998",
+    "path": "/timeline/1998/",
+    "source": "content/pages/timeline-1998.html.inc",
+    "bodyClass": "",
+    "legacyContentStatus": "preserved-existing-editorial",
+    "origin": {
+      "snapshot": "reports/baseline/phase-1/pages/timeline-1998.html.txt",
+      "snapshotSha256": "865021e5194e3d5839d8d509903ba9d01e0d61194c3ce436ba7c0e31dab76d80"
+    }
+  },
+  {
+    "id": "timeline-1999",
+    "path": "/timeline/1999/",
+    "source": "content/pages/timeline-1999.html.inc",
+    "bodyClass": "",
+    "legacyContentStatus": "preserved-existing-editorial",
+    "origin": {
+      "snapshot": "reports/baseline/phase-1/pages/timeline-1999.html.txt",
+      "snapshotSha256": "d897e6e4d900228201899eef1c8654edfa3fc0c9f1d293ab15ae4596b410e032"
+    }
+  },
+  {
+    "id": "zones-fashion",
+    "path": "/zones/fashion/",
+    "source": "content/pages/zones-fashion.html.inc",
+    "bodyClass": "",
+    "legacyContentStatus": "preserved-existing-editorial",
+    "origin": {
+      "snapshot": "reports/baseline/phase-1/pages/zones-fashion.html.txt",
+      "snapshotSha256": "ea0952b146cff69ae7146bcd6a3985eef102ce6c9c9895619ff7764442d39e38"
+    }
+  },
+  {
+    "id": "zones-games",
+    "path": "/zones/games/",
+    "source": "content/pages/zones-games.html.inc",
+    "bodyClass": "",
+    "legacyContentStatus": "preserved-existing-editorial",
+    "origin": {
+      "snapshot": "reports/baseline/phase-1/pages/zones-games.html.txt",
+      "snapshotSha256": "df95e90e210b383d458890537a34af312a1ab2bf26e7e16f38b8157682c947fe"
+    }
+  },
+  {
+    "id": "zones-internet-culture",
+    "path": "/zones/internet-culture/",
+    "source": "content/pages/zones-internet-culture.html.inc",
+    "bodyClass": "",
+    "legacyContentStatus": "preserved-existing-editorial",
+    "origin": {
+      "snapshot": "reports/baseline/phase-1/pages/zones-internet-culture.html.txt",
+      "snapshotSha256": "6c3dbfb0929de5f8b5439a83d93aa6530aac96a514c509beead859d0d0d79445"
+    }
+  },
+  {
+    "id": "zones-music",
+    "path": "/zones/music/",
+    "source": "content/pages/zones-music.html.inc",
+    "bodyClass": "",
+    "legacyContentStatus": "preserved-existing-editorial",
+    "origin": {
+      "snapshot": "reports/baseline/phase-1/pages/zones-music.html.txt",
+      "snapshotSha256": "163c587a4060085eee1ee94d48304e460c115bcf7396397cd57177f5df681ec5"
+    }
+  },
+  {
+    "id": "zones-tech-toys",
+    "path": "/zones/tech-toys/",
+    "source": "content/pages/zones-tech-toys.html.inc",
+    "bodyClass": "",
+    "legacyContentStatus": "preserved-existing-editorial",
+    "origin": {
+      "snapshot": "reports/baseline/phase-1/pages/zones-tech-toys.html.txt",
+      "snapshotSha256": "0afec4054c7222eb7f4dd58ff49c7069f7f3f9b41b1d1ae0a216792e1c3d6f40"
+    }
+  },
+  {
+    "id": "zones-transparent-tech",
+    "path": "/zones/transparent-tech/",
+    "source": "content/pages/zones-transparent-tech.html.inc",
+    "bodyClass": "",
+    "legacyContentStatus": "preserved-existing-editorial",
+    "origin": {
+      "snapshot": "reports/baseline/phase-1/pages/zones-transparent-tech.html.txt",
+      "snapshotSha256": "41329e0b2690193b7bf511b8da38ffce0b72f53e06135d33710148cceea1047e"
+    }
+  },
+  {
+    "id": "zones-tv-movies",
+    "path": "/zones/tv-movies/",
+    "source": "content/pages/zones-tv-movies.html.inc",
+    "bodyClass": "",
+    "legacyContentStatus": "preserved-existing-editorial",
+    "origin": {
+      "snapshot": "reports/baseline/phase-1/pages/zones-tv-movies.html.txt",
+      "snapshotSha256": "6f34f8bea307b2e2c29f892920e90a62a448998cc91fea50cfafd1cb24040c02"
+    }
+  }
+]

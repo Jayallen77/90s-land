@@ -1,14 +1,15 @@
 import { test, expect } from '@playwright/test';
+import catalog from '../content/editorial/catalog.json' with { type: 'json' };
 
-test('new timeline highlights switch between grid and list', async ({ page }) => {
-  await page.goto('/timeline/1996/');
-  const grid = page.locator('[data-editorial-grid]');
-  await expect(grid.locator(':scope > .ed-event')).toHaveCount(3);
-  await page.locator('[data-editorial-view="list"]').click();
-  await expect(grid).toHaveAttribute('data-view', 'list');
-  await expect(page.locator('[data-editorial-view="list"]')).toHaveAttribute('aria-pressed', 'true');
-  await page.locator('[data-editorial-view="grid"]').click();
-  await expect(grid).toHaveAttribute('data-view', 'grid');
+test('dated highlights switch between grid and list', async ({ page }) => {
+  await page.goto('/timeline/1996/?month=06');
+  const grid = page.locator('[data-month-panel="6"] .ar-event-grid');
+  await expect(grid.locator('.ar-event')).toHaveCount(catalog.events.filter(e=>e.date.startsWith('1996-06')).length);
+  await page.locator('[data-archive-view="list"]').click();
+  await expect(page.locator('[data-timeline]')).toHaveAttribute('data-view', 'list');
+  await expect(page.locator('[data-archive-view="list"]')).toHaveAttribute('aria-pressed', 'true');
+  await page.locator('[data-archive-view="grid"]').click();
+  await expect(page.locator('[data-timeline]')).toHaveAttribute('data-view', 'grid');
 });
 
 test('old direct links open the preserved room and reveal the target', async ({ page }) => {

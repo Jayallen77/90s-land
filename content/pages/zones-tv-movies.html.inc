@@ -1,0 +1,289 @@
+<main id="main-content" class="capsule-main">
+    <section class="window page-hero year-page capsule-hero">
+      <div class="window-bar"><span>TV_GUIDE_VHS.HTML</span><span class="window-buttons" aria-hidden="true">_ □ ×</span></div>
+      <div class="page-pad capsule-hero-grid">
+        <div>
+          <nav class="breadcrumbs"><a href="/">Home</a> / Zones / TV / Movies</nav>
+          <p class="eyebrow">portal zone // media-first museum room</p>
+          <h1><span class="pixel-icon">VHS</span> TV / Movies</h1>
+          <p class="lede">Cable surfing, Blockbuster nights, TGIF appointment TV, Saturday-morning cartoons, trailer voices, tape hiss, and the tiny household rituals that made 90s screen culture feel scheduled, social, and collectible.</p>
+          <div class="highlight-strip"><span>CRT glow</span><span>VHS labels</span><span>TV Guide circles</span><span>Blockbuster runs</span><span>trailer-voice drama</span></div>
+          <div class="hero-actions">
+            <a class="button primary" href="#photo-showroom">Open photo stack</a>
+            <a class="button" href="#screen-artifacts">Browse objects</a>
+            <a class="button" href="#screen-media">Open media desk</a>
+          </div>
+        </div>
+        <aside class="capsule-glance" aria-label="TV and movie room at a glance">
+          <p class="portal-kicker">At a glance</p>
+          <h2>From couch schedule to rental return</h2>
+          <div class="capsule-tags"><span>shared rituals</span><span>screen objects</span><span>friend-sendable route</span></div>
+          <p class="mini-note">This rebuild cuts the room down into a faster route: sourced visuals first, object labels second, then short launchpads into cartoons, cable, trailers, and VHS-era texture.</p>
+          <a class="button primary" href="#channel-surf-path">Start channel surfing</a>
+        </aside>
+      </div>
+    </section>
+
+    <nav class="capsule-jump-nav" aria-label="TV and movie room navigation">
+      <a href="#why">Why it mattered</a>
+      <a href="#photo-showroom">Photo stack</a>
+      <a href="#fast-read">Fast read</a>
+      <a href="#channel-surf-path">Surf path</a>
+      <a href="#screen-artifacts">Objects</a>
+      <a href="#screen-media">Media desk</a>
+    </nav>
+
+    <section class="portal-content standalone year-deep-dive capsule-layout">
+      <section class="portal-box capsule-section why-card" id="why">
+        <p class="portal-kicker">Why this room matters</p>
+        <h2>The 90s screen was a shared schedule, not an infinite queue.</h2>
+        <p>You watched what was on, what somebody taped, what the rental clerk still had behind the counter, or what your friend insisted everyone quote at lunch. Screen culture moved through TV Guides, cable blocks, VHS cases, trailers before movies, and the weird luck of catching something halfway through. The room works better when those props show up immediately.</p>
+      </section>
+
+      <section class="portal-box capsule-section" id="photo-showroom">
+        <div class="section-heading compact-heading">
+          <p class="eyebrow">Photo stack</p>
+          <h2>Sourced visuals from the couch-to-video-store loop.</h2>
+          <p>Three fast anchors for the room: the living-room screen, the tape itself, and the storefront that turned movie night into a mission.</p>
+        </div>
+        <div class="media-figure-grid">
+          <figure class="media-figure-card feature-figure">
+            <img src="/assets/media/tv-movies/1990s-television-set.jpg" alt="A chunky 1990s CRT television set photographed front-on with built-in speakers and a curved glass screen."  width="409" height="592"  loading="lazy"  decoding="async" />
+            <figcaption>
+              <strong>Living-room CRT with the whole night inside it</strong>
+              <p>The object that made cartoons, sitcoms, local ads, awards shows, and random halfway-through movies feel like one shared household stream before the stream existed.</p>
+              <p class="figure-source">Source: Wikimedia Commons, "1990s Television Set" (CC BY 4.0).</p>
+              <div class="figure-links"><a href="https://commons.wikimedia.org/wiki/File:1990s_Television_Set.jpg" target="_blank" rel="noopener noreferrer">source ↗</a><a href="/search/?filter=objects&q=TV+Guide">TV Guide object trail</a></div>
+            </figcaption>
+          </figure>
+          <figure class="media-figure-card">
+            <img src="/assets/media/tv-movies/vhs-videocassette-front.jpg" alt="A black VHS videocassette photographed from the front, with its label area and clear reel windows visible."  width="1280" height="854"  loading="lazy"  decoding="async" />
+            <figcaption>
+              <strong>VHS cassette waiting by the VCR</strong>
+              <p>The tape itself carried the wrapper culture: station IDs, trailers, toy commercials, handwritten labels, rewinding arguments, and the fear of recording over something important.</p>
+              <p class="figure-source">Source: Wikimedia Commons, "VHS videocassette - front" (CC BY-SA 4.0).</p>
+              <div class="figure-links"><a href="https://commons.wikimedia.org/wiki/File:VHS_videocassette_-_front.jpg" target="_blank" rel="noopener noreferrer">source ↗</a><a href="https://archive.org/details/vhsvault" target="_blank" rel="noopener noreferrer">VHS Vault ↗</a></div>
+            </figcaption>
+          </figure>
+          <figure class="media-figure-card">
+            <img src="/assets/media/tv-movies/blockbuster-storefront.jpg" alt="A Blockbuster Video storefront at dusk with the large blue-and-yellow sign glowing above the entrance."  width="1280" height="960"  loading="lazy"  decoding="async" />
+            <figcaption>
+              <strong>Blockbuster storefront as weekend starting gun</strong>
+              <p>The fluorescent aisle mattered almost as much as the movie: box-art decisions, staff-pick trust, one-copy-left panic, and the whole ritual of turning a Friday night into a group negotiation.</p>
+              <p class="figure-source">Source: Wikimedia Commons, "Anchorage Blockbuster video store" (CC BY 2.0).</p>
+              <div class="figure-links"><a href="https://commons.wikimedia.org/wiki/File:Anchorage_Blockbuster_video_store_(41894012562).jpg" target="_blank" rel="noopener noreferrer">source ↗</a><a href="/timeline/1997/">1997 blockbuster bridge</a></div>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="portal-box capsule-section" id="fast-read">
+        <p class="portal-kicker">Fast read</p>
+        <h2>Why 90s screen culture is easy to recognize fast</h2>
+        <ul>
+          <li><strong>The schedule mattered.</strong> Missing a show meant waiting for a rerun, setting the VCR, or hearing about it at school the next day.</li>
+          <li><strong>The wrapper mattered.</strong> Commercials, station IDs, bumpers, trailers, and tape labels carry as much memory as the main feature.</li>
+          <li><strong>The store mattered.</strong> Movie choice was social, physical, and constrained by what was still on the shelf.</li>
+          <li><strong>The household mattered.</strong> One TV, one guide, one couch plan, and a lot of negotiation.</li>
+        </ul>
+        <h3>Open the strongest screen-culture clicks first</h3>
+        <ul>
+          <li><a href="/timeline/1992/">1992</a> — kid blocks, cable identity, and cartoon-era TV texture.</li>
+          <li><a href="/timeline/1997/">1997</a> — blockbuster monoculture, Titanic, Buffy, and DVD-era crossover.</li>
+          <li><a href="https://90s.myretrotvs.com/" target="_blank" rel="noopener noreferrer">My 90’s TV ↗</a> — ambient channel-surf energy when you want the room to move.</li>
+          <li><a href="https://archive.org/details/vhsvault" target="_blank" rel="noopener noreferrer">VHS Vault ↗</a> — broadcast leftovers, commercials, and tape wobble when you want the wrapper back.</li>
+        </ul>
+      </section>
+
+      <section class="portal-box capsule-section" id="channel-surf-path">
+        <div class="section-heading compact-heading">
+          <p class="eyebrow">Guided channel-surf path</p>
+          <h2>Four quick stops from cereal bowl to rental return.</h2>
+          <p>Shorter, cleaner, and easier to share than a long generic genre list.</p>
+        </div>
+        <div class="capsule-card-grid">
+          <article class="portal-box capsule-card">
+            <p class="portal-kicker">01 // kid-block boot screen</p>
+            <h3>Start with Saturday-morning television</h3>
+            <p>Cereal, bumpers, toy ads, cartoons, and the feeling that one weekly block contained an entire little universe.</p>
+            <a href="/timeline/1992/">Visit 1992 cartoon / cable era</a>
+          </article>
+          <article class="portal-box capsule-card">
+            <p class="portal-kicker">02 // after-school cable portal</p>
+            <h3>Slide into logo-bug channel surfing</h3>
+            <p>Nickelodeon, MTV, Cartoon Network, Disney Channel, Discovery, and whatever movie channel had something strange playing halfway through.</p>
+            <a href="https://90s.myretrotvs.com/" target="_blank" rel="noopener noreferrer">Try My 90’s TV ↗</a>
+          </article>
+          <article class="portal-box capsule-card">
+            <p class="portal-kicker">03 // event-screen monoculture</p>
+            <h3>Then hit the blockbuster / finale years</h3>
+            <p>TGIF couches, teen-drama theories, giant movie posters, and the exact years when screens started feeling national and unavoidable.</p>
+            <a href="/timeline/1997/">Open 1997 screen glow</a>
+          </article>
+          <article class="portal-box capsule-card">
+            <p class="portal-kicker">04 // tape-wrapper archaeology</p>
+            <h3>Finish with the preserved leftovers</h3>
+            <p>Commercials, local ads, trailer reels, station IDs, and all the accidental texture streaming usually strips away.</p>
+            <a href="https://archive.org/details/vhsvault" target="_blank" rel="noopener noreferrer">Browse VHS Vault ↗</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="portal-box capsule-section" id="screen-artifacts">
+        <div class="section-heading compact-heading">
+          <p class="eyebrow">Object shelf</p>
+          <h2>Five props that make the room click into focus.</h2>
+          <p>Use the objects when you remember the prop before you remember the exact show or movie.</p>
+        </div>
+        <div class="museum-object-grid">
+          <article class="museum-object-card">
+            <div class="object-meta"><span>screen object</span><span>living room / den / basement couch</span></div>
+            <h3>CRT television with one strong favorite channel memorized</h3>
+            <p>The TV itself anchored the routine: favorite inputs, volume jumps during commercials, and the little delay before you knew whether the tape or the channel was winning.</p>
+            <p class="object-note"><strong>Why it matters:</strong> one household screen made TV feel communal by default.</p>
+            <div class="object-links"><a href="#photo-showroom">photo stack</a><a href="/search/?filter=objects&q=TV+Guide">artifact atlas query</a></div>
+          </article>
+          <article class="museum-object-card">
+            <div class="object-meta"><span>tape object</span><span>recorded off live TV</span></div>
+            <h3>VHS tape with a handwritten spine and two ads left in</h3>
+            <p>The accidental commercials are half the memory: local car lots, toy promos, station IDs, and whatever got preserved because nobody hit pause fast enough.</p>
+            <p class="object-note"><strong>Why it matters:</strong> 90s screen memory includes the broadcast wrapper, not just the show.</p>
+            <div class="object-links"><a href="https://archive.org/details/vhsvault" target="_blank" rel="noopener noreferrer">VHS Vault ↗</a><a href="/timeline/1993/">1993 screen stop</a></div>
+          </article>
+          <article class="museum-object-card">
+            <div class="object-meta"><span>schedule object</span><span>coffee table / fridge magnet zone</span></div>
+            <h3>TV Guide page with circles around the night plan</h3>
+            <p>A whole household media algorithm drawn in pen: sitcoms, one movie, maybe an awards show, and the exact time everyone needs to be near the couch.</p>
+            <p class="object-note"><strong>Why it matters:</strong> the decade’s screen life runs on schedules, not infinite scroll.</p>
+            <div class="object-links"><a href="/timeline/1994/">1994 couch-TV bridge</a><a href="/timeline/1997/">1997 blockbuster bridge</a></div>
+          </article>
+          <article class="museum-object-card">
+            <div class="object-meta"><span>rental object</span><span>fluorescent aisle evidence</span></div>
+            <h3>Blockbuster case with a late-fee receipt inside</h3>
+            <p>Movie choice used to be box art, staff picks, and whether the new-release copy was actually still there when you arrived.</p>
+            <p class="object-note"><strong>Why it matters:</strong> discovery was physical, social, and constrained — which made the pick itself memorable.</p>
+            <div class="object-links"><a href="/timeline/1997/">1997 blockbuster bridge</a><a href="#channel-surf-path">surf path</a></div>
+          </article>
+          <article class="museum-object-card">
+            <div class="object-meta"><span>promo object</span><span>multiplex lobby / taped-off-air ad break</span></div>
+            <h3>Trailer voice-over that sold the whole weekend in 45 seconds</h3>
+            <p>Before autoplay, hype lived in preview reels, movie-theater standees, and a single dramatic voice making next Friday sound unavoidable.</p>
+            <p class="object-note"><strong>Why it matters:</strong> anticipation was a major part of screen culture, not just the viewing itself.</p>
+            <div class="object-links"><a href="https://www.youtube.com/results?search_query=1990s+movie+trailers" target="_blank" rel="noopener noreferrer">trailer search ↗</a><a href="/zones/music/">soundtrack bridge</a></div>
+          </article>
+        </div>
+      </section>
+
+      <div class="portal-columns" id="screen-media">
+        <div class="portal-box">
+          <div class="section-heading compact-heading">
+            <p class="eyebrow">Media desk</p>
+            <h2>Open the right source for the right memory.</h2>
+            <p>The point is not autoplay everywhere. It is having the right launchpad for clips, tape texture, trailers, and browsing.</p>
+          </div>
+          <div class="media-callout-grid">
+            <article class="media-callout">
+              <div class="callout-meta"><span>ambient watch path</span><span>TV texture</span></div>
+              <h3>My 90’s TV for accidental channel energy</h3>
+              <p>Best when you want commercials, news fragments, trailers, and channel bumps to put the room back in motion.</p>
+              <p class="callout-note"><strong>Source context:</strong> nostalgia channel-surf simulator — more mood machine than exact archive.</p>
+              <div class="callout-links"><a href="https://90s.myretrotvs.com/" target="_blank" rel="noopener noreferrer">Open My 90’s TV ↗</a><a href="/webring/?filter=tv-music-media#directory">TV/media shelf</a></div>
+            </article>
+            <article class="media-callout">
+              <div class="callout-meta"><span>archive watch path</span><span>broadcast leftovers</span></div>
+              <h3>Internet Archive VHS Vault for tape-era texture</h3>
+              <p>Use this when you specifically want preserved broadcasts, commercials, tape wobble, and the messy edges that streaming usually strips away.</p>
+              <p class="callout-note"><strong>Source context:</strong> archival uploads / preservation layer, best for ephemera and wrapper culture.</p>
+              <div class="callout-links"><a href="https://archive.org/details/vhsvault" target="_blank" rel="noopener noreferrer">Open VHS Vault ↗</a><a href="#screen-artifacts">artifact shelf</a></div>
+            </article>
+            <article class="media-callout">
+              <div class="callout-meta"><span>browse path</span><span>movie-memory drift</span></div>
+              <h3>Letterboxd decade browsing when you remember the poster before the title</h3>
+              <p>When you remember the cast, the quote, the VHS cover, or the mall-theater vibe but not the exact movie, this is the cleanest browse companion for the room.</p>
+              <p class="callout-note"><strong>Source context:</strong> modern catalog / discovery layer, useful as a movie-memory index rather than a preservation archive.</p>
+              <div class="callout-links"><a href="https://letterboxd.com/films/decade/1990s/" target="_blank" rel="noopener noreferrer">Browse 1990s films ↗</a><a href="/timeline/1999/">1999 movie mythology</a></div>
+            </article>
+          </div>
+        </div>
+        <div class="portal-box" id="screen-links">
+          <h3>Related portal exits</h3>
+          <ul class="portal-link-list">
+            <li><a href="/timeline/1992/">1992</a> — cartoons, cable identity, and early-decade TV texture.</li>
+            <li><a href="/timeline/1997/">1997</a> — Titanic, Buffy, DVDs, and blockbuster appointment culture.</li>
+            <li><a href="/zones/music/">Music</a> — MTV, soundtrack spillover, TRL, and pop-countdown energy.</li>
+            <li><a href="/zones/internet-culture/">Internet Culture</a> — fan pages, quote archives, episode guides, and message-board theories.</li>
+            <li><a href="/webring/?filter=tv-music-media#directory">Explore/Webring TV + media shelf</a> — broader 90s.land media resources.</li>
+            <li><a href="/search/?filter=objects&q=VHS">Artifact atlas: VHS tape</a> — browse the wider museum by object before you commit to a route.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="portal-box artifact-box">
+        <p class="portal-kicker">Museum prompt</p>
+        <h3>Program one perfect 90s night.</h3>
+        <p>Rules: one cartoon block, one sitcom, one music video, one movie rental, one commercial you secretly love, and one snack that definitely leaves dust on the controller.</p>
+      </div>
+    </section>
+  <!-- generated:artifact-shelf:start -->
+    <section class="panel artifact-shelf" aria-labelledby="artifactShelfTitle-zones-tv-movies">
+      <div class="section-heading compact-heading">
+        <p class="eyebrow">Passport exhibit tray</p>
+        <h2 id="artifactShelfTitle-zones-tv-movies">Objects you can inspect here.</h2>
+        <p>Open a curator label, stamp the object, then follow its next connection.</p>
+      </div>
+      <div class="artifact-ticket-grid">
+      <article class="artifact-ticket" id="artifact-vhs-tape" data-artifact-id="vhs-tape">
+        <div class="artifact-ticket-media"><img src="/assets/media/tv-movies/vhs-videocassette-front.jpg" alt="Black VHS cassette with clear reel windows and blank label area." width="1280" height="854" loading="lazy" decoding="async" /></div>
+        <div class="artifact-ticket-copy">
+          <p class="artifact-label">the whole night on one tape · 1990–1999</p>
+          <h3>VHS videocassette</h3>
+        <details>
+          <summary>Open curator label</summary>
+          <p>Handwritten labels, recorded commercials, trailers, and rewinding arguments lived inside the same plastic shell.</p>
+          <p><strong>Why it mattered:</strong> VHS made screen culture ownable, repeatable, and full of accidental context.</p>
+          <p class="artifact-credit"><a href="https://commons.wikimedia.org/wiki/File:VHS_videocassette_-_front.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons ↗</a> · CC BY-SA 4.0</p>
+        </details>
+          <div class="artifact-actions">
+            <button class="button inspect-button" type="button" data-artifact-inspect="vhs-tape">Inspect + stamp</button>
+            <a href="/zones/tv-movies/#artifact-vhs-tape">Open exhibit</a>
+          </div>
+        </div>
+      </article>
+      <article class="artifact-ticket" id="artifact-crt-television" data-artifact-id="crt-television">
+        <div class="artifact-ticket-media"><img src="/assets/media/tv-movies/1990s-television-set.jpg" alt="Chunky 1990s CRT television with curved glass and built-in speakers." width="409" height="592" loading="lazy" decoding="async" /></div>
+        <div class="artifact-ticket-copy">
+          <p class="artifact-label">shared-screen gravity · 1990–1999</p>
+          <h3>Living-room CRT television</h3>
+        <details>
+          <summary>Open curator label</summary>
+          <p>Cartoons, sitcoms, local ads, and half-finished movies all arrived through one household object.</p>
+          <p><strong>Why it mattered:</strong> The shared television schedule gave the decade a common rhythm before streaming fragmented attention.</p>
+          <p class="artifact-credit"><a href="https://commons.wikimedia.org/wiki/File:1990s_Television_Set.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons ↗</a> · CC BY 4.0</p>
+        </details>
+          <div class="artifact-actions">
+            <button class="button inspect-button" type="button" data-artifact-inspect="crt-television">Inspect + stamp</button>
+            <a href="/zones/tv-movies/#artifact-crt-television">Open exhibit</a>
+          </div>
+        </div>
+      </article>
+      <article class="artifact-ticket" id="artifact-blockbuster-store" data-artifact-id="blockbuster-store">
+        <div class="artifact-ticket-media"><img src="/assets/media/tv-movies/blockbuster-storefront.jpg" alt="Blockbuster Video storefront at dusk with its blue-and-yellow sign lit." width="1280" height="960" loading="lazy" decoding="async" /></div>
+        <div class="artifact-ticket-copy">
+          <p class="artifact-label">Friday-night starting gun · 1990–1999</p>
+          <h3>Blockbuster storefront</h3>
+        <details>
+          <summary>Open curator label</summary>
+          <p>The glowing sign began a group negotiation conducted through box art and one-copy-left panic.</p>
+          <p><strong>Why it mattered:</strong> Rental stores turned choosing media into a physical, social ritual.</p>
+          <p class="artifact-credit"><a href="https://commons.wikimedia.org/wiki/File:Anchorage_Blockbuster_video_store_(41894012562).jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons ↗</a> · CC BY 2.0</p>
+        </details>
+          <div class="artifact-actions">
+            <button class="button inspect-button" type="button" data-artifact-inspect="blockbuster-store">Inspect + stamp</button>
+            <a href="/zones/tv-movies/#artifact-blockbuster-store">Open exhibit</a>
+          </div>
+        </div>
+      </article>
+      </div>
+    </section>
+<!-- generated:artifact-shelf:end -->
+  </main>

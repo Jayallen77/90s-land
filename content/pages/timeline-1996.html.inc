@@ -1,0 +1,389 @@
+<main id="main-content" class="capsule-main">
+    <section class="window page-hero year-page capsule-hero">
+      <div class="window-bar"><span>1996_TIME_CAPSULE</span><span class="window-buttons" aria-hidden="true">_ □ ×</span></div>
+      <div class="page-pad capsule-hero-grid">
+        <div>
+          <nav class="breadcrumbs"><a href="/">Home</a> / <a href="/timeline/">Timeline</a> / 1996</nav>
+          <p class="eyebrow">collectibles + counters</p>
+          <h1>1996: Pocket monsters and web counters</h1>
+          <p class="lede">Pokémon, Nintendo 64, GeoCities, ICQ, <i>Space Jam</i>, <i>Scream</i>, and Macarena energy turn collecting, screen names, and summer monoculture into daily rituals.</p>
+          <div class="highlight-strip"><span>Pokémon</span><span>Nintendo 64</span><span>GeoCities</span><span>ICQ</span><span>Space Jam</span><span>Macarena</span></div>
+          <div class="hero-actions"><a class="button primary" href="#photo-showroom">Open photo stack</a><a class="button" href="#news-desk">Open July news desk</a><a class="button" href="#timeline-months">Browse months</a></div>
+          <div class="year-nav capsule-year-nav"><a class="button ghost" href="/timeline/1995/">← 1995</a><a class="button primary" href="/timeline/1997/">1997 →</a></div>
+        </div>
+        <aside class="capsule-glance" aria-label="1996 at a glance">
+          <p class="portal-kicker">At a glance</p>
+          <h2>1996</h2>
+          <div class="capsule-tags"><span>personal pages</span><span>3D games</span><span>toy hype</span></div>
+          <p class="mini-note">This is the year the web stops feeling solitary. Counters, guestbooks, and ICQ numbers turn the internet into a place where people leave traces for each other.</p>
+          <a class="button primary" href="#timeline-months">Browse the year</a>
+        </aside>
+      </div>
+    </section>
+    <nav class="capsule-jump-nav" aria-label="Year section navigation">
+      <a href="#why">Why</a><a href="#photo-showroom">Photos</a><a href="#fast-read">Fast read</a><a href="#timeline-months">Months</a><a href="#news-desk">News</a><a href="#culture-grid">Culture</a><a href="#museum-objects">Objects</a><a href="#media-desk">Media desk</a><a href="#top-songs">Music</a>
+    </nav>
+    <section class="portal-content standalone year-deep-dive capsule-layout">
+      <section class="portal-box capsule-section why-card" id="why">
+        <p class="portal-kicker">Why this year matters</p>
+        <h2>1996 is when the decade starts behaving like a social desktop: friend codes, guestbooks, toy collecting, soundtrack summers, and 3D games all become things you swap, compare, and carry around with other people.</h2>
+        <p>The year still belongs to malls, radio, VHS trailers, and food-court gravity, but the web finally feels less like a library and more like a neighborhood with handles, counters, and inside jokes.</p>
+      </section>
+
+      <section class="portal-box capsule-section" id="photo-showroom">
+        <div class="section-heading compact-heading"><p class="eyebrow">Photo proof</p><h2>1996 needs visible room-proof, not just a good paragraph.</h2><p>The year clicks faster when you can see the three big props at once: the weird new controller, the mailed invitation to get online, and the tape-era wrapper culture still running the room around both.</p></div>
+        <div class="media-figure-grid">
+          <figure class="media-figure-card feature-figure">
+            <img src="/assets/media/games/n64-controller-gray.jpg" alt="A gray Nintendo 64 controller photographed at an angle, showing the three-prong grip and analog stick in the center."  width="1280" height="1021"  loading="lazy"  decoding="async" />
+            <figcaption>
+              <strong>The Nintendo 64 controller as a 3D-era argument in plastic</strong>
+              <p>1996 gaming does not just become more advanced. It becomes more discussable. The three-prong grip, the center stick, and the waiting-your-turn couch geometry make the year feel social before a single level loads.</p>
+              <p class="figure-source">Source: Wikimedia Commons, "N64-Controller-Gray" (public domain).</p>
+              <div class="figure-links"><a href="https://commons.wikimedia.org/wiki/File:N64-Controller-Gray.jpg" target="_blank" rel="noopener noreferrer">source ↗</a><a href="#month-sep">September 1996</a><a href="/zones/games/#photo-showroom">games photo stack</a></div>
+            </figcaption>
+          </figure>
+          <figure class="media-figure-card">
+            <img src="/assets/media/tech-toys/aol-promotional-cds.jpg" alt="Stack of late-1990s AOL promotional CDs in colorful sleeves, showing the junk-mail era of getting online."  width="960" height="720"  loading="lazy"  decoding="async" />
+            <figcaption>
+              <strong>AOL discs as the physical doorway into the social web</strong>
+              <p>The social-desktop story starts with clutter. Free hours in the mail, setup wizards, and bright sleeves make internet access feel less like research and more like something that can invade the kitchen counter.</p>
+              <p class="figure-source">Source: Wikimedia Commons, "AOL promotional CDs in Canada" by Jeran Renz (CC0).</p>
+              <div class="figure-links"><a href="https://commons.wikimedia.org/wiki/File:AOL_promotional_CDs_in_Canada.jpg" target="_blank" rel="noopener noreferrer">source ↗</a><a href="#month-oct">October 1996</a><a href="/search/?filter=objects&q=AOL">artifact atlas: AOL</a></div>
+            </figcaption>
+          </figure>
+          <figure class="media-figure-card">
+            <img src="/assets/media/tv-movies/vhs-videocassette-front.jpg" alt="A black VHS videocassette photographed from the front, with its label area and clear reel windows visible."  width="1280" height="854"  loading="lazy"  decoding="async" />
+            <figcaption>
+              <strong>VHS wrapper culture still controls the room</strong>
+              <p>Even while the web gets friend-shaped and games go 3D, 1996 still lives inside tape rituals: trailers before the movie, scribbled labels, and the exact kind of shelf clutter that makes <i>Space Jam</i> and <i>Scream</i> feel like household objects instead of distant titles.</p>
+              <p class="figure-source">Source: Wikimedia Commons, "VHS videocassette - front" (CC BY-SA 4.0).</p>
+              <div class="figure-links"><a href="https://commons.wikimedia.org/wiki/File:VHS_videocassette_-_front.jpg" target="_blank" rel="noopener noreferrer">source ↗</a><a href="#month-dec">December 1996</a><a href="/zones/tv-movies/#photo-showroom">TV / Movies photo stack</a></div>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <div class="portal-columns" id="fast-read">
+        <div class="portal-box">
+          <p class="portal-kicker">Fast read</p>
+          <h2>Why 1996 locks in fast</h2>
+          <ul class="portal-link-list">
+            <li><strong>The web gets person-shaped:</strong> guestbooks, handles, counters, and ICQ numbers make online life feel inhabited instead of abstract.</li>
+            <li><strong>Collecting becomes daily behavior:</strong> Pokémon rumors, Tamagotchi panic, Beanie logic, and strategy-guide chatter turn ownership into conversation.</li>
+            <li><strong>3D gaming becomes a room event:</strong> Nintendo 64 anticipation and launch energy make hardware itself part of the memory.</li>
+            <li><strong>Mass culture still arrives through wrappers:</strong> movie merch, VHS tapes, radio hits, and mall clutter keep the year grounded in physical stuff.</li>
+          </ul>
+        </div>
+        <div class="portal-box">
+          <h3>Open the strongest 1996 clicks first</h3>
+          <ul class="portal-link-list">
+            <li><a href="#photo-showroom">Photo stack</a> — the fastest way to feel the year before reading all twelve months.</li>
+            <li><a href="#month-jul">July</a> — Olympics overload, TWA Flight 800 shock, Hotmail launch, and cable-news intensity in one month.</li>
+            <li><a href="#news-desk">News desk</a> — the July 1996 headline layer when you want the route to feel current, not generic.</li>
+            <li><a href="#museum-objects">Object shelf</a> — guestbooks, ICQ numbers, Tamagotchi panic, and merch clutter when the remembered thing comes first.</li>
+          </ul>
+        </div>
+      </div>
+
+      <section class="portal-box capsule-section month-timeline" id="timeline-months">
+        <div class="section-heading compact-heading"><p class="eyebrow">Month-by-month</p><h2>A browsable 1996 calendar.</h2><p>Use the year like a desk drawer: one month, one memory, and links that actually help you keep surfing.</p></div>
+
+        <div class="month-grid capsule-month-grid">
+          <article class="month-card compact-month" id="month-jan">
+            <span>JAN</span>
+            <h3>School resumes, but the web feels scrappier</h3>
+            <p>Computer-lab internet still means directories, under-construction GIFs, and bookmarking weird personal pages by hand. The social layer is tiny, but you can feel it trying to appear.</p>
+            <div class="month-links"><a href="/zones/internet-culture/#surf-path">old-web path</a><a href="/webring/?filter=old-web-geocities#directory">GeoCities shelf</a></div>
+          </article>
+          <article class="month-card compact-month" id="month-feb">
+            <span>FEB</span>
+            <h3>The year starts sounding wider</h3>
+            <p><i>The Score</i> lands on February 13 and instantly becomes part of the year’s radio weather: rap, R&amp;B, pop hooks, and crossover cool all sharing the same bus ride.</p>
+            <div class="month-links"><a href="https://en.wikipedia.org/wiki/The_Score_(album)" target="_blank" rel="noopener noreferrer">album ↗</a><a href="/zones/music/#genre-shelves">music lanes</a></div>
+          </article>
+          <article class="month-card compact-month" id="month-mar">
+            <span>MAR</span>
+            <h3>Pokémon quietly starts in Japan</h3>
+            <p><i>Pokémon Red</i> and <i>Green</i> launch for Game Boy on February 27, then March becomes the beginning of a schoolyard system built on link cables, rumors, trades, and creature names everybody will soon know.</p>
+            <div class="month-links"><a href="https://en.wikipedia.org/wiki/Pok%C3%A9mon_Red,_Blue,_and_Yellow" target="_blank" rel="noopener noreferrer">games ↗</a><a href="/zones/games/">games shelf</a></div>
+          </article>
+          <article class="month-card compact-month" id="month-apr">
+            <span>APR</span>
+            <h3>Personal pages start feeling friend-shaped</h3>
+            <p>By spring, the handmade web is less abstract: fan shrines, guestbooks, counters, and homepage neighborhoods make online life feel like wandering through actual people’s rooms.</p>
+            <div class="month-links"><a href="https://en.wikipedia.org/wiki/GeoCities" target="_blank" rel="noopener noreferrer">GeoCities ↗</a><a href="/zones/internet-culture/">internet culture</a></div>
+          </article>
+          <article class="month-card compact-month" id="month-may">
+            <span>MAY</span>
+            <h3>Big-screen disaster and glossy radio go hand in hand</h3>
+            <p><i>Twister</i> opens on May 10 and the season starts tilting toward giant-soundtrack summer mode: radio hits, movie tie-ins, snack brands, and toy aisles all syncing up again.</p>
+            <div class="month-links"><a href="https://en.wikipedia.org/wiki/Twister_(1996_film)" target="_blank" rel="noopener noreferrer">film ↗</a><a href="/zones/tv-movies/">screen room</a></div>
+          </article>
+          <article class="month-card compact-month" id="month-jun">
+            <span>JUN</span>
+            <h3>Nintendo 64 summer starts loading</h3>
+            <p>June 1996 feels like anticipation as much as arrival: E3 puts the Nintendo 64 and <i>Super Mario 64</i> in front of the whole industry, kids are staring at magazine screenshots, and summer radio is full of Macarena, Mariah, Tracy Chapman, and movie-trailer energy.</p>
+            <div class="month-links"><a href="https://en.wikipedia.org/wiki/E3_1996" target="_blank" rel="noopener noreferrer">E3 1996 ↗</a><a href="https://en.wikipedia.org/wiki/Super_Mario_64" target="_blank" rel="noopener noreferrer">Mario 64 ↗</a><a href="#top-songs">1996 radio dial</a></div>
+          </article>
+          <article class="month-card compact-month" id="month-jul">
+            <span>JUL</span>
+            <h3>The Atlanta Olympics become shared-screen summer</h3>
+            <p>The 1996 Summer Olympics open on July 19 and take over TVs, commercials, cereal boxes, and school-break conversation. But the month is not just victory-lap glow: Hotmail launches on July 4, TWA Flight 800 crashes on July 17, and the Centennial Olympic Park bombing hits Atlanta on July 27.</p>
+            <div class="month-links"><a href="https://en.wikipedia.org/wiki/1996_Summer_Olympics" target="_blank" rel="noopener noreferrer">Olympics ↗</a><a href="#news-desk">July news desk</a><a href="/zones/tv-movies/#channel-surf-path">channel surf</a></div>
+          </article>
+          <article class="month-card compact-month" id="month-aug">
+            <span>AUG</span>
+            <h3>Macarena becomes public infrastructure</h3>
+            <p>By late summer, the dance is everywhere: weddings, camps, school gyms, cookouts, TV shows, and every cousin who swears they know the steps better than you do.</p>
+            <div class="month-links"><a href="https://en.wikipedia.org/wiki/Macarena_(song)" target="_blank" rel="noopener noreferrer">song ↗</a><a href="#top-songs">chart module</a></div>
+          </article>
+          <article class="month-card compact-month" id="month-sep">
+            <span>SEP</span>
+            <h3>Nintendo 64 lands in North America</h3>
+            <p>The console launches on September 29 and immediately becomes a floor-sitting, controller-tangling event. <i>Super Mario 64</i> feels like a before-and-after moment the second people touch the analog stick.</p>
+            <div class="month-links"><a href="https://en.wikipedia.org/wiki/Nintendo_64" target="_blank" rel="noopener noreferrer">console ↗</a><a href="/zones/games/">games shelf</a></div>
+          </article>
+          <article class="month-card compact-month" id="month-oct">
+            <span>OCT</span>
+            <h3>Personal pages start multiplying</h3>
+            <p>GeoCities neighborhoods, fan shrines, MIDI files, guestbooks, and visitor counters make October-night web browsing feel like wandering through bedrooms with glowing monitors in them.</p>
+            <div class="month-links"><a href="https://en.wikipedia.org/wiki/GeoCities" target="_blank" rel="noopener noreferrer">GeoCities ↗</a><a href="/webring/?filter=old-web-geocities#directory">explore old web</a></div>
+          </article>
+          <article class="month-card compact-month" id="month-nov">
+            <span>NOV</span>
+            <h3><i>Space Jam</i> and <i>Tamagotchi</i> point at the toy future</h3>
+            <p><i>Space Jam</i> opens on November 15, while Bandai’s Tamagotchi launches in Japan on November 23. The result is pure 1996: one part media blitz, one part tiny digital life-form in your pocket.</p>
+            <div class="month-links"><a href="https://en.wikipedia.org/wiki/Tamagotchi" target="_blank" rel="noopener noreferrer">Tamagotchi ↗</a><a href="/zones/tech-toys/">tech / toys shelf</a></div>
+          </article>
+          <article class="month-card compact-month" id="month-dec">
+            <span>DEC</span>
+            <h3><i>Scream</i> closes the year by quoting the decade back to itself</h3>
+            <p><i>Scream</i> arrives on December 20 and turns horror literacy, VHS habits, and teenage screen-awareness into the perfect year-end note. 1996 leaves behind collectibles, handles, and self-aware media everywhere.</p>
+            <div class="month-links"><a href="https://en.wikipedia.org/wiki/Scream_(1996_film)" target="_blank" rel="noopener noreferrer">film ↗</a><a href="/zones/tv-movies/">TV / Movies</a></div>
+          </article>
+        </div>
+        <p class="micro-note">Source trail: month cards lean on linked reference pages for Pokémon, E3 1996, Nintendo 64, <i>Space Jam</i>, GeoCities, Tamagotchi, and <i>Scream</i>.</p>
+      </section>
+
+      <section class="portal-box capsule-section" id="news-desk">
+        <div class="section-heading compact-heading"><p class="eyebrow">US / world news desk</p><h2>July 1996 is bigger and stranger than the nostalgia shorthand.</h2><p>The real-time route works better when it carries the month's actual headline weather too: public-web optimism, national shock, Olympic spectacle, and violence landing in the same summer stretch.</p></div>
+        <div class="media-callout-grid news-wire-grid">
+          <article class="media-callout news-wire-card">
+            <div class="callout-meta"><span>tech / web</span><span>July 4, 1996</span></div>
+            <h3>Hotmail launches as webmail starts feeling mainstream</h3>
+            <p>Hotmail commercially launches on July 4, 1996 and symbolizes a big shift in everyday internet use: email untethered from one ISP, accessible from whatever machine you can reach.</p>
+            <p class="callout-note"><strong>Why it matters:</strong> the social-desktop story is not just GeoCities aesthetics — it is the web getting practical enough to follow you between school, work, and home.</p>
+            <div class="callout-links"><a href="https://en.wikipedia.org/wiki/Hotmail" target="_blank" rel="noopener noreferrer">Hotmail source ↗</a><a href="/zones/internet-culture/">internet culture room</a></div>
+          </article>
+          <article class="media-callout news-wire-card">
+            <div class="callout-meta"><span>US news</span><span>July 17, 1996</span></div>
+            <h3>TWA Flight 800 turns a summer week suddenly heavy</h3>
+            <p>TWA Flight 800 explodes and crashes into the Atlantic Ocean off Long Island twelve minutes after takeoff, killing all 230 people on board and dominating TV news coverage.</p>
+            <p class="callout-note"><strong>Why it matters:</strong> it is the kind of headline that reminds you the decade was never only toys, charts, and bright plastic — the shared-screen mood could turn instantly.</p>
+            <div class="callout-links"><a href="https://en.wikipedia.org/wiki/TWA_Flight_800" target="_blank" rel="noopener noreferrer">TWA Flight 800 ↗</a><a href="/zones/tv-movies/">screen room</a></div>
+          </article>
+          <article class="media-callout news-wire-card">
+            <div class="callout-meta"><span>world event</span><span>July 19, 1996</span></div>
+            <h3>The Atlanta Olympics take over the month</h3>
+            <p>The 1996 Summer Olympics open in Atlanta on July 19 and become full monoculture: medal tables, NBC coverage, cereal-box tie-ins, commercials, and every-family-living-room attention.</p>
+            <p class="callout-note"><strong>Why it matters:</strong> this is pre-feed shared reality at full scale — one event big enough to bend TV schedules, ad campaigns, and school-break conversation around it.</p>
+            <div class="callout-links"><a href="https://en.wikipedia.org/wiki/1996_Summer_Olympics" target="_blank" rel="noopener noreferrer">Olympics source ↗</a><a href="#month-jul">July month card</a></div>
+          </article>
+          <article class="media-callout news-wire-card">
+            <div class="callout-meta"><span>US / world news</span><span>July 27, 1996</span></div>
+            <h3>The Centennial Olympic Park bombing ruptures the feel-good script</h3>
+            <p>A pipe bomb detonates at Centennial Olympic Park during the Games on July 27, killing one person directly, injuring 111 others, and shattering the easy summer-party tone.</p>
+            <p class="callout-note"><strong>Why it matters:</strong> the month becomes more honest when the page holds both the bright Olympic spectacle and the violence that interrupted it.</p>
+            <div class="callout-links"><a href="https://en.wikipedia.org/wiki/Centennial_Olympic_Park_bombing" target="_blank" rel="noopener noreferrer">bombing source ↗</a><a href="https://en.wikipedia.org/wiki/1996_Summer_Olympics" target="_blank" rel="noopener noreferrer">Olympics context ↗</a></div>
+          </article>
+        </div>
+        <p class="micro-note">Source trail: Hotmail launch, TWA Flight 800, the 1996 Summer Olympics, and the Centennial Olympic Park bombing all link to their reference pages above.</p>
+      </section>
+
+      <section class="portal-box capsule-section" id="culture-grid">
+        <div class="section-heading compact-heading"><p class="eyebrow">Culture grid</p><h2>Six ways into 1996.</h2></div>
+        <div class="capsule-card-grid">
+          <article class="capsule-card"><span class="card-kicker">Music</span><h3>Ballads, rap grief, novelty-pop, and alt radio all coexist</h3><p>1996 sounds way wider than the one-song stereotype: Macarena mania, Fugees cool, Mariah grandeur, Tracy Chapman restraint, and R&amp;B slow jams all living on the same dial.</p><a href="/zones/music/#chart-dial">Open the radio dial →</a></article>
+          <article class="capsule-card"><span class="card-kicker">Movies / TV</span><h3>Summer tie-ins and self-aware horror</h3><p>Blockbuster marketing still works at full power, while <i>Scream</i> proves the decade can now quote its own media rules back at itself.</p><a href="/zones/tv-movies/">Enter screen room →</a></article>
+          <article class="capsule-card"><span class="card-kicker">Games</span><h3>Collecting and 3D become the new rituals</h3><p>Pokémon and Nintendo 64 make 1996 feel physical and social at once: cartridge trades, strategy guides, couch multiplayer, and playground rumors.</p><a href="/zones/games/">Open games shelf →</a></article>
+          <article class="capsule-card"><span class="card-kicker">Tech / Internet</span><h3>The handmade social web finally starts feeling real</h3><p>GeoCities, counters, guestbooks, and early messaging make online life less anonymous and more like a loose neighborhood map of fan pages and handles.</p><a href="/zones/internet-culture/#surf-path">Follow the old-web path →</a></article>
+          <article class="capsule-card"><span class="card-kicker">Fashion / Toys</span><h3>Digital pets, backpacks, and mall objects still matter</h3><p>1996 is tactile: translucent toys are coming, Beanie Babies are heating up, and every trend still has to move through stores, school, and sleepovers.</p><a href="/zones/tech-toys/">Open tech/toys shelf →</a></article>
+          <article class="capsule-card"><span class="card-kicker">World / Culture</span><h3>The internet starts getting friend-shaped</h3><p>The biggest shift is social, not just technical. By the end of the year, a web page can be somebody’s room, somebody’s fan shrine, or somebody you actually know.</p><a href="/webring/?filter=design-internet-history#directory">Browse source trails →</a></article>
+        </div>
+      </section>
+
+      <section class="portal-box capsule-section artifact-collection" id="museum-objects">
+        <div class="section-heading compact-heading"><p class="eyebrow">Museum objects now on display</p><h2>1996 works best when the social clutter becomes specific objects.</h2><p>This shelf turns “collectibles + counters” into reusable object cards with labels, context, and good next clicks.</p></div>
+        <div class="museum-object-grid">
+          <article class="museum-object-card">
+            <div class="object-meta"><span>game object</span><span>living-room floor</span></div>
+            <h3>Three-prong Nintendo 64 controller on the carpet</h3>
+            <p>The weird grip debate machine that teaches a whole generation what analog movement feels like while somebody else waits for their turn.</p>
+            <p class="object-note"><strong>Why it matters:</strong> 1996 turns 3D into a tactile household argument, not just a tech spec.</p>
+            <div class="object-links"><a href="https://en.wikipedia.org/wiki/Nintendo_64" target="_blank" rel="noopener noreferrer">console ↗</a><a href="/zones/games/">games shelf</a></div>
+          </article>
+          <article class="museum-object-card">
+            <div class="object-meta"><span>web object</span><span>homepage proof-of-life</span></div>
+            <h3>Guestbook with six handles and one typo</h3>
+            <p>Half the point of the mid-90s web is seeing that somebody else was here already and left a slightly messy message behind.</p>
+            <p class="object-note"><strong>Why it matters:</strong> guestbooks make the internet feel inhabited, not published-at from a distance.</p>
+            <div class="object-links"><a href="https://en.wikipedia.org/wiki/Guestbook" target="_blank" rel="noopener noreferrer">guestbook ↗</a><a href="/guestbook/">leave a memory</a></div>
+          </article>
+          <article class="museum-object-card">
+            <div class="object-meta"><span>school object</span><span>notebook / lunch table</span></div>
+            <h3>Pokédex rumors copied by hand</h3>
+            <p>Before every answer lived online, playground certainty, cousins, and strategy-guide fragments carried the monster myth system forward.</p>
+            <p class="object-note"><strong>Why it matters:</strong> collecting culture spreads socially first, digitally second.</p>
+            <div class="object-links"><a href="https://en.wikipedia.org/wiki/Pok%C3%A9mon_Red,_Blue,_and_Yellow" target="_blank" rel="noopener noreferrer">games ↗</a><a href="/timeline/1998/">1998 bridge</a></div>
+          </article>
+          <article class="museum-object-card">
+            <div class="object-meta"><span>internet object</span><span>friend-to-friend handoff</span></div>
+            <h3>ICQ number written on notebook paper</h3>
+            <p>A social-web detail with real physicality: somebody writes down the number because your computer identity is finally something you pass between actual people.</p>
+            <p class="object-note"><strong>Why it matters:</strong> 1996 stops treating the internet like a place you visit alone.</p>
+            <div class="object-links"><a href="https://en.wikipedia.org/wiki/ICQ" target="_blank" rel="noopener noreferrer">ICQ ↗</a><a href="/zones/internet-culture/">old-web room</a></div>
+          </article>
+          <article class="museum-object-card">
+            <div class="object-meta"><span>merch object</span><span>food court / theater combo</span></div>
+            <h3><i>Space Jam</i> cup, soundtrack single, and promo spillover</h3>
+            <p>One movie mutates into cups, shirts, ads, character art, and songs — the whole monoculture stack in one brightly branded pile.</p>
+            <p class="object-note"><strong>Why it matters:</strong> 1996 screen culture is inseparable from merch, snacks, and mall visibility.</p>
+            <div class="object-links"><a href="https://en.wikipedia.org/wiki/Space_Jam" target="_blank" rel="noopener noreferrer">film ↗</a><a href="/zones/tv-movies/#screen-artifacts">screen room</a></div>
+          </article>
+          <article class="museum-object-card">
+            <div class="object-meta"><span>toy object</span><span>classroom contraband</span></div>
+            <h3>Tamagotchi beeping in the middle of math</h3>
+            <p>A tiny machine that turns care, panic, and school-rule negotiation into a collective ritual before phones absorb everything.</p>
+            <p class="object-note"><strong>Why it matters:</strong> the decade’s future arrives first as a needy object in your pocket.</p>
+            <div class="object-links"><a href="https://en.wikipedia.org/wiki/Tamagotchi" target="_blank" rel="noopener noreferrer">toy ↗</a><a href="/zones/tech-toys/">tech / toys</a></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="portal-box capsule-section" id="media-desk">
+        <div class="section-heading compact-heading"><p class="eyebrow">Media callouts</p><h2>Three launchpads that make 1996 feel inhabited.</h2><p>The goal is not to shove media everywhere. It is to give the right source-aware click at the right moment.</p></div>
+        <div class="media-callout-grid">
+          <article class="media-callout">
+            <div class="callout-meta"><span>watch path</span><span>archive / broadcast texture</span></div>
+            <h3>Use My 90’s TV as the ambient layer</h3>
+            <p>When you want the year to feel less like a fact list and more like accidental channel surfing, this is the cleanest “leave it on in the background” launchpad.</p>
+            <p class="callout-note"><strong>Source context:</strong> nostalgia simulator / clip surf path, good for cable-era texture rather than exact chronology.</p>
+            <div class="callout-links"><a href="https://90s.myretrotvs.com/" target="_blank" rel="noopener noreferrer">Open My 90’s TV ↗</a><a href="/zones/tv-movies/#screen-media">screen-media desk</a></div>
+          </article>
+          <article class="media-callout">
+            <div class="callout-meta"><span>browse path</span><span>GeoCities / old-web context</span></div>
+            <h3>Pair GeoCities browsing with the 1996 year</h3>
+            <p>If the real story here is “the web gets friend-shaped,” go straight from this page into preserved homepage neighborhoods and back again.</p>
+            <p class="callout-note"><strong>Source context:</strong> preservation trail for the visual/social texture behind counters, guestbooks, and fan pages.</p>
+            <div class="callout-links"><a href="/webring/?filter=old-web-geocities#directory">Open GeoCities shelf</a><a href="/zones/internet-culture/#surf-path">old-web path</a></div>
+          </article>
+          <article class="media-callout">
+            <div class="callout-meta"><span>listen path</span><span>radio-memory launchpad</span></div>
+            <h3>Use the 1996 chart to hear the year widen out</h3>
+            <p>Macarena is only one layer. The chart below opens up the fuller soundscape: ballads, R&amp;B, rap grief, and polished pop all sharing one summer.</p>
+            <p class="callout-note"><strong>Source context:</strong> Billboard year-end list plus search links already embedded in the page.</p>
+            <div class="callout-links"><a href="#top-songs">Open 1996 radio dial</a><a href="/zones/music/#chart-dial">All 90s radio dial</a></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="portal-box capsule-section" id="rabbit-holes">
+        <div class="section-heading compact-heading"><p class="eyebrow">Curated rabbit holes</p><h2>Useful links, not a wall of blue.</h2><p>If 1996 is your door into the site, these are the best next clicks.</p></div>
+        <div class="rabbit-grid">
+          <a class="rabbit-card" href="https://en.wikipedia.org/wiki/Nintendo_64" target="_blank" rel="noopener noreferrer"><span>↗</span><strong>Nintendo 64</strong><small>launch-year 3D living-room shock</small></a>
+          <a class="rabbit-card" href="https://en.wikipedia.org/wiki/GeoCities" target="_blank" rel="noopener noreferrer"><span>↗</span><strong>GeoCities</strong><small>personal-page neighborhood trail</small></a>
+          <a class="rabbit-card" href="https://en.wikipedia.org/wiki/ICQ" target="_blank" rel="noopener noreferrer"><span>↗</span><strong>ICQ</strong><small>the ping that makes the web feel social</small></a>
+          <a class="rabbit-card internal" href="/zones/music/#chart-dial"><span>⌁</span><strong>1996 radio dial</strong><small>jump straight into the chart module</small></a>
+          <a class="rabbit-card internal" href="/webring/?filter=tv-music-media#directory"><span>⌁</span><strong>Media shelf</strong><small>more music, TV, and nostalgia trails</small></a>
+        </div>
+      </section>
+
+      <section class="chart-section portal-box capsule-section" id="top-songs">
+        <div class="section-heading compact-heading">
+          <p class="eyebrow">Billboard Year-End Hot 100</p>
+          <h2>Top 10 songs of 1996</h2>
+          <p>A quick radio-dial snapshot for this year: chart rank, song/artist links, and search links so the page becomes a listening launchpad. Source: <a href="https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_1996" target="_blank" rel="noopener noreferrer">Billboard Year-End Hot 100 singles of 1996</a>.</p>
+        </div>
+        <div class="song-grid">
+          <article class="song-card"><div class="chart-rank">#1</div><div><h3><a href="https://en.wikipedia.org/wiki/Special:Search?search=Macarena+%28Bayside+Boys+Mix%29" target="_blank" rel="noopener noreferrer">Macarena (Bayside Boys Mix)</a></h3><p><a href="https://en.wikipedia.org/wiki/Special:Search?search=Los+del+R%C3%ADo" target="_blank" rel="noopener noreferrer">Los del Río</a></p><p class="song-note">Less a song than a full-body civic duty: weddings, gym class, summer camp, school dances, and every cousin who thought they knew the moves.</p><div class="listen-links"><a href="https://www.youtube.com/results?search_query=Macarena+%28Bayside+Boys+Mix%29+Los+del+R%C3%ADo" target="_blank" rel="noopener noreferrer">YouTube search</a><a href="https://open.spotify.com/search/Macarena+%28Bayside+Boys+Mix%29+Los+del+R%C3%ADo" target="_blank" rel="noopener noreferrer">Spotify search</a></div></div></article>
+          <article class="song-card"><div class="chart-rank">#2</div><div><h3><a href="https://en.wikipedia.org/wiki/Special:Search?search=One+Sweet+Day" target="_blank" rel="noopener noreferrer">One Sweet Day</a></h3><p><a href="https://en.wikipedia.org/wiki/Special:Search?search=Mariah+Carey+and+Boyz+II+Men" target="_blank" rel="noopener noreferrer">Mariah Carey and Boyz II Men</a></p><p class="song-note">Peak slow-jam grandeur — the kind of CD-single era heartbreak that turned mall speakers and bedroom stereos into the same emotional climate.</p><div class="listen-links"><a href="https://www.youtube.com/results?search_query=One+Sweet+Day+Mariah+Carey+and+Boyz+II+Men" target="_blank" rel="noopener noreferrer">YouTube search</a><a href="https://open.spotify.com/search/One+Sweet+Day+Mariah+Carey+and+Boyz+II+Men" target="_blank" rel="noopener noreferrer">Spotify search</a></div></div></article>
+          <article class="song-card"><div class="chart-rank">#3</div><div><h3><a href="https://en.wikipedia.org/wiki/Special:Search?search=Because+You+Loved+Me" target="_blank" rel="noopener noreferrer">Because You Loved Me</a></h3><p><a href="https://en.wikipedia.org/wiki/Special:Search?search=Celine+Dion" target="_blank" rel="noopener noreferrer">Celine Dion</a></p><p class="song-note">A movie-ballad superweapon from the era when one adult-contemporary chorus could occupy radio, graduations, and every drugstore speaker at once.</p><div class="listen-links"><a href="https://www.youtube.com/results?search_query=Because+You+Loved+Me+Celine+Dion" target="_blank" rel="noopener noreferrer">YouTube search</a><a href="https://open.spotify.com/search/Because+You+Loved+Me+Celine+Dion" target="_blank" rel="noopener noreferrer">Spotify search</a></div></div></article>
+          <article class="song-card"><div class="chart-rank">#4</div><div><h3><a href="https://en.wikipedia.org/wiki/Special:Search?search=Nobody+Knows" target="_blank" rel="noopener noreferrer">Nobody Knows</a></h3><p><a href="https://en.wikipedia.org/wiki/Special:Search?search=The+Tony+Rich+Project" target="_blank" rel="noopener noreferrer">The Tony Rich Project</a></p><p class="song-note">Quiet-storm radio with real mall-CD-store gravity — exactly the kind of hit you rediscover and suddenly remember hearing in every parking lot.</p><div class="listen-links"><a href="https://www.youtube.com/results?search_query=Nobody+Knows+The+Tony+Rich+Project" target="_blank" rel="noopener noreferrer">YouTube search</a><a href="https://open.spotify.com/search/Nobody+Knows+The+Tony+Rich+Project" target="_blank" rel="noopener noreferrer">Spotify search</a></div></div></article>
+          <article class="song-card"><div class="chart-rank">#5</div><div><h3><a href="https://en.wikipedia.org/wiki/Special:Search?search=Always+Be+My+Baby" target="_blank" rel="noopener noreferrer">Always Be My Baby</a></h3><p><a href="https://en.wikipedia.org/wiki/Special:Search?search=Mariah+Carey" target="_blank" rel="noopener noreferrer">Mariah Carey</a></p><p class="song-note">Mariah in full glossy-pop command, floating above summer radio with the kind of hook that lives forever in roller-rink and sleepover memory.</p><div class="listen-links"><a href="https://www.youtube.com/results?search_query=Always+Be+My+Baby+Mariah+Carey" target="_blank" rel="noopener noreferrer">YouTube search</a><a href="https://open.spotify.com/search/Always+Be+My+Baby+Mariah+Carey" target="_blank" rel="noopener noreferrer">Spotify search</a></div></div></article>
+          <article class="song-card"><div class="chart-rank">#6</div><div><h3><a href="https://en.wikipedia.org/wiki/Special:Search?search=Give+Me+One+Reason" target="_blank" rel="noopener noreferrer">Give Me One Reason</a></h3><p><a href="https://en.wikipedia.org/wiki/Special:Search?search=Tracy+Chapman" target="_blank" rel="noopener noreferrer">Tracy Chapman</a></p><p class="song-note">Proof that even in a maximalist year, one dry guitar riff and one cool voice could still cut through every neon, dance craze, and CD-tower display.</p><div class="listen-links"><a href="https://www.youtube.com/results?search_query=Give+Me+One+Reason+Tracy+Chapman" target="_blank" rel="noopener noreferrer">YouTube search</a><a href="https://open.spotify.com/search/Give+Me+One+Reason+Tracy+Chapman" target="_blank" rel="noopener noreferrer">Spotify search</a></div></div></article>
+          <article class="song-card"><div class="chart-rank">#7</div><div><h3><a href="https://en.wikipedia.org/wiki/Special:Search?search=Tha+Crossroads" target="_blank" rel="noopener noreferrer">Tha Crossroads</a></h3><p><a href="https://en.wikipedia.org/wiki/Special:Search?search=Bone+Thugs-n-Harmony" target="_blank" rel="noopener noreferrer">Bone Thugs-n-Harmony</a></p><p class="song-note">Melodic rap grief turned into a real mainstream weather system — car-radio, MTV, and lunch-table memory all at the same time.</p><div class="listen-links"><a href="https://www.youtube.com/results?search_query=Tha+Crossroads+Bone+Thugs-n-Harmony" target="_blank" rel="noopener noreferrer">YouTube search</a><a href="https://open.spotify.com/search/Tha+Crossroads+Bone+Thugs-n-Harmony" target="_blank" rel="noopener noreferrer">Spotify search</a></div></div></article>
+          <article class="song-card"><div class="chart-rank">#8</div><div><h3><a href="https://en.wikipedia.org/wiki/Special:Search?search=I+Love+You+Always+Forever" target="_blank" rel="noopener noreferrer">I Love You Always Forever</a></h3><p><a href="https://en.wikipedia.org/wiki/Special:Search?search=Donna+Lewis" target="_blank" rel="noopener noreferrer">Donna Lewis</a></p><p class="song-note">Dreamy, airy, and weirdly omnipresent — the kind of song that makes department stores, teen bedrooms, and late-summer radio all blur together.</p><div class="listen-links"><a href="https://www.youtube.com/results?search_query=I+Love+You+Always+Forever+Donna+Lewis" target="_blank" rel="noopener noreferrer">YouTube search</a><a href="https://open.spotify.com/search/I+Love+You+Always+Forever+Donna+Lewis" target="_blank" rel="noopener noreferrer">Spotify search</a></div></div></article>
+          <article class="song-card"><div class="chart-rank">#9</div><div><h3><a href="https://en.wikipedia.org/wiki/Special:Search?search=You%27re+Makin%27+Me+High+%2F+Let+It+Flow" target="_blank" rel="noopener noreferrer">You're Makin' Me High / Let It Flow</a></h3><p><a href="https://en.wikipedia.org/wiki/Special:Search?search=Toni+Braxton" target="_blank" rel="noopener noreferrer">Toni Braxton</a></p><p class="song-note">Sleek late-night R&amp;B with soundtrack spillover energy — the kind of song that makes 1996 feel grown-up, dramatic, and expensive.</p><div class="listen-links"><a href="https://www.youtube.com/results?search_query=You%27re+Makin%27+Me+High+%2F+Let+It+Flow+Toni+Braxton" target="_blank" rel="noopener noreferrer">YouTube search</a><a href="https://open.spotify.com/search/You%27re+Makin%27+Me+High+%2F+Let+It+Flow+Toni+Braxton" target="_blank" rel="noopener noreferrer">Spotify search</a></div></div></article>
+          <article class="song-card"><div class="chart-rank">#10</div><div><h3><a href="https://en.wikipedia.org/wiki/Special:Search?search=Twisted" target="_blank" rel="noopener noreferrer">Twisted</a></h3><p><a href="https://en.wikipedia.org/wiki/Special:Search?search=Keith+Sweat" target="_blank" rel="noopener noreferrer">Keith Sweat</a></p><p class="song-note">One more reminder that 1996 radio was smoother, slower, and more R&amp;B-heavy than people remember when they reduce the year to just Macarena and movie tie-ins.</p><div class="listen-links"><a href="https://www.youtube.com/results?search_query=Twisted+Keith+Sweat" target="_blank" rel="noopener noreferrer">YouTube search</a><a href="https://open.spotify.com/search/Twisted+Keith+Sweat" target="_blank" rel="noopener noreferrer">Spotify search</a></div></div></article>
+        </div>
+        <p class="micro-note">1996's chart works best as a bridge between crossover ballads, grown-up R&amp;B, rap grief, and giant novelty-pop moments — a much wider mix than the single Macarena stereotype.</p>
+      </section>
+
+      <section class="portal-box capsule-section related-portals">
+        <div class="section-heading compact-heading"><p class="eyebrow">Keep surfing</p><h2>Related portals</h2></div>
+        <div class="related-grid"><a href="/timeline/">Timeline index</a><a href="/zones/music/">Music room</a><a href="/zones/games/">Games shelf</a><a href="/zones/internet-culture/">Old web path</a><a href="/zones/tv-movies/">TV / Movies</a><a href="/zones/tech-toys/">Tech / Toys</a></div>
+      </section>
+    </section>
+  <!-- generated:artifact-shelf:start -->
+    <section class="panel artifact-shelf" aria-labelledby="artifactShelfTitle-timeline-1996">
+      <div class="section-heading compact-heading">
+        <p class="eyebrow">Passport exhibit tray</p>
+        <h2 id="artifactShelfTitle-timeline-1996">Objects you can inspect here.</h2>
+        <p>Open a curator label, stamp the object, then follow its next connection.</p>
+      </div>
+      <div class="artifact-ticket-grid">
+      <article class="artifact-ticket" id="artifact-n64-controller" data-artifact-id="n64-controller">
+        <div class="artifact-ticket-media"><img src="/assets/media/games/n64-controller-gray.jpg" alt="Gray Nintendo 64 controller with three-prong grip and central analog stick." width="1280" height="1021" loading="lazy" decoding="async" /></div>
+        <div class="artifact-ticket-copy">
+          <p class="artifact-label">three-prong multiplayer sculpture · 1996–1999</p>
+          <h3>Gray Nintendo 64 controller</h3>
+        <details>
+          <summary>Open curator label</summary>
+          <p>Its odd shape and analog stick announced that 3D games would need a different kind of touch.</p>
+          <p><strong>Why it mattered:</strong> The controller became an icon of couch multiplayer and experimental 3D design.</p>
+          <p class="artifact-credit"><a href="https://commons.wikimedia.org/wiki/File:N64-Controller-Gray.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons ↗</a> · Public domain</p>
+        </details>
+          <div class="artifact-actions">
+            <button class="button inspect-button" type="button" data-artifact-inspect="n64-controller">Inspect + stamp</button>
+            <a href="/zones/games/#artifact-n64-controller">Open exhibit</a>
+          </div>
+        </div>
+      </article>
+      <article class="artifact-ticket" id="artifact-playstation-hardware" data-artifact-id="playstation-hardware">
+        <div class="artifact-ticket-media"><img src="/assets/media/timeline-1995/playstation-controller.jpg" alt="Original gray PlayStation console with its controller." width="1600" height="696" loading="lazy" decoding="async" /></div>
+        <div class="artifact-ticket-copy">
+          <p class="artifact-label">the console grows up · 1994–1999</p>
+          <h3>Original PlayStation hardware</h3>
+        <details>
+          <summary>Open curator label</summary>
+          <p>Gray hardware, CDs, and memory cards made the next console era feel sleek and cinematic.</p>
+          <p><strong>Why it mattered:</strong> PlayStation broadened the audience and language of console games.</p>
+          <p class="artifact-credit"><a href="https://commons.wikimedia.org/wiki/File:PlayStation-SCPH-1000-with-Controller.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons ↗</a> · See source page</p>
+        </details>
+          <div class="artifact-actions">
+            <button class="button inspect-button" type="button" data-artifact-inspect="playstation-hardware">Inspect + stamp</button>
+            <a href="/timeline/1994/#artifact-playstation-hardware">Open exhibit</a>
+          </div>
+        </div>
+      </article>
+      <article class="artifact-ticket" id="artifact-vhs-tape" data-artifact-id="vhs-tape">
+        <div class="artifact-ticket-media"><img src="/assets/media/tv-movies/vhs-videocassette-front.jpg" alt="Black VHS cassette with clear reel windows and blank label area." width="1280" height="854" loading="lazy" decoding="async" /></div>
+        <div class="artifact-ticket-copy">
+          <p class="artifact-label">the whole night on one tape · 1990–1999</p>
+          <h3>VHS videocassette</h3>
+        <details>
+          <summary>Open curator label</summary>
+          <p>Handwritten labels, recorded commercials, trailers, and rewinding arguments lived inside the same plastic shell.</p>
+          <p><strong>Why it mattered:</strong> VHS made screen culture ownable, repeatable, and full of accidental context.</p>
+          <p class="artifact-credit"><a href="https://commons.wikimedia.org/wiki/File:VHS_videocassette_-_front.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons ↗</a> · CC BY-SA 4.0</p>
+        </details>
+          <div class="artifact-actions">
+            <button class="button inspect-button" type="button" data-artifact-inspect="vhs-tape">Inspect + stamp</button>
+            <a href="/zones/tv-movies/#artifact-vhs-tape">Open exhibit</a>
+          </div>
+        </div>
+      </article>
+      </div>
+    </section>
+<!-- generated:artifact-shelf:end -->
+  </main>

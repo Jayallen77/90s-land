@@ -16,7 +16,8 @@
     "test:qa": "playwright test tests/site.spec.mjs",
     "screenshots": "node tools/capture_screenshots.mjs",
     "social-card": "python3 tools/build_social_card.py",
-    "lighthouse": "node tools/run_lighthouse.mjs"
+    "lighthouse": "node tools/run_lighthouse.mjs",
+    "test:dates": "node --test tests/date-utils.test.mjs"
   },
   "devDependencies": {
     "@axe-core/playwright": "4.12.1",

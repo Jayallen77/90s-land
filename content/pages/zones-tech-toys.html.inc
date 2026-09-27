@@ -1,0 +1,360 @@
+<main id="main-content" class="capsule-main">
+    <section class="window page-hero year-page capsule-hero">
+      <div class="window-bar"><span>TECH_TOYS.HTML</span><span class="window-buttons" aria-hidden="true">_ □ ×</span></div>
+      <div class="page-pad capsule-hero-grid">
+        <div>
+          <nav class="breadcrumbs"><a href="/">Home</a> / Zones / Tech / Toys</nav>
+          <p class="eyebrow">portal zone // domestic future room</p>
+          <h1><span class="pixel-icon">CPU</span> Tech / Toys</h1>
+          <p class="lede">The future moved into the den, the backpack, and the lunch table: family PCs, AOL discs, pagers, Tamagotchi panic, collector logic, and the exact little objects that made the decade feel installable.</p>
+          <div class="highlight-strip"><span>family PC</span><span>AOL pile</span><span>pocket beeps</span><span>Tamagotchi</span><span>collector chaos</span><span>translucent future</span></div>
+          <div class="hero-actions">
+            <a class="button primary" href="#photo-showroom">Open photo stack</a>
+            <a class="button" href="#path-grid">Browse the four-stop path</a>
+            <a class="button" href="#object-display">Open object case</a>
+            <a class="button" href="/search/?filter=objects&q=AOL">Search AOL objects</a>
+          </div>
+        </div>
+        <aside class="capsule-glance" aria-label="Tech and Toys at a glance">
+          <p class="portal-kicker">At a glance</p>
+          <h2>Desk + backpack + mail pile</h2>
+          <div class="capsule-tags"><span>3 sourced visuals</span><span>4-stop route</span><span>object-first browsing</span></div>
+          <p class="mini-note">This page now starts with actual hardware and household proof instead of one long gadget paragraph, then gets you into objects, media links, and next clicks fast.</p>
+          <a class="button primary" href="#photo-showroom">See the room first</a>
+        </aside>
+      </div>
+    </section>
+
+    <nav class="capsule-jump-nav" aria-label="Tech and Toys section navigation">
+      <a href="#why">Why it matters</a>
+      <a href="#photo-showroom">Photos</a>
+      <a href="#path-grid">Path</a>
+      <a href="#object-display">Objects</a>
+      <a href="#media-desk">Media desk</a>
+      <a href="#rabbit-holes">Related</a>
+      <a href="#prompts">Prompts</a>
+    </nav>
+
+    <section class="portal-content standalone year-deep-dive capsule-layout">
+      <section class="portal-box capsule-section why-card" id="why">
+        <p class="portal-kicker">Why this room matters</p>
+        <h2>90s tech got memorable the second it stopped feeling like office equipment and started acting like room decor, junk-mail temptation, belt-clip status, and playground currency.</h2>
+        <p>The good version of this room is not “remember gadgets?” It is a faster map of how the decade felt at home: one beige machine in the den, one shiny AOL sleeve near the keyboard, one pager on a belt, one digital pet making school harder, one toy tag treated like finance paperwork.</p>
+      </section>
+
+      <div class="portal-columns">
+        <div class="portal-box artifact-box">
+          <p class="portal-kicker">Fast read</p>
+          <h2>What changed in the room?</h2>
+          <ul class="portal-link-list">
+            <li><strong>Computers became social furniture</strong> — the family PC turned into homework station, internet portal, CD-ROM player, and status object.</li>
+            <li><strong>The web arrived physically first</strong> — AOL discs and setup sleeves made online life feel like something you could collect before you could fully use it.</li>
+            <li><strong>Portable tech got emotional</strong> — pagers and Tamagotchi made tiny devices feel urgent, needy, and visible.</li>
+            <li><strong>Toys learned scarcity language</strong> — tags, binders, and lunch-table trading turned play into micro-economics.</li>
+          </ul>
+        </div>
+        <div class="portal-box">
+          <h3>How to browse this room</h3>
+          <ul class="portal-link-list">
+            <li>Start with the <a href="#photo-showroom">photo stack</a> if you want the memory to feel real before it feels historical.</li>
+            <li>Use the <a href="#path-grid">four-stop path</a> when you want the room arranged like a quick museum route instead of a long essay.</li>
+            <li>Use the <a href="#object-display">object case</a> when you remember the prop before the route name: AOL disc, pager, Beanie tag, Encarta CD, Tamagotchi.</li>
+            <li>Use the <a href="#media-desk">media desk</a> when you want the right archive for boxed software, hardware history, or CD-ROM archaeology.</li>
+          </ul>
+        </div>
+      </div>
+
+      <section class="portal-box capsule-section" id="photo-showroom">
+        <div class="section-heading compact-heading">
+          <p class="eyebrow">Photo proof</p>
+          <h2>The domestic future looked like this.</h2>
+          <p>Three fast anchors: the family PC corner, the mailbox internet pile, and the pocket device that made being reachable feel important.</p>
+        </div>
+        <div class="media-figure-grid">
+          <figure class="media-figure-card">
+            <img src="/assets/media/tech-toys/family-pc-rotterdam-1999.jpg" alt="Late-1990s family desktop PC setup with CRT monitor and beige computer tower, showing how home computing lived in an ordinary room rather than a lab."  width="832" height="624"  loading="lazy"  decoding="async" />
+            <figcaption>
+              <strong>Family PC corner</strong>
+              <p>The future often lived in one shared room: CRT glow, mouse pad, homework clutter, and the machine everybody had to take turns using.</p>
+              <p class="figure-source">Source: Wikimedia Commons, “Mypc11999” by Oompje (CC BY-SA 4.0).</p>
+              <div class="figure-links"><a href="https://commons.wikimedia.org/wiki/File:Mypc11999.jpg" target="_blank" rel="noopener noreferrer">source ↗</a><a href="/timeline/1995/">1995 launch night</a><a href="/timeline/1998/">late-decade bridge</a></div>
+            </figcaption>
+          </figure>
+          <figure class="media-figure-card">
+            <img src="/assets/media/tech-toys/aol-promotional-cds.jpg" alt="Stack of late-1990s AOL promotional CDs in colorful sleeves, showing the junk-mail era of getting online."  width="960" height="720"  loading="lazy"  decoding="async" />
+            <figcaption>
+              <strong>Mailbox internet</strong>
+              <p>Before the web felt normal, it arrived as bright little promises in the mail — free hours, setup wizards, and a reason to tie up the family phone line.</p>
+              <p class="figure-source">Source: Wikimedia Commons, “AOL promotional CDs in Canada” by Jeran Renz (CC0).</p>
+              <div class="figure-links"><a href="https://commons.wikimedia.org/wiki/File:AOL_promotional_CDs_in_Canada.jpg" target="_blank" rel="noopener noreferrer">source ↗</a><a href="/search/?filter=objects&q=AOL">search AOL objects</a><a href="/webring/?filter=software-archives#directory">software shelf</a></div>
+            </figcaption>
+          </figure>
+          <figure class="media-figure-card">
+            <img src="/assets/media/tech-toys/motorola-pager-teletrim.jpg" alt="Motorola pager from the 1990s, representing the belt-clip era of portable messages and visible social status."  width="960" height="720"  loading="lazy"  decoding="async" />
+            <figcaption>
+              <strong>Pocket-status beep</strong>
+              <p>Pagers made communication feel portable before phones became pocket computers. The tiny screen mattered less than the fact that messages could now come find you.</p>
+              <p class="figure-source">Source: Wikimedia Commons, “Pager teletrim” by Andrepinto40 (public domain).</p>
+              <div class="figure-links"><a href="https://commons.wikimedia.org/wiki/File:Pager_teletrim.JPG" target="_blank" rel="noopener noreferrer">source ↗</a><a href="/timeline/1997/">1997 identity bridge</a><a href="/zones/internet-culture/">internet-culture room</a></div>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="guided-surf capsule-section" id="path-grid" aria-label="Tech and toys guided path">
+        <div class="section-heading compact-heading">
+          <p class="eyebrow">Guided path</p>
+          <h2>A faster route through the domestic future.</h2>
+          <p>Four stops, four different ways 90s tech stopped being abstract and started feeling lived-in.</p>
+        </div>
+        <div class="portal-shelves">
+          <article class="portal-box shelf-card">
+            <h3>1. Den desk</h3>
+            <ul>
+              <li>Windows 95, desktop icons, printer-paper homework, and the family schedule orbiting one shared machine.</li>
+              <li>Encarta, floppy disks, ball mice, and the feeling that clicking around could count as both learning and messing around.</li>
+              <li><a href="/timeline/1995/">Jump to 1995</a> when you want the retail-launch version of this room.</li>
+            </ul>
+          </article>
+          <article class="portal-box shelf-card">
+            <h3>2. Mailbox internet</h3>
+            <ul>
+              <li>AOL trial discs, paper sleeves, keyword culture, and software that felt like an invitation before it felt like infrastructure.</li>
+              <li>The internet first looked like branded clutter on a counter, not a seamless utility.</li>
+              <li><a href="/search/?filter=objects&q=AOL">Open the AOL object trail</a> if the mail pile is the memory.</li>
+            </ul>
+          </article>
+          <article class="portal-box shelf-card">
+            <h3>3. Belt clip + backpack</h3>
+            <ul>
+              <li>Pagers, handhelds, spare batteries, and tiny screens that made it feel important to be reachable.</li>
+              <li>Tamagotchi and Game Boy energy turned the school bag into a portable future drawer.</li>
+              <li><a href="/timeline/1996/#museum-objects">Jump to 1996</a> for the collectible-chaos version of this stop.</li>
+            </ul>
+          </article>
+          <article class="portal-box shelf-card">
+            <h3>4. Lunch-table market</h3>
+            <ul>
+              <li>Beanie Babies, sticker folders, slammers, tie-in merch, and tag-protector logic creeping into everyday kid culture.</li>
+              <li>Toys became social currency as much as toys.</li>
+              <li><a href="/zones/transparent-tech/">Transparent Tech</a> picks up the design-side version of this “objects as identity” shift.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="portal-box capsule-section" id="transparent-tech-preview">
+        <div class="section-heading compact-heading">
+          <p class="eyebrow">Dedicated spinoff room</p>
+          <h2>Transparent Tech now handles the clear-shell obsession properly.</h2>
+          <p>Tech / Toys is the broader home-base room. Transparent Tech is the specialized visual showroom once the memory gets candy-colored, translucent, and proudly decorative.</p>
+        </div>
+        <div class="media-figure-grid">
+          <figure class="media-figure-card">
+            <img src="/assets/media/transparent-tech/imac-g3-bondi-blue.png" alt="Bondi blue iMac G3 with a translucent blue shell previewing the dedicated Transparent Tech room."  width="960" height="895"  loading="lazy"  decoding="async" />
+            <figcaption>
+              <strong>Bondi blue preview</strong>
+              <p>The family computer stops pretending to be neutral and starts behaving like decor.</p>
+              <p class="figure-source">Source: Wikimedia Commons / CC BY-SA 4.0.</p>
+              <div class="figure-links"><a href="/zones/transparent-tech/">Open Transparent Tech →</a></div>
+            </figcaption>
+          </figure>
+          <figure class="media-figure-card">
+            <img src="/assets/media/transparent-tech/game-boy-color-purple.jpg" alt="Atomic Purple Game Boy Color handheld previewing the clear-shell design trend page."  width="383" height="625"  loading="lazy"  decoding="async" />
+            <figcaption>
+              <strong>Portable clear-shell flex</strong>
+              <p>The same design mood jumps straight from desktop hardware into backpacks and toy aisles.</p>
+              <p class="figure-source">Source: Wikimedia Commons / CC BY-SA 3.0.</p>
+              <div class="figure-links"><a href="/search/?filter=objects&q=shell">Search clear-shell objects</a></div>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <div class="portal-columns">
+        <div class="portal-box">
+          <h3>Timeline gadget stops</h3>
+          <ul class="portal-link-list">
+            <li><a href="/timeline/1993/">1993</a> — CD-ROM hype, computer-lab wonder, and dinosaur-sized multimedia ambition.</li>
+            <li><a href="/timeline/1994/">1994</a> — early public web culture and the first signs software can feel cool instead of merely useful.</li>
+            <li><a href="/timeline/1995/">1995</a> — Windows 95, AOL discs, PlayStation, and mainstream computer-store future energy.</li>
+            <li><a href="/timeline/1996/#museum-objects">1996</a> — guestbooks, Tamagotchi panic, and collectible-social texture start colliding.</li>
+            <li><a href="/timeline/1998/#photo-showroom">1998</a> — translucent gadget culture and candy-colored computers go fully public.</li>
+            <li><a href="/timeline/1999/">1999</a> — Y2K anxiety, pocket electronics, and end-of-decade dot-com consumer mood.</li>
+          </ul>
+        </div>
+        <div class="portal-box" id="object-display">
+          <div class="section-heading compact-heading">
+            <p class="eyebrow">Museum objects now on display</p>
+            <h2>The props explain the room better than a generic gadget paragraph.</h2>
+            <p>One object, one reason it mattered, one next click.</p>
+          </div>
+          <div class="museum-object-grid">
+            <article class="museum-object-card">
+              <div class="object-meta"><span>software object</span><span>mailer pile / first sign-up ritual</span></div>
+              <h3>AOL trial disc with “500 free hours” screaming from the sleeve</h3>
+              <p>The shiny invitation that made the internet feel attainable: installable, household, and weirdly urgent enough to keep beside the keyboard.</p>
+              <p class="object-note"><strong>Why it matters:</strong> mass internet culture often arrived as physical junk mail before it became daily habit.</p>
+              <div class="object-links"><a href="/search/?filter=objects&q=AOL">artifact atlas query</a><a href="/timeline/1995/">1995 launch-night bridge</a></div>
+            </article>
+            <article class="museum-object-card">
+              <div class="object-meta"><span>desk object</span><span>family encyclopedia replacement</span></div>
+              <h3>Encarta CD-ROM in a jewel case with one fingerprint on the label</h3>
+              <p>The family PC becomes a portal because learning, wandering, and clicking all happen on the same machine. Multimedia encyclopedias made the computer feel entertaining before the open web fully took over.</p>
+              <p class="object-note"><strong>Why it matters:</strong> CD-ROM culture is the bridge between boxed software and daily online life.</p>
+              <div class="object-links"><a href="https://archive.org/details/softwarelibrary" target="_blank" rel="noopener noreferrer">software archive ↗</a><a href="/timeline/1993/">1993 computer-lab bridge</a></div>
+            </article>
+            <article class="museum-object-card">
+              <div class="object-meta"><span>signal object</span><span>belt clip / backpack strap</span></div>
+              <h3>Pager clipped where everybody could see it</h3>
+              <p>Half communication tool, half status flex. A pager announced that messages could find you now, even if most of them were from your parents or one friend with too much time.</p>
+              <p class="object-note"><strong>Why it matters:</strong> the decade’s portable future starts with tiny beeps and visible accessories, not smartphones.</p>
+              <div class="object-links"><a href="/timeline/1997/">1997 identity bridge</a><a href="/zones/internet-culture/">internet-culture room</a></div>
+            </article>
+            <article class="museum-object-card">
+              <div class="object-meta"><span>toy object</span><span>classroom contraband</span></div>
+              <h3>Tamagotchi keychain chirping at the worst possible time</h3>
+              <p>A needy little machine that turned care into a daily loop. It was cute, stressful, and somehow persuasive enough to interrupt school, errands, and whole conversations.</p>
+              <p class="object-note"><strong>Why it matters:</strong> the future became emotional, portable, and annoyingly alive.</p>
+              <div class="object-links"><a href="/timeline/1996/#museum-objects">1996 collectible shelf</a><a href="/search/?filter=objects&q=Tamagotchi">artifact atlas query</a></div>
+            </article>
+            <article class="museum-object-card">
+              <div class="object-meta"><span>collector object</span><span>tag protector / bedroom shelf</span></div>
+              <h3>Beanie Baby swing tag preserved like it was stock paperwork</h3>
+              <p>The plush toy mattered, but the tag mattered almost as much. Suddenly kids and adults were learning scarcity logic from stuffed animals.</p>
+              <p class="object-note"><strong>Why it matters:</strong> playground culture and speculative collector culture start sharing the same object language.</p>
+              <div class="object-links"><a href="/timeline/1997/">1997 collector mania</a><a href="/guestbook/">leave a toy-memory note</a></div>
+            </article>
+            <article class="museum-object-card">
+              <div class="object-meta"><span>design object</span><span>visible future shell</span></div>
+              <h3>Translucent gadget that made electronics look friendly on purpose</h3>
+              <p>Clear and candy-colored plastic changed the emotional pitch of tech. Suddenly the machine wanted to be admired, not hidden in an office corner.</p>
+              <p class="object-note"><strong>Why it matters:</strong> design stopped being a bonus and became part of the memory itself.</p>
+              <div class="object-links"><a href="/timeline/1998/">1998 color-computer bridge</a><a href="https://www.computinghistory.org.uk/" target="_blank" rel="noopener noreferrer">hardware context ↗</a></div>
+            </article>
+          </div>
+        </div>
+      </div>
+
+      <div class="portal-columns" id="media-desk">
+        <div class="portal-box">
+          <div class="section-heading compact-heading">
+            <p class="eyebrow">Media desk</p>
+            <h2>Use the right archive for the right memory.</h2>
+            <p>One source for boxed software, one for hardware context, one for CD-ROM / shareware archaeology. Point with intent, not with a giant link dump.</p>
+          </div>
+          <div class="media-callout-grid">
+            <article class="media-callout">
+              <div class="callout-meta"><span>software path</span><span>boxed-computer nostalgia</span></div>
+              <h3>WinWorld when you remember the installer screen, not just the brand name</h3>
+              <p>Best for old operating systems, utilities, browser versions, and the boxed-software feel of consumer computing before app stores erased the packaging.</p>
+              <p class="callout-note"><strong>Source context:</strong> preservation / software-history layer — strongest for boxed programs, system software, and install-era memory.</p>
+              <div class="callout-links"><a href="https://winworldpc.com/" target="_blank" rel="noopener noreferrer">Open WinWorld ↗</a><a href="/webring/?filter=software-archives#directory">software archives shelf</a></div>
+            </article>
+            <article class="media-callout">
+              <div class="callout-meta"><span>archive path</span><span>shareware + CD-ROM abundance</span></div>
+              <h3>Internet Archive Software Library when you want the cluttered digital garage</h3>
+              <p>Use this when the memory is not one polished OS but a whole mess of shareware discs, edutainment, utilities, and weird software that came bundled with the decade.</p>
+              <p class="callout-note"><strong>Source context:</strong> broad preservation library — best for quantity, surprise, and software archaeology.</p>
+              <div class="callout-links"><a href="https://archive.org/details/softwarelibrary" target="_blank" rel="noopener noreferrer">Open Software Library ↗</a><a href="#object-display">object case</a></div>
+            </article>
+            <article class="media-callout">
+              <div class="callout-meta"><span>hardware path</span><span>consumer-tech context</span></div>
+              <h3>Centre for Computing History when you want the objects treated like museum pieces</h3>
+              <p>Great for grounding the room in real hardware history: machines, peripherals, packaging, and consumer-tech context beyond pure software nostalgia.</p>
+              <p class="callout-note"><strong>Source context:</strong> museum / interpretation layer — strong for how objects were designed, sold, and used.</p>
+              <div class="callout-links"><a href="https://www.computinghistory.org.uk/" target="_blank" rel="noopener noreferrer">Open computing museum ↗</a><a href="/timeline/1998/">1998 translucent bridge</a></div>
+            </article>
+          </div>
+        </div>
+        <div class="portal-box" id="rabbit-holes">
+          <h3>Related portal folders</h3>
+          <ul class="portal-link-list">
+            <li><a href="/zones/transparent-tech/#showroom">Transparent Tech showroom</a> — when the memory is specifically clear shells, jelly plastic, and device-as-decor energy.</li>
+            <li><a href="/zones/internet-culture/#artifact-atlas">Internet Culture object atlas</a> — guestbooks, GeoCities, AIM, and visible handmade-web traces.</li>
+            <li><a href="/zones/games/#game-artifacts">Games artifact shelf</a> — memory cards, guidebooks, cartridges, and controller-floor evidence.</li>
+            <li><a href="/zones/tv-movies/#screen-artifacts">TV/Movies screen shelf</a> — rental objects, TV Guide circles, and VHS wrapper culture.</li>
+            <li><a href="/webring/?filter=software-archives#directory">Explore software shelf</a> — WinWorld, CD archives, and vintage-computing trails.</li>
+            <li><a href="/search/?filter=objects&q=Tamagotchi">Artifact atlas: Tamagotchi</a> — jump by remembered thing instead of folder name.</li>
+          </ul>
+        </div>
+      </div>
+
+      <section class="portal-box capsule-section" id="prompts">
+        <div class="section-heading compact-heading">
+          <p class="eyebrow">Memory prompts</p>
+          <h2>Use these when the object is close but the story is fuzzy.</h2>
+          <p>Small nudges back into a specific desk, counter, pocket, or classroom moment.</p>
+        </div>
+        <div class="capsule-card-grid">
+          <article class="capsule-card"><span class="card-kicker">Family PC</span><h3>What lived next to the monitor?</h3><p>A printer, one stack of floppies, one AOL disc, and a cheat sheet of phone numbers or passwords taped somewhere nearby.</p><a href="/timeline/1995/">Open 1995 →</a></article>
+          <article class="capsule-card"><span class="card-kicker">School bag</span><h3>What beeped, rattled, or needed batteries?</h3><p>Tamagotchi, Game Boy, pager, calculator, and one mystery cord nobody wanted to lose.</p><a href="/timeline/1996/">Open 1996 →</a></article>
+          <article class="capsule-card"><span class="card-kicker">Mall future</span><h3>What store made tech feel glamorous?</h3><p>Computer stores, game kiosks, gadget counters, and toy aisles all sold the future a little differently.</p><a href="/timeline/1998/">Open 1998 →</a></article>
+        </div>
+        <p class="portal-output">Quick version: if you remember CRT glow, a shiny AOL sleeve, a pager clip, a chirping keychain, or a translucent shell, this room should now get you somewhere specific fast.</p>
+        <div><span class="prompt-chip">CRT desk glow</span><span class="prompt-chip">AOL disc pile</span><span class="prompt-chip">Encarta jewel case</span><span class="prompt-chip">pager number</span><span class="prompt-chip">Tamagotchi panic</span><span class="prompt-chip">translucent shell</span></div>
+      </section>
+    </section>
+  <!-- generated:artifact-shelf:start -->
+    <section class="panel artifact-shelf" aria-labelledby="artifactShelfTitle-zones-tech-toys">
+      <div class="section-heading compact-heading">
+        <p class="eyebrow">Passport exhibit tray</p>
+        <h2 id="artifactShelfTitle-zones-tech-toys">Objects you can inspect here.</h2>
+        <p>Open a curator label, stamp the object, then follow its next connection.</p>
+      </div>
+      <div class="artifact-ticket-grid">
+      <article class="artifact-ticket" id="artifact-family-pc" data-artifact-id="family-pc">
+        <div class="artifact-ticket-media"><picture class="responsive-artifact"><source type="image/avif" srcset="/assets/generated/family-pc-480.avif 480w" /><source type="image/webp" srcset="/assets/generated/family-pc-480.webp 480w" /><img src="/assets/media/tech-toys/family-pc-rotterdam-1999.jpg" alt="Late-1990s family desktop PC with CRT monitor and beige tower in a shared room." width="832" height="624" loading="lazy" decoding="async" /></picture></div>
+        <div class="artifact-ticket-copy">
+          <p class="artifact-label">shared-room portal · 1995–1999</p>
+          <h3>The family computer becomes a portal</h3>
+        <details>
+          <summary>Open curator label</summary>
+          <p>The future arrived in a shared room, surrounded by homework, mouse pads, and a phone line everyone needed.</p>
+          <p><strong>Why it mattered:</strong> Home computing made the web an everyday place instead of a specialist tool.</p>
+          <p class="artifact-credit"><a href="https://commons.wikimedia.org/wiki/File:Mypc11999.jpg" target="_blank" rel="noopener noreferrer">Oompje, Wikimedia Commons ↗</a> · CC BY-SA 4.0</p>
+        </details>
+          <div class="artifact-actions">
+            <button class="button inspect-button" type="button" data-artifact-inspect="family-pc">Inspect + stamp</button>
+            <a href="/zones/tech-toys/#artifact-family-pc">Open exhibit</a>
+          </div>
+        </div>
+      </article>
+      <article class="artifact-ticket" id="artifact-aol-cd" data-artifact-id="aol-cd">
+        <div class="artifact-ticket-media"><img src="/assets/media/tech-toys/aol-promotional-cds.jpg" alt="Stack of colorful AOL promotional CDs and sleeves." width="960" height="720" loading="lazy" decoding="async" /></div>
+        <div class="artifact-ticket-copy">
+          <p class="artifact-label">the internet arrives in the mailbox · 1995–1999</p>
+          <h3>AOL promotional CD</h3>
+        <details>
+          <summary>Open curator label</summary>
+          <p>Bright trial discs promised free hours and a setup wizard while quietly taking over the family phone line.</p>
+          <p><strong>Why it mattered:</strong> Mass distribution turned getting online into a consumer ritual.</p>
+          <p class="artifact-credit"><a href="https://commons.wikimedia.org/wiki/File:AOL_promotional_CDs_in_Canada.jpg" target="_blank" rel="noopener noreferrer">Jeran Renz, Wikimedia Commons ↗</a> · CC0</p>
+        </details>
+          <div class="artifact-actions">
+            <button class="button inspect-button" type="button" data-artifact-inspect="aol-cd">Inspect + stamp</button>
+            <a href="/zones/tech-toys/#artifact-aol-cd">Open exhibit</a>
+          </div>
+        </div>
+      </article>
+      <article class="artifact-ticket" id="artifact-pager" data-artifact-id="pager">
+        <div class="artifact-ticket-media"><img src="/assets/media/tech-toys/motorola-pager-teletrim.jpg" alt="Black Motorola pager with a small display and belt clip." width="960" height="720" loading="lazy" decoding="async" /></div>
+        <div class="artifact-ticket-copy">
+          <p class="artifact-label">pocket-status beep · 1992–1998</p>
+          <h3>Motorola pager</h3>
+        <details>
+          <summary>Open curator label</summary>
+          <p>The tiny display mattered less than the feeling that a message could come find you.</p>
+          <p><strong>Why it mattered:</strong> Pagers normalized portable availability before phones became pocket computers.</p>
+          <p class="artifact-credit"><a href="https://commons.wikimedia.org/wiki/File:Pager_teletrim.JPG" target="_blank" rel="noopener noreferrer">Andrepinto40, Wikimedia Commons ↗</a> · Public domain</p>
+        </details>
+          <div class="artifact-actions">
+            <button class="button inspect-button" type="button" data-artifact-inspect="pager">Inspect + stamp</button>
+            <a href="/zones/tech-toys/#artifact-pager">Open exhibit</a>
+          </div>
+        </div>
+      </article>
+      </div>
+    </section>
+<!-- generated:artifact-shelf:end -->
+  </main>

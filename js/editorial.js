@@ -6,34 +6,30 @@ function revealHashTarget() {
   const target = document.getElementById(id);
   if (!target) return;
   let parent = target.parentElement;
-  let opened = false;
+  let inReadingRoom = false;
   while (parent) {
-    if (parent instanceof HTMLDetailsElement && !parent.open) {
+    if (parent instanceof HTMLDetailsElement) {
+      inReadingRoom = true;
       parent.open = true;
-      opened = true;
     }
     parent = parent.parentElement;
   }
-  if (opened) requestAnimationFrame(() => target.scrollIntoView({ block: 'start' }));
+  if (!inReadingRoom) return;
+  const hash = location.hash;
+  const scroll = () => {
+    if (location.hash === hash && target.closest('details')?.open) target.scrollIntoView({ block:'start', behavior:'instant' });
+  };
+  requestAnimationFrame(scroll);
+  // Opening a closed room can start additional font loads. Re-anchor after those
+  // metrics settle so a long reading room cannot carry the target off screen.
+  requestAnimationFrame(() => document.fonts.ready.then(() => requestAnimationFrame(scroll)));
 }
 
 export function initializeEditorial() {
   revealHashTarget();
   window.addEventListener('hashchange', revealHashTarget);
-  // Clicking an already-current hash also needs to reopen a manually closed room.
   document.addEventListener('click', event => {
     const anchor = event.target.closest('a[href^="#"]');
     if (anchor && anchor.hash === location.hash) revealHashTarget();
   });
-  const grid = document.querySelector('[data-editorial-grid]');
-  if (grid) {
-    document.querySelectorAll('[data-editorial-view]').forEach(button => {
-      button.addEventListener('click', () => {
-        grid.dataset.view = button.dataset.editorialView;
-        document.querySelectorAll('[data-editorial-view]').forEach(item => {
-          item.setAttribute('aria-pressed', String(item === button));
-        });
-      });
-    });
-  }
 }

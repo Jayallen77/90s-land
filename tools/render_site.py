@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Render data-backed static regions without replacing authored long-form copy."""
+"""Generate complete public pages from authoritative source fragments and catalogs."""
 
 from __future__ import annotations
 
@@ -14,6 +14,9 @@ from urllib.parse import quote
 
 from validate_content import validate_catalogs as validate_existing_catalogs
 import editorial
+import archive_content as archive
+import archive_pages
+import hub_pages
 
 ROOT = Path(__file__).resolve().parents[1]
 SITE_URL = "https://90s.land"
@@ -26,7 +29,7 @@ def load_json(name: str):
 ARTIFACTS = load_json("artifacts.json")
 NAVIGATION = load_json("navigation.json")
 RESOURCES = load_json("resources.json")
-ROUTES = load_json("routes.json")
+ROUTES = archive.all_routes()
 STAMPS = load_json("stamps.json")
 TOURS = load_json("tours.json")
 
@@ -349,7 +352,7 @@ def search_records():
     records = []
     excluded_paths = {"/", "/search/", "/sitemap/", "/credits/"}
     for route in ROUTES:
-        if route["path"] in excluded_paths:
+        if route["path"] in excluded_paths or route["type"] in {"events", "stories", "objects"}:
             continue
         records.append(
             {
@@ -371,11 +374,15 @@ def search_records():
                 "recordType": "artifact",
                 "title": artifact["title"],
                 "summary": artifact["curatorNote"],
-                "href": artifact["target"],
+                "href": archive.object_url(artifact),
                 "tags": artifact["tags"] + [artifact["room"], artifact["dateRange"]["label"]],
                 "external": False,
             }
         )
+    for event in archive.EVENTS:
+        records.append({"id":"event-"+event["id"], "type":"events", "recordType":"event", "title":event["title"], "summary":event["date"]+" · "+event["region"]+" — "+event["summary"], "href":archive.event_url(event), "tags":[event["date"], event["date"][:4], event["region"], archive.CATEGORIES[event["category"]], *event["paragraphs"]], "external":False})
+    for story in archive.STORIES:
+        records.append({"id":"story-"+story["id"], "type":"stories", "recordType":"story", "title":story["title"], "summary":story["summary"], "href":archive.story_url(story), "tags":[archive.CATEGORIES[story["category"]], *[p for section in story["sections"] for p in section["paragraphs"]]], "external":False})
     for item in RESOURCES:
         records.append(
             {
@@ -397,6 +404,8 @@ def render_search_sections() -> tuple[str, str]:
     counts = Counter(item["type"] for item in records)
     categories = [
         ("all", "All"),
+        ("events", "Events"),
+        ("stories", "Stories"),
         ("highlights", "Highlights"),
         ("years", "Years"),
         ("zones", "Rooms"),
@@ -413,9 +422,9 @@ def render_search_sections() -> tuple[str, str]:
     )
     controls = f"""    <section class="panel resource-console" id="finder" aria-label="Portal search controls">
       <div class="resource-console-grid">
-        <div><p class="eyebrow">Search the museum</p><h2>Portal finder + artifact atlas</h2><p>Type a year, room, object, tour stop, or external resource.</p></div>
+        <div><p class="eyebrow">Search the museum</p><h2>Portal finder + artifact atlas</h2><p>Search a date, region, story, object, room, or external resource.</p></div>
         <div class="resource-search-wrap">
-          <label for="siteSearchInput">Search routes + objects</label>
+          <label for="siteSearchInput">Search the archive</label>
           <input id="siteSearchInput" type="search" placeholder="try: Mosaic, cassette, Blockbuster, GeoCities…" autocomplete="off" />
         </div>
       </div>
@@ -442,7 +451,7 @@ def render_search_sections() -> tuple[str, str]:
         )
     results = f"""    <section class="panel resource-directory" aria-labelledby="searchResultsTitle">
       <p class="eyebrow">Results</p>
-      <h2 id="searchResultsTitle">Routes, objects, tours, and exit-hall resources</h2>
+      <h2 id="searchResultsTitle">Events, stories, objects, and places to explore</h2>
       <p class="resource-count" id="siteSearchCount" aria-live="polite" aria-atomic="true">Showing {len(records)} matches.</p>
       <div class="chart-year-grid site-search-grid" id="siteSearchGrid">
 {chr(10).join(cards)}
@@ -658,9 +667,12 @@ def render_credits_main() -> str:
             source = f'<a href="{esc(media["sourceUrl"])}" target="_blank" rel="noopener noreferrer">source ↗</a>'
         else:
             source = "original recreation"
+        license_label = esc(media['license'])
+        if media.get('licenseUrl'):
+            license_label = f'<a href="{esc(media["licenseUrl"])}">{license_label}</a>'
         credits.append(
             f"<li><strong>{esc(item['title'])}</strong> — {esc(media['credit'])}; "
-            f"{esc(media['license'])}; {source}</li>"
+            f"{license_label}; {source}</li>"
         )
     return f"""  <main id="main-content">
     <section class="window page-hero">
@@ -675,8 +687,9 @@ def render_credits_main() -> str:
       <p>Press Start 2P and Space Mono are self-hosted from the Google Fonts distribution under the SIL Open Font License. Read the local <a href="/assets/fonts/OFL-Press-Start-2P.txt">Press Start 2P license</a> and <a href="/assets/fonts/OFL-Space-Mono.txt">Space Mono license</a>.</p>
       <h2>Editorial status</h2>
       <p><strong>Verified</strong> artifacts use a source trail. <strong>Editorial</strong> objects are clearly labeled original recreations. Items marked <strong>needs source</strong> are excluded from Surprise Me and guided tours.</p>
+      <h2>Image adaptations</h2><p>Photographs are locally resized and may be cropped by the page layout. Credits name the original creators and link to the original file records; Creative Commons ShareAlike terms continue to apply to adapted images. Original interface recreations are labeled separately. The Y2K office photograph is credited to the Government of Japan, Prime Minister’s Office website, under its Standard Terms of Use 2.0, compatible with CC BY 4.0.</p>
       <h2>Sharing artwork</h2>
-      <p>The Home, 1996 Timeline, and Games hero collages are original AI-generated editorial illustrations made with OpenAI’s built-in image tool on September 26, 2026. They evoke the decade and are not documentary photographs or evidence of release dates. Brands and illustrated products belong to their respective owners. The palm/sunset brand mark and interface icons are original SVG artwork.</p>
+      <p>The Home, 1996 Timeline, Games, Music, Movies &amp; TV, Tech, and Culture hero collages are original AI-generated editorial illustrations made with OpenAI’s built-in image tool on September 26–27, 2026. They evoke the decade and are not documentary photographs or evidence of release dates. Brands and illustrated products belong to their respective owners. The palm/sunset brand mark and interface icons are original SVG artwork.</p>
       <p>The 1200×630 social card uses one original OpenAI-generated museum-case background, based on the completed local lobby as a style reference, with all visible type applied deterministically from the self-hosted fonts.</p>
     </section>
   </main>"""
@@ -706,7 +719,7 @@ def page_document(route: dict, main: str, body_class: str = "") -> str:
 {main}
   <footer class="footer"><p>© 1999–forever 90s.land // handmade for curious people // <a href="/credits/">credits</a> // <a href="#top">back to top</a></p></footer>
 {region("shared-ui", render_shared_ui())}
-  <script type="module" src="/js/app.js?v=playable-museum-1"></script>
+  <script type="module" src="/js/app.js?v=phase4-1"></script>
 </body>
 </html>
 """
@@ -779,32 +792,6 @@ def inject_artifact_shelf(source: str, route: dict) -> str:
     if not content:
         return source
     return source.replace("</main>", region("artifact-shelf", content) + "\n  </main>", 1)
-
-
-def inject_timeline_controls(source: str, route: dict) -> str:
-    if route["type"] != "years":
-        return source
-    controls = '''        <div class="timeline-controls">
-          <nav class="month-jump-nav" aria-label="Jump to a month">
-            <a href="#month-jan">JAN</a><a href="#month-feb">FEB</a><a href="#month-mar">MAR</a><a href="#month-apr">APR</a><a href="#month-may">MAY</a><a href="#month-jun">JUN</a><a href="#month-jul">JUL</a><a href="#month-aug">AUG</a><a href="#month-sep">SEP</a><a href="#month-oct">OCT</a><a href="#month-nov">NOV</a><a href="#month-dec">DEC</a>
-          </nav>
-          <div class="timeline-view-switch" role="group" aria-label="Month display style"><button type="button" data-month-view="grid" aria-pressed="true">Grid</button><button type="button" data-month-view="list" aria-pressed="false">List</button><button type="button" data-month-view="calendar" aria-pressed="false">Calendar</button></div>
-          <span class="sr-only" data-month-view-status aria-live="polite">Grid view</span>
-        </div>'''
-    marker = '      <section class="portal-box capsule-section month-timeline" id="timeline-months">'
-    if marker not in source:
-        raise ValueError(f"Missing month timeline section for {route['path']}")
-    start = source.index(marker)
-    end = source.index("      </section>", start)
-    section = source[start:end]
-    old = re.compile(r'        <div class="timeline-controls">.*?\n        </div>\s*', re.S)
-    if old.search(section):
-        section = old.sub("", section, count=1)
-    month_grid = '<div class="month-grid capsule-month-grid">'
-    if month_grid not in section:
-        raise ValueError(f"Missing month grid for {route['path']}")
-    section = section.replace(month_grid, controls + "\n        " + month_grid, 1)
-    return source[:start] + section + source[end:]
 
 
 def inject_museum_tools_map(source: str) -> str:
@@ -908,8 +895,7 @@ def replace_full_section(source: str, selector_pattern: str, name: str, content:
 
 
 def render_existing_page(route: dict) -> str:
-    path = route_to_file(route["path"])
-    source = path.read_text()
+    source = archive.page_source(route)
     if route["path"] == "/webring/":
         featured, directory = render_webring_sections()
         source = replace_full_section(
@@ -955,15 +941,29 @@ def render_existing_page(route: dict) -> str:
             "timeline-doors",
             render_timeline_doors(),
         )
-    if route["type"] == "years":
-        source = inject_timeline_controls(source, route)
+    if route["path"] == "/sitemap/":
+        links = ''.join(f'<li><a href="{esc(r["path"])}">{esc(r["title"])}</a></li>' for r in ROUTES if r["type"] in {"events","stories","objects"} or r["path"] in {"/stories/","/archive/objects/","/this-week/"})
+        source = source.replace('</main>', '<section class="panel"><h2>The dated archive, stories & objects</h2><ul class="ar-sitemap">'+links+'</ul></section></main>')
+    source = page_document(route, source, archive.PAGES[route['path']]['bodyClass'])
     return normalize_existing_page(source, route)
 
 
 def build_outputs() -> dict[Path, str]:
     outputs = {}
     for route in ROUTES:
-        if route["path"] in editorial.CORE:
+        if route["type"] == "years":
+            outputs[route_to_file(route["path"])] = page_document(route, archive_pages.timeline(route), "editorial-body editorial-timeline")
+        elif route["path"] == "/this-week/":
+            outputs[route_to_file(route["path"])] = page_document(route, archive_pages.weekly(), "editorial-body")
+        elif route["path"] in {"/stories/", "/archive/objects/"}:
+            outputs[route_to_file(route["path"])] = page_document(route, archive_pages.archive_index(route, render_media), "editorial-body")
+        elif route["type"] in {"events", "stories", "objects"}:
+            outputs[route_to_file(route["path"])] = page_document(route, archive_pages.detail(route, render_media), "editorial-body")
+        elif route["path"] in hub_pages.HUBS:
+            outputs[route_to_file(route["path"])] = page_document(route, hub_pages.hub(route), "editorial-body")
+        elif route["path"] == "/timeline/":
+            outputs[route_to_file(route["path"])] = page_document(route, hub_pages.timeline_index(route), "editorial-body")
+        elif route["path"] in editorial.CORE:
             outputs[route_to_file(route["path"])] = page_document(
                 route, editorial.main(route), f'editorial-body editorial-{editorial.CORE[route["path"]]}'
             )
@@ -1010,12 +1010,15 @@ def build_outputs() -> dict[Path, str]:
             {"src": "/assets/icons/icon-512.png", "sizes": "512x512", "type": "image/png"},
         ],
     }
+    outputs[ROOT / "data/routes.json"] = json.dumps(ROUTES, ensure_ascii=False, indent=2) + "\n"
+    outputs[ROOT / "data/editorial-index.json"] = json.dumps(archive.browser_index(), ensure_ascii=False, indent=2) + "\n"
+    outputs[ROOT / "data/search-index.json"] = json.dumps(search_records(), ensure_ascii=False, indent=2) + "\n"
     outputs[ROOT / "manifest.webmanifest"] = json.dumps(manifest, indent=2) + "\n"
     return outputs
 
 
 def validate_catalogs() -> list[str]:
-    return validate_existing_catalogs(ROOT)
+    return validate_existing_catalogs(ROOT) + archive.validate()
 
 
 def main() -> int:

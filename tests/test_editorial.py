@@ -1,5 +1,6 @@
 """Independent preservation checks for the replacement page compositions."""
 import json
+import re
 import sys
 import unittest
 from pathlib import Path
@@ -26,7 +27,11 @@ class EditorialPreservationTests(unittest.TestCase):
             with self.subTest(route=page['route']):
                 frozen = (ROOT / page['snapshot']).read_text()
                 start, end = page['mainRange']
-                expected = plain_text(frozen[start:end])
+                original_main = frozen[start:end]
+                # The old controls called monthly summary cards a calendar. Only
+                # this generated UI is retired; every authored word still survives.
+                original_main = re.sub(r'        <div class="timeline-controls">.*?<span class="sr-only" data-month-view-status.*?</span>\s*</div>', '', original_main, flags=re.S)
+                expected = plain_text(original_main)
                 document = Document((ROOT / page['file']).read_text())
                 preserved = document.one(lambda node: node.has_class('ed-preserved'))
                 self.assertEqual(document.text(preserved), expected)

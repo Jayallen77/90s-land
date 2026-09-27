@@ -1,0 +1,371 @@
+<main id="main-content" class="capsule-main">
+    <section class="window page-hero year-page capsule-hero">
+      <div class="window-bar"><span>MIXTAPE_RADIO.EXE</span><span class="window-buttons" aria-hidden="true">_ □ ×</span></div>
+      <div class="page-pad capsule-hero-grid">
+        <div>
+          <nav class="breadcrumbs"><a href="/">Home</a> / Zones / Music</nav>
+          <p class="eyebrow">portal zone // media-first museum room</p>
+          <h1><span class="pixel-icon">MIX</span> Music</h1>
+          <p class="lede">Mixtapes, mall CDs, TRL, radio call-ins, rave flyers, Winamp skins, burned discs, and the exact physical clutter that made 90s music discovery feel social before every song became a search box.</p>
+          <div class="highlight-strip"><span>cassette culture</span><span>Discman bus rides</span><span>TRL countdowns</span><span>burned CD stacks</span><span>MP3 drift</span></div>
+          <div class="hero-actions">
+            <a class="button primary" href="#showroom">Open photo stack</a>
+            <a class="button" href="#objects">Browse music objects</a>
+            <a class="button" href="#chart-dial">Jump to radio dial</a>
+          </div>
+        </div>
+        <aside class="capsule-glance" aria-label="Music room at a glance">
+          <p class="portal-kicker">At a glance</p>
+          <h2>From tape hiss to burned CDs</h2>
+          <div class="capsule-tags"><span>physical media</span><span>scene discovery</span><span>shareable rabbit holes</span></div>
+          <p class="mini-note">This rebuild cuts the old text wall down into a usable route: sourced photos, labeled objects, shorter paths, and direct launchpads into the years and resources that matter.</p>
+          <a class="button primary" href="#media-desk">Open media desk</a>
+        </aside>
+      </div>
+    </section>
+
+    <nav class="capsule-jump-nav" aria-label="Music room section navigation">
+      <a href="#why">Why it mattered</a>
+      <a href="#showroom">Photo stack</a>
+      <a href="#objects">Objects</a>
+      <a href="#mixtape-path">Listening path</a>
+      <a href="#chart-dial">Radio dial</a>
+      <a href="#media-desk">Media desk</a>
+    </nav>
+
+    <section class="portal-content standalone year-deep-dive capsule-layout">
+      <section class="portal-box capsule-section why-card" id="why">
+        <p class="portal-kicker">Why this room matters</p>
+        <h2>90s music was a trail of objects, not just a playlist.</h2>
+        <p>Discovery had weight: jewel cases in backpacks, dubbed cassettes with crossed-out track names, anti-skip Discmen clutched on the bus, photocopied rave flyers, and spindle stacks of CD-Rs that marked the moment music started turning into files. This room works best when it helps you move through those artifacts fast.</p>
+      </section>
+
+      <section class="portal-box capsule-section" id="showroom">
+        <div class="section-heading compact-heading">
+          <p class="eyebrow">Photo stack</p>
+          <h2>Sourced visuals from the pre-streaming mess.</h2>
+          <p>Three fast anchors for the room: the tape, the portable player, and the blank-disc future.</p>
+        </div>
+        <div class="media-figure-grid">
+          <figure class="media-figure-card feature-figure">
+            <img src="/assets/media/music/compact-cassette-maxell.jpg" alt="A mid-1990s Maxell MX 60 compact cassette photographed straight on, showing the tape reels through the clear shell."  width="1280" height="960"  loading="lazy"  decoding="async" />
+            <figcaption>
+              <strong>Maxell tape with visible reels</strong>
+              <p>The kind of object that made music feel hand-built: pause-button edits, radio timing, notebook tracklists, and one side always a little stronger than the other.</p>
+              <p class="figure-source">Source: Wikimedia Commons, "Compact Cassette - Maxell MX 60" (CC BY-SA 4.0).</p>
+              <div class="figure-links"><a href="https://commons.wikimedia.org/wiki/File:Compact_Cassette_-_Maxell_MX_60.JPG" target="_blank" rel="noopener noreferrer">source ↗</a><a href="/search/?filter=objects&q=cassette">artifact atlas query</a></div>
+            </figcaption>
+          </figure>
+          <figure class="media-figure-card">
+            <img src="/assets/media/music/discman-d121.jpg" alt="A black Sony Discman D121 portable CD player photographed open, with the circular lid and buttons visible."  width="1280" height="1427"  loading="lazy"  decoding="async" />
+            <figcaption>
+              <strong>Sony Discman D121</strong>
+              <p>Peak bus-ride technology: anti-skip hope, a pocket full of CDs, and the social prestige of carrying your own soundtrack outside the house.</p>
+              <p class="figure-source">Source: Wikimedia Commons, "Discman D121" (CC BY-SA 3.0).</p>
+              <div class="figure-links"><a href="https://commons.wikimedia.org/wiki/File:Discman_D121.jpg" target="_blank" rel="noopener noreferrer">source ↗</a><a href="/timeline/1995/#top-songs">1995 chart bridge</a></div>
+            </figcaption>
+          </figure>
+          <figure class="media-figure-card">
+            <img src="/assets/media/music/cd-r-spindle.jpg" alt="A spindle stack of blank CD-R discs photographed from above, showing translucent rainbow reflections across the discs."  width="1280" height="960"  loading="lazy"  decoding="async" />
+            <figcaption>
+              <strong>Blank CD-R spindle</strong>
+              <p>The object that quietly announces the format shift: from buying albums as sealed packages to curating folders, burns, and mislabeled mixes yourself.</p>
+              <p class="figure-source">Source: Wikimedia Commons, "CD-R-Stapel" (CC BY-SA 3.0).</p>
+              <div class="figure-links"><a href="https://commons.wikimedia.org/wiki/File:CD-R-Stapel.jpg" target="_blank" rel="noopener noreferrer">source ↗</a><a href="/timeline/1999/">1999 Napster bridge</a></div>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="portal-box capsule-section" id="objects">
+        <div class="section-heading compact-heading">
+          <p class="eyebrow">Object shelf</p>
+          <h2>Five ways the decade sounded physical.</h2>
+          <p>Use the objects when you remember the prop before you remember the song.</p>
+        </div>
+        <div class="museum-object-grid">
+          <article class="museum-object-card" id="object-cassette">
+            <div class="object-meta"><span>tape object</span><span>bedroom floor / glovebox / boombox</span></div>
+            <h3>Mixtape with a handwritten J-card and one track squeezed into the margin</h3>
+            <p>The tape carried social context with it: crush math, sleepover sequencing, radio timing, and the tiny flex of making your own liner notes.</p>
+            <p class="object-note"><strong>Why it matters:</strong> the cassette made curation feel handmade long before playlists got frictionless.</p>
+            <div class="object-links"><a href="/guestbook/">leave a mixtape memory</a><a href="/search/?filter=objects&q=cassette">artifact atlas query</a></div>
+          </article>
+          <article class="museum-object-card" id="object-discman">
+            <div class="object-meta"><span>portable object</span><span>school bus / passenger seat / mall walk</span></div>
+            <h3>Discman balanced carefully so the song would not skip</h3>
+            <p>Portable CD players made your music feel private and public at once: your own soundtrack, but still totally visible through the bag, case logic, and what discs you carried.</p>
+            <p class="object-note"><strong>Why it matters:</strong> portability becomes identity — your player, your stack, your walk home, your batteries.</p>
+            <div class="object-links"><a href="/timeline/1997/">1997 bus-ride mood</a><a href="/search/?filter=objects&q=Discman">artifact atlas query</a></div>
+          </article>
+          <article class="museum-object-card" id="object-cdr">
+            <div class="object-meta"><span>format-shift object</span><span>desk drawer / family PC / burner era</span></div>
+            <h3>Blank CD-R spindle waiting to become somebody's summer mix</h3>
+            <p>The blank disc is where the room turns toward files: MP3 folders, ripping software, Sharpie labels, and the start of every burned compilation that replaced the store-bought CD in your backpack.</p>
+            <p class="object-note"><strong>Why it matters:</strong> the album economy starts wobbling as copying gets casual and social.</p>
+            <div class="object-links"><a href="/timeline/1999/">1999 file-sharing bridge</a><a href="/search/?filter=objects&q=CD-R">artifact atlas query</a></div>
+          </article>
+          <article class="museum-object-card">
+            <div class="object-meta"><span>scene object</span><span>telephone pole / club door / notebook pocket</span></div>
+            <h3>Photocopied rave or basement-show flyer with directions half torn off</h3>
+            <p>Scenes spread through paper too: local record stores, handbills, zines, venue walls, and one friend who always seemed to know where the next thing was.</p>
+            <p class="object-note"><strong>Why it matters:</strong> discovery still moved through bodies, rooms, neighborhoods, and paper trails — not just charts.</p>
+            <div class="object-links"><a href="https://music.ishkur.com/" target="_blank" rel="noopener noreferrer">electronic family tree ↗</a><a href="/webring/?filter=tv-music-media#directory">media resource shelf</a></div>
+          </article>
+          <article class="museum-object-card">
+            <div class="object-meta"><span>desktop object</span><span>family PC / bedroom tower / late-night modem</span></div>
+            <h3>MP3 folder plus a Winamp skin that felt more personal than the operating system</h3>
+            <p>By the end of the decade the interface itself becomes part of music culture: filename chaos, visualizers, burned mixes, and the strange joy of making the player match your mood.</p>
+            <p class="object-note"><strong>Why it matters:</strong> software starts inheriting the emotional space once owned by packaging and tape art.</p>
+            <div class="object-links"><a href="/zones/internet-culture/">internet culture bridge</a><a href="/timeline/1999/#month-jun">1999 MP3 drift</a></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="portal-box capsule-section" id="mixtape-path">
+        <div class="section-heading compact-heading">
+          <p class="eyebrow">Guided listening path</p>
+          <h2>Build a decade-sized mixtape in four useful stops.</h2>
+          <p>Shorter, clearer, and easier to share than the old block of scene copy.</p>
+        </div>
+        <div class="capsule-card-grid">
+          <article class="portal-box capsule-card">
+            <p class="portal-kicker">01 // record-store bin</p>
+            <h3>Start with albums as objects</h3>
+            <p>Jewel cases, parental-advisory stickers, liner notes, import sections, and the listening station all made music shopping feel ceremonial.</p>
+            <a href="https://www.discogs.com/search/?decade=1990" target="_blank" rel="noopener noreferrer">Search Discogs ↗</a>
+          </article>
+          <article class="portal-box capsule-card">
+            <p class="portal-kicker">02 // radio + MTV loop</p>
+            <h3>Move into mass-culture countdown mode</h3>
+            <p>TRL voting, request lines, soundtrack songs, and the shared weirdness of waiting for the same video again.</p>
+            <a href="/timeline/1998/#month-sep">Open the 1998 TRL stop</a>
+          </article>
+          <article class="portal-box capsule-card">
+            <p class="portal-kicker">03 // flyer wall</p>
+            <h3>Then zoom into scenes</h3>
+            <p>Grunge rooms, hip-hop crews, rave warehouses, punk basements, ska shows, and DJ nights moved through paper and rumor.</p>
+            <a href="https://music.ishkur.com/" target="_blank" rel="noopener noreferrer">Explore electronic family tree ↗</a>
+          </article>
+          <article class="portal-box capsule-card">
+            <p class="portal-kicker">04 // MP3 folder</p>
+            <h3>Finish at the file-sharing cliff</h3>
+            <p>Burned CDs, mislabeled downloads, Winamp skins, and the exact moment music stops living only on the shelf.</p>
+            <a href="/timeline/1999/">Open the 1999 capsule</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="portal-box chart-dial" id="genre-shelves">
+        <div class="section-heading compact-heading">
+          <p class="eyebrow">Genre rabbit-hole guide</p>
+          <h2>Pick a lane, then jump sideways.</h2>
+          <p>Each lane points into a year capsule, a related route, and one outside trail worth opening.</p>
+        </div>
+        <div class="chart-year-grid">
+          <article class="chart-year-card ready">
+            <span>ALT</span>
+            <h3>Alternative / grunge / indie</h3>
+            <p>Start with the rebuilt <a href="/timeline/1991/">1991</a> capsule for the breakthrough spark, then jump to <a href="/timeline/1994/">1994</a> for <i>Dookie</i>, coffee-shop cool, and homepage-era slacker mood.</p>
+            <p><a href="https://www.discogs.com/search/?q=dookie&type=all" target="_blank" rel="noopener noreferrer">Discogs trail ↗</a> · <a href="/webring/?filter=tv-music-media#directory">media shelf</a></p>
+          </article>
+          <article class="chart-year-card ready">
+            <span>RAP</span>
+            <h3>Hip-hop / R&amp;B</h3>
+            <p>Use the rebuilt <a href="/timeline/1993/">1993</a> capsule as the radio-to-mythology hinge — Whitney, SWV, Janet, and Wu-Tang in the same year — then jump to <a href="/timeline/1994/">1994</a> and back to <a href="/timeline/1992/">1992</a> for the G-funk setup.</p>
+            <p><a href="https://www.discogs.com/search/?q=illmatic&type=all" target="_blank" rel="noopener noreferrer">Illmatic trail ↗</a> · <a href="https://www.discogs.com/search/?q=ready+to+die&type=all" target="_blank" rel="noopener noreferrer">Ready to Die trail ↗</a></p>
+          </article>
+          <article class="chart-year-card ready">
+            <span>POP</span>
+            <h3>Pop / teen pop / soundtrack crossover</h3>
+            <p>Open <a href="/timeline/1996/#top-songs">1996’s chart</a> for soundtrack-era ballads, Macarena weirdness, and slow-jam radio, then jump to <a href="/timeline/1999/#top-songs">1999</a> for the teen-pop overdrive finale.</p>
+            <p><a href="/zones/tv-movies/">TV/Movies zone</a> · <a href="https://www.discogs.com/search/?q=the+lion+king+soundtrack&type=all" target="_blank" rel="noopener noreferrer">soundtrack trail ↗</a></p>
+          </article>
+          <article class="chart-year-card ready">
+            <span>RAVE</span>
+            <h3>Electronic / rave / DJ culture</h3>
+            <p>Start in this room’s flyer-wall mindset, then pair <a href="/timeline/1997/">1997</a> and <a href="/timeline/1999/">1999</a> with <a href="https://music.ishkur.com/" target="_blank" rel="noopener noreferrer">Ishkur’s guide ↗</a> for the tree of subgenres.</p>
+            <p><a href="/webring/?filter=tv-music-media#directory">resource shelf</a> · <a href="/zones/internet-culture/">internet culture</a></p>
+          </article>
+          <article class="chart-year-card ready">
+            <span>PUNK</span>
+            <h3>Punk / ska / heavy / industrial</h3>
+            <p>Use <a href="/timeline/1994/">1994</a> as the mall-punk ignition point, then skip to <a href="/timeline/1999/">1999</a> for louder radio and CD-burner chaos.</p>
+            <p><a href="https://www.discogs.com/search/?q=smash+offspring&type=all" target="_blank" rel="noopener noreferrer">Smash trail ↗</a> · <a href="/zones/games/">Games zone</a> for soundtrack spillover</p>
+          </article>
+          <article class="chart-year-card ready">
+            <span>RADIO</span>
+            <h3>Country / adult contemporary / everyday radio</h3>
+            <p>Jump into <a href="/timeline/1996/#top-songs">1996</a> to see how ballads, adult-contemporary giants, R&amp;B slow jams, and novelty-pop all shared the same radio universe.</p>
+            <p><a href="https://www.discogs.com/search/?q=celine+dion+power+of+love&type=all" target="_blank" rel="noopener noreferrer">adult-contemporary trail ↗</a> · <a href="/guestbook/">leave a radio memory</a></p>
+          </article>
+        </div>
+      </section>
+
+      <section class="portal-box chart-dial" id="chart-dial">
+        <div class="section-heading compact-heading">
+          <p class="eyebrow">90s radio dial</p>
+          <h2>Billboard Top 10 by year</h2>
+          <p>Jump straight into the yearly chart modules. Every year from 1990–1999 now works as a mini listening station: rank, song/artist links, YouTube search, Spotify search, and source trail.</p>
+        </div>
+        <div class="chart-year-grid">
+          <article class="chart-year-card ready">
+            <span>1990</span>
+            <h3><a href="/timeline/1990/#top-songs">1990: The decade boots up</a></h3>
+            <p>Top 10 songs module live, now paired with a fuller early-decade capsule about glossy radio, R&amp;B crossover, and the analog-to-digital runway into 1991.</p>
+          </article>
+          <article class="chart-year-card ready">
+            <span>1991</span>
+            <h3><a href="/timeline/1991/#top-songs">1991: Nevermind the old rules</a></h3>
+            <p>Top 10 songs module live, plus a new month-by-month capsule for grunge breakthrough, arcade crowds, and the web leaving the lab.</p>
+          </article>
+          <article class="chart-year-card ready">
+            <span>1992</span>
+            <h3><a href="/timeline/1992/#top-songs">1992: Cable, cartoons, cartridges</a></h3>
+            <p>Top 10 songs module live, now paired with a fuller month-by-month route through mall-radio ballads, Kris Kross kid-rap, Batman-season TV, Cartoon Network launch, and <i>The Chronic</i> closing the year.</p>
+          </article>
+          <article class="chart-year-card ready">
+            <span>1993</span>
+            <h3><a href="/timeline/1993/#top-songs">1993: The web gets a front door</a></h3>
+            <p>Top 10 songs module live, now paired with a fuller browser-dawn month-by-month capsule for Mosaic, <i>The X-Files</i>, <i>Myst</i>, Wu-Tang, and <i>Doom</i>.</p>
+          </article>
+          <article class="chart-year-card ready">
+            <span>1994</span>
+            <h3><a href="/timeline/1994/#top-songs">1994: Homepages begin</a></h3>
+            <p>Top 10 songs module live with song/artist links plus YouTube and Spotify rabbit-hole searches.</p>
+          </article>
+          <article class="chart-year-card ready">
+            <span>1995</span>
+            <h3><a href="/timeline/1995/#top-songs">1995: Start me up</a></h3>
+            <p>Top 10 songs module live with song/artist links plus YouTube and Spotify rabbit-hole searches.</p>
+          </article>
+          <article class="chart-year-card ready">
+            <span>1996</span>
+            <h3><a href="/timeline/1996/#top-songs">1996: Pocket monsters and web counters</a></h3>
+            <p>Top 10 songs module live, now paired with a fuller month-by-month capsule for collectible chaos, movie-soundtrack summer, and the early social-web mood.</p>
+          </article>
+          <article class="chart-year-card ready">
+            <span>1997</span>
+            <h3><a href="/timeline/1997/#top-songs">1997: Blockbusters everywhere</a></h3>
+            <p>Top 10 songs module live with song/artist links plus YouTube and Spotify rabbit-hole searches.</p>
+          </article>
+          <article class="chart-year-card ready">
+            <span>1998</span>
+            <h3><a href="/timeline/1998/#top-songs">1998: Search, slime, translucent plastic</a></h3>
+            <p>Top 10 songs module live, now paired with a rebuilt TRL / iMac / Pokémon / MP3-era capsule and a month-by-month route through late-90s radio culture.</p>
+          </article>
+          <article class="chart-year-card ready">
+            <span>1999</span>
+            <h3><a href="/timeline/1999/#top-songs">1999: Party like the clock might break</a></h3>
+            <p>Top 10 songs module live, now paired with a fuller Napster / Y2K / Matrix / teen-pop capsule and a month-by-month countdown into millennium panic.</p>
+          </article>
+        </div>
+      </section>
+
+      <div class="portal-columns" id="media-desk">
+        <div class="portal-box">
+          <div class="section-heading compact-heading">
+            <p class="eyebrow">Media desk</p>
+            <h2>Open the right launchpads.</h2>
+            <p>Use these when you want commercials, scene archaeology, or collector context without getting dumped into a random search void.</p>
+          </div>
+          <div class="media-callout-grid">
+            <article class="media-callout">
+              <div class="callout-meta"><span>video path</span><span>TRL + video countdown culture</span></div>
+              <h3>Search the TRL / MTV video trail when the memory is the room stopping for one countdown</h3>
+              <p>Good for late-90s after-school ritual, on-screen graphics, screaming crowd texture, and the social pressure of what counted as huge.</p>
+              <p class="callout-note"><strong>Media context:</strong> official uploads, archival clips, and montage fragments around Total Request Live and MTV countdown culture.</p>
+              <div class="callout-links"><a href="https://www.youtube.com/results?search_query=TRL+1998+MTV" target="_blank" rel="noopener noreferrer">TRL search ↗</a><a href="/timeline/1998/#month-sep">1998 TRL stop</a></div>
+            </article>
+            <article class="media-callout">
+              <div class="callout-meta"><span>collector path</span><span>albums + formats + pressings</span></div>
+              <h3>Use Discogs when the memory is the release itself — the CD, sticker, pressing, or soundtrack cut</h3>
+              <p>Best for turning a vague "I can see the cover" memory into an actual object trail with labels, formats, and adjacent releases.</p>
+              <p class="callout-note"><strong>Media context:</strong> release pages, credits, edition differences, and collector rabbit holes.</p>
+              <div class="callout-links"><a href="https://www.discogs.com/search/?decade=1990" target="_blank" rel="noopener noreferrer">Discogs 90s ↗</a><a href="/webring/?filter=tv-music-media#directory">music/media resources</a></div>
+            </article>
+            <article class="media-callout">
+              <div class="callout-meta"><span>file-share path</span><span>MP3 + burn era</span></div>
+              <h3>Jump to the late-decade file drift when the memory is Winamp, CD burners, and mislabeled downloads</h3>
+              <p>Use this for the transition away from shelves and toward folders: Napster dread, burned mixes, and software becoming part of music identity.</p>
+              <p class="callout-note"><strong>Media context:</strong> late-90s web culture, MP3 player skins, and the social-web side of music sharing.</p>
+              <div class="callout-links"><a href="/timeline/1999/">1999 capsule</a><a href="/zones/internet-culture/">internet culture bridge</a></div>
+            </article>
+          </div>
+        </div>
+        <div class="portal-box">
+          <h3>Related portal exits</h3>
+          <ul class="portal-link-list">
+            <li><a href="/timeline/1995/#top-songs">1995 chart module</a> — mid-decade CD-store and mall-radio hinge point.</li>
+            <li><a href="/timeline/1998/#month-sep">September 1998</a> — TRL turning after-school time into a countdown ritual.</li>
+            <li><a href="/timeline/1999/">1999 capsule</a> — Napster, burned CDs, and the decade's file-sharing cliff.</li>
+            <li><a href="/zones/tv-movies/">TV / Movies</a> — soundtrack spillover, VHS music-video texture, and cable-era watch rituals.</li>
+            <li><a href="/search/?filter=objects&q=cassette">Portal Search: cassette objects</a> — browse by remembered thing instead of route name.</li>
+            <li><a href="/guestbook/">Guestbook</a> — leave the first CD, mixtape, station, or burned-disc memory you still remember exactly.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  <!-- generated:artifact-shelf:start -->
+    <section class="panel artifact-shelf" aria-labelledby="artifactShelfTitle-zones-music">
+      <div class="section-heading compact-heading">
+        <p class="eyebrow">Passport exhibit tray</p>
+        <h2 id="artifactShelfTitle-zones-music">Objects you can inspect here.</h2>
+        <p>Open a curator label, stamp the object, then follow its next connection.</p>
+      </div>
+      <div class="artifact-ticket-grid">
+      <article class="artifact-ticket" id="artifact-cassette" data-artifact-id="cassette">
+        <div class="artifact-ticket-media"><img src="/assets/media/music/compact-cassette-maxell.jpg" alt="Compact cassette with visible reels and label area." width="1280" height="960" loading="lazy" decoding="async" /></div>
+        <div class="artifact-ticket-copy">
+          <p class="artifact-label">hand-built sequence · 1990–1997</p>
+          <h3>Mixtape cassette</h3>
+        <details>
+          <summary>Open curator label</summary>
+          <p>Pause-button edits and handwritten track lists made every tape a small act of authorship.</p>
+          <p><strong>Why it mattered:</strong> The mixtape made music discovery physical, social, and intentionally sequenced.</p>
+          <p class="artifact-credit"><a href="https://commons.wikimedia.org/wiki/File:Compact_Cassette_-_Maxell_MX_60.JPG" target="_blank" rel="noopener noreferrer">Wikimedia Commons ↗</a> · CC BY-SA 4.0</p>
+        </details>
+          <div class="artifact-actions">
+            <button class="button inspect-button" type="button" data-artifact-inspect="cassette">Inspect + stamp</button>
+            <a href="/zones/music/#artifact-cassette">Open exhibit</a>
+          </div>
+        </div>
+      </article>
+      <article class="artifact-ticket" id="artifact-discman" data-artifact-id="discman">
+        <div class="artifact-ticket-media"><img src="/assets/media/music/discman-d121.jpg" alt="Open black Sony Discman D121 portable CD player." width="1280" height="1427" loading="lazy" decoding="async" /></div>
+        <div class="artifact-ticket-copy">
+          <p class="artifact-label">portable CD ritual · 1990–1999</p>
+          <h3>Sony Discman</h3>
+        <details>
+          <summary>Open curator label</summary>
+          <p>A careful walk, a pocket full of jewel cases, and anti-skip optimism created a personal soundtrack outside the house.</p>
+          <p><strong>Why it mattered:</strong> Portable CD players made album ownership mobile while keeping the format tactile.</p>
+          <p class="artifact-credit"><a href="https://commons.wikimedia.org/wiki/File:Discman_D121.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons ↗</a> · CC BY-SA 3.0</p>
+        </details>
+          <div class="artifact-actions">
+            <button class="button inspect-button" type="button" data-artifact-inspect="discman">Inspect + stamp</button>
+            <a href="/zones/music/#artifact-discman">Open exhibit</a>
+          </div>
+        </div>
+      </article>
+      <article class="artifact-ticket" id="artifact-cdr-spindle" data-artifact-id="cdr-spindle">
+        <div class="artifact-ticket-media"><img src="/assets/media/music/cd-r-spindle.jpg" alt="Spindle of blank CD-R discs with rainbow reflections." width="1280" height="960" loading="lazy" decoding="async" /></div>
+        <div class="artifact-ticket-copy">
+          <p class="artifact-label">burn-your-own future · 1997–1999</p>
+          <h3>Blank CD-R spindle</h3>
+        <details>
+          <summary>Open curator label</summary>
+          <p>The rainbow discs waited to become a summer mix, a backup, or a folder of badly labeled MP3s.</p>
+          <p><strong>Why it mattered:</strong> CD burners shifted music collections from sealed packages toward personal copying and sequencing.</p>
+          <p class="artifact-credit"><a href="https://commons.wikimedia.org/wiki/File:CD-R-Stapel.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons ↗</a> · CC BY-SA 3.0</p>
+        </details>
+          <div class="artifact-actions">
+            <button class="button inspect-button" type="button" data-artifact-inspect="cdr-spindle">Inspect + stamp</button>
+            <a href="/zones/music/#artifact-cdr-spindle">Open exhibit</a>
+          </div>
+        </div>
+      </article>
+      </div>
+    </section>
+<!-- generated:artifact-shelf:end -->
+  </main>
