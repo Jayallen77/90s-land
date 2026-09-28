@@ -37,10 +37,10 @@ test('hero artwork and fonts load without errors on all three compositions', asy
   expect(failures).toEqual([]);
 });
 
-test('preserved reading rooms stay accessible without JavaScript', async ({ browser }) => {
-  const context = await browser.newContext({ javaScriptEnabled: false });
+test('preserved reading rooms stay accessible without JavaScript', async ({ browser, baseURL }) => {
+  const context = await browser.newContext({ baseURL, javaScriptEnabled: false });
   const page = await context.newPage();
-  await page.goto('http://127.0.0.1:4173/zones/games/');
+  await page.goto('/zones/games/');
   await expect(page.locator('.ed-hero h1')).toBeVisible();
   await page.locator('.ed-reading-room > summary').click();
   await expect(page.locator('#artifact-genesis-controller')).toBeVisible();

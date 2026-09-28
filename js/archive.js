@@ -130,7 +130,7 @@ export async function initializeWeek() {
   if (!root && !home) return;
   let catalog;
   try {
-    const response = await fetch('/data/editorial-index.json');
+    const response = await fetch('/assets/runtime/week.json');
     if (!response.ok) throw new Error('Archive unavailable');
     catalog = await response.json();
   } catch {

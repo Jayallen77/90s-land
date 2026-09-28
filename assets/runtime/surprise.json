@@ -1,0 +1,242 @@
+[
+  {
+    "id": "family-pc",
+    "title": "The family computer becomes a portal",
+    "teaser": "The future arrived in a shared room, surrounded by homework, mouse pads, and a phone line everyone needed.",
+    "dateLabel": "1995–1999",
+    "room": "tech-toys",
+    "target": "/zones/tech-toys/#artifact-family-pc"
+  },
+  {
+    "id": "windows-3",
+    "title": "Windows 3.0 Program Manager",
+    "teaser": "Colorful icons made the family PC feel less like office machinery and more like something worth exploring.",
+    "dateLabel": "1990",
+    "room": "timeline",
+    "target": "/timeline/1990/#artifact-windows-3"
+  },
+  {
+    "id": "first-website",
+    "title": "The first World Wide Web site",
+    "teaser": "The first site looks almost modest: text, blue links, and an explanation of what the web is supposed to be.",
+    "dateLabel": "1991",
+    "room": "internet-culture",
+    "target": "/timeline/1991/#artifact-first-website"
+  },
+  {
+    "id": "mosaic-browser",
+    "title": "NCSA Mosaic browser",
+    "teaser": "Gray chrome and inline images made the web feel like a navigable place rather than a technical rumor.",
+    "dateLabel": "1993",
+    "room": "internet-culture",
+    "target": "/timeline/1993/#artifact-mosaic-browser"
+  },
+  {
+    "id": "geocities-homepage",
+    "title": "Handmade GeoCities homepage",
+    "teaser": "Tiled stars, a loud title, and an under-construction badge made the page feel visibly owned.",
+    "dateLabel": "1994–1998",
+    "room": "internet-culture",
+    "target": "/zones/internet-culture/#artifact-geocities-homepage"
+  },
+  {
+    "id": "visitor-counter",
+    "title": "Six-digit visitor counter",
+    "teaser": "The number was tiny, public, and exciting precisely because each visit still felt like a person.",
+    "dateLabel": "1994–1999",
+    "room": "internet-culture",
+    "target": "/zones/internet-culture/#artifact-visitor-counter"
+  },
+  {
+    "id": "guestbook",
+    "title": "Guestbook with six handles and one typo",
+    "teaser": "Names, timestamps, and one misspelling could make a personal page feel occupied.",
+    "dateLabel": "1994–1999",
+    "room": "internet-culture",
+    "target": "/zones/internet-culture/#artifact-guestbook"
+  },
+  {
+    "id": "webring-bar",
+    "title": "Previous / random / next Webring bar",
+    "teaser": "A small navigation strip let one strange site vouch for the next.",
+    "dateLabel": "1995–1999",
+    "room": "internet-culture",
+    "target": "/zones/internet-culture/#artifact-webring-bar"
+  },
+  {
+    "id": "aim-away-message",
+    "title": "AIM away message",
+    "teaser": "One dramatic lyric, an ASCII heart, and a carefully chosen screen name could carry an entire mood.",
+    "dateLabel": "1997–1999",
+    "room": "internet-culture",
+    "target": "/zones/internet-culture/#artifact-aim-away-message"
+  },
+  {
+    "id": "yahoo-directory",
+    "title": "Hand-built Yahoo directory",
+    "teaser": "Categories and subcategories made the expanding web feel browsable by subject.",
+    "dateLabel": "1994–1998",
+    "room": "internet-culture",
+    "target": "/zones/internet-culture/#artifact-yahoo-directory"
+  },
+  {
+    "id": "aol-cd",
+    "title": "AOL promotional CD",
+    "teaser": "Bright trial discs promised free hours and a setup wizard while quietly taking over the family phone line.",
+    "dateLabel": "1995–1999",
+    "room": "tech-toys",
+    "target": "/zones/tech-toys/#artifact-aol-cd"
+  },
+  {
+    "id": "windows-95-start",
+    "title": "Windows 95 Start button",
+    "teaser": "The new button gave the desktop a friendly, memorable center.",
+    "dateLabel": "1995",
+    "room": "timeline",
+    "target": "/timeline/1995/#artifact-windows-95-start"
+  },
+  {
+    "id": "pager",
+    "title": "Motorola pager",
+    "teaser": "The tiny display mattered less than the feeling that a message could come find you.",
+    "dateLabel": "1992–1998",
+    "room": "tech-toys",
+    "target": "/zones/tech-toys/#artifact-pager"
+  },
+  {
+    "id": "cassette",
+    "title": "Mixtape cassette",
+    "teaser": "Pause-button edits and handwritten track lists made every tape a small act of authorship.",
+    "dateLabel": "1990–1997",
+    "room": "music",
+    "target": "/zones/music/#artifact-cassette"
+  },
+  {
+    "id": "discman",
+    "title": "Sony Discman",
+    "teaser": "A careful walk, a pocket full of jewel cases, and anti-skip optimism created a personal soundtrack outside the house.",
+    "dateLabel": "1990–1999",
+    "room": "music",
+    "target": "/zones/music/#artifact-discman"
+  },
+  {
+    "id": "cdr-spindle",
+    "title": "Blank CD-R spindle",
+    "teaser": "The rainbow discs waited to become a summer mix, a backup, or a folder of badly labeled MP3s.",
+    "dateLabel": "1997–1999",
+    "room": "music",
+    "target": "/zones/music/#artifact-cdr-spindle"
+  },
+  {
+    "id": "vhs-tape",
+    "title": "VHS videocassette",
+    "teaser": "Handwritten labels, recorded commercials, trailers, and rewinding arguments lived inside the same plastic shell.",
+    "dateLabel": "1990–1999",
+    "room": "tv-movies",
+    "target": "/zones/tv-movies/#artifact-vhs-tape"
+  },
+  {
+    "id": "crt-television",
+    "title": "Living-room CRT television",
+    "teaser": "Cartoons, sitcoms, local ads, and half-finished movies all arrived through one household object.",
+    "dateLabel": "1990–1999",
+    "room": "tv-movies",
+    "target": "/zones/tv-movies/#artifact-crt-television"
+  },
+  {
+    "id": "blockbuster-store",
+    "title": "Blockbuster storefront",
+    "teaser": "The glowing sign began a group negotiation conducted through box art and one-copy-left panic.",
+    "dateLabel": "1990–1999",
+    "room": "tv-movies",
+    "target": "/zones/tv-movies/#artifact-blockbuster-store"
+  },
+  {
+    "id": "arcade-cabinet",
+    "title": "Arcade cabinet",
+    "teaser": "Attract-mode audio, quarter stacks, and spectators made the machine a small public stage.",
+    "dateLabel": "1990–1999",
+    "room": "games",
+    "target": "/zones/games/#artifact-arcade-cabinet"
+  },
+  {
+    "id": "genesis-controller",
+    "title": "Sega Genesis six-button controller",
+    "teaser": "The pad carried fighting-game technique, sports-game trash talk, and console loyalty.",
+    "dateLabel": "1993–1999",
+    "room": "games",
+    "target": "/zones/games/#artifact-genesis-controller"
+  },
+  {
+    "id": "n64-controller",
+    "title": "Gray Nintendo 64 controller",
+    "teaser": "Its odd shape and analog stick announced that 3D games would need a different kind of touch.",
+    "dateLabel": "1996–1999",
+    "room": "games",
+    "target": "/zones/games/#artifact-n64-controller"
+  },
+  {
+    "id": "playstation-hardware",
+    "title": "Original PlayStation hardware",
+    "teaser": "Gray hardware, CDs, and memory cards made the next console era feel sleek and cinematic.",
+    "dateLabel": "1994–1999",
+    "room": "games",
+    "target": "/timeline/1994/#artifact-playstation-hardware"
+  },
+  {
+    "id": "bondi-imac",
+    "title": "Bondi blue iMac G3",
+    "teaser": "The rounded translucent shell replaced beige utility with color, friendliness, and visible personality.",
+    "dateLabel": "1998–1999",
+    "room": "transparent-tech",
+    "target": "/zones/transparent-tech/#artifact-bondi-imac"
+  },
+  {
+    "id": "dreamcast",
+    "title": "Sega Dreamcast",
+    "teaser": "The white hardware and VMU made the last year of the decade feel connected, arcade-bright, and slightly ahead of schedule.",
+    "dateLabel": "1999",
+    "room": "games",
+    "target": "/timeline/1999/#artifact-dreamcast"
+  },
+  {
+    "id": "y2k-office",
+    "title": "Y2K response office",
+    "teaser": "Rows of screens and response teams turned a date change into nightly-news suspense.",
+    "dateLabel": "1999",
+    "room": "timeline",
+    "target": "/timeline/1999/#artifact-y2k-office"
+  },
+  {
+    "id": "hubble-launch",
+    "title": "Hubble launch",
+    "teaser": "The image belongs beside mall radio and VHS precisely because it shows how large the decade's opening horizon felt.",
+    "dateLabel": "1990",
+    "room": "timeline",
+    "target": "/timeline/1990/#artifact-hubble-launch"
+  },
+  {
+    "id": "doom-disks",
+    "title": "Doom shareware disks",
+    "teaser": "The disks capture the after-hours secret life of the family computer better than a clean screenshot can.",
+    "dateLabel": "1993",
+    "room": "games",
+    "target": "/timeline/1993/#artifact-doom-disks"
+  },
+  {
+    "id": "game-boy-color",
+    "title": "Atomic Purple Game Boy Color",
+    "teaser": "Visible circuitry and candy-colored plastic made the handheld itself part of the collection.",
+    "dateLabel": "1998–1999",
+    "room": "transparent-tech",
+    "target": "/zones/transparent-tech/#artifact-game-boy-color"
+  },
+  {
+    "id": "transparent-n64-controller",
+    "title": "Transparent purple N64 controller",
+    "teaser": "A clear shell made even the controller on the carpet feel like room decor.",
+    "dateLabel": "1998–1999",
+    "room": "transparent-tech",
+    "target": "/zones/transparent-tech/#artifact-transparent-n64-controller"
+  }
+]

@@ -41,7 +41,11 @@ class Handler(SimpleHTTPRequestHandler):
     def log_message(self,*args):pass
 
 if __name__=='__main__':
-    parser=argparse.ArgumentParser();parser.add_argument('--root',type=Path,required=True);parser.add_argument('--port',type=int,default=4174);args=parser.parse_args()
+    parser=argparse.ArgumentParser();parser.add_argument('--root',type=Path,default=Path(__file__).resolve().parents[1]/'dist/release/public');parser.add_argument('--port',type=int,default=4174);args=parser.parse_args()
+    from build_release import verify
+    root=args.root.resolve()
+    if root.name != 'public':raise ValueError('Preview root must be a verified release public/ directory')
+    verify(root.parent)
     server=ThreadingHTTPServer(('127.0.0.1',args.port),partial(Handler,directory=str(args.root.resolve())))
     print(f'Release preview: http://127.0.0.1:{args.port}',flush=True)
     try:server.serve_forever()

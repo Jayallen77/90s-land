@@ -4,7 +4,6 @@ import argparse
 import hashlib
 import json
 from pathlib import Path
-from PIL import Image
 
 ROOT = Path(__file__).resolve().parents[1]
 MANIFEST = ROOT / 'data/asset-variants.json'
@@ -28,6 +27,7 @@ def main():
         print(f'Optimized asset integrity: {len(files)} files; {len(stale)} stale')
         for name in stale: print(name)
         return bool(stale)
+    from PIL import Image
     from fontTools.ttLib import TTFont
     manifest = {'version': 1, 'imageOptions': {'format': 'WebP', 'quality': 80, 'method': 6},
                 'images': {}, 'files': {}}

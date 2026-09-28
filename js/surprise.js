@@ -13,7 +13,7 @@ let artifactsPromise;
 let currentArtifact;
 
 function loadArtifacts() {
-  artifactsPromise ??= fetch("/data/artifacts.json").then((response) => {
+  artifactsPromise ??= fetch("/assets/runtime/surprise.json").then((response) => {
     if (!response.ok) throw new Error("Artifact catalog unavailable");
     return response.json();
   });
@@ -22,13 +22,8 @@ function loadArtifacts() {
 
 function chooseArtifact(items) {
   const recent = readJson(sessionStore, SURPRISE_KEY, []);
-  const eligible = items.filter(
-    (item) =>
-      item.randomEligible &&
-      item.status !== "needs-source" &&
-      !recent.includes(item.id),
-  );
-  const pool = eligible.length ? eligible : items.filter((item) => item.randomEligible);
+  const eligible = items.filter((item) => !recent.includes(item.id));
+  const pool = eligible.length ? eligible : items;
   const chosen = pool[Math.floor(Math.random() * pool.length)];
   const nextRecent = [chosen.id, ...recent.filter((id) => id !== chosen.id)].slice(
     0,
@@ -42,9 +37,9 @@ function displayArtifact(dialog, artifact) {
   currentArtifact = artifact;
   dialog.querySelector("[data-surprise-title]").textContent = artifact.title;
   dialog.querySelector("[data-surprise-teaser]").textContent =
-    artifact.curatorNote;
+    artifact.teaser;
   dialog.querySelector("[data-surprise-meta]").textContent =
-    `${artifact.dateRange.label} · ${artifact.room.replaceAll("-", " ")}`;
+    `${artifact.dateLabel} · ${artifact.room.replaceAll("-", " ")}`;
   dialog.querySelector("[data-surprise-open]").href = artifact.target;
   dialog.querySelector("[data-surprise-loading]").hidden = true;
   dialog.querySelector("[data-surprise-ready]").hidden = false;

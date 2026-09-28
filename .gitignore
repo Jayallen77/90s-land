@@ -8,5 +8,14 @@ playwright-report/
 reports/lighthouse/*.json
 !reports/lighthouse/summary.json
 /dist/
+# Local credentials, Python environments, and temporary release work are never committed.
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+*.py[cod]
+.90s-build-*/
+.90s-publish-*/
 reports/phase-5/performance-*/*-mobile.json
 reports/phase-5/performance-*/*-desktop.json

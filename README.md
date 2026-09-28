@@ -26,6 +26,8 @@ Generated public HTML is committed; edit its sources and run the renderer.
 - `data/routes.json`, `editorial-index.json`, and `search-index.json` are generated.
 - `tools/optimize_assets.py` creates responsive object WebPs and local WOFF2 fonts;
   `data/asset-variants.json` records their integrity hashes. Originals are retained.
+- `assets/runtime/week.json` and `surprise.json` are generated, limited browser
+  payloads. Authoring catalogs under `data/` and `content/` are never published.
 - `tools/render_site.py` generates every public document; `tools/editorial.py`
   supplies the shared shell and Home composition. `archive_content.py`
   validates the dated archive; `archive_pages.py` renders its pages and
@@ -41,8 +43,9 @@ Generated public HTML is committed; edit its sources and run the renderer.
 python3 tools/render_site.py
 ```
 
-No build reads public HTML or frozen snapshots. The source-independence test
-rejects either dependency. Do not edit generated HTML to change content.
+The renderer does not read generated public HTML or frozen snapshots. The
+source-independence test rejects either dependency. Do not edit generated HTML
+to change content. Production packaging verifies and copies the committed output.
 
 ## Rebuild documentation
 
@@ -68,10 +71,13 @@ entries require separate sources and date notes.
 ## Local preview
 
 ```sh
-python3 -m http.server 4173
+python3 -B tools/build_release.py
+python3 -B tools/serve_release.py --port 4174
 ```
 
-Open `http://127.0.0.1:4173/`.
+Open `http://127.0.0.1:4174/`. This verifies and serves only the production bundle.
+For source authoring only, bind `python3 -m http.server 4173 --bind 127.0.0.1`
+to localhost; never expose the checkout as a production document root.
 
 Before review, run:
 
@@ -106,10 +112,19 @@ A nostalgic interactive portal/museum/playground for the 90s and pre-algorithm i
 
 ## Deployment
 
-Build a public-only release with `python3 tools/build_release.py --output dist/release`.
-The output directory must be new or empty. It includes a compressed archive,
-checksums, and a `public/` folder; see [the runbook](docs/RELEASE.md). Production
-must enable text compression to reproduce the local release measurements.
+**The public production output is `dist/release/public/`. Never serve the Git
+checkout.** After pulling a reviewed commit, run `python3 -B tools/build_release.py`
+(or `pnpm build`). Packaging requires only Python 3.10+; it verifies committed
+generated output and creates a repeatable, public-only package. `dist/` is ignored,
+so a Git pull alone is not a deployment.
 
-Do not deploy, push, or alter 90s.land production until Justin explicitly
-approves a separate production task.
+`python3 -B tools/deploy_release.py --site-root /CONFIRMED/RELEASE/STORE` publishes
+verified files outside the checkout and atomically switches `current` to the
+release's `public/` directory. Caddy must already serve that `current` path.
+The helper preserves prior releases and does not change server configuration.
+
+See [the deployment and rollback runbook](docs/RELEASE.md) for exact VPS commands,
+required serving behavior, verification, and rollback. Manifests and archives stay
+outside the public root. GitHub publication and VPS deployment are separate
+operations; perform each only when Justin authorizes it. The deployment scripts
+never change Caddy configuration.

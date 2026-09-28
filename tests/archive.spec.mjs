@@ -92,6 +92,7 @@ test('week navigation, deep links, empty states and year changes stay coherent',
   await page.goBack();
   await expect(page.locator('[data-week-date]')).toHaveValue('1996-12-29');
   await page.goto('/this-week/?date=1996-02-29');
+  await expect(page.locator('[data-week-date]')).toHaveValue('1996-02-29');
   await page.locator('[data-week-select]').selectOption('1995');
   await expect(page.locator('[data-week-date]')).toHaveValue('1995-02-28');
   await page.goto('/this-week/?date=1990-01-01');
@@ -105,7 +106,7 @@ test('week navigation, deep links, empty states and year changes stay coherent',
 });
 
 test('archive fetch failure leaves an honest, readable static weekly page', async ({ page }) => {
-  await page.route('**/data/editorial-index.json',route=>route.abort());
+  await page.route('**/assets/runtime/week.json',route=>route.abort());
   await page.goto('/this-week/');
   await expect(page.locator('[data-week-explainer]')).toContainText('temporarily unavailable');
   await expect(page.locator('[data-weekly] .ar-controls')).toBeHidden();
@@ -132,16 +133,16 @@ test('search finds dates, regions, accents, stories and object detail records', 
   await expect(page.locator('[data-passport-artifacts]')).toHaveText('1');
 });
 
-test('new pages and real calendars remain readable without JavaScript', async ({ browser }) => {
-  const context = await browser.newContext({javaScriptEnabled:false});
+test('new pages and real calendars remain readable without JavaScript', async ({ browser, baseURL }) => {
+  const context = await browser.newContext({baseURL, javaScriptEnabled:false});
   const page = await context.newPage();
-  await page.goto('http://127.0.0.1:4173/timeline/1996/');
+  await page.goto('/timeline/1996/');
   await expect(page.locator('.ar-calendar:visible')).toHaveCount(12);
   await expect(page.locator('.ar-controls')).toBeHidden();
   await page.locator('[data-month-panel="6"] .ar-event').first().getByRole('link').click();
   await expect(page.locator('h1')).toContainText(catalog.events.filter(e=>e.date.startsWith('1996-06')).sort((a,b)=>a.date.localeCompare(b.date))[0].title);
   await expect(page.locator('#sources')).toBeVisible();
-  await page.goto('http://127.0.0.1:4173/this-week/');
+  await page.goto('/this-week/');
   await expect(page.getByText('Saved week for', {exact:false})).toBeVisible();
   await expect(page.locator('[data-week-days] .ar-day')).toHaveCount(7);
   await context.close();

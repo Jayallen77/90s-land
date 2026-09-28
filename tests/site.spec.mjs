@@ -101,8 +101,8 @@ test("passport persists and resets through confirmation", async ({ page }) => {
   await expect(page.locator("[data-passport-artifacts]")).toHaveText("0");
 });
 
-test("passport announces an in-memory fallback", async ({ browser }) => {
-  const context = await browser.newContext();
+test("passport announces an in-memory fallback", async ({ browser, baseURL }) => {
+  const context = await browser.newContext({ baseURL });
   await context.addInitScript(() => {
     Object.defineProperty(window, "localStorage", {
       get() {
@@ -111,7 +111,7 @@ test("passport announces an in-memory fallback", async ({ browser }) => {
     });
   });
   const page = await context.newPage();
-  await page.goto("http://127.0.0.1:4173/");
+  await page.goto("/");
   await page.locator("[data-passport-trigger]").click();
   await expect(page.locator("[data-storage-note]")).toContainText(
     "will not persist"
@@ -136,6 +136,8 @@ test("tour deep links, recreation, resume, and completion work", async ({ page }
   await expect(page.locator("[data-tour-resume]")).toBeVisible();
   await page.locator('[data-dialog-close="passportDialog"]').click();
   await page.goto("/tours/before-the-feed/#portals-and-precursors");
+  await expect(currentStop).toHaveCount(1);
+  await expect(currentStop).toHaveAttribute("id", "portals-and-precursors");
   await page.locator("[data-tour-stop]:visible [data-tour-next]").click();
   await expect(page.locator("[data-tour-progress-copy]")).toContainText(
     "Tour complete"
@@ -192,19 +194,19 @@ test("guestbook sends and stores nothing", async ({ page }) => {
   await expect(page.locator("[data-guestbook-preview]")).toBeHidden();
 });
 
-test("core museum content and fallbacks work without JavaScript", async ({ browser }) => {
-  const context = await browser.newContext({ javaScriptEnabled: false });
+test("core museum content and fallbacks work without JavaScript", async ({ browser, baseURL }) => {
+  const context = await browser.newContext({ baseURL, javaScriptEnabled: false });
   const page = await context.newPage();
-  await page.goto("http://127.0.0.1:4173/");
+  await page.goto("/");
   await expect(page.getByRole("link", { name: "Surprise me", exact: true }).first()).toHaveAttribute(
     "href",
     "/surprise/"
   );
   await expect(page.locator("[data-passport-trigger]")).toBeHidden();
-  await page.goto("http://127.0.0.1:4173/tours/before-the-feed/#mosaic-visual-web");
+  await page.goto("/tours/before-the-feed/#mosaic-visual-web");
   await expect(page.locator("[data-tour-stop]")).toHaveCount(6);
   await expect(page.locator("[data-tour-stop]:visible")).toHaveCount(6);
-  await page.goto("http://127.0.0.1:4173/surprise/");
+  await page.goto("/surprise/");
   await expect(page.locator(".mystery-envelope")).toHaveCount(
     artifacts.filter((artifact) => artifact.randomEligible && artifact.status !== "needs-source").length
   );

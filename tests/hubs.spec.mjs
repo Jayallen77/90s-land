@@ -32,9 +32,9 @@ test('game genre and platform filters combine, recover and survive history',asyn
  await expect(games).toHaveCount(12);
  await page.goto('/zones/games/?genre=invalid&platform=unknown');await expect(games).toHaveCount(12);
 });
-test('hub content and the game shelf are available without scripts',async({browser})=>{
- const context=await browser.newContext({javaScriptEnabled:false});const page=await context.newPage();
- await page.goto('http://127.0.0.1:4173/zones/games/');
+test('hub content and the game shelf are available without scripts',async({browser,baseURL})=>{
+ const context=await browser.newContext({baseURL, javaScriptEnabled:false});const page=await context.newPage();
+ await page.goto('/zones/games/');
  await expect(page.locator('[data-hub-game]:visible')).toHaveCount(12);
  await page.locator('[data-hub-story]').first().getByRole('link').click();
  await expect(page.locator('#sources')).toBeVisible();await context.close();

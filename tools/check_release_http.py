@@ -1,39 +1,94 @@
 #!/usr/bin/env python3
-"""Verify the packaged preview's routes, encodings, 404s and source exclusion."""
+"""Audit a verified package over HTTP; no source checkout or server changes needed."""
 import argparse
 import gzip
 import hashlib
 import json
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
-from urllib.error import HTTPError
+from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 
-ROOT=Path(__file__).resolve().parents[1]
+from build_release import DEFAULT_OUTPUT, ROOT, verify
 
-def main():
-    parser=argparse.ArgumentParser();parser.add_argument('--base-url',default='http://127.0.0.1:4174');parser.add_argument('--release',type=Path,required=True);args=parser.parse_args()
-    manifest=json.loads((args.release/'release-manifest.json').read_text())
-    routes=json.loads((ROOT/'data/routes.json').read_text())
+EXCLUDED = [
+    '/does-not-exist/', '/.git/config', '/.git/HEAD', '/.git/index', '/.git/objects/',
+    '/%2egit/config', '/.env', '/.env.production', '/.gitignore', '/.codex/config.toml',
+    '/.agents/', '/AGENTS.md', '/README.md', '/package.json', '/pnpm-lock.yaml',
+    '/requirements-dev.txt', '/playwright.config.mjs', '/node_modules/',
+    '/content/pages.json', '/content/editorial/catalog.json', '/content/editorial/modules.json',
+    '/content/migration/', '/data/artifacts.json', '/data/editorial-index.json',
+    '/data/routes.json', '/data/resources.json', '/data/search-index.json',
+    '/data/asset-variants.json', '/data/tours.json', '/data/stamps.json', '/data/navigation.json',
+    '/tools/build_release.py', '/tools/deploy_release.py', '/tests/test_release.py',
+    '/docs/RELEASE.md', '/reports/PHASE_5_QA.md', '/reports/baseline/phase-1/',
+    '/release-manifest.json', '/90s-land.tar.gz', '/90s-land.tar.gz.sha256',
+    '/dist/release/release-manifest.json', '/releases/', '/js/app.js.map',
+    '/assets/editorial/home-hero-original.png', '/assets/editorial/movies-hero-source.png',
+    '/assets/.git/config', '/assets/runtime/catalog.json', '/assets/runtime/week.json.bak',
+    '/data/artifacts.json.gz', '/content/editorial/catalog.json.gz',
+    '/%2e%2e/.git/config', '/assets/%2e%2e/%2e%2e/.git/config',
+]
+
+
+def audit(base_url, release):
+    manifest = verify(release)
+    base_url = base_url.rstrip('/')
+
     def head(path):
         try:
-            with urlopen(Request(args.base_url+path,method='HEAD'),timeout=10) as response:return path,response.status
-        except HTTPError as error:return path,error.code
-    with ThreadPoolExecutor(max_workers=6) as pool:status=list(pool.map(lambda r:head(r['path']),routes))
-    errors=[f'{path}: {code}' for path,code in status if code!=200]
-    excluded=['/does-not-exist/','/.git/config','/content/editorial/catalog.json','/docs/REBUILD_HANDOFF.md','/reports/PHASE_5_QA.md','/assets/editorial/home-hero-original.png']
-    missing=[head(path) for path in excluded]
-    errors.extend(f'Expected 404: {path}: {code}' for path,code in missing if code!=404)
-    for path in ['/','/timeline/1996/','/js/app.js','/editorial.css','/data/editorial-index.json']:
-        request=Request(args.base_url+path,headers={'Accept-Encoding':'gzip'})
-        with urlopen(request,timeout=10) as response:
-            if response.headers.get('Content-Encoding')!='gzip':errors.append('Missing gzip: '+path)
-            if 'Accept-Encoding' not in response.headers.get('Vary',''):errors.append('Missing Vary: '+path)
-            body=gzip.decompress(response.read())
-        name=path.lstrip('/')+('index.html' if path.endswith('/') else '')
-        if hashlib.sha256(body).hexdigest()!=manifest['files'][name]['sha256']:errors.append('Served content mismatch: '+path)
-    result={'routes':len(routes),'routeStatus':200,'excludedPaths':dict(missing),'gzipSamples':5,'contentDigest':manifest['contentDigest'],'errors':errors}
-    output=ROOT/'reports/phase-5/release-http.json';output.write_text(json.dumps(result,indent=2)+'\n');print(json.dumps(result,indent=2))
-    return bool(errors)
+            with urlopen(Request(base_url + path, method='HEAD'), timeout=15) as response:
+                return path, response.status
+        except HTTPError as error:
+            return path, error.code
+        except URLError as error:
+            return path, str(error.reason)
 
-if __name__=='__main__':raise SystemExit(main())
+    with ThreadPoolExecutor(max_workers=6) as pool:
+        status = list(pool.map(head, manifest['routePaths']))
+        missing = list(pool.map(head, EXCLUDED))
+    errors = [f'{path}: {code}' for path, code in status if code != 200]
+    errors.extend(f'Expected 404: {path}: {code}' for path, code in missing if code != 404)
+    samples = ['/', '/timeline/1996/', '/js/app.js', '/editorial.css',
+               '/assets/runtime/week.json', '/assets/runtime/surprise.json']
+    for path in samples:
+        name = path.lstrip('/') + ('index.html' if path.endswith('/') else '')
+        try:
+            for encoding in ('identity', 'gzip'):
+                request = Request(base_url + path, headers={'Accept-Encoding': encoding})
+                with urlopen(request, timeout=15) as response:
+                    body = response.read()
+                    actual_encoding = response.headers.get('Content-Encoding')
+                    if encoding == 'gzip':
+                        if actual_encoding != 'gzip':
+                            errors.append('Missing gzip: ' + path)
+                        else:
+                            body = gzip.decompress(body)
+                        if 'accept-encoding' not in response.headers.get('Vary', '').lower():
+                            errors.append('Missing Vary: ' + path)
+                    elif actual_encoding not in (None, 'identity'):
+                        errors.append('Unexpected encoding for identity: ' + path)
+                    if hashlib.sha256(body).hexdigest() != manifest['files'][name]['sha256']:
+                        errors.append('Served content mismatch: ' + path + ' (' + encoding + ')')
+        except (OSError, ValueError, EOFError) as error:
+            errors.append(f'{path}: {error}')
+    return {'routes': len(status), 'routesPassed': sum(code == 200 for _, code in status),
+            'excludedPaths': dict(missing), 'encodingSamples': len(samples) * 2,
+            'contentDigest': manifest['contentDigest'], 'errors': errors}
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--base-url', default='http://127.0.0.1:4174')
+    parser.add_argument('--release', type=Path, default=DEFAULT_OUTPUT)
+    parser.add_argument('--output', type=Path, default=ROOT / 'dist/deployment-http.json')
+    args = parser.parse_args()
+    result = audit(args.base_url, args.release)
+    args.output.parent.mkdir(parents=True, exist_ok=True)
+    args.output.write_text(json.dumps(result, indent=2) + '\n')
+    print(json.dumps(result, indent=2))
+    return bool(result['errors'])
+
+
+if __name__ == '__main__':
+    raise SystemExit(main())

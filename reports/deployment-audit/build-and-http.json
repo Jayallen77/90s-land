@@ -1,0 +1,148 @@
+{
+  "contentDigest": "d3914fb0be3713717344e946cf02d15de8d359a48729d786b216d5832ec5780c",
+  "archiveSha256": "4cad0c321805e4e180a5ca046d0ce8771df5c10b59bb2fee7419381fa2d74b63",
+  "routes": 474,
+  "runtimeFiles": 636,
+  "cleanExportBuildMatches": true,
+  "cleanExportIncludesGitOrNodeModules": false,
+  "unchangedHtmlFiles": 475,
+  "unchangedStylesheets": 4,
+  "publicCatalogDirectories": [],
+  "stdlibOnlyBuildMatches": true,
+  "http": {
+    "routesPassed": 474,
+    "excludedPaths": 52,
+    "excludedPathsAll404": true,
+    "encodingSamples": 12,
+    "errors": []
+  },
+  "pythonTests": 35,
+  "dateTests": 6,
+  "publishRestrictiveUmaskVerified": true,
+  "publicSymlinks": 0,
+  "earlierFullBrowserRun": {
+    "passed": 57,
+    "failed": 0,
+    "target": "verified production bundle on localhost:4180",
+    "elapsedMinutes": 2.8
+  },
+  "latestFullBrowserRun": {
+    "passed": 56,
+    "failed": 1,
+    "failure": "Wide-screen 474-route sweep exceeded its cumulative 180-second timeout while navigating to /stories/the-internet-came-in-the-mail/."
+  },
+  "finalTargetedVerification": {
+    "classification": "test flake; no reproducible page bug",
+    "siteFixNeeded": false,
+    "story": {
+      "mode": "story",
+      "passed": 3,
+      "results": [
+        {
+          "run": 1,
+          "route": "/stories/the-internet-came-in-the-mail/",
+          "passed": true,
+          "elapsedMs": 242,
+          "layout": {
+            "root": 0,
+            "body": 0,
+            "clippedControls": 0
+          },
+          "pageErrors": []
+        },
+        {
+          "run": 2,
+          "route": "/stories/the-internet-came-in-the-mail/",
+          "passed": true,
+          "elapsedMs": 97,
+          "layout": {
+            "root": 0,
+            "body": 0,
+            "clippedControls": 0
+          },
+          "pageErrors": []
+        },
+        {
+          "run": 3,
+          "route": "/stories/the-internet-came-in-the-mail/",
+          "passed": true,
+          "elapsedMs": 81,
+          "layout": {
+            "root": 0,
+            "body": 0,
+            "clippedControls": 0
+          },
+          "pageErrors": []
+        }
+      ]
+    },
+    "smoke": {
+      "mode": "smoke",
+      "passed": 5,
+      "results": [
+        {
+          "run": 1,
+          "route": "/",
+          "passed": true,
+          "elapsedMs": 290,
+          "layout": {
+            "root": 0,
+            "body": 0,
+            "clippedControls": 0
+          },
+          "pageErrors": []
+        },
+        {
+          "run": 2,
+          "route": "/stories/the-internet-came-in-the-mail/",
+          "passed": true,
+          "elapsedMs": 89,
+          "layout": {
+            "root": 0,
+            "body": 0,
+            "clippedControls": 0
+          },
+          "pageErrors": []
+        },
+        {
+          "run": 3,
+          "route": "/timeline/1996/?month=06&view=calendar",
+          "passed": true,
+          "elapsedMs": 120,
+          "layout": {
+            "root": 0,
+            "body": 0,
+            "clippedControls": 0
+          },
+          "pageErrors": []
+        },
+        {
+          "run": 4,
+          "route": "/zones/games/",
+          "passed": true,
+          "elapsedMs": 127,
+          "layout": {
+            "root": 0,
+            "body": 0,
+            "clippedControls": 0
+          },
+          "pageErrors": []
+        },
+        {
+          "run": 5,
+          "route": "/this-week/?date=1996-06-23",
+          "passed": true,
+          "elapsedMs": 113,
+          "layout": {
+            "root": 0,
+            "body": 0,
+            "clippedControls": 0
+          },
+          "pageErrors": []
+        }
+      ]
+    },
+    "productionBuildAndCheckPassed": true,
+    "deploymentHttpChecksPassed": true
+  }
+}

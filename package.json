@@ -18,10 +18,14 @@
     "social-card": "python3 tools/build_social_card.py",
     "lighthouse": "node tools/run_lighthouse.mjs",
     "test:dates": "node --test tests/date-utils.test.mjs",
-    "release:build": "python3 tools/build_release.py",
-    "release:preview": "python3 tools/serve_release.py",
+    "release:build": "python3 -B tools/build_release.py",
+    "release:preview": "python3 -B tools/serve_release.py",
     "editorial:check": "python3 tools/check_editorial.py --check",
-    "screenshots:final": "node tools/capture_phase5.mjs"
+    "screenshots:final": "node tools/capture_phase5.mjs",
+    "build": "python3 -B tools/build_release.py",
+    "build:check": "python3 -B tools/build_release.py --check",
+    "release:publish": "python3 -B tools/deploy_release.py",
+    "release:audit": "python3 -B tools/check_release_http.py"
   },
   "devDependencies": {
     "@axe-core/playwright": "4.12.1",

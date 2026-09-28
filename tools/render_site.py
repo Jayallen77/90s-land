@@ -1014,6 +1014,16 @@ def build_outputs() -> dict[Path, str]:
     }
     outputs[ROOT / "data/routes.json"] = json.dumps(ROUTES, ensure_ascii=False, indent=2) + "\n"
     outputs[ROOT / "data/editorial-index.json"] = json.dumps(archive.browser_index(), ensure_ascii=False, indent=2) + "\n"
+    # Only the fields needed by browser interactions cross the public boundary.
+    # Authoring catalogs (including review/source metadata) remain in data/.
+    outputs[ROOT / "assets/runtime/week.json"] = json.dumps(
+        {"events": archive.browser_index()["events"]}, ensure_ascii=False, indent=2
+    ) + "\n"
+    outputs[ROOT / "assets/runtime/surprise.json"] = json.dumps([
+        {"id": item["id"], "title": item["title"], "teaser": item["curatorNote"],
+         "dateLabel": item["dateRange"]["label"], "room": item["room"], "target": item["target"]}
+        for item in ARTIFACTS if item["randomEligible"] and item["status"] != "needs-source"
+    ], ensure_ascii=False, indent=2) + "\n"
     outputs[ROOT / "data/search-index.json"] = json.dumps(search_records(), ensure_ascii=False, indent=2) + "\n"
     outputs[ROOT / "manifest.webmanifest"] = json.dumps(manifest, indent=2) + "\n"
     return outputs
