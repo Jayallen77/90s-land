@@ -3,8 +3,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "author": "python3 tools/render_site.py && python3 tools/process_media.py",
-    "author:check": "python3 tools/render_site.py --check && python3 tools/process_media.py --check",
+    "author": "python3 tools/optimize_assets.py && python3 tools/render_site.py && python3 tools/process_media.py",
+    "author:check": "python3 tools/optimize_assets.py --check && python3 tools/render_site.py --check && python3 tools/process_media.py --check",
     "content:extract": "python3 tools/migrate_content.py",
     "content:check": "python3 tools/migrate_content.py --check && python3 tools/validate_content.py && python3 tools/report_coverage.py --check",
     "content:baseline": "python3 tools/validate_content.py --baseline-unchanged",
@@ -17,7 +17,11 @@
     "screenshots": "node tools/capture_screenshots.mjs",
     "social-card": "python3 tools/build_social_card.py",
     "lighthouse": "node tools/run_lighthouse.mjs",
-    "test:dates": "node --test tests/date-utils.test.mjs"
+    "test:dates": "node --test tests/date-utils.test.mjs",
+    "release:build": "python3 tools/build_release.py",
+    "release:preview": "python3 tools/serve_release.py",
+    "editorial:check": "python3 tools/check_editorial.py --check",
+    "screenshots:final": "node tools/capture_phase5.mjs"
   },
   "devDependencies": {
     "@axe-core/playwright": "4.12.1",

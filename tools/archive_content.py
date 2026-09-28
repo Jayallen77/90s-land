@@ -107,10 +107,11 @@ def browser_index():
 
 
 def event_image(event):
+    from media_variants import image_record
     key = event.get('art')
     if key in HEROES:
         return {'src':f'/assets/editorial/{key}-hero-768.webp', 'alt':'Original illustrated collage of 90s objects.', 'width':768, 'height':256}
     artifact = next((a for a in ARTIFACTS if a['id']==key),None)
     if artifact and artifact['media']['kind']=='image':
-        return {k:artifact['media'][k] for k in ('src','alt','width','height')}
+        return image_record({k:artifact['media'][k] for k in ('src','alt','width','height')})
     return None

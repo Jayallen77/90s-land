@@ -81,7 +81,7 @@ claims.
   detail pages, expanded search, preserved discovery tools, legacy links.
 - [x] Phase 4: all eight sections; complete stories/events; source/media review;
   coverage and meaningful filter destinations.
-- [ ] Phase 5: mobile refinement, visual comparison, accessibility, link and
+- [x] Phase 5: mobile refinement, visual comparison, accessibility, link and
   functional checks, performance measurement, release/rollback preparation.
 
 Read `docs/CONTENT_MIGRATION.md` before reusing or modifying extraction outputs.
@@ -92,3 +92,8 @@ Verification: [PHASE_3_QA.md](../reports/PHASE_3_QA.md).
 
 Phase 4 content, modules, and source qualifications: [PHASE_4.md](PHASE_4.md).
 Verification: [PHASE_4_QA.md](../reports/PHASE_4_QA.md).
+
+Phase 5 implementation: [PHASE_5.md](PHASE_5.md).
+Final verification: [PHASE_5_QA.md](../reports/PHASE_5_QA.md).
+Production handoff: [RELEASE.md](RELEASE.md). All five implementation phases are
+complete; production publication remains a separate, target-specific task.

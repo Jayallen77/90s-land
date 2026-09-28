@@ -1,7 +1,8 @@
 # 90s.land
 
-Static nostalgia site with a reference-driven editorial rebuild in progress.
-Phase 4 completes all eight primary sections, with 384 sourced dated events,
+Static nostalgia site with the five-phase editorial rebuild completed locally.
+Phase 5 adds smaller media and fonts, mobile polish, release verification, and
+a reproducible deployment package. All eight primary sections include 384 sourced dated events,
 30 original stories, and working topic, genre, and platform filters. The shared editorial shell, original
 reading rooms, museum tools, and old deep links remain available. Hosting paths
 from earlier prototype notes are not a verified deployment target.
@@ -23,6 +24,8 @@ Generated public HTML is committed; edit its sources and run the renderer.
 - Existing `data/artifacts.json`, `resources.json`, `tours.json`, `stamps.json`, and
   `navigation.json` remain authoritative for their collections and tools.
 - `data/routes.json`, `editorial-index.json`, and `search-index.json` are generated.
+- `tools/optimize_assets.py` creates responsive object WebPs and local WOFF2 fonts;
+  `data/asset-variants.json` records their integrity hashes. Originals are retained.
 - `tools/render_site.py` generates every public document; `tools/editorial.py`
   supplies the shared shell and Home composition. `archive_content.py`
   validates the dated archive; `archive_pages.py` renders its pages and
@@ -52,6 +55,9 @@ rejects either dependency. Do not edit generated HTML to change content.
 - [Phase 3 verification](reports/PHASE_3_QA.md)
 - [Phase 4 content and sections](docs/PHASE_4.md)
 - [Phase 4 verification](reports/PHASE_4_QA.md)
+- [Phase 5 implementation](docs/PHASE_5.md)
+- [Phase 5 final verification and performance](reports/PHASE_5_QA.md)
+- [Release and rollback runbook](docs/RELEASE.md)
 
 `content/migration/` remains an unreviewed reproducible extraction, not a source
 of published events. Frozen snapshots under `reports/baseline/phase-1/` and supplied
@@ -71,6 +77,7 @@ Before review, run:
 
 ```sh
 python3 tools/render_site.py --check
+python3 tools/optimize_assets.py --check
 python3 tools/process_media.py --check
 python3 tools/audit_site.py
 python3 tools/check_editorial.py --check
@@ -79,7 +86,7 @@ pnpm content:visual-check
 pnpm test:content
 pnpm test:dates
 pnpm test
-node tools/capture_phase4.mjs
+node tools/capture_phase5.mjs
 ```
 
 `content:baseline` is the retired Phase 1 unchanged-presentation gate. It is
@@ -98,6 +105,11 @@ A nostalgic interactive portal/museum/playground for the 90s and pre-algorithm i
 - Mobile-friendly responsive layout
 
 ## Deployment
+
+Build a public-only release with `python3 tools/build_release.py --output dist/release`.
+The output directory must be new or empty. It includes a compressed archive,
+checksums, and a `public/` folder; see [the runbook](docs/RELEASE.md). Production
+must enable text compression to reproduce the local release measurements.
 
 Do not deploy, push, or alter 90s.land production until Justin explicitly
 approves a separate production task.

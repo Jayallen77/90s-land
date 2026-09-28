@@ -315,7 +315,7 @@
           <summary>Open curator label</summary>
           <p>Rows of screens and response teams turned a date change into nightly-news suspense.</p>
           <p><strong>Why it mattered:</strong> Y2K made invisible software dependencies feel like a public cultural object.</p>
-          <p class="artifact-credit"><a href="https://commons.wikimedia.org/wiki/File:Y2K_command_center.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons ↗</a> · See source page</p>
+          <p class="artifact-credit"><a href="https://commons.wikimedia.org/wiki/File:19991231_Year_2000_Problem_Response_Office.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons ↗</a> · See source page</p>
         </details>
           <div class="artifact-actions">
             <button class="button inspect-button" type="button" data-artifact-inspect="y2k-office">Inspect + stamp</button>

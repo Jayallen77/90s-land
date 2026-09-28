@@ -1,0 +1,206 @@
+[
+  {
+    "from": "https://commons.wikimedia.org/wiki/File:Sega-Genesis-6button-Controller.jpg",
+    "to": "https://commons.wikimedia.org/wiki/File:Sega-Genesis-Mk2-6button.jpg",
+    "check": {
+      "id": "0",
+      "title": "https://commons.wikimedia.org/wiki/File:Sega-Genesis-Mk2-6button.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Sega-Genesis-Mk2-6button.jpg",
+      "finalUrl": "https://commons.wikimedia.org/wiki/File:Sega-Genesis-Mk2-6button.jpg",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    }
+  },
+  {
+    "from": "https://commons.wikimedia.org/wiki/File:VHS_videocassette_front.jpg",
+    "to": "https://commons.wikimedia.org/wiki/File:VHS_videocassette_-_front.jpg",
+    "check": {
+      "id": "1",
+      "title": "https://commons.wikimedia.org/wiki/File:VHS_videocassette_-_front.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:VHS_videocassette_-_front.jpg",
+      "finalUrl": "https://commons.wikimedia.org/wiki/File:VHS_videocassette_-_front.jpg",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    }
+  },
+  {
+    "from": "https://commons.wikimedia.org/wiki/File:Y2K_command_center.jpg",
+    "to": "https://commons.wikimedia.org/wiki/File:19991231_Year_2000_Problem_Response_Office.jpg",
+    "check": {
+      "id": "2",
+      "title": "https://commons.wikimedia.org/wiki/File:19991231_Year_2000_Problem_Response_Office.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:19991231_Year_2000_Problem_Response_Office.jpg",
+      "finalUrl": "https://commons.wikimedia.org/wiki/File:19991231_Year_2000_Problem_Response_Office.jpg",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    }
+  },
+  {
+    "from": "https://en.wikipedia.org/wiki/112_(American_group)",
+    "to": "https://en.wikipedia.org/wiki/112_(band)",
+    "check": {
+      "id": "3",
+      "title": "https://en.wikipedia.org/wiki/112_(band)",
+      "url": "https://en.wikipedia.org/wiki/112_(band)",
+      "finalUrl": "https://en.wikipedia.org/wiki/112_%28band%29",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    }
+  },
+  {
+    "from": "https://en.wikipedia.org/wiki/All_for_Love_(Bryan_Adams%2C_Rod_Stewart_and_Sting_song)",
+    "to": "https://en.wikipedia.org/wiki/All_for_Love_(song)",
+    "check": {
+      "id": "4",
+      "title": "https://en.wikipedia.org/wiki/All_for_Love_(song)",
+      "url": "https://en.wikipedia.org/wiki/All_for_Love_(song)",
+      "finalUrl": "https://en.wikipedia.org/wiki/All_for_Love_%28song%29",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    }
+  },
+  {
+    "from": "https://en.wikipedia.org/wiki/Can%27t_Help_Falling_in_Love_(UB40_song)",
+    "to": "https://en.wikipedia.org/wiki/Can%27t_Help_Falling_in_Love",
+    "check": {
+      "id": "5",
+      "title": "https://en.wikipedia.org/wiki/Can%27t_Help_Falling_in_Love",
+      "url": "https://en.wikipedia.org/wiki/Can%27t_Help_Falling_in_Love",
+      "finalUrl": "https://en.wikipedia.org/wiki/Can%27t_Help_Falling_in_Love",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    }
+  },
+  {
+    "from": "https://en.wikipedia.org/wiki/Don%27t_Turn_Around_(Ace_of_Base_song)",
+    "to": "https://en.wikipedia.org/wiki/Don%27t_Turn_Around",
+    "check": {
+      "id": "6",
+      "title": "https://en.wikipedia.org/wiki/Don%27t_Turn_Around",
+      "url": "https://en.wikipedia.org/wiki/Don%27t_Turn_Around",
+      "finalUrl": "https://en.wikipedia.org/wiki/Don%27t_Turn_Around",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    }
+  },
+  {
+    "from": "https://en.wikipedia.org/wiki/Release_of_Nelson_Mandela",
+    "to": "https://www.nelsonmandela.org/news/entry/nelson-mandelas-release-from-prison-33-years-on",
+    "check": {
+      "id": "7",
+      "title": "https://www.nelsonmandela.org/news/entry/nelson-mandelas-release-from-prison-33-years-on",
+      "url": "https://www.nelsonmandela.org/news/entry/nelson-mandelas-release-from-prison-33-years-on",
+      "finalUrl": "https://www.nelsonmandela.org/news/entry/nelson-mandelas-release-from-prison-33-years-on",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    }
+  },
+  {
+    "from": "https://en.wikipedia.org/wiki/Truly_Madly_Deeply_(Savage_Garden_song)",
+    "to": "https://en.wikipedia.org/wiki/Truly_Madly_Deeply_(song)",
+    "check": {
+      "id": "8",
+      "title": "https://en.wikipedia.org/wiki/Truly_Madly_Deeply_(song)",
+      "url": "https://en.wikipedia.org/wiki/Truly_Madly_Deeply_(song)",
+      "finalUrl": "https://en.wikipedia.org/wiki/Truly_Madly_Deeply_%28song%29",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    }
+  },
+  {
+    "from": "https://home.cern/science/computing/birth-web",
+    "to": "https://home.cern/science/computing/the-birth-of-the-web/",
+    "check": {
+      "id": "9",
+      "title": "https://home.cern/science/computing/the-birth-of-the-web/",
+      "url": "https://home.cern/science/computing/the-birth-of-the-web/",
+      "finalUrl": "https://home.cern/science/computing/the-birth-of-the-web/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    }
+  },
+  {
+    "from": "https://open.spotify.com/search/Nothing+Compares+2+U+Sin\u00e9ad+O%27Connor",
+    "to": "https://open.spotify.com/search/Nothing+Compares+2+U+Sin\u00e9ad+O%27Connor",
+    "check": {
+      "id": "473",
+      "title": "https://open.spotify.com/search/Nothing+Compares+2+U+Sin\u00e9ad+O%27Connor",
+      "url": "https://open.spotify.com/search/Nothing+Compares+2+U+Sin\u00e9ad+O%27Connor",
+      "finalUrl": "https://open.spotify.com/search/Nothing+Compares+2+U+Sin%C3%A9ad+O%27Connor",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    }
+  },
+  {
+    "from": "https://www.youtube.com/results?search_query=Nothing+Compares+2+U+Sin\u00e9ad+O%27Connor",
+    "to": "https://www.youtube.com/results?search_query=Nothing+Compares+2+U+Sin\u00e9ad+O%27Connor",
+    "check": {
+      "id": "702",
+      "title": "https://www.youtube.com/results?search_query=Nothing+Compares+2+U+Sin\u00e9ad+O%27Connor",
+      "url": "https://www.youtube.com/results?search_query=Nothing+Compares+2+U+Sin\u00e9ad+O%27Connor",
+      "finalUrl": "https://www.youtube.com/results?search_query=Nothing+Compares+2+U+Sin%C3%A9ad+O%27Connor",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ]
+    }
+  }
+]

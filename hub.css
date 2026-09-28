@@ -1,5 +1,6 @@
 /* Phase 4 section pages: a common grid, with content-specific modules. */
 .hub-main{padding-bottom:22px}.hub-main [hidden]{display:none!important}
+.hub-game-copy>div>a{display:flex;align-items:center;min-height:32px;line-height:1.3}
 .hub-hero .ed-hero-copy{width:45%;padding-right:8px}.hub-hero p{max-width:355px;font-size:15px;line-height:1.3}.hub-hero h1{font-size:clamp(60px,6.1vw,86px)}.hub-hero h2{font-size:clamp(22px,2.4vw,32px)}
 .hub-lead-grid{display:grid;grid-template-columns:1.2fr 1.15fr 1fr .65fr;gap:8px;align-items:stretch}.hub-panel{margin-bottom:8px}.hub-panel .ed-panel-heading h2{white-space:normal;line-height:1.1}
 .hub-panel .ed-tile-art{aspect-ratio:1.8}.hub-panel .ed-tile-copy h3{font-size:19px;line-height:1.12}.hub-panel .ed-tile-copy p{font-size:13px;line-height:1.3}
@@ -19,3 +20,16 @@
 @media(max-width:760px){.hub-lead-grid{grid-template-columns:1fr 1fr}.hub-lead-grid>.hub-panel:nth-child(3){grid-column:auto}.hub-lead-grid>.hub-panel:last-child{grid-column:auto}.hub-facts{grid-template-columns:1fr 1fr;gap:12px 5px}.hub-hero .ed-hero-copy{width:66%;padding-left:25px}.hub-hero h1{font-size:58px}.hub-hero h2{font-size:24px}.hub-hero:after{background:linear-gradient(90deg,#040817ee 0%,#040817c7 37%,#04081714 100%)}.hub-hero>img{object-position:68% center}.hub-year-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.hub-timeline-bottom{grid-template-columns:1fr}.hub-game-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.hub-four-up{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:480px){.hub-hero{height:280px}.hub-hero .ed-hero-copy{width:94%;padding:28px 20px}.hub-hero h1{font-size:58px}.hub-hero h2{font-size:25px}.hub-hero p{font-size:14px;max-width:285px}.hub-hero>img{object-position:75% center;opacity:.65}.hub-lead-grid{grid-template-columns:1fr 1fr}.hub-lead-grid>.hub-panel:first-child,.hub-lead-grid>.hub-panel:nth-child(2){grid-column:1/-1}.hub-lead-grid>.hub-panel:first-child>.ed-tile{display:grid;grid-template-columns:42% 1fr;gap:10px}.hub-lead-grid>.hub-panel:first-child .ed-tile-art{aspect-ratio:auto;height:100%;min-height:130px}.hub-panel .ed-tile-copy h3{font-size:18px}.hub-objects{grid-template-columns:1fr}.hub-objects .ed-tile{display:grid;grid-template-columns:42% 1fr;gap:5px}.hub-objects .ed-tile-art{aspect-ratio:1}.hub-objects .ed-tile-copy h3{font-size:12px}.hub-objects .ed-tile-copy p{display:none}.hub-facts{grid-template-columns:1fr;gap:10px}.hub-facts strong{font-size:29px}.hub-facts small{font-size:10px}.hub-panel .ed-panel-heading h2{font-size:16px}.hub-story-grid,.hub-event-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.hub-story-grid .ed-tile-copy p{font-size:12px}.hub-game-grid{grid-template-columns:1fr}.hub-game{display:grid;grid-template-columns:32% 1fr}.hub-game-art{height:100%;min-height:145px}.hub-game-copy>p:not(.ar-meta){min-height:0}.hub-four-up{grid-template-columns:repeat(2,minmax(0,1fr))}.hub-year{min-height:150px;padding:12px}.hub-year>span{font-size:50px}.hub-year strong{font-size:16px}.hub-year small{font-size:11px}}
 @media(max-width:600px){.hub-event-grid .ar-event>a{display:block}.hub-event-grid .ar-card-art{height:105px;min-height:0}.hub-event-grid .ar-card-copy{min-width:0}.hub-event-grid .ar-card-copy h3{font-size:19px}.hub-event-grid .ar-card-copy p{line-height:1.35}.hub-event-grid .ar-card-art img{height:100%;width:100%;object-fit:cover}}
+
+/* Comfortable controls without changing the compact desktop compositions. */
+@media(max-width:600px){
+  .ed-hero .ed-cta,.ed-month-rail a,.hub-rail a,.hub-library-filters a{min-height:44px;display:flex;align-items:center;justify-content:center}
+  .ed-discovery a,.ed-discovery button,.ed-footer nav a{min-height:32px;display:inline-flex;align-items:center}
+  .hub-game-copy>div>a{min-height:44px}
+  .ar-controls select,.ar-controls input,.ar-controls>button,.ar-controls .ed-view-switch button,.ar-paging button{min-height:44px}
+  .hub-timeline-bottom .ed-three-up{grid-template-columns:1fr}
+  .hub-timeline-bottom .ed-three-up>.ed-tile{display:grid;grid-template-columns:34% 1fr;gap:10px}
+  .hub-timeline-bottom .ed-three-up .ed-tile-art{height:100%;min-height:100px;aspect-ratio:auto}
+  .hub-timeline-bottom .ed-three-up h3{font-size:20px}
+  .hub-timeline-bottom .ed-three-up p{font-size:14px;line-height:1.4}
+}

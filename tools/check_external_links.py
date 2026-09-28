@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import json
+import argparse
 import ssl
 import urllib.error
 import urllib.request
@@ -11,6 +12,8 @@ from collections import Counter
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 from pathlib import Path
+from threading import Semaphore
+from urllib.parse import urlsplit, urldefrag, quote
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -18,11 +21,12 @@ RESOURCES = json.loads((ROOT / "data/resources.json").read_text())
 OUTPUT = ROOT / "reports/external-resource-check.json"
 USER_AGENT = "90s.land local QA link checker/1.0 (+https://90s.land/)"
 BLOCKED_CODES = {401, 403, 406, 418, 429, 451}
+HOST_LIMITS = {}
 
 
 def request(url: str, method: str):
     req = urllib.request.Request(
-        url,
+        quote(url, safe=':/?&=%+@#'),
         method=method,
         headers={"User-Agent": USER_AGENT, "Accept": "text/html,*/*;q=0.8"},
     )
@@ -81,21 +85,39 @@ def check(item: dict) -> dict:
     }
 
 
-OUTPUT.parent.mkdir(parents=True, exist_ok=True)
-results = []
-with ThreadPoolExecutor(max_workers=12) as executor:
-    futures = {executor.submit(check, item): item for item in RESOURCES}
-    for future in as_completed(futures):
-        results.append(future.result())
-results.sort(key=lambda item: item["id"])
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--published', action='store_true', help='Check all unique published outbound URLs')
+    parser.add_argument('--output', default=str(OUTPUT))
+    args = parser.parse_args()
+    items = RESOURCES
+    if args.published:
+        from audit_site import document, route_file
+        links = {}
+        for route in json.loads((ROOT/'data/routes.json').read_text()):
+            for url in document(route_file(route['path'])).links:
+                if urlsplit(url).scheme not in ('https','http'): continue
+                url = urldefrag(url)[0]
+                links.setdefault(url, set()).add(route['path'])
+        items = [{'id':str(i), 'title':url, 'url':url, 'routes':sorted(paths)}
+                 for i,(url,paths) in enumerate(sorted(links.items()))]
+    for item in items: HOST_LIMITS.setdefault(urlsplit(item['url']).netloc, Semaphore(2))
+    def limited(item):
+        with HOST_LIMITS[urlsplit(item['url']).netloc]:
+            result = check(item)
+        if 'routes' in item: result['routes'] = item['routes']
+        return result
+    results = []
+    with ThreadPoolExecutor(max_workers=6) as executor:
+        futures = [executor.submit(limited, item) for item in items]
+        for future in as_completed(futures): results.append(future.result())
+    results.sort(key=lambda item:item['url'])
+    payload = {'checkedAt':datetime.now(timezone.utc).isoformat(),
+               'method':'HEAD then small GET fallback; 12-second timeout; at most two requests per host',
+               'summary':dict(sorted(Counter(item['classification'] for item in results).items())),
+               'results':results}
+    output = Path(args.output); output.parent.mkdir(parents=True,exist_ok=True)
+    output.write_text(json.dumps(payload,indent=2)+'\n')
+    print(json.dumps(payload['summary'],indent=2)); print(f'saved {output}')
 
-summary = Counter(item["classification"] for item in results)
-payload = {
-    "checkedAt": datetime.now(timezone.utc).isoformat(),
-    "method": "HEAD followed by GET fallback, 12-second timeout",
-    "summary": dict(sorted(summary.items())),
-    "results": results,
-}
-OUTPUT.write_text(json.dumps(payload, indent=2) + "\n")
-print(json.dumps(payload["summary"], indent=2))
-print(f"saved {OUTPUT}")
+if __name__ == '__main__': main()

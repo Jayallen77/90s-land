@@ -31,6 +31,7 @@ export function initializeArchiveTimeline() {
     return `/timeline/${targetYear}/?${params}#events-${targetYear}-${String(next.month).padStart(2,'0')}`;
   }
   function render(write = false) {
+    root.dataset.ready = 'true';
     root.dataset.view = state.view;
     category.value = state.category; region.value = state.region;
     root.querySelectorAll('[data-archive-view]').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.archiveView===state.view)));

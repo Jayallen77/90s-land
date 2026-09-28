@@ -1,0 +1,508 @@
+{
+  "version": 1,
+  "imageOptions": {
+    "format": "WebP",
+    "quality": 80,
+    "method": 6
+  },
+  "images": {
+    "/assets/media/tech-toys/family-pc-rotterdam-1999.jpg": [
+      {
+        "src": "/assets/generated/editorial/family-pc-240.webp",
+        "width": 240,
+        "height": 180
+      },
+      {
+        "src": "/assets/generated/editorial/family-pc-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "/assets/generated/editorial/family-pc-832.webp",
+        "width": 832,
+        "height": 624
+      }
+    ],
+    "/assets/media/timeline-1990/windows-3-0-program-manager.png": [
+      {
+        "src": "/assets/generated/editorial/windows-3-240.webp",
+        "width": 240,
+        "height": 180
+      },
+      {
+        "src": "/assets/generated/editorial/windows-3-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "/assets/generated/editorial/windows-3-640.webp",
+        "width": 640,
+        "height": 480
+      }
+    ],
+    "/assets/media/timeline-1991/w3-first-website.png": [
+      {
+        "src": "/assets/generated/editorial/first-website-240.webp",
+        "width": 240,
+        "height": 115
+      },
+      {
+        "src": "/assets/generated/editorial/first-website-480.webp",
+        "width": 480,
+        "height": 230
+      },
+      {
+        "src": "/assets/generated/editorial/first-website-960.webp",
+        "width": 960,
+        "height": 460
+      }
+    ],
+    "/assets/media/timeline-1993/ncsa-mosaic-browser-screenshot.png": [
+      {
+        "src": "/assets/generated/editorial/mosaic-browser-240.webp",
+        "width": 240,
+        "height": 208
+      },
+      {
+        "src": "/assets/generated/editorial/mosaic-browser-480.webp",
+        "width": 480,
+        "height": 415
+      },
+      {
+        "src": "/assets/generated/editorial/mosaic-browser-772.webp",
+        "width": 772,
+        "height": 668
+      }
+    ],
+    "/assets/media/tech-toys/aol-promotional-cds.jpg": [
+      {
+        "src": "/assets/generated/editorial/aol-cd-240.webp",
+        "width": 240,
+        "height": 180
+      },
+      {
+        "src": "/assets/generated/editorial/aol-cd-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "/assets/generated/editorial/aol-cd-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ],
+    "/assets/media/timeline-1995/windows95-start-button.png": [
+      {
+        "src": "/assets/generated/editorial/windows-95-start-240.webp",
+        "width": 240,
+        "height": 93
+      },
+      {
+        "src": "/assets/generated/editorial/windows-95-start-480.webp",
+        "width": 480,
+        "height": 187
+      },
+      {
+        "src": "/assets/generated/editorial/windows-95-start-960.webp",
+        "width": 960,
+        "height": 373
+      }
+    ],
+    "/assets/media/tech-toys/motorola-pager-teletrim.jpg": [
+      {
+        "src": "/assets/generated/editorial/pager-240.webp",
+        "width": 240,
+        "height": 180
+      },
+      {
+        "src": "/assets/generated/editorial/pager-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "/assets/generated/editorial/pager-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ],
+    "/assets/media/music/compact-cassette-maxell.jpg": [
+      {
+        "src": "/assets/generated/editorial/cassette-240.webp",
+        "width": 240,
+        "height": 180
+      },
+      {
+        "src": "/assets/generated/editorial/cassette-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "/assets/generated/editorial/cassette-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ],
+    "/assets/media/music/discman-d121.jpg": [
+      {
+        "src": "/assets/generated/editorial/discman-240.webp",
+        "width": 240,
+        "height": 268
+      },
+      {
+        "src": "/assets/generated/editorial/discman-480.webp",
+        "width": 480,
+        "height": 535
+      },
+      {
+        "src": "/assets/generated/editorial/discman-960.webp",
+        "width": 960,
+        "height": 1070
+      }
+    ],
+    "/assets/media/music/cd-r-spindle.jpg": [
+      {
+        "src": "/assets/generated/editorial/cdr-spindle-240.webp",
+        "width": 240,
+        "height": 180
+      },
+      {
+        "src": "/assets/generated/editorial/cdr-spindle-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "/assets/generated/editorial/cdr-spindle-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ],
+    "/assets/media/tv-movies/vhs-videocassette-front.jpg": [
+      {
+        "src": "/assets/generated/editorial/vhs-tape-240.webp",
+        "width": 240,
+        "height": 160
+      },
+      {
+        "src": "/assets/generated/editorial/vhs-tape-480.webp",
+        "width": 480,
+        "height": 320
+      },
+      {
+        "src": "/assets/generated/editorial/vhs-tape-960.webp",
+        "width": 960,
+        "height": 640
+      }
+    ],
+    "/assets/media/tv-movies/1990s-television-set.jpg": [
+      {
+        "src": "/assets/generated/editorial/crt-television-240.webp",
+        "width": 240,
+        "height": 347
+      },
+      {
+        "src": "/assets/generated/editorial/crt-television-409.webp",
+        "width": 409,
+        "height": 592
+      }
+    ],
+    "/assets/media/tv-movies/blockbuster-storefront.jpg": [
+      {
+        "src": "/assets/generated/editorial/blockbuster-store-240.webp",
+        "width": 240,
+        "height": 180
+      },
+      {
+        "src": "/assets/generated/editorial/blockbuster-store-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "/assets/generated/editorial/blockbuster-store-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ],
+    "/assets/media/games/marble-madness-arcade-cabinet.jpg": [
+      {
+        "src": "/assets/generated/editorial/arcade-cabinet-240.webp",
+        "width": 240,
+        "height": 320
+      },
+      {
+        "src": "/assets/generated/editorial/arcade-cabinet-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "src": "/assets/generated/editorial/arcade-cabinet-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "/assets/media/games/sega-genesis-6-button-controller.jpg": [
+      {
+        "src": "/assets/generated/editorial/genesis-controller-240.webp",
+        "width": 240,
+        "height": 123
+      },
+      {
+        "src": "/assets/generated/editorial/genesis-controller-480.webp",
+        "width": 480,
+        "height": 247
+      },
+      {
+        "src": "/assets/generated/editorial/genesis-controller-960.webp",
+        "width": 960,
+        "height": 494
+      }
+    ],
+    "/assets/media/games/n64-controller-gray.jpg": [
+      {
+        "src": "/assets/generated/editorial/n64-controller-240.webp",
+        "width": 240,
+        "height": 191
+      },
+      {
+        "src": "/assets/generated/editorial/n64-controller-480.webp",
+        "width": 480,
+        "height": 383
+      },
+      {
+        "src": "/assets/generated/editorial/n64-controller-960.webp",
+        "width": 960,
+        "height": 766
+      }
+    ],
+    "/assets/media/timeline-1995/playstation-controller.jpg": [
+      {
+        "src": "/assets/generated/editorial/playstation-hardware-240.webp",
+        "width": 240,
+        "height": 104
+      },
+      {
+        "src": "/assets/generated/editorial/playstation-hardware-480.webp",
+        "width": 480,
+        "height": 209
+      },
+      {
+        "src": "/assets/generated/editorial/playstation-hardware-960.webp",
+        "width": 960,
+        "height": 418
+      }
+    ],
+    "/assets/media/transparent-tech/imac-g3-bondi-blue.png": [
+      {
+        "src": "/assets/generated/editorial/bondi-imac-240.webp",
+        "width": 240,
+        "height": 224
+      },
+      {
+        "src": "/assets/generated/editorial/bondi-imac-480.webp",
+        "width": 480,
+        "height": 448
+      },
+      {
+        "src": "/assets/generated/editorial/bondi-imac-960.webp",
+        "width": 960,
+        "height": 895
+      }
+    ],
+    "/assets/media/timeline-1999/dreamcast-console.jpg": [
+      {
+        "src": "/assets/generated/editorial/dreamcast-240.webp",
+        "width": 240,
+        "height": 116
+      },
+      {
+        "src": "/assets/generated/editorial/dreamcast-480.webp",
+        "width": 480,
+        "height": 232
+      },
+      {
+        "src": "/assets/generated/editorial/dreamcast-960.webp",
+        "width": 960,
+        "height": 465
+      }
+    ],
+    "/assets/media/timeline-1999/y2k-response-office.jpg": [
+      {
+        "src": "/assets/generated/editorial/y2k-office-240.webp",
+        "width": 240,
+        "height": 181
+      },
+      {
+        "src": "/assets/generated/editorial/y2k-office-300.webp",
+        "width": 300,
+        "height": 226
+      }
+    ],
+    "/assets/media/timeline-1990/hubble-launch.jpg": [
+      {
+        "src": "/assets/generated/editorial/hubble-launch-240.webp",
+        "width": 240,
+        "height": 361
+      },
+      {
+        "src": "/assets/generated/editorial/hubble-launch-480.webp",
+        "width": 480,
+        "height": 721
+      },
+      {
+        "src": "/assets/generated/editorial/hubble-launch-960.webp",
+        "width": 960,
+        "height": 1442
+      }
+    ],
+    "/assets/media/timeline-1993/doom-disks.jpg": [
+      {
+        "src": "/assets/generated/editorial/doom-disks-240.webp",
+        "width": 240,
+        "height": 180
+      },
+      {
+        "src": "/assets/generated/editorial/doom-disks-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "/assets/generated/editorial/doom-disks-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ],
+    "/assets/media/transparent-tech/game-boy-color-purple.jpg": [
+      {
+        "src": "/assets/generated/editorial/game-boy-color-240.webp",
+        "width": 240,
+        "height": 392
+      },
+      {
+        "src": "/assets/generated/editorial/game-boy-color-383.webp",
+        "width": 383,
+        "height": 625
+      }
+    ],
+    "/assets/media/transparent-tech/n64-controller-purple.jpg": [
+      {
+        "src": "/assets/generated/editorial/transparent-n64-controller-240.webp",
+        "width": 240,
+        "height": 229
+      },
+      {
+        "src": "/assets/generated/editorial/transparent-n64-controller-480.webp",
+        "width": 480,
+        "height": 459
+      },
+      {
+        "src": "/assets/generated/editorial/transparent-n64-controller-960.webp",
+        "width": 960,
+        "height": 918
+      }
+    ]
+  },
+  "files": {
+    "assets/media/tech-toys/family-pc-rotterdam-1999.jpg": "cf8a7acb16622d39b7c55f164a86d6b7bbf5cc0851473e0fbdf0d91e32046bd1",
+    "assets/generated/editorial/family-pc-240.webp": "41744e004e3dd5ff9fcfab0f86fc647252e8e0c0097f678a2c8c8501829a6858",
+    "assets/generated/editorial/family-pc-480.webp": "d5eeacc1e4629f71abf28ab80a5f6810d2aad02ecd376796209bdbf5fa820be2",
+    "assets/generated/editorial/family-pc-832.webp": "9605128ea1f28c0483abbc4dcf4dafe4ee66023fb0007a7823dc4bdf30758de8",
+    "assets/media/timeline-1990/windows-3-0-program-manager.png": "e70ac3445fb580c82ed136acb17c63dc3602cc59edfdd14ca967bf298da0f72e",
+    "assets/generated/editorial/windows-3-240.webp": "f0275c47c82150362736d44e6bbfe698c75fdd2fefe5a277bae80ce3d9192a3d",
+    "assets/generated/editorial/windows-3-480.webp": "c132d856366dbd4e249714840857090cdda3c8cf6093c6d2180de63dd18dec33",
+    "assets/generated/editorial/windows-3-640.webp": "217f5f753e8a5dc3cfdac43ae89e91fe736ef2130b603332c0363b287b77e426",
+    "assets/media/timeline-1991/w3-first-website.png": "3fbe8196b7dbfbad1c3318d97831520a5e8ae4a0b63aafbf6142e59d64a3eb6e",
+    "assets/generated/editorial/first-website-240.webp": "3c7485bb108e6e132c3627276b285aaf4cc98bd78e5459539f3fc40ae7303883",
+    "assets/generated/editorial/first-website-480.webp": "576baaceb1de1d3b564d19cf63e56b0a35bdff6225d84b9763645b595475e36a",
+    "assets/generated/editorial/first-website-960.webp": "978ef4fbd649906a6a9655b9024d01b23e7244f6eec5877bb408969bea5e1923",
+    "assets/media/timeline-1993/ncsa-mosaic-browser-screenshot.png": "f74dc1a1503d58ed8461b97cf19fef5bb49c4705ae30d3e1a6e3696c327cb2ea",
+    "assets/generated/editorial/mosaic-browser-240.webp": "9e22b7fc8ca224382bf8d315c2713009a231f78b91e41325eac2f6dc976cdfaf",
+    "assets/generated/editorial/mosaic-browser-480.webp": "a3d4d2755f52abc9124cb98858c4b33a6994a2ef5e237a372255046ddd89e581",
+    "assets/generated/editorial/mosaic-browser-772.webp": "b19b12f2fc04aceb5265429e97d6182287d193a26a6cc20f527d1eef3ad69e94",
+    "assets/media/tech-toys/aol-promotional-cds.jpg": "3af3b12b7defa12feb311f73f018e04009ab8742bf039dc358332302e5246ad9",
+    "assets/generated/editorial/aol-cd-240.webp": "f530556f298981a28502051432c0f84da72b3a86ff4014ed00198a365e4131a0",
+    "assets/generated/editorial/aol-cd-480.webp": "c093afd5e2eb15d58423f3026ee9d53faedf5ac0a8b92059f2ad40386fb383ed",
+    "assets/generated/editorial/aol-cd-960.webp": "0d2b57a4a701f79224a7112112b594a730e03d03095eb79c9768b4ebe00d4925",
+    "assets/media/timeline-1995/windows95-start-button.png": "b9dc88d9fe7f25b80bc7b00189d356e3c890200c838e35837e38dad7cadd8e44",
+    "assets/generated/editorial/windows-95-start-240.webp": "f2f57ae8e0b0d2d01cc97ca6dc9dcd8f3f0ffa7d73bcb3506049376e0fe91664",
+    "assets/generated/editorial/windows-95-start-480.webp": "b1038f6bd22497212fe094628b514f7b54199ab20f6918d4128bf1c29f385238",
+    "assets/generated/editorial/windows-95-start-960.webp": "e44735263236f2afb98c9dcc1bc4e88ebe61f4f9605078ba42447ded91c6943e",
+    "assets/media/tech-toys/motorola-pager-teletrim.jpg": "f720f9122f041ce455a5d3c7e40befbc3b3487ef26218b026e3bd99639b68fa2",
+    "assets/generated/editorial/pager-240.webp": "e1e1c975ccffd2d4b3716291780dd630984fee8f47b4b31c92e99a8b37d4d980",
+    "assets/generated/editorial/pager-480.webp": "e7e606e8bbc7f5053eeb11d9fe5f36620b947297740ea262cc01a85bae374752",
+    "assets/generated/editorial/pager-960.webp": "f666a40355c22ba29481e9e9afd7f29591791af8586d265b1bb56d40ea71caaf",
+    "assets/media/music/compact-cassette-maxell.jpg": "952616fe38612197cd3a0470eb07777644359992ed364c7e7fcb6a671784d044",
+    "assets/generated/editorial/cassette-240.webp": "4a69eedf3ba61cdcb22f93eec6429956f1a22fc3347fa0b98727bb77dfb1c5b0",
+    "assets/generated/editorial/cassette-480.webp": "2c37ed73ef3f9c1b1305814391661a198e50ba0f37654117fbf06c94d340da37",
+    "assets/generated/editorial/cassette-960.webp": "033890761ddc38b28626aff83be6cf362ddf9ed543373ec90d76cfcb42efb483",
+    "assets/media/music/discman-d121.jpg": "7411c126cf5a81e3f771c7307bd4cb8f9e0972567ad1ef3e3e0abb2bf8e50b3f",
+    "assets/generated/editorial/discman-240.webp": "0e9d0a1dd651ff10904d6330a5d777429fe25eabf701b297f85b1c88d6a0ac6f",
+    "assets/generated/editorial/discman-480.webp": "9672f99ccd89a4845bfa0a45ff7ac56f7e13df60d94f8ad104cc3ccf95da4b8d",
+    "assets/generated/editorial/discman-960.webp": "8beaea0502983a9ed05375e684ad61c0928bfd9f0cfa49ac2852dbe11b5a52ac",
+    "assets/media/music/cd-r-spindle.jpg": "2f60af576c3478a10489996e1d0a55d3c86b9ed38fbd415035fca552bc98bce0",
+    "assets/generated/editorial/cdr-spindle-240.webp": "ca413e12bee972e7f0f6904814d817ae32d8b0fe7bd4e344c61aa762d2f65180",
+    "assets/generated/editorial/cdr-spindle-480.webp": "2d6fe1513bf9ad3d7bb69a52e294ceaa915799bc27f2e0734f74a41fbd7a31f4",
+    "assets/generated/editorial/cdr-spindle-960.webp": "00830842408427d91ef804ec9c352cfc8bba8418b1204545557d4ba5c1843a24",
+    "assets/media/tv-movies/vhs-videocassette-front.jpg": "d5b6eb59353c3eec5f84c98296b2fbac5a1593430f8fcb5f6c534c7fdf27937b",
+    "assets/generated/editorial/vhs-tape-240.webp": "06db95b4c2723d4aa8f696344692ab6b0102ad09d093226916988cfc6ac9920a",
+    "assets/generated/editorial/vhs-tape-480.webp": "7a8aefc567a5540a294fa81e9cee7badb9b4a9cc22e58ac865230b3a6bfb0f6a",
+    "assets/generated/editorial/vhs-tape-960.webp": "a56d49f28cb0e82f6886288dc05286195bdcce75ecb4f647a7e7b69e57eeb08d",
+    "assets/media/tv-movies/1990s-television-set.jpg": "f32d1683e51bdf6780ba1fd9e97d21f07b82c7312112ce90c4fc9739a45f8c21",
+    "assets/generated/editorial/crt-television-240.webp": "417a4aa79bf85c5d04eda16fec9a6229e9971cd64c0c112e9acf5ce7ca573acc",
+    "assets/generated/editorial/crt-television-409.webp": "7317b6a95819ea395f5afb59b7d91c9d963da8b6bbe28f1c75eb69ee147f28e7",
+    "assets/media/tv-movies/blockbuster-storefront.jpg": "86acd674e44abbfd044793278bafee67629ad37a3f8c3ed49f17dc98da7bde2d",
+    "assets/generated/editorial/blockbuster-store-240.webp": "cca9d498a8bfa1f748ac0be426c334bee10800f56a3ea12e203b1299d57856e6",
+    "assets/generated/editorial/blockbuster-store-480.webp": "8fb599bc99861934e80c1e4a94a51bf3f2bf20e25bdccafe3d8a93168de9de3b",
+    "assets/generated/editorial/blockbuster-store-960.webp": "6ffbecdf0cf802550cecc287afa75b6ac9a5065a74cf5964d26e92ec60958d91",
+    "assets/media/games/marble-madness-arcade-cabinet.jpg": "c772789ed7641f9c99a536ab1470ea942b32b21b42010a8309c0c942bf33ce33",
+    "assets/generated/editorial/arcade-cabinet-240.webp": "e28e2796f972a6e71b82ae729ad4a8e1e8c9f40f14f04b86df915258a1d0de07",
+    "assets/generated/editorial/arcade-cabinet-480.webp": "f9fc8459dbd3ffdf3b5973e6977d69350393f8cb8dc0765f04e98307d54a156d",
+    "assets/generated/editorial/arcade-cabinet-960.webp": "09cdea45bb826ecb307c5c49105cd80b4bfd26a75c15a5f35d5765f1bec47d23",
+    "assets/media/games/sega-genesis-6-button-controller.jpg": "d808854d3038c831f7bcbb588b380df092332d33bdef3f984a2446a5d669f5a4",
+    "assets/generated/editorial/genesis-controller-240.webp": "ff6ebdcc096998894e8b578520e992cfa3d707a5268f79dafc3da38ff104d4cf",
+    "assets/generated/editorial/genesis-controller-480.webp": "70d618b12a43556145434ea814a705ec106ada0c5ce505c6f0beec60fd34cf70",
+    "assets/generated/editorial/genesis-controller-960.webp": "b7d2493e542fc51aea67bff783f9156b25a456e73e5b82ec7f4c549f59078676",
+    "assets/media/games/n64-controller-gray.jpg": "0891e7a8cce9a107029158caf3767cf4c5a83dcf6d61b2739c5211211c881f1a",
+    "assets/generated/editorial/n64-controller-240.webp": "a9e02731f4679c6e78444a5263f42d9b1f36e977ed9e7abf0e8293d7983bcd7d",
+    "assets/generated/editorial/n64-controller-480.webp": "2e7b775f978f51d82967c9b2f14ab161cd1c2d1cae39a55513a213530adceb48",
+    "assets/generated/editorial/n64-controller-960.webp": "a00ac7740f5fa4f34c3be33701ff177dd0d079b36d6e62601a0f7d3cfad52c15",
+    "assets/media/timeline-1995/playstation-controller.jpg": "f814e74166c845ee7bcf4e4f4466baf19f708e0cd39d9d30450cbca939ca5586",
+    "assets/generated/editorial/playstation-hardware-240.webp": "0c28d7faff5aaa1c27daad5cac521b4b86387c24c2a519aeb257f3cb68f9875b",
+    "assets/generated/editorial/playstation-hardware-480.webp": "c7dbfc825e2d0ccca3add9d2a569e7f4cdf025569e8d1402477eff17a6047658",
+    "assets/generated/editorial/playstation-hardware-960.webp": "ce9ca8354165970442be7243cd9efe716920593e52fc20d2c87dafa80f561da2",
+    "assets/media/transparent-tech/imac-g3-bondi-blue.png": "35d5e2a6c6f5251b892c42bb193764e7cb074ad113bf7403824792741af913fe",
+    "assets/generated/editorial/bondi-imac-240.webp": "6734676b8bda2712e5617f522bbfb726d0a4b60b5129d816b286c0ba78706604",
+    "assets/generated/editorial/bondi-imac-480.webp": "9ebf121f28605c04f4d091029d8dbb09cdf0a9bbd4f0eafec22d1de35a621f18",
+    "assets/generated/editorial/bondi-imac-960.webp": "27671db6d84074269cce135050f7cea87cb24dccd3bfb8cadef967259d85e78a",
+    "assets/media/timeline-1999/dreamcast-console.jpg": "b0ddd291d97c5609dbb894b47fe435902d7f2d93fd20c2de95890e396b5ab480",
+    "assets/generated/editorial/dreamcast-240.webp": "4b8dafcd008963f614430fd45ff83613c2fbbc4de19d403cc5d71f0b04835e23",
+    "assets/generated/editorial/dreamcast-480.webp": "455378b7f6a0a72f50a4885fd93e7562dc68af4254ca56a3fbbcf75b070db0ee",
+    "assets/generated/editorial/dreamcast-960.webp": "c9cf12eca57e97c8aaea1b6fd07db3e188227a6acd319c6ab8e300b102124101",
+    "assets/media/timeline-1999/y2k-response-office.jpg": "e367a0a8926edd808c3b1829fc42ada4ce2c2a01c6e01d2898b16286ac431a6c",
+    "assets/generated/editorial/y2k-office-240.webp": "f144cbcb1473859c746e22a70439e864a2fd96aa25d56be8226403f886c51e52",
+    "assets/generated/editorial/y2k-office-300.webp": "6b10bdf9520e671f98c1f31bd26d2748b876307da19d8861492ebdc105d4ce1e",
+    "assets/media/timeline-1990/hubble-launch.jpg": "86ca6746d44ca68e94490f4b030adc7b0e11ccb2f33e28869c76ac713e7066ca",
+    "assets/generated/editorial/hubble-launch-240.webp": "8375cfe13012440f0612de0775d8bb1c8c340ad52cf32079c4f84bcf3a8db09d",
+    "assets/generated/editorial/hubble-launch-480.webp": "9caf4f2f5f3ea164f5672f681633458cdc54ec06cf726576e801594db41caedd",
+    "assets/generated/editorial/hubble-launch-960.webp": "68cb1253ea7db6f4cebee359b0f226d3397c83739bb86839d05383c093649345",
+    "assets/media/timeline-1993/doom-disks.jpg": "f2c72a59a5c439fc78484b499cf9f995c0c79c599427d41674636490db15b04d",
+    "assets/generated/editorial/doom-disks-240.webp": "8be7e32285e3d514b2b7e84ecf0c47ad378a66b4cd75bb50eb92847ce26f7e15",
+    "assets/generated/editorial/doom-disks-480.webp": "bd72646dbd166d1bf8081ef4c4f35fb399e9b5ed81896ad488c55157cf298e4c",
+    "assets/generated/editorial/doom-disks-960.webp": "702e5d5c8ec8c2d8f94f33bd2655271eb3f90684e03bec9078296aea959bc198",
+    "assets/media/transparent-tech/game-boy-color-purple.jpg": "9ef95a4061700d3a7cbedfd2d845f5a60f50b2fad3de04b6d32064dc9bfb3d51",
+    "assets/generated/editorial/game-boy-color-240.webp": "bd6ba4ace22a0df46fb4b98eed813e5f3c066815868a4063dc4d1840ff6589c8",
+    "assets/generated/editorial/game-boy-color-383.webp": "f2c20becf682719e1b2f28309ae4108f96b6ec83da4d7abe9fa9d0ddf28c733c",
+    "assets/media/transparent-tech/n64-controller-purple.jpg": "7416386129633d401451197d527318b23fad05d03650dbfc0d7a107ea4caf950",
+    "assets/generated/editorial/transparent-n64-controller-240.webp": "2715b5164f3bfed40f036e31026955133457b7cba2123ef68b2350a3f88a951d",
+    "assets/generated/editorial/transparent-n64-controller-480.webp": "2508513dea2aafcad0fa60ba9cabfd3e822ac20bca95ef9450648976f7ab44b6",
+    "assets/generated/editorial/transparent-n64-controller-960.webp": "cd6f50ac2d2af585085b1c06a236f08b7f33a3fe32fa033a273c8e288d0c09e4",
+    "assets/fonts/Jersey10-Regular.ttf": "db9cbd091617048a145d249daa2b815fe7083be6ab66ac26626e21a4e01c3e82",
+    "assets/fonts/Jersey10-Regular.woff2": "db9b73d03e2f41e9140072dcbe1df006f92d578613c03cbc719be61bf8dc7e1f",
+    "assets/fonts/Barlow-Regular.ttf": "95aa02c7c43096e0dd44d787ba6216864a67157e402adab59b35572e0c1577ea",
+    "assets/fonts/Barlow-Regular.woff2": "4f2735b060fe43cbf38c3f5987f1ef0d9ff9788deb21c8f4bdf13b57be5e8027",
+    "assets/fonts/Barlow-Bold.ttf": "84e6a4d61e7c3e21f3c50ea6a4f7e5303a3467864c038be6ea3759bab8d547f9",
+    "assets/fonts/Barlow-Bold.woff2": "a48c585ba44fcc3a3e3bea41676146c82ee5c63a1cc0b5112d331868c4135c72",
+    "assets/fonts/BarlowCondensed-SemiBold.ttf": "7b619d14bc2327509a9ef32b0890f709626f7ecc9ff61191c2a4314c5499d2d9",
+    "assets/fonts/BarlowCondensed-SemiBold.woff2": "fa9dce30a032594dc73eabdee132dd851120e606fd35452e3cb870006bd54475",
+    "assets/fonts/BarlowCondensed-Bold.ttf": "e476562ec9c1e16cf16475895b511f08c804f438cc9a9f80a44ea50a0eeb5b65",
+    "assets/fonts/BarlowCondensed-Bold.woff2": "2e41b146e59a32f84f32301aa7891e0e07323d08d4d6991af06b0ee347d943b0"
+  }
+}

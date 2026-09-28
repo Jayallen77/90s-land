@@ -45,7 +45,7 @@ def shell_header(route):
         active = current == href or (href == '/timeline/' and current.startswith('/timeline/'))
         items.append(f'<a href="{href}"'+(' aria-current="page"' if active else '')+f'>{esc(label)}</a>')
     return f'''<header class="ed-header" id="top">
-      <a class="ed-brand" href="/" aria-label="90s.land home"><img src="/assets/editorial/palm-sunset.svg" alt="" width="180" height="105" loading="eager" decoding="async" /><span class="ed-wordmark">90s.land</span><span class="ed-tagline">RELIVE THE DECADE</span></a>
+      <a class="ed-brand" href="/"><img src="/assets/editorial/palm-sunset.svg" alt="" width="180" height="105" loading="eager" decoding="async" /><span class="ed-wordmark">90s.land</span> <span class="ed-tagline">RELIVE THE DECADE</span><span class="sr-only"> home</span></a>
       <p class="ed-motto"><span aria-hidden="true">☻</span> GOOD TIMES<br />ALWAYS HERE</p>
       <button class="menu-toggle" id="menuToggle" type="button" aria-expanded="false" aria-controls="siteNav">☰ <span>Menu</span></button>
       <nav id="siteNav" class="ed-nav" aria-label="Main navigation">{''.join(items)}<a class="ed-search" href="/search/" aria-label="Search the 90s">{icon('search')}</a></nav>
@@ -68,8 +68,8 @@ def apply_shell(source, route):
     if route['path'] not in CORE:
         source = source.replace('<footer class="ed-footer">', discovery()+'\n<footer class="ed-footer">',1)
     if '/editorial.css?' not in source:
-        source = source.replace('</head>', '  <link rel="stylesheet" href="/editorial.css?v=phase4-1" />\n</head>')
-    source = source.replace("</head>", '  <link rel="stylesheet" href="/archive.css?v=phase4-1" />\n  <link rel="stylesheet" href="/hub.css?v=phase4-1" />\n</head>')
+        source = source.replace('</head>', '  <link rel="stylesheet" href="/editorial.css?v=phase5-1" />\n</head>')
+    source = source.replace("</head>", '  <link rel="stylesheet" href="/archive.css?v=phase5-1" />\n  <link rel="stylesheet" href="/hub.css?v=phase5-1" />\n</head>')
     return source
 
 
@@ -78,7 +78,7 @@ def media(key, *, hero=False):
         alt = {'home':'Original illustrated collage of a CRT television, VHS tapes, sneaker and game hardware.','timeline':'Original illustrated collage of 1996-era game consoles, sports car, basketball and music.','games':'Original illustrated collage of a CRT platform game, console, handheld and arcade cabinet.','music':'Original AI-generated still-life collage of cassettes, CDs, headphones and music equipment.','movies':'Original AI-generated still-life collage of VHS tapes, a CRT, popcorn and movie-night objects.','tech':'Original AI-generated still-life collage of a translucent computer, a beige PC, discs and portable electronics.','culture':'Original AI-generated still-life collage of mall-era shopping, sneakers, toys and personal accessories.'}[key]
         return f'<img src="/assets/editorial/{key}-hero-1440.webp" srcset="/assets/editorial/{key}-hero-768.webp 768w, /assets/editorial/{key}-hero-1440.webp 1440w, /assets/editorial/{key}-hero-2172.webp 2172w" sizes="'+('(max-width: 1440px) 100vw, 1440px' if hero else '(max-width: 600px) 90vw, 420px')+f'" alt="{alt}" width="2172" height="724" loading="'+('eager' if hero else 'lazy')+'" decoding="async"'+(' fetchpriority="high"' if hero else '')+' />'
     item = ARTIFACTS[key]['media']
-    return f'<img src="{esc(item["src"])}" alt="{esc(item["alt"])}" width="{item["width"]}" height="{item["height"]}" loading="lazy" decoding="async" />'
+    return f'<img src="{esc(item["src"])}" alt="{esc(item["alt"])}" width="{item["width"]}" height="{item["height"]}" sizes="(max-width: 600px) 45vw, (max-width: 1000px) 33vw, 360px" loading="lazy" decoding="async" />'
 
 
 def hero(kind):

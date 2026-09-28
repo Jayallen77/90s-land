@@ -1,0 +1,86 @@
+[
+  {
+    "page": "home",
+    "path": "/",
+    "mode": "mobile",
+    "performance": 75,
+    "accessibility": 100,
+    "best-practices": 100,
+    "seo": 100,
+    "metrics": {
+      "first-contentful-paint": 2479.9907999999996,
+      "largest-contentful-paint": 5781.654399999999,
+      "total-blocking-time": 5,
+      "cumulative-layout-shift": 0.001292443683023524,
+      "speed-index": 2479.9907999999996,
+      "total-byte-weight": 1456744
+    },
+    "lighthouseVersion": "13.4.1",
+    "fetchedAt": "2026-09-28T03:52:55.156Z",
+    "warnings": [],
+    "error": null
+  },
+  {
+    "page": "year-1996",
+    "path": "/timeline/1996/?month=06",
+    "mode": "mobile",
+    "performance": 67,
+    "accessibility": 100,
+    "best-practices": 100,
+    "seo": 100,
+    "metrics": {
+      "first-contentful-paint": 3832.19445,
+      "largest-contentful-paint": 6684.5926,
+      "total-blocking-time": 0,
+      "cumulative-layout-shift": 0.052608074755786535,
+      "speed-index": 3832.19445,
+      "total-byte-weight": 1201053
+    },
+    "lighthouseVersion": "13.4.1",
+    "fetchedAt": "2026-09-28T03:53:02.545Z",
+    "warnings": [],
+    "error": null
+  },
+  {
+    "page": "games",
+    "path": "/zones/games/",
+    "mode": "mobile",
+    "performance": 74,
+    "accessibility": 100,
+    "best-practices": 100,
+    "seo": 100,
+    "metrics": {
+      "first-contentful-paint": 2782.4094,
+      "largest-contentful-paint": 5934.8791999999985,
+      "total-blocking-time": 0,
+      "cumulative-layout-shift": 0.0002813982734609747,
+      "speed-index": 2782.4094,
+      "total-byte-weight": 1033009
+    },
+    "lighthouseVersion": "13.4.1",
+    "fetchedAt": "2026-09-28T03:53:18.256Z",
+    "warnings": [],
+    "error": null
+  },
+  {
+    "page": "search",
+    "path": "/search/?q=mosaic&filter=objects",
+    "mode": "mobile",
+    "performance": 63,
+    "accessibility": 100,
+    "best-practices": 100,
+    "seo": 100,
+    "metrics": {
+      "first-contentful-paint": 4957.02315,
+      "largest-contentful-paint": 7359.3642,
+      "total-blocking-time": 91,
+      "cumulative-layout-shift": 0.01169699557054754,
+      "speed-index": 4957.02315,
+      "total-byte-weight": 1132628
+    },
+    "lighthouseVersion": "13.4.1",
+    "fetchedAt": "2026-09-28T03:53:27.914Z",
+    "warnings": [],
+    "error": null
+  }
+]

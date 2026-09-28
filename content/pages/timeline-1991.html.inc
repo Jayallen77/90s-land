@@ -241,7 +241,7 @@
               <h3>Open CERN’s first-web context beside Nicktoons clips when you want 1991’s split personality in one sitting</h3>
               <p>One route shows the future arriving as plain text. The other shows the household still ruled by animation blocks, couch habits, and shared scheduling.</p>
               <p class="callout-note"><strong>Media context:</strong> source-aware web history plus TV-memory recovery.</p>
-              <div class="callout-links"><a href="https://home.cern/science/computing/birth-web" target="_blank" rel="noopener noreferrer">Birth of the Web ↗</a><a href="https://www.youtube.com/results?search_query=Nicktoons+1991+promo" target="_blank" rel="noopener noreferrer">Nicktoons search ↗</a></div>
+              <div class="callout-links"><a href="https://home.cern/science/computing/the-birth-of-the-web/" target="_blank" rel="noopener noreferrer">Birth of the Web ↗</a><a href="https://www.youtube.com/results?search_query=Nicktoons+1991+promo" target="_blank" rel="noopener noreferrer">Nicktoons search ↗</a></div>
             </article>
           </div>
         </div>

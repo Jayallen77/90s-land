@@ -7,3 +7,6 @@ test-results/
 playwright-report/
 reports/lighthouse/*.json
 !reports/lighthouse/summary.json
+/dist/
+reports/phase-5/performance-*/*-mobile.json
+reports/phase-5/performance-*/*-desktop.json

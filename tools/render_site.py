@@ -17,6 +17,7 @@ import editorial
 import archive_content as archive
 import archive_pages
 import hub_pages
+import media_variants
 
 ROOT = Path(__file__).resolve().parents[1]
 SITE_URL = "https://90s.land"
@@ -121,9 +122,6 @@ def render_head(route: dict) -> str:
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="{esc(title)}" />
   <meta name="twitter:description" content="{esc(description)}" />{image_meta}
-  <link rel="preload" href="/assets/fonts/Jersey10-Regular.ttf" as="font" type="font/ttf" crossorigin />
-  <link rel="preload" href="/assets/fonts/Barlow-Regular.ttf" as="font" type="font/ttf" crossorigin />
-  <link rel="preload" href="/assets/fonts/BarlowCondensed-Bold.ttf" as="font" type="font/ttf" crossorigin />
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32.png" />
   <link rel="icon" type="image/svg+xml" href="/assets/editorial/palm-sunset.svg" />
   <link rel="apple-touch-icon" sizes="192x192" href="/assets/icons/icon-192.png" />
@@ -701,7 +699,11 @@ def page_document(route: dict, main: str, body_class: str = "") -> str:
 <html lang="en" class="no-js">
 <head>
   <meta charset="utf-8" />
+  <script>document.documentElement.classList.replace('no-js','js');</script>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="preload" href="/assets/fonts/Jersey10-Regular.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/assets/fonts/Barlow-Regular.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/assets/fonts/BarlowCondensed-Bold.woff2" as="font" type="font/woff2" crossorigin />
 {region("head", render_head(route))}
   <link rel="stylesheet" href="/styles.css?v=timeline-hero-exhibit-1" />
 </head>
@@ -719,7 +721,7 @@ def page_document(route: dict, main: str, body_class: str = "") -> str:
 {main}
   <footer class="footer"><p>© 1999–forever 90s.land // handmade for curious people // <a href="/credits/">credits</a> // <a href="#top">back to top</a></p></footer>
 {region("shared-ui", render_shared_ui())}
-  <script type="module" src="/js/app.js?v=phase4-1"></script>
+  <script type="module" src="/js/app.js?v=phase5-1"></script>
 </body>
 </html>
 """
@@ -983,7 +985,7 @@ def build_outputs() -> dict[Path, str]:
             outputs[route_to_file(route["path"])] = render_existing_page(route)
 
         path = route_to_file(route["path"])
-        outputs[path] = editorial.apply_shell(outputs[path], route)
+        outputs[path] = media_variants.optimize_html(editorial.apply_shell(outputs[path], route))
 
     outputs[ROOT / "404.html"] = editorial.apply_shell(render_404(), {"path": "/404.html"})
     sitemap_urls = "\n".join(

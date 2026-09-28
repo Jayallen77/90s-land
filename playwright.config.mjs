@@ -1,4 +1,5 @@
 import { defineConfig } from "@playwright/test";
+const preview = process.env.PLAYWRIGHT_BASE_URL;
 
 export default defineConfig({
   testDir: "./tests",
@@ -9,14 +10,14 @@ export default defineConfig({
   workers: 1,
   reporter: [["line"]],
   use: {
-    baseURL: "http://127.0.0.1:4173",
+    baseURL: preview || "http://127.0.0.1:4173",
     browserName: "chromium",
     colorScheme: "dark",
     reducedMotion: "reduce",
     screenshot: "only-on-failure",
     trace: "retain-on-failure"
   },
-  webServer: {
+  webServer: preview ? undefined : {
     command: "python3 -m http.server 4173",
     url: "http://127.0.0.1:4173",
     reuseExistingServer: true,

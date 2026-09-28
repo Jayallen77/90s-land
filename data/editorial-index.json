@@ -131,10 +131,12 @@
       "summary": "Space shuttle Discovery lifts off with the Hubble Space Telescope aboard.",
       "url": "/events/hubble-launches/",
       "image": {
-        "src": "/assets/media/timeline-1990/hubble-launch.jpg",
+        "src": "/assets/generated/editorial/hubble-launch-480.webp",
         "alt": "Space Shuttle Discovery launching Hubble with a bright plume.",
         "width": 1904,
-        "height": 2860
+        "height": 2860,
+        "srcset": "/assets/generated/editorial/hubble-launch-240.webp 240w, /assets/generated/editorial/hubble-launch-480.webp 480w, /assets/generated/editorial/hubble-launch-960.webp 960w",
+        "sizes": "(max-width: 600px) 90vw, 720px"
       }
     },
     {
@@ -146,10 +148,12 @@
       "summary": "Hubble is released from Discovery into Earth orbit.",
       "url": "/events/hubble-deployed/",
       "image": {
-        "src": "/assets/media/timeline-1990/hubble-launch.jpg",
+        "src": "/assets/generated/editorial/hubble-launch-480.webp",
         "alt": "Space Shuttle Discovery launching Hubble with a bright plume.",
         "width": 1904,
-        "height": 2860
+        "height": 2860,
+        "srcset": "/assets/generated/editorial/hubble-launch-240.webp 240w, /assets/generated/editorial/hubble-launch-480.webp 480w, /assets/generated/editorial/hubble-launch-960.webp 960w",
+        "sizes": "(max-width: 600px) 90vw, 720px"
       }
     },
     {
@@ -596,10 +600,12 @@
       "summary": "Metallica’s self-titled album arrives on the band’s official release calendar.",
       "url": "/events/metallica-black-album/",
       "image": {
-        "src": "/assets/media/music/compact-cassette-maxell.jpg",
+        "src": "/assets/generated/editorial/cassette-480.webp",
         "alt": "Compact cassette with visible reels and label area.",
         "width": 1280,
-        "height": 960
+        "height": 960,
+        "srcset": "/assets/generated/editorial/cassette-240.webp 240w, /assets/generated/editorial/cassette-480.webp 480w, /assets/generated/editorial/cassette-960.webp 960w",
+        "sizes": "(max-width: 600px) 90vw, 720px"
       }
     },
     {
@@ -656,10 +662,12 @@
       "summary": "Nirvana releases Nevermind. The artist’s official discography supplies the release date.",
       "url": "/events/nevermind/",
       "image": {
-        "src": "/assets/media/music/discman-d121.jpg",
+        "src": "/assets/generated/editorial/discman-480.webp",
         "alt": "Open black Sony Discman D121 portable CD player.",
         "width": 1280,
-        "height": 1427
+        "height": 1427,
+        "srcset": "/assets/generated/editorial/discman-240.webp 240w, /assets/generated/editorial/discman-480.webp 480w, /assets/generated/editorial/discman-960.webp 960w",
+        "sizes": "(max-width: 600px) 90vw, 720px"
       }
     },
     {
@@ -866,10 +874,12 @@
       "summary": "Microsoft ships the next major version of Windows.",
       "url": "/events/windows-31-ships/",
       "image": {
-        "src": "/assets/media/tech-toys/family-pc-rotterdam-1999.jpg",
+        "src": "/assets/generated/editorial/family-pc-480.webp",
         "alt": "Late-1990s family desktop PC with CRT monitor and beige tower in a shared room.",
         "width": 832,
-        "height": 624
+        "height": 624,
+        "srcset": "/assets/generated/editorial/family-pc-240.webp 240w, /assets/generated/editorial/family-pc-480.webp 480w, /assets/generated/editorial/family-pc-832.webp 832w",
+        "sizes": "(max-width: 600px) 90vw, 720px"
       }
     },
     {
@@ -1136,10 +1146,12 @@
       "summary": "Nirvana releases Incesticide. The artist’s official discography supplies the release date.",
       "url": "/events/incesticide/",
       "image": {
-        "src": "/assets/media/music/discman-d121.jpg",
+        "src": "/assets/generated/editorial/discman-480.webp",
         "alt": "Open black Sony Discman D121 portable CD player.",
         "width": 1280,
-        "height": 1427
+        "height": 1427,
+        "srcset": "/assets/generated/editorial/discman-240.webp 240w, /assets/generated/editorial/discman-480.webp 480w, /assets/generated/editorial/discman-960.webp 960w",
+        "sizes": "(max-width: 600px) 90vw, 720px"
       }
     },
     {
@@ -1301,10 +1313,12 @@
       "summary": "CERN puts the core World Wide Web software into the public domain.",
       "url": "/events/cern-opens-web/",
       "image": {
-        "src": "/assets/media/timeline-1991/w3-first-website.png",
+        "src": "/assets/generated/editorial/first-website-480.webp",
         "alt": "Plain text-and-link view of the first World Wide Web site.",
         "width": 1366,
-        "height": 655
+        "height": 655,
+        "srcset": "/assets/generated/editorial/first-website-240.webp 240w, /assets/generated/editorial/first-website-480.webp 480w, /assets/generated/editorial/first-website-960.webp 960w",
+        "sizes": "(max-width: 600px) 90vw, 720px"
       }
     },
     {
@@ -1451,10 +1465,12 @@
       "summary": "Nirvana releases In Utero. The artist’s official discography supplies the release date.",
       "url": "/events/in-utero/",
       "image": {
-        "src": "/assets/media/music/discman-d121.jpg",
+        "src": "/assets/generated/editorial/discman-480.webp",
         "alt": "Open black Sony Discman D121 portable CD player.",
         "width": 1280,
-        "height": 1427
+        "height": 1427,
+        "srcset": "/assets/generated/editorial/discman-240.webp 240w, /assets/generated/editorial/discman-480.webp 480w, /assets/generated/editorial/discman-960.webp 960w",
+        "sizes": "(max-width: 600px) 90vw, 720px"
       }
     },
     {
@@ -2151,10 +2167,12 @@
       "summary": "Windows 95 launches with the Start menu and taskbar.",
       "url": "/events/windows-95-launch/",
       "image": {
-        "src": "/assets/media/tech-toys/family-pc-rotterdam-1999.jpg",
+        "src": "/assets/generated/editorial/family-pc-480.webp",
         "alt": "Late-1990s family desktop PC with CRT monitor and beige tower in a shared room.",
         "width": 832,
-        "height": 624
+        "height": 624,
+        "srcset": "/assets/generated/editorial/family-pc-240.webp 240w, /assets/generated/editorial/family-pc-480.webp 480w, /assets/generated/editorial/family-pc-832.webp 832w",
+        "sizes": "(max-width: 600px) 90vw, 720px"
       }
     },
     {
@@ -2301,10 +2319,12 @@
       "summary": "Florida State beats Notre Dame 31–26 in Miami.",
       "url": "/events/orange-bowl-1996/",
       "image": {
-        "src": "/assets/media/tv-movies/1990s-television-set.jpg",
+        "src": "/assets/generated/editorial/crt-television-409.webp",
         "alt": "Chunky 1990s CRT television with curved glass and built-in speakers.",
         "width": 409,
-        "height": 592
+        "height": 592,
+        "srcset": "/assets/generated/editorial/crt-television-240.webp 240w, /assets/generated/editorial/crt-television-409.webp 409w",
+        "sizes": "(max-width: 600px) 90vw, 720px"
       }
     },
     {
@@ -2316,10 +2336,12 @@
       "summary": "The Trojans defeat Northwestern 41–32 in Pasadena.",
       "url": "/events/rose-bowl-1996/",
       "image": {
-        "src": "/assets/media/tv-movies/1990s-television-set.jpg",
+        "src": "/assets/generated/editorial/crt-television-409.webp",
         "alt": "Chunky 1990s CRT television with curved glass and built-in speakers.",
         "width": 409,
-        "height": 592
+        "height": 592,
+        "srcset": "/assets/generated/editorial/crt-television-240.webp 240w, /assets/generated/editorial/crt-television-409.webp 409w",
+        "sizes": "(max-width: 600px) 90vw, 720px"
       }
     },
     {
@@ -2331,10 +2353,12 @@
       "summary": "Nebraska defeats Florida 62–24 in the national-title matchup.",
       "url": "/events/fiesta-bowl-1996/",
       "image": {
-        "src": "/assets/media/tv-movies/1990s-television-set.jpg",
+        "src": "/assets/generated/editorial/crt-television-409.webp",
         "alt": "Chunky 1990s CRT television with curved glass and built-in speakers.",
         "width": 409,
-        "height": 592
+        "height": 592,
+        "srcset": "/assets/generated/editorial/crt-television-240.webp 240w, /assets/generated/editorial/crt-television-409.webp 409w",
+        "sizes": "(max-width: 600px) 90vw, 720px"
       }
     },
     {
@@ -2346,10 +2370,12 @@
       "summary": "NASA’s first shuttle flight of 1996 sets off to retrieve a Japanese science satellite.",
       "url": "/events/sts-72-launch/",
       "image": {
-        "src": "/assets/media/timeline-1990/hubble-launch.jpg",
+        "src": "/assets/generated/editorial/hubble-launch-480.webp",
         "alt": "Space Shuttle Discovery launching Hubble with a bright plume.",
         "width": 1904,
-        "height": 2860
+        "height": 2860,
+        "srcset": "/assets/generated/editorial/hubble-launch-240.webp 240w, /assets/generated/editorial/hubble-launch-480.webp 480w, /assets/generated/editorial/hubble-launch-960.webp 960w",
+        "sizes": "(max-width: 600px) 90vw, 720px"
       }
     },
     {
@@ -2391,10 +2417,12 @@
       "summary": "NASA releases the Hubble Deep Field, revealing galaxies in a seemingly sparse patch of sky.",
       "url": "/events/hubble-deep-field/",
       "image": {
-        "src": "/assets/media/timeline-1990/hubble-launch.jpg",
+        "src": "/assets/generated/editorial/hubble-launch-480.webp",
         "alt": "Space Shuttle Discovery launching Hubble with a bright plume.",
         "width": 1904,
-        "height": 2860
+        "height": 2860,
+        "srcset": "/assets/generated/editorial/hubble-launch-240.webp 240w, /assets/generated/editorial/hubble-launch-480.webp 480w, /assets/generated/editorial/hubble-launch-960.webp 960w",
+        "sizes": "(max-width: 600px) 90vw, 720px"
       }
     },
     {
@@ -2421,10 +2449,12 @@
       "summary": "STS-72 lands at Kennedy Space Center after retrieving Japan’s Space Flyer Unit.",
       "url": "/events/sts-72-landing/",
       "image": {
-        "src": "/assets/media/timeline-1990/hubble-launch.jpg",
+        "src": "/assets/generated/editorial/hubble-launch-480.webp",
         "alt": "Space Shuttle Discovery launching Hubble with a bright plume.",
         "width": 1904,
-        "height": 2860
+        "height": 2860,
+        "srcset": "/assets/generated/editorial/hubble-launch-240.webp 240w, /assets/generated/editorial/hubble-launch-480.webp 480w, /assets/generated/editorial/hubble-launch-960.webp 960w",
+        "sizes": "(max-width: 600px) 90vw, 720px"
       }
     },
     {
@@ -3291,10 +3321,12 @@
       "summary": "Load opens a new chapter in Metallica’s album catalog.",
       "url": "/events/metallica-load/",
       "image": {
-        "src": "/assets/media/music/discman-d121.jpg",
+        "src": "/assets/generated/editorial/discman-480.webp",
         "alt": "Open black Sony Discman D121 portable CD player.",
         "width": 1280,
-        "height": 1427
+        "height": 1427,
+        "srcset": "/assets/generated/editorial/discman-240.webp 240w, /assets/generated/editorial/discman-480.webp 480w, /assets/generated/editorial/discman-960.webp 960w",
+        "sizes": "(max-width: 600px) 90vw, 720px"
       }
     },
     {
@@ -3396,10 +3428,12 @@
       "summary": "id Software’s Quake brings its 3D world to the PC.",
       "url": "/events/quake-shareware/",
       "image": {
-        "src": "/assets/media/tech-toys/family-pc-rotterdam-1999.jpg",
+        "src": "/assets/generated/editorial/family-pc-480.webp",
         "alt": "Late-1990s family desktop PC with CRT monitor and beige tower in a shared room.",
         "width": 832,
-        "height": 624
+        "height": 624,
+        "srcset": "/assets/generated/editorial/family-pc-240.webp 240w, /assets/generated/editorial/family-pc-480.webp 480w, /assets/generated/editorial/family-pc-832.webp 832w",
+        "sizes": "(max-width: 600px) 90vw, 720px"
       }
     },
     {
@@ -3411,10 +3445,12 @@
       "summary": "Nintendo’s new console makes its Japanese debut.",
       "url": "/events/nintendo-64-japan/",
       "image": {
-        "src": "/assets/media/games/n64-controller-gray.jpg",
+        "src": "/assets/generated/editorial/n64-controller-480.webp",
         "alt": "Gray Nintendo 64 controller with three-prong grip and central analog stick.",
         "width": 1280,
-        "height": 1021
+        "height": 1021,
+        "srcset": "/assets/generated/editorial/n64-controller-240.webp 240w, /assets/generated/editorial/n64-controller-480.webp 480w, /assets/generated/editorial/n64-controller-960.webp 960w",
+        "sizes": "(max-width: 600px) 90vw, 720px"
       }
     },
     {
@@ -4036,10 +4072,12 @@
       "summary": "Nintendo 64 arrives with Super Mario 64 leading the way.",
       "url": "/events/nintendo-64-us/",
       "image": {
-        "src": "/assets/media/games/n64-controller-gray.jpg",
+        "src": "/assets/generated/editorial/n64-controller-480.webp",
         "alt": "Gray Nintendo 64 controller with three-prong grip and central analog stick.",
         "width": 1280,
-        "height": 1021
+        "height": 1021,
+        "srcset": "/assets/generated/editorial/n64-controller-240.webp 240w, /assets/generated/editorial/n64-controller-480.webp 480w, /assets/generated/editorial/n64-controller-960.webp 960w",
+        "sizes": "(max-width: 600px) 90vw, 720px"
       }
     },
     {
@@ -4351,10 +4389,12 @@
       "summary": "Michael Jordan and the Looney Tunes share the big screen.",
       "url": "/events/space-jam-la/",
       "image": {
-        "src": "/assets/media/tv-movies/vhs-videocassette-front.jpg",
+        "src": "/assets/generated/editorial/vhs-tape-480.webp",
         "alt": "Black VHS cassette with clear reel windows and blank label area.",
         "width": 1280,
-        "height": 854
+        "height": 854,
+        "srcset": "/assets/generated/editorial/vhs-tape-240.webp 240w, /assets/generated/editorial/vhs-tape-480.webp 480w, /assets/generated/editorial/vhs-tape-960.webp 960w",
+        "sizes": "(max-width: 600px) 90vw, 720px"
       }
     },
     {
@@ -4631,10 +4671,12 @@
       "summary": "Nebraska beats Virginia Tech 41–21 at Pro Player Stadium on New Year’s Eve.",
       "url": "/events/orange-bowl-new-years-eve/",
       "image": {
-        "src": "/assets/media/tv-movies/1990s-television-set.jpg",
+        "src": "/assets/generated/editorial/crt-television-409.webp",
         "alt": "Chunky 1990s CRT television with curved glass and built-in speakers.",
         "width": 409,
-        "height": 592
+        "height": 592,
+        "srcset": "/assets/generated/editorial/crt-television-240.webp 240w, /assets/generated/editorial/crt-television-409.webp 409w",
+        "sizes": "(max-width: 600px) 90vw, 720px"
       }
     },
     {
@@ -4661,10 +4703,12 @@
       "summary": "The Buckeyes edge Arizona State 20–17 in Pasadena.",
       "url": "/events/rose-bowl-1997/",
       "image": {
-        "src": "/assets/media/tv-movies/1990s-television-set.jpg",
+        "src": "/assets/generated/editorial/crt-television-409.webp",
         "alt": "Chunky 1990s CRT television with curved glass and built-in speakers.",
         "width": 409,
-        "height": 592
+        "height": 592,
+        "srcset": "/assets/generated/editorial/crt-television-240.webp 240w, /assets/generated/editorial/crt-television-409.webp 409w",
+        "sizes": "(max-width: 600px) 90vw, 720px"
       }
     },
     {
@@ -4676,10 +4720,12 @@
       "summary": "Florida defeats Florida State 52–20 to complete its championship season.",
       "url": "/events/sugar-bowl-1997/",
       "image": {
-        "src": "/assets/media/tv-movies/1990s-television-set.jpg",
+        "src": "/assets/generated/editorial/crt-television-409.webp",
         "alt": "Chunky 1990s CRT television with curved glass and built-in speakers.",
         "width": 409,
-        "height": 592
+        "height": 592,
+        "srcset": "/assets/generated/editorial/crt-television-240.webp 240w, /assets/generated/editorial/crt-television-409.webp 409w",
+        "sizes": "(max-width: 600px) 90vw, 720px"
       }
     },
     {
@@ -4811,10 +4857,12 @@
       "summary": "The Liberty and Sparks play the league’s inaugural game.",
       "url": "/events/wnba-first-game/",
       "image": {
-        "src": "/assets/media/tv-movies/1990s-television-set.jpg",
+        "src": "/assets/generated/editorial/crt-television-409.webp",
         "alt": "Chunky 1990s CRT television with curved glass and built-in speakers.",
         "width": 409,
-        "height": 592
+        "height": 592,
+        "srcset": "/assets/generated/editorial/crt-television-240.webp 240w, /assets/generated/editorial/crt-television-409.webp 409w",
+        "sizes": "(max-width: 600px) 90vw, 720px"
       }
     },
     {
@@ -4926,10 +4974,12 @@
       "summary": "Metallica releases ReLoad. The artist’s official discography supplies the release date.",
       "url": "/events/reload/",
       "image": {
-        "src": "/assets/media/music/discman-d121.jpg",
+        "src": "/assets/generated/editorial/discman-480.webp",
         "alt": "Open black Sony Discman D121 portable CD player.",
         "width": 1280,
-        "height": 1427
+        "height": 1427,
+        "srcset": "/assets/generated/editorial/discman-240.webp 240w, /assets/generated/editorial/discman-480.webp 480w, /assets/generated/editorial/discman-960.webp 960w",
+        "sizes": "(max-width: 600px) 90vw, 720px"
       }
     },
     {
@@ -5196,10 +5246,12 @@
       "summary": "The translucent all-in-one becomes a new kind of desktop object.",
       "url": "/events/imac-arrives/",
       "image": {
-        "src": "/assets/media/transparent-tech/imac-g3-bondi-blue.png",
+        "src": "/assets/generated/editorial/bondi-imac-480.webp",
         "alt": "Bondi blue iMac G3 with rounded translucent shell.",
         "width": 960,
-        "height": 895
+        "height": 895,
+        "srcset": "/assets/generated/editorial/bondi-imac-240.webp 240w, /assets/generated/editorial/bondi-imac-480.webp 480w, /assets/generated/editorial/bondi-imac-960.webp 960w",
+        "sizes": "(max-width: 600px) 90vw, 720px"
       }
     },
     {
@@ -5316,10 +5368,12 @@
       "summary": "Metallica releases Garage Inc.. The artist’s official discography supplies the release date.",
       "url": "/events/garage-inc/",
       "image": {
-        "src": "/assets/media/music/discman-d121.jpg",
+        "src": "/assets/generated/editorial/discman-480.webp",
         "alt": "Open black Sony Discman D121 portable CD player.",
         "width": 1280,
-        "height": 1427
+        "height": 1427,
+        "srcset": "/assets/generated/editorial/discman-240.webp 240w, /assets/generated/editorial/discman-480.webp 480w, /assets/generated/editorial/discman-960.webp 960w",
+        "sizes": "(max-width: 600px) 90vw, 720px"
       }
     },
     {
@@ -5706,10 +5760,12 @@
       "summary": "Metallica releases S&M. The artist’s official discography supplies the release date.",
       "url": "/events/metallica-sm/",
       "image": {
-        "src": "/assets/media/music/discman-d121.jpg",
+        "src": "/assets/generated/editorial/discman-480.webp",
         "alt": "Open black Sony Discman D121 portable CD player.",
         "width": 1280,
-        "height": 1427
+        "height": 1427,
+        "srcset": "/assets/generated/editorial/discman-240.webp 240w, /assets/generated/editorial/discman-480.webp 480w, /assets/generated/editorial/discman-960.webp 960w",
+        "sizes": "(max-width: 600px) 90vw, 720px"
       }
     },
     {

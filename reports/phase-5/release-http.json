@@ -1,0 +1,15 @@
+{
+  "routes": 474,
+  "routeStatus": 200,
+  "excludedPaths": {
+    "/does-not-exist/": 404,
+    "/.git/config": 404,
+    "/content/editorial/catalog.json": 404,
+    "/docs/REBUILD_HANDOFF.md": 404,
+    "/reports/PHASE_5_QA.md": 404,
+    "/assets/editorial/home-hero-original.png": 404
+  },
+  "gzipSamples": 5,
+  "contentDigest": "02fd7ab1418a558fddfe17cf424a6d5ee22cfb9ba857558dc7960891ff3770d1",
+  "errors": []
+}
