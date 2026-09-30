@@ -1,6 +1,6 @@
 import { announce } from "./announce.js";
-import { openDialog } from "./navigation.js?v=launch-phase1";
-import { awardStamp } from "./passport.js?v=launch-phase1";
+import { openDialog } from "./navigation.js?v=launch-phase2";
+import { awardStamp } from "./passport.js?v=launch-phase2";
 import {
   readJson,
   sessionStore,

@@ -112,32 +112,26 @@
     "type": "years",
     "path": "/timeline/1990/",
     "title": "1990 time capsule",
-    "summary": "1990: The decade boots up. Explore a year of Gulf War headlines, Nintendo and Sega rivalry, Windows 3.0, and the first hints of a connected world.",
+    "summary": "1990: A remote, a cassette, a new desktop. Browse defining moments, the full monthly calendar, related stories, and objects.",
     "tags": [
       "1990",
-      "90s",
-      "a",
-      "and",
-      "artifacts",
-      "boots",
-      "capsule",
-      "cards",
-      "decade",
-      "events",
-      "first",
-      "games",
-      "holes",
-      "interactive",
-      "land",
-      "month",
+      "timeline",
       "music",
-      "photo"
+      "movies",
+      "television",
+      "games",
+      "technology",
+      "internet",
+      "culture",
+      "objects",
+      "A remote, a cassette, a new desktop"
     ],
     "randomEligible": false,
     "artifactIds": [
       "windows-3",
       "hubble-launch",
-      "cassette"
+      "cassette",
+      "vhs-tape"
     ]
   },
   {
@@ -145,32 +139,26 @@
     "type": "years",
     "path": "/timeline/1991/",
     "title": "1991 time capsule",
-    "summary": "1991: A wired future shares the room with mixtapes, cartoons, and the first website. Follow the year month by month, from analog routines to the early web.",
+    "summary": "1991: Turn it up. Follow the blue link.. Browse defining moments, the full monthly calendar, related stories, and objects.",
     "tags": [
       "1991",
-      "90s",
-      "a",
-      "and",
-      "capsule",
-      "cards",
-      "charts",
-      "first",
-      "game",
-      "labels",
-      "land",
-      "media",
-      "month",
+      "timeline",
       "music",
-      "nevermind",
-      "object",
-      "old",
-      "proof"
+      "movies",
+      "television",
+      "games",
+      "technology",
+      "internet",
+      "culture",
+      "objects",
+      "Turn it up. Follow the blue link."
     ],
     "randomEligible": false,
     "artifactIds": [
       "first-website",
       "genesis-controller",
-      "cassette"
+      "cassette",
+      "crt-television"
     ]
   },
   {
@@ -178,32 +166,26 @@
     "type": "years",
     "path": "/timeline/1992/",
     "title": "1992 time capsule",
-    "summary": "1992: Cable television, cartoons, cartridges, and a changing world. Explore the year through its news desk, monthly milestones, music, games, and everyday objects.",
+    "summary": "1992: Seven strangers and a second controller. Browse defining moments, the full monthly calendar, related stories, and objects.",
     "tags": [
       "1992",
-      "90s",
-      "a",
-      "and",
-      "by",
-      "cable",
-      "capsule",
-      "cartoons",
-      "cartridges",
-      "desk",
-      "first",
+      "timeline",
+      "music",
+      "movies",
+      "television",
       "games",
-      "holes",
-      "interactive",
-      "labels",
-      "land",
-      "month",
-      "music"
+      "technology",
+      "internet",
+      "culture",
+      "objects",
+      "Seven strangers and a second controller"
     ],
     "randomEligible": false,
     "artifactIds": [
       "pager",
       "windows-3",
-      "arcade-cabinet"
+      "arcade-cabinet",
+      "discman"
     ]
   },
   {
@@ -211,32 +193,26 @@
     "type": "years",
     "path": "/timeline/1993/",
     "title": "1993 time capsule",
-    "summary": "1993: The web gets a front door as Mosaic, Doom, hip-hop, and mall culture share the same year. Follow the links from early browsers to everyday pop life.",
+    "summary": "1993: Dinosaurs outside. Doom after homework.. Browse defining moments, the full monthly calendar, related stories, and objects.",
     "tags": [
       "1993",
-      "90s",
-      "a",
-      "and",
-      "by",
-      "capsule",
-      "door",
-      "first",
-      "front",
-      "games",
-      "gets",
-      "holes",
-      "interactive",
-      "labels",
-      "land",
-      "month",
+      "timeline",
       "music",
-      "object"
+      "movies",
+      "television",
+      "games",
+      "technology",
+      "internet",
+      "culture",
+      "objects",
+      "Dinosaurs outside. Doom after homework."
     ],
     "randomEligible": false,
     "artifactIds": [
       "mosaic-browser",
       "doom-disks",
-      "genesis-controller"
+      "genesis-controller",
+      "cassette"
     ]
   },
   {
@@ -244,32 +220,26 @@
     "type": "years",
     "path": "/timeline/1994/",
     "title": "1994 time capsule",
-    "summary": "1994: Homepages begin. Step into a visual capsule of desktop screens, television, games, and the handmade pages that made the web feel personal.",
+    "summary": "1994: The coffee shop and the loading screen. Browse defining moments, the full monthly calendar, related stories, and objects.",
     "tags": [
       "1994",
-      "90s",
-      "a",
-      "and",
-      "artifacts",
-      "begin",
-      "by",
-      "capsule",
-      "console",
-      "desktop",
-      "era",
-      "fast",
-      "first",
-      "history",
-      "holes",
-      "homepage",
-      "homepages",
-      "import"
+      "timeline",
+      "music",
+      "movies",
+      "television",
+      "games",
+      "technology",
+      "internet",
+      "culture",
+      "objects",
+      "The coffee shop and the loading screen"
     ],
     "randomEligible": false,
     "artifactIds": [
       "geocities-homepage",
       "visitor-counter",
-      "playstation-hardware"
+      "playstation-hardware",
+      "crt-television"
     ]
   },
   {
@@ -277,32 +247,26 @@
     "type": "years",
     "path": "/timeline/1995/",
     "title": "1995 time capsule",
-    "summary": "1995: Start me up. See Windows 95, AOL discs, and PlayStation hardware, then follow the browser-era shift month by month.",
+    "summary": "1995: Click Start. Put the disc in.. Browse defining moments, the full monthly calendar, related stories, and objects.",
     "tags": [
       "1995",
-      "90s",
-      "95",
-      "and",
-      "aol",
-      "browser",
-      "by",
-      "capsule",
-      "disc",
-      "land",
-      "led",
-      "me",
-      "month",
-      "nostalgia",
-      "photo",
-      "playstation",
-      "plus",
-      "sourced"
+      "timeline",
+      "music",
+      "movies",
+      "television",
+      "games",
+      "technology",
+      "internet",
+      "culture",
+      "objects",
+      "Click Start. Put the disc in."
     ],
     "randomEligible": false,
     "artifactIds": [
       "windows-95-start",
       "aol-cd",
-      "webring-bar"
+      "webring-bar",
+      "playstation-hardware"
     ]
   },
   {
@@ -310,32 +274,26 @@
     "type": "years",
     "path": "/timeline/1996/",
     "title": "1996 time capsule",
-    "summary": "1996: Pocket monsters, web counters, and a summer of big news. Explore the year through sourced images, monthly stories, and the objects of a newly social desktop.",
+    "summary": "1996: Pocket monsters, portable pets, a browser inbox. Browse defining moments, the full monthly calendar, related stories, and objects.",
     "tags": [
       "1996",
-      "90s",
-      "a",
-      "and",
-      "artifacts",
-      "by",
-      "capsule",
-      "counters",
-      "desk",
-      "desktop",
-      "fast",
-      "first",
-      "history",
-      "holes",
-      "july",
-      "land",
-      "monsters",
-      "month"
+      "timeline",
+      "music",
+      "movies",
+      "television",
+      "games",
+      "technology",
+      "internet",
+      "culture",
+      "objects",
+      "Pocket monsters, portable pets, a browser inbox"
     ],
     "randomEligible": false,
     "artifactIds": [
       "n64-controller",
       "playstation-hardware",
-      "vhs-tape"
+      "vhs-tape",
+      "discman"
     ]
   },
   {
@@ -343,32 +301,26 @@
     "type": "years",
     "path": "/timeline/1997/",
     "title": "1997 time capsule",
-    "summary": "1997: Screen glow, handles, and a culture in motion. Browse the music, games, movies, technology, fashion, and objects that made the year feel distinctly late-90s.",
+    "summary": "1997: Big adventures, new voices, one more screen name. Browse defining moments, the full monthly calendar, related stories, and objects.",
     "tags": [
       "1997",
-      "90s",
-      "and",
-      "artifacts",
-      "capsule",
-      "events",
-      "fashion",
-      "games",
-      "glow",
-      "handles",
-      "holes",
-      "huge",
-      "hype",
-      "interactive",
-      "land",
-      "movies",
+      "timeline",
       "music",
-      "rabbit"
+      "movies",
+      "television",
+      "games",
+      "technology",
+      "internet",
+      "culture",
+      "objects",
+      "Big adventures, new voices, one more screen name"
     ],
     "randomEligible": false,
     "artifactIds": [
       "aim-away-message",
       "cdr-spindle",
-      "discman"
+      "discman",
+      "playstation-hardware"
     ]
   },
   {
@@ -376,32 +328,26 @@
     "type": "years",
     "path": "/timeline/1998/",
     "title": "1998 time capsule",
-    "summary": "1998: Search engines, slime, and translucent plastic. Explore late-90s music, games, web history, and the objects that made the future look colorful.",
+    "summary": "1998: Clear purple and Bondi blue. Browse defining moments, the full monthly calendar, related stories, and objects.",
     "tags": [
       "1998",
-      "90s",
-      "and",
-      "artifacts",
-      "by",
-      "capsule",
-      "culture",
-      "games",
-      "history",
-      "holes",
-      "interactive",
-      "land",
-      "late",
-      "month",
+      "timeline",
       "music",
-      "plastic",
-      "rabbit",
-      "search"
+      "movies",
+      "television",
+      "games",
+      "technology",
+      "internet",
+      "culture",
+      "objects",
+      "Clear purple and Bondi blue"
     ],
     "randomEligible": false,
     "artifactIds": [
       "bondi-imac",
       "game-boy-color",
-      "yahoo-directory"
+      "yahoo-directory",
+      "n64-controller"
     ]
   },
   {
@@ -409,32 +355,26 @@
     "type": "years",
     "path": "/timeline/1999/",
     "title": "1999 time capsule",
-    "summary": "1999: Party like the clock might break. Follow the millennium buildup through Dreamcast, burned CDs, file sharing, late-90s pop, and month-by-month stories.",
+    "summary": "1999: One more disc before midnight. Browse defining moments, the full monthly calendar, related stories, and objects.",
     "tags": [
       "1999",
-      "90s",
-      "and",
-      "break",
-      "buildup",
-      "burned",
-      "by",
-      "capsule",
-      "cd",
-      "clock",
+      "timeline",
+      "music",
+      "movies",
+      "television",
+      "games",
+      "technology",
+      "internet",
       "culture",
-      "dreamcast",
-      "file",
-      "holes",
-      "interactive",
-      "land",
-      "late",
-      "like"
+      "objects",
+      "One more disc before midnight"
     ],
     "randomEligible": false,
     "artifactIds": [
       "dreamcast",
       "y2k-office",
-      "family-pc"
+      "family-pc",
+      "cdr-spindle"
     ]
   },
   {

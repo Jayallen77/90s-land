@@ -155,3 +155,10 @@
 .ed-main .ed-text-link,.ed-panel-heading>a{font-size:13px}.ed-six-up h3{font-size:15px;line-height:1.25}
 .ar-sources{overflow-wrap:anywhere}.ar-article .ar-detail-links{line-height:1.5}
 @media(max-width:600px){.ar-breadcrumb{font-size:13px;gap:7px}.ar-breadcrumb [aria-current]{max-width:100%}.ed-main .ar-heading h1{font-size:44px}.ed-main .ar-article .ar-heading h1{font-size:38px}.ed-discovery{padding:16px}.ed-footer{padding:0}.ar-article>p,.ar-article section>p{font-size:17px}.hub-game .ed-graphic{padding:12px}.hub-game .ed-graphic strong{font-size:25px}}
+.ar-card-art .ed-graphic{min-height:0}
+/* On small screens the adjacent title carries text-only placeholders.
+   Keep actual object photography; let date cards use the available width. */
+@media(max-width:520px){
+  .ar-event>a:has(.ed-graphic),.ed-year-stories .ar-story-card:has(.ed-graphic){grid-template-columns:1fr}
+  .ar-event .ar-card-art:has(.ed-graphic),.ed-year-stories .ar-card-art:has(.ed-graphic){display:none}
+}

@@ -96,7 +96,7 @@ for (const width of [320, 390, 768, 1280, 1440]) {
     const results = await new AxeBuilder({page}).analyze();
     expect(results.violations).toEqual([]);
     expect(await page.evaluate(() => document.documentElement.scrollWidth - innerWidth)).toBe(0);
-    if ([390, 1440].includes(width)) await page.screenshot({path:`reports/launch-phase1/directory-${width}.png`});
+    if ([390, 1440].includes(width)) await page.screenshot({path:`${process.env.LAUNCH_QA_DIR || "reports/launch-phase1"}/directory-${width}.png`});
     await directory.getByRole('button', {name:/^Passport/}).click();
     await expect(directory).toBeHidden();
     await expect(page.locator('#passportDialog')).toBeVisible();
@@ -169,6 +169,9 @@ test('Surprise Me fetch failure offers recovery and retries successfully', async
 
 test('resetting Passport also clears the completed tour controls', async ({page}) => {
   await page.goto('/tours/before-the-feed/#portals-and-precursors');
+  // Static fallback shows all stops until progressive enhancement selects one.
+  await expect(page.locator('[data-tour-stop]:visible')).toHaveCount(1);
+  await expect(page.locator('[data-tour-stop]:visible')).toHaveAttribute('id','portals-and-precursors');
   await page.locator('[data-tour-stop]:visible [data-tour-next]').click();
   await page.locator('[data-passport-trigger]').click();
   await page.locator('[data-passport-reset-open]').click();

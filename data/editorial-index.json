@@ -1,6 +1,6 @@
 {
   "buildAsOf": "2026-09-27",
-  "coverageNote": "A curated, sourced calendar, with every month of the decade represented. Film openings have the broadest coverage; a blank day means no entry has been added, not that nothing happened.",
+  "coverageNote": "A growing archive of dated entries, with a larger North American film-release collection. Start with each year’s defining moments for a broader view; the full calendar keeps regional release dates and source notes.",
   "events": [
     {
       "id": "film-henry-portrait-of-a-serial-killer-1990",
@@ -63,6 +63,16 @@
       }
     },
     {
+      "id": "mandela-released",
+      "title": "Nelson Mandela walks free",
+      "date": "1990-02-11",
+      "category": "news",
+      "region": "South Africa",
+      "summary": "Mandela leaves Victor Verster Prison after 27 years in prison.",
+      "url": "/events/mandela-released/",
+      "image": null
+    },
+    {
       "id": "film-the-hunt-for-red-october-1990",
       "title": "The Hunt for Red October reaches theaters",
       "date": "1990-03-02",
@@ -93,6 +103,16 @@
       }
     },
     {
+      "id": "violator-uk",
+      "title": "Depeche Mode releases Violator",
+      "date": "1990-03-19",
+      "category": "music",
+      "region": "United Kingdom",
+      "summary": "Personal Jesus and Enjoy the Silence share a place on the same record.",
+      "url": "/events/violator-uk/",
+      "image": null
+    },
+    {
       "id": "film-the-cook-the-thief-his-wife-and-her-lover-1990",
       "title": "The Cook, The Thief, His Wife, and Her Lover reaches theaters",
       "date": "1990-04-06",
@@ -106,6 +126,16 @@
         "width": 768,
         "height": 256
       }
+    },
+    {
+      "id": "twin-peaks-premiere",
+      "title": "Twin Peaks asks who killed Laura Palmer",
+      "date": "1990-04-08",
+      "category": "movies-tv",
+      "region": "North America",
+      "summary": "A murder mystery brings an unusually strange town to ABC.",
+      "url": "/events/twin-peaks-premiere/",
+      "image": null
     },
     {
       "id": "film-crazy-people-1990",
@@ -187,12 +217,22 @@
       }
     },
     {
+      "id": "windows-30-launch",
+      "title": "Windows 3.0 puts icons on the desktop",
+      "date": "1990-05-22",
+      "category": "tech",
+      "region": "North America",
+      "summary": "Program Manager gives the PC a desktop full of things to click.",
+      "url": "/events/windows-30-launch/",
+      "image": null
+    },
+    {
       "id": "film-total-recall-1990",
-      "title": "Total Recall reaches theaters",
+      "title": "Total Recall takes a trip to Mars",
       "date": "1990-06-01",
       "category": "movies-tv",
       "region": "North America",
-      "summary": "Total Recall enters the North American theatrical release calendar.",
+      "summary": "A summer cinema trip with a few questions about memory.",
       "url": "/events/film-total-recall-1990/",
       "image": {
         "src": "/assets/editorial/movies-hero-768.webp",
@@ -277,6 +317,16 @@
       }
     },
     {
+      "id": "fresh-prince-premiere",
+      "title": "The Fresh Prince moves to Bel-Air",
+      "date": "1990-09-10",
+      "category": "movies-tv",
+      "region": "North America",
+      "summary": "Will Smith brings a rapper’s timing to a family sitcom.",
+      "url": "/events/fresh-prince-premiere/",
+      "image": null
+    },
+    {
       "id": "film-goodfellas-1990",
       "title": "Goodfellas reaches theaters",
       "date": "1990-09-19",
@@ -290,6 +340,16 @@
         "width": 768,
         "height": 256
       }
+    },
+    {
+      "id": "german-reunification",
+      "title": "Germany reunifies",
+      "date": "1990-10-03",
+      "category": "news",
+      "region": "Germany",
+      "summary": "Celebrations at the Reichstag mark the end of Germany’s division.",
+      "url": "/events/german-reunification/",
+      "image": null
     },
     {
       "id": "film-graveyard-shift-1990",
@@ -337,12 +397,22 @@
       }
     },
     {
+      "id": "super-mario-world-japan",
+      "title": "Super Mario World introduces Yoshi",
+      "date": "1990-11-21",
+      "category": "games",
+      "region": "Japan",
+      "summary": "Dinosaur Land gives Mario a new traveling companion.",
+      "url": "/events/super-mario-world-japan/",
+      "image": null
+    },
+    {
       "id": "film-edward-scissorhands-1990",
-      "title": "Edward Scissorhands reaches theaters",
+      "title": "Edward Scissorhands arrives for December",
       "date": "1990-12-07",
       "category": "movies-tv",
       "region": "North America",
-      "summary": "Edward Scissorhands enters the North American theatrical release calendar.",
+      "summary": "A very unusual visitor joins the holiday-season cinema calendar.",
       "url": "/events/film-edward-scissorhands-1990/",
       "image": {
         "src": "/assets/editorial/movies-hero-768.webp",
@@ -532,6 +602,16 @@
       }
     },
     {
+      "id": "bulls-first-title",
+      "title": "The Bulls win their first NBA title",
+      "date": "1991-06-12",
+      "category": "culture",
+      "region": "North America",
+      "summary": "Chicago beats the Lakers to finish the Finals.",
+      "url": "/events/bulls-first-title/",
+      "image": null
+    },
+    {
       "id": "film-robin-hood-prince-of-thieves-1991",
       "title": "Robin Hood: Prince of Thieves reaches theaters",
       "date": "1991-06-14",
@@ -547,12 +627,22 @@
       }
     },
     {
+      "id": "sonic-western-release",
+      "title": "Sonic races onto the Mega Drive and Genesis",
+      "date": "1991-06-23",
+      "category": "games",
+      "region": "North America / Europe",
+      "summary": "Sega’s blue hedgehog makes speed part of the console rivalry.",
+      "url": "/events/sonic-western-release/",
+      "image": null
+    },
+    {
       "id": "film-terminator-2-judgment-day-1991",
-      "title": "Terminator 2: Judgment Day reaches theaters",
+      "title": "Terminator 2 returns for the summer",
       "date": "1991-07-02",
       "category": "movies-tv",
       "region": "North America",
-      "summary": "Terminator 2: Judgment Day enters the North American theatrical release calendar.",
+      "summary": "The sequel opens during the July cinema season.",
       "url": "/events/film-terminator-2-judgment-day-1991/",
       "image": {
         "src": "/assets/editorial/movies-hero-768.webp",
@@ -592,6 +682,26 @@
       }
     },
     {
+      "id": "web-usenet-announcement",
+      "title": "The Web gets a public invitation",
+      "date": "1991-08-06",
+      "category": "tech",
+      "region": "International",
+      "summary": "Tim Berners-Lee posts about the WorldWideWeb project on Usenet.",
+      "url": "/events/web-usenet-announcement/",
+      "image": null
+    },
+    {
+      "id": "rugrats-premiere",
+      "title": "Rugrats sees the world from the carpet",
+      "date": "1991-08-11",
+      "category": "movies-tv",
+      "region": "North America",
+      "summary": "Tommy Pickles and his friends join Nickelodeon’s first Nicktoons.",
+      "url": "/events/rugrats-premiere/",
+      "image": null
+    },
+    {
       "id": "metallica-black-album",
       "title": "Metallica releases the Black Album",
       "date": "1991-08-12",
@@ -622,6 +732,16 @@
         "width": 768,
         "height": 256
       }
+    },
+    {
+      "id": "pearl-jam-ten",
+      "title": "Pearl Jam releases Ten",
+      "date": "1991-08-27",
+      "category": "music",
+      "region": "North America",
+      "summary": "Alive, Even Flow, and Jeremy arrive on the band’s debut album.",
+      "url": "/events/pearl-jam-ten/",
+      "image": null
     },
     {
       "id": "film-freddys-dead-the-final-nightmare-1991",
@@ -702,11 +822,11 @@
     },
     {
       "id": "film-beauty-and-the-beast-1991",
-      "title": "Beauty and the Beast reaches theaters",
+      "title": "Beauty and the Beast opens in November",
       "date": "1991-11-13",
       "category": "movies-tv",
       "region": "North America",
-      "summary": "Beauty and the Beast enters the North American theatrical release calendar.",
+      "summary": "A Disney animation joins the autumn theatrical calendar.",
       "url": "/events/film-beauty-and-the-beast-1991/",
       "image": {
         "src": "/assets/editorial/movies-hero-768.webp",
@@ -714,6 +834,16 @@
         "width": 768,
         "height": 256
       }
+    },
+    {
+      "id": "zelda-link-past-japan",
+      "title": "A Link to the Past opens two Hyrules",
+      "date": "1991-11-21",
+      "category": "games",
+      "region": "Japan",
+      "summary": "Link’s Super Famicom adventure begins in Japan.",
+      "url": "/events/zelda-link-past-japan/",
+      "image": null
     },
     {
       "id": "film-the-addams-family-1991",
@@ -807,11 +937,11 @@
     },
     {
       "id": "film-wayne-s-world-1992",
-      "title": "Wayne's World reaches theaters",
+      "title": "Wayne’s World goes to the movies",
       "date": "1992-02-14",
       "category": "movies-tv",
       "region": "North America",
-      "summary": "Wayne's World enters the North American theatrical release calendar.",
+      "summary": "The television sketch gets a cinema-sized outing.",
       "url": "/events/film-wayne-s-world-1992/",
       "image": {
         "src": "/assets/editorial/movies-hero-768.webp",
@@ -898,6 +1028,16 @@
       }
     },
     {
+      "id": "euro-disney-opens",
+      "title": "Euro Disney opens outside Paris",
+      "date": "1992-04-12",
+      "category": "culture",
+      "region": "France",
+      "summary": "A new Disney resort brings a theme-park holiday closer to European visitors.",
+      "url": "/events/euro-disney-opens/",
+      "image": null
+    },
+    {
       "id": "film-lethal-weapon-3-1992",
       "title": "Lethal Weapon 3 reaches theaters",
       "date": "1992-05-15",
@@ -911,6 +1051,26 @@
         "width": 768,
         "height": 256
       }
+    },
+    {
+      "id": "real-world-premiere",
+      "title": "The Real World moves seven strangers in",
+      "date": "1992-05-21",
+      "category": "movies-tv",
+      "region": "North America",
+      "summary": "MTV turns a shared New York home into a television series.",
+      "url": "/events/real-world-premiere/",
+      "image": null
+    },
+    {
+      "id": "carson-final-tonight",
+      "title": "Johnny Carson signs off from The Tonight Show",
+      "date": "1992-05-22",
+      "category": "movies-tv",
+      "region": "North America",
+      "summary": "A familiar late-night appointment ends after nearly thirty years.",
+      "url": "/events/carson-final-tonight/",
+      "image": null
     },
     {
       "id": "film-sister-act-1992",
@@ -988,6 +1148,16 @@
       }
     },
     {
+      "id": "barcelona-olympics-open",
+      "title": "Barcelona opens the Summer Olympics",
+      "date": "1992-07-25",
+      "category": "culture",
+      "region": "Spain",
+      "summary": "The opening ceremony starts a summer of televised competition.",
+      "url": "/events/barcelona-olympics-open/",
+      "image": null
+    },
+    {
       "id": "film-unforgiven-1992",
       "title": "Unforgiven reaches theaters",
       "date": "1992-08-07",
@@ -1031,6 +1201,16 @@
         "width": 768,
         "height": 256
       }
+    },
+    {
+      "id": "super-mario-kart-japan",
+      "title": "Super Mario Kart starts the race",
+      "date": "1992-08-27",
+      "category": "games",
+      "region": "Japan",
+      "summary": "Mario’s cast trades platform jumps for karts and banana peels.",
+      "url": "/events/super-mario-kart-japan/",
+      "image": null
     },
     {
       "id": "film-sneakers-1992",
@@ -1094,11 +1274,11 @@
     },
     {
       "id": "film-aladdin-1992",
-      "title": "Aladdin reaches theaters",
+      "title": "Aladdin joins the holiday movie season",
       "date": "1992-11-11",
       "category": "movies-tv",
       "region": "North America",
-      "summary": "Aladdin enters the North American theatrical release calendar.",
+      "summary": "Disney’s animated adventure opens in November.",
       "url": "/events/film-aladdin-1992/",
       "image": {
         "src": "/assets/editorial/movies-hero-768.webp",
@@ -1106,6 +1286,16 @@
         "width": 768,
         "height": 256
       }
+    },
+    {
+      "id": "bodyguard-soundtrack",
+      "title": "Whitney Houston leads The Bodyguard soundtrack",
+      "date": "1992-11-17",
+      "category": "music",
+      "region": "North America",
+      "summary": "The soundtrack arrives before the film’s US theatrical opening.",
+      "url": "/events/bodyguard-soundtrack/",
+      "image": null
     },
     {
       "id": "film-home-alone-2-lost-in-new-york-1992",
@@ -1185,6 +1375,16 @@
       }
     },
     {
+      "id": "monday-night-raw-debut",
+      "title": "Monday Night Raw goes live",
+      "date": "1993-01-11",
+      "category": "movies-tv",
+      "region": "North America",
+      "summary": "Wrestling takes a weekly live slot from the Manhattan Center.",
+      "url": "/events/monday-night-raw-debut/",
+      "image": null
+    },
+    {
       "id": "film-alive-1993",
       "title": "Alive reaches theaters",
       "date": "1993-01-15",
@@ -1231,11 +1431,11 @@
     },
     {
       "id": "film-groundhog-day-1993",
-      "title": "Groundhog Day reaches theaters",
+      "title": "Groundhog Day starts repeating itself",
       "date": "1993-02-12",
       "category": "movies-tv",
       "region": "North America",
-      "summary": "Groundhog Day enters the North American theatrical release calendar.",
+      "summary": "A February opening for a film about one very long day.",
       "url": "/events/film-groundhog-day-1993/",
       "image": {
         "src": "/assets/editorial/movies-hero-768.webp",
@@ -1273,6 +1473,16 @@
         "width": 768,
         "height": 256
       }
+    },
+    {
+      "id": "pentium-introduced",
+      "title": "Pentium becomes the new PC name",
+      "date": "1993-03-22",
+      "category": "tech",
+      "region": "North America",
+      "summary": "Intel introduces its first Pentium processors.",
+      "url": "/events/pentium-introduced/",
+      "image": null
     },
     {
       "id": "film-indecent-proposal-1993",
@@ -1353,11 +1563,11 @@
     },
     {
       "id": "film-jurassic-park-1993",
-      "title": "Jurassic Park reaches theaters",
+      "title": "Jurassic Park opens the gates",
       "date": "1993-06-11",
       "category": "movies-tv",
       "region": "North America",
-      "summary": "Jurassic Park enters the North American theatrical release calendar.",
+      "summary": "The dinosaurs arrive in time for the summer cinema season.",
       "url": "/events/film-jurassic-park-1993/",
       "image": {
         "src": "/assets/editorial/movies-hero-768.webp",
@@ -1457,6 +1667,16 @@
       }
     },
     {
+      "id": "x-files-premiere",
+      "title": "The X-Files pairs a believer with a skeptic",
+      "date": "1993-09-10",
+      "category": "movies-tv",
+      "region": "North America",
+      "summary": "Mulder and Scully start investigating the unexplained on Fox.",
+      "url": "/events/x-files-premiere/",
+      "image": null
+    },
+    {
       "id": "in-utero",
       "title": "Nirvana releases In Utero",
       "date": "1993-09-21",
@@ -1519,6 +1739,16 @@
       }
     },
     {
+      "id": "wu-tang-debut",
+      "title": "Wu-Tang Clan enters the 36 Chambers",
+      "date": "1993-11-09",
+      "category": "music",
+      "region": "North America",
+      "summary": "Nine voices, soul samples, and martial-arts film references fill a debut album.",
+      "url": "/events/wu-tang-debut/",
+      "image": null
+    },
+    {
       "id": "film-the-three-musketeers-1993",
       "title": "The Three Musketeers reaches theaters",
       "date": "1993-11-12",
@@ -1547,6 +1777,26 @@
         "width": 768,
         "height": 256
       }
+    },
+    {
+      "id": "hubble-servicing-launch",
+      "title": "Endeavour heads out to repair Hubble",
+      "date": "1993-12-02",
+      "category": "tech",
+      "region": "North America",
+      "summary": "Seven astronauts begin the telescope’s first servicing mission.",
+      "url": "/events/hubble-servicing-launch/",
+      "image": null
+    },
+    {
+      "id": "doom-shareware",
+      "title": "Doom escapes onto PCs",
+      "date": "1993-12-10",
+      "category": "games",
+      "region": "International",
+      "summary": "A shareware episode makes a trip through the computer desk feel much less like homework.",
+      "url": "/events/doom-shareware/",
+      "image": null
     },
     {
       "id": "film-schindlers-list-1993",
@@ -1622,6 +1872,16 @@
         "width": 768,
         "height": 256
       }
+    },
+    {
+      "id": "green-day-dookie",
+      "title": "Green Day releases Dookie",
+      "date": "1994-02-01",
+      "category": "music",
+      "region": "North America",
+      "summary": "A short, loud record brings Bay Area punk to a major label.",
+      "url": "/events/green-day-dookie/",
+      "image": null
     },
     {
       "id": "film-ace-ventura-pet-detective-1994",
@@ -1724,6 +1984,16 @@
       }
     },
     {
+      "id": "channel-tunnel-inauguration",
+      "title": "The Channel Tunnel officially opens",
+      "date": "1994-05-06",
+      "category": "tech",
+      "region": "United Kingdom / France",
+      "summary": "The inauguration links Britain and France beneath the Channel.",
+      "url": "/events/channel-tunnel-inauguration/",
+      "image": null
+    },
+    {
       "id": "film-3-ninjas-kick-back-1994",
       "title": "3 Ninjas Kick Back reaches theaters",
       "date": "1994-05-06",
@@ -1785,11 +2055,11 @@
     },
     {
       "id": "film-forrest-gump-1994",
-      "title": "Forrest Gump reaches theaters",
+      "title": "Forrest Gump opens in July",
       "date": "1994-07-06",
       "category": "movies-tv",
       "region": "North America",
-      "summary": "Forrest Gump enters the North American theatrical release calendar.",
+      "summary": "A summer opening on the North American theatrical calendar.",
       "url": "/events/film-forrest-gump-1994/",
       "image": {
         "src": "/assets/editorial/movies-hero-768.webp",
@@ -1797,6 +2067,16 @@
         "width": 768,
         "height": 256
       }
+    },
+    {
+      "id": "world-cup-1994-final",
+      "title": "Brazil wins the World Cup on penalties",
+      "date": "1994-07-17",
+      "category": "culture",
+      "region": "North America",
+      "summary": "The final at the Rose Bowl reaches a shootout after a goalless match.",
+      "url": "/events/world-cup-1994-final/",
+      "image": null
     },
     {
       "id": "film-andre-1994",
@@ -1859,12 +2139,42 @@
       }
     },
     {
+      "id": "er-premiere",
+      "title": "ER begins a busy night in Chicago",
+      "date": "1994-09-19",
+      "category": "movies-tv",
+      "region": "North America",
+      "summary": "The two-hour pilot sends NBC viewers into County General.",
+      "url": "/events/er-premiere/",
+      "image": null
+    },
+    {
+      "id": "friends-premiere",
+      "title": "Friends opens the door to Central Perk",
+      "date": "1994-09-22",
+      "category": "movies-tv",
+      "region": "North America",
+      "summary": "Six friends join NBC’s Thursday-night lineup.",
+      "url": "/events/friends-premiere/",
+      "image": null
+    },
+    {
+      "id": "w3c-founded",
+      "title": "The Web gets a standards consortium",
+      "date": "1994-10-01",
+      "category": "tech",
+      "region": "International",
+      "summary": "W3C forms to coordinate a Web that can work across different systems.",
+      "url": "/events/w3c-founded/",
+      "image": null
+    },
+    {
       "id": "film-pulp-fiction-1994",
-      "title": "Pulp Fiction reaches theaters",
+      "title": "Pulp Fiction reaches the autumn screen",
       "date": "1994-10-14",
       "category": "movies-tv",
       "region": "North America",
-      "summary": "Pulp Fiction enters the North American theatrical release calendar.",
+      "summary": "The October opening puts it in a different season from the summer blockbusters.",
       "url": "/events/film-pulp-fiction-1994/",
       "image": {
         "src": "/assets/editorial/movies-hero-768.webp",
@@ -2009,6 +2319,16 @@
       }
     },
     {
+      "id": "jordan-returns",
+      "title": "Michael Jordan returns to the Bulls",
+      "date": "1995-03-19",
+      "category": "culture",
+      "region": "North America",
+      "summary": "Jordan takes the court again against Indiana.",
+      "url": "/events/jordan-returns/",
+      "image": null
+    },
+    {
       "id": "film-bad-boys-1995",
       "title": "Bad Boys reaches theaters",
       "date": "1995-04-07",
@@ -2054,6 +2374,16 @@
       }
     },
     {
+      "id": "java-public-introduction",
+      "title": "Java gets its public introduction",
+      "date": "1995-05-23",
+      "category": "tech",
+      "region": "North America",
+      "summary": "A new programming language joins the growing conversation about the Web.",
+      "url": "/events/java-public-introduction/",
+      "image": null
+    },
+    {
       "id": "film-casper-1995",
       "title": "Casper reaches theaters",
       "date": "1995-05-26",
@@ -2067,6 +2397,16 @@
         "width": 768,
         "height": 256
       }
+    },
+    {
+      "id": "jagged-little-pill-us",
+      "title": "Alanis Morissette releases Jagged Little Pill",
+      "date": "1995-06-13",
+      "category": "music",
+      "region": "North America",
+      "summary": "You Oughta Know gives the album its sharpest introduction.",
+      "url": "/events/jagged-little-pill-us/",
+      "image": null
     },
     {
       "id": "film-batman-forever-1995",
@@ -2084,12 +2424,22 @@
       }
     },
     {
+      "id": "rugby-world-cup-1995-final",
+      "title": "South Africa wins the Rugby World Cup",
+      "date": "1995-06-24",
+      "category": "culture",
+      "region": "South Africa",
+      "summary": "Nelson Mandela joins the final wearing Francois Pienaar’s number six.",
+      "url": "/events/rugby-world-cup-1995-final/",
+      "image": null
+    },
+    {
       "id": "film-apollo-13-1995",
-      "title": "Apollo 13 reaches theaters",
+      "title": "Apollo 13 reaches the summer screen",
       "date": "1995-06-30",
       "category": "movies-tv",
       "region": "North America",
-      "summary": "Apollo 13 enters the North American theatrical release calendar.",
+      "summary": "A June theatrical opening for the spaceflight drama.",
       "url": "/events/film-apollo-13-1995/",
       "image": {
         "src": "/assets/editorial/movies-hero-768.webp",
@@ -2174,6 +2524,16 @@
         "srcset": "/assets/generated/editorial/family-pc-240.webp 240w, /assets/generated/editorial/family-pc-480.webp 480w, /assets/generated/editorial/family-pc-832.webp 832w",
         "sizes": "(max-width: 600px) 90vw, 720px"
       }
+    },
+    {
+      "id": "ebay-auctionweb-begins",
+      "title": "AuctionWeb begins the eBay story",
+      "date": "1995-09-03",
+      "category": "tech",
+      "region": "North America",
+      "summary": "An online marketplace starts small in San Jose.",
+      "url": "/events/ebay-auctionweb-begins/",
+      "image": null
     },
     {
       "id": "film-to-wong-foo-thanks-for-everything-julie-newmar-1995",
@@ -2267,11 +2627,11 @@
     },
     {
       "id": "film-toy-story-1995",
-      "title": "Toy Story reaches theaters",
+      "title": "Toy Story arrives for Thanksgiving week",
       "date": "1995-11-22",
       "category": "movies-tv",
       "region": "North America",
-      "summary": "Toy Story enters the North American theatrical release calendar.",
+      "summary": "Woody and Buzz join the November cinema calendar.",
       "url": "/events/film-toy-story-1995/",
       "image": {
         "src": "/assets/editorial/movies-hero-768.webp",
@@ -2279,6 +2639,16 @@
         "width": 768,
         "height": 256
       }
+    },
+    {
+      "id": "galileo-jupiter-arrival",
+      "title": "Galileo arrives at Jupiter",
+      "date": "1995-12-07",
+      "category": "tech",
+      "region": "International",
+      "summary": "An orbiter and atmospheric probe reach their destination.",
+      "url": "/events/galileo-jupiter-arrival/",
+      "image": null
     },
     {
       "id": "film-jumanji-1995",
@@ -3539,6 +3909,16 @@
       }
     },
     {
+      "id": "wannabe-uk",
+      "title": "The Spice Girls introduce Wannabe",
+      "date": "1996-07-08",
+      "category": "music",
+      "region": "United Kingdom",
+      "summary": "The group’s first UK single makes friendship the hook.",
+      "url": "/events/wannabe-uk/",
+      "image": null
+    },
+    {
       "id": "film-harriet-the-spy-1996",
       "title": "Harriet the Spy reaches theaters",
       "date": "1996-07-10",
@@ -3612,6 +3992,16 @@
         "width": 768,
         "height": 256
       }
+    },
+    {
+      "id": "atlanta-olympics-open",
+      "title": "Muhammad Ali lights the Atlanta cauldron",
+      "date": "1996-07-19",
+      "category": "culture",
+      "region": "North America",
+      "summary": "The opening ceremony supplies the Summer Games with an unforgettable last torchbearer.",
+      "url": "/events/atlanta-olympics-open/",
+      "image": null
     },
     {
       "id": "film-trainspotting-1996",
@@ -4382,11 +4772,11 @@
     },
     {
       "id": "space-jam-la",
-      "title": "Space Jam opens in Los Angeles",
+      "title": "Space Jam joins the November lineup",
       "date": "1996-11-15",
       "category": "movies-tv",
       "region": "US",
-      "summary": "Michael Jordan and the Looney Tunes share the big screen.",
+      "summary": "Basketball and cartoons share a place on the cinema screen.",
       "url": "/events/space-jam-la/",
       "image": {
         "src": "/assets/generated/editorial/vhs-tape-480.webp",
@@ -4604,11 +4994,11 @@
     },
     {
       "id": "film-scream-1996",
-      "title": "Scream reaches theaters",
+      "title": "Scream opens before the holidays",
       "date": "1996-12-20",
       "category": "movies-tv",
       "region": "North America",
-      "summary": "Scream enters the North American theatrical release calendar.",
+      "summary": "A December release for the horror film that knows its genre.",
       "url": "/events/film-scream-1996/",
       "image": {
         "src": "/assets/editorial/movies-hero-768.webp",
@@ -4744,6 +5134,26 @@
       }
     },
     {
+      "id": "daft-punk-homework-europe",
+      "title": "Daft Punk releases Homework in Europe",
+      "date": "1997-01-20",
+      "category": "music",
+      "region": "Europe",
+      "summary": "A Paris home studio sends its dance tracks out into the world.",
+      "url": "/events/daft-punk-homework-europe/",
+      "image": null
+    },
+    {
+      "id": "final-fantasy-vii-japan",
+      "title": "Final Fantasy VII arrives on PlayStation",
+      "date": "1997-01-31",
+      "category": "games",
+      "region": "Japan",
+      "summary": "Cloud’s journey starts on Japanese shelves.",
+      "url": "/events/final-fantasy-vii-japan/",
+      "image": null
+    },
+    {
       "id": "film-dantes-peak-1997",
       "title": "Dante’s Peak reaches theaters",
       "date": "1997-02-07",
@@ -4819,6 +5229,16 @@
       }
     },
     {
+      "id": "deep-blue-match-win",
+      "title": "Deep Blue wins its match with Kasparov",
+      "date": "1997-05-11",
+      "category": "tech",
+      "region": "North America",
+      "summary": "IBM’s chess computer wins a six-game rematch.",
+      "url": "/events/deep-blue-match-win/",
+      "image": null
+    },
+    {
       "id": "film-hercules-1997",
       "title": "Hercules reaches theaters",
       "date": "1997-06-13",
@@ -4867,11 +5287,11 @@
     },
     {
       "id": "film-men-in-black-1997",
-      "title": "Men in Black reaches theaters",
+      "title": "Men in Black opens for July",
       "date": "1997-07-01",
       "category": "movies-tv",
       "region": "North America",
-      "summary": "Men in Black enters the North American theatrical release calendar.",
+      "summary": "A summer opening for the alien-investigation comedy.",
       "url": "/events/film-men-in-black-1997/",
       "image": {
         "src": "/assets/editorial/movies-hero-768.webp",
@@ -4879,6 +5299,16 @@
         "width": 768,
         "height": 256
       }
+    },
+    {
+      "id": "hong-kong-handover",
+      "title": "Hong Kong’s handover reaches midnight",
+      "date": "1997-07-01",
+      "category": "news",
+      "region": "Hong Kong",
+      "summary": "A televised ceremony marks the transfer of sovereignty to China.",
+      "url": "/events/hong-kong-handover/",
+      "image": null
     },
     {
       "id": "mars-pathfinder-lands",
@@ -4906,6 +5336,16 @@
       }
     },
     {
+      "id": "south-park-premiere",
+      "title": "South Park debuts on Comedy Central",
+      "date": "1997-08-13",
+      "category": "movies-tv",
+      "region": "North America",
+      "summary": "Four children in a Colorado town join late-night cable television.",
+      "url": "/events/south-park-premiere/",
+      "image": null
+    },
+    {
       "id": "film-l-a-confidential-1997",
       "title": "L.A. Confidential reaches theaters",
       "date": "1997-09-19",
@@ -4922,11 +5362,11 @@
     },
     {
       "id": "film-gattaca-1997",
-      "title": "Gattaca reaches theaters",
+      "title": "Gattaca reaches theaters in October",
       "date": "1997-10-24",
       "category": "movies-tv",
       "region": "North America",
-      "summary": "Gattaca enters the North American theatrical release calendar.",
+      "summary": "A science-fiction release on the autumn calendar.",
       "url": "/events/film-gattaca-1997/",
       "image": {
         "src": "/assets/editorial/movies-hero-768.webp",
@@ -5133,6 +5573,16 @@
       }
     },
     {
+      "id": "good-friday-agreement",
+      "title": "The Good Friday Agreement is signed",
+      "date": "1998-04-10",
+      "category": "news",
+      "region": "United Kingdom / Ireland",
+      "summary": "An agreement sets out a new political settlement for Northern Ireland.",
+      "url": "/events/good-friday-agreement/",
+      "image": null
+    },
+    {
       "id": "film-deep-impact-1998",
       "title": "Deep Impact reaches theaters",
       "date": "1998-05-08",
@@ -5164,11 +5614,11 @@
     },
     {
       "id": "film-the-truman-show-1998",
-      "title": "The Truman Show reaches theaters",
+      "title": "The Truman Show opens in June",
       "date": "1998-06-05",
       "category": "movies-tv",
       "region": "North America",
-      "summary": "The Truman Show enters the North American theatrical release calendar.",
+      "summary": "A film about a television life joins the summer cinema schedule.",
       "url": "/events/film-the-truman-show-1998/",
       "image": {
         "src": "/assets/editorial/movies-hero-768.webp",
@@ -5176,6 +5626,16 @@
         "width": 768,
         "height": 256
       }
+    },
+    {
+      "id": "windows-98-launch",
+      "title": "Windows 98 reaches the desktop",
+      "date": "1998-06-25",
+      "category": "tech",
+      "region": "North America",
+      "summary": "A new Windows release arrives in the browser-heavy household PC era.",
+      "url": "/events/windows-98-launch/",
+      "image": null
     },
     {
       "id": "film-doctor-dolittle-1998",
@@ -5208,12 +5668,22 @@
       }
     },
     {
+      "id": "world-cup-1998-final",
+      "title": "France wins its home World Cup",
+      "date": "1998-07-12",
+      "category": "culture",
+      "region": "France",
+      "summary": "The hosts beat Brazil at the Stade de France.",
+      "url": "/events/world-cup-1998-final/",
+      "image": null
+    },
+    {
       "id": "film-saving-private-ryan-1998",
-      "title": "Saving Private Ryan reaches theaters",
+      "title": "Saving Private Ryan opens in July",
       "date": "1998-07-24",
       "category": "movies-tv",
       "region": "North America",
-      "summary": "Saving Private Ryan enters the North American theatrical release calendar.",
+      "summary": "The war drama arrives midway through the summer movie season.",
       "url": "/events/film-saving-private-ryan-1998/",
       "image": {
         "src": "/assets/editorial/movies-hero-768.webp",
@@ -5270,6 +5740,26 @@
       }
     },
     {
+      "id": "lauryn-hill-miseducation",
+      "title": "Lauryn Hill releases The Miseducation",
+      "date": "1998-08-25",
+      "category": "music",
+      "region": "North America",
+      "summary": "Her solo debut puts singing and rapping in the same conversation.",
+      "url": "/events/lauryn-hill-miseducation/",
+      "image": null
+    },
+    {
+      "id": "google-incorporated",
+      "title": "Google becomes a company",
+      "date": "1998-09-04",
+      "category": "tech",
+      "region": "North America",
+      "summary": "A search project gets an incorporation date.",
+      "url": "/events/google-incorporated/",
+      "image": null
+    },
+    {
       "id": "film-rush-hour-1998",
       "title": "Rush Hour reaches theaters",
       "date": "1998-09-18",
@@ -5315,6 +5805,16 @@
       }
     },
     {
+      "id": "game-boy-color-japan",
+      "title": "Game Boy Color arrives in Japan",
+      "date": "1998-10-21",
+      "category": "games",
+      "region": "Japan",
+      "summary": "The handheld’s screen and shell both get a new look.",
+      "url": "/events/game-boy-color-japan/",
+      "image": null
+    },
+    {
       "id": "film-life-is-beautiful-1998",
       "title": "Life Is Beautiful reaches theaters",
       "date": "1998-10-23",
@@ -5358,6 +5858,16 @@
         "width": 768,
         "height": 256
       }
+    },
+    {
+      "id": "ocarina-time-japan",
+      "title": "Ocarina of Time brings Hyrule into 3D",
+      "date": "1998-11-21",
+      "category": "games",
+      "region": "Japan",
+      "summary": "Link’s Nintendo 64 adventure begins in Japan.",
+      "url": "/events/ocarina-time-japan/",
+      "image": null
     },
     {
       "id": "garage-inc",
@@ -5407,6 +5917,36 @@
       }
     },
     {
+      "id": "euro-introduced",
+      "title": "The euro begins without notes or coins",
+      "date": "1999-01-01",
+      "category": "news",
+      "region": "Europe",
+      "summary": "Eleven countries enter monetary union; physical euro cash comes later.",
+      "url": "/events/euro-introduced/",
+      "image": null
+    },
+    {
+      "id": "sopranos-premiere",
+      "title": "The Sopranos starts on HBO",
+      "date": "1999-01-10",
+      "category": "movies-tv",
+      "region": "North America",
+      "summary": "A New Jersey mob boss brings his problems into a therapist’s office.",
+      "url": "/events/sopranos-premiere/",
+      "image": null
+    },
+    {
+      "id": "britney-debut-album",
+      "title": "Britney Spears releases her debut album",
+      "date": "1999-01-12",
+      "category": "music",
+      "region": "North America",
+      "summary": "…Baby One More Time moves from a hit single into an album.",
+      "url": "/events/britney-debut-album/",
+      "image": null
+    },
+    {
       "id": "film-varsity-blues-1999",
       "title": "Varsity Blues reaches theaters",
       "date": "1999-01-15",
@@ -5420,6 +5960,16 @@
         "width": 768,
         "height": 256
       }
+    },
+    {
+      "id": "smash-bros-japan",
+      "title": "Super Smash Bros. puts Nintendo’s cast together",
+      "date": "1999-01-21",
+      "category": "games",
+      "region": "Japan",
+      "summary": "Mario and Link can finally settle an argument on the same screen.",
+      "url": "/events/smash-bros-japan/",
+      "image": null
     },
     {
       "id": "film-she-s-all-that-1999",
@@ -5483,11 +6033,11 @@
     },
     {
       "id": "film-the-matrix-1999",
-      "title": "The Matrix reaches theaters",
+      "title": "The Matrix opens at the end of March",
       "date": "1999-03-31",
       "category": "movies-tv",
       "region": "North America",
-      "summary": "The Matrix enters the North American theatrical release calendar.",
+      "summary": "A spring cinema date for the story behind the red-pill choice.",
       "url": "/events/film-the-matrix-1999/",
       "image": {
         "src": "/assets/editorial/movies-hero-768.webp",
@@ -5587,12 +6137,22 @@
       }
     },
     {
+      "id": "womens-world-cup-1999-final",
+      "title": "The USA wins the Women’s World Cup",
+      "date": "1999-07-10",
+      "category": "culture",
+      "region": "North America",
+      "summary": "Brandi Chastain’s penalty ends a tense final against China.",
+      "url": "/events/womens-world-cup-1999-final/",
+      "image": null
+    },
+    {
       "id": "film-the-blair-witch-project-1999",
       "title": "The Blair Witch Project reaches theaters",
       "date": "1999-07-14",
       "category": "movies-tv",
       "region": "North America",
-      "summary": "The Blair Witch Project enters the North American theatrical release calendar.",
+      "summary": "The July opening brings the woods into the summer cinema schedule.",
       "url": "/events/film-the-blair-witch-project-1999/",
       "image": {
         "src": "/assets/editorial/movies-hero-768.webp",
@@ -5752,6 +6312,16 @@
       }
     },
     {
+      "id": "pokemon-gold-silver-japan",
+      "title": "Pokémon Gold and Silver open a new journey",
+      "date": "1999-11-21",
+      "category": "games",
+      "region": "Japan",
+      "summary": "The Game Boy series returns with two new Japanese editions.",
+      "url": "/events/pokemon-gold-silver-japan/",
+      "image": null
+    },
+    {
       "id": "metallica-sm",
       "title": "Metallica releases S&M",
       "date": "1999-11-23",
@@ -5797,6 +6367,16 @@
         "width": 768,
         "height": 256
       }
+    },
+    {
+      "id": "y2k-rollover-night",
+      "title": "Response teams watch the Y2K rollover",
+      "date": "1999-12-31",
+      "category": "tech",
+      "region": "International",
+      "summary": "The calendar change is a working night for people watching computer systems.",
+      "url": "/events/y2k-rollover-night/",
+      "image": null
     }
   ]
 }

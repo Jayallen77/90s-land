@@ -1,0 +1,308 @@
+{
+  "schemaVersion": 1,
+  "years": [
+    {
+      "year": 1990,
+      "caption": "A remote, a cassette, a new desktop",
+      "intro": "Twin Peaks gave Sunday night a mystery. Windows offered icons to click, and Mario found Yoshi in Japan. Beyond the living room, Mandela walked free and Germany reunited.",
+      "eventIds": [
+        "mandela-released",
+        "violator-uk",
+        "twin-peaks-premiere",
+        "hubble-launches",
+        "windows-30-launch",
+        "film-total-recall-1990",
+        "fresh-prince-premiere",
+        "german-reunification",
+        "super-mario-world-japan",
+        "film-edward-scissorhands-1990"
+      ],
+      "storyIds": [
+        "from-mixtape-to-file",
+        "same-time-next-week",
+        "the-console-war-couch",
+        "the-family-computer",
+        "clothes-with-a-soundtrack"
+      ],
+      "objectIds": [
+        "windows-3",
+        "hubble-launch",
+        "cassette",
+        "vhs-tape"
+      ]
+    },
+    {
+      "year": 1991,
+      "caption": "Turn it up. Follow the blue link.",
+      "intro": "Nevermind and Ten arrived a few weeks apart. Sonic raced across the television, the Bulls won their first title, and a Usenet post invited strangers to try the Web.",
+      "eventIds": [
+        "bulls-first-title",
+        "sonic-western-release",
+        "film-terminator-2-judgment-day-1991",
+        "web-usenet-announcement",
+        "rugrats-premiere",
+        "metallica-black-album",
+        "pearl-jam-ten",
+        "nevermind",
+        "film-beauty-and-the-beast-1991",
+        "zelda-link-past-japan"
+      ],
+      "storyIds": [
+        "when-grunge-broke-through",
+        "the-cartoon-morning",
+        "the-console-war-couch",
+        "a-web-you-could-make",
+        "when-sport-left-the-scoreboard"
+      ],
+      "objectIds": [
+        "first-website",
+        "genesis-controller",
+        "cassette",
+        "crt-television"
+      ],
+      "objectNote": "The six-button Genesis controller shown here dates to 1993. The Sonic entry records the earlier game, released in 1991."
+    },
+    {
+      "year": 1992,
+      "caption": "Seven strangers and a second controller",
+      "intro": "MTV moved strangers into a New York home; Carson said goodnight. Barcelona filled summer television, Mario Kart invited a second player, and Whitney Houston led a soundtrack that outlived the cinema trip.",
+      "eventIds": [
+        "film-wayne-s-world-1992",
+        "windows-31-ships",
+        "euro-disney-opens",
+        "real-world-premiere",
+        "carson-final-tonight",
+        "barcelona-olympics-open",
+        "mall-of-america-opens",
+        "super-mario-kart-japan",
+        "film-aladdin-1992",
+        "bodyguard-soundtrack"
+      ],
+      "storyIds": [
+        "hooks-rhymes-and-radio",
+        "same-time-next-week",
+        "make-room-for-player-two",
+        "the-family-computer",
+        "meet-me-at-the-mall"
+      ],
+      "objectIds": [
+        "pager",
+        "windows-3",
+        "arcade-cabinet",
+        "discman"
+      ],
+      "objectNote": "The Windows 3.0 object records the 1990 interface. Windows 3.1 has its own 1992 entry in the full calendar."
+    },
+    {
+      "year": 1993,
+      "caption": "Dinosaurs outside. Doom after homework.",
+      "intro": "The Web’s software became public property. Wu-Tang’s debut and In Utero occupied the record shelf, while Mulder and Scully occupied Friday night. In December, astronauts set out to repair Hubble and Doom arrived on PCs.",
+      "eventIds": [
+        "monday-night-raw-debut",
+        "film-groundhog-day-1993",
+        "pentium-introduced",
+        "cern-opens-web",
+        "film-jurassic-park-1993",
+        "x-files-premiere",
+        "in-utero",
+        "wu-tang-debut",
+        "hubble-servicing-launch",
+        "doom-shareware"
+      ],
+      "storyIds": [
+        "hooks-rhymes-and-radio",
+        "same-time-next-week",
+        "lan-party-night",
+        "a-web-you-could-make",
+        "the-catalog-on-your-bedroom-floor"
+      ],
+      "objectIds": [
+        "mosaic-browser",
+        "doom-disks",
+        "genesis-controller",
+        "cassette"
+      ]
+    },
+    {
+      "year": 1994,
+      "caption": "The coffee shop and the loading screen",
+      "intro": "Friends and ER joined the weekly television routine. Dookie grew into a hit, Brazil won a penalty shootout, and Japan got its first PlayStation. South Africa held its first democratic election; Britain and France opened a tunnel.",
+      "eventIds": [
+        "green-day-dookie",
+        "mandela-first-vote",
+        "channel-tunnel-inauguration",
+        "film-forrest-gump-1994",
+        "world-cup-1994-final",
+        "er-premiere",
+        "friends-premiere",
+        "w3c-founded",
+        "film-pulp-fiction-1994",
+        "playstation-japan"
+      ],
+      "storyIds": [
+        "when-grunge-broke-through",
+        "same-time-next-week",
+        "fifteen-blocks-of-memory",
+        "a-web-you-could-make",
+        "clothes-with-a-soundtrack"
+      ],
+      "objectIds": [
+        "geocities-homepage",
+        "visitor-counter",
+        "playstation-hardware",
+        "crt-television"
+      ]
+    },
+    {
+      "year": 1995,
+      "caption": "Click Start. Put the disc in.",
+      "intro": "A new Start button anchored the PC, PlayStation reached North America, and AuctionWeb opened for business. Alanis supplied the car-stereo argument. Jordan returned to the Bulls; Mandela wore a Springbok jersey at the Rugby World Cup.",
+      "eventIds": [
+        "jordan-returns",
+        "java-public-introduction",
+        "jagged-little-pill-us",
+        "rugby-world-cup-1995-final",
+        "film-apollo-13-1995",
+        "windows-95-launch",
+        "ebay-auctionweb-begins",
+        "playstation-north-america",
+        "film-toy-story-1995",
+        "galileo-jupiter-arrival"
+      ],
+      "storyIds": [
+        "discman-in-your-backpack",
+        "friday-at-the-video-store",
+        "fifteen-blocks-of-memory",
+        "a-button-called-start",
+        "clothes-with-a-soundtrack"
+      ],
+      "objectIds": [
+        "windows-95-start",
+        "aol-cd",
+        "webring-bar",
+        "playstation-hardware"
+      ]
+    },
+    {
+      "year": 1996,
+      "caption": "Pocket monsters, portable pets, a browser inbox",
+      "intro": "Pokémon began in Japan, Nintendo 64 arrived on both sides of the Pacific, and Tamagotchi asked for attention. Hotmail put email in the browser. Wannabe made an entrance, and Muhammad Ali lit the Olympic cauldron.",
+      "eventIds": [
+        "pokemon-red-green-japan",
+        "quake-shareware",
+        "nintendo-64-japan",
+        "hotmail-launch",
+        "dolly-born",
+        "wannabe-uk",
+        "atlanta-olympics-open",
+        "nintendo-64-us",
+        "space-jam-la",
+        "tamagotchi-japan",
+        "film-scream-1996"
+      ],
+      "storyIds": [
+        "after-school-on-trl",
+        "horror-knew-the-rules",
+        "a-whole-new-dimension",
+        "the-internet-came-in-the-mail",
+        "the-toy-that-needed-you"
+      ],
+      "objectIds": [
+        "n64-controller",
+        "playstation-hardware",
+        "vhs-tape",
+        "discman"
+      ]
+    },
+    {
+      "year": 1997,
+      "caption": "Big adventures, new voices, one more screen name",
+      "intro": "Final Fantasy VII filled PlayStation discs; Homework filled dance floors. The WNBA played its first game, Pathfinder reached Mars, and Hong Kong’s handover reached midnight. A cartoon town in Colorado joined late-night cable.",
+      "eventIds": [
+        "daft-punk-homework-europe",
+        "final-fantasy-vii-japan",
+        "deep-blue-match-win",
+        "wnba-first-game",
+        "hong-kong-handover",
+        "film-men-in-black-1997",
+        "mars-pathfinder-lands",
+        "south-park-premiere",
+        "film-gattaca-1997",
+        "lion-king-broadway"
+      ],
+      "storyIds": [
+        "the-flyer-and-the-dancefloor",
+        "same-time-next-week",
+        "fifteen-blocks-of-memory",
+        "a-computer-in-your-pocket",
+        "choosing-your-screen-name"
+      ],
+      "objectIds": [
+        "aim-away-message",
+        "cdr-spindle",
+        "discman",
+        "playstation-hardware"
+      ]
+    },
+    {
+      "year": 1998,
+      "caption": "Clear purple and Bondi blue",
+      "intro": "The iMac put blue plastic on the desk; Game Boy Color put clear purple in a pocket. Lauryn Hill released her solo debut and Google became a company. France won its home World Cup, and the Good Friday Agreement set out a peace settlement.",
+      "eventIds": [
+        "good-friday-agreement",
+        "film-the-truman-show-1998",
+        "windows-98-launch",
+        "world-cup-1998-final",
+        "film-saving-private-ryan-1998",
+        "imac-arrives",
+        "lauryn-hill-miseducation",
+        "google-incorporated",
+        "game-boy-color-japan",
+        "ocarina-time-japan"
+      ],
+      "storyIds": [
+        "hooks-rhymes-and-radio",
+        "summer-at-the-multiplex",
+        "a-whole-new-dimension",
+        "you-could-see-through-it",
+        "choosing-your-screen-name"
+      ],
+      "objectIds": [
+        "bondi-imac",
+        "game-boy-color",
+        "yahoo-directory",
+        "n64-controller"
+      ]
+    },
+    {
+      "year": 1999,
+      "caption": "One more disc before midnight",
+      "intro": "Britney’s debut album and The Sopranos opened the year. The USA won the Women’s World Cup, Sega chose 9/9/99 for its American Dreamcast launch, and response teams worked through the millennium countdown.",
+      "eventIds": [
+        "euro-introduced",
+        "sopranos-premiere",
+        "britney-debut-album",
+        "smash-bros-japan",
+        "film-the-matrix-1999",
+        "womens-world-cup-1999-final",
+        "film-the-blair-witch-project-1999",
+        "dreamcast-us",
+        "pokemon-gold-silver-japan",
+        "y2k-rollover-night"
+      ],
+      "storyIds": [
+        "after-school-on-trl",
+        "same-time-next-week",
+        "make-room-for-player-two",
+        "the-family-computer",
+        "the-toy-that-needed-you"
+      ],
+      "objectIds": [
+        "dreamcast",
+        "y2k-office",
+        "family-pc",
+        "cdr-spindle"
+      ]
+    }
+  ]
+}

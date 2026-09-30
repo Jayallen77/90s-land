@@ -112,32 +112,26 @@
     "type": "years",
     "path": "/timeline/1990/",
     "title": "1990 time capsule",
-    "summary": "1990: The decade boots up. Explore a year of Gulf War headlines, Nintendo and Sega rivalry, Windows 3.0, and the first hints of a connected world.",
+    "summary": "1990: A remote, a cassette, a new desktop. Browse defining moments, the full monthly calendar, related stories, and objects.",
     "tags": [
       "1990",
-      "90s",
-      "a",
-      "and",
-      "artifacts",
-      "boots",
-      "capsule",
-      "cards",
-      "decade",
-      "events",
-      "first",
-      "games",
-      "holes",
-      "interactive",
-      "land",
-      "month",
+      "timeline",
       "music",
-      "photo"
+      "movies",
+      "television",
+      "games",
+      "technology",
+      "internet",
+      "culture",
+      "objects",
+      "A remote, a cassette, a new desktop"
     ],
     "randomEligible": false,
     "artifactIds": [
       "windows-3",
       "hubble-launch",
-      "cassette"
+      "cassette",
+      "vhs-tape"
     ]
   },
   {
@@ -145,32 +139,26 @@
     "type": "years",
     "path": "/timeline/1991/",
     "title": "1991 time capsule",
-    "summary": "1991: A wired future shares the room with mixtapes, cartoons, and the first website. Follow the year month by month, from analog routines to the early web.",
+    "summary": "1991: Turn it up. Follow the blue link.. Browse defining moments, the full monthly calendar, related stories, and objects.",
     "tags": [
       "1991",
-      "90s",
-      "a",
-      "and",
-      "capsule",
-      "cards",
-      "charts",
-      "first",
-      "game",
-      "labels",
-      "land",
-      "media",
-      "month",
+      "timeline",
       "music",
-      "nevermind",
-      "object",
-      "old",
-      "proof"
+      "movies",
+      "television",
+      "games",
+      "technology",
+      "internet",
+      "culture",
+      "objects",
+      "Turn it up. Follow the blue link."
     ],
     "randomEligible": false,
     "artifactIds": [
       "first-website",
       "genesis-controller",
-      "cassette"
+      "cassette",
+      "crt-television"
     ]
   },
   {
@@ -178,32 +166,26 @@
     "type": "years",
     "path": "/timeline/1992/",
     "title": "1992 time capsule",
-    "summary": "1992: Cable television, cartoons, cartridges, and a changing world. Explore the year through its news desk, monthly milestones, music, games, and everyday objects.",
+    "summary": "1992: Seven strangers and a second controller. Browse defining moments, the full monthly calendar, related stories, and objects.",
     "tags": [
       "1992",
-      "90s",
-      "a",
-      "and",
-      "by",
-      "cable",
-      "capsule",
-      "cartoons",
-      "cartridges",
-      "desk",
-      "first",
+      "timeline",
+      "music",
+      "movies",
+      "television",
       "games",
-      "holes",
-      "interactive",
-      "labels",
-      "land",
-      "month",
-      "music"
+      "technology",
+      "internet",
+      "culture",
+      "objects",
+      "Seven strangers and a second controller"
     ],
     "randomEligible": false,
     "artifactIds": [
       "pager",
       "windows-3",
-      "arcade-cabinet"
+      "arcade-cabinet",
+      "discman"
     ]
   },
   {
@@ -211,32 +193,26 @@
     "type": "years",
     "path": "/timeline/1993/",
     "title": "1993 time capsule",
-    "summary": "1993: The web gets a front door as Mosaic, Doom, hip-hop, and mall culture share the same year. Follow the links from early browsers to everyday pop life.",
+    "summary": "1993: Dinosaurs outside. Doom after homework.. Browse defining moments, the full monthly calendar, related stories, and objects.",
     "tags": [
       "1993",
-      "90s",
-      "a",
-      "and",
-      "by",
-      "capsule",
-      "door",
-      "first",
-      "front",
-      "games",
-      "gets",
-      "holes",
-      "interactive",
-      "labels",
-      "land",
-      "month",
+      "timeline",
       "music",
-      "object"
+      "movies",
+      "television",
+      "games",
+      "technology",
+      "internet",
+      "culture",
+      "objects",
+      "Dinosaurs outside. Doom after homework."
     ],
     "randomEligible": false,
     "artifactIds": [
       "mosaic-browser",
       "doom-disks",
-      "genesis-controller"
+      "genesis-controller",
+      "cassette"
     ]
   },
   {
@@ -244,32 +220,26 @@
     "type": "years",
     "path": "/timeline/1994/",
     "title": "1994 time capsule",
-    "summary": "1994: Homepages begin. Step into a visual capsule of desktop screens, television, games, and the handmade pages that made the web feel personal.",
+    "summary": "1994: The coffee shop and the loading screen. Browse defining moments, the full monthly calendar, related stories, and objects.",
     "tags": [
       "1994",
-      "90s",
-      "a",
-      "and",
-      "artifacts",
-      "begin",
-      "by",
-      "capsule",
-      "console",
-      "desktop",
-      "era",
-      "fast",
-      "first",
-      "history",
-      "holes",
-      "homepage",
-      "homepages",
-      "import"
+      "timeline",
+      "music",
+      "movies",
+      "television",
+      "games",
+      "technology",
+      "internet",
+      "culture",
+      "objects",
+      "The coffee shop and the loading screen"
     ],
     "randomEligible": false,
     "artifactIds": [
       "geocities-homepage",
       "visitor-counter",
-      "playstation-hardware"
+      "playstation-hardware",
+      "crt-television"
     ]
   },
   {
@@ -277,32 +247,26 @@
     "type": "years",
     "path": "/timeline/1995/",
     "title": "1995 time capsule",
-    "summary": "1995: Start me up. See Windows 95, AOL discs, and PlayStation hardware, then follow the browser-era shift month by month.",
+    "summary": "1995: Click Start. Put the disc in.. Browse defining moments, the full monthly calendar, related stories, and objects.",
     "tags": [
       "1995",
-      "90s",
-      "95",
-      "and",
-      "aol",
-      "browser",
-      "by",
-      "capsule",
-      "disc",
-      "land",
-      "led",
-      "me",
-      "month",
-      "nostalgia",
-      "photo",
-      "playstation",
-      "plus",
-      "sourced"
+      "timeline",
+      "music",
+      "movies",
+      "television",
+      "games",
+      "technology",
+      "internet",
+      "culture",
+      "objects",
+      "Click Start. Put the disc in."
     ],
     "randomEligible": false,
     "artifactIds": [
       "windows-95-start",
       "aol-cd",
-      "webring-bar"
+      "webring-bar",
+      "playstation-hardware"
     ]
   },
   {
@@ -310,32 +274,26 @@
     "type": "years",
     "path": "/timeline/1996/",
     "title": "1996 time capsule",
-    "summary": "1996: Pocket monsters, web counters, and a summer of big news. Explore the year through sourced images, monthly stories, and the objects of a newly social desktop.",
+    "summary": "1996: Pocket monsters, portable pets, a browser inbox. Browse defining moments, the full monthly calendar, related stories, and objects.",
     "tags": [
       "1996",
-      "90s",
-      "a",
-      "and",
-      "artifacts",
-      "by",
-      "capsule",
-      "counters",
-      "desk",
-      "desktop",
-      "fast",
-      "first",
-      "history",
-      "holes",
-      "july",
-      "land",
-      "monsters",
-      "month"
+      "timeline",
+      "music",
+      "movies",
+      "television",
+      "games",
+      "technology",
+      "internet",
+      "culture",
+      "objects",
+      "Pocket monsters, portable pets, a browser inbox"
     ],
     "randomEligible": false,
     "artifactIds": [
       "n64-controller",
       "playstation-hardware",
-      "vhs-tape"
+      "vhs-tape",
+      "discman"
     ]
   },
   {
@@ -343,32 +301,26 @@
     "type": "years",
     "path": "/timeline/1997/",
     "title": "1997 time capsule",
-    "summary": "1997: Screen glow, handles, and a culture in motion. Browse the music, games, movies, technology, fashion, and objects that made the year feel distinctly late-90s.",
+    "summary": "1997: Big adventures, new voices, one more screen name. Browse defining moments, the full monthly calendar, related stories, and objects.",
     "tags": [
       "1997",
-      "90s",
-      "and",
-      "artifacts",
-      "capsule",
-      "events",
-      "fashion",
-      "games",
-      "glow",
-      "handles",
-      "holes",
-      "huge",
-      "hype",
-      "interactive",
-      "land",
-      "movies",
+      "timeline",
       "music",
-      "rabbit"
+      "movies",
+      "television",
+      "games",
+      "technology",
+      "internet",
+      "culture",
+      "objects",
+      "Big adventures, new voices, one more screen name"
     ],
     "randomEligible": false,
     "artifactIds": [
       "aim-away-message",
       "cdr-spindle",
-      "discman"
+      "discman",
+      "playstation-hardware"
     ]
   },
   {
@@ -376,32 +328,26 @@
     "type": "years",
     "path": "/timeline/1998/",
     "title": "1998 time capsule",
-    "summary": "1998: Search engines, slime, and translucent plastic. Explore late-90s music, games, web history, and the objects that made the future look colorful.",
+    "summary": "1998: Clear purple and Bondi blue. Browse defining moments, the full monthly calendar, related stories, and objects.",
     "tags": [
       "1998",
-      "90s",
-      "and",
-      "artifacts",
-      "by",
-      "capsule",
-      "culture",
-      "games",
-      "history",
-      "holes",
-      "interactive",
-      "land",
-      "late",
-      "month",
+      "timeline",
       "music",
-      "plastic",
-      "rabbit",
-      "search"
+      "movies",
+      "television",
+      "games",
+      "technology",
+      "internet",
+      "culture",
+      "objects",
+      "Clear purple and Bondi blue"
     ],
     "randomEligible": false,
     "artifactIds": [
       "bondi-imac",
       "game-boy-color",
-      "yahoo-directory"
+      "yahoo-directory",
+      "n64-controller"
     ]
   },
   {
@@ -409,32 +355,26 @@
     "type": "years",
     "path": "/timeline/1999/",
     "title": "1999 time capsule",
-    "summary": "1999: Party like the clock might break. Follow the millennium buildup through Dreamcast, burned CDs, file sharing, late-90s pop, and month-by-month stories.",
+    "summary": "1999: One more disc before midnight. Browse defining moments, the full monthly calendar, related stories, and objects.",
     "tags": [
       "1999",
-      "90s",
-      "and",
-      "break",
-      "buildup",
-      "burned",
-      "by",
-      "capsule",
-      "cd",
-      "clock",
+      "timeline",
+      "music",
+      "movies",
+      "television",
+      "games",
+      "technology",
+      "internet",
       "culture",
-      "dreamcast",
-      "file",
-      "holes",
-      "interactive",
-      "land",
-      "late",
-      "like"
+      "objects",
+      "One more disc before midnight"
     ],
     "randomEligible": false,
     "artifactIds": [
       "dreamcast",
       "y2k-office",
-      "family-pc"
+      "family-pc",
+      "cdr-spindle"
     ]
   },
   {
@@ -717,6 +657,20 @@
     "randomEligible": false
   },
   {
+    "id": "event-mandela-released",
+    "type": "events",
+    "path": "/events/mandela-released/",
+    "title": "Nelson Mandela walks free",
+    "summary": "Mandela leaves Victor Verster Prison after 27 years in prison.",
+    "tags": [
+      "1990-02-11",
+      "news",
+      "South Africa"
+    ],
+    "artifactIds": [],
+    "randomEligible": false
+  },
+  {
     "id": "event-film-the-hunt-for-red-october-1990",
     "type": "events",
     "path": "/events/film-the-hunt-for-red-october-1990/",
@@ -751,6 +705,22 @@
     "randomEligible": false
   },
   {
+    "id": "event-violator-uk",
+    "type": "events",
+    "path": "/events/violator-uk/",
+    "title": "Depeche Mode releases Violator",
+    "summary": "Personal Jesus and Enjoy the Silence share a place on the same record.",
+    "tags": [
+      "1990-03-19",
+      "music",
+      "United Kingdom"
+    ],
+    "artifactIds": [
+      "cassette"
+    ],
+    "randomEligible": false
+  },
+  {
     "id": "event-film-the-cook-the-thief-his-wife-and-her-lover-1990",
     "type": "events",
     "path": "/events/film-the-cook-the-thief-his-wife-and-her-lover-1990/",
@@ -764,6 +734,22 @@
     "artifactIds": [
       "vhs-tape",
       "blockbuster-store"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-twin-peaks-premiere",
+    "type": "events",
+    "path": "/events/twin-peaks-premiere/",
+    "title": "Twin Peaks asks who killed Laura Palmer",
+    "summary": "A murder mystery brings an unusually strange town to ABC.",
+    "tags": [
+      "1990-04-08",
+      "movies-tv",
+      "North America"
+    ],
+    "artifactIds": [
+      "crt-television"
     ],
     "randomEligible": false
   },
@@ -851,11 +837,27 @@
     "randomEligible": false
   },
   {
+    "id": "event-windows-30-launch",
+    "type": "events",
+    "path": "/events/windows-30-launch/",
+    "title": "Windows 3.0 puts icons on the desktop",
+    "summary": "Program Manager gives the PC a desktop full of things to click.",
+    "tags": [
+      "1990-05-22",
+      "tech",
+      "North America"
+    ],
+    "artifactIds": [
+      "windows-3"
+    ],
+    "randomEligible": false
+  },
+  {
     "id": "event-film-total-recall-1990",
     "type": "events",
     "path": "/events/film-total-recall-1990/",
-    "title": "Total Recall reaches theaters",
-    "summary": "Total Recall enters the North American theatrical release calendar.",
+    "title": "Total Recall takes a trip to Mars",
+    "summary": "A summer cinema trip with a few questions about memory.",
     "tags": [
       "1990-06-01",
       "movies-tv",
@@ -953,6 +955,22 @@
     "randomEligible": false
   },
   {
+    "id": "event-fresh-prince-premiere",
+    "type": "events",
+    "path": "/events/fresh-prince-premiere/",
+    "title": "The Fresh Prince moves to Bel-Air",
+    "summary": "Will Smith brings a rapper’s timing to a family sitcom.",
+    "tags": [
+      "1990-09-10",
+      "movies-tv",
+      "North America"
+    ],
+    "artifactIds": [
+      "crt-television"
+    ],
+    "randomEligible": false
+  },
+  {
     "id": "event-film-goodfellas-1990",
     "type": "events",
     "path": "/events/film-goodfellas-1990/",
@@ -967,6 +985,20 @@
       "vhs-tape",
       "blockbuster-store"
     ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-german-reunification",
+    "type": "events",
+    "path": "/events/german-reunification/",
+    "title": "Germany reunifies",
+    "summary": "Celebrations at the Reichstag mark the end of Germany’s division.",
+    "tags": [
+      "1990-10-03",
+      "news",
+      "Germany"
+    ],
+    "artifactIds": [],
     "randomEligible": false
   },
   {
@@ -1021,11 +1053,25 @@
     "randomEligible": false
   },
   {
+    "id": "event-super-mario-world-japan",
+    "type": "events",
+    "path": "/events/super-mario-world-japan/",
+    "title": "Super Mario World introduces Yoshi",
+    "summary": "Dinosaur Land gives Mario a new traveling companion.",
+    "tags": [
+      "1990-11-21",
+      "games",
+      "Japan"
+    ],
+    "artifactIds": [],
+    "randomEligible": false
+  },
+  {
     "id": "event-film-edward-scissorhands-1990",
     "type": "events",
     "path": "/events/film-edward-scissorhands-1990/",
-    "title": "Edward Scissorhands reaches theaters",
-    "summary": "Edward Scissorhands enters the North American theatrical release calendar.",
+    "title": "Edward Scissorhands arrives for December",
+    "summary": "A very unusual visitor joins the holiday-season cinema calendar.",
     "tags": [
       "1990-12-07",
       "movies-tv",
@@ -1242,6 +1288,22 @@
     "randomEligible": false
   },
   {
+    "id": "event-bulls-first-title",
+    "type": "events",
+    "path": "/events/bulls-first-title/",
+    "title": "The Bulls win their first NBA title",
+    "summary": "Chicago beats the Lakers to finish the Finals.",
+    "tags": [
+      "1991-06-12",
+      "culture",
+      "North America"
+    ],
+    "artifactIds": [
+      "crt-television"
+    ],
+    "randomEligible": false
+  },
+  {
     "id": "event-film-robin-hood-prince-of-thieves-1991",
     "type": "events",
     "path": "/events/film-robin-hood-prince-of-thieves-1991/",
@@ -1259,11 +1321,25 @@
     "randomEligible": false
   },
   {
+    "id": "event-sonic-western-release",
+    "type": "events",
+    "path": "/events/sonic-western-release/",
+    "title": "Sonic races onto the Mega Drive and Genesis",
+    "summary": "Sega’s blue hedgehog makes speed part of the console rivalry.",
+    "tags": [
+      "1991-06-23",
+      "games",
+      "North America / Europe"
+    ],
+    "artifactIds": [],
+    "randomEligible": false
+  },
+  {
     "id": "event-film-terminator-2-judgment-day-1991",
     "type": "events",
     "path": "/events/film-terminator-2-judgment-day-1991/",
-    "title": "Terminator 2: Judgment Day reaches theaters",
-    "summary": "Terminator 2: Judgment Day enters the North American theatrical release calendar.",
+    "title": "Terminator 2 returns for the summer",
+    "summary": "The sequel opens during the July cinema season.",
     "tags": [
       "1991-07-02",
       "movies-tv",
@@ -1310,6 +1386,38 @@
     "randomEligible": false
   },
   {
+    "id": "event-web-usenet-announcement",
+    "type": "events",
+    "path": "/events/web-usenet-announcement/",
+    "title": "The Web gets a public invitation",
+    "summary": "Tim Berners-Lee posts about the WorldWideWeb project on Usenet.",
+    "tags": [
+      "1991-08-06",
+      "tech",
+      "International"
+    ],
+    "artifactIds": [
+      "first-website"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-rugrats-premiere",
+    "type": "events",
+    "path": "/events/rugrats-premiere/",
+    "title": "Rugrats sees the world from the carpet",
+    "summary": "Tommy Pickles and his friends join Nickelodeon’s first Nicktoons.",
+    "tags": [
+      "1991-08-11",
+      "movies-tv",
+      "North America"
+    ],
+    "artifactIds": [
+      "crt-television"
+    ],
+    "randomEligible": false
+  },
+  {
     "id": "event-metallica-black-album",
     "type": "events",
     "path": "/events/metallica-black-album/",
@@ -1339,6 +1447,23 @@
     "artifactIds": [
       "vhs-tape",
       "blockbuster-store"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-pearl-jam-ten",
+    "type": "events",
+    "path": "/events/pearl-jam-ten/",
+    "title": "Pearl Jam releases Ten",
+    "summary": "Alive, Even Flow, and Jeremy arrive on the band’s debut album.",
+    "tags": [
+      "1991-08-27",
+      "music",
+      "North America"
+    ],
+    "artifactIds": [
+      "cassette",
+      "discman"
     ],
     "randomEligible": false
   },
@@ -1431,8 +1556,8 @@
     "id": "event-film-beauty-and-the-beast-1991",
     "type": "events",
     "path": "/events/film-beauty-and-the-beast-1991/",
-    "title": "Beauty and the Beast reaches theaters",
-    "summary": "Beauty and the Beast enters the North American theatrical release calendar.",
+    "title": "Beauty and the Beast opens in November",
+    "summary": "A Disney animation joins the autumn theatrical calendar.",
     "tags": [
       "1991-11-13",
       "movies-tv",
@@ -1442,6 +1567,20 @@
       "vhs-tape",
       "blockbuster-store"
     ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-zelda-link-past-japan",
+    "type": "events",
+    "path": "/events/zelda-link-past-japan/",
+    "title": "A Link to the Past opens two Hyrules",
+    "summary": "Link’s Super Famicom adventure begins in Japan.",
+    "tags": [
+      "1991-11-21",
+      "games",
+      "Japan"
+    ],
+    "artifactIds": [],
     "randomEligible": false
   },
   {
@@ -1550,8 +1689,8 @@
     "id": "event-film-wayne-s-world-1992",
     "type": "events",
     "path": "/events/film-wayne-s-world-1992/",
-    "title": "Wayne's World reaches theaters",
-    "summary": "Wayne's World enters the North American theatrical release calendar.",
+    "title": "Wayne’s World goes to the movies",
+    "summary": "The television sketch gets a cinema-sized outing.",
     "tags": [
       "1992-02-14",
       "movies-tv",
@@ -1648,6 +1787,20 @@
     "randomEligible": false
   },
   {
+    "id": "event-euro-disney-opens",
+    "type": "events",
+    "path": "/events/euro-disney-opens/",
+    "title": "Euro Disney opens outside Paris",
+    "summary": "A new Disney resort brings a theme-park holiday closer to European visitors.",
+    "tags": [
+      "1992-04-12",
+      "culture",
+      "France"
+    ],
+    "artifactIds": [],
+    "randomEligible": false
+  },
+  {
     "id": "event-film-lethal-weapon-3-1992",
     "type": "events",
     "path": "/events/film-lethal-weapon-3-1992/",
@@ -1661,6 +1814,38 @@
     "artifactIds": [
       "vhs-tape",
       "blockbuster-store"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-real-world-premiere",
+    "type": "events",
+    "path": "/events/real-world-premiere/",
+    "title": "The Real World moves seven strangers in",
+    "summary": "MTV turns a shared New York home into a television series.",
+    "tags": [
+      "1992-05-21",
+      "movies-tv",
+      "North America"
+    ],
+    "artifactIds": [
+      "crt-television"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-carson-final-tonight",
+    "type": "events",
+    "path": "/events/carson-final-tonight/",
+    "title": "Johnny Carson signs off from The Tonight Show",
+    "summary": "A familiar late-night appointment ends after nearly thirty years.",
+    "tags": [
+      "1992-05-22",
+      "movies-tv",
+      "North America"
+    ],
+    "artifactIds": [
+      "crt-television"
     ],
     "randomEligible": false
   },
@@ -1750,6 +1935,22 @@
     "randomEligible": false
   },
   {
+    "id": "event-barcelona-olympics-open",
+    "type": "events",
+    "path": "/events/barcelona-olympics-open/",
+    "title": "Barcelona opens the Summer Olympics",
+    "summary": "The opening ceremony starts a summer of televised competition.",
+    "tags": [
+      "1992-07-25",
+      "culture",
+      "Spain"
+    ],
+    "artifactIds": [
+      "crt-television"
+    ],
+    "randomEligible": false
+  },
+  {
     "id": "event-film-unforgiven-1992",
     "type": "events",
     "path": "/events/film-unforgiven-1992/",
@@ -1795,6 +1996,20 @@
       "vhs-tape",
       "blockbuster-store"
     ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-super-mario-kart-japan",
+    "type": "events",
+    "path": "/events/super-mario-kart-japan/",
+    "title": "Super Mario Kart starts the race",
+    "summary": "Mario’s cast trades platform jumps for karts and banana peels.",
+    "tags": [
+      "1992-08-27",
+      "games",
+      "Japan"
+    ],
+    "artifactIds": [],
     "randomEligible": false
   },
   {
@@ -1869,8 +2084,8 @@
     "id": "event-film-aladdin-1992",
     "type": "events",
     "path": "/events/film-aladdin-1992/",
-    "title": "Aladdin reaches theaters",
-    "summary": "Aladdin enters the North American theatrical release calendar.",
+    "title": "Aladdin joins the holiday movie season",
+    "summary": "Disney’s animated adventure opens in November.",
     "tags": [
       "1992-11-11",
       "movies-tv",
@@ -1879,6 +2094,22 @@
     "artifactIds": [
       "vhs-tape",
       "blockbuster-store"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-bodyguard-soundtrack",
+    "type": "events",
+    "path": "/events/bodyguard-soundtrack/",
+    "title": "Whitney Houston leads The Bodyguard soundtrack",
+    "summary": "The soundtrack arrives before the film’s US theatrical opening.",
+    "tags": [
+      "1992-11-17",
+      "music",
+      "North America"
+    ],
+    "artifactIds": [
+      "discman"
     ],
     "randomEligible": false
   },
@@ -1965,6 +2196,22 @@
     "randomEligible": false
   },
   {
+    "id": "event-monday-night-raw-debut",
+    "type": "events",
+    "path": "/events/monday-night-raw-debut/",
+    "title": "Monday Night Raw goes live",
+    "summary": "Wrestling takes a weekly live slot from the Manhattan Center.",
+    "tags": [
+      "1993-01-11",
+      "movies-tv",
+      "North America"
+    ],
+    "artifactIds": [
+      "crt-television"
+    ],
+    "randomEligible": false
+  },
+  {
     "id": "event-film-alive-1993",
     "type": "events",
     "path": "/events/film-alive-1993/",
@@ -2019,8 +2266,8 @@
     "id": "event-film-groundhog-day-1993",
     "type": "events",
     "path": "/events/film-groundhog-day-1993/",
-    "title": "Groundhog Day reaches theaters",
-    "summary": "Groundhog Day enters the North American theatrical release calendar.",
+    "title": "Groundhog Day starts repeating itself",
+    "summary": "A February opening for a film about one very long day.",
     "tags": [
       "1993-02-12",
       "movies-tv",
@@ -2063,6 +2310,22 @@
     "artifactIds": [
       "vhs-tape",
       "blockbuster-store"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-pentium-introduced",
+    "type": "events",
+    "path": "/events/pentium-introduced/",
+    "title": "Pentium becomes the new PC name",
+    "summary": "Intel introduces its first Pentium processors.",
+    "tags": [
+      "1993-03-22",
+      "tech",
+      "North America"
+    ],
+    "artifactIds": [
+      "family-pc"
     ],
     "randomEligible": false
   },
@@ -2154,8 +2417,8 @@
     "id": "event-film-jurassic-park-1993",
     "type": "events",
     "path": "/events/film-jurassic-park-1993/",
-    "title": "Jurassic Park reaches theaters",
-    "summary": "Jurassic Park enters the North American theatrical release calendar.",
+    "title": "Jurassic Park opens the gates",
+    "summary": "The dinosaurs arrive in time for the summer cinema season.",
     "tags": [
       "1993-06-11",
       "movies-tv",
@@ -2270,6 +2533,22 @@
     "randomEligible": false
   },
   {
+    "id": "event-x-files-premiere",
+    "type": "events",
+    "path": "/events/x-files-premiere/",
+    "title": "The X-Files pairs a believer with a skeptic",
+    "summary": "Mulder and Scully start investigating the unexplained on Fox.",
+    "tags": [
+      "1993-09-10",
+      "movies-tv",
+      "North America"
+    ],
+    "artifactIds": [
+      "crt-television"
+    ],
+    "randomEligible": false
+  },
+  {
     "id": "event-in-utero",
     "type": "events",
     "path": "/events/in-utero/",
@@ -2338,6 +2617,22 @@
     "randomEligible": false
   },
   {
+    "id": "event-wu-tang-debut",
+    "type": "events",
+    "path": "/events/wu-tang-debut/",
+    "title": "Wu-Tang Clan enters the 36 Chambers",
+    "summary": "Nine voices, soul samples, and martial-arts film references fill a debut album.",
+    "tags": [
+      "1993-11-09",
+      "music",
+      "North America"
+    ],
+    "artifactIds": [
+      "cassette"
+    ],
+    "randomEligible": false
+  },
+  {
     "id": "event-film-the-three-musketeers-1993",
     "type": "events",
     "path": "/events/film-the-three-musketeers-1993/",
@@ -2368,6 +2663,38 @@
     "artifactIds": [
       "vhs-tape",
       "blockbuster-store"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-hubble-servicing-launch",
+    "type": "events",
+    "path": "/events/hubble-servicing-launch/",
+    "title": "Endeavour heads out to repair Hubble",
+    "summary": "Seven astronauts begin the telescope’s first servicing mission.",
+    "tags": [
+      "1993-12-02",
+      "tech",
+      "North America"
+    ],
+    "artifactIds": [
+      "hubble-launch"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-doom-shareware",
+    "type": "events",
+    "path": "/events/doom-shareware/",
+    "title": "Doom escapes onto PCs",
+    "summary": "A shareware episode makes a trip through the computer desk feel much less like homework.",
+    "tags": [
+      "1993-12-10",
+      "games",
+      "International"
+    ],
+    "artifactIds": [
+      "doom-disks"
     ],
     "randomEligible": false
   },
@@ -2453,6 +2780,23 @@
     "artifactIds": [
       "vhs-tape",
       "blockbuster-store"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-green-day-dookie",
+    "type": "events",
+    "path": "/events/green-day-dookie/",
+    "title": "Green Day releases Dookie",
+    "summary": "A short, loud record brings Bay Area punk to a major label.",
+    "tags": [
+      "1994-02-01",
+      "music",
+      "North America"
+    ],
+    "artifactIds": [
+      "cassette",
+      "discman"
     ],
     "randomEligible": false
   },
@@ -2573,6 +2917,20 @@
     "randomEligible": false
   },
   {
+    "id": "event-channel-tunnel-inauguration",
+    "type": "events",
+    "path": "/events/channel-tunnel-inauguration/",
+    "title": "The Channel Tunnel officially opens",
+    "summary": "The inauguration links Britain and France beneath the Channel.",
+    "tags": [
+      "1994-05-06",
+      "tech",
+      "United Kingdom / France"
+    ],
+    "artifactIds": [],
+    "randomEligible": false
+  },
+  {
     "id": "event-film-3-ninjas-kick-back-1994",
     "type": "events",
     "path": "/events/film-3-ninjas-kick-back-1994/",
@@ -2644,8 +3002,8 @@
     "id": "event-film-forrest-gump-1994",
     "type": "events",
     "path": "/events/film-forrest-gump-1994/",
-    "title": "Forrest Gump reaches theaters",
-    "summary": "Forrest Gump enters the North American theatrical release calendar.",
+    "title": "Forrest Gump opens in July",
+    "summary": "A summer opening on the North American theatrical calendar.",
     "tags": [
       "1994-07-06",
       "movies-tv",
@@ -2654,6 +3012,22 @@
     "artifactIds": [
       "vhs-tape",
       "blockbuster-store"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-world-cup-1994-final",
+    "type": "events",
+    "path": "/events/world-cup-1994-final/",
+    "title": "Brazil wins the World Cup on penalties",
+    "summary": "The final at the Rose Bowl reaches a shootout after a goalless match.",
+    "tags": [
+      "1994-07-17",
+      "culture",
+      "North America"
+    ],
+    "artifactIds": [
+      "crt-television"
     ],
     "randomEligible": false
   },
@@ -2726,11 +3100,60 @@
     "randomEligible": false
   },
   {
+    "id": "event-er-premiere",
+    "type": "events",
+    "path": "/events/er-premiere/",
+    "title": "ER begins a busy night in Chicago",
+    "summary": "The two-hour pilot sends NBC viewers into County General.",
+    "tags": [
+      "1994-09-19",
+      "movies-tv",
+      "North America"
+    ],
+    "artifactIds": [
+      "crt-television"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-friends-premiere",
+    "type": "events",
+    "path": "/events/friends-premiere/",
+    "title": "Friends opens the door to Central Perk",
+    "summary": "Six friends join NBC’s Thursday-night lineup.",
+    "tags": [
+      "1994-09-22",
+      "movies-tv",
+      "North America"
+    ],
+    "artifactIds": [
+      "crt-television"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-w3c-founded",
+    "type": "events",
+    "path": "/events/w3c-founded/",
+    "title": "The Web gets a standards consortium",
+    "summary": "W3C forms to coordinate a Web that can work across different systems.",
+    "tags": [
+      "1994-10-01",
+      "tech",
+      "International"
+    ],
+    "artifactIds": [
+      "first-website",
+      "mosaic-browser"
+    ],
+    "randomEligible": false
+  },
+  {
     "id": "event-film-pulp-fiction-1994",
     "type": "events",
     "path": "/events/film-pulp-fiction-1994/",
-    "title": "Pulp Fiction reaches theaters",
-    "summary": "Pulp Fiction enters the North American theatrical release calendar.",
+    "title": "Pulp Fiction reaches the autumn screen",
+    "summary": "The October opening puts it in a different season from the summer blockbusters.",
     "tags": [
       "1994-10-14",
       "movies-tv",
@@ -2895,6 +3318,22 @@
     "randomEligible": false
   },
   {
+    "id": "event-jordan-returns",
+    "type": "events",
+    "path": "/events/jordan-returns/",
+    "title": "Michael Jordan returns to the Bulls",
+    "summary": "Jordan takes the court again against Indiana.",
+    "tags": [
+      "1995-03-19",
+      "culture",
+      "North America"
+    ],
+    "artifactIds": [
+      "crt-television"
+    ],
+    "randomEligible": false
+  },
+  {
     "id": "event-film-bad-boys-1995",
     "type": "events",
     "path": "/events/film-bad-boys-1995/",
@@ -2946,6 +3385,22 @@
     "randomEligible": false
   },
   {
+    "id": "event-java-public-introduction",
+    "type": "events",
+    "path": "/events/java-public-introduction/",
+    "title": "Java gets its public introduction",
+    "summary": "A new programming language joins the growing conversation about the Web.",
+    "tags": [
+      "1995-05-23",
+      "tech",
+      "North America"
+    ],
+    "artifactIds": [
+      "family-pc"
+    ],
+    "randomEligible": false
+  },
+  {
     "id": "event-film-casper-1995",
     "type": "events",
     "path": "/events/film-casper-1995/",
@@ -2959,6 +3414,22 @@
     "artifactIds": [
       "vhs-tape",
       "blockbuster-store"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-jagged-little-pill-us",
+    "type": "events",
+    "path": "/events/jagged-little-pill-us/",
+    "title": "Alanis Morissette releases Jagged Little Pill",
+    "summary": "You Oughta Know gives the album its sharpest introduction.",
+    "tags": [
+      "1995-06-13",
+      "music",
+      "North America"
+    ],
+    "artifactIds": [
+      "discman"
     ],
     "randomEligible": false
   },
@@ -2980,11 +3451,27 @@
     "randomEligible": false
   },
   {
+    "id": "event-rugby-world-cup-1995-final",
+    "type": "events",
+    "path": "/events/rugby-world-cup-1995-final/",
+    "title": "South Africa wins the Rugby World Cup",
+    "summary": "Nelson Mandela joins the final wearing Francois Pienaar’s number six.",
+    "tags": [
+      "1995-06-24",
+      "culture",
+      "South Africa"
+    ],
+    "artifactIds": [
+      "crt-television"
+    ],
+    "randomEligible": false
+  },
+  {
     "id": "event-film-apollo-13-1995",
     "type": "events",
     "path": "/events/film-apollo-13-1995/",
-    "title": "Apollo 13 reaches theaters",
-    "summary": "Apollo 13 enters the North American theatrical release calendar.",
+    "title": "Apollo 13 reaches the summer screen",
+    "summary": "A June theatrical opening for the spaceflight drama.",
     "tags": [
       "1995-06-30",
       "movies-tv",
@@ -3078,6 +3565,20 @@
     "artifactIds": [
       "windows-95-start"
     ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-ebay-auctionweb-begins",
+    "type": "events",
+    "path": "/events/ebay-auctionweb-begins/",
+    "title": "AuctionWeb begins the eBay story",
+    "summary": "An online marketplace starts small in San Jose.",
+    "tags": [
+      "1995-09-03",
+      "tech",
+      "North America"
+    ],
+    "artifactIds": [],
     "randomEligible": false
   },
   {
@@ -3185,8 +3686,8 @@
     "id": "event-film-toy-story-1995",
     "type": "events",
     "path": "/events/film-toy-story-1995/",
-    "title": "Toy Story reaches theaters",
-    "summary": "Toy Story enters the North American theatrical release calendar.",
+    "title": "Toy Story arrives for Thanksgiving week",
+    "summary": "Woody and Buzz join the November cinema calendar.",
     "tags": [
       "1995-11-22",
       "movies-tv",
@@ -3196,6 +3697,20 @@
       "vhs-tape",
       "blockbuster-store"
     ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-galileo-jupiter-arrival",
+    "type": "events",
+    "path": "/events/galileo-jupiter-arrival/",
+    "title": "Galileo arrives at Jupiter",
+    "summary": "An orbiter and atmospheric probe reach their destination.",
+    "tags": [
+      "1995-12-07",
+      "tech",
+      "International"
+    ],
+    "artifactIds": [],
     "randomEligible": false
   },
   {
@@ -4595,6 +5110,22 @@
     "randomEligible": false
   },
   {
+    "id": "event-wannabe-uk",
+    "type": "events",
+    "path": "/events/wannabe-uk/",
+    "title": "The Spice Girls introduce Wannabe",
+    "summary": "The group’s first UK single makes friendship the hook.",
+    "tags": [
+      "1996-07-08",
+      "music",
+      "United Kingdom"
+    ],
+    "artifactIds": [
+      "discman"
+    ],
+    "randomEligible": false
+  },
+  {
     "id": "event-film-harriet-the-spy-1996",
     "type": "events",
     "path": "/events/film-harriet-the-spy-1996/",
@@ -4676,6 +5207,22 @@
     "artifactIds": [
       "vhs-tape",
       "blockbuster-store"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-atlanta-olympics-open",
+    "type": "events",
+    "path": "/events/atlanta-olympics-open/",
+    "title": "Muhammad Ali lights the Atlanta cauldron",
+    "summary": "The opening ceremony supplies the Summer Games with an unforgettable last torchbearer.",
+    "tags": [
+      "1996-07-19",
+      "culture",
+      "North America"
+    ],
+    "artifactIds": [
+      "crt-television"
     ],
     "randomEligible": false
   },
@@ -5549,8 +6096,8 @@
     "id": "event-space-jam-la",
     "type": "events",
     "path": "/events/space-jam-la/",
-    "title": "Space Jam opens in Los Angeles",
-    "summary": "Michael Jordan and the Looney Tunes share the big screen.",
+    "title": "Space Jam joins the November lineup",
+    "summary": "Basketball and cartoons share a place on the cinema screen.",
     "tags": [
       "1996-11-15",
       "movies-tv",
@@ -5800,8 +6347,8 @@
     "id": "event-film-scream-1996",
     "type": "events",
     "path": "/events/film-scream-1996/",
-    "title": "Scream reaches theaters",
-    "summary": "Scream enters the North American theatrical release calendar.",
+    "title": "Scream opens before the holidays",
+    "summary": "A December release for the horror film that knows its genre.",
     "tags": [
       "1996-12-20",
       "movies-tv",
@@ -5947,6 +6494,38 @@
     "randomEligible": false
   },
   {
+    "id": "event-daft-punk-homework-europe",
+    "type": "events",
+    "path": "/events/daft-punk-homework-europe/",
+    "title": "Daft Punk releases Homework in Europe",
+    "summary": "A Paris home studio sends its dance tracks out into the world.",
+    "tags": [
+      "1997-01-20",
+      "music",
+      "Europe"
+    ],
+    "artifactIds": [
+      "discman"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-final-fantasy-vii-japan",
+    "type": "events",
+    "path": "/events/final-fantasy-vii-japan/",
+    "title": "Final Fantasy VII arrives on PlayStation",
+    "summary": "Cloud’s journey starts on Japanese shelves.",
+    "tags": [
+      "1997-01-31",
+      "games",
+      "Japan"
+    ],
+    "artifactIds": [
+      "playstation-hardware"
+    ],
+    "randomEligible": false
+  },
+  {
     "id": "event-film-dantes-peak-1997",
     "type": "events",
     "path": "/events/film-dantes-peak-1997/",
@@ -6032,6 +6611,20 @@
     "randomEligible": false
   },
   {
+    "id": "event-deep-blue-match-win",
+    "type": "events",
+    "path": "/events/deep-blue-match-win/",
+    "title": "Deep Blue wins its match with Kasparov",
+    "summary": "IBM’s chess computer wins a six-game rematch.",
+    "tags": [
+      "1997-05-11",
+      "tech",
+      "North America"
+    ],
+    "artifactIds": [],
+    "randomEligible": false
+  },
+  {
     "id": "event-film-hercules-1997",
     "type": "events",
     "path": "/events/film-hercules-1997/",
@@ -6085,8 +6678,8 @@
     "id": "event-film-men-in-black-1997",
     "type": "events",
     "path": "/events/film-men-in-black-1997/",
-    "title": "Men in Black reaches theaters",
-    "summary": "Men in Black enters the North American theatrical release calendar.",
+    "title": "Men in Black opens for July",
+    "summary": "A summer opening for the alien-investigation comedy.",
     "tags": [
       "1997-07-01",
       "movies-tv",
@@ -6096,6 +6689,20 @@
       "vhs-tape",
       "blockbuster-store"
     ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-hong-kong-handover",
+    "type": "events",
+    "path": "/events/hong-kong-handover/",
+    "title": "Hong Kong’s handover reaches midnight",
+    "summary": "A televised ceremony marks the transfer of sovereignty to China.",
+    "tags": [
+      "1997-07-01",
+      "news",
+      "Hong Kong"
+    ],
+    "artifactIds": [],
     "randomEligible": false
   },
   {
@@ -6130,6 +6737,22 @@
     "randomEligible": false
   },
   {
+    "id": "event-south-park-premiere",
+    "type": "events",
+    "path": "/events/south-park-premiere/",
+    "title": "South Park debuts on Comedy Central",
+    "summary": "Four children in a Colorado town join late-night cable television.",
+    "tags": [
+      "1997-08-13",
+      "movies-tv",
+      "North America"
+    ],
+    "artifactIds": [
+      "crt-television"
+    ],
+    "randomEligible": false
+  },
+  {
     "id": "event-film-l-a-confidential-1997",
     "type": "events",
     "path": "/events/film-l-a-confidential-1997/",
@@ -6150,8 +6773,8 @@
     "id": "event-film-gattaca-1997",
     "type": "events",
     "path": "/events/film-gattaca-1997/",
-    "title": "Gattaca reaches theaters",
-    "summary": "Gattaca enters the North American theatrical release calendar.",
+    "title": "Gattaca reaches theaters in October",
+    "summary": "A science-fiction release on the autumn calendar.",
     "tags": [
       "1997-10-24",
       "movies-tv",
@@ -6382,6 +7005,20 @@
     "randomEligible": false
   },
   {
+    "id": "event-good-friday-agreement",
+    "type": "events",
+    "path": "/events/good-friday-agreement/",
+    "title": "The Good Friday Agreement is signed",
+    "summary": "An agreement sets out a new political settlement for Northern Ireland.",
+    "tags": [
+      "1998-04-10",
+      "news",
+      "United Kingdom / Ireland"
+    ],
+    "artifactIds": [],
+    "randomEligible": false
+  },
+  {
     "id": "event-film-deep-impact-1998",
     "type": "events",
     "path": "/events/film-deep-impact-1998/",
@@ -6419,8 +7056,8 @@
     "id": "event-film-the-truman-show-1998",
     "type": "events",
     "path": "/events/film-the-truman-show-1998/",
-    "title": "The Truman Show reaches theaters",
-    "summary": "The Truman Show enters the North American theatrical release calendar.",
+    "title": "The Truman Show opens in June",
+    "summary": "A film about a television life joins the summer cinema schedule.",
     "tags": [
       "1998-06-05",
       "movies-tv",
@@ -6429,6 +7066,22 @@
     "artifactIds": [
       "vhs-tape",
       "blockbuster-store"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-windows-98-launch",
+    "type": "events",
+    "path": "/events/windows-98-launch/",
+    "title": "Windows 98 reaches the desktop",
+    "summary": "A new Windows release arrives in the browser-heavy household PC era.",
+    "tags": [
+      "1998-06-25",
+      "tech",
+      "North America"
+    ],
+    "artifactIds": [
+      "family-pc"
     ],
     "randomEligible": false
   },
@@ -6467,11 +7120,27 @@
     "randomEligible": false
   },
   {
+    "id": "event-world-cup-1998-final",
+    "type": "events",
+    "path": "/events/world-cup-1998-final/",
+    "title": "France wins its home World Cup",
+    "summary": "The hosts beat Brazil at the Stade de France.",
+    "tags": [
+      "1998-07-12",
+      "culture",
+      "France"
+    ],
+    "artifactIds": [
+      "crt-television"
+    ],
+    "randomEligible": false
+  },
+  {
     "id": "event-film-saving-private-ryan-1998",
     "type": "events",
     "path": "/events/film-saving-private-ryan-1998/",
-    "title": "Saving Private Ryan reaches theaters",
-    "summary": "Saving Private Ryan enters the North American theatrical release calendar.",
+    "title": "Saving Private Ryan opens in July",
+    "summary": "The war drama arrives midway through the summer movie season.",
     "tags": [
       "1998-07-24",
       "movies-tv",
@@ -6534,6 +7203,38 @@
     "randomEligible": false
   },
   {
+    "id": "event-lauryn-hill-miseducation",
+    "type": "events",
+    "path": "/events/lauryn-hill-miseducation/",
+    "title": "Lauryn Hill releases The Miseducation",
+    "summary": "Her solo debut puts singing and rapping in the same conversation.",
+    "tags": [
+      "1998-08-25",
+      "music",
+      "North America"
+    ],
+    "artifactIds": [
+      "discman"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-google-incorporated",
+    "type": "events",
+    "path": "/events/google-incorporated/",
+    "title": "Google becomes a company",
+    "summary": "A search project gets an incorporation date.",
+    "tags": [
+      "1998-09-04",
+      "tech",
+      "North America"
+    ],
+    "artifactIds": [
+      "yahoo-directory"
+    ],
+    "randomEligible": false
+  },
+  {
     "id": "event-film-rush-hour-1998",
     "type": "events",
     "path": "/events/film-rush-hour-1998/",
@@ -6581,6 +7282,22 @@
     "artifactIds": [
       "vhs-tape",
       "blockbuster-store"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-game-boy-color-japan",
+    "type": "events",
+    "path": "/events/game-boy-color-japan/",
+    "title": "Game Boy Color arrives in Japan",
+    "summary": "The handheld’s screen and shell both get a new look.",
+    "tags": [
+      "1998-10-21",
+      "games",
+      "Japan"
+    ],
+    "artifactIds": [
+      "game-boy-color"
     ],
     "randomEligible": false
   },
@@ -6636,6 +7353,22 @@
     "randomEligible": false
   },
   {
+    "id": "event-ocarina-time-japan",
+    "type": "events",
+    "path": "/events/ocarina-time-japan/",
+    "title": "Ocarina of Time brings Hyrule into 3D",
+    "summary": "Link’s Nintendo 64 adventure begins in Japan.",
+    "tags": [
+      "1998-11-21",
+      "games",
+      "Japan"
+    ],
+    "artifactIds": [
+      "n64-controller"
+    ],
+    "randomEligible": false
+  },
+  {
     "id": "event-garage-inc",
     "type": "events",
     "path": "/events/garage-inc/",
@@ -6687,6 +7420,52 @@
     "randomEligible": false
   },
   {
+    "id": "event-euro-introduced",
+    "type": "events",
+    "path": "/events/euro-introduced/",
+    "title": "The euro begins without notes or coins",
+    "summary": "Eleven countries enter monetary union; physical euro cash comes later.",
+    "tags": [
+      "1999-01-01",
+      "news",
+      "Europe"
+    ],
+    "artifactIds": [],
+    "randomEligible": false
+  },
+  {
+    "id": "event-sopranos-premiere",
+    "type": "events",
+    "path": "/events/sopranos-premiere/",
+    "title": "The Sopranos starts on HBO",
+    "summary": "A New Jersey mob boss brings his problems into a therapist’s office.",
+    "tags": [
+      "1999-01-10",
+      "movies-tv",
+      "North America"
+    ],
+    "artifactIds": [
+      "crt-television"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-britney-debut-album",
+    "type": "events",
+    "path": "/events/britney-debut-album/",
+    "title": "Britney Spears releases her debut album",
+    "summary": "…Baby One More Time moves from a hit single into an album.",
+    "tags": [
+      "1999-01-12",
+      "music",
+      "North America"
+    ],
+    "artifactIds": [
+      "discman"
+    ],
+    "randomEligible": false
+  },
+  {
     "id": "event-film-varsity-blues-1999",
     "type": "events",
     "path": "/events/film-varsity-blues-1999/",
@@ -6700,6 +7479,22 @@
     "artifactIds": [
       "vhs-tape",
       "blockbuster-store"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-smash-bros-japan",
+    "type": "events",
+    "path": "/events/smash-bros-japan/",
+    "title": "Super Smash Bros. puts Nintendo’s cast together",
+    "summary": "Mario and Link can finally settle an argument on the same screen.",
+    "tags": [
+      "1999-01-21",
+      "games",
+      "Japan"
+    ],
+    "artifactIds": [
+      "n64-controller"
     ],
     "randomEligible": false
   },
@@ -6775,8 +7570,8 @@
     "id": "event-film-the-matrix-1999",
     "type": "events",
     "path": "/events/film-the-matrix-1999/",
-    "title": "The Matrix reaches theaters",
-    "summary": "The Matrix enters the North American theatrical release calendar.",
+    "title": "The Matrix opens at the end of March",
+    "summary": "A spring cinema date for the story behind the red-pill choice.",
     "tags": [
       "1999-03-31",
       "movies-tv",
@@ -6891,11 +7686,27 @@
     "randomEligible": false
   },
   {
+    "id": "event-womens-world-cup-1999-final",
+    "type": "events",
+    "path": "/events/womens-world-cup-1999-final/",
+    "title": "The USA wins the Women’s World Cup",
+    "summary": "Brandi Chastain’s penalty ends a tense final against China.",
+    "tags": [
+      "1999-07-10",
+      "culture",
+      "North America"
+    ],
+    "artifactIds": [
+      "crt-television"
+    ],
+    "randomEligible": false
+  },
+  {
     "id": "event-film-the-blair-witch-project-1999",
     "type": "events",
     "path": "/events/film-the-blair-witch-project-1999/",
     "title": "The Blair Witch Project reaches theaters",
-    "summary": "The Blair Witch Project enters the North American theatrical release calendar.",
+    "summary": "The July opening brings the woods into the summer cinema schedule.",
     "tags": [
       "1999-07-14",
       "movies-tv",
@@ -7077,6 +7888,22 @@
     "randomEligible": false
   },
   {
+    "id": "event-pokemon-gold-silver-japan",
+    "type": "events",
+    "path": "/events/pokemon-gold-silver-japan/",
+    "title": "Pokémon Gold and Silver open a new journey",
+    "summary": "The Game Boy series returns with two new Japanese editions.",
+    "tags": [
+      "1999-11-21",
+      "games",
+      "Japan"
+    ],
+    "artifactIds": [
+      "game-boy-color"
+    ],
+    "randomEligible": false
+  },
+  {
     "id": "event-metallica-sm",
     "type": "events",
     "path": "/events/metallica-sm/",
@@ -7128,11 +7955,27 @@
     "randomEligible": false
   },
   {
+    "id": "event-y2k-rollover-night",
+    "type": "events",
+    "path": "/events/y2k-rollover-night/",
+    "title": "Response teams watch the Y2K rollover",
+    "summary": "The calendar change is a working night for people watching computer systems.",
+    "tags": [
+      "1999-12-31",
+      "tech",
+      "International"
+    ],
+    "artifactIds": [
+      "y2k-office"
+    ],
+    "randomEligible": false
+  },
+  {
     "id": "story-a-whole-new-dimension",
     "type": "stories",
     "path": "/stories/a-whole-new-dimension/",
     "title": "A whole new dimension",
-    "summary": "The 90s changed where games could take you—and what your hands had to learn to get there.",
+    "summary": "Where do your hands go on an N64 controller? Follow the jump from flat screens to 3D spaces.",
     "tags": [
       "games"
     ],
@@ -7149,7 +7992,7 @@
     "type": "stories",
     "path": "/stories/a-web-you-could-make/",
     "title": "A web you could make your own",
-    "summary": "Follow one public-domain decision into a more personal way of thinking about websites, links, and discovery.",
+    "summary": "Blue links, a blank page, and the invitation to make a little corner of the Web.",
     "tags": [
       "tech"
     ],
@@ -7167,7 +8010,7 @@
     "type": "stories",
     "path": "/stories/the-console-war-couch/",
     "title": "The console wars were fought on the couch",
-    "summary": "Brand loyalties, borrowed cartridges, and the household decision that shaped a whole game collection.",
+    "summary": "Your friend had a Genesis. You had a different cartridge. The argument started there.",
     "tags": [
       "games"
     ],
@@ -7183,7 +8026,7 @@
     "type": "stories",
     "path": "/stories/lan-party-night/",
     "title": "A LAN party started before the first match",
-    "summary": "The cables, configurations, and shared patience that made a room of PCs feel like an event.",
+    "summary": "Carry the monitor, untangle the cables, and find out whose network settings are wrong.",
     "tags": [
       "games"
     ],
@@ -7199,7 +8042,7 @@
     "type": "stories",
     "path": "/stories/fifteen-blocks-of-memory/",
     "title": "Fifteen blocks of somebody’s life",
-    "summary": "The little memory card that made progress portable—and deleting a file a serious decision.",
+    "summary": "The disc held the game. The memory card held your summer.",
     "tags": [
       "games"
     ],
@@ -7213,7 +8056,7 @@
     "type": "stories",
     "path": "/stories/the-secret-button-sequence/",
     "title": "The secret button sequence",
-    "summary": "Cheat codes turned game knowledge into something you could whisper, copy, and test.",
+    "summary": "Someone wrote a code on a scrap of paper. Now try it and see if they left a step out.",
     "tags": [
       "games"
     ],
@@ -7228,7 +8071,7 @@
     "type": "stories",
     "path": "/stories/make-room-for-player-two/",
     "title": "Make room for player two",
-    "summary": "Shared screens turned multiplayer into a negotiation over space, rules, and whose turn came next.",
+    "summary": "Pass the controller, agree on the rules, and try to stay on your half of the screen.",
     "tags": [
       "games"
     ],
@@ -7244,7 +8087,7 @@
     "type": "stories",
     "path": "/stories/from-mixtape-to-file/",
     "title": "From mixtape to file",
-    "summary": "A personal soundtrack moved from a handwritten cassette label toward folders, filenames, and discs.",
+    "summary": "Choose the first song carefully. Someone has to live with the order you put these tracks in.",
     "tags": [
       "music"
     ],
@@ -7260,7 +8103,7 @@
     "type": "stories",
     "path": "/stories/when-grunge-broke-through/",
     "title": "When grunge broke through",
-    "summary": "Loud guitars, memorable melodies, and the awkward moment when an alternative becomes the center.",
+    "summary": "Nevermind, In Utero, and a record-shop shelf that suddenly sounded different.",
     "tags": [
       "music"
     ],
@@ -7275,7 +8118,7 @@
     "type": "stories",
     "path": "/stories/hooks-rhymes-and-radio/",
     "title": "Hooks, rhymes, and the radio dial",
-    "summary": "Hip-hop and R&B met in records that made genre boundaries feel less useful than the next great hook.",
+    "summary": "Follow Wu-Tang, Whitney Houston, and Lauryn Hill through the meeting of rap verses and sung hooks.",
     "tags": [
       "music"
     ],
@@ -7290,7 +8133,7 @@
     "type": "stories",
     "path": "/stories/after-school-on-trl/",
     "title": "After school, before the countdown",
-    "summary": "TRL made the music video into an appointment, with the crowd outside the studio part of the picture.",
+    "summary": "Get home in time for the countdown. Your favorite video might have moved up.",
     "tags": [
       "music"
     ],
@@ -7305,7 +8148,7 @@
     "type": "stories",
     "path": "/stories/the-flyer-and-the-dancefloor/",
     "title": "The flyer and the dancefloor",
-    "summary": "Rave culture left a paper trail: tiny printed invitations to a much larger shared experience.",
+    "summary": "A folded flyer gave you an address, a time, and a reason to stay out late.",
     "tags": [
       "music"
     ],
@@ -7320,7 +8163,7 @@
     "type": "stories",
     "path": "/stories/discman-in-your-backpack/",
     "title": "The Discman in your backpack",
-    "summary": "Portable CD listening was a negotiation between digital precision and a very physical journey.",
+    "summary": "Pick a track, zip the bag, and hope the next bump doesn’t make the CD skip.",
     "tags": [
       "music"
     ],
@@ -7336,7 +8179,7 @@
     "type": "stories",
     "path": "/stories/friday-at-the-video-store/",
     "title": "Friday night at the video store",
-    "summary": "A wall of boxes, a missing new release, and the pleasure of choosing the evening together.",
+    "summary": "The new-release shelf is nearly empty. Everyone still has an opinion about what to rent.",
     "tags": [
       "movies-tv"
     ],
@@ -7352,7 +8195,7 @@
     "type": "stories",
     "path": "/stories/the-cartoon-morning/",
     "title": "The cartoon morning",
-    "summary": "Animation made a television schedule feel like a place children could recognize and return to.",
+    "summary": "The cartoons came on at a set time. Breakfast could wait for the next commercial.",
     "tags": [
       "movies-tv"
     ],
@@ -7367,7 +8210,7 @@
     "type": "stories",
     "path": "/stories/same-time-next-week/",
     "title": "Same time next week",
-    "summary": "Appointment television made the gap between episodes part of the story.",
+    "summary": "The episode ends. You have seven days to argue about what happens next.",
     "tags": [
       "movies-tv"
     ],
@@ -7382,7 +8225,7 @@
     "type": "stories",
     "path": "/stories/summer-at-the-multiplex/",
     "title": "Summer at the multiplex",
-    "summary": "Posters, trailers, and the anticipation that made a cinema release feel like part of the season.",
+    "summary": "A poster in the lobby could turn next Friday into a plan.",
     "tags": [
       "movies-tv"
     ],
@@ -7397,7 +8240,7 @@
     "type": "stories",
     "path": "/stories/do-not-tape-over/",
     "title": "Do not tape over this",
-    "summary": "The handwritten VHS label was a small act of household preservation.",
+    "summary": "A handwritten label was the difference between keeping your favorite episode and recording over it.",
     "tags": [
       "movies-tv"
     ],
@@ -7412,7 +8255,7 @@
     "type": "stories",
     "path": "/stories/horror-knew-the-rules/",
     "title": "Horror knew the rules",
-    "summary": "The 90s slasher could frighten an audience while admitting that the audience had seen a slasher before.",
+    "summary": "Scream let the audience recognize the rules while the characters tried to survive them.",
     "tags": [
       "movies-tv"
     ],
@@ -7427,7 +8270,7 @@
     "type": "stories",
     "path": "/stories/the-family-computer/",
     "title": "The family computer had a room of its own",
-    "summary": "One desk held homework, games, email, and the recurring question of whose turn came next.",
+    "summary": "One desk, one phone line, and somebody asking how much longer you’ll be.",
     "tags": [
       "tech"
     ],
@@ -7443,7 +8286,7 @@
     "type": "stories",
     "path": "/stories/a-button-called-start/",
     "title": "A button called Start",
-    "summary": "Windows 95 offered a new front door to a familiar and sometimes bewildering household machine.",
+    "summary": "Programs, settings, and shutting down all began at a button called Start.",
     "tags": [
       "tech"
     ],
@@ -7458,7 +8301,7 @@
     "type": "stories",
     "path": "/stories/the-internet-came-in-the-mail/",
     "title": "The internet came in the mail",
-    "summary": "A promotional disc made going online look like something you could put into a computer.",
+    "summary": "The AOL disc was already in the house. Now someone had to install it.",
     "tags": [
       "tech"
     ],
@@ -7473,7 +8316,7 @@
     "type": "stories",
     "path": "/stories/a-computer-in-your-pocket/",
     "title": "A computer in your pocket, almost",
-    "summary": "Pagers and organizers offered mobility by doing a few specific jobs well.",
+    "summary": "A pager could find you away from the desk. Answering it was another matter.",
     "tags": [
       "tech"
     ],
@@ -7488,7 +8331,7 @@
     "type": "stories",
     "path": "/stories/you-could-see-through-it/",
     "title": "You could see through it",
-    "summary": "Translucent shells made electronics feel playful, approachable, and worth looking at.",
+    "summary": "Bondi blue on the desk, clear purple in a pocket. Take a look through the plastic.",
     "tags": [
       "tech"
     ],
@@ -7504,7 +8347,7 @@
     "type": "stories",
     "path": "/stories/meet-me-at-the-mall/",
     "title": "Meet me at the mall",
-    "summary": "A shopping center could also be a meeting place, a route to wander, and a small map of growing independence.",
+    "summary": "Meet by the fountain. Walk past the same stores twice. Buy something only if you feel like it.",
     "tags": [
       "culture"
     ],
@@ -7519,7 +8362,7 @@
     "type": "stories",
     "path": "/stories/clothes-with-a-soundtrack/",
     "title": "Clothes with a soundtrack",
-    "summary": "Workwear, skate shoes, and music-scene signals became part of the same wardrobe conversation.",
+    "summary": "A faded band shirt could say more than the label sewn into it.",
     "tags": [
       "culture"
     ],
@@ -7534,7 +8377,7 @@
     "type": "stories",
     "path": "/stories/the-catalog-on-your-bedroom-floor/",
     "title": "The catalog on your bedroom floor",
-    "summary": "Teen mail-order catalogs sold a way of arranging a life as much as a collection of clothes.",
+    "summary": "Circle the things you want, fold the page, and leave the catalog where your parents might see it.",
     "tags": [
       "culture"
     ],
@@ -7549,7 +8392,7 @@
     "type": "stories",
     "path": "/stories/the-toy-that-needed-you/",
     "title": "The toy that needed you",
-    "summary": "Digital pets made looking after a tiny screen part of the day’s routine.",
+    "summary": "The digital pet is beeping again. It doesn’t care that you’re in class.",
     "tags": [
       "culture"
     ],
@@ -7564,7 +8407,7 @@
     "type": "stories",
     "path": "/stories/when-sport-left-the-scoreboard/",
     "title": "When sport left the scoreboard",
-    "summary": "Athletes and teams traveled through television, film, clothes, and everyday conversation.",
+    "summary": "From the Bulls to the WNBA, sport traveled through television, clothing, and everyday conversation.",
     "tags": [
       "culture"
     ],
@@ -7579,7 +8422,7 @@
     "type": "stories",
     "path": "/stories/choosing-your-screen-name/",
     "title": "Choosing your screen name",
-    "summary": "A few characters could become a first experiment in presenting yourself online.",
+    "summary": "Pick a name you can bear to type every day. Add a number if somebody got there first.",
     "tags": [
       "culture"
     ],
@@ -7595,7 +8438,7 @@
     "type": "objects",
     "path": "/archive/objects/family-pc/",
     "title": "The family computer becomes a portal",
-    "summary": "The future arrived in a shared room, surrounded by homework, mouse pads, and a phone line everyone needed.",
+    "summary": "Someone needs the phone line. Finish the download before you give up the chair.",
     "tags": [
       "computer",
       "home",
@@ -7643,7 +8486,7 @@
     "type": "objects",
     "path": "/archive/objects/mosaic-browser/",
     "title": "NCSA Mosaic browser",
-    "summary": "Gray chrome and inline images made the web feel like a navigable place rather than a technical rumor.",
+    "summary": "Blue links, pictures inside the page, and a gray frame around the whole thing.",
     "tags": [
       "mosaic",
       "browser",
@@ -7675,7 +8518,7 @@
     "type": "objects",
     "path": "/archive/objects/visitor-counter/",
     "title": "Six-digit visitor counter",
-    "summary": "The number was tiny, public, and exciting precisely because each visit still felt like a person.",
+    "summary": "You checked the number again. It had gone up by one.",
     "tags": [
       "counter",
       "homepage",
@@ -7723,7 +8566,7 @@
     "type": "objects",
     "path": "/archive/objects/aim-away-message/",
     "title": "AIM away message",
-    "summary": "One dramatic lyric, an ASCII heart, and a carefully chosen screen name could carry an entire mood.",
+    "summary": "Choose a lyric carefully. Your buddy list is going to read it.",
     "tags": [
       "aim",
       "screen name",
@@ -7771,7 +8614,7 @@
     "type": "objects",
     "path": "/archive/objects/windows-95-start/",
     "title": "Windows 95 Start button",
-    "summary": "The new button gave the desktop a friendly, memorable center.",
+    "summary": "Want to open a program? Start here. Want to shut down? Start here too.",
     "tags": [
       "windows 95",
       "start button",
@@ -7787,7 +8630,7 @@
     "type": "objects",
     "path": "/archive/objects/pager/",
     "title": "Motorola pager",
-    "summary": "The tiny display mattered less than the feeling that a message could come find you.",
+    "summary": "The pager goes off. Finding a phone is your next problem.",
     "tags": [
       "pager",
       "communication",
@@ -7819,7 +8662,7 @@
     "type": "objects",
     "path": "/archive/objects/discman/",
     "title": "Sony Discman",
-    "summary": "A careful walk, a pocket full of jewel cases, and anti-skip optimism created a personal soundtrack outside the house.",
+    "summary": "Pick a track, close the lid, and try not to bump the player on the walk home.",
     "tags": [
       "discman",
       "cd",
@@ -7851,7 +8694,7 @@
     "type": "objects",
     "path": "/archive/objects/vhs-tape/",
     "title": "VHS videocassette",
-    "summary": "Handwritten labels, recorded commercials, trailers, and rewinding arguments lived inside the same plastic shell.",
+    "summary": "The label says DO NOT TAPE OVER. Someone in the house means it.",
     "tags": [
       "vhs",
       "rental",
@@ -7867,7 +8710,7 @@
     "type": "objects",
     "path": "/archive/objects/crt-television/",
     "title": "Living-room CRT television",
-    "summary": "Cartoons, sitcoms, local ads, and half-finished movies all arrived through one household object.",
+    "summary": "The episode starts at eight. Get the good spot on the sofa.",
     "tags": [
       "crt",
       "television",
@@ -7883,7 +8726,7 @@
     "type": "objects",
     "path": "/archive/objects/blockbuster-store/",
     "title": "Blockbuster store interior",
-    "summary": "The glowing sign began a group negotiation conducted through box art and one-copy-left panic.",
+    "summary": "Every copy of the new release is gone. Time to walk the shelves again.",
     "tags": [
       "blockbuster",
       "rental",
@@ -7899,7 +8742,7 @@
     "type": "objects",
     "path": "/archive/objects/arcade-cabinet/",
     "title": "Arcade cabinet",
-    "summary": "Attract-mode audio, quarter stacks, and spectators made the machine a small public stage.",
+    "summary": "Leave a quarter on the cabinet. Somebody else is playing your next game.",
     "tags": [
       "arcade",
       "cabinet",
@@ -7935,7 +8778,8 @@
     "tags": [
       "nintendo 64",
       "controller",
-      "multiplayer"
+      "multiplayer",
+      "n64"
     ],
     "artifactIds": [
       "n64-controller"
@@ -7947,7 +8791,7 @@
     "type": "objects",
     "path": "/archive/objects/playstation-hardware/",
     "title": "Original PlayStation hardware",
-    "summary": "Gray hardware, CDs, and memory cards made the next console era feel sleek and cinematic.",
+    "summary": "Put the disc in. Keep the memory card somewhere you can find it.",
     "tags": [
       "playstation",
       "cd-rom",
@@ -7963,7 +8807,7 @@
     "type": "objects",
     "path": "/archive/objects/bondi-imac/",
     "title": "Bondi blue iMac G3",
-    "summary": "The rounded translucent shell replaced beige utility with color, friendliness, and visible personality.",
+    "summary": "A blue shell on the desk, with the hardware partly visible inside.",
     "tags": [
       "imac",
       "apple",
@@ -7979,7 +8823,7 @@
     "type": "objects",
     "path": "/archive/objects/dreamcast/",
     "title": "Sega Dreamcast",
-    "summary": "The white hardware and VMU made the last year of the decade feel connected, arcade-bright, and slightly ahead of schedule.",
+    "summary": "The little VMU had a screen of its own. Keep it with the controller.",
     "tags": [
       "dreamcast",
       "sega",
@@ -8011,7 +8855,7 @@
     "type": "objects",
     "path": "/archive/objects/hubble-launch/",
     "title": "Hubble launch",
-    "summary": "The image belongs beside mall radio and VHS precisely because it shows how large the decade's opening horizon felt.",
+    "summary": "Discovery carries Hubble out of Florida and into orbit.",
     "tags": [
       "hubble",
       "nasa",
@@ -8027,7 +8871,7 @@
     "type": "objects",
     "path": "/archive/objects/doom-disks/",
     "title": "Doom shareware disks",
-    "summary": "The disks capture the after-hours secret life of the family computer better than a clean screenshot can.",
+    "summary": "A disk could bring a new game to a computer that usually held homework.",
     "tags": [
       "doom",
       "shareware",
@@ -8043,7 +8887,7 @@
     "type": "objects",
     "path": "/archive/objects/game-boy-color/",
     "title": "Atomic Purple Game Boy Color",
-    "summary": "Visible circuitry and candy-colored plastic made the handheld itself part of the collection.",
+    "summary": "Clear purple plastic lets you inspect the board before switching the handheld on.",
     "tags": [
       "game boy color",
       "transparent",
@@ -8059,7 +8903,7 @@
     "type": "objects",
     "path": "/archive/objects/transparent-n64-controller/",
     "title": "Transparent purple N64 controller",
-    "summary": "A clear shell made even the controller on the carpet feel like room decor.",
+    "summary": "You can see the board through the purple shell. The buttons still need learning.",
     "tags": [
       "n64",
       "transparent",

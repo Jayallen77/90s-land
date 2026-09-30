@@ -20,7 +20,7 @@
     "test:dates": "node --test tests/date-utils.test.mjs",
     "release:build": "python3 -B tools/build_release.py",
     "release:preview": "python3 -B tools/serve_release.py",
-    "editorial:check": "python3 tools/check_editorial.py --check",
+    "editorial:check": "python3 tools/check_editorial.py --check && python3 tools/check_curation.py --check",
     "screenshots:final": "node tools/capture_phase5.mjs",
     "build": "python3 -B tools/build_release.py",
     "build:check": "python3 -B tools/build_release.py --check",

@@ -8,12 +8,58 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 CATEGORIES = {'music':'Music', 'movies-tv':'Movies & TV', 'games':'Games', 'tech':'Tech', 'culture':'Culture', 'news':'World news'}
+THEMES = {'music':'Music', 'movies':'Movies', 'television':'Television', 'games':'Games', 'technology':'Technology', 'internet':'Internet', 'culture':'Culture', 'fashion':'Fashion', 'news':'World news', 'sports':'Sports', 'toys':'Toys & products'}
 HEROES = {'home', 'timeline', 'games', 'music', 'movies', 'tech', 'culture'}
 CATALOG = json.loads((ROOT/'content/editorial/catalog.json').read_text())
 ARTIFACTS = json.loads((ROOT/'data/artifacts.json').read_text())
 EVENTS = sorted(CATALOG['events'], key=lambda e: (e['date'], e['id']))
 STORIES = CATALOG['stories']
 SOURCES = {s['id']: s for s in CATALOG['sources']}
+CURATION = json.loads((ROOT/'content/editorial/curation.json').read_text())
+YEARS = {y['year']: y for y in CURATION['years']}
+EVENT_BY_ID = {e['id']:e for e in EVENTS}
+DEFINING_IDS = {id for y in YEARS.values() for id in y['eventIds']}
+
+
+def defining_events(year):
+    return [EVENT_BY_ID[id] for id in YEARS[year]['eventIds']]
+
+
+def event_label(event):
+    return THEMES[event['theme']]
+
+
+def selected_events(events, limit=4):
+    """Prefer curated connections and spread a short selection across themes."""
+    ranked = sorted(events, key=lambda e: (e['id'] not in DEFINING_IDS, e['date'], e['id']))
+    selected=[];themes=set()
+    for event in ranked:
+        if event['theme'] not in themes:
+            selected.append(event);themes.add(event['theme'])
+        if len(selected)==limit:return selected
+    return (selected+[e for e in ranked if e not in selected])[:limit]
+
+
+def validate_curation(curation=None, catalog=None):
+    data=curation or CURATION;catalog=catalog or CATALOG;errors=[]
+    events={e['id']:e for e in catalog['events']};stories={s['id']:s for s in catalog['stories']};objects={a['id']:a for a in ARTIFACTS}
+    if data.get('schemaVersion')!=1:errors.append('Unsupported year curation schema')
+    years=data.get('years',[])
+    if sorted(y['year'] for y in years)!=list(range(1990,2000)):errors.append('Curation needs exactly ten unique years')
+    for y in years:
+        ids=y.get('eventIds',[]);prefix=f'Curation {y["year"]}'
+        if not 10<=len(ids)<=20 or len(ids)!=len(set(ids)):errors.append(prefix+': needs 10–20 distinct moments')
+        picks=[events[id] for id in ids if id in events]
+        if len(picks)!=len(ids):errors.append(prefix+': unknown event')
+        if any(int(e['date'][:4])!=y['year'] for e in picks):errors.append(prefix+': event from another year')
+        if len({e['theme'] for e in picks})<5 or sum(e['theme']=='movies' for e in picks)>3:errors.append(prefix+': narrow cultural coverage')
+        if not y.get('caption') or not y.get('intro'):errors.append(prefix+': missing introduction')
+        if len(y.get('storyIds',[]))!=5 or not set(y['storyIds'])<=stories.keys():errors.append(prefix+': unknown or missing story')
+        elif {stories[id]['category'] for id in y['storyIds']}!={'music','movies-tv','games','tech','culture'}:errors.append(prefix+': story collections incomplete')
+        if not set(y.get('objectIds',[]))<=objects.keys() or len(y.get('objectIds',[]))<3:errors.append(prefix+': unknown or missing object')
+        if any(not objects[id]['dateRange']['startYear']<=y['year']<=objects[id]['dateRange']['endYear'] for id in y.get('objectIds',[]) if id in objects) and not y.get('objectNote'):
+            errors.append(prefix+': earlier or later object needs context')
+    return errors
 
 
 def event_url(item): return f'/events/{item["slug"]}/'
@@ -76,6 +122,7 @@ def validate(catalog=None):
             require(set(item.get('objectIds', [])) <= objects, f'Unknown object: {prefix}')
             require(item.get('art') is None or item['art'] in objects | HEROES, f'Unknown artwork: {prefix}')
             if group == 'events':
+                require(item.get('theme') in THEMES, f'Unknown event theme: {prefix}')
                 try:
                     day = date.fromisoformat(item['date'])
                     require(1990 <= day.year <= 1999, f'Date outside decade: {prefix}')
@@ -89,9 +136,13 @@ def validate(catalog=None):
     for story in data['stories']:
         for event in data['events']:
             require((event['id'] in story['eventIds']) == (story['id'] in event['storyIds']), f'Asymmetric event/story relation: {event["id"]}, {story["id"]}')
+    for tour in json.loads((ROOT/'data/tours.json').read_text()):
+        for stop in tour['stops']:
+            require(not stop.get('storyId') or stop['storyId'] in ids['stories'], f'Unknown tour story: {stop["id"]}')
+            require(not stop.get('eventId') or stop['eventId'] in ids['events'], f'Unknown tour event: {stop["id"]}')
     routes = all_routes()
     require(len({r['path'] for r in routes}) == len(routes), 'Duplicate route path')
-    return errors
+    return errors+validate_curation(catalog=data)
 
 
 def browser_index():

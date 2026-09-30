@@ -1,0 +1,6613 @@
+{
+  "baselineCommit": "38e931898fcfe120bad74699904fbf848dfe5933",
+  "after": {
+    "total": 442,
+    "categories": {
+      "music": 18,
+      "movies-tv": 356,
+      "games": 17,
+      "tech": 25,
+      "culture": 20,
+      "news": 6
+    },
+    "themes": {
+      "music": 18,
+      "movies": 345,
+      "television": 11,
+      "games": 17,
+      "technology": 19,
+      "internet": 6,
+      "culture": 4,
+      "fashion": 0,
+      "news": 6,
+      "sports": 15,
+      "toys": 1
+    },
+    "years": {
+      "1990": {
+        "total": 31,
+        "categories": {
+          "music": 1,
+          "movies-tv": 24,
+          "games": 1,
+          "tech": 3,
+          "culture": 0,
+          "news": 2
+        },
+        "themes": {
+          "music": 1,
+          "movies": 22,
+          "television": 2,
+          "games": 1,
+          "technology": 3,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 2,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1991": {
+        "total": 32,
+        "categories": {
+          "music": 3,
+          "movies-tv": 25,
+          "games": 2,
+          "tech": 1,
+          "culture": 1,
+          "news": 0
+        },
+        "themes": {
+          "music": 3,
+          "movies": 24,
+          "television": 1,
+          "games": 2,
+          "technology": 0,
+          "internet": 1,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 1,
+          "toys": 0
+        }
+      },
+      "1992": {
+        "total": 33,
+        "categories": {
+          "music": 2,
+          "movies-tv": 26,
+          "games": 1,
+          "tech": 1,
+          "culture": 3,
+          "news": 0
+        },
+        "themes": {
+          "music": 2,
+          "movies": 24,
+          "television": 2,
+          "games": 1,
+          "technology": 1,
+          "internet": 0,
+          "culture": 2,
+          "fashion": 0,
+          "news": 0,
+          "sports": 1,
+          "toys": 0
+        }
+      },
+      "1993": {
+        "total": 33,
+        "categories": {
+          "music": 2,
+          "movies-tv": 26,
+          "games": 1,
+          "tech": 3,
+          "culture": 1,
+          "news": 0
+        },
+        "themes": {
+          "music": 2,
+          "movies": 24,
+          "television": 2,
+          "games": 1,
+          "technology": 2,
+          "internet": 1,
+          "culture": 1,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1994": {
+        "total": 29,
+        "categories": {
+          "music": 1,
+          "movies-tv": 23,
+          "games": 1,
+          "tech": 2,
+          "culture": 1,
+          "news": 1
+        },
+        "themes": {
+          "music": 1,
+          "movies": 21,
+          "television": 2,
+          "games": 1,
+          "technology": 1,
+          "internet": 1,
+          "culture": 0,
+          "fashion": 0,
+          "news": 1,
+          "sports": 1,
+          "toys": 0
+        }
+      },
+      "1995": {
+        "total": 32,
+        "categories": {
+          "music": 1,
+          "movies-tv": 24,
+          "games": 1,
+          "tech": 4,
+          "culture": 2,
+          "news": 0
+        },
+        "themes": {
+          "music": 1,
+          "movies": 24,
+          "television": 0,
+          "games": 1,
+          "technology": 3,
+          "internet": 1,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 2,
+          "toys": 0
+        }
+      },
+      "1996": {
+        "total": 159,
+        "categories": {
+          "music": 2,
+          "movies-tv": 142,
+          "games": 4,
+          "tech": 5,
+          "culture": 6,
+          "news": 0
+        },
+        "themes": {
+          "music": 2,
+          "movies": 142,
+          "television": 0,
+          "games": 4,
+          "technology": 4,
+          "internet": 1,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 5,
+          "toys": 1
+        }
+      },
+      "1997": {
+        "total": 27,
+        "categories": {
+          "music": 2,
+          "movies-tv": 17,
+          "games": 1,
+          "tech": 2,
+          "culture": 4,
+          "news": 1
+        },
+        "themes": {
+          "music": 2,
+          "movies": 16,
+          "television": 1,
+          "games": 1,
+          "technology": 2,
+          "internet": 0,
+          "culture": 1,
+          "fashion": 0,
+          "news": 1,
+          "sports": 3,
+          "toys": 0
+        }
+      },
+      "1998": {
+        "total": 33,
+        "categories": {
+          "music": 2,
+          "movies-tv": 24,
+          "games": 2,
+          "tech": 3,
+          "culture": 1,
+          "news": 1
+        },
+        "themes": {
+          "music": 2,
+          "movies": 24,
+          "television": 0,
+          "games": 2,
+          "technology": 2,
+          "internet": 1,
+          "culture": 0,
+          "fashion": 0,
+          "news": 1,
+          "sports": 1,
+          "toys": 0
+        }
+      },
+      "1999": {
+        "total": 33,
+        "categories": {
+          "music": 2,
+          "movies-tv": 25,
+          "games": 3,
+          "tech": 1,
+          "culture": 1,
+          "news": 1
+        },
+        "themes": {
+          "music": 2,
+          "movies": 24,
+          "television": 1,
+          "games": 3,
+          "technology": 1,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 1,
+          "sports": 1,
+          "toys": 0
+        }
+      }
+    },
+    "months": {
+      "1990-01": {
+        "total": 2,
+        "categories": {
+          "music": 0,
+          "movies-tv": 2,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 2,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1990-02": {
+        "total": 3,
+        "categories": {
+          "music": 0,
+          "movies-tv": 2,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 1
+        },
+        "themes": {
+          "music": 0,
+          "movies": 2,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 1,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1990-03": {
+        "total": 3,
+        "categories": {
+          "music": 1,
+          "movies-tv": 2,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 1,
+          "movies": 2,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1990-04": {
+        "total": 5,
+        "categories": {
+          "music": 0,
+          "movies-tv": 3,
+          "games": 0,
+          "tech": 2,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 2,
+          "television": 1,
+          "games": 0,
+          "technology": 2,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1990-05": {
+        "total": 3,
+        "categories": {
+          "music": 0,
+          "movies-tv": 2,
+          "games": 0,
+          "tech": 1,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 2,
+          "television": 0,
+          "games": 0,
+          "technology": 1,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1990-06": {
+        "total": 2,
+        "categories": {
+          "music": 0,
+          "movies-tv": 2,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 2,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1990-07": {
+        "total": 2,
+        "categories": {
+          "music": 0,
+          "movies-tv": 2,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 2,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1990-08": {
+        "total": 2,
+        "categories": {
+          "music": 0,
+          "movies-tv": 2,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 2,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1990-09": {
+        "total": 2,
+        "categories": {
+          "music": 0,
+          "movies-tv": 2,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 1,
+          "television": 1,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1990-10": {
+        "total": 2,
+        "categories": {
+          "music": 0,
+          "movies-tv": 1,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 1
+        },
+        "themes": {
+          "music": 0,
+          "movies": 1,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 1,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1990-11": {
+        "total": 3,
+        "categories": {
+          "music": 0,
+          "movies-tv": 2,
+          "games": 1,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 2,
+          "television": 0,
+          "games": 1,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1990-12": {
+        "total": 2,
+        "categories": {
+          "music": 0,
+          "movies-tv": 2,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 2,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1991-01": {
+        "total": 2,
+        "categories": {
+          "music": 0,
+          "movies-tv": 2,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 2,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1991-02": {
+        "total": 2,
+        "categories": {
+          "music": 0,
+          "movies-tv": 2,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 2,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1991-03": {
+        "total": 2,
+        "categories": {
+          "music": 0,
+          "movies-tv": 2,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 2,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1991-04": {
+        "total": 2,
+        "categories": {
+          "music": 0,
+          "movies-tv": 2,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 2,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1991-05": {
+        "total": 2,
+        "categories": {
+          "music": 0,
+          "movies-tv": 2,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 2,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1991-06": {
+        "total": 4,
+        "categories": {
+          "music": 0,
+          "movies-tv": 2,
+          "games": 1,
+          "tech": 0,
+          "culture": 1,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 2,
+          "television": 0,
+          "games": 1,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 1,
+          "toys": 0
+        }
+      },
+      "1991-07": {
+        "total": 2,
+        "categories": {
+          "music": 0,
+          "movies-tv": 2,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 2,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1991-08": {
+        "total": 6,
+        "categories": {
+          "music": 2,
+          "movies-tv": 3,
+          "games": 0,
+          "tech": 1,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 2,
+          "movies": 2,
+          "television": 1,
+          "games": 0,
+          "technology": 0,
+          "internet": 1,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1991-09": {
+        "total": 3,
+        "categories": {
+          "music": 1,
+          "movies-tv": 2,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 1,
+          "movies": 2,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1991-10": {
+        "total": 2,
+        "categories": {
+          "music": 0,
+          "movies-tv": 2,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 2,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1991-11": {
+        "total": 3,
+        "categories": {
+          "music": 0,
+          "movies-tv": 2,
+          "games": 1,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 2,
+          "television": 0,
+          "games": 1,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1991-12": {
+        "total": 2,
+        "categories": {
+          "music": 0,
+          "movies-tv": 2,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 2,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1992-01": {
+        "total": 2,
+        "categories": {
+          "music": 0,
+          "movies-tv": 2,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 2,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1992-02": {
+        "total": 2,
+        "categories": {
+          "music": 0,
+          "movies-tv": 2,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 2,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1992-03": {
+        "total": 2,
+        "categories": {
+          "music": 0,
+          "movies-tv": 2,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 2,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1992-04": {
+        "total": 4,
+        "categories": {
+          "music": 0,
+          "movies-tv": 2,
+          "games": 0,
+          "tech": 1,
+          "culture": 1,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 2,
+          "television": 0,
+          "games": 0,
+          "technology": 1,
+          "internet": 0,
+          "culture": 1,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1992-05": {
+        "total": 4,
+        "categories": {
+          "music": 0,
+          "movies-tv": 4,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 2,
+          "television": 2,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1992-06": {
+        "total": 2,
+        "categories": {
+          "music": 0,
+          "movies-tv": 2,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 2,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1992-07": {
+        "total": 3,
+        "categories": {
+          "music": 0,
+          "movies-tv": 2,
+          "games": 0,
+          "tech": 0,
+          "culture": 1,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 2,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 1,
+          "toys": 0
+        }
+      },
+      "1992-08": {
+        "total": 4,
+        "categories": {
+          "music": 0,
+          "movies-tv": 2,
+          "games": 1,
+          "tech": 0,
+          "culture": 1,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 2,
+          "television": 0,
+          "games": 1,
+          "technology": 0,
+          "internet": 0,
+          "culture": 1,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1992-09": {
+        "total": 2,
+        "categories": {
+          "music": 0,
+          "movies-tv": 2,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 2,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1992-10": {
+        "total": 2,
+        "categories": {
+          "music": 0,
+          "movies-tv": 2,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 2,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1992-11": {
+        "total": 3,
+        "categories": {
+          "music": 1,
+          "movies-tv": 2,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 1,
+          "movies": 2,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1992-12": {
+        "total": 3,
+        "categories": {
+          "music": 1,
+          "movies-tv": 2,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 1,
+          "movies": 2,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1993-01": {
+        "total": 4,
+        "categories": {
+          "music": 0,
+          "movies-tv": 3,
+          "games": 0,
+          "tech": 0,
+          "culture": 1,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 2,
+          "television": 1,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 1,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1993-02": {
+        "total": 2,
+        "categories": {
+          "music": 0,
+          "movies-tv": 2,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 2,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1993-03": {
+        "total": 3,
+        "categories": {
+          "music": 0,
+          "movies-tv": 2,
+          "games": 0,
+          "tech": 1,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 2,
+          "television": 0,
+          "games": 0,
+          "technology": 1,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1993-04": {
+        "total": 3,
+        "categories": {
+          "music": 0,
+          "movies-tv": 2,
+          "games": 0,
+          "tech": 1,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 2,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 1,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1993-05": {
+        "total": 2,
+        "categories": {
+          "music": 0,
+          "movies-tv": 2,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 2,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1993-06": {
+        "total": 2,
+        "categories": {
+          "music": 0,
+          "movies-tv": 2,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 2,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1993-07": {
+        "total": 2,
+        "categories": {
+          "music": 0,
+          "movies-tv": 2,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 2,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1993-08": {
+        "total": 2,
+        "categories": {
+          "music": 0,
+          "movies-tv": 2,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 2,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1993-09": {
+        "total": 4,
+        "categories": {
+          "music": 1,
+          "movies-tv": 3,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 1,
+          "movies": 2,
+          "television": 1,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1993-10": {
+        "total": 2,
+        "categories": {
+          "music": 0,
+          "movies-tv": 2,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 2,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1993-11": {
+        "total": 3,
+        "categories": {
+          "music": 1,
+          "movies-tv": 2,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 1,
+          "movies": 2,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1993-12": {
+        "total": 4,
+        "categories": {
+          "music": 0,
+          "movies-tv": 2,
+          "games": 1,
+          "tech": 1,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 2,
+          "television": 0,
+          "games": 1,
+          "technology": 1,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1994-01": {
+        "total": 2,
+        "categories": {
+          "music": 0,
+          "movies-tv": 2,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 2,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1994-02": {
+        "total": 3,
+        "categories": {
+          "music": 1,
+          "movies-tv": 2,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 1,
+          "movies": 2,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1994-03": {
+        "total": 2,
+        "categories": {
+          "music": 0,
+          "movies-tv": 2,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 2,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1994-04": {
+        "total": 3,
+        "categories": {
+          "music": 0,
+          "movies-tv": 2,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 1
+        },
+        "themes": {
+          "music": 0,
+          "movies": 2,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 1,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1994-05": {
+        "total": 3,
+        "categories": {
+          "music": 0,
+          "movies-tv": 2,
+          "games": 0,
+          "tech": 1,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 2,
+          "television": 0,
+          "games": 0,
+          "technology": 1,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1994-06": {
+        "total": 2,
+        "categories": {
+          "music": 0,
+          "movies-tv": 2,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 2,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1994-07": {
+        "total": 3,
+        "categories": {
+          "music": 0,
+          "movies-tv": 2,
+          "games": 0,
+          "tech": 0,
+          "culture": 1,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 2,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 1,
+          "toys": 0
+        }
+      },
+      "1994-08": {
+        "total": 2,
+        "categories": {
+          "music": 0,
+          "movies-tv": 2,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 2,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1994-09": {
+        "total": 4,
+        "categories": {
+          "music": 0,
+          "movies-tv": 4,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 2,
+          "television": 2,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1994-10": {
+        "total": 2,
+        "categories": {
+          "music": 0,
+          "movies-tv": 1,
+          "games": 0,
+          "tech": 1,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 1,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 1,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1994-11": {
+        "total": 1,
+        "categories": {
+          "music": 0,
+          "movies-tv": 1,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 1,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1994-12": {
+        "total": 2,
+        "categories": {
+          "music": 0,
+          "movies-tv": 1,
+          "games": 1,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 1,
+          "television": 0,
+          "games": 1,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1995-01": {
+        "total": 2,
+        "categories": {
+          "music": 0,
+          "movies-tv": 2,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 2,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1995-02": {
+        "total": 2,
+        "categories": {
+          "music": 0,
+          "movies-tv": 2,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 2,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1995-03": {
+        "total": 3,
+        "categories": {
+          "music": 0,
+          "movies-tv": 2,
+          "games": 0,
+          "tech": 0,
+          "culture": 1,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 2,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 1,
+          "toys": 0
+        }
+      },
+      "1995-04": {
+        "total": 2,
+        "categories": {
+          "music": 0,
+          "movies-tv": 2,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 2,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1995-05": {
+        "total": 3,
+        "categories": {
+          "music": 0,
+          "movies-tv": 2,
+          "games": 0,
+          "tech": 1,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 2,
+          "television": 0,
+          "games": 0,
+          "technology": 1,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1995-06": {
+        "total": 4,
+        "categories": {
+          "music": 1,
+          "movies-tv": 2,
+          "games": 0,
+          "tech": 0,
+          "culture": 1,
+          "news": 0
+        },
+        "themes": {
+          "music": 1,
+          "movies": 2,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 1,
+          "toys": 0
+        }
+      },
+      "1995-07": {
+        "total": 2,
+        "categories": {
+          "music": 0,
+          "movies-tv": 2,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 2,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1995-08": {
+        "total": 3,
+        "categories": {
+          "music": 0,
+          "movies-tv": 2,
+          "games": 0,
+          "tech": 1,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 2,
+          "television": 0,
+          "games": 0,
+          "technology": 1,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1995-09": {
+        "total": 4,
+        "categories": {
+          "music": 0,
+          "movies-tv": 2,
+          "games": 1,
+          "tech": 1,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 2,
+          "television": 0,
+          "games": 1,
+          "technology": 0,
+          "internet": 1,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1995-10": {
+        "total": 2,
+        "categories": {
+          "music": 0,
+          "movies-tv": 2,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 2,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1995-11": {
+        "total": 2,
+        "categories": {
+          "music": 0,
+          "movies-tv": 2,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 2,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1995-12": {
+        "total": 3,
+        "categories": {
+          "music": 0,
+          "movies-tv": 2,
+          "games": 0,
+          "tech": 1,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 2,
+          "television": 0,
+          "games": 0,
+          "technology": 1,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1996-01": {
+        "total": 12,
+        "categories": {
+          "music": 0,
+          "movies-tv": 6,
+          "games": 0,
+          "tech": 3,
+          "culture": 3,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 6,
+          "television": 0,
+          "games": 0,
+          "technology": 3,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 3,
+          "toys": 0
+        }
+      },
+      "1996-02": {
+        "total": 13,
+        "categories": {
+          "music": 0,
+          "movies-tv": 12,
+          "games": 1,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 12,
+          "television": 0,
+          "games": 1,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1996-03": {
+        "total": 14,
+        "categories": {
+          "music": 0,
+          "movies-tv": 14,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 14,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1996-04": {
+        "total": 12,
+        "categories": {
+          "music": 0,
+          "movies-tv": 12,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 12,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1996-05": {
+        "total": 15,
+        "categories": {
+          "music": 0,
+          "movies-tv": 15,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 15,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1996-06": {
+        "total": 12,
+        "categories": {
+          "music": 1,
+          "movies-tv": 9,
+          "games": 2,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 1,
+          "movies": 9,
+          "television": 0,
+          "games": 2,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1996-07": {
+        "total": 14,
+        "categories": {
+          "music": 1,
+          "movies-tv": 10,
+          "games": 0,
+          "tech": 2,
+          "culture": 1,
+          "news": 0
+        },
+        "themes": {
+          "music": 1,
+          "movies": 10,
+          "television": 0,
+          "games": 0,
+          "technology": 1,
+          "internet": 1,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 1,
+          "toys": 0
+        }
+      },
+      "1996-08": {
+        "total": 15,
+        "categories": {
+          "music": 0,
+          "movies-tv": 15,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 15,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1996-09": {
+        "total": 12,
+        "categories": {
+          "music": 0,
+          "movies-tv": 11,
+          "games": 1,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 11,
+          "television": 0,
+          "games": 1,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1996-10": {
+        "total": 12,
+        "categories": {
+          "music": 0,
+          "movies-tv": 12,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 12,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1996-11": {
+        "total": 15,
+        "categories": {
+          "music": 0,
+          "movies-tv": 14,
+          "games": 0,
+          "tech": 0,
+          "culture": 1,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 14,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 1
+        }
+      },
+      "1996-12": {
+        "total": 13,
+        "categories": {
+          "music": 0,
+          "movies-tv": 12,
+          "games": 0,
+          "tech": 0,
+          "culture": 1,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 12,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 1,
+          "toys": 0
+        }
+      },
+      "1997-01": {
+        "total": 6,
+        "categories": {
+          "music": 1,
+          "movies-tv": 2,
+          "games": 1,
+          "tech": 0,
+          "culture": 2,
+          "news": 0
+        },
+        "themes": {
+          "music": 1,
+          "movies": 2,
+          "television": 0,
+          "games": 1,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 2,
+          "toys": 0
+        }
+      },
+      "1997-02": {
+        "total": 1,
+        "categories": {
+          "music": 0,
+          "movies-tv": 1,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 1,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1997-03": {
+        "total": 1,
+        "categories": {
+          "music": 0,
+          "movies-tv": 1,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 1,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1997-04": {
+        "total": 2,
+        "categories": {
+          "music": 0,
+          "movies-tv": 2,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 2,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1997-05": {
+        "total": 2,
+        "categories": {
+          "music": 0,
+          "movies-tv": 1,
+          "games": 0,
+          "tech": 1,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 1,
+          "television": 0,
+          "games": 0,
+          "technology": 1,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1997-06": {
+        "total": 3,
+        "categories": {
+          "music": 0,
+          "movies-tv": 2,
+          "games": 0,
+          "tech": 0,
+          "culture": 1,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 2,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 1,
+          "toys": 0
+        }
+      },
+      "1997-07": {
+        "total": 3,
+        "categories": {
+          "music": 0,
+          "movies-tv": 1,
+          "games": 0,
+          "tech": 1,
+          "culture": 0,
+          "news": 1
+        },
+        "themes": {
+          "music": 0,
+          "movies": 1,
+          "television": 0,
+          "games": 0,
+          "technology": 1,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 1,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1997-08": {
+        "total": 2,
+        "categories": {
+          "music": 0,
+          "movies-tv": 2,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 1,
+          "television": 1,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1997-09": {
+        "total": 1,
+        "categories": {
+          "music": 0,
+          "movies-tv": 1,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 1,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1997-10": {
+        "total": 1,
+        "categories": {
+          "music": 0,
+          "movies-tv": 1,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 1,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1997-11": {
+        "total": 3,
+        "categories": {
+          "music": 1,
+          "movies-tv": 1,
+          "games": 0,
+          "tech": 0,
+          "culture": 1,
+          "news": 0
+        },
+        "themes": {
+          "music": 1,
+          "movies": 1,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 1,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1997-12": {
+        "total": 2,
+        "categories": {
+          "music": 0,
+          "movies-tv": 2,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 2,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1998-01": {
+        "total": 2,
+        "categories": {
+          "music": 0,
+          "movies-tv": 2,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 2,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1998-02": {
+        "total": 2,
+        "categories": {
+          "music": 0,
+          "movies-tv": 2,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 2,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1998-03": {
+        "total": 2,
+        "categories": {
+          "music": 0,
+          "movies-tv": 2,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 2,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1998-04": {
+        "total": 3,
+        "categories": {
+          "music": 0,
+          "movies-tv": 2,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 1
+        },
+        "themes": {
+          "music": 0,
+          "movies": 2,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 1,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1998-05": {
+        "total": 2,
+        "categories": {
+          "music": 0,
+          "movies-tv": 2,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 2,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1998-06": {
+        "total": 3,
+        "categories": {
+          "music": 0,
+          "movies-tv": 2,
+          "games": 0,
+          "tech": 1,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 2,
+          "television": 0,
+          "games": 0,
+          "technology": 1,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1998-07": {
+        "total": 3,
+        "categories": {
+          "music": 0,
+          "movies-tv": 2,
+          "games": 0,
+          "tech": 0,
+          "culture": 1,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 2,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 1,
+          "toys": 0
+        }
+      },
+      "1998-08": {
+        "total": 4,
+        "categories": {
+          "music": 1,
+          "movies-tv": 2,
+          "games": 0,
+          "tech": 1,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 1,
+          "movies": 2,
+          "television": 0,
+          "games": 0,
+          "technology": 1,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1998-09": {
+        "total": 3,
+        "categories": {
+          "music": 0,
+          "movies-tv": 2,
+          "games": 0,
+          "tech": 1,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 2,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 1,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1998-10": {
+        "total": 3,
+        "categories": {
+          "music": 0,
+          "movies-tv": 2,
+          "games": 1,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 2,
+          "television": 0,
+          "games": 1,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1998-11": {
+        "total": 4,
+        "categories": {
+          "music": 1,
+          "movies-tv": 2,
+          "games": 1,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 1,
+          "movies": 2,
+          "television": 0,
+          "games": 1,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1998-12": {
+        "total": 2,
+        "categories": {
+          "music": 0,
+          "movies-tv": 2,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 2,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1999-01": {
+        "total": 6,
+        "categories": {
+          "music": 1,
+          "movies-tv": 3,
+          "games": 1,
+          "tech": 0,
+          "culture": 0,
+          "news": 1
+        },
+        "themes": {
+          "music": 1,
+          "movies": 2,
+          "television": 1,
+          "games": 1,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 1,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1999-02": {
+        "total": 2,
+        "categories": {
+          "music": 0,
+          "movies-tv": 2,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 2,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1999-03": {
+        "total": 2,
+        "categories": {
+          "music": 0,
+          "movies-tv": 2,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 2,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1999-04": {
+        "total": 2,
+        "categories": {
+          "music": 0,
+          "movies-tv": 2,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 2,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1999-05": {
+        "total": 2,
+        "categories": {
+          "music": 0,
+          "movies-tv": 2,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 2,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1999-06": {
+        "total": 2,
+        "categories": {
+          "music": 0,
+          "movies-tv": 2,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 2,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1999-07": {
+        "total": 3,
+        "categories": {
+          "music": 0,
+          "movies-tv": 2,
+          "games": 0,
+          "tech": 0,
+          "culture": 1,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 2,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 1,
+          "toys": 0
+        }
+      },
+      "1999-08": {
+        "total": 2,
+        "categories": {
+          "music": 0,
+          "movies-tv": 2,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 2,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1999-09": {
+        "total": 3,
+        "categories": {
+          "music": 0,
+          "movies-tv": 2,
+          "games": 1,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 2,
+          "television": 0,
+          "games": 1,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1999-10": {
+        "total": 2,
+        "categories": {
+          "music": 0,
+          "movies-tv": 2,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 2,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1999-11": {
+        "total": 4,
+        "categories": {
+          "music": 1,
+          "movies-tv": 2,
+          "games": 1,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 1,
+          "movies": 2,
+          "television": 0,
+          "games": 1,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1999-12": {
+        "total": 3,
+        "categories": {
+          "music": 0,
+          "movies-tv": 2,
+          "games": 0,
+          "tech": 1,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 2,
+          "television": 0,
+          "games": 0,
+          "technology": 1,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      }
+    }
+  },
+  "definingMoments": {
+    "total": 101,
+    "categories": {
+      "music": 13,
+      "movies-tv": 31,
+      "games": 17,
+      "tech": 21,
+      "culture": 13,
+      "news": 6
+    },
+    "themes": {
+      "music": 13,
+      "movies": 20,
+      "television": 11,
+      "games": 17,
+      "technology": 15,
+      "internet": 6,
+      "culture": 3,
+      "fashion": 0,
+      "news": 6,
+      "sports": 9,
+      "toys": 1
+    },
+    "years": {
+      "1990": {
+        "total": 10,
+        "categories": {
+          "music": 1,
+          "movies-tv": 4,
+          "games": 1,
+          "tech": 2,
+          "culture": 0,
+          "news": 2
+        },
+        "themes": {
+          "music": 1,
+          "movies": 2,
+          "television": 2,
+          "games": 1,
+          "technology": 2,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 2,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1991": {
+        "total": 10,
+        "categories": {
+          "music": 3,
+          "movies-tv": 3,
+          "games": 2,
+          "tech": 1,
+          "culture": 1,
+          "news": 0
+        },
+        "themes": {
+          "music": 3,
+          "movies": 2,
+          "television": 1,
+          "games": 2,
+          "technology": 0,
+          "internet": 1,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 1,
+          "toys": 0
+        }
+      },
+      "1992": {
+        "total": 10,
+        "categories": {
+          "music": 1,
+          "movies-tv": 4,
+          "games": 1,
+          "tech": 1,
+          "culture": 3,
+          "news": 0
+        },
+        "themes": {
+          "music": 1,
+          "movies": 2,
+          "television": 2,
+          "games": 1,
+          "technology": 1,
+          "internet": 0,
+          "culture": 2,
+          "fashion": 0,
+          "news": 0,
+          "sports": 1,
+          "toys": 0
+        }
+      },
+      "1993": {
+        "total": 10,
+        "categories": {
+          "music": 2,
+          "movies-tv": 4,
+          "games": 1,
+          "tech": 3,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 2,
+          "movies": 2,
+          "television": 2,
+          "games": 1,
+          "technology": 2,
+          "internet": 1,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1994": {
+        "total": 10,
+        "categories": {
+          "music": 1,
+          "movies-tv": 4,
+          "games": 1,
+          "tech": 2,
+          "culture": 1,
+          "news": 1
+        },
+        "themes": {
+          "music": 1,
+          "movies": 2,
+          "television": 2,
+          "games": 1,
+          "technology": 1,
+          "internet": 1,
+          "culture": 0,
+          "fashion": 0,
+          "news": 1,
+          "sports": 1,
+          "toys": 0
+        }
+      },
+      "1995": {
+        "total": 10,
+        "categories": {
+          "music": 1,
+          "movies-tv": 2,
+          "games": 1,
+          "tech": 4,
+          "culture": 2,
+          "news": 0
+        },
+        "themes": {
+          "music": 1,
+          "movies": 2,
+          "television": 0,
+          "games": 1,
+          "technology": 3,
+          "internet": 1,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 2,
+          "toys": 0
+        }
+      },
+      "1996": {
+        "total": 11,
+        "categories": {
+          "music": 1,
+          "movies-tv": 2,
+          "games": 4,
+          "tech": 2,
+          "culture": 2,
+          "news": 0
+        },
+        "themes": {
+          "music": 1,
+          "movies": 2,
+          "television": 0,
+          "games": 4,
+          "technology": 1,
+          "internet": 1,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 1,
+          "toys": 1
+        }
+      },
+      "1997": {
+        "total": 10,
+        "categories": {
+          "music": 1,
+          "movies-tv": 3,
+          "games": 1,
+          "tech": 2,
+          "culture": 2,
+          "news": 1
+        },
+        "themes": {
+          "music": 1,
+          "movies": 2,
+          "television": 1,
+          "games": 1,
+          "technology": 2,
+          "internet": 0,
+          "culture": 1,
+          "fashion": 0,
+          "news": 1,
+          "sports": 1,
+          "toys": 0
+        }
+      },
+      "1998": {
+        "total": 10,
+        "categories": {
+          "music": 1,
+          "movies-tv": 2,
+          "games": 2,
+          "tech": 3,
+          "culture": 1,
+          "news": 1
+        },
+        "themes": {
+          "music": 1,
+          "movies": 2,
+          "television": 0,
+          "games": 2,
+          "technology": 2,
+          "internet": 1,
+          "culture": 0,
+          "fashion": 0,
+          "news": 1,
+          "sports": 1,
+          "toys": 0
+        }
+      },
+      "1999": {
+        "total": 10,
+        "categories": {
+          "music": 1,
+          "movies-tv": 3,
+          "games": 3,
+          "tech": 1,
+          "culture": 1,
+          "news": 1
+        },
+        "themes": {
+          "music": 1,
+          "movies": 2,
+          "television": 1,
+          "games": 3,
+          "technology": 1,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 1,
+          "sports": 1,
+          "toys": 0
+        }
+      }
+    },
+    "months": {
+      "1990-01": {
+        "total": 0,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1990-02": {
+        "total": 1,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 1
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 1,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1990-03": {
+        "total": 1,
+        "categories": {
+          "music": 1,
+          "movies-tv": 0,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 1,
+          "movies": 0,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1990-04": {
+        "total": 2,
+        "categories": {
+          "music": 0,
+          "movies-tv": 1,
+          "games": 0,
+          "tech": 1,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 1,
+          "games": 0,
+          "technology": 1,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1990-05": {
+        "total": 1,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 0,
+          "tech": 1,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 0,
+          "technology": 1,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1990-06": {
+        "total": 1,
+        "categories": {
+          "music": 0,
+          "movies-tv": 1,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 1,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1990-07": {
+        "total": 0,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1990-08": {
+        "total": 0,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1990-09": {
+        "total": 1,
+        "categories": {
+          "music": 0,
+          "movies-tv": 1,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 1,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1990-10": {
+        "total": 1,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 1
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 1,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1990-11": {
+        "total": 1,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 1,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 1,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1990-12": {
+        "total": 1,
+        "categories": {
+          "music": 0,
+          "movies-tv": 1,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 1,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1991-01": {
+        "total": 0,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1991-02": {
+        "total": 0,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1991-03": {
+        "total": 0,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1991-04": {
+        "total": 0,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1991-05": {
+        "total": 0,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1991-06": {
+        "total": 2,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 1,
+          "tech": 0,
+          "culture": 1,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 1,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 1,
+          "toys": 0
+        }
+      },
+      "1991-07": {
+        "total": 1,
+        "categories": {
+          "music": 0,
+          "movies-tv": 1,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 1,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1991-08": {
+        "total": 4,
+        "categories": {
+          "music": 2,
+          "movies-tv": 1,
+          "games": 0,
+          "tech": 1,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 2,
+          "movies": 0,
+          "television": 1,
+          "games": 0,
+          "technology": 0,
+          "internet": 1,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1991-09": {
+        "total": 1,
+        "categories": {
+          "music": 1,
+          "movies-tv": 0,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 1,
+          "movies": 0,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1991-10": {
+        "total": 0,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1991-11": {
+        "total": 2,
+        "categories": {
+          "music": 0,
+          "movies-tv": 1,
+          "games": 1,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 1,
+          "television": 0,
+          "games": 1,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1991-12": {
+        "total": 0,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1992-01": {
+        "total": 0,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1992-02": {
+        "total": 1,
+        "categories": {
+          "music": 0,
+          "movies-tv": 1,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 1,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1992-03": {
+        "total": 0,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1992-04": {
+        "total": 2,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 0,
+          "tech": 1,
+          "culture": 1,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 0,
+          "technology": 1,
+          "internet": 0,
+          "culture": 1,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1992-05": {
+        "total": 2,
+        "categories": {
+          "music": 0,
+          "movies-tv": 2,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 2,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1992-06": {
+        "total": 0,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1992-07": {
+        "total": 1,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 0,
+          "tech": 0,
+          "culture": 1,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 1,
+          "toys": 0
+        }
+      },
+      "1992-08": {
+        "total": 2,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 1,
+          "tech": 0,
+          "culture": 1,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 1,
+          "technology": 0,
+          "internet": 0,
+          "culture": 1,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1992-09": {
+        "total": 0,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1992-10": {
+        "total": 0,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1992-11": {
+        "total": 2,
+        "categories": {
+          "music": 1,
+          "movies-tv": 1,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 1,
+          "movies": 1,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1992-12": {
+        "total": 0,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1993-01": {
+        "total": 1,
+        "categories": {
+          "music": 0,
+          "movies-tv": 1,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 1,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1993-02": {
+        "total": 1,
+        "categories": {
+          "music": 0,
+          "movies-tv": 1,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 1,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1993-03": {
+        "total": 1,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 0,
+          "tech": 1,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 0,
+          "technology": 1,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1993-04": {
+        "total": 1,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 0,
+          "tech": 1,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 1,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1993-05": {
+        "total": 0,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1993-06": {
+        "total": 1,
+        "categories": {
+          "music": 0,
+          "movies-tv": 1,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 1,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1993-07": {
+        "total": 0,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1993-08": {
+        "total": 0,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1993-09": {
+        "total": 2,
+        "categories": {
+          "music": 1,
+          "movies-tv": 1,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 1,
+          "movies": 0,
+          "television": 1,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1993-10": {
+        "total": 0,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1993-11": {
+        "total": 1,
+        "categories": {
+          "music": 1,
+          "movies-tv": 0,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 1,
+          "movies": 0,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1993-12": {
+        "total": 2,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 1,
+          "tech": 1,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 1,
+          "technology": 1,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1994-01": {
+        "total": 0,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1994-02": {
+        "total": 1,
+        "categories": {
+          "music": 1,
+          "movies-tv": 0,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 1,
+          "movies": 0,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1994-03": {
+        "total": 0,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1994-04": {
+        "total": 1,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 1
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 1,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1994-05": {
+        "total": 1,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 0,
+          "tech": 1,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 0,
+          "technology": 1,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1994-06": {
+        "total": 0,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1994-07": {
+        "total": 2,
+        "categories": {
+          "music": 0,
+          "movies-tv": 1,
+          "games": 0,
+          "tech": 0,
+          "culture": 1,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 1,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 1,
+          "toys": 0
+        }
+      },
+      "1994-08": {
+        "total": 0,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1994-09": {
+        "total": 2,
+        "categories": {
+          "music": 0,
+          "movies-tv": 2,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 2,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1994-10": {
+        "total": 2,
+        "categories": {
+          "music": 0,
+          "movies-tv": 1,
+          "games": 0,
+          "tech": 1,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 1,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 1,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1994-11": {
+        "total": 0,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1994-12": {
+        "total": 1,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 1,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 1,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1995-01": {
+        "total": 0,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1995-02": {
+        "total": 0,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1995-03": {
+        "total": 1,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 0,
+          "tech": 0,
+          "culture": 1,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 1,
+          "toys": 0
+        }
+      },
+      "1995-04": {
+        "total": 0,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1995-05": {
+        "total": 1,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 0,
+          "tech": 1,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 0,
+          "technology": 1,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1995-06": {
+        "total": 3,
+        "categories": {
+          "music": 1,
+          "movies-tv": 1,
+          "games": 0,
+          "tech": 0,
+          "culture": 1,
+          "news": 0
+        },
+        "themes": {
+          "music": 1,
+          "movies": 1,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 1,
+          "toys": 0
+        }
+      },
+      "1995-07": {
+        "total": 0,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1995-08": {
+        "total": 1,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 0,
+          "tech": 1,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 0,
+          "technology": 1,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1995-09": {
+        "total": 2,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 1,
+          "tech": 1,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 1,
+          "technology": 0,
+          "internet": 1,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1995-10": {
+        "total": 0,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1995-11": {
+        "total": 1,
+        "categories": {
+          "music": 0,
+          "movies-tv": 1,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 1,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1995-12": {
+        "total": 1,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 0,
+          "tech": 1,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 0,
+          "technology": 1,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1996-01": {
+        "total": 0,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1996-02": {
+        "total": 1,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 1,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 1,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1996-03": {
+        "total": 0,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1996-04": {
+        "total": 0,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1996-05": {
+        "total": 0,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1996-06": {
+        "total": 2,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 2,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 2,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1996-07": {
+        "total": 4,
+        "categories": {
+          "music": 1,
+          "movies-tv": 0,
+          "games": 0,
+          "tech": 2,
+          "culture": 1,
+          "news": 0
+        },
+        "themes": {
+          "music": 1,
+          "movies": 0,
+          "television": 0,
+          "games": 0,
+          "technology": 1,
+          "internet": 1,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 1,
+          "toys": 0
+        }
+      },
+      "1996-08": {
+        "total": 0,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1996-09": {
+        "total": 1,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 1,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 1,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1996-10": {
+        "total": 0,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1996-11": {
+        "total": 2,
+        "categories": {
+          "music": 0,
+          "movies-tv": 1,
+          "games": 0,
+          "tech": 0,
+          "culture": 1,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 1,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 1
+        }
+      },
+      "1996-12": {
+        "total": 1,
+        "categories": {
+          "music": 0,
+          "movies-tv": 1,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 1,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1997-01": {
+        "total": 2,
+        "categories": {
+          "music": 1,
+          "movies-tv": 0,
+          "games": 1,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 1,
+          "movies": 0,
+          "television": 0,
+          "games": 1,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1997-02": {
+        "total": 0,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1997-03": {
+        "total": 0,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1997-04": {
+        "total": 0,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1997-05": {
+        "total": 1,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 0,
+          "tech": 1,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 0,
+          "technology": 1,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1997-06": {
+        "total": 1,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 0,
+          "tech": 0,
+          "culture": 1,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 1,
+          "toys": 0
+        }
+      },
+      "1997-07": {
+        "total": 3,
+        "categories": {
+          "music": 0,
+          "movies-tv": 1,
+          "games": 0,
+          "tech": 1,
+          "culture": 0,
+          "news": 1
+        },
+        "themes": {
+          "music": 0,
+          "movies": 1,
+          "television": 0,
+          "games": 0,
+          "technology": 1,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 1,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1997-08": {
+        "total": 1,
+        "categories": {
+          "music": 0,
+          "movies-tv": 1,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 1,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1997-09": {
+        "total": 0,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1997-10": {
+        "total": 1,
+        "categories": {
+          "music": 0,
+          "movies-tv": 1,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 1,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1997-11": {
+        "total": 1,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 0,
+          "tech": 0,
+          "culture": 1,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 1,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1997-12": {
+        "total": 0,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1998-01": {
+        "total": 0,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1998-02": {
+        "total": 0,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1998-03": {
+        "total": 0,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1998-04": {
+        "total": 1,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 1
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 1,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1998-05": {
+        "total": 0,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1998-06": {
+        "total": 2,
+        "categories": {
+          "music": 0,
+          "movies-tv": 1,
+          "games": 0,
+          "tech": 1,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 1,
+          "television": 0,
+          "games": 0,
+          "technology": 1,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1998-07": {
+        "total": 2,
+        "categories": {
+          "music": 0,
+          "movies-tv": 1,
+          "games": 0,
+          "tech": 0,
+          "culture": 1,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 1,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 1,
+          "toys": 0
+        }
+      },
+      "1998-08": {
+        "total": 2,
+        "categories": {
+          "music": 1,
+          "movies-tv": 0,
+          "games": 0,
+          "tech": 1,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 1,
+          "movies": 0,
+          "television": 0,
+          "games": 0,
+          "technology": 1,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1998-09": {
+        "total": 1,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 0,
+          "tech": 1,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 1,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1998-10": {
+        "total": 1,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 1,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 1,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1998-11": {
+        "total": 1,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 1,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 1,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1998-12": {
+        "total": 0,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1999-01": {
+        "total": 4,
+        "categories": {
+          "music": 1,
+          "movies-tv": 1,
+          "games": 1,
+          "tech": 0,
+          "culture": 0,
+          "news": 1
+        },
+        "themes": {
+          "music": 1,
+          "movies": 0,
+          "television": 1,
+          "games": 1,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 1,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1999-02": {
+        "total": 0,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1999-03": {
+        "total": 1,
+        "categories": {
+          "music": 0,
+          "movies-tv": 1,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 1,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1999-04": {
+        "total": 0,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1999-05": {
+        "total": 0,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1999-06": {
+        "total": 0,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1999-07": {
+        "total": 2,
+        "categories": {
+          "music": 0,
+          "movies-tv": 1,
+          "games": 0,
+          "tech": 0,
+          "culture": 1,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 1,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 1,
+          "toys": 0
+        }
+      },
+      "1999-08": {
+        "total": 0,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1999-09": {
+        "total": 1,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 1,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 1,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1999-10": {
+        "total": 0,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 0,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 0,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1999-11": {
+        "total": 1,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 1,
+          "tech": 0,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 1,
+          "technology": 0,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      },
+      "1999-12": {
+        "total": 1,
+        "categories": {
+          "music": 0,
+          "movies-tv": 0,
+          "games": 0,
+          "tech": 1,
+          "culture": 0,
+          "news": 0
+        },
+        "themes": {
+          "music": 0,
+          "movies": 0,
+          "television": 0,
+          "games": 0,
+          "technology": 1,
+          "internet": 0,
+          "culture": 0,
+          "fashion": 0,
+          "news": 0,
+          "sports": 0,
+          "toys": 0
+        }
+      }
+    }
+  },
+  "yearSelections": [
+    {
+      "year": 1990,
+      "caption": "A remote, a cassette, a new desktop",
+      "intro": "Twin Peaks gave Sunday night a mystery. Windows offered icons to click, and Mario found Yoshi in Japan. Beyond the living room, Mandela walked free and Germany reunited.",
+      "eventIds": [
+        "mandela-released",
+        "violator-uk",
+        "twin-peaks-premiere",
+        "hubble-launches",
+        "windows-30-launch",
+        "film-total-recall-1990",
+        "fresh-prince-premiere",
+        "german-reunification",
+        "super-mario-world-japan",
+        "film-edward-scissorhands-1990"
+      ],
+      "storyIds": [
+        "from-mixtape-to-file",
+        "same-time-next-week",
+        "the-console-war-couch",
+        "the-family-computer",
+        "clothes-with-a-soundtrack"
+      ],
+      "objectIds": [
+        "windows-3",
+        "hubble-launch",
+        "cassette",
+        "vhs-tape"
+      ]
+    },
+    {
+      "year": 1991,
+      "caption": "Turn it up. Follow the blue link.",
+      "intro": "Nevermind and Ten arrived a few weeks apart. Sonic raced across the television, the Bulls won their first title, and a Usenet post invited strangers to try the Web.",
+      "eventIds": [
+        "bulls-first-title",
+        "sonic-western-release",
+        "film-terminator-2-judgment-day-1991",
+        "web-usenet-announcement",
+        "rugrats-premiere",
+        "metallica-black-album",
+        "pearl-jam-ten",
+        "nevermind",
+        "film-beauty-and-the-beast-1991",
+        "zelda-link-past-japan"
+      ],
+      "storyIds": [
+        "when-grunge-broke-through",
+        "the-cartoon-morning",
+        "the-console-war-couch",
+        "a-web-you-could-make",
+        "when-sport-left-the-scoreboard"
+      ],
+      "objectIds": [
+        "first-website",
+        "genesis-controller",
+        "cassette",
+        "crt-television"
+      ],
+      "objectNote": "The six-button Genesis controller shown here dates to 1993. The Sonic entry records the earlier game, released in 1991."
+    },
+    {
+      "year": 1992,
+      "caption": "Seven strangers and a second controller",
+      "intro": "MTV moved strangers into a New York home; Carson said goodnight. Barcelona filled summer television, Mario Kart invited a second player, and Whitney Houston led a soundtrack that outlived the cinema trip.",
+      "eventIds": [
+        "film-wayne-s-world-1992",
+        "windows-31-ships",
+        "euro-disney-opens",
+        "real-world-premiere",
+        "carson-final-tonight",
+        "barcelona-olympics-open",
+        "mall-of-america-opens",
+        "super-mario-kart-japan",
+        "film-aladdin-1992",
+        "bodyguard-soundtrack"
+      ],
+      "storyIds": [
+        "hooks-rhymes-and-radio",
+        "same-time-next-week",
+        "make-room-for-player-two",
+        "the-family-computer",
+        "meet-me-at-the-mall"
+      ],
+      "objectIds": [
+        "pager",
+        "windows-3",
+        "arcade-cabinet",
+        "discman"
+      ],
+      "objectNote": "The Windows 3.0 object records the 1990 interface. Windows 3.1 has its own 1992 entry in the full calendar."
+    },
+    {
+      "year": 1993,
+      "caption": "Dinosaurs outside. Doom after homework.",
+      "intro": "The Web’s software became public property. Wu-Tang’s debut and In Utero occupied the record shelf, while Mulder and Scully occupied Friday night. In December, astronauts set out to repair Hubble and Doom arrived on PCs.",
+      "eventIds": [
+        "monday-night-raw-debut",
+        "film-groundhog-day-1993",
+        "pentium-introduced",
+        "cern-opens-web",
+        "film-jurassic-park-1993",
+        "x-files-premiere",
+        "in-utero",
+        "wu-tang-debut",
+        "hubble-servicing-launch",
+        "doom-shareware"
+      ],
+      "storyIds": [
+        "hooks-rhymes-and-radio",
+        "same-time-next-week",
+        "lan-party-night",
+        "a-web-you-could-make",
+        "the-catalog-on-your-bedroom-floor"
+      ],
+      "objectIds": [
+        "mosaic-browser",
+        "doom-disks",
+        "genesis-controller",
+        "cassette"
+      ]
+    },
+    {
+      "year": 1994,
+      "caption": "The coffee shop and the loading screen",
+      "intro": "Friends and ER joined the weekly television routine. Dookie grew into a hit, Brazil won a penalty shootout, and Japan got its first PlayStation. South Africa held its first democratic election; Britain and France opened a tunnel.",
+      "eventIds": [
+        "green-day-dookie",
+        "mandela-first-vote",
+        "channel-tunnel-inauguration",
+        "film-forrest-gump-1994",
+        "world-cup-1994-final",
+        "er-premiere",
+        "friends-premiere",
+        "w3c-founded",
+        "film-pulp-fiction-1994",
+        "playstation-japan"
+      ],
+      "storyIds": [
+        "when-grunge-broke-through",
+        "same-time-next-week",
+        "fifteen-blocks-of-memory",
+        "a-web-you-could-make",
+        "clothes-with-a-soundtrack"
+      ],
+      "objectIds": [
+        "geocities-homepage",
+        "visitor-counter",
+        "playstation-hardware",
+        "crt-television"
+      ]
+    },
+    {
+      "year": 1995,
+      "caption": "Click Start. Put the disc in.",
+      "intro": "A new Start button anchored the PC, PlayStation reached North America, and AuctionWeb opened for business. Alanis supplied the car-stereo argument. Jordan returned to the Bulls; Mandela wore a Springbok jersey at the Rugby World Cup.",
+      "eventIds": [
+        "jordan-returns",
+        "java-public-introduction",
+        "jagged-little-pill-us",
+        "rugby-world-cup-1995-final",
+        "film-apollo-13-1995",
+        "windows-95-launch",
+        "ebay-auctionweb-begins",
+        "playstation-north-america",
+        "film-toy-story-1995",
+        "galileo-jupiter-arrival"
+      ],
+      "storyIds": [
+        "discman-in-your-backpack",
+        "friday-at-the-video-store",
+        "fifteen-blocks-of-memory",
+        "a-button-called-start",
+        "clothes-with-a-soundtrack"
+      ],
+      "objectIds": [
+        "windows-95-start",
+        "aol-cd",
+        "webring-bar",
+        "playstation-hardware"
+      ]
+    },
+    {
+      "year": 1996,
+      "caption": "Pocket monsters, portable pets, a browser inbox",
+      "intro": "Pokémon began in Japan, Nintendo 64 arrived on both sides of the Pacific, and Tamagotchi asked for attention. Hotmail put email in the browser. Wannabe made an entrance, and Muhammad Ali lit the Olympic cauldron.",
+      "eventIds": [
+        "pokemon-red-green-japan",
+        "quake-shareware",
+        "nintendo-64-japan",
+        "hotmail-launch",
+        "dolly-born",
+        "wannabe-uk",
+        "atlanta-olympics-open",
+        "nintendo-64-us",
+        "space-jam-la",
+        "tamagotchi-japan",
+        "film-scream-1996"
+      ],
+      "storyIds": [
+        "after-school-on-trl",
+        "horror-knew-the-rules",
+        "a-whole-new-dimension",
+        "the-internet-came-in-the-mail",
+        "the-toy-that-needed-you"
+      ],
+      "objectIds": [
+        "n64-controller",
+        "playstation-hardware",
+        "vhs-tape",
+        "discman"
+      ]
+    },
+    {
+      "year": 1997,
+      "caption": "Big adventures, new voices, one more screen name",
+      "intro": "Final Fantasy VII filled PlayStation discs; Homework filled dance floors. The WNBA played its first game, Pathfinder reached Mars, and Hong Kong’s handover reached midnight. A cartoon town in Colorado joined late-night cable.",
+      "eventIds": [
+        "daft-punk-homework-europe",
+        "final-fantasy-vii-japan",
+        "deep-blue-match-win",
+        "wnba-first-game",
+        "hong-kong-handover",
+        "film-men-in-black-1997",
+        "mars-pathfinder-lands",
+        "south-park-premiere",
+        "film-gattaca-1997",
+        "lion-king-broadway"
+      ],
+      "storyIds": [
+        "the-flyer-and-the-dancefloor",
+        "same-time-next-week",
+        "fifteen-blocks-of-memory",
+        "a-computer-in-your-pocket",
+        "choosing-your-screen-name"
+      ],
+      "objectIds": [
+        "aim-away-message",
+        "cdr-spindle",
+        "discman",
+        "playstation-hardware"
+      ]
+    },
+    {
+      "year": 1998,
+      "caption": "Clear purple and Bondi blue",
+      "intro": "The iMac put blue plastic on the desk; Game Boy Color put clear purple in a pocket. Lauryn Hill released her solo debut and Google became a company. France won its home World Cup, and the Good Friday Agreement set out a peace settlement.",
+      "eventIds": [
+        "good-friday-agreement",
+        "film-the-truman-show-1998",
+        "windows-98-launch",
+        "world-cup-1998-final",
+        "film-saving-private-ryan-1998",
+        "imac-arrives",
+        "lauryn-hill-miseducation",
+        "google-incorporated",
+        "game-boy-color-japan",
+        "ocarina-time-japan"
+      ],
+      "storyIds": [
+        "hooks-rhymes-and-radio",
+        "summer-at-the-multiplex",
+        "a-whole-new-dimension",
+        "you-could-see-through-it",
+        "choosing-your-screen-name"
+      ],
+      "objectIds": [
+        "bondi-imac",
+        "game-boy-color",
+        "yahoo-directory",
+        "n64-controller"
+      ]
+    },
+    {
+      "year": 1999,
+      "caption": "One more disc before midnight",
+      "intro": "Britney’s debut album and The Sopranos opened the year. The USA won the Women’s World Cup, Sega chose 9/9/99 for its American Dreamcast launch, and response teams worked through the millennium countdown.",
+      "eventIds": [
+        "euro-introduced",
+        "sopranos-premiere",
+        "britney-debut-album",
+        "smash-bros-japan",
+        "film-the-matrix-1999",
+        "womens-world-cup-1999-final",
+        "film-the-blair-witch-project-1999",
+        "dreamcast-us",
+        "pokemon-gold-silver-japan",
+        "y2k-rollover-night"
+      ],
+      "storyIds": [
+        "after-school-on-trl",
+        "same-time-next-week",
+        "make-room-for-player-two",
+        "the-family-computer",
+        "the-toy-that-needed-you"
+      ],
+      "objectIds": [
+        "dreamcast",
+        "y2k-office",
+        "family-pc",
+        "cdr-spindle"
+      ]
+    }
+  ],
+  "fashionContext": {
+    "datedEvents": 0,
+    "storyIds": [
+      "clothes-with-a-soundtrack",
+      "the-catalog-on-your-bedroom-floor"
+    ],
+    "note": "Fashion is explored through sourced stories and the lookbook. No exact launch day was invented for an era-wide style."
+  },
+  "errors": []
+}

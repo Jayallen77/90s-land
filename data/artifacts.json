@@ -10,8 +10,8 @@
     },
     "room": "tech-toys",
     "label": "shared-room portal",
-    "curatorNote": "The future arrived in a shared room, surrounded by homework, mouse pads, and a phone line everyone needed.",
-    "whyItMattered": "Home computing made the web an everyday place instead of a specialist tool.",
+    "curatorNote": "Someone needs the phone line. Finish the download before you give up the chair.",
+    "whyItMattered": "A shared PC put homework, games, and getting online at the same desk. Access often depended on whose turn it was.",
     "media": {
       "kind": "image",
       "src": "/assets/media/tech-toys/family-pc-rotterdam-1999.jpg",
@@ -138,8 +138,8 @@
     },
     "room": "internet-culture",
     "label": "the web gets a visual front door",
-    "curatorNote": "Gray chrome and inline images made the web feel like a navigable place rather than a technical rumor.",
-    "whyItMattered": "Mosaic helped visual browsing become legible to a much wider audience.",
+    "curatorNote": "Blue links, pictures inside the page, and a gray frame around the whole thing.",
+    "whyItMattered": "Mosaic helped people browse linked documents with images in the same window. The interface is a useful bridge from the first website to the personal homepage.",
     "media": {
       "kind": "image",
       "src": "/assets/media/timeline-1993/ncsa-mosaic-browser-screenshot.png",
@@ -219,8 +219,8 @@
     },
     "room": "internet-culture",
     "label": "proof somebody came by",
-    "curatorNote": "The number was tiny, public, and exciting precisely because each visit still felt like a person.",
-    "whyItMattered": "Counters made audience traces visible before engagement dashboards and follower totals.",
+    "curatorNote": "You checked the number again. It had gone up by one.",
+    "whyItMattered": "A visible counter gave a homepage owner a rough trace of visits. The number did not tell you who had come or why they stayed.",
     "media": {
       "kind": "recreation",
       "label": "000247",
@@ -336,8 +336,8 @@
     },
     "room": "internet-culture",
     "label": "screen-name identity object",
-    "curatorNote": "One dramatic lyric, an ASCII heart, and a carefully chosen screen name could carry an entire mood.",
-    "whyItMattered": "Buddy lists turned online identity and availability into an everyday social performance.",
+    "curatorNote": "Choose a lyric carefully. Your buddy list is going to read it.",
+    "whyItMattered": "An away message could tell friends you were unavailable while leaving something of your mood on screen.",
     "media": {
       "kind": "recreation",
       "label": "xXstargrrl97Xx is away",
@@ -458,8 +458,8 @@
     },
     "room": "timeline",
     "label": "the future gets a start point",
-    "curatorNote": "The new button gave the desktop a friendly, memorable center.",
-    "whyItMattered": "Windows 95 made personal computing an unmistakable mass-culture event.",
+    "curatorNote": "Want to open a program? Start here. Want to shut down? Start here too.",
+    "whyItMattered": "The Start menu gathered programs, settings, and the route to shutting down in one corner of the Windows 95 desktop.",
     "media": {
       "kind": "image",
       "src": "/assets/media/timeline-1995/windows95-start-button.png",
@@ -500,8 +500,8 @@
     },
     "room": "tech-toys",
     "label": "pocket-status beep",
-    "curatorNote": "The tiny display mattered less than the feeling that a message could come find you.",
-    "whyItMattered": "Pagers normalized portable availability before phones became pocket computers.",
+    "curatorNote": "The pager goes off. Finding a phone is your next problem.",
+    "whyItMattered": "A small display let a message reach you away from the desk. Returning the call often still required a separate telephone.",
     "media": {
       "kind": "image",
       "src": "/assets/media/tech-toys/motorola-pager-teletrim.jpg",
@@ -587,8 +587,8 @@
     },
     "room": "music",
     "label": "portable CD ritual",
-    "curatorNote": "A careful walk, a pocket full of jewel cases, and anti-skip optimism created a personal soundtrack outside the house.",
-    "whyItMattered": "Portable CD players made album ownership mobile while keeping the format tactile.",
+    "curatorNote": "Pick a track, close the lid, and try not to bump the player on the walk home.",
+    "whyItMattered": "A portable CD player let an album leave the bedroom with its owner. Discs still needed carrying, and movement could interrupt playback.",
     "media": {
       "kind": "image",
       "src": "/assets/media/music/discman-d121.jpg",
@@ -675,8 +675,8 @@
     },
     "room": "tv-movies",
     "label": "the whole night on one tape",
-    "curatorNote": "Handwritten labels, recorded commercials, trailers, and rewinding arguments lived inside the same plastic shell.",
-    "whyItMattered": "VHS made screen culture ownable, repeatable, and full of accidental context.",
+    "curatorNote": "The label says DO NOT TAPE OVER. Someone in the house means it.",
+    "whyItMattered": "The same cassette could hold a rental, a favorite episode, or a home recording. Labels and the record-protect tab helped distinguish what could be replaced.",
     "media": {
       "kind": "image",
       "src": "/assets/media/tv-movies/vhs-videocassette-front.jpg",
@@ -719,8 +719,8 @@
     },
     "room": "tv-movies",
     "label": "shared-screen gravity",
-    "curatorNote": "Cartoons, sitcoms, local ads, and half-finished movies all arrived through one household object.",
-    "whyItMattered": "The shared television schedule gave the decade a common rhythm before streaming fragmented attention.",
+    "curatorNote": "The episode starts at eight. Get the good spot on the sofa.",
+    "whyItMattered": "A television schedule brought a household back to the same screen. The set also served as a display for consoles and a VCR.",
     "media": {
       "kind": "image",
       "src": "/assets/media/tv-movies/1990s-television-set.jpg",
@@ -762,8 +762,8 @@
     },
     "room": "tv-movies",
     "label": "Friday-night starting gun",
-    "curatorNote": "The glowing sign began a group negotiation conducted through box art and one-copy-left panic.",
-    "whyItMattered": "Rental stores turned choosing media into a physical, social ritual.",
+    "curatorNote": "Every copy of the new release is gone. Time to walk the shelves again.",
+    "whyItMattered": "Choosing a rental meant looking at boxes, checking availability, and agreeing on a film with the people who came along.",
     "media": {
       "kind": "image",
       "src": "/assets/media/tv-movies/blockbuster-storefront.jpg",
@@ -805,8 +805,8 @@
     },
     "room": "games",
     "label": "public confidence test",
-    "curatorNote": "Attract-mode audio, quarter stacks, and spectators made the machine a small public stage.",
-    "whyItMattered": "Arcades made play communal, noisy, and performative before online matchmaking.",
+    "curatorNote": "Leave a quarter on the cabinet. Somebody else is playing your next game.",
+    "whyItMattered": "An arcade cabinet put play in public, with people waiting, watching, and learning by looking over a shoulder.",
     "media": {
       "kind": "image",
       "src": "/assets/media/games/marble-madness-arcade-cabinet.jpg",
@@ -922,7 +922,8 @@
     "tags": [
       "nintendo 64",
       "controller",
-      "multiplayer"
+      "multiplayer",
+      "n64"
     ]
   },
   {
@@ -936,8 +937,8 @@
     },
     "room": "games",
     "label": "the console grows up",
-    "curatorNote": "Gray hardware, CDs, and memory cards made the next console era feel sleek and cinematic.",
-    "whyItMattered": "PlayStation broadened the audience and language of console games.",
+    "curatorNote": "Put the disc in. Keep the memory card somewhere you can find it.",
+    "whyItMattered": "PlayStation games used CDs, while a separate memory card kept saved progress. The two objects held different parts of the game.",
     "media": {
       "kind": "image",
       "src": "/assets/media/timeline-1995/playstation-controller.jpg",
@@ -981,8 +982,8 @@
     },
     "room": "transparent-tech",
     "label": "the computer becomes room decor",
-    "curatorNote": "The rounded translucent shell replaced beige utility with color, friendliness, and visible personality.",
-    "whyItMattered": "The iMac made consumer hardware design part of mainstream identity.",
+    "curatorNote": "A blue shell on the desk, with the hardware partly visible inside.",
+    "whyItMattered": "The first iMac brought a rounded, translucent case to the home computer. It made the machine’s appearance part of the buying conversation.",
     "media": {
       "kind": "image",
       "src": "/assets/media/transparent-tech/imac-g3-bondi-blue.png",
@@ -1024,8 +1025,8 @@
     },
     "room": "games",
     "label": "a modem inside the console",
-    "curatorNote": "The white hardware and VMU made the last year of the decade feel connected, arcade-bright, and slightly ahead of schedule.",
-    "whyItMattered": "Dreamcast previewed online console habits that would become normal in the next decade.",
+    "curatorNote": "The little VMU had a screen of its own. Keep it with the controller.",
+    "whyItMattered": "Dreamcast paired its console and controller with a removable Visual Memory Unit. Its US launch date, 9/9/99, was easy to put on a calendar.",
     "media": {
       "kind": "image",
       "src": "/assets/media/timeline-1999/dreamcast-console.jpg",
@@ -1108,8 +1109,8 @@
     },
     "room": "timeline",
     "label": "the future as a launch plume",
-    "curatorNote": "The image belongs beside mall radio and VHS precisely because it shows how large the decade's opening horizon felt.",
-    "whyItMattered": "Hubble connected everyday screen culture to a sustained new view of the universe.",
+    "curatorNote": "Discovery carries Hubble out of Florida and into orbit.",
+    "whyItMattered": "The launch on April 24, 1990 began a mission that would need repairs as well as produce new views of space. The launch and deployment happened on separate days.",
     "media": {
       "kind": "image",
       "src": "/assets/media/timeline-1990/hubble-launch.jpg",
@@ -1150,8 +1151,8 @@
     },
     "room": "games",
     "label": "hand-to-hand software menace",
-    "curatorNote": "The disks capture the after-hours secret life of the family computer better than a clean screenshot can.",
-    "whyItMattered": "Shareware distribution helped Doom spread as both software and social folklore.",
+    "curatorNote": "A disk could bring a new game to a computer that usually held homework.",
+    "whyItMattered": "Doom’s shareware episode could circulate separately from the full game. These disks show the material side of distributing PC software.",
     "media": {
       "kind": "image",
       "src": "/assets/media/timeline-1993/doom-disks.jpg",
@@ -1192,8 +1193,8 @@
     },
     "room": "transparent-tech",
     "label": "the backpack gets a clear shell",
-    "curatorNote": "Visible circuitry and candy-colored plastic made the handheld itself part of the collection.",
-    "whyItMattered": "Translucent design turned portable hardware into fashion and display.",
+    "curatorNote": "Clear purple plastic lets you inspect the board before switching the handheld on.",
+    "whyItMattered": "Game Boy Color brought a color screen to the handheld line and offered several shell colors. The translucent case made part of the hardware visible.",
     "media": {
       "kind": "image",
       "src": "/assets/media/transparent-tech/game-boy-color-purple.jpg",
@@ -1235,8 +1236,8 @@
     },
     "room": "transparent-tech",
     "label": "multiplayer gear becomes collectible",
-    "curatorNote": "A clear shell made even the controller on the carpet feel like room decor.",
-    "whyItMattered": "The trend blurred the line between tool, toy, and identity object.",
+    "curatorNote": "You can see the board through the purple shell. The buttons still need learning.",
+    "whyItMattered": "A translucent case gave a familiar controller another look while keeping its layout. Color could be a personal choice before a game even started.",
     "media": {
       "kind": "image",
       "src": "/assets/media/transparent-tech/n64-controller-purple.jpg",

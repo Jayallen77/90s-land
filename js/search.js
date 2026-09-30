@@ -12,7 +12,7 @@ const VALID_FILTERS = new Set([
   "explore",
 ]);
 
-const normalize = value => value.normalize("NFKD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+const normalize = value => value.normalize("NFKD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^\p{L}\p{N}]+/gu, " ").trim();
 
 export function initializeSearch() {
   const input = document.querySelector("#siteSearchInput");
@@ -21,6 +21,7 @@ export function initializeSearch() {
   const count = document.querySelector("#siteSearchCount");
   const empty = document.querySelector("#siteSearchNoResults");
   if (!input || !cards.length || !buttons.length) return;
+  const indexed = cards.map((card,index) => ({card,index,title:normalize(card.dataset.title),text:normalize(`${card.dataset.title} ${card.dataset.tags} ${card.textContent}`)}));
 
   // Keep both count surfaces tied to the actual catalog, so new entries cannot
   // make the hero summary and filter badges disagree.
@@ -73,22 +74,23 @@ export function initializeSearch() {
 
   function render({ writeUrl = true, historyMode = "replace" } = {}) {
     const words = normalize(input.value.trim()).split(/\s+/).filter(Boolean);
-    let visible = 0;
-    cards.forEach((card) => {
-      const matchesFilter =
-        filter === "all" || card.dataset.searchCategory === filter;
-      const haystack =
-        normalize(`${card.dataset.title} ${card.dataset.tags} ${card.textContent}`);
-      const show = matchesFilter && words.every(word => haystack.includes(word));
-      card.hidden = !show;
-      if (show) visible += 1;
-    });
+    const queryMatches=indexed.filter(item => words.every(word => item.text.includes(word)));
+    const queryTotals=queryMatches.reduce((result,{card})=>{const key=card.dataset.searchCategory;result[key]=(result[key]||0)+1;return result;},{});
+    const query=words.join(' ');
+    const rank=item=>!query ? 0 : item.title===query ? 3 : words.every(word=>item.title.includes(word)) ? 2 : 1;
+    const matches=queryMatches.filter(({card})=>filter==='all'||card.dataset.searchCategory===filter).sort((a,b)=>rank(b)-rank(a)||a.index-b.index);
+    const visible=matches.length;
+    cards.forEach(card=>{card.hidden=true;});
+    // Reuse the existing cards; relevance order and pagination share one list.
+    const container=document.querySelector('#siteSearchGrid');
+    matches.forEach(({card})=>{card.hidden=false;container.append(card);});
     buttons.forEach((button) => {
       const active = button.dataset.siteFilter === filter;
       button.setAttribute("aria-pressed", String(active));
       button.classList.toggle("active", active);
+      button.querySelector('span').textContent=String(button.dataset.siteFilter==='all'?queryMatches.length:queryTotals[button.dataset.siteFilter]||0);
     });
-    page = paginate(cards.filter(card=>!card.hidden), page);
+    page = paginate(matches.map(item=>item.card), page);
     count.textContent = `Showing ${visible} ${visible === 1 ? "match" : "matches"}.`;
     empty.hidden = visible !== 0;
     if (writeUrl) updateUrl(historyMode);

@@ -2,7 +2,7 @@
   {
     "id": "family-pc",
     "title": "The family computer becomes a portal",
-    "teaser": "The future arrived in a shared room, surrounded by homework, mouse pads, and a phone line everyone needed.",
+    "teaser": "Someone needs the phone line. Finish the download before you give up the chair.",
     "dateLabel": "1995–1999",
     "room": "tech-toys",
     "target": "/zones/tech-toys/#artifact-family-pc"
@@ -26,7 +26,7 @@
   {
     "id": "mosaic-browser",
     "title": "NCSA Mosaic browser",
-    "teaser": "Gray chrome and inline images made the web feel like a navigable place rather than a technical rumor.",
+    "teaser": "Blue links, pictures inside the page, and a gray frame around the whole thing.",
     "dateLabel": "1993",
     "room": "internet-culture",
     "target": "/timeline/1993/#artifact-mosaic-browser"
@@ -42,7 +42,7 @@
   {
     "id": "visitor-counter",
     "title": "Six-digit visitor counter",
-    "teaser": "The number was tiny, public, and exciting precisely because each visit still felt like a person.",
+    "teaser": "You checked the number again. It had gone up by one.",
     "dateLabel": "1994–1999",
     "room": "internet-culture",
     "target": "/zones/internet-culture/#artifact-visitor-counter"
@@ -66,7 +66,7 @@
   {
     "id": "aim-away-message",
     "title": "AIM away message",
-    "teaser": "One dramatic lyric, an ASCII heart, and a carefully chosen screen name could carry an entire mood.",
+    "teaser": "Choose a lyric carefully. Your buddy list is going to read it.",
     "dateLabel": "1997–1999",
     "room": "internet-culture",
     "target": "/zones/internet-culture/#artifact-aim-away-message"
@@ -90,7 +90,7 @@
   {
     "id": "windows-95-start",
     "title": "Windows 95 Start button",
-    "teaser": "The new button gave the desktop a friendly, memorable center.",
+    "teaser": "Want to open a program? Start here. Want to shut down? Start here too.",
     "dateLabel": "1995",
     "room": "timeline",
     "target": "/timeline/1995/#artifact-windows-95-start"
@@ -98,7 +98,7 @@
   {
     "id": "pager",
     "title": "Motorola pager",
-    "teaser": "The tiny display mattered less than the feeling that a message could come find you.",
+    "teaser": "The pager goes off. Finding a phone is your next problem.",
     "dateLabel": "1992–1998",
     "room": "tech-toys",
     "target": "/zones/tech-toys/#artifact-pager"
@@ -114,7 +114,7 @@
   {
     "id": "discman",
     "title": "Sony Discman",
-    "teaser": "A careful walk, a pocket full of jewel cases, and anti-skip optimism created a personal soundtrack outside the house.",
+    "teaser": "Pick a track, close the lid, and try not to bump the player on the walk home.",
     "dateLabel": "1990–1999",
     "room": "music",
     "target": "/zones/music/#artifact-discman"
@@ -130,7 +130,7 @@
   {
     "id": "vhs-tape",
     "title": "VHS videocassette",
-    "teaser": "Handwritten labels, recorded commercials, trailers, and rewinding arguments lived inside the same plastic shell.",
+    "teaser": "The label says DO NOT TAPE OVER. Someone in the house means it.",
     "dateLabel": "1990–1999",
     "room": "tv-movies",
     "target": "/zones/tv-movies/#artifact-vhs-tape"
@@ -138,7 +138,7 @@
   {
     "id": "crt-television",
     "title": "Living-room CRT television",
-    "teaser": "Cartoons, sitcoms, local ads, and half-finished movies all arrived through one household object.",
+    "teaser": "The episode starts at eight. Get the good spot on the sofa.",
     "dateLabel": "1990–1999",
     "room": "tv-movies",
     "target": "/zones/tv-movies/#artifact-crt-television"
@@ -146,7 +146,7 @@
   {
     "id": "blockbuster-store",
     "title": "Blockbuster store interior",
-    "teaser": "The glowing sign began a group negotiation conducted through box art and one-copy-left panic.",
+    "teaser": "Every copy of the new release is gone. Time to walk the shelves again.",
     "dateLabel": "1990–1999",
     "room": "tv-movies",
     "target": "/zones/tv-movies/#artifact-blockbuster-store"
@@ -154,7 +154,7 @@
   {
     "id": "arcade-cabinet",
     "title": "Arcade cabinet",
-    "teaser": "Attract-mode audio, quarter stacks, and spectators made the machine a small public stage.",
+    "teaser": "Leave a quarter on the cabinet. Somebody else is playing your next game.",
     "dateLabel": "1990–1999",
     "room": "games",
     "target": "/zones/games/#artifact-arcade-cabinet"
@@ -178,7 +178,7 @@
   {
     "id": "playstation-hardware",
     "title": "Original PlayStation hardware",
-    "teaser": "Gray hardware, CDs, and memory cards made the next console era feel sleek and cinematic.",
+    "teaser": "Put the disc in. Keep the memory card somewhere you can find it.",
     "dateLabel": "1994–1999",
     "room": "games",
     "target": "/timeline/1994/#artifact-playstation-hardware"
@@ -186,7 +186,7 @@
   {
     "id": "bondi-imac",
     "title": "Bondi blue iMac G3",
-    "teaser": "The rounded translucent shell replaced beige utility with color, friendliness, and visible personality.",
+    "teaser": "A blue shell on the desk, with the hardware partly visible inside.",
     "dateLabel": "1998–1999",
     "room": "transparent-tech",
     "target": "/zones/transparent-tech/#artifact-bondi-imac"
@@ -194,7 +194,7 @@
   {
     "id": "dreamcast",
     "title": "Sega Dreamcast",
-    "teaser": "The white hardware and VMU made the last year of the decade feel connected, arcade-bright, and slightly ahead of schedule.",
+    "teaser": "The little VMU had a screen of its own. Keep it with the controller.",
     "dateLabel": "1999",
     "room": "games",
     "target": "/timeline/1999/#artifact-dreamcast"
@@ -210,7 +210,7 @@
   {
     "id": "hubble-launch",
     "title": "Hubble launch",
-    "teaser": "The image belongs beside mall radio and VHS precisely because it shows how large the decade's opening horizon felt.",
+    "teaser": "Discovery carries Hubble out of Florida and into orbit.",
     "dateLabel": "1990",
     "room": "timeline",
     "target": "/timeline/1990/#artifact-hubble-launch"
@@ -218,7 +218,7 @@
   {
     "id": "doom-disks",
     "title": "Doom shareware disks",
-    "teaser": "The disks capture the after-hours secret life of the family computer better than a clean screenshot can.",
+    "teaser": "A disk could bring a new game to a computer that usually held homework.",
     "dateLabel": "1993",
     "room": "games",
     "target": "/timeline/1993/#artifact-doom-disks"
@@ -226,7 +226,7 @@
   {
     "id": "game-boy-color",
     "title": "Atomic Purple Game Boy Color",
-    "teaser": "Visible circuitry and candy-colored plastic made the handheld itself part of the collection.",
+    "teaser": "Clear purple plastic lets you inspect the board before switching the handheld on.",
     "dateLabel": "1998–1999",
     "room": "transparent-tech",
     "target": "/zones/transparent-tech/#artifact-game-boy-color"
@@ -234,7 +234,7 @@
   {
     "id": "transparent-n64-controller",
     "title": "Transparent purple N64 controller",
-    "teaser": "A clear shell made even the controller on the carpet feel like room decor.",
+    "teaser": "You can see the board through the purple shell. The buttons still need learning.",
     "dateLabel": "1998–1999",
     "room": "transparent-tech",
     "target": "/zones/transparent-tech/#artifact-transparent-n64-controller"

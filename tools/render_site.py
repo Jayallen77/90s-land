@@ -239,7 +239,7 @@ def render_artifact_card(
     details = "" if compact else f"""        <details>
           <summary>About this object</summary>
           <p>{esc(artifact["curatorNote"])}</p>
-          <p><strong>Why it mattered:</strong> {esc(artifact["whyItMattered"])}</p>
+          <p>{esc(artifact["whyItMattered"])}</p>
           <p class="artifact-credit">{credit_markup} · {esc(media["license"])}</p>
         </details>"""
     card_id = dom_id or f'artifact-{artifact["slug"]}'
@@ -262,11 +262,16 @@ def render_artifact_shelf(route: dict) -> str:
     if not items:
         return ""
     cards = "\n".join(render_artifact_card(item) for item in items)
-    return f"""    <section class="panel artifact-shelf" aria-labelledby="artifactShelfTitle-{esc(route["id"])}">
+    year = int(route['path'].strip('/').split('/')[-1]) if route['type']=='years' else None
+    title = f'Objects around {year}' if year else 'Objects of the era'
+    context = f'\n        <p>{esc(archive.YEARS[year]["objectNote"])}</p>' if year and archive.YEARS[year].get('objectNote') else ''
+    extra_class = ' ed-home-objects' if route['path']=='/' else ''
+    return f"""    <section class="panel artifact-shelf{extra_class}" aria-labelledby="artifactShelfTitle-{esc(route["id"])}">
       <div class="section-heading compact-heading">
         <p class="eyebrow">THE OBJECT COLLECTION</p>
-        <h2 id="artifactShelfTitle-{esc(route["id"])}">Objects of the era</h2>
-        <p>Get closer to the everyday things that made the decade. Collect a stamp as you go.</p>
+        <h2 id="artifactShelfTitle-{esc(route["id"])}">{title}</h2>
+        <p>Get closer to the everyday things that made the decade. Collect a stamp as you go.</p>{context}
+        <a class="ed-text-link" href="/archive/objects/">Browse all {len(ARTIFACTS)} objects →</a>
       </div>
       <div class="artifact-ticket-grid">
 {cards}
@@ -330,9 +335,10 @@ def search_records():
             }
         )
     for event in archive.EVENTS:
-        records.append({"id":"event-"+event["id"], "type":"events", "recordType":"event", "title":event["title"], "summary":event["date"]+" · "+event["region"]+" — "+event["summary"], "href":archive.event_url(event), "tags":[event["date"], event["date"][:4], event["region"], archive.CATEGORIES[event["category"]], *event["paragraphs"]], "external":False})
+        object_tags=[tag for id in event['objectIds'] for tag in [id,ARTIFACT_BY_ID[id]['title'],*ARTIFACT_BY_ID[id]['tags']]]
+        records.append({"id":"event-"+event["id"], "type":"events", "recordType":"event", "title":event["title"], "summary":event["date"]+" · "+event["region"]+" · "+event["summary"], "href":archive.event_url(event), "tags":[event["date"], event["date"][:4], event["region"], archive.CATEGORIES[event["category"]], archive.event_label(event), *object_tags, *event["paragraphs"]], "external":False})
     for story in archive.STORIES:
-        records.append({"id":"story-"+story["id"], "type":"stories", "recordType":"story", "title":story["title"], "summary":story["summary"], "href":archive.story_url(story), "tags":[archive.CATEGORIES[story["category"]], *[p for section in story["sections"] for p in section["paragraphs"]]], "external":False})
+        records.append({"id":"story-"+story["id"], "type":"stories", "recordType":"story", "title":story["title"], "summary":story["summary"], "href":archive.story_url(story), "tags":[archive.CATEGORIES[story["category"]], *story.get('topics',[]), *[str(y['year']) for y in archive.YEARS.values() if story['id'] in y['storyIds']], *[p for section in story["sections"] for p in section["paragraphs"]]], "external":False})
     for item in RESOURCES:
         records.append(
             {
@@ -353,16 +359,16 @@ def render_search_sections() -> tuple[str, str]:
     records = search_records()
     counts = Counter(item["type"] for item in records)
     categories = [
-        ("all", "All"),
+        ("all", "Everything"),
         ("events", "Events"),
         ("stories", "Stories"),
-        ("highlights", "Highlights"),
-        ("years", "Years"),
-        ("zones", "Collections"),
         ("objects", "Objects"),
+        ("zones", "Collections"),
+        ("years", "Years"),
         ("tours", "Tours"),
-        ("community", "Community"),
         ("explore", "Resources"),
+        ("highlights", "Guides"),
+        ("community", "Community"),
     ]
     buttons = "\n".join(
         f'        <button class="resource-filter{" active" if key == "all" else ""}" '
@@ -372,7 +378,7 @@ def render_search_sections() -> tuple[str, str]:
     )
     controls = f"""    <section class="panel resource-console" id="finder" aria-label="Search controls">
       <div class="resource-console-grid">
-        <div><p class="eyebrow">SEARCH THE 90s</p><h2>Find your next memory</h2><p>Search a date, story, object, collection, or external resource.</p></div>
+        <div><p class="eyebrow">SEARCH THE 90s</p><h2>Find your next memory</h2><p>Try a name, a year, or an object. Results update as you type; choose a collection below to narrow them.</p></div>
         <div class="resource-search-wrap">
           <label for="siteSearchInput">Search the archive</label>
           <input id="siteSearchInput" type="search" placeholder="try: Mosaic, cassette, Blockbuster, GeoCities…" autocomplete="off" />
@@ -394,7 +400,7 @@ def render_search_sections() -> tuple[str, str]:
             f"""        <a class="chart-year-card ready site-search-card" href="{esc(item["href"])}"{attrs}
           data-search-category="{esc(item["type"])}" data-record-type="{esc(item["recordType"])}"
           data-title="{esc(item["title"].lower())}" data-tags="{esc(tags.lower())}">
-          <span>{esc(item["recordType"]).upper()}</span>
+          <span>{esc(dict(categories).get(item['type'],item['recordType'])).upper()}{' · EXTERNAL ↗' if item['external'] else ''}</span>
           <h3>{esc(item["title"])}</h3>
           <p>{esc(item["summary"])}</p>
         </a>"""
@@ -456,6 +462,13 @@ def render_tour_main(tour: dict) -> str:
             else ""
         )
         next_label = "Complete tour" if stop["number"] == total else "Next stop"
+        connections=''
+        if stop.get('storyId'):
+            story=next(s for s in archive.STORIES if s['id']==stop['storyId'])
+            connections+=f'<a href="{archive.story_url(story)}">Read: {esc(story["title"])} →</a>'
+        if stop.get('eventId'):
+            event=archive.EVENT_BY_ID[stop['eventId']]
+            connections+=f'<a href="{archive.event_url(event)}">On the calendar: {esc(event["title"])} →</a>'
         stops.append(
             f"""      <article class="tour-stop" id="{esc(stop["id"])}" data-tour-stop="{esc(stop["id"])}" data-tour-number="{stop["number"]}">
         <p class="tour-step-label">Stop {stop["number"]} of {total}</p>
@@ -465,6 +478,7 @@ def render_tour_main(tour: dict) -> str:
         <div class="tour-artifact-row">{artifacts}</div>
 {interaction}
         <p><a href="{esc(stop["exhibitHref"])}">{esc(stop["exhibitLabel"])} →</a></p>
+        <nav class="ar-detail-links" aria-label="More from this stop">{connections}</nav>
         <div class="tour-controls">
           {back}
           <button class="button primary" type="button" data-tour-next>{next_label}</button>
@@ -573,10 +587,10 @@ def page_document(route: dict, main: str, body_class: str = "") -> str:
   <link rel="preload" href="/assets/fonts/Barlow-Regular.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/assets/fonts/BarlowCondensed-Bold.woff2" as="font" type="font/woff2" crossorigin />
 {region("head", render_head(route))}
-  <link rel="stylesheet" href="/styles.css?v=launch-phase1" />
-  <link rel="stylesheet" href="/editorial.css?v=launch-phase1" />
-  <link rel="stylesheet" href="/archive.css?v=launch-phase1" />
-  <link rel="stylesheet" href="/hub.css?v=launch-phase1" />
+  <link rel="stylesheet" href="/styles.css?v=launch-phase2" />
+  <link rel="stylesheet" href="/editorial.css?v=launch-phase2" />
+  <link rel="stylesheet" href="/archive.css?v=launch-phase2" />
+  <link rel="stylesheet" href="/hub.css?v=launch-phase2" />
 </head>
 <body{body_attr} data-route="{esc(route["path"])}" data-room="{esc(route_room(route))}">
   <a class="skip-link" href="#main-content">Skip to museum content</a>
@@ -586,7 +600,7 @@ def page_document(route: dict, main: str, body_class: str = "") -> str:
 {editorial.shell_footer()}
 {editorial.directory()}
 {region("shared-ui", render_shared_ui())}
-  <script type="module" src="/js/app.js?v=launch-phase1"></script>
+  <script type="module" src="/js/app.js?v=launch-phase2"></script>
 </body>
 </html>
 """

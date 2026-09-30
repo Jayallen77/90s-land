@@ -75,8 +75,9 @@ def finish_main(route, main, shelf):
     main = re.sub(r'(<main\b[^>]*>)',lambda m:m[0]+ed.breadcrumb(route),main,count=1)
     if route.get('type') in ('years','zones') or path == '/':
         shelf_route = dict(route)
-        if path == '/': shelf_route['artifactIds'] = ['family-pc']
-        main = main.replace('</main>',shelf(shelf_route)+'</main>')
+        if path == '/': shelf_route['artifactIds'] = ['family-pc','cassette','n64-controller','vhs-tape']
+        if '<!-- object-shelf -->' in main:main=main.replace('<!-- object-shelf -->',shelf(shelf_route))
+        else:main = main.replace('</main>',shelf(shelf_route)+'</main>')
     # Explicit retired anchors point to the nearest corresponding live section.
     aliases = json.loads((ROOT/'content/deep-links.json').read_text()).get(path,{})
     existing = set(re.findall(r'\bid="([^"]+)"',main)) | {'top','menuToggle','siteNav','museumStatus','surpriseDialog','surpriseTitle','passportDialog','passportTitle','passportResetDialog','passportResetTitle'}

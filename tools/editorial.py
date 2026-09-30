@@ -92,9 +92,9 @@ def media(key, *, hero=False):
 
 def hero(kind):
     copy = {
-        'home': ('THE 90s<br /> LIVE ON', '', 'The music, the movies, the games,<br /> the culture, and everything that<br /> made the 90s legendary.', 'Explore the decade', '/timeline/'),
-        'timeline': ('1996','A YEAR THAT HIT DIFFERENT','New dimensions. New sounds. A world getting online.<br /> Revisit the objects, releases, and cultural moments<br /> that made 1996 unforgettable.','',''),
-        'games': ('GAME ON','THE 90s GAME ERA','16-bit adventures. 3D worlds. Arcade legends.<br />Handheld gaming everywhere. The 90s changed<br />games forever — and it was only the beginning.','Explore the era','#game-guide')
+        'home': ('THE 90s<br /> LIVE ON', '', 'Pick a year. Find a familiar object.<br /> Follow a story you nearly forgot.<br /> Your next rabbit hole starts here.', 'Explore the decade', '#browse-decade'),
+        'timeline': ('1996','POCKET MONSTERS. BROWSER INBOXES.','A new controller on the couch.<br /> A tiny pet asking to be fed.<br /> Let’s open the year.','',''),
+        'games': ('GAME ON','THE 90s GAME ERA','Plug in a second controller.<br /> Borrow a cartridge. Find a secret.<br /> There’s room on the couch.','Explore the era','#game-guide')
     }[kind]
     cta = f'<a class="ed-cta" href="{copy[4]}">{copy[3]} {icon("arrow")}</a>' if copy[3] else ''
     return f'<section class="ed-hero ed-hero-{kind}">{media(kind,hero=True)}<div class="ed-hero-copy"><h1>{copy[0]}</h1>'+ (f'<h2>{copy[1]}</h2>' if copy[1] else '')+f'<p>{copy[2]}</p>{cta}</div></section>'
@@ -126,11 +126,15 @@ def home():
     categories = [('Music','music','/zones/music/'),('Movies & TV','movies','/zones/tv-movies/'),('Games','games','/zones/games/'),('Tech','tech','/zones/tech-toys/'),('Culture','culture','/zones/culture/'),('Fashion','fashion','/zones/fashion/')]
     category_html = ''.join(f'<a class="ed-category ed-color-{i}" href="{href}">{icon(key)}<strong>{title}</strong></a>' for i,(title,key,href) in enumerate(categories))
     picks = [('Friday night at the video store','/stories/friday-at-the-video-store/','blockbuster-store'),('The art of the mixtape','/stories/from-mixtape-to-file/','cassette'),('The controller that changed play','/stories/a-whole-new-dimension/','n64-controller'),('Before every room had a screen','/stories/the-family-computer/','family-pc'),('The transparent tech obsession','/stories/you-could-see-through-it/','game-boy-color'),('When the internet came in the mail','/stories/the-internet-came-in-the-mail/','aol-cd')]
-    return hero('home')+f'''<div class="ed-home-grid">
+    from archive_content import YEARS
+    years='<section class="ed-home-decade" id="browse-decade">'+heading('Browse the decade','calendar')+'<nav class="ed-decade" aria-label="Browse a year">'+''.join(f'<a href="/timeline/{y}/" aria-label="{y}: {esc(YEARS[y]["caption"])}">{y}</a>' for y in range(1990,2000))+'</nav></section>'
+    finder='<form class="ed-home-search" action="/search/" role="search"><label for="home-search">Something on your mind?</label><input id="home-search" name="q" type="search" placeholder="Try N64, Friends, or 1998" /><button type="submit" class="button">Search the museum →</button></form>'
+    experiences=f'''<section class="hub-section ed-experiences" id="take-an-experience">{heading('Take an experience','bolt')}<div class="ed-three-up"><article class="ed-panel"><p class="ar-kicker">GUIDED TOUR · 10 MINUTES</p><h3>Before the Feed</h3><p>A shared PC, a handmade homepage, a carefully chosen screen name. Follow six stops through the personal web.</p><a class="ed-cta" href="/tours/before-the-feed/">Start the tour →</a></article><article class="ed-panel"><p class="ar-kicker">ONE UNEXPECTED OBJECT</p><h3>Surprise Me</h3><p>Let the museum pick your next memory. A controller, a cassette, or a little corner of the early Web.</p><a class="ed-cta" href="/surprise/">Find a surprise →</a></article><article class="ed-panel"><p class="ar-kicker">YOUR COLLECTION</p><h3>Museum Passport</h3><p>Inspect objects, visit collections, and collect stamps. Your progress stays on this device.</p><button type="button" class="ed-cta" data-home-passport hidden>Open Passport →</button><noscript><p><a href="/archive/objects/">Browse objects</a>. Enable JavaScript to collect stamps.</p></noscript></article></div></section>'''
+    return hero('home')+years+f'''<div class="ed-home-grid">
       {week_feature()}
       <section class="ed-panel ed-feature">{heading('Featured')}{tile('A web you could make your own','/stories/a-web-you-could-make/','mosaic-browser','A public idea. A more personal kind of internet.','STORY')}</section>
-      <section class="ed-panel">{heading('Browse the 90s','folder')}<div class="ed-categories">{category_html}</div></section>
-    </div><section class="ed-picks">{heading('On heavy rotation','bolt','/stories/', '<span class="ed-selection-note">EDITOR PICKS</span>')}<div class="ed-six-up">{''.join(tile(t,h,a) for t,h,a in picks)}</div></section>'''
+      <section class="ed-panel">{heading('Explore a collection','folder')}<div class="ed-categories">{category_html}</div><a class="ed-text-link" href="/zones/internet-culture/">Internet Culture →</a></section>
+    </div>{finder}<section class="ed-picks">{heading('On heavy rotation','bolt','/stories/', '<span class="ed-selection-note">EDITOR PICKS</span>')}<div class="ed-six-up">{''.join(tile(t,h,a) for t,h,a in picks)}</div></section><!-- object-shelf -->{experiences}'''
 
 
 def main(route):

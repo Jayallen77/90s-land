@@ -1,0 +1,4613 @@
+{
+  "commit": "38e931898fcfe120bad74699904fbf848dfe5933",
+  "events": [
+    {
+      "id": "film-henry-portrait-of-a-serial-killer-1990",
+      "slug": "film-henry-portrait-of-a-serial-killer-1990",
+      "date": "1990-01-05",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1990"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-downtown-1990",
+      "slug": "film-downtown-1990",
+      "date": "1990-01-12",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1990"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-flashback-1990",
+      "slug": "film-flashback-1990",
+      "date": "1990-02-02",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1990"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-hard-to-kill-1990",
+      "slug": "film-hard-to-kill-1990",
+      "date": "1990-02-09",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1990"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-the-hunt-for-red-october-1990",
+      "slug": "film-the-hunt-for-red-october-1990",
+      "date": "1990-03-02",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1990"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-bad-influence-1990",
+      "slug": "film-bad-influence-1990",
+      "date": "1990-03-09",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1990"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-the-cook-the-thief-his-wife-and-her-lover-1990",
+      "slug": "film-the-cook-the-thief-his-wife-and-her-lover-1990",
+      "date": "1990-04-06",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1990"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-crazy-people-1990",
+      "slug": "film-crazy-people-1990",
+      "date": "1990-04-11",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1990"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "hubble-launches",
+      "slug": "hubble-launches",
+      "date": "1990-04-24",
+      "datePrecision": "day",
+      "category": "tech",
+      "region": "US",
+      "sourceIds": [
+        "nasa-hubble"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "hubble-deployed",
+      "slug": "hubble-deployed",
+      "date": "1990-04-25",
+      "datePrecision": "day",
+      "category": "tech",
+      "region": "Global",
+      "sourceIds": [
+        "nasa-hubble"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-tie-me-up-tie-me-down-1990",
+      "slug": "film-tie-me-up-tie-me-down-1990",
+      "date": "1990-05-01",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1990"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-happy-together-1990",
+      "slug": "film-happy-together-1990",
+      "date": "1990-05-04",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1990"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-total-recall-1990",
+      "slug": "film-total-recall-1990",
+      "date": "1990-06-01",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1990"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-another-48-hrs-1990",
+      "slug": "film-another-48-hrs-1990",
+      "date": "1990-06-08",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1990"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-die-hard-2-1990",
+      "slug": "film-die-hard-2-1990",
+      "date": "1990-07-03",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1990"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-jetsons-the-movie-1990",
+      "slug": "film-jetsons-the-movie-1990",
+      "date": "1990-07-06",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1990"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-young-guns-ii-1990",
+      "slug": "film-young-guns-ii-1990",
+      "date": "1990-08-01",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1990"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-ducktales-the-movie-treasure-of-the-lost-lamp-1990",
+      "slug": "film-ducktales-the-movie-treasure-of-the-lost-lamp-1990",
+      "date": "1990-08-03",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1990"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-goodfellas-1990",
+      "slug": "film-goodfellas-1990",
+      "date": "1990-09-19",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-goodfellas"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-graveyard-shift-1990",
+      "slug": "film-graveyard-shift-1990",
+      "date": "1990-10-26",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-graveyard-shift"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-childs-play-2-1990",
+      "slug": "film-childs-play-2-1990",
+      "date": "1990-11-09",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1990"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-eating-1990",
+      "slug": "film-eating-1990",
+      "date": "1990-11-16",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1990"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-edward-scissorhands-1990",
+      "slug": "film-edward-scissorhands-1990",
+      "date": "1990-12-07",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1990"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-havana-1990",
+      "slug": "film-havana-1990",
+      "date": "1990-12-12",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1990"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-lionheart-1991",
+      "slug": "film-lionheart-1991",
+      "date": "1991-01-11",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1991"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-white-fang-1991",
+      "slug": "film-white-fang-1991",
+      "date": "1991-01-18",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1991"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-sleeping-with-the-enemy-1991",
+      "slug": "film-sleeping-with-the-enemy-1991",
+      "date": "1991-02-08",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1991"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-the-silence-of-the-lambs-1991",
+      "slug": "film-the-silence-of-the-lambs-1991",
+      "date": "1991-02-14",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1991"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-new-jack-city-1991",
+      "slug": "film-new-jack-city-1991",
+      "date": "1991-03-08",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1991"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-teenage-mutant-ninja-turtles-ii-the-secret-of-the-ooze-1991",
+      "slug": "film-teenage-mutant-ninja-turtles-ii-the-secret-of-the-ooze-1991",
+      "date": "1991-03-22",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1991"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-out-for-justice-1991",
+      "slug": "film-out-for-justice-1991",
+      "date": "1991-04-12",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1991"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-oscar-1991",
+      "slug": "film-oscar-1991",
+      "date": "1991-04-26",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1991"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-what-about-bob-1991",
+      "slug": "film-what-about-bob-1991",
+      "date": "1991-05-17",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1991"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-backdraft-1991",
+      "slug": "film-backdraft-1991",
+      "date": "1991-05-24",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1991"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-city-slickers-1991",
+      "slug": "film-city-slickers-1991",
+      "date": "1991-06-07",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1991"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-robin-hood-prince-of-thieves-1991",
+      "slug": "film-robin-hood-prince-of-thieves-1991",
+      "date": "1991-06-14",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1991"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-terminator-2-judgment-day-1991",
+      "slug": "film-terminator-2-judgment-day-1991",
+      "date": "1991-07-02",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1991"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-hot-shots-1991",
+      "slug": "film-hot-shots-1991",
+      "date": "1991-07-31",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1991"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-doc-hollywood-1991",
+      "slug": "film-doc-hollywood-1991",
+      "date": "1991-08-02",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1991"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "metallica-black-album",
+      "slug": "metallica-black-album",
+      "date": "1991-08-12",
+      "datePrecision": "day",
+      "category": "music",
+      "region": "Global",
+      "sourceIds": [
+        "metallica-discography"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-dead-again-1991",
+      "slug": "film-dead-again-1991",
+      "date": "1991-08-23",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1991"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-freddys-dead-the-final-nightmare-1991",
+      "slug": "film-freddys-dead-the-final-nightmare-1991",
+      "date": "1991-09-13",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1991"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-the-fisher-king-1991",
+      "slug": "film-the-fisher-king-1991",
+      "date": "1991-09-20",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1991"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "nevermind",
+      "slug": "nevermind",
+      "date": "1991-09-24",
+      "datePrecision": "day",
+      "category": "music",
+      "region": "US",
+      "sourceIds": [
+        "nirvana-timeline"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-other-people-s-money-1991",
+      "slug": "film-other-people-s-money-1991",
+      "date": "1991-10-18",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1991"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-curly-sue-1991",
+      "slug": "film-curly-sue-1991",
+      "date": "1991-10-25",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1991"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-beauty-and-the-beast-1991",
+      "slug": "film-beauty-and-the-beast-1991",
+      "date": "1991-11-13",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1991"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-the-addams-family-1991",
+      "slug": "film-the-addams-family-1991",
+      "date": "1991-11-22",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1991"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-hook-1991",
+      "slug": "film-hook-1991",
+      "date": "1991-12-11",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1991"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-father-of-the-bride-1991",
+      "slug": "film-father-of-the-bride-1991",
+      "date": "1991-12-20",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1991"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-the-hand-that-rocks-the-cradle-1992",
+      "slug": "film-the-hand-that-rocks-the-cradle-1992",
+      "date": "1992-01-10",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1992"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-shining-through-1992",
+      "slug": "film-shining-through-1992",
+      "date": "1992-01-31",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1992"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-medicine-man-1992",
+      "slug": "film-medicine-man-1992",
+      "date": "1992-02-07",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1992"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-wayne-s-world-1992",
+      "slug": "film-wayne-s-world-1992",
+      "date": "1992-02-14",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1992"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-basic-instinct-1992",
+      "slug": "film-basic-instinct-1992",
+      "date": "1992-03-20",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1992"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-white-men-can-t-jump-1992",
+      "slug": "film-white-men-can-t-jump-1992",
+      "date": "1992-03-27",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1992"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-beethoven-1992",
+      "slug": "film-beethoven-1992",
+      "date": "1992-04-03",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1992"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "windows-31-ships",
+      "slug": "windows-31-ships",
+      "date": "1992-04-06",
+      "datePrecision": "day",
+      "category": "tech",
+      "region": "Global",
+      "sourceIds": [
+        "microsoft-1992"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-sleepwalkers-1992",
+      "slug": "film-sleepwalkers-1992",
+      "date": "1992-04-10",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1992"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-lethal-weapon-3-1992",
+      "slug": "film-lethal-weapon-3-1992",
+      "date": "1992-05-15",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1992"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-sister-act-1992",
+      "slug": "film-sister-act-1992",
+      "date": "1992-05-29",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1992"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-patriot-games-1992",
+      "slug": "film-patriot-games-1992",
+      "date": "1992-06-05",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1992"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-batman-returns-1992",
+      "slug": "film-batman-returns-1992",
+      "date": "1992-06-18",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1992"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-a-league-of-their-own-1992",
+      "slug": "film-a-league-of-their-own-1992",
+      "date": "1992-07-01",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1992"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-boomerang-1992",
+      "slug": "film-boomerang-1992",
+      "date": "1992-07-01",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1992"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-unforgiven-1992",
+      "slug": "film-unforgiven-1992",
+      "date": "1992-08-07",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1992"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "mall-of-america-opens",
+      "slug": "mall-of-america-opens",
+      "date": "1992-08-11",
+      "datePrecision": "day",
+      "category": "culture",
+      "region": "US",
+      "sourceIds": [
+        "mall-of-america-opens-source"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-single-white-female-1992",
+      "slug": "film-single-white-female-1992",
+      "date": "1992-08-14",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1992"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-sneakers-1992",
+      "slug": "film-sneakers-1992",
+      "date": "1992-09-09",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1992"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-the-last-of-the-mohicans-1992",
+      "slug": "film-the-last-of-the-mohicans-1992",
+      "date": "1992-09-25",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1992"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-the-mighty-ducks-1992",
+      "slug": "film-the-mighty-ducks-1992",
+      "date": "1992-10-02",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1992"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-under-siege-1992",
+      "slug": "film-under-siege-1992",
+      "date": "1992-10-09",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1992"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-aladdin-1992",
+      "slug": "film-aladdin-1992",
+      "date": "1992-11-11",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1992"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-home-alone-2-lost-in-new-york-1992",
+      "slug": "film-home-alone-2-lost-in-new-york-1992",
+      "date": "1992-11-20",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1992"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-a-few-good-men-1992",
+      "slug": "film-a-few-good-men-1992",
+      "date": "1992-12-11",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1992"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "incesticide",
+      "slug": "incesticide",
+      "date": "1992-12-15",
+      "datePrecision": "day",
+      "category": "music",
+      "region": "US",
+      "sourceIds": [
+        "nirvana-timeline"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-scent-of-a-woman-1992",
+      "slug": "film-scent-of-a-woman-1992",
+      "date": "1992-12-23",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1992"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "elvis-stamp-issued",
+      "slug": "elvis-stamp-issued",
+      "date": "1993-01-08",
+      "datePrecision": "day",
+      "category": "culture",
+      "region": "US",
+      "sourceIds": [
+        "elvis-stamp-issued-source"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-alive-1993",
+      "slug": "film-alive-1993",
+      "date": "1993-01-15",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1993"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-nowhere-to-run-1993",
+      "slug": "film-nowhere-to-run-1993",
+      "date": "1993-01-15",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1993"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-sommersby-1993",
+      "slug": "film-sommersby-1993",
+      "date": "1993-02-05",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1993"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-groundhog-day-1993",
+      "slug": "film-groundhog-day-1993",
+      "date": "1993-02-12",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1993"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-point-of-no-return-1993",
+      "slug": "film-point-of-no-return-1993",
+      "date": "1993-03-19",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1993"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-teenage-mutant-ninja-turtles-iii-1993",
+      "slug": "film-teenage-mutant-ninja-turtles-iii-1993",
+      "date": "1993-03-19",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1993"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-indecent-proposal-1993",
+      "slug": "film-indecent-proposal-1993",
+      "date": "1993-04-07",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1993"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-the-sandlot-1993",
+      "slug": "film-the-sandlot-1993",
+      "date": "1993-04-07",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1993"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "cern-opens-web",
+      "slug": "cern-opens-web",
+      "date": "1993-04-30",
+      "datePrecision": "day",
+      "category": "tech",
+      "region": "Global",
+      "sourceIds": [
+        "cern-web"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-dave-1993",
+      "slug": "film-dave-1993",
+      "date": "1993-05-07",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1993"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-cliffhanger-1993",
+      "slug": "film-cliffhanger-1993",
+      "date": "1993-05-28",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1993"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-jurassic-park-1993",
+      "slug": "film-jurassic-park-1993",
+      "date": "1993-06-11",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1993"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-the-firm-1993",
+      "slug": "film-the-firm-1993",
+      "date": "1993-06-30",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1993"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-in-the-line-of-fire-1993",
+      "slug": "film-in-the-line-of-fire-1993",
+      "date": "1993-07-09",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1993"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-aladdin-1993",
+      "slug": "film-aladdin-1993",
+      "date": "1993-07-30",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1993"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-the-fugitive-1993",
+      "slug": "film-the-fugitive-1993",
+      "date": "1993-08-06",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1993"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-hard-target-1993",
+      "slug": "film-hard-target-1993",
+      "date": "1993-08-20",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1993"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-the-joy-luck-club-1993",
+      "slug": "film-the-joy-luck-club-1993",
+      "date": "1993-09-08",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1993"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "in-utero",
+      "slug": "in-utero",
+      "date": "1993-09-21",
+      "datePrecision": "day",
+      "category": "music",
+      "region": "US",
+      "sourceIds": [
+        "nirvana-timeline"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-the-good-son-1993",
+      "slug": "film-the-good-son-1993",
+      "date": "1993-09-24",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1993"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-cool-runnings-1993",
+      "slug": "film-cool-runnings-1993",
+      "date": "1993-10-01",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1993"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-the-nightmare-before-christmas-1993",
+      "slug": "film-the-nightmare-before-christmas-1993",
+      "date": "1993-10-13",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1993"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-the-three-musketeers-1993",
+      "slug": "film-the-three-musketeers-1993",
+      "date": "1993-11-12",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1993"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-mrs-doubtfire-1993",
+      "slug": "film-mrs-doubtfire-1993",
+      "date": "1993-11-24",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1993"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-schindlers-list-1993",
+      "slug": "film-schindlers-list-1993",
+      "date": "1993-12-15",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1993"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-the-pelican-brief-1993",
+      "slug": "film-the-pelican-brief-1993",
+      "date": "1993-12-17",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1993"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-desert-winds-1994",
+      "slug": "film-desert-winds-1994",
+      "date": "1994-01-01",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1994"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-the-air-up-there-1994",
+      "slug": "film-the-air-up-there-1994",
+      "date": "1994-01-07",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1994"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-naked-1994",
+      "slug": "film-naked-1994",
+      "date": "1994-02-01",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1994"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-ace-ventura-pet-detective-1994",
+      "slug": "film-ace-ventura-pet-detective-1994",
+      "date": "1994-02-04",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1994"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-silent-tongue-1994",
+      "slug": "film-silent-tongue-1994",
+      "date": "1994-03-01",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1994"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-angie-1994",
+      "slug": "film-angie-1994",
+      "date": "1994-03-04",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1994"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-bitter-moon-1994",
+      "slug": "film-bitter-moon-1994",
+      "date": "1994-04-01",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1994"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-holy-matrimony-1994",
+      "slug": "film-holy-matrimony-1994",
+      "date": "1994-04-08",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1994"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "mandela-first-vote",
+      "slug": "mandela-first-vote",
+      "date": "1994-04-27",
+      "datePrecision": "day",
+      "category": "news",
+      "region": "South Africa",
+      "sourceIds": [
+        "mandela-vote"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-widow-s-peak-1994",
+      "slug": "film-widow-s-peak-1994",
+      "date": "1994-05-01",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1994"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-3-ninjas-kick-back-1994",
+      "slug": "film-3-ninjas-kick-back-1994",
+      "date": "1994-05-06",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1994"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-windrunner-1994",
+      "slug": "film-windrunner-1994",
+      "date": "1994-06-01",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1994"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-the-cowboy-way-1994",
+      "slug": "film-the-cowboy-way-1994",
+      "date": "1994-06-03",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1994"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-babys-day-out-1994",
+      "slug": "film-babys-day-out-1994",
+      "date": "1994-07-01",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1994"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-forrest-gump-1994",
+      "slug": "film-forrest-gump-1994",
+      "date": "1994-07-06",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1994"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-andre-1994",
+      "slug": "film-andre-1994",
+      "date": "1994-08-17",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1994"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-blankman-1994",
+      "slug": "film-blankman-1994",
+      "date": "1994-08-19",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1994"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-a-simple-twist-of-fate-1994",
+      "slug": "film-a-simple-twist-of-fate-1994",
+      "date": "1994-09-02",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1994"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-arizona-dream-1994",
+      "slug": "film-arizona-dream-1994",
+      "date": "1994-09-09",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1994"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-pulp-fiction-1994",
+      "slug": "film-pulp-fiction-1994",
+      "date": "1994-10-14",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-pulp-fiction"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-the-santa-clause-1994",
+      "slug": "film-the-santa-clause-1994",
+      "date": "1994-11-11",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-the-santa-clause"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "playstation-japan",
+      "slug": "playstation-japan",
+      "date": "1994-12-03",
+      "datePrecision": "day",
+      "category": "games",
+      "region": "Japan",
+      "sourceIds": [
+        "playstation-history"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-dumb-dumber-1994",
+      "slug": "film-dumb-dumber-1994",
+      "date": "1994-12-16",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-dumb-dumber"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-houseguest-1995",
+      "slug": "film-houseguest-1995",
+      "date": "1995-01-06",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1995"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-higher-learning-1995",
+      "slug": "film-higher-learning-1995",
+      "date": "1995-01-11",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1995"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-just-cause-1995",
+      "slug": "film-just-cause-1995",
+      "date": "1995-02-17",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1995"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-the-brady-bunch-movie-1995",
+      "slug": "film-the-brady-bunch-movie-1995",
+      "date": "1995-02-17",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1995"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-man-of-the-house-1995",
+      "slug": "film-man-of-the-house-1995",
+      "date": "1995-03-03",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1995"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-outbreak-1995",
+      "slug": "film-outbreak-1995",
+      "date": "1995-03-10",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1995"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-bad-boys-1995",
+      "slug": "film-bad-boys-1995",
+      "date": "1995-04-07",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1995"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-while-you-were-sleeping-1995",
+      "slug": "film-while-you-were-sleeping-1995",
+      "date": "1995-04-21",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1995"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-die-hard-with-a-vengeance-1995",
+      "slug": "film-die-hard-with-a-vengeance-1995",
+      "date": "1995-05-19",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1995"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-casper-1995",
+      "slug": "film-casper-1995",
+      "date": "1995-05-26",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1995"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-batman-forever-1995",
+      "slug": "film-batman-forever-1995",
+      "date": "1995-06-16",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1995"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-apollo-13-1995",
+      "slug": "film-apollo-13-1995",
+      "date": "1995-06-30",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1995"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-nine-months-1995",
+      "slug": "film-nine-months-1995",
+      "date": "1995-07-12",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1995"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-waterworld-1995",
+      "slug": "film-waterworld-1995",
+      "date": "1995-07-28",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1995"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-dangerous-minds-1995",
+      "slug": "film-dangerous-minds-1995",
+      "date": "1995-08-11",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1995"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-mortal-kombat-1995",
+      "slug": "film-mortal-kombat-1995",
+      "date": "1995-08-18",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1995"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "windows-95-launch",
+      "slug": "windows-95-launch",
+      "date": "1995-08-24",
+      "datePrecision": "day",
+      "category": "tech",
+      "region": "Global",
+      "sourceIds": [
+        "windows-95"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-to-wong-foo-thanks-for-everything-julie-newmar-1995",
+      "slug": "film-to-wong-foo-thanks-for-everything-julie-newmar-1995",
+      "date": "1995-09-08",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1995"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "playstation-north-america",
+      "slug": "playstation-north-america",
+      "date": "1995-09-09",
+      "datePrecision": "day",
+      "category": "games",
+      "region": "North America",
+      "sourceIds": [
+        "playstation-history"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-se7en-1995",
+      "slug": "film-se7en-1995",
+      "date": "1995-09-15",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1995"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-get-shorty-1995",
+      "slug": "film-get-shorty-1995",
+      "date": "1995-10-20",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1995"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-copycat-1995",
+      "slug": "film-copycat-1995",
+      "date": "1995-10-27",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1995"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-ace-ventura-when-nature-calls-1995",
+      "slug": "film-ace-ventura-when-nature-calls-1995",
+      "date": "1995-11-10",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1995"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-toy-story-1995",
+      "slug": "film-toy-story-1995",
+      "date": "1995-11-22",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1995"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-jumanji-1995",
+      "slug": "film-jumanji-1995",
+      "date": "1995-12-15",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1995"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-mr-holland-s-opus-1995",
+      "slug": "film-mr-holland-s-opus-1995",
+      "date": "1995-12-29",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1995"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "orange-bowl-1996",
+      "slug": "orange-bowl-1996",
+      "date": "1996-01-01",
+      "datePrecision": "day",
+      "category": "culture",
+      "region": "US",
+      "sourceIds": [
+        "orange-history"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "rose-bowl-1996",
+      "slug": "rose-bowl-1996",
+      "date": "1996-01-01",
+      "datePrecision": "day",
+      "category": "culture",
+      "region": "US",
+      "sourceIds": [
+        "rose-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "fiesta-bowl-1996",
+      "slug": "fiesta-bowl-1996",
+      "date": "1996-01-02",
+      "datePrecision": "day",
+      "category": "culture",
+      "region": "US",
+      "sourceIds": [
+        "fiesta-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "sts-72-launch",
+      "slug": "sts-72-launch",
+      "date": "1996-01-11",
+      "datePrecision": "day",
+      "category": "tech",
+      "region": "US",
+      "sourceIds": [
+        "sts-72"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-bio-dome-1996",
+      "slug": "film-bio-dome-1996",
+      "date": "1996-01-12",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-don-t-be-a-menace-to-south-central-while-drinking-your-juice-in-the-hood-1996",
+      "slug": "film-don-t-be-a-menace-to-south-central-while-drinking-your-juice-in-the-hood-1996",
+      "date": "1996-01-12",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "hubble-deep-field",
+      "slug": "hubble-deep-field",
+      "date": "1996-01-15",
+      "datePrecision": "day",
+      "category": "tech",
+      "region": "US",
+      "sourceIds": [
+        "hubble-deep-field"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-from-dusk-till-dawn-1996",
+      "slug": "film-from-dusk-till-dawn-1996",
+      "date": "1996-01-19",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "sts-72-landing",
+      "slug": "sts-72-landing",
+      "date": "1996-01-20",
+      "datePrecision": "day",
+      "category": "tech",
+      "region": "US",
+      "sourceIds": [
+        "sts-72"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-angels-and-insects-1996",
+      "slug": "film-angels-and-insects-1996",
+      "date": "1996-01-26",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-bed-of-roses-1996",
+      "slug": "film-bed-of-roses-1996",
+      "date": "1996-01-26",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-big-bully-1996",
+      "slug": "film-big-bully-1996",
+      "date": "1996-01-26",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-black-sheep-1996",
+      "slug": "film-black-sheep-1996",
+      "date": "1996-02-02",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-the-juror-1996",
+      "slug": "film-the-juror-1996",
+      "date": "1996-02-02",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-white-squall-1996",
+      "slug": "film-white-squall-1996",
+      "date": "1996-02-02",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-a-midwinter-s-tale-1996",
+      "slug": "film-a-midwinter-s-tale-1996",
+      "date": "1996-02-09",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-antonia-s-line-1996",
+      "slug": "film-antonia-s-line-1996",
+      "date": "1996-02-09",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-beautiful-girls-1996",
+      "slug": "film-beautiful-girls-1996",
+      "date": "1996-02-09",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-nueba-yol-1996",
+      "slug": "film-nueba-yol-1996",
+      "date": "1996-02-14",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-city-hall-1996",
+      "slug": "film-city-hall-1996",
+      "date": "1996-02-16",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-happy-gilmore-1996",
+      "slug": "film-happy-gilmore-1996",
+      "date": "1996-02-16",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-bottle-rocket-1996",
+      "slug": "film-bottle-rocket-1996",
+      "date": "1996-02-21",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-anne-frank-remembered-1996",
+      "slug": "film-anne-frank-remembered-1996",
+      "date": "1996-02-22",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-rumble-in-the-bronx-1996",
+      "slug": "film-rumble-in-the-bronx-1996",
+      "date": "1996-02-23",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "pokemon-red-green-japan",
+      "slug": "pokemon-red-green-japan",
+      "date": "1996-02-27",
+      "datePrecision": "day",
+      "category": "games",
+      "region": "Japan",
+      "sourceIds": [
+        "pokemon-day"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-bloodsport-2-1996",
+      "slug": "film-bloodsport-2-1996",
+      "date": "1996-03-01",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-down-periscope-1996",
+      "slug": "film-down-periscope-1996",
+      "date": "1996-03-01",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-all-things-fair-1996",
+      "slug": "film-all-things-fair-1996",
+      "date": "1996-03-08",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-fargo-1996",
+      "slug": "film-fargo-1996",
+      "date": "1996-03-08",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-homeward-bound-ii-lost-in-san-francisco-1996",
+      "slug": "film-homeward-bound-ii-lost-in-san-francisco-1996",
+      "date": "1996-03-08",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-ed-1996",
+      "slug": "film-ed-1996",
+      "date": "1996-03-15",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-executive-decision-1996",
+      "slug": "film-executive-decision-1996",
+      "date": "1996-03-15",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-two-much-1996",
+      "slug": "film-two-much-1996",
+      "date": "1996-03-15",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-diabolique-1996",
+      "slug": "film-diabolique-1996",
+      "date": "1996-03-22",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-flirting-with-disaster-1996",
+      "slug": "film-flirting-with-disaster-1996",
+      "date": "1996-03-22",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-frisk-1996",
+      "slug": "film-frisk-1996",
+      "date": "1996-03-22",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-a-family-thing-1996",
+      "slug": "film-a-family-thing-1996",
+      "date": "1996-03-29",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-all-dogs-go-to-heaven-2-1996",
+      "slug": "film-all-dogs-go-to-heaven-2-1996",
+      "date": "1996-03-29",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-carried-away-1996",
+      "slug": "film-carried-away-1996",
+      "date": "1996-03-29",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-access-denied-1996",
+      "slug": "film-access-denied-1996",
+      "date": "1996-04-01",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-bang-1996",
+      "slug": "film-bang-1996",
+      "date": "1996-04-01",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-primal-fear-1996",
+      "slug": "film-primal-fear-1996",
+      "date": "1996-04-05",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-fear-1996",
+      "slug": "film-fear-1996",
+      "date": "1996-04-12",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-getting-away-with-murder-1996",
+      "slug": "film-getting-away-with-murder-1996",
+      "date": "1996-04-12",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-james-and-the-giant-peach-1996",
+      "slug": "film-james-and-the-giant-peach-1996",
+      "date": "1996-04-12",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-august-1996",
+      "slug": "film-august-1996",
+      "date": "1996-04-19",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-celtic-pride-1996",
+      "slug": "film-celtic-pride-1996",
+      "date": "1996-04-19",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-mrs-winterbourne-1996",
+      "slug": "film-mrs-winterbourne-1996",
+      "date": "1996-04-19",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-two-friends-1996",
+      "slug": "film-two-friends-1996",
+      "date": "1996-04-24",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-the-quest-1996",
+      "slug": "film-the-quest-1996",
+      "date": "1996-04-26",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-the-truth-about-cats-dogs-1996",
+      "slug": "film-the-truth-about-cats-dogs-1996",
+      "date": "1996-04-26",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-i-shot-andy-warhol-1996",
+      "slug": "film-i-shot-andy-warhol-1996",
+      "date": "1996-05-01",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-barb-wire-1996",
+      "slug": "film-barb-wire-1996",
+      "date": "1996-05-03",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-captives-1996",
+      "slug": "film-captives-1996",
+      "date": "1996-05-03",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-boys-1996",
+      "slug": "film-boys-1996",
+      "date": "1996-05-10",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-someone-else-s-america-1996",
+      "slug": "film-someone-else-s-america-1996",
+      "date": "1996-05-10",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-twister-1996",
+      "slug": "film-twister-1996",
+      "date": "1996-05-10",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-ashes-of-time-1996",
+      "slug": "film-ashes-of-time-1996",
+      "date": "1996-05-17",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-flipper-1996",
+      "slug": "film-flipper-1996",
+      "date": "1996-05-17",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-heaven-s-prisoners-1996",
+      "slug": "film-heaven-s-prisoners-1996",
+      "date": "1996-05-17",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-a-boy-called-hate-1996",
+      "slug": "film-a-boy-called-hate-1996",
+      "date": "1996-05-22",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-guimba-the-tyrant-1996",
+      "slug": "film-guimba-the-tyrant-1996",
+      "date": "1996-05-24",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-spy-hard-1996",
+      "slug": "film-spy-hard-1996",
+      "date": "1996-05-24",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-dragonheart-1996",
+      "slug": "film-dragonheart-1996",
+      "date": "1996-05-31",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-eddie-1996",
+      "slug": "film-eddie-1996",
+      "date": "1996-05-31",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-the-arrival-1996",
+      "slug": "film-the-arrival-1996",
+      "date": "1996-05-31",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "metallica-load",
+      "slug": "metallica-load",
+      "date": "1996-06-04",
+      "datePrecision": "day",
+      "category": "music",
+      "region": "US",
+      "sourceIds": [
+        "metallica-discography"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-the-phantom-1996",
+      "slug": "film-the-phantom-1996",
+      "date": "1996-06-07",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-the-rock-1996",
+      "slug": "film-the-rock-1996",
+      "date": "1996-06-07",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-moll-flanders-1996",
+      "slug": "film-moll-flanders-1996",
+      "date": "1996-06-14",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-stealing-beauty-1996",
+      "slug": "film-stealing-beauty-1996",
+      "date": "1996-06-14",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-the-cable-guy-1996",
+      "slug": "film-the-cable-guy-1996",
+      "date": "1996-06-14",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-eraser-1996",
+      "slug": "film-eraser-1996",
+      "date": "1996-06-21",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "quake-shareware",
+      "slug": "quake-shareware",
+      "date": "1996-06-22",
+      "datePrecision": "day",
+      "category": "games",
+      "region": "Global",
+      "sourceIds": [
+        "quake-anniversary"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "nintendo-64-japan",
+      "slug": "nintendo-64-japan",
+      "date": "1996-06-23",
+      "datePrecision": "day",
+      "category": "games",
+      "region": "Japan",
+      "sourceIds": [
+        "nintendo-world"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-maybe-maybe-not-1996",
+      "slug": "film-maybe-maybe-not-1996",
+      "date": "1996-06-28",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-striptease-1996",
+      "slug": "film-striptease-1996",
+      "date": "1996-06-28",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-the-nutty-professor-1996",
+      "slug": "film-the-nutty-professor-1996",
+      "date": "1996-06-28",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "hotmail-launch",
+      "slug": "hotmail-launch",
+      "date": "1996-07-04",
+      "datePrecision": "day",
+      "category": "tech",
+      "region": "International",
+      "sourceIds": [
+        "hotmail-announcement"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "dolly-born",
+      "slug": "dolly-born",
+      "date": "1996-07-05",
+      "datePrecision": "day",
+      "category": "tech",
+      "region": "UK",
+      "sourceIds": [
+        "dolly-birth"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-phenomenon-1996",
+      "slug": "film-phenomenon-1996",
+      "date": "1996-07-05",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-harriet-the-spy-1996",
+      "slug": "film-harriet-the-spy-1996",
+      "date": "1996-07-10",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-courage-under-fire-1996",
+      "slug": "film-courage-under-fire-1996",
+      "date": "1996-07-12",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-lover-s-knot-1996",
+      "slug": "film-lover-s-knot-1996",
+      "date": "1996-07-12",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-kazaam-1996",
+      "slug": "film-kazaam-1996",
+      "date": "1996-07-17",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-multiplicity-1996",
+      "slug": "film-multiplicity-1996",
+      "date": "1996-07-17",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-trainspotting-1996",
+      "slug": "film-trainspotting-1996",
+      "date": "1996-07-19",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-vive-lamour-1996",
+      "slug": "film-vive-lamour-1996",
+      "date": "1996-07-22",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-a-time-to-kill-1996",
+      "slug": "film-a-time-to-kill-1996",
+      "date": "1996-07-24",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-joe-s-apartment-1996",
+      "slug": "film-joe-s-apartment-1996",
+      "date": "1996-07-26",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-chain-reaction-1996",
+      "slug": "film-chain-reaction-1996",
+      "date": "1996-08-02",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-cyclo-1996",
+      "slug": "film-cyclo-1996",
+      "date": "1996-08-02",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-emma-1996",
+      "slug": "film-emma-1996",
+      "date": "1996-08-02",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-flirt-1996",
+      "slug": "film-flirt-1996",
+      "date": "1996-08-07",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-basquiat-1996",
+      "slug": "film-basquiat-1996",
+      "date": "1996-08-09",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-escape-from-l-a-1996",
+      "slug": "film-escape-from-l-a-1996",
+      "date": "1996-08-09",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-alaska-1996",
+      "slug": "film-alaska-1996",
+      "date": "1996-08-14",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-kansas-city-1996",
+      "slug": "film-kansas-city-1996",
+      "date": "1996-08-16",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-the-fan-1996",
+      "slug": "film-the-fan-1996",
+      "date": "1996-08-16",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-a-very-brady-sequel-1996",
+      "slug": "film-a-very-brady-sequel-1996",
+      "date": "1996-08-23",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-foxfire-1996",
+      "slug": "film-foxfire-1996",
+      "date": "1996-08-23",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-she-s-the-one-1996",
+      "slug": "film-she-s-the-one-1996",
+      "date": "1996-08-23",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-first-kid-1996",
+      "slug": "film-first-kid-1996",
+      "date": "1996-08-30",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-normal-life-1996",
+      "slug": "film-normal-life-1996",
+      "date": "1996-08-30",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-the-crow-city-of-angels-1996",
+      "slug": "film-the-crow-city-of-angels-1996",
+      "date": "1996-08-30",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-a-modern-affair-1996",
+      "slug": "film-a-modern-affair-1996",
+      "date": "1996-09-06",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-bogus-1996",
+      "slug": "film-bogus-1996",
+      "date": "1996-09-06",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-killer-a-journal-of-murder-1996",
+      "slug": "film-killer-a-journal-of-murder-1996",
+      "date": "1996-09-06",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-american-buffalo-1996",
+      "slug": "film-american-buffalo-1996",
+      "date": "1996-09-13",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-american-strays-1996",
+      "slug": "film-american-strays-1996",
+      "date": "1996-09-13",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-beaumarchais-the-scoundrel-1996",
+      "slug": "film-beaumarchais-the-scoundrel-1996",
+      "date": "1996-09-13",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-big-night-1996",
+      "slug": "film-big-night-1996",
+      "date": "1996-09-20",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-last-man-standing-1996",
+      "slug": "film-last-man-standing-1996",
+      "date": "1996-09-20",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-the-first-wives-club-1996",
+      "slug": "film-the-first-wives-club-1996",
+      "date": "1996-09-20",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-2-days-in-the-valley-1996",
+      "slug": "film-2-days-in-the-valley-1996",
+      "date": "1996-09-27",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-curdled-1996",
+      "slug": "film-curdled-1996",
+      "date": "1996-09-27",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "nintendo-64-us",
+      "slug": "nintendo-64-us",
+      "date": "1996-09-29",
+      "datePrecision": "day",
+      "category": "games",
+      "region": "US",
+      "sourceIds": [
+        "nintendo-us"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-bound-1996",
+      "slug": "film-bound-1996",
+      "date": "1996-10-04",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-crash-1996",
+      "slug": "film-crash-1996",
+      "date": "1996-10-04",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-the-glimmer-man-1996",
+      "slug": "film-the-glimmer-man-1996",
+      "date": "1996-10-04",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-michael-collins-1996",
+      "slug": "film-michael-collins-1996",
+      "date": "1996-10-11",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-the-chamber-1996",
+      "slug": "film-the-chamber-1996",
+      "date": "1996-10-11",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-the-ghost-and-the-darkness-1996",
+      "slug": "film-the-ghost-and-the-darkness-1996",
+      "date": "1996-10-11",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-get-on-the-bus-1996",
+      "slug": "film-get-on-the-bus-1996",
+      "date": "1996-10-16",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-i-shot-a-man-in-vegas-1996",
+      "slug": "film-i-shot-a-man-in-vegas-1996",
+      "date": "1996-10-18",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-swingers-1996",
+      "slug": "film-swingers-1996",
+      "date": "1996-10-18",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-high-school-high-1996",
+      "slug": "film-high-school-high-1996",
+      "date": "1996-10-25",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-the-associate-1996",
+      "slug": "film-the-associate-1996",
+      "date": "1996-10-25",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-thinner-1996",
+      "slug": "film-thinner-1996",
+      "date": "1996-10-25",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-bad-moon-1996",
+      "slug": "film-bad-moon-1996",
+      "date": "1996-11-01",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-dear-god-1996",
+      "slug": "film-dear-god-1996",
+      "date": "1996-11-01",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-la-promesse-1996",
+      "slug": "film-la-promesse-1996",
+      "date": "1996-11-01",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-set-it-off-1996",
+      "slug": "film-set-it-off-1996",
+      "date": "1996-11-06",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-garden-of-the-finzi-continis-1996",
+      "slug": "film-garden-of-the-finzi-continis-1996",
+      "date": "1996-11-08",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-hype-1996",
+      "slug": "film-hype-1996",
+      "date": "1996-11-08",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-the-english-patient-1996",
+      "slug": "film-the-english-patient-1996",
+      "date": "1996-11-15",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-the-mirror-has-two-faces-1996",
+      "slug": "film-the-mirror-has-two-faces-1996",
+      "date": "1996-11-15",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "space-jam-la",
+      "slug": "space-jam-la",
+      "date": "1996-11-15",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "US",
+      "sourceIds": [
+        "space-jam"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-far-harbor-1996",
+      "slug": "film-far-harbor-1996",
+      "date": "1996-11-20",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-star-trek-first-contact-1996",
+      "slug": "film-star-trek-first-contact-1996",
+      "date": "1996-11-22",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "tamagotchi-japan",
+      "slug": "tamagotchi-japan",
+      "date": "1996-11-23",
+      "datePrecision": "day",
+      "category": "culture",
+      "region": "Japan",
+      "sourceIds": [
+        "tamagotchi"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-101-dalmatians-1996",
+      "slug": "film-101-dalmatians-1996",
+      "date": "1996-11-27",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-zero-kelvin-1996",
+      "slug": "film-zero-kelvin-1996",
+      "date": "1996-11-27",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-the-crucible-1996",
+      "slug": "film-the-crucible-1996",
+      "date": "1996-11-29",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-adrenalin-fear-the-rush-1996",
+      "slug": "film-adrenalin-fear-the-rush-1996",
+      "date": "1996-12-06",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-daylight-1996",
+      "slug": "film-daylight-1996",
+      "date": "1996-12-06",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-everyone-says-i-love-you-1996",
+      "slug": "film-everyone-says-i-love-you-1996",
+      "date": "1996-12-06",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-citizen-ruth-1996",
+      "slug": "film-citizen-ruth-1996",
+      "date": "1996-12-13",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-jerry-maguire-1996",
+      "slug": "film-jerry-maguire-1996",
+      "date": "1996-12-13",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-mars-attacks-1996",
+      "slug": "film-mars-attacks-1996",
+      "date": "1996-12-13",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-beavis-and-butt-head-do-america-1996",
+      "slug": "film-beavis-and-butt-head-do-america-1996",
+      "date": "1996-12-20",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-my-fellow-americans-1996",
+      "slug": "film-my-fellow-americans-1996",
+      "date": "1996-12-20",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-scream-1996",
+      "slug": "film-scream-1996",
+      "date": "1996-12-20",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-the-portrait-of-a-lady-1996",
+      "slug": "film-the-portrait-of-a-lady-1996",
+      "date": "1996-12-24",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-evita-1996",
+      "slug": "film-evita-1996",
+      "date": "1996-12-25",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-hamlet-1996",
+      "slug": "film-hamlet-1996",
+      "date": "1996-12-25",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1996"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "orange-bowl-new-years-eve",
+      "slug": "orange-bowl-new-years-eve",
+      "date": "1996-12-31",
+      "datePrecision": "day",
+      "category": "culture",
+      "region": "US",
+      "sourceIds": [
+        "orange-history"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-retroactive-1997",
+      "slug": "film-retroactive-1997",
+      "date": "1997-01-01",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1997"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "rose-bowl-1997",
+      "slug": "rose-bowl-1997",
+      "date": "1997-01-01",
+      "datePrecision": "day",
+      "category": "culture",
+      "region": "US",
+      "sourceIds": [
+        "rose-1997"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "sugar-bowl-1997",
+      "slug": "sugar-bowl-1997",
+      "date": "1997-01-02",
+      "datePrecision": "day",
+      "category": "culture",
+      "region": "US",
+      "sourceIds": [
+        "sugar-1997"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-inside-1997",
+      "slug": "film-inside-1997",
+      "date": "1997-01-10",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1997"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-dantes-peak-1997",
+      "slug": "film-dantes-peak-1997",
+      "date": "1997-02-07",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-dantes-peak"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-liar-liar-1997",
+      "slug": "film-liar-liar-1997",
+      "date": "1997-03-21",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-liar-liar"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-8-heads-in-a-duffel-bag-1997",
+      "slug": "film-8-heads-in-a-duffel-bag-1997",
+      "date": "1997-04-18",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1997"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-a-chef-in-love-1997",
+      "slug": "film-a-chef-in-love-1997",
+      "date": "1997-04-23",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1997"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-austin-powers-international-man-of-mystery-1997",
+      "slug": "film-austin-powers-international-man-of-mystery-1997",
+      "date": "1997-05-02",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1997"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-hercules-1997",
+      "slug": "film-hercules-1997",
+      "date": "1997-06-13",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1997"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-for-roseanna-1997",
+      "slug": "film-for-roseanna-1997",
+      "date": "1997-06-18",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1997"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "wnba-first-game",
+      "slug": "wnba-first-game",
+      "date": "1997-06-21",
+      "datePrecision": "day",
+      "category": "culture",
+      "region": "US",
+      "sourceIds": [
+        "wnba-first-game-source"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-men-in-black-1997",
+      "slug": "film-men-in-black-1997",
+      "date": "1997-07-01",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1997"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "mars-pathfinder-lands",
+      "slug": "mars-pathfinder-lands",
+      "date": "1997-07-04",
+      "datePrecision": "day",
+      "category": "tech",
+      "region": "Global",
+      "sourceIds": [
+        "pathfinder"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-air-bud-1997",
+      "slug": "film-air-bud-1997",
+      "date": "1997-08-01",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-air-bud"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-l-a-confidential-1997",
+      "slug": "film-l-a-confidential-1997",
+      "date": "1997-09-19",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-l-a-confidential"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-gattaca-1997",
+      "slug": "film-gattaca-1997",
+      "date": "1997-10-24",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-gattaca"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-starship-troopers-1997",
+      "slug": "film-starship-troopers-1997",
+      "date": "1997-11-07",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-starship-troopers"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "lion-king-broadway",
+      "slug": "lion-king-broadway",
+      "date": "1997-11-13",
+      "datePrecision": "day",
+      "category": "culture",
+      "region": "US",
+      "sourceIds": [
+        "lion-king-broadway-source"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "reload",
+      "slug": "reload",
+      "date": "1997-11-18",
+      "datePrecision": "day",
+      "category": "music",
+      "region": "US",
+      "sourceIds": [
+        "metallica-discography"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-as-good-as-it-gets-1997",
+      "slug": "film-as-good-as-it-gets-1997",
+      "date": "1997-12-24",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1997"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-an-american-werewolf-in-paris-1997",
+      "slug": "film-an-american-werewolf-in-paris-1997",
+      "date": "1997-12-25",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1997"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-spice-world-1998",
+      "slug": "film-spice-world-1998",
+      "date": "1998-01-23",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1998"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-great-expectations-1998",
+      "slug": "film-great-expectations-1998",
+      "date": "1998-01-30",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1998"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-sphere-1998",
+      "slug": "film-sphere-1998",
+      "date": "1998-02-13",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1998"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-the-wedding-singer-1998",
+      "slug": "film-the-wedding-singer-1998",
+      "date": "1998-02-13",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1998"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-u-s-marshals-1998",
+      "slug": "film-u-s-marshals-1998",
+      "date": "1998-03-06",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1998"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-the-man-in-the-iron-mask-1998",
+      "slug": "film-the-man-in-the-iron-mask-1998",
+      "date": "1998-03-13",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1998"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-lost-in-space-1998",
+      "slug": "film-lost-in-space-1998",
+      "date": "1998-04-03",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1998"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-city-of-angels-1998",
+      "slug": "film-city-of-angels-1998",
+      "date": "1998-04-10",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1998"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-deep-impact-1998",
+      "slug": "film-deep-impact-1998",
+      "date": "1998-05-08",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1998"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-godzilla-1998",
+      "slug": "film-godzilla-1998",
+      "date": "1998-05-19",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1998"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-the-truman-show-1998",
+      "slug": "film-the-truman-show-1998",
+      "date": "1998-06-05",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1998"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-doctor-dolittle-1998",
+      "slug": "film-doctor-dolittle-1998",
+      "date": "1998-06-26",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1998"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-armageddon-1998",
+      "slug": "film-armageddon-1998",
+      "date": "1998-07-01",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1998"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-saving-private-ryan-1998",
+      "slug": "film-saving-private-ryan-1998",
+      "date": "1998-07-24",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1998"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-snake-eyes-1998",
+      "slug": "film-snake-eyes-1998",
+      "date": "1998-08-07",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1998"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "imac-arrives",
+      "slug": "imac-arrives",
+      "date": "1998-08-15",
+      "datePrecision": "day",
+      "category": "tech",
+      "region": "US",
+      "sourceIds": [
+        "imac-specs"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-blade-1998",
+      "slug": "film-blade-1998",
+      "date": "1998-08-21",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1998"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-rush-hour-1998",
+      "slug": "film-rush-hour-1998",
+      "date": "1998-09-18",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1998"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-ronin-1998",
+      "slug": "film-ronin-1998",
+      "date": "1998-09-25",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1998"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-antz-1998",
+      "slug": "film-antz-1998",
+      "date": "1998-10-02",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1998"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-life-is-beautiful-1998",
+      "slug": "film-life-is-beautiful-1998",
+      "date": "1998-10-23",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1998"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-the-waterboy-1998",
+      "slug": "film-the-waterboy-1998",
+      "date": "1998-11-06",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1998"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-enemy-of-the-state-1998",
+      "slug": "film-enemy-of-the-state-1998",
+      "date": "1998-11-20",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1998"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "garage-inc",
+      "slug": "garage-inc",
+      "date": "1998-11-24",
+      "datePrecision": "day",
+      "category": "music",
+      "region": "US",
+      "sourceIds": [
+        "metallica-discography"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-youve-got-mail-1998",
+      "slug": "film-youve-got-mail-1998",
+      "date": "1998-12-18",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1998"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-patch-adams-1998",
+      "slug": "film-patch-adams-1998",
+      "date": "1998-12-25",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1998"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-varsity-blues-1999",
+      "slug": "film-varsity-blues-1999",
+      "date": "1999-01-15",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1999"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-she-s-all-that-1999",
+      "slug": "film-she-s-all-that-1999",
+      "date": "1999-01-29",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1999"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-payback-1999",
+      "slug": "film-payback-1999",
+      "date": "1999-02-05",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1999"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-message-in-a-bottle-1999",
+      "slug": "film-message-in-a-bottle-1999",
+      "date": "1999-02-12",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1999"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-analyze-this-1999",
+      "slug": "film-analyze-this-1999",
+      "date": "1999-03-05",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1999"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-the-matrix-1999",
+      "slug": "film-the-matrix-1999",
+      "date": "1999-03-31",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1999"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-life-1999",
+      "slug": "film-life-1999",
+      "date": "1999-04-16",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1999"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-entrapment-1999",
+      "slug": "film-entrapment-1999",
+      "date": "1999-04-30",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1999"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-the-mummy-1999",
+      "slug": "film-the-mummy-1999",
+      "date": "1999-05-07",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1999"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-star-wars-ep-i-the-phantom-menace-1999",
+      "slug": "film-star-wars-ep-i-the-phantom-menace-1999",
+      "date": "1999-05-19",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1999"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-austin-powers-the-spy-who-shagged-me-1999",
+      "slug": "film-austin-powers-the-spy-who-shagged-me-1999",
+      "date": "1999-06-10",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1999"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-tarzan-1999",
+      "slug": "film-tarzan-1999",
+      "date": "1999-06-16",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1999"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-the-blair-witch-project-1999",
+      "slug": "film-the-blair-witch-project-1999",
+      "date": "1999-07-14",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1999"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-runaway-bride-1999",
+      "slug": "film-runaway-bride-1999",
+      "date": "1999-07-30",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1999"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-the-sixth-sense-1999",
+      "slug": "film-the-sixth-sense-1999",
+      "date": "1999-08-06",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1999"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-the-thomas-crown-affair-1999",
+      "slug": "film-the-thomas-crown-affair-1999",
+      "date": "1999-08-06",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1999"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "dreamcast-us",
+      "slug": "dreamcast-us",
+      "date": "1999-09-09",
+      "datePrecision": "day",
+      "category": "games",
+      "region": "US",
+      "sourceIds": [
+        "dreamcast-us"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-american-beauty-1999",
+      "slug": "film-american-beauty-1999",
+      "date": "1999-09-15",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1999"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-double-jeopardy-1999",
+      "slug": "film-double-jeopardy-1999",
+      "date": "1999-09-24",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1999"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-three-kings-1999",
+      "slug": "film-three-kings-1999",
+      "date": "1999-10-01",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1999"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-house-on-haunted-hill-1999",
+      "slug": "film-house-on-haunted-hill-1999",
+      "date": "1999-10-29",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1999"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-sleepy-hollow-1999",
+      "slug": "film-sleepy-hollow-1999",
+      "date": "1999-11-19",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1999"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-the-world-is-not-enough-1999",
+      "slug": "film-the-world-is-not-enough-1999",
+      "date": "1999-11-19",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1999"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "metallica-sm",
+      "slug": "metallica-sm",
+      "date": "1999-11-23",
+      "datePrecision": "day",
+      "category": "music",
+      "region": "US",
+      "sourceIds": [
+        "metallica-discography"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-the-green-mile-1999",
+      "slug": "film-the-green-mile-1999",
+      "date": "1999-12-10",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1999"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "film-stuart-little-1999",
+      "slug": "film-stuart-little-1999",
+      "date": "1999-12-17",
+      "datePrecision": "day",
+      "category": "movies-tv",
+      "region": "North America",
+      "sourceIds": [
+        "release-1999"
+      ],
+      "status": "published"
+    }
+  ]
+}

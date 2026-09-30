@@ -1,5 +1,5 @@
 import { announce } from "./announce.js";
-import { closeDialog, openDialog } from "./navigation.js?v=launch-phase1";
+import { closeDialog, openDialog } from "./navigation.js?v=launch-phase2";
 import {
   localStore,
   PASSPORT_KEY,
@@ -160,7 +160,8 @@ function resetPassport() {
 }
 
 export function initializePassport() {
-  const trigger = document.querySelector("[data-passport-trigger]");
+  const triggers = [...document.querySelectorAll("[data-passport-trigger], [data-home-passport]")];
+  const trigger = triggers[0];
   const dialog = document.querySelector("#passportDialog");
   const resetDialog = document.querySelector("#passportResetDialog");
   if (!trigger || !dialog || !resetDialog) return;
@@ -170,7 +171,7 @@ export function initializePassport() {
     openDialog(dialog, activeTrigger);
   };
 
-  trigger.hidden = false;
+  triggers.forEach(button => { button.hidden = false; });
   document.querySelectorAll("[data-storage-note]").forEach((note) => {
     if (!localStore.persistent) {
       note.textContent =
@@ -179,7 +180,7 @@ export function initializePassport() {
     }
   });
 
-  trigger.addEventListener("click", () => showPassport(trigger));
+  triggers.forEach(button => button.addEventListener("click", () => showPassport(button)));
   document.addEventListener("click", (event) => {
     if (event.target.closest('[data-directory-passport]')) {
       showPassport(document.querySelector('#menuToggle'));

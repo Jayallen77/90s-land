@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-09-30",
+  "baselineCommit": "38e931898fcfe120bad74699904fbf848dfe5933",
+  "releaseContentDigest": "0bc0599cb9aafb642eb410c815bd127f95bd7f3985140e7f2fd1060bf6b94521",
+  "browser": {
+    "fullRun": {
+      "startTime": "2026-09-30T21:34:50.580Z",
+      "duration": 254879.94199999998,
+      "expected": 167,
+      "skipped": 0,
+      "unexpected": 1,
+      "flaky": 0
+    },
+    "resolvedTest": "resetting Passport also clears the completed tour controls",
+    "cause": "The test clicked before progressive enhancement selected the requested tour stop; all six static fallback stops were still visible.",
+    "resolution": "Wait for exactly one visible stop and assert the requested stop ID before clicking. No product-code change was required.",
+    "repeatRun": {
+      "startTime": "2026-09-30T21:40:06.847Z",
+      "duration": 20551.402000000002,
+      "expected": 20,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    "distinctChecksValidated": 168
+  },
+  "pythonTests": {
+    "passed": 44
+  },
+  "dateTests": {
+    "passed": 6
+  },
+  "routeLayouts": {
+    "routes": 533,
+    "widths": [
+      390,
+      768,
+      1280,
+      1440
+    ],
+    "routeViewportChecks": 2132,
+    "errors": 0,
+    "additional320pxSurfaces": 17
+  },
+  "calendar": {
+    "years": 10,
+    "months": 12,
+    "categoriesIncludingAll": 7,
+    "regionsIncludingAll": 17,
+    "views": 3,
+    "widths": [
+      390,
+      1440
+    ],
+    "combinations": 85680,
+    "errors": 0
+  },
+  "weekly": {
+    "weeks": 522,
+    "widths": [
+      390,
+      1440
+    ],
+    "states": 1044,
+    "errors": 0
+  },
+  "http": {
+    "routesPassed": 533,
+    "excludedPaths": 55,
+    "encodingSamples": 12,
+    "errors": []
+  },
+  "staticAudit": {
+    "routes": 533,
+    "internalLinks": 30467,
+    "externalLinks": 799,
+    "fragmentLinks": 2287,
+    "errors": 0
+  },
+  "package": {
+    "runtimeFiles": 677,
+    "checkPassed": true
+  },
+  "preservation": {
+    "originalEvents": 384,
+    "filmEvents": 345,
+    "originalFactualSources": 67,
+    "objectMediaRecords": 30,
+    "reviewedMediaItems": 37,
+    "changedIdentityOrSourceRecords": 0
+  }
+}

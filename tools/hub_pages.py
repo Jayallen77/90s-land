@@ -7,10 +7,10 @@ import archive_pages as ar
 MODULES=json.loads((model.ROOT/'content/editorial/modules.json').read_text())
 HUBS={
  '/zones/games/':('games','games','GAME ON','THE 90s GAME ERA','16-bit adventures. 3D worlds. Arcade legends. Pick a platform, find a story, and make room for player two.','the-console-war-couch'),
- '/zones/music/':('music','music','TURN IT UP','THE DECADE ON REPEAT','Mixtapes. Big hooks. No skips. Follow the sounds, scenes, and little silver discs that went everywhere with us.','from-mixtape-to-file'),
- '/zones/tv-movies/':('movies-tv','movies','PRESS PLAY','ONE MORE MOVIE NIGHT','Video-store Fridays. Saturday cartoons. Summers at the multiplex. Settle in—the previews are almost over.','friday-at-the-video-store'),
- '/zones/tech-toys/':('tech','tech','YOU’RE ONLINE','THE FUTURE CAME HOME','The family computer. The dial-up handshake. A whole world on the other side of a very small screen.','the-family-computer'),
- '/zones/culture/':('culture','culture','AS IF!','A DECADE OF EVERYDAY ICONS','Meet at the mall. Pick a screen name. Feed the tiny pet. The objects were ordinary; the memories still aren’t.','meet-me-at-the-mall')}
+ '/zones/music/':('music','music','TURN IT UP','THE DECADE ON REPEAT','Rewind the tape with a pencil. Check the CD for scratches. Find the records and listening habits behind your favorite songs.','from-mixtape-to-file'),
+ '/zones/tv-movies/':('movies-tv','movies','PRESS PLAY','ONE MORE MOVIE NIGHT','The new release is out, but someone got the last copy. Choose a video-store story or catch up with the shows everyone discussed the next morning.','friday-at-the-video-store'),
+ '/zones/tech-toys/':('tech','tech','YOU’RE ONLINE','MEET AT THE FAMILY COMPUTER','Someone needs the phone line. Save your game, finish the download, and take a closer look at the machines on the desk.','the-family-computer'),
+ '/zones/culture/':('culture','culture','AS IF!','MEET YOU BY THE FOUNTAIN','Browse the mall, choose a screen name, or find the tiny pet that kept interrupting class. There’s more to the decade than a release calendar.','meet-me-at-the-mall')}
 TOPICS={
  'music':[('All stories','all'),('Grunge & rock','grunge'),('Hip-hop & R&B','hip-hop'),('Teen pop','teen-pop'),('Rave & electronic','rave'),('Mixtapes & MP3','mixtapes'),('CD listening','cd')],
  'movies-tv':[('All stories','all'),('At the movies','film'),('Television','tv'),('Animation','animation'),('Blockbusters','blockbusters'),('Horror','horror'),('VHS nights','vhs')],
@@ -69,10 +69,13 @@ def hub(route):
  if cat=='games':top+=game_archive()
  if events:
   # Distinct genres and years take precedence over an arbitrary recency ranking.
-  picks=events[:3]+events[-3:] if len(events)>6 else events
-  if cat=='culture':
-   featured_ids=['mall-of-america-opens','elvis-stamp-issued','tamagotchi-japan','wnba-first-game','lion-king-broadway','orange-bowl-new-years-eve']
-   picks=[next(e for e in events if e['id']==id) for id in featured_ids]
+  if cat=='movies-tv':
+   featured_ids=['twin-peaks-premiere','rugrats-premiere','film-jurassic-park-1993','friends-premiere','film-toy-story-1995','sopranos-premiere']
+  elif cat=='culture':featured_ids=['mall-of-america-opens','euro-disney-opens','rugby-world-cup-1995-final','tamagotchi-japan','wnba-first-game','womens-world-cup-1999-final']
+  elif cat=='music':featured_ids=['violator-uk','nevermind','wu-tang-debut','wannabe-uk','lauryn-hill-miseducation','britney-debut-album']
+  elif cat=='games':featured_ids=['super-mario-world-japan','sonic-western-release','doom-shareware','playstation-japan','nintendo-64-us','dreamcast-us']
+  else:featured_ids=['windows-30-launch','cern-opens-web','windows-95-launch','hotmail-launch','imac-arrives','google-incorporated']
+  picks=[model.EVENT_BY_ID[id] for id in featured_ids]
   top+=f'<section class="hub-section">{ed.heading("On the release calendar" if cat in ("music","movies-tv") else "Moments on the timeline","calendar",f"/events/?category={cat}")}<div class="hub-event-grid">'+''.join(ar.event_card(e) for e in picks)+'</div></section>'
  if cat in ('tech','culture'):
   links=[('Internet Culture','/zones/internet-culture/','culture','Personal pages, handles & guestbooks.'),('Fashion','/zones/fashion/','culture','Clothes, references & self-expression.'),('Transparent tech','/zones/transparent-tech/','tech','The future had a translucent shell.')]
@@ -90,7 +93,7 @@ def game_archive():
 
 def timeline_index(route):
  top=hero('timeline','THE WHOLE<br />DECADE','TEN YEARS. COUNTLESS STORIES.','Choose a year. Jump into a month. Follow the dates that connect a decade of music, movies, games, and change.','#decade-years','Pick your year')
- captions=['A new decade boots up.','New sounds break through.','The desktop opens new windows.','The Web becomes everybody’s idea.','A console waits in the wings.','A Start button and a new dimension.','The middle of everything.','Big worlds on small discs.','The future turns translucent.','One last year before the clock rolls over.']
+ captions=[model.YEARS[y]['caption'] for y in range(1990,2000)]
  cards=[]
  for y in range(1990,2000):
   count=sum(e['date'].startswith(str(y)) for e in model.EVENTS)
