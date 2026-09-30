@@ -1,0 +1,19 @@
+{
+  "checkedOn": "2026-09-30",
+  "method": "Separate web reader retrieved publisher content; its responses may be cached. Original HTTP classifications remain unchanged.",
+  "retrievedContent": [
+    "https://www.intel.com/pressroom/kits/quickrefyr.htm",
+    "https://www.getlinkgroup.com/en/our-group/history/",
+    "https://www.ecb.europa.eu/press/key/date/1999/html/sp990521.en.html",
+    "https://ir.paramount.com/news-releases/news-release-details/vh1s-emmy-award-winning-rock-docs-franchise-revisits-10-year",
+    "https://www.referenceforbusiness.com/history2/41/dELiA-s-Inc.html",
+    "https://www.softwareheritage.org/"
+  ],
+  "stillUnresolvedViaBothMethods": [
+    "https://bbslist.textfiles.com/",
+    "https://cd.textfiles.com/",
+    "https://macintoshgarden.org/",
+    "https://textfiles.com/"
+  ],
+  "note": "No source URL was removed or replaced on the basis of a bot block, TLS error or timeout."
+}

@@ -1,5 +1,5 @@
 import { announce } from "./announce.js";
-import { closeDialog, openDialog } from "./navigation.js?v=launch-phase2";
+import { closeDialog, openDialog } from "./navigation.js?v=launch-phase3";
 import {
   localStore,
   PASSPORT_KEY,
@@ -95,6 +95,7 @@ function render() {
     const earned = state.stamps.includes(node.dataset.passportStamp);
     node.classList.toggle("is-locked", !earned);
     node.classList.toggle("is-earned", earned);
+    node.querySelector('[data-passport-stamp-state]').textContent = earned ? 'Earned ✓' : 'Not yet earned';
   });
   document.querySelectorAll("[data-timeline-room]").forEach((door) => {
     const visited = state.visitedRooms.includes(door.dataset.timelineRoom);
@@ -160,7 +161,7 @@ function resetPassport() {
 }
 
 export function initializePassport() {
-  const triggers = [...document.querySelectorAll("[data-passport-trigger], [data-home-passport]")];
+  const triggers = [...document.querySelectorAll("[data-passport-trigger], [data-home-passport], [data-tour-passport]")];
   const trigger = triggers[0];
   const dialog = document.querySelector("#passportDialog");
   const resetDialog = document.querySelector("#passportResetDialog");

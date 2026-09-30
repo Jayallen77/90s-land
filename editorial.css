@@ -265,3 +265,10 @@ body:before{background-image:radial-gradient(#d8d9ff 0.6px,transparent 1px),radi
   .ed-home-objects .inspect-button{width:100%;padding:7px 6px;font-size:14px}
   .ed-home-objects .artifact-actions a{display:flex;align-items:center;min-height:44px;font-size:13px}
 }
+
+/* Stable filter counts and a comfortable collection link target. */
+.site-filter-row .resource-filter span{display:inline-block;width:4ch;flex:none;font-variant-numeric:tabular-nums;text-align:center}
+.js #siteSearchGrid:not([data-search-ready]){display:none}
+.js #siteSearchCount{min-height:1.55em}
+.resource-directory[aria-labelledby="searchResultsTitle"]{min-height:360px}
+.ed-categories + .ed-text-link{display:inline-flex;align-items:center;min-height:44px;margin-top:8px}

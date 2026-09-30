@@ -1,6 +1,7 @@
 import { announce } from "./announce.js";
-import { openDialog } from "./navigation.js?v=launch-phase2";
-import { awardStamp } from "./passport.js?v=launch-phase2";
+import { openDialog } from "./navigation.js?v=launch-phase3";
+import { awardStamp } from "./passport.js?v=launch-phase3";
+import { chooseMemory } from './discovery.js?v=launch-phase3';
 import {
   readJson,
   sessionStore,
@@ -8,9 +9,9 @@ import {
   writeJson,
 } from "./storage.js";
 
-const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
 let artifactsPromise;
 let currentArtifact;
+let revealNumber = 0;
 
 function loadArtifacts() {
   artifactsPromise ??= fetch("/assets/runtime/surprise.json").then((response) => {
@@ -22,9 +23,7 @@ function loadArtifacts() {
 
 function chooseArtifact(items) {
   const recent = readJson(sessionStore, SURPRISE_KEY, []);
-  const eligible = items.filter((item) => !recent.includes(item.id));
-  const pool = eligible.length ? eligible : items;
-  const chosen = pool[Math.floor(Math.random() * pool.length)];
+  const chosen = chooseMemory(items, recent);
   const nextRecent = [chosen.id, ...recent.filter((id) => id !== chosen.id)].slice(
     0,
     3,
@@ -39,7 +38,7 @@ function displayArtifact(dialog, artifact) {
   dialog.querySelector("[data-surprise-teaser]").textContent =
     artifact.teaser;
   dialog.querySelector("[data-surprise-meta]").textContent =
-    `${artifact.dateLabel} · ${artifact.room.replaceAll("-", " ")}`;
+    `${artifact.dateLabel} · ${artifact.room}`;
   dialog.querySelector("[data-surprise-open]").href = artifact.target;
   dialog.querySelector("[data-surprise-loading]").hidden = true;
   dialog.querySelector("[data-surprise-ready]").hidden = false;
@@ -47,19 +46,17 @@ function displayArtifact(dialog, artifact) {
 }
 
 async function reveal(dialog) {
+  const number = ++revealNumber;
   currentArtifact = undefined;
   dialog.querySelector("[data-surprise-loading]").hidden = false;
   dialog.querySelector("[data-surprise-ready]").hidden = true;
   dialog.querySelector("[data-surprise-error]").hidden = true;
   try {
-    const [items] = await Promise.all([
-      loadArtifacts(),
-      reducedMotion.matches
-        ? Promise.resolve()
-        : new Promise((resolve) => window.setTimeout(resolve, 650)),
-    ]);
+    const items = await loadArtifacts();
+    if (number !== revealNumber) return;
     displayArtifact(dialog, chooseArtifact(items));
   } catch {
+    if (number !== revealNumber) return;
     artifactsPromise = undefined;
     dialog.querySelector("[data-surprise-loading]").hidden = true;
     dialog.querySelector("[data-surprise-error]").hidden = false;

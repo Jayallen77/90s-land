@@ -60,7 +60,18 @@ try {
         ])
       );
       const metrics = Object.fromEntries(["first-contentful-paint", "largest-contentful-paint", "total-blocking-time", "cumulative-layout-shift", "speed-index", "total-byte-weight"].map(key => [key, result.lhr.audits[key]?.numericValue ?? null]));
+      // Search results deliberately use noindex. Preserve Lighthouse's raw score
+      // while checking that policy and every other applicable SEO audit.
+      const indexingExpected = name !== "search";
+      const seoChecksPass = result.lhr.categories.seo.auditRefs.every(({id}) => {
+        const audit = result.lhr.audits[id];
+        if (id === "is-crawlable" && !indexingExpected) {
+          return audit.score === 0 && audit.details?.items?.some(item => item.source?.snippet?.includes('noindex,follow'));
+        }
+        return audit.score === null || audit.score === 1;
+      });
       const row = { page: name, path: pathname, mode, ...scores, metrics,
+        indexingExpected, seoChecksPass,
         lighthouseVersion: result.lhr.lighthouseVersion, fetchedAt: result.lhr.fetchTime,
         warnings: result.lhr.runWarnings, error: result.lhr.runtimeError || null };
       summary.push(row);
@@ -85,7 +96,8 @@ const failures = summary.filter(
     row.error ||
     row.accessibility < 90 ||
     row["best-practices"] < 90 ||
-    row.seo < 90 ||
+    !row.seoChecksPass ||
+    row.metrics["cumulative-layout-shift"] > 0.1 ||
     row.performance < (row.mode === "mobile" ? 85 : 90)
 );
 if (failures.length) {

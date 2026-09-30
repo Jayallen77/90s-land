@@ -1,5 +1,5 @@
 import { announce } from "./announce.js";
-import { awardStamp, getPassport, saveTourProgress } from "./passport.js?v=launch-phase2";
+import { awardStamp, getPassport, saveTourProgress } from "./passport.js?v=launch-phase3";
 
 const TOUR_ID = "before-the-feed";
 
@@ -38,6 +38,7 @@ export function initializeTour() {
       completed,
     });
     const finished = completed && activeIndex === stops.length - 1;
+    main.querySelector('[data-tour-finish]').hidden = !finished;
     const next = current.querySelector('[data-tour-next]');
     next.disabled = finished;
     next.textContent = finished ? 'Tour complete ✓' : activeIndex === stops.length - 1 ? 'Complete tour' : 'Next stop';
@@ -80,6 +81,7 @@ export function initializeTour() {
     const next = last.querySelector("[data-tour-next]");
     next.disabled = true;
     next.textContent = "Tour complete ✓";
+    main.querySelector('[data-tour-finish]').hidden = false;
     announce("Before the Feed tour complete. You can keep exploring.");
   }
 
@@ -104,6 +106,7 @@ export function initializeTour() {
   window.addEventListener('passport:changed', event => {
     if (!completed || event.detail.tourProgress[TOUR_ID]) return;
     completed = false;
+    main.querySelector('[data-tour-finish]').hidden = true;
     const last = stops.at(-1);
     last.classList.remove('is-complete');
     const next = last.querySelector('[data-tour-next]');

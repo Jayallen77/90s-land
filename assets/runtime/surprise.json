@@ -1,242 +1,1622 @@
 [
   {
+    "id": "story-a-whole-new-dimension",
+    "kind": "story",
+    "title": "A whole new dimension",
+    "teaser": "Where do your hands go on an N64 controller? Follow the jump from flat screens to 3D spaces.",
+    "dateLabel": "The 1990s",
+    "room": "Games story",
+    "target": "/stories/a-whole-new-dimension/"
+  },
+  {
+    "id": "story-a-web-you-could-make",
+    "kind": "story",
+    "title": "A web you could make your own",
+    "teaser": "Blue links, a blank page, and the invitation to make a little corner of the Web.",
+    "dateLabel": "The 1990s",
+    "room": "Tech story",
+    "target": "/stories/a-web-you-could-make/"
+  },
+  {
+    "id": "story-the-console-war-couch",
+    "kind": "story",
+    "title": "The console wars were fought on the couch",
+    "teaser": "Your friend had a Genesis. You had a different cartridge. The argument started there.",
+    "dateLabel": "The 1990s",
+    "room": "Games story",
+    "target": "/stories/the-console-war-couch/"
+  },
+  {
+    "id": "story-lan-party-night",
+    "kind": "story",
+    "title": "A LAN party started before the first match",
+    "teaser": "Carry the monitor, untangle the cables, and find out whose network settings are wrong.",
+    "dateLabel": "The 1990s",
+    "room": "Games story",
+    "target": "/stories/lan-party-night/"
+  },
+  {
+    "id": "story-fifteen-blocks-of-memory",
+    "kind": "story",
+    "title": "Fifteen blocks of somebody’s life",
+    "teaser": "The disc held the game. The memory card held your summer.",
+    "dateLabel": "The 1990s",
+    "room": "Games story",
+    "target": "/stories/fifteen-blocks-of-memory/"
+  },
+  {
+    "id": "story-the-secret-button-sequence",
+    "kind": "story",
+    "title": "The secret button sequence",
+    "teaser": "Someone wrote a code on a scrap of paper. Now try it and see if they left a step out.",
+    "dateLabel": "The 1990s",
+    "room": "Games story",
+    "target": "/stories/the-secret-button-sequence/"
+  },
+  {
+    "id": "story-make-room-for-player-two",
+    "kind": "story",
+    "title": "Make room for player two",
+    "teaser": "Pass the controller, agree on the rules, and try to stay on your half of the screen.",
+    "dateLabel": "The 1990s",
+    "room": "Games story",
+    "target": "/stories/make-room-for-player-two/"
+  },
+  {
+    "id": "story-from-mixtape-to-file",
+    "kind": "story",
+    "title": "From mixtape to file",
+    "teaser": "Choose the first song carefully. Someone has to live with the order you put these tracks in.",
+    "dateLabel": "The 1990s",
+    "room": "Music story",
+    "target": "/stories/from-mixtape-to-file/"
+  },
+  {
+    "id": "story-when-grunge-broke-through",
+    "kind": "story",
+    "title": "When grunge broke through",
+    "teaser": "Nevermind, In Utero, and a record-shop shelf that suddenly sounded different.",
+    "dateLabel": "The 1990s",
+    "room": "Music story",
+    "target": "/stories/when-grunge-broke-through/"
+  },
+  {
+    "id": "story-hooks-rhymes-and-radio",
+    "kind": "story",
+    "title": "Hooks, rhymes, and the radio dial",
+    "teaser": "Follow Wu-Tang, Whitney Houston, and Lauryn Hill through the meeting of rap verses and sung hooks.",
+    "dateLabel": "The 1990s",
+    "room": "Music story",
+    "target": "/stories/hooks-rhymes-and-radio/"
+  },
+  {
+    "id": "story-after-school-on-trl",
+    "kind": "story",
+    "title": "After school, before the countdown",
+    "teaser": "Get home in time for the countdown. Your favorite video might have moved up.",
+    "dateLabel": "The 1990s",
+    "room": "Music story",
+    "target": "/stories/after-school-on-trl/"
+  },
+  {
+    "id": "story-the-flyer-and-the-dancefloor",
+    "kind": "story",
+    "title": "The flyer and the dancefloor",
+    "teaser": "A folded flyer gave you an address, a time, and a reason to stay out late.",
+    "dateLabel": "The 1990s",
+    "room": "Music story",
+    "target": "/stories/the-flyer-and-the-dancefloor/"
+  },
+  {
+    "id": "story-discman-in-your-backpack",
+    "kind": "story",
+    "title": "The Discman in your backpack",
+    "teaser": "Pick a track, zip the bag, and hope the next bump doesn’t make the CD skip.",
+    "dateLabel": "The 1990s",
+    "room": "Music story",
+    "target": "/stories/discman-in-your-backpack/"
+  },
+  {
+    "id": "story-friday-at-the-video-store",
+    "kind": "story",
+    "title": "Friday night at the video store",
+    "teaser": "The new-release shelf is nearly empty. Everyone still has an opinion about what to rent.",
+    "dateLabel": "The 1990s",
+    "room": "Movies & TV story",
+    "target": "/stories/friday-at-the-video-store/"
+  },
+  {
+    "id": "story-the-cartoon-morning",
+    "kind": "story",
+    "title": "The cartoon morning",
+    "teaser": "The cartoons came on at a set time. Breakfast could wait for the next commercial.",
+    "dateLabel": "The 1990s",
+    "room": "Movies & TV story",
+    "target": "/stories/the-cartoon-morning/"
+  },
+  {
+    "id": "story-same-time-next-week",
+    "kind": "story",
+    "title": "Same time next week",
+    "teaser": "The episode ends. You have seven days to argue about what happens next.",
+    "dateLabel": "The 1990s",
+    "room": "Movies & TV story",
+    "target": "/stories/same-time-next-week/"
+  },
+  {
+    "id": "story-summer-at-the-multiplex",
+    "kind": "story",
+    "title": "Summer at the multiplex",
+    "teaser": "A poster in the lobby could turn next Friday into a plan.",
+    "dateLabel": "The 1990s",
+    "room": "Movies & TV story",
+    "target": "/stories/summer-at-the-multiplex/"
+  },
+  {
+    "id": "story-do-not-tape-over",
+    "kind": "story",
+    "title": "Do not tape over this",
+    "teaser": "A handwritten label was the difference between keeping your favorite episode and recording over it.",
+    "dateLabel": "The 1990s",
+    "room": "Movies & TV story",
+    "target": "/stories/do-not-tape-over/"
+  },
+  {
+    "id": "story-horror-knew-the-rules",
+    "kind": "story",
+    "title": "Horror knew the rules",
+    "teaser": "Scream let the audience recognize the rules while the characters tried to survive them.",
+    "dateLabel": "The 1990s",
+    "room": "Movies & TV story",
+    "target": "/stories/horror-knew-the-rules/"
+  },
+  {
+    "id": "story-the-family-computer",
+    "kind": "story",
+    "title": "The family computer had a room of its own",
+    "teaser": "One desk, one phone line, and somebody asking how much longer you’ll be.",
+    "dateLabel": "The 1990s",
+    "room": "Tech story",
+    "target": "/stories/the-family-computer/"
+  },
+  {
+    "id": "story-a-button-called-start",
+    "kind": "story",
+    "title": "A button called Start",
+    "teaser": "Programs, settings, and shutting down all began at a button called Start.",
+    "dateLabel": "The 1990s",
+    "room": "Tech story",
+    "target": "/stories/a-button-called-start/"
+  },
+  {
+    "id": "story-the-internet-came-in-the-mail",
+    "kind": "story",
+    "title": "The internet came in the mail",
+    "teaser": "The AOL disc was already in the house. Now someone had to install it.",
+    "dateLabel": "The 1990s",
+    "room": "Tech story",
+    "target": "/stories/the-internet-came-in-the-mail/"
+  },
+  {
+    "id": "story-a-computer-in-your-pocket",
+    "kind": "story",
+    "title": "A computer in your pocket, almost",
+    "teaser": "A pager could find you away from the desk. Answering it was another matter.",
+    "dateLabel": "The 1990s",
+    "room": "Tech story",
+    "target": "/stories/a-computer-in-your-pocket/"
+  },
+  {
+    "id": "story-you-could-see-through-it",
+    "kind": "story",
+    "title": "You could see through it",
+    "teaser": "Bondi blue on the desk, clear purple in a pocket. Take a look through the plastic.",
+    "dateLabel": "The 1990s",
+    "room": "Tech story",
+    "target": "/stories/you-could-see-through-it/"
+  },
+  {
+    "id": "story-meet-me-at-the-mall",
+    "kind": "story",
+    "title": "Meet me at the mall",
+    "teaser": "Meet by the fountain. Walk past the same stores twice. Buy something only if you feel like it.",
+    "dateLabel": "The 1990s",
+    "room": "Culture story",
+    "target": "/stories/meet-me-at-the-mall/"
+  },
+  {
+    "id": "story-clothes-with-a-soundtrack",
+    "kind": "story",
+    "title": "Clothes with a soundtrack",
+    "teaser": "A faded band shirt could say more than the label sewn into it.",
+    "dateLabel": "The 1990s",
+    "room": "Culture story",
+    "target": "/stories/clothes-with-a-soundtrack/"
+  },
+  {
+    "id": "story-the-catalog-on-your-bedroom-floor",
+    "kind": "story",
+    "title": "The catalog on your bedroom floor",
+    "teaser": "Circle the things you want, fold the page, and leave the catalog where your parents might see it.",
+    "dateLabel": "The 1990s",
+    "room": "Culture story",
+    "target": "/stories/the-catalog-on-your-bedroom-floor/"
+  },
+  {
+    "id": "story-the-toy-that-needed-you",
+    "kind": "story",
+    "title": "The toy that needed you",
+    "teaser": "The digital pet is beeping again. It doesn’t care that you’re in class.",
+    "dateLabel": "The 1990s",
+    "room": "Culture story",
+    "target": "/stories/the-toy-that-needed-you/"
+  },
+  {
+    "id": "story-when-sport-left-the-scoreboard",
+    "kind": "story",
+    "title": "When sport left the scoreboard",
+    "teaser": "From the Bulls to the WNBA, sport traveled through television, clothing, and everyday conversation.",
+    "dateLabel": "The 1990s",
+    "room": "Culture story",
+    "target": "/stories/when-sport-left-the-scoreboard/"
+  },
+  {
+    "id": "story-choosing-your-screen-name",
+    "kind": "story",
+    "title": "Choosing your screen name",
+    "teaser": "Pick a name you can bear to type every day. Add a number if somebody got there first.",
+    "dateLabel": "The 1990s",
+    "room": "Culture story",
+    "target": "/stories/choosing-your-screen-name/"
+  },
+  {
     "id": "family-pc",
+    "kind": "object",
     "title": "The family computer becomes a portal",
     "teaser": "Someone needs the phone line. Finish the download before you give up the chair.",
     "dateLabel": "1995–1999",
-    "room": "tech-toys",
-    "target": "/zones/tech-toys/#artifact-family-pc"
+    "room": "Object archive",
+    "target": "/archive/objects/family-pc/"
   },
   {
     "id": "windows-3",
+    "kind": "object",
     "title": "Windows 3.0 Program Manager",
     "teaser": "Colorful icons made the family PC feel less like office machinery and more like something worth exploring.",
     "dateLabel": "1990",
-    "room": "timeline",
-    "target": "/timeline/1990/#artifact-windows-3"
+    "room": "Object archive",
+    "target": "/archive/objects/windows-3/"
   },
   {
     "id": "first-website",
+    "kind": "object",
     "title": "The first World Wide Web site",
     "teaser": "The first site looks almost modest: text, blue links, and an explanation of what the web is supposed to be.",
     "dateLabel": "1991",
-    "room": "internet-culture",
-    "target": "/timeline/1991/#artifact-first-website"
+    "room": "Object archive",
+    "target": "/archive/objects/first-website/"
   },
   {
     "id": "mosaic-browser",
+    "kind": "object",
     "title": "NCSA Mosaic browser",
     "teaser": "Blue links, pictures inside the page, and a gray frame around the whole thing.",
     "dateLabel": "1993",
-    "room": "internet-culture",
-    "target": "/timeline/1993/#artifact-mosaic-browser"
+    "room": "Object archive",
+    "target": "/archive/objects/mosaic-browser/"
   },
   {
     "id": "geocities-homepage",
+    "kind": "object",
     "title": "Handmade GeoCities homepage",
     "teaser": "Tiled stars, a loud title, and an under-construction badge made the page feel visibly owned.",
     "dateLabel": "1994–1998",
-    "room": "internet-culture",
-    "target": "/zones/internet-culture/#artifact-geocities-homepage"
+    "room": "Object archive",
+    "target": "/archive/objects/geocities-homepage/"
   },
   {
     "id": "visitor-counter",
+    "kind": "object",
     "title": "Six-digit visitor counter",
     "teaser": "You checked the number again. It had gone up by one.",
     "dateLabel": "1994–1999",
-    "room": "internet-culture",
-    "target": "/zones/internet-culture/#artifact-visitor-counter"
+    "room": "Object archive",
+    "target": "/archive/objects/visitor-counter/"
   },
   {
     "id": "guestbook",
+    "kind": "object",
     "title": "Guestbook with six handles and one typo",
     "teaser": "Names, timestamps, and one misspelling could make a personal page feel occupied.",
     "dateLabel": "1994–1999",
-    "room": "internet-culture",
-    "target": "/zones/internet-culture/#artifact-guestbook"
+    "room": "Object archive",
+    "target": "/archive/objects/guestbook/"
   },
   {
     "id": "webring-bar",
+    "kind": "object",
     "title": "Previous / random / next Webring bar",
     "teaser": "A small navigation strip let one strange site vouch for the next.",
     "dateLabel": "1995–1999",
-    "room": "internet-culture",
-    "target": "/zones/internet-culture/#artifact-webring-bar"
+    "room": "Object archive",
+    "target": "/archive/objects/webring-bar/"
   },
   {
     "id": "aim-away-message",
+    "kind": "object",
     "title": "AIM away message",
     "teaser": "Choose a lyric carefully. Your buddy list is going to read it.",
     "dateLabel": "1997–1999",
-    "room": "internet-culture",
-    "target": "/zones/internet-culture/#artifact-aim-away-message"
+    "room": "Object archive",
+    "target": "/archive/objects/aim-away-message/"
   },
   {
     "id": "yahoo-directory",
+    "kind": "object",
     "title": "Hand-built Yahoo directory",
     "teaser": "Categories and subcategories made the expanding web feel browsable by subject.",
     "dateLabel": "1994–1998",
-    "room": "internet-culture",
-    "target": "/zones/internet-culture/#artifact-yahoo-directory"
+    "room": "Object archive",
+    "target": "/archive/objects/yahoo-directory/"
   },
   {
     "id": "aol-cd",
+    "kind": "object",
     "title": "AOL promotional CD",
     "teaser": "Bright trial discs promised free hours and a setup wizard while quietly taking over the family phone line.",
     "dateLabel": "1995–1999",
-    "room": "tech-toys",
-    "target": "/zones/tech-toys/#artifact-aol-cd"
+    "room": "Object archive",
+    "target": "/archive/objects/aol-cd/"
   },
   {
     "id": "windows-95-start",
+    "kind": "object",
     "title": "Windows 95 Start button",
     "teaser": "Want to open a program? Start here. Want to shut down? Start here too.",
     "dateLabel": "1995",
-    "room": "timeline",
-    "target": "/timeline/1995/#artifact-windows-95-start"
+    "room": "Object archive",
+    "target": "/archive/objects/windows-95-start/"
   },
   {
     "id": "pager",
+    "kind": "object",
     "title": "Motorola pager",
     "teaser": "The pager goes off. Finding a phone is your next problem.",
     "dateLabel": "1992–1998",
-    "room": "tech-toys",
-    "target": "/zones/tech-toys/#artifact-pager"
+    "room": "Object archive",
+    "target": "/archive/objects/pager/"
   },
   {
     "id": "cassette",
+    "kind": "object",
     "title": "Mixtape cassette",
     "teaser": "Pause-button edits and handwritten track lists made every tape a small act of authorship.",
     "dateLabel": "1990–1997",
-    "room": "music",
-    "target": "/zones/music/#artifact-cassette"
+    "room": "Object archive",
+    "target": "/archive/objects/cassette/"
   },
   {
     "id": "discman",
+    "kind": "object",
     "title": "Sony Discman",
     "teaser": "Pick a track, close the lid, and try not to bump the player on the walk home.",
     "dateLabel": "1990–1999",
-    "room": "music",
-    "target": "/zones/music/#artifact-discman"
+    "room": "Object archive",
+    "target": "/archive/objects/discman/"
   },
   {
     "id": "cdr-spindle",
+    "kind": "object",
     "title": "Blank CD-R spindle",
     "teaser": "The rainbow discs waited to become a summer mix, a backup, or a folder of badly labeled MP3s.",
     "dateLabel": "1997–1999",
-    "room": "music",
-    "target": "/zones/music/#artifact-cdr-spindle"
+    "room": "Object archive",
+    "target": "/archive/objects/cdr-spindle/"
   },
   {
     "id": "vhs-tape",
+    "kind": "object",
     "title": "VHS videocassette",
     "teaser": "The label says DO NOT TAPE OVER. Someone in the house means it.",
     "dateLabel": "1990–1999",
-    "room": "tv-movies",
-    "target": "/zones/tv-movies/#artifact-vhs-tape"
+    "room": "Object archive",
+    "target": "/archive/objects/vhs-tape/"
   },
   {
     "id": "crt-television",
+    "kind": "object",
     "title": "Living-room CRT television",
     "teaser": "The episode starts at eight. Get the good spot on the sofa.",
     "dateLabel": "1990–1999",
-    "room": "tv-movies",
-    "target": "/zones/tv-movies/#artifact-crt-television"
+    "room": "Object archive",
+    "target": "/archive/objects/crt-television/"
   },
   {
     "id": "blockbuster-store",
+    "kind": "object",
     "title": "Blockbuster store interior",
     "teaser": "Every copy of the new release is gone. Time to walk the shelves again.",
     "dateLabel": "1990–1999",
-    "room": "tv-movies",
-    "target": "/zones/tv-movies/#artifact-blockbuster-store"
+    "room": "Object archive",
+    "target": "/archive/objects/blockbuster-store/"
   },
   {
     "id": "arcade-cabinet",
+    "kind": "object",
     "title": "Arcade cabinet",
     "teaser": "Leave a quarter on the cabinet. Somebody else is playing your next game.",
     "dateLabel": "1990–1999",
-    "room": "games",
-    "target": "/zones/games/#artifact-arcade-cabinet"
+    "room": "Object archive",
+    "target": "/archive/objects/arcade-cabinet/"
   },
   {
     "id": "genesis-controller",
+    "kind": "object",
     "title": "Sega Genesis six-button controller",
     "teaser": "The pad carried fighting-game technique, sports-game trash talk, and console loyalty.",
     "dateLabel": "1993–1999",
-    "room": "games",
-    "target": "/zones/games/#artifact-genesis-controller"
+    "room": "Object archive",
+    "target": "/archive/objects/genesis-controller/"
   },
   {
     "id": "n64-controller",
+    "kind": "object",
     "title": "Gray Nintendo 64 controller",
     "teaser": "Its odd shape and analog stick announced that 3D games would need a different kind of touch.",
     "dateLabel": "1996–1999",
-    "room": "games",
-    "target": "/zones/games/#artifact-n64-controller"
+    "room": "Object archive",
+    "target": "/archive/objects/n64-controller/"
   },
   {
     "id": "playstation-hardware",
+    "kind": "object",
     "title": "Original PlayStation hardware",
     "teaser": "Put the disc in. Keep the memory card somewhere you can find it.",
     "dateLabel": "1994–1999",
-    "room": "games",
-    "target": "/timeline/1994/#artifact-playstation-hardware"
+    "room": "Object archive",
+    "target": "/archive/objects/playstation-hardware/"
   },
   {
     "id": "bondi-imac",
+    "kind": "object",
     "title": "Bondi blue iMac G3",
     "teaser": "A blue shell on the desk, with the hardware partly visible inside.",
     "dateLabel": "1998–1999",
-    "room": "transparent-tech",
-    "target": "/zones/transparent-tech/#artifact-bondi-imac"
+    "room": "Object archive",
+    "target": "/archive/objects/bondi-imac/"
   },
   {
     "id": "dreamcast",
+    "kind": "object",
     "title": "Sega Dreamcast",
     "teaser": "The little VMU had a screen of its own. Keep it with the controller.",
     "dateLabel": "1999",
-    "room": "games",
-    "target": "/timeline/1999/#artifact-dreamcast"
+    "room": "Object archive",
+    "target": "/archive/objects/dreamcast/"
   },
   {
     "id": "y2k-office",
+    "kind": "object",
     "title": "Y2K response office",
     "teaser": "Rows of screens and response teams turned a date change into nightly-news suspense.",
     "dateLabel": "1999",
-    "room": "timeline",
-    "target": "/timeline/1999/#artifact-y2k-office"
+    "room": "Object archive",
+    "target": "/archive/objects/y2k-office/"
   },
   {
     "id": "hubble-launch",
+    "kind": "object",
     "title": "Hubble launch",
     "teaser": "Discovery carries Hubble out of Florida and into orbit.",
     "dateLabel": "1990",
-    "room": "timeline",
-    "target": "/timeline/1990/#artifact-hubble-launch"
+    "room": "Object archive",
+    "target": "/archive/objects/hubble-launch/"
   },
   {
     "id": "doom-disks",
+    "kind": "object",
     "title": "Doom shareware disks",
     "teaser": "A disk could bring a new game to a computer that usually held homework.",
     "dateLabel": "1993",
-    "room": "games",
-    "target": "/timeline/1993/#artifact-doom-disks"
+    "room": "Object archive",
+    "target": "/archive/objects/doom-disks/"
   },
   {
     "id": "game-boy-color",
+    "kind": "object",
     "title": "Atomic Purple Game Boy Color",
     "teaser": "Clear purple plastic lets you inspect the board before switching the handheld on.",
     "dateLabel": "1998–1999",
-    "room": "transparent-tech",
-    "target": "/zones/transparent-tech/#artifact-game-boy-color"
+    "room": "Object archive",
+    "target": "/archive/objects/game-boy-color/"
   },
   {
     "id": "transparent-n64-controller",
+    "kind": "object",
     "title": "Transparent purple N64 controller",
     "teaser": "You can see the board through the purple shell. The buttons still need learning.",
     "dateLabel": "1998–1999",
-    "room": "transparent-tech",
-    "target": "/zones/transparent-tech/#artifact-transparent-n64-controller"
+    "room": "Object archive",
+    "target": "/archive/objects/transparent-n64-controller/"
+  },
+  {
+    "id": "event-mandela-released",
+    "kind": "event",
+    "title": "Nelson Mandela walks free",
+    "teaser": "Mandela leaves Victor Verster Prison after 27 years in prison.",
+    "dateLabel": "1990-02-11",
+    "room": "World news moment",
+    "target": "/events/mandela-released/"
+  },
+  {
+    "id": "event-violator-uk",
+    "kind": "event",
+    "title": "Depeche Mode releases Violator",
+    "teaser": "Personal Jesus and Enjoy the Silence share a place on the same record.",
+    "dateLabel": "1990-03-19",
+    "room": "Music moment",
+    "target": "/events/violator-uk/"
+  },
+  {
+    "id": "event-twin-peaks-premiere",
+    "kind": "event",
+    "title": "Twin Peaks asks who killed Laura Palmer",
+    "teaser": "A murder mystery brings an unusually strange town to ABC.",
+    "dateLabel": "1990-04-08",
+    "room": "Television moment",
+    "target": "/events/twin-peaks-premiere/"
+  },
+  {
+    "id": "event-hubble-launches",
+    "kind": "event",
+    "title": "Hubble leaves Earth",
+    "teaser": "Space shuttle Discovery lifts off with the Hubble Space Telescope aboard.",
+    "dateLabel": "1990-04-24",
+    "room": "Technology moment",
+    "target": "/events/hubble-launches/"
+  },
+  {
+    "id": "event-windows-30-launch",
+    "kind": "event",
+    "title": "Windows 3.0 puts icons on the desktop",
+    "teaser": "Program Manager gives the PC a desktop full of things to click.",
+    "dateLabel": "1990-05-22",
+    "room": "Technology moment",
+    "target": "/events/windows-30-launch/"
+  },
+  {
+    "id": "event-film-total-recall-1990",
+    "kind": "event",
+    "title": "Total Recall takes a trip to Mars",
+    "teaser": "A summer cinema trip with a few questions about memory.",
+    "dateLabel": "1990-06-01",
+    "room": "Movies moment",
+    "target": "/events/film-total-recall-1990/"
+  },
+  {
+    "id": "event-fresh-prince-premiere",
+    "kind": "event",
+    "title": "The Fresh Prince moves to Bel-Air",
+    "teaser": "Will Smith brings a rapper’s timing to a family sitcom.",
+    "dateLabel": "1990-09-10",
+    "room": "Television moment",
+    "target": "/events/fresh-prince-premiere/"
+  },
+  {
+    "id": "event-german-reunification",
+    "kind": "event",
+    "title": "Germany reunifies",
+    "teaser": "Celebrations at the Reichstag mark the end of Germany’s division.",
+    "dateLabel": "1990-10-03",
+    "room": "World news moment",
+    "target": "/events/german-reunification/"
+  },
+  {
+    "id": "event-super-mario-world-japan",
+    "kind": "event",
+    "title": "Super Mario World introduces Yoshi",
+    "teaser": "Dinosaur Land gives Mario a new traveling companion.",
+    "dateLabel": "1990-11-21",
+    "room": "Games moment",
+    "target": "/events/super-mario-world-japan/"
+  },
+  {
+    "id": "event-film-edward-scissorhands-1990",
+    "kind": "event",
+    "title": "Edward Scissorhands arrives for December",
+    "teaser": "A very unusual visitor joins the holiday-season cinema calendar.",
+    "dateLabel": "1990-12-07",
+    "room": "Movies moment",
+    "target": "/events/film-edward-scissorhands-1990/"
+  },
+  {
+    "id": "event-bulls-first-title",
+    "kind": "event",
+    "title": "The Bulls win their first NBA title",
+    "teaser": "Chicago beats the Lakers to finish the Finals.",
+    "dateLabel": "1991-06-12",
+    "room": "Sports moment",
+    "target": "/events/bulls-first-title/"
+  },
+  {
+    "id": "event-sonic-western-release",
+    "kind": "event",
+    "title": "Sonic races onto the Mega Drive and Genesis",
+    "teaser": "Sega’s blue hedgehog makes speed part of the console rivalry.",
+    "dateLabel": "1991-06-23",
+    "room": "Games moment",
+    "target": "/events/sonic-western-release/"
+  },
+  {
+    "id": "event-film-terminator-2-judgment-day-1991",
+    "kind": "event",
+    "title": "Terminator 2 returns for the summer",
+    "teaser": "The sequel opens during the July cinema season.",
+    "dateLabel": "1991-07-02",
+    "room": "Movies moment",
+    "target": "/events/film-terminator-2-judgment-day-1991/"
+  },
+  {
+    "id": "event-web-usenet-announcement",
+    "kind": "event",
+    "title": "The Web gets a public invitation",
+    "teaser": "Tim Berners-Lee posts about the WorldWideWeb project on Usenet.",
+    "dateLabel": "1991-08-06",
+    "room": "Internet moment",
+    "target": "/events/web-usenet-announcement/"
+  },
+  {
+    "id": "event-rugrats-premiere",
+    "kind": "event",
+    "title": "Rugrats sees the world from the carpet",
+    "teaser": "Tommy Pickles and his friends join Nickelodeon’s first Nicktoons.",
+    "dateLabel": "1991-08-11",
+    "room": "Television moment",
+    "target": "/events/rugrats-premiere/"
+  },
+  {
+    "id": "event-metallica-black-album",
+    "kind": "event",
+    "title": "Metallica releases the Black Album",
+    "teaser": "Metallica’s self-titled album arrives on the band’s official release calendar.",
+    "dateLabel": "1991-08-12",
+    "room": "Music moment",
+    "target": "/events/metallica-black-album/"
+  },
+  {
+    "id": "event-pearl-jam-ten",
+    "kind": "event",
+    "title": "Pearl Jam releases Ten",
+    "teaser": "Alive, Even Flow, and Jeremy arrive on the band’s debut album.",
+    "dateLabel": "1991-08-27",
+    "room": "Music moment",
+    "target": "/events/pearl-jam-ten/"
+  },
+  {
+    "id": "event-nevermind",
+    "kind": "event",
+    "title": "Nirvana releases Nevermind",
+    "teaser": "Nirvana releases Nevermind. The artist’s official discography supplies the release date.",
+    "dateLabel": "1991-09-24",
+    "room": "Music moment",
+    "target": "/events/nevermind/"
+  },
+  {
+    "id": "event-film-beauty-and-the-beast-1991",
+    "kind": "event",
+    "title": "Beauty and the Beast opens in November",
+    "teaser": "A Disney animation joins the autumn theatrical calendar.",
+    "dateLabel": "1991-11-13",
+    "room": "Movies moment",
+    "target": "/events/film-beauty-and-the-beast-1991/"
+  },
+  {
+    "id": "event-zelda-link-past-japan",
+    "kind": "event",
+    "title": "A Link to the Past opens two Hyrules",
+    "teaser": "Link’s Super Famicom adventure begins in Japan.",
+    "dateLabel": "1991-11-21",
+    "room": "Games moment",
+    "target": "/events/zelda-link-past-japan/"
+  },
+  {
+    "id": "event-film-wayne-s-world-1992",
+    "kind": "event",
+    "title": "Wayne’s World goes to the movies",
+    "teaser": "The television sketch gets a cinema-sized outing.",
+    "dateLabel": "1992-02-14",
+    "room": "Movies moment",
+    "target": "/events/film-wayne-s-world-1992/"
+  },
+  {
+    "id": "event-windows-31-ships",
+    "kind": "event",
+    "title": "Windows 3.1 ships",
+    "teaser": "Microsoft ships the next major version of Windows.",
+    "dateLabel": "1992-04-06",
+    "room": "Technology moment",
+    "target": "/events/windows-31-ships/"
+  },
+  {
+    "id": "event-euro-disney-opens",
+    "kind": "event",
+    "title": "Euro Disney opens outside Paris",
+    "teaser": "A new Disney resort brings a theme-park holiday closer to European visitors.",
+    "dateLabel": "1992-04-12",
+    "room": "Culture moment",
+    "target": "/events/euro-disney-opens/"
+  },
+  {
+    "id": "event-real-world-premiere",
+    "kind": "event",
+    "title": "The Real World moves seven strangers in",
+    "teaser": "MTV turns a shared New York home into a television series.",
+    "dateLabel": "1992-05-21",
+    "room": "Television moment",
+    "target": "/events/real-world-premiere/"
+  },
+  {
+    "id": "event-carson-final-tonight",
+    "kind": "event",
+    "title": "Johnny Carson signs off from The Tonight Show",
+    "teaser": "A familiar late-night appointment ends after nearly thirty years.",
+    "dateLabel": "1992-05-22",
+    "room": "Television moment",
+    "target": "/events/carson-final-tonight/"
+  },
+  {
+    "id": "event-barcelona-olympics-open",
+    "kind": "event",
+    "title": "Barcelona opens the Summer Olympics",
+    "teaser": "The opening ceremony starts a summer of televised competition.",
+    "dateLabel": "1992-07-25",
+    "room": "Sports moment",
+    "target": "/events/barcelona-olympics-open/"
+  },
+  {
+    "id": "event-mall-of-america-opens",
+    "kind": "event",
+    "title": "Mall of America opens its doors",
+    "teaser": "Mall life goes supersized in Bloomington, Minnesota.",
+    "dateLabel": "1992-08-11",
+    "room": "Culture moment",
+    "target": "/events/mall-of-america-opens/"
+  },
+  {
+    "id": "event-super-mario-kart-japan",
+    "kind": "event",
+    "title": "Super Mario Kart starts the race",
+    "teaser": "Mario’s cast trades platform jumps for karts and banana peels.",
+    "dateLabel": "1992-08-27",
+    "room": "Games moment",
+    "target": "/events/super-mario-kart-japan/"
+  },
+  {
+    "id": "event-film-aladdin-1992",
+    "kind": "event",
+    "title": "Aladdin joins the holiday movie season",
+    "teaser": "Disney’s animated adventure opens in November.",
+    "dateLabel": "1992-11-11",
+    "room": "Movies moment",
+    "target": "/events/film-aladdin-1992/"
+  },
+  {
+    "id": "event-bodyguard-soundtrack",
+    "kind": "event",
+    "title": "Whitney Houston leads The Bodyguard soundtrack",
+    "teaser": "The soundtrack arrives before the film’s US theatrical opening.",
+    "dateLabel": "1992-11-17",
+    "room": "Music moment",
+    "target": "/events/bodyguard-soundtrack/"
+  },
+  {
+    "id": "event-monday-night-raw-debut",
+    "kind": "event",
+    "title": "Monday Night Raw goes live",
+    "teaser": "Wrestling takes a weekly live slot from the Manhattan Center.",
+    "dateLabel": "1993-01-11",
+    "room": "Television moment",
+    "target": "/events/monday-night-raw-debut/"
+  },
+  {
+    "id": "event-film-groundhog-day-1993",
+    "kind": "event",
+    "title": "Groundhog Day starts repeating itself",
+    "teaser": "A February opening for a film about one very long day.",
+    "dateLabel": "1993-02-12",
+    "room": "Movies moment",
+    "target": "/events/film-groundhog-day-1993/"
+  },
+  {
+    "id": "event-pentium-introduced",
+    "kind": "event",
+    "title": "Pentium becomes the new PC name",
+    "teaser": "Intel introduces its first Pentium processors.",
+    "dateLabel": "1993-03-22",
+    "room": "Technology moment",
+    "target": "/events/pentium-introduced/"
+  },
+  {
+    "id": "event-cern-opens-web",
+    "kind": "event",
+    "title": "CERN opens its Web software",
+    "teaser": "CERN puts the core World Wide Web software into the public domain.",
+    "dateLabel": "1993-04-30",
+    "room": "Internet moment",
+    "target": "/events/cern-opens-web/"
+  },
+  {
+    "id": "event-film-jurassic-park-1993",
+    "kind": "event",
+    "title": "Jurassic Park opens the gates",
+    "teaser": "The dinosaurs arrive in time for the summer cinema season.",
+    "dateLabel": "1993-06-11",
+    "room": "Movies moment",
+    "target": "/events/film-jurassic-park-1993/"
+  },
+  {
+    "id": "event-x-files-premiere",
+    "kind": "event",
+    "title": "The X-Files pairs a believer with a skeptic",
+    "teaser": "Mulder and Scully start investigating the unexplained on Fox.",
+    "dateLabel": "1993-09-10",
+    "room": "Television moment",
+    "target": "/events/x-files-premiere/"
+  },
+  {
+    "id": "event-in-utero",
+    "kind": "event",
+    "title": "Nirvana releases In Utero",
+    "teaser": "Nirvana releases In Utero. The artist’s official discography supplies the release date.",
+    "dateLabel": "1993-09-21",
+    "room": "Music moment",
+    "target": "/events/in-utero/"
+  },
+  {
+    "id": "event-wu-tang-debut",
+    "kind": "event",
+    "title": "Wu-Tang Clan enters the 36 Chambers",
+    "teaser": "Nine voices, soul samples, and martial-arts film references fill a debut album.",
+    "dateLabel": "1993-11-09",
+    "room": "Music moment",
+    "target": "/events/wu-tang-debut/"
+  },
+  {
+    "id": "event-hubble-servicing-launch",
+    "kind": "event",
+    "title": "Endeavour heads out to repair Hubble",
+    "teaser": "Seven astronauts begin the telescope’s first servicing mission.",
+    "dateLabel": "1993-12-02",
+    "room": "Technology moment",
+    "target": "/events/hubble-servicing-launch/"
+  },
+  {
+    "id": "event-doom-shareware",
+    "kind": "event",
+    "title": "Doom escapes onto PCs",
+    "teaser": "A shareware episode makes a trip through the computer desk feel much less like homework.",
+    "dateLabel": "1993-12-10",
+    "room": "Games moment",
+    "target": "/events/doom-shareware/"
+  },
+  {
+    "id": "event-green-day-dookie",
+    "kind": "event",
+    "title": "Green Day releases Dookie",
+    "teaser": "A short, loud record brings Bay Area punk to a major label.",
+    "dateLabel": "1994-02-01",
+    "room": "Music moment",
+    "target": "/events/green-day-dookie/"
+  },
+  {
+    "id": "event-mandela-first-vote",
+    "kind": "event",
+    "title": "Nelson Mandela casts his first democratic vote",
+    "teaser": "Mandela votes in South Africa’s first democratic elections.",
+    "dateLabel": "1994-04-27",
+    "room": "World news moment",
+    "target": "/events/mandela-first-vote/"
+  },
+  {
+    "id": "event-channel-tunnel-inauguration",
+    "kind": "event",
+    "title": "The Channel Tunnel officially opens",
+    "teaser": "The inauguration links Britain and France beneath the Channel.",
+    "dateLabel": "1994-05-06",
+    "room": "Technology moment",
+    "target": "/events/channel-tunnel-inauguration/"
+  },
+  {
+    "id": "event-film-forrest-gump-1994",
+    "kind": "event",
+    "title": "Forrest Gump opens in July",
+    "teaser": "A summer opening on the North American theatrical calendar.",
+    "dateLabel": "1994-07-06",
+    "room": "Movies moment",
+    "target": "/events/film-forrest-gump-1994/"
+  },
+  {
+    "id": "event-world-cup-1994-final",
+    "kind": "event",
+    "title": "Brazil wins the World Cup on penalties",
+    "teaser": "The final at the Rose Bowl reaches a shootout after a goalless match.",
+    "dateLabel": "1994-07-17",
+    "room": "Sports moment",
+    "target": "/events/world-cup-1994-final/"
+  },
+  {
+    "id": "event-er-premiere",
+    "kind": "event",
+    "title": "ER begins a busy night in Chicago",
+    "teaser": "The two-hour pilot sends NBC viewers into County General.",
+    "dateLabel": "1994-09-19",
+    "room": "Television moment",
+    "target": "/events/er-premiere/"
+  },
+  {
+    "id": "event-friends-premiere",
+    "kind": "event",
+    "title": "Friends opens the door to Central Perk",
+    "teaser": "Six friends join NBC’s Thursday-night lineup.",
+    "dateLabel": "1994-09-22",
+    "room": "Television moment",
+    "target": "/events/friends-premiere/"
+  },
+  {
+    "id": "event-w3c-founded",
+    "kind": "event",
+    "title": "The Web gets a standards consortium",
+    "teaser": "W3C forms to coordinate a Web that can work across different systems.",
+    "dateLabel": "1994-10-01",
+    "room": "Internet moment",
+    "target": "/events/w3c-founded/"
+  },
+  {
+    "id": "event-film-pulp-fiction-1994",
+    "kind": "event",
+    "title": "Pulp Fiction reaches the autumn screen",
+    "teaser": "The October opening puts it in a different season from the summer blockbusters.",
+    "dateLabel": "1994-10-14",
+    "room": "Movies moment",
+    "target": "/events/film-pulp-fiction-1994/"
+  },
+  {
+    "id": "event-playstation-japan",
+    "kind": "event",
+    "title": "PlayStation launches in Japan",
+    "teaser": "Sony’s first PlayStation arrives in its home market.",
+    "dateLabel": "1994-12-03",
+    "room": "Games moment",
+    "target": "/events/playstation-japan/"
+  },
+  {
+    "id": "event-jordan-returns",
+    "kind": "event",
+    "title": "Michael Jordan returns to the Bulls",
+    "teaser": "Jordan takes the court again against Indiana.",
+    "dateLabel": "1995-03-19",
+    "room": "Sports moment",
+    "target": "/events/jordan-returns/"
+  },
+  {
+    "id": "event-java-public-introduction",
+    "kind": "event",
+    "title": "Java gets its public introduction",
+    "teaser": "A new programming language joins the growing conversation about the Web.",
+    "dateLabel": "1995-05-23",
+    "room": "Technology moment",
+    "target": "/events/java-public-introduction/"
+  },
+  {
+    "id": "event-jagged-little-pill-us",
+    "kind": "event",
+    "title": "Alanis Morissette releases Jagged Little Pill",
+    "teaser": "You Oughta Know gives the album its sharpest introduction.",
+    "dateLabel": "1995-06-13",
+    "room": "Music moment",
+    "target": "/events/jagged-little-pill-us/"
+  },
+  {
+    "id": "event-rugby-world-cup-1995-final",
+    "kind": "event",
+    "title": "South Africa wins the Rugby World Cup",
+    "teaser": "Nelson Mandela joins the final wearing Francois Pienaar’s number six.",
+    "dateLabel": "1995-06-24",
+    "room": "Sports moment",
+    "target": "/events/rugby-world-cup-1995-final/"
+  },
+  {
+    "id": "event-film-apollo-13-1995",
+    "kind": "event",
+    "title": "Apollo 13 reaches the summer screen",
+    "teaser": "A June theatrical opening for the spaceflight drama.",
+    "dateLabel": "1995-06-30",
+    "room": "Movies moment",
+    "target": "/events/film-apollo-13-1995/"
+  },
+  {
+    "id": "event-windows-95-launch",
+    "kind": "event",
+    "title": "Windows 95 introduces a new Start",
+    "teaser": "Windows 95 launches with the Start menu and taskbar.",
+    "dateLabel": "1995-08-24",
+    "room": "Technology moment",
+    "target": "/events/windows-95-launch/"
+  },
+  {
+    "id": "event-ebay-auctionweb-begins",
+    "kind": "event",
+    "title": "AuctionWeb begins the eBay story",
+    "teaser": "An online marketplace starts small in San Jose.",
+    "dateLabel": "1995-09-03",
+    "room": "Internet moment",
+    "target": "/events/ebay-auctionweb-begins/"
+  },
+  {
+    "id": "event-playstation-north-america",
+    "kind": "event",
+    "title": "PlayStation reaches North America",
+    "teaser": "PlayStation’s North American launch follows its Japanese debut.",
+    "dateLabel": "1995-09-09",
+    "room": "Games moment",
+    "target": "/events/playstation-north-america/"
+  },
+  {
+    "id": "event-film-toy-story-1995",
+    "kind": "event",
+    "title": "Toy Story arrives for Thanksgiving week",
+    "teaser": "Woody and Buzz join the November cinema calendar.",
+    "dateLabel": "1995-11-22",
+    "room": "Movies moment",
+    "target": "/events/film-toy-story-1995/"
+  },
+  {
+    "id": "event-galileo-jupiter-arrival",
+    "kind": "event",
+    "title": "Galileo arrives at Jupiter",
+    "teaser": "An orbiter and atmospheric probe reach their destination.",
+    "dateLabel": "1995-12-07",
+    "room": "Technology moment",
+    "target": "/events/galileo-jupiter-arrival/"
+  },
+  {
+    "id": "event-pokemon-red-green-japan",
+    "kind": "event",
+    "title": "Pokémon Red and Green begin the journey",
+    "teaser": "The original Pokémon games launch for Game Boy in Japan.",
+    "dateLabel": "1996-02-27",
+    "room": "Games moment",
+    "target": "/events/pokemon-red-green-japan/"
+  },
+  {
+    "id": "event-quake-shareware",
+    "kind": "event",
+    "title": "Quake opens the Slipgate",
+    "teaser": "id Software’s Quake brings its 3D world to the PC.",
+    "dateLabel": "1996-06-22",
+    "room": "Games moment",
+    "target": "/events/quake-shareware/"
+  },
+  {
+    "id": "event-nintendo-64-japan",
+    "kind": "event",
+    "title": "Nintendo 64 arrives in Japan",
+    "teaser": "Nintendo’s new console makes its Japanese debut.",
+    "dateLabel": "1996-06-23",
+    "room": "Games moment",
+    "target": "/events/nintendo-64-japan/"
+  },
+  {
+    "id": "event-hotmail-launch",
+    "kind": "event",
+    "title": "Hotmail puts an inbox in the browser",
+    "teaser": "Hotmail announces free web-based email, available from July 4, 1996. The original company announcement survives in the NET-HAPPENINGS mailing-list archive.",
+    "dateLabel": "1996-07-04",
+    "room": "Internet moment",
+    "target": "/events/hotmail-launch/"
+  },
+  {
+    "id": "event-dolly-born",
+    "kind": "event",
+    "title": "Dolly the sheep is born",
+    "teaser": "Dolly is born at the Roslin Institute in Scotland.",
+    "dateLabel": "1996-07-05",
+    "room": "Technology moment",
+    "target": "/events/dolly-born/"
+  },
+  {
+    "id": "event-wannabe-uk",
+    "kind": "event",
+    "title": "The Spice Girls introduce Wannabe",
+    "teaser": "The group’s first UK single makes friendship the hook.",
+    "dateLabel": "1996-07-08",
+    "room": "Music moment",
+    "target": "/events/wannabe-uk/"
+  },
+  {
+    "id": "event-atlanta-olympics-open",
+    "kind": "event",
+    "title": "Muhammad Ali lights the Atlanta cauldron",
+    "teaser": "The opening ceremony supplies the Summer Games with an unforgettable last torchbearer.",
+    "dateLabel": "1996-07-19",
+    "room": "Sports moment",
+    "target": "/events/atlanta-olympics-open/"
+  },
+  {
+    "id": "event-nintendo-64-us",
+    "kind": "event",
+    "title": "Nintendo 64 launches in the U.S.",
+    "teaser": "Nintendo 64 arrives with Super Mario 64 leading the way.",
+    "dateLabel": "1996-09-29",
+    "room": "Games moment",
+    "target": "/events/nintendo-64-us/"
+  },
+  {
+    "id": "event-space-jam-la",
+    "kind": "event",
+    "title": "Space Jam joins the November lineup",
+    "teaser": "Basketball and cartoons share a place on the cinema screen.",
+    "dateLabel": "1996-11-15",
+    "room": "Movies moment",
+    "target": "/events/space-jam-la/"
+  },
+  {
+    "id": "event-tamagotchi-japan",
+    "kind": "event",
+    "title": "Tamagotchi makes care portable",
+    "teaser": "Bandai’s original handheld care toy arrives.",
+    "dateLabel": "1996-11-23",
+    "room": "Toys & products moment",
+    "target": "/events/tamagotchi-japan/"
+  },
+  {
+    "id": "event-film-scream-1996",
+    "kind": "event",
+    "title": "Scream opens before the holidays",
+    "teaser": "A December release for the horror film that knows its genre.",
+    "dateLabel": "1996-12-20",
+    "room": "Movies moment",
+    "target": "/events/film-scream-1996/"
+  },
+  {
+    "id": "event-daft-punk-homework-europe",
+    "kind": "event",
+    "title": "Daft Punk releases Homework in Europe",
+    "teaser": "A Paris home studio sends its dance tracks out into the world.",
+    "dateLabel": "1997-01-20",
+    "room": "Music moment",
+    "target": "/events/daft-punk-homework-europe/"
+  },
+  {
+    "id": "event-final-fantasy-vii-japan",
+    "kind": "event",
+    "title": "Final Fantasy VII arrives on PlayStation",
+    "teaser": "Cloud’s journey starts on Japanese shelves.",
+    "dateLabel": "1997-01-31",
+    "room": "Games moment",
+    "target": "/events/final-fantasy-vii-japan/"
+  },
+  {
+    "id": "event-deep-blue-match-win",
+    "kind": "event",
+    "title": "Deep Blue wins its match with Kasparov",
+    "teaser": "IBM’s chess computer wins a six-game rematch.",
+    "dateLabel": "1997-05-11",
+    "room": "Technology moment",
+    "target": "/events/deep-blue-match-win/"
+  },
+  {
+    "id": "event-wnba-first-game",
+    "kind": "event",
+    "title": "The WNBA tips off",
+    "teaser": "The Liberty and Sparks play the league’s inaugural game.",
+    "dateLabel": "1997-06-21",
+    "room": "Sports moment",
+    "target": "/events/wnba-first-game/"
+  },
+  {
+    "id": "event-film-men-in-black-1997",
+    "kind": "event",
+    "title": "Men in Black opens for July",
+    "teaser": "A summer opening for the alien-investigation comedy.",
+    "dateLabel": "1997-07-01",
+    "room": "Movies moment",
+    "target": "/events/film-men-in-black-1997/"
+  },
+  {
+    "id": "event-hong-kong-handover",
+    "kind": "event",
+    "title": "Hong Kong’s handover reaches midnight",
+    "teaser": "A televised ceremony marks the transfer of sovereignty to China.",
+    "dateLabel": "1997-07-01",
+    "room": "World news moment",
+    "target": "/events/hong-kong-handover/"
+  },
+  {
+    "id": "event-mars-pathfinder-lands",
+    "kind": "event",
+    "title": "Pathfinder reaches Mars",
+    "teaser": "NASA’s Mars Pathfinder lands on the Red Planet.",
+    "dateLabel": "1997-07-04",
+    "room": "Technology moment",
+    "target": "/events/mars-pathfinder-lands/"
+  },
+  {
+    "id": "event-south-park-premiere",
+    "kind": "event",
+    "title": "South Park debuts on Comedy Central",
+    "teaser": "Four children in a Colorado town join late-night cable television.",
+    "dateLabel": "1997-08-13",
+    "room": "Television moment",
+    "target": "/events/south-park-premiere/"
+  },
+  {
+    "id": "event-film-gattaca-1997",
+    "kind": "event",
+    "title": "Gattaca reaches theaters in October",
+    "teaser": "A science-fiction release on the autumn calendar.",
+    "dateLabel": "1997-10-24",
+    "room": "Movies moment",
+    "target": "/events/film-gattaca-1997/"
+  },
+  {
+    "id": "event-lion-king-broadway",
+    "kind": "event",
+    "title": "The Lion King opens on Broadway",
+    "teaser": "The animated-film world becomes a live theatrical experience.",
+    "dateLabel": "1997-11-13",
+    "room": "Culture moment",
+    "target": "/events/lion-king-broadway/"
+  },
+  {
+    "id": "event-good-friday-agreement",
+    "kind": "event",
+    "title": "The Good Friday Agreement is signed",
+    "teaser": "An agreement sets out a new political settlement for Northern Ireland.",
+    "dateLabel": "1998-04-10",
+    "room": "World news moment",
+    "target": "/events/good-friday-agreement/"
+  },
+  {
+    "id": "event-film-the-truman-show-1998",
+    "kind": "event",
+    "title": "The Truman Show opens in June",
+    "teaser": "A film about a television life joins the summer cinema schedule.",
+    "dateLabel": "1998-06-05",
+    "room": "Movies moment",
+    "target": "/events/film-the-truman-show-1998/"
+  },
+  {
+    "id": "event-windows-98-launch",
+    "kind": "event",
+    "title": "Windows 98 reaches the desktop",
+    "teaser": "A new Windows release arrives in the browser-heavy household PC era.",
+    "dateLabel": "1998-06-25",
+    "room": "Technology moment",
+    "target": "/events/windows-98-launch/"
+  },
+  {
+    "id": "event-world-cup-1998-final",
+    "kind": "event",
+    "title": "France wins its home World Cup",
+    "teaser": "The hosts beat Brazil at the Stade de France.",
+    "dateLabel": "1998-07-12",
+    "room": "Sports moment",
+    "target": "/events/world-cup-1998-final/"
+  },
+  {
+    "id": "event-film-saving-private-ryan-1998",
+    "kind": "event",
+    "title": "Saving Private Ryan opens in July",
+    "teaser": "The war drama arrives midway through the summer movie season.",
+    "dateLabel": "1998-07-24",
+    "room": "Movies moment",
+    "target": "/events/film-saving-private-ryan-1998/"
+  },
+  {
+    "id": "event-imac-arrives",
+    "kind": "event",
+    "title": "The original iMac arrives",
+    "teaser": "The translucent all-in-one becomes a new kind of desktop object.",
+    "dateLabel": "1998-08-15",
+    "room": "Technology moment",
+    "target": "/events/imac-arrives/"
+  },
+  {
+    "id": "event-lauryn-hill-miseducation",
+    "kind": "event",
+    "title": "Lauryn Hill releases The Miseducation",
+    "teaser": "Her solo debut puts singing and rapping in the same conversation.",
+    "dateLabel": "1998-08-25",
+    "room": "Music moment",
+    "target": "/events/lauryn-hill-miseducation/"
+  },
+  {
+    "id": "event-google-incorporated",
+    "kind": "event",
+    "title": "Google becomes a company",
+    "teaser": "A search project gets an incorporation date.",
+    "dateLabel": "1998-09-04",
+    "room": "Internet moment",
+    "target": "/events/google-incorporated/"
+  },
+  {
+    "id": "event-game-boy-color-japan",
+    "kind": "event",
+    "title": "Game Boy Color arrives in Japan",
+    "teaser": "The handheld’s screen and shell both get a new look.",
+    "dateLabel": "1998-10-21",
+    "room": "Games moment",
+    "target": "/events/game-boy-color-japan/"
+  },
+  {
+    "id": "event-ocarina-time-japan",
+    "kind": "event",
+    "title": "Ocarina of Time brings Hyrule into 3D",
+    "teaser": "Link’s Nintendo 64 adventure begins in Japan.",
+    "dateLabel": "1998-11-21",
+    "room": "Games moment",
+    "target": "/events/ocarina-time-japan/"
+  },
+  {
+    "id": "event-euro-introduced",
+    "kind": "event",
+    "title": "The euro begins without notes or coins",
+    "teaser": "Eleven countries enter monetary union; physical euro cash comes later.",
+    "dateLabel": "1999-01-01",
+    "room": "World news moment",
+    "target": "/events/euro-introduced/"
+  },
+  {
+    "id": "event-sopranos-premiere",
+    "kind": "event",
+    "title": "The Sopranos starts on HBO",
+    "teaser": "A New Jersey mob boss brings his problems into a therapist’s office.",
+    "dateLabel": "1999-01-10",
+    "room": "Television moment",
+    "target": "/events/sopranos-premiere/"
+  },
+  {
+    "id": "event-britney-debut-album",
+    "kind": "event",
+    "title": "Britney Spears releases her debut album",
+    "teaser": "…Baby One More Time moves from a hit single into an album.",
+    "dateLabel": "1999-01-12",
+    "room": "Music moment",
+    "target": "/events/britney-debut-album/"
+  },
+  {
+    "id": "event-smash-bros-japan",
+    "kind": "event",
+    "title": "Super Smash Bros. puts Nintendo’s cast together",
+    "teaser": "Mario and Link can finally settle an argument on the same screen.",
+    "dateLabel": "1999-01-21",
+    "room": "Games moment",
+    "target": "/events/smash-bros-japan/"
+  },
+  {
+    "id": "event-film-the-matrix-1999",
+    "kind": "event",
+    "title": "The Matrix opens at the end of March",
+    "teaser": "A spring cinema date for the story behind the red-pill choice.",
+    "dateLabel": "1999-03-31",
+    "room": "Movies moment",
+    "target": "/events/film-the-matrix-1999/"
+  },
+  {
+    "id": "event-womens-world-cup-1999-final",
+    "kind": "event",
+    "title": "The USA wins the Women’s World Cup",
+    "teaser": "Brandi Chastain’s penalty ends a tense final against China.",
+    "dateLabel": "1999-07-10",
+    "room": "Sports moment",
+    "target": "/events/womens-world-cup-1999-final/"
+  },
+  {
+    "id": "event-film-the-blair-witch-project-1999",
+    "kind": "event",
+    "title": "The Blair Witch Project reaches theaters",
+    "teaser": "The July opening brings the woods into the summer cinema schedule.",
+    "dateLabel": "1999-07-14",
+    "room": "Movies moment",
+    "target": "/events/film-the-blair-witch-project-1999/"
+  },
+  {
+    "id": "event-dreamcast-us",
+    "kind": "event",
+    "title": "Dreamcast’s 9/9/99 U.S. launch",
+    "teaser": "SEGA’s new console arrives in the United States.",
+    "dateLabel": "1999-09-09",
+    "room": "Games moment",
+    "target": "/events/dreamcast-us/"
+  },
+  {
+    "id": "event-pokemon-gold-silver-japan",
+    "kind": "event",
+    "title": "Pokémon Gold and Silver open a new journey",
+    "teaser": "The Game Boy series returns with two new Japanese editions.",
+    "dateLabel": "1999-11-21",
+    "room": "Games moment",
+    "target": "/events/pokemon-gold-silver-japan/"
+  },
+  {
+    "id": "event-y2k-rollover-night",
+    "kind": "event",
+    "title": "Response teams watch the Y2K rollover",
+    "teaser": "The calendar change is a working night for people watching computer systems.",
+    "dateLabel": "1999-12-31",
+    "room": "Technology moment",
+    "target": "/events/y2k-rollover-night/"
+  },
+  {
+    "id": "timeline-1990",
+    "kind": "year",
+    "title": "1990 time capsule",
+    "teaser": "1990: A remote, a cassette, a new desktop. Browse defining moments, the full monthly calendar, related stories, and objects.",
+    "dateLabel": "1990",
+    "room": "Year timeline",
+    "target": "/timeline/1990/"
+  },
+  {
+    "id": "timeline-1991",
+    "kind": "year",
+    "title": "1991 time capsule",
+    "teaser": "1991: Turn it up. Follow the blue link. Browse defining moments, the full monthly calendar, related stories, and objects.",
+    "dateLabel": "1991",
+    "room": "Year timeline",
+    "target": "/timeline/1991/"
+  },
+  {
+    "id": "timeline-1992",
+    "kind": "year",
+    "title": "1992 time capsule",
+    "teaser": "1992: Seven strangers and a second controller. Browse defining moments, the full monthly calendar, related stories, and objects.",
+    "dateLabel": "1992",
+    "room": "Year timeline",
+    "target": "/timeline/1992/"
+  },
+  {
+    "id": "timeline-1993",
+    "kind": "year",
+    "title": "1993 time capsule",
+    "teaser": "1993: Dinosaurs outside. Doom after homework. Browse defining moments, the full monthly calendar, related stories, and objects.",
+    "dateLabel": "1993",
+    "room": "Year timeline",
+    "target": "/timeline/1993/"
+  },
+  {
+    "id": "timeline-1994",
+    "kind": "year",
+    "title": "1994 time capsule",
+    "teaser": "1994: The coffee shop and the loading screen. Browse defining moments, the full monthly calendar, related stories, and objects.",
+    "dateLabel": "1994",
+    "room": "Year timeline",
+    "target": "/timeline/1994/"
+  },
+  {
+    "id": "timeline-1995",
+    "kind": "year",
+    "title": "1995 time capsule",
+    "teaser": "1995: Click Start. Put the disc in. Browse defining moments, the full monthly calendar, related stories, and objects.",
+    "dateLabel": "1995",
+    "room": "Year timeline",
+    "target": "/timeline/1995/"
+  },
+  {
+    "id": "timeline-1996",
+    "kind": "year",
+    "title": "1996 time capsule",
+    "teaser": "1996: Pocket monsters, portable pets, a browser inbox. Browse defining moments, the full monthly calendar, related stories, and objects.",
+    "dateLabel": "1996",
+    "room": "Year timeline",
+    "target": "/timeline/1996/"
+  },
+  {
+    "id": "timeline-1997",
+    "kind": "year",
+    "title": "1997 time capsule",
+    "teaser": "1997: Big adventures, new voices, one more screen name. Browse defining moments, the full monthly calendar, related stories, and objects.",
+    "dateLabel": "1997",
+    "room": "Year timeline",
+    "target": "/timeline/1997/"
+  },
+  {
+    "id": "timeline-1998",
+    "kind": "year",
+    "title": "1998 time capsule",
+    "teaser": "1998: Clear purple and Bondi blue. Browse defining moments, the full monthly calendar, related stories, and objects.",
+    "dateLabel": "1998",
+    "room": "Year timeline",
+    "target": "/timeline/1998/"
+  },
+  {
+    "id": "timeline-1999",
+    "kind": "year",
+    "title": "1999 time capsule",
+    "teaser": "1999: One more disc before midnight. Browse defining moments, the full monthly calendar, related stories, and objects.",
+    "dateLabel": "1999",
+    "room": "Year timeline",
+    "target": "/timeline/1999/"
+  },
+  {
+    "id": "tour-before-the-feed",
+    "kind": "tour",
+    "title": "Before the Feed: How the Web Became Personal",
+    "teaser": "A six-stop, ten-minute tour from the shared family computer to screen names, portals, and search.",
+    "dateLabel": "The 1990s",
+    "room": "Guided tour",
+    "target": "/tours/before-the-feed/"
+  },
+  {
+    "id": "zones-fashion",
+    "kind": "collection",
+    "title": "Fashion",
+    "teaser": "Flannel, oversized logos, catalog wish lists, and metallic clubwear. Style with a soundtrack.",
+    "dateLabel": "The 1990s",
+    "room": "Collection",
+    "target": "/zones/fashion/"
+  },
+  {
+    "id": "zones-games",
+    "kind": "collection",
+    "title": "Games",
+    "teaser": "Arcade nights, console rivalries, shared controllers, and the leap into 3D.",
+    "dateLabel": "The 1990s",
+    "room": "Collection",
+    "target": "/zones/games/"
+  },
+  {
+    "id": "zones-internet-culture",
+    "kind": "collection",
+    "title": "Internet Culture",
+    "teaser": "Handmade homepages, guestbooks, webrings, and screen names. When the web felt personal.",
+    "dateLabel": "The 1990s",
+    "room": "Collection",
+    "target": "/zones/internet-culture/"
+  },
+  {
+    "id": "zones-music",
+    "kind": "collection",
+    "title": "Music",
+    "teaser": "Mixtapes, grunge, hip-hop, rave flyers, and pop countdowns. Turn it up.",
+    "dateLabel": "The 1990s",
+    "room": "Collection",
+    "target": "/zones/music/"
+  },
+  {
+    "id": "zones-tech-toys",
+    "kind": "collection",
+    "title": "Tech",
+    "teaser": "From the family computer to the colorful desktop: the objects that brought the internet home.",
+    "dateLabel": "The 1990s",
+    "room": "Collection",
+    "target": "/zones/tech-toys/"
+  },
+  {
+    "id": "zones-transparent-tech",
+    "kind": "collection",
+    "title": "Transparent Tech",
+    "teaser": "Translucent shells, colorful computers, and the late-90s obsession with seeing inside.",
+    "dateLabel": "The 1990s",
+    "room": "Collection",
+    "target": "/zones/transparent-tech/"
+  },
+  {
+    "id": "zones-tv-movies",
+    "kind": "collection",
+    "title": "Movies & TV",
+    "teaser": "Rental weekends, cartoon mornings, appointment television, and multiplex summers.",
+    "dateLabel": "The 1990s",
+    "room": "Collection",
+    "target": "/zones/tv-movies/"
+  },
+  {
+    "id": "zones-culture",
+    "kind": "collection",
+    "title": "Culture: meet you at the mall",
+    "teaser": "Style, toys, sports, screen names, and the everyday rituals that made the decade yours.",
+    "dateLabel": "The 1990s",
+    "room": "Collection",
+    "target": "/zones/culture/"
   }
 ]

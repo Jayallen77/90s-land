@@ -87,8 +87,8 @@ for (const width of [390, 1440]) {
       await page.evaluate(()=>document.fonts.ready);
       expect(await page.evaluate(()=>document.documentElement.scrollWidth-innerWidth)).toBe(0);
       expect((await new AxeBuilder({page}).analyze()).violations).toEqual([]);
-      await page.screenshot({path:`reports/launch-phase2/${name}-${width}.png`,fullPage:true});
-      await page.screenshot({path:`reports/launch-phase2/${name}-${width}-top.png`});
+      await page.screenshot({path:`${process.env.LAUNCH_QA_DIR || "reports/launch-phase2"}/${name}-${width}.png`,fullPage:true});
+      await page.screenshot({path:`${process.env.LAUNCH_QA_DIR || "reports/launch-phase2"}/${name}-${width}-top.png`});
     });
   }
 }

@@ -10,6 +10,7 @@ sys.path.insert(0, str(ROOT / 'tools'))
 from build_release import build, collect_files, dependencies, sha, verify
 from deploy_release import publish
 from serve_release import gzip_accepted
+from discovery import surprise_pool
 
 
 def fixture(root):
@@ -50,11 +51,13 @@ class ReleaseTests(unittest.TestCase):
         data = json.loads((self.path / 'public/assets/runtime/surprise.json').read_text())
         source = json.loads((ROOT / 'data/artifacts.json').read_text())
         eligible = [item for item in source if item['randomEligible'] and item['status'] != 'needs-source']
-        self.assertEqual([a['id'] for a in data], [a['id'] for a in eligible])
-        for row, original in zip(data, eligible):
-            self.assertEqual(set(row), {'id', 'title', 'teaser', 'dateLabel', 'room', 'target'})
+        self.assertEqual(data, surprise_pool())
+        objects = [row for row in data if row['kind']=='object']
+        self.assertEqual([a['id'] for a in objects], [a['id'] for a in eligible])
+        for row, original in zip(objects, eligible):
+            self.assertEqual(set(row), {'id', 'kind', 'title', 'teaser', 'dateLabel', 'room', 'target'})
             self.assertEqual(row['teaser'], original['curatorNote'])
-            self.assertEqual(row['target'], original['target'])
+            self.assertEqual(row['target'], '/archive/objects/'+original['slug']+'/')
         week = json.loads((self.path / 'public/assets/runtime/week.json').read_text())
         self.assertEqual(set(week), {'events'})
         self.assertEqual(week['events'], json.loads((ROOT / 'data/editorial-index.json').read_text())['events'])

@@ -1,4 +1,5 @@
 import { MIN_DATE, MAX_DATE, inDecade, clampDecade, shiftDays, changeYear, historicalDate, weekBounds, eventsInWeek, formatDate, parseDate } from './date-utils.js';
+import { weekPicks } from './discovery.js?v=launch-phase3';
 
 const CATEGORIES = {music:'Music', 'movies-tv':'Movies & TV', games:'Games', tech:'Tech', culture:'Culture', news:'World news'};
 const PAGE_SIZE = 12;
@@ -143,13 +144,14 @@ export async function initializeWeek() {
     }
     return;
   }
-  const today = historicalDate();
-  if (home) {
+  let today = historicalDate();
+  function renderHome() {
+    if (!home) return;
     const { start, end } = weekBounds(today);
     home.querySelector('h2 strong').textContent = today.slice(0,4);
     home.querySelector('.ed-date').textContent = `${formatDate(start)} – ${formatDate(end)}`;
     home.querySelector('.ed-cta').href = '/this-week/';
-    const picks = eventsInWeek(catalog.events,today).filter(e => e.category !== 'news');
+    const picks = weekPicks(eventsInWeek(catalog.events,today));
     const copy = home.querySelector('[data-home-week-copy]');
     const note = home.querySelector('.ed-week-note');
     if (copy) copy.textContent = picks[0]?.summary || 'Turn back the clock. Explore the week’s dates, the decade’s stories, and the objects you remember.';
@@ -163,6 +165,15 @@ export async function initializeWeek() {
     const link = element('a','',picks[0]?.title || 'Open the historical week →');
     link.href = picks[0]?.url || '/this-week/'; note.append(link);
   }
+  renderHome();
+  let refreshWeek = () => {};
+  function refreshDate() {
+    const next = historicalDate();
+    if (next === today) return;
+    today = next; renderHome(); refreshWeek();
+  }
+  window.setInterval(refreshDate, 60000);
+  document.addEventListener('visibilitychange', () => {if (!document.hidden) refreshDate();});
   if (!root) return;
   const input = root.querySelector('[data-week-date]');
   const year = root.querySelector('[data-week-select]');
@@ -180,7 +191,16 @@ export async function initializeWeek() {
     input.value = date; year.value = date.slice(0,4);
     root.querySelector('[data-week-count]').textContent = `${events.length} sourced ${events.length===1 ? 'entry' : 'entries'}`;
     root.querySelector('[data-week-days]').replaceChildren(renderWeekDays(start,events));
-    renderWeekLead(root.querySelector('[data-week-lead]'),events[0]);
+    const picks = weekPicks(events);
+    renderWeekLead(root.querySelector('[data-week-lead]'),picks[0]);
+    root.querySelector('[data-week-picks]').replaceChildren(...picks.slice(1).map(e => eventLink(e,true)));
+    root.querySelector('[data-week-highlights]').hidden = !picks.length;
+    const connections = root.querySelector('[data-week-connections]');
+    const yearLink = element('a','',`Explore ${date.slice(0,4)} →`); yearLink.href = `/timeline/${date.slice(0,4)}/`;
+    const sections = {music:'/zones/music/', 'movies-tv':'/zones/tv-movies/', games:'/zones/games/', tech:'/zones/tech-toys/', culture:'/zones/culture/', news:'/events/?category=news'};
+    connections.replaceChildren(yearLink, ...[...new Set(events.map(e => e.category))].map(category => {
+      const link = element('a','',`${CATEGORIES[category]} →`); link.href = sections[category]; return link;
+    }));
     root.querySelector('[data-week-prev]').disabled = start <= MIN_DATE;
     root.querySelector('[data-week-next]').disabled = end >= MAX_DATE;
     root.querySelector('[data-week-empty]').hidden = events.length > 0;
@@ -199,7 +219,8 @@ export async function initializeWeek() {
   year.addEventListener('change', () => select(changeYear(date,Number(year.value))));
   root.querySelector('[data-week-prev]').addEventListener('click', () => select(clampDecade(shiftDays(date,-7))));
   root.querySelector('[data-week-next]').addEventListener('click', () => select(clampDecade(shiftDays(date,7))));
-  root.querySelector('[data-week-today]').addEventListener('click', () => {date=today; custom=false; render(true);});
+  root.querySelector('[data-week-today]').addEventListener('click', () => {refreshDate(); date=today; custom=false; render(true);});
   window.addEventListener('popstate', () => {read(); render();});
+  refreshWeek = () => {if (!custom) {date=today; render();}};
   read(); render();
 }

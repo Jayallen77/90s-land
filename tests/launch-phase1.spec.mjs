@@ -127,6 +127,7 @@ test('all tour stops work, completion survives reload and revisits, malformed an
   page.on('pageerror', error => errors.push(error.message));
   await page.goto('/tours/before-the-feed/#%E0%A4%A');
   const current = page.locator('[data-tour-stop]:visible');
+  await expect(current).toHaveCount(1);
   await expect(current).toHaveAttribute('data-tour-number', '1');
   for (let stop = 1; stop <= 6; stop++) {
     await expect(current).toHaveCount(1);

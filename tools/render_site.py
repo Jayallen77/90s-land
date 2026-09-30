@@ -19,6 +19,8 @@ import archive_pages
 import hub_pages
 import media_variants
 import product_pages
+import launch_meta
+import discovery
 
 ROOT = Path(__file__).resolve().parents[1]
 SITE_URL = "https://90s.land"
@@ -70,22 +72,21 @@ def route_room(route: dict) -> str:
 
 
 def render_head(route: dict) -> str:
-    if route["path"] == "/":
-        title = "90s.land — Relive the decade"
-    else:
-        title = f'{route["title"]} — 90s.land'
-    description = route["summary"]
-    canonical = f'{SITE_URL}{route["path"]}'
-    image_meta = ""
-    if (ROOT / "assets/generated/og-card.png").exists():
-        image_meta = f"""
-  <meta property="og:image" content="{SITE_URL}/assets/generated/og-card.png" />
+    meta = launch_meta.metadata(route)
+    title, description, canonical = (meta[k] for k in ('title','description','canonical'))
+    cards = load_json('social-cards.json')['cards']
+    card = cards[launch_meta.card_route(route)]
+    image_meta = f"""
+  <meta property="og:image" content="{SITE_URL}{card['src']}" />
+  <meta property="og:image:type" content="image/jpeg" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
-  <meta property="og:image:alt" content="90s.land playable museum lobby in neon CRT colors." />
-  <meta name="twitter:image" content="{SITE_URL}/assets/generated/og-card.png" />"""
+  <meta property="og:image:alt" content="{esc(card['alt'])}" />
+  <meta name="twitter:image" content="{SITE_URL}{card['src']}" />
+  <meta name="twitter:image:alt" content="{esc(card['alt'])}" />"""
     return f"""  <meta name="description" content="{esc(description)}" />
   <title>{esc(title)}</title>
+  <meta name="robots" content="{'index,follow' if meta['indexable'] else 'noindex,follow'}" />
   <link rel="canonical" href="{canonical}" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="90s.land" />
@@ -98,15 +99,17 @@ def render_head(route: dict) -> str:
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32.png" />
   <link rel="icon" type="image/svg+xml" href="/assets/editorial/palm-sunset.svg" />
   <link rel="apple-touch-icon" sizes="192x192" href="/assets/icons/icon-192.png" />
-  <link rel="manifest" href="/manifest.webmanifest" />"""
+  <link rel="manifest" href="/manifest.webmanifest" />
+  {launch_meta.structured_navigation(route, editorial.parent_section(route))}"""
 
 
 def render_shared_ui() -> str:
     stamp_cards = "\n".join(
         f"""          <li class="passport-stamp is-locked" data-passport-stamp="{esc(stamp["id"])}">
-            <span class="stamp-mark" aria-hidden="true">{editorial.icon({"first-touch":"star","room-hopper":"folder","random-access":"bolt","object-collector":"trophy","before-the-feed":"book"}.get(stamp["id"],"star"))}</span>
+            <span class="stamp-mark" aria-hidden="true">{editorial.icon({"first-touch":"star","room-hopper":"folder","random-memory":"bolt","object-collector":"trophy","before-the-feed":"book"}.get(stamp["id"],"star"))}</span>
             <strong>{esc(stamp["title"])}</strong>
             <span>{esc(stamp["description"])}</span>
+            <span class="stamp-state" data-passport-stamp-state>Not yet earned</span>
           </li>"""
         for stamp in STAMPS
     )
@@ -145,9 +148,9 @@ def render_shared_ui() -> str:
       <div class="dialog-body">
         <p class="eyebrow">YOUR DECADE, COLLECTED</p>
         <h2 id="passportTitle">Your Museum Passport</h2>
-        <p class="storage-note" data-storage-note>Saved only on this device. No account, tracking, or personal data.</p>
+        <p class="storage-note" data-storage-note>Saved in this browser on this device. No account needed. Inspect objects, explore years and collections, and complete the tour to earn stamps.</p>
         <div class="passport-stats" aria-label="Museum Passport totals">
-          <span><strong data-passport-rooms>0</strong> collections visited</span>
+          <span><strong data-passport-rooms>0</strong> places explored</span>
           <span><strong data-passport-artifacts>0</strong> objects inspected</span>
           <span><strong data-passport-stamps>0</strong> stamps earned</span>
         </div>
@@ -158,7 +161,7 @@ def render_shared_ui() -> str:
           <p><strong>Tour in progress:</strong> <span data-tour-resume-label></span></p>
           <a class="button" data-tour-resume-link href="/tours/before-the-feed/">Resume tour</a>
         </div>
-        <button class="button danger" type="button" data-passport-reset-open>Reset local passport</button>
+        <button class="button danger" type="button" data-passport-reset-open>Reset my Passport</button>
       </div>
     </div>
   </dialog>
@@ -168,7 +171,7 @@ def render_shared_ui() -> str:
       <div class="dialog-heading"><span>Your local progress</span></div>
       <div class="dialog-body">
         <h2 id="passportResetTitle">Reset this passport?</h2>
-        <p>This removes visited collections, inspected objects, stamps, and tour progress from this browser. It cannot be undone.</p>
+        <p>This removes explored years and collections, inspected objects, stamps, and tour progress from this browser. It cannot be undone.</p>
         <div class="dialog-actions">
           <button class="button" type="button" data-passport-reset-cancel>Keep my passport</button>
           <button class="button danger" type="button" data-passport-reset-confirm>Reset passport</button>
@@ -500,18 +503,20 @@ def render_tour_main(tour: dict) -> str:
     <section class="tour-deck" data-tour-deck>
 {chr(10).join(stops)}
     </section>
+    <section class="panel" data-tour-finish hidden><h2>You made it through Before the Feed.</h2><p>Your stamp is in your Museum Passport. Keep following the connections.</p><div class="dialog-actions"><button type="button" class="button primary" data-tour-passport>See my Passport</button><a class="button" href="/zones/internet-culture/">Explore Internet Culture</a><a class="button" href="/surprise/">Find a surprise</a></div></section>
   </main>"""
 
 
 def render_surprise_main() -> str:
-    eligible = [item for item in ARTIFACTS if item["randomEligible"] and item["status"] != "needs-source"]
+    pool = discovery.surprise_pool()
+    eligible = [item for kind in discovery.KINDS for item in [i for i in pool if i['kind']==kind][:2]]
     envelopes = []
     for index, item in enumerate(eligible, 1):
         envelopes.append(
             f"""      <a class="mystery-envelope" href="{esc(item["target"])}" data-fallback-artifact="{esc(item["id"])}">
         <span aria-hidden="true">✉ {index:02d}</span>
         <strong>Mystery envelope</strong>
-        <small>{esc(item["dateRange"]["label"])} · {esc(item["room"].replace("-", " "))}</small>
+        <small>{esc(item["dateLabel"])} · {esc(item["room"])}</small>
       </a>"""
         )
     return f"""  <main id="main-content" class="ed-main surprise-page">
@@ -520,7 +525,7 @@ def render_surprise_main() -> str:
 
         <p class="eyebrow">TAKE A DETOUR</p>
         <h1>Open a mystery memory.</h1>
-        <p class="lede">One click, one unexpected connection. Rediscover an object from the decade, then follow where it leads.</p>
+        <p class="lede">One click, one unexpected connection. Find a story, an object, a defining moment, a year, a collection, or a tour. The last three picks stay out of the shuffle.</p>
         <button class="button primary" type="button" data-surprise-trigger-button>Load a random memory</button>
       </div>
     </section>
@@ -562,13 +567,13 @@ def render_credits_main() -> str:
       <ul class="credits-list">{''.join(credits)}</ul>
       <h2>Type</h2>
       <p>The editorial interface uses locally hosted Jersey 10, Barlow, and Barlow Condensed from the <a href="https://github.com/google/fonts">Google Fonts repository</a>. Their SIL Open Font Licenses are included: <a href="/assets/fonts/OFL-jersey10.txt">Jersey 10</a>, <a href="/assets/fonts/OFL-barlow.txt">Barlow</a>, and <a href="/assets/fonts/OFL-barlowcondensed.txt">Barlow Condensed</a>.</p>
-      <p>The sharing card uses Press Start 2P and Space Mono under their <a href="/assets/fonts/OFL-Press-Start-2P.txt">Press Start 2P</a> and <a href="/assets/fonts/OFL-Space-Mono.txt">Space Mono</a> licenses. These fonts are part of the image, not the page interface.</p>
+      <p>The content-specific sharing cards use the same Jersey 10 and Barlow family as the museum. The earlier museum-case graphic uses Press Start 2P and Space Mono under their <a href="/assets/fonts/OFL-Press-Start-2P.txt">Press Start 2P</a> and <a href="/assets/fonts/OFL-Space-Mono.txt">Space Mono</a> licenses. Those earlier fonts are part of that image, not the page interface.</p>
       <h2>Editorial status</h2>
       <p><strong>Verified</strong> artifacts use a source trail. <strong>Editorial</strong> objects are clearly labeled original recreations. Items marked <strong>needs source</strong> are excluded from Surprise Me and guided tours.</p>
-      <h2>Image adaptations</h2><p>Photographs are locally resized and may be cropped by the page layout. Credits name the original creators and link to the original file records; Creative Commons ShareAlike terms continue to apply to adapted images. Original interface recreations are labeled separately. The Y2K office photograph is credited to the Government of Japan, Prime Minister’s Office website, under its Standard Terms of Use 2.0, compatible with CC BY 4.0.</p>
+      <h2>Image adaptations</h2><p>Photographs are locally resized and may be cropped by the page layout. Sharing cards combine reviewed collection imagery or labeled editorial illustrations with original museum typography; each card names the creator and license. Credits above link to the original file records; Creative Commons ShareAlike terms continue to apply to adapted images. Original interface recreations are labeled separately. The Y2K office photograph is credited to the Government of Japan, Prime Minister’s Office website, under its Standard Terms of Use 2.0, compatible with CC BY 4.0.</p>
       <h2>Sharing artwork</h2>
       <p>The Home, 1996 Timeline, Games, Music, Movies &amp; TV, Tech, and Culture hero collages are original AI-generated editorial illustrations created with OpenAI on September 26–27, 2026. They evoke the decade and are not documentary photographs or evidence of release dates. Brands and illustrated products belong to their respective owners. The palm/sunset brand mark and interface icons are original SVG artwork.</p>
-      <p>The sharing card combines an original AI-generated museum-case illustration created with OpenAI and lettering in Press Start 2P and Space Mono.</p>
+      <p>Content-specific sharing cards use reviewed object imagery, clearly labeled editorial illustrations, or original graphic compositions. The earlier museum-case sharing graphic combines an original AI-generated illustration created with OpenAI and lettering in Press Start 2P and Space Mono.</p>
     </section>
   </main>"""
 
@@ -577,6 +582,8 @@ def page_document(route: dict, main: str, body_class: str = "") -> str:
     main = product_pages.finish_main(route, main, render_artifact_shelf)
     body_class = 'editorial-body ' + body_class
     body_attr = f' class="{esc(body_class)}"' if body_class else ""
+    search_font = ('  <link rel="preload" href="/assets/fonts/BarlowCondensed-SemiBold.woff2" as="font" type="font/woff2" crossorigin />\n'
+                   if route['path'] == '/search/' else '')
     return f"""<!doctype html>
 <html lang="en" class="no-js">
 <head>
@@ -586,11 +593,11 @@ def page_document(route: dict, main: str, body_class: str = "") -> str:
   <link rel="preload" href="/assets/fonts/Jersey10-Regular.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/assets/fonts/Barlow-Regular.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/assets/fonts/BarlowCondensed-Bold.woff2" as="font" type="font/woff2" crossorigin />
-{region("head", render_head(route))}
-  <link rel="stylesheet" href="/styles.css?v=launch-phase2" />
-  <link rel="stylesheet" href="/editorial.css?v=launch-phase2" />
-  <link rel="stylesheet" href="/archive.css?v=launch-phase2" />
-  <link rel="stylesheet" href="/hub.css?v=launch-phase2" />
+{search_font}{region("head", render_head(route))}
+  <link rel="stylesheet" href="/styles.css?v=launch-phase3" />
+  <link rel="stylesheet" href="/editorial.css?v=launch-phase3" />
+  <link rel="stylesheet" href="/archive.css?v=launch-phase3" />
+  <link rel="stylesheet" href="/hub.css?v=launch-phase3" />
 </head>
 <body{body_attr} data-route="{esc(route["path"])}" data-room="{esc(route_room(route))}">
   <a class="skip-link" href="#main-content">Skip to museum content</a>
@@ -600,7 +607,7 @@ def page_document(route: dict, main: str, body_class: str = "") -> str:
 {editorial.shell_footer()}
 {editorial.directory()}
 {region("shared-ui", render_shared_ui())}
-  <script type="module" src="/js/app.js?v=launch-phase2"></script>
+  <script type="module" src="/js/app.js?v=launch-phase3"></script>
 </body>
 </html>
 """
@@ -665,7 +672,7 @@ def build_outputs() -> dict[Path, str]:
 
     outputs[ROOT / "404.html"] = media_variants.optimize_html(render_404())
     sitemap_urls = "\n".join(
-        f"  <url><loc>{SITE_URL}{esc(route['path'])}</loc></url>" for route in ROUTES
+        f"  <url><loc>{SITE_URL}{esc(route['path'])}</loc></url>" for route in ROUTES if launch_meta.metadata(route)['indexable']
     )
     outputs[ROOT / "sitemap.xml"] = (
         '<?xml version="1.0" encoding="UTF-8"?>\n'
@@ -695,11 +702,7 @@ def build_outputs() -> dict[Path, str]:
     outputs[ROOT / "assets/runtime/week.json"] = json.dumps(
         {"events": archive.browser_index()["events"]}, ensure_ascii=False, indent=2
     ) + "\n"
-    outputs[ROOT / "assets/runtime/surprise.json"] = json.dumps([
-        {"id": item["id"], "title": item["title"], "teaser": item["curatorNote"],
-         "dateLabel": item["dateRange"]["label"], "room": item["room"], "target": item["target"]}
-        for item in ARTIFACTS if item["randomEligible"] and item["status"] != "needs-source"
-    ], ensure_ascii=False, indent=2) + "\n"
+    outputs[ROOT / "assets/runtime/surprise.json"] = json.dumps(discovery.surprise_pool(), ensure_ascii=False, indent=2) + "\n"
     outputs[ROOT / "data/search-index.json"] = json.dumps(search_records(), ensure_ascii=False, indent=2) + "\n"
     outputs[ROOT / "manifest.webmanifest"] = json.dumps(manifest, indent=2) + "\n"
     return outputs

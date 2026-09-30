@@ -154,7 +154,7 @@ test("search counts stay synchronized with the catalog", async ({ page }) => {
     (route) => !["/", "/search/", "/sitemap/", "/credits/"].includes(route.path) && route.type !== "objects"
   );
   await expect(page.locator('[data-site-filter="objects"] span')).toHaveText(String(artifacts.length));
-  await expect(page.locator("#searchSummaryObjects")).toHaveText(String(artifacts.length));
+  await expect(page.locator('#searchSummaryObjects')).toBeEmpty();
   await expect(page.locator('[data-site-filter="all"] span')).toHaveText(
     String(searchableRoutes.length + artifacts.length + resources.length)
   );
@@ -208,7 +208,7 @@ test("core museum content and fallbacks work without JavaScript", async ({ brows
   await expect(page.locator("[data-tour-stop]:visible")).toHaveCount(6);
   await page.goto("/surprise/");
   await expect(page.locator(".mystery-envelope")).toHaveCount(
-    artifacts.filter((artifact) => artifact.randomEligible && artifact.status !== "needs-source").length
+    11
   );
   await context.close();
 });

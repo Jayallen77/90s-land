@@ -1,0 +1,48 @@
+[
+  {
+    "page": "search",
+    "path": "/search/?q=mosaic&filter=objects",
+    "mode": "mobile",
+    "performance": 96,
+    "accessibility": 100,
+    "best-practices": 100,
+    "seo": 69,
+    "metrics": {
+      "first-contentful-paint": 1878.6254999999999,
+      "largest-contentful-paint": 2553.6254999999996,
+      "total-blocking-time": 32,
+      "cumulative-layout-shift": 0,
+      "speed-index": 1878.6254999999999,
+      "total-byte-weight": 286800
+    },
+    "indexingExpected": false,
+    "seoChecksPass": true,
+    "lighthouseVersion": "13.4.1",
+    "fetchedAt": "2026-09-30T22:52:43.716Z",
+    "warnings": [],
+    "error": null
+  },
+  {
+    "page": "search",
+    "path": "/search/?q=mosaic&filter=objects",
+    "mode": "desktop",
+    "performance": 100,
+    "accessibility": 100,
+    "best-practices": 100,
+    "seo": 69,
+    "metrics": {
+      "first-contentful-paint": 463.9276000000001,
+      "largest-contentful-paint": 605.2368000000001,
+      "total-blocking-time": 0,
+      "cumulative-layout-shift": 0,
+      "speed-index": 463.9276000000001,
+      "total-byte-weight": 286800
+    },
+    "indexingExpected": false,
+    "seoChecksPass": true,
+    "lighthouseVersion": "13.4.1",
+    "fetchedAt": "2026-09-30T22:52:58.787Z",
+    "warnings": [],
+    "error": null
+  }
+]

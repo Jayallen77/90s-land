@@ -1,0 +1,170 @@
+[
+  {
+    "page": "home",
+    "path": "/",
+    "mode": "mobile",
+    "performance": 97,
+    "accessibility": 96,
+    "best-practices": 100,
+    "seo": 100,
+    "metrics": {
+      "first-contentful-paint": 1580.48115,
+      "largest-contentful-paint": 2482.3081999999995,
+      "total-blocking-time": 0,
+      "cumulative-layout-shift": 0.001260456782507223,
+      "speed-index": 1580.48115,
+      "total-byte-weight": 611975
+    },
+    "lighthouseVersion": "13.4.1",
+    "fetchedAt": "2026-09-30T21:53:28.649Z",
+    "warnings": [],
+    "error": null
+  },
+  {
+    "page": "home",
+    "path": "/",
+    "mode": "desktop",
+    "performance": 99,
+    "accessibility": 96,
+    "best-practices": 100,
+    "seo": 100,
+    "metrics": {
+      "first-contentful-paint": 407.6767,
+      "largest-contentful-paint": 867.6767,
+      "total-blocking-time": 0,
+      "cumulative-layout-shift": 0.0017750051896360506,
+      "speed-index": 407.6767,
+      "total-byte-weight": 682938
+    },
+    "lighthouseVersion": "13.4.1",
+    "fetchedAt": "2026-09-30T21:53:34.681Z",
+    "warnings": [],
+    "error": null
+  },
+  {
+    "page": "year-1996",
+    "path": "/timeline/1996/?month=06",
+    "mode": "mobile",
+    "performance": 95,
+    "accessibility": 100,
+    "best-practices": 100,
+    "seo": 100,
+    "metrics": {
+      "first-contentful-paint": 1728.0628499999998,
+      "largest-contentful-paint": 2703.0628500000003,
+      "total-blocking-time": 0,
+      "cumulative-layout-shift": 0.0002956627020695955,
+      "speed-index": 1728.0628499999998,
+      "total-byte-weight": 338280
+    },
+    "lighthouseVersion": "13.4.1",
+    "fetchedAt": "2026-09-30T21:53:40.444Z",
+    "warnings": [],
+    "error": null
+  },
+  {
+    "page": "year-1996",
+    "path": "/timeline/1996/?month=06",
+    "mode": "desktop",
+    "performance": 100,
+    "accessibility": 100,
+    "best-practices": 100,
+    "seo": 100,
+    "metrics": {
+      "first-contentful-paint": 444.08389999999997,
+      "largest-contentful-paint": 784.0839,
+      "total-blocking-time": 0,
+      "cumulative-layout-shift": 0.0001697438745877477,
+      "speed-index": 444.08389999999997,
+      "total-byte-weight": 591629
+    },
+    "lighthouseVersion": "13.4.1",
+    "fetchedAt": "2026-09-30T21:53:46.839Z",
+    "warnings": [],
+    "error": null
+  },
+  {
+    "page": "week",
+    "path": "/this-week/?date=1996-09-27",
+    "mode": "mobile",
+    "performance": 96,
+    "accessibility": 100,
+    "best-practices": 100,
+    "seo": 100,
+    "metrics": {
+      "first-contentful-paint": 1578.0963000000002,
+      "largest-contentful-paint": 2556.1925999999994,
+      "total-blocking-time": 0,
+      "cumulative-layout-shift": 0.0019209139369780676,
+      "speed-index": 1578.0963000000002,
+      "total-byte-weight": 278046
+    },
+    "lighthouseVersion": "13.4.1",
+    "fetchedAt": "2026-09-30T21:53:53.258Z",
+    "warnings": [],
+    "error": null
+  },
+  {
+    "page": "week",
+    "path": "/this-week/?date=1996-09-27",
+    "mode": "desktop",
+    "performance": 100,
+    "accessibility": 100,
+    "best-practices": 100,
+    "seo": 100,
+    "metrics": {
+      "first-contentful-paint": 404.2684,
+      "largest-contentful-paint": 569.0368,
+      "total-blocking-time": 0,
+      "cumulative-layout-shift": 0.0002435711354084581,
+      "speed-index": 404.2684,
+      "total-byte-weight": 278046
+    },
+    "lighthouseVersion": "13.4.1",
+    "fetchedAt": "2026-09-30T21:53:59.074Z",
+    "warnings": [],
+    "error": null
+  },
+  {
+    "page": "search",
+    "path": "/search/?q=mosaic&filter=objects",
+    "mode": "mobile",
+    "performance": 92,
+    "accessibility": 100,
+    "best-practices": 100,
+    "seo": 100,
+    "metrics": {
+      "first-contentful-paint": 2027.8203000000003,
+      "largest-contentful-paint": 2553.7604,
+      "total-blocking-time": 22,
+      "cumulative-layout-shift": 0.11059876456905893,
+      "speed-index": 2027.8203000000003,
+      "total-byte-weight": 285507
+    },
+    "lighthouseVersion": "13.4.1",
+    "fetchedAt": "2026-09-30T21:54:04.744Z",
+    "warnings": [],
+    "error": null
+  },
+  {
+    "page": "search",
+    "path": "/search/?q=mosaic&filter=objects",
+    "mode": "desktop",
+    "performance": 100,
+    "accessibility": 100,
+    "best-practices": 100,
+    "seo": 100,
+    "metrics": {
+      "first-contentful-paint": 484.15155,
+      "largest-contentful-paint": 564.15155,
+      "total-blocking-time": 0,
+      "cumulative-layout-shift": 0.04596442385919213,
+      "speed-index": 484.15155,
+      "total-byte-weight": 285507
+    },
+    "lighthouseVersion": "13.4.1",
+    "fetchedAt": "2026-09-30T21:54:10.757Z",
+    "warnings": [],
+    "error": null
+  }
+]

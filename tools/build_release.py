@@ -26,7 +26,7 @@ ROUTE_PREFIXES = {'archive', 'credits', 'events', 'guestbook', 'search', 'sitema
                   'stories', 'surprise', 'this-week', 'timeline', 'tours', 'webring', 'zones'}
 JS_FILES = {f'js/{name}.js' for name in (
     'announce', 'app', 'archive', 'date-utils', 'editorial', 'guestbook', 'hubs',
-    'navigation', 'pagination', 'passport', 'resources', 'search', 'storage', 'surprise', 'tour')}
+    'navigation', 'pagination', 'passport', 'resources', 'search', 'storage', 'surprise', 'tour', 'discovery')}
 RUNTIME_FILES = {'assets/runtime/week.json', 'assets/runtime/surprise.json'}
 MEDIA_TYPES = {'.png', '.jpg', '.jpeg', '.webp', '.avif', '.svg', '.gif', '.ico'}
 FONT_LICENSES = {'OFL-Press-Start-2P.txt', 'OFL-Space-Mono.txt', 'OFL-barlow.txt',
@@ -95,6 +95,10 @@ class References(HTMLParser):
 
     def handle_starttag(self, tag, attrs):
         values = dict(attrs)
+        if tag == 'meta' and (values.get('property')=='og:image' or values.get('name')=='twitter:image'):
+            parts = urlsplit(values.get('content',''))
+            if parts.scheme=='https' and parts.netloc=='90s.land':
+                self.urls.append(parts.path)
         for key in ('href', 'src', 'poster'):
             if values.get(key):
                 self.urls.append(values[key])
@@ -167,16 +171,17 @@ def digest(files):
     return hashlib.sha256(json.dumps(files, sort_keys=True).encode()).hexdigest()
 
 
-def verify_runtime_data(web):
+def verify_runtime_data(web, schema=3):
     surprise = web / 'assets/runtime/surprise.json'
     if surprise.exists():
         rows = json.loads(surprise.read_text())
-        if not isinstance(rows, list) or any(set(row) != {'id', 'title', 'teaser', 'dateLabel', 'room', 'target'} for row in rows):
+        fields = {'id', 'title', 'teaser', 'dateLabel', 'room', 'target'} | ({'kind'} if schema>=3 else set())
+        if not isinstance(rows, list) or any(set(row) != fields for row in rows):
             raise ValueError('Unexpected fields in public Surprise data')
     week = web / 'assets/runtime/week.json'
     if week.exists():
         data = json.loads(week.read_text())
-        fields = {'id', 'title', 'date', 'category', 'region', 'summary', 'url', 'image'}
+        fields = {'id', 'title', 'date', 'category', 'region', 'summary', 'url', 'image'} | ({'theme','defining'} if schema>=3 else set())
         image_fields = {'src', 'alt', 'width', 'height', 'srcset', 'sizes'}
         if set(data) != {'events'} or any(set(event) != fields or
                 (event['image'] is not None and not set(event['image']).issubset(image_fields))
@@ -187,7 +192,7 @@ def verify_runtime_data(web):
 def verify(directory):
     directory = Path(directory)
     manifest = json.loads(regular_file(directory, Path('release-manifest.json')).read_text())
-    if manifest.get('schemaVersion') != 2:
+    if manifest.get('schemaVersion') not in (2,3):
         raise ValueError('Unsupported release manifest; rebuild with the current builder')
     web = directory / 'public'
     if web.is_symlink() or not web.is_dir():
@@ -213,7 +218,7 @@ def verify(directory):
         raise ValueError('Missing route from release')
     if manifest['runtimeFiles'] != sum(not p.endswith('.gz') for p in expected):
         raise ValueError('Manifest runtime count mismatch')
-    verify_runtime_data(web)
+    verify_runtime_data(web, manifest['schemaVersion'])
     for name, record in expected.items():
         safe_relative(name)
         original = name[:-3] if name.endswith('.gz') else name
@@ -269,7 +274,7 @@ def write_package(root, directory):
     files = {p.relative_to(web).as_posix(): {'sha256': sha(p), 'bytes': p.stat().st_size}
              for p in sorted(web.rglob('*')) if p.is_file()}
     routes = [r['path'] for r in json.loads((root / 'data/routes.json').read_text())]
-    manifest = {'schemaVersion': 2, 'contentDigest': digest(files), 'routes': len(routes),
+    manifest = {'schemaVersion': 3, 'contentDigest': digest(files), 'routes': len(routes),
                 'routePaths': sorted(routes), 'runtimeFiles': len(paths), 'files': files}
     (directory / 'release-manifest.json').write_text(json.dumps(manifest, indent=2) + '\n', encoding='utf-8')
     archive = directory / '90s-land.tar.gz'
@@ -327,7 +332,7 @@ def main():
     else:
         # Generated HTML/media are committed; VPS builds need only the standard library.
         # Fail on stale authoring outputs rather than silently publishing a mixed revision.
-        for script in ('optimize_assets.py', 'render_site.py'):
+        for script in ('optimize_assets.py', 'build_share_cards.py', 'render_site.py'):
             subprocess.run([sys.executable, '-B', str(ROOT / 'tools' / script), '--check'], check=True)
         manifest = build(ROOT, args.output)
     print(json.dumps({'output': str(args.output.absolute() / 'public'),

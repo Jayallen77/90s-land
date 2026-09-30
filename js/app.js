@@ -3,9 +3,9 @@ async function start() {
 
 const [{ initializeNavigation }, { initializePassport }, { initializeSurprise }] =
   await Promise.all([
-    import("./navigation.js?v=launch-phase2"),
-    import("./passport.js?v=launch-phase2"),
-    import("./surprise.js?v=launch-phase2"),
+    import("./navigation.js?v=launch-phase3"),
+    import("./passport.js?v=launch-phase3"),
+    import("./surprise.js?v=launch-phase3"),
   ]);
 
 initializeNavigation();
@@ -14,13 +14,13 @@ initializeSurprise();
 
 
 if (document.querySelector("[data-tour-id], [data-homepage-builder]")) {
-  const { initializeHomepageBuilder, initializeTour } = await import("./tour.js?v=launch-phase2");
+  const { initializeHomepageBuilder, initializeTour } = await import("./tour.js?v=launch-phase3");
   initializeTour();
   initializeHomepageBuilder();
 }
 
 if (document.querySelector("#siteSearchInput")) {
-  const { initializeSearch } = await import("./search.js?v=launch-phase2");
+  const { initializeSearch } = await import("./search.js?v=launch-phase3");
   initializeSearch();
 }
 
@@ -35,18 +35,18 @@ if (document.querySelector("[data-guestbook-form]")) {
 }
 
 if (document.querySelector('[data-timeline], [data-weekly], #this-week')) {
-  const { initializeArchiveTimeline, initializeWeek } = await import('./archive.js?v=launch-phase2');
+  const { initializeArchiveTimeline, initializeWeek } = await import('./archive.js?v=launch-phase3');
   initializeArchiveTimeline();
   initializeWeek();
 }
 
 if (document.querySelector(".ed-main")) {
-  const { initializeEditorial } = await import("./editorial.js?v=launch-phase2");
+  const { initializeEditorial } = await import("./editorial.js?v=launch-phase3");
   initializeEditorial();
 }
 
 if (document.querySelector('[data-hub]')) {
-  const { initializeHubs } = await import('./hubs.js?v=launch-phase2');
+  const { initializeHubs } = await import('./hubs.js?v=launch-phase3');
   initializeHubs();
 }
 

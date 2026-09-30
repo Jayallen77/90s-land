@@ -3,8 +3,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "author": "python3 tools/optimize_assets.py && python3 tools/render_site.py && python3 tools/process_media.py",
-    "author:check": "python3 tools/optimize_assets.py --check && python3 tools/render_site.py --check && python3 tools/process_media.py --check",
+    "author": "python3 tools/optimize_assets.py && python3 tools/build_share_cards.py && python3 tools/render_site.py && python3 tools/process_media.py",
+    "author:check": "python3 tools/optimize_assets.py --check && python3 tools/build_share_cards.py --check && python3 tools/render_site.py --check && python3 tools/process_media.py --check",
     "content:extract": "python3 tools/migrate_content.py",
     "content:check": "python3 tools/migrate_content.py --check && python3 tools/validate_content.py && python3 tools/report_coverage.py --check",
     "content:baseline": "python3 tools/validate_content.py --baseline-unchanged",
@@ -15,9 +15,9 @@
     "test": "playwright test",
     "test:qa": "playwright test tests/site.spec.mjs",
     "screenshots": "node tools/capture_screenshots.mjs",
-    "social-card": "python3 tools/build_social_card.py",
+    "social-card": "python3 tools/build_share_cards.py",
     "lighthouse": "node tools/run_lighthouse.mjs",
-    "test:dates": "node --test tests/date-utils.test.mjs",
+    "test:dates": "node --test tests/date-utils.test.mjs tests/discovery.test.mjs",
     "release:build": "python3 -B tools/build_release.py",
     "release:preview": "python3 -B tools/serve_release.py",
     "editorial:check": "python3 tools/check_editorial.py --check && python3 tools/check_curation.py --check",
@@ -26,7 +26,8 @@
     "build:check": "python3 -B tools/build_release.py --check",
     "release:publish": "python3 -B tools/deploy_release.py",
     "release:audit": "python3 -B tools/check_release_http.py",
-    "screenshots:redesign": "node tools/capture_redesign.mjs"
+    "screenshots:redesign": "node tools/capture_redesign.mjs",
+    "launch:audit": "python3 tools/check_launch.py"
   },
   "devDependencies": {
     "@axe-core/playwright": "4.12.1",

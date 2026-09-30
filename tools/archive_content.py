@@ -29,7 +29,7 @@ def event_label(event):
     return THEMES[event['theme']]
 
 
-def selected_events(events, limit=4):
+def selected_events(events, limit=4, movie_limit=None):
     """Prefer curated connections and spread a short selection across themes."""
     ranked = sorted(events, key=lambda e: (e['id'] not in DEFINING_IDS, e['date'], e['id']))
     selected=[];themes=set()
@@ -37,7 +37,10 @@ def selected_events(events, limit=4):
         if event['theme'] not in themes:
             selected.append(event);themes.add(event['theme'])
         if len(selected)==limit:return selected
-    return (selected+[e for e in ranked if e not in selected])[:limit]
+    for event in ranked:
+        if len(selected)>=limit: break
+        if event not in selected and (movie_limit is None or event['theme']!='movies' or sum(e['theme']=='movies' for e in selected)<movie_limit): selected.append(event)
+    return selected
 
 
 def validate_curation(curation=None, catalog=None):
@@ -147,7 +150,7 @@ def validate(catalog=None):
 
 def browser_index():
     return {'buildAsOf': CATALOG['buildAsOf'], 'coverageNote': CATALOG['coverageNote'],
-            'events': [{**{k:e[k] for k in ('id','title','date','category','region','summary')},'url':event_url(e), 'image': event_image(e)} for e in EVENTS]}
+            'events': [{**{k:e[k] for k in ('id','title','date','category','theme','region','summary')},'defining':e['id'] in DEFINING_IDS,'url':event_url(e), 'image': event_image(e)} for e in EVENTS]}
 
 
 def event_image(event):

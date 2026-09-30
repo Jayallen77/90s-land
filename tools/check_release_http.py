@@ -18,7 +18,7 @@ EXCLUDED = [
     '/requirements-dev.txt', '/playwright.config.mjs', '/node_modules/',
     '/content/pages.json', '/content/deep-links.json', '/content/editorial/catalog.json', '/content/editorial/modules.json',
     '/content/migration/', '/data/artifacts.json', '/data/editorial-index.json',
-    '/data/routes.json', '/data/resources.json', '/data/search-index.json',
+    '/data/routes.json', '/data/resources.json', '/data/search-index.json', '/data/social-cards.json',
     '/data/asset-variants.json', '/data/tours.json', '/data/stamps.json', '/data/navigation.json',
     '/tools/build_release.py', '/tools/deploy_release.py', '/tools/product_pages.py', '/tests/test_release.py',
     '/docs/RELEASE.md', '/docs/design/UNIFIED_SITE.md', '/reports/PHASE_5_QA.md', '/reports/baseline/phase-1/',
@@ -47,7 +47,9 @@ def audit(base_url, release):
     with ThreadPoolExecutor(max_workers=6) as pool:
         status = list(pool.map(head, manifest['routePaths']))
         missing = list(pool.map(head, EXCLUDED))
+        cards = list(pool.map(head, ['/'+name for name in manifest['files'] if name.startswith('assets/generated/share/') and name.endswith('.jpg')]))
     errors = [f'{path}: {code}' for path, code in status if code != 200]
+    errors.extend(f'Sharing image {path}: {code}' for path, code in cards if code != 200)
     errors.extend(f'Expected 404: {path}: {code}' for path, code in missing if code != 404)
     samples = ['/', '/timeline/1996/', '/js/app.js', '/editorial.css',
                '/assets/runtime/week.json', '/assets/runtime/surprise.json']
@@ -73,6 +75,7 @@ def audit(base_url, release):
         except (OSError, ValueError, EOFError) as error:
             errors.append(f'{path}: {error}')
     return {'routes': len(status), 'routesPassed': sum(code == 200 for _, code in status),
+            'shareCards':len(cards), 'shareCardsPassed':sum(code == 200 for _,code in cards),
             'excludedPaths': dict(missing), 'encodingSamples': len(samples) * 2,
             'contentDigest': manifest['contentDigest'], 'errors': errors}
 

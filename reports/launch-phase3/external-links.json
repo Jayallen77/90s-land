@@ -1,0 +1,4519 @@
+{
+  "checkedAt": "2026-09-30T21:54:11.978272+00:00",
+  "method": "HEAD then small GET fallback; 12-second timeout; at most two requests per host",
+  "summary": {
+    "blocked-or-rate-limited": 12,
+    "reachable": 218,
+    "unresolved": 10
+  },
+  "results": [
+    {
+      "id": "0",
+      "title": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "finalUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/archive/objects/discman/",
+        "/archive/objects/game-boy-color/",
+        "/credits/"
+      ]
+    },
+    {
+      "id": "1",
+      "title": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "finalUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/archive/objects/aol-cd/",
+        "/archive/objects/mosaic-browser/",
+        "/credits/"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "https://90s.myretrotvs.com/",
+      "url": "https://90s.myretrotvs.com/",
+      "finalUrl": "https://90s.myretrotvs.com/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/search/",
+        "/webring/"
+      ]
+    },
+    {
+      "id": "3",
+      "title": "https://allstatesugarbowl.org/sports/2022/4/15/63rd-annual-sugar-bowl-classic-january-2-1997.aspx",
+      "url": "https://allstatesugarbowl.org/sports/2022/4/15/63rd-annual-sugar-bowl-classic-january-2-1997.aspx",
+      "finalUrl": "https://allstatesugarbowl.org/sports/2022/4/15/63rd-annual-sugar-bowl-classic-january-2-1997.aspx",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/sugar-bowl-1997/"
+      ]
+    },
+    {
+      "id": "4",
+      "title": "https://americanarchive.org/",
+      "url": "https://americanarchive.org/",
+      "finalUrl": "https://americanarchive.org/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/search/",
+        "/webring/"
+      ]
+    },
+    {
+      "id": "5",
+      "title": "https://americanhistory.si.edu/collections/object/nmah_1826263",
+      "url": "https://americanhistory.si.edu/collections/object/nmah_1826263",
+      "finalUrl": "https://americanhistory.si.edu/collections/object/nmah_1826263",
+      "classification": "blocked-or-rate-limited",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 403
+        },
+        {
+          "method": "GET",
+          "status": 403
+        }
+      ],
+      "error": "Forbidden",
+      "routes": [
+        "/stories/clothes-with-a-soundtrack/"
+      ]
+    },
+    {
+      "id": "6",
+      "title": "https://archive.gamehistory.org/",
+      "url": "https://archive.gamehistory.org/",
+      "finalUrl": "https://archive.gamehistory.org/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/search/",
+        "/webring/"
+      ]
+    },
+    {
+      "id": "7",
+      "title": "https://archive.org/",
+      "url": "https://archive.org/",
+      "finalUrl": "https://archive.org/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/search/",
+        "/webring/"
+      ]
+    },
+    {
+      "id": "8",
+      "title": "https://archive.org/details/emulation",
+      "url": "https://archive.org/details/emulation",
+      "finalUrl": "https://archive.org/details/emulation",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/search/",
+        "/webring/"
+      ]
+    },
+    {
+      "id": "9",
+      "title": "https://archive.org/details/etree",
+      "url": "https://archive.org/details/etree",
+      "finalUrl": "https://archive.org/details/etree",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/search/",
+        "/webring/"
+      ]
+    },
+    {
+      "id": "10",
+      "title": "https://archive.org/details/internetarcade",
+      "url": "https://archive.org/details/internetarcade",
+      "finalUrl": "https://archive.org/details/internetarcade",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/search/",
+        "/webring/"
+      ]
+    },
+    {
+      "id": "11",
+      "title": "https://archive.org/details/software",
+      "url": "https://archive.org/details/software",
+      "finalUrl": "https://archive.org/details/software",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/search/",
+        "/webring/"
+      ]
+    },
+    {
+      "id": "12",
+      "title": "https://archive.org/details/softwarelibrary_msdos_games",
+      "url": "https://archive.org/details/softwarelibrary_msdos_games",
+      "finalUrl": "https://archive.org/details/softwarelibrary_msdos_games",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/search/",
+        "/webring/"
+      ]
+    },
+    {
+      "id": "13",
+      "title": "https://archive.org/details/tv",
+      "url": "https://archive.org/details/tv",
+      "finalUrl": "https://archive.org/details/tv",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/search/",
+        "/webring/"
+      ]
+    },
+    {
+      "id": "14",
+      "title": "https://archive.org/details/vhskids",
+      "url": "https://archive.org/details/vhskids",
+      "finalUrl": "https://archive.org/details/vhskids",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/search/",
+        "/webring/"
+      ]
+    },
+    {
+      "id": "15",
+      "title": "https://archive.org/details/vintagesoftware",
+      "url": "https://archive.org/details/vintagesoftware",
+      "finalUrl": "https://archive.org/details/vintagesoftware",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/search/",
+        "/webring/"
+      ]
+    },
+    {
+      "id": "16",
+      "title": "https://archives.depechemode.com/discography/albums/11_violator.html",
+      "url": "https://archives.depechemode.com/discography/albums/11_violator.html",
+      "finalUrl": "https://archives.depechemode.com/discography/albums/11_violator.html",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/violator-uk/"
+      ]
+    },
+    {
+      "id": "17",
+      "title": "https://bbslist.textfiles.com/",
+      "url": "https://bbslist.textfiles.com/",
+      "finalUrl": "https://bbslist.textfiles.com/",
+      "classification": "unresolved",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "error": "URLError: <urlopen error timed out>"
+        },
+        {
+          "method": "GET",
+          "error": "URLError: <urlopen error timed out>"
+        }
+      ],
+      "error": "URLError: <urlopen error timed out>",
+      "routes": [
+        "/search/",
+        "/webring/"
+      ]
+    },
+    {
+      "id": "18",
+      "title": "https://bethesda.net/en-US/news/celebrate-26-years-of-doom-slayers-club-livestream",
+      "url": "https://bethesda.net/en-US/news/celebrate-26-years-of-doom-slayers-club-livestream",
+      "finalUrl": "https://bethesda.net/en-US/news/celebrate-26-years-of-doom-slayers-club-livestream",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/doom-shareware/"
+      ]
+    },
+    {
+      "id": "19",
+      "title": "https://bethesda.net/en-US/news/celebrating-25-years-of-quake",
+      "url": "https://bethesda.net/en-US/news/celebrating-25-years-of-quake",
+      "finalUrl": "https://bethesda.net/en-US/news/celebrating-25-years-of-quake",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/quake-shareware/",
+        "/stories/a-whole-new-dimension/",
+        "/stories/lan-party-night/",
+        "/zones/games/"
+      ]
+    },
+    {
+      "id": "20",
+      "title": "https://blog.google/company-news/inside-google/company-announcements/marking-20ish-years-google/",
+      "url": "https://blog.google/company-news/inside-google/company-announcements/marking-20ish-years-google/",
+      "finalUrl": "https://blog.google/company-news/inside-google/company-announcements/marking-20ish-years-google/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/google-incorporated/"
+      ]
+    },
+    {
+      "id": "21",
+      "title": "https://blog.playstation.com/2015/09/09/20-years-ago-today-2/",
+      "url": "https://blog.playstation.com/2015/09/09/20-years-ago-today-2/",
+      "finalUrl": "https://blog.playstation.com/2015/09/09/20-years-ago-today-2/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/playstation-japan/",
+        "/events/playstation-north-america/",
+        "/stories/a-whole-new-dimension/",
+        "/stories/fifteen-blocks-of-memory/",
+        "/stories/the-console-war-couch/"
+      ]
+    },
+    {
+      "id": "22",
+      "title": "https://blog.playstation.com/2018/10/29/announcing-playstation-classics-full-lineup-of-20-games/",
+      "url": "https://blog.playstation.com/2018/10/29/announcing-playstation-classics-full-lineup-of-20-games/",
+      "finalUrl": "https://blog.playstation.com/2018/10/29/announcing-playstation-classics-full-lineup-of-20-games/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/zones/games/"
+      ]
+    },
+    {
+      "id": "23",
+      "title": "https://blogs.ed.ac.uk/colouring-books/dollysideview-768x512/",
+      "url": "https://blogs.ed.ac.uk/colouring-books/dollysideview-768x512/",
+      "finalUrl": "https://blogs.ed.ac.uk/colouring-books/dollysideview-768x512/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/dolly-born/"
+      ]
+    },
+    {
+      "id": "24",
+      "title": "https://blogs.windows.com/windows-insider/2020/08/24/looking-back-the-25th-anniversary-of-windows-95/",
+      "url": "https://blogs.windows.com/windows-insider/2020/08/24/looking-back-the-25th-anniversary-of-windows-95/",
+      "finalUrl": "https://blogs.windows.com/windows-insider/2020/08/24/looking-back-the-25th-anniversary-of-windows-95/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/windows-95-launch/",
+        "/stories/a-button-called-start/"
+      ]
+    },
+    {
+      "id": "25",
+      "title": "https://careers.nintendo.com/our-history/",
+      "url": "https://careers.nintendo.com/our-history/",
+      "finalUrl": "https://careers.nintendo.com/our-history/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/nintendo-64-us/",
+        "/stories/a-whole-new-dimension/",
+        "/stories/make-room-for-player-two/",
+        "/stories/the-console-war-couch/"
+      ]
+    },
+    {
+      "id": "26",
+      "title": "https://catalog.afi.com/Catalog/moviedetails/60576",
+      "url": "https://catalog.afi.com/Catalog/moviedetails/60576",
+      "finalUrl": "https://catalog.afi.com/Catalog/moviedetails/60576",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/space-jam-la/",
+        "/stories/same-time-next-week/",
+        "/stories/when-sport-left-the-scoreboard/"
+      ]
+    },
+    {
+      "id": "27",
+      "title": "https://cd.textfiles.com/",
+      "url": "https://cd.textfiles.com/",
+      "finalUrl": "https://cd.textfiles.com/",
+      "classification": "unresolved",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "error": "URLError: <urlopen error timed out>"
+        },
+        {
+          "method": "GET",
+          "error": "URLError: <urlopen error timed out>"
+        }
+      ],
+      "error": "URLError: <urlopen error timed out>",
+      "routes": [
+        "/search/",
+        "/webring/"
+      ]
+    },
+    {
+      "id": "28",
+      "title": "https://classicreload.com/",
+      "url": "https://classicreload.com/",
+      "finalUrl": "https://classicreload.com/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/search/",
+        "/webring/"
+      ]
+    },
+    {
+      "id": "29",
+      "title": "https://commons.wikimedia.org/wiki/File:1990s_Television_Set.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:1990s_Television_Set.jpg",
+      "finalUrl": "https://commons.wikimedia.org/wiki/File:1990s_Television_Set.jpg",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/archive/objects/crt-television/",
+        "/credits/",
+        "/timeline/1991/",
+        "/timeline/1994/",
+        "/zones/tv-movies/"
+      ]
+    },
+    {
+      "id": "30",
+      "title": "https://commons.wikimedia.org/wiki/File:19991231_Year_2000_Problem_Response_Office.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:19991231_Year_2000_Problem_Response_Office.jpg",
+      "finalUrl": "https://commons.wikimedia.org/wiki/File:19991231_Year_2000_Problem_Response_Office.jpg",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/archive/objects/y2k-office/",
+        "/credits/",
+        "/timeline/1999/"
+      ]
+    },
+    {
+      "id": "31",
+      "title": "https://commons.wikimedia.org/wiki/File:AOL_promotional_CDs_in_Canada.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:AOL_promotional_CDs_in_Canada.jpg",
+      "finalUrl": "https://commons.wikimedia.org/wiki/File:AOL_promotional_CDs_in_Canada.jpg",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/archive/objects/aol-cd/",
+        "/credits/",
+        "/timeline/1995/",
+        "/zones/tech-toys/"
+      ]
+    },
+    {
+      "id": "32",
+      "title": "https://commons.wikimedia.org/wiki/File:Anchorage_Blockbuster_video_store_(41894012562).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Anchorage_Blockbuster_video_store_(41894012562).jpg",
+      "finalUrl": "https://commons.wikimedia.org/wiki/File:Anchorage_Blockbuster_video_store_%2841894012562%29.jpg",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/archive/objects/blockbuster-store/",
+        "/credits/",
+        "/zones/tv-movies/"
+      ]
+    },
+    {
+      "id": "33",
+      "title": "https://commons.wikimedia.org/wiki/File:CD-R-Stapel.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:CD-R-Stapel.jpg",
+      "finalUrl": "https://commons.wikimedia.org/wiki/File:CD-R-Stapel.jpg",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/archive/objects/cdr-spindle/",
+        "/credits/",
+        "/timeline/1997/",
+        "/timeline/1999/",
+        "/zones/music/"
+      ]
+    },
+    {
+      "id": "34",
+      "title": "https://commons.wikimedia.org/wiki/File:Compact_Cassette_-_Maxell_MX_60.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Compact_Cassette_-_Maxell_MX_60.JPG",
+      "finalUrl": "https://commons.wikimedia.org/wiki/File:Compact_Cassette_-_Maxell_MX_60.JPG",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/",
+        "/archive/objects/cassette/",
+        "/credits/",
+        "/timeline/1990/",
+        "/timeline/1991/",
+        "/timeline/1993/",
+        "/zones/music/"
+      ]
+    },
+    {
+      "id": "35",
+      "title": "https://commons.wikimedia.org/wiki/File:Discman_D121.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Discman_D121.jpg",
+      "finalUrl": "https://commons.wikimedia.org/wiki/File:Discman_D121.jpg",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/archive/objects/discman/",
+        "/credits/",
+        "/timeline/1992/",
+        "/timeline/1996/",
+        "/timeline/1997/",
+        "/zones/music/"
+      ]
+    },
+    {
+      "id": "36",
+      "title": "https://commons.wikimedia.org/wiki/File:Doom_Disks_(2954946319).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Doom_Disks_(2954946319).jpg",
+      "finalUrl": "https://commons.wikimedia.org/wiki/File:Doom_Disks_%282954946319%29.jpg",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/archive/objects/doom-disks/",
+        "/credits/",
+        "/timeline/1993/"
+      ]
+    },
+    {
+      "id": "37",
+      "title": "https://commons.wikimedia.org/wiki/File:Dreamcast-Console-Set.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Dreamcast-Console-Set.jpg",
+      "finalUrl": "https://commons.wikimedia.org/wiki/File:Dreamcast-Console-Set.jpg",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/archive/objects/dreamcast/",
+        "/credits/",
+        "/timeline/1999/"
+      ]
+    },
+    {
+      "id": "38",
+      "title": "https://commons.wikimedia.org/wiki/File:Game_Boy_Color_Purple.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Game_Boy_Color_Purple.jpg",
+      "finalUrl": "https://commons.wikimedia.org/wiki/File:Game_Boy_Color_Purple.jpg",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/archive/objects/game-boy-color/",
+        "/credits/",
+        "/timeline/1998/",
+        "/zones/transparent-tech/"
+      ]
+    },
+    {
+      "id": "39",
+      "title": "https://commons.wikimedia.org/wiki/File:Hubble_Launch_(hst_launch_hi).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Hubble_Launch_(hst_launch_hi).jpg",
+      "finalUrl": "https://commons.wikimedia.org/wiki/File:Hubble_Launch_%28hst_launch_hi%29.jpg",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/archive/objects/hubble-launch/",
+        "/credits/",
+        "/timeline/1990/"
+      ]
+    },
+    {
+      "id": "40",
+      "title": "https://commons.wikimedia.org/wiki/File:IMac_G3_Bondi_Blue,_three-quarters_view.png",
+      "url": "https://commons.wikimedia.org/wiki/File:IMac_G3_Bondi_Blue,_three-quarters_view.png",
+      "finalUrl": "https://commons.wikimedia.org/wiki/File:IMac_G3_Bondi_Blue%2C_three-quarters_view.png",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/archive/objects/bondi-imac/",
+        "/credits/",
+        "/timeline/1998/",
+        "/zones/transparent-tech/"
+      ]
+    },
+    {
+      "id": "41",
+      "title": "https://commons.wikimedia.org/wiki/File:Marble_Madness_arcade_cabinet.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Marble_Madness_arcade_cabinet.jpg",
+      "finalUrl": "https://commons.wikimedia.org/wiki/File:Marble_Madness_arcade_cabinet.jpg",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/archive/objects/arcade-cabinet/",
+        "/credits/",
+        "/timeline/1992/",
+        "/zones/games/"
+      ]
+    },
+    {
+      "id": "42",
+      "title": "https://commons.wikimedia.org/wiki/File:Mypc11999.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Mypc11999.jpg",
+      "finalUrl": "https://commons.wikimedia.org/wiki/File:Mypc11999.jpg",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/",
+        "/archive/objects/family-pc/",
+        "/credits/",
+        "/timeline/1999/",
+        "/zones/tech-toys/"
+      ]
+    },
+    {
+      "id": "43",
+      "title": "https://commons.wikimedia.org/wiki/File:N64-Controller-Gray.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:N64-Controller-Gray.jpg",
+      "finalUrl": "https://commons.wikimedia.org/wiki/File:N64-Controller-Gray.jpg",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/",
+        "/archive/objects/n64-controller/",
+        "/credits/",
+        "/timeline/1996/",
+        "/timeline/1998/",
+        "/zones/games/"
+      ]
+    },
+    {
+      "id": "44",
+      "title": "https://commons.wikimedia.org/wiki/File:N64-controller-purple.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:N64-controller-purple.jpg",
+      "finalUrl": "https://commons.wikimedia.org/wiki/File:N64-controller-purple.jpg",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/archive/objects/transparent-n64-controller/",
+        "/credits/",
+        "/zones/transparent-tech/"
+      ]
+    },
+    {
+      "id": "45",
+      "title": "https://commons.wikimedia.org/wiki/File:NCSA_Mosaic_Browser_Screenshot.png",
+      "url": "https://commons.wikimedia.org/wiki/File:NCSA_Mosaic_Browser_Screenshot.png",
+      "finalUrl": "https://commons.wikimedia.org/wiki/File:NCSA_Mosaic_Browser_Screenshot.png",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/archive/objects/mosaic-browser/",
+        "/credits/",
+        "/timeline/1993/"
+      ]
+    },
+    {
+      "id": "46",
+      "title": "https://commons.wikimedia.org/wiki/File:Pager_teletrim.JPG",
+      "url": "https://commons.wikimedia.org/wiki/File:Pager_teletrim.JPG",
+      "finalUrl": "https://commons.wikimedia.org/wiki/File:Pager_teletrim.JPG",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/archive/objects/pager/",
+        "/credits/",
+        "/timeline/1992/",
+        "/zones/tech-toys/"
+      ]
+    },
+    {
+      "id": "47",
+      "title": "https://commons.wikimedia.org/wiki/File:PlayStation-SCPH-1000-with-Controller.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:PlayStation-SCPH-1000-with-Controller.jpg",
+      "finalUrl": "https://commons.wikimedia.org/wiki/File:PlayStation-SCPH-1000-with-Controller.jpg",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/archive/objects/playstation-hardware/",
+        "/credits/",
+        "/timeline/1994/",
+        "/timeline/1995/",
+        "/timeline/1996/",
+        "/timeline/1997/"
+      ]
+    },
+    {
+      "id": "48",
+      "title": "https://commons.wikimedia.org/wiki/File:Sega-Genesis-Mk2-6button.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Sega-Genesis-Mk2-6button.jpg",
+      "finalUrl": "https://commons.wikimedia.org/wiki/File:Sega-Genesis-Mk2-6button.jpg",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/archive/objects/genesis-controller/",
+        "/credits/",
+        "/timeline/1991/",
+        "/timeline/1993/",
+        "/zones/games/"
+      ]
+    },
+    {
+      "id": "49",
+      "title": "https://commons.wikimedia.org/wiki/File:VHS_videocassette_-_front.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:VHS_videocassette_-_front.jpg",
+      "finalUrl": "https://commons.wikimedia.org/wiki/File:VHS_videocassette_-_front.jpg",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/",
+        "/archive/objects/vhs-tape/",
+        "/credits/",
+        "/timeline/1990/",
+        "/timeline/1996/",
+        "/zones/tv-movies/"
+      ]
+    },
+    {
+      "id": "50",
+      "title": "https://commons.wikimedia.org/wiki/File:VirtualBox_Windows_3.0_20241202_02_12_2024_20_17_10.png",
+      "url": "https://commons.wikimedia.org/wiki/File:VirtualBox_Windows_3.0_20241202_02_12_2024_20_17_10.png",
+      "finalUrl": "https://commons.wikimedia.org/wiki/File:VirtualBox_Windows_3.0_20241202_02_12_2024_20_17_10.png",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/archive/objects/windows-3/",
+        "/credits/",
+        "/timeline/1990/",
+        "/timeline/1992/"
+      ]
+    },
+    {
+      "id": "51",
+      "title": "https://commons.wikimedia.org/wiki/File:W3_First_Website.png",
+      "url": "https://commons.wikimedia.org/wiki/File:W3_First_Website.png",
+      "finalUrl": "https://commons.wikimedia.org/wiki/File:W3_First_Website.png",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/archive/objects/first-website/",
+        "/credits/",
+        "/timeline/1991/"
+      ]
+    },
+    {
+      "id": "52",
+      "title": "https://commons.wikimedia.org/wiki/File:Windows95-4.0.302-Desktop,_start_button.png",
+      "url": "https://commons.wikimedia.org/wiki/File:Windows95-4.0.302-Desktop,_start_button.png",
+      "finalUrl": "https://commons.wikimedia.org/wiki/File:Windows95-4.0.302-Desktop%2C_start_button.png",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/archive/objects/windows-95-start/",
+        "/credits/",
+        "/timeline/1995/"
+      ]
+    },
+    {
+      "id": "53",
+      "title": "https://computerhistory.org/collections/",
+      "url": "https://computerhistory.org/collections/",
+      "finalUrl": "https://computerhistory.org/collections/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/search/",
+        "/webring/"
+      ]
+    },
+    {
+      "id": "54",
+      "title": "https://computerhistory.org/oral-histories/",
+      "url": "https://computerhistory.org/oral-histories/",
+      "finalUrl": "https://computerhistory.org/oral-histories/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/search/",
+        "/webring/"
+      ]
+    },
+    {
+      "id": "55",
+      "title": "https://computerhistory.org/software-history-center/",
+      "url": "https://computerhistory.org/software-history-center/",
+      "finalUrl": "https://computerhistory.org/software-history-center/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/search/",
+        "/webring/"
+      ]
+    },
+    {
+      "id": "56",
+      "title": "https://creativecommons.org/licenses/by-sa/2.0",
+      "url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "finalUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/archive/objects/doom-disks/",
+        "/credits/"
+      ]
+    },
+    {
+      "id": "57",
+      "title": "https://creativecommons.org/licenses/by-sa/3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "finalUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/archive/objects/cdr-spindle/",
+        "/archive/objects/genesis-controller/",
+        "/credits/"
+      ]
+    },
+    {
+      "id": "58",
+      "title": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "finalUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/archive/objects/dreamcast/",
+        "/credits/"
+      ]
+    },
+    {
+      "id": "59",
+      "title": "https://creativecommons.org/licenses/by-sa/4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "finalUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/archive/objects/arcade-cabinet/",
+        "/archive/objects/bondi-imac/",
+        "/archive/objects/cassette/",
+        "/archive/objects/family-pc/",
+        "/archive/objects/vhs-tape/",
+        "/credits/"
+      ]
+    },
+    {
+      "id": "60",
+      "title": "https://creativecommons.org/licenses/by/2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0",
+      "finalUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/archive/objects/blockbuster-store/",
+        "/credits/"
+      ]
+    },
+    {
+      "id": "61",
+      "title": "https://creativecommons.org/licenses/by/4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0",
+      "finalUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/archive/objects/crt-television/",
+        "/credits/"
+      ]
+    },
+    {
+      "id": "62",
+      "title": "https://creativecommons.org/licenses/by/4.0/",
+      "url": "https://creativecommons.org/licenses/by/4.0/",
+      "finalUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/archive/objects/y2k-office/",
+        "/credits/"
+      ]
+    },
+    {
+      "id": "63",
+      "title": "https://d23.com/this-day/the-lion-king-stage-production-opens-on-broadway/",
+      "url": "https://d23.com/this-day/the-lion-king-stage-production-opens-on-broadway/",
+      "finalUrl": "https://d23.com/this-day/the-lion-king-stage-production-opens-on-broadway/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/lion-king-broadway/"
+      ]
+    },
+    {
+      "id": "64",
+      "title": "https://dev.java/community/java-30-anniversary/",
+      "url": "https://dev.java/community/java-30-anniversary/",
+      "finalUrl": "https://dev.java/community/java-30-anniversary/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/java-public-introduction/"
+      ]
+    },
+    {
+      "id": "65",
+      "title": "https://emulatorjs.org/",
+      "url": "https://emulatorjs.org/",
+      "finalUrl": "https://emulatorjs.org/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/search/",
+        "/webring/"
+      ]
+    },
+    {
+      "id": "66",
+      "title": "https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_1996",
+      "url": "https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_1996",
+      "finalUrl": "https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_1996",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/zones/music/"
+      ]
+    },
+    {
+      "id": "67",
+      "title": "https://flashpointarchive.org/",
+      "url": "https://flashpointarchive.org/",
+      "finalUrl": "https://flashpointarchive.org/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/search/",
+        "/webring/"
+      ]
+    },
+    {
+      "id": "68",
+      "title": "https://fuzzymemories.tv/",
+      "url": "https://fuzzymemories.tv/",
+      "finalUrl": "https://fuzzymemories.tv/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/search/",
+        "/webring/"
+      ]
+    },
+    {
+      "id": "69",
+      "title": "https://geocities.restorativland.org/",
+      "url": "https://geocities.restorativland.org/",
+      "finalUrl": "https://geocities.restorativland.org/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/search/",
+        "/webring/"
+      ]
+    },
+    {
+      "id": "70",
+      "title": "https://gifcities.org/",
+      "url": "https://gifcities.org/",
+      "finalUrl": "https://gifcities.org/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/search/",
+        "/webring/"
+      ]
+    },
+    {
+      "id": "71",
+      "title": "https://github.com/google/fonts",
+      "url": "https://github.com/google/fonts",
+      "finalUrl": "https://github.com/google/fonts",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/credits/"
+      ]
+    },
+    {
+      "id": "72",
+      "title": "https://groups.google.com/g/mlist.net-happenings/c/dUk8MXLTSFU",
+      "url": "https://groups.google.com/g/mlist.net-happenings/c/dUk8MXLTSFU",
+      "finalUrl": "https://groups.google.com/g/mlist.net-happenings/c/dUk8MXLTSFU",
+      "classification": "blocked-or-rate-limited",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 429
+        },
+        {
+          "method": "GET",
+          "status": 429
+        }
+      ],
+      "error": "Too Many Requests",
+      "routes": [
+        "/events/hotmail-launch/",
+        "/stories/choosing-your-screen-name/",
+        "/stories/the-internet-came-in-the-mail/"
+      ]
+    },
+    {
+      "id": "73",
+      "title": "https://home.cern/science/computing/the-birth-of-the-web/licensing-web/",
+      "url": "https://home.cern/science/computing/the-birth-of-the-web/licensing-web/",
+      "finalUrl": "https://home.cern/science/computing/the-birth-of-the-web/licensing-web/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/cern-opens-web/",
+        "/stories/a-web-you-could-make/"
+      ]
+    },
+    {
+      "id": "74",
+      "title": "https://huskers.com/news/2002/01/10/1996-fiesta-bowl-1",
+      "url": "https://huskers.com/news/2002/01/10/1996-fiesta-bowl-1",
+      "finalUrl": "https://huskers.com/news/2002/01/10/1996-fiesta-bowl-1",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/fiesta-bowl-1996/"
+      ]
+    },
+    {
+      "id": "75",
+      "title": "https://inside.fifa.com/tournaments/womens/womensworldcup/usa1999/news/mo-3003-usa-v-chn-1999-wwc-3069388",
+      "url": "https://inside.fifa.com/tournaments/womens/womensworldcup/usa1999/news/mo-3003-usa-v-chn-1999-wwc-3069388",
+      "finalUrl": "https://inside.fifa.com/tournaments/womens/womensworldcup/usa1999/news/mo-3003-usa-v-chn-1999-wwc-3069388",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 405
+        },
+        {
+          "method": "GET",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/womens-world-cup-1999-final/"
+      ]
+    },
+    {
+      "id": "76",
+      "title": "https://interviews.televisionacademy.com/news/one-more-for-the-road-the-finale-of-the-tonight-show-with-johnny-carson",
+      "url": "https://interviews.televisionacademy.com/news/one-more-for-the-road-the-finale-of-the-tonight-show-with-johnny-carson",
+      "finalUrl": "https://interviews.televisionacademy.com/news/one-more-for-the-road-the-finale-of-the-tonight-show-with-johnny-carson",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/carson-final-tonight/"
+      ]
+    },
+    {
+      "id": "77",
+      "title": "https://interviews.televisionacademy.com/shows/real-world-the",
+      "url": "https://interviews.televisionacademy.com/shows/real-world-the",
+      "finalUrl": "https://interviews.televisionacademy.com/shows/real-world-the",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/real-world-premiere/"
+      ]
+    },
+    {
+      "id": "78",
+      "title": "https://ir.paramount.com/news-releases/news-release-details/vh1s-emmy-award-winning-rock-docs-franchise-revisits-10-year",
+      "url": "https://ir.paramount.com/news-releases/news-release-details/vh1s-emmy-award-winning-rock-docs-franchise-revisits-10-year",
+      "finalUrl": "https://ir.paramount.com/news-releases/news-release-details/vh1s-emmy-award-winning-rock-docs-franchise-revisits-10-year",
+      "classification": "unresolved",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "error": "TimeoutError: The read operation timed out"
+        },
+        {
+          "method": "GET",
+          "error": "TimeoutError: The read operation timed out"
+        }
+      ],
+      "error": "TimeoutError: The read operation timed out",
+      "routes": [
+        "/stories/after-school-on-trl/",
+        "/stories/from-mixtape-to-file/"
+      ]
+    },
+    {
+      "id": "79",
+      "title": "https://jp.finalfantasy.com/news/4378",
+      "url": "https://jp.finalfantasy.com/news/4378",
+      "finalUrl": "https://jp.finalfantasy.com/news/4378",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/final-fantasy-vii-japan/"
+      ]
+    },
+    {
+      "id": "80",
+      "title": "https://learn.microsoft.com/en-us/shows/history/history-of-microsoft-1990",
+      "url": "https://learn.microsoft.com/en-us/shows/history/history-of-microsoft-1990",
+      "finalUrl": "https://learn.microsoft.com/en-us/shows/history/history-of-microsoft-1990",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/windows-30-launch/"
+      ]
+    },
+    {
+      "id": "81",
+      "title": "https://learn.microsoft.com/en-us/shows/history/history-of-microsoft-1992",
+      "url": "https://learn.microsoft.com/en-us/shows/history/history-of-microsoft-1992",
+      "finalUrl": "https://learn.microsoft.com/en-us/shows/history/history-of-microsoft-1992",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/windows-31-ships/",
+        "/stories/the-family-computer/"
+      ]
+    },
+    {
+      "id": "82",
+      "title": "https://library.gamehistory.org/",
+      "url": "https://library.gamehistory.org/",
+      "finalUrl": "https://library.gamehistory.org/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/search/",
+        "/webring/"
+      ]
+    },
+    {
+      "id": "83",
+      "title": "https://library.olympics.com/digitalCollection/DigitalCollectionAttachmentDownloadHandler.ashx?documentId=3703315&parentDocumentId=172552&skipCopyright=true&skipWatermark=true",
+      "url": "https://library.olympics.com/digitalCollection/DigitalCollectionAttachmentDownloadHandler.ashx?documentId=3703315&parentDocumentId=172552&skipCopyright=true&skipWatermark=true",
+      "finalUrl": "https://library.olympics.com/digitalCollection/DigitalCollectionAttachmentDownloadHandler.ashx?documentId=3703315&parentDocumentId=172552&skipCopyright=true&skipWatermark=true",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/atlanta-olympics-open/",
+        "/events/barcelona-olympics-open/"
+      ]
+    },
+    {
+      "id": "84",
+      "title": "https://macintoshgarden.org/",
+      "url": "https://macintoshgarden.org/",
+      "finalUrl": "https://macintoshgarden.org/",
+      "classification": "unresolved",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+        },
+        {
+          "method": "GET",
+          "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+        }
+      ],
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>",
+      "routes": [
+        "/search/",
+        "/webring/"
+      ]
+    },
+    {
+      "id": "85",
+      "title": "https://manuals.sega.com/wp-content/uploads/2022/06/SM_Sonic_Origin_En_220617.pdf",
+      "url": "https://manuals.sega.com/wp-content/uploads/2022/06/SM_Sonic_Origin_En_220617.pdf",
+      "finalUrl": "https://manuals.sega.com/wp-content/uploads/2022/06/SM_Sonic_Origin_En_220617.pdf",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/sonic-western-release/"
+      ]
+    },
+    {
+      "id": "86",
+      "title": "https://music.apple.com/us/album/baby-one-more-time/268284599",
+      "url": "https://music.apple.com/us/album/baby-one-more-time/268284599",
+      "finalUrl": "https://music.apple.com/us/album/baby-one-more-time/268284599",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/britney-debut-album/"
+      ]
+    },
+    {
+      "id": "87",
+      "title": "https://musicbrainz.org/",
+      "url": "https://musicbrainz.org/",
+      "finalUrl": "https://musicbrainz.org/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/search/",
+        "/webring/"
+      ]
+    },
+    {
+      "id": "88",
+      "title": "https://neocities.org/browse",
+      "url": "https://neocities.org/browse",
+      "finalUrl": "https://neocities.org/browse",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/search/",
+        "/webring/"
+      ]
+    },
+    {
+      "id": "89",
+      "title": "https://netlabelarchive.org/",
+      "url": "https://netlabelarchive.org/",
+      "finalUrl": "https://netlabelarchive.org/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/search/",
+        "/webring/"
+      ]
+    },
+    {
+      "id": "90",
+      "title": "https://news.disneylandparis.com/en/history/",
+      "url": "https://news.disneylandparis.com/en/history/",
+      "finalUrl": "https://news.disneylandparis.com/en/history/",
+      "classification": "blocked-or-rate-limited",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 403
+        },
+        {
+          "method": "GET",
+          "status": 403
+        }
+      ],
+      "error": "Forbidden",
+      "routes": [
+        "/events/euro-disney-opens/"
+      ]
+    },
+    {
+      "id": "91",
+      "title": "https://news.microsoft.com/facts-about-microsoft/",
+      "url": "https://news.microsoft.com/facts-about-microsoft/",
+      "finalUrl": "https://news.microsoft.com/facts-about-microsoft/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/windows-98-launch/"
+      ]
+    },
+    {
+      "id": "92",
+      "title": "https://noclip.website/",
+      "url": "https://noclip.website/",
+      "finalUrl": "https://noclip.website/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/search/",
+        "/webring/"
+      ]
+    },
+    {
+      "id": "93",
+      "title": "https://ohiostatebuckeyes.com/news/2009/12/31/rose-bowl-flashback-6-pack-1997",
+      "url": "https://ohiostatebuckeyes.com/news/2009/12/31/rose-bowl-flashback-6-pack-1997",
+      "finalUrl": "https://ohiostatebuckeyes.com/news/2009/12/31/rose-bowl-flashback-6-pack-1997",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/rose-bowl-1997/",
+        "/stories/when-sport-left-the-scoreboard/"
+      ]
+    },
+    {
+      "id": "94",
+      "title": "https://oldversion.com/",
+      "url": "https://oldversion.com/",
+      "finalUrl": "https://www.oldversion.com/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/search/",
+        "/webring/"
+      ]
+    },
+    {
+      "id": "95",
+      "title": "https://oldweb.today/",
+      "url": "https://oldweb.today/",
+      "finalUrl": "https://oldweb.today/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/search/",
+        "/webring/"
+      ]
+    },
+    {
+      "id": "96",
+      "title": "https://oneterabyteofkilobyteage.tumblr.com/",
+      "url": "https://oneterabyteofkilobyteage.tumblr.com/",
+      "finalUrl": "https://oneterabyteofkilobyteage.tumblr.com/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/search/",
+        "/webring/"
+      ]
+    },
+    {
+      "id": "97",
+      "title": "https://openemu.org/",
+      "url": "https://openemu.org/",
+      "finalUrl": "https://openemu.org/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/search/",
+        "/webring/"
+      ]
+    },
+    {
+      "id": "98",
+      "title": "https://pearljam.com/news/free-moline-stream-celebrating-thirty-years-of-ten-twenty-five-years-of-no-code",
+      "url": "https://pearljam.com/news/free-moline-stream-celebrating-thirty-years-of-ten-twenty-five-years-of-no-code",
+      "finalUrl": "https://pearljam.com/news/free-moline-stream-celebrating-thirty-years-of-ten-twenty-five-years-of-no-code",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/pearl-jam-ten/"
+      ]
+    },
+    {
+      "id": "99",
+      "title": "https://postalmuseum.si.edu/object/npm_2002.2001.4",
+      "url": "https://postalmuseum.si.edu/object/npm_2002.2001.4",
+      "finalUrl": "https://postalmuseum.si.edu/object/npm_2002.2001.4",
+      "classification": "blocked-or-rate-limited",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 403
+        },
+        {
+          "method": "GET",
+          "status": 403
+        }
+      ],
+      "error": "Forbidden",
+      "routes": [
+        "/events/elvis-stamp-issued/"
+      ]
+    },
+    {
+      "id": "100",
+      "title": "https://press.pokemon.com/es-MX/releases/THE-POKEMON-COMPANY-INTERNATIONAL-UNVEILS-POKEMON-TOGETHER-BRAND-CAMPA",
+      "url": "https://press.pokemon.com/es-MX/releases/THE-POKEMON-COMPANY-INTERNATIONAL-UNVEILS-POKEMON-TOGETHER-BRAND-CAMPA",
+      "finalUrl": "https://press.pokemon.com/es-MX/releases/THE-POKEMON-COMPANY-INTERNATIONAL-UNVEILS-POKEMON-TOGETHER-BRAND-CAMPA",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/pokemon-red-green-japan/",
+        "/zones/games/"
+      ]
+    },
+    {
+      "id": "101",
+      "title": "https://protoweb.org/",
+      "url": "https://protoweb.org/",
+      "finalUrl": "https://protoweb.org/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/search/",
+        "/webring/"
+      ]
+    },
+    {
+      "id": "102",
+      "title": "https://radiooooo.com/",
+      "url": "https://radiooooo.com/",
+      "finalUrl": "https://app.radiooooo.com/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/search/",
+        "/webring/"
+      ]
+    },
+    {
+      "id": "103",
+      "title": "https://reverb.com/",
+      "url": "https://reverb.com/",
+      "finalUrl": "https://reverb.com/",
+      "classification": "blocked-or-rate-limited",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 403
+        },
+        {
+          "method": "GET",
+          "status": 403
+        }
+      ],
+      "error": "Forbidden",
+      "routes": [
+        "/search/",
+        "/webring/"
+      ]
+    },
+    {
+      "id": "104",
+      "title": "https://rockhall.com/inductees/nirvana/",
+      "url": "https://rockhall.com/inductees/nirvana/",
+      "finalUrl": "https://rockhall.com/inductees/nirvana/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/stories/clothes-with-a-soundtrack/",
+        "/stories/when-grunge-broke-through/"
+      ]
+    },
+    {
+      "id": "105",
+      "title": "https://rockhall.com/inductees/salt-n-pepa/",
+      "url": "https://rockhall.com/inductees/salt-n-pepa/",
+      "finalUrl": "https://rockhall.com/inductees/salt-n-pepa/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/stories/hooks-rhymes-and-radio/"
+      ]
+    },
+    {
+      "id": "106",
+      "title": "https://ruffle.rs/",
+      "url": "https://ruffle.rs/",
+      "finalUrl": "https://ruffle.rs/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/search/",
+        "/webring/"
+      ]
+    },
+    {
+      "id": "107",
+      "title": "https://science.nasa.gov/mission/galileo/",
+      "url": "https://science.nasa.gov/mission/galileo/",
+      "finalUrl": "https://science.nasa.gov/mission/galileo/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/galileo-jupiter-arrival/"
+      ]
+    },
+    {
+      "id": "108",
+      "title": "https://science.nasa.gov/mission/hubble/observatory/missions-to-hubble/servicing-mission-1-timeline-full-text/",
+      "url": "https://science.nasa.gov/mission/hubble/observatory/missions-to-hubble/servicing-mission-1-timeline-full-text/",
+      "finalUrl": "https://science.nasa.gov/mission/hubble/observatory/missions-to-hubble/servicing-mission-1-timeline-full-text/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/hubble-servicing-launch/"
+      ]
+    },
+    {
+      "id": "109",
+      "title": "https://science.nasa.gov/mission/hubble/overview/hubble-timeline/hubble-history-timeline-full-text/",
+      "url": "https://science.nasa.gov/mission/hubble/overview/hubble-timeline/hubble-history-timeline-full-text/",
+      "finalUrl": "https://science.nasa.gov/mission/hubble/overview/hubble-timeline/hubble-history-timeline-full-text/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/hubble-deep-field/",
+        "/events/hubble-deployed/",
+        "/events/hubble-launches/"
+      ]
+    },
+    {
+      "id": "110",
+      "title": "https://science.nasa.gov/people/rob-manning/",
+      "url": "https://science.nasa.gov/people/rob-manning/",
+      "finalUrl": "https://science.nasa.gov/people/rob-manning/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/mars-pathfinder-lands/"
+      ]
+    },
+    {
+      "id": "111",
+      "title": "https://shopgoodwill.com/",
+      "url": "https://shopgoodwill.com/",
+      "finalUrl": "https://shopgoodwill.com/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/search/",
+        "/webring/"
+      ]
+    },
+    {
+      "id": "112",
+      "title": "https://social.sega.com/games/sonic-4-episode-1/page/38/?t=fr",
+      "url": "https://social.sega.com/games/sonic-4-episode-1/page/38/?t=fr",
+      "finalUrl": "https://social.sega.com/games/sonic-4-episode-1/page/38/?t=fr",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/dreamcast-us/"
+      ]
+    },
+    {
+      "id": "113",
+      "title": "https://southpark.cc.com/news/5tl7hb/fan-question-when-does-the-next-season-premiere",
+      "url": "https://southpark.cc.com/news/5tl7hb/fan-question-when-does-the-next-season-premiere",
+      "finalUrl": "https://southpark.cc.com/news/5tl7hb/fan-question-when-does-the-next-season-premiere",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/south-park-premiere/"
+      ]
+    },
+    {
+      "id": "114",
+      "title": "https://support.apple.com/en-ae/112281",
+      "url": "https://support.apple.com/en-ae/112281",
+      "finalUrl": "https://support.apple.com/en-ae/112281",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/imac-arrives/",
+        "/stories/you-could-see-through-it/"
+      ]
+    },
+    {
+      "id": "115",
+      "title": "https://tamagotchi-official.com/gb/history/",
+      "url": "https://tamagotchi-official.com/gb/history/",
+      "finalUrl": "https://tamagotchi-official.com/gb/history/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/tamagotchi-japan/",
+        "/stories/the-toy-that-needed-you/"
+      ]
+    },
+    {
+      "id": "116",
+      "title": "https://textfiles.com/",
+      "url": "https://textfiles.com/",
+      "finalUrl": "https://textfiles.com/",
+      "classification": "unresolved",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "error": "URLError: <urlopen error timed out>"
+        },
+        {
+          "method": "GET",
+          "error": "URLError: <urlopen error timed out>"
+        }
+      ],
+      "error": "URLError: <urlopen error timed out>",
+      "routes": [
+        "/search/",
+        "/webring/"
+      ]
+    },
+    {
+      "id": "117",
+      "title": "https://theoldnet.com/",
+      "url": "https://theoldnet.com/",
+      "finalUrl": "https://theoldnet.com/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/search/",
+        "/webring/"
+      ]
+    },
+    {
+      "id": "118",
+      "title": "https://tvark.org/",
+      "url": "https://tvark.org/",
+      "finalUrl": "https://tvark.org/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/search/",
+        "/webring/"
+      ]
+    },
+    {
+      "id": "119",
+      "title": "https://usctrojans.com/news/2003/12/30/Bowl_History",
+      "url": "https://usctrojans.com/news/2003/12/30/Bowl_History",
+      "finalUrl": "https://usctrojans.com/news/2003/12/30/Bowl_History",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/rose-bowl-1996/",
+        "/stories/when-sport-left-the-scoreboard/"
+      ]
+    },
+    {
+      "id": "120",
+      "title": "https://web.archive.org/",
+      "url": "https://web.archive.org/",
+      "finalUrl": "https://web.archive.org/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/search/",
+        "/webring/"
+      ]
+    },
+    {
+      "id": "121",
+      "title": "https://wiby.me/",
+      "url": "https://wiby.me/",
+      "finalUrl": "https://wiby.me/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/search/",
+        "/webring/"
+      ]
+    },
+    {
+      "id": "122",
+      "title": "https://wiki.archiveteam.org/",
+      "url": "https://wiki.archiveteam.org/",
+      "finalUrl": "https://wiki.archiveteam.org/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/search/",
+        "/webring/"
+      ]
+    },
+    {
+      "id": "123",
+      "title": "https://winworldpc.com/",
+      "url": "https://winworldpc.com/",
+      "finalUrl": "https://winworldpc.com/home",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/search/",
+        "/webring/"
+      ]
+    },
+    {
+      "id": "124",
+      "title": "https://www.404pagefound.com/",
+      "url": "https://www.404pagefound.com/",
+      "finalUrl": "https://www.404pagefound.com/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/search/",
+        "/webring/"
+      ]
+    },
+    {
+      "id": "125",
+      "title": "https://www.apple.com/ca/fr/press/1998/05/iMac.html",
+      "url": "https://www.apple.com/ca/fr/press/1998/05/iMac.html",
+      "finalUrl": "https://www.apple.com/ca/fr/press/1998/05/iMac.html",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/stories/you-could-see-through-it/"
+      ]
+    },
+    {
+      "id": "126",
+      "title": "https://www.atariage.com/",
+      "url": "https://www.atariage.com/",
+      "finalUrl": "https://www.atariage.com/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/search/",
+        "/webring/"
+      ]
+    },
+    {
+      "id": "127",
+      "title": "https://www.bundesregierung.de/breg-de/schwerpunkte/deutsche-einheit/die-einheit-ist-wirklichkeit-432814",
+      "url": "https://www.bundesregierung.de/breg-de/schwerpunkte/deutsche-einheit/die-einheit-ist-wirklichkeit-432814",
+      "finalUrl": "https://www.bundesregierung.de/breg-de/schwerpunkte/deutsche-einheit/die-einheit-ist-wirklichkeit-432814",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/german-reunification/"
+      ]
+    },
+    {
+      "id": "128",
+      "title": "https://www.cameronsworld.net/",
+      "url": "https://www.cameronsworld.net/",
+      "finalUrl": "https://www.cameronsworld.net/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/search/",
+        "/webring/"
+      ]
+    },
+    {
+      "id": "129",
+      "title": "https://www.computerhistory.org/revolution/story/321",
+      "url": "https://www.computerhistory.org/revolution/story/321",
+      "finalUrl": "https://www.computerhistory.org/revolution/story/321",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/stories/a-computer-in-your-pocket/"
+      ]
+    },
+    {
+      "id": "130",
+      "title": "https://www.computerhistory.org/timeline/1996/",
+      "url": "https://www.computerhistory.org/timeline/1996/",
+      "finalUrl": "https://www.computerhistory.org/timeline/1996/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/stories/a-computer-in-your-pocket/"
+      ]
+    },
+    {
+      "id": "131",
+      "title": "https://www.computerhistory.org/timeline/networking-the-web/",
+      "url": "https://www.computerhistory.org/timeline/networking-the-web/",
+      "finalUrl": "https://www.computerhistory.org/timeline/networking-the-web/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/stories/choosing-your-screen-name/",
+        "/stories/lan-party-night/",
+        "/stories/the-family-computer/",
+        "/stories/the-internet-came-in-the-mail/"
+      ]
+    },
+    {
+      "id": "132",
+      "title": "https://www.daftpunk.com/homework/",
+      "url": "https://www.daftpunk.com/homework/",
+      "finalUrl": "https://www.daftpunk.com/homework/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/daft-punk-homework-europe/"
+      ]
+    },
+    {
+      "id": "133",
+      "title": "https://www.discogs.com/",
+      "url": "https://www.discogs.com/",
+      "finalUrl": "https://www.discogs.com/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 403
+        },
+        {
+          "method": "GET",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/search/",
+        "/webring/"
+      ]
+    },
+    {
+      "id": "134",
+      "title": "https://www.doomworld.com/",
+      "url": "https://www.doomworld.com/",
+      "finalUrl": "https://www.doomworld.com/",
+      "classification": "blocked-or-rate-limited",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 403
+        },
+        {
+          "method": "GET",
+          "status": 403
+        }
+      ],
+      "error": "Forbidden",
+      "routes": [
+        "/search/",
+        "/webring/"
+      ]
+    },
+    {
+      "id": "135",
+      "title": "https://www.dosbox.com/",
+      "url": "https://www.dosbox.com/",
+      "finalUrl": "https://www.dosbox.com/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/search/",
+        "/webring/"
+      ]
+    },
+    {
+      "id": "136",
+      "title": "https://www.dosgamesarchive.com/",
+      "url": "https://www.dosgamesarchive.com/",
+      "finalUrl": "https://www.dosgamesarchive.com/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/search/",
+        "/webring/"
+      ]
+    },
+    {
+      "id": "137",
+      "title": "https://www.ebay.com/b/Nostalgia-Toy-Box-Collectors-Hobbyists-Toys-Hobbies/220/bn_80737684",
+      "url": "https://www.ebay.com/b/Nostalgia-Toy-Box-Collectors-Hobbyists-Toys-Hobbies/220/bn_80737684",
+      "finalUrl": "https://www.ebay.com/splashui/challenge?ap=1&appName=orch&ru=https%3A%2F%2Fwww.ebay.com%2Fb%2FNostalgia-Toy-Box-Collectors-Hobbyists-Toys-Hobbies%2F220%2Fbn_80737684&iid=e4b79ab8-1f8b-42ee-ab05-7ed117f2ca48&iim=lNzUuNW&iia=euzAuMjNR&iiz=msiQuMzc*mvK",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/search/",
+        "/webring/"
+      ]
+    },
+    {
+      "id": "138",
+      "title": "https://www.ebayinc.com/stories/news/ebay-celebrates-30-years-of-creating-economic-opportunity-for-all-as-it-reinvents-the-future-of-ecommerce/",
+      "url": "https://www.ebayinc.com/stories/news/ebay-celebrates-30-years-of-creating-economic-opportunity-for-all-as-it-reinvents-the-future-of-ecommerce/",
+      "finalUrl": "https://www.ebayinc.com/stories/news/ebay-celebrates-30-years-of-creating-economic-opportunity-for-all-as-it-reinvents-the-future-of-ecommerce/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/ebay-auctionweb-begins/"
+      ]
+    },
+    {
+      "id": "139",
+      "title": "https://www.ecb.europa.eu/press/key/date/1999/html/sp990521.en.html",
+      "url": "https://www.ecb.europa.eu/press/key/date/1999/html/sp990521.en.html",
+      "finalUrl": "https://www.ecb.europa.eu/press/key/date/1999/html/sp990521.en.html",
+      "classification": "unresolved",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+        },
+        {
+          "method": "GET",
+          "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+        }
+      ],
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>",
+      "routes": [
+        "/events/euro-introduced/"
+      ]
+    },
+    {
+      "id": "140",
+      "title": "https://www.emuvr.net/",
+      "url": "https://www.emuvr.net/",
+      "finalUrl": "https://www.emuvr.net/wiki/Main_Page",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/search/",
+        "/webring/"
+      ]
+    },
+    {
+      "id": "141",
+      "title": "https://www.etsy.com/market/vintage_marketplace",
+      "url": "https://www.etsy.com/market/vintage_marketplace",
+      "finalUrl": "https://www.etsy.com/market/vintage_marketplace",
+      "classification": "blocked-or-rate-limited",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 403
+        },
+        {
+          "method": "GET",
+          "status": 403
+        }
+      ],
+      "error": "Forbidden",
+      "routes": [
+        "/search/",
+        "/webring/"
+      ]
+    },
+    {
+      "id": "142",
+      "title": "https://www.fifa.com/pt/articles/historia-brasil-finais-copa-mundo-fifa",
+      "url": "https://www.fifa.com/pt/articles/historia-brasil-finais-copa-mundo-fifa",
+      "finalUrl": "https://www.fifa.com/pt/articles/historia-brasil-finais-copa-mundo-fifa",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/world-cup-1994-final/",
+        "/events/world-cup-1998-final/"
+      ]
+    },
+    {
+      "id": "143",
+      "title": "https://www.getlinkgroup.com/en/our-group/history/",
+      "url": "https://www.getlinkgroup.com/en/our-group/history/",
+      "finalUrl": "https://www.getlinkgroup.com/en/our-group/history/",
+      "classification": "unresolved",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1010)>"
+        },
+        {
+          "method": "GET",
+          "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1010)>"
+        }
+      ],
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1010)>",
+      "routes": [
+        "/events/channel-tunnel-inauguration/"
+      ]
+    },
+    {
+      "id": "144",
+      "title": "https://www.gov.uk/government/publications/the-belfast-agreement",
+      "url": "https://www.gov.uk/government/publications/the-belfast-agreement",
+      "finalUrl": "https://www.gov.uk/government/publications/the-belfast-agreement",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/good-friday-agreement/"
+      ]
+    },
+    {
+      "id": "145",
+      "title": "https://www.govinfo.gov/content/pkg/CHRG-106hhrg61297/pdf/CHRG-106hhrg61297.pdf",
+      "url": "https://www.govinfo.gov/content/pkg/CHRG-106hhrg61297/pdf/CHRG-106hhrg61297.pdf",
+      "finalUrl": "https://www.govinfo.gov/content/pkg/CHRG-106hhrg61297/pdf/CHRG-106hhrg61297.pdf",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/y2k-rollover-night/"
+      ]
+    },
+    {
+      "id": "146",
+      "title": "https://www.ibiblio.org/wm/",
+      "url": "https://www.ibiblio.org/wm/",
+      "finalUrl": "https://www.ibiblio.org/wm/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/search/",
+        "/webring/"
+      ]
+    },
+    {
+      "id": "147",
+      "title": "https://www.ibm.com/investor/att/pdf/IBM_Annual_Report_1997.pdf",
+      "url": "https://www.ibm.com/investor/att/pdf/IBM_Annual_Report_1997.pdf",
+      "finalUrl": "https://www.ibm.com/investor/att/pdf/IBM_Annual_Report_1997.pdf",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/deep-blue-match-win/"
+      ]
+    },
+    {
+      "id": "148",
+      "title": "https://www.info.gov.hk/gia/general/dib/0701.htm",
+      "url": "https://www.info.gov.hk/gia/general/dib/0701.htm",
+      "finalUrl": "https://www.info.gov.hk/gia/general/dib/0701.htm",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/hong-kong-handover/"
+      ]
+    },
+    {
+      "id": "149",
+      "title": "https://www.intel.com/pressroom/kits/quickrefyr.htm",
+      "url": "https://www.intel.com/pressroom/kits/quickrefyr.htm",
+      "finalUrl": "https://www.intel.com/pressroom/kits/quickrefyr.htm",
+      "classification": "unresolved",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+        },
+        {
+          "method": "GET",
+          "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+        }
+      ],
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>",
+      "routes": [
+        "/events/pentium-introduced/"
+      ]
+    },
+    {
+      "id": "150",
+      "title": "https://www.loc.gov/static/programs/national-recording-preservation-board/documents/Dookie_Winwood.pdf",
+      "url": "https://www.loc.gov/static/programs/national-recording-preservation-board/documents/Dookie_Winwood.pdf",
+      "finalUrl": "https://www.loc.gov/static/programs/national-recording-preservation-board/documents/Dookie_Winwood.pdf",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/green-day-dookie/"
+      ]
+    },
+    {
+      "id": "151",
+      "title": "https://www.loc.gov/static/programs/national-recording-preservation-board/documents/Enter-the-Wu-Tang_Parks.pdf",
+      "url": "https://www.loc.gov/static/programs/national-recording-preservation-board/documents/Enter-the-Wu-Tang_Parks.pdf",
+      "finalUrl": "https://www.loc.gov/static/programs/national-recording-preservation-board/documents/Enter-the-Wu-Tang_Parks.pdf",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/wu-tang-debut/"
+      ]
+    },
+    {
+      "id": "152",
+      "title": "https://www.loc.gov/static/programs/national-recording-preservation-board/documents/MiseducationOfLaurynHill.pdf",
+      "url": "https://www.loc.gov/static/programs/national-recording-preservation-board/documents/MiseducationOfLaurynHill.pdf",
+      "finalUrl": "https://www.loc.gov/static/programs/national-recording-preservation-board/documents/MiseducationOfLaurynHill.pdf",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/lauryn-hill-miseducation/"
+      ]
+    },
+    {
+      "id": "153",
+      "title": "https://www.macintoshrepository.org/",
+      "url": "https://www.macintoshrepository.org/",
+      "finalUrl": "https://www.macintoshrepository.org/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/search/",
+        "/webring/"
+      ]
+    },
+    {
+      "id": "154",
+      "title": "https://www.mallofamerica.com/about",
+      "url": "https://www.mallofamerica.com/about",
+      "finalUrl": "https://www.mallofamerica.com/about",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/mall-of-america-opens/"
+      ]
+    },
+    {
+      "id": "155",
+      "title": "https://www.mamedev.org/",
+      "url": "https://www.mamedev.org/",
+      "finalUrl": "https://www.mamedev.org/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/search/",
+        "/webring/"
+      ]
+    },
+    {
+      "id": "156",
+      "title": "https://www.mercari.com/",
+      "url": "https://www.mercari.com/",
+      "finalUrl": "https://www.mercari.com/",
+      "classification": "blocked-or-rate-limited",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 403
+        },
+        {
+          "method": "GET",
+          "status": 403
+        }
+      ],
+      "error": "Forbidden",
+      "routes": [
+        "/search/",
+        "/webring/"
+      ]
+    },
+    {
+      "id": "157",
+      "title": "https://www.metallica.com/releases/albums/?srule=old-to-new",
+      "url": "https://www.metallica.com/releases/albums/?srule=old-to-new",
+      "finalUrl": "https://www.metallica.com/releases/albums/?srule=old-to-new",
+      "classification": "blocked-or-rate-limited",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 403
+        },
+        {
+          "method": "GET",
+          "status": 403
+        }
+      ],
+      "error": "Forbidden",
+      "routes": [
+        "/events/garage-inc/",
+        "/events/metallica-black-album/",
+        "/events/metallica-load/",
+        "/events/metallica-sm/",
+        "/events/reload/"
+      ]
+    },
+    {
+      "id": "158",
+      "title": "https://www.mobygames.com/",
+      "url": "https://www.mobygames.com/",
+      "finalUrl": "https://www.mobygames.com/",
+      "classification": "blocked-or-rate-limited",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 403
+        },
+        {
+          "method": "GET",
+          "status": 403
+        }
+      ],
+      "error": "Forbidden",
+      "routes": [
+        "/search/",
+        "/webring/"
+      ]
+    },
+    {
+      "id": "159",
+      "title": "https://www.museumofplay.org/games/street-fighter-ii/",
+      "url": "https://www.museumofplay.org/games/street-fighter-ii/",
+      "finalUrl": "https://www.museumofplay.org/games/street-fighter-ii/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/zones/games/"
+      ]
+    },
+    {
+      "id": "160",
+      "title": "https://www.museumofplay.org/games/tamagotchi/",
+      "url": "https://www.museumofplay.org/games/tamagotchi/",
+      "finalUrl": "https://www.museumofplay.org/games/tamagotchi/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/stories/the-toy-that-needed-you/"
+      ]
+    },
+    {
+      "id": "161",
+      "title": "https://www.myabandonware.com/",
+      "url": "https://www.myabandonware.com/",
+      "finalUrl": "https://www.myabandonware.com/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/search/",
+        "/webring/"
+      ]
+    },
+    {
+      "id": "162",
+      "title": "https://www.nasa.gov/mission/sts-72/",
+      "url": "https://www.nasa.gov/mission/sts-72/",
+      "finalUrl": "https://www.nasa.gov/mission/sts-72/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/sts-72-landing/",
+        "/events/sts-72-launch/"
+      ]
+    },
+    {
+      "id": "163",
+      "title": "https://www.nba.com/bulls/news/20anniversary_100930.html",
+      "url": "https://www.nba.com/bulls/news/20anniversary_100930.html",
+      "finalUrl": "https://www.nba.com/bulls/news/20anniversary_100930.html",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/bulls-first-title/"
+      ]
+    },
+    {
+      "id": "164",
+      "title": "https://www.nba.com/watch/video/this-day-in-history-michael-jordan-comes-out-of-retirement?plsrc=nba",
+      "url": "https://www.nba.com/watch/video/this-day-in-history-michael-jordan-comes-out-of-retirement?plsrc=nba",
+      "finalUrl": "https://www.nba.com/watch/video/this-day-in-history-michael-jordan-comes-out-of-retirement?plsrc=nba",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/jordan-returns/"
+      ]
+    },
+    {
+      "id": "165",
+      "title": "https://www.nelsonmandela.org/news/entry/pictures-of-nelson-mandelas-first-democratic-vote",
+      "url": "https://www.nelsonmandela.org/news/entry/pictures-of-nelson-mandelas-first-democratic-vote",
+      "finalUrl": "https://www.nelsonmandela.org/news/entry/pictures-of-nelson-mandelas-first-democratic-vote",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/mandela-first-vote/"
+      ]
+    },
+    {
+      "id": "166",
+      "title": "https://www.nelsonmandela.org/on-this-day/entry/nelson-mandela-released-from-victor-verster-prison-in-paarl-with-belongings",
+      "url": "https://www.nelsonmandela.org/on-this-day/entry/nelson-mandela-released-from-victor-verster-prison-in-paarl-with-belongings",
+      "finalUrl": "https://www.nelsonmandela.org/on-this-day/entry/nelson-mandela-released-from-victor-verster-prison-in-paarl-with-belongings",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/mandela-released/"
+      ]
+    },
+    {
+      "id": "167",
+      "title": "https://www.nintendo.co.jp/clvs/soft/mario_kart.html",
+      "url": "https://www.nintendo.co.jp/clvs/soft/mario_kart.html",
+      "finalUrl": "https://www.nintendo.co.jp/clvs/soft/mario_kart.html",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/super-mario-kart-japan/"
+      ]
+    },
+    {
+      "id": "168",
+      "title": "https://www.nintendo.co.jp/clvs/soft/mario_world.html",
+      "url": "https://www.nintendo.co.jp/clvs/soft/mario_world.html",
+      "finalUrl": "https://www.nintendo.co.jp/clvs/soft/mario_world.html",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/super-mario-world-japan/"
+      ]
+    },
+    {
+      "id": "169",
+      "title": "https://www.nintendo.co.jp/clvs/soft/zelda.html",
+      "url": "https://www.nintendo.co.jp/clvs/soft/zelda.html",
+      "finalUrl": "https://www.nintendo.co.jp/clvs/soft/zelda.html",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/zelda-link-past-japan/"
+      ]
+    },
+    {
+      "id": "170",
+      "title": "https://www.nintendo.co.jp/n02/dmg/hardware/color/index.html",
+      "url": "https://www.nintendo.co.jp/n02/dmg/hardware/color/index.html",
+      "finalUrl": "https://www.nintendo.co.jp/n02/dmg/hardware/color/index.html",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/game-boy-color-japan/"
+      ]
+    },
+    {
+      "id": "171",
+      "title": "https://www.nintendo.co.jp/n02/dmg/kingin/index.html",
+      "url": "https://www.nintendo.co.jp/n02/dmg/kingin/index.html",
+      "finalUrl": "https://www.nintendo.co.jp/n02/dmg/kingin/index.html",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/pokemon-gold-silver-japan/"
+      ]
+    },
+    {
+      "id": "172",
+      "title": "https://www.nintendo.co.jp/wii/vc/vc_dsb/vc_dsb_01.html",
+      "url": "https://www.nintendo.co.jp/wii/vc/vc_dsb/vc_dsb_01.html",
+      "finalUrl": "https://www.nintendo.co.jp/wii/vc/vc_dsb/vc_dsb_01.html",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/smash-bros-japan/"
+      ]
+    },
+    {
+      "id": "173",
+      "title": "https://www.nintendo.co.jp/wii/vc/vc_lzo/vc_lzo_01.html",
+      "url": "https://www.nintendo.co.jp/wii/vc/vc_lzo/vc_lzo_01.html",
+      "finalUrl": "https://www.nintendo.co.jp/wii/vc/vc_lzo/vc_lzo_01.html",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/ocarina-time-japan/"
+      ]
+    },
+    {
+      "id": "174",
+      "title": "https://www.nintendo.com/en-gb/Hardware/Nintendo-History/Nintendo-History-625945.html",
+      "url": "https://www.nintendo.com/en-gb/Hardware/Nintendo-History/Nintendo-History-625945.html",
+      "finalUrl": "https://www.nintendo.com/en-gb/Hardware/Nintendo-History/Nintendo-History-625945.html",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/nintendo-64-japan/",
+        "/stories/a-whole-new-dimension/",
+        "/stories/make-room-for-player-two/"
+      ]
+    },
+    {
+      "id": "175",
+      "title": "https://www.nintendo.com/eu/media/downloads/games_8/emanuals/nintendo_8/Manual_Nintendo64_MarioKart64_EN.pdf",
+      "url": "https://www.nintendo.com/eu/media/downloads/games_8/emanuals/nintendo_8/Manual_Nintendo64_MarioKart64_EN.pdf",
+      "finalUrl": "https://www.nintendo.com/eu/media/downloads/games_8/emanuals/nintendo_8/Manual_Nintendo64_MarioKart64_EN.pdf",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/zones/games/"
+      ]
+    },
+    {
+      "id": "176",
+      "title": "https://www.nintendo.com/jp/famicom/history/index.html",
+      "url": "https://www.nintendo.com/jp/famicom/history/index.html",
+      "finalUrl": "https://www.nintendo.com/jp/famicom/history/index.html",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/stories/the-secret-button-sequence/"
+      ]
+    },
+    {
+      "id": "177",
+      "title": "https://www.nintendo.com/us/explore/characters/mario/history/",
+      "url": "https://www.nintendo.com/us/explore/characters/mario/history/",
+      "finalUrl": "https://www.nintendo.com/us/explore/characters/mario/history/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/zones/games/"
+      ]
+    },
+    {
+      "id": "178",
+      "title": "https://www.nirvana.com/timelines/",
+      "url": "https://www.nirvana.com/timelines/",
+      "finalUrl": "https://www.nirvana.com/timelines/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/in-utero/",
+        "/events/incesticide/",
+        "/events/nevermind/",
+        "/stories/when-grunge-broke-through/"
+      ]
+    },
+    {
+      "id": "179",
+      "title": "https://www.oocities.org/",
+      "url": "https://www.oocities.org/",
+      "finalUrl": "https://www.oocities.org/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/search/",
+        "/webring/"
+      ]
+    },
+    {
+      "id": "180",
+      "title": "https://www.orangebowl.org/history/",
+      "url": "https://www.orangebowl.org/history/",
+      "finalUrl": "https://www.orangebowl.org/history/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/orange-bowl-1996/",
+        "/events/orange-bowl-new-years-eve/"
+      ]
+    },
+    {
+      "id": "181",
+      "title": "https://www.paleycenter.org/collection-2",
+      "url": "https://www.paleycenter.org/collection-2",
+      "finalUrl": "https://www.paleycenter.org/collection-2",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/search/",
+        "/webring/"
+      ]
+    },
+    {
+      "id": "182",
+      "title": "https://www.paramountpressexpress.com/nickelodeon/shows/rugrats/releases/?view=58277-the-babies-are-backfor-more-paramount-renews-the-all-new-rugrats-for-a-second-season",
+      "url": "https://www.paramountpressexpress.com/nickelodeon/shows/rugrats/releases/?view=58277-the-babies-are-backfor-more-paramount-renews-the-all-new-rugrats-for-a-second-season",
+      "finalUrl": "https://www.paramountpressexpress.com/nickelodeon/shows/rugrats/releases/?view=58277-the-babies-are-backfor-more-paramount-renews-the-all-new-rugrats-for-a-second-season",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/rugrats-premiere/"
+      ]
+    },
+    {
+      "id": "183",
+      "title": "https://www.playstation.com/content/dam/global_pdc/en/corporate/support/manuals/ps2-docs/JA_SCPH-50000MBNH_WEB.pdf",
+      "url": "https://www.playstation.com/content/dam/global_pdc/en/corporate/support/manuals/ps2-docs/JA_SCPH-50000MBNH_WEB.pdf",
+      "finalUrl": "https://www.playstation.com/content/dam/global_pdc/en/corporate/support/manuals/ps2-docs/JA_SCPH-50000MBNH_WEB.pdf",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/stories/fifteen-blocks-of-memory/"
+      ]
+    },
+    {
+      "id": "184",
+      "title": "https://www.reddit.com/r/90s/",
+      "url": "https://www.reddit.com/r/90s/",
+      "finalUrl": "https://www.reddit.com/r/90s/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/search/",
+        "/webring/"
+      ]
+    },
+    {
+      "id": "185",
+      "title": "https://www.reddit.com/r/nostalgia/",
+      "url": "https://www.reddit.com/r/nostalgia/",
+      "finalUrl": "https://www.reddit.com/r/nostalgia/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/search/",
+        "/webring/"
+      ]
+    },
+    {
+      "id": "186",
+      "title": "https://www.reddit.com/r/oldinternet/",
+      "url": "https://www.reddit.com/r/oldinternet/",
+      "finalUrl": "https://www.reddit.com/r/oldinternet/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/search/",
+        "/webring/"
+      ]
+    },
+    {
+      "id": "187",
+      "title": "https://www.reddit.com/r/retrogaming/",
+      "url": "https://www.reddit.com/r/retrogaming/",
+      "finalUrl": "https://www.reddit.com/r/retrogaming/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/search/",
+        "/webring/"
+      ]
+    },
+    {
+      "id": "188",
+      "title": "https://www.referenceforbusiness.com/history2/41/dELiA-s-Inc.html",
+      "url": "https://www.referenceforbusiness.com/history2/41/dELiA-s-Inc.html",
+      "finalUrl": "https://www.referenceforbusiness.com/history2/41/dELiA-s-Inc.html",
+      "classification": "unresolved",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 400
+        },
+        {
+          "method": "GET",
+          "status": 400
+        }
+      ],
+      "error": "Bad Request",
+      "routes": [
+        "/stories/the-catalog-on-your-bedroom-floor/"
+      ]
+    },
+    {
+      "id": "189",
+      "title": "https://www.retroarch.com/",
+      "url": "https://www.retroarch.com/",
+      "finalUrl": "https://www.retroarch.com/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/search/",
+        "/webring/"
+      ]
+    },
+    {
+      "id": "190",
+      "title": "https://www.retrojunk.com/",
+      "url": "https://www.retrojunk.com/",
+      "finalUrl": "https://www.retrojunk.com/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 405
+        },
+        {
+          "method": "GET",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/search/",
+        "/webring/"
+      ]
+    },
+    {
+      "id": "191",
+      "title": "https://www.retromags.com/",
+      "url": "https://www.retromags.com/",
+      "finalUrl": "https://www.retromags.com/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/search/",
+        "/webring/"
+      ]
+    },
+    {
+      "id": "192",
+      "title": "https://www.rhino.com/article/now-available-a-whole-lot-of-jagged-little-pills-for-your-listening-and-viewing-enjoyment",
+      "url": "https://www.rhino.com/article/now-available-a-whole-lot-of-jagged-little-pills-for-your-listening-and-viewing-enjoyment",
+      "finalUrl": "https://www.rhino.com/article/now-available-a-whole-lot-of-jagged-little-pills-for-your-listening-and-viewing-enjoyment",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/jagged-little-pill-us/"
+      ]
+    },
+    {
+      "id": "193",
+      "title": "https://www.scummvm.org/",
+      "url": "https://www.scummvm.org/",
+      "finalUrl": "https://www.scummvm.org/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/search/",
+        "/webring/"
+      ]
+    },
+    {
+      "id": "194",
+      "title": "https://www.softwareheritage.org/",
+      "url": "https://www.softwareheritage.org/",
+      "finalUrl": "https://www.softwareheritage.org/",
+      "classification": "unresolved",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+        },
+        {
+          "method": "GET",
+          "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+        }
+      ],
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>",
+      "routes": [
+        "/search/",
+        "/webring/"
+      ]
+    },
+    {
+      "id": "195",
+      "title": "https://www.sony.com/en/SonyInfo/CorporateInfo/History/SonyHistory/2-07.html",
+      "url": "https://www.sony.com/en/SonyInfo/CorporateInfo/History/SonyHistory/2-07.html",
+      "finalUrl": "https://www.sony.com/en/SonyInfo/CorporateInfo/History/SonyHistory/2-07.html",
+      "classification": "blocked-or-rate-limited",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 403
+        },
+        {
+          "method": "GET",
+          "status": 403
+        }
+      ],
+      "error": "Forbidden",
+      "routes": [
+        "/stories/discman-in-your-backpack/"
+      ]
+    },
+    {
+      "id": "196",
+      "title": "https://www.sony.com/en/SonyInfo/CorporateInfo/History/sonyhistory-e.html",
+      "url": "https://www.sony.com/en/SonyInfo/CorporateInfo/History/sonyhistory-e.html",
+      "finalUrl": "https://www.sony.com/en/SonyInfo/CorporateInfo/History/sonyhistory-e.html",
+      "classification": "blocked-or-rate-limited",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 403
+        },
+        {
+          "method": "GET",
+          "status": 403
+        }
+      ],
+      "error": "Forbidden",
+      "routes": [
+        "/stories/discman-in-your-backpack/",
+        "/stories/from-mixtape-to-file/"
+      ]
+    },
+    {
+      "id": "197",
+      "title": "https://www.spacejam.com/1996/",
+      "url": "https://www.spacejam.com/1996/",
+      "finalUrl": "https://www.spacejam.com/1996/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/search/",
+        "/webring/"
+      ]
+    },
+    {
+      "id": "198",
+      "title": "https://www.televisionacademy.com/features/emmy-magazine/articles/twin-peaks-david-lynch-oral-history",
+      "url": "https://www.televisionacademy.com/features/emmy-magazine/articles/twin-peaks-david-lynch-oral-history",
+      "finalUrl": "https://www.televisionacademy.com/features/emmy-magazine/articles/twin-peaks-david-lynch-oral-history",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/twin-peaks-premiere/"
+      ]
+    },
+    {
+      "id": "199",
+      "title": "https://www.televisionacademy.com/features/news/features/back-bel-air",
+      "url": "https://www.televisionacademy.com/features/news/features/back-bel-air",
+      "finalUrl": "https://www.televisionacademy.com/features/news/features/back-bel-air",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/fresh-prince-premiere/"
+      ]
+    },
+    {
+      "id": "200",
+      "title": "https://www.televisionacademy.com/features/news/industry-news/friends-oral-history-30th-anniversary-matthew-perry",
+      "url": "https://www.televisionacademy.com/features/news/industry-news/friends-oral-history-30th-anniversary-matthew-perry",
+      "finalUrl": "https://www.televisionacademy.com/features/news/industry-news/friends-oral-history-30th-anniversary-matthew-perry",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/friends-premiere/"
+      ]
+    },
+    {
+      "id": "201",
+      "title": "https://www.televisionacademy.com/features/news/online-originals/er-oral-history",
+      "url": "https://www.televisionacademy.com/features/news/online-originals/er-oral-history",
+      "finalUrl": "https://www.televisionacademy.com/features/news/online-originals/er-oral-history",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/er-premiere/"
+      ]
+    },
+    {
+      "id": "202",
+      "title": "https://www.televisionacademy.com/features/news/online-originals/science-fiction-tv-shows-star-trek-xfiles-seaquest",
+      "url": "https://www.televisionacademy.com/features/news/online-originals/science-fiction-tv-shows-star-trek-xfiles-seaquest",
+      "finalUrl": "https://www.televisionacademy.com/features/news/online-originals/science-fiction-tv-shows-star-trek-xfiles-seaquest",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/x-files-premiere/"
+      ]
+    },
+    {
+      "id": "203",
+      "title": "https://www.televisionacademy.com/features/news/online-originals/sopranos-by-the-numbers",
+      "url": "https://www.televisionacademy.com/features/news/online-originals/sopranos-by-the-numbers",
+      "finalUrl": "https://www.televisionacademy.com/features/news/online-originals/sopranos-by-the-numbers",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/sopranos-premiere/"
+      ]
+    },
+    {
+      "id": "204",
+      "title": "https://www.the-numbers.com/market/1996/top-grossing-movies",
+      "url": "https://www.the-numbers.com/market/1996/top-grossing-movies",
+      "finalUrl": "https://www.the-numbers.com/market/1996/top-grossing-movies",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/zones/tv-movies/"
+      ]
+    },
+    {
+      "id": "205",
+      "title": "https://www.the-numbers.com/movie/Air-Bud",
+      "url": "https://www.the-numbers.com/movie/Air-Bud",
+      "finalUrl": "https://www.the-numbers.com/movie/Air-Bud",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/film-air-bud-1997/"
+      ]
+    },
+    {
+      "id": "206",
+      "title": "https://www.the-numbers.com/movie/Dantes-Peak-%281997%29",
+      "url": "https://www.the-numbers.com/movie/Dantes-Peak-%281997%29",
+      "finalUrl": "https://www.the-numbers.com/movie/Dantes-Peak-%281997%29",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/film-dantes-peak-1997/"
+      ]
+    },
+    {
+      "id": "207",
+      "title": "https://www.the-numbers.com/movie/Dumb-and-Dumber",
+      "url": "https://www.the-numbers.com/movie/Dumb-and-Dumber",
+      "finalUrl": "https://www.the-numbers.com/movie/Dumb-and-Dumber",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/film-dumb-dumber-1994/"
+      ]
+    },
+    {
+      "id": "208",
+      "title": "https://www.the-numbers.com/movie/Gattaca",
+      "url": "https://www.the-numbers.com/movie/Gattaca",
+      "finalUrl": "https://www.the-numbers.com/movie/Gattaca",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/film-gattaca-1997/"
+      ]
+    },
+    {
+      "id": "209",
+      "title": "https://www.the-numbers.com/movie/Goodfellas-%281990%29",
+      "url": "https://www.the-numbers.com/movie/Goodfellas-%281990%29",
+      "finalUrl": "https://www.the-numbers.com/movie/Goodfellas-%281990%29",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/film-goodfellas-1990/"
+      ]
+    },
+    {
+      "id": "210",
+      "title": "https://www.the-numbers.com/movie/Graveyard-Shift",
+      "url": "https://www.the-numbers.com/movie/Graveyard-Shift",
+      "finalUrl": "https://www.the-numbers.com/movie/Graveyard-Shift",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/film-graveyard-shift-1990/"
+      ]
+    },
+    {
+      "id": "211",
+      "title": "https://www.the-numbers.com/movie/LA-Confidential-%281997%29",
+      "url": "https://www.the-numbers.com/movie/LA-Confidential-%281997%29",
+      "finalUrl": "https://www.the-numbers.com/movie/LA-Confidential-%281997%29",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/film-l-a-confidential-1997/"
+      ]
+    },
+    {
+      "id": "212",
+      "title": "https://www.the-numbers.com/movie/Liar-Liar",
+      "url": "https://www.the-numbers.com/movie/Liar-Liar",
+      "finalUrl": "https://www.the-numbers.com/movie/Liar-Liar",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/film-liar-liar-1997/"
+      ]
+    },
+    {
+      "id": "213",
+      "title": "https://www.the-numbers.com/movie/Pulp-Fiction-%281994%29",
+      "url": "https://www.the-numbers.com/movie/Pulp-Fiction-%281994%29",
+      "finalUrl": "https://www.the-numbers.com/movie/Pulp-Fiction-%281994%29",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/film-pulp-fiction-1994/"
+      ]
+    },
+    {
+      "id": "214",
+      "title": "https://www.the-numbers.com/movie/Santa-Clause-The",
+      "url": "https://www.the-numbers.com/movie/Santa-Clause-The",
+      "finalUrl": "https://www.the-numbers.com/movie/Santa-Clause-The",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/film-the-santa-clause-1994/"
+      ]
+    },
+    {
+      "id": "215",
+      "title": "https://www.the-numbers.com/movie/Starship-Troopers-%281997%29",
+      "url": "https://www.the-numbers.com/movie/Starship-Troopers-%281997%29",
+      "finalUrl": "https://www.the-numbers.com/movie/Starship-Troopers-%281997%29",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/film-starship-troopers-1997/"
+      ]
+    },
+    {
+      "id": "216",
+      "title": "https://www.the-numbers.com/movies/release-schedule/1990",
+      "url": "https://www.the-numbers.com/movies/release-schedule/1990",
+      "finalUrl": "https://www.the-numbers.com/movies/release-schedule/1990",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/film-another-48-hrs-1990/",
+        "/events/film-bad-influence-1990/",
+        "/events/film-childs-play-2-1990/",
+        "/events/film-crazy-people-1990/",
+        "/events/film-die-hard-2-1990/",
+        "/events/film-downtown-1990/",
+        "/events/film-ducktales-the-movie-treasure-of-the-lost-lamp-1990/",
+        "/events/film-eating-1990/",
+        "/events/film-edward-scissorhands-1990/",
+        "/events/film-flashback-1990/",
+        "/events/film-happy-together-1990/",
+        "/events/film-hard-to-kill-1990/",
+        "/events/film-havana-1990/",
+        "/events/film-henry-portrait-of-a-serial-killer-1990/",
+        "/events/film-jetsons-the-movie-1990/",
+        "/events/film-the-cook-the-thief-his-wife-and-her-lover-1990/",
+        "/events/film-the-hunt-for-red-october-1990/",
+        "/events/film-tie-me-up-tie-me-down-1990/",
+        "/events/film-total-recall-1990/",
+        "/events/film-young-guns-ii-1990/",
+        "/stories/the-cartoon-morning/"
+      ]
+    },
+    {
+      "id": "217",
+      "title": "https://www.the-numbers.com/movies/release-schedule/1991",
+      "url": "https://www.the-numbers.com/movies/release-schedule/1991",
+      "finalUrl": "https://www.the-numbers.com/movies/release-schedule/1991",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/film-backdraft-1991/",
+        "/events/film-beauty-and-the-beast-1991/",
+        "/events/film-city-slickers-1991/",
+        "/events/film-curly-sue-1991/",
+        "/events/film-dead-again-1991/",
+        "/events/film-doc-hollywood-1991/",
+        "/events/film-father-of-the-bride-1991/",
+        "/events/film-freddys-dead-the-final-nightmare-1991/",
+        "/events/film-hook-1991/",
+        "/events/film-hot-shots-1991/",
+        "/events/film-lionheart-1991/",
+        "/events/film-new-jack-city-1991/",
+        "/events/film-oscar-1991/",
+        "/events/film-other-people-s-money-1991/",
+        "/events/film-out-for-justice-1991/",
+        "/events/film-robin-hood-prince-of-thieves-1991/",
+        "/events/film-sleeping-with-the-enemy-1991/",
+        "/events/film-teenage-mutant-ninja-turtles-ii-the-secret-of-the-ooze-1991/",
+        "/events/film-terminator-2-judgment-day-1991/",
+        "/events/film-the-addams-family-1991/",
+        "/events/film-the-fisher-king-1991/",
+        "/events/film-the-silence-of-the-lambs-1991/",
+        "/events/film-what-about-bob-1991/",
+        "/events/film-white-fang-1991/"
+      ]
+    },
+    {
+      "id": "218",
+      "title": "https://www.the-numbers.com/movies/release-schedule/1992",
+      "url": "https://www.the-numbers.com/movies/release-schedule/1992",
+      "finalUrl": "https://www.the-numbers.com/movies/release-schedule/1992",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/film-a-few-good-men-1992/",
+        "/events/film-a-league-of-their-own-1992/",
+        "/events/film-aladdin-1992/",
+        "/events/film-basic-instinct-1992/",
+        "/events/film-batman-returns-1992/",
+        "/events/film-beethoven-1992/",
+        "/events/film-boomerang-1992/",
+        "/events/film-home-alone-2-lost-in-new-york-1992/",
+        "/events/film-lethal-weapon-3-1992/",
+        "/events/film-medicine-man-1992/",
+        "/events/film-patriot-games-1992/",
+        "/events/film-scent-of-a-woman-1992/",
+        "/events/film-shining-through-1992/",
+        "/events/film-single-white-female-1992/",
+        "/events/film-sister-act-1992/",
+        "/events/film-sleepwalkers-1992/",
+        "/events/film-sneakers-1992/",
+        "/events/film-the-hand-that-rocks-the-cradle-1992/",
+        "/events/film-the-last-of-the-mohicans-1992/",
+        "/events/film-the-mighty-ducks-1992/",
+        "/events/film-under-siege-1992/",
+        "/events/film-unforgiven-1992/",
+        "/events/film-wayne-s-world-1992/",
+        "/events/film-white-men-can-t-jump-1992/"
+      ]
+    },
+    {
+      "id": "219",
+      "title": "https://www.the-numbers.com/movies/release-schedule/1993",
+      "url": "https://www.the-numbers.com/movies/release-schedule/1993",
+      "finalUrl": "https://www.the-numbers.com/movies/release-schedule/1993",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/film-aladdin-1993/",
+        "/events/film-alive-1993/",
+        "/events/film-cliffhanger-1993/",
+        "/events/film-cool-runnings-1993/",
+        "/events/film-dave-1993/",
+        "/events/film-groundhog-day-1993/",
+        "/events/film-hard-target-1993/",
+        "/events/film-in-the-line-of-fire-1993/",
+        "/events/film-indecent-proposal-1993/",
+        "/events/film-jurassic-park-1993/",
+        "/events/film-mrs-doubtfire-1993/",
+        "/events/film-nowhere-to-run-1993/",
+        "/events/film-point-of-no-return-1993/",
+        "/events/film-schindlers-list-1993/",
+        "/events/film-sommersby-1993/",
+        "/events/film-teenage-mutant-ninja-turtles-iii-1993/",
+        "/events/film-the-firm-1993/",
+        "/events/film-the-fugitive-1993/",
+        "/events/film-the-good-son-1993/",
+        "/events/film-the-joy-luck-club-1993/",
+        "/events/film-the-nightmare-before-christmas-1993/",
+        "/events/film-the-pelican-brief-1993/",
+        "/events/film-the-sandlot-1993/",
+        "/events/film-the-three-musketeers-1993/",
+        "/stories/summer-at-the-multiplex/"
+      ]
+    },
+    {
+      "id": "220",
+      "title": "https://www.the-numbers.com/movies/release-schedule/1994",
+      "url": "https://www.the-numbers.com/movies/release-schedule/1994",
+      "finalUrl": "https://www.the-numbers.com/movies/release-schedule/1994",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/film-3-ninjas-kick-back-1994/",
+        "/events/film-a-simple-twist-of-fate-1994/",
+        "/events/film-ace-ventura-pet-detective-1994/",
+        "/events/film-andre-1994/",
+        "/events/film-angie-1994/",
+        "/events/film-arizona-dream-1994/",
+        "/events/film-babys-day-out-1994/",
+        "/events/film-bitter-moon-1994/",
+        "/events/film-blankman-1994/",
+        "/events/film-desert-winds-1994/",
+        "/events/film-forrest-gump-1994/",
+        "/events/film-holy-matrimony-1994/",
+        "/events/film-naked-1994/",
+        "/events/film-silent-tongue-1994/",
+        "/events/film-the-air-up-there-1994/",
+        "/events/film-the-cowboy-way-1994/",
+        "/events/film-widow-s-peak-1994/",
+        "/events/film-windrunner-1994/",
+        "/stories/horror-knew-the-rules/"
+      ]
+    },
+    {
+      "id": "221",
+      "title": "https://www.the-numbers.com/movies/release-schedule/1995",
+      "url": "https://www.the-numbers.com/movies/release-schedule/1995",
+      "finalUrl": "https://www.the-numbers.com/movies/release-schedule/1995",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/film-ace-ventura-when-nature-calls-1995/",
+        "/events/film-apollo-13-1995/",
+        "/events/film-bad-boys-1995/",
+        "/events/film-batman-forever-1995/",
+        "/events/film-casper-1995/",
+        "/events/film-copycat-1995/",
+        "/events/film-dangerous-minds-1995/",
+        "/events/film-die-hard-with-a-vengeance-1995/",
+        "/events/film-get-shorty-1995/",
+        "/events/film-higher-learning-1995/",
+        "/events/film-houseguest-1995/",
+        "/events/film-jumanji-1995/",
+        "/events/film-just-cause-1995/",
+        "/events/film-man-of-the-house-1995/",
+        "/events/film-mortal-kombat-1995/",
+        "/events/film-mr-holland-s-opus-1995/",
+        "/events/film-nine-months-1995/",
+        "/events/film-outbreak-1995/",
+        "/events/film-se7en-1995/",
+        "/events/film-the-brady-bunch-movie-1995/",
+        "/events/film-to-wong-foo-thanks-for-everything-julie-newmar-1995/",
+        "/events/film-toy-story-1995/",
+        "/events/film-waterworld-1995/",
+        "/events/film-while-you-were-sleeping-1995/"
+      ]
+    },
+    {
+      "id": "222",
+      "title": "https://www.the-numbers.com/movies/release-schedule/1996",
+      "url": "https://www.the-numbers.com/movies/release-schedule/1996",
+      "finalUrl": "https://www.the-numbers.com/movies/release-schedule/1996",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/film-101-dalmatians-1996/",
+        "/events/film-2-days-in-the-valley-1996/",
+        "/events/film-a-boy-called-hate-1996/",
+        "/events/film-a-family-thing-1996/",
+        "/events/film-a-midwinter-s-tale-1996/",
+        "/events/film-a-modern-affair-1996/",
+        "/events/film-a-time-to-kill-1996/",
+        "/events/film-a-very-brady-sequel-1996/",
+        "/events/film-access-denied-1996/",
+        "/events/film-adrenalin-fear-the-rush-1996/",
+        "/events/film-alaska-1996/",
+        "/events/film-all-dogs-go-to-heaven-2-1996/",
+        "/events/film-all-things-fair-1996/",
+        "/events/film-american-buffalo-1996/",
+        "/events/film-american-strays-1996/",
+        "/events/film-angels-and-insects-1996/",
+        "/events/film-anne-frank-remembered-1996/",
+        "/events/film-antonia-s-line-1996/",
+        "/events/film-ashes-of-time-1996/",
+        "/events/film-august-1996/",
+        "/events/film-bad-moon-1996/",
+        "/events/film-bang-1996/",
+        "/events/film-barb-wire-1996/",
+        "/events/film-basquiat-1996/",
+        "/events/film-beaumarchais-the-scoundrel-1996/",
+        "/events/film-beautiful-girls-1996/",
+        "/events/film-beavis-and-butt-head-do-america-1996/",
+        "/events/film-bed-of-roses-1996/",
+        "/events/film-big-bully-1996/",
+        "/events/film-big-night-1996/",
+        "/events/film-bio-dome-1996/",
+        "/events/film-black-sheep-1996/",
+        "/events/film-bloodsport-2-1996/",
+        "/events/film-bogus-1996/",
+        "/events/film-bottle-rocket-1996/",
+        "/events/film-bound-1996/",
+        "/events/film-boys-1996/",
+        "/events/film-captives-1996/",
+        "/events/film-carried-away-1996/",
+        "/events/film-celtic-pride-1996/",
+        "/events/film-chain-reaction-1996/",
+        "/events/film-citizen-ruth-1996/",
+        "/events/film-city-hall-1996/",
+        "/events/film-courage-under-fire-1996/",
+        "/events/film-crash-1996/",
+        "/events/film-curdled-1996/",
+        "/events/film-cyclo-1996/",
+        "/events/film-daylight-1996/",
+        "/events/film-dear-god-1996/",
+        "/events/film-diabolique-1996/",
+        "/events/film-don-t-be-a-menace-to-south-central-while-drinking-your-juice-in-the-hood-1996/",
+        "/events/film-down-periscope-1996/",
+        "/events/film-dragonheart-1996/",
+        "/events/film-ed-1996/",
+        "/events/film-eddie-1996/",
+        "/events/film-emma-1996/",
+        "/events/film-eraser-1996/",
+        "/events/film-escape-from-l-a-1996/",
+        "/events/film-everyone-says-i-love-you-1996/",
+        "/events/film-evita-1996/",
+        "/events/film-executive-decision-1996/",
+        "/events/film-far-harbor-1996/",
+        "/events/film-fargo-1996/",
+        "/events/film-fear-1996/",
+        "/events/film-first-kid-1996/",
+        "/events/film-flipper-1996/",
+        "/events/film-flirt-1996/",
+        "/events/film-flirting-with-disaster-1996/",
+        "/events/film-foxfire-1996/",
+        "/events/film-frisk-1996/",
+        "/events/film-from-dusk-till-dawn-1996/",
+        "/events/film-garden-of-the-finzi-continis-1996/",
+        "/events/film-get-on-the-bus-1996/",
+        "/events/film-getting-away-with-murder-1996/",
+        "/events/film-guimba-the-tyrant-1996/",
+        "/events/film-hamlet-1996/",
+        "/events/film-happy-gilmore-1996/",
+        "/events/film-harriet-the-spy-1996/",
+        "/events/film-heaven-s-prisoners-1996/",
+        "/events/film-high-school-high-1996/",
+        "/events/film-homeward-bound-ii-lost-in-san-francisco-1996/",
+        "/events/film-hype-1996/",
+        "/events/film-i-shot-a-man-in-vegas-1996/",
+        "/events/film-i-shot-andy-warhol-1996/",
+        "/events/film-james-and-the-giant-peach-1996/",
+        "/events/film-jerry-maguire-1996/",
+        "/events/film-joe-s-apartment-1996/",
+        "/events/film-kansas-city-1996/",
+        "/events/film-kazaam-1996/",
+        "/events/film-killer-a-journal-of-murder-1996/",
+        "/events/film-la-promesse-1996/",
+        "/events/film-last-man-standing-1996/",
+        "/events/film-lover-s-knot-1996/",
+        "/events/film-mars-attacks-1996/",
+        "/events/film-maybe-maybe-not-1996/",
+        "/events/film-michael-collins-1996/",
+        "/events/film-moll-flanders-1996/",
+        "/events/film-mrs-winterbourne-1996/",
+        "/events/film-multiplicity-1996/",
+        "/events/film-my-fellow-americans-1996/",
+        "/events/film-normal-life-1996/",
+        "/events/film-nueba-yol-1996/",
+        "/events/film-phenomenon-1996/",
+        "/events/film-primal-fear-1996/",
+        "/events/film-rumble-in-the-bronx-1996/",
+        "/events/film-scream-1996/",
+        "/events/film-set-it-off-1996/",
+        "/events/film-she-s-the-one-1996/",
+        "/events/film-someone-else-s-america-1996/",
+        "/events/film-spy-hard-1996/",
+        "/events/film-star-trek-first-contact-1996/",
+        "/events/film-stealing-beauty-1996/",
+        "/events/film-striptease-1996/",
+        "/events/film-swingers-1996/",
+        "/events/film-the-arrival-1996/",
+        "/events/film-the-associate-1996/",
+        "/events/film-the-cable-guy-1996/",
+        "/events/film-the-chamber-1996/",
+        "/events/film-the-crow-city-of-angels-1996/",
+        "/events/film-the-crucible-1996/",
+        "/events/film-the-english-patient-1996/",
+        "/events/film-the-fan-1996/",
+        "/events/film-the-first-wives-club-1996/",
+        "/events/film-the-ghost-and-the-darkness-1996/",
+        "/events/film-the-glimmer-man-1996/",
+        "/events/film-the-juror-1996/",
+        "/events/film-the-mirror-has-two-faces-1996/",
+        "/events/film-the-nutty-professor-1996/",
+        "/events/film-the-phantom-1996/",
+        "/events/film-the-portrait-of-a-lady-1996/",
+        "/events/film-the-quest-1996/",
+        "/events/film-the-rock-1996/",
+        "/events/film-the-truth-about-cats-dogs-1996/",
+        "/events/film-thinner-1996/",
+        "/events/film-trainspotting-1996/",
+        "/events/film-twister-1996/",
+        "/events/film-two-friends-1996/",
+        "/events/film-two-much-1996/",
+        "/events/film-vive-lamour-1996/",
+        "/events/film-white-squall-1996/",
+        "/events/film-zero-kelvin-1996/",
+        "/stories/do-not-tape-over/",
+        "/stories/friday-at-the-video-store/",
+        "/stories/horror-knew-the-rules/",
+        "/stories/summer-at-the-multiplex/",
+        "/stories/the-cartoon-morning/"
+      ]
+    },
+    {
+      "id": "223",
+      "title": "https://www.the-numbers.com/movies/release-schedule/1997",
+      "url": "https://www.the-numbers.com/movies/release-schedule/1997",
+      "finalUrl": "https://www.the-numbers.com/movies/release-schedule/1997",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/film-8-heads-in-a-duffel-bag-1997/",
+        "/events/film-a-chef-in-love-1997/",
+        "/events/film-an-american-werewolf-in-paris-1997/",
+        "/events/film-as-good-as-it-gets-1997/",
+        "/events/film-austin-powers-international-man-of-mystery-1997/",
+        "/events/film-for-roseanna-1997/",
+        "/events/film-hercules-1997/",
+        "/events/film-inside-1997/",
+        "/events/film-men-in-black-1997/",
+        "/events/film-retroactive-1997/"
+      ]
+    },
+    {
+      "id": "224",
+      "title": "https://www.the-numbers.com/movies/release-schedule/1998",
+      "url": "https://www.the-numbers.com/movies/release-schedule/1998",
+      "finalUrl": "https://www.the-numbers.com/movies/release-schedule/1998",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/film-antz-1998/",
+        "/events/film-armageddon-1998/",
+        "/events/film-blade-1998/",
+        "/events/film-city-of-angels-1998/",
+        "/events/film-deep-impact-1998/",
+        "/events/film-doctor-dolittle-1998/",
+        "/events/film-enemy-of-the-state-1998/",
+        "/events/film-godzilla-1998/",
+        "/events/film-great-expectations-1998/",
+        "/events/film-life-is-beautiful-1998/",
+        "/events/film-lost-in-space-1998/",
+        "/events/film-patch-adams-1998/",
+        "/events/film-ronin-1998/",
+        "/events/film-rush-hour-1998/",
+        "/events/film-saving-private-ryan-1998/",
+        "/events/film-snake-eyes-1998/",
+        "/events/film-sphere-1998/",
+        "/events/film-spice-world-1998/",
+        "/events/film-the-man-in-the-iron-mask-1998/",
+        "/events/film-the-truman-show-1998/",
+        "/events/film-the-waterboy-1998/",
+        "/events/film-the-wedding-singer-1998/",
+        "/events/film-u-s-marshals-1998/",
+        "/events/film-youve-got-mail-1998/"
+      ]
+    },
+    {
+      "id": "225",
+      "title": "https://www.the-numbers.com/movies/release-schedule/1999",
+      "url": "https://www.the-numbers.com/movies/release-schedule/1999",
+      "finalUrl": "https://www.the-numbers.com/movies/release-schedule/1999",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/film-american-beauty-1999/",
+        "/events/film-analyze-this-1999/",
+        "/events/film-austin-powers-the-spy-who-shagged-me-1999/",
+        "/events/film-double-jeopardy-1999/",
+        "/events/film-entrapment-1999/",
+        "/events/film-house-on-haunted-hill-1999/",
+        "/events/film-life-1999/",
+        "/events/film-message-in-a-bottle-1999/",
+        "/events/film-payback-1999/",
+        "/events/film-runaway-bride-1999/",
+        "/events/film-she-s-all-that-1999/",
+        "/events/film-sleepy-hollow-1999/",
+        "/events/film-star-wars-ep-i-the-phantom-menace-1999/",
+        "/events/film-stuart-little-1999/",
+        "/events/film-tarzan-1999/",
+        "/events/film-the-blair-witch-project-1999/",
+        "/events/film-the-green-mile-1999/",
+        "/events/film-the-matrix-1999/",
+        "/events/film-the-mummy-1999/",
+        "/events/film-the-sixth-sense-1999/",
+        "/events/film-the-thomas-crown-affair-1999/",
+        "/events/film-the-world-is-not-enough-1999/",
+        "/events/film-three-kings-1999/",
+        "/events/film-varsity-blues-1999/"
+      ]
+    },
+    {
+      "id": "226",
+      "title": "https://www.thehenryford.org/collections/explore/artifact/363960",
+      "url": "https://www.thehenryford.org/collections/explore/artifact/363960",
+      "finalUrl": "https://www.thehenryford.org/collections/explore/artifact/363960",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/stories/meet-me-at-the-mall/"
+      ]
+    },
+    {
+      "id": "227",
+      "title": "https://www.tvbrain.info/",
+      "url": "https://www.tvbrain.info/",
+      "finalUrl": "https://www.tvbrain.info/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/search/",
+        "/webring/"
+      ]
+    },
+    {
+      "id": "228",
+      "title": "https://www.udiscovermusic.com/news/spice-girls-wannabe25-ep/",
+      "url": "https://www.udiscovermusic.com/news/spice-girls-wannabe25-ep/",
+      "finalUrl": "https://www.udiscovermusic.com/news/spice-girls-wannabe25-ep/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/wannabe-uk/"
+      ]
+    },
+    {
+      "id": "229",
+      "title": "https://www.vam.ac.uk/exhibitions/lost-music-venues",
+      "url": "https://www.vam.ac.uk/exhibitions/lost-music-venues",
+      "finalUrl": "https://www.vam.ac.uk/exhibitions/lost-music-venues",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/stories/the-flyer-and-the-dancefloor/"
+      ]
+    },
+    {
+      "id": "230",
+      "title": "https://www.versionmuseum.com/",
+      "url": "https://www.versionmuseum.com/",
+      "finalUrl": "https://www.versionmuseum.com/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/search/",
+        "/webring/"
+      ]
+    },
+    {
+      "id": "231",
+      "title": "https://www.vgmaps.com/",
+      "url": "https://www.vgmaps.com/",
+      "finalUrl": "https://www.vgmaps.com/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/search/",
+        "/webring/"
+      ]
+    },
+    {
+      "id": "232",
+      "title": "https://www.vogons.org/",
+      "url": "https://www.vogons.org/",
+      "finalUrl": "https://www.vogons.org/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/search/",
+        "/webring/"
+      ]
+    },
+    {
+      "id": "233",
+      "title": "https://www.w3.org/blog/2016/25-years-ago-the-world-changed-forever/",
+      "url": "https://www.w3.org/blog/2016/25-years-ago-the-world-changed-forever/",
+      "finalUrl": "https://www.w3.org/blog/2016/25-years-ago-the-world-changed-forever/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/web-usenet-announcement/"
+      ]
+    },
+    {
+      "id": "234",
+      "title": "https://www.w3.org/news/1994/",
+      "url": "https://www.w3.org/news/1994/",
+      "finalUrl": "https://www.w3.org/news/1994/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/w3c-founded/"
+      ]
+    },
+    {
+      "id": "235",
+      "title": "https://www.webdesignmuseum.org/",
+      "url": "https://www.webdesignmuseum.org/",
+      "finalUrl": "https://www.webdesignmuseum.org/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/search/",
+        "/webring/"
+      ]
+    },
+    {
+      "id": "236",
+      "title": "https://www.whitneyhouston.com/music/bodyguard-original-soundtrack-album/",
+      "url": "https://www.whitneyhouston.com/music/bodyguard-original-soundtrack-album/",
+      "finalUrl": "https://www.whitneyhouston.com/music/bodyguard-original-soundtrack-album/",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/bodyguard-soundtrack/"
+      ]
+    },
+    {
+      "id": "237",
+      "title": "https://www.wnba.com/news/history-of-the-wnba-2002",
+      "url": "https://www.wnba.com/news/history-of-the-wnba-2002",
+      "finalUrl": "https://www.wnba.com/news/history-of-the-wnba-2002",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/wnba-first-game/"
+      ]
+    },
+    {
+      "id": "238",
+      "title": "https://www.world.rugby/news/572348/1995-mandela-williams-pienaar-afrique-du-sud?lang=en",
+      "url": "https://www.world.rugby/news/572348/1995-mandela-williams-pienaar-afrique-du-sud?lang=en",
+      "finalUrl": "https://www.world.rugby/news/572348/1995-mandela-williams-pienaar-afrique-du-sud?lang=en",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/rugby-world-cup-1995-final/"
+      ]
+    },
+    {
+      "id": "239",
+      "title": "https://www.wwe.com/classics/history-of-wwe",
+      "url": "https://www.wwe.com/classics/history-of-wwe",
+      "finalUrl": "https://www.wwe.com/classics/history-of-wwe",
+      "classification": "reachable",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "status": 200
+        }
+      ],
+      "routes": [
+        "/events/monday-night-raw-debut/"
+      ]
+    }
+  ]
+}

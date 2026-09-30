@@ -19,3 +19,7 @@ venv/
 .90s-publish-*/
 reports/phase-5/performance-*/*-mobile.json
 reports/phase-5/performance-*/*-desktop.json
+
+# Full Lighthouse traces are local; keep compact launch summaries.
+reports/launch-phase3/lighthouse-*/*-mobile.json
+reports/launch-phase3/lighthouse-*/*-desktop.json

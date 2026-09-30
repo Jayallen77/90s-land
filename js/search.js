@@ -23,8 +23,8 @@ export function initializeSearch() {
   if (!input || !cards.length || !buttons.length) return;
   const indexed = cards.map((card,index) => ({card,index,title:normalize(card.dataset.title),text:normalize(`${card.dataset.title} ${card.dataset.tags} ${card.textContent}`)}));
 
-  // Keep both count surfaces tied to the actual catalog, so new entries cannot
-  // make the hero summary and filter badges disagree.
+  // Derive filter totals from the current catalog. Retired summary IDs are
+  // empty bookmark aliases, not visible count surfaces.
   const totals = cards.reduce((result, card) => {
     const category = card.dataset.searchCategory || "unknown";
     result[category] = (result[category] || 0) + 1;
@@ -36,17 +36,6 @@ export function initializeSearch() {
       ? String(cards.length)
       : String(totals[button.dataset.siteFilter] || 0);
   });
-  const summaryIds = {
-    years: "#searchSummaryYears",
-    zones: "#searchSummaryZones",
-    highlights: "#searchSummaryHighlights",
-    objects: "#searchSummaryObjects",
-  };
-  Object.entries(summaryIds).forEach(([category, selector]) => {
-    const summary = document.querySelector(selector);
-    if (summary) summary.textContent = String(totals[category] || 0);
-  });
-
   let filter = "all", page = 1;
   const paginate = createPagination(document.querySelector('#siteSearchGrid'), next => {
     page = next; render({historyMode:'push'});
@@ -118,4 +107,5 @@ export function initializeSearch() {
 
   stateFromUrl();
   render({ writeUrl: false });
+  document.querySelector('#siteSearchGrid').setAttribute('data-search-ready', '');
 }

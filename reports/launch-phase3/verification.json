@@ -1,0 +1,105 @@
+{
+  "checkedOn": "2026-09-30",
+  "baselineCommit": "635a3d157aa56854b130723e6eb8274a4affc572",
+  "productionDeployment": "Not performed; no confirmed server target/root",
+  "browser": {
+    "passed": 174,
+    "failed": 0,
+    "tourStabilityRepeatsPassed": 20,
+    "widthRouteChecks": 2132,
+    "calendarStatesChecked": 85680,
+    "historicalWeekStatesChecked": 1044
+  },
+  "python": {
+    "passed": 48,
+    "failed": 0
+  },
+  "dateAndDiscovery": {
+    "passed": 9,
+    "failed": 0
+  },
+  "publication": {
+    "routes": 533,
+    "errorPageChecked": true,
+    "indexableRoutes": 531,
+    "uniqueShareCards": 192,
+    "structuredData": {
+      "WebSite": 1,
+      "BreadcrumbList": 532,
+      "WebPage": 472,
+      "Article": 30
+    },
+    "errors": []
+  },
+  "http": {
+    "routes": 533,
+    "routesPassed": 533,
+    "shareCards": 192,
+    "shareCardsPassed": 192,
+    "encodingSamples": 12,
+    "contentDigest": "79fcf5fdb46c861a0a1d82bddf61fe55f2712a03387c3f95815dbc7671ff6bea",
+    "errors": []
+  },
+  "privatePathsRejected": 56,
+  "screenshots": {
+    "routeCaptures": 60,
+    "passportCaptures": 2,
+    "failures": []
+  },
+  "staticAudit": {
+    "routes": 533,
+    "internalLinks": 30453,
+    "externalLinks": 799,
+    "fragmentLinks": 2257,
+    "errors": 0
+  },
+  "package": {
+    "schemaVersion": 3,
+    "contentDigest": "79fcf5fdb46c861a0a1d82bddf61fe55f2712a03387c3f95815dbc7671ff6bea",
+    "runtimeFiles": 870,
+    "totalBytes": 35542095,
+    "archiveSha256": "137ebb1115ecb2a4838a7bcb3321320de4b2f84c56cc862d1d5f76e7862d409d"
+  },
+  "authoringChecks": "Optimized asset, sharing image, render, media, migration, coverage, editorial, curation and route checks passed",
+  "lighthouse": {
+    "version": "13.4.1",
+    "runs": 30,
+    "thresholdsPassed": true,
+    "mobilePerformanceRange": [
+      93,
+      99
+    ],
+    "desktopPerformanceRange": [
+      99,
+      100
+    ],
+    "accessibilityRange": [
+      100,
+      100
+    ],
+    "bestPracticesRange": [
+      100,
+      100
+    ],
+    "indexablePageSeoRange": [
+      100,
+      100
+    ],
+    "searchRawSeoScores": [
+      69,
+      69
+    ],
+    "searchNoindexPolicyChecked": true,
+    "allApplicableSeoChecksPassed": true,
+    "maxLayoutShift": 0.0021339800206370283,
+    "searchLayoutShift": {
+      "mobile": 0,
+      "desktop": 0
+    }
+  },
+  "externalLinks": {
+    "blocked-or-rate-limited": 12,
+    "reachable": 218,
+    "unresolved": 10
+  }
+}

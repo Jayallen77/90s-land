@@ -1,0 +1,289 @@
+{
+  "method": "Lighthouse 13.4.1 cold-navigation localhost lab audits, default mobile throttling and desktop configuration; scores are not field data and small differences may be run variation.",
+  "baselineCommit": "635a3d157aa56854b130723e6eb8274a4affc572",
+  "beforeSummary": "lighthouse-before/summary.json",
+  "afterSummary": "lighthouse-after/summary.json",
+  "searchPolicy": "Search intentionally changed to noindex,follow. Its raw SEO score is preserved; all other applicable SEO audits must pass.",
+  "comparisons": [
+    {
+      "page": "home",
+      "mode": "mobile",
+      "path": "/",
+      "before": {
+        "performance": 97,
+        "accessibility": 96,
+        "best-practices": 100,
+        "seo": 100,
+        "metrics": {
+          "first-contentful-paint": 1580.48115,
+          "largest-contentful-paint": 2482.3081999999995,
+          "total-blocking-time": 0,
+          "cumulative-layout-shift": 0.001260456782507223,
+          "speed-index": 1580.48115,
+          "total-byte-weight": 611975
+        }
+      },
+      "after": {
+        "performance": 97,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100,
+        "metrics": {
+          "first-contentful-paint": 1656.5127,
+          "largest-contentful-paint": 2483.6836000000003,
+          "total-blocking-time": 54,
+          "cumulative-layout-shift": 0.001260456782507223,
+          "speed-index": 1656.5127,
+          "total-byte-weight": 614156
+        }
+      },
+      "indexingExpected": true,
+      "seoChecksPass": true
+    },
+    {
+      "page": "home",
+      "mode": "desktop",
+      "path": "/",
+      "before": {
+        "performance": 99,
+        "accessibility": 96,
+        "best-practices": 100,
+        "seo": 100,
+        "metrics": {
+          "first-contentful-paint": 407.6767,
+          "largest-contentful-paint": 867.6767,
+          "total-blocking-time": 0,
+          "cumulative-layout-shift": 0.0017750051896360506,
+          "speed-index": 407.6767,
+          "total-byte-weight": 682938
+        }
+      },
+      "after": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100,
+        "metrics": {
+          "first-contentful-paint": 408.99805,
+          "largest-contentful-paint": 788.99805,
+          "total-blocking-time": 0,
+          "cumulative-layout-shift": 0.0017434622716195314,
+          "speed-index": 408.99805,
+          "total-byte-weight": 685119
+        }
+      },
+      "indexingExpected": true,
+      "seoChecksPass": true
+    },
+    {
+      "page": "year-1996",
+      "mode": "mobile",
+      "path": "/timeline/1996/?month=06",
+      "before": {
+        "performance": 95,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100,
+        "metrics": {
+          "first-contentful-paint": 1728.0628499999998,
+          "largest-contentful-paint": 2703.0628500000003,
+          "total-blocking-time": 0,
+          "cumulative-layout-shift": 0.0002956627020695955,
+          "speed-index": 1728.0628499999998,
+          "total-byte-weight": 338280
+        }
+      },
+      "after": {
+        "performance": 95,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100,
+        "metrics": {
+          "first-contentful-paint": 1729.6737,
+          "largest-contentful-paint": 2704.6736999999994,
+          "total-blocking-time": 0,
+          "cumulative-layout-shift": 0.0002956627020695955,
+          "speed-index": 1729.6737,
+          "total-byte-weight": 340022
+        }
+      },
+      "indexingExpected": true,
+      "seoChecksPass": true
+    },
+    {
+      "page": "year-1996",
+      "mode": "desktop",
+      "path": "/timeline/1996/?month=06",
+      "before": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100,
+        "metrics": {
+          "first-contentful-paint": 444.08389999999997,
+          "largest-contentful-paint": 784.0839,
+          "total-blocking-time": 0,
+          "cumulative-layout-shift": 0.0001697438745877477,
+          "speed-index": 444.08389999999997,
+          "total-byte-weight": 591629
+        }
+      },
+      "after": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100,
+        "metrics": {
+          "first-contentful-paint": 445.0982,
+          "largest-contentful-paint": 805.0982000000001,
+          "total-blocking-time": 0,
+          "cumulative-layout-shift": 0.0001697438745877477,
+          "speed-index": 445.0982,
+          "total-byte-weight": 593371
+        }
+      },
+      "indexingExpected": true,
+      "seoChecksPass": true
+    },
+    {
+      "page": "week",
+      "mode": "mobile",
+      "path": "/this-week/?date=1996-09-27",
+      "before": {
+        "performance": 96,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100,
+        "metrics": {
+          "first-contentful-paint": 1578.0963000000002,
+          "largest-contentful-paint": 2556.1925999999994,
+          "total-blocking-time": 0,
+          "cumulative-layout-shift": 0.0019209139369780676,
+          "speed-index": 1578.0963000000002,
+          "total-byte-weight": 278046
+        }
+      },
+      "after": {
+        "performance": 96,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100,
+        "metrics": {
+          "first-contentful-paint": 1654.00665,
+          "largest-contentful-paint": 2710.1810750000004,
+          "total-blocking-time": 12,
+          "cumulative-layout-shift": 0.0021339800206370283,
+          "speed-index": 1654.00665,
+          "total-byte-weight": 269778
+        }
+      },
+      "indexingExpected": true,
+      "seoChecksPass": true
+    },
+    {
+      "page": "week",
+      "mode": "desktop",
+      "path": "/this-week/?date=1996-09-27",
+      "before": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100,
+        "metrics": {
+          "first-contentful-paint": 404.2684,
+          "largest-contentful-paint": 569.0368,
+          "total-blocking-time": 0,
+          "cumulative-layout-shift": 0.0002435711354084581,
+          "speed-index": 404.2684,
+          "total-byte-weight": 278046
+        }
+      },
+      "after": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100,
+        "metrics": {
+          "first-contentful-paint": 423.462,
+          "largest-contentful-paint": 609.078,
+          "total-blocking-time": 0,
+          "cumulative-layout-shift": 0.0002435711354084581,
+          "speed-index": 423.462,
+          "total-byte-weight": 269778
+        }
+      },
+      "indexingExpected": true,
+      "seoChecksPass": true
+    },
+    {
+      "page": "search",
+      "mode": "mobile",
+      "path": "/search/?q=mosaic&filter=objects",
+      "before": {
+        "performance": 92,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100,
+        "metrics": {
+          "first-contentful-paint": 2027.8203000000003,
+          "largest-contentful-paint": 2553.7604,
+          "total-blocking-time": 22,
+          "cumulative-layout-shift": 0.11059876456905893,
+          "speed-index": 2027.8203000000003,
+          "total-byte-weight": 285507
+        }
+      },
+      "after": {
+        "performance": 95,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 69,
+        "metrics": {
+          "first-contentful-paint": 1879.3352999999997,
+          "largest-contentful-paint": 2704.3352999999993,
+          "total-blocking-time": 28,
+          "cumulative-layout-shift": 0,
+          "speed-index": 1879.3352999999997,
+          "total-byte-weight": 286798
+        }
+      },
+      "indexingExpected": false,
+      "seoChecksPass": true
+    },
+    {
+      "page": "search",
+      "mode": "desktop",
+      "path": "/search/?q=mosaic&filter=objects",
+      "before": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100,
+        "metrics": {
+          "first-contentful-paint": 484.15155,
+          "largest-contentful-paint": 564.15155,
+          "total-blocking-time": 0,
+          "cumulative-layout-shift": 0.04596442385919213,
+          "speed-index": 484.15155,
+          "total-byte-weight": 285507
+        }
+      },
+      "after": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 69,
+        "metrics": {
+          "first-contentful-paint": 465.07450000000006,
+          "largest-contentful-paint": 570.1490000000002,
+          "total-blocking-time": 0,
+          "cumulative-layout-shift": 0,
+          "speed-index": 465.07450000000006,
+          "total-byte-weight": 286798
+        }
+      },
+      "indexingExpected": false,
+      "seoChecksPass": true
+    }
+  ]
+}

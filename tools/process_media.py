@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import json
 import re
 from pathlib import Path
 
@@ -189,7 +190,9 @@ def main() -> int:
         save_animated_imac()
         save_icons()
 
-    for path in sorted(ROOT.rglob("*.html")):
+    routes = json.loads((ROOT / 'data/routes.json').read_text())
+    pages = [ROOT / route['path'].strip('/') / 'index.html' for route in routes] + [ROOT / '404.html']
+    for path in sorted(pages):
         original = path.read_text()
         updated = enrich_html(original, path)
         if original == updated:

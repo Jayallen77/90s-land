@@ -1,0 +1,2693 @@
+{
+  "schemaVersion": 1,
+  "cards": {
+    "/": {
+      "src": "/assets/generated/share/home-14a776615684.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: The 90s live on. Editorial illustration.",
+      "inputDigest": "14a776615684020ff4f6938cf971b337ee1d1f2651ee175d69393bcb974b1e3e",
+      "sha256": "1ab7cb3b720b55b4d693864d496a76fb7e23888699452a9c95fbe6eecdaea248",
+      "visual": {
+        "src": "/assets/editorial/home-hero-1440.webp",
+        "credit": "Original AI-generated editorial illustration · OpenAI",
+        "license": "Original artwork",
+        "label": "EDITORIAL ILLUSTRATION"
+      }
+    },
+    "/credits/": {
+      "src": "/assets/generated/share/credits-47da58c6356f.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Credits and Provenance. Original graphic.",
+      "inputDigest": "47da58c6356f03b72c316a3d5f479aad5c85db2604379652c199620bf031a8c8",
+      "sha256": "9d3ed508eefceb1b5b4fd2155831e73dbfa3304a99a5b01369c9c9748ed6f6fe",
+      "visual": {
+        "src": null,
+        "credit": "90s.land · original graphic",
+        "license": "Original artwork",
+        "label": "ORIGINAL GRAPHIC"
+      }
+    },
+    "/guestbook/": {
+      "src": "/assets/generated/share/guestbook-c64d9146d59b.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Guestbook preview. Original graphic.",
+      "inputDigest": "c64d9146d59b62d9211559697ae317983028838859f2828ed36143c9e4065eb5",
+      "sha256": "8475b7c80acf17de53158a645fa24da38078d7b62851b4c46f1d36833488a91f",
+      "visual": {
+        "src": null,
+        "credit": "90s.land · original graphic",
+        "license": "Original artwork",
+        "label": "ORIGINAL GRAPHIC"
+      }
+    },
+    "/search/": {
+      "src": "/assets/generated/share/search-d57a34d1c8f5.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Search the 90s. Original graphic.",
+      "inputDigest": "d57a34d1c8f583aeabebfbe6975b4f4bc79f3911097d92f8c916d83818a3d5c4",
+      "sha256": "d74c3492a344ac4c5f373189cc3206d7e647dfd0357566de033e8932bdb47288",
+      "visual": {
+        "src": null,
+        "credit": "90s.land · original graphic",
+        "license": "Original artwork",
+        "label": "ORIGINAL GRAPHIC"
+      }
+    },
+    "/sitemap/": {
+      "src": "/assets/generated/share/sitemap-734d716d7bc6.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Site map. Original graphic.",
+      "inputDigest": "734d716d7bc65a09e97bf8c5e9aefd30e5c6f4794c808e3320f17889c1297875",
+      "sha256": "0654782a1c53544391e1d5d4e2bbcea61233e3035db9817c6b3bc13496672b83",
+      "visual": {
+        "src": null,
+        "credit": "90s.land · original graphic",
+        "license": "Original artwork",
+        "label": "ORIGINAL GRAPHIC"
+      }
+    },
+    "/surprise/": {
+      "src": "/assets/generated/share/surprise-887ea393ba67.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Surprise Me. Original graphic.",
+      "inputDigest": "887ea393ba67b66f868be5fb1fb6e78cbc5a42a129720e10e69fe297d27ee3c5",
+      "sha256": "9287b7f769b43a42c8b0dd583b47ae0961b42a59d4e4387e11072850d2f7c3f9",
+      "visual": {
+        "src": null,
+        "credit": "90s.land · original graphic",
+        "license": "Original artwork",
+        "label": "ORIGINAL GRAPHIC"
+      }
+    },
+    "/timeline/": {
+      "src": "/assets/generated/share/timeline-c78f21bcb563.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Timeline. Original graphic.",
+      "inputDigest": "c78f21bcb5637df8357c3c4500c39444302c191d89f0f9ad2eb9ac5ec58631d0",
+      "sha256": "17b4fd4d7cd256dff61f5a3a25099ca6c7c522adaf7af5937d155219f57fe5a8",
+      "visual": {
+        "src": null,
+        "credit": "90s.land · original graphic",
+        "license": "Original artwork",
+        "label": "ORIGINAL GRAPHIC"
+      }
+    },
+    "/webring/": {
+      "src": "/assets/generated/share/webring-b8c6f857f172.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Resources. Original graphic.",
+      "inputDigest": "b8c6f857f17287c343312f859dff3324e7da017e9074abfa0054828c2a5bd6d1",
+      "sha256": "41334b5a9f550deef5d0ecac5154c3700a604b866010f8e737e1a70dd10af301",
+      "visual": {
+        "src": null,
+        "credit": "90s.land · original graphic",
+        "license": "Original artwork",
+        "label": "ORIGINAL GRAPHIC"
+      }
+    },
+    "/timeline/1990/": {
+      "src": "/assets/generated/share/timeline-1990-7d3cb9269266.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: 1990. Object from the collection.",
+      "inputDigest": "7d3cb9269266b6beead3399b59f447aa0c3d2f449f5791f92adc947138b4d2d3",
+      "sha256": "17e833754a409f9e0a83ae0f743f298feecc18de718ffd16378fe30534fe5437",
+      "visual": {
+        "src": "/assets/media/timeline-1990/windows-3-0-program-manager.png",
+        "credit": "OS: Microsoft Corporation Screenshot: PantheraLeo1359531 😺 ( talk )",
+        "license": "Public domain",
+        "label": "OBJECT FROM THE COLLECTION"
+      }
+    },
+    "/timeline/1991/": {
+      "src": "/assets/generated/share/timeline-1991-fb946bfffe2a.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: 1991. Object from the collection.",
+      "inputDigest": "fb946bfffe2a23dad8810a7599f72cbefe9dca4ffcfeee64ec43c8879cd04166",
+      "sha256": "b0cbfbb487e4ee7c3e6d0bd4608c192d99169e01fb09ade8726f06718a005769",
+      "visual": {
+        "src": "/assets/media/timeline-1991/w3-first-website.png",
+        "credit": "Cern/Tim Berners-Lee",
+        "license": "Public domain",
+        "label": "OBJECT FROM THE COLLECTION"
+      }
+    },
+    "/timeline/1992/": {
+      "src": "/assets/generated/share/timeline-1992-853b04db20cd.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: 1992. Object from the collection.",
+      "inputDigest": "853b04db20cd0241d32b2d5d0b5bf42f5c0fb63b84b6cdfac4fd4cbe886e03d8",
+      "sha256": "7ff8bceef1630c7c4466901eb004121cd64f562792db1dadf902b73e8793eb4e",
+      "visual": {
+        "src": "/assets/media/tech-toys/motorola-pager-teletrim.jpg",
+        "credit": "Andrepinto40 at Portuguese Wikipedia",
+        "license": "Public domain",
+        "label": "OBJECT FROM THE COLLECTION"
+      }
+    },
+    "/timeline/1993/": {
+      "src": "/assets/generated/share/timeline-1993-b0db145a5ae6.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: 1993. Object from the collection.",
+      "inputDigest": "b0db145a5ae61acf583fe49d7e89b8b685f2b503304c0a784d4520b4149595eb",
+      "sha256": "a46af77d841bd1b4c7b21381ea72f7510555bda58e96d22d26a2d6ce73acba5b",
+      "visual": {
+        "src": "/assets/media/timeline-1993/ncsa-mosaic-browser-screenshot.png",
+        "credit": "Charles Severance",
+        "license": "CC0",
+        "label": "OBJECT FROM THE COLLECTION"
+      }
+    },
+    "/timeline/1994/": {
+      "src": "/assets/generated/share/timeline-1994-016be846abb8.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: 1994. Object from the collection.",
+      "inputDigest": "016be846abb8b2ce23fae44576acc767538efa940dc9e9c8a33aaa9b70dadf25",
+      "sha256": "0385f2bf12b482961c39589c03ed20fd4c84c85a853fc8f977ef787946257187",
+      "visual": {
+        "src": "/assets/media/timeline-1995/playstation-controller.jpg",
+        "credit": "Evan-Amos",
+        "license": "Public domain",
+        "label": "OBJECT FROM THE COLLECTION"
+      }
+    },
+    "/timeline/1995/": {
+      "src": "/assets/generated/share/timeline-1995-c8515543a49e.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: 1995. Object from the collection.",
+      "inputDigest": "c8515543a49e66a64e1667373fe9571345fe3bde9b308f6ac2f2cf156435f8fd",
+      "sha256": "f44122853cf49b2e338fe8413c110c07ffd245e1b0bbf3e7bb0d9fe9960cc17d",
+      "visual": {
+        "src": "/assets/media/timeline-1995/windows95-start-button.png",
+        "credit": "OS: Microsoft Corporation Files: BetaWiki-Beitragende",
+        "license": "Public domain",
+        "label": "OBJECT FROM THE COLLECTION"
+      }
+    },
+    "/timeline/1996/": {
+      "src": "/assets/generated/share/timeline-1996-32290d3703de.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: 1996. Editorial illustration.",
+      "inputDigest": "32290d3703deccc2fa10ef59d3315ff9121e8253a121acefcf2f0b9f3f7af852",
+      "sha256": "d022b92a9c2d76eedb3652f80094945b3d320260c961da32412d49db9125a86d",
+      "visual": {
+        "src": "/assets/editorial/timeline-hero-1440.webp",
+        "credit": "Original AI-generated editorial illustration · OpenAI",
+        "license": "Original artwork",
+        "label": "EDITORIAL ILLUSTRATION"
+      }
+    },
+    "/timeline/1997/": {
+      "src": "/assets/generated/share/timeline-1997-11b9032fe768.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: 1997. Object from the collection.",
+      "inputDigest": "11b9032fe768ae8a9f4bbd80bce96acc802f74cadb1eada6f2aca2db8819655a",
+      "sha256": "df76c9ed24ed17102222f31178e19eaba0ddb295a1373e9fe7a0c2470a472f67",
+      "visual": {
+        "src": "/assets/media/music/cd-r-spindle.jpg",
+        "credit": "Nin-TD",
+        "license": "CC BY-SA 3.0",
+        "label": "OBJECT FROM THE COLLECTION"
+      }
+    },
+    "/timeline/1998/": {
+      "src": "/assets/generated/share/timeline-1998-26023365d053.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: 1998. Object from the collection.",
+      "inputDigest": "26023365d053ec3afa0d67953a51e2225b94abf754282f1c4c4ea206aadfa4f5",
+      "sha256": "543b159fd48135d87ae7c9d1bf82c0449c148d212b9249fc9f8f0fc684a6c8b0",
+      "visual": {
+        "src": "/assets/media/transparent-tech/imac-g3-bondi-blue.png",
+        "credit": "Alterations by David Fuchs ; original by Rama , licensed CC-by-SA",
+        "license": "CC BY-SA 4.0",
+        "label": "OBJECT FROM THE COLLECTION"
+      }
+    },
+    "/timeline/1999/": {
+      "src": "/assets/generated/share/timeline-1999-fcb45423390a.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: 1999. Object from the collection.",
+      "inputDigest": "fcb45423390a9622a9f07e5a0b083b02bef3ceae39cfe2ae61a53b6b610cbb2c",
+      "sha256": "7df3001879e2ceabeff7e0f6963edf1ee340aea347aa768d6a0ed000479bf42f",
+      "visual": {
+        "src": "/assets/media/timeline-1999/dreamcast-console.jpg",
+        "credit": "Evan-Amos",
+        "license": "CC BY-SA 3.0",
+        "label": "OBJECT FROM THE COLLECTION"
+      }
+    },
+    "/tours/before-the-feed/": {
+      "src": "/assets/generated/share/tour-before-the-feed-b087d9b2fa9b.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Before the Feed. Object from the collection.",
+      "inputDigest": "b087d9b2fa9be9242fcd40f1bc796098e85dacde123878d8e7aff7c56151de60",
+      "sha256": "bb3ac694d62e8e12ec1eb8f87953c13248987d2c699dbdd326505a39cf104fc7",
+      "visual": {
+        "src": "/assets/media/tech-toys/family-pc-rotterdam-1999.jpg",
+        "credit": "Oompje",
+        "license": "CC BY-SA 4.0",
+        "label": "OBJECT FROM THE COLLECTION"
+      }
+    },
+    "/zones/fashion/": {
+      "src": "/assets/generated/share/zones-fashion-3921dfdf81e4.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: 90s Fashion. Editorial illustration.",
+      "inputDigest": "3921dfdf81e41f7b93798a84f36f6ca36e6d2e098dadb8b1c47cf2daac1d8971",
+      "sha256": "1f096f0ab1f66769f7907f27099d5e31738f6637509447dc1ecc9adb569cf95f",
+      "visual": {
+        "src": "/assets/editorial/culture-hero-1440.webp",
+        "credit": "Original AI-generated editorial illustration · OpenAI",
+        "license": "Original artwork",
+        "label": "EDITORIAL ILLUSTRATION"
+      }
+    },
+    "/zones/games/": {
+      "src": "/assets/generated/share/zones-games-b79a7ea10969.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: 90s Gaming. Editorial illustration.",
+      "inputDigest": "b79a7ea109695c786c449cd2ee0d5304065af57a2266e0534bd7a5bef00ff24b",
+      "sha256": "f3c909e52221df057a6ddb5f65e236088ab96c3e731cc55e7b9556042d8c55e8",
+      "visual": {
+        "src": "/assets/editorial/games-hero-1440.webp",
+        "credit": "Original AI-generated editorial illustration · OpenAI",
+        "license": "Original artwork",
+        "label": "EDITORIAL ILLUSTRATION"
+      }
+    },
+    "/zones/internet-culture/": {
+      "src": "/assets/generated/share/zones-internet-culture-f11bcb740878.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: 90s Internet Culture. Object from the collection.",
+      "inputDigest": "f11bcb74087895d79fe304e75f9fbc3f7f93750f0e0ecd893211f11583dadf0e",
+      "sha256": "4c6b093ae8e084cc84258811a5bc5efea3f90b0f728968137c31765578b5da09",
+      "visual": {
+        "src": "/assets/media/timeline-1993/ncsa-mosaic-browser-screenshot.png",
+        "credit": "Charles Severance",
+        "license": "CC0",
+        "label": "OBJECT FROM THE COLLECTION"
+      }
+    },
+    "/zones/music/": {
+      "src": "/assets/generated/share/zones-music-eb9071238910.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: 90s Music. Editorial illustration.",
+      "inputDigest": "eb9071238910b63d30fc164b450a5bf656741e72d56ce35417bd19283acc5ae1",
+      "sha256": "93279f2671c007c6fb5e4acd861563116a5f2a15a38ef0602b8e0c544bd3cfeb",
+      "visual": {
+        "src": "/assets/editorial/music-hero-1440.webp",
+        "credit": "Original AI-generated editorial illustration · OpenAI",
+        "license": "Original artwork",
+        "label": "EDITORIAL ILLUSTRATION"
+      }
+    },
+    "/zones/tech-toys/": {
+      "src": "/assets/generated/share/zones-tech-toys-4c67f1acdc8d.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: 90s Technology. Editorial illustration.",
+      "inputDigest": "4c67f1acdc8daf46708b2f030d27ff3fbb92388b2250d216d38c33328f5112ed",
+      "sha256": "0de9818d9dbb353e3a6fae8ad7087bb8defdb9c6263dce2934da6b73fe7c192d",
+      "visual": {
+        "src": "/assets/editorial/tech-hero-1440.webp",
+        "credit": "Original AI-generated editorial illustration · OpenAI",
+        "license": "Original artwork",
+        "label": "EDITORIAL ILLUSTRATION"
+      }
+    },
+    "/zones/transparent-tech/": {
+      "src": "/assets/generated/share/zones-transparent-tech-38c84e844a46.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: 90s Transparent Electronics. Object from the collection.",
+      "inputDigest": "38c84e844a461f3d6922f7762570733f1f2b43d5a3466bde99cac632c51c4ec9",
+      "sha256": "2522c59236cda988c60fb63d824c3fde5bddf519d351cc3f168b75c8aa1599b2",
+      "visual": {
+        "src": "/assets/media/transparent-tech/imac-g3-bondi-blue.png",
+        "credit": "Alterations by David Fuchs ; original by Rama , licensed CC-by-SA",
+        "license": "CC BY-SA 4.0",
+        "label": "OBJECT FROM THE COLLECTION"
+      }
+    },
+    "/zones/tv-movies/": {
+      "src": "/assets/generated/share/zones-tv-movies-641bead1b2db.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: 90s Movies & TV. Editorial illustration.",
+      "inputDigest": "641bead1b2dbaecc413275b47f7f45a87d162583fbd5025ea9f9bd0d02514065",
+      "sha256": "e6dd78257c891e5f6be0b87f9aa1a63ef5ff13ecb48ef8f5fd959ea511535fe5",
+      "visual": {
+        "src": "/assets/editorial/movies-hero-1440.webp",
+        "credit": "Original AI-generated editorial illustration · OpenAI",
+        "license": "Original artwork",
+        "label": "EDITORIAL ILLUSTRATION"
+      }
+    },
+    "/this-week/": {
+      "src": "/assets/generated/share/this-week-98a5a1fdf4ad.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Your week. 30 years earlier.. Object from the collection.",
+      "inputDigest": "98a5a1fdf4ad72b74729dd2774464953cc6b2851068909cf9c470cb772cffa86",
+      "sha256": "bab314c97d89df5a7771565727c924e57459090e3b4dc8753218af59c6eeb578",
+      "visual": {
+        "src": "/assets/media/music/compact-cassette-maxell.jpg",
+        "credit": "Andrey Korzun",
+        "license": "CC BY-SA 4.0",
+        "label": "OBJECT FROM THE COLLECTION"
+      }
+    },
+    "/events/": {
+      "src": "/assets/generated/share/events-8e86bf07c766.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Events from the 90s. Original graphic.",
+      "inputDigest": "8e86bf07c766fd008c20488081a2241e973efa9f4e9192d2d9e40e9d5f1fe922",
+      "sha256": "5f928fef5a517f8bb300ee459eb2058db6c37493adeafae7397860206f554282",
+      "visual": {
+        "src": null,
+        "credit": "90s.land · original graphic",
+        "license": "Original artwork",
+        "label": "ORIGINAL GRAPHIC"
+      }
+    },
+    "/stories/": {
+      "src": "/assets/generated/share/stories-33245a3f9ec3.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Stories from the 90s. Original graphic.",
+      "inputDigest": "33245a3f9ec32c052aa166c1aeab10c9d380703ceaf17ea511efaabf934f73ec",
+      "sha256": "1944275f06919597bc5b7fe3a8a4328780af97428231e6cfef5c99f3c24564ec",
+      "visual": {
+        "src": null,
+        "credit": "90s.land · original graphic",
+        "license": "Original artwork",
+        "label": "ORIGINAL GRAPHIC"
+      }
+    },
+    "/archive/objects/": {
+      "src": "/assets/generated/share/object-archive-595d2d29d354.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: The object archive. Original graphic.",
+      "inputDigest": "595d2d29d3543a138b2fb35da18cddecd2b0444de484fd21a27d56b91c8d7695",
+      "sha256": "9cf96d45f47fda996ebf9fd00b8eb538aa02a5558bc1d9123b53df79d39ff150",
+      "visual": {
+        "src": null,
+        "credit": "90s.land · original graphic",
+        "license": "Original artwork",
+        "label": "ORIGINAL GRAPHIC"
+      }
+    },
+    "/zones/culture/": {
+      "src": "/assets/generated/share/zones-culture-da44d88b1d5c.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: 90s Culture. Editorial illustration.",
+      "inputDigest": "da44d88b1d5c8860045bbbf85c3d5b8edbca50362407d03e72d85f97a0235aa8",
+      "sha256": "1541e9e84c1117ff4039174a4861511f55099e336e37cafe91b17aab58afa617",
+      "visual": {
+        "src": "/assets/editorial/culture-hero-1440.webp",
+        "credit": "Original AI-generated editorial illustration · OpenAI",
+        "license": "Original artwork",
+        "label": "EDITORIAL ILLUSTRATION"
+      }
+    },
+    "/events/mandela-released/": {
+      "src": "/assets/generated/share/event-mandela-released-07dc0dff14df.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Nelson Mandela walks free. Original graphic.",
+      "inputDigest": "07dc0dff14df577f2f26481a93f21964fcf261ee7f3155487ec4d87e54389a7b",
+      "sha256": "e461503ede91e27cdbbabe057bb7dac8909517c8ccad116294aa35d24af63a52",
+      "visual": {
+        "src": null,
+        "credit": "90s.land · original graphic",
+        "license": "Original artwork",
+        "label": "ORIGINAL GRAPHIC"
+      }
+    },
+    "/events/violator-uk/": {
+      "src": "/assets/generated/share/event-violator-uk-19742a4364b6.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Depeche Mode releases Violator. Original graphic.",
+      "inputDigest": "19742a4364b672378696eec40594827802408cc0e227c2614ddd326aa5adb62b",
+      "sha256": "6e2b1841d68b50129f4385bb4b9de041e6eafb852fd52edeb6bef10c4e144b41",
+      "visual": {
+        "src": null,
+        "credit": "90s.land · original graphic",
+        "license": "Original artwork",
+        "label": "ORIGINAL GRAPHIC"
+      }
+    },
+    "/events/twin-peaks-premiere/": {
+      "src": "/assets/generated/share/event-twin-peaks-premiere-1fad7879587e.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Twin Peaks asks who killed Laura Palmer. Original graphic.",
+      "inputDigest": "1fad7879587eb1c2ec856221dd69cc5d8d842904d2601b70b6a65ff9a9881fb8",
+      "sha256": "a205f3b77ead384763456da244df3fbbe38a78305d5d03ba9e8a893125da922a",
+      "visual": {
+        "src": null,
+        "credit": "90s.land · original graphic",
+        "license": "Original artwork",
+        "label": "ORIGINAL GRAPHIC"
+      }
+    },
+    "/events/hubble-launches/": {
+      "src": "/assets/generated/share/event-hubble-launches-5fb7ed84e44c.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Hubble leaves Earth. Object from the collection.",
+      "inputDigest": "5fb7ed84e44c46df2d51fefbd541d4495e29915a9f58fcd282dd595b83307f6e",
+      "sha256": "c032d490c90dc8c2980845d70864fe57ae63c49b51c0371833c97d20df7612f5",
+      "visual": {
+        "src": "/assets/media/timeline-1990/hubble-launch.jpg",
+        "credit": "NASA / ESA",
+        "license": "Public domain",
+        "label": "OBJECT FROM THE COLLECTION"
+      }
+    },
+    "/events/windows-30-launch/": {
+      "src": "/assets/generated/share/event-windows-30-launch-0a0feec5d0df.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Windows 3.0 puts icons on the desktop. Original graphic.",
+      "inputDigest": "0a0feec5d0df39d7ca8665f644a11a4399f4fab479acda0a6e017d8e64e60d05",
+      "sha256": "b4f556401d1bfbf206861fef4628869d61d1982a84bdce38c8e54476e771805c",
+      "visual": {
+        "src": null,
+        "credit": "90s.land · original graphic",
+        "license": "Original artwork",
+        "label": "ORIGINAL GRAPHIC"
+      }
+    },
+    "/events/film-total-recall-1990/": {
+      "src": "/assets/generated/share/event-film-total-recall-1990-5254add2c25a.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Total Recall takes a trip to Mars. Editorial illustration.",
+      "inputDigest": "5254add2c25aaa05de2dbdcecddab7a48b882268048de75d3ce000dbf4a44655",
+      "sha256": "a9454ba7e74fa92bfd57729e6c02ce99313a02647d6900654f588b0d869ad892",
+      "visual": {
+        "src": "/assets/editorial/movies-hero-1440.webp",
+        "credit": "Original AI-generated editorial illustration · OpenAI",
+        "license": "Original artwork",
+        "label": "EDITORIAL ILLUSTRATION"
+      }
+    },
+    "/events/fresh-prince-premiere/": {
+      "src": "/assets/generated/share/event-fresh-prince-premiere-1b798e5b4bc7.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: The Fresh Prince moves to Bel-Air. Original graphic.",
+      "inputDigest": "1b798e5b4bc7b173d5428500e0350b996ab5298c011f213fbd65ec2dc37bf4e2",
+      "sha256": "23b57de4f676ca958b45c8c66d29fae9e32bb6011828b5cd0a8287f11fc77e21",
+      "visual": {
+        "src": null,
+        "credit": "90s.land · original graphic",
+        "license": "Original artwork",
+        "label": "ORIGINAL GRAPHIC"
+      }
+    },
+    "/events/german-reunification/": {
+      "src": "/assets/generated/share/event-german-reunification-6e98f4393d72.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Germany reunifies. Original graphic.",
+      "inputDigest": "6e98f4393d725defc389f16d40e43e7ad9609ad81b72273421c2abe1148f75b1",
+      "sha256": "9d72162e0e00fdb1195e219557a7d895573ee907cc081e95bb86ee7c31030fb3",
+      "visual": {
+        "src": null,
+        "credit": "90s.land · original graphic",
+        "license": "Original artwork",
+        "label": "ORIGINAL GRAPHIC"
+      }
+    },
+    "/events/super-mario-world-japan/": {
+      "src": "/assets/generated/share/event-super-mario-world-japan-6f0438b7edf5.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Super Mario World introduces Yoshi. Original graphic.",
+      "inputDigest": "6f0438b7edf59cb8fb3f1387fe3baa52f505a4072a749d5e2f2f166bcb0103b0",
+      "sha256": "74ddc97d2c8cde9b5720849fb0b963bb5a06171689d430c427a0f150fbcf8b4f",
+      "visual": {
+        "src": null,
+        "credit": "90s.land · original graphic",
+        "license": "Original artwork",
+        "label": "ORIGINAL GRAPHIC"
+      }
+    },
+    "/events/film-edward-scissorhands-1990/": {
+      "src": "/assets/generated/share/event-film-edward-scissorhands-1990-45bab6cfd204.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Edward Scissorhands arrives for December. Editorial illustration.",
+      "inputDigest": "45bab6cfd204e416708db4b4ccc7903b30c2154318dd0e00da88c5cf324448a2",
+      "sha256": "4f04370baec178b8c094f7dd0a1e4c589d94f35a6893bbde0982196b7290acf4",
+      "visual": {
+        "src": "/assets/editorial/movies-hero-1440.webp",
+        "credit": "Original AI-generated editorial illustration · OpenAI",
+        "license": "Original artwork",
+        "label": "EDITORIAL ILLUSTRATION"
+      }
+    },
+    "/events/bulls-first-title/": {
+      "src": "/assets/generated/share/event-bulls-first-title-290b016ac8be.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: The Bulls win their first NBA title. Original graphic.",
+      "inputDigest": "290b016ac8be0a3bef1fd6ed58fb7eb65b68f5544917e473b3b41daeebb8a3ae",
+      "sha256": "5704e9449f997dd6f2925ada36d279553e80e22523d611e6fc986374fff498f5",
+      "visual": {
+        "src": null,
+        "credit": "90s.land · original graphic",
+        "license": "Original artwork",
+        "label": "ORIGINAL GRAPHIC"
+      }
+    },
+    "/events/sonic-western-release/": {
+      "src": "/assets/generated/share/event-sonic-western-release-07b9e38f4cfb.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Sonic races onto the Mega Drive and Genesis. Original graphic.",
+      "inputDigest": "07b9e38f4cfb75071de41c3748336702c096ae91e961ddf9bfc0a02c6565118e",
+      "sha256": "b41e9a3cec5645a8f170ff87c9ec894b964617497fe27f1e2c3f080165ed7c13",
+      "visual": {
+        "src": null,
+        "credit": "90s.land · original graphic",
+        "license": "Original artwork",
+        "label": "ORIGINAL GRAPHIC"
+      }
+    },
+    "/events/film-terminator-2-judgment-day-1991/": {
+      "src": "/assets/generated/share/event-film-terminator-2-judgment-day-1991-fcd397ec33db.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Terminator 2 returns for the summer. Editorial illustration.",
+      "inputDigest": "fcd397ec33db340edb765b240663916579f42dcd655da24f4f0da73a6913f129",
+      "sha256": "efab01bd0d2ba3729abadae16f2d688c2e4a2221e261cbe33c118550cc8e8654",
+      "visual": {
+        "src": "/assets/editorial/movies-hero-1440.webp",
+        "credit": "Original AI-generated editorial illustration · OpenAI",
+        "license": "Original artwork",
+        "label": "EDITORIAL ILLUSTRATION"
+      }
+    },
+    "/events/web-usenet-announcement/": {
+      "src": "/assets/generated/share/event-web-usenet-announcement-c717b301b2e0.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: The Web gets a public invitation. Original graphic.",
+      "inputDigest": "c717b301b2e009b3c2f24413af4fe2b23a334c59a68e2e99feb7482922a43b51",
+      "sha256": "2fe95f00a5cbf60526820f1f89fd3b39875b1f3a650f3d8dfda178ee2b8ad2a8",
+      "visual": {
+        "src": null,
+        "credit": "90s.land · original graphic",
+        "license": "Original artwork",
+        "label": "ORIGINAL GRAPHIC"
+      }
+    },
+    "/events/rugrats-premiere/": {
+      "src": "/assets/generated/share/event-rugrats-premiere-11f8ac417cba.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Rugrats sees the world from the carpet. Original graphic.",
+      "inputDigest": "11f8ac417cbab9c200ecb33a58e2eac4a737bb2074ef3591f3e3a12fc20b5807",
+      "sha256": "1c3bd13dbad5129ebbc5183c4ecf98e9d8fef3287b11e741d104920032bcbbef",
+      "visual": {
+        "src": null,
+        "credit": "90s.land · original graphic",
+        "license": "Original artwork",
+        "label": "ORIGINAL GRAPHIC"
+      }
+    },
+    "/events/metallica-black-album/": {
+      "src": "/assets/generated/share/event-metallica-black-album-a3facffb4d07.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Metallica releases the Black Album. Object from the collection.",
+      "inputDigest": "a3facffb4d0784adc4d01f1d37a54c33aef48d071d6551d1407ca4ae7959179b",
+      "sha256": "fef0400a082b7688c852c49148e4177f96d1eef7a39e5342c2010641f75d4c40",
+      "visual": {
+        "src": "/assets/media/music/compact-cassette-maxell.jpg",
+        "credit": "Andrey Korzun",
+        "license": "CC BY-SA 4.0",
+        "label": "OBJECT FROM THE COLLECTION"
+      }
+    },
+    "/events/pearl-jam-ten/": {
+      "src": "/assets/generated/share/event-pearl-jam-ten-433a5bfd62a1.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Pearl Jam releases Ten. Original graphic.",
+      "inputDigest": "433a5bfd62a1493a51268df7e2a1e4e18bf2d767fc425cab94eb4e82a406b3b2",
+      "sha256": "3c92b614397f03654d4a4f287ab3cda020f2cd7ebde6615890a3b857dcacddf4",
+      "visual": {
+        "src": null,
+        "credit": "90s.land · original graphic",
+        "license": "Original artwork",
+        "label": "ORIGINAL GRAPHIC"
+      }
+    },
+    "/events/nevermind/": {
+      "src": "/assets/generated/share/event-nevermind-f22c3b40617a.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Nirvana releases Nevermind. Object from the collection.",
+      "inputDigest": "f22c3b40617a65316aedf45f5891cf02ba11116e48c28ed61863f3ed3d39ca24",
+      "sha256": "c0491aa1618bf643865c7c9f2968b76dd6955b2cce954ecf8aca9e1cd57fe661",
+      "visual": {
+        "src": "/assets/media/music/discman-d121.jpg",
+        "credit": "Morn at English Wikipedia",
+        "license": "CC BY-SA 3.0",
+        "label": "OBJECT FROM THE COLLECTION"
+      }
+    },
+    "/events/film-beauty-and-the-beast-1991/": {
+      "src": "/assets/generated/share/event-film-beauty-and-the-beast-1991-14308246bb5b.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Beauty and the Beast opens in November. Editorial illustration.",
+      "inputDigest": "14308246bb5b2f8a19a3e6b885962d26b90559867c9d9746b13a97a6d2e21020",
+      "sha256": "0adaebd6bf0740aec294a0609b238eddcb6c06aa62381752fdc0a13d086fe71d",
+      "visual": {
+        "src": "/assets/editorial/movies-hero-1440.webp",
+        "credit": "Original AI-generated editorial illustration · OpenAI",
+        "license": "Original artwork",
+        "label": "EDITORIAL ILLUSTRATION"
+      }
+    },
+    "/events/zelda-link-past-japan/": {
+      "src": "/assets/generated/share/event-zelda-link-past-japan-b620ccb1ae74.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: A Link to the Past opens two Hyrules. Original graphic.",
+      "inputDigest": "b620ccb1ae7497326d7ed76cfe6af6cee484b620098603045c8d4ddb0fa1b582",
+      "sha256": "6d522cf56030b0cb7f88312153c384efb4aeb70e531829058eb34a5ac9900830",
+      "visual": {
+        "src": null,
+        "credit": "90s.land · original graphic",
+        "license": "Original artwork",
+        "label": "ORIGINAL GRAPHIC"
+      }
+    },
+    "/events/film-wayne-s-world-1992/": {
+      "src": "/assets/generated/share/event-film-wayne-s-world-1992-f0a59d81a683.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Wayne’s World goes to the movies. Editorial illustration.",
+      "inputDigest": "f0a59d81a6834542008d8a97908edbd468a995e9c0a7df351271ea4755cda481",
+      "sha256": "acec9861db837fa2c9439f9d227559fdc88971ed58b9065236c364d312e10670",
+      "visual": {
+        "src": "/assets/editorial/movies-hero-1440.webp",
+        "credit": "Original AI-generated editorial illustration · OpenAI",
+        "license": "Original artwork",
+        "label": "EDITORIAL ILLUSTRATION"
+      }
+    },
+    "/events/windows-31-ships/": {
+      "src": "/assets/generated/share/event-windows-31-ships-84b7a1a84611.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Windows 3.1 ships. Object from the collection.",
+      "inputDigest": "84b7a1a84611089771daa2a034d864357cc6423f63acb85a118b51c0d6f91acb",
+      "sha256": "0892c4280942b5129db4ca1bc3f7e8788c481391087e80c65250b9784920df7c",
+      "visual": {
+        "src": "/assets/media/tech-toys/family-pc-rotterdam-1999.jpg",
+        "credit": "Oompje",
+        "license": "CC BY-SA 4.0",
+        "label": "OBJECT FROM THE COLLECTION"
+      }
+    },
+    "/events/euro-disney-opens/": {
+      "src": "/assets/generated/share/event-euro-disney-opens-ebc096f8eb55.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Euro Disney opens outside Paris. Original graphic.",
+      "inputDigest": "ebc096f8eb5559aaaab3c5b1311e5f67d60b01dfa3052b78012a145ad7e608c3",
+      "sha256": "ca151e9f69cc2eb4a30b4ee1ddd1fd85ff83346a1cc3e6913b3a4fa1f543ae55",
+      "visual": {
+        "src": null,
+        "credit": "90s.land · original graphic",
+        "license": "Original artwork",
+        "label": "ORIGINAL GRAPHIC"
+      }
+    },
+    "/events/real-world-premiere/": {
+      "src": "/assets/generated/share/event-real-world-premiere-4bc9a89426d3.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: The Real World moves seven strangers in. Original graphic.",
+      "inputDigest": "4bc9a89426d33e9694b4eec94f6e748981e6d480493aa2d5aa43857944ff3186",
+      "sha256": "77d6af94b98e3d40bb1fbb267e9e75262ff0b68e0491267093c41e3a9aa23172",
+      "visual": {
+        "src": null,
+        "credit": "90s.land · original graphic",
+        "license": "Original artwork",
+        "label": "ORIGINAL GRAPHIC"
+      }
+    },
+    "/events/carson-final-tonight/": {
+      "src": "/assets/generated/share/event-carson-final-tonight-0775205755c4.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Johnny Carson signs off from The Tonight Show. Original graphic.",
+      "inputDigest": "0775205755c451b302a9d9c0d18e60d2d587365bc7d945bdd345aacd8d7e1a2c",
+      "sha256": "2105043ede35e105891e05749c1c91afecfe2f66d38668e1db56b1e1d1a0f85d",
+      "visual": {
+        "src": null,
+        "credit": "90s.land · original graphic",
+        "license": "Original artwork",
+        "label": "ORIGINAL GRAPHIC"
+      }
+    },
+    "/events/barcelona-olympics-open/": {
+      "src": "/assets/generated/share/event-barcelona-olympics-open-ec149a7d1a92.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Barcelona opens the Summer Olympics. Original graphic.",
+      "inputDigest": "ec149a7d1a9209635f6def1616c0d614b3747d5a738d46ec36917b996fdafabb",
+      "sha256": "75f2d90b712c2cf9a0d4043e5062d3068e7ec96db68153df19cb2f63ca2ac7b6",
+      "visual": {
+        "src": null,
+        "credit": "90s.land · original graphic",
+        "license": "Original artwork",
+        "label": "ORIGINAL GRAPHIC"
+      }
+    },
+    "/events/mall-of-america-opens/": {
+      "src": "/assets/generated/share/event-mall-of-america-opens-ad0341066cf1.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Mall of America opens its doors. Editorial illustration.",
+      "inputDigest": "ad0341066cf163ef77beeae5dbc75889ac2f9864b766080c31ff04f13eb1f8f7",
+      "sha256": "93bc847db2b95a7d8adc5b3eba2b60a8c7d65bfdb30981167470e4e3caee724e",
+      "visual": {
+        "src": "/assets/editorial/culture-hero-1440.webp",
+        "credit": "Original AI-generated editorial illustration · OpenAI",
+        "license": "Original artwork",
+        "label": "EDITORIAL ILLUSTRATION"
+      }
+    },
+    "/events/super-mario-kart-japan/": {
+      "src": "/assets/generated/share/event-super-mario-kart-japan-b94491277980.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Super Mario Kart starts the race. Original graphic.",
+      "inputDigest": "b94491277980053df6727a6c10066366bff11c68bef6187cfd0f29fd2b2a8517",
+      "sha256": "c01c88f0adbe2c761593db40ea58082511bb3bad584f7b78c78544c7fd3fd254",
+      "visual": {
+        "src": null,
+        "credit": "90s.land · original graphic",
+        "license": "Original artwork",
+        "label": "ORIGINAL GRAPHIC"
+      }
+    },
+    "/events/film-aladdin-1992/": {
+      "src": "/assets/generated/share/event-film-aladdin-1992-be291d855c66.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Aladdin joins the holiday movie season. Editorial illustration.",
+      "inputDigest": "be291d855c66fb52f2fa895e99767fe4fad5f64beb3aa8e81f31496570d9e6bd",
+      "sha256": "5393d0bb72df81d0d4038381e9b0a3fd56e4ed25e85d7efd92d5c5909e4651c7",
+      "visual": {
+        "src": "/assets/editorial/movies-hero-1440.webp",
+        "credit": "Original AI-generated editorial illustration · OpenAI",
+        "license": "Original artwork",
+        "label": "EDITORIAL ILLUSTRATION"
+      }
+    },
+    "/events/bodyguard-soundtrack/": {
+      "src": "/assets/generated/share/event-bodyguard-soundtrack-7e07e682fae2.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Whitney Houston leads The Bodyguard soundtrack. Original graphic.",
+      "inputDigest": "7e07e682fae286132bdf7aae1ec1810bb418fe82d6ff7e0c564fc28afd8b386b",
+      "sha256": "57b2c6714154ae14a699975117a1f7cae94864700cbf976a5a4e2f20bf2b0f69",
+      "visual": {
+        "src": null,
+        "credit": "90s.land · original graphic",
+        "license": "Original artwork",
+        "label": "ORIGINAL GRAPHIC"
+      }
+    },
+    "/events/monday-night-raw-debut/": {
+      "src": "/assets/generated/share/event-monday-night-raw-debut-96fe0b90ec0d.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Monday Night Raw goes live. Original graphic.",
+      "inputDigest": "96fe0b90ec0dc9dcd074cbda040400a1ccae43d92980ef1176a0cf6c66995e58",
+      "sha256": "5bd718eb45185042e4fd1c602d84cbe3bfb6f9e2c2f73cf11d96dd792807d0c3",
+      "visual": {
+        "src": null,
+        "credit": "90s.land · original graphic",
+        "license": "Original artwork",
+        "label": "ORIGINAL GRAPHIC"
+      }
+    },
+    "/events/film-groundhog-day-1993/": {
+      "src": "/assets/generated/share/event-film-groundhog-day-1993-4ee40116b042.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Groundhog Day starts repeating itself. Editorial illustration.",
+      "inputDigest": "4ee40116b0424049d039c2d7789c324521892cea182924fb3764e592c6190e50",
+      "sha256": "4d00998aee1d3597b7c02313ad1a000a721076ab4cb1b146a43db5a4de7cd318",
+      "visual": {
+        "src": "/assets/editorial/movies-hero-1440.webp",
+        "credit": "Original AI-generated editorial illustration · OpenAI",
+        "license": "Original artwork",
+        "label": "EDITORIAL ILLUSTRATION"
+      }
+    },
+    "/events/pentium-introduced/": {
+      "src": "/assets/generated/share/event-pentium-introduced-d5a8f0a5f27c.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Pentium becomes the new PC name. Original graphic.",
+      "inputDigest": "d5a8f0a5f27c4e1ea1f3874b91182dbdcf1dfd04fea785a9e14ab352c9399611",
+      "sha256": "9dbb2192b4532dec09a3108007e9f98ffacda1854358d5c24bb2f82aaaca4ce8",
+      "visual": {
+        "src": null,
+        "credit": "90s.land · original graphic",
+        "license": "Original artwork",
+        "label": "ORIGINAL GRAPHIC"
+      }
+    },
+    "/events/cern-opens-web/": {
+      "src": "/assets/generated/share/event-cern-opens-web-6a4029aae566.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: CERN opens its Web software. Object from the collection.",
+      "inputDigest": "6a4029aae566d6faad19f2ca143745c41f59f87134891b39f5becbd6e7ce9d77",
+      "sha256": "9f29c4141d9c86adc49cb42b7e3265c8467143a8545ac09805e89d43a0f4860d",
+      "visual": {
+        "src": "/assets/media/timeline-1991/w3-first-website.png",
+        "credit": "Cern/Tim Berners-Lee",
+        "license": "Public domain",
+        "label": "OBJECT FROM THE COLLECTION"
+      }
+    },
+    "/events/film-jurassic-park-1993/": {
+      "src": "/assets/generated/share/event-film-jurassic-park-1993-17b9fb7b5ede.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Jurassic Park opens the gates. Editorial illustration.",
+      "inputDigest": "17b9fb7b5ede049381245bccc6a4f6a038402e4a53c59526d2299e756ae6ccba",
+      "sha256": "6ddf66edc04a71a00c63deb658561ca6cc5f39ce3ed3b32c0a4f1c0e96b1ae4d",
+      "visual": {
+        "src": "/assets/editorial/movies-hero-1440.webp",
+        "credit": "Original AI-generated editorial illustration · OpenAI",
+        "license": "Original artwork",
+        "label": "EDITORIAL ILLUSTRATION"
+      }
+    },
+    "/events/x-files-premiere/": {
+      "src": "/assets/generated/share/event-x-files-premiere-cf869b33d75e.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: The X-Files pairs a believer with a skeptic. Original graphic.",
+      "inputDigest": "cf869b33d75e0cdcd62c07ba2c22ef5f830ef1403d117472e8742fc75c1ab8c8",
+      "sha256": "b667eed27eccf54d6e4b694f6172ecf10b886858243bb3230dc6afd136fc7282",
+      "visual": {
+        "src": null,
+        "credit": "90s.land · original graphic",
+        "license": "Original artwork",
+        "label": "ORIGINAL GRAPHIC"
+      }
+    },
+    "/events/in-utero/": {
+      "src": "/assets/generated/share/event-in-utero-ee694a723407.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Nirvana releases In Utero. Object from the collection.",
+      "inputDigest": "ee694a72340780690661f111517cb4ed7a38f83848083a0eec9d7d1929bc94c4",
+      "sha256": "1b646f9e7e0d90b912c0e613a299266e1cd4f94c00339f65066dfe4b130269fb",
+      "visual": {
+        "src": "/assets/media/music/discman-d121.jpg",
+        "credit": "Morn at English Wikipedia",
+        "license": "CC BY-SA 3.0",
+        "label": "OBJECT FROM THE COLLECTION"
+      }
+    },
+    "/events/wu-tang-debut/": {
+      "src": "/assets/generated/share/event-wu-tang-debut-171930c07e01.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Wu-Tang Clan enters the 36 Chambers. Original graphic.",
+      "inputDigest": "171930c07e01814757c4162f47025b82ab429bf7ae40b3af2fd4321117949c9f",
+      "sha256": "2c06ef59097345c1a9873067adb1d227b82f8fd61fba59c81f97b5c3aa70366d",
+      "visual": {
+        "src": null,
+        "credit": "90s.land · original graphic",
+        "license": "Original artwork",
+        "label": "ORIGINAL GRAPHIC"
+      }
+    },
+    "/events/hubble-servicing-launch/": {
+      "src": "/assets/generated/share/event-hubble-servicing-launch-687e684714e8.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Endeavour heads out to repair Hubble. Original graphic.",
+      "inputDigest": "687e684714e88a2cfb8592b1ac0b547fb0fbf03c37eb97041675dfbf73f9cabe",
+      "sha256": "33cffcc3bdd820d9cd560051a5f462ec514c4bba062ffb18fab7b621190807ec",
+      "visual": {
+        "src": null,
+        "credit": "90s.land · original graphic",
+        "license": "Original artwork",
+        "label": "ORIGINAL GRAPHIC"
+      }
+    },
+    "/events/doom-shareware/": {
+      "src": "/assets/generated/share/event-doom-shareware-28e2ac41a781.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Doom escapes onto PCs. Original graphic.",
+      "inputDigest": "28e2ac41a7819bd87087cc2692fbd5cd152924e14b16582ab8a8e60cfe22e3bd",
+      "sha256": "25025362efc9eb2a165ab12c76b95bf4b78724b1aef7be1c51b622af39112780",
+      "visual": {
+        "src": null,
+        "credit": "90s.land · original graphic",
+        "license": "Original artwork",
+        "label": "ORIGINAL GRAPHIC"
+      }
+    },
+    "/events/green-day-dookie/": {
+      "src": "/assets/generated/share/event-green-day-dookie-505feb443cf9.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Green Day releases Dookie. Original graphic.",
+      "inputDigest": "505feb443cf99705441d6e88559c78bb985185d421de8593dbad9d5627b85d38",
+      "sha256": "66511286229a8709e564aa9e9dc69cf0ca1ec78524f1b3280e4d72dd4d942397",
+      "visual": {
+        "src": null,
+        "credit": "90s.land · original graphic",
+        "license": "Original artwork",
+        "label": "ORIGINAL GRAPHIC"
+      }
+    },
+    "/events/mandela-first-vote/": {
+      "src": "/assets/generated/share/event-mandela-first-vote-6ae62fd46ede.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Nelson Mandela casts his first democratic vote. Original graphic.",
+      "inputDigest": "6ae62fd46edea5606f131b6edaae0d2f4485e8e6dbfd766f04d235afa3e8effb",
+      "sha256": "69c3243a906d9bb116fb849a28659b52c0e576967b1e4a6f4de8ec7cfda15162",
+      "visual": {
+        "src": null,
+        "credit": "90s.land · original graphic",
+        "license": "Original artwork",
+        "label": "ORIGINAL GRAPHIC"
+      }
+    },
+    "/events/channel-tunnel-inauguration/": {
+      "src": "/assets/generated/share/event-channel-tunnel-inauguration-60658a55af8f.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: The Channel Tunnel officially opens. Original graphic.",
+      "inputDigest": "60658a55af8fa5ce9982b25331c59c1ae6141f77d667bcad99e6d4d878169ea1",
+      "sha256": "d6c303fe910cbec46bfb72d8f6cb7efe9f17d836aeba1438b3b1e7dcf386252d",
+      "visual": {
+        "src": null,
+        "credit": "90s.land · original graphic",
+        "license": "Original artwork",
+        "label": "ORIGINAL GRAPHIC"
+      }
+    },
+    "/events/film-forrest-gump-1994/": {
+      "src": "/assets/generated/share/event-film-forrest-gump-1994-d9a61b9ead3d.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Forrest Gump opens in July. Editorial illustration.",
+      "inputDigest": "d9a61b9ead3d6007338878b02c10945a27a83ea8a137b282bd310dcdb3786874",
+      "sha256": "9c0c0fe5ad5f971c4043c5399f45f72a2aeb4295815f891a0a0b1fc25f720437",
+      "visual": {
+        "src": "/assets/editorial/movies-hero-1440.webp",
+        "credit": "Original AI-generated editorial illustration · OpenAI",
+        "license": "Original artwork",
+        "label": "EDITORIAL ILLUSTRATION"
+      }
+    },
+    "/events/world-cup-1994-final/": {
+      "src": "/assets/generated/share/event-world-cup-1994-final-bd1fcfc75a60.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Brazil wins the World Cup on penalties. Original graphic.",
+      "inputDigest": "bd1fcfc75a6062bb48e5a6c6226946ae9604dc694f0d382364243dc2118ff11c",
+      "sha256": "a204f55e553741b1c35ab294743caaff656dbea16c654855fd00e3c480986910",
+      "visual": {
+        "src": null,
+        "credit": "90s.land · original graphic",
+        "license": "Original artwork",
+        "label": "ORIGINAL GRAPHIC"
+      }
+    },
+    "/events/er-premiere/": {
+      "src": "/assets/generated/share/event-er-premiere-15546dc80b00.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: ER begins a busy night in Chicago. Original graphic.",
+      "inputDigest": "15546dc80b00d656958d0465dc103693ed494dabbe567f7f99b033b33fa953fd",
+      "sha256": "8d3182df48b1366c3caf2220b4c2fa1769f5ccfaf1140c7081bdd7ea88f550a2",
+      "visual": {
+        "src": null,
+        "credit": "90s.land · original graphic",
+        "license": "Original artwork",
+        "label": "ORIGINAL GRAPHIC"
+      }
+    },
+    "/events/friends-premiere/": {
+      "src": "/assets/generated/share/event-friends-premiere-d75ee27cf8f1.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Friends opens the door to Central Perk. Original graphic.",
+      "inputDigest": "d75ee27cf8f1058345448c33e6c82cab08939f2d143d40c0351062b44aab0d57",
+      "sha256": "8a7dd98fe1bbd04506604464971e8ef76271a032e45eee600535a9a4a44011f5",
+      "visual": {
+        "src": null,
+        "credit": "90s.land · original graphic",
+        "license": "Original artwork",
+        "label": "ORIGINAL GRAPHIC"
+      }
+    },
+    "/events/w3c-founded/": {
+      "src": "/assets/generated/share/event-w3c-founded-8c23b2dab56a.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: The Web gets a standards consortium. Original graphic.",
+      "inputDigest": "8c23b2dab56a8da6793626c39b90ffce186d364642572a4e66c9d5687b7a488f",
+      "sha256": "6d9d0aae047ef9a33d30234d0e26c55efcfa5317460be91f495e126d8b35fd7b",
+      "visual": {
+        "src": null,
+        "credit": "90s.land · original graphic",
+        "license": "Original artwork",
+        "label": "ORIGINAL GRAPHIC"
+      }
+    },
+    "/events/film-pulp-fiction-1994/": {
+      "src": "/assets/generated/share/event-film-pulp-fiction-1994-8244461ac569.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Pulp Fiction reaches the autumn screen. Editorial illustration.",
+      "inputDigest": "8244461ac569ecdd0dae94b1c339ef3d273abdc50aaff35b9bf949b340bbcb32",
+      "sha256": "26f67c88d32defb87342fb36c135613358f564fecf43e10a986e6ca9453233c5",
+      "visual": {
+        "src": "/assets/editorial/movies-hero-1440.webp",
+        "credit": "Original AI-generated editorial illustration · OpenAI",
+        "license": "Original artwork",
+        "label": "EDITORIAL ILLUSTRATION"
+      }
+    },
+    "/events/playstation-japan/": {
+      "src": "/assets/generated/share/event-playstation-japan-965d53f789b5.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: PlayStation launches in Japan. Editorial illustration.",
+      "inputDigest": "965d53f789b581f1a5dd3369e29d267ccdd89e558f7ccb3cdc6af7bf77c3b809",
+      "sha256": "100d4461e1ae96a3b58f6f85fcb1f6b92709748edb827bc0eb66790dd6f3dad0",
+      "visual": {
+        "src": "/assets/editorial/games-hero-1440.webp",
+        "credit": "Original AI-generated editorial illustration · OpenAI",
+        "license": "Original artwork",
+        "label": "EDITORIAL ILLUSTRATION"
+      }
+    },
+    "/events/jordan-returns/": {
+      "src": "/assets/generated/share/event-jordan-returns-f6604b24eea4.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Michael Jordan returns to the Bulls. Original graphic.",
+      "inputDigest": "f6604b24eea44fcf129602d194708cfdf72e424ae915a089e3721aaf545dcdfd",
+      "sha256": "5d6717f04b7a25ab54089bfd6d3a2d915e4e634c4d98a17910a02748d24175fd",
+      "visual": {
+        "src": null,
+        "credit": "90s.land · original graphic",
+        "license": "Original artwork",
+        "label": "ORIGINAL GRAPHIC"
+      }
+    },
+    "/events/java-public-introduction/": {
+      "src": "/assets/generated/share/event-java-public-introduction-ecce972c9d86.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Java gets its public introduction. Original graphic.",
+      "inputDigest": "ecce972c9d86260405b19eec5588c78c1b88c6627cbe243409f179997b087f5f",
+      "sha256": "ebb3980499f6126ddfaa2e891853c0f8f6ed97c930d3d44075ea56a0d5dbbe13",
+      "visual": {
+        "src": null,
+        "credit": "90s.land · original graphic",
+        "license": "Original artwork",
+        "label": "ORIGINAL GRAPHIC"
+      }
+    },
+    "/events/jagged-little-pill-us/": {
+      "src": "/assets/generated/share/event-jagged-little-pill-us-dce8749e7bc4.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Alanis Morissette releases Jagged Little Pill. Original graphic.",
+      "inputDigest": "dce8749e7bc49c72f025d0cf9c51ca82139256e3821267d8df9d95a2c9c45487",
+      "sha256": "b60d4970b9bb222ec0251d28dad84ccfed64b18fe65c43bf5d355427f2558b02",
+      "visual": {
+        "src": null,
+        "credit": "90s.land · original graphic",
+        "license": "Original artwork",
+        "label": "ORIGINAL GRAPHIC"
+      }
+    },
+    "/events/rugby-world-cup-1995-final/": {
+      "src": "/assets/generated/share/event-rugby-world-cup-1995-final-878bd699eca9.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: South Africa wins the Rugby World Cup. Original graphic.",
+      "inputDigest": "878bd699eca9830e3bba8f0e87afafd67defd6398acf5029b78b00f526f8ffb8",
+      "sha256": "8ce4af2b10a10d6b5d6169902d9f2bb7e348d755de94cafa34c3779ac574e72b",
+      "visual": {
+        "src": null,
+        "credit": "90s.land · original graphic",
+        "license": "Original artwork",
+        "label": "ORIGINAL GRAPHIC"
+      }
+    },
+    "/events/film-apollo-13-1995/": {
+      "src": "/assets/generated/share/event-film-apollo-13-1995-71c3f5bd1ff3.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Apollo 13 reaches the summer screen. Editorial illustration.",
+      "inputDigest": "71c3f5bd1ff36e080387d3452bee5365bee1908146ce7328fdd4dc943d940a11",
+      "sha256": "ee821a4ea799d03e019d7094b21d460191c3378647f3794d0a6f38fabb2704a1",
+      "visual": {
+        "src": "/assets/editorial/movies-hero-1440.webp",
+        "credit": "Original AI-generated editorial illustration · OpenAI",
+        "license": "Original artwork",
+        "label": "EDITORIAL ILLUSTRATION"
+      }
+    },
+    "/events/windows-95-launch/": {
+      "src": "/assets/generated/share/event-windows-95-launch-b646951df35a.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Windows 95 introduces a new Start. Object from the collection.",
+      "inputDigest": "b646951df35a588047e5415a1675da175d5b80ad6c56cdc6d3abf7586b4c5d61",
+      "sha256": "66c394f73316d3d5083668cad32185fceaa709131654b30a87d6e6d57539d038",
+      "visual": {
+        "src": "/assets/media/tech-toys/family-pc-rotterdam-1999.jpg",
+        "credit": "Oompje",
+        "license": "CC BY-SA 4.0",
+        "label": "OBJECT FROM THE COLLECTION"
+      }
+    },
+    "/events/ebay-auctionweb-begins/": {
+      "src": "/assets/generated/share/event-ebay-auctionweb-begins-b37c29b7cf3a.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: AuctionWeb begins the eBay story. Original graphic.",
+      "inputDigest": "b37c29b7cf3aae37c913c92ec6c837f2993542627de3cd5477fedd209e238d3a",
+      "sha256": "02481a957cdb77a6e52b7be48f05b30d720be62a68cfba47eac66dfb45866bc3",
+      "visual": {
+        "src": null,
+        "credit": "90s.land · original graphic",
+        "license": "Original artwork",
+        "label": "ORIGINAL GRAPHIC"
+      }
+    },
+    "/events/playstation-north-america/": {
+      "src": "/assets/generated/share/event-playstation-north-america-7e3331c27f80.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: PlayStation reaches North America. Editorial illustration.",
+      "inputDigest": "7e3331c27f80823ecf0661fd924068c0125905acf244757ee441d2d1a9547e67",
+      "sha256": "d3cdf1d4bcba5ec8a6bbf86dbd5583afbcf92886f9c6eba1618a59f5cc4c55f9",
+      "visual": {
+        "src": "/assets/editorial/games-hero-1440.webp",
+        "credit": "Original AI-generated editorial illustration · OpenAI",
+        "license": "Original artwork",
+        "label": "EDITORIAL ILLUSTRATION"
+      }
+    },
+    "/events/film-toy-story-1995/": {
+      "src": "/assets/generated/share/event-film-toy-story-1995-a0a48cbb93b3.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Toy Story arrives for Thanksgiving week. Editorial illustration.",
+      "inputDigest": "a0a48cbb93b3a69849ddbbbcf12bf71e06bde71dbc1a23eb21ffe83334ba59e8",
+      "sha256": "420b1fcce35bcc8b5962a93cc133c2105f9ac61dd8404d0280c1a4d15e59f001",
+      "visual": {
+        "src": "/assets/editorial/movies-hero-1440.webp",
+        "credit": "Original AI-generated editorial illustration · OpenAI",
+        "license": "Original artwork",
+        "label": "EDITORIAL ILLUSTRATION"
+      }
+    },
+    "/events/galileo-jupiter-arrival/": {
+      "src": "/assets/generated/share/event-galileo-jupiter-arrival-4e64eb475986.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Galileo arrives at Jupiter. Original graphic.",
+      "inputDigest": "4e64eb475986318992973d84082c3785a037cf4af0015b3fdc37cfcb3ad35b46",
+      "sha256": "1d10bf30fc6be315c90ce6785407688fc6ab6ac9b4dfa55c2cba08e748149fb1",
+      "visual": {
+        "src": null,
+        "credit": "90s.land · original graphic",
+        "license": "Original artwork",
+        "label": "ORIGINAL GRAPHIC"
+      }
+    },
+    "/events/pokemon-red-green-japan/": {
+      "src": "/assets/generated/share/event-pokemon-red-green-japan-03ed7b3c59a5.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Pokémon Red and Green begin the journey. Editorial illustration.",
+      "inputDigest": "03ed7b3c59a56eff5432b1f0874be0cffb497808d1aac24a8160aea290f3c565",
+      "sha256": "4c79a2abd245e41d1c590fd057a7880e64d52706d4e89ce3b6f6e6ad091b8d51",
+      "visual": {
+        "src": "/assets/editorial/games-hero-1440.webp",
+        "credit": "Original AI-generated editorial illustration · OpenAI",
+        "license": "Original artwork",
+        "label": "EDITORIAL ILLUSTRATION"
+      }
+    },
+    "/events/quake-shareware/": {
+      "src": "/assets/generated/share/event-quake-shareware-e0b8cdc4d290.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Quake opens the Slipgate. Object from the collection.",
+      "inputDigest": "e0b8cdc4d290039e855a1798877c6585ae5d344de60bdbcea88b9b6ef27df946",
+      "sha256": "00c4086a943d197bc4d90351732df4bc0f307b7d753d0efc6c129b221b7043d8",
+      "visual": {
+        "src": "/assets/media/tech-toys/family-pc-rotterdam-1999.jpg",
+        "credit": "Oompje",
+        "license": "CC BY-SA 4.0",
+        "label": "OBJECT FROM THE COLLECTION"
+      }
+    },
+    "/events/nintendo-64-japan/": {
+      "src": "/assets/generated/share/event-nintendo-64-japan-f1aa37e90940.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Nintendo 64 arrives in Japan. Object from the collection.",
+      "inputDigest": "f1aa37e90940736e2a2f8f844faa7723549e21f5f818fbb20a325d3d9c8be85c",
+      "sha256": "d068b6465041af60958f292402fbeced8997e1a8bf7d83f7b63dfa92cfd9ac7b",
+      "visual": {
+        "src": "/assets/media/games/n64-controller-gray.jpg",
+        "credit": "Evan-Amos",
+        "license": "Public domain",
+        "label": "OBJECT FROM THE COLLECTION"
+      }
+    },
+    "/events/hotmail-launch/": {
+      "src": "/assets/generated/share/event-hotmail-launch-cfc710fd8b14.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Hotmail puts an inbox in the browser. Editorial illustration.",
+      "inputDigest": "cfc710fd8b141f82e2cb66c28c62c2642286c44ac3f4edf6a54fde8628c04121",
+      "sha256": "f5cce1316b3d5cbb42b65f83b4caf06cb62e35bee94220e76ce76716e670d5a8",
+      "visual": {
+        "src": "/assets/editorial/tech-hero-1440.webp",
+        "credit": "Original AI-generated editorial illustration · OpenAI",
+        "license": "Original artwork",
+        "label": "EDITORIAL ILLUSTRATION"
+      }
+    },
+    "/events/dolly-born/": {
+      "src": "/assets/generated/share/event-dolly-born-5542b6cf0e70.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Dolly the sheep is born. Original graphic.",
+      "inputDigest": "5542b6cf0e7037b7df0914d095a8f2ae1d16efcc6ea78c908b656d693593cd16",
+      "sha256": "dae2f4a309abaf92a5fce3b6a8bee360d67431cf9cb0512be33bb5d5c9d146e3",
+      "visual": {
+        "src": null,
+        "credit": "90s.land · original graphic",
+        "license": "Original artwork",
+        "label": "ORIGINAL GRAPHIC"
+      }
+    },
+    "/events/wannabe-uk/": {
+      "src": "/assets/generated/share/event-wannabe-uk-224155eb8e1d.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: The Spice Girls introduce Wannabe. Original graphic.",
+      "inputDigest": "224155eb8e1d48bff38751fbc5d4f7f92e0a1d4abec7858dc5b34c343bd59c76",
+      "sha256": "d1a8d2b723dc6b76d7710c8a2dc3be30ffb343665a6109f6d790b6e3b8b6c821",
+      "visual": {
+        "src": null,
+        "credit": "90s.land · original graphic",
+        "license": "Original artwork",
+        "label": "ORIGINAL GRAPHIC"
+      }
+    },
+    "/events/atlanta-olympics-open/": {
+      "src": "/assets/generated/share/event-atlanta-olympics-open-16b32d77fc32.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Muhammad Ali lights the Atlanta cauldron. Original graphic.",
+      "inputDigest": "16b32d77fc328cd73205fbe5038d9f7fa11da663dfd6a076efb10ecbd5d23899",
+      "sha256": "dff217fd102b9ca23ea4fdbbad3eeec023582470797f4c912c4c683a94bd0304",
+      "visual": {
+        "src": null,
+        "credit": "90s.land · original graphic",
+        "license": "Original artwork",
+        "label": "ORIGINAL GRAPHIC"
+      }
+    },
+    "/events/nintendo-64-us/": {
+      "src": "/assets/generated/share/event-nintendo-64-us-db4e143d8a43.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Nintendo 64 launches in the U.S.. Object from the collection.",
+      "inputDigest": "db4e143d8a430a46873b202c4709c28f2b6f25406aa357c5f856552136648ad5",
+      "sha256": "891bffee6dea4fb037a9dbaefd59d17421a03fefb1a5bfd486706abc5dec0ebc",
+      "visual": {
+        "src": "/assets/media/games/n64-controller-gray.jpg",
+        "credit": "Evan-Amos",
+        "license": "Public domain",
+        "label": "OBJECT FROM THE COLLECTION"
+      }
+    },
+    "/events/space-jam-la/": {
+      "src": "/assets/generated/share/event-space-jam-la-5ea660827e5f.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Space Jam joins the November lineup. Object from the collection.",
+      "inputDigest": "5ea660827e5fc79e5973756a65dc290759af7d8c00e72f4484204de79a155753",
+      "sha256": "48d9bb03a9ebad271bca4fda16c29d230ef0170c82a82428110f4ccea5a9879a",
+      "visual": {
+        "src": "/assets/media/tv-movies/vhs-videocassette-front.jpg",
+        "credit": "LoMit",
+        "license": "CC BY-SA 4.0",
+        "label": "OBJECT FROM THE COLLECTION"
+      }
+    },
+    "/events/tamagotchi-japan/": {
+      "src": "/assets/generated/share/event-tamagotchi-japan-007386471cc6.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Tamagotchi makes care portable. Original graphic.",
+      "inputDigest": "007386471cc6eedfba8da2783397b8fc420a1105d093e80645384ccc0c50bb7a",
+      "sha256": "dcc1193870ca87bd51a902ca0f871fde11d830de28c8c4165ed9b29013bc21e4",
+      "visual": {
+        "src": null,
+        "credit": "90s.land · original graphic",
+        "license": "Original artwork",
+        "label": "ORIGINAL GRAPHIC"
+      }
+    },
+    "/events/film-scream-1996/": {
+      "src": "/assets/generated/share/event-film-scream-1996-3850ca719ad1.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Scream opens before the holidays. Editorial illustration.",
+      "inputDigest": "3850ca719ad15f5b4ee1a1d33825d9e69b115605b30d172faa6cd1b4135b00c1",
+      "sha256": "7a8605d8af117f22410e19a4d0fbebb36fc11f967b69a7f77f1eff56fa27059e",
+      "visual": {
+        "src": "/assets/editorial/movies-hero-1440.webp",
+        "credit": "Original AI-generated editorial illustration · OpenAI",
+        "license": "Original artwork",
+        "label": "EDITORIAL ILLUSTRATION"
+      }
+    },
+    "/events/daft-punk-homework-europe/": {
+      "src": "/assets/generated/share/event-daft-punk-homework-europe-9ddefcab4e80.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Daft Punk releases Homework in Europe. Original graphic.",
+      "inputDigest": "9ddefcab4e80b3ede3c60e485c6fc6c9cd12b4a03a00661da0fbb5fa83799bb5",
+      "sha256": "268ffec4b5104e621417587497bf3e10c36f898f9ca67f808f59f6ab9f286888",
+      "visual": {
+        "src": null,
+        "credit": "90s.land · original graphic",
+        "license": "Original artwork",
+        "label": "ORIGINAL GRAPHIC"
+      }
+    },
+    "/events/final-fantasy-vii-japan/": {
+      "src": "/assets/generated/share/event-final-fantasy-vii-japan-311b19d52cf2.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Final Fantasy VII arrives on PlayStation. Original graphic.",
+      "inputDigest": "311b19d52cf2b2724f9a2564c99e3858dc7649b1d1c394007ce07ae197f232b5",
+      "sha256": "2b0e6b25de1654c5ffb444cba5be83604c2e28ffbb2b81d24db853f7b53d206e",
+      "visual": {
+        "src": null,
+        "credit": "90s.land · original graphic",
+        "license": "Original artwork",
+        "label": "ORIGINAL GRAPHIC"
+      }
+    },
+    "/events/deep-blue-match-win/": {
+      "src": "/assets/generated/share/event-deep-blue-match-win-7b823d895954.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Deep Blue wins its match with Kasparov. Original graphic.",
+      "inputDigest": "7b823d8959542571a106c968d5f1ae464f592118a7c3d1a64ef9d3d5ae4fcf33",
+      "sha256": "8c1d54c4ffbfd76b87a8327e354ff59d9bbc014d9256647f20672673070767c0",
+      "visual": {
+        "src": null,
+        "credit": "90s.land · original graphic",
+        "license": "Original artwork",
+        "label": "ORIGINAL GRAPHIC"
+      }
+    },
+    "/events/wnba-first-game/": {
+      "src": "/assets/generated/share/event-wnba-first-game-0a9c61d9e534.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: The WNBA tips off. Object from the collection.",
+      "inputDigest": "0a9c61d9e53485c5e83f1d1b2927837d6b0275f9c80180785252c5596771b660",
+      "sha256": "4a5b2966d552b535490c678f7261c587d7af80bab074ed4beb578519456bc5f4",
+      "visual": {
+        "src": "/assets/media/tv-movies/1990s-television-set.jpg",
+        "credit": "ProtoKiwi",
+        "license": "CC BY 4.0",
+        "label": "OBJECT FROM THE COLLECTION"
+      }
+    },
+    "/events/film-men-in-black-1997/": {
+      "src": "/assets/generated/share/event-film-men-in-black-1997-803e16a7a48e.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Men in Black opens for July. Editorial illustration.",
+      "inputDigest": "803e16a7a48e13b8e5ba5739e13324ca8520617990f6fe5a533ae1183709602b",
+      "sha256": "1051a19e2305dee7b1dbe6dc27905581ae9b0308d58240ca1deffea1ff759480",
+      "visual": {
+        "src": "/assets/editorial/movies-hero-1440.webp",
+        "credit": "Original AI-generated editorial illustration · OpenAI",
+        "license": "Original artwork",
+        "label": "EDITORIAL ILLUSTRATION"
+      }
+    },
+    "/events/hong-kong-handover/": {
+      "src": "/assets/generated/share/event-hong-kong-handover-8e3a4102dde5.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Hong Kong’s handover reaches midnight. Original graphic.",
+      "inputDigest": "8e3a4102dde593acc8b029e4f0702e060ad804463cdec26eccfc68e57f76ffcd",
+      "sha256": "f561275875203a4ecf27b72d85408038c5cae7a600f21df112cbbaf48e791776",
+      "visual": {
+        "src": null,
+        "credit": "90s.land · original graphic",
+        "license": "Original artwork",
+        "label": "ORIGINAL GRAPHIC"
+      }
+    },
+    "/events/mars-pathfinder-lands/": {
+      "src": "/assets/generated/share/event-mars-pathfinder-lands-dadd32a6d515.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Pathfinder reaches Mars. Original graphic.",
+      "inputDigest": "dadd32a6d515cc08b2bc88de8d39bff7fd0fd4a46bc42b4b9b5e2d44ea71a7dd",
+      "sha256": "d39f41cb299a4356a0a4f376b471dda635cbd89105ee914869492dd696da65f5",
+      "visual": {
+        "src": null,
+        "credit": "90s.land · original graphic",
+        "license": "Original artwork",
+        "label": "ORIGINAL GRAPHIC"
+      }
+    },
+    "/events/south-park-premiere/": {
+      "src": "/assets/generated/share/event-south-park-premiere-a35f2730adf4.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: South Park debuts on Comedy Central. Original graphic.",
+      "inputDigest": "a35f2730adf4ab6b251b5befd74abf4d382bc27d451339e7d32a57ac8b171f59",
+      "sha256": "21c56705fae934ade9c9dee3f5a22b63f43b81382d5c2207f9d373a207f6dbe1",
+      "visual": {
+        "src": null,
+        "credit": "90s.land · original graphic",
+        "license": "Original artwork",
+        "label": "ORIGINAL GRAPHIC"
+      }
+    },
+    "/events/film-gattaca-1997/": {
+      "src": "/assets/generated/share/event-film-gattaca-1997-349f9fdee74b.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Gattaca reaches theaters in October. Editorial illustration.",
+      "inputDigest": "349f9fdee74b1ed20c683fc42142d333446e2921f24fdcd41f9a10835e5bef8a",
+      "sha256": "3ebe90dfb5a3cdb8dd06d101514bb2be87a419db71b91e9517a773ae146577ee",
+      "visual": {
+        "src": "/assets/editorial/movies-hero-1440.webp",
+        "credit": "Original AI-generated editorial illustration · OpenAI",
+        "license": "Original artwork",
+        "label": "EDITORIAL ILLUSTRATION"
+      }
+    },
+    "/events/lion-king-broadway/": {
+      "src": "/assets/generated/share/event-lion-king-broadway-c94728bc5e9c.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: The Lion King opens on Broadway. Editorial illustration.",
+      "inputDigest": "c94728bc5e9cc56522bc8173b492c0ed152a6acee0b3df1c31ebca19a610f637",
+      "sha256": "e788fa9ecd947611c846115c1d6d0e9db07866eb0df0ea386f3a3e4c104eafbf",
+      "visual": {
+        "src": "/assets/editorial/movies-hero-1440.webp",
+        "credit": "Original AI-generated editorial illustration · OpenAI",
+        "license": "Original artwork",
+        "label": "EDITORIAL ILLUSTRATION"
+      }
+    },
+    "/events/good-friday-agreement/": {
+      "src": "/assets/generated/share/event-good-friday-agreement-7d02737fca75.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: The Good Friday Agreement is signed. Original graphic.",
+      "inputDigest": "7d02737fca7520f75a174122c8b721c7ef2db28239c9906b36e258ae88e0e245",
+      "sha256": "6cebd180f91904bef96420fbe6b4d0759fcedb19608cba93c51c296087364754",
+      "visual": {
+        "src": null,
+        "credit": "90s.land · original graphic",
+        "license": "Original artwork",
+        "label": "ORIGINAL GRAPHIC"
+      }
+    },
+    "/events/film-the-truman-show-1998/": {
+      "src": "/assets/generated/share/event-film-the-truman-show-1998-e79c85a9da0f.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: The Truman Show opens in June. Editorial illustration.",
+      "inputDigest": "e79c85a9da0f47481247da71e5c99750b823d741cf65471c17fe2b5a7d743428",
+      "sha256": "90543ff21eb010422aa17c59b9e35d5987fb48fe1374638c1a9ff7e6d1553e86",
+      "visual": {
+        "src": "/assets/editorial/movies-hero-1440.webp",
+        "credit": "Original AI-generated editorial illustration · OpenAI",
+        "license": "Original artwork",
+        "label": "EDITORIAL ILLUSTRATION"
+      }
+    },
+    "/events/windows-98-launch/": {
+      "src": "/assets/generated/share/event-windows-98-launch-bf8446a67e5b.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Windows 98 reaches the desktop. Original graphic.",
+      "inputDigest": "bf8446a67e5b652f09899457a3bb406f18c3f8863582ccad82f282e19fecf79e",
+      "sha256": "9134072f9d62d650ca437337755ecf586d50ae37a0d44224d71bfc949b20a373",
+      "visual": {
+        "src": null,
+        "credit": "90s.land · original graphic",
+        "license": "Original artwork",
+        "label": "ORIGINAL GRAPHIC"
+      }
+    },
+    "/events/world-cup-1998-final/": {
+      "src": "/assets/generated/share/event-world-cup-1998-final-c41a8bf7dddd.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: France wins its home World Cup. Original graphic.",
+      "inputDigest": "c41a8bf7dddd919ac2655a9f5ea2803a34a40854edd4fb3b1dc97ebba3b818ea",
+      "sha256": "821bc9803444c377b2c2ce6a0c65869133a786d6b7c974190cae87c0422981aa",
+      "visual": {
+        "src": null,
+        "credit": "90s.land · original graphic",
+        "license": "Original artwork",
+        "label": "ORIGINAL GRAPHIC"
+      }
+    },
+    "/events/film-saving-private-ryan-1998/": {
+      "src": "/assets/generated/share/event-film-saving-private-ryan-1998-b8a79d6a8af8.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Saving Private Ryan opens in July. Editorial illustration.",
+      "inputDigest": "b8a79d6a8af898650918d101bd1491f7b644b7898b460df903db3c978f6c5695",
+      "sha256": "4ee41c12acef0ddc4460c5b46ea699338ead4b52ea72782edbd0b7e268363509",
+      "visual": {
+        "src": "/assets/editorial/movies-hero-1440.webp",
+        "credit": "Original AI-generated editorial illustration · OpenAI",
+        "license": "Original artwork",
+        "label": "EDITORIAL ILLUSTRATION"
+      }
+    },
+    "/events/imac-arrives/": {
+      "src": "/assets/generated/share/event-imac-arrives-d556d76f39d9.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: The original iMac arrives. Object from the collection.",
+      "inputDigest": "d556d76f39d9e5eecfda6eb6ac82b706240e07807376a33ae0626fa0454b39c1",
+      "sha256": "42a14c5029ecd03aacd49b114930cb3d83a1e5fbf516e49dd91a3e706625660f",
+      "visual": {
+        "src": "/assets/media/transparent-tech/imac-g3-bondi-blue.png",
+        "credit": "Alterations by David Fuchs ; original by Rama , licensed CC-by-SA",
+        "license": "CC BY-SA 4.0",
+        "label": "OBJECT FROM THE COLLECTION"
+      }
+    },
+    "/events/lauryn-hill-miseducation/": {
+      "src": "/assets/generated/share/event-lauryn-hill-miseducation-63fd2ab38d5e.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Lauryn Hill releases The Miseducation. Original graphic.",
+      "inputDigest": "63fd2ab38d5e20df7485dcdd7826174d50db902f48a1ac460f3861ca482761fd",
+      "sha256": "1569339eab6ea0eb761b75134aaa8c9e1d8e7472b94199b3bd8ecad253375f4e",
+      "visual": {
+        "src": null,
+        "credit": "90s.land · original graphic",
+        "license": "Original artwork",
+        "label": "ORIGINAL GRAPHIC"
+      }
+    },
+    "/events/google-incorporated/": {
+      "src": "/assets/generated/share/event-google-incorporated-355ee4e45459.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Google becomes a company. Original graphic.",
+      "inputDigest": "355ee4e45459f0641ca5987ffa79cab775804b21ac2f54232d6719e6ef3b03c7",
+      "sha256": "e7eb59737843c3ed6bae5054fa6f99f7c05c58f7c4435520df2338416c61eb1f",
+      "visual": {
+        "src": null,
+        "credit": "90s.land · original graphic",
+        "license": "Original artwork",
+        "label": "ORIGINAL GRAPHIC"
+      }
+    },
+    "/events/game-boy-color-japan/": {
+      "src": "/assets/generated/share/event-game-boy-color-japan-09b99d2daa0e.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Game Boy Color arrives in Japan. Original graphic.",
+      "inputDigest": "09b99d2daa0ecf85d4ef663395e6650bb200780c88c266d8c803395bd1b2cd69",
+      "sha256": "c2bcb4417fec1028b683f5e3d51f2d664db1593682ee22d3a29839efdc8402cf",
+      "visual": {
+        "src": null,
+        "credit": "90s.land · original graphic",
+        "license": "Original artwork",
+        "label": "ORIGINAL GRAPHIC"
+      }
+    },
+    "/events/ocarina-time-japan/": {
+      "src": "/assets/generated/share/event-ocarina-time-japan-55f0bd567812.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Ocarina of Time brings Hyrule into 3D. Original graphic.",
+      "inputDigest": "55f0bd5678123e31b348d44f236c4127b13111b413a453a8d04ef94d9e7e4a38",
+      "sha256": "d4f52ba644e66dc3d25ccdd4f390e308dc4033edc4021eefa6d7c6469a4c9be1",
+      "visual": {
+        "src": null,
+        "credit": "90s.land · original graphic",
+        "license": "Original artwork",
+        "label": "ORIGINAL GRAPHIC"
+      }
+    },
+    "/events/euro-introduced/": {
+      "src": "/assets/generated/share/event-euro-introduced-fe12a8e7f7ab.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: The euro begins without notes or coins. Original graphic.",
+      "inputDigest": "fe12a8e7f7ab15051e6dec5eed1431290e79e5f7f023469069618f632a568ca1",
+      "sha256": "89a84cfcd6c26b59797e8bf4b4f1610b9598bccb6f1c826da939492a5e07cb65",
+      "visual": {
+        "src": null,
+        "credit": "90s.land · original graphic",
+        "license": "Original artwork",
+        "label": "ORIGINAL GRAPHIC"
+      }
+    },
+    "/events/sopranos-premiere/": {
+      "src": "/assets/generated/share/event-sopranos-premiere-fb03bde21e38.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: The Sopranos starts on HBO. Original graphic.",
+      "inputDigest": "fb03bde21e386e01a1635cc616aedbaac275978d4a8eefd6e4bbfbbc3ad0cc33",
+      "sha256": "91e233d363a1adb26704ae5e16559f0436e60468fc388e1dde01f7944fb6c476",
+      "visual": {
+        "src": null,
+        "credit": "90s.land · original graphic",
+        "license": "Original artwork",
+        "label": "ORIGINAL GRAPHIC"
+      }
+    },
+    "/events/britney-debut-album/": {
+      "src": "/assets/generated/share/event-britney-debut-album-04f88dd9a283.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Britney Spears releases her debut album. Original graphic.",
+      "inputDigest": "04f88dd9a2831881ab38112e76ed27a3c8bf31d3a1df44095e852c593fde0853",
+      "sha256": "ab7e5cc439671ddff08e0594e0f3a33c67ff1eb212ed7b37040e8848758e8b4e",
+      "visual": {
+        "src": null,
+        "credit": "90s.land · original graphic",
+        "license": "Original artwork",
+        "label": "ORIGINAL GRAPHIC"
+      }
+    },
+    "/events/smash-bros-japan/": {
+      "src": "/assets/generated/share/event-smash-bros-japan-181887014ef9.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Super Smash Bros. puts Nintendo’s cast together. Original graphic.",
+      "inputDigest": "181887014ef912f9d5885d848f057ff9e0ba58497f1570d0caa733f85481badd",
+      "sha256": "63618a13fa76dee37b29617da835dc2f49d653a58a67151ad9abb67c569ffe61",
+      "visual": {
+        "src": null,
+        "credit": "90s.land · original graphic",
+        "license": "Original artwork",
+        "label": "ORIGINAL GRAPHIC"
+      }
+    },
+    "/events/film-the-matrix-1999/": {
+      "src": "/assets/generated/share/event-film-the-matrix-1999-7e4a3fc2bd69.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: The Matrix opens at the end of March. Editorial illustration.",
+      "inputDigest": "7e4a3fc2bd69053faed10de3b607533b77a2ff260730dae54752a6da8dc8fc8d",
+      "sha256": "4c4e10c79e2ea1bfa8b4bfd16f3fd7ec4d6a1a82b41fdf4f3ca30f6c52b6bd52",
+      "visual": {
+        "src": "/assets/editorial/movies-hero-1440.webp",
+        "credit": "Original AI-generated editorial illustration · OpenAI",
+        "license": "Original artwork",
+        "label": "EDITORIAL ILLUSTRATION"
+      }
+    },
+    "/events/womens-world-cup-1999-final/": {
+      "src": "/assets/generated/share/event-womens-world-cup-1999-final-c0ec67d2d42f.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: The USA wins the Women’s World Cup. Original graphic.",
+      "inputDigest": "c0ec67d2d42f2b2fff5a787ef7e150baaed43f17c6cad7d2e3a2cf7ba5944cd9",
+      "sha256": "01e2182dd8f2dab22cc8f6cd9896e93740713d5a3d6517e56b0cb63697866fa3",
+      "visual": {
+        "src": null,
+        "credit": "90s.land · original graphic",
+        "license": "Original artwork",
+        "label": "ORIGINAL GRAPHIC"
+      }
+    },
+    "/events/film-the-blair-witch-project-1999/": {
+      "src": "/assets/generated/share/event-film-the-blair-witch-project-1999-5f3d280006f6.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: The Blair Witch Project reaches theaters. Editorial illustration.",
+      "inputDigest": "5f3d280006f65ef1fc99192a3eb1c6f967cdc4bf958e525e8eaf8622066f7bf3",
+      "sha256": "61701ba6b8cd29387cf2754e686ca6d084b98635bfe9e2028fcdb5959dc4a009",
+      "visual": {
+        "src": "/assets/editorial/movies-hero-1440.webp",
+        "credit": "Original AI-generated editorial illustration · OpenAI",
+        "license": "Original artwork",
+        "label": "EDITORIAL ILLUSTRATION"
+      }
+    },
+    "/events/dreamcast-us/": {
+      "src": "/assets/generated/share/event-dreamcast-us-f1dfe2099424.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Dreamcast’s 9/9/99 U.S. launch. Editorial illustration.",
+      "inputDigest": "f1dfe20994249aa1c6bf946b30a643ae73ca014c6a55963ae33acfac92b9af7a",
+      "sha256": "ac2a254dc0e4347394dda76472e72c9a7072c3063a79f944f41f3b399bf1aed1",
+      "visual": {
+        "src": "/assets/editorial/games-hero-1440.webp",
+        "credit": "Original AI-generated editorial illustration · OpenAI",
+        "license": "Original artwork",
+        "label": "EDITORIAL ILLUSTRATION"
+      }
+    },
+    "/events/pokemon-gold-silver-japan/": {
+      "src": "/assets/generated/share/event-pokemon-gold-silver-japan-913a0b19fdf4.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Pokémon Gold and Silver open a new journey. Original graphic.",
+      "inputDigest": "913a0b19fdf4c4b8a93236bc1522b4f2d470e134bcc43936917a71a06be7076f",
+      "sha256": "cb66ca4e4b5c4797038566b5399cb92af9e6c761c98c74bd824c435ad9f040fc",
+      "visual": {
+        "src": null,
+        "credit": "90s.land · original graphic",
+        "license": "Original artwork",
+        "label": "ORIGINAL GRAPHIC"
+      }
+    },
+    "/events/y2k-rollover-night/": {
+      "src": "/assets/generated/share/event-y2k-rollover-night-8f1953391658.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Response teams watch the Y2K rollover. Original graphic.",
+      "inputDigest": "8f195339165814b7701bcef3f9c6fe03dbabc5582f46f94233dab4aad447d2a5",
+      "sha256": "a319dbc2782d542969d61c8f44e081d2b91df0278ded5a77dc27f8a5467b9ecc",
+      "visual": {
+        "src": null,
+        "credit": "90s.land · original graphic",
+        "license": "Original artwork",
+        "label": "ORIGINAL GRAPHIC"
+      }
+    },
+    "/stories/a-whole-new-dimension/": {
+      "src": "/assets/generated/share/story-a-whole-new-dimension-ccaf2799b76a.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: A whole new dimension. Editorial illustration.",
+      "inputDigest": "ccaf2799b76a9d12596b7eee3d77eb44a5a86e465444d3b8591f0c4e10dc86e5",
+      "sha256": "52f004d5beb9b1f9be6212608d5d9353400c0c84461dfde0fe4587709397f97a",
+      "visual": {
+        "src": "/assets/editorial/games-hero-1440.webp",
+        "credit": "Original AI-generated editorial illustration · OpenAI",
+        "license": "Original artwork",
+        "label": "EDITORIAL ILLUSTRATION"
+      }
+    },
+    "/stories/a-web-you-could-make/": {
+      "src": "/assets/generated/share/story-a-web-you-could-make-0184614ff70f.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: A web you could make your own. Object from the collection.",
+      "inputDigest": "0184614ff70f9679c06c23992fac712e6eadf58e4e349bf2f4f9dd7ead5d67e6",
+      "sha256": "3b5fbc4841d44a11adbf8e44320d834871a0c13c0193a54664f31bbf066688dd",
+      "visual": {
+        "src": "/assets/media/timeline-1991/w3-first-website.png",
+        "credit": "Cern/Tim Berners-Lee",
+        "license": "Public domain",
+        "label": "OBJECT FROM THE COLLECTION"
+      }
+    },
+    "/stories/the-console-war-couch/": {
+      "src": "/assets/generated/share/story-the-console-war-couch-82a2d21377f7.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: The console wars were fought on the couch. Editorial illustration.",
+      "inputDigest": "82a2d21377f728afc9bc66bdf15d1344265d6745ad5aa903d1690e3e6ba325b0",
+      "sha256": "81761761b66dbab20ccf158540a80757454a96b963e76995f13f2905ef95acea",
+      "visual": {
+        "src": "/assets/editorial/games-hero-1440.webp",
+        "credit": "Original AI-generated editorial illustration · OpenAI",
+        "license": "Original artwork",
+        "label": "EDITORIAL ILLUSTRATION"
+      }
+    },
+    "/stories/lan-party-night/": {
+      "src": "/assets/generated/share/story-lan-party-night-38f759a1700b.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: A LAN party started before the first match. Object from the collection.",
+      "inputDigest": "38f759a1700bd9433c196fa7d29c6280e8c03e7bc72a80464d3c27b6a59b8c36",
+      "sha256": "6a543d612e203e24cae3fddd730b8ffcd3475f123112452eb005e07c6f041869",
+      "visual": {
+        "src": "/assets/media/tech-toys/family-pc-rotterdam-1999.jpg",
+        "credit": "Oompje",
+        "license": "CC BY-SA 4.0",
+        "label": "OBJECT FROM THE COLLECTION"
+      }
+    },
+    "/stories/fifteen-blocks-of-memory/": {
+      "src": "/assets/generated/share/story-fifteen-blocks-of-memory-9dc07564c815.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Fifteen blocks of somebody’s life. Object from the collection.",
+      "inputDigest": "9dc07564c8152a49eaca405e8a4660f0b4271495a78d4c274bb3070d6034e968",
+      "sha256": "db67d660d6fc2ee74ce9f9d8088070caca00160bc44ad9094abb606ab8c75c01",
+      "visual": {
+        "src": "/assets/media/timeline-1995/playstation-controller.jpg",
+        "credit": "Evan-Amos",
+        "license": "Public domain",
+        "label": "OBJECT FROM THE COLLECTION"
+      }
+    },
+    "/stories/the-secret-button-sequence/": {
+      "src": "/assets/generated/share/story-the-secret-button-sequence-ecf708e2335a.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: The secret button sequence. Object from the collection.",
+      "inputDigest": "ecf708e2335aa2c567a76ecef867c8a06c2bff2bcdf218ec50c931fac3124765",
+      "sha256": "fa51abe7fa465a7e37360876953826a93db8b4d604c37fe834efa56e54bdc606",
+      "visual": {
+        "src": "/assets/media/games/sega-genesis-6-button-controller.jpg",
+        "credit": "Evan-Amos",
+        "license": "CC BY-SA 3.0",
+        "label": "OBJECT FROM THE COLLECTION"
+      }
+    },
+    "/stories/make-room-for-player-two/": {
+      "src": "/assets/generated/share/story-make-room-for-player-two-cb4c2df56b57.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Make room for player two. Object from the collection.",
+      "inputDigest": "cb4c2df56b57f3f1a33ba162030c824b33e06882f25c1834a866bb60aa072a28",
+      "sha256": "89403a68b65ca72bc4b080eb3c714b8477fce9ef076f9b9eace7e829bf864fe3",
+      "visual": {
+        "src": "/assets/media/games/n64-controller-gray.jpg",
+        "credit": "Evan-Amos",
+        "license": "Public domain",
+        "label": "OBJECT FROM THE COLLECTION"
+      }
+    },
+    "/stories/from-mixtape-to-file/": {
+      "src": "/assets/generated/share/story-from-mixtape-to-file-819c086a3832.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: From mixtape to file. Object from the collection.",
+      "inputDigest": "819c086a38320d7408f19d7e63a5fa08279af7df2e5f7775db05a8e9e2cf57c9",
+      "sha256": "4d64473047d27cc5683c900ce263f61413b8748f850d7cc48dacc2c257992453",
+      "visual": {
+        "src": "/assets/media/music/compact-cassette-maxell.jpg",
+        "credit": "Andrey Korzun",
+        "license": "CC BY-SA 4.0",
+        "label": "OBJECT FROM THE COLLECTION"
+      }
+    },
+    "/stories/when-grunge-broke-through/": {
+      "src": "/assets/generated/share/story-when-grunge-broke-through-2892e3ee6b0c.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: When grunge broke through. Editorial illustration.",
+      "inputDigest": "2892e3ee6b0cdee8ed2b47949d6ba11b07c953893c460cd2d370939831cdb5d5",
+      "sha256": "abe348d0fdfe9e732c00ab6098f4a45a19f86ff68e2b439c4a248025f1cf0a29",
+      "visual": {
+        "src": "/assets/editorial/music-hero-1440.webp",
+        "credit": "Original AI-generated editorial illustration · OpenAI",
+        "license": "Original artwork",
+        "label": "EDITORIAL ILLUSTRATION"
+      }
+    },
+    "/stories/hooks-rhymes-and-radio/": {
+      "src": "/assets/generated/share/story-hooks-rhymes-and-radio-480daf196fda.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Hooks, rhymes, and the radio dial. Editorial illustration.",
+      "inputDigest": "480daf196fdafb91d727ffc15224d3c85cf08b219b11d2bf03fb833ad61c00c1",
+      "sha256": "06d4e6d02d962550d7c7b97c2bfed49eb8eb93fb5f95e2b9d87098113b4d4c6a",
+      "visual": {
+        "src": "/assets/editorial/music-hero-1440.webp",
+        "credit": "Original AI-generated editorial illustration · OpenAI",
+        "license": "Original artwork",
+        "label": "EDITORIAL ILLUSTRATION"
+      }
+    },
+    "/stories/after-school-on-trl/": {
+      "src": "/assets/generated/share/story-after-school-on-trl-15a4a5c09b8a.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: After school, before the countdown. Object from the collection.",
+      "inputDigest": "15a4a5c09b8af1af5329ce24403bd551c3c03ff150da2565c263ba6643a2220a",
+      "sha256": "b2bc8c5b8f49a04758447a7021f21d57731ec826cc796b9025c9fce9e8d35d9d",
+      "visual": {
+        "src": "/assets/media/tv-movies/1990s-television-set.jpg",
+        "credit": "ProtoKiwi",
+        "license": "CC BY 4.0",
+        "label": "OBJECT FROM THE COLLECTION"
+      }
+    },
+    "/stories/the-flyer-and-the-dancefloor/": {
+      "src": "/assets/generated/share/story-the-flyer-and-the-dancefloor-f4127c932a52.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: The flyer and the dancefloor. Editorial illustration.",
+      "inputDigest": "f4127c932a52cd0aa2cacdcab9778f0c3cb3abf177abd0d6dd925aadf1b9a4b7",
+      "sha256": "23af00872a91a311582b6eed59eb255edf5de7ced7cf79a0748c1952d3ad65ff",
+      "visual": {
+        "src": "/assets/editorial/music-hero-1440.webp",
+        "credit": "Original AI-generated editorial illustration · OpenAI",
+        "license": "Original artwork",
+        "label": "EDITORIAL ILLUSTRATION"
+      }
+    },
+    "/stories/discman-in-your-backpack/": {
+      "src": "/assets/generated/share/story-discman-in-your-backpack-f268f6067c93.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: The Discman in your backpack. Object from the collection.",
+      "inputDigest": "f268f6067c93e0eb959d0004568aa96e5e4f23c03eb8c3831092a8918fd70cae",
+      "sha256": "6d552e904a511bbc8aec677ad7309af8a9d98bd6b8859caab0a2638feb31b98f",
+      "visual": {
+        "src": "/assets/media/music/discman-d121.jpg",
+        "credit": "Morn at English Wikipedia",
+        "license": "CC BY-SA 3.0",
+        "label": "OBJECT FROM THE COLLECTION"
+      }
+    },
+    "/stories/friday-at-the-video-store/": {
+      "src": "/assets/generated/share/story-friday-at-the-video-store-3dff2f82d8bb.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Friday night at the video store. Object from the collection.",
+      "inputDigest": "3dff2f82d8bb8a64ea9cae5e0f46612c4b94fac4dc9f3cdcc88c2c4945690b37",
+      "sha256": "edb7409c389a4edfeb795a803ad53538776d15c1a3249f5ae0ca50c23b92c4cc",
+      "visual": {
+        "src": "/assets/media/tv-movies/blockbuster-storefront.jpg",
+        "credit": "Jon Konrath from Oakland, USA",
+        "license": "CC BY 2.0",
+        "label": "OBJECT FROM THE COLLECTION"
+      }
+    },
+    "/stories/the-cartoon-morning/": {
+      "src": "/assets/generated/share/story-the-cartoon-morning-0d5837382bde.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: The cartoon morning. Object from the collection.",
+      "inputDigest": "0d5837382bdea14df9b34bbcd07bc5b63d61f4b5a8328c36a69d24aa321baf72",
+      "sha256": "85b0432ca8417eca3660672a93d96eb63712b3cc66a6ae7bcf87e6a898d6af87",
+      "visual": {
+        "src": "/assets/media/tv-movies/1990s-television-set.jpg",
+        "credit": "ProtoKiwi",
+        "license": "CC BY 4.0",
+        "label": "OBJECT FROM THE COLLECTION"
+      }
+    },
+    "/stories/same-time-next-week/": {
+      "src": "/assets/generated/share/story-same-time-next-week-1ef740fed4e8.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Same time next week. Object from the collection.",
+      "inputDigest": "1ef740fed4e8e97e071e4dc5caa3285f1a79fe1c9d0f715dd3c23efafc91374f",
+      "sha256": "ff5add93e94aaa0b4cb4de75cc1d7af062d3fc108e7cc1d5b357b31028cdb40c",
+      "visual": {
+        "src": "/assets/media/tv-movies/1990s-television-set.jpg",
+        "credit": "ProtoKiwi",
+        "license": "CC BY 4.0",
+        "label": "OBJECT FROM THE COLLECTION"
+      }
+    },
+    "/stories/summer-at-the-multiplex/": {
+      "src": "/assets/generated/share/story-summer-at-the-multiplex-d14fe0f64ef5.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Summer at the multiplex. Editorial illustration.",
+      "inputDigest": "d14fe0f64ef5e464b4ab8e352ae83cb7bdbf6c29c081f60c717fac7aa2c38915",
+      "sha256": "b0d46bb3276028cd6763104193a52f7a4ae6f864c8bd95b3910d1dab6e73a16b",
+      "visual": {
+        "src": "/assets/editorial/movies-hero-1440.webp",
+        "credit": "Original AI-generated editorial illustration · OpenAI",
+        "license": "Original artwork",
+        "label": "EDITORIAL ILLUSTRATION"
+      }
+    },
+    "/stories/do-not-tape-over/": {
+      "src": "/assets/generated/share/story-do-not-tape-over-715d486aa075.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Do not tape over this. Object from the collection.",
+      "inputDigest": "715d486aa075d3281489a435cf92240628dcf983976f7320c58df33875200b39",
+      "sha256": "7fe371e019bfba8caaa9c8f6d6fa1e50398313c1a64e9ef0fc2ef21a1c316636",
+      "visual": {
+        "src": "/assets/media/tv-movies/vhs-videocassette-front.jpg",
+        "credit": "LoMit",
+        "license": "CC BY-SA 4.0",
+        "label": "OBJECT FROM THE COLLECTION"
+      }
+    },
+    "/stories/horror-knew-the-rules/": {
+      "src": "/assets/generated/share/story-horror-knew-the-rules-d1eff0bc88a6.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Horror knew the rules. Editorial illustration.",
+      "inputDigest": "d1eff0bc88a6c829431f26882037e95fe3be84881d626eb98ba79d8745c0749c",
+      "sha256": "411e23ee44693790ba570c7fb9152e8aaa49082d331a7f96157a9f9f8decc2db",
+      "visual": {
+        "src": "/assets/editorial/movies-hero-1440.webp",
+        "credit": "Original AI-generated editorial illustration · OpenAI",
+        "license": "Original artwork",
+        "label": "EDITORIAL ILLUSTRATION"
+      }
+    },
+    "/stories/the-family-computer/": {
+      "src": "/assets/generated/share/story-the-family-computer-234d3b5c9392.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: The family computer had a room of its own. Object from the collection.",
+      "inputDigest": "234d3b5c939278a3789197606c968ff1e630f93286cf40b439202692698236ad",
+      "sha256": "541c5a0b56b796951e34886a185826525fe025aa4585801af1085e4acc655108",
+      "visual": {
+        "src": "/assets/media/tech-toys/family-pc-rotterdam-1999.jpg",
+        "credit": "Oompje",
+        "license": "CC BY-SA 4.0",
+        "label": "OBJECT FROM THE COLLECTION"
+      }
+    },
+    "/stories/a-button-called-start/": {
+      "src": "/assets/generated/share/story-a-button-called-start-1c4c8a16382b.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: A button called Start. Object from the collection.",
+      "inputDigest": "1c4c8a16382b4d706f4620d2da51200a7f27c5efcbdd9ede87c790c3280b56d1",
+      "sha256": "5b84da7eaf1672aa114177131e4950a397b9b4efa8af4dceef69235a5bf36450",
+      "visual": {
+        "src": "/assets/media/timeline-1995/windows95-start-button.png",
+        "credit": "OS: Microsoft Corporation Files: BetaWiki-Beitragende",
+        "license": "Public domain",
+        "label": "OBJECT FROM THE COLLECTION"
+      }
+    },
+    "/stories/the-internet-came-in-the-mail/": {
+      "src": "/assets/generated/share/story-the-internet-came-in-the-mail-83e24bd6f426.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: The internet came in the mail. Object from the collection.",
+      "inputDigest": "83e24bd6f426d80919e0ccbf0df1b8ae9d001a9a01af4de2667301ec9a3f3698",
+      "sha256": "d63e728411c3d43a63b845018b8b55d5c2025b024dcb2857caa6e250c46c1a02",
+      "visual": {
+        "src": "/assets/media/tech-toys/aol-promotional-cds.jpg",
+        "credit": "Jeran Renz ( talk )",
+        "license": "CC0",
+        "label": "OBJECT FROM THE COLLECTION"
+      }
+    },
+    "/stories/a-computer-in-your-pocket/": {
+      "src": "/assets/generated/share/story-a-computer-in-your-pocket-9c175b80c6d9.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: A computer in your pocket, almost. Object from the collection.",
+      "inputDigest": "9c175b80c6d9f80001d0500a19a415b74a46da0481eef4d781c6d3390c5eacb4",
+      "sha256": "10cb459dcbdcb201768205ec67c7393744682c1dcfc7975d417fa9820ff37eeb",
+      "visual": {
+        "src": "/assets/media/tech-toys/motorola-pager-teletrim.jpg",
+        "credit": "Andrepinto40 at Portuguese Wikipedia",
+        "license": "Public domain",
+        "label": "OBJECT FROM THE COLLECTION"
+      }
+    },
+    "/stories/you-could-see-through-it/": {
+      "src": "/assets/generated/share/story-you-could-see-through-it-109d4abc05f9.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: You could see through it. Object from the collection.",
+      "inputDigest": "109d4abc05f9710fd4368561ff7d32afe10174da954310555696392ddcc1ea4a",
+      "sha256": "69dc65ea84b2cbaec9760145cacf205da9e74b5c23faa26fcb9c3d0d7a302f54",
+      "visual": {
+        "src": "/assets/media/transparent-tech/imac-g3-bondi-blue.png",
+        "credit": "Alterations by David Fuchs ; original by Rama , licensed CC-by-SA",
+        "license": "CC BY-SA 4.0",
+        "label": "OBJECT FROM THE COLLECTION"
+      }
+    },
+    "/stories/meet-me-at-the-mall/": {
+      "src": "/assets/generated/share/story-meet-me-at-the-mall-9e5740eb5a55.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Meet me at the mall. Editorial illustration.",
+      "inputDigest": "9e5740eb5a552a703e6dcaaf3c5050d5d8564f2781300a0a5d0156e69d8fae19",
+      "sha256": "2faf11e0e264a6a2c5b852a402ca35063e0260e94fc56b76d421ac2dd7f08d21",
+      "visual": {
+        "src": "/assets/editorial/culture-hero-1440.webp",
+        "credit": "Original AI-generated editorial illustration · OpenAI",
+        "license": "Original artwork",
+        "label": "EDITORIAL ILLUSTRATION"
+      }
+    },
+    "/stories/clothes-with-a-soundtrack/": {
+      "src": "/assets/generated/share/story-clothes-with-a-soundtrack-b6869fb5cd8e.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Clothes with a soundtrack. Editorial illustration.",
+      "inputDigest": "b6869fb5cd8e091efc3c2ea9469a56b9c747b362fbeb98c83f9fbdf46db6605b",
+      "sha256": "7f41022caecc7f3dbe8730f0fb6a094ec0373531dcb6445e81a029f1ae098774",
+      "visual": {
+        "src": "/assets/editorial/culture-hero-1440.webp",
+        "credit": "Original AI-generated editorial illustration · OpenAI",
+        "license": "Original artwork",
+        "label": "EDITORIAL ILLUSTRATION"
+      }
+    },
+    "/stories/the-catalog-on-your-bedroom-floor/": {
+      "src": "/assets/generated/share/story-the-catalog-on-your-bedroom-floor-fa22f1a037d3.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: The catalog on your bedroom floor. Editorial illustration.",
+      "inputDigest": "fa22f1a037d3fd3fc0ea97b948d74694307bce38984ca890c2fdfcf104be7875",
+      "sha256": "37239797a832c59e8784928f4c3a0b36f467e3ce255815805a46c2f7d26b8141",
+      "visual": {
+        "src": "/assets/editorial/culture-hero-1440.webp",
+        "credit": "Original AI-generated editorial illustration · OpenAI",
+        "license": "Original artwork",
+        "label": "EDITORIAL ILLUSTRATION"
+      }
+    },
+    "/stories/the-toy-that-needed-you/": {
+      "src": "/assets/generated/share/story-the-toy-that-needed-you-595eefa4826d.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: The toy that needed you. Object from the collection.",
+      "inputDigest": "595eefa4826d4937092c11bb5e0946b29b715b566f9b8b507c8ebff773e54c0d",
+      "sha256": "d49ffca2d4fe01f124255abb74c854e5ffd0e246c4bd61c32928e384f6956f73",
+      "visual": {
+        "src": "/assets/media/transparent-tech/game-boy-color-purple.jpg",
+        "credit": "No machine-readable author provided. Zeartul~commonswiki assumed (based on copyright claims).",
+        "license": "CC BY-SA 3.0",
+        "label": "OBJECT FROM THE COLLECTION"
+      }
+    },
+    "/stories/when-sport-left-the-scoreboard/": {
+      "src": "/assets/generated/share/story-when-sport-left-the-scoreboard-efa5b725dbb3.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: When sport left the scoreboard. Object from the collection.",
+      "inputDigest": "efa5b725dbb32ca0a4fc0e24684adea3da8aea0d4dcddf90e385ee2f9088acc9",
+      "sha256": "9992ef9ba97a9b246706bc81d8a938217acd23eed0d9cfd32c227dad1f7dbdb9",
+      "visual": {
+        "src": "/assets/media/tv-movies/1990s-television-set.jpg",
+        "credit": "ProtoKiwi",
+        "license": "CC BY 4.0",
+        "label": "OBJECT FROM THE COLLECTION"
+      }
+    },
+    "/stories/choosing-your-screen-name/": {
+      "src": "/assets/generated/share/story-choosing-your-screen-name-a1f21393bd44.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Choosing your screen name. Object from the collection.",
+      "inputDigest": "a1f21393bd442f009da61a7231b9f5eab29ca67093011d21b8292a09e44f57c6",
+      "sha256": "2de8dced1dc39b299bb722480a0c975c2a7f8a348abe4894812fc8dc0883288e",
+      "visual": {
+        "src": "/assets/media/tech-toys/family-pc-rotterdam-1999.jpg",
+        "credit": "Oompje",
+        "license": "CC BY-SA 4.0",
+        "label": "OBJECT FROM THE COLLECTION"
+      }
+    },
+    "/archive/objects/family-pc/": {
+      "src": "/assets/generated/share/object-family-pc-c0877b906427.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: The family computer becomes a portal. Object from the collection.",
+      "inputDigest": "c0877b9064277175ef11bb0a1ac1217a6da6b602d383460adecfd4015fc40071",
+      "sha256": "cde5a16af3ff42eb68d59321de69098ed10ec9585a84d4b9cf88bf58df50ba6e",
+      "visual": {
+        "src": "/assets/media/tech-toys/family-pc-rotterdam-1999.jpg",
+        "credit": "Oompje",
+        "license": "CC BY-SA 4.0",
+        "label": "OBJECT FROM THE COLLECTION"
+      }
+    },
+    "/archive/objects/windows-3/": {
+      "src": "/assets/generated/share/object-windows-3-a2fa0fe3cb28.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Windows 3.0 Program Manager. Object from the collection.",
+      "inputDigest": "a2fa0fe3cb28ecd2e93d215d065546989a3cbcdda26f2968ee29b977e287a458",
+      "sha256": "48a895ad0d79ecb6f3958c9f9992d25e9d1c5b048dbc56bc97f9d93f1704643e",
+      "visual": {
+        "src": "/assets/media/timeline-1990/windows-3-0-program-manager.png",
+        "credit": "OS: Microsoft Corporation Screenshot: PantheraLeo1359531 😺 ( talk )",
+        "license": "Public domain",
+        "label": "OBJECT FROM THE COLLECTION"
+      }
+    },
+    "/archive/objects/first-website/": {
+      "src": "/assets/generated/share/object-first-website-b915f40b362b.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: The first World Wide Web site. Object from the collection.",
+      "inputDigest": "b915f40b362b29fe7ff09f60edc04ee775ad78e2ab8345b04d76be6e29c7922e",
+      "sha256": "5da283a808368eedd5fb7d12bfdc2bd568a525972644845266e06b68b026cdde",
+      "visual": {
+        "src": "/assets/media/timeline-1991/w3-first-website.png",
+        "credit": "Cern/Tim Berners-Lee",
+        "license": "Public domain",
+        "label": "OBJECT FROM THE COLLECTION"
+      }
+    },
+    "/archive/objects/mosaic-browser/": {
+      "src": "/assets/generated/share/object-mosaic-browser-753e69421ec2.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: NCSA Mosaic browser. Object from the collection.",
+      "inputDigest": "753e69421ec2ad322bcb77230d0ecaafaf22d7cba74441fdb7b5412efb510415",
+      "sha256": "05f1d35c750795514a95f0c49fec918cd573d7e78aabae46ad8f3e6ef07f68f5",
+      "visual": {
+        "src": "/assets/media/timeline-1993/ncsa-mosaic-browser-screenshot.png",
+        "credit": "Charles Severance",
+        "license": "CC0",
+        "label": "OBJECT FROM THE COLLECTION"
+      }
+    },
+    "/archive/objects/geocities-homepage/": {
+      "src": "/assets/generated/share/object-geocities-homepage-92ac4036ef90.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Handmade GeoCities homepage. Original graphic.",
+      "inputDigest": "92ac4036ef9036061d7e3e45205034bf69c932f2ead0e1c477045cc7bafa0744",
+      "sha256": "14d2e88d76e3ecb190734b96db53ec30a8c31cac51d67055405ca6d3ddd0f390",
+      "visual": {
+        "src": null,
+        "credit": "90s.land · original graphic",
+        "license": "Original artwork",
+        "label": "ORIGINAL GRAPHIC"
+      }
+    },
+    "/archive/objects/visitor-counter/": {
+      "src": "/assets/generated/share/object-visitor-counter-0b6d59de97da.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Six-digit visitor counter. Original graphic.",
+      "inputDigest": "0b6d59de97daf97704e84e213e1fa7cfb1a79bb76795596e569da287240d0d11",
+      "sha256": "f6b4e6ce466223524d4e3d1461c86adadd9536e37f0821c41ddb5728dbcb3402",
+      "visual": {
+        "src": null,
+        "credit": "90s.land · original graphic",
+        "license": "Original artwork",
+        "label": "ORIGINAL GRAPHIC"
+      }
+    },
+    "/archive/objects/guestbook/": {
+      "src": "/assets/generated/share/object-guestbook-c1195c110e41.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Guestbook with six handles and one typo. Original graphic.",
+      "inputDigest": "c1195c110e4160f347f628642a7e913fbf6bb92467d78a25d15267d336924ab5",
+      "sha256": "2d1e012bb263bc4427d88faa7238afe9f739975dfc5923bf668d4c7e8d7d9a08",
+      "visual": {
+        "src": null,
+        "credit": "90s.land · original graphic",
+        "license": "Original artwork",
+        "label": "ORIGINAL GRAPHIC"
+      }
+    },
+    "/archive/objects/webring-bar/": {
+      "src": "/assets/generated/share/object-webring-bar-bcbd80f340b5.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Previous / random / next Webring bar. Original graphic.",
+      "inputDigest": "bcbd80f340b5e150c53470d6a887b2bd3c0c817cef29037c71268a6920bcfd9b",
+      "sha256": "8c956eb279be113a9d49a17fc5d8500db1cdbb393256a356f6d8b4e3b47bd79b",
+      "visual": {
+        "src": null,
+        "credit": "90s.land · original graphic",
+        "license": "Original artwork",
+        "label": "ORIGINAL GRAPHIC"
+      }
+    },
+    "/archive/objects/aim-away-message/": {
+      "src": "/assets/generated/share/object-aim-away-message-726c1c37a7f2.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: AIM away message. Original graphic.",
+      "inputDigest": "726c1c37a7f27f184d1fd1c9f09d622a0f4a0e0413fd374c79e16a8f93b3a11c",
+      "sha256": "d9c002725e5ed9f31d25b90304ad119cc04c6e4f5c1abb5643c7f5a71b2e4b13",
+      "visual": {
+        "src": null,
+        "credit": "90s.land · original graphic",
+        "license": "Original artwork",
+        "label": "ORIGINAL GRAPHIC"
+      }
+    },
+    "/archive/objects/yahoo-directory/": {
+      "src": "/assets/generated/share/object-yahoo-directory-3f4026388e1d.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Hand-built Yahoo directory. Original graphic.",
+      "inputDigest": "3f4026388e1ddbc1c1b546a176f458af59801ccecc8d6cd4d45b879147e0a137",
+      "sha256": "282de877b46deb5c231790a8f8a3279b00683e525de499eb0c926dbdc87c351d",
+      "visual": {
+        "src": null,
+        "credit": "90s.land · original graphic",
+        "license": "Original artwork",
+        "label": "ORIGINAL GRAPHIC"
+      }
+    },
+    "/archive/objects/aol-cd/": {
+      "src": "/assets/generated/share/object-aol-cd-b0d85f082ea1.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: AOL promotional CD. Object from the collection.",
+      "inputDigest": "b0d85f082ea11e57d46238ffbfd043bd0b7edce6b5179a0d3162d82b49870761",
+      "sha256": "50b14d67c231029d2ee5c0ab518d131558fd940524e1d22594d2cf29eea966c9",
+      "visual": {
+        "src": "/assets/media/tech-toys/aol-promotional-cds.jpg",
+        "credit": "Jeran Renz ( talk )",
+        "license": "CC0",
+        "label": "OBJECT FROM THE COLLECTION"
+      }
+    },
+    "/archive/objects/windows-95-start/": {
+      "src": "/assets/generated/share/object-windows-95-start-841cfcc7ee2d.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Windows 95 Start button. Object from the collection.",
+      "inputDigest": "841cfcc7ee2dc21663e7cd7bdcef14666455e72ce3e268cd5292d14333332a1a",
+      "sha256": "ff7b3116aa5428327a77bbff46c4919fca1d1288c1498c1d67a766ee05a71cad",
+      "visual": {
+        "src": "/assets/media/timeline-1995/windows95-start-button.png",
+        "credit": "OS: Microsoft Corporation Files: BetaWiki-Beitragende",
+        "license": "Public domain",
+        "label": "OBJECT FROM THE COLLECTION"
+      }
+    },
+    "/archive/objects/pager/": {
+      "src": "/assets/generated/share/object-pager-4e31f2521b75.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Motorola pager. Object from the collection.",
+      "inputDigest": "4e31f2521b75d960fb0f11ca99cf3751d8cae16173c750b910e5fe8dfef05734",
+      "sha256": "1a843f8f747bac8890be2b68ef1693270266b9bfbe7d3522265a393ef16b6927",
+      "visual": {
+        "src": "/assets/media/tech-toys/motorola-pager-teletrim.jpg",
+        "credit": "Andrepinto40 at Portuguese Wikipedia",
+        "license": "Public domain",
+        "label": "OBJECT FROM THE COLLECTION"
+      }
+    },
+    "/archive/objects/cassette/": {
+      "src": "/assets/generated/share/object-cassette-07ed21545e41.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Mixtape cassette. Object from the collection.",
+      "inputDigest": "07ed21545e416125031718f6fb8e107e58c77c8bbc9d680125ee5aa651c8ce8c",
+      "sha256": "6e8663061eced9b1f95ba9e41fe037578f6b2e724dad18b84171f908084e0cfe",
+      "visual": {
+        "src": "/assets/media/music/compact-cassette-maxell.jpg",
+        "credit": "Andrey Korzun",
+        "license": "CC BY-SA 4.0",
+        "label": "OBJECT FROM THE COLLECTION"
+      }
+    },
+    "/archive/objects/discman/": {
+      "src": "/assets/generated/share/object-discman-4cf4552d1e93.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Sony Discman. Object from the collection.",
+      "inputDigest": "4cf4552d1e93fe2cab058196a674da0582c3dc0ab03777363565e441132a7903",
+      "sha256": "69382ec39b6d06fda2a8670049ed1e17c4427c3fe54551df1863480a40b4237d",
+      "visual": {
+        "src": "/assets/media/music/discman-d121.jpg",
+        "credit": "Morn at English Wikipedia",
+        "license": "CC BY-SA 3.0",
+        "label": "OBJECT FROM THE COLLECTION"
+      }
+    },
+    "/archive/objects/cdr-spindle/": {
+      "src": "/assets/generated/share/object-cdr-spindle-8c12a09048c0.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Blank CD-R spindle. Object from the collection.",
+      "inputDigest": "8c12a09048c0dd6a28fabdb3b2128c5291871272b8bddf8246354c7d06b36e5b",
+      "sha256": "0800faa3e2c624c6382f97890b6babaa72859816bff8ed6dbc6104fc499ed355",
+      "visual": {
+        "src": "/assets/media/music/cd-r-spindle.jpg",
+        "credit": "Nin-TD",
+        "license": "CC BY-SA 3.0",
+        "label": "OBJECT FROM THE COLLECTION"
+      }
+    },
+    "/archive/objects/vhs-tape/": {
+      "src": "/assets/generated/share/object-vhs-tape-b23b64db63ed.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: VHS videocassette. Object from the collection.",
+      "inputDigest": "b23b64db63ed46a55993129fad17a0ace0fc0f5ae71931dbb019ccfd7de24c5e",
+      "sha256": "9f3f595d88620b3b5100fda125f26340fecd6d81a8247174a5fb5c6fccc7e5a2",
+      "visual": {
+        "src": "/assets/media/tv-movies/vhs-videocassette-front.jpg",
+        "credit": "LoMit",
+        "license": "CC BY-SA 4.0",
+        "label": "OBJECT FROM THE COLLECTION"
+      }
+    },
+    "/archive/objects/crt-television/": {
+      "src": "/assets/generated/share/object-crt-television-1041a9552c12.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Living-room CRT television. Object from the collection.",
+      "inputDigest": "1041a9552c1281071f24de9d48ed6cf775746060542407c185e1d620b2bfc765",
+      "sha256": "63ca471a2072c4c3050d8fbc5c7737e3dcba256433860126008cb1ff1a224b35",
+      "visual": {
+        "src": "/assets/media/tv-movies/1990s-television-set.jpg",
+        "credit": "ProtoKiwi",
+        "license": "CC BY 4.0",
+        "label": "OBJECT FROM THE COLLECTION"
+      }
+    },
+    "/archive/objects/blockbuster-store/": {
+      "src": "/assets/generated/share/object-blockbuster-store-f21e8b2b1ede.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Blockbuster store interior. Object from the collection.",
+      "inputDigest": "f21e8b2b1ede0de721cabe08562273932b04d73c2e40161d5ce39b6480f899f8",
+      "sha256": "acc70c9e9cb1efac755ddf580839a8bfe6973418e50b920ce9d2226fa3b108f6",
+      "visual": {
+        "src": "/assets/media/tv-movies/blockbuster-storefront.jpg",
+        "credit": "Jon Konrath from Oakland, USA",
+        "license": "CC BY 2.0",
+        "label": "OBJECT FROM THE COLLECTION"
+      }
+    },
+    "/archive/objects/arcade-cabinet/": {
+      "src": "/assets/generated/share/object-arcade-cabinet-76748c15193a.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Arcade cabinet. Object from the collection.",
+      "inputDigest": "76748c15193a64e8cc374d444831a65995ed2720eb63615eaefb1d8b0a07c240",
+      "sha256": "bf2c9989c3557d01a1e41b9da46b4cac0dab0a876d4b6ddd919f84ff29ec5685",
+      "visual": {
+        "src": "/assets/media/games/marble-madness-arcade-cabinet.jpg",
+        "credit": "Halcyanide",
+        "license": "CC BY-SA 4.0",
+        "label": "OBJECT FROM THE COLLECTION"
+      }
+    },
+    "/archive/objects/genesis-controller/": {
+      "src": "/assets/generated/share/object-genesis-controller-20cfb3f5e7fc.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Sega Genesis six-button controller. Object from the collection.",
+      "inputDigest": "20cfb3f5e7fcc8a5494b2bceba5c6a09f8f352ee49a4b321561ea049a43e4fca",
+      "sha256": "1b9419d0b4c72e48af51251153c65224be3410bf9f1de1f45aa389744be6ce85",
+      "visual": {
+        "src": "/assets/media/games/sega-genesis-6-button-controller.jpg",
+        "credit": "Evan-Amos",
+        "license": "CC BY-SA 3.0",
+        "label": "OBJECT FROM THE COLLECTION"
+      }
+    },
+    "/archive/objects/n64-controller/": {
+      "src": "/assets/generated/share/object-n64-controller-9bbe21b14d73.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Gray Nintendo 64 controller. Object from the collection.",
+      "inputDigest": "9bbe21b14d73d1f4af4860644eab531aa791d21473676b061ee3ef67d58e315e",
+      "sha256": "b4cdb6ca879e669d0af282b518ca19829a48d3bea47a1c2c9a462aaeb8e949f3",
+      "visual": {
+        "src": "/assets/media/games/n64-controller-gray.jpg",
+        "credit": "Evan-Amos",
+        "license": "Public domain",
+        "label": "OBJECT FROM THE COLLECTION"
+      }
+    },
+    "/archive/objects/playstation-hardware/": {
+      "src": "/assets/generated/share/object-playstation-hardware-f4908161d9d4.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Original PlayStation hardware. Object from the collection.",
+      "inputDigest": "f4908161d9d4aed39d64d5baab3b5f860d814c6776271deeccaa936c562c8169",
+      "sha256": "8d4d1964d2ccb5c3ad31b359dc24bf193e9eb6f4ae7c84053ffb08a37541367d",
+      "visual": {
+        "src": "/assets/media/timeline-1995/playstation-controller.jpg",
+        "credit": "Evan-Amos",
+        "license": "Public domain",
+        "label": "OBJECT FROM THE COLLECTION"
+      }
+    },
+    "/archive/objects/bondi-imac/": {
+      "src": "/assets/generated/share/object-bondi-imac-47ee0bbdf16f.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Bondi blue iMac G3. Object from the collection.",
+      "inputDigest": "47ee0bbdf16fd370033d5c1118a4bb2ebabeb9f51f4edb7199042f04a22863c1",
+      "sha256": "d0531ee743d9abf37fa869c12f5a4df37a2dc4927953646c43dc0f3379f2510b",
+      "visual": {
+        "src": "/assets/media/transparent-tech/imac-g3-bondi-blue.png",
+        "credit": "Alterations by David Fuchs ; original by Rama , licensed CC-by-SA",
+        "license": "CC BY-SA 4.0",
+        "label": "OBJECT FROM THE COLLECTION"
+      }
+    },
+    "/archive/objects/dreamcast/": {
+      "src": "/assets/generated/share/object-dreamcast-eef9e100060d.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Sega Dreamcast. Object from the collection.",
+      "inputDigest": "eef9e100060d279b01ef9554b8a0ea15f1b7df6126501a5533e456f9c1801537",
+      "sha256": "0d7ab42014e11dac66fc8db392a60aa6cb8062f14aa0bda79b031d5ec41b5c8f",
+      "visual": {
+        "src": "/assets/media/timeline-1999/dreamcast-console.jpg",
+        "credit": "Evan-Amos",
+        "license": "CC BY-SA 3.0",
+        "label": "OBJECT FROM THE COLLECTION"
+      }
+    },
+    "/archive/objects/y2k-office/": {
+      "src": "/assets/generated/share/object-y2k-office-a7377aa35654.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Y2K response office. Object from the collection.",
+      "inputDigest": "a7377aa35654d8ed6e22061294e584724dc6a114a86daeb9b271e1b8eeb35f15",
+      "sha256": "50f2bf641738151ff4b2bbcf722cac94ba592be7b2d3d1559d6e2df1d3814f45",
+      "visual": {
+        "src": "/assets/media/timeline-1999/y2k-response-office.jpg",
+        "credit": "Cabinet Public Affairs Office, Government of Japan / Prime Minister’s Office website",
+        "license": "CC BY 4.0 (Government of Japan Standard Terms of Use 2.0)",
+        "label": "OBJECT FROM THE COLLECTION"
+      }
+    },
+    "/archive/objects/hubble-launch/": {
+      "src": "/assets/generated/share/object-hubble-launch-1c31ef65ebbf.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Hubble launch. Object from the collection.",
+      "inputDigest": "1c31ef65ebbf46f5bcb64022d8245d29b2d071b32a8a78eddc2f2fdf6fde3ac2",
+      "sha256": "90d3757a09ad345441dd43f2b43b86bd348db7ed741d7f474aa51a4b7dee1ce0",
+      "visual": {
+        "src": "/assets/media/timeline-1990/hubble-launch.jpg",
+        "credit": "NASA / ESA",
+        "license": "Public domain",
+        "label": "OBJECT FROM THE COLLECTION"
+      }
+    },
+    "/archive/objects/doom-disks/": {
+      "src": "/assets/generated/share/object-doom-disks-0c86ccc286da.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Doom shareware disks. Object from the collection.",
+      "inputDigest": "0c86ccc286da5a01b361cfb1b57154e123aec4fbf64cbee211b9369ac88e4da3",
+      "sha256": "d09894d3dfd74ed794a56d4419318d5186b9f36fff8d7984f6926d006c759c55",
+      "visual": {
+        "src": "/assets/media/timeline-1993/doom-disks.jpg",
+        "credit": "Pelle Wessman from Malmö, Sweden",
+        "license": "CC BY-SA 2.0",
+        "label": "OBJECT FROM THE COLLECTION"
+      }
+    },
+    "/archive/objects/game-boy-color/": {
+      "src": "/assets/generated/share/object-game-boy-color-cb969b8d7995.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Atomic Purple Game Boy Color. Object from the collection.",
+      "inputDigest": "cb969b8d79956b62b53f3e3d8507695978125ebc0a00fa703e380f6550d17960",
+      "sha256": "cffe984041b0120fa5624825dc905deb42c44d50df32f6fb9e99cae9f45d7692",
+      "visual": {
+        "src": "/assets/media/transparent-tech/game-boy-color-purple.jpg",
+        "credit": "No machine-readable author provided. Zeartul~commonswiki assumed (based on copyright claims).",
+        "license": "CC BY-SA 3.0",
+        "label": "OBJECT FROM THE COLLECTION"
+      }
+    },
+    "/archive/objects/transparent-n64-controller/": {
+      "src": "/assets/generated/share/object-transparent-n64-controller-19e9a832dd35.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Transparent purple N64 controller. Object from the collection.",
+      "inputDigest": "19e9a832dd35b0fdc0014d6695f551f02bd1792d3e220170c8717b78f4c27592",
+      "sha256": "588e9ca3032420fe8fb45ddd1b43ded1715ef4a4b1ef176db8e8c1a783221d8a",
+      "visual": {
+        "src": "/assets/media/transparent-tech/n64-controller-purple.jpg",
+        "credit": "mboverload, Wikimedia Commons",
+        "license": "Public domain",
+        "label": "OBJECT FROM THE COLLECTION"
+      }
+    }
+  }
+}
