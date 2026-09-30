@@ -148,7 +148,7 @@ body:before{background-image:radial-gradient(#d8d9ff 0.6px,transparent 1px),radi
 .ed-motto>span{font-size:28px}
 .ed-header .menu-toggle{display:flex;position:absolute;right:16px;top:29px;align-items:center;gap:4px;padding:7px 9px;color:#fff;background:#0b1024;border:1px solid var(--ed-border);font:600 12px var(--ed-label);border-radius:3px}
 .ed-nav{display:none;position:absolute;left:16px;right:16px;top:84px;height:auto;padding:8px;z-index:50;grid-template-columns:repeat(3,1fr);background:#080e20;border:1px solid var(--ed-border);box-shadow:0 15px 20px #0009}
-.ed-nav.is-open,.no-js .ed-nav{display:grid}
+.no-js .ed-nav{display:grid}
 .ed-nav>a{min-height:40px;font-size:14px;padding:10px}
 .no-js .ed-header{height:230px}
 .no-js .ed-header .menu-toggle{display:none}
@@ -231,3 +231,20 @@ body:before{background-image:radial-gradient(#d8d9ff 0.6px,transparent 1px),radi
 @media(prefers-reduced-motion:reduce){
 .ed-tile-art img{transition:none}
 .ed-tile:hover .ed-tile-art img{transform:none}}
+
+/* The directory extends the approved shell on every screen size. */
+.ed-header .menu-toggle{display:flex;position:absolute;right:24px;top:3px;align-items:center;gap:5px;padding:6px 10px;min-height:34px;color:var(--ed-text);background:var(--ed-panel);border:1px solid var(--ed-border);font:600 13px var(--ed-label);border-radius:var(--ed-radius)}
+.ed-motto{right:118px}
+.directory-fallback{display:none}
+.no-js .ed-header .menu-toggle{display:none}
+.no-js .directory-fallback{display:block;position:absolute;right:24px;top:8px;font:600 13px var(--ed-label)}
+.directory-dialog{width:min(900px,calc(100% - 32px));max-height:88dvh}
+.directory-dialog .dialog-heading h2{margin:0;font:400 29px/1.1 var(--ed-display);color:var(--ed-text)}
+.directory-dialog .dialog-close{min-width:44px;min-height:44px}
+.directory-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px;padding:24px}
+.directory-grid section{min-width:0}
+.directory-grid h3{font:700 15px var(--ed-label);text-transform:uppercase;letter-spacing:.04em;color:var(--ed-cyan);margin:0 0 8px;border-bottom:1px solid var(--ed-border);padding-bottom:10px}
+.directory-grid a,.directory-grid button{display:flex;align-items:center;justify-content:space-between;min-height:44px;width:100%;padding:8px 0;color:var(--ed-text);font:600 17px/1.2 var(--ed-label);text-align:left;text-decoration:none;background:transparent;border:0;border-radius:0;overflow-wrap:anywhere}
+.directory-grid a:hover,.directory-grid button:hover{color:var(--ed-yellow)}
+@media(max-width:800px){.ed-header .menu-toggle{right:16px;top:24px;min-height:44px}.ed-motto{right:96px}.directory-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}.no-js .directory-fallback{top:26px;right:16px}}
+@media(max-width:520px){.directory-grid{padding:18px;gap:18px}.directory-grid a,.directory-grid button{font-size:16px}.directory-dialog .dialog-heading{padding:12px 16px}.directory-dialog .dialog-heading h2{font-size:26px}.no-js .directory-fallback{max-width:80px;line-height:1.2}}

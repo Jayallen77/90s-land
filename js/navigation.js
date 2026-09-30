@@ -11,37 +11,27 @@ function restoreDialogFocus(dialog) {
   }
 }
 
-function closeMobileMenu(toggle, nav, restoreFocus = false) {
-  toggle.setAttribute("aria-expanded", "false");
-  nav.classList.remove("is-open");
-  document.body.classList.remove("menu-open");
-  if (restoreFocus) toggle.focus();
-}
-
-function initializeMobileMenu() {
+function initializeDirectory() {
   const toggle = document.querySelector(".menu-toggle");
-  const nav = document.querySelector("#siteNav");
-  if (!toggle || !nav) return;
+  const directory = document.querySelector("#museumDirectory");
+  if (!toggle || !directory) return;
 
   toggle.addEventListener("click", () => {
-    const willOpen = toggle.getAttribute("aria-expanded") !== "true";
-    toggle.setAttribute("aria-expanded", String(willOpen));
-    nav.classList.toggle("is-open", willOpen);
-    document.body.classList.toggle("menu-open", willOpen);
-    if (willOpen) nav.querySelector("a")?.focus();
+    openDialog(directory, toggle);
+    toggle.setAttribute("aria-expanded", "true");
+    directory.querySelector("a")?.focus();
   });
 
-  nav.addEventListener("click", (event) => {
-    if (event.target.closest("a")) closeMobileMenu(toggle, nav);
+  directory.addEventListener("close", () => {
+    toggle.setAttribute("aria-expanded", "false");
   });
-
-  document.addEventListener("keydown", (event) => {
-    if (
-      event.key === "Escape" &&
-      toggle.getAttribute("aria-expanded") === "true" &&
-      !document.querySelector("dialog[open]")
-    ) {
-      closeMobileMenu(toggle, nav, true);
+  directory.addEventListener("click", event => {
+    if (event.target.closest("a, [data-directory-passport]")) {
+      // Switching dialogs must return focus to the visible menu control.
+      if (event.target.closest('[data-directory-passport]')) {
+        dialogTriggers.delete(directory);
+        directory.close();
+      } else closeDialog(directory);
     }
   });
 }
@@ -96,6 +86,6 @@ function initializeDialogs() {
 }
 
 export function initializeNavigation() {
-  initializeMobileMenu();
   initializeDialogs();
+  initializeDirectory();
 }

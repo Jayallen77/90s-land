@@ -27,7 +27,7 @@ test('mobile game links have comfortable hit areas and accessible labels',async(
 test('keyboard navigation opens the menu, filters games and returns from Passport',async({page})=>{
  await page.setViewportSize({width:390,height:844});await page.goto('/zones/games/');
  await page.locator('#menuToggle').focus();await page.keyboard.press('Enter');
- await expect(page.locator('#siteNav a').first()).toBeFocused();
+ await expect(page.locator('#museumDirectory a').first()).toBeFocused();
  await page.keyboard.press('Escape');await expect(page.locator('#menuToggle')).toBeFocused();
  await page.locator('[data-hub-filter="genre"][data-value="racing"]').focus();await page.keyboard.press('Enter');
  await expect(page.locator('[data-hub-game]:visible')).toHaveCount(2);

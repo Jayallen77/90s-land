@@ -46,9 +46,29 @@ def shell_header(route):
     return f'''<header class="ed-header" id="top">
       <a class="ed-brand" href="/"><img src="/assets/editorial/palm-sunset.svg" alt="" width="180" height="105" loading="eager" decoding="async" /><span class="ed-wordmark">90s.land</span> <span class="ed-tagline">RELIVE THE DECADE</span><span class="sr-only"> home</span></a>
       <p class="ed-motto"><span aria-hidden="true">☻</span> GOOD TIMES<br />ALWAYS HERE</p>
-      <button class="menu-toggle" id="menuToggle" type="button" aria-expanded="false" aria-controls="siteNav">☰ <span>Menu</span></button>
+      <button class="menu-toggle" id="menuToggle" type="button" aria-expanded="false" aria-controls="museumDirectory" aria-haspopup="dialog">☰ <span>Menu</span></button>
+      <a class="directory-fallback" href="/sitemap/">Museum directory</a>
       <nav id="siteNav" class="ed-nav" aria-label="Main navigation">{''.join(items)}<a class="ed-search" href="/search/" aria-label="Search the 90s">{icon('search')}</a></nav>
     </header>'''
+
+
+def directory():
+    groups = [
+        ('Explore', [('Home', '/'), ('Timeline', '/timeline/'), ('This Week', '/this-week/'), ('Stories', '/stories/'), ('Objects', '/archive/objects/')]),
+        ('Collections', [(item['label'], item['href']) for item in NAVIGATION if item['href'].startswith('/zones/')] + [('Fashion', '/zones/fashion/'), ('Internet Culture', '/zones/internet-culture/'), ('Transparent Tech', '/zones/transparent-tech/')]),
+        ('Play / Experience', [('Before the Feed', '/tours/before-the-feed/'), ('Surprise Me', '/surprise/')]),
+        ('More', [('Search', '/search/'), ('Resources', '/webring/'), ('Sources & Credits', '/credits/'), ('Sitemap', '/sitemap/'), ('Guestbook preview', '/guestbook/')]),
+    ]
+    sections = []
+    for title, links in groups:
+        items = ''.join(f'<a href="{href}">{esc(label)}</a>' for label, href in links)
+        if title == 'Play / Experience':
+            items += '<button type="button" data-directory-passport>Passport <span data-passport-count>0</span></button>'
+        sections.append(f'<section><h3>{esc(title)}</h3>{items}</section>')
+    return f'''<dialog class="museum-dialog directory-dialog" id="museumDirectory" aria-labelledby="directoryTitle">
+      <div class="dialog-heading"><h2 id="directoryTitle">The museum directory</h2><button type="button" class="dialog-close" data-dialog-close="museumDirectory" aria-label="Close museum directory">×</button></div>
+      <nav class="directory-grid" aria-label="Museum directory">{''.join(sections)}</nav>
+    </dialog>'''
 
 
 def discovery():

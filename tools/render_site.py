@@ -114,7 +114,7 @@ def render_shared_ui() -> str:
 
   <dialog class="museum-dialog surprise-dialog" id="surpriseDialog" aria-labelledby="surpriseTitle">
     <div class="dialog-window">
-      <div class="dialog-heading"><span>Surprise Me</span><button type="button" class="dialog-close" data-dialog-close="surpriseDialog" aria-label="Close Surprise Me">×</button></div>
+      <div class="dialog-heading"><span id="surpriseTitle">Surprise Me</span><button type="button" class="dialog-close" data-dialog-close="surpriseDialog" aria-label="Close Surprise Me">×</button></div>
       <div class="dialog-body" data-surprise-loading>
         <p class="eyebrow">Loading from CD-ROM…</p>
         <div class="cd-loader" aria-hidden="true"></div>
@@ -122,7 +122,7 @@ def render_shared_ui() -> str:
       </div>
       <div class="dialog-body" data-surprise-ready hidden>
         <p class="eyebrow">Random memory loaded</p>
-        <h2 id="surpriseTitle" data-surprise-title>Surprise Me</h2>
+        <h2 data-surprise-title>Surprise Me</h2>
         <p data-surprise-teaser></p>
         <p class="artifact-meta-line" data-surprise-meta></p>
         <div class="dialog-actions">
@@ -130,6 +130,11 @@ def render_shared_ui() -> str:
           <button class="button" type="button" data-surprise-again>Try another</button>
           <button class="button subtle" type="button" data-dialog-close="surpriseDialog">Not now</button>
         </div>
+      </div>
+      <div class="dialog-body" data-surprise-error hidden role="status">
+        <h2>The disc needs another spin.</h2>
+        <p>We couldn’t load a random memory. Try again, or pick an object from the collection.</p>
+        <div class="dialog-actions"><button class="button" type="button" data-surprise-retry>Try again</button><a class="button primary" href="/archive/objects/">Browse objects</a></div>
       </div>
     </div>
   </dialog>
@@ -548,8 +553,8 @@ def render_credits_main() -> str:
       <p><strong>Verified</strong> artifacts use a source trail. <strong>Editorial</strong> objects are clearly labeled original recreations. Items marked <strong>needs source</strong> are excluded from Surprise Me and guided tours.</p>
       <h2>Image adaptations</h2><p>Photographs are locally resized and may be cropped by the page layout. Credits name the original creators and link to the original file records; Creative Commons ShareAlike terms continue to apply to adapted images. Original interface recreations are labeled separately. The Y2K office photograph is credited to the Government of Japan, Prime Minister’s Office website, under its Standard Terms of Use 2.0, compatible with CC BY 4.0.</p>
       <h2>Sharing artwork</h2>
-      <p>The Home, 1996 Timeline, Games, Music, Movies &amp; TV, Tech, and Culture hero collages are original AI-generated editorial illustrations made with OpenAI’s built-in image tool on September 26–27, 2026. They evoke the decade and are not documentary photographs or evidence of release dates. Brands and illustrated products belong to their respective owners. The palm/sunset brand mark and interface icons are original SVG artwork.</p>
-      <p>The 1200×630 social card uses one original OpenAI-generated museum-case background, based on the completed local lobby as a style reference, with all visible type applied deterministically from the self-hosted fonts.</p>
+      <p>The Home, 1996 Timeline, Games, Music, Movies &amp; TV, Tech, and Culture hero collages are original AI-generated editorial illustrations created with OpenAI on September 26–27, 2026. They evoke the decade and are not documentary photographs or evidence of release dates. Brands and illustrated products belong to their respective owners. The palm/sunset brand mark and interface icons are original SVG artwork.</p>
+      <p>The sharing card combines an original AI-generated museum-case illustration created with OpenAI and lettering in Press Start 2P and Space Mono.</p>
     </section>
   </main>"""
 
@@ -568,10 +573,10 @@ def page_document(route: dict, main: str, body_class: str = "") -> str:
   <link rel="preload" href="/assets/fonts/Barlow-Regular.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/assets/fonts/BarlowCondensed-Bold.woff2" as="font" type="font/woff2" crossorigin />
 {region("head", render_head(route))}
-  <link rel="stylesheet" href="/styles.css?v=cohesion-1" />
-  <link rel="stylesheet" href="/editorial.css?v=cohesion-1" />
-  <link rel="stylesheet" href="/archive.css?v=cohesion-1" />
-  <link rel="stylesheet" href="/hub.css?v=cohesion-1" />
+  <link rel="stylesheet" href="/styles.css?v=launch-phase1" />
+  <link rel="stylesheet" href="/editorial.css?v=launch-phase1" />
+  <link rel="stylesheet" href="/archive.css?v=launch-phase1" />
+  <link rel="stylesheet" href="/hub.css?v=launch-phase1" />
 </head>
 <body{body_attr} data-route="{esc(route["path"])}" data-room="{esc(route_room(route))}">
   <a class="skip-link" href="#main-content">Skip to museum content</a>
@@ -579,8 +584,9 @@ def page_document(route: dict, main: str, body_class: str = "") -> str:
 {main}
 {editorial.discovery()}
 {editorial.shell_footer()}
+{editorial.directory()}
 {region("shared-ui", render_shared_ui())}
-  <script type="module" src="/js/app.js?v=cohesion-1"></script>
+  <script type="module" src="/js/app.js?v=launch-phase1"></script>
 </body>
 </html>
 """

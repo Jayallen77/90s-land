@@ -110,7 +110,7 @@ function renderWeekDays(start, events) {
     const items = events.filter(e => e.date===date);
     section.classList.toggle('ar-day-empty',items.length===0);
     if (items.length) content.append(...items.map(e => eventLink(e)));
-    else content.append(element('p','ar-muted','No sourced entry added yet.'));
+    else content.append(element('p','ar-muted','No entries for this day.'));
     section.append(content); fragment.append(section);
   }
   return fragment;

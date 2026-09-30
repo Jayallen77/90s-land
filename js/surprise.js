@@ -1,6 +1,6 @@
 import { announce } from "./announce.js";
-import { openDialog } from "./navigation.js";
-import { awardStamp } from "./passport.js";
+import { openDialog } from "./navigation.js?v=launch-phase1";
+import { awardStamp } from "./passport.js?v=launch-phase1";
 import {
   readJson,
   sessionStore,
@@ -47,8 +47,10 @@ function displayArtifact(dialog, artifact) {
 }
 
 async function reveal(dialog) {
+  currentArtifact = undefined;
   dialog.querySelector("[data-surprise-loading]").hidden = false;
   dialog.querySelector("[data-surprise-ready]").hidden = true;
+  dialog.querySelector("[data-surprise-error]").hidden = true;
   try {
     const [items] = await Promise.all([
       loadArtifacts(),
@@ -58,7 +60,9 @@ async function reveal(dialog) {
     ]);
     displayArtifact(dialog, chooseArtifact(items));
   } catch {
-    window.location.assign("/surprise/");
+    artifactsPromise = undefined;
+    dialog.querySelector("[data-surprise-loading]").hidden = true;
+    dialog.querySelector("[data-surprise-error]").hidden = false;
   }
 }
 
@@ -76,7 +80,7 @@ export function initializeSurprise() {
       reveal(dialog);
       return;
     }
-    if (event.target.closest("[data-surprise-again]")) reveal(dialog);
+    if (event.target.closest("[data-surprise-again], [data-surprise-retry]")) reveal(dialog);
     if (event.target.closest("[data-surprise-open]") && currentArtifact) {
       awardStamp(
         "random-memory",

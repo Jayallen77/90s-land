@@ -59,7 +59,7 @@ test("mobile menu focuses the first link and restores focus", async ({ page }) =
   const toggle = page.locator(".menu-toggle");
   await toggle.click();
   await expect(toggle).toHaveAttribute("aria-expanded", "true");
-  await expect(page.locator("#siteNav a").first()).toBeFocused();
+  await expect(page.locator("#museumDirectory a").first()).toBeFocused();
   await page.keyboard.press("Escape");
   await expect(toggle).toHaveAttribute("aria-expanded", "false");
   await expect(toggle).toBeFocused();

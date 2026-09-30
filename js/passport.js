@@ -1,5 +1,5 @@
 import { announce } from "./announce.js";
-import { closeDialog, openDialog } from "./navigation.js";
+import { closeDialog, openDialog } from "./navigation.js?v=launch-phase1";
 import {
   localStore,
   PASSPORT_KEY,
@@ -9,6 +9,7 @@ import {
 
 const VERSION = 1;
 const TRACKABLE_ROOMS = new Set([
+  "culture",
   "fashion",
   "games",
   "internet-culture",
@@ -163,6 +164,11 @@ export function initializePassport() {
   const dialog = document.querySelector("#passportDialog");
   const resetDialog = document.querySelector("#passportResetDialog");
   if (!trigger || !dialog || !resetDialog) return;
+  let activeTrigger = trigger;
+  const showPassport = origin => {
+    activeTrigger = origin;
+    openDialog(dialog, activeTrigger);
+  };
 
   trigger.hidden = false;
   document.querySelectorAll("[data-storage-note]").forEach((note) => {
@@ -173,23 +179,26 @@ export function initializePassport() {
     }
   });
 
-  trigger.addEventListener("click", () => openDialog(dialog, trigger));
+  trigger.addEventListener("click", () => showPassport(trigger));
   document.addEventListener("click", (event) => {
+    if (event.target.closest('[data-directory-passport]')) {
+      showPassport(document.querySelector('#menuToggle'));
+    }
     const inspect = event.target.closest("[data-artifact-inspect]");
     if (inspect) recordArtifact(inspect.dataset.artifactInspect);
 
     if (event.target.closest("[data-passport-reset-open]")) {
       closeDialog(dialog);
-      openDialog(resetDialog, trigger);
+      openDialog(resetDialog, activeTrigger);
     }
     if (event.target.closest("[data-passport-reset-cancel]")) {
       closeDialog(resetDialog);
-      openDialog(dialog, trigger);
+      showPassport(activeTrigger);
     }
     if (event.target.closest("[data-passport-reset-confirm]")) {
       resetPassport();
       closeDialog(resetDialog);
-      openDialog(dialog, trigger);
+      showPassport(activeTrigger);
     }
   });
 

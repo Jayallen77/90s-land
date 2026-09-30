@@ -1,5 +1,5 @@
 import { announce } from "./announce.js";
-import { awardStamp, getPassport, saveTourProgress } from "./passport.js";
+import { awardStamp, getPassport, saveTourProgress } from "./passport.js?v=launch-phase1";
 
 const TOUR_ID = "before-the-feed";
 
@@ -12,10 +12,13 @@ export function initializeTour() {
   const progressMeter = progressBar.closest('[role="progressbar"]');
   const progressCopy = main.querySelector("[data-tour-progress-copy]");
   let activeIndex = 0;
+  let completed = Boolean(getPassport().tourProgress[TOUR_ID]?.completed);
 
   function validIndexFromHash() {
-    const id = decodeURIComponent(window.location.hash.slice(1));
-    return stops.findIndex((stop) => stop.id === id);
+    try {
+      const id = decodeURIComponent(window.location.hash.slice(1));
+      return stops.findIndex((stop) => stop.id === id);
+    } catch { return -1; }
   }
 
   function render(index, options = {}) {
@@ -32,8 +35,14 @@ export function initializeTour() {
     saveTourProgress(TOUR_ID, {
       stopId: current.id,
       stopNumber: number,
-      completed: false,
+      completed,
     });
+    const finished = completed && activeIndex === stops.length - 1;
+    const next = current.querySelector('[data-tour-next]');
+    next.disabled = finished;
+    next.textContent = finished ? 'Tour complete ✓' : activeIndex === stops.length - 1 ? 'Complete tour' : 'Next stop';
+    current.classList.toggle('is-complete', finished);
+    if (finished) progressCopy.textContent = 'Tour complete. Your Before the Feed stamp is ready.';
     if (options.updateHash !== false) {
       window.history.pushState(null, "", `#${current.id}`);
     }
@@ -51,6 +60,7 @@ export function initializeTour() {
   }
 
   function complete() {
+    completed = true;
     const last = stops.at(-1);
     last.hidden = false;
     last.classList.add("is-complete");
@@ -85,7 +95,21 @@ export function initializeTour() {
 
   window.addEventListener("popstate", () => {
     const hashIndex = validIndexFromHash();
-    if (hashIndex >= 0) render(hashIndex, { updateHash: false });
+    render(Math.max(hashIndex, 0), { updateHash: false });
+  });
+  window.addEventListener('hashchange', () => {
+    const hashIndex = validIndexFromHash();
+    if (hashIndex >= 0 && hashIndex !== activeIndex) render(hashIndex, {updateHash: false});
+  });
+  window.addEventListener('passport:changed', event => {
+    if (!completed || event.detail.tourProgress[TOUR_ID]) return;
+    completed = false;
+    const last = stops.at(-1);
+    last.classList.remove('is-complete');
+    const next = last.querySelector('[data-tour-next]');
+    next.disabled = false;
+    next.textContent = 'Complete tour';
+    progressCopy.textContent = `Stop ${activeIndex + 1} of ${stops.length}: ${stops[activeIndex].querySelector('h2').textContent}`;
   });
 
   const hashIndex = validIndexFromHash();

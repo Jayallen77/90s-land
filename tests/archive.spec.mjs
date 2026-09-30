@@ -99,7 +99,7 @@ test('week navigation, deep links, empty states and year changes stay coherent',
   await expect(page.locator('[data-week-prev]')).toBeDisabled();
   await page.goto('/this-week/?date=1990-01-22');
   await expect(page.locator('[data-week-empty]')).toBeVisible();
-  await expect(page.locator('[data-week-empty]')).toContainText('No sourced events');
+  await expect(page.locator('[data-week-empty]')).toContainText('No events in the archive');
   await expect(page.locator('[data-week-nearby]')).toContainText('Outside the selected week');
   await page.goto('/this-week/?date=1999-12-31');
   await expect(page.locator('[data-week-next]')).toBeDisabled();
