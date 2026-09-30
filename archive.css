@@ -145,3 +145,13 @@
 }
 
 .js .ar-nojs-only {display:none;}
+
+/* Shared reading and image treatment. Never enlarge small source images into heroes. */
+.ar-breadcrumb{flex-wrap:wrap;align-items:center;padding:18px 0 12px;line-height:1.4}
+.ar-breadcrumb [aria-current]{color:#929ebc;max-width:70ch}
+.ar-detail-art{background:#10172c}.ar-detail-art img{width:auto;max-width:100%;height:auto;max-height:320px;margin:auto;object-fit:contain}
+.ar-main .ar-heading{padding-top:15px}.ed-main .ar-article .ar-heading h1{text-transform:none;text-shadow:none}
+.ed-discovery{padding:14px 24px;max-width:1440px}.ed-footer{padding-left:24px;padding-right:24px;max-width:1440px}
+.ed-main .ed-text-link,.ed-panel-heading>a{font-size:13px}.ed-six-up h3{font-size:15px;line-height:1.25}
+.ar-sources{overflow-wrap:anywhere}.ar-article .ar-detail-links{line-height:1.5}
+@media(max-width:600px){.ar-breadcrumb{font-size:13px;gap:7px}.ar-breadcrumb [aria-current]{max-width:100%}.ed-main .ar-heading h1{font-size:44px}.ed-main .ar-article .ar-heading h1{font-size:38px}.ed-discovery{padding:16px}.ed-footer{padding:0}.ar-article>p,.ar-article section>p{font-size:17px}.hub-game .ed-graphic{padding:12px}.hub-game .ed-graphic strong{font-size:25px}}

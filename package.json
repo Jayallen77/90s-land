@@ -25,7 +25,8 @@
     "build": "python3 -B tools/build_release.py",
     "build:check": "python3 -B tools/build_release.py --check",
     "release:publish": "python3 -B tools/deploy_release.py",
-    "release:audit": "python3 -B tools/check_release_http.py"
+    "release:audit": "python3 -B tools/check_release_http.py",
+    "screenshots:redesign": "node tools/capture_redesign.mjs"
   },
   "devDependencies": {
     "@axe-core/playwright": "4.12.1",

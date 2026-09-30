@@ -15,18 +15,19 @@ def stamp(value):
 
 
 def art(key, label='90s archive'):
+    if key in model.HEROES: return ed.graphic(label, 'FROM THE COLLECTION')
     if key:
         item = ed.ARTIFACTS.get(key)
         if not item or item['media']['kind'] == 'image': return ed.media(key)
-    return f'<div class="ar-date-art" aria-hidden="true">{ed.icon("calendar")}<span>{esc(label)}</span></div>'
+    return ed.graphic(label, 'FROM THE COLLECTION', 'calendar')
 
 
 def event_card(e):
-    return f'''<article class="ar-event" data-event data-category="{e['category']}" data-region="{esc(e['region'])}" data-date="{e['date']}"><a href="{model.event_url(e)}"><div class="ar-card-art">{art(e['art'], stamp(e['date']))}</div><div class="ar-card-copy"><p class="ar-meta"><time datetime="{e['date']}">{stamp(e['date'])}</time> · {esc(e['region'])}</p><h3>{esc(e['title'])}</h3><p>{esc(e['summary'])}</p><span class="ed-badge">{CAT[e['category']]}</span></div></a></article>'''
+    return f'''<article class="ar-event" data-event data-category="{e['category']}" data-region="{esc(e['region'])}" data-date="{e['date']}"><a href="{model.event_url(e)}"><div class="ar-card-art">{art(e['art'], e['title'])}</div><div class="ar-card-copy"><p class="ar-meta"><time datetime="{e['date']}">{stamp(e['date'])}</time> · {esc(e['region'])}</p><h3>{esc(e['title'])}</h3><p>{esc(e['summary'])}</p><span class="ed-badge">{CAT[e['category']]}</span></div></a></article>'''
 
 
 def story_card(s):
-    return f'<a class="ar-story-card" href="{model.story_url(s)}"><div class="ar-card-art">{art(s["art"])}</div><div class="ar-card-copy"><span class="ed-badge">{CAT[s["category"]]} · STORY</span><h3>{esc(s["title"])}</h3><p>{esc(s["summary"])}</p></div></a>'
+    return f'<a class="ar-story-card" href="{model.story_url(s)}"><div class="ar-card-art">{art(s["art"], s["title"])}</div><div class="ar-card-copy"><span class="ed-badge">{CAT[s["category"]]} · STORY</span><h3>{esc(s["title"])}</h3><p>{esc(s["summary"])}</p></div></a>'
 
 
 def heading(kicker, title, summary):
@@ -63,9 +64,9 @@ def timeline(route):
     months = []
     for month in range(1,13):
         events = [e for e in year_events if int(e['date'][5:7]) == month]
-        months.append(f'''<section class="ar-month" data-month-panel="{month}" id="events-{year}-{month:02}"><div class="ar-month-title"><h2>{ed.icon('calendar')} {calendar.month_name[month].upper()} {year}</h2><a href="#month-{calendar.month_abbr[month].lower()}">Read the month’s context →</a></div><div class="ar-event-grid">{''.join(event_card(e) for e in events)}</div>{calendar_table(year,month,events)}<h3 class="ar-mobile-agenda">Dates this month</h3><p class="ar-empty" data-month-empty{'' if not events else ' hidden'}>No sourced events added for this selection yet. Try another month or explore the reading room below.</p></section>''')
-    aside = f'''<aside class="ar-sidebar"><section class="ed-panel ar-panel">{ed.heading('In the archive','bolt')}<p class="ar-large-number">{len(year_events)}</p><p>Sourced, day-specific entries for {year}.</p><p class="ar-muted">{esc(model.CATALOG['coverageNote'])}</p><a class="ed-text-link" href="/this-week/">THIS WEEK, 30 YEARS AGO →</a></section><section class="ed-panel ar-panel">{ed.heading('Behind the dates','book')}{''.join(story_card(s) for s in model.STORIES[:3])}</section></aside>'''
-    content = hero+rail+f'<div class="ar-layout"><section data-timeline data-year="{year}" data-default-month="{selected}" data-view="grid">{controls}<div class="ar-paging ar-js-only"><a data-prev-month href="?month={max(1,selected-1):02}">← Previous month</a><p data-timeline-status role="status"></p><a data-next-month href="?month={min(12,selected+1):02}">Next month →</a></div>'+''.join(months)+f'<nav class="ar-paging ar-js-only" aria-label="Event pages" data-event-paging hidden><button type="button" data-event-prev>← Previous</button><span data-event-page></span><button type="button" data-event-next>Next →</button></nav><p class="ar-muted">Dates are regional where labeled. Images illustrate the era; source notes appear on each event.</p></section>{aside}</div>'+decade(year)+ed.preserved_content(route)
+        months.append(f'''<section class="ar-month" data-month-panel="{month}" id="events-{year}-{month:02}"><div class="ar-month-title"><h2>{ed.icon('calendar')} {calendar.month_name[month].upper()} {year}</h2></div><div class="ar-event-grid">{''.join(event_card(e) for e in events)}</div>{calendar_table(year,month,events)}<h3 class="ar-mobile-agenda">Dates this month</h3><p class="ar-empty" data-month-empty{'' if not events else ' hidden'}>No events match these filters. Try another category, region, or month.</p></section>''')
+    aside = f'''<aside class="ar-sidebar"><section class="ed-panel ar-panel">{ed.heading('In the archive','bolt')}<p class="ar-large-number">{len(year_events)}</p><p>Sourced, day-specific entries for {year}.</p><p class="ar-muted">{esc(model.CATALOG['coverageNote'])}</p><a class="ed-text-link" href="/this-week/">THIS WEEK, 30 YEARS AGO →</a></section><section class="ed-panel ar-panel">{ed.heading('Behind the dates','book')}{''.join(story_card(s) for s in related_stories(year_events)[:3])}</section></aside>'''
+    content = hero+rail+f'<div class="ar-layout"><section data-timeline data-year="{year}" data-default-month="{selected}" data-view="grid">{controls}<div class="ar-paging ar-js-only"><a data-prev-month href="?month={max(1,selected-1):02}">← Previous month</a><p data-timeline-status role="status"></p><a data-next-month href="?month={min(12,selected+1):02}">Next month →</a></div>'+''.join(months)+f'<nav class="ar-paging ar-js-only" aria-label="Event pages" data-event-paging hidden><button type="button" data-event-prev>← Previous</button><span data-event-page></span><button type="button" data-event-next>Next →</button></nav><p class="ar-muted">Dates are regional where labeled. Images illustrate the era; source notes appear on each event.</p></section>{aside}</div>'+decade(year)
     return f'<main id="main-content" class="ed-main ar-main">{content}</main>'
 
 
@@ -84,7 +85,7 @@ def weekly():
     start, end = model.week_bounds(day)
     range_label = f'{stamp(start.isoformat())} – {stamp(end.isoformat())}'
     in_week = [e for e in model.EVENTS if start.isoformat() <= e['date'] <= end.isoformat()]
-    return f'''<main id="main-content" class="ed-main ar-main" data-weekly><header class="ar-week-hero"><p class="ar-kicker">SAME DECADE. DIFFERENT DAY.</p><h1>This week in <span data-week-year>{day.year}</span></h1><p class="ar-week-range" data-week-range>{range_label}</p><p>Releases, milestones, and little time machines. One historical week at a time.</p></header><div class="ar-controls ar-js-only"><button type="button" data-week-prev>← Previous week</button><label>Pick a date<input type="date" data-week-date min="1990-01-01" max="1999-12-31" value="{day.isoformat()}" /></label><label>Year<select data-week-select>{''.join(f'<option{(" selected" if y==day.year else "")}>{y}</option>' for y in range(1990,2000))}</select></label><button type="button" data-week-next>Next week →</button><button type="button" data-week-today>30 years ago</button></div><p class="ar-muted" data-week-explainer>Monday–Sunday, containing the date 30 years before today in America/New_York.</p><p class="ar-nojs-only">Saved week for {model.CATALOG['buildAsOf']}. Enable JavaScript to change weeks, or <a href="/timeline/">browse every year and month</a>.</p><div class="ar-layout"><section><div class="ar-week-lead" data-week-lead>{event_card(in_week[0]).replace("<h3>","<h2>").replace("</h3>","</h2>") if in_week else ""}</div><h2 class="ar-section-title">ON THE CALENDAR <span role="status" data-week-count>{len(in_week)} sourced {"entry" if len(in_week)==1 else "entries"}</span></h2><div data-week-days>{week_days(start, in_week)}</div><p class="ar-empty" data-week-empty{'' if not in_week else ' hidden'}>No sourced events have been added for this week yet. Browse nearby dates below or open the month.</p><a class="ed-text-link" data-week-month href="/timeline/{day.year}/?month={day.month:02}#events-{day.year}-{day.month:02}">OPEN THE MONTH →</a><section data-week-nearby hidden><h2 class="ar-section-title">NEARBY DATES</h2><p class="ar-muted">Outside the selected week.</p><div data-nearby-events></div></section></section><aside class="ar-sidebar"><section class="ed-panel ar-panel">{ed.heading('More to the story','book')}{''.join(story_card(s) for s in model.STORIES[:3])}</section><section class="ed-panel ar-panel"><h2>An archive in progress</h2><p>{esc(model.CATALOG['coverageNote'])}</p><a href="/archive/objects/">Explore the object collection →</a></section></aside></div></main>'''
+    return f'''<main id="main-content" class="ed-main ar-main" data-weekly><header class="ar-week-hero"><p class="ar-kicker">SAME DECADE. DIFFERENT DAY.</p><h1>This week in <span data-week-year>{day.year}</span></h1><p class="ar-week-range" data-week-range>{range_label}</p><p>Releases, milestones, and little time machines. One historical week at a time.</p></header><div class="ar-controls ar-js-only"><button type="button" data-week-prev>← Previous week</button><label>Pick a date<input type="date" data-week-date min="1990-01-01" max="1999-12-31" value="{day.isoformat()}" /></label><label>Year<select data-week-select>{''.join(f'<option{(" selected" if y==day.year else "")}>{y}</option>' for y in range(1990,2000))}</select></label><button type="button" data-week-next>Next week →</button><button type="button" data-week-today>30 years ago</button></div><p class="ar-muted" data-week-explainer>Monday–Sunday, containing the date 30 years before today in America/New_York.</p><p class="ar-nojs-only">Saved week for {model.CATALOG['buildAsOf']}. Enable JavaScript to change weeks, or <a href="/timeline/">browse every year and month</a>.</p><div class="ar-layout"><section><div class="ar-week-lead" data-week-lead>{event_card(in_week[0]).replace("<h3>","<h2>").replace("</h3>","</h2>") if in_week else ""}</div><h2 class="ar-section-title">ON THE CALENDAR <span role="status" data-week-count>{len(in_week)} sourced {"entry" if len(in_week)==1 else "entries"}</span></h2><div data-week-days>{week_days(start, in_week)}</div><p class="ar-empty" data-week-empty{'' if not in_week else ' hidden'}>No sourced events have been added for this week yet. Browse nearby dates below or open the month.</p><a class="ed-text-link" data-week-month href="/timeline/{day.year}/?month={day.month:02}#events-{day.year}-{day.month:02}">OPEN THE MONTH →</a><section data-week-nearby hidden><h2 class="ar-section-title">NEARBY DATES</h2><p class="ar-muted">Outside the selected week.</p><div data-nearby-events></div></section></section><aside class="ar-sidebar"><section class="ed-panel ar-panel">{ed.heading('More to the story','book')}{''.join(story_card(s) for s in related_stories(in_week)[:3])}</section><section class="ed-panel ar-panel"><h2>Follow your curiosity</h2><p>Browse the objects behind the dates, from familiar hardware to handmade interfaces.</p><a href="/archive/objects/">Explore the object collection →</a></section></aside></div></main>'''
 
 
 def sources(ids):
@@ -118,7 +119,7 @@ def detail(route, render_media):
     if type == 'stories':
         s = next(s for s in model.STORIES if model.story_url(s)==route['path'])
         body = heading(CAT[s['category']]+' · FROM THE ARCHIVE',s['title'],s['summary'])
-        body += f'<div class="ar-detail-art">{art(s["art"])}</div>'
+        body += f'<div class="ar-detail-art">{art(s["art"], s["title"])}</div>'
         body += ''.join(f'<section><h2>{esc(section["heading"])}</h2>'+''.join(f'<p>{esc(p)}</p>' for p in section['paragraphs'])+'</section>' for section in s['sections'])
         body += sources(s['sourceIds'])+'<p class="ar-muted">Original editorial interpretation by 90s.land. Images are illustrative; <a href="/credits/">artwork credits</a> and related object labels identify their sources.</p>'
         return wrap_detail(route,body,related(s['objectIds'],s['eventIds']),s['publishedAt'])
@@ -129,7 +130,7 @@ def detail(route, render_media):
     body = heading('OBJECT FILE · '+a['dateRange']['label'],a['title'],a['curatorNote'])
     body += f'<figure class="ar-object-art">{render_media(a)}<figcaption>{credit} · {license_label}</figcaption></figure><h2>Why it mattered</h2><p>{esc(a["whyItMattered"])}</p>'
     if m['kind']=='recreation': body += '<p class="ar-date-note">Original interface recreation. This is an interpretation of the era, not an archived live website.</p>'
-    body += f'<div class="ar-detail-links"><button type="button" class="button ar-js-only" data-artifact-inspect="{a["id"]}">Inspect + stamp</button><a href="{esc(a["target"])}">Visit the original exhibit →</a></div><h2>Across the decade</h2><p>'+ ' · '.join(f'<a href="/timeline/{y}/">{y}</a>' for y in a['relatedYears'])+'</p>'
+    body += f'<div class="ar-detail-links"><button type="button" class="button ar-js-only" data-artifact-inspect="{a["id"]}">Inspect + stamp</button><a href="{esc(a["target"])}">Explore this collection →</a></div><h2>Across the decade</h2><p>'+ ' · '.join(f'<a href="/timeline/{y}/">{y}</a>' for y in a['relatedYears'])+'</p>'
     events = [e['id'] for e in model.EVENTS if a['id'] in e['objectIds']]
     stories = [s['id'] for s in model.STORIES if a['id'] in s['objectIds']]
     others = a['relatedArtifacts'] or [o['id'] for o in model.ARTIFACTS if o['room']==a['room'] and o['id']!=a['id']][:3]
@@ -137,15 +138,21 @@ def detail(route, render_media):
 
 
 def wrap_detail(route, body, aside, published=None):
-    parent = '/archive/objects/' if route['type']=='objects' else '/stories/' if route['type']=='stories' else '/timeline/'
-    label = {'objects':'Objects','stories':'Stories','events':'Timeline'}[route['type']]
-    return f'<main id="main-content" class="ed-main ar-main"><nav class="ar-breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>/</span><a href="{parent}">{label}</a></nav><div class="ar-layout"><article class="ar-article">{body}</article>{aside}</div></main>'+structured(route,'Article' if route['type']=='stories' else 'WebPage',published)
+    return f'<main id="main-content" class="ed-main ar-main"><div class="ar-layout"><article class="ar-article">{body}</article>{aside}</div></main>'+structured(route,'Article' if route['type']=='stories' else 'WebPage',published)
 
 
 def archive_index(route, render_media):
-    if route['path']=='/stories/':
+    if route['path']=='/events/':
+        filters = '<nav class="hub-library-filters" aria-label="Event categories">'+''.join(f'<a data-hub-filter="category" data-value="{key}" href="?category={key}#event-library">{esc(label)}</a>' for key,label in [('all','All events')]+list(CAT.items()))+'</nav>'
+        content = '<div data-hub="events" id="event-library">'+filters+'<h2 class="ar-section-title">Dated releases & milestones</h2>'+ '<p class="hub-status" data-hub-status="events" role="status"></p><div class="ar-index-grid" data-event-library>'+''.join(f'<div data-hub-event data-category="{e["category"]}">{event_card(e)}</div>' for e in model.EVENTS)+'</div></div>'
+    elif route['path']=='/stories/':
         filters = '<nav class="hub-library-filters" aria-label="Story categories">'+''.join(f'<a data-hub-filter="category" data-value="{key}" href="?category={key}#story-library">{esc(label)}</a>' for key,label in [('all','All stories')]+[(k,v) for k,v in CAT.items() if k!='news'])+'</nav>'
         content = '<div data-hub="library" id="story-library">'+filters+'<h2 class="ar-section-title">STORIES TO GET LOST IN</h2><p class="hub-status ar-js-only" data-hub-status="stories" role="status"></p><div class="ar-index-grid">'+''.join(f'<div data-hub-story data-category="{s["category"]}" data-topics="">{story_card(s)}</div>' for s in model.STORIES)+'</div></div>'
     else:
         content = '<div class="ar-index-grid">'+''.join(f'<a class="ar-story-card" href="{model.object_url(a)}"><div class="ar-card-art">{render_media(a)}</div><div class="ar-card-copy"><span class="ar-meta">{esc(a["dateRange"]["label"])}</span><h2>{esc(a["title"])}</h2><p>{esc(a["curatorNote"])}</p></div></a>' for a in model.ARTIFACTS)+'</div>'
-    return '<main id="main-content" class="ed-main ar-main">'+heading('OPEN THE ARCHIVE',route['title'],route['summary'])+content+'</main>'
+    return '<main id="main-content" class="ed-main ar-main">'+heading('THE COLLECTION',route['title'],route['summary'])+content+'</main>'
+
+
+def related_stories(events):
+    ids = {id for e in events for id in e['storyIds']}
+    return [s for s in model.STORIES if s['id'] in ids]

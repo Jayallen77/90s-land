@@ -1,4 +1,4 @@
-"""Independent preservation checks for the replacement page compositions."""
+"""Regression contract: one modern composition and working historical bookmarks."""
 import json
 import re
 import sys
@@ -19,24 +19,32 @@ class EditorialPreservationTests(unittest.TestCase):
                 current_ids = {node.attrs['id'] for node in document.nodes() if 'id' in node.attrs}
                 self.assertEqual(set(page['anchors']) - current_ids, set())
 
-    def test_core_reading_rooms_retain_all_original_main_text(self):
-        manifest = json.loads((ROOT / 'reports/baseline/phase-1/manifest.json').read_text())
-        for page in manifest['pages']:
-            if page['route'] not in ('/', '/timeline/1996/', '/zones/games/'):
-                continue
-            with self.subTest(route=page['route']):
-                frozen = (ROOT / page['snapshot']).read_text()
-                start, end = page['mainRange']
-                original_main = frozen[start:end]
-                # The old controls called monthly summary cards a calendar. Only
-                # this generated UI is retired; every authored word still survives.
-                original_main = re.sub(r'        <div class="timeline-controls">.*?<span class="sr-only" data-month-view-status.*?</span>\s*</div>', '', original_main, flags=re.S)
-                expected = plain_text(original_main)
-                document = Document((ROOT / page['file']).read_text())
-                preserved = document.one(lambda node: node.has_class('ed-preserved'))
-                self.assertEqual(document.text(preserved), expected)
-                self.assertEqual(len(document.nodes(lambda node: node.tag == 'h1')), 1)
+    def test_every_page_has_one_modern_composition(self):
+        import render_site
+        forbidden = ('ed-reading-room', 'ed-preserved', 'window-bar', 'window-buttons', 'portal-box', 'Open Archive')
+        outputs = render_site.build_outputs()
+        for path, source in outputs.items():
+            if path.suffix != '.html': continue
+            with self.subTest(page=str(path.relative_to(ROOT))):
+                for token in forbidden: self.assertNotIn(token, source)
+                doc = Document(source)
+                for tag in ('main','h1'):
+                    self.assertEqual(len(doc.nodes(lambda n:n.tag==tag)),1)
+                self.assertEqual(len(doc.nodes(lambda n:n.has_class('ed-header'))),1)
+                self.assertEqual(len(doc.nodes(lambda n:n.has_class('ed-footer'))),1)
+                self.assertEqual(len(doc.nodes(lambda n:n.has_class('ed-discovery'))),1)
+                self.assertEqual(len(doc.nodes(lambda n:n.has_class('window'))),0)
 
+    def test_legacy_renderers_cannot_be_called(self):
+        import editorial, archive_content
+        self.assertFalse(hasattr(editorial,'preserved_content'))
+        self.assertFalse(hasattr(editorial,'apply_shell'))
+        self.assertFalse(hasattr(archive_content,'page_source'))
 
-if __name__ == '__main__':
-    unittest.main()
+    def test_game_and_tamagotchi_images_do_not_misrepresent_subject(self):
+        import archive_content, hub_pages
+        self.assertIsNone(next(s for s in archive_content.STORIES if s['id']=='the-toy-that-needed-you')['art'])
+        doc = Document(hub_pages.game_archive())
+        self.assertEqual(len(doc.nodes(lambda n:n.tag=='img')),0)
+
+if __name__ == '__main__': unittest.main()

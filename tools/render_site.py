@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate complete public pages from authoritative source fragments and catalogs."""
+"""Generate complete public pages from authoritative compositions and catalogs."""
 
 from __future__ import annotations
 
@@ -18,6 +18,7 @@ import archive_content as archive
 import archive_pages
 import hub_pages
 import media_variants
+import product_pages
 
 ROOT = Path(__file__).resolve().parents[1]
 SITE_URL = "https://90s.land"
@@ -51,18 +52,6 @@ def region(name: str, content: str) -> str:
     )
 
 
-def replace_region(source: str, name: str, content: str) -> tuple[str, bool]:
-    block = region(name, content)
-    pattern = re.compile(
-        rf"<!-- generated:{re.escape(name)}:start -->.*?"
-        rf"<!-- generated:{re.escape(name)}:end -->",
-        re.S,
-    )
-    if pattern.search(source):
-        return pattern.sub(block, source, count=1), True
-    return source, False
-
-
 def route_to_file(path: str) -> Path:
     if path == "/":
         return ROOT / "index.html"
@@ -80,25 +69,9 @@ def route_room(route: dict) -> str:
     return route["type"]
 
 
-def render_navigation() -> str:
-    links = "\n".join(
-        f'      <a href="{esc(item["href"])}">{esc(item["label"])}</a>'
-        for item in NAVIGATION
-    )
-    return f"""    <nav class="nav" id="siteNav" aria-label="Museum navigation">
-{links}
-      <div class="museum-toolbelt" aria-label="Museum tools">
-        <a class="museum-tool surprise-tool" href="/surprise/" data-surprise-trigger>Surprise me</a>
-        <button class="museum-tool passport-tool" type="button" data-passport-trigger hidden>
-          Passport <span data-passport-count aria-hidden="true">0</span>
-        </button>
-      </div>
-    </nav>"""
-
-
 def render_head(route: dict) -> str:
     if route["path"] == "/":
-        title = "90s.land — A playable museum of the 1990s"
+        title = "90s.land — Relive the decade"
     else:
         title = f'{route["title"]} — 90s.land'
     description = route["summary"]
@@ -131,7 +104,7 @@ def render_head(route: dict) -> str:
 def render_shared_ui() -> str:
     stamp_cards = "\n".join(
         f"""          <li class="passport-stamp is-locked" data-passport-stamp="{esc(stamp["id"])}">
-            <span class="stamp-mark" aria-hidden="true">{esc(stamp["visual"])}</span>
+            <span class="stamp-mark" aria-hidden="true">{editorial.icon({"first-touch":"star","room-hopper":"folder","random-access":"bolt","object-collector":"trophy","before-the-feed":"book"}.get(stamp["id"],"star"))}</span>
             <strong>{esc(stamp["title"])}</strong>
             <span>{esc(stamp["description"])}</span>
           </li>"""
@@ -141,7 +114,7 @@ def render_shared_ui() -> str:
 
   <dialog class="museum-dialog surprise-dialog" id="surpriseDialog" aria-labelledby="surpriseTitle">
     <div class="dialog-window">
-      <div class="window-bar"><span>RANDOM_MEMORY.EXE</span><button type="button" class="dialog-close" data-dialog-close="surpriseDialog" aria-label="Close Surprise Me">×</button></div>
+      <div class="dialog-heading"><span>Surprise Me</span><button type="button" class="dialog-close" data-dialog-close="surpriseDialog" aria-label="Close Surprise Me">×</button></div>
       <div class="dialog-body" data-surprise-loading>
         <p class="eyebrow">Loading from CD-ROM…</p>
         <div class="cd-loader" aria-hidden="true"></div>
@@ -163,13 +136,13 @@ def render_shared_ui() -> str:
 
   <dialog class="museum-dialog passport-dialog" id="passportDialog" aria-labelledby="passportTitle">
     <div class="dialog-window">
-      <div class="window-bar"><span>MUSEUM_PASSPORT.CARD</span><button type="button" class="dialog-close" data-dialog-close="passportDialog" aria-label="Close Museum Passport">×</button></div>
+      <div class="dialog-heading"><span>Passport</span><button type="button" class="dialog-close" data-dialog-close="passportDialog" aria-label="Close Museum Passport">×</button></div>
       <div class="dialog-body">
-        <p class="eyebrow">Local museum progress</p>
+        <p class="eyebrow">YOUR DECADE, COLLECTED</p>
         <h2 id="passportTitle">Your Museum Passport</h2>
         <p class="storage-note" data-storage-note>Saved only on this device. No account, tracking, or personal data.</p>
         <div class="passport-stats" aria-label="Museum Passport totals">
-          <span><strong data-passport-rooms>0</strong> rooms visited</span>
+          <span><strong data-passport-rooms>0</strong> collections visited</span>
           <span><strong data-passport-artifacts>0</strong> objects inspected</span>
           <span><strong data-passport-stamps>0</strong> stamps earned</span>
         </div>
@@ -187,10 +160,10 @@ def render_shared_ui() -> str:
 
   <dialog class="museum-dialog reset-dialog" id="passportResetDialog" aria-labelledby="passportResetTitle">
     <div class="dialog-window">
-      <div class="window-bar"><span>RESET_CONFIRM.TXT</span></div>
+      <div class="dialog-heading"><span>Your local progress</span></div>
       <div class="dialog-body">
         <h2 id="passportResetTitle">Reset this passport?</h2>
-        <p>This removes visited rooms, inspected objects, stamps, and tour progress from this browser. It cannot be undone.</p>
+        <p>This removes visited collections, inspected objects, stamps, and tour progress from this browser. It cannot be undone.</p>
         <div class="dialog-actions">
           <button class="button" type="button" data-passport-reset-cancel>Keep my passport</button>
           <button class="button danger" type="button" data-passport-reset-confirm>Reset passport</button>
@@ -259,7 +232,7 @@ def render_artifact_card(
     else:
         credit_markup = credit
     details = "" if compact else f"""        <details>
-          <summary>Open curator label</summary>
+          <summary>About this object</summary>
           <p>{esc(artifact["curatorNote"])}</p>
           <p><strong>Why it mattered:</strong> {esc(artifact["whyItMattered"])}</p>
           <p class="artifact-credit">{credit_markup} · {esc(media["license"])}</p>
@@ -273,7 +246,7 @@ def render_artifact_card(
 {details}
           <div class="artifact-actions">
             <button class="button inspect-button" type="button" data-artifact-inspect="{esc(artifact["id"])}">Inspect + stamp</button>
-            <a href="{esc(artifact["target"])}">Open exhibit</a>
+            <a href="{archive.object_url(artifact)}">Object details →</a>
           </div>
         </div>
       </article>"""
@@ -286,9 +259,9 @@ def render_artifact_shelf(route: dict) -> str:
     cards = "\n".join(render_artifact_card(item) for item in items)
     return f"""    <section class="panel artifact-shelf" aria-labelledby="artifactShelfTitle-{esc(route["id"])}">
       <div class="section-heading compact-heading">
-        <p class="eyebrow">Passport exhibit tray</p>
-        <h2 id="artifactShelfTitle-{esc(route["id"])}">Objects you can inspect here.</h2>
-        <p>Open a curator label, stamp the object, then follow its next connection.</p>
+        <p class="eyebrow">THE OBJECT COLLECTION</p>
+        <h2 id="artifactShelfTitle-{esc(route["id"])}">Objects of the era</h2>
+        <p>Get closer to the everyday things that made the decade. Collect a stamp as you go.</p>
       </div>
       <div class="artifact-ticket-grid">
 {cards}
@@ -316,34 +289,8 @@ def render_resource_card(item: dict, featured: bool = False) -> str:
           <h3>{esc(item["title"])}</h3>
           <p>{esc(item["description"])}</p>
 {notices}
-          <a class="resource-link" href="{esc(item["url"])}" target="_blank" rel="noopener noreferrer">Launch external portal ↗</a>
+          <a class="resource-link" href="{esc(item["url"])}" target="_blank" rel="noopener noreferrer">Visit website ↗</a>
         </article>"""
-
-
-def render_webring_sections() -> tuple[str, str]:
-    featured = [item for item in RESOURCES if item["featured"]]
-    featured_cards = "\n".join(render_resource_card(item, True) for item in featured)
-    directory_cards = "\n".join(render_resource_card(item) for item in RESOURCES)
-    featured_section = f"""    <section class="panel featured-resource-section" aria-labelledby="featuredResourcesTitle">
-      <div class="section-heading inline-heading">
-        <p class="eyebrow">Curator shortcuts</p>
-        <h2 id="featuredResourcesTitle">Twelve strong exits from the museum.</h2>
-        <p>Featured selections are references into the same {len(RESOURCES)}-destination catalog, not extra resources.</p>
-      </div>
-      <div class="featured-resource-grid">
-{featured_cards}
-      </div>
-    </section>"""
-    directory_section = f"""    <section class="panel resource-directory" id="directory">
-      <p class="eyebrow">Full directory</p>
-      <h2>Curated exit hall</h2>
-      <p class="resource-count" id="resourceCount" aria-live="polite" aria-atomic="true">Showing {len(RESOURCES)} external destinations.</p>
-      <div class="resource-grid" id="resourceGrid">
-{directory_cards}
-      </div>
-      <p class="no-results" id="resourceNoResults" hidden>No portals found. Try a looser search, like “web”, “games”, or “music”.</p>
-    </section>"""
-    return featured_section, directory_section
 
 
 def search_records():
@@ -406,11 +353,11 @@ def render_search_sections() -> tuple[str, str]:
         ("stories", "Stories"),
         ("highlights", "Highlights"),
         ("years", "Years"),
-        ("zones", "Rooms"),
+        ("zones", "Collections"),
         ("objects", "Objects"),
         ("tours", "Tours"),
         ("community", "Community"),
-        ("explore", "Explore tools"),
+        ("explore", "Resources"),
     ]
     buttons = "\n".join(
         f'        <button class="resource-filter{" active" if key == "all" else ""}" '
@@ -418,15 +365,15 @@ def render_search_sections() -> tuple[str, str]:
         f'{label} <span>{len(records) if key == "all" else counts.get(key, 0)}</span></button>'
         for key, label in categories
     )
-    controls = f"""    <section class="panel resource-console" id="finder" aria-label="Portal search controls">
+    controls = f"""    <section class="panel resource-console" id="finder" aria-label="Search controls">
       <div class="resource-console-grid">
-        <div><p class="eyebrow">Search the museum</p><h2>Portal finder + artifact atlas</h2><p>Search a date, region, story, object, room, or external resource.</p></div>
+        <div><p class="eyebrow">SEARCH THE 90s</p><h2>Find your next memory</h2><p>Search a date, story, object, collection, or external resource.</p></div>
         <div class="resource-search-wrap">
           <label for="siteSearchInput">Search the archive</label>
           <input id="siteSearchInput" type="search" placeholder="try: Mosaic, cassette, Blockbuster, GeoCities…" autocomplete="off" />
         </div>
       </div>
-      <div class="site-filter-row" aria-label="Filter portal routes">
+      <div class="site-filter-row" aria-label="Filter results">
 {buttons}
       </div>
     </section>"""
@@ -454,96 +401,13 @@ def render_search_sections() -> tuple[str, str]:
       <div class="chart-year-grid site-search-grid" id="siteSearchGrid">
 {chr(10).join(cards)}
       </div>
-      <div class="portal-box resource-notes" id="siteSearchNoResults" hidden>
+      <div class="ar-empty resource-notes" id="siteSearchNoResults" hidden>
         <h3>No memory found under that label.</h3>
         <p>Try a shorter word, clear the filters, or let the museum choose.</p>
-        <div class="hero-actions"><button class="button" type="button" data-search-clear>Clear search</button><a class="button" href="/surprise/" data-surprise-trigger>Surprise me</a><a class="button" href="/sitemap/">Open museum map</a></div>
+        <div class="hero-actions"><button class="button" type="button" data-search-clear>Clear search</button><a class="button" href="/surprise/" data-surprise-trigger>Surprise me</a><a class="button" href="/sitemap/">Open site map</a></div>
       </div>
     </section>"""
     return controls, results
-
-
-def render_timeline_doors() -> str:
-    year_routes = sorted(
-        (route for route in ROUTES if route["type"] == "years"),
-        key=lambda route: route["path"],
-    )
-    cards = []
-    for route in year_routes:
-        year = route["path"].strip("/").split("/")[1]
-        artifacts = [
-            ARTIFACT_BY_ID[artifact_id]
-            for artifact_id in route.get("artifactIds", [])
-            if artifact_id in ARTIFACT_BY_ID
-        ][:3]
-        object_labels = "".join(
-            f"<em>{esc(artifact['title'])}</em>" for artifact in artifacts
-        )
-        lead_media = ""
-        visual_label = ""
-        lead_artifact = next(
-            (artifact for artifact in artifacts if artifact.get("media", {}).get("kind") == "image"),
-            None,
-        )
-        # Years without a sourced lead photograph get an original, clearly
-        # editorial illustration rather than borrowing an unrelated year image.
-        editorial_previews = {
-            "1994": ("/assets/media/timeline-previews/1994-homepage.svg", "Original illustration of a 1994 personal homepage on a CRT desktop, with tiled stars and an under-construction badge."),
-            "1997": ("/assets/media/timeline-previews/1997-buddy-list.svg", "Original illustration of a late-1990s instant-messaging buddy list with an away-message window."),
-        }
-        if year in editorial_previews:
-            src, alt = editorial_previews[year]
-            visual_label = {
-                "1994": "EDITORIAL RECREATION · PERSONAL HOMEPAGE",
-                "1997": "EDITORIAL RECREATION · BUDDY LIST",
-            }[year]
-            lead_media = (
-                f'          <img class="timeline-card-image" src="{src}" '
-                f'alt="{esc(alt)}" width="960" height="540" loading="lazy" decoding="async" />\n'
-            )
-        elif lead_artifact:
-            media = lead_artifact["media"]
-            visual_label = f'COLLECTION OBJECT · {lead_artifact["title"]}'
-            lead_media = (
-                f'          <img class="timeline-card-image" src="{esc(media["src"])}" '
-                f'alt="{esc(media["alt"])}" width="{int(media["width"])}" '
-                f'height="{int(media["height"])}" loading="lazy" decoding="async" />\n'
-            )
-        cards.append(
-            f"""        <a class="timeline-card museum-year-door" id="year-{year}" href="{esc(route["path"])}" data-timeline-room="timeline-{year}">
-          <span class="timeline-card-artwork">
-{lead_media}            <span class="timeline-artwork-label">{esc(visual_label)}</span>
-            <span class="timeline-year">{year}</span>
-          </span>
-          <div class="timeline-card-copy">
-            <p class="artifact-label">Door {int(year) - 1989:02d} · catalog case</p>
-            <h3>{esc(route["title"])}</h3>
-            <p>{esc(route["summary"])}</p>
-            <div class="mini-tags year-object-labels">{object_labels}</div>
-            <strong>Open {year} →</strong>
-            <small class="visited-door-label" data-visited-door-label>Not visited</small>
-          </div>
-        </a>"""
-        )
-    return f"""    <section class="timeline-product-panel" aria-labelledby="timelineDoorsTitle">
-      <div class="section-heading inline-heading">
-        <p class="eyebrow">Ten chronological doors</p>
-        <h2 id="timelineDoorsTitle">Choose a year. Carry the objects forward.</h2>
-        <p>Each door previews three catalog objects. Your local passport marks a door after you enter it.</p>
-      </div>
-      <div class="timeline-year-index" aria-label="Jump to a year">
-        <span class="timeline-index-label">JUMP TO</span>
-        {''.join(f'<a href="#year-{route["path"].strip("/").split("/")[1]}" aria-label="Jump to {route["path"].strip("/").split("/")[1]}">{route["path"].strip("/").split("/")[1]}</a>' for route in year_routes)}
-      </div>
-      <nav class="decade-signal-rail" aria-label="Three shifts across the decade">
-        <a class="decade-signal" href="/timeline/1990/"><img src="/assets/media/tv-movies/1990s-television-set.jpg" alt="A 1990s television set, the living-room screen of the early decade." width="960" height="640" loading="lazy" decoding="async" /><span>01 / 1990–92</span><strong>Analog rooms</strong><small>Cable, cartridges, mixtapes — the future still shares the family room.</small></a>
-        <a class="decade-signal" href="/timeline/1993/"><img src="/assets/media/timeline-1993/ncsa-mosaic-browser-screenshot.png" alt="NCSA Mosaic browser, an early graphical window onto the web." width="772" height="668" loading="lazy" decoding="async" /><span>02 / 1993–95</span><strong>The web gets a door</strong><small>Mosaic, homepages, Start buttons — the internet moves toward everyday life.</small></a>
-        <a class="decade-signal" href="/timeline/1996/"><img src="/assets/media/transparent-tech/imac-g3-bondi-blue.png" alt="Bondi blue translucent iMac, a symbol of late-decade colorful technology." width="960" height="895" loading="lazy" decoding="async" /><span>03 / 1996–99</span><strong>Always almost online</strong><small>Buddy lists, portals, translucent plastic, and a millennium countdown.</small></a>
-      </nav>
-      <div class="timeline-card-grid">
-{chr(10).join(cards)}
-      </div>
-    </section>"""
 
 
 def render_homepage_builder() -> str:
@@ -603,12 +467,11 @@ def render_tour_main(tour: dict) -> str:
         </div>
       </article>"""
         )
-    return f"""  <main id="main-content" class="tour-main" data-tour-id="{esc(tour["id"])}">
-    <section class="window tour-hero">
-      <div class="window-bar"><span>BEFORE_THE_FEED.TOUR</span><span class="window-buttons" aria-hidden="true">_ □ ×</span></div>
+    return f"""  <main id="main-content" class="ed-main tour-main" data-tour-id="{esc(tour["id"])}">
+    <section class="ar-heading tour-hero">
       <div class="page-pad">
-        <nav class="breadcrumbs"><a href="/">Museum Desk</a> / Guided Tour</nav>
-        <p class="eyebrow">One excellent guided tour · about {tour["durationMinutes"]} minutes</p>
+
+        <p class="eyebrow">A guided tour · about {tour["durationMinutes"]} minutes</p>
         <h1>{esc(tour["title"])}</h1>
         <p class="lede">{esc(tour["description"])}</p>
         <div class="tour-progress" role="progressbar" aria-label="Tour progress" aria-valuemin="1" aria-valuemax="{total}" aria-valuenow="1"><span data-tour-progress-bar></span></div>
@@ -632,19 +495,18 @@ def render_surprise_main() -> str:
         <small>{esc(item["dateRange"]["label"])} · {esc(item["room"].replace("-", " "))}</small>
       </a>"""
         )
-    return f"""  <main id="main-content" class="surprise-page">
-    <section class="window page-hero">
-      <div class="window-bar"><span>RANDOM_MEMORY.EXE</span><span class="window-buttons" aria-hidden="true">_ □ ×</span></div>
+    return f"""  <main id="main-content" class="ed-main surprise-page">
+    <section class="ar-heading">
       <div class="page-pad">
-        <nav class="breadcrumbs"><a href="/">Museum Desk</a> / Surprise Me</nav>
-        <p class="eyebrow">Serendipity desk</p>
+
+        <p class="eyebrow">TAKE A DETOUR</p>
         <h1>Open a mystery memory.</h1>
-        <p class="lede">With JavaScript, the desk avoids your three most recent choices and reveals a teaser first. Without it, every envelope below still opens a real, validated museum exhibit.</p>
+        <p class="lede">One click, one unexpected connection. Rediscover an object from the decade, then follow where it leads.</p>
         <button class="button primary" type="button" data-surprise-trigger-button>Load a random memory</button>
       </div>
     </section>
     <section class="panel">
-      <div class="section-heading compact-heading"><p class="eyebrow">No-script envelope wall</p><h2>Choose one without reading the label.</h2></div>
+      <div class="section-heading compact-heading"><p class="eyebrow">PICK A MEMORY</p><h2>Choose one without reading the label.</h2></div>
       <div class="mystery-envelope-grid">
 {chr(10).join(envelopes)}
       </div>
@@ -672,17 +534,16 @@ def render_credits_main() -> str:
             f"<li><strong>{esc(item['title'])}</strong> — {esc(media['credit'])}; "
             f"{license_label}; {source}</li>"
         )
-    return f"""  <main id="main-content">
-    <section class="window page-hero">
-      <div class="window-bar"><span>CREDITS_AND_PROVENANCE.TXT</span><span class="window-buttons" aria-hidden="true">_ □ ×</span></div>
-      <div class="page-pad"><nav class="breadcrumbs"><a href="/">Museum Desk</a> / Credits</nav><p class="eyebrow">Source labels</p><h1>Credits, licenses, and recreations.</h1><p class="lede">90s.land distinguishes sourced media, editorial interpretation, and original interface recreations.</p></div>
+    return f"""  <main id="main-content" class="ed-main">
+    <section class="ar-heading">
+      <div class="page-pad"><p class="eyebrow">Source labels</p><h1>Credits, licenses, and recreations.</h1><p class="lede">90s.land distinguishes sourced media, editorial interpretation, and original interface recreations.</p></div>
     </section>
     <section class="panel credits-panel">
       <h2>Artifact media</h2>
       <ul class="credits-list">{''.join(credits)}</ul>
       <h2>Type</h2>
       <p>The editorial interface uses locally hosted Jersey 10, Barlow, and Barlow Condensed from the <a href="https://github.com/google/fonts">Google Fonts repository</a>. Their SIL Open Font Licenses are included: <a href="/assets/fonts/OFL-jersey10.txt">Jersey 10</a>, <a href="/assets/fonts/OFL-barlow.txt">Barlow</a>, and <a href="/assets/fonts/OFL-barlowcondensed.txt">Barlow Condensed</a>.</p>
-      <p>Press Start 2P and Space Mono are self-hosted from the Google Fonts distribution under the SIL Open Font License. Read the local <a href="/assets/fonts/OFL-Press-Start-2P.txt">Press Start 2P license</a> and <a href="/assets/fonts/OFL-Space-Mono.txt">Space Mono license</a>.</p>
+      <p>The sharing card uses Press Start 2P and Space Mono under their <a href="/assets/fonts/OFL-Press-Start-2P.txt">Press Start 2P</a> and <a href="/assets/fonts/OFL-Space-Mono.txt">Space Mono</a> licenses. These fonts are part of the image, not the page interface.</p>
       <h2>Editorial status</h2>
       <p><strong>Verified</strong> artifacts use a source trail. <strong>Editorial</strong> objects are clearly labeled original recreations. Items marked <strong>needs source</strong> are excluded from Surprise Me and guided tours.</p>
       <h2>Image adaptations</h2><p>Photographs are locally resized and may be cropped by the page layout. Credits name the original creators and link to the original file records; Creative Commons ShareAlike terms continue to apply to adapted images. Original interface recreations are labeled separately. The Y2K office photograph is credited to the Government of Japan, Prime Minister’s Office website, under its Standard Terms of Use 2.0, compatible with CC BY 4.0.</p>
@@ -694,6 +555,8 @@ def render_credits_main() -> str:
 
 
 def page_document(route: dict, main: str, body_class: str = "") -> str:
+    main = product_pages.finish_main(route, main, render_artifact_shelf)
+    body_class = 'editorial-body ' + body_class
     body_attr = f' class="{esc(body_class)}"' if body_class else ""
     return f"""<!doctype html>
 <html lang="en" class="no-js">
@@ -705,23 +568,19 @@ def page_document(route: dict, main: str, body_class: str = "") -> str:
   <link rel="preload" href="/assets/fonts/Barlow-Regular.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/assets/fonts/BarlowCondensed-Bold.woff2" as="font" type="font/woff2" crossorigin />
 {region("head", render_head(route))}
-  <link rel="stylesheet" href="/styles.css?v=timeline-hero-exhibit-1" />
+  <link rel="stylesheet" href="/styles.css?v=cohesion-1" />
+  <link rel="stylesheet" href="/editorial.css?v=cohesion-1" />
+  <link rel="stylesheet" href="/archive.css?v=cohesion-1" />
+  <link rel="stylesheet" href="/hub.css?v=cohesion-1" />
 </head>
 <body{body_attr} data-route="{esc(route["path"])}" data-room="{esc(route_room(route))}">
   <a class="skip-link" href="#main-content">Skip to museum content</a>
-  <div class="crt" aria-hidden="true"></div>
-  <div class="starfield" aria-hidden="true"></div>
-  <header class="topbar" id="top">
-    <a class="brand" href="/" aria-label="90s.land home"><span class="logo-box">90s</span><span>.land</span></a>
-    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="siteNav">
-      <span aria-hidden="true">☰</span><span>Menu</span>
-    </button>
-{region("navigation", render_navigation())}
-  </header>
+{editorial.shell_header(route)}
 {main}
-  <footer class="footer"><p>© 1999–forever 90s.land // handmade for curious people // <a href="/credits/">credits</a> // <a href="#top">back to top</a></p></footer>
+{editorial.discovery()}
+{editorial.shell_footer()}
 {region("shared-ui", render_shared_ui())}
-  <script type="module" src="/js/app.js?v=phase5-1"></script>
+  <script type="module" src="/js/app.js?v=cohesion-1"></script>
 </body>
 </html>
 """
@@ -734,220 +593,17 @@ def render_404() -> str:
         "summary": "The requested 90s.land exhibit could not be found.",
         "type": "highlights",
     }
-    main = """  <main id="main-content" class="error-page">
-    <section class="window page-hero">
-      <div class="window-bar"><span>404_NOT_FOUND.EXE</span><span class="window-buttons" aria-hidden="true">_ □ ×</span></div>
+    main = """  <main id="main-content" class="ed-main error-page">
+    <section class="ar-heading">
       <div class="page-pad">
         <p class="eyebrow">Missing exhibit</p>
         <h1>This memory fell behind the filing cabinet.</h1>
         <p class="lede">The route does not exist, but the museum is still open.</p>
-        <div class="hero-actions"><a class="button primary" href="/">Return to the Museum Desk</a><a class="button" href="/surprise/">Surprise me</a><a class="button" href="/sitemap/">Open the map</a></div>
+        <div class="hero-actions"><a class="button primary" href="/">Return home</a><a class="button" href="/surprise/">Surprise me</a><a class="button" href="/sitemap/">Open the map</a></div>
       </div>
     </section>
   </main>"""
     return page_document(route, main, "error-body")
-
-
-def inject_head(source: str, route: dict) -> str:
-    content = render_head(route)
-    source, found = replace_region(source, "head", content)
-    if found:
-        return source
-    source = re.sub(r"\s*<meta\s+name=\"description\"[^>]*?/?>", "", source, count=1, flags=re.I)
-    source = re.sub(r"\s*<title>.*?</title>", "", source, count=1, flags=re.S | re.I)
-    viewport = re.search(r"<meta\s+name=\"viewport\"[^>]*?/?>", source, flags=re.I)
-    if not viewport:
-        raise ValueError(f"Missing viewport meta for {route['path']}")
-    return source[: viewport.end()] + "\n" + region("head", content) + source[viewport.end() :]
-
-
-def inject_navigation(source: str) -> str:
-    content = render_navigation()
-    source, found = replace_region(source, "navigation", content)
-    if found:
-        return source
-    pattern = re.compile(
-        r"<nav\s+class=\"nav\"\s+id=\"siteNav\"[^>]*>.*?</nav>",
-        re.S | re.I,
-    )
-    if not pattern.search(source):
-        raise ValueError("Missing site navigation")
-    return pattern.sub(region("navigation", content), source, count=1)
-
-
-def inject_shared_ui(source: str) -> str:
-    content = render_shared_ui()
-    source, found = replace_region(source, "shared-ui", content)
-    if found:
-        return source
-    script = re.search(r'<script[^>]+src="/(?:script\.js|js/app\.js)[^"]*"[^>]*></script>', source, re.I)
-    if not script:
-        return source.replace("</body>", region("shared-ui", content) + "\n</body>")
-    return source[: script.start()] + region("shared-ui", content) + "\n  " + source[script.start() :]
-
-
-def inject_artifact_shelf(source: str, route: dict) -> str:
-    content = render_artifact_shelf(route)
-    source, found = replace_region(source, "artifact-shelf", content)
-    if found:
-        return source
-    if not content:
-        return source
-    return source.replace("</main>", region("artifact-shelf", content) + "\n  </main>", 1)
-
-
-def inject_museum_tools_map(source: str) -> str:
-    content = """    <section class="panel museum-map-tools" id="museum-tools">
-      <p class="eyebrow">Playable museum tools</p>
-      <h2>Start with an action.</h2>
-      <div class="zone-grid">
-        <a class="zone-card" href="/tours/before-the-feed/"><span class="pixel-icon">TOUR</span><h3>Before the Feed</h3><p>Six stops through the personal web.</p></a>
-        <a class="zone-card" href="/surprise/"><span class="pixel-icon">RND</span><h3>Surprise Me</h3><p>Let the museum choose a valid artifact.</p></a>
-        <a class="zone-card" href="/credits/"><span class="pixel-icon">SRC</span><h3>Credits</h3><p>See source, license, and recreation labels.</p></a>
-      </div>
-    </section>"""
-    source, found = replace_region(source, "museum-tools-map", content)
-    if found:
-        return source
-    return source.replace("</main>", region("museum-tools-map", content) + "\n  </main>", 1)
-
-
-def normalize_existing_page(source: str, route: dict) -> str:
-    source = inject_head(source, route)
-    source = inject_shared_ui(source)
-    source = inject_artifact_shelf(source, route)
-    if route["path"] == "/sitemap/":
-        source = inject_museum_tools_map(source)
-
-    if "class=\"no-js\"" not in source:
-        source = re.sub(r"<html([^>]*)>", r'<html\1 class="no-js">', source, count=1)
-
-    def body_repl(match):
-        attrs = match.group(1)
-        attrs = re.sub(r'\s+data-(?:route|room)="[^"]*"', "", attrs)
-        return (
-            f'<body{attrs} data-route="{esc(route["path"])}" '
-            f'data-room="{esc(route_room(route))}">'
-        )
-
-    source = re.sub(r"<body([^>]*)>", body_repl, source, count=1, flags=re.I)
-    if "class=\"skip-link\"" not in source:
-        source = re.sub(
-            r"(<body[^>]*>)",
-            r'\1\n  <a class="skip-link" href="#main-content">Skip to museum content</a>',
-            source,
-            count=1,
-        )
-    source = re.sub(
-        r"<main(?![^>]*\sid=)([^>]*)>",
-        r'<main id="main-content"\1>',
-        source,
-        count=1,
-        flags=re.I,
-    )
-    source = re.sub(
-        r'class="window-buttons"(?!\s+aria-hidden)',
-        'class="window-buttons" aria-hidden="true"',
-        source,
-    )
-    source = source.replace('rel="noreferrer"', 'rel="noopener noreferrer"')
-    source = re.sub(
-        r'<script\s+src="/script\.js[^"]*"></script>',
-        '<script type="module" src="/js/app.js?v=timeline-views-1"></script>',
-        source,
-        flags=re.I,
-    )
-    source = re.sub(
-        r'<link\s+href="https://fonts\.googleapis\.com[^>]+>\s*',
-        "",
-        source,
-        flags=re.I,
-    )
-    source = re.sub(
-        r'<link\s+rel="preconnect"\s+href="https://fonts\.(?:googleapis|gstatic)\.com"[^>]*>\s*',
-        "",
-        source,
-        flags=re.I,
-    )
-    source = re.sub(
-        r'<link\s+rel="stylesheet"\s+href="/styles\.css[^"]*"\s*/?>',
-        '\u003clink rel="stylesheet" href="/styles.css?v=timeline-hero-exhibit-1" />',
-        source,
-        count=1,
-        flags=re.I,
-    )
-    source = re.sub(
-        r'<footer class="footer">.*?</footer>',
-        '<footer class="footer"><p>© 1999–forever 90s.land // handmade for curious people // <a href="/credits/">credits</a> // <a href="#top">back to top</a></p></footer>',
-        source,
-        count=1,
-        flags=re.I | re.S,
-    )
-    return source
-
-
-def replace_full_section(source: str, selector_pattern: str, name: str, content: str) -> str:
-    source, found = replace_region(source, name, content)
-    if found:
-        return source
-    match = re.search(selector_pattern, source, re.S | re.I)
-    if not match:
-        raise ValueError(f"Could not locate section for {name}")
-    return source[: match.start()] + region(name, content) + source[match.end() :]
-
-
-def render_existing_page(route: dict) -> str:
-    source = archive.page_source(route)
-    if route["path"] == "/webring/":
-        featured, directory = render_webring_sections()
-        source = replace_full_section(
-            source,
-            r'<section class="panel starter-pack".*?</section>',
-            "webring-featured",
-            featured,
-        )
-        source = replace_full_section(
-            source,
-            r'<section class="panel resource-directory" id="directory">.*?</section>',
-            "webring-directory",
-            directory,
-        )
-        source = re.sub(
-            r"<span>78 portals indexed</span>",
-            f"<span>{len(RESOURCES)} unique portals indexed</span>",
-            source,
-        )
-        source = re.sub(
-            r'(data-resource-filter="all">All <span>)\d+(</span>)',
-            rf"\g<1>{len(RESOURCES)}\g<2>",
-            source,
-        )
-    if route["path"] == "/search/":
-        controls, results = render_search_sections()
-        source = replace_full_section(
-            source,
-            r'<section class="panel resource-console" id="finder".*?</section>',
-            "search-controls",
-            controls,
-        )
-        source = replace_full_section(
-            source,
-            r'<section class="panel resource-directory">.*?</section>',
-            "search-results",
-            results,
-        )
-    if route["path"] == "/timeline/":
-        source = replace_full_section(
-            source,
-            r'<section class="timeline-product-panel">.*?</section>',
-            "timeline-doors",
-            render_timeline_doors(),
-        )
-    if route["path"] == "/sitemap/":
-        links = ''.join(f'<li><a href="{esc(r["path"])}">{esc(r["title"])}</a></li>' for r in ROUTES if r["type"] in {"events","stories","objects"} or r["path"] in {"/stories/","/archive/objects/","/this-week/"})
-        source = source.replace('</main>', '<section class="panel"><h2>The dated archive, stories & objects</h2><ul class="ar-sitemap">'+links+'</ul></section></main>')
-    source = page_document(route, source, archive.PAGES[route['path']]['bodyClass'])
-    return normalize_existing_page(source, route)
 
 
 def build_outputs() -> dict[Path, str]:
@@ -957,7 +613,7 @@ def build_outputs() -> dict[Path, str]:
             outputs[route_to_file(route["path"])] = page_document(route, archive_pages.timeline(route), "editorial-body editorial-timeline")
         elif route["path"] == "/this-week/":
             outputs[route_to_file(route["path"])] = page_document(route, archive_pages.weekly(), "editorial-body")
-        elif route["path"] in {"/stories/", "/archive/objects/"}:
+        elif route["path"] in {"/stories/", "/events/", "/archive/objects/"}:
             outputs[route_to_file(route["path"])] = page_document(route, archive_pages.archive_index(route, render_media), "editorial-body")
         elif route["type"] in {"events", "stories", "objects"}:
             outputs[route_to_file(route["path"])] = page_document(route, archive_pages.detail(route, render_media), "editorial-body")
@@ -982,12 +638,12 @@ def build_outputs() -> dict[Path, str]:
                 route, render_credits_main(), "credits-body"
             )
         else:
-            outputs[route_to_file(route["path"])] = render_existing_page(route)
+            outputs[route_to_file(route["path"])] = page_document(route, product_pages.page(route, render_search_sections, render_resource_card, render_homepage_builder))
 
         path = route_to_file(route["path"])
-        outputs[path] = media_variants.optimize_html(editorial.apply_shell(outputs[path], route))
+        outputs[path] = media_variants.optimize_html(outputs[path])
 
-    outputs[ROOT / "404.html"] = editorial.apply_shell(render_404(), {"path": "/404.html"})
+    outputs[ROOT / "404.html"] = media_variants.optimize_html(render_404())
     sitemap_urls = "\n".join(
         f"  <url><loc>{SITE_URL}{esc(route['path'])}</loc></url>" for route in ROUTES
     )

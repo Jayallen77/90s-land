@@ -16,6 +16,8 @@ export function initializeArchiveTimeline() {
   function read() {
     const params = new URLSearchParams(location.search);
     let month = Number(params.get('month'));
+    const oldMonth = ['jan','feb','mar','apr','may','jun','jul','aug','sep','oct','nov','dec'].indexOf(location.hash.replace('#month-',''));
+    if (!month && oldMonth >= 0) month = oldMonth + 1;
     const anchor = location.hash.match(/^#events-\d{4}-(\d{2})$/);
     if (!month && anchor) month = Number(anchor[1]);
     if (!Number.isInteger(month) || month < 1 || month > 12) month = Number(historicalDate().slice(5,7));
@@ -81,6 +83,7 @@ export function initializeArchiveTimeline() {
   root.querySelector('[data-event-prev]').addEventListener('click', () => update({page:state.page-1}));
   root.querySelector('[data-event-next]').addEventListener('click', () => update({page:state.page+1}));
   window.addEventListener('popstate', () => { read(); render(); });
+  window.addEventListener('hashchange', () => { read(); render(); });
   read(); render();
 }
 

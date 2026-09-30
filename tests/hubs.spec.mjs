@@ -1,5 +1,6 @@
 import {test,expect} from '@playwright/test';
 import AxeBuilder from '@axe-core/playwright';
+import catalog from '../content/editorial/catalog.json' with {type:'json'};
 const hubs=['/zones/games/','/zones/music/','/zones/tv-movies/','/zones/tech-toys/','/zones/culture/'];
 for(const path of hubs){
  test(`complete hub, every advertised topic has content: ${path}`,async({page})=>{
@@ -57,4 +58,33 @@ test('story library categories survive reload and recover from invalid values',a
  await page.reload();await expect(stories).toHaveCount(6);
  await page.goto('/stories/?category=unknown');await expect(stories).toHaveCount(30);
  const result=await new AxeBuilder({page}).analyze();expect(result.violations).toEqual([]);
+});
+
+test('category view-all links open matching stories and dated events',async({page})=>{
+ await page.goto('/zones/music/');
+ await page.locator('#section-stories').getByRole('link',{name:'VIEW ALL'}).click();
+ await expect(page).toHaveURL(/stories\/\?category=music/);
+ await expect(page.locator('[data-hub-story]:visible')).toHaveCount(6);
+ await page.goto('/events/?category=games');
+ await expect(page.locator('[data-hub-event]:visible')).toHaveCount(Math.min(18,catalog.events.filter(event=>event.category==='games').length));
+ for(const card of await page.locator('[data-hub-event]:visible').all()) await expect(card).toHaveAttribute('data-category','games');
+ await page.getByRole('link',{name:'All events',exact:true}).click();
+ await page.getByRole('button',{name:'Next →',exact:true}).click();
+ await expect(page).toHaveURL(/page=2/);
+ await page.reload(); await expect(page.getByRole('status').last()).toContainText('Page 2');
+ await page.goBack(); await expect(page.getByRole('status').last()).toContainText('Page 1');
+});
+
+test('resources retain a selected category and query through reload and history',async({page})=>{
+ await page.goto('/webring/?filter=software-archives#directory');
+ const cards=page.locator('#resourceGrid .resource-card:visible');
+ await expect(cards).toHaveCount(11);
+ await page.locator('[data-resource-filter="games-emulation"]').click();
+ await expect(cards).toHaveCount(18);
+ await page.reload(); await expect(page).toHaveURL(/filter=games-emulation/);
+ await page.getByRole('button',{name:'Next →',exact:true}).click();
+ await expect(cards).toHaveCount(3);
+ await page.goBack(); await expect(cards).toHaveCount(18);
+ await page.locator('#resourceSearch').fill('zzzz-no-resource');
+ await expect(page.locator('#resourceNoResults')).toBeVisible();
 });

@@ -11,7 +11,7 @@ export function initializeGuestbook() {
     const name = String(values.get("name") || "").trim() || "Anonymous visitor";
     const message =
       String(values.get("message") || "").trim() ||
-      "Stopped by the museum desk.";
+      "Stopped by to say hello.";
     preview.replaceChildren();
     const heading = document.createElement("strong");
     heading.textContent = `${name} previewed:`;

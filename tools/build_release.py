@@ -26,7 +26,7 @@ ROUTE_PREFIXES = {'archive', 'credits', 'events', 'guestbook', 'search', 'sitema
                   'stories', 'surprise', 'this-week', 'timeline', 'tours', 'webring', 'zones'}
 JS_FILES = {f'js/{name}.js' for name in (
     'announce', 'app', 'archive', 'date-utils', 'editorial', 'guestbook', 'hubs',
-    'navigation', 'passport', 'resources', 'search', 'storage', 'surprise', 'timeline', 'tour')}
+    'navigation', 'pagination', 'passport', 'resources', 'search', 'storage', 'surprise', 'tour')}
 RUNTIME_FILES = {'assets/runtime/week.json', 'assets/runtime/surprise.json'}
 MEDIA_TYPES = {'.png', '.jpg', '.jpeg', '.webp', '.avif', '.svg', '.gif', '.ico'}
 FONT_LICENSES = {'OFL-Press-Start-2P.txt', 'OFL-Space-Mono.txt', 'OFL-barlow.txt',

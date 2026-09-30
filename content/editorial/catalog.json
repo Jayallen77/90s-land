@@ -11673,7 +11673,7 @@
       "title": "The toy that needed you",
       "category": "culture",
       "summary": "Digital pets made looking after a tiny screen part of the day’s routine.",
-      "art": "game-boy-color",
+      "art": null,
       "objectIds": [
         "game-boy-color",
         "pager"

@@ -49,7 +49,7 @@ dedicated deployment directory accessible to Caddy (commonly under `/srv` or
 
 ## What crosses the public boundary
 
-The packager starts with the 474 catalog routes, 404 page, sitemap, robots file,
+The packager starts with the catalog routes, 404 page, sitemap, robots file,
 web manifest, and social image, then follows local runtime dependencies.
 A positive path/type policy permits only route HTML, the four site stylesheets,
 known browser modules, referenced image/font assets, required font licenses,

@@ -166,16 +166,7 @@ def main() -> int:
                 errors.append(f"tour stop fragment missing: {stop['id']}")
 
     webring = (ROOT / "webring/index.html").read_text()
-    directory_match = re.search(
-        r"<!-- generated:webring-directory:start -->(.*?)<!-- generated:webring-directory:end -->",
-        webring,
-        re.S,
-    )
-    directory_cards = (
-        len(re.findall(r'class="resource-card"', directory_match.group(1)))
-        if directory_match
-        else 0
-    )
+    directory_cards = len(re.findall(r'class="resource-card"', webring))
     if directory_cards != len(resources):
         errors.append(f"Webring directory rendered {directory_cards}, expected {len(resources)}")
 

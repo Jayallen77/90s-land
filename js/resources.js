@@ -1,39 +1,38 @@
+import { createPagination } from './pagination.js';
 export function initializeResources() {
-  const input = document.querySelector("#resourceSearch");
-  const cards = [...document.querySelectorAll("#resourceGrid .resource-card")];
-  const buttons = [...document.querySelectorAll("[data-resource-filter]")];
-  const count = document.querySelector("#resourceCount");
-  const empty = document.querySelector("#resourceNoResults");
-  if (!cards.length || !count) return;
-
-  let filter = "all";
-
-  function render() {
-    const query = input?.value.trim().toLowerCase() || "";
-    let visible = 0;
-    cards.forEach((card) => {
-      const matchesFilter =
-        filter === "all" || card.dataset.category === filter;
-      const matchesText = !query || card.textContent.toLowerCase().includes(query);
-      const show = matchesFilter && matchesText;
-      card.hidden = !show;
-      if (show) visible += 1;
-    });
-    buttons.forEach((button) => {
-      const active = button.dataset.resourceFilter === filter;
-      button.setAttribute("aria-pressed", String(active));
-      button.classList.toggle("active", active);
-    });
-    count.textContent = `Showing ${visible} external ${visible === 1 ? "destination" : "destinations"}.`;
-    if (empty) empty.hidden = visible !== 0;
+  const input = document.querySelector('#resourceSearch');
+  const grid = document.querySelector('#resourceGrid');
+  const cards = [...grid.querySelectorAll('.resource-card')];
+  const buttons = [...document.querySelectorAll('[data-resource-filter]')];
+  const count = document.querySelector('#resourceCount');
+  const empty = document.querySelector('#resourceNoResults');
+  const allowed = new Set(buttons.map(button => button.dataset.resourceFilter));
+  let filter = 'all', page = 1;
+  const paginate = createPagination(grid, next => {page=next;render(true);grid.scrollIntoView({block:'start'});});
+  function read() {
+    const params = new URL(location.href).searchParams;
+    input.value = params.get('q') || '';
+    filter = allowed.has(params.get('filter')) ? params.get('filter') : 'all';
+    page = Number(params.get('page')) || 1;
   }
-
-  input?.addEventListener("input", render);
-  buttons.forEach((button) => {
-    button.addEventListener("click", () => {
-      filter = button.dataset.resourceFilter;
-      render();
-    });
-  });
-  render();
+  function render(push = false, write = true) {
+    const query = input.value.trim().toLowerCase();
+    cards.forEach(card => {card.hidden = !((filter==='all'||card.dataset.category===filter)&&(!query||card.textContent.toLowerCase().includes(query)));});
+    const matches = cards.filter(card=>!card.hidden);
+    page = paginate(matches,page);
+    buttons.forEach(button => button.setAttribute('aria-pressed',String(button.dataset.resourceFilter===filter)));
+    count.textContent = `${matches.length} external ${matches.length===1?'destination':'destinations'}`;
+    empty.hidden = matches.length !== 0;
+    if (write) {
+      const url = new URL(location.href); url.search = '';
+      if (query) url.searchParams.set('q',input.value.trim());
+      if (filter!=='all') url.searchParams.set('filter',filter);
+      if (page>1) url.searchParams.set('page',page);
+      history[push?'pushState':'replaceState']({},'',url);
+    }
+  }
+  input.addEventListener('input',()=>{page=1;render();});
+  buttons.forEach(button=>button.addEventListener('click',()=>{filter=button.dataset.resourceFilter;page=1;render(true);}));
+  addEventListener('popstate',()=>{read();render(false,false);});
+  read(); render(false,false);
 }

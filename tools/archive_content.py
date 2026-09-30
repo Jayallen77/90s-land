@@ -10,7 +10,6 @@ ROOT = Path(__file__).resolve().parents[1]
 CATEGORIES = {'music':'Music', 'movies-tv':'Movies & TV', 'games':'Games', 'tech':'Tech', 'culture':'Culture', 'news':'World news'}
 HEROES = {'home', 'timeline', 'games', 'music', 'movies', 'tech', 'culture'}
 CATALOG = json.loads((ROOT/'content/editorial/catalog.json').read_text())
-PAGES = {p['path']: p for p in json.loads((ROOT/'content/pages.json').read_text())}
 ARTIFACTS = json.loads((ROOT/'data/artifacts.json').read_text())
 EVENTS = sorted(CATALOG['events'], key=lambda e: (e['date'], e['id']))
 STORIES = CATALOG['stories']
@@ -33,16 +32,13 @@ def week_bounds(day):
     return start, start + timedelta(days=6)
 
 
-def page_source(route):
-    return (ROOT/PAGES[route['path']]['source']).read_text()
-
-
 def all_routes():
     routes = json.loads((ROOT/'content/routes.json').read_text())
     def add(id, type, path, title, summary, tags, objects=()):
         routes.append(dict(id=id, type=type, path=path, title=title, summary=summary,
                            tags=tags, artifactIds=list(objects), randomEligible=False))
     add('this-week','highlights','/this-week/','This week, 30 years ago','Step back into a historical Monday–Sunday week. Browse dated releases and moments from the 1990s.',['week','calendar'])
+    add('events','highlights','/events/','Events from the 90s','Browse dated releases and milestones across the decade. Filter by category, then follow the source notes.',['events','calendar'])
     add('stories','highlights','/stories/','Stories from the 90s','Read the stories behind the dates, objects, and everyday rituals.',['stories'])
     add('object-archive','highlights','/archive/objects/','The object archive',f'{len(ARTIFACTS)} objects, interfaces, and recreations from the 1990s.',['objects','archive'])
     add('zones-culture','zones','/zones/culture/','Culture: meet you at the mall','Style, toys, sports, screen names, and the everyday rituals that made the decade yours.',['culture','fashion','toys','sports','internet'])
@@ -93,9 +89,6 @@ def validate(catalog=None):
     for story in data['stories']:
         for event in data['events']:
             require((event['id'] in story['eventIds']) == (story['id'] in event['storyIds']), f'Asymmetric event/story relation: {event["id"]}, {story["id"]}')
-    for page in PAGES.values():
-        source = ROOT/page['source']
-        require(source.is_relative_to(ROOT/'content/pages') and source.is_file(), f'Missing authored source: {page["path"]}')
     routes = all_routes()
     require(len({r['path'] for r in routes}) == len(routes), 'Duplicate route path')
     return errors

@@ -12,10 +12,10 @@ test('dated highlights switch between grid and list', async ({ page }) => {
   await expect(page.locator('[data-timeline]')).toHaveAttribute('data-view', 'grid');
 });
 
-test('old direct links open the preserved room and reveal the target', async ({ page }) => {
+test('old direct links reach useful content without legacy layouts', async ({ page }) => {
   for (const [route, hash] of [['/', 'artifact-family-pc'], ['/timeline/1996/', 'month-sep'], ['/zones/games/', 'artifact-genesis-controller']]) {
     await page.goto(`${route}#${hash}`);
-    await expect(page.locator('.ed-reading-room')).toHaveAttribute('open', '');
+    await expect(page.locator('.ed-reading-room,.ed-preserved,.window-bar')).toHaveCount(0);
     await expect(page.locator(`#${hash}`)).toBeVisible();
     await expect(page.locator(`#${hash}`)).toBeInViewport();
   }
@@ -37,12 +37,11 @@ test('hero artwork and fonts load without errors on all three compositions', asy
   expect(failures).toEqual([]);
 });
 
-test('preserved reading rooms stay accessible without JavaScript', async ({ browser, baseURL }) => {
+test('object collections stay accessible without JavaScript', async ({ browser, baseURL }) => {
   const context = await browser.newContext({ baseURL, javaScriptEnabled: false });
   const page = await context.newPage();
   await page.goto('/zones/games/');
   await expect(page.locator('.ed-hero h1')).toBeVisible();
-  await page.locator('.ed-reading-room > summary').click();
   await expect(page.locator('#artifact-genesis-controller')).toBeVisible();
   await context.close();
 });

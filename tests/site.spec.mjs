@@ -12,10 +12,11 @@ const viewports = [
 ];
 
 for (const viewport of viewports) {
-  test(`${viewport.name}: every route stays inside the viewport`, async ({ page }) => {
+ for(let batch=0;batch<routes.length;batch+=60){
+  test(`${viewport.name}: routes ${batch+1}–${Math.min(batch+60,routes.length)} stay inside the viewport`, async ({ page }) => {
     test.setTimeout(180_000);
     await page.setViewportSize(viewport);
-    for (const route of routes) {
+    for (const route of routes.slice(batch,batch+60)) {
       await page.goto(route.path);
       await expect(page.locator("#main-content")).toBeVisible();
       const layout = await page.evaluate(() => ({
@@ -35,6 +36,7 @@ for (const viewport of viewports) {
       expect(layout.clippedControls, route.path).toBe(0);
     }
   });
+ }
 }
 
 test("editorial home keeps its headline, hero and primary action above the fold", async ({ page }) => {
@@ -81,10 +83,8 @@ test("Surprise Me excludes the three most recent choices", async ({ page }) => {
 
 test("passport persists and resets through confirmation", async ({ page }) => {
   await page.goto("/");
-  await page.locator(".ed-reading-room > summary").click();
   await page.locator('[data-artifact-inspect="family-pc"]').click();
   await page.reload();
-  await page.locator(".ed-reading-room > summary").click();
   await expect(page.locator('[data-artifact-inspect="family-pc"]')).toHaveText(
     "Inspected ✓"
   );
@@ -221,7 +221,7 @@ test("timeline year-door artwork identifies its exhibit and editorial recreation
   await expect(page.locator('[data-timeline-room="timeline-1995"] .timeline-artwork-label')).toContainText("COLLECTION OBJECT");
 });
 
-test("year calendar uses real days and preserves its reading room", async ({ page }) => {
+test("year calendar uses real days and supports old month bookmarks", async ({ page }) => {
   await page.goto('/timeline/1996/?month=06&view=calendar');
   const calendar = page.locator('[data-month-panel="6"] .ar-calendar');
   await expect(calendar).toBeVisible();
@@ -230,9 +230,10 @@ test("year calendar uses real days and preserves its reading room", async ({ pag
   await page.locator('[data-month="7"]').click();
   await expect(page).toHaveURL(/month=07&view=calendar/);
   await expect(page.locator('[data-month-panel="7"] .ar-calendar')).toBeVisible();
-  await page.locator('[data-month-panel="7"]').getByRole('link',{name:'Read the month’s context'}).click();
+  await page.goto('/timeline/1996/#month-jul');
+  await expect(page.locator('[data-month-panel="7"]')).toBeVisible();
   await expect(page.locator('#month-jul')).toBeInViewport();
-  await expect(page.locator('.ed-reading-room')).toHaveAttribute('open','');
+  await expect(page.locator('.ed-reading-room')).toHaveCount(0);
 });
 
 for (const path of [

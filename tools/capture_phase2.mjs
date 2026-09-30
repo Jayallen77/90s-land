@@ -23,7 +23,7 @@ try {
       overflow: document.documentElement.scrollWidth - innerWidth,
       heroHeight: document.querySelector('.ed-hero').clientHeight,
       firstModuleTop: document.querySelector('.ed-home-grid,.ed-topic-rail,.ed-month-rail').getBoundingClientRect().top,
-      readingRoomTop: document.querySelector('.ed-reading-room').getBoundingClientRect().top,
+      objectCollectionTop: document.querySelector('.artifact-shelf').getBoundingClientRect().top,
     }));
     results.push({ name, route, width, height, ...metrics });
     await page.close();

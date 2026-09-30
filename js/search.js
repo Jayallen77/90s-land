@@ -1,3 +1,4 @@
+import { createPagination } from './pagination.js';
 const VALID_FILTERS = new Set([
   "all",
   "events",
@@ -45,11 +46,16 @@ export function initializeSearch() {
     if (summary) summary.textContent = String(totals[category] || 0);
   });
 
-  let filter = "all";
+  let filter = "all", page = 1;
+  const paginate = createPagination(document.querySelector('#siteSearchGrid'), next => {
+    page = next; render({historyMode:'push'});
+    document.querySelector('#siteSearchGrid').scrollIntoView({block:'start'});
+  });
 
   function stateFromUrl() {
     const params = new URLSearchParams(window.location.search);
     input.value = params.get("q") || "";
+    page = Number(params.get("page")) || 1;
     const requested = params.get("filter") || "all";
     filter = VALID_FILTERS.has(requested) ? requested : "all";
   }
@@ -58,6 +64,7 @@ export function initializeSearch() {
     const params = new URLSearchParams();
     if (input.value.trim()) params.set("q", input.value.trim());
     if (filter !== "all") params.set("filter", filter);
+    if (page > 1) params.set("page",page);
     const query = params.toString();
     const url = query ? `?${query}` : window.location.pathname;
     if (mode === "push") window.history.pushState(null, "", url);
@@ -81,21 +88,24 @@ export function initializeSearch() {
       button.setAttribute("aria-pressed", String(active));
       button.classList.toggle("active", active);
     });
+    page = paginate(cards.filter(card=>!card.hidden), page);
     count.textContent = `Showing ${visible} ${visible === 1 ? "match" : "matches"}.`;
     empty.hidden = visible !== 0;
     if (writeUrl) updateUrl(historyMode);
   }
 
-  input.addEventListener("input", () => render());
+  input.addEventListener("input", () => {page=1;render();});
   buttons.forEach((button) => {
     button.addEventListener("click", () => {
       filter = button.dataset.siteFilter;
+      page = 1;
       render({ historyMode: "push" });
     });
   });
   document.querySelector("[data-search-clear]")?.addEventListener("click", () => {
     input.value = "";
     filter = "all";
+    page = 1;
     render({ historyMode: "push" });
     input.focus();
   });

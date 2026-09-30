@@ -4,11 +4,10 @@ from __future__ import annotations
 import calendar
 import html
 import json
-import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-CORE = {'/': 'home', '/zones/games/': 'games'}
+CORE = {'/': 'home'}
 ARTIFACTS = {a['id']: a for a in json.loads((ROOT / 'data/artifacts.json').read_text())}
 NAVIGATION = json.loads((ROOT / 'data/navigation.json').read_text())
 
@@ -42,7 +41,7 @@ def shell_header(route):
     current = route['path']
     items = []
     for label, href in links:
-        active = current == href or (href == '/timeline/' and current.startswith('/timeline/'))
+        active = current == href or (href == '/timeline/' and current.startswith('/timeline/')) or (href != '/' and parent_section(route)[1] == href)
         items.append(f'<a href="{href}"'+(' aria-current="page"' if active else '')+f'>{esc(label)}</a>')
     return f'''<header class="ed-header" id="top">
       <a class="ed-brand" href="/"><img src="/assets/editorial/palm-sunset.svg" alt="" width="180" height="105" loading="eager" decoding="async" /><span class="ed-wordmark">90s.land</span> <span class="ed-tagline">RELIVE THE DECADE</span><span class="sr-only"> home</span></a>
@@ -53,30 +52,20 @@ def shell_header(route):
 
 
 def discovery():
-    return f'''<nav class="ed-discovery" aria-label="More ways to explore"><span>{icon('book')} KEEP EXPLORING</span><a href="/tours/before-the-feed/">Take the tour <b>↗</b></a><a href="/surprise/" data-surprise-trigger>Surprise me</a><button type="button" data-passport-trigger hidden>Passport <span data-passport-count>0</span></button><a href="/webring/">The old web ↗</a><a href="/guestbook/">Guestbook</a></nav>'''
+    return f'''<nav class="ed-discovery" aria-label="More ways to explore"><span>{icon('book')} KEEP EXPLORING</span><a href="/tours/before-the-feed/">Take the tour <b>↗</b></a><a href="/surprise/" data-surprise-trigger>Surprise me</a><button type="button" data-passport-trigger hidden>Passport <span data-passport-count>0</span></button><a href="/webring/">Resources ↗</a><a href="/guestbook/">Guestbook preview</a></nav>'''
 
 
 def shell_footer():
     return '''<footer class="ed-footer"><span>© 1999–forever <b>90s.land</b> · Same decade. Different day.</span><nav aria-label="Footer"><a href="/sitemap/">Site map</a><a href="/credits/">Sources & artwork</a><a href="#top">Back to top ↑</a></nav></footer>'''
 
 
-def apply_shell(source, route):
-    source = re.sub(r'<header class="(?:topbar|ed-header)".*?</header>', lambda _: shell_header(route), source, count=1, flags=re.S)
-    source = re.sub(r'<footer class="(?:footer|ed-footer)".*?</footer>', lambda _: shell_footer(), source, count=1, flags=re.S)
-    source = re.sub(r'<nav class="ed-discovery".*?</nav>\s*(?=<footer class="ed-footer")', '', source, flags=re.S)
-    # Core compositions put discovery before their preserved reading rooms.
-    if route['path'] not in CORE:
-        source = source.replace('<footer class="ed-footer">', discovery()+'\n<footer class="ed-footer">',1)
-    if '/editorial.css?' not in source:
-        source = source.replace('</head>', '  <link rel="stylesheet" href="/editorial.css?v=phase5-1" />\n</head>')
-    source = source.replace("</head>", '  <link rel="stylesheet" href="/archive.css?v=phase5-1" />\n  <link rel="stylesheet" href="/hub.css?v=phase5-1" />\n</head>')
-    return source
-
-
 def media(key, *, hero=False):
     if key in ('home','timeline','games','music','movies','tech','culture'):
         alt = {'home':'Original illustrated collage of a CRT television, VHS tapes, sneaker and game hardware.','timeline':'Original illustrated collage of 1996-era game consoles, sports car, basketball and music.','games':'Original illustrated collage of a CRT platform game, console, handheld and arcade cabinet.','music':'Original AI-generated still-life collage of cassettes, CDs, headphones and music equipment.','movies':'Original AI-generated still-life collage of VHS tapes, a CRT, popcorn and movie-night objects.','tech':'Original AI-generated still-life collage of a translucent computer, a beige PC, discs and portable electronics.','culture':'Original AI-generated still-life collage of mall-era shopping, sneakers, toys and personal accessories.'}[key]
         return f'<img src="/assets/editorial/{key}-hero-1440.webp" srcset="/assets/editorial/{key}-hero-768.webp 768w, /assets/editorial/{key}-hero-1440.webp 1440w, /assets/editorial/{key}-hero-2172.webp 2172w" sizes="'+('(max-width: 1440px) 100vw, 1440px' if hero else '(max-width: 600px) 90vw, 420px')+f'" alt="{alt}" width="2172" height="724" loading="'+('eager' if hero else 'lazy')+'" decoding="async"'+(' fetchpriority="high"' if hero else '')+' />'
+    if key not in ARTIFACTS or ARTIFACTS[key]['media']['kind'] != 'image':
+        label = ARTIFACTS[key]['title'] if key in ARTIFACTS else '90s.land'
+        return graphic(label)
     item = ARTIFACTS[key]['media']
     return f'<img src="{esc(item["src"])}" alt="{esc(item["alt"])}" width="{item["width"]}" height="{item["height"]}" sizes="(max-width: 600px) 45vw, (max-width: 1000px) 33vw, 360px" loading="lazy" decoding="async" />'
 
@@ -99,19 +88,6 @@ def tile(title, href, art, subtitle='', badge='', cls=''):
     return f'<a class="ed-tile {cls}" href="{esc(href)}"><div class="ed-tile-art">{media(art)}</div><div class="ed-tile-copy">'+(f'<span class="ed-badge">{esc(badge)}</span>' if badge else '')+f'<h3>{esc(title)}</h3>'+(f'<p>{esc(subtitle)}</p>' if subtitle else '')+'</div></a>'
 
 
-def preserved_content(route):
-    import archive_content
-    source = archive_content.page_source(route)
-    content = re.sub(r'^<main[^>]*>', '', source.strip())
-    content = re.sub(r'</main>$', '', content)
-    content = re.sub(r'<h1(\s[^>]*)?>', r'<h2\1>', content).replace('</h1>','</h2>')
-    content = content.replace(' loading="eager"',' loading="lazy"').replace(' fetchpriority="high"','')
-    # Primary actions live in discovery now, so avoid duplicate dialog triggers.
-    content = content.replace(' data-surprise-trigger','')
-    title = {'/':'More to explore: the original museum desk','/timeline/1996/':'The complete 1996 reading room','/zones/games/':'The games reading room & hardware collection'}.get(route['path'], f'The complete {route["title"]} reading room')
-    return f'<details class="ed-reading-room" data-reading-room><summary>{icon("book")} {title}<span>OPEN ARCHIVE +</span></summary><div class="ed-preserved">{content}</div></details>'
-
-
 def week_feature():
     from datetime import date
     import archive_content as archive
@@ -132,28 +108,37 @@ def home():
     picks = [('Friday night at the video store','/stories/friday-at-the-video-store/','blockbuster-store'),('The art of the mixtape','/stories/from-mixtape-to-file/','cassette'),('The controller that changed play','/stories/a-whole-new-dimension/','n64-controller'),('Before every room had a screen','/stories/the-family-computer/','family-pc'),('The transparent tech obsession','/stories/you-could-see-through-it/','game-boy-color'),('When the internet came in the mail','/stories/the-internet-came-in-the-mail/','aol-cd')]
     return hero('home')+f'''<div class="ed-home-grid">
       {week_feature()}
-      <section class="ed-panel ed-feature">{heading('Featured')}{tile('A web you could make your own','/stories/a-web-you-could-make/','first-website','A public idea. A more personal kind of internet.','STORY')}</section>
+      <section class="ed-panel ed-feature">{heading('Featured')}{tile('A web you could make your own','/stories/a-web-you-could-make/','mosaic-browser','A public idea. A more personal kind of internet.','STORY')}</section>
       <section class="ed-panel">{heading('Browse the 90s','folder')}<div class="ed-categories">{category_html}</div></section>
-    </div><section class="ed-picks">{heading('On heavy rotation','bolt','/search/', '<span class="ed-selection-note">EDITOR PICKS</span>')}<div class="ed-six-up">{''.join(tile(t,h,a) for t,h,a in picks)}</div></section>'''
-
-
-def games():
-    rail = [('All games','#game-guide','games'),('Consoles','#co-op-path','games'),('PC games','#game-media','tech'),('Arcade','#artifact-arcade-cabinet','bolt'),('Handhelds','/zones/transparent-tech/#artifact-game-boy-color','games'),('Console wars','#why','trophy'),('Co-op','#co-op-path','games'),('Cheat codes','#game-artifacts','star'),('History','#game-media','book')]
-    ranked = [('Arcade nights','Quarter up. Your turn is next.','arcade-cabinet','#artifact-arcade-cabinet','ARCADE'),('The console-war couch','Choose a side. Pass a controller.','genesis-controller','#co-op-path','CONSOLE'),('A whole new dimension','The analog stick changes the room.','n64-controller','#artifact-n64-controller','3D'),('Shareware & LAN nights','One disk. A room full of friends.','doom-disks','#game-media','PC'),('Gaming on the go','A world that fits in your pocket.','game-boy-color','/zones/transparent-tech/#artifact-game-boy-color','HANDHELD')]
-    ranks = ''.join(f'<a class="ed-rank" href="{href}"><span class="ed-rank-number">{i+1}</span>{media(art)}<span><strong>{title}</strong><small>{desc}</small></span><b>{tag}</b><span aria-hidden="true">›</span></a>' for i,(title,desc,art,href,tag) in enumerate(ranked))
-    platforms=[('Console games','#artifact-genesis-controller','genesis-controller','From 16-bit to 3D.'),('PC games','#game-media','family-pc','DOS, discs, and dial-up.'),('Arcade games','#artifact-arcade-cabinet','arcade-cabinet','The original multiplayer.'),('Handheld games','/zones/transparent-tech/#artifact-game-boy-color','game-boy-color','Adventures to go.')]
-    facts=[('16-bit generation','Rivalries come home.','games'),('The rise of 3D','Explore a new dimension.','tech'),('Handheld boom','One more level, anywhere.','bolt'),('Arcade culture','Quarter up. Beat the score.','trophy'),('New connections','Play together. Stay up late.','culture')]
-    dives=[('LAN parties','#game-media','family-pc','Friends. Cables. All night.'),('The 3D revolution','#artifact-n64-controller','n64-controller','A new dimension of play.'),('Memory cards','#game-artifacts','games','Small cards. Big saves.'),('Cheat codes','#game-artifacts','genesis-controller','Secrets passed between friends.'),('Couch co-op','#co-op-path','games','Multiplayer meant together.')]
-    return hero('games')+f'''<nav class="ed-topic-rail" aria-label="Gaming topics">{''.join(f'<a href="{href}">{icon(glyph)} {title}</a>' for title,href,glyph in rail)}</nav>
-    <div class="ed-games-grid" id="game-guide"><section class="ed-panel ed-feature">{heading('Featured story')}{tile('A whole new dimension','/stories/a-whole-new-dimension/','games','How 3D changed the spaces we explored—and the controllers in our hands.','STORY')}</section>
-    <section class="ed-panel ed-ranking">{heading('Five ways into the era','trophy')}{ranks}<span class="ed-selection-note">A CURATOR’S STARTING FIVE</span></section>
-    <section class="ed-panel ed-platforms">{heading('Browse by platform','folder')}<div class="ed-two-up">{''.join(tile(t,h,a,s) for t,h,a,s in platforms)}</div></section>
-    <aside class="ed-panel ed-facts">{heading('Era at a glance','bolt')}{''.join(f'<a href="#fast-read">{icon(glyph)}<span><strong>{title}</strong><small>{desc}</small></span></a>' for title,desc,glyph in facts)}</aside></div>
-    <div class="ed-games-bottom"><section class="ed-panel">{heading('Deep dives','book')}<div class="ed-five-up">{''.join(tile(t,h,a,s) for t,h,a,s in dives)}</div></section><section class="ed-panel">{heading('From the collection','bolt','/search/?filter=objects')}<div class="ed-three-up">{tile('The six-button advantage','#artifact-genesis-controller','genesis-controller')}{tile('The three-pronged future','#artifact-n64-controller','n64-controller')}{tile('Pocket-sized worlds','/zones/transparent-tech/','game-boy-color')}</div></section></div>'''
-
+    </div><section class="ed-picks">{heading('On heavy rotation','bolt','/stories/', '<span class="ed-selection-note">EDITOR PICKS</span>')}<div class="ed-six-up">{''.join(tile(t,h,a) for t,h,a in picks)}</div></section>'''
 
 
 def main(route):
-    kind = CORE[route['path']]
-    composition = {'home':home, 'games':games}[kind]()
-    return f'<main id="main-content" class="ed-main ed-page-{kind}">{composition}{discovery()}{preserved_content(route)}</main>'
+    return '<main id="main-content" class="ed-main">'+home()+'</main>'
+
+SECTION_ROUTES = {'music': ('Music', '/zones/music/'), 'movies-tv': ('Movies & TV', '/zones/tv-movies/'), 'games': ('Games', '/zones/games/'), 'tech': ('Tech', '/zones/tech-toys/'), 'culture': ('Culture', '/zones/culture/')}
+
+
+def parent_section(route):
+    import archive_content as model
+    path = route['path']
+    if path == '/events/': return ('Timeline', '/timeline/')
+    if path.startswith('/timeline/'): return ('Timeline', '/timeline/')
+    if path in ('/zones/fashion/', '/zones/internet-culture/'): return SECTION_ROUTES['culture']
+    if path == '/zones/transparent-tech/': return SECTION_ROUTES['tech']
+    for item in model.STORIES + model.EVENTS:
+        if path in (model.story_url(item), model.event_url(item)):
+            return SECTION_ROUTES.get(item['category'], ('Timeline', '/timeline/'))
+    if route.get('type') == 'objects': return ('Objects', '/archive/objects/')
+    return ('Home', '/')
+
+
+def breadcrumb(route):
+    if route['path'] == '/': return ''
+    label, href = parent_section(route)
+    parent = f'<span aria-hidden="true">/</span><a href="{href}">{esc(label)}</a>' if href not in ('/',route['path']) else ''
+    return f'<nav class="ar-breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a>{parent}<span aria-hidden="true">/</span><span aria-current="page">{esc(route["title"])}</span></nav>'
+
+
+def graphic(title, kicker='FROM THE 90s', glyph='star'):
+    return f'<div class="ed-graphic"><span>{icon(glyph)} {esc(kicker)}</span><strong>{esc(title)}</strong><span class="graphic-rule" aria-hidden="true"></span></div>'

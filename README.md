@@ -1,20 +1,18 @@
 # 90s.land
 
-Static nostalgia site with the five-phase editorial rebuild completed locally.
-Phase 5 adds smaller media and fonts, mobile polish, release verification, and
-a reproducible deployment package. All eight primary sections include 384 sourced dated events,
-30 original stories, and working topic, genre, and platform filters. The shared editorial shell, original
-reading rooms, museum tools, and old deep links remain available. Hosting paths
-from earlier prototype notes are not a verified deployment target.
+A static editorial site about the music, movies, games, technology, and culture
+of the 1990s. It contains 384 sourced events, 30 stories, 30 objects, and a curated
+resource directory. All public pages share one visual system. Historical UI
+recreations appear only as labeled exhibits.
 
 ## Stack and authoring
 
 Python generates dependency-free HTML, CSS, JSON, and browser ES modules.
 Generated public HTML is committed; edit its sources and run the renderer.
 
-- `content/pages.json` maps the 23 preserved main fragments in `content/pages/`.
-  These balanced fragments are authoritative editable prose, separate from the
-  immutable import. Generated regions inside them still come from catalogs.
+- `tools/product_pages.py` owns specialist collections and utility pages.
+- `content/deep-links.json` maps retired section anchors to live sections. It
+  contains IDs only; the old full-page fragments and their rendering path are removed.
 - `content/routes.json` owns the original route metadata. The renderer appends
   event, story, object, and index routes and writes `data/routes.json`.
 - `content/editorial/catalog.json` owns reviewed events, original stories, source
@@ -32,7 +30,7 @@ Generated public HTML is committed; edit its sources and run the renderer.
   supplies the shared shell and Home composition. `archive_content.py`
   validates the dated archive; `archive_pages.py` renders its pages and
   `hub_pages.py` supplies the section hubs and timeline overview.
-- `styles.css` supports preserved museum content; `editorial.css` supplies the
+- `styles.css` defines shared controls, dialogs, utilities, and intentional exhibits; `editorial.css` supplies the
   visual system; `archive.css` adds calendars and reading surfaces, and `hub.css`
   supplies the dense section layouts.
 - `js/date-utils.js` provides civil-date arithmetic. `js/archive.js` progressively
@@ -47,7 +45,11 @@ The renderer does not read generated public HTML or frozen snapshots. The
 source-independence test rejects either dependency. Do not edit generated HTML
 to change content. Production packaging verifies and copies the committed output.
 
-## Rebuild documentation
+## Design and historical documentation
+
+The current composition contract is [Unified design](docs/design/UNIFIED_SITE.md).
+Earlier phase reports below are historical records, not instructions to preserve
+old page layouts or duplicate prose.
 
 - [Phase 1 report and review queue](reports/PHASE_1_MIGRATION.md)
 - [Import schemas and preservation contract](docs/CONTENT_MIGRATION.md)
@@ -60,12 +62,12 @@ to change content. Production packaging verifies and copies the committed output
 - [Phase 4 verification](reports/PHASE_4_QA.md)
 - [Phase 5 implementation](docs/PHASE_5.md)
 - [Phase 5 final verification and performance](reports/PHASE_5_QA.md)
+- [Unified site verification](reports/UNIFIED_SITE_QA.md)
 - [Release and rollback runbook](docs/RELEASE.md)
 
 `content/migration/` remains an unreviewed reproducible extraction, not a source
 of published events. Frozen snapshots under `reports/baseline/phase-1/` and supplied
-JPEG references under `docs/design/references/` remain intact. Promoted fragments
-preserve the old prose without certifying old historical claims; day-specific
+JPEG references under `docs/design/references/` remain intact. Retired public page fragments are removed. Day-specific
 entries require separate sources and date notes.
 
 ## Local preview
@@ -92,23 +94,20 @@ pnpm content:visual-check
 pnpm test:content
 pnpm test:dates
 pnpm test
-node tools/capture_phase5.mjs
+node tools/capture_redesign.mjs
 ```
 
 `content:baseline` is the retired Phase 1 unchanged-presentation gate. It is
 expected to fail after the visual rebuild; keep the frozen baseline intact.
 
-## Current concept
+## Visitor experience
 
-A nostalgic interactive portal/museum/playground for the 90s and pre-algorithm internet:
-
-- Retro homepage / enter experience
-- Fake desktop/window UI
-- History of the 90s by year
-- Portal zones for music, movies, games, TV, tech, toys, internet culture, fashion, and major events
-- Webring/resources section
-- Guestbook preview
-- Mobile-friendly responsive layout
+Explore the decade through calendars, stories, objects, and five collection hubs.
+Fashion and Internet Culture sit under Culture; Transparent Tech sits under Tech.
+Search and the resource directory provide focused discovery. The tour, Surprise
+Me, and locally saved Passport connect the collections. The guestbook and
+homepage builder are clearly labeled interactive recreations within the shared
+site design.
 
 ## Deployment
 

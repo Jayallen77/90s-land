@@ -754,7 +754,7 @@
   {
     "id": "blockbuster-store",
     "slug": "blockbuster-store",
-    "title": "Blockbuster storefront",
+    "title": "Blockbuster store interior",
     "dateRange": {
       "startYear": 1990,
       "endYear": 1999,
@@ -767,7 +767,7 @@
     "media": {
       "kind": "image",
       "src": "/assets/media/tv-movies/blockbuster-storefront.jpg",
-      "alt": "Blockbuster Video storefront at dusk with its blue-and-yellow sign lit.",
+      "alt": "Shelves of films inside a Blockbuster video rental store.",
       "width": 1280,
       "height": 960,
       "credit": "Jon Konrath from Oakland, USA",
