@@ -1,7 +1,7 @@
 # 90s.land
 
 A static editorial site about the music, movies, games, technology, and culture
-of the 1990s. It contains 384 sourced events, 30 stories, 30 objects, and a curated
+of the 1990s. It contains 635 sourced events, 51 stories, 62 objects, and a curated
 resource directory. All public pages share one visual system. Historical UI
 recreations appear only as labeled exhibits.
 
@@ -17,6 +17,9 @@ Generated public HTML is committed; edit its sources and run the renderer.
   event, story, object, and index routes and writes `data/routes.json`.
 - `content/editorial/catalog.json` owns reviewed events, original stories, source
   records, relationships, and the explicit build date for static week fallbacks.
+- `content/editorial/features.md` owns the additional long-form features and their
+  metadata. Month-only and year-only events remain in the archive without invented
+  calendar days. Packaging refreshes Home and This Week for the Denver civil date.
 - `content/editorial/modules.json` owns sourced chart snapshots and the curated
   game shelf. `content/editorial/media-review.json` records the media review.
 - Existing `data/artifacts.json`, `resources.json`, `tours.json`, `stamps.json`, and
@@ -63,6 +66,7 @@ old page layouts or duplicate prose.
 - [Phase 5 implementation](docs/PHASE_5.md)
 - [Phase 5 final verification and performance](reports/PHASE_5_QA.md)
 - [Unified site verification](reports/UNIFIED_SITE_QA.md)
+- [October editorial expansion and verification](reports/EDITORIAL_EXPANSION_QA.md)
 - [Release and rollback runbook](docs/RELEASE.md)
 
 `content/migration/` remains an unreviewed reproducible extraction, not a source

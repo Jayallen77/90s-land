@@ -83,10 +83,21 @@ rolled back without weakening either schema’s data policy.
 
 The manifest records sizes and SHA-256 hashes for every public file, route paths,
 and a digest of the inventory. Text gzip sidecars and the transport archive use
-fixed timestamps and permissions. Identical inputs with the same Python/zlib
+fixed timestamps and permissions. Identical inputs and editorial date with the same Python/zlib
 runtime produce identical files and archives; a different compression-library
 version can change compressed bytes without changing the website. No network,
-current date, npm install, image generation, or font conversion enters packaging.
+npm install, image generation, or font conversion enters packaging. The builder
+refreshes Home and This Week using the current civil date in America/Denver and
+records that date as `editorialAsOf` in the private manifest. Use
+`--as-of YYYY-MM-DD` when reproducing a previous package. Only day-precision
+events enter the weekly calendar; month/year entries remain in the wider archive.
+
+Static hosting must rebuild and publish after the Denver date changes to keep
+the default HTML current for crawlers and visitors without JavaScript. The browser
+also recalculates the date while a page is open, but that does not refresh a stored
+HTML file. After the operator confirms the deployment host and release store,
+schedule the existing build/publish commands daily on that host. No remote scheduler
+or production path is assumed by this checkout.
 
 ## Local checks before merging
 

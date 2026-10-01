@@ -3,6 +3,8 @@ from __future__ import annotations
 import calendar
 import json
 import re
+from datetime import datetime
+from zoneinfo import ZoneInfo
 from datetime import date, timedelta
 from pathlib import Path
 
@@ -11,6 +13,26 @@ CATEGORIES = {'music':'Music', 'movies-tv':'Movies & TV', 'games':'Games', 'tech
 THEMES = {'music':'Music', 'movies':'Movies', 'television':'Television', 'games':'Games', 'technology':'Technology', 'internet':'Internet', 'culture':'Culture', 'fashion':'Fashion', 'news':'World news', 'sports':'Sports', 'toys':'Toys & products'}
 HEROES = {'home', 'timeline', 'games', 'music', 'movies', 'tech', 'culture'}
 CATALOG = json.loads((ROOT/'content/editorial/catalog.json').read_text())
+BASE_STORY_IDS = {s['id'] for s in CATALOG['stories']}
+
+def load_features(path):
+    """Long-form prose stays in one readable Markdown source, with explicit metadata."""
+    records=[]
+    for match in re.finditer(r'<!-- story: (.*?) -->\s*(.*?)(?=<!-- story: |\Z)',path.read_text(),re.S):
+        item=json.loads(match[1]);sections=[]
+        for section in re.split(r'^## ',match[2],flags=re.M)[1:]:
+            heading,body=section.split('\n',1)
+            sections.append({'heading':heading.strip(),'paragraphs':[p.strip() for p in body.strip().split('\n\n') if p.strip()]})
+        item.setdefault('publishedAt','2026-10-01')
+        item.update(slug=item['id'],status='published',sections=sections,eventIds=[])
+        records.append(item)
+    return records
+
+CATALOG['stories'] += load_features(ROOT/'content/editorial/features.md')
+# Event connections are explicitly assigned in the catalog; keep both directions in sync.
+for feature in CATALOG['stories']:
+    if feature['id'] not in BASE_STORY_IDS:
+        feature['eventIds']=[e['id'] for e in CATALOG['events'] if feature['id'] in e['storyIds']]
 ARTIFACTS = json.loads((ROOT/'data/artifacts.json').read_text())
 EVENTS = sorted(CATALOG['events'], key=lambda e: (e['date'], e['id']))
 STORIES = CATALOG['stories']
@@ -70,6 +92,20 @@ def story_url(item): return f'/stories/{item["slug"]}/'
 def object_url(item): return f'/archive/objects/{item["slug"]}/'
 
 
+def civil_today(now=None):
+    return (now or datetime.now(ZoneInfo('America/Denver'))).astimezone(ZoneInfo('America/Denver')).date()
+
+
+def is_day(event):
+    return event.get('datePrecision') == 'day'
+
+
+def date_label(value):
+    if len(value) == 4: return value
+    if len(value) == 7: return date.fromisoformat(value+'-01').strftime('%B %Y')
+    return date.fromisoformat(value).strftime('%b %-d, %Y')
+
+
 def historical_date(today):
     year = today.year - 30
     shifted = date(year, today.month, min(today.day, calendar.monthrange(year, today.month)[1]))
@@ -120,6 +156,7 @@ def validate(catalog=None):
             require(bool(re.fullmatch('[a-z0-9]+(?:-[a-z0-9]+)*', item['slug'])), f'Invalid slug: {prefix}')
             require(item['category'] in CATEGORIES, f'Unknown category: {prefix}')
             require(item.get('status') == 'published', f'Unpublished item in public catalog: {prefix}')
+            require(bool(item.get('title','').strip()) and bool(item.get('summary','').strip()), f'Missing title or summary: {prefix}')
             require(bool(item.get('sourceIds')), f'Missing source: {prefix}')
             require(set(item.get('sourceIds', [])) <= ids['sources'], f'Unknown source: {prefix}')
             require(set(item.get('objectIds', [])) <= objects, f'Unknown object: {prefix}')
@@ -127,15 +164,25 @@ def validate(catalog=None):
             if group == 'events':
                 require(item.get('theme') in THEMES, f'Unknown event theme: {prefix}')
                 try:
-                    day = date.fromisoformat(item['date'])
+                    precision = item.get('datePrecision')
+                    patterns = {'day': r'\d{4}-\d{2}-\d{2}', 'month': r'\d{4}-\d{2}', 'year': r'\d{4}'}
+                    if precision not in patterns or not re.fullmatch(patterns[precision], item['date']):
+                        raise ValueError('Date does not match declared precision')
+                    normalized = item['date'] + {'day':'','month':'-01','year':'-01-01'}[precision]
+                    day = date.fromisoformat(normalized)
                     require(1990 <= day.year <= 1999, f'Date outside decade: {prefix}')
                 except (ValueError, KeyError): errors.append(f'Invalid event date: {prefix}')
-                require(item.get('datePrecision') == 'day' and bool(item.get('dateNote')) and bool(item.get('verifiedAt')), f'Event needs verified day precision: {prefix}')
+                require(item.get('datePrecision') in {'day','month','year'} and bool(item.get('dateNote')) and bool(item.get('verifiedAt')), f'Event needs verified date precision: {prefix}')
                 require(bool(item.get('region')), f'Missing region: {prefix}')
                 require(set(item.get('storyIds', [])) <= ids['stories'], f'Unknown story: {prefix}')
+                require(bool(item.get('paragraphs')) and all(p.strip() for p in item['paragraphs']), f'Empty event: {prefix}')
             else:
                 require(bool(item.get('sections')), f'Empty story: {prefix}')
                 require(set(item.get('eventIds', [])) <= ids['events'], f'Unknown event: {prefix}')
+                require(set(item.get('relatedStoryIds', [])) <= ids['stories'], f'Unknown related story: {prefix}')
+                require(all(section.get('heading','').strip() and section.get('paragraphs') and all(p.strip() for p in section['paragraphs']) for section in item.get('sections',[])), f'Empty story section: {prefix}')
+    for obj in ARTIFACTS:
+        require(set(obj.get('sourceIds',[])) <= ids['sources'], f'Unknown object source: {obj["id"]}')
     for story in data['stories']:
         for event in data['events']:
             require((event['id'] in story['eventIds']) == (story['id'] in event['storyIds']), f'Asymmetric event/story relation: {event["id"]}, {story["id"]}')
@@ -150,7 +197,7 @@ def validate(catalog=None):
 
 def browser_index():
     return {'buildAsOf': CATALOG['buildAsOf'], 'coverageNote': CATALOG['coverageNote'],
-            'events': [{**{k:e[k] for k in ('id','title','date','category','theme','region','summary')},'defining':e['id'] in DEFINING_IDS,'url':event_url(e), 'image': event_image(e)} for e in EVENTS]}
+            'events': [{**{k:e[k] for k in ('id','title','date','category','theme','region','summary')},'defining':e['id'] in DEFINING_IDS,'url':event_url(e), 'image': event_image(e)} for e in EVENTS if is_day(e)]}
 
 
 def event_image(event):

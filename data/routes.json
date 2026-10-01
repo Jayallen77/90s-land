@@ -564,7 +564,7 @@
     "type": "highlights",
     "path": "/archive/objects/",
     "title": "The object archive",
-    "summary": "30 objects, interfaces, and recreations from the 1990s.",
+    "summary": "62 objects, interfaces, and recreations from the 1990s.",
     "tags": [
       "objects",
       "archive"
@@ -586,6 +586,246 @@
       "internet"
     ],
     "artifactIds": [],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-a-tribe-called-quest-peoples-instinctive-travels-and-the-paths-of-rhythm-1990",
+    "type": "events",
+    "path": "/events/album-a-tribe-called-quest-peoples-instinctive-travels-and-the-paths-of-rhythm-1990/",
+    "title": "A Tribe Called Quest — People’s Instinctive Travels and the Paths of Rhythm",
+    "summary": "A relaxed, exploratory debut offers another route through early-decade hip-hop.",
+    "tags": [
+      "1990",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "technics-turntable"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-bell-biv-devoe-poison-1990",
+    "type": "events",
+    "path": "/events/album-bell-biv-devoe-poison-1990/",
+    "title": "Bell Biv DeVoe — Poison",
+    "summary": "New jack swing puts polished vocal harmonies over rhythms with a sharper edge.",
+    "tags": [
+      "1990",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-cocteau-twins-heaven-or-las-vegas-1990",
+    "type": "events",
+    "path": "/events/album-cocteau-twins-heaven-or-las-vegas-1990/",
+    "title": "Cocteau Twins — Heaven or Las Vegas",
+    "summary": "Shimmering guitars and Elizabeth Fraser’s voice make language feel like texture.",
+    "tags": [
+      "1990",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-deee-lite-world-clique-1990",
+    "type": "events",
+    "path": "/events/album-deee-lite-world-clique-1990/",
+    "title": "Deee-Lite — World Clique",
+    "summary": "House, funk and dance-pop share a brightly colored room.",
+    "tags": [
+      "1990",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-en-vogue-born-to-sing-1990",
+    "type": "events",
+    "path": "/events/album-en-vogue-born-to-sing-1990/",
+    "title": "En Vogue — Born to Sing",
+    "summary": "Close harmonies and assertive delivery make the vocal group the center of the record.",
+    "tags": [
+      "1990",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-happy-mondays-pills-n-thrills-and-bellyaches-1990",
+    "type": "events",
+    "path": "/events/album-happy-mondays-pills-n-thrills-and-bellyaches-1990/",
+    "title": "Happy Mondays — Pills ’n’ Thrills and Bellyaches",
+    "summary": "Guitar-band looseness and club rhythms meet in Manchester’s crossover moment.",
+    "tags": [
+      "1990",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-ll-cool-j-mama-said-knock-you-out-1990",
+    "type": "events",
+    "path": "/events/album-ll-cool-j-mama-said-knock-you-out-1990/",
+    "title": "LL COOL J — Mama Said Knock You Out",
+    "summary": "The performance makes confidence audible through emphasis, breath and rhythmic attack.",
+    "tags": [
+      "1990",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-mariah-carey-mariah-carey-1990",
+    "type": "events",
+    "path": "/events/album-mariah-carey-mariah-carey-1990/",
+    "title": "Mariah Carey — Mariah Carey",
+    "summary": "The debut places an unusually agile voice inside the familiar machinery of radio pop.",
+    "tags": [
+      "1990",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-pet-shop-boys-behaviour-1990",
+    "type": "events",
+    "path": "/events/album-pet-shop-boys-behaviour-1990/",
+    "title": "Pet Shop Boys — Behaviour",
+    "summary": "Electronic pop slows down enough to notice distance, disappointment and elegance.",
+    "tags": [
+      "1990",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-public-enemy-fear-of-a-black-planet-1990",
+    "type": "events",
+    "path": "/events/album-public-enemy-fear-of-a-black-planet-1990/",
+    "title": "Public Enemy — Fear of a Black Planet",
+    "summary": "Dense sampling, overlapping voices and urgent politics make the production feel like a public argument conducted through speakers.",
+    "tags": [
+      "1990",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "technics-turntable"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-sonic-youth-goo-1990",
+    "type": "events",
+    "path": "/events/album-sonic-youth-goo-1990/",
+    "title": "Sonic Youth — Goo",
+    "summary": "Alternative guitar music reaches outward without surrendering its abrasive textures.",
+    "tags": [
+      "1990",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-the-klf-chill-out-1990",
+    "type": "events",
+    "path": "/events/album-the-klf-chill-out-1990/",
+    "title": "The KLF — Chill Out",
+    "summary": "A continuous ambient journey makes the album feel like a place to inhabit.",
+    "tags": [
+      "1990",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-photoshop-arrives",
+    "type": "events",
+    "path": "/events/photoshop-arrives/",
+    "title": "Photoshop arrives on Macintosh",
+    "summary": "Adobe’s image editor turns a desktop into a place to revise a photograph.",
+    "tags": [
+      "1990",
+      "tech",
+      "Historical release / milestone"
+    ],
+    "artifactIds": [
+      "digital-camera"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-video-toaster",
+    "type": "events",
+    "path": "/events/video-toaster/",
+    "title": "The Video Toaster puts a studio on an Amiga",
+    "summary": "NewTek’s Video Toaster brings video production tools to the Amiga.",
+    "tags": [
+      "1990",
+      "tech",
+      "Historical release / milestone"
+    ],
+    "artifactIds": [
+      "family-pc"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-web-prototype",
+    "type": "events",
+    "path": "/events/web-prototype/",
+    "title": "The web’s first browser and server take shape",
+    "summary": "Tim Berners-Lee develops the first WorldWideWeb browser and server at CERN.",
+    "tags": [
+      "1990",
+      "tech",
+      "Historical release / milestone"
+    ],
+    "artifactIds": [
+      "first-website"
+    ],
     "randomEligible": false
   },
   {
@@ -717,6 +957,22 @@
     ],
     "artifactIds": [
       "cassette"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-quicksnap-panorama",
+    "type": "events",
+    "path": "/events/quicksnap-panorama/",
+    "title": "QuickSnap Panorama Hi widens the frame",
+    "summary": "Fujifilm introduces a panoramic member of its lens-fitted camera family.",
+    "tags": [
+      "1990-04",
+      "culture",
+      "Fujifilm model chronology"
+    ],
+    "artifactIds": [
+      "disposable-camera"
     ],
     "randomEligible": false
   },
@@ -1053,6 +1309,22 @@
     "randomEligible": false
   },
   {
+    "id": "event-sfc-f-zero",
+    "type": "events",
+    "path": "/events/sfc-f-zero/",
+    "title": "F-Zero reaches Super Famicom in Japan",
+    "summary": "A futuristic racing game turns the launch-era Super Famicom into a demonstration of speed, depth and an unusually exposed track.",
+    "tags": [
+      "1990-11-21",
+      "games",
+      "Japan"
+    ],
+    "artifactIds": [
+      "super-famicom"
+    ],
+    "randomEligible": false
+  },
+  {
     "id": "event-super-mario-world-japan",
     "type": "events",
     "path": "/events/super-mario-world-japan/",
@@ -1097,6 +1369,246 @@
     "artifactIds": [
       "vhs-tape",
       "blockbuster-store"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-a-tribe-called-quest-the-low-end-theory-1991",
+    "type": "events",
+    "path": "/events/album-a-tribe-called-quest-the-low-end-theory-1991/",
+    "title": "A Tribe Called Quest — The Low End Theory",
+    "summary": "Bass and conversational delivery give the record a strong sense of physical space.",
+    "tags": [
+      "1991",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "technics-turntable"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-boyz-ii-men-cooleyhighharmony-1991",
+    "type": "events",
+    "path": "/events/album-boyz-ii-men-cooleyhighharmony-1991/",
+    "title": "Boyz II Men — Cooleyhighharmony",
+    "summary": "Vocal-group craft enters the decade through a mixture of ballad singing and rhythmic material.",
+    "tags": [
+      "1991",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-de-la-soul-de-la-soul-is-dead-1991",
+    "type": "events",
+    "path": "/events/album-de-la-soul-de-la-soul-is-dead-1991/",
+    "title": "De La Soul — De La Soul Is Dead",
+    "summary": "A playful surface carries a more complicated argument about how a group is seen and heard.",
+    "tags": [
+      "1991",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "technics-turntable"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-jodeci-forever-my-lady-1991",
+    "type": "events",
+    "path": "/events/album-jodeci-forever-my-lady-1991/",
+    "title": "Jodeci — Forever My Lady",
+    "summary": "Gospel-rooted vocal intensity and a tougher contemporary image sit together.",
+    "tags": [
+      "1991",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-massive-attack-blue-lines-1991",
+    "type": "events",
+    "path": "/events/album-massive-attack-blue-lines-1991/",
+    "title": "Massive Attack — Blue Lines",
+    "summary": "Dub space, soul voices and hip-hop rhythm settle into a measured pace.",
+    "tags": [
+      "1991",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-my-bloody-valentine-loveless-1991",
+    "type": "events",
+    "path": "/events/album-my-bloody-valentine-loveless-1991/",
+    "title": "My Bloody Valentine — Loveless",
+    "summary": "Guitar sound becomes an environment: blurred edges, layered motion and melody glimpsed through the haze.",
+    "tags": [
+      "1991",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-primal-scream-screamadelica-1991",
+    "type": "events",
+    "path": "/events/album-primal-scream-screamadelica-1991/",
+    "title": "Primal Scream — Screamadelica",
+    "summary": "A rock group moves through club production, gospel feeling and psychedelic drift.",
+    "tags": [
+      "1991",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-public-enemy-apocalypse-91-the-enemy-strikes-black-1991",
+    "type": "events",
+    "path": "/events/album-public-enemy-apocalypse-91-the-enemy-strikes-black-1991/",
+    "title": "Public Enemy — Apocalypse 91… The Enemy Strikes Black",
+    "summary": "The group continues its forceful collision of rhythm and political address.",
+    "tags": [
+      "1991",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "technics-turntable"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-r-e-m-out-of-time-1991",
+    "type": "events",
+    "path": "/events/album-r-e-m-out-of-time-1991/",
+    "title": "R.E.M. — Out of Time",
+    "summary": "An established alternative band opens its sound toward mandolin, pop forms and wider audiences.",
+    "tags": [
+      "1991",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-slint-spiderland-1991",
+    "type": "events",
+    "path": "/events/album-slint-spiderland-1991/",
+    "title": "Slint — Spiderland",
+    "summary": "Quiet passages and sudden force make the listener pay attention to small changes.",
+    "tags": [
+      "1991",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-smashing-pumpkins-gish-1991",
+    "type": "events",
+    "path": "/events/album-smashing-pumpkins-gish-1991/",
+    "title": "Smashing Pumpkins — Gish",
+    "summary": "Heavy guitar tones and psychedelic detail sit inside tightly shaped songs.",
+    "tags": [
+      "1991",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-the-orb-the-orbs-adventures-beyond-the-ultraworld-1991",
+    "type": "events",
+    "path": "/events/album-the-orb-the-orbs-adventures-beyond-the-ultraworld-1991/",
+    "title": "The Orb — The Orb’s Adventures Beyond the Ultraworld",
+    "summary": "Ambient house treats the long album as an excursion through sounds and imagined spaces.",
+    "tags": [
+      "1991",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-linux-kernel",
+    "type": "events",
+    "path": "/events/linux-kernel/",
+    "title": "Linus Torvalds shares the Linux kernel",
+    "summary": "A kernel shared over computer networks begins a project built around participation.",
+    "tags": [
+      "1991",
+      "tech",
+      "Historical release / milestone"
+    ],
+    "artifactIds": [
+      "family-pc"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-pgp",
+    "type": "events",
+    "path": "/events/pgp/",
+    "title": "Pretty Good Privacy becomes available",
+    "summary": "Phil Zimmermann’s PGP brings public-key encryption to personal-computer users.",
+    "tags": [
+      "1991",
+      "tech",
+      "Historical release / milestone"
+    ],
+    "artifactIds": [
+      "floppy-disk"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-powerbook-family",
+    "type": "events",
+    "path": "/events/powerbook-family/",
+    "title": "Apple introduces the PowerBook family",
+    "summary": "The PowerBook makes a portable Macintosh recognizable by its arrangement of keyboard, palm rest and pointing device.",
+    "tags": [
+      "1991",
+      "tech",
+      "Historical release / milestone"
+    ],
+    "artifactIds": [
+      "powerbook"
     ],
     "randomEligible": false
   },
@@ -1271,6 +1783,22 @@
     "randomEligible": false
   },
   {
+    "id": "event-quicksnap-waterproof",
+    "type": "events",
+    "path": "/events/quicksnap-waterproof/",
+    "title": "QuickSnap Waterproof goes outdoors",
+    "summary": "Fujifilm’s QuickSnap line adds a waterproof model.",
+    "tags": [
+      "1991-06",
+      "culture",
+      "Fujifilm model chronology"
+    ],
+    "artifactIds": [
+      "disposable-camera"
+    ],
+    "randomEligible": false
+  },
+  {
     "id": "event-film-city-slickers-1991",
     "type": "events",
     "path": "/events/film-city-slickers-1991/",
@@ -1348,6 +1876,22 @@
     "artifactIds": [
       "vhs-tape",
       "blockbuster-store"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-sfc-ganbare-goemon-yukihime-kyushutsu-emaki",
+    "type": "events",
+    "path": "/events/sfc-ganbare-goemon-yukihime-kyushutsu-emaki/",
+    "title": "Ganbare Goemon: Yukihime Kyūshutsu Emaki reaches Super Famicom in Japan",
+    "summary": "Goemon’s journey mixes an imagined historical Japan with conspicuously modern jokes and attractions.",
+    "tags": [
+      "1991-07-19",
+      "games",
+      "Japan"
+    ],
+    "artifactIds": [
+      "super-famicom"
     ],
     "randomEligible": false
   },
@@ -1519,6 +2063,22 @@
     "randomEligible": false
   },
   {
+    "id": "event-sfc-super-ghouls-n-ghosts",
+    "type": "events",
+    "path": "/events/sfc-super-ghouls-n-ghosts/",
+    "title": "Super Ghouls ’n Ghosts reaches Super Famicom in Japan",
+    "summary": "Arthur’s fragile armor and demanding jumps make progress a matter of learning a level’s timing.",
+    "tags": [
+      "1991-10-04",
+      "games",
+      "Japan"
+    ],
+    "artifactIds": [
+      "super-famicom"
+    ],
+    "randomEligible": false
+  },
+  {
     "id": "event-film-other-people-s-money-1991",
     "type": "events",
     "path": "/events/film-other-people-s-money-1991/",
@@ -1618,6 +2178,22 @@
     "randomEligible": false
   },
   {
+    "id": "event-sfc-super-formation-soccer",
+    "type": "events",
+    "path": "/events/sfc-super-formation-soccer/",
+    "title": "Super Formation Soccer reaches Super Famicom in Japan",
+    "summary": "A view from behind the action gives a football match a different feel from a side-on sports game.",
+    "tags": [
+      "1991-12-13",
+      "games",
+      "Japan"
+    ],
+    "artifactIds": [
+      "super-famicom"
+    ],
+    "randomEligible": false
+  },
+  {
     "id": "event-film-father-of-the-bride-1991",
     "type": "events",
     "path": "/events/film-father-of-the-bride-1991/",
@@ -1631,6 +2207,276 @@
     "artifactIds": [
       "vhs-tape",
       "blockbuster-store"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-aphex-twin-selected-ambient-works-8592-1992",
+    "type": "events",
+    "path": "/events/album-aphex-twin-selected-ambient-works-8592-1992/",
+    "title": "Aphex Twin — Selected Ambient Works 85–92",
+    "summary": "Electronic tracks balance rhythmic motion with a sense of private space.",
+    "tags": [
+      "1992",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-beastie-boys-check-your-head-1992",
+    "type": "events",
+    "path": "/events/album-beastie-boys-check-your-head-1992/",
+    "title": "Beastie Boys — Check Your Head",
+    "summary": "Instrumental playing sits alongside sampling and rap, making the studio feel like a shared workshop.",
+    "tags": [
+      "1992",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "technics-turntable"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-en-vogue-funky-divas-1992",
+    "type": "events",
+    "path": "/events/album-en-vogue-funky-divas-1992/",
+    "title": "En Vogue — Funky Divas",
+    "summary": "Vocal precision meets a more expansive mix of styles and assertive presentation.",
+    "tags": [
+      "1992",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-mary-j-blige-whats-the-411-1992",
+    "type": "events",
+    "path": "/events/album-mary-j-blige-whats-the-411-1992/",
+    "title": "Mary J. Blige — What’s the 411?",
+    "summary": "Soul singing moves through the rhythmic language and visual world of hip-hop.",
+    "tags": [
+      "1992",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-pj-harvey-dry-1992",
+    "type": "events",
+    "path": "/events/album-pj-harvey-dry-1992/",
+    "title": "PJ Harvey — Dry",
+    "summary": "The songs make directness feel unstable and powerful.",
+    "tags": [
+      "1992",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-rage-against-the-machine-rage-against-the-machine-1992",
+    "type": "events",
+    "path": "/events/album-rage-against-the-machine-rage-against-the-machine-1992/",
+    "title": "Rage Against the Machine — Rage Against the Machine",
+    "summary": "Rap-shaped vocals and forceful guitar playing share one tightly organized attack.",
+    "tags": [
+      "1992",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-sade-love-deluxe-1992",
+    "type": "events",
+    "path": "/events/album-sade-love-deluxe-1992/",
+    "title": "Sade — Love Deluxe",
+    "summary": "A restrained groove leaves room for voice and atmosphere.",
+    "tags": [
+      "1992",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-the-orb-u-f-orb-1992",
+    "type": "events",
+    "path": "/events/album-the-orb-u-f-orb-1992/",
+    "title": "The Orb — U.F.Orb",
+    "summary": "Ambient house continues to stretch the distance between a single track and an imagined world.",
+    "tags": [
+      "1992",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-the-pharcyde-bizarre-ride-ii-the-pharcyde-1992",
+    "type": "events",
+    "path": "/events/album-the-pharcyde-bizarre-ride-ii-the-pharcyde-1992/",
+    "title": "The Pharcyde — Bizarre Ride II the Pharcyde",
+    "summary": "Humor, melodic fragments and restless delivery give this West Coast record its own character.",
+    "tags": [
+      "1992",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-the-prodigy-experience-1992",
+    "type": "events",
+    "path": "/events/album-the-prodigy-experience-1992/",
+    "title": "The Prodigy — Experience",
+    "summary": "Breakbeats, sampled voices and abrupt changes turn rave energy into an album-length ride.",
+    "tags": [
+      "1992",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-tlc-ooooooohhh-on-the-tlc-tip-1992",
+    "type": "events",
+    "path": "/events/album-tlc-ooooooohhh-on-the-tlc-tip-1992/",
+    "title": "TLC — Ooooooohhh… On the TLC Tip",
+    "summary": "Three distinct personalities give the group a playful, argumentative identity.",
+    "tags": [
+      "1992",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-tori-amos-little-earthquakes-1992",
+    "type": "events",
+    "path": "/events/album-tori-amos-little-earthquakes-1992/",
+    "title": "Tori Amos — Little Earthquakes",
+    "summary": "Piano and voice carry songs that demand close attention to phrasing and perspective.",
+    "tags": [
+      "1992",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-dec-alpha",
+    "type": "events",
+    "path": "/events/dec-alpha/",
+    "title": "DEC’s Alpha processor opens a new computing chapter",
+    "summary": "DEC introduces Alpha, a 64-bit processor architecture.",
+    "tags": [
+      "1992",
+      "tech",
+      "Historical release / milestone"
+    ],
+    "artifactIds": [
+      "family-pc"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-fifth-generation-end",
+    "type": "events",
+    "path": "/events/fifth-generation-end/",
+    "title": "Japan’s Fifth Generation Computer project concludes",
+    "summary": "Japan’s ambitious Fifth Generation Computer Systems project reaches its conclusion.",
+    "tags": [
+      "1992",
+      "tech",
+      "Historical release / milestone"
+    ],
+    "artifactIds": [],
+    "randomEligible": false
+  },
+  {
+    "id": "event-fubu-begins",
+    "type": "events",
+    "path": "/events/fubu-begins/",
+    "title": "FUBU begins in Queens",
+    "summary": "Daymond John, J.",
+    "tags": [
+      "1992",
+      "culture",
+      "Queens, New York"
+    ],
+    "artifactIds": [
+      "vans-shoes"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-jacobs-grunge",
+    "type": "events",
+    "path": "/events/jacobs-grunge/",
+    "title": "Marc Jacobs shows the Perry Ellis grunge collection",
+    "summary": "Marc Jacobs presents a grunge collection for Perry Ellis in 1992.",
+    "tags": [
+      "1992",
+      "culture",
+      "New York fashion show"
+    ],
+    "artifactIds": [
+      "dr-martens"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-jpeg-standard",
+    "type": "events",
+    "path": "/events/jpeg-standard/",
+    "title": "JPEG gives digital photographs a smaller container",
+    "summary": "The JPEG standard is published, offering a way to compress photographic images.",
+    "tags": [
+      "1992",
+      "tech",
+      "Historical release / milestone"
+    ],
+    "artifactIds": [
+      "digital-camera"
     ],
     "randomEligible": false
   },
@@ -1699,6 +2545,22 @@
     "artifactIds": [
       "vhs-tape",
       "blockbuster-store"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-sfc-contra-spirits",
+    "type": "events",
+    "path": "/events/sfc-contra-spirits/",
+    "title": "Contra Spirits reaches Super Famicom in Japan",
+    "summary": "Contra Spirits, known in North America as Contra III, alternates side-view action with overhead stages.",
+    "tags": [
+      "1992-02-28",
+      "games",
+      "Japan"
+    ],
+    "artifactIds": [
+      "super-famicom"
     ],
     "randomEligible": false
   },
@@ -1897,6 +2759,22 @@
     "artifactIds": [
       "vhs-tape",
       "blockbuster-store"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-quicksnap-hi-plus",
+    "type": "events",
+    "path": "/events/quicksnap-hi-plus/",
+    "title": "QuickSnap Hi Plus changes the roll",
+    "summary": "Fujifilm records a QuickSnap version with a 27-exposure roll.",
+    "tags": [
+      "1992-07",
+      "culture",
+      "Fujifilm model chronology"
+    ],
+    "artifactIds": [
+      "disposable-camera"
     ],
     "randomEligible": false
   },
@@ -2182,6 +3060,294 @@
     "randomEligible": false
   },
   {
+    "id": "event-album-autechre-incunabula-1993",
+    "type": "events",
+    "path": "/events/album-autechre-incunabula-1993/",
+    "title": "Autechre — Incunabula",
+    "summary": "Rhythmic pattern and synthetic atmosphere reward concentration on small changes.",
+    "tags": [
+      "1993",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-bikini-kill-pussy-whipped-1993",
+    "type": "events",
+    "path": "/events/album-bikini-kill-pussy-whipped-1993/",
+    "title": "Bikini Kill — Pussy Whipped",
+    "summary": "Abrasive performance and direct expression give the record a confrontational immediacy.",
+    "tags": [
+      "1993",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-bjork-debut-1993",
+    "type": "events",
+    "path": "/events/album-bjork-debut-1993/",
+    "title": "Björk — Debut",
+    "summary": "A new solo identity moves through electronic production, jazz feeling and intimate vocal detail.",
+    "tags": [
+      "1993",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-depeche-mode-songs-of-faith-and-devotion-1993",
+    "type": "events",
+    "path": "/events/album-depeche-mode-songs-of-faith-and-devotion-1993/",
+    "title": "Depeche Mode — Songs of Faith and Devotion",
+    "summary": "Electronic foundations meet a more physical, rock-facing presentation.",
+    "tags": [
+      "1993",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-digable-planets-reachin-a-new-refutation-of-time-and-space-1993",
+    "type": "events",
+    "path": "/events/album-digable-planets-reachin-a-new-refutation-of-time-and-space-1993/",
+    "title": "Digable Planets — Reachin’ (A New Refutation of Time and Space)",
+    "summary": "Jazz-derived textures and measured vocal exchanges create a distinctive social space.",
+    "tags": [
+      "1993",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "technics-turntable"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-mazzy-star-so-tonight-that-i-might-see-1993",
+    "type": "events",
+    "path": "/events/album-mazzy-star-so-tonight-that-i-might-see-1993/",
+    "title": "Mazzy Star — So Tonight That I Might See",
+    "summary": "A slow, shadowed sound makes the songs feel suspended rather than hurried.",
+    "tags": [
+      "1993",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-orbital-orbital-2-1993",
+    "type": "events",
+    "path": "/events/album-orbital-orbital-2-1993/",
+    "title": "Orbital — Orbital 2",
+    "summary": "The duo’s second album turns repetition into movement and release.",
+    "tags": [
+      "1993",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-queen-latifah-black-reign-1993",
+    "type": "events",
+    "path": "/events/album-queen-latifah-black-reign-1993/",
+    "title": "Queen Latifah — Black Reign",
+    "summary": "A commanding vocal presence connects rap, melody and direct address.",
+    "tags": [
+      "1993",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-radiohead-pablo-honey-1993",
+    "type": "events",
+    "path": "/events/album-radiohead-pablo-honey-1993/",
+    "title": "Radiohead — Pablo Honey",
+    "summary": "The debut catches a band before the later records reshaped its reputation.",
+    "tags": [
+      "1993",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-souls-of-mischief-93-til-infinity-1993",
+    "type": "events",
+    "path": "/events/album-souls-of-mischief-93-til-infinity-1993/",
+    "title": "Souls of Mischief — 93 ’til Infinity",
+    "summary": "Interlocking voices and a buoyant musical setting give this Bay Area record a strong group identity.",
+    "tags": [
+      "1993",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-suede-suede-1993",
+    "type": "events",
+    "path": "/events/album-suede-suede-1993/",
+    "title": "Suede — Suede",
+    "summary": "Drama, guitar texture and a highly recognizable vocal manner give the debut a strong silhouette.",
+    "tags": [
+      "1993",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-tony-toni-tone-sons-of-soul-1993",
+    "type": "events",
+    "path": "/events/album-tony-toni-tone-sons-of-soul-1993/",
+    "title": "Tony! Toni! Toné! — Sons of Soul",
+    "summary": "Live-feeling instrumental detail and polished vocal writing connect contemporary R&B with older soul traditions.",
+    "tags": [
+      "1993",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-freebsd-project",
+    "type": "events",
+    "path": "/events/freebsd-project/",
+    "title": "The FreeBSD project begins",
+    "summary": "FreeBSD begins as a free operating-system project with roots in Berkeley Unix.",
+    "tags": [
+      "1993",
+      "tech",
+      "Historical release / milestone"
+    ],
+    "artifactIds": [
+      "family-pc"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-myst-arrives",
+    "type": "events",
+    "path": "/events/myst-arrives/",
+    "title": "Myst makes the CD-ROM an island to explore",
+    "summary": "Myst builds an adventure around careful observation, pre-rendered scenes and the space available on a CD-ROM.",
+    "tags": [
+      "1993",
+      "games",
+      "Historical release / milestone"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-newton-messagepad",
+    "type": "events",
+    "path": "/events/newton-messagepad/",
+    "title": "Apple’s Newton MessagePad reaches users",
+    "summary": "Apple’s Newton puts notes and personal information onto a handheld screen.",
+    "tags": [
+      "1993",
+      "tech",
+      "Historical release / milestone"
+    ],
+    "artifactIds": [
+      "newton"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-pdf-format",
+    "type": "events",
+    "path": "/events/pdf-format/",
+    "title": "Adobe introduces PDF",
+    "summary": "Portable Document Format addresses a familiar problem: the same document can look different on another computer.",
+    "tags": [
+      "1993",
+      "tech",
+      "Historical release / milestone"
+    ],
+    "artifactIds": [
+      "floppy-disk"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-windows-nt",
+    "type": "events",
+    "path": "/events/windows-nt/",
+    "title": "Windows NT introduces another branch of Windows",
+    "summary": "Windows NT arrives as a distinct line aimed at demanding business and technical work.",
+    "tags": [
+      "1993",
+      "tech",
+      "Historical release / milestone"
+    ],
+    "artifactIds": [
+      "windows-95-start"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-wired-first-year",
+    "type": "events",
+    "path": "/events/wired-first-year/",
+    "title": "Wired begins publishing",
+    "summary": "Wired’s first year gives emerging digital culture a distinctive magazine voice.",
+    "tags": [
+      "1993",
+      "culture",
+      "Historical release / milestone"
+    ],
+    "artifactIds": [
+      "family-pc"
+    ],
+    "randomEligible": false
+  },
+  {
     "id": "event-elvis-stamp-issued",
     "type": "events",
     "path": "/events/elvis-stamp-issued/",
@@ -2276,6 +3442,22 @@
     "artifactIds": [
       "vhs-tape",
       "blockbuster-store"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-sfc-star-fox",
+    "type": "events",
+    "path": "/events/sfc-star-fox/",
+    "title": "Star Fox reaches Super Famicom in Japan",
+    "summary": "Polygonal spacecraft and landscapes make the Super Famicom experiment with a different visual vocabulary.",
+    "tags": [
+      "1993-02-21",
+      "games",
+      "Japan"
+    ],
+    "artifactIds": [
+      "super-famicom"
     ],
     "randomEligible": false
   },
@@ -2495,6 +3677,22 @@
     "artifactIds": [
       "vhs-tape",
       "blockbuster-store"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-sfc-secret-of-mana-seiken-densetsu-2",
+    "type": "events",
+    "path": "/events/sfc-secret-of-mana-seiken-densetsu-2/",
+    "title": "Secret of Mana / Seiken Densetsu 2 reaches Super Famicom in Japan",
+    "summary": "An action role-playing adventure lets several characters occupy the journey together.",
+    "tags": [
+      "1993-08-06",
+      "games",
+      "Japan"
+    ],
+    "artifactIds": [
+      "super-famicom"
     ],
     "randomEligible": false
   },
@@ -2733,6 +3931,246 @@
     "randomEligible": false
   },
   {
+    "id": "event-sfc-mega-man-x-rockman-x",
+    "type": "events",
+    "path": "/events/sfc-mega-man-x-rockman-x/",
+    "title": "Mega Man X / Rockman X reaches Super Famicom in Japan",
+    "summary": "Rockman X introduces a new setting and expanded movement to a familiar action-game lineage.",
+    "tags": [
+      "1993-12-17",
+      "games",
+      "Japan"
+    ],
+    "artifactIds": [
+      "super-famicom"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-aphex-twin-selected-ambient-works-volume-ii-1994",
+    "type": "events",
+    "path": "/events/album-aphex-twin-selected-ambient-works-volume-ii-1994/",
+    "title": "Aphex Twin — Selected Ambient Works Volume II",
+    "summary": "Rhythm often retreats, leaving sound, duration and atmosphere to organize the experience.",
+    "tags": [
+      "1994",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-beastie-boys-ill-communication-1994",
+    "type": "events",
+    "path": "/events/album-beastie-boys-ill-communication-1994/",
+    "title": "Beastie Boys — Ill Communication",
+    "summary": "Rap, instrumental groove and rough-edged performance share the album rather than compete for separate identities.",
+    "tags": [
+      "1994",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "technics-turntable"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-blur-parklife-1994",
+    "type": "events",
+    "path": "/events/album-blur-parklife-1994/",
+    "title": "Blur — Parklife",
+    "summary": "Character sketches, changing moods and everyday detail give the record a broad view of British life.",
+    "tags": [
+      "1994",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-jeff-buckley-grace-1994",
+    "type": "events",
+    "path": "/events/album-jeff-buckley-grace-1994/",
+    "title": "Jeff Buckley — Grace",
+    "summary": "A highly expressive voice moves through delicate passages and forceful band playing.",
+    "tags": [
+      "1994",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-mary-j-blige-my-life-1994",
+    "type": "events",
+    "path": "/events/album-mary-j-blige-my-life-1994/",
+    "title": "Mary J. Blige — My Life",
+    "summary": "The album places emotional weight inside the conversation between soul singing and hip-hop production.",
+    "tags": [
+      "1994",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-massive-attack-protection-1994",
+    "type": "events",
+    "path": "/events/album-massive-attack-protection-1994/",
+    "title": "Massive Attack — Protection",
+    "summary": "The group’s second album deepens its conversation between soul voices, dub-informed space and electronic rhythm.",
+    "tags": [
+      "1994",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-nas-illmatic-1994",
+    "type": "events",
+    "path": "/events/album-nas-illmatic-1994/",
+    "title": "Nas — Illmatic",
+    "summary": "Precise writing and a compact set of productions make the album feel intensely located.",
+    "tags": [
+      "1994",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "technics-turntable"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-oasis-definitely-maybe-1994",
+    "type": "events",
+    "path": "/events/album-oasis-definitely-maybe-1994/",
+    "title": "Oasis — Definitely Maybe",
+    "summary": "Guitars, confidence and direct choruses make the debut feel built for a group of listeners.",
+    "tags": [
+      "1994",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-outkast-southernplayalisticadillacmuzik-1994",
+    "type": "events",
+    "path": "/events/album-outkast-southernplayalisticadillacmuzik-1994/",
+    "title": "OutKast — Southernplayalisticadillacmuzik",
+    "summary": "Atlanta enters the archive through a distinct blend of voices, instrumental color and regional self-definition.",
+    "tags": [
+      "1994",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "technics-turntable"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-portishead-dummy-1994",
+    "type": "events",
+    "path": "/events/album-portishead-dummy-1994/",
+    "title": "Portishead — Dummy",
+    "summary": "Sampled textures, turntable gestures and a close vocal presence create an unusually tense intimacy.",
+    "tags": [
+      "1994",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-the-prodigy-music-for-the-jilted-generation-1994",
+    "type": "events",
+    "path": "/events/album-the-prodigy-music-for-the-jilted-generation-1994/",
+    "title": "The Prodigy — Music for the Jilted Generation",
+    "summary": "Rave-rooted production grows heavier and more confrontational.",
+    "tags": [
+      "1994",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-tlc-crazysexycool-1994",
+    "type": "events",
+    "path": "/events/album-tlc-crazysexycool-1994/",
+    "title": "TLC — CrazySexyCool",
+    "summary": "The group’s playful identity develops a smoother, more spacious musical setting.",
+    "tags": [
+      "1994",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-compactflash",
+    "type": "events",
+    "path": "/events/compactflash/",
+    "title": "CompactFlash makes storage fit smaller devices",
+    "summary": "CompactFlash appears as a removable solid-state storage format.",
+    "tags": [
+      "1994",
+      "tech",
+      "Historical release / milestone"
+    ],
+    "artifactIds": [
+      "digital-camera"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-risc-pc",
+    "type": "events",
+    "path": "/events/risc-pc/",
+    "title": "Acorn introduces the Risc PC",
+    "summary": "Acorn’s Risc PC represents another desktop-computing tradition, particularly relevant to British school and home computing.",
+    "tags": [
+      "1994",
+      "tech",
+      "Historical release / milestone"
+    ],
+    "artifactIds": [
+      "family-pc"
+    ],
+    "randomEligible": false
+  },
+  {
     "id": "event-film-desert-winds-1994",
     "type": "events",
     "path": "/events/film-desert-winds-1994/",
@@ -2763,6 +4201,22 @@
     "artifactIds": [
       "vhs-tape",
       "blockbuster-store"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-sfc-fire-emblem-mystery-of-the-emblem",
+    "type": "events",
+    "path": "/events/sfc-fire-emblem-mystery-of-the-emblem/",
+    "title": "Fire Emblem: Mystery of the Emblem reaches Super Famicom in Japan",
+    "summary": "A campaign of positioned units asks the player to consider the cost of each move.",
+    "tags": [
+      "1994-01-21",
+      "games",
+      "Japan"
+    ],
+    "artifactIds": [
+      "super-famicom"
     ],
     "randomEligible": false
   },
@@ -2852,6 +4306,22 @@
     "randomEligible": false
   },
   {
+    "id": "event-sfc-super-metroid",
+    "type": "events",
+    "path": "/events/sfc-super-metroid/",
+    "title": "Super Metroid reaches Super Famicom in Japan",
+    "summary": "Samus returns to a world whose passages change meaning as her abilities grow.",
+    "tags": [
+      "1994-03-19",
+      "games",
+      "Japan"
+    ],
+    "artifactIds": [
+      "super-famicom"
+    ],
+    "randomEligible": false
+  },
+  {
     "id": "event-film-bitter-moon-1994",
     "type": "events",
     "path": "/events/film-bitter-moon-1994/",
@@ -2865,6 +4335,22 @@
     "artifactIds": [
       "vhs-tape",
       "blockbuster-store"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-sfc-final-fantasy-vi",
+    "type": "events",
+    "path": "/events/sfc-final-fantasy-vi/",
+    "title": "Final Fantasy VI reaches Super Famicom in Japan",
+    "summary": "An ensemble role-playing story places machinery and magic in the same world.",
+    "tags": [
+      "1994-04-02",
+      "games",
+      "Japan"
+    ],
+    "artifactIds": [
+      "super-famicom"
     ],
     "randomEligible": false
   },
@@ -2978,6 +4464,22 @@
     "artifactIds": [
       "vhs-tape",
       "blockbuster-store"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-sfc-super-street-fighter-ii-the-new-challengers",
+    "type": "events",
+    "path": "/events/sfc-super-street-fighter-ii-the-new-challengers/",
+    "title": "Super Street Fighter II: The New Challengers reaches Super Famicom in Japan",
+    "summary": "A console version of the expanded arcade fighter brings a larger character roster into the living room.",
+    "tags": [
+      "1994-06-25",
+      "games",
+      "Japan"
+    ],
+    "artifactIds": [
+      "super-famicom"
     ],
     "randomEligible": false
   },
@@ -3166,6 +4668,23 @@
     "randomEligible": false
   },
   {
+    "id": "event-warcraft-orcs-humans",
+    "type": "events",
+    "path": "/events/warcraft-orcs-humans/",
+    "title": "Warcraft: Orcs & Humans begins a strategy series",
+    "summary": "Before Azeroth became a vast online world, Warcraft presented its conflict through resource gathering, armies and a command map.",
+    "tags": [
+      "1994-11",
+      "games",
+      "Original release — publisher retrospective"
+    ],
+    "artifactIds": [
+      "family-pc",
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
     "id": "event-film-the-santa-clause-1994",
     "type": "events",
     "path": "/events/film-the-santa-clause-1994/",
@@ -3179,6 +4698,22 @@
     "artifactIds": [
       "vhs-tape",
       "blockbuster-store"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-sfc-donkey-kong-country-super-donkey-kong",
+    "type": "events",
+    "path": "/events/sfc-donkey-kong-country-super-donkey-kong/",
+    "title": "Donkey Kong Country / Super Donkey Kong reaches Super Famicom in Japan",
+    "summary": "Rendered character art gives a cartridge-console platform game a new surface, while switching between Donkey and Diddy affects how a player moves through its hazards.",
+    "tags": [
+      "1994-11-26",
+      "games",
+      "Japan"
+    ],
+    "artifactIds": [
+      "super-famicom"
     ],
     "randomEligible": false
   },
@@ -3212,6 +4747,278 @@
     "artifactIds": [
       "vhs-tape",
       "blockbuster-store"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-a-guy-called-gerald-black-secret-technology-1995",
+    "type": "events",
+    "path": "/events/album-a-guy-called-gerald-black-secret-technology-1995/",
+    "title": "A Guy Called Gerald — Black Secret Technology",
+    "summary": "Jungle’s rhythmic complexity meets a long-form, atmospheric approach.",
+    "tags": [
+      "1995",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-autechre-tri-repetae-1995",
+    "type": "events",
+    "path": "/events/album-autechre-tri-repetae-1995/",
+    "title": "Autechre — Tri Repetae",
+    "summary": "Machine-like rhythms and textured surfaces reward listening for structure and tiny variations.",
+    "tags": [
+      "1995",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-bjork-post-1995",
+    "type": "events",
+    "path": "/events/album-bjork-post-1995/",
+    "title": "Björk — Post",
+    "summary": "The album moves between intimate songs and conspicuously varied arrangements.",
+    "tags": [
+      "1995",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-dangelo-brown-sugar-1995",
+    "type": "events",
+    "path": "/events/album-dangelo-brown-sugar-1995/",
+    "title": "D’Angelo — Brown Sugar",
+    "summary": "A relaxed rhythmic feel and layered vocal craft connect contemporary production to older soul language.",
+    "tags": [
+      "1995",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-goldie-timeless-1995",
+    "type": "events",
+    "path": "/events/album-goldie-timeless-1995/",
+    "title": "Goldie — Timeless",
+    "summary": "Drum-and-bass rhythms stretch into a more expansive album architecture.",
+    "tags": [
+      "1995",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-gza-liquid-swords-1995",
+    "type": "events",
+    "path": "/events/album-gza-liquid-swords-1995/",
+    "title": "GZA — Liquid Swords",
+    "summary": "A carefully sustained atmosphere frames detailed rap performances.",
+    "tags": [
+      "1995",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "technics-turntable"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-no-doubt-tragic-kingdom-1995",
+    "type": "events",
+    "path": "/events/album-no-doubt-tragic-kingdom-1995/",
+    "title": "No Doubt — Tragic Kingdom",
+    "summary": "Ska-derived bounce, pop hooks and a distinctive frontperson give the record multiple routes to an audience.",
+    "tags": [
+      "1995",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-oasis-whats-the-story-morning-glory-1995",
+    "type": "events",
+    "path": "/events/album-oasis-whats-the-story-morning-glory-1995/",
+    "title": "Oasis — (What’s the Story) Morning Glory?",
+    "summary": "The band’s second album opens a larger space around familiar directness and melody.",
+    "tags": [
+      "1995",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-pulp-different-class-1995",
+    "type": "events",
+    "path": "/events/album-pulp-different-class-1995/",
+    "title": "Pulp — Different Class",
+    "summary": "Sharp observation makes class, desire and social awkwardness part of pop’s everyday vocabulary.",
+    "tags": [
+      "1995",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-raekwon-only-built-4-cuban-linx-1995",
+    "type": "events",
+    "path": "/events/album-raekwon-only-built-4-cuban-linx-1995/",
+    "title": "Raekwon — Only Built 4 Cuban Linx…",
+    "summary": "Detailed scenes and a tightly developed musical atmosphere make the record feel like a sustained narrative.",
+    "tags": [
+      "1995",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-the-chemical-brothers-exit-planet-dust-1995",
+    "type": "events",
+    "path": "/events/album-the-chemical-brothers-exit-planet-dust-1995/",
+    "title": "The Chemical Brothers — Exit Planet Dust",
+    "summary": "Breakbeats and forceful production connect club ideas with a rock-facing sense of momentum.",
+    "tags": [
+      "1995",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-tricky-maxinquaye-1995",
+    "type": "events",
+    "path": "/events/album-tricky-maxinquaye-1995/",
+    "title": "Tricky — Maxinquaye",
+    "summary": "Close voices and unsettled production make listening feel private and uneasy.",
+    "tags": [
+      "1995",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-be-box",
+    "type": "events",
+    "path": "/events/be-box/",
+    "title": "The BeBox proposes a different desktop",
+    "summary": "Be’s BeBox arrives with a distinctive hardware and operating-system vision.",
+    "tags": [
+      "1995",
+      "tech",
+      "Historical release / milestone"
+    ],
+    "artifactIds": [
+      "family-pc"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-dvd-announced",
+    "type": "events",
+    "path": "/events/dvd-announced/",
+    "title": "DVD is announced as a new disc format",
+    "summary": "The DVD format is announced, joining the decade’s optical-disc story.",
+    "tags": [
+      "1995",
+      "tech",
+      "Historical release / milestone"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-internet-explorer",
+    "type": "events",
+    "path": "/events/internet-explorer/",
+    "title": "Internet Explorer enters the browser contest",
+    "summary": "Microsoft introduces Internet Explorer into a web already shaped by Mosaic and Netscape.",
+    "tags": [
+      "1995",
+      "tech",
+      "Historical release / milestone"
+    ],
+    "artifactIds": [
+      "mosaic-browser"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-javascript",
+    "type": "events",
+    "path": "/events/javascript/",
+    "title": "JavaScript joins the browser",
+    "summary": "JavaScript brings scripting into the browser, opening a route toward pages that respond to a visitor.",
+    "tags": [
+      "1995",
+      "tech",
+      "Historical release / milestone"
+    ],
+    "artifactIds": [
+      "mosaic-browser"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-thinkpad-butterfly",
+    "type": "events",
+    "path": "/events/thinkpad-butterfly/",
+    "title": "The ThinkPad 701C unfolds its keyboard",
+    "summary": "IBM’s ThinkPad 701C uses a folding keyboard to reconcile a compact closed case with a larger typing surface.",
+    "tags": [
+      "1995",
+      "tech",
+      "Historical release / milestone"
+    ],
+    "artifactIds": [
+      "powerbook"
     ],
     "randomEligible": false
   },
@@ -3280,6 +5087,22 @@
     "artifactIds": [
       "vhs-tape",
       "blockbuster-store"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-casio-qv10",
+    "type": "events",
+    "path": "/events/casio-qv10/",
+    "title": "Casio QV-10 puts a picture on the camera’s LCD",
+    "summary": "Casio’s QV-10 lets users inspect pictures on its built-in LCD.",
+    "tags": [
+      "1995-03",
+      "tech",
+      "Casio product chronology"
+    ],
+    "artifactIds": [
+      "digital-camera"
     ],
     "randomEligible": false
   },
@@ -3518,6 +5341,22 @@
     "randomEligible": false
   },
   {
+    "id": "event-sfc-super-mario-world-2-yoshis-island",
+    "type": "events",
+    "path": "/events/sfc-super-mario-world-2-yoshis-island/",
+    "title": "Super Mario World 2: Yoshi’s Island reaches Super Famicom in Japan",
+    "summary": "A drawn-paper look offers another answer to the decade’s search for graphical novelty.",
+    "tags": [
+      "1995-08-05",
+      "games",
+      "Japan"
+    ],
+    "artifactIds": [
+      "super-famicom"
+    ],
+    "randomEligible": false
+  },
+  {
     "id": "event-film-dangerous-minds-1995",
     "type": "events",
     "path": "/events/film-dangerous-minds-1995/",
@@ -3666,6 +5505,22 @@
     "randomEligible": false
   },
   {
+    "id": "event-sfc-panel-de-pon",
+    "type": "events",
+    "path": "/events/sfc-panel-de-pon/",
+    "title": "Panel de Pon reaches Super Famicom in Japan",
+    "summary": "Matching panels becomes a game of anticipating the next change rather than waiting for a single lucky arrangement.",
+    "tags": [
+      "1995-10-27",
+      "games",
+      "Japan"
+    ],
+    "artifactIds": [
+      "super-famicom"
+    ],
+    "randomEligible": false
+  },
+  {
     "id": "event-film-ace-ventura-when-nature-calls-1995",
     "type": "events",
     "path": "/events/film-ace-ventura-when-nature-calls-1995/",
@@ -3744,6 +5599,246 @@
     "artifactIds": [
       "vhs-tape",
       "blockbuster-store"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-beck-odelay-1996",
+    "type": "events",
+    "path": "/events/album-beck-odelay-1996/",
+    "title": "Beck — Odelay",
+    "summary": "Abrupt stylistic shifts and a collage-like musical language make the album feel full of unexpected doors.",
+    "tags": [
+      "1996",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-blackstreet-another-level-1996",
+    "type": "events",
+    "path": "/events/album-blackstreet-another-level-1996/",
+    "title": "Blackstreet — Another Level",
+    "summary": "Vocal-group craft and contemporary rhythmic production share a sleek musical setting.",
+    "tags": [
+      "1996",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-de-la-soul-stakes-is-high-1996",
+    "type": "events",
+    "path": "/events/album-de-la-soul-stakes-is-high-1996/",
+    "title": "De La Soul — Stakes Is High",
+    "summary": "A sustained argument about musical values runs through the album’s performances and production.",
+    "tags": [
+      "1996",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "technics-turntable"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-dj-shadow-endtroducing-1996",
+    "type": "events",
+    "path": "/events/album-dj-shadow-endtroducing-1996/",
+    "title": "DJ Shadow — Endtroducing…..",
+    "summary": "Sampling becomes the organizing language of an instrumental album.",
+    "tags": [
+      "1996",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "mc-303"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-fiona-apple-tidal-1996",
+    "type": "events",
+    "path": "/events/album-fiona-apple-tidal-1996/",
+    "title": "Fiona Apple — Tidal",
+    "summary": "A distinctive voice and sharply shaped piano-based songs make the debut feel unusually self-possessed.",
+    "tags": [
+      "1996",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-fugees-the-score-1996",
+    "type": "events",
+    "path": "/events/album-fugees-the-score-1996/",
+    "title": "Fugees — The Score",
+    "summary": "Rap, singing and recognizable musical references create a record with several points of entry.",
+    "tags": [
+      "1996",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-ghostface-killah-ironman-1996",
+    "type": "events",
+    "path": "/events/album-ghostface-killah-ironman-1996/",
+    "title": "Ghostface Killah — Ironman",
+    "summary": "A vivid vocal personality develops its own space within the Wu-Tang constellation.",
+    "tags": [
+      "1996",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-maxwell-maxwells-urban-hang-suite-1996",
+    "type": "events",
+    "path": "/events/album-maxwell-maxwells-urban-hang-suite-1996/",
+    "title": "Maxwell — Maxwell’s Urban Hang Suite",
+    "summary": "An unhurried groove and detailed vocal arrangements make the album feel deliberately inhabited.",
+    "tags": [
+      "1996",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-outkast-atliens-1996",
+    "type": "events",
+    "path": "/events/album-outkast-atliens-1996/",
+    "title": "OutKast — ATLiens",
+    "summary": "The duo develops a more spacious, exploratory world around its voices.",
+    "tags": [
+      "1996",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "technics-turntable"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-stereolab-emperor-tomato-ketchup-1996",
+    "type": "events",
+    "path": "/events/album-stereolab-emperor-tomato-ketchup-1996/",
+    "title": "Stereolab — Emperor Tomato Ketchup",
+    "summary": "Repetition, pop melody and varied instrumental colors create a lively conversation between familiar forms.",
+    "tags": [
+      "1996",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-the-roots-illadelph-halflife-1996",
+    "type": "events",
+    "path": "/events/album-the-roots-illadelph-halflife-1996/",
+    "title": "The Roots — Illadelph Halflife",
+    "summary": "Group playing and rap performance share a carefully organized musical space.",
+    "tags": [
+      "1996",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "technics-turntable"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-underworld-second-toughest-in-the-infants-1996",
+    "type": "events",
+    "path": "/events/album-underworld-second-toughest-in-the-infants-1996/",
+    "title": "Underworld — Second Toughest in the Infants",
+    "summary": "Long-form electronic tracks make repetition feel like a journey through changing rooms.",
+    "tags": [
+      "1996",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "mc-303"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-diary-camper",
+    "type": "events",
+    "path": "/events/diary-camper/",
+    "title": "Diary of a Camper turns Quake into a filmmaking tool",
+    "summary": "The Ranger clan’s Diary of a Camper uses Quake to stage a short narrative.",
+    "tags": [
+      "1996",
+      "games",
+      "Historical release / milestone"
+    ],
+    "artifactIds": [
+      "family-pc"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-vaio",
+    "type": "events",
+    "path": "/events/vaio/",
+    "title": "Sony launches VAIO computers",
+    "summary": "Sony’s VAIO line enters personal computing with multimedia at the center of its identity.",
+    "tags": [
+      "1996",
+      "tech",
+      "Historical release / milestone"
+    ],
+    "artifactIds": [
+      "family-pc"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-voodoo-graphics",
+    "type": "events",
+    "path": "/events/voodoo-graphics/",
+    "title": "Voodoo Graphics gives the PC another route into 3D",
+    "summary": "3dfx’s Voodoo Graphics accelerator makes graphics hardware a conspicuous part of PC gaming.",
+    "tags": [
+      "1996",
+      "games",
+      "Historical release / milestone"
+    ],
+    "artifactIds": [
+      "family-pc"
     ],
     "randomEligible": false
   },
@@ -3942,6 +6037,22 @@
     "artifactIds": [
       "vhs-tape",
       "blockbuster-store"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-quicksnap-golf",
+    "type": "events",
+    "path": "/events/quicksnap-golf/",
+    "title": "QuickSnap GOLF tries sequence photography",
+    "summary": "Fujifilm’s golf-oriented model captures a short sequence for printing together.",
+    "tags": [
+      "1996-02",
+      "culture",
+      "Fujifilm model chronology"
+    ],
+    "artifactIds": [
+      "disposable-camera"
     ],
     "randomEligible": false
   },
@@ -4249,6 +6360,22 @@
     "randomEligible": false
   },
   {
+    "id": "event-sfc-super-mario-rpg",
+    "type": "events",
+    "path": "/events/sfc-super-mario-rpg/",
+    "title": "Super Mario RPG reaches Super Famicom in Japan",
+    "summary": "Mario steps into a role-playing structure with an assembled party and turn-based encounters.",
+    "tags": [
+      "1996-03-09",
+      "games",
+      "Japan"
+    ],
+    "artifactIds": [
+      "super-famicom"
+    ],
+    "randomEligible": false
+  },
+  {
     "id": "event-film-ed-1996",
     "type": "events",
     "path": "/events/film-ed-1996/",
@@ -4296,6 +6423,22 @@
     "artifactIds": [
       "vhs-tape",
       "blockbuster-store"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-sfc-kirby-super-star-kirbys-fun-pak",
+    "type": "events",
+    "path": "/events/sfc-kirby-super-star-kirbys-fun-pak/",
+    "title": "Kirby Super Star / Kirby’s Fun Pak reaches Super Famicom in Japan",
+    "summary": "A set of different modes turns one cartridge into a small collection of Kirby adventures.",
+    "tags": [
+      "1996-03-21",
+      "games",
+      "Japan"
+    ],
+    "artifactIds": [
+      "super-famicom"
     ],
     "randomEligible": false
   },
@@ -4398,6 +6541,22 @@
     "artifactIds": [
       "vhs-tape",
       "blockbuster-store"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-quicksnap-aps",
+    "type": "events",
+    "path": "/events/quicksnap-aps/",
+    "title": "QuickSnap enters the APS format",
+    "summary": "Fujifilm adds compact APS versions to the QuickSnap family.",
+    "tags": [
+      "1996-04",
+      "culture",
+      "Fujifilm model chronology"
+    ],
+    "artifactIds": [
+      "disposable-camera"
     ],
     "randomEligible": false
   },
@@ -5753,6 +7912,54 @@
     "randomEligible": false
   },
   {
+    "id": "event-release-fountains",
+    "type": "events",
+    "path": "/events/release-fountains/",
+    "title": "Fountains of Wayne releases its debut",
+    "summary": "Fountains of Wayne arrives with compact guitar-pop songs on a self-titled debut.",
+    "tags": [
+      "1996-10-01",
+      "music",
+      "Original album release"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-release-luther",
+    "type": "events",
+    "path": "/events/release-luther/",
+    "title": "Luther Vandross releases Your Secret Love",
+    "summary": "Luther Vandross adds Your Secret Love to a career already associated with close attention to vocal phrasing.",
+    "tags": [
+      "1996-10-01",
+      "music",
+      "Original album release"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-release-wishkah",
+    "type": "events",
+    "path": "/events/release-wishkah/",
+    "title": "Nirvana releases From the Muddy Banks of the Wishkah",
+    "summary": "A live collection restores the volume and abrasion of Nirvana onstage after the quieter presentation of MTV Unplugged.",
+    "tags": [
+      "1996-10-01",
+      "music",
+      "DGC original release"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
     "id": "event-film-bound-1996",
     "type": "events",
     "path": "/events/film-bound-1996/",
@@ -5855,6 +8062,22 @@
     "randomEligible": false
   },
   {
+    "id": "event-release-billy-breathes",
+    "type": "events",
+    "path": "/events/release-billy-breathes/",
+    "title": "Phish releases Billy Breathes",
+    "summary": "Billy Breathes concentrates a band known for open-ended live performance into the sequence of a studio album.",
+    "tags": [
+      "1996-10-15",
+      "music",
+      "Original album release"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
     "id": "event-film-get-on-the-bus-1996",
     "type": "events",
     "path": "/events/film-get-on-the-bus-1996/",
@@ -5906,6 +8129,22 @@
     "randomEligible": false
   },
   {
+    "id": "event-release-bow-down",
+    "type": "events",
+    "path": "/events/release-bow-down/",
+    "title": "Westside Connection releases Bow Down",
+    "summary": "Ice Cube, Mack 10 and WC bring distinct careers into Westside Connection.",
+    "tags": [
+      "1996-10-22",
+      "music",
+      "Original album release"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
     "id": "event-film-high-school-high-1996",
     "type": "events",
     "path": "/events/film-high-school-high-1996/",
@@ -5953,6 +8192,22 @@
     "artifactIds": [
       "vhs-tape",
       "blockbuster-store"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-aol-flat-announced",
+    "type": "events",
+    "path": "/events/aol-flat-announced/",
+    "title": "AOL announces its $19.95 flat-rate plan",
+    "summary": "AOL announces a $19.95 unlimited-use plan, changing the calculation behind spending another hour online.",
+    "tags": [
+      "1996-10-29",
+      "tech",
+      "United States"
+    ],
+    "artifactIds": [
+      "aol-cd"
     ],
     "randomEligible": false
   },
@@ -6059,6 +8314,38 @@
     "randomEligible": false
   },
   {
+    "id": "event-release-breathe",
+    "type": "events",
+    "path": "/events/release-breathe/",
+    "title": "The Prodigy releases Breathe",
+    "summary": "Breathe extends the Prodigy’s route between electronic dance production and a forceful rock-facing performance style.",
+    "tags": [
+      "1996-11-11",
+      "music",
+      "United Kingdom"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-release-doggfather",
+    "type": "events",
+    "path": "/events/release-doggfather/",
+    "title": "Snoop Doggy Dogg releases Tha Doggfather",
+    "summary": "Tha Doggfather follows a debut that had helped make West Coast rap central to the early-decade conversation.",
+    "tags": [
+      "1996-11-12",
+      "music",
+      "Original album release"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
     "id": "event-film-the-english-patient-1996",
     "type": "events",
     "path": "/events/film-the-english-patient-1996/",
@@ -6154,6 +8441,22 @@
       "Japan"
     ],
     "artifactIds": [],
+    "randomEligible": false
+  },
+  {
+    "id": "event-release-aeroplane",
+    "type": "events",
+    "path": "/events/release-aeroplane/",
+    "title": "The Smashing Pumpkins releases The Aeroplane Flies High",
+    "summary": "A box set gathers the singles and associated recordings from the Mellon Collie period into another object to collect.",
+    "tags": [
+      "1996-11-26",
+      "music",
+      "Original box-set release"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
     "randomEligible": false
   },
   {
@@ -6412,6 +8715,23 @@
     "randomEligible": false
   },
   {
+    "id": "event-diablo-original",
+    "type": "events",
+    "path": "/events/diablo-original/",
+    "title": "Diablo opens the cathedral door",
+    "summary": "Diablo turns a descent beneath Tristram into a loop of exploration, combat and another piece of loot.",
+    "tags": [
+      "1996-12-31",
+      "games",
+      "Original release — publisher retrospective"
+    ],
+    "artifactIds": [
+      "family-pc",
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
     "id": "event-orange-bowl-new-years-eve",
     "type": "events",
     "path": "/events/orange-bowl-new-years-eve/",
@@ -6424,6 +8744,246 @@
     ],
     "artifactIds": [
       "crt-television"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-bjork-homogenic-1997",
+    "type": "events",
+    "path": "/events/album-bjork-homogenic-1997/",
+    "title": "Björk — Homogenic",
+    "summary": "Electronic rhythm and orchestral weight meet around a voice that remains sharply individual.",
+    "tags": [
+      "1997",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-blur-blur-1997",
+    "type": "events",
+    "path": "/events/album-blur-blur-1997/",
+    "title": "Blur — Blur",
+    "summary": "The band moves away from the sound most closely associated with its earlier British-life portraits.",
+    "tags": [
+      "1997",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-erykah-badu-baduizm-1997",
+    "type": "events",
+    "path": "/events/album-erykah-badu-baduizm-1997/",
+    "title": "Erykah Badu — Baduizm",
+    "summary": "A relaxed rhythmic setting leaves space for a distinctive vocal personality.",
+    "tags": [
+      "1997",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-janet-jackson-the-velvet-rope-1997",
+    "type": "events",
+    "path": "/events/album-janet-jackson-the-velvet-rope-1997/",
+    "title": "Janet Jackson — The Velvet Rope",
+    "summary": "A varied musical setting makes room for intimacy, tension and different performance scales.",
+    "tags": [
+      "1997",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-missy-elliott-supa-dupa-fly-1997",
+    "type": "events",
+    "path": "/events/album-missy-elliott-supa-dupa-fly-1997/",
+    "title": "Missy Elliott — Supa Dupa Fly",
+    "summary": "Playful vocal presence and striking rhythmic shapes make the debut immediately recognizable.",
+    "tags": [
+      "1997",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "mpc-2000"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-photek-modus-operandi-1997",
+    "type": "events",
+    "path": "/events/album-photek-modus-operandi-1997/",
+    "title": "Photek — Modus Operandi",
+    "summary": "Precise percussion and carefully measured space make the record feel focused and architectural.",
+    "tags": [
+      "1997",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-portishead-portishead-1997",
+    "type": "events",
+    "path": "/events/album-portishead-portishead-1997/",
+    "title": "Portishead — Portishead",
+    "summary": "The second album sustains the group’s tense intimacy while pushing its textures into darker territory.",
+    "tags": [
+      "1997",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-roni-size-reprazent-new-forms-1997",
+    "type": "events",
+    "path": "/events/album-roni-size-reprazent-new-forms-1997/",
+    "title": "Roni Size & Reprazent — New Forms",
+    "summary": "Drum-and-bass rhythm meets group identity and a broad album canvas.",
+    "tags": [
+      "1997",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-the-chemical-brothers-dig-your-own-hole-1997",
+    "type": "events",
+    "path": "/events/album-the-chemical-brothers-dig-your-own-hole-1997/",
+    "title": "The Chemical Brothers — Dig Your Own Hole",
+    "summary": "Forceful electronic production and an album-length sense of momentum bring dance music into a wider listening space.",
+    "tags": [
+      "1997",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "mc-303"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-the-prodigy-the-fat-of-the-land-1997",
+    "type": "events",
+    "path": "/events/album-the-prodigy-the-fat-of-the-land-1997/",
+    "title": "The Prodigy — The Fat of the Land",
+    "summary": "The band’s electronic attack becomes heavier and more visibly connected to rock-stage energy.",
+    "tags": [
+      "1997",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "mc-303"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-usher-my-way-1997",
+    "type": "events",
+    "path": "/events/album-usher-my-way-1997/",
+    "title": "Usher — My Way",
+    "summary": "Youthful vocal confidence meets the late-decade language of contemporary R&B.",
+    "tags": [
+      "1997",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-wu-tang-clan-wu-tang-forever-1997",
+    "type": "events",
+    "path": "/events/album-wu-tang-clan-wu-tang-forever-1997/",
+    "title": "Wu-Tang Clan — Wu-Tang Forever",
+    "summary": "A larger album canvas brings the group’s many voices back into one frame.",
+    "tags": [
+      "1997",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-cd-rw",
+    "type": "events",
+    "path": "/events/cd-rw/",
+    "title": "CD-RW introduces a rewritable optical disc",
+    "summary": "CD-RW gives the recordable-disc story a rewritable branch.",
+    "tags": [
+      "1997",
+      "tech",
+      "Historical release / milestone"
+    ],
+    "artifactIds": [
+      "cdr-spindle"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-grand-theft-auto",
+    "type": "events",
+    "path": "/events/grand-theft-auto/",
+    "title": "Grand Theft Auto begins from above",
+    "summary": "The original Grand Theft Auto presents its city from a top-down view.",
+    "tags": [
+      "1997",
+      "games",
+      "Historical release / milestone"
+    ],
+    "artifactIds": [
+      "playstation-hardware"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-visual-studio",
+    "type": "events",
+    "path": "/events/visual-studio/",
+    "title": "Visual Studio gathers development tools under one name",
+    "summary": "Microsoft’s Visual Studio arrives as an integrated collection of development tools.",
+    "tags": [
+      "1997",
+      "tech",
+      "Historical release / milestone"
+    ],
+    "artifactIds": [
+      "family-pc"
     ],
     "randomEligible": false
   },
@@ -6753,6 +9313,22 @@
     "randomEligible": false
   },
   {
+    "id": "event-quicksnap-sepia",
+    "type": "events",
+    "path": "/events/quicksnap-sepia/",
+    "title": "QuickSnap offers a sepia version",
+    "summary": "A QuickSnap variant makes sepia appearance a decision made when choosing the camera.",
+    "tags": [
+      "1997-09",
+      "culture",
+      "Fujifilm model chronology"
+    ],
+    "artifactIds": [
+      "disposable-camera"
+    ],
+    "randomEligible": false
+  },
+  {
     "id": "event-film-l-a-confidential-1997",
     "type": "events",
     "path": "/events/film-l-a-confidential-1997/",
@@ -6869,6 +9445,228 @@
     "randomEligible": false
   },
   {
+    "id": "event-album-air-moon-safari-1998",
+    "type": "events",
+    "path": "/events/album-air-moon-safari-1998/",
+    "title": "Air — Moon Safari",
+    "summary": "Electronic textures and a relaxed melodic sensibility give the album an unusually inviting surface.",
+    "tags": [
+      "1998",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-beastie-boys-hello-nasty-1998",
+    "type": "events",
+    "path": "/events/album-beastie-boys-hello-nasty-1998/",
+    "title": "Beastie Boys — Hello Nasty",
+    "summary": "The album’s restless variety makes hip-hop, electronic sound and instrumental play share one busy room.",
+    "tags": [
+      "1998",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "mpc-2000"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-black-star-mos-def-talib-kweli-are-black-star-1998",
+    "type": "events",
+    "path": "/events/album-black-star-mos-def-talib-kweli-are-black-star-1998/",
+    "title": "Black Star — Mos Def & Talib Kweli Are Black Star",
+    "summary": "Two distinct rap voices share a focused musical conversation.",
+    "tags": [
+      "1998",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-boards-of-canada-music-has-the-right-to-children-1998",
+    "type": "events",
+    "path": "/events/album-boards-of-canada-music-has-the-right-to-children-1998/",
+    "title": "Boards of Canada — Music Has the Right to Children",
+    "summary": "Weathered textures and recurring melodic shapes make the electronic record feel strangely familiar.",
+    "tags": [
+      "1998",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-brandy-never-say-never-1998",
+    "type": "events",
+    "path": "/events/album-brandy-never-say-never-1998/",
+    "title": "Brandy — Never Say Never",
+    "summary": "Detailed vocal layering and polished contemporary production make the album a rich R&B listening object.",
+    "tags": [
+      "1998",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-fatboy-slim-youve-come-a-long-way-baby-1998",
+    "type": "events",
+    "path": "/events/album-fatboy-slim-youve-come-a-long-way-baby-1998/",
+    "title": "Fatboy Slim — You’ve Come a Long Way, Baby",
+    "summary": "Big-beat production makes repetition, abrupt entrances and recognizable fragments into large-scale pleasures.",
+    "tags": [
+      "1998",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "mc-303"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-gang-starr-moment-of-truth-1998",
+    "type": "events",
+    "path": "/events/album-gang-starr-moment-of-truth-1998/",
+    "title": "Gang Starr — Moment of Truth",
+    "summary": "Measured vocal authority and focused production give the album a strong internal rhythm.",
+    "tags": [
+      "1998",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "mpc-2000"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-madonna-ray-of-light-1998",
+    "type": "events",
+    "path": "/events/album-madonna-ray-of-light-1998/",
+    "title": "Madonna — Ray of Light",
+    "summary": "An established pop voice moves through an electronic setting with a different sense of space and motion.",
+    "tags": [
+      "1998",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-massive-attack-mezzanine-1998",
+    "type": "events",
+    "path": "/events/album-massive-attack-mezzanine-1998/",
+    "title": "Massive Attack — Mezzanine",
+    "summary": "Dark textures and tightly controlled momentum make the group’s third album feel distinctly different from its debut.",
+    "tags": [
+      "1998",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-outkast-aquemini-1998",
+    "type": "events",
+    "path": "/events/album-outkast-aquemini-1998/",
+    "title": "OutKast — Aquemini",
+    "summary": "The duo widens its musical palette while keeping the contrast between its two voices central.",
+    "tags": [
+      "1998",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "mpc-2000"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-refused-the-shape-of-punk-to-come-1998",
+    "type": "events",
+    "path": "/events/album-refused-the-shape-of-punk-to-come-1998/",
+    "title": "Refused — The Shape of Punk to Come",
+    "summary": "An aggressive performance style meets restless structural choices.",
+    "tags": [
+      "1998",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-unkle-psyence-fiction-1998",
+    "type": "events",
+    "path": "/events/album-unkle-psyence-fiction-1998/",
+    "title": "UNKLE — Psyence Fiction",
+    "summary": "Guest voices and a collage-like production approach create an album with several centers of gravity.",
+    "tags": [
+      "1998",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-furby-launch-year",
+    "type": "events",
+    "path": "/events/furby-launch-year/",
+    "title": "Furby joins the electronic-toy conversation",
+    "summary": "A talking, moving Furby makes a toy seem to participate in the room.",
+    "tags": [
+      "1998",
+      "culture",
+      "Historical release / milestone"
+    ],
+    "artifactIds": [],
+    "randomEligible": false
+  },
+  {
+    "id": "event-maya",
+    "type": "events",
+    "path": "/events/maya/",
+    "title": "Maya brings a new 3D toolkit to artists",
+    "summary": "Maya appears as a major 3D-animation and modeling application.",
+    "tags": [
+      "1998",
+      "tech",
+      "Historical release / milestone"
+    ],
+    "artifactIds": [
+      "family-pc"
+    ],
+    "randomEligible": false
+  },
+  {
     "id": "event-film-spice-world-1998",
     "type": "events",
     "path": "/events/film-spice-world-1998/",
@@ -6967,6 +9765,23 @@
     "artifactIds": [
       "vhs-tape",
       "blockbuster-store"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-starcraft-original",
+    "type": "events",
+    "path": "/events/starcraft-original/",
+    "title": "StarCraft puts the battlefield on the desktop",
+    "summary": "StarCraft becomes one of the decade’s enduring meeting points between a PC strategy game and competitive play.",
+    "tags": [
+      "1998-03-31",
+      "games",
+      "Original release — publisher retrospective"
+    ],
+    "artifactIds": [
+      "family-pc",
+      "jewel-case"
     ],
     "randomEligible": false
   },
@@ -7416,6 +10231,276 @@
     "artifactIds": [
       "vhs-tape",
       "blockbuster-store"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-aibo",
+    "type": "events",
+    "path": "/events/aibo/",
+    "title": "Sony’s AIBO turns robotics into a household companion",
+    "summary": "Sony’s AIBO robot dog arrives in 1999.",
+    "tags": [
+      "1999",
+      "culture",
+      "Historical release / milestone"
+    ],
+    "artifactIds": [],
+    "randomEligible": false
+  },
+  {
+    "id": "event-airport",
+    "type": "events",
+    "path": "/events/airport/",
+    "title": "Apple introduces AirPort wireless networking",
+    "summary": "AirPort makes wireless local networking part of Apple’s consumer-computing story.",
+    "tags": [
+      "1999",
+      "tech",
+      "Historical release / milestone"
+    ],
+    "artifactIds": [
+      "bondi-imac"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-basement-jaxx-remedy-1999",
+    "type": "events",
+    "path": "/events/album-basement-jaxx-remedy-1999/",
+    "title": "Basement Jaxx — Remedy",
+    "summary": "House-rooted rhythms and a busy mix of voices and textures make the album feel exuberantly inhabited.",
+    "tags": [
+      "1999",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-destinys-child-the-writings-on-the-wall-1999",
+    "type": "events",
+    "path": "/events/album-destinys-child-the-writings-on-the-wall-1999/",
+    "title": "Destiny’s Child — The Writing’s on the Wall",
+    "summary": "Vocal-group precision and tightly shaped contemporary rhythms create a distinctive late-decade pop-R&B sound.",
+    "tags": [
+      "1999",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-kelis-kaleidoscope-1999",
+    "type": "events",
+    "path": "/events/album-kelis-kaleidoscope-1999/",
+    "title": "Kelis — Kaleidoscope",
+    "summary": "An individual vocal presence meets a sharply recognizable production world.",
+    "tags": [
+      "1999",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-mf-doom-operation-doomsday-1999",
+    "type": "events",
+    "path": "/events/album-mf-doom-operation-doomsday-1999/",
+    "title": "MF DOOM — Operation: Doomsday",
+    "summary": "A distinctive persona and a collage of recorded fragments establish a strongly individual musical world.",
+    "tags": [
+      "1999",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-moby-play-1999",
+    "type": "events",
+    "path": "/events/album-moby-play-1999/",
+    "title": "Moby — Play",
+    "summary": "A carefully organized musical surface connects electronic repetition with older recorded vocal material.",
+    "tags": [
+      "1999",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "mc-303"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-mos-def-black-on-both-sides-1999",
+    "type": "events",
+    "path": "/events/album-mos-def-black-on-both-sides-1999/",
+    "title": "Mos Def — Black on Both Sides",
+    "summary": "A solo voice develops a broader musical space after the Black Star collaboration.",
+    "tags": [
+      "1999",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "mpc-2000"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-nine-inch-nails-the-fragile-1999",
+    "type": "events",
+    "path": "/events/album-nine-inch-nails-the-fragile-1999/",
+    "title": "Nine Inch Nails — The Fragile",
+    "summary": "A broad double-album canvas gives industrial rock room for atmosphere as well as impact.",
+    "tags": [
+      "1999",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-sleater-kinney-the-hot-rock-1999",
+    "type": "events",
+    "path": "/events/album-sleater-kinney-the-hot-rock-1999/",
+    "title": "Sleater-Kinney — The Hot Rock",
+    "summary": "Interlocking guitars and distinct vocal presences give the album a tense, mobile sound.",
+    "tags": [
+      "1999",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-the-chemical-brothers-surrender-1999",
+    "type": "events",
+    "path": "/events/album-the-chemical-brothers-surrender-1999/",
+    "title": "The Chemical Brothers — Surrender",
+    "summary": "Electronic production opens into a brighter and more varied listening space.",
+    "tags": [
+      "1999",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "mc-303"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-the-roots-things-fall-apart-1999",
+    "type": "events",
+    "path": "/events/album-the-roots-things-fall-apart-1999/",
+    "title": "The Roots — Things Fall Apart",
+    "summary": "The group’s musical conversation develops across a carefully assembled album.",
+    "tags": [
+      "1999",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "mpc-2000"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-tlc-fanmail-1999",
+    "type": "events",
+    "path": "/events/album-tlc-fanmail-1999/",
+    "title": "TLC — FanMail",
+    "summary": "The group’s third album moves through a more explicitly technological visual and musical world.",
+    "tags": [
+      "1999",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-album-underworld-beaucoup-fish-1999",
+    "type": "events",
+    "path": "/events/album-underworld-beaucoup-fish-1999/",
+    "title": "Underworld — Beaucoup Fish",
+    "summary": "The duo continues to turn long-form rhythm into an album journey.",
+    "tags": [
+      "1999",
+      "music",
+      "Original album year"
+    ],
+    "artifactIds": [
+      "mc-303"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-everquest",
+    "type": "events",
+    "path": "/events/everquest/",
+    "title": "EverQuest makes the fantasy world persist online",
+    "summary": "EverQuest brings a persistent online fantasy world to a wider PC-gaming audience.",
+    "tags": [
+      "1999",
+      "games",
+      "Historical release / milestone"
+    ],
+    "artifactIds": [
+      "family-pc"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-geforce256",
+    "type": "events",
+    "path": "/events/geforce256/",
+    "title": "Nvidia introduces GeForce 256",
+    "summary": "GeForce 256 arrives as another turning point in the history of PC graphics.",
+    "tags": [
+      "1999",
+      "tech",
+      "Historical release / milestone"
+    ],
+    "artifactIds": [
+      "family-pc"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "event-i-mode",
+    "type": "events",
+    "path": "/events/i-mode/",
+    "title": "NTT DoCoMo launches i-mode",
+    "summary": "Japan’s i-mode service opens a significant route to mobile internet use.",
+    "tags": [
+      "1999",
+      "tech",
+      "Historical release / milestone"
+    ],
+    "artifactIds": [
+      "nokia-3210"
     ],
     "randomEligible": false
   },
@@ -8434,6 +11519,357 @@
     "randomEligible": false
   },
   {
+    "id": "story-aol-flat-rate",
+    "type": "stories",
+    "path": "/stories/aol-flat-rate/",
+    "title": "When the internet stopped charging by the hour",
+    "summary": "AOL’s 1996 flat-rate announcement changed the clock on the family computer—and exposed the limits of the network behind it.",
+    "tags": [
+      "tech"
+    ],
+    "artifactIds": [
+      "aol-cd",
+      "family-pc",
+      "answering-machine"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "story-browser-wars-at-home",
+    "type": "stories",
+    "path": "/stories/browser-wars-at-home/",
+    "title": "The browser wars reached the family desktop",
+    "summary": "Navigator and Internet Explorer competed over more than a window: they helped decide how a new web looked and who could build for it.",
+    "tags": [
+      "tech"
+    ],
+    "artifactIds": [
+      "mosaic-browser",
+      "first-website",
+      "windows-95-start",
+      "family-pc"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "story-minidisc-small-door",
+    "type": "stories",
+    "path": "/stories/minidisc-small-door/",
+    "title": "MiniDisc put a little door around your music",
+    "summary": "A protected disc, editable track order and a recording ritual made MiniDisc a distinct alternative to both tape and the portable CD.",
+    "tags": [
+      "tech"
+    ],
+    "artifactIds": [
+      "minidisc",
+      "cassette",
+      "discman",
+      "walkman"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "story-carrying-files-home",
+    "type": "stories",
+    "path": "/stories/carrying-files-home/",
+    "title": "Before the cloud, you carried the file home",
+    "summary": "Floppies and Zip disks made the trip between computers part of the work—and compatibility part of every handoff.",
+    "tags": [
+      "tech"
+    ],
+    "artifactIds": [
+      "zip-drive",
+      "floppy-disk",
+      "cdr-spindle",
+      "family-pc"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "story-webtv-on-the-sofa",
+    "type": "stories",
+    "path": "/stories/webtv-on-the-sofa/",
+    "title": "WebTV asked the sofa to become a computer desk",
+    "summary": "A television, a phone line and a small box offered a different household doorway to the web in 1996.",
+    "tags": [
+      "tech"
+    ],
+    "artifactIds": [
+      "webtv",
+      "crt-television",
+      "family-pc",
+      "answering-machine"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "story-the-demo-disc-evening",
+    "type": "stories",
+    "path": "/stories/the-demo-disc-evening/",
+    "title": "A demo disc could take over an evening",
+    "summary": "A magazine-sized sample became a playable collection: short levels, repeated discoveries and games that existed as possibilities.",
+    "tags": [
+      "games"
+    ],
+    "artifactIds": [
+      "playstation-hardware",
+      "memory-card",
+      "jewel-case",
+      "crt-television"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "story-shareware-before-download-stores",
+    "type": "stories",
+    "path": "/stories/shareware-before-download-stores/",
+    "title": "Shareware made the first episode a doorway",
+    "summary": "Doom and the PC’s distributed game culture turned a free portion into an invitation to a much larger world.",
+    "tags": [
+      "games"
+    ],
+    "artifactIds": [
+      "doom-disks",
+      "floppy-disk",
+      "family-pc",
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "story-handhelds-and-batteries",
+    "type": "stories",
+    "path": "/stories/handhelds-and-batteries/",
+    "title": "Portable play still needed a plan",
+    "summary": "Game Gear, Game Boy and the battery compartment reveal the practical side of taking a game out of the living room.",
+    "tags": [
+      "games"
+    ],
+    "artifactIds": [
+      "game-gear",
+      "game-boy-color",
+      "snes",
+      "walkman"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "story-bristol-between-the-beats",
+    "type": "stories",
+    "path": "/stories/bristol-between-the-beats/",
+    "title": "Bristol left room between the beats",
+    "summary": "Massive Attack, Portishead and Tricky offer three different ways into a city’s music—and a warning against making one genre name do too much.",
+    "tags": [
+      "music"
+    ],
+    "artifactIds": [
+      "technics-turntable",
+      "cassette",
+      "discman",
+      "mpc-2000"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "story-breakbeats-change-the-clock",
+    "type": "stories",
+    "path": "/stories/breakbeats-change-the-clock/",
+    "title": "Breakbeats changed the clock on the dancefloor",
+    "summary": "Jungle and drum & bass made fast percussion, slower atmosphere and intricate editing part of the same musical space.",
+    "tags": [
+      "music"
+    ],
+    "artifactIds": [
+      "mpc-2000",
+      "technics-turntable",
+      "dat-recorder",
+      "cassette"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "story-sampling-a-record-collection",
+    "type": "stories",
+    "path": "/stories/sampling-a-record-collection/",
+    "title": "A record collection could become an instrument",
+    "summary": "Hip-hop sampling turned listening, selection and arrangement into connected forms of musical work.",
+    "tags": [
+      "music"
+    ],
+    "artifactIds": [
+      "mpc-2000",
+      "technics-turntable",
+      "cassette",
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "story-rnb-had-many-voices",
+    "type": "stories",
+    "path": "/stories/rnb-had-many-voices/",
+    "title": "90s R&B had room for many kinds of voice",
+    "summary": "From vocal groups to hip-hop soul and the records gathered under neo-soul, the decade’s R&B story keeps widening.",
+    "tags": [
+      "music"
+    ],
+    "artifactIds": [
+      "discman",
+      "cassette",
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "story-record-store-discovery",
+    "type": "stories",
+    "path": "/stories/record-store-discovery/",
+    "title": "The record shop had its own search engine",
+    "summary": "Genres, sleeves, staff knowledge and a limited budget turned buying music into a physical process of discovery.",
+    "tags": [
+      "music"
+    ],
+    "artifactIds": [
+      "jewel-case",
+      "cassette",
+      "discman"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "story-grunge-from-rack-to-runway",
+    "type": "stories",
+    "path": "/stories/grunge-from-rack-to-runway/",
+    "title": "Grunge changed meaning between the thrift rack and the runway",
+    "summary": "Flannel, worn boots and layered clothes carried different meanings in a music scene, a shop and a designer collection.",
+    "tags": [
+      "culture"
+    ],
+    "artifactIds": [
+      "dr-martens",
+      "vans-shoes",
+      "cassette",
+      "discman"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "story-streetwear-the-logo-and-the-voice",
+    "type": "stories",
+    "path": "/stories/streetwear-the-logo-and-the-voice/",
+    "title": "A logo could say who the clothes were for",
+    "summary": "FUBU, sportswear and hip-hop fashion made authorship, belonging and visibility part of getting dressed.",
+    "tags": [
+      "culture"
+    ],
+    "artifactIds": [
+      "vans-shoes",
+      "discman",
+      "cassette",
+      "nokia-3210"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "story-skate-rave-and-room-to-move",
+    "type": "stories",
+    "path": "/stories/skate-rave-and-room-to-move/",
+    "title": "Skate clothes and rave clothes needed room to move",
+    "summary": "Wide silhouettes, practical shoes and synthetic surfaces connect style to bodies doing things—not just a list of brands.",
+    "tags": [
+      "culture"
+    ],
+    "artifactIds": [
+      "vans-shoes",
+      "dr-martens",
+      "cassette",
+      "mc-303"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "story-the-landline-negotiation",
+    "type": "stories",
+    "path": "/stories/the-landline-negotiation/",
+    "title": "Calling a friend meant calling a household",
+    "summary": "The landline made conversation depend on other people’s rooms, routines and willingness to pass the phone.",
+    "tags": [
+      "culture"
+    ],
+    "artifactIds": [
+      "answering-machine",
+      "pager",
+      "family-pc",
+      "nokia-3210"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "story-the-photo-lab-gap",
+    "type": "stories",
+    "path": "/stories/the-photo-lab-gap/",
+    "title": "The photograph came home later",
+    "summary": "Disposable cameras and photo labs separated taking a picture from knowing what the picture would become.",
+    "tags": [
+      "culture"
+    ],
+    "artifactIds": [
+      "disposable-camera",
+      "digital-camera",
+      "floppy-disk",
+      "family-pc"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "story-computer-lab-and-book-fair",
+    "type": "stories",
+    "path": "/stories/computer-lab-and-book-fair/",
+    "title": "School had its own routes into the future",
+    "summary": "The computer lab and the book fair made discovery shared, scheduled and full of physical choices.",
+    "tags": [
+      "culture"
+    ],
+    "artifactIds": [
+      "family-pc",
+      "floppy-disk",
+      "jewel-case",
+      "crt-television"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "story-holiday-toys-that-answered-back",
+    "type": "stories",
+    "path": "/stories/holiday-toys-that-answered-back/",
+    "title": "The toy aisle began answering back",
+    "summary": "Tamagotchi and Furby made care, response and personality part of the toy’s appeal, in very different forms.",
+    "tags": [
+      "culture"
+    ],
+    "artifactIds": [
+      "talkboy",
+      "beanie-baby"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "story-snick-the-saturday-room",
+    "type": "stories",
+    "path": "/stories/snick-the-saturday-room/",
+    "title": "SNICK gave Saturday night a different room",
+    "summary": "Nickelodeon’s evening identity offered older children a television space distinct from both the morning cartoon block and adult prime time.",
+    "tags": [
+      "movies-tv"
+    ],
+    "artifactIds": [
+      "crt-television",
+      "vhs-tape",
+      "answering-machine"
+    ],
+    "randomEligible": false
+  },
+  {
     "id": "object-family-pc",
     "type": "objects",
     "path": "/archive/objects/family-pc/",
@@ -8911,6 +12347,550 @@
     ],
     "artifactIds": [
       "transparent-n64-controller"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "object-snes",
+    "type": "objects",
+    "path": "/archive/objects/snes/",
+    "title": "Super Nintendo, North American edition",
+    "summary": "A console with room for a whole library.",
+    "tags": [
+      "games",
+      "the-demo-disc-evening",
+      "consoles",
+      "action"
+    ],
+    "artifactIds": [
+      "snes"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "object-game-gear",
+    "type": "objects",
+    "path": "/archive/objects/game-gear/",
+    "title": "Sega Game Gear",
+    "summary": "Color gaming with a battery budget.",
+    "tags": [
+      "games",
+      "handhelds-and-batteries",
+      "handhelds",
+      "consoles"
+    ],
+    "artifactIds": [
+      "game-gear"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "object-saturn",
+    "type": "objects",
+    "path": "/archive/objects/saturn/",
+    "title": "Sega Saturn, first US case",
+    "summary": "Another future arrived on a disc.",
+    "tags": [
+      "games",
+      "the-demo-disc-evening",
+      "consoles",
+      "action"
+    ],
+    "artifactIds": [
+      "saturn"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "object-minidisc",
+    "type": "objects",
+    "path": "/archive/objects/minidisc/",
+    "title": "Sony MZ-1 and a MiniDisc",
+    "summary": "A recording tucked inside a protective shell.",
+    "tags": [
+      "music",
+      "minidisc-small-door",
+      "portable",
+      "cd"
+    ],
+    "artifactIds": [
+      "minidisc"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "object-palm-pilot",
+    "type": "objects",
+    "path": "/archive/objects/palm-pilot/",
+    "title": "PalmPilot Professional",
+    "summary": "The calendar could leave the desk.",
+    "tags": [
+      "tech-toys",
+      "carrying-files-home",
+      "pc",
+      "software"
+    ],
+    "artifactIds": [
+      "palm-pilot"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "object-nokia-3210",
+    "type": "objects",
+    "path": "/archive/objects/nokia-3210/",
+    "title": "Nokia 3210",
+    "summary": "A pocket phone at the edge of the decade.",
+    "tags": [
+      "tech-toys",
+      "the-landline-negotiation",
+      "mall",
+      "online"
+    ],
+    "artifactIds": [
+      "nokia-3210"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "object-zip-drive",
+    "type": "objects",
+    "path": "/archive/objects/zip-drive/",
+    "title": "Iomega Zip 100 drive and disk",
+    "summary": "The project that would not fit on a floppy.",
+    "tags": [
+      "tech-toys",
+      "carrying-files-home",
+      "pc",
+      "software"
+    ],
+    "artifactIds": [
+      "zip-drive"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "object-floppy-disk",
+    "type": "objects",
+    "path": "/archive/objects/floppy-disk/",
+    "title": "A 3½-inch floppy disk",
+    "summary": "A label, a shutter, a little uncertainty.",
+    "tags": [
+      "tech-toys",
+      "carrying-files-home",
+      "pc",
+      "software"
+    ],
+    "artifactIds": [
+      "floppy-disk"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "object-memory-card",
+    "type": "objects",
+    "path": "/archive/objects/memory-card/",
+    "title": "PlayStation memory card",
+    "summary": "Progress became something you could carry.",
+    "tags": [
+      "games",
+      "the-demo-disc-evening",
+      "consoles",
+      "action"
+    ],
+    "artifactIds": [
+      "memory-card"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "object-game-shark",
+    "type": "objects",
+    "path": "/archive/objects/game-shark/",
+    "title": "GameShark for PlayStation",
+    "summary": "The rulebook had a hardware addendum.",
+    "tags": [
+      "games",
+      "the-demo-disc-evening",
+      "consoles",
+      "action"
+    ],
+    "artifactIds": [
+      "game-shark"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "object-webtv",
+    "type": "objects",
+    "path": "/archive/objects/webtv/",
+    "title": "The WebTV launch units",
+    "summary": "The browser tried another room.",
+    "tags": [
+      "tech-toys",
+      "webtv-on-the-sofa",
+      "online",
+      "design"
+    ],
+    "artifactIds": [
+      "webtv"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "object-quickcam",
+    "type": "objects",
+    "path": "/archive/objects/quickcam/",
+    "title": "Connectix QuickCam for Macintosh",
+    "summary": "A small eye beside the screen.",
+    "tags": [
+      "tech-toys",
+      "computer-lab-and-book-fair",
+      "catalogs",
+      "pc"
+    ],
+    "artifactIds": [
+      "quickcam"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "object-disposable-camera",
+    "type": "objects",
+    "path": "/archive/objects/disposable-camera/",
+    "title": "Fujifilm QuickSnap Flash",
+    "summary": "The picture was taken; the result came later.",
+    "tags": [
+      "culture",
+      "the-photo-lab-gap",
+      "mall",
+      "portable"
+    ],
+    "artifactIds": [
+      "disposable-camera"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "object-talkboy",
+    "type": "objects",
+    "path": "/archive/objects/talkboy/",
+    "title": "Deluxe Talkboy recorder",
+    "summary": "Playback made a voice into a toy.",
+    "tags": [
+      "culture",
+      "holiday-toys-that-answered-back",
+      "toys",
+      "mall"
+    ],
+    "artifactIds": [
+      "talkboy"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "object-beanie-baby",
+    "type": "objects",
+    "path": "/archive/objects/beanie-baby/",
+    "title": "A collection of Beanie Baby bears",
+    "summary": "The tag was part of the object.",
+    "tags": [
+      "culture",
+      "holiday-toys-that-answered-back",
+      "toys",
+      "mall"
+    ],
+    "artifactIds": [
+      "beanie-baby"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "object-pogs",
+    "type": "objects",
+    "path": "/archive/objects/pogs/",
+    "title": "A game of Pogs",
+    "summary": "The collection could become the game.",
+    "tags": [
+      "culture",
+      "holiday-toys-that-answered-back",
+      "toys",
+      "mall"
+    ],
+    "artifactIds": [
+      "pogs"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "object-super-soaker",
+    "type": "objects",
+    "path": "/archive/objects/super-soaker/",
+    "title": "CPS 2000 water blaster",
+    "summary": "The backyard became a design problem.",
+    "tags": [
+      "culture",
+      "holiday-toys-that-answered-back",
+      "toys",
+      "mall"
+    ],
+    "artifactIds": [
+      "super-soaker"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "object-walkman",
+    "type": "objects",
+    "path": "/archive/objects/walkman/",
+    "title": "Sony WM-FX151 cassette Walkman",
+    "summary": "A personal soundtrack, with a side break.",
+    "tags": [
+      "music",
+      "record-store-discovery",
+      "cd",
+      "mixtapes"
+    ],
+    "artifactIds": [
+      "walkman"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "object-tb-303",
+    "type": "objects",
+    "path": "/archive/objects/tb-303/",
+    "title": "Roland TB-303 Bass Line",
+    "summary": "A bass machine with an afterlife.",
+    "tags": [
+      "music",
+      "breakbeats-change-the-clock",
+      "rave",
+      "drum-and-bass"
+    ],
+    "artifactIds": [
+      "tb-303"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "object-mpc-2000",
+    "type": "objects",
+    "path": "/archive/objects/mpc-2000/",
+    "title": "Akai MPC2000",
+    "summary": "Pads turned a fragment into a performance.",
+    "tags": [
+      "music",
+      "sampling-a-record-collection",
+      "hip-hop",
+      "mixtapes"
+    ],
+    "artifactIds": [
+      "mpc-2000"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "object-mc-303",
+    "type": "objects",
+    "path": "/archive/objects/mc-303/",
+    "title": "Roland MC-303 Groovebox",
+    "summary": "Patterns in a single desktop instrument.",
+    "tags": [
+      "music",
+      "breakbeats-change-the-clock",
+      "rave",
+      "drum-and-bass"
+    ],
+    "artifactIds": [
+      "mc-303"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "object-technics-turntable",
+    "type": "objects",
+    "path": "/archive/objects/technics-turntable/",
+    "title": "Technics SL-1200MK2",
+    "summary": "The record player was also an instrument.",
+    "tags": [
+      "music",
+      "sampling-a-record-collection",
+      "hip-hop",
+      "mixtapes"
+    ],
+    "artifactIds": [
+      "technics-turntable"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "object-korg-m1",
+    "type": "objects",
+    "path": "/archive/objects/korg-m1/",
+    "title": "Korg M1 workstation",
+    "summary": "A keyboard carried more than one sound.",
+    "tags": [
+      "music",
+      "breakbeats-change-the-clock",
+      "rave",
+      "drum-and-bass"
+    ],
+    "artifactIds": [
+      "korg-m1"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "object-dat-recorder",
+    "type": "objects",
+    "path": "/archive/objects/dat-recorder/",
+    "title": "Sony TCD-D100 DAT recorder",
+    "summary": "Digital recording still needed a tape.",
+    "tags": [
+      "music",
+      "record-store-discovery",
+      "cd",
+      "mixtapes"
+    ],
+    "artifactIds": [
+      "dat-recorder"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "object-jewel-case",
+    "type": "objects",
+    "path": "/archive/objects/jewel-case/",
+    "title": "The CD jewel case",
+    "summary": "A small display cabinet for an album.",
+    "tags": [
+      "music",
+      "record-store-discovery",
+      "cd",
+      "mixtapes"
+    ],
+    "artifactIds": [
+      "jewel-case"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "object-dr-martens",
+    "type": "objects",
+    "path": "/archive/objects/dr-martens/",
+    "title": "Worn Dr. Martens 1460 boots",
+    "summary": "The sole remembered the route.",
+    "tags": [
+      "culture",
+      "grunge-from-rack-to-runway",
+      "fashion",
+      "grunge"
+    ],
+    "artifactIds": [
+      "dr-martens"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "object-vans-shoes",
+    "type": "objects",
+    "path": "/archive/objects/vans-shoes/",
+    "title": "Vans Old Skool shoes",
+    "summary": "The shoe had a job before the outfit.",
+    "tags": [
+      "culture",
+      "skate-rave-and-room-to-move",
+      "fashion",
+      "rave"
+    ],
+    "artifactIds": [
+      "vans-shoes"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "object-answering-machine",
+    "type": "objects",
+    "path": "/archive/objects/answering-machine/",
+    "title": "Panasonic cassette answering machine",
+    "summary": "The household had an audible inbox.",
+    "tags": [
+      "culture",
+      "the-landline-negotiation",
+      "mall",
+      "online"
+    ],
+    "artifactIds": [
+      "answering-machine"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "object-super-famicom",
+    "type": "objects",
+    "path": "/archive/objects/super-famicom/",
+    "title": "Nintendo Super Famicom",
+    "summary": "The same generation wore another case.",
+    "tags": [
+      "games",
+      "handhelds-and-batteries",
+      "handhelds",
+      "consoles"
+    ],
+    "artifactIds": [
+      "super-famicom"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "object-digital-camera",
+    "type": "objects",
+    "path": "/archive/objects/digital-camera/",
+    "title": "Casio QV-10",
+    "summary": "A photograph you could inspect immediately.",
+    "tags": [
+      "tech-toys",
+      "the-photo-lab-gap",
+      "mall",
+      "portable"
+    ],
+    "artifactIds": [
+      "digital-camera"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "object-powerbook",
+    "type": "objects",
+    "path": "/archive/objects/powerbook/",
+    "title": "Apple PowerBook 100",
+    "summary": "The computer began to travel differently.",
+    "tags": [
+      "tech-toys",
+      "carrying-files-home",
+      "pc",
+      "software"
+    ],
+    "artifactIds": [
+      "powerbook"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "object-newton",
+    "type": "objects",
+    "path": "/archive/objects/newton/",
+    "title": "Apple Newton MessagePad",
+    "summary": "A note could begin on a pocket screen.",
+    "tags": [
+      "tech-toys",
+      "carrying-files-home",
+      "pc",
+      "software"
+    ],
+    "artifactIds": [
+      "newton"
     ],
     "randomEligible": false
   }

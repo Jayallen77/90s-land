@@ -1,119 +1,119 @@
 {
   "baselineCommit": "38e931898fcfe120bad74699904fbf848dfe5933",
   "after": {
-    "total": 442,
+    "total": 635,
     "categories": {
-      "music": 18,
+      "music": 146,
       "movies-tv": 356,
-      "games": 17,
-      "tech": 25,
-      "culture": 20,
+      "games": 42,
+      "tech": 54,
+      "culture": 31,
       "news": 6
     },
     "themes": {
-      "music": 18,
+      "music": 146,
       "movies": 345,
       "television": 11,
-      "games": 17,
-      "technology": 19,
-      "internet": 6,
-      "culture": 4,
-      "fashion": 0,
+      "games": 42,
+      "technology": 41,
+      "internet": 13,
+      "culture": 5,
+      "fashion": 2,
       "news": 6,
       "sports": 15,
-      "toys": 1
+      "toys": 9
     },
     "years": {
       "1990": {
-        "total": 31,
+        "total": 48,
         "categories": {
-          "music": 1,
+          "music": 13,
           "movies-tv": 24,
-          "games": 1,
-          "tech": 3,
-          "culture": 0,
+          "games": 2,
+          "tech": 6,
+          "culture": 1,
           "news": 2
         },
         "themes": {
-          "music": 1,
+          "music": 13,
           "movies": 22,
           "television": 2,
-          "games": 1,
-          "technology": 3,
-          "internet": 0,
+          "games": 2,
+          "technology": 5,
+          "internet": 1,
           "culture": 0,
           "fashion": 0,
           "news": 2,
           "sports": 0,
-          "toys": 0
+          "toys": 1
         }
       },
       "1991": {
-        "total": 32,
+        "total": 51,
         "categories": {
-          "music": 3,
+          "music": 15,
           "movies-tv": 25,
-          "games": 2,
-          "tech": 1,
-          "culture": 1,
+          "games": 5,
+          "tech": 4,
+          "culture": 2,
           "news": 0
         },
         "themes": {
-          "music": 3,
+          "music": 15,
           "movies": 24,
           "television": 1,
-          "games": 2,
-          "technology": 0,
-          "internet": 1,
+          "games": 5,
+          "technology": 2,
+          "internet": 2,
           "culture": 0,
           "fashion": 0,
           "news": 0,
           "sports": 1,
-          "toys": 0
+          "toys": 1
         }
       },
       "1992": {
-        "total": 33,
+        "total": 52,
         "categories": {
-          "music": 2,
+          "music": 14,
           "movies-tv": 26,
-          "games": 1,
-          "tech": 1,
-          "culture": 3,
+          "games": 2,
+          "tech": 4,
+          "culture": 6,
           "news": 0
         },
         "themes": {
-          "music": 2,
+          "music": 14,
           "movies": 24,
           "television": 2,
-          "games": 1,
-          "technology": 1,
+          "games": 2,
+          "technology": 4,
           "internet": 0,
           "culture": 2,
-          "fashion": 0,
+          "fashion": 2,
           "news": 0,
           "sports": 1,
-          "toys": 0
+          "toys": 1
         }
       },
       "1993": {
-        "total": 33,
+        "total": 54,
         "categories": {
-          "music": 2,
+          "music": 14,
           "movies-tv": 26,
-          "games": 1,
-          "tech": 3,
-          "culture": 1,
+          "games": 5,
+          "tech": 7,
+          "culture": 2,
           "news": 0
         },
         "themes": {
-          "music": 2,
+          "music": 14,
           "movies": 24,
           "television": 2,
-          "games": 1,
-          "technology": 2,
+          "games": 5,
+          "technology": 6,
           "internet": 1,
-          "culture": 1,
+          "culture": 2,
           "fashion": 0,
           "news": 0,
           "sports": 0,
@@ -121,21 +121,21 @@
         }
       },
       "1994": {
-        "total": 29,
+        "total": 49,
         "categories": {
-          "music": 1,
+          "music": 13,
           "movies-tv": 23,
-          "games": 1,
-          "tech": 2,
+          "games": 7,
+          "tech": 4,
           "culture": 1,
           "news": 1
         },
         "themes": {
-          "music": 1,
+          "music": 13,
           "movies": 21,
           "television": 2,
-          "games": 1,
-          "technology": 1,
+          "games": 7,
+          "technology": 3,
           "internet": 1,
           "culture": 0,
           "fashion": 0,
@@ -145,22 +145,22 @@
         }
       },
       "1995": {
-        "total": 32,
+        "total": 52,
         "categories": {
-          "music": 1,
+          "music": 13,
           "movies-tv": 24,
-          "games": 1,
-          "tech": 4,
+          "games": 3,
+          "tech": 10,
           "culture": 2,
           "news": 0
         },
         "themes": {
-          "music": 1,
+          "music": 13,
           "movies": 24,
           "television": 0,
-          "games": 1,
-          "technology": 3,
-          "internet": 1,
+          "games": 3,
+          "technology": 7,
+          "internet": 3,
           "culture": 0,
           "fashion": 0,
           "news": 0,
@@ -169,99 +169,99 @@
         }
       },
       "1996": {
-        "total": 159,
+        "total": 188,
         "categories": {
-          "music": 2,
+          "music": 22,
           "movies-tv": 142,
-          "games": 4,
-          "tech": 5,
-          "culture": 6,
+          "games": 9,
+          "tech": 7,
+          "culture": 8,
           "news": 0
         },
         "themes": {
-          "music": 2,
+          "music": 22,
           "movies": 142,
           "television": 0,
-          "games": 4,
-          "technology": 4,
-          "internet": 1,
+          "games": 9,
+          "technology": 5,
+          "internet": 2,
           "culture": 0,
           "fashion": 0,
           "news": 0,
           "sports": 5,
-          "toys": 1
+          "toys": 3
         }
       },
       "1997": {
-        "total": 27,
+        "total": 43,
         "categories": {
-          "music": 2,
+          "music": 14,
           "movies-tv": 17,
-          "games": 1,
-          "tech": 2,
-          "culture": 4,
+          "games": 2,
+          "tech": 4,
+          "culture": 5,
           "news": 1
         },
         "themes": {
-          "music": 2,
+          "music": 14,
           "movies": 16,
           "television": 1,
-          "games": 1,
-          "technology": 2,
+          "games": 2,
+          "technology": 4,
           "internet": 0,
           "culture": 1,
           "fashion": 0,
           "news": 1,
           "sports": 3,
-          "toys": 0
+          "toys": 1
         }
       },
       "1998": {
-        "total": 33,
+        "total": 48,
         "categories": {
-          "music": 2,
+          "music": 14,
           "movies-tv": 24,
-          "games": 2,
-          "tech": 3,
-          "culture": 1,
+          "games": 3,
+          "tech": 4,
+          "culture": 2,
           "news": 1
         },
         "themes": {
-          "music": 2,
+          "music": 14,
           "movies": 24,
           "television": 0,
-          "games": 2,
-          "technology": 2,
+          "games": 3,
+          "technology": 3,
           "internet": 1,
           "culture": 0,
           "fashion": 0,
           "news": 1,
           "sports": 1,
-          "toys": 0
+          "toys": 1
         }
       },
       "1999": {
-        "total": 33,
+        "total": 50,
         "categories": {
-          "music": 2,
+          "music": 14,
           "movies-tv": 25,
-          "games": 3,
-          "tech": 1,
-          "culture": 1,
+          "games": 4,
+          "tech": 4,
+          "culture": 2,
           "news": 1
         },
         "themes": {
-          "music": 2,
+          "music": 14,
           "movies": 24,
           "television": 1,
-          "games": 3,
-          "technology": 1,
-          "internet": 0,
+          "games": 4,
+          "technology": 2,
+          "internet": 2,
           "culture": 0,
           "fashion": 0,
           "news": 1,
           "sports": 1,
-          "toys": 0
+          "toys": 1
         }
       }
     },
@@ -339,13 +339,13 @@
         }
       },
       "1990-04": {
-        "total": 5,
+        "total": 6,
         "categories": {
           "music": 0,
           "movies-tv": 3,
           "games": 0,
           "tech": 2,
-          "culture": 0,
+          "culture": 1,
           "news": 0
         },
         "themes": {
@@ -359,7 +359,7 @@
           "fashion": 0,
           "news": 0,
           "sports": 0,
-          "toys": 0
+          "toys": 1
         }
       },
       "1990-05": {
@@ -507,11 +507,11 @@
         }
       },
       "1990-11": {
-        "total": 3,
+        "total": 4,
         "categories": {
           "music": 0,
           "movies-tv": 2,
-          "games": 1,
+          "games": 2,
           "tech": 0,
           "culture": 0,
           "news": 0
@@ -520,7 +520,7 @@
           "music": 0,
           "movies": 2,
           "television": 0,
-          "games": 1,
+          "games": 2,
           "technology": 0,
           "internet": 0,
           "culture": 0,
@@ -675,13 +675,13 @@
         }
       },
       "1991-06": {
-        "total": 4,
+        "total": 5,
         "categories": {
           "music": 0,
           "movies-tv": 2,
           "games": 1,
           "tech": 0,
-          "culture": 1,
+          "culture": 2,
           "news": 0
         },
         "themes": {
@@ -695,15 +695,15 @@
           "fashion": 0,
           "news": 0,
           "sports": 1,
-          "toys": 0
+          "toys": 1
         }
       },
       "1991-07": {
-        "total": 2,
+        "total": 3,
         "categories": {
           "music": 0,
           "movies-tv": 2,
-          "games": 0,
+          "games": 1,
           "tech": 0,
           "culture": 0,
           "news": 0
@@ -712,7 +712,7 @@
           "music": 0,
           "movies": 2,
           "television": 0,
-          "games": 0,
+          "games": 1,
           "technology": 0,
           "internet": 0,
           "culture": 0,
@@ -771,11 +771,11 @@
         }
       },
       "1991-10": {
-        "total": 2,
+        "total": 3,
         "categories": {
           "music": 0,
           "movies-tv": 2,
-          "games": 0,
+          "games": 1,
           "tech": 0,
           "culture": 0,
           "news": 0
@@ -784,7 +784,7 @@
           "music": 0,
           "movies": 2,
           "television": 0,
-          "games": 0,
+          "games": 1,
           "technology": 0,
           "internet": 0,
           "culture": 0,
@@ -819,11 +819,11 @@
         }
       },
       "1991-12": {
-        "total": 2,
+        "total": 3,
         "categories": {
           "music": 0,
           "movies-tv": 2,
-          "games": 0,
+          "games": 1,
           "tech": 0,
           "culture": 0,
           "news": 0
@@ -832,7 +832,7 @@
           "music": 0,
           "movies": 2,
           "television": 0,
-          "games": 0,
+          "games": 1,
           "technology": 0,
           "internet": 0,
           "culture": 0,
@@ -867,11 +867,11 @@
         }
       },
       "1992-02": {
-        "total": 2,
+        "total": 3,
         "categories": {
           "music": 0,
           "movies-tv": 2,
-          "games": 0,
+          "games": 1,
           "tech": 0,
           "culture": 0,
           "news": 0
@@ -880,7 +880,7 @@
           "music": 0,
           "movies": 2,
           "television": 0,
-          "games": 0,
+          "games": 1,
           "technology": 0,
           "internet": 0,
           "culture": 0,
@@ -987,13 +987,13 @@
         }
       },
       "1992-07": {
-        "total": 3,
+        "total": 4,
         "categories": {
           "music": 0,
           "movies-tv": 2,
           "games": 0,
           "tech": 0,
-          "culture": 1,
+          "culture": 2,
           "news": 0
         },
         "themes": {
@@ -1007,7 +1007,7 @@
           "fashion": 0,
           "news": 0,
           "sports": 1,
-          "toys": 0
+          "toys": 1
         }
       },
       "1992-08": {
@@ -1155,11 +1155,11 @@
         }
       },
       "1993-02": {
-        "total": 2,
+        "total": 3,
         "categories": {
           "music": 0,
           "movies-tv": 2,
-          "games": 0,
+          "games": 1,
           "tech": 0,
           "culture": 0,
           "news": 0
@@ -1168,7 +1168,7 @@
           "music": 0,
           "movies": 2,
           "television": 0,
-          "games": 0,
+          "games": 1,
           "technology": 0,
           "internet": 0,
           "culture": 0,
@@ -1299,11 +1299,11 @@
         }
       },
       "1993-08": {
-        "total": 2,
+        "total": 3,
         "categories": {
           "music": 0,
           "movies-tv": 2,
-          "games": 0,
+          "games": 1,
           "tech": 0,
           "culture": 0,
           "news": 0
@@ -1312,7 +1312,7 @@
           "music": 0,
           "movies": 2,
           "television": 0,
-          "games": 0,
+          "games": 1,
           "technology": 0,
           "internet": 0,
           "culture": 0,
@@ -1395,11 +1395,11 @@
         }
       },
       "1993-12": {
-        "total": 4,
+        "total": 5,
         "categories": {
           "music": 0,
           "movies-tv": 2,
-          "games": 1,
+          "games": 2,
           "tech": 1,
           "culture": 0,
           "news": 0
@@ -1408,7 +1408,7 @@
           "music": 0,
           "movies": 2,
           "television": 0,
-          "games": 1,
+          "games": 2,
           "technology": 1,
           "internet": 0,
           "culture": 0,
@@ -1419,11 +1419,11 @@
         }
       },
       "1994-01": {
-        "total": 2,
+        "total": 3,
         "categories": {
           "music": 0,
           "movies-tv": 2,
-          "games": 0,
+          "games": 1,
           "tech": 0,
           "culture": 0,
           "news": 0
@@ -1432,7 +1432,7 @@
           "music": 0,
           "movies": 2,
           "television": 0,
-          "games": 0,
+          "games": 1,
           "technology": 0,
           "internet": 0,
           "culture": 0,
@@ -1467,11 +1467,11 @@
         }
       },
       "1994-03": {
-        "total": 2,
+        "total": 3,
         "categories": {
           "music": 0,
           "movies-tv": 2,
-          "games": 0,
+          "games": 1,
           "tech": 0,
           "culture": 0,
           "news": 0
@@ -1480,7 +1480,7 @@
           "music": 0,
           "movies": 2,
           "television": 0,
-          "games": 0,
+          "games": 1,
           "technology": 0,
           "internet": 0,
           "culture": 0,
@@ -1491,11 +1491,11 @@
         }
       },
       "1994-04": {
-        "total": 3,
+        "total": 4,
         "categories": {
           "music": 0,
           "movies-tv": 2,
-          "games": 0,
+          "games": 1,
           "tech": 0,
           "culture": 0,
           "news": 1
@@ -1504,7 +1504,7 @@
           "music": 0,
           "movies": 2,
           "television": 0,
-          "games": 0,
+          "games": 1,
           "technology": 0,
           "internet": 0,
           "culture": 0,
@@ -1539,11 +1539,11 @@
         }
       },
       "1994-06": {
-        "total": 2,
+        "total": 3,
         "categories": {
           "music": 0,
           "movies-tv": 2,
-          "games": 0,
+          "games": 1,
           "tech": 0,
           "culture": 0,
           "news": 0
@@ -1552,7 +1552,7 @@
           "music": 0,
           "movies": 2,
           "television": 0,
-          "games": 0,
+          "games": 1,
           "technology": 0,
           "internet": 0,
           "culture": 0,
@@ -1659,11 +1659,11 @@
         }
       },
       "1994-11": {
-        "total": 1,
+        "total": 3,
         "categories": {
           "music": 0,
           "movies-tv": 1,
-          "games": 0,
+          "games": 2,
           "tech": 0,
           "culture": 0,
           "news": 0
@@ -1672,7 +1672,7 @@
           "music": 0,
           "movies": 1,
           "television": 0,
-          "games": 0,
+          "games": 2,
           "technology": 0,
           "internet": 0,
           "culture": 0,
@@ -1755,12 +1755,12 @@
         }
       },
       "1995-03": {
-        "total": 3,
+        "total": 4,
         "categories": {
           "music": 0,
           "movies-tv": 2,
           "games": 0,
-          "tech": 0,
+          "tech": 1,
           "culture": 1,
           "news": 0
         },
@@ -1769,7 +1769,7 @@
           "movies": 2,
           "television": 0,
           "games": 0,
-          "technology": 0,
+          "technology": 1,
           "internet": 0,
           "culture": 0,
           "fashion": 0,
@@ -1875,11 +1875,11 @@
         }
       },
       "1995-08": {
-        "total": 3,
+        "total": 4,
         "categories": {
           "music": 0,
           "movies-tv": 2,
-          "games": 0,
+          "games": 1,
           "tech": 1,
           "culture": 0,
           "news": 0
@@ -1888,7 +1888,7 @@
           "music": 0,
           "movies": 2,
           "television": 0,
-          "games": 0,
+          "games": 1,
           "technology": 1,
           "internet": 0,
           "culture": 0,
@@ -1923,11 +1923,11 @@
         }
       },
       "1995-10": {
-        "total": 2,
+        "total": 3,
         "categories": {
           "music": 0,
           "movies-tv": 2,
-          "games": 0,
+          "games": 1,
           "tech": 0,
           "culture": 0,
           "news": 0
@@ -1936,7 +1936,7 @@
           "music": 0,
           "movies": 2,
           "television": 0,
-          "games": 0,
+          "games": 1,
           "technology": 0,
           "internet": 0,
           "culture": 0,
@@ -2019,13 +2019,13 @@
         }
       },
       "1996-02": {
-        "total": 13,
+        "total": 14,
         "categories": {
           "music": 0,
           "movies-tv": 12,
           "games": 1,
           "tech": 0,
-          "culture": 0,
+          "culture": 1,
           "news": 0
         },
         "themes": {
@@ -2039,15 +2039,15 @@
           "fashion": 0,
           "news": 0,
           "sports": 0,
-          "toys": 0
+          "toys": 1
         }
       },
       "1996-03": {
-        "total": 14,
+        "total": 16,
         "categories": {
           "music": 0,
           "movies-tv": 14,
-          "games": 0,
+          "games": 2,
           "tech": 0,
           "culture": 0,
           "news": 0
@@ -2056,7 +2056,7 @@
           "music": 0,
           "movies": 14,
           "television": 0,
-          "games": 0,
+          "games": 2,
           "technology": 0,
           "internet": 0,
           "culture": 0,
@@ -2067,13 +2067,13 @@
         }
       },
       "1996-04": {
-        "total": 12,
+        "total": 13,
         "categories": {
           "music": 0,
           "movies-tv": 12,
           "games": 0,
           "tech": 0,
-          "culture": 0,
+          "culture": 1,
           "news": 0
         },
         "themes": {
@@ -2087,7 +2087,7 @@
           "fashion": 0,
           "news": 0,
           "sports": 0,
-          "toys": 0
+          "toys": 1
         }
       },
       "1996-05": {
@@ -2211,22 +2211,22 @@
         }
       },
       "1996-10": {
-        "total": 12,
+        "total": 18,
         "categories": {
-          "music": 0,
+          "music": 5,
           "movies-tv": 12,
           "games": 0,
-          "tech": 0,
+          "tech": 1,
           "culture": 0,
           "news": 0
         },
         "themes": {
-          "music": 0,
+          "music": 5,
           "movies": 12,
           "television": 0,
           "games": 0,
           "technology": 0,
-          "internet": 0,
+          "internet": 1,
           "culture": 0,
           "fashion": 0,
           "news": 0,
@@ -2235,9 +2235,9 @@
         }
       },
       "1996-11": {
-        "total": 15,
+        "total": 18,
         "categories": {
-          "music": 0,
+          "music": 3,
           "movies-tv": 14,
           "games": 0,
           "tech": 0,
@@ -2245,7 +2245,7 @@
           "news": 0
         },
         "themes": {
-          "music": 0,
+          "music": 3,
           "movies": 14,
           "television": 0,
           "games": 0,
@@ -2259,11 +2259,11 @@
         }
       },
       "1996-12": {
-        "total": 13,
+        "total": 14,
         "categories": {
           "music": 0,
           "movies-tv": 12,
-          "games": 0,
+          "games": 1,
           "tech": 0,
           "culture": 1,
           "news": 0
@@ -2272,7 +2272,7 @@
           "music": 0,
           "movies": 12,
           "television": 0,
-          "games": 0,
+          "games": 1,
           "technology": 0,
           "internet": 0,
           "culture": 0,
@@ -2475,13 +2475,13 @@
         }
       },
       "1997-09": {
-        "total": 1,
+        "total": 2,
         "categories": {
           "music": 0,
           "movies-tv": 1,
           "games": 0,
           "tech": 0,
-          "culture": 0,
+          "culture": 1,
           "news": 0
         },
         "themes": {
@@ -2495,7 +2495,7 @@
           "fashion": 0,
           "news": 0,
           "sports": 0,
-          "toys": 0
+          "toys": 1
         }
       },
       "1997-10": {
@@ -2619,11 +2619,11 @@
         }
       },
       "1998-03": {
-        "total": 2,
+        "total": 3,
         "categories": {
           "music": 0,
           "movies-tv": 2,
-          "games": 0,
+          "games": 1,
           "tech": 0,
           "culture": 0,
           "news": 0
@@ -2632,7 +2632,7 @@
           "music": 0,
           "movies": 2,
           "television": 0,
-          "games": 0,
+          "games": 1,
           "technology": 0,
           "internet": 0,
           "culture": 0,
@@ -6602,10 +6602,13 @@
     }
   ],
   "fashionContext": {
-    "datedEvents": 0,
+    "datedEvents": 2,
     "storyIds": [
       "clothes-with-a-soundtrack",
-      "the-catalog-on-your-bedroom-floor"
+      "the-catalog-on-your-bedroom-floor",
+      "grunge-from-rack-to-runway",
+      "streetwear-the-logo-and-the-voice",
+      "skate-rave-and-room-to-move"
     ],
     "note": "Fashion is explored through sourced stories and the lookbook. No exact launch day was invented for an era-wide style."
   },

@@ -14,7 +14,9 @@ class LaunchPolishTests(unittest.TestCase):
         self.assertEqual(assess()['errors'],[])
     def test_shuffle_only_contains_rich_published_destinations(self):
         rows=discovery.surprise_pool();paths={r['path'] for r in archive.all_routes()}
-        self.assertEqual(len(rows),180)
+        self.assertGreaterEqual(len(rows),180)
+        self.assertEqual({r['id'].removeprefix('story-') for r in rows if r['kind']=='story'},{s['id'] for s in archive.STORIES})
+        self.assertEqual({r['id'] for r in rows if r['kind']=='object'},{a['id'] for a in archive.ARTIFACTS if a['randomEligible'] and a['status']!='needs-source'})
         self.assertEqual(len({r['id'] for r in rows}),len(rows))
         self.assertEqual({r['kind'] for r in rows},set(discovery.KINDS))
         self.assertTrue(all(r['target'] in paths and r['teaser'] for r in rows))

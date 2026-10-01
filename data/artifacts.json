@@ -1267,5 +1267,2138 @@
       "transparent",
       "controller"
     ]
+  },
+  {
+    "id": "snes",
+    "slug": "snes",
+    "title": "Super Nintendo, North American edition",
+    "dateRange": {
+      "startYear": 1991,
+      "endYear": 1999,
+      "label": "1991–1999 · era of use"
+    },
+    "room": "games",
+    "label": "A console with room for a whole library.",
+    "curatorNote": "A console with room for a whole library.",
+    "whyItMattered": "A cartridge on the shelf was a small commitment. It could be borrowed, rented, traded or kept for years, with the same controller waiting beside the television. The machine connects a library of platform games, racing games and long role-playing adventures to one familiar place in the house. Follow the Japanese release records to see how that library developed before every territory received the same titles.",
+    "sections": [
+      {
+        "heading": "What is on display",
+        "paragraphs": [
+          "Nintendo brought the Super Nintendo Entertainment System to North America in 1991. Its wide cartridge slot and purple controls distinguish this case from the Japanese Super Famicom. The photograph shows that original North American design, rather than the smaller later revision. Region matters here: related game dates are explicitly labelled when they refer to Japan."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "new-photo-snes",
+      "new-sony-history"
+    ],
+    "media": {
+      "kind": "image",
+      "src": "/assets/media/expansion/snes.jpg",
+      "alt": "Super Nintendo, North American edition. Later object photograph; see the display note for model and era.",
+      "width": 960,
+      "height": 707,
+      "credit": "Evan-Amos",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nintendo-Super-NES-Console-FL.jpg",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "reviewedAt": "2026-10-01"
+    },
+    "relatedYears": [
+      1991,
+      1992,
+      1993,
+      1994,
+      1995,
+      1996,
+      1997,
+      1998,
+      1999
+    ],
+    "relatedArtifacts": [
+      "playstation-hardware",
+      "memory-card",
+      "jewel-case"
+    ],
+    "relatedRoutes": [
+      "/stories/the-demo-disc-evening/",
+      "/zones/games/"
+    ],
+    "target": "/zones/games/",
+    "interaction": null,
+    "status": "verified",
+    "randomEligible": true,
+    "tags": [
+      "games",
+      "the-demo-disc-evening",
+      "consoles",
+      "action"
+    ]
+  },
+  {
+    "id": "game-gear",
+    "slug": "game-gear",
+    "title": "Sega Game Gear",
+    "dateRange": {
+      "startYear": 1990,
+      "endYear": 1999,
+      "label": "1990–1999 · era of use"
+    },
+    "room": "games",
+    "label": "Color gaming with a battery budget.",
+    "curatorNote": "Color gaming with a battery budget.",
+    "whyItMattered": "Portability was a negotiation between the game, the screen and the next set of batteries. A car trip could turn into a search for fresh cells or a power adapter. Game Gear belongs in a collection of handheld compromises, rather than a simple contest in which the most colorful screen automatically wins. Compare it with Game Boy Color to see how the decade returned to that same problem under different conditions.",
+    "sections": [
+      {
+        "heading": "What is on display",
+        "paragraphs": [
+          "Sega introduced Game Gear in Japan in October 1990; other markets followed. The color screen made it a visibly different proposition from Nintendo’s monochrome Game Boy. Its landscape body put buttons on either side of the display, so holding the machine already resembled a miniature home-console arrangement."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "new-photo-game-gear",
+      "nintendo-world",
+      "nintendo-us"
+    ],
+    "media": {
+      "kind": "image",
+      "src": "/assets/media/expansion/game-gear.jpg",
+      "alt": "Sega Game Gear. Later object photograph; see the display note for model and era.",
+      "width": 960,
+      "height": 643,
+      "credit": "Evan-Amos",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Game-Gear-Handheld.jpg",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "reviewedAt": "2026-10-01"
+    },
+    "relatedYears": [
+      1990,
+      1991,
+      1992,
+      1993,
+      1994,
+      1995,
+      1996,
+      1997,
+      1998,
+      1999
+    ],
+    "relatedArtifacts": [
+      "game-boy-color",
+      "snes"
+    ],
+    "relatedRoutes": [
+      "/stories/handhelds-and-batteries/",
+      "/zones/games/"
+    ],
+    "target": "/zones/games/",
+    "interaction": null,
+    "status": "verified",
+    "randomEligible": true,
+    "tags": [
+      "games",
+      "handhelds-and-batteries",
+      "handhelds",
+      "consoles"
+    ]
+  },
+  {
+    "id": "saturn",
+    "slug": "saturn",
+    "title": "Sega Saturn, first US case",
+    "dateRange": {
+      "startYear": 1995,
+      "endYear": 1999,
+      "label": "1995–1999 · era of use"
+    },
+    "room": "games",
+    "label": "Another future arrived on a disc.",
+    "curatorNote": "Another future arrived on a disc.",
+    "whyItMattered": "The machine makes the middle of the decade feel less like a tidy march toward one winning console. Publishers, arcade conversions, display technologies and release schedules were pulling in several directions. A Saturn library rewards attention to territory and format. Put it beside PlayStation and the demo-disc story to explore a period when a disc could carry a game, a sampler or a promise about what came next.",
+    "sections": [
+      {
+        "heading": "What is on display",
+        "paragraphs": [
+          "The Saturn sits between Sega’s cartridge-console era and Dreamcast. This photograph shows an early US case, with a separate controller and optical-disc drive. Sega’s company history places the Japanese launch in November 1994, before the US release. Hardware pictures from another territory can look surprisingly different even when the system name is the same."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "new-photo-saturn",
+      "new-sony-history"
+    ],
+    "media": {
+      "kind": "image",
+      "src": "/assets/media/expansion/saturn.jpg",
+      "alt": "Sega Saturn, first US case. Later object photograph; see the display note for model and era.",
+      "width": 960,
+      "height": 531,
+      "credit": "Evan-Amos",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sega-Saturn-Console-Set-Mk1.png",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "reviewedAt": "2026-10-01"
+    },
+    "relatedYears": [
+      1995,
+      1996,
+      1997,
+      1998,
+      1999
+    ],
+    "relatedArtifacts": [
+      "playstation-hardware",
+      "memory-card",
+      "jewel-case"
+    ],
+    "relatedRoutes": [
+      "/stories/the-demo-disc-evening/",
+      "/zones/games/"
+    ],
+    "target": "/zones/games/",
+    "interaction": null,
+    "status": "verified",
+    "randomEligible": true,
+    "tags": [
+      "games",
+      "the-demo-disc-evening",
+      "consoles",
+      "action"
+    ]
+  },
+  {
+    "id": "minidisc",
+    "slug": "minidisc",
+    "title": "Sony MZ-1 and a MiniDisc",
+    "dateRange": {
+      "startYear": 1992,
+      "endYear": 1999,
+      "label": "1992–1999 · era of use"
+    },
+    "room": "music",
+    "label": "A recording tucked inside a protective shell.",
+    "curatorNote": "A recording tucked inside a protective shell.",
+    "whyItMattered": "MiniDisc offered a different relationship with a personal music collection. Recording and organizing tracks could happen on a dedicated machine, without turning every listening session into a computer session. It was neither a cassette with a nicer shell nor simply a shrunken CD. Open the related story for the practical appeal of editing a portable recording, and the limits of a format that coexisted with several other ways to carry music.",
+    "sections": [
+      {
+        "heading": "What is on display",
+        "paragraphs": [
+          "Sony’s history dates the introduction of MiniDisc to 1992. The MZ-1 pictured here is an early portable recorder, shown with the small cartridge that enclosed its disc. That enclosure is central to the object: a surface that would be exposed on a CD could travel inside a case you handled directly."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "new-photo-minidisc",
+      "sony-digital",
+      "sony-audio"
+    ],
+    "media": {
+      "kind": "image",
+      "src": "/assets/media/expansion/minidisc.jpg",
+      "alt": "Sony MZ-1 and a MiniDisc. Later object photograph; see the display note for model and era.",
+      "width": 960,
+      "height": 695,
+      "credit": "Nixdorf",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sony_MZ-1_and_a_disc_20040221.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "reviewedAt": "2026-10-01"
+    },
+    "relatedYears": [
+      1992,
+      1993,
+      1994,
+      1995,
+      1996,
+      1997,
+      1998,
+      1999
+    ],
+    "relatedArtifacts": [
+      "cassette",
+      "discman"
+    ],
+    "relatedRoutes": [
+      "/stories/minidisc-small-door/",
+      "/zones/music/"
+    ],
+    "target": "/zones/music/",
+    "interaction": null,
+    "status": "verified",
+    "randomEligible": true,
+    "tags": [
+      "music",
+      "minidisc-small-door",
+      "portable",
+      "cd"
+    ]
+  },
+  {
+    "id": "palm-pilot",
+    "slug": "palm-pilot",
+    "title": "PalmPilot Professional",
+    "dateRange": {
+      "startYear": 1997,
+      "endYear": 1999,
+      "label": "1997–1999 · era of use"
+    },
+    "room": "tech-toys",
+    "label": "The calendar could leave the desk.",
+    "curatorNote": "The calendar could leave the desk.",
+    "whyItMattered": "A pocket organizer made appointments and contact details available away from the computer, while synchronization kept the desktop involved. The stylus implied a different kind of attention from a keyboard: choose a field, make a short entry, retrieve a number. It is an ancestor of several familiar phone habits, but also a reminder that calendars, calling and getting online could still live on separate devices. Compare it with the pager and Nokia phone.",
+    "sections": [
+      {
+        "heading": "What is on display",
+        "paragraphs": [
+          "This is the PalmPilot Professional, a late-decade organizer with a stylus and monochrome display. It should not be mistaken for the earlier original Pilot or a later color Palm. The Computer History Museum records the first PalmPilot generation in 1996; the model pictured belongs to the following wave."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "new-photo-palm-pilot",
+      "new-chm-1994",
+      "new-chm-1997"
+    ],
+    "media": {
+      "kind": "image",
+      "src": "/assets/media/expansion/palm-pilot.jpg",
+      "alt": "PalmPilot Professional. Later object photograph; see the display note for model and era.",
+      "width": 960,
+      "height": 1195,
+      "credit": "Letdorf",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:PalmPilot_Professional.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "reviewedAt": "2026-10-01"
+    },
+    "relatedYears": [
+      1997,
+      1998,
+      1999
+    ],
+    "relatedArtifacts": [
+      "zip-drive",
+      "floppy-disk",
+      "cdr-spindle"
+    ],
+    "relatedRoutes": [
+      "/stories/carrying-files-home/",
+      "/zones/tech-toys/"
+    ],
+    "target": "/zones/tech-toys/",
+    "interaction": null,
+    "status": "verified",
+    "randomEligible": true,
+    "tags": [
+      "tech-toys",
+      "carrying-files-home",
+      "pc",
+      "software"
+    ]
+  },
+  {
+    "id": "nokia-3210",
+    "slug": "nokia-3210",
+    "title": "Nokia 3210",
+    "dateRange": {
+      "startYear": 1999,
+      "endYear": 1999,
+      "label": "1999–1999 · era of use"
+    },
+    "room": "tech-toys",
+    "label": "A pocket phone at the edge of the decade.",
+    "curatorNote": "A pocket phone at the edge of the decade.",
+    "whyItMattered": "Calling somebody was becoming less dependent on reaching the right household telephone. Text entry still took work on a small keypad, and a phone was a distinct object rather than a replacement for an entire bag of devices. Beside an answering machine, the handset reveals a shift in whom a number reached: a shared place increasingly gave way to a particular person. The landline story follows the social arrangements that this shift gradually disturbed.",
+    "sections": [
+      {
+        "heading": "What is on display",
+        "paragraphs": [
+          "The Nokia 3210 is a 1999 handset, identifiable by its compact body, monochrome screen and numbered keypad. The photograph is a later record of the physical object, rather than a scene taken in a 1990s shop. Its model name matters: a photograph of a similar Nokia from the following decade would tell a different history."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "new-photo-nokia-3210",
+      "chm-net",
+      "new-aol-flat"
+    ],
+    "media": {
+      "kind": "image",
+      "src": "/assets/media/expansion/nokia-3210.jpg",
+      "alt": "Nokia 3210. Later object photograph; see the display note for model and era.",
+      "width": 960,
+      "height": 2360,
+      "credit": "Michael Brandtner",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nokia_3210_3.jpg",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "reviewedAt": "2026-10-01"
+    },
+    "relatedYears": [
+      1999
+    ],
+    "relatedArtifacts": [
+      "answering-machine",
+      "pager",
+      "family-pc"
+    ],
+    "relatedRoutes": [
+      "/stories/the-landline-negotiation/",
+      "/zones/tech-toys/"
+    ],
+    "target": "/zones/tech-toys/",
+    "interaction": null,
+    "status": "verified",
+    "randomEligible": true,
+    "tags": [
+      "tech-toys",
+      "the-landline-negotiation",
+      "mall",
+      "online"
+    ]
+  },
+  {
+    "id": "zip-drive",
+    "slug": "zip-drive",
+    "title": "Iomega Zip 100 drive and disk",
+    "dateRange": {
+      "startYear": 1995,
+      "endYear": 1999,
+      "label": "1995–1999 · era of use"
+    },
+    "room": "tech-toys",
+    "label": "The project that would not fit on a floppy.",
+    "curatorNote": "The project that would not fit on a floppy.",
+    "whyItMattered": "A large project could travel between home, school and work, but successful arrival depended on connectors, drivers and hardware waiting at the other end. Zip belongs to the story of moving files through physical space. It sits between the familiar floppy and later habits of sending a link. The related feature follows the practical question behind every storage format: can the person receiving this actually open it?",
+    "sections": [
+      {
+        "heading": "What is on display",
+        "paragraphs": [
+          "The thick blue disk and external drive show Iomega’s Zip 100 format. The pictured pairing is important: owning a disk did not help at a destination without a compatible drive. Public histories disagree about the boundary between announcement and availability, so this display describes mid-decade use rather than assigning an unsupported retail day."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "new-photo-zip-drive",
+      "new-chm-1994",
+      "new-chm-1997"
+    ],
+    "media": {
+      "kind": "image",
+      "src": "/assets/media/expansion/zip-drive.jpg",
+      "alt": "Iomega Zip 100 drive and disk. Later object photograph; see the display note for model and era.",
+      "width": 960,
+      "height": 640,
+      "credit": "Yuri Litvinenko / 30pin",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Iomega_Zip_100_drive_with_a_disk.jpg",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "reviewedAt": "2026-10-01"
+    },
+    "relatedYears": [
+      1995,
+      1996,
+      1997,
+      1998,
+      1999
+    ],
+    "relatedArtifacts": [
+      "floppy-disk",
+      "cdr-spindle"
+    ],
+    "relatedRoutes": [
+      "/stories/carrying-files-home/",
+      "/zones/tech-toys/"
+    ],
+    "target": "/zones/tech-toys/",
+    "interaction": null,
+    "status": "verified",
+    "randomEligible": true,
+    "tags": [
+      "tech-toys",
+      "carrying-files-home",
+      "pc",
+      "software"
+    ]
+  },
+  {
+    "id": "floppy-disk",
+    "slug": "floppy-disk",
+    "title": "A 3½-inch floppy disk",
+    "dateRange": {
+      "startYear": 1990,
+      "endYear": 1999,
+      "label": "1990–1999 · era of use"
+    },
+    "room": "tech-toys",
+    "label": "A label, a shutter, a little uncertainty.",
+    "curatorNote": "A label, a shutter, a little uncertainty.",
+    "whyItMattered": "Homework, documents and small utilities could move from one machine to another in a pocket. The handwritten label carried information the computer could not infer: whose disk it was, which assignment it held and whether the file was the latest version. Storage was tangible enough to lose under a stack of papers. Compare this disk with Zip and CD-R, and follow the story of a project whose journey was only finished when another computer could read it.",
+    "sections": [
+      {
+        "heading": "What is on display",
+        "paragraphs": [
+          "A rigid plastic shell protects the flexible magnetic medium inside this floppy disk. The format predates the 1990s and remained part of the decade’s everyday computer work. This later object photograph shows the metal shutter and paper-label area; it is not presented as evidence of a particular 1990s purchase."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "new-photo-floppy-disk",
+      "new-chm-1994",
+      "new-chm-1997"
+    ],
+    "media": {
+      "kind": "image",
+      "src": "/assets/media/expansion/floppy-disk.jpg",
+      "alt": "A 3½-inch floppy disk. Later object photograph; see the display note for model and era.",
+      "width": 815,
+      "height": 839,
+      "credit": "Peter Astbury",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Samsung_3.5_inch_floppy_disk_20110519.jpg",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "reviewedAt": "2026-10-01"
+    },
+    "relatedYears": [
+      1990,
+      1991,
+      1992,
+      1993,
+      1994,
+      1995,
+      1996,
+      1997,
+      1998,
+      1999
+    ],
+    "relatedArtifacts": [
+      "zip-drive",
+      "cdr-spindle"
+    ],
+    "relatedRoutes": [
+      "/stories/carrying-files-home/",
+      "/zones/tech-toys/"
+    ],
+    "target": "/zones/tech-toys/",
+    "interaction": null,
+    "status": "verified",
+    "randomEligible": true,
+    "tags": [
+      "tech-toys",
+      "carrying-files-home",
+      "pc",
+      "software"
+    ]
+  },
+  {
+    "id": "memory-card",
+    "slug": "memory-card",
+    "title": "PlayStation memory card",
+    "dateRange": {
+      "startYear": 1994,
+      "endYear": 1999,
+      "label": "1994–1999 · era of use"
+    },
+    "room": "games",
+    "label": "Progress became something you could carry.",
+    "curatorNote": "Progress became something you could carry.",
+    "whyItMattered": "A borrowed game and a borrowed save were different transactions. The card could preserve a season, a campaign or the point before a difficult encounter, then go to another console in a bag. Space had to be managed, and deleting a save could have consequences far beyond clearing a menu. Put the card next to the controller and demo-disc feature: together they show a machine becoming a personal collection rather than an interchangeable player for discs.",
+    "sections": [
+      {
+        "heading": "What is on display",
+        "paragraphs": [
+          "A PlayStation memory card made saving a game a separate physical task. It occupied a slot on the console instead of living in a game disc. The photographed card belongs to the original PlayStation family, not PlayStation 2 or Vita; the names and connectors distinguish those objects."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "new-photo-memory-card",
+      "new-sony-history"
+    ],
+    "media": {
+      "kind": "image",
+      "src": "/assets/media/expansion/memory-card.jpg",
+      "alt": "PlayStation memory card. Later object photograph; see the display note for model and era.",
+      "width": 960,
+      "height": 726,
+      "credit": "Evan-Amos",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:PSX-Memory-Card.jpg",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "reviewedAt": "2026-10-01"
+    },
+    "relatedYears": [
+      1994,
+      1995,
+      1996,
+      1997,
+      1998,
+      1999
+    ],
+    "relatedArtifacts": [
+      "playstation-hardware",
+      "jewel-case"
+    ],
+    "relatedRoutes": [
+      "/stories/the-demo-disc-evening/",
+      "/zones/games/"
+    ],
+    "target": "/zones/games/",
+    "interaction": null,
+    "status": "verified",
+    "randomEligible": true,
+    "tags": [
+      "games",
+      "the-demo-disc-evening",
+      "consoles",
+      "action"
+    ]
+  },
+  {
+    "id": "game-shark",
+    "slug": "game-shark",
+    "title": "GameShark for PlayStation",
+    "dateRange": {
+      "startYear": 1990,
+      "endYear": 1999,
+      "label": "1990–1999 · era of use"
+    },
+    "room": "games",
+    "label": "The rulebook had a hardware addendum.",
+    "curatorNote": "The rulebook had a hardware addendum.",
+    "whyItMattered": "The device belongs beside printed cheat pages, copied notes and conversations about hidden modes. It made modifying a game feel like another object you could buy and plug in. Unlimited resources could remove frustration, but they could also dismantle the pacing a game was built around. A museum label should preserve both possibilities. Follow the demo-disc story for another route through the same culture of trying, experimenting and discovering more than the box described.",
+    "sections": [
+      {
+        "heading": "What is on display",
+        "paragraphs": [
+          "This GameShark is a physical accessory for the original PlayStation. Such devices exposed ways to alter game behavior through codes, with compatibility tied to particular hardware and software versions. The photograph establishes the accessory and platform; this collection does not assign a launch day or promise that any listed code works on every release."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "new-photo-game-shark",
+      "new-sony-history"
+    ],
+    "media": {
+      "kind": "image",
+      "src": "/assets/media/expansion/game-shark.jpg",
+      "alt": "GameShark for PlayStation. Later object photograph; see the display note for model and era.",
+      "width": 640,
+      "height": 480,
+      "credit": "Binhow2010",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Game_Shark_PlayStation_1.JPG",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "reviewedAt": "2026-10-01"
+    },
+    "relatedYears": [
+      1990,
+      1991,
+      1992,
+      1993,
+      1994,
+      1995,
+      1996,
+      1997,
+      1998,
+      1999
+    ],
+    "relatedArtifacts": [
+      "playstation-hardware",
+      "memory-card",
+      "jewel-case"
+    ],
+    "relatedRoutes": [
+      "/stories/the-demo-disc-evening/",
+      "/zones/games/"
+    ],
+    "target": "/zones/games/",
+    "interaction": null,
+    "status": "verified",
+    "randomEligible": true,
+    "tags": [
+      "games",
+      "the-demo-disc-evening",
+      "consoles",
+      "action"
+    ]
+  },
+  {
+    "id": "webtv",
+    "slug": "webtv",
+    "title": "The WebTV launch units",
+    "dateRange": {
+      "startYear": 1996,
+      "endYear": 1999,
+      "label": "1996–1999 · era of use"
+    },
+    "room": "tech-toys",
+    "label": "The browser tried another room.",
+    "curatorNote": "The browser tried another room.",
+    "whyItMattered": "WebTV asked whether the web could fit into a room already organized for watching. Distance from the screen, text size and entering an address all became design problems. Calling it merely a computer without a keyboard misses the experiment: the intended place of use was different. Read the related feature to consider the appeal and friction of that arrangement, and compare it with the family PC that demanded a desk and a turn in the chair.",
+    "sections": [
+      {
+        "heading": "What is on display",
+        "paragraphs": [
+          "These launch-era WebTV units put an internet appliance beneath a television. Contemporary reporting described the project in 1996, when getting onto the web did not yet have a settled household form. The set-top box, remote and television belonged to a different arrangement from a desktop computer, monitor and mouse."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "new-photo-webtv",
+      "new-webtv-report",
+      "chm-net"
+    ],
+    "media": {
+      "kind": "image",
+      "src": "/assets/media/expansion/webtv.jpg",
+      "alt": "The WebTV launch units. Later object photograph; see the display note for model and era.",
+      "width": 960,
+      "height": 540,
+      "credit": "Halen Martini",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:WebTV_Launch_Units.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "reviewedAt": "2026-10-01"
+    },
+    "relatedYears": [
+      1996,
+      1997,
+      1998,
+      1999
+    ],
+    "relatedArtifacts": [
+      "crt-television",
+      "family-pc"
+    ],
+    "relatedRoutes": [
+      "/stories/webtv-on-the-sofa/",
+      "/zones/tech-toys/"
+    ],
+    "target": "/zones/tech-toys/",
+    "interaction": null,
+    "status": "verified",
+    "randomEligible": true,
+    "tags": [
+      "tech-toys",
+      "webtv-on-the-sofa",
+      "online",
+      "design"
+    ]
+  },
+  {
+    "id": "quickcam",
+    "slug": "quickcam",
+    "title": "Connectix QuickCam for Macintosh",
+    "dateRange": {
+      "startYear": 1994,
+      "endYear": 1999,
+      "label": "1994–1999 · era of use"
+    },
+    "room": "tech-toys",
+    "label": "A small eye beside the screen.",
+    "curatorNote": "A small eye beside the screen.",
+    "whyItMattered": "Putting a camera next to a computer introduced a new possibility: the person at the keyboard might become part of the image. It did not guarantee a smooth live conversation. Software, connection speed and the machine’s capabilities still mattered. The webcam sits in the gap between personal snapshots and online presence, a useful companion to the family-computer and photo-lab stories. Its shape suggests how electronics could become domestic objects before the connection became effortless.",
+    "sections": [
+      {
+        "heading": "What is on display",
+        "paragraphs": [
+          "This is the original Connectix QuickCam for Macintosh, distinguished from later Logitech color webcams. Its round housing made the camera an approachable desk companion, while the computer still did the work of receiving and using its pictures. The object photograph shows a surviving device rather than a staged historical video call."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "new-photo-quickcam",
+      "new-scholastic-history",
+      "new-chm-1993"
+    ],
+    "media": {
+      "kind": "image",
+      "src": "/assets/media/expansion/quickcam.jpg",
+      "alt": "Connectix QuickCam for Macintosh. Later object photograph; see the display note for model and era.",
+      "width": 960,
+      "height": 640,
+      "credit": "rfdigitalwpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Connectix_QuickCam_For_Mac_(5005161510).jpg",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "reviewedAt": "2026-10-01"
+    },
+    "relatedYears": [
+      1994,
+      1995,
+      1996,
+      1997,
+      1998,
+      1999
+    ],
+    "relatedArtifacts": [
+      "family-pc",
+      "floppy-disk",
+      "jewel-case"
+    ],
+    "relatedRoutes": [
+      "/stories/computer-lab-and-book-fair/",
+      "/zones/tech-toys/"
+    ],
+    "target": "/zones/tech-toys/",
+    "interaction": null,
+    "status": "verified",
+    "randomEligible": true,
+    "tags": [
+      "tech-toys",
+      "computer-lab-and-book-fair",
+      "catalogs",
+      "pc"
+    ]
+  },
+  {
+    "id": "disposable-camera",
+    "slug": "disposable-camera",
+    "title": "Fujifilm QuickSnap Flash",
+    "dateRange": {
+      "startYear": 1990,
+      "endYear": 1999,
+      "label": "1990–1999 · era of use"
+    },
+    "room": "culture",
+    "label": "The picture was taken; the result came later.",
+    "curatorNote": "The picture was taken; the result came later.",
+    "whyItMattered": "A camera could accompany a party or trip without returning as an expensive possession. The exposure still had to be processed before anybody could inspect the result. Framing, flash and timing were decisions made with incomplete feedback. That delay shaped which pictures were taken and how the finished prints were shared. Open the photo-lab feature for the interval between pressing the shutter and seeing an envelope full of evidence.",
+    "sections": [
+      {
+        "heading": "What is on display",
+        "paragraphs": [
+          "Fujifilm introduced QuickSnap in 1986 and added several variants during the 1990s. This photograph shows a later QuickSnap Flash example illustrating the enduring lens-fitted film-camera format. It is explicitly an object reference, not a claim that this packaging was sold in 1996. Manufacturer history supplies the separate dates for the decade’s versions."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "new-photo-disposable-camera",
+      "new-fujifilm-history",
+      "new-chm-1994"
+    ],
+    "media": {
+      "kind": "image",
+      "src": "/assets/media/expansion/disposable-camera.jpg",
+      "alt": "Fujifilm QuickSnap Flash. Later object photograph; see the display note for model and era.",
+      "width": 960,
+      "height": 637,
+      "credit": "Jud McCranie",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fujifilm_QuickSnap_Flash.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "reviewedAt": "2026-10-01"
+    },
+    "relatedYears": [
+      1990,
+      1991,
+      1992,
+      1993,
+      1994,
+      1995,
+      1996,
+      1997,
+      1998,
+      1999
+    ],
+    "relatedArtifacts": [
+      "digital-camera",
+      "floppy-disk"
+    ],
+    "relatedRoutes": [
+      "/stories/the-photo-lab-gap/",
+      "/zones/culture/"
+    ],
+    "target": "/zones/culture/",
+    "interaction": null,
+    "status": "verified",
+    "randomEligible": true,
+    "tags": [
+      "culture",
+      "the-photo-lab-gap",
+      "mall",
+      "portable"
+    ]
+  },
+  {
+    "id": "talkboy",
+    "slug": "talkboy",
+    "title": "Deluxe Talkboy recorder",
+    "dateRange": {
+      "startYear": 1993,
+      "endYear": 1999,
+      "label": "1993–1999 · era of use"
+    },
+    "room": "culture",
+    "label": "Playback made a voice into a toy.",
+    "curatorNote": "Playback made a voice into a toy.",
+    "whyItMattered": "Recording a sentence and changing its playback made an ordinary voice strange enough to invite another try. The toy combined a familiar cassette medium with permission to experiment. It belongs in the same room as an answering machine, although the intentions were different: one preserved a message, the other made playing with the message the point. Follow the toy story for the difference between objects that waited for a command and objects that seemed to answer back.",
+    "sections": [
+      {
+        "heading": "What is on display",
+        "paragraphs": [
+          "The Deluxe Talkboy pictured here is a cassette recorder with a handle and controls built for recording and replaying sound. The name became associated with Home Alone 2, but this surviving retail object should not be confused with a film prop or with every revision sold under the Talkboy name."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "new-photo-talkboy",
+      "tamagotchi",
+      "tamagotchi-museum"
+    ],
+    "media": {
+      "kind": "image",
+      "src": "/assets/media/expansion/talkboy.jpg",
+      "alt": "Deluxe Talkboy recorder. Later object photograph; see the display note for model and era.",
+      "width": 960,
+      "height": 640,
+      "credit": "Y2kcrazyjoker4",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Deluxe_Talkboy_on_table.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "reviewedAt": "2026-10-01"
+    },
+    "relatedYears": [
+      1993,
+      1994,
+      1995,
+      1996,
+      1997,
+      1998,
+      1999
+    ],
+    "relatedArtifacts": [
+      "beanie-baby"
+    ],
+    "relatedRoutes": [
+      "/stories/holiday-toys-that-answered-back/",
+      "/zones/culture/"
+    ],
+    "target": "/zones/culture/",
+    "interaction": null,
+    "status": "verified",
+    "randomEligible": true,
+    "tags": [
+      "culture",
+      "holiday-toys-that-answered-back",
+      "toys",
+      "mall"
+    ]
+  },
+  {
+    "id": "beanie-baby",
+    "slug": "beanie-baby",
+    "title": "A collection of Beanie Baby bears",
+    "dateRange": {
+      "startYear": 1993,
+      "endYear": 1999,
+      "label": "1993–1999 · era of use"
+    },
+    "room": "culture",
+    "label": "The tag was part of the object.",
+    "curatorNote": "The tag was part of the object.",
+    "whyItMattered": "A familiar toy could be handled affectionately or protected as a collectible, and those habits did not always agree. Cases and tag protectors introduced the language of condition into a childhood object. The collection belongs beside Pogs and the toy feature, where collecting, trading and caring for something take different forms. This label makes no claim about present value or investment returns; its interest is how a small animal could acquire a story through a name and a place on a shelf.",
+    "sections": [
+      {
+        "heading": "What is on display",
+        "paragraphs": [
+          "This display photograph records a collection of Ty Beanie Baby bears. It shows how an assortment can become an exhibit of its own, rather than evidence of one toy’s original sale date. Soft bodies and attached tags gave collectors two things to care for: the animal and the information that identified it."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "new-photo-beanie-baby",
+      "tamagotchi",
+      "tamagotchi-museum"
+    ],
+    "media": {
+      "kind": "image",
+      "src": "/assets/media/expansion/beanie-baby.jpg",
+      "alt": "A collection of Beanie Baby bears. Later object photograph; see the display note for model and era.",
+      "width": 960,
+      "height": 1280,
+      "credit": "daryl_mitchell from Saskatoon, Saskatchewan, Canada",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mom%27s_Beanies_(9120344523).jpg",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "reviewedAt": "2026-10-01"
+    },
+    "relatedYears": [
+      1993,
+      1994,
+      1995,
+      1996,
+      1997,
+      1998,
+      1999
+    ],
+    "relatedArtifacts": [
+      "talkboy"
+    ],
+    "relatedRoutes": [
+      "/stories/holiday-toys-that-answered-back/",
+      "/zones/culture/"
+    ],
+    "target": "/zones/culture/",
+    "interaction": null,
+    "status": "verified",
+    "randomEligible": true,
+    "tags": [
+      "culture",
+      "holiday-toys-that-answered-back",
+      "toys",
+      "mall"
+    ]
+  },
+  {
+    "id": "pogs",
+    "slug": "pogs",
+    "title": "A game of Pogs",
+    "dateRange": {
+      "startYear": 1990,
+      "endYear": 1999,
+      "label": "1990–1999 · era of use"
+    },
+    "room": "culture",
+    "label": "The collection could become the game.",
+    "curatorNote": "The collection could become the game.",
+    "whyItMattered": "Pictures and designs gave the pieces identities before play began. A favorite cap could be too valuable emotionally to risk, while duplicate pieces could become trading material. House rules determined whether a game was a demonstration or a wager over somebody’s collection. The distinction is part of the cultural object. Compare the caps with Beanie Babies to see collecting that alternated between display and use, and with a memory card whose value could also exceed the cost of its plastic.",
+    "sections": [
+      {
+        "heading": "What is on display",
+        "paragraphs": [
+          "This photograph shows children playing with stacked caps and a heavier striker. It is a later image illustrating the game, rather than an authenticated 1990s playground scene. Pogs connect the decade’s collecting culture to a physical action: striking a stack, inspecting the result and negotiating what happens to the caps."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "new-photo-pogs",
+      "tamagotchi",
+      "tamagotchi-museum"
+    ],
+    "media": {
+      "kind": "image",
+      "src": "/assets/media/expansion/pogs.jpg",
+      "alt": "A game of Pogs. Later object photograph; see the display note for model and era.",
+      "width": 830,
+      "height": 938,
+      "credit": "Jewel457",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kids_playing_pogs.jpeg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "reviewedAt": "2026-10-01"
+    },
+    "relatedYears": [
+      1990,
+      1991,
+      1992,
+      1993,
+      1994,
+      1995,
+      1996,
+      1997,
+      1998,
+      1999
+    ],
+    "relatedArtifacts": [
+      "talkboy",
+      "beanie-baby"
+    ],
+    "relatedRoutes": [
+      "/stories/holiday-toys-that-answered-back/",
+      "/zones/culture/"
+    ],
+    "target": "/zones/culture/",
+    "interaction": null,
+    "status": "verified",
+    "randomEligible": true,
+    "tags": [
+      "culture",
+      "holiday-toys-that-answered-back",
+      "toys",
+      "mall"
+    ]
+  },
+  {
+    "id": "super-soaker",
+    "slug": "super-soaker",
+    "title": "CPS 2000 water blaster",
+    "dateRange": {
+      "startYear": 1996,
+      "endYear": 1999,
+      "label": "1996–1999 · era of use"
+    },
+    "room": "culture",
+    "label": "The backyard became a design problem.",
+    "curatorNote": "The backyard became a design problem.",
+    "whyItMattered": "Water toys made outdoor play depend on filling, pumping and judging the distance to the next person. A larger reservoir changed the shape and weight of the object as well as the time between refills. The result was a play system with its own small logistics. Put it beside the handheld-game story: both kinds of portable entertainment depended on supplies that could run out, although one sent its owner toward a hose rather than a battery drawer.",
+    "sections": [
+      {
+        "heading": "What is on display",
+        "paragraphs": [
+          "The photograph shows a CPS 2000, rather than the earlier Super Soaker 50. The large reservoir, pump and forward nozzle are visible clues to the model. This label preserves that identity and uses a broad late-decade era, without converting a photograph into evidence for an exact launch day."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "new-photo-super-soaker",
+      "tamagotchi",
+      "tamagotchi-museum"
+    ],
+    "media": {
+      "kind": "image",
+      "src": "/assets/media/expansion/super-soaker.jpg",
+      "alt": "CPS 2000 water blaster. Later object photograph; see the display note for model and era.",
+      "width": 714,
+      "height": 1600,
+      "credit": "See linked Commons photographer record",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cps2000front.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "reviewedAt": "2026-10-01"
+    },
+    "relatedYears": [
+      1996,
+      1997,
+      1998,
+      1999
+    ],
+    "relatedArtifacts": [
+      "talkboy",
+      "beanie-baby"
+    ],
+    "relatedRoutes": [
+      "/stories/holiday-toys-that-answered-back/",
+      "/zones/culture/"
+    ],
+    "target": "/zones/culture/",
+    "interaction": null,
+    "status": "verified",
+    "randomEligible": true,
+    "tags": [
+      "culture",
+      "holiday-toys-that-answered-back",
+      "toys",
+      "mall"
+    ]
+  },
+  {
+    "id": "walkman",
+    "slug": "walkman",
+    "title": "Sony WM-FX151 cassette Walkman",
+    "dateRange": {
+      "startYear": 1990,
+      "endYear": 1999,
+      "label": "1990–1999 · era of use"
+    },
+    "room": "music",
+    "label": "A personal soundtrack, with a side break.",
+    "curatorNote": "A personal soundtrack, with a side break.",
+    "whyItMattered": "A tape could be an album, a home-made sequence or a recording that arrived from somebody else. Listening followed the order of the reel, interrupted by a flip or rewind. The radio offered another way to find music without acquiring it first. Compare the Walkman with the Discman and MiniDisc recorder to see three different answers to carrying a collection. The record-store story follows what happened before the music reached those headphones.",
+    "sections": [
+      {
+        "heading": "What is on display",
+        "paragraphs": [
+          "This Sony WM-FX151 is a cassette player and radio, shown as a later photograph of the physical model. The Walkman family began before the 1990s; this exhibit concerns the continued use of portable tape through the decade. It does not date the invention of personal stereo to this era."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "new-photo-walkman",
+      "new-albums-1990",
+      "new-albums-1994"
+    ],
+    "media": {
+      "kind": "image",
+      "src": "/assets/media/expansion/walkman.jpg",
+      "alt": "Sony WM-FX151 cassette Walkman. Later object photograph; see the display note for model and era.",
+      "width": 960,
+      "height": 1230,
+      "credit": "YoloBoscaiolo",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sony_Walkman_WM-FX151_Personal_Cassette_Tape_Portable_Stereo_Radio_FM_AM_Tuner.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "reviewedAt": "2026-10-01"
+    },
+    "relatedYears": [
+      1990,
+      1991,
+      1992,
+      1993,
+      1994,
+      1995,
+      1996,
+      1997,
+      1998,
+      1999
+    ],
+    "relatedArtifacts": [
+      "jewel-case",
+      "cassette",
+      "discman"
+    ],
+    "relatedRoutes": [
+      "/stories/record-store-discovery/",
+      "/zones/music/"
+    ],
+    "target": "/zones/music/",
+    "interaction": null,
+    "status": "verified",
+    "randomEligible": true,
+    "tags": [
+      "music",
+      "record-store-discovery",
+      "cd",
+      "mixtapes"
+    ]
+  },
+  {
+    "id": "tb-303",
+    "slug": "tb-303",
+    "title": "Roland TB-303 Bass Line",
+    "dateRange": {
+      "startYear": 1990,
+      "endYear": 1999,
+      "label": "1990–1999 · era of use"
+    },
+    "room": "music",
+    "label": "A bass machine with an afterlife.",
+    "curatorNote": "A bass machine with an afterlife.",
+    "whyItMattered": "A tool can acquire a cultural identity different from its original sales pitch. Musicians found expressive possibilities in the machine’s pattern programming and tone controls, turning a distinctive bass sound into something that could organize a track. The TB-303 belongs alongside the broader breakbeat feature as a contrasting route through dance music. Follow the album entries to hear why house, acid and drum & bass should not be compressed into one undifferentiated electronic category.",
+    "sections": [
+      {
+        "heading": "What is on display",
+        "paragraphs": [
+          "Roland introduced the TB-303 before the 1990s. Its importance to this collection lies in the instrument’s later musical life, especially the acid sound associated with electronic dance music. The photographed controls and sequencer belong to the actual unit, rather than a modern software image standing in for the hardware."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "new-photo-tb-303",
+      "new-albums-1995",
+      "new-albums-1997"
+    ],
+    "media": {
+      "kind": "image",
+      "src": "/assets/media/expansion/tb-303.jpg",
+      "alt": "Roland TB-303 Bass Line. Later object photograph; see the display note for model and era.",
+      "width": 960,
+      "height": 720,
+      "credit": "eternal jamzzzz",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Roland_TB-303_Bass_Line_Computer_Controlled.jpg",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "reviewedAt": "2026-10-01"
+    },
+    "relatedYears": [
+      1990,
+      1991,
+      1992,
+      1993,
+      1994,
+      1995,
+      1996,
+      1997,
+      1998,
+      1999
+    ],
+    "relatedArtifacts": [
+      "mpc-2000",
+      "technics-turntable",
+      "dat-recorder"
+    ],
+    "relatedRoutes": [
+      "/stories/breakbeats-change-the-clock/",
+      "/zones/music/"
+    ],
+    "target": "/zones/music/",
+    "interaction": null,
+    "status": "verified",
+    "randomEligible": true,
+    "tags": [
+      "music",
+      "breakbeats-change-the-clock",
+      "rave",
+      "drum-and-bass"
+    ]
+  },
+  {
+    "id": "mpc-2000",
+    "slug": "mpc-2000",
+    "title": "Akai MPC2000",
+    "dateRange": {
+      "startYear": 1997,
+      "endYear": 1999,
+      "label": "1997–1999 · era of use"
+    },
+    "room": "music",
+    "label": "Pads turned a fragment into a performance.",
+    "curatorNote": "Pads turned a fragment into a performance.",
+    "whyItMattered": "A recorded fragment could be assigned to a pad, played with a new rhythm and set beside other fragments. That makes the device useful for thinking about a record collection as working material. The sampler did not erase the listening and judgment needed to find a usable sound. Open the related feature for the difference between quoting a recording and building a new musical relationship around it; compare the pads with the turntable that could provide the source.",
+    "sections": [
+      {
+        "heading": "What is on display",
+        "paragraphs": [
+          "The MPC2000 combines sampling and sequencing in a hardware workstation with a grid of pads. It belongs to a late-decade chapter of the MPC family, not to the origin of sampling itself. This photograph emphasizes the interface: pads for playing sounds, a display for arranging them and controls for shaping the result."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "new-photo-mpc-2000",
+      "phase2-wu-tang-debut",
+      "new-albums-1992"
+    ],
+    "media": {
+      "kind": "image",
+      "src": "/assets/media/expansion/mpc-2000.jpg",
+      "alt": "Akai MPC2000. Later object photograph; see the display note for model and era.",
+      "width": 960,
+      "height": 716,
+      "credit": "Original uploader was Alkivar",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Akai_MPC2000.jpg",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "reviewedAt": "2026-10-01"
+    },
+    "relatedYears": [
+      1997,
+      1998,
+      1999
+    ],
+    "relatedArtifacts": [
+      "technics-turntable",
+      "cassette"
+    ],
+    "relatedRoutes": [
+      "/stories/sampling-a-record-collection/",
+      "/zones/music/"
+    ],
+    "target": "/zones/music/",
+    "interaction": null,
+    "status": "verified",
+    "randomEligible": true,
+    "tags": [
+      "music",
+      "sampling-a-record-collection",
+      "hip-hop",
+      "mixtapes"
+    ]
+  },
+  {
+    "id": "mc-303",
+    "slug": "mc-303",
+    "title": "Roland MC-303 Groovebox",
+    "dateRange": {
+      "startYear": 1996,
+      "endYear": 1999,
+      "label": "1996–1999 · era of use"
+    },
+    "room": "music",
+    "label": "Patterns in a single desktop instrument.",
+    "curatorNote": "Patterns in a single desktop instrument.",
+    "whyItMattered": "A self-contained instrument offered a route into making electronic patterns without beginning with an entire studio. The attraction was the ability to build and alter a sequence in one place. Its presets and workflow also shaped what an inexperienced user could try first. Place it beside the sampler and bass machine to explore different production habits. The breakbeat feature provides the musical context without pretending that every record mentioned was made on this exact piece of hardware.",
+    "sections": [
+      {
+        "heading": "What is on display",
+        "paragraphs": [
+          "The MC-303 is Roland’s 1996 Groovebox, a later machine with a name that echoes the earlier TB-303. They are distinct instruments: a photo of one should not illustrate the other’s invention. The panel brings sound selection, rhythm programming and performance controls into one compact arrangement."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "new-photo-mc-303",
+      "new-albums-1995",
+      "new-albums-1997"
+    ],
+    "media": {
+      "kind": "image",
+      "src": "/assets/media/expansion/mc-303.jpg",
+      "alt": "Roland MC-303 Groovebox. Later object photograph; see the display note for model and era.",
+      "width": 960,
+      "height": 665,
+      "credit": "Leuo",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Roland_MC-303.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "reviewedAt": "2026-10-01"
+    },
+    "relatedYears": [
+      1996,
+      1997,
+      1998,
+      1999
+    ],
+    "relatedArtifacts": [
+      "mpc-2000",
+      "technics-turntable",
+      "dat-recorder"
+    ],
+    "relatedRoutes": [
+      "/stories/breakbeats-change-the-clock/",
+      "/zones/music/"
+    ],
+    "target": "/zones/music/",
+    "interaction": null,
+    "status": "verified",
+    "randomEligible": true,
+    "tags": [
+      "music",
+      "breakbeats-change-the-clock",
+      "rave",
+      "drum-and-bass"
+    ]
+  },
+  {
+    "id": "technics-turntable",
+    "slug": "technics-turntable",
+    "title": "Technics SL-1200MK2",
+    "dateRange": {
+      "startYear": 1990,
+      "endYear": 1999,
+      "label": "1990–1999 · era of use"
+    },
+    "room": "music",
+    "label": "The record player was also an instrument.",
+    "curatorNote": "The record player was also an instrument.",
+    "whyItMattered": "Cueing meant listening ahead of the room. The next record could be prepared through headphones while the current one continued over speakers. Matching, interrupting and selecting became audible acts of judgment. The turntable therefore belongs to both listening and production history. Put it beside the MPC to follow a recording from a sleeve into a new arrangement, and beside the record-store story to consider how the search for a useful record shaped what a DJ could play.",
+    "sections": [
+      {
+        "heading": "What is on display",
+        "paragraphs": [
+          "The SL-1200MK2 predates the decade but remained important in 1990s DJ culture. This object photograph shows the platter, tonearm and pitch control that made a record something a performer could handle in real time. The exhibit dates its cultural use here, rather than inventing a 1990s product launch."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "new-photo-technics-turntable",
+      "phase2-wu-tang-debut",
+      "new-albums-1992"
+    ],
+    "media": {
+      "kind": "image",
+      "src": "/assets/media/expansion/technics-turntable.jpg",
+      "alt": "Technics SL-1200MK2. Later object photograph; see the display note for model and era.",
+      "width": 960,
+      "height": 609,
+      "credit": "derivative work: 32bitmaschine ( talk ) Technics_SL-1200MK2.jpg : Dydric",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Technics_SL-1200MK2-2.jpg",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "reviewedAt": "2026-10-01"
+    },
+    "relatedYears": [
+      1990,
+      1991,
+      1992,
+      1993,
+      1994,
+      1995,
+      1996,
+      1997,
+      1998,
+      1999
+    ],
+    "relatedArtifacts": [
+      "mpc-2000",
+      "cassette"
+    ],
+    "relatedRoutes": [
+      "/stories/sampling-a-record-collection/",
+      "/zones/music/"
+    ],
+    "target": "/zones/music/",
+    "interaction": null,
+    "status": "verified",
+    "randomEligible": true,
+    "tags": [
+      "music",
+      "sampling-a-record-collection",
+      "hip-hop",
+      "mixtapes"
+    ]
+  },
+  {
+    "id": "korg-m1",
+    "slug": "korg-m1",
+    "title": "Korg M1 workstation",
+    "dateRange": {
+      "startYear": 1990,
+      "endYear": 1999,
+      "label": "1990–1999 · era of use"
+    },
+    "room": "music",
+    "label": "A keyboard carried more than one sound.",
+    "curatorNote": "A keyboard carried more than one sound.",
+    "whyItMattered": "Recognizable instrument sounds can travel through many kinds of music, changing meaning with the surrounding rhythm and arrangement. A workstation offered an accessible palette, while players and producers still chose how to combine it. The M1 is a useful reminder that a genre cannot be identified by a single piece of equipment. Explore the music collection for records that draw from electronic sound in different ways, and compare this keyboard with the pad-based sampler that invites another kind of performance.",
+    "sections": [
+      {
+        "heading": "What is on display",
+        "paragraphs": [
+          "Korg’s M1 was introduced before the 1990s and continued into the decade’s studio and stage life. The keyboard workstation placed playable sounds and sequencing capabilities within one instrument. This surviving unit is an object reference, not documentary proof that a particular artist used the photographed keyboard."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "new-photo-korg-m1",
+      "new-albums-1995",
+      "new-albums-1997"
+    ],
+    "media": {
+      "kind": "image",
+      "src": "/assets/media/expansion/korg-m1.jpg",
+      "alt": "Korg M1 workstation. Later object photograph; see the display note for model and era.",
+      "width": 960,
+      "height": 348,
+      "credit": "Warren B.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Korg_M1.jpg",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "reviewedAt": "2026-10-01"
+    },
+    "relatedYears": [
+      1990,
+      1991,
+      1992,
+      1993,
+      1994,
+      1995,
+      1996,
+      1997,
+      1998,
+      1999
+    ],
+    "relatedArtifacts": [
+      "mpc-2000",
+      "technics-turntable",
+      "dat-recorder"
+    ],
+    "relatedRoutes": [
+      "/stories/breakbeats-change-the-clock/",
+      "/zones/music/"
+    ],
+    "target": "/zones/music/",
+    "interaction": null,
+    "status": "verified",
+    "randomEligible": true,
+    "tags": [
+      "music",
+      "breakbeats-change-the-clock",
+      "rave",
+      "drum-and-bass"
+    ]
+  },
+  {
+    "id": "dat-recorder",
+    "slug": "dat-recorder",
+    "title": "Sony TCD-D100 DAT recorder",
+    "dateRange": {
+      "startYear": 1997,
+      "endYear": 1999,
+      "label": "1997–1999 · era of use"
+    },
+    "room": "music",
+    "label": "Digital recording still needed a tape.",
+    "curatorNote": "Digital recording still needed a tape.",
+    "whyItMattered": "Digital did not always mean a file waiting on a computer. A recording could still have a beginning, an end and a physical container that had to be labelled and kept. A portable recorder belongs to the history of making and preserving sound as much as to listening. Compare DAT with MiniDisc and CD-R to see several routes toward personal recording that coexisted before transferring an audio file became an ordinary household task.",
+    "sections": [
+      {
+        "heading": "What is on display",
+        "paragraphs": [
+          "The TCD-D100 is a late-decade portable Digital Audio Tape recorder. DAT stores digital audio on tape; its cassette is a different format from the familiar compact cassette used in a Walkman. This photograph identifies the actual Sony model instead of using a generic tape recorder as a substitute."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "new-photo-dat-recorder",
+      "new-albums-1990",
+      "new-albums-1994"
+    ],
+    "media": {
+      "kind": "image",
+      "src": "/assets/media/expansion/dat-recorder.jpg",
+      "alt": "Sony TCD-D100 DAT recorder. Later object photograph; see the display note for model and era.",
+      "width": 960,
+      "height": 982,
+      "credit": "Pittigrilli",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sony_TCD-D100_DAT-Recorder_Walkman.jpg",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "reviewedAt": "2026-10-01"
+    },
+    "relatedYears": [
+      1997,
+      1998,
+      1999
+    ],
+    "relatedArtifacts": [
+      "jewel-case",
+      "cassette",
+      "discman"
+    ],
+    "relatedRoutes": [
+      "/stories/record-store-discovery/",
+      "/zones/music/"
+    ],
+    "target": "/zones/music/",
+    "interaction": null,
+    "status": "verified",
+    "randomEligible": true,
+    "tags": [
+      "music",
+      "record-store-discovery",
+      "cd",
+      "mixtapes"
+    ]
+  },
+  {
+    "id": "jewel-case",
+    "slug": "jewel-case",
+    "title": "The CD jewel case",
+    "dateRange": {
+      "startYear": 1990,
+      "endYear": 1999,
+      "label": "1990–1999 · era of use"
+    },
+    "room": "music",
+    "label": "A small display cabinet for an album.",
+    "curatorNote": "A small display cabinet for an album.",
+    "whyItMattered": "The spine made a shelf searchable, the booklet could turn listening into reading, and the hinge could break long before the music stopped working. Removing the disc into a binder separated music from some of that information. The case is useful precisely because it is ordinary: thousands of distinct records shared the same small architecture. Follow the record-store story and yearly album selection to move from the container toward the choices it once held.",
+    "sections": [
+      {
+        "heading": "What is on display",
+        "paragraphs": [
+          "The hinged plastic CD case joined the disc to a front insert, back tray and spine. It predates the decade and became a familiar part of 1990s album buying. The photographed empty case makes its construction visible; the label does not use an unrelated copyrighted cover to stand in for a particular record."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "new-photo-jewel-case",
+      "new-albums-1990",
+      "new-albums-1994"
+    ],
+    "media": {
+      "kind": "image",
+      "src": "/assets/media/expansion/jewel-case.jpg",
+      "alt": "The CD jewel case. Later object photograph; see the display note for model and era.",
+      "width": 960,
+      "height": 764,
+      "credit": "DiscoA340",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:CD_Jewel_Case_(Front).jpg",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "reviewedAt": "2026-10-01"
+    },
+    "relatedYears": [
+      1990,
+      1991,
+      1992,
+      1993,
+      1994,
+      1995,
+      1996,
+      1997,
+      1998,
+      1999
+    ],
+    "relatedArtifacts": [
+      "cassette",
+      "discman"
+    ],
+    "relatedRoutes": [
+      "/stories/record-store-discovery/",
+      "/zones/music/"
+    ],
+    "target": "/zones/music/",
+    "interaction": null,
+    "status": "verified",
+    "randomEligible": true,
+    "tags": [
+      "music",
+      "record-store-discovery",
+      "cd",
+      "mixtapes"
+    ]
+  },
+  {
+    "id": "dr-martens",
+    "slug": "dr-martens",
+    "title": "Worn Dr. Martens 1460 boots",
+    "dateRange": {
+      "startYear": 1990,
+      "endYear": 1999,
+      "label": "1990–1999 · era of use"
+    },
+    "room": "culture",
+    "label": "The sole remembered the route.",
+    "curatorNote": "The sole remembered the route.",
+    "whyItMattered": "A boot could signal several affiliations, depending on who wore it and what accompanied it. Its meaning came from music, work, street style and repetition, not from one official decade-wide uniform. The grunge story follows a particular journey between ordinary clothes and fashion presentation. Compare it with the streetwear and skate pieces before treating a pair of black boots as shorthand for every young person in the 1990s.",
+    "sections": [
+      {
+        "heading": "What is on display",
+        "paragraphs": [
+          "The 1460 boot originated in 1960, well before the decade displayed here. Dr. Martens’ own history follows its adoption by musicians and youth cultures. This later photograph shows worn black boots as an object reference, with visible creases and scuffs rather than a reconstructed 1990s fashion shoot."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "new-photo-dr-martens",
+      "new-dm-history",
+      "rockhall-nirvana"
+    ],
+    "media": {
+      "kind": "image",
+      "src": "/assets/media/expansion/dr-martens.jpg",
+      "alt": "Worn Dr. Martens 1460 boots. Later object photograph; see the display note for model and era.",
+      "width": 500,
+      "height": 491,
+      "credit": "IlPasseggero",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Doctors_1460_Black_Worn.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "reviewedAt": "2026-10-01"
+    },
+    "relatedYears": [
+      1990,
+      1991,
+      1992,
+      1993,
+      1994,
+      1995,
+      1996,
+      1997,
+      1998,
+      1999
+    ],
+    "relatedArtifacts": [
+      "vans-shoes",
+      "cassette"
+    ],
+    "relatedRoutes": [
+      "/stories/grunge-from-rack-to-runway/",
+      "/zones/culture/"
+    ],
+    "target": "/zones/culture/",
+    "interaction": null,
+    "status": "verified",
+    "randomEligible": true,
+    "tags": [
+      "culture",
+      "grunge-from-rack-to-runway",
+      "fashion",
+      "grunge"
+    ]
+  },
+  {
+    "id": "vans-shoes",
+    "slug": "vans-shoes",
+    "title": "Vans Old Skool shoes",
+    "dateRange": {
+      "startYear": 1990,
+      "endYear": 1999,
+      "label": "1990–1999 · era of use"
+    },
+    "room": "culture",
+    "label": "The shoe had a job before the outfit.",
+    "curatorNote": "The shoe had a job before the outfit.",
+    "whyItMattered": "A shoe worn for skating accumulated use in visible places: grip, seams and edges mattered alongside color. Clothing chosen for movement could later appear in a store as a finished style. The skate-and-rave story explores that passage while keeping different scenes distinct. Put these shoes beside the worn boots to see how practical objects could acquire cultural meanings without becoming interchangeable symbols of nostalgia.",
+    "sections": [
+      {
+        "heading": "What is on display",
+        "paragraphs": [
+          "This later product photograph shows Vans Old Skool shoes, a design that predates the 1990s. It illustrates a footwear style associated with the decade’s skate culture, not the original sale of this exact blue pair. The distinction allows an authentic object photograph to support an era without pretending that a modern image was taken then."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "new-photo-vans-shoes",
+      "vans-mold",
+      "vam-venues"
+    ],
+    "media": {
+      "kind": "image",
+      "src": "/assets/media/expansion/vans-shoes.jpg",
+      "alt": "Vans Old Skool shoes. Later object photograph; see the display note for model and era.",
+      "width": 545,
+      "height": 500,
+      "credit": "Karldmartini",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vans_Old_Skool_Nautical_Blue.gif",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "reviewedAt": "2026-10-01"
+    },
+    "relatedYears": [
+      1990,
+      1991,
+      1992,
+      1993,
+      1994,
+      1995,
+      1996,
+      1997,
+      1998,
+      1999
+    ],
+    "relatedArtifacts": [
+      "dr-martens",
+      "cassette"
+    ],
+    "relatedRoutes": [
+      "/stories/skate-rave-and-room-to-move/",
+      "/zones/culture/"
+    ],
+    "target": "/zones/culture/",
+    "interaction": null,
+    "status": "verified",
+    "randomEligible": true,
+    "tags": [
+      "culture",
+      "skate-rave-and-room-to-move",
+      "fashion",
+      "rave"
+    ]
+  },
+  {
+    "id": "answering-machine",
+    "slug": "answering-machine",
+    "title": "Panasonic cassette answering machine",
+    "dateRange": {
+      "startYear": 1990,
+      "endYear": 1999,
+      "label": "1990–1999 · era of use"
+    },
+    "room": "culture",
+    "label": "The household had an audible inbox.",
+    "curatorNote": "The household had an audible inbox.",
+    "whyItMattered": "Checking messages was an action performed in a shared room. Another person could hear the playback, recognize a caller or pass along a request that was not intended for them. The outgoing greeting could itself become a small family production. Compare the machine with the Nokia phone and the related landline feature to follow the change from messages arriving at a place toward messages addressed to a device carried by one person.",
+    "sections": [
+      {
+        "heading": "What is on display",
+        "paragraphs": [
+          "This Panasonic answering machine records messages on cassette. Its buttons, speaker and telephone connection belong to a system in which the phone number usually reached a household. The object predates several later digital answering-machine designs; the collection presents its continued cultural role rather than an unsupported model launch date."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "new-photo-answering-machine",
+      "chm-net",
+      "new-aol-flat"
+    ],
+    "media": {
+      "kind": "image",
+      "src": "/assets/media/expansion/answering-machine.jpg",
+      "alt": "Panasonic cassette answering machine. Later object photograph; see the display note for model and era.",
+      "width": 960,
+      "height": 1294,
+      "credit": "Pittigrilli",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Panasonic_Answering_Machine_KX-T1423_-_view_on_outgoing_and_recording_cassettes.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "reviewedAt": "2026-10-01"
+    },
+    "relatedYears": [
+      1990,
+      1991,
+      1992,
+      1993,
+      1994,
+      1995,
+      1996,
+      1997,
+      1998,
+      1999
+    ],
+    "relatedArtifacts": [
+      "pager",
+      "family-pc"
+    ],
+    "relatedRoutes": [
+      "/stories/the-landline-negotiation/",
+      "/zones/culture/"
+    ],
+    "target": "/zones/culture/",
+    "interaction": null,
+    "status": "verified",
+    "randomEligible": true,
+    "tags": [
+      "culture",
+      "the-landline-negotiation",
+      "mall",
+      "online"
+    ]
+  },
+  {
+    "id": "super-famicom",
+    "slug": "super-famicom",
+    "title": "Nintendo Super Famicom",
+    "dateRange": {
+      "startYear": 1990,
+      "endYear": 1999,
+      "label": "1990–1999 · era of use"
+    },
+    "room": "games",
+    "label": "The same generation wore another case.",
+    "curatorNote": "The same generation wore another case.",
+    "whyItMattered": "Hardware generations spread across markets on different calendars. A game remembered as a 1992 purchase in one place may have reached Japanese shops earlier, under another title or packaging. The paired consoles make that distinction concrete. Explore their related timeline entries to compare launch titles, later action games and role-playing releases. A familiar controller is an invitation to look more closely at the market history behind a shared memory.",
+    "sections": [
+      {
+        "heading": "What is on display",
+        "paragraphs": [
+          "The Japanese Super Famicom launched in 1990. Its gray case and multicolored controller buttons differ from the purple-accented North American Super Nintendo pictured elsewhere in the collection. Nintendo’s Japanese historical game pages supply explicitly regional release dates for the software; they should not be relabelled as worldwide dates."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "new-photo-super-famicom",
+      "nintendo-world",
+      "nintendo-us"
+    ],
+    "media": {
+      "kind": "image",
+      "src": "/assets/media/expansion/super-famicom.jpg",
+      "alt": "Nintendo Super Famicom. Later object photograph; see the display note for model and era.",
+      "width": 960,
+      "height": 499,
+      "credit": "Evan-Amos",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nintendo-Super-Famicom-Set-FL.jpg",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "reviewedAt": "2026-10-01"
+    },
+    "relatedYears": [
+      1990,
+      1991,
+      1992,
+      1993,
+      1994,
+      1995,
+      1996,
+      1997,
+      1998,
+      1999
+    ],
+    "relatedArtifacts": [
+      "game-gear",
+      "game-boy-color",
+      "snes"
+    ],
+    "relatedRoutes": [
+      "/stories/handhelds-and-batteries/",
+      "/zones/games/"
+    ],
+    "target": "/zones/games/",
+    "interaction": null,
+    "status": "verified",
+    "randomEligible": true,
+    "tags": [
+      "games",
+      "handhelds-and-batteries",
+      "handhelds",
+      "consoles"
+    ]
+  },
+  {
+    "id": "digital-camera",
+    "slug": "digital-camera",
+    "title": "Casio QV-10",
+    "dateRange": {
+      "startYear": 1995,
+      "endYear": 1999,
+      "label": "1995–1999 · era of use"
+    },
+    "room": "tech-toys",
+    "label": "A photograph you could inspect immediately.",
+    "curatorNote": "A photograph you could inspect immediately.",
+    "whyItMattered": "Immediate review changed the relationship between the shutter and the finished result. A disappointing frame could become information for the next attempt before the scene disappeared. The digital image still needed a route to a computer or another display, so the camera did not make every photographic task effortless. Place it beside QuickSnap to explore two systems that overlapped in the decade: one built around a developing interval, the other around inspecting a picture on the spot.",
+    "sections": [
+      {
+        "heading": "What is on display",
+        "paragraphs": [
+          "Casio’s history dates the QV-10 to March 1995 and emphasizes its rear LCD. That screen let a user inspect a digital picture on the camera. This later exhibition photograph shows the real model; it does not stand in for a 1995 family snapshot or imply that early digital pictures matched later cameras."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "new-photo-digital-camera",
+      "new-fujifilm-history",
+      "new-chm-1994",
+      "new-casio-history"
+    ],
+    "media": {
+      "kind": "image",
+      "src": "/assets/media/expansion/digital-camera.jpg",
+      "alt": "Casio QV-10. Later object photograph; see the display note for model and era.",
+      "width": 960,
+      "height": 698,
+      "credit": "Morio",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Casio_QV-10_CP%2B_2011.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "reviewedAt": "2026-10-01"
+    },
+    "relatedYears": [
+      1995,
+      1996,
+      1997,
+      1998,
+      1999
+    ],
+    "relatedArtifacts": [
+      "disposable-camera",
+      "floppy-disk"
+    ],
+    "relatedRoutes": [
+      "/stories/the-photo-lab-gap/",
+      "/zones/tech-toys/"
+    ],
+    "target": "/zones/tech-toys/",
+    "interaction": null,
+    "status": "verified",
+    "randomEligible": true,
+    "tags": [
+      "tech-toys",
+      "the-photo-lab-gap",
+      "mall",
+      "portable"
+    ]
+  },
+  {
+    "id": "powerbook",
+    "slug": "powerbook",
+    "title": "Apple PowerBook 100",
+    "dateRange": {
+      "startYear": 1991,
+      "endYear": 1999,
+      "label": "1991–1999 · era of use"
+    },
+    "room": "tech-toys",
+    "label": "The computer began to travel differently.",
+    "curatorNote": "The computer began to travel differently.",
+    "whyItMattered": "A computer that could close and leave the desk changed where a file could be worked on, while power, storage and transfer remained practical constraints. Portability did not remove the need to think about what another machine could read. The carrying-files feature puts the laptop beside floppy and Zip disks, following a project across both places and formats. The object marks a shift in working posture as well as in size.",
+    "sections": [
+      {
+        "heading": "What is on display",
+        "paragraphs": [
+          "Apple’s PowerBook family appears in the Computer History Museum’s 1991 timeline. The PowerBook 100 shown here brings a keyboard, display and pointing device into a portable case. Its palm-rest and trackball arrangement make it a useful comparison with later laptops, rather than simply a small beige desktop."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "new-photo-powerbook",
+      "new-chm-1994",
+      "new-chm-1997"
+    ],
+    "media": {
+      "kind": "image",
+      "src": "/assets/media/expansion/powerbook.jpg",
+      "alt": "Apple PowerBook 100. Later object photograph; see the display note for model and era.",
+      "width": 960,
+      "height": 888,
+      "credit": "Danamania",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Powerbook_100_pose.jpg",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "reviewedAt": "2026-10-01"
+    },
+    "relatedYears": [
+      1991,
+      1992,
+      1993,
+      1994,
+      1995,
+      1996,
+      1997,
+      1998,
+      1999
+    ],
+    "relatedArtifacts": [
+      "zip-drive",
+      "floppy-disk",
+      "cdr-spindle"
+    ],
+    "relatedRoutes": [
+      "/stories/carrying-files-home/",
+      "/zones/tech-toys/"
+    ],
+    "target": "/zones/tech-toys/",
+    "interaction": null,
+    "status": "verified",
+    "randomEligible": true,
+    "tags": [
+      "tech-toys",
+      "carrying-files-home",
+      "pc",
+      "software"
+    ]
+  },
+  {
+    "id": "newton",
+    "slug": "newton",
+    "title": "Apple Newton MessagePad",
+    "dateRange": {
+      "startYear": 1993,
+      "endYear": 1999,
+      "label": "1993–1999 · era of use"
+    },
+    "room": "tech-toys",
+    "label": "A note could begin on a pocket screen.",
+    "curatorNote": "A note could begin on a pocket screen.",
+    "whyItMattered": "The device invited people to carry notes, appointments and personal information in electronic form, while making input itself part of the experiment. A screen that accepted handwriting suggested one way to bridge paper habits and computing, with results that did not always meet expectations. Compare Newton with PalmPilot before describing the PDA as one uniform idea. The file-transfer feature follows the larger problem these devices shared: information had to remain useful when it moved away from its original desk.",
+    "sections": [
+      {
+        "heading": "What is on display",
+        "paragraphs": [
+          "The Newton MessagePad belongs to Apple’s 1993 personal-digital-assistant experiment, documented in the Computer History Museum timeline. This museum photograph shows an early MessagePad, with a stylus rather than a physical keyboard. It should not be confused with the smaller Palm organizers that followed."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "new-photo-newton",
+      "new-chm-1994",
+      "new-chm-1997"
+    ],
+    "media": {
+      "kind": "image",
+      "src": "/assets/media/expansion/newton.jpg",
+      "alt": "Apple Newton MessagePad. Later object photograph; see the display note for model and era.",
+      "width": 960,
+      "height": 1332,
+      "credit": "National Museum of American History",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Apple_Newton_MessagePad_H1000_in_NMAH.jpg",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "reviewedAt": "2026-10-01"
+    },
+    "relatedYears": [
+      1993,
+      1994,
+      1995,
+      1996,
+      1997,
+      1998,
+      1999
+    ],
+    "relatedArtifacts": [
+      "zip-drive",
+      "floppy-disk",
+      "cdr-spindle"
+    ],
+    "relatedRoutes": [
+      "/stories/carrying-files-home/",
+      "/zones/tech-toys/"
+    ],
+    "target": "/zones/tech-toys/",
+    "interaction": null,
+    "status": "verified",
+    "randomEligible": true,
+    "tags": [
+      "tech-toys",
+      "carrying-files-home",
+      "pc",
+      "software"
+    ]
   }
 ]

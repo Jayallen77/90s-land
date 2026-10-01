@@ -12,13 +12,13 @@ COLLECTIONS = {
     '/zones/fashion/': {
         'kicker': 'CULTURE / THE LOOKBOOK', 'headline': 'Style with a soundtrack', 'art': 'culture',
         'intro': 'Flannel at the thrift store. Logos in the music video. Metallic nylon under club lights. The decade had more than one uniform.',
-        'stories': ['clothes-with-a-soundtrack', 'the-catalog-on-your-bedroom-floor', 'meet-me-at-the-mall'],
+        'stories': ['grunge-from-rack-to-runway', 'streetwear-the-logo-and-the-voice', 'skate-rave-and-room-to-move', 'clothes-with-a-soundtrack', 'the-catalog-on-your-bedroom-floor', 'meet-me-at-the-mall'],
         'notes': [('Thrift racks & record stores', 'Flannel, faded band tees, thermal layers, worn denim, and scuffed boots made the lived-in look feel personal.'), ('Meet by the fountain', 'Cargo pockets, baby tees, sporty logos, chokers, and catalog wish lists turned the mall into a shared dressing room.'), ('After dark, toward 2000', 'Rave nylon, tiny sunglasses, silver fabric, and iridescent bags gave the end of the decade its synthetic glow.')],
     },
     '/zones/internet-culture/': {
         'kicker': 'CULTURE / THE PERSONAL WEB', 'headline': 'You had to be there', 'art': 'tech',
         'intro': 'A homepage was a place you made. A guestbook was a trace you left. A screen name was a tiny reinvention.',
-        'stories': ['a-web-you-could-make', 'choosing-your-screen-name', 'the-internet-came-in-the-mail'],
+        'stories': ['browser-wars-at-home', 'aol-flat-rate', 'webtv-on-the-sofa', 'a-web-you-could-make', 'choosing-your-screen-name', 'the-internet-came-in-the-mail'],
         'notes': [('Make a little corner of the web', 'Tiled stars, favorite links, a visitor counter, and an under-construction badge: a homepage could be proudly unfinished.'), ('Follow the next link', 'Webrings connected neighboring pages by shared interests. Guestbooks made a quiet visit visible.'), ('Pick your screen name', 'Buddy lists and away messages turned a shared family computer into a surprisingly personal social space.')],
     },
     '/zones/transparent-tech/': {
@@ -37,6 +37,9 @@ def collection(route, builder):
     notes = '<section class="collection-notes" id="collection-notes">'+''.join(f'<article><span class="ar-kicker">0{i+1}</span><h2>{esc(title)}</h2><p>{esc(copy)}</p></article>' for i,(title,copy) in enumerate(c['notes']))+'</section>'
     cards = '<section class="hub-section" id="collection-stories">'+ed.heading('The stories behind the style' if 'fashion' in route['path'] else 'Follow the connections','book')+'<div class="collection-stories">'+''.join(ar.story_card(s) for s in stories)+'</div></section>'
     exhibit = ''
+    if 'fashion' in route['path']:
+        events=[model.EVENT_BY_ID[key] for key in ['jacobs-grunge','fubu-begins']]
+        exhibit='<section class="hub-section">'+ed.heading('Where the references meet','calendar')+'<p class="hub-intro">A runway collection and a brand founded in Queens: two different routes from music and street culture into clothes.</p><div class="hub-event-grid">'+''.join(ar.event_card(e) for e in events)+'</div></section><section class="hub-section">'+ed.heading('Worn, photographed, collected','fashion')+'<p>These later object photographs show footwear designs used through the decade. They are labelled as references, with model and image credits on each object page.</p><div class="ed-two-up">'+''.join(ed.tile(ed.ARTIFACTS[key]['title'],model.object_url(ed.ARTIFACTS[key]),key,ed.ARTIFACTS[key]['label']) for key in ['dr-martens','vans-shoes'])+'</div></section>'
     if 'internet-culture' in route['path']:
         exhibit = '<section class="panel interactive-exhibit" id="homepage-exhibit"><p class="ar-kicker">INTERACTIVE EXHIBIT · ORIGINAL RECREATION</p><h2>Your first homepage</h2><p>Add a few essentials of the handmade web.</p>'+builder()+'<p><a href="/guestbook/">Try the guestbook preview →</a> · <a href="/tours/before-the-feed/">Take the personal web tour →</a></p></section>'
     return '<main id="main-content" class="ed-main">'+hero+notes+cards+exhibit+'</main>'
@@ -54,6 +57,10 @@ def page(route, search, resource_card, builder):
         categories = dict((r['categoryId'],r['category']) for r in resources)
         filters = ''.join(f'<button type="button" data-resource-filter="{key}" aria-pressed="{str(key=="all").lower()}">{esc(label)}</button>' for key,label in [('all','All resources'),*categories.items()])
         content = f'<section class="panel resource-console"><label for="resourceSearch">Find a resource</label><input id="resourceSearch" type="search" placeholder="Try GeoCities, DOS, music…" autocomplete="off" /><div class="resource-filters" aria-label="Resource categories">{filters}</div></section><section id="directory"><h2 class="ar-section-title">Out on the web</h2><p id="resourceCount" role="status">{len(resources)} external destinations</p><div id="resourceGrid" class="resource-grid">'+''.join(resource_card(r) for r in resources)+'</div><p id="resourceNoResults" class="ar-empty" hidden>No resources match. Try a shorter search or another category.</p></section>'
+        paths=[('Recover a vanished homepage','Start with a URL in the Wayback Machine, then explore the visual neighborhoods reconstructed by the GeoCities Gallery. A surviving snapshot may still have missing pictures or broken outgoing links.',['wayback-machine','the-geocities-gallery']),('Read around a game','The Video Game History Foundation’s archive and Retromags put magazines, promotional material and the culture around a game beside the executable itself. Compare what a game promised with how it was discussed.',['video-game-history-foundation-digital-archive','retromags']),('Identify the record in your hand','Discogs helps distinguish editions and formats; MusicBrainz provides another structured account of releases. Compare market, label and catalog information before turning one edition’s date into a worldwide claim.',['discogs','musicbrainz']),('Go behind the computer','Museum collections and oral histories connect hardware to people who designed and used it. They are useful companions to an object photograph when a remembered model and a similar-looking later revision are easy to confuse.',['computer-history-museum-collections','chm-oral-histories'])]
+        by_id={r['id']:r for r in resources}
+        curated='<section class="hub-section">'+ed.heading('Four paths worth following','folder')+'<div class="ed-two-up">'+''.join('<article class="ed-panel"><h2>'+esc(title)+'</h2><p>'+esc(copy)+'</p><nav class="ar-detail-links" aria-label="'+esc(title)+'">'+''.join(f'<a href="{esc(by_id[key]["url"])}">{esc(by_id[key]["title"])} ↗</a>' for key in ids)+'</nav></article>' for title,copy,ids in paths)+'</div></section>'
+        content=curated+content
     elif path == '/guestbook/':
         intro = ar.heading('INTERACTIVE EXHIBIT · ORIGINAL RECREATION','Preview a guestbook entry','Leave a little hello, just like the handmade web. This preview lasts only until you leave or refresh.')
         content = '''<div class="guestbook-layout"><section class="panel"><p id="guestbookNotice" class="sandbox-notice"><strong>Preview only.</strong> Nothing is sent, saved, published, or shared.</p><form id="guestbookForm" data-guestbook-form aria-describedby="guestbookNotice"><label>Your handle<input name="name" maxlength="24" placeholder="xX_sk8r_1997_Xx" required /></label><label>Your message<textarea name="message" maxlength="140" placeholder="this site rules!!!" required></textarea></label><button class="button primary" type="submit">Preview my entry — not saved</button></form><div class="guestbook-preview" data-guestbook-preview hidden aria-label="Guestbook entry preview" role="status"></div></section><aside class="panel"><p class="ar-kicker">SMALL TRACES, BIG CONNECTIONS</p><h2>Someone stopped by.</h2><p>Before likes and feeds, guestbooks gave visitors a way to say hello. A handle, a message, a link back home.</p><a href="/zones/internet-culture/">Explore Internet Culture →</a></aside></div>'''
@@ -75,7 +82,7 @@ def finish_main(route, main, shelf):
     main = re.sub(r'(<main\b[^>]*>)',lambda m:m[0]+ed.breadcrumb(route),main,count=1)
     if route.get('type') in ('years','zones') or path == '/':
         shelf_route = dict(route)
-        if path == '/': shelf_route['artifactIds'] = ['family-pc','cassette','n64-controller','vhs-tape']
+        if path == '/': shelf_route['artifactIds'] = ['minidisc','memory-card','digital-camera','talkboy']
         if '<!-- object-shelf -->' in main:main=main.replace('<!-- object-shelf -->',shelf(shelf_route))
         else:main = main.replace('</main>',shelf(shelf_route)+'</main>')
     # Explicit retired anchors point to the nearest corresponding live section.

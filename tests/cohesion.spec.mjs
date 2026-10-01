@@ -1,3 +1,4 @@
+import fs from 'node:fs';
 import {test,expect} from '@playwright/test';
 import AxeBuilder from '@axe-core/playwright';
 const routes=['/events/?category=culture','/zones/fashion/','/zones/transparent-tech/','/webring/','/guestbook/','/credits/','/sitemap/','/surprise/','/404.html'];
@@ -19,7 +20,7 @@ test('search pagination retains its place without losing the selected filter',as
  await expect(page.locator('.site-search-card:visible')).toHaveCount(18);
  await page.getByRole('button',{name:'Next →',exact:true}).click();
  await expect(page).toHaveURL(/filter=objects&page=2/);
- await expect(page.locator('.site-search-card:visible')).toHaveCount(12);
- await page.reload();await expect(page.locator('.site-search-card:visible')).toHaveCount(12);
+ await expect(page.locator('.site-search-card:visible')).toHaveCount(Math.min(18,JSON.parse(fs.readFileSync(new URL('../data/artifacts.json',import.meta.url),'utf8')).length-18));
+ await page.reload();await expect(page.locator('.site-search-card:visible')).toHaveCount(Math.min(18,JSON.parse(fs.readFileSync(new URL('../data/artifacts.json',import.meta.url),'utf8')).length-18));
  await page.goBack();await expect(page.locator('.site-search-card:visible')).toHaveCount(18);
 });

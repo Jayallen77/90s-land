@@ -32,13 +32,14 @@ for (const width of [390, 1440]) {
                 region.value = reg;
                 region.dispatchEvent(new Event('change'));
                 const expected = events.filter(event => event.date.startsWith(`${year}-${String(month).padStart(2, '0')}`) && (cat === 'all' || event.category === cat) && (reg === 'all' || event.region === reg)).length;
+                const calendarExpected = events.filter(event => event.datePrecision === 'day' && event.date.startsWith(`${year}-${String(month).padStart(2, '0')}`) && (cat === 'all' || event.category === cat) && (reg === 'all' || event.region === reg)).length;
                 for (const view of ['grid', 'list', 'calendar']) {
                   root.querySelector(`[data-archive-view="${view}"]`).click();
                   const empty = panel.querySelector('[data-month-empty]');
                   const calendarLinks = [...panel.querySelectorAll('.ar-calendar [data-event]')].filter(link => !link.hidden).length;
                   const cards = [...panel.querySelectorAll('.ar-event')].filter(card => !card.hidden).length;
                   const status = root.querySelector('[data-timeline-status]').textContent;
-                  if (empty.hidden !== (expected > 0) || (getComputedStyle(empty).display === 'none') !== (expected > 0) || !status.startsWith(`${expected} sourced `) || calendarLinks !== expected || cards !== (view === 'calendar' ? expected : Math.min(expected, 12))) {
+                  if (empty.hidden !== (expected > 0) || (getComputedStyle(empty).display === 'none') !== (expected > 0) || !status.startsWith(`${expected} sourced `) || calendarLinks !== calendarExpected || cards !== (view === 'calendar' ? expected : Math.min(expected, 12))) {
                     failures.push({year, month, cat, reg, view, width, expected, cards, calendarLinks, emptyHidden:empty.hidden, status});
                   }
                 }

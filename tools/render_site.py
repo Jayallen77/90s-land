@@ -709,7 +709,7 @@ def build_outputs() -> dict[Path, str]:
 
 
 def validate_catalogs() -> list[str]:
-    return validate_existing_catalogs(ROOT) + archive.validate()
+    return validate_existing_catalogs(ROOT, routes=ROUTES) + archive.validate()
 
 
 def main() -> int:

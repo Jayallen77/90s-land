@@ -46,13 +46,22 @@ export function initializeArchiveTimeline() {
       if (!active) return;
       const cards = [...panel.querySelectorAll('.ar-event')];
       const filtered = cards.filter(matches);
+      panel.querySelector('.ar-event-grid').dataset.hasMonthEvents = String(filtered.some(card => card.dataset.datePrecision === 'month'));
       total = filtered.length; pages = Math.max(1, Math.ceil(total/PAGE_SIZE));
       state.page = Math.min(pages, Math.floor(state.page));
       const pageItems = filtered.slice((state.page-1)*PAGE_SIZE, state.page*PAGE_SIZE);
       cards.forEach(card => { card.hidden = !(state.view === 'calendar' ? filtered : pageItems).includes(card); });
       panel.querySelectorAll('.ar-calendar [data-event]').forEach(link => { link.hidden = !matches(link); });
-      panel.querySelector('[data-month-empty]').hidden = total > 0;
+      const empty = panel.querySelector('[data-month-empty]');
+      empty.hidden = total > 0;
+      empty.textContent = total ? '' : 'No events match these filters. Try another category, region, or month.';
     });
+    const context = document.querySelector('[data-year-context]');
+    if (context) {
+      const cards = [...context.querySelectorAll('[data-event]')];
+      cards.forEach(card => {card.hidden = !matches(card);});
+      context.hidden = !cards.some(matches);
+    }
     rail.forEach(link => {
       const month = Number(link.dataset.month);
       link.href = url({...state, month, page:1});
@@ -203,13 +212,15 @@ export async function initializeWeek() {
     }));
     root.querySelector('[data-week-prev]').disabled = start <= MIN_DATE;
     root.querySelector('[data-week-next]').disabled = end >= MAX_DATE;
-    root.querySelector('[data-week-empty]').hidden = events.length > 0;
-    root.querySelector('[data-week-explainer]').textContent = custom ? 'Browsing a selected historical Monday–Sunday week. Choose “30 years ago” to return to today’s default.' : 'Monday–Sunday, containing the date 30 years before today in America/New_York. Dates beyond the archive are limited to 1990–1999.';
+    const empty = root.querySelector('[data-week-empty]');
+    empty.hidden = events.length > 0;
+    empty.textContent = events.length ? '' : 'No events in the archive for this week. Explore nearby dates below or browse the month.';
+    root.querySelector('[data-week-explainer]').textContent = custom ? 'Browsing a selected historical Monday–Sunday week. Choose “30 years ago” to return to today’s default.' : 'Monday–Sunday, containing the date 30 years before today in America/Denver. Dates beyond the archive are limited to 1990–1999.';
     const month = root.querySelector('[data-week-month]');
     month.href = `/timeline/${date.slice(0,4)}/?month=${date.slice(5,7)}#events-${date.slice(0,7)}`;
-    const nearby = root.querySelector('[data-week-nearby]'); nearby.hidden = events.length > 0;
-    if (!events.length) {
-      const nearest = [...catalog.events].sort((a,b) => Math.abs(parseDate(a.date)-parseDate(date))-Math.abs(parseDate(b.date)-parseDate(date))).slice(0,3).sort((a,b) => a.date.localeCompare(b.date));
+    const nearby = root.querySelector('[data-week-nearby]'); nearby.hidden = events.length >= 3;
+    if (events.length < 3) {
+      const nearest = catalog.events.filter(e => e.date < start || e.date > end).sort((a,b) => Math.abs(parseDate(a.date)-parseDate(date))-Math.abs(parseDate(b.date)-parseDate(date)) || a.date.localeCompare(b.date) || a.id.localeCompare(b.id)).slice(0,3).sort((a,b) => a.date.localeCompare(b.date));
       root.querySelector('[data-nearby-events]').replaceChildren(...nearest.map(e => eventLink(e,true)));
     }
     if (write) history.pushState(null,'', custom ? `?date=${date}` : location.pathname);

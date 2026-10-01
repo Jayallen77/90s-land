@@ -27,8 +27,13 @@ export function newYorkDate(now = new Date()) {
   const values = Object.fromEntries(parts.map(p => [p.type, p.value]));
   return `${values.year}-${values.month}-${values.day}`;
 }
+export function editorialDate(now = new Date()) {
+  const parts = new Intl.DateTimeFormat('en-US', {timeZone:'America/Denver',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(now);
+  const values = Object.fromEntries(parts.map(p => [p.type,p.value]));
+  return `${values.year}-${values.month}-${values.day}`;
+}
 export function historicalDate(now = new Date()) {
-  const today = newYorkDate(now);
+  const today = editorialDate(now);
   return clampDecade(changeYear(today, Number(today.slice(0,4)) - 30));
 }
 export function weekBounds(value) {
@@ -39,7 +44,7 @@ export function weekBounds(value) {
 }
 export function eventsInWeek(events, value) {
   const { start, end } = weekBounds(value);
-  return events.filter(event => event.date >= start && event.date <= end);
+  return events.filter(event => parseDate(event.date) && event.date >= start && event.date <= end);
 }
 export function formatDate(value, options = {}) {
   return new Intl.DateTimeFormat('en-US', {timeZone:'UTC', month:'short', day:'numeric', year:'numeric', ...options}).format(parseDate(value));

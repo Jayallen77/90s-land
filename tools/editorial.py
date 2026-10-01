@@ -113,7 +113,7 @@ def week_feature():
     import archive_content as archive
     day = archive.historical_date(date.fromisoformat(archive.CATALOG['buildAsOf']))
     start, end = archive.week_bounds(day)
-    picks = archive.selected_events([e for e in archive.EVENTS if start.isoformat() <= e['date'] <= end.isoformat()], movie_limit=2)
+    picks = archive.selected_events([e for e in archive.EVENTS if archive.is_day(e) and start.isoformat() <= e['date'] <= end.isoformat()], movie_limit=2)
     pick = picks[0] if picks else None
     summary = pick['summary'] if pick else 'Turn back the clock. Explore the week’s dates, the decade’s stories, and the objects you remember.'
     title = pick['title'] if pick else 'Open the historical week →'
@@ -125,7 +125,7 @@ def week_feature():
 def home():
     categories = [('Music','music','/zones/music/'),('Movies & TV','movies','/zones/tv-movies/'),('Games','games','/zones/games/'),('Tech','tech','/zones/tech-toys/'),('Culture','culture','/zones/culture/'),('Fashion','fashion','/zones/fashion/')]
     category_html = ''.join(f'<a class="ed-category ed-color-{i}" href="{href}">{icon(key)}<strong>{title}</strong></a>' for i,(title,key,href) in enumerate(categories))
-    picks = [('Friday night at the video store','/stories/friday-at-the-video-store/','blockbuster-store'),('The art of the mixtape','/stories/from-mixtape-to-file/','cassette'),('The controller that changed play','/stories/a-whole-new-dimension/','n64-controller'),('Before every room had a screen','/stories/the-family-computer/','family-pc'),('The transparent tech obsession','/stories/you-could-see-through-it/','game-boy-color'),('When the internet came in the mail','/stories/the-internet-came-in-the-mail/','aol-cd')]
+    picks = [('Bristol, between the beats','/stories/bristol-between-the-beats/','technics-turntable'),('The demo-disc evening','/stories/the-demo-disc-evening/','playstation-hardware'),('MiniDisc’s small door','/stories/minidisc-small-door/','minidisc'),('Calling the whole household','/stories/the-landline-negotiation/','answering-machine'),('Grunge: rack to runway','/stories/grunge-from-rack-to-runway/','dr-martens'),('The photo-lab gap','/stories/the-photo-lab-gap/','disposable-camera')]
     from archive_content import YEARS
     years='<section class="ed-home-decade" id="browse-decade">'+heading('Browse the decade','calendar')+'<nav class="ed-decade" aria-label="Browse a year">'+''.join(f'<a href="/timeline/{y}/" aria-label="{y}: {esc(YEARS[y]["caption"])}">{y}</a>' for y in range(1990,2000))+'</nav></section>'
     finder='<form class="ed-home-search" action="/search/" role="search"><label for="home-search">Something on your mind?</label><input id="home-search" name="q" type="search" placeholder="Try N64, Friends, or 1998" /><button type="submit" class="button">Search the museum →</button></form>'

@@ -1,8 +1,12 @@
 import { test, expect } from '@playwright/test';
 import AxeBuilder from '@axe-core/playwright';
 import catalog from '../content/editorial/catalog.json' with { type: 'json' };
+import fs from 'node:fs';
+import {historicalDate,eventsInWeek} from '../js/date-utils.js';
+const releaseManifest=new URL('../dist/release/release-manifest.json',import.meta.url);
+const savedAsOf=process.env.PLAYWRIGHT_BASE_URL&&fs.existsSync(releaseManifest)?JSON.parse(fs.readFileSync(releaseManifest,'utf8')).editorialAsOf:catalog.buildAsOf;
 const juneCount = catalog.events.filter(e => e.date.startsWith('1996-06')).length;
-const savedWeekCount = catalog.events.filter(e => '1996-09-23' <= e.date && e.date <= '1996-09-29').length;
+const savedWeekCount = eventsInWeek(catalog.events,historicalDate(new Date(`${savedAsOf}T12:00:00-06:00`))).length;
 
 test('calendar filters, view and month survive reload and browser history', async ({ page }) => {
   await page.goto('/timeline/1996/?month=06&view=calendar');
@@ -66,7 +70,7 @@ test('a growing month paginates cards while calendar retains all its dates', asy
   await expect(page.locator('[data-month-panel="6"] .ar-calendar [data-event]:visible')).toHaveCount(juneCount);
 });
 
-test('home and weekly defaults agree on the New York date and historical week', async ({ page }) => {
+test('home and weekly defaults agree on the Denver date and historical week', async ({ page }) => {
   await page.clock.setFixedTime(new Date('2026-09-28T02:00:00Z'));
   await page.goto('/');
   await expect(page.locator('#this-week .ed-date')).toHaveText('Sep 23, 1996 – Sep 29, 1996');
@@ -75,7 +79,7 @@ test('home and weekly defaults agree on the New York date and historical week', 
   await expect(page.locator('[data-week-date]')).toHaveValue('1996-09-27');
   await expect(page.locator('[data-week-range]')).toHaveText('Sep 23, 1996 – Sep 29, 1996');
   await expect(page.locator('[data-week-days] .ar-day')).toHaveCount(7);
-  await expect(page.locator('[data-week-days] .ar-week-event')).toHaveCount(savedWeekCount);
+  await expect(page.locator('[data-week-days] .ar-week-event')).toHaveCount(eventsInWeek(catalog.events,'1996-09-27').length);
   await expect(page.locator('[data-week-days]')).toContainText('Nintendo 64');
 });
 
@@ -119,7 +123,11 @@ test('search finds dates, regions, accents, stories and object detail records', 
   await expect(results).toHaveCount(1);
   await expect(results).toHaveAttribute('href','/events/pokemon-red-green-japan/');
   await page.locator('#siteSearchInput').fill('1996 Japan');
-  await expect(results).toHaveCount(5);
+  for (const event of catalog.events.filter(e=>e.date.startsWith('1996')&&e.region.includes('Japan'))) {
+    await expect(page.locator(`.site-search-card:visible[href="/events/${event.slug}/"]`)).toBeVisible();
+  }
+  // Full-text matches also find the Japanese satellite in the STS-72 records.
+  await expect(results.filter({hasText:'Endeavour begins STS-72'})).toBeVisible();
   await page.goto('/search/?q=symmetry&filter=stories');
   await expect(results).toHaveCount(1);
   await results.click();

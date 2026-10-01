@@ -16,8 +16,8 @@ class ArchiveTests(unittest.TestCase):
     def test_reviewed_catalog_is_valid(self):
         self.assertEqual(archive.validate(),[])
 
-    def test_unknown_sources_and_imprecise_dates_cannot_publish(self):
-        for field,value,message in [('sourceIds',['missing'],'Unknown source'),('datePrecision','month','day precision'),('date','1996-02-30','Invalid event date'),('date','2000-01-01','outside decade'),('storyIds',['missing'],'Unknown story')]:
+    def test_unknown_sources_and_mismatched_date_precision_cannot_publish(self):
+        for field,value,message in [('sourceIds',['missing'],'Unknown source'),('datePrecision','month','Invalid event date'),('date','1996-02-30','Invalid event date'),('date','2000-01-01','outside decade'),('storyIds',['missing'],'Unknown story')]:
             with self.subTest(field=field):
                 data=copy.deepcopy(archive.CATALOG)
                 data['events'][0][field]=value

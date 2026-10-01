@@ -18,6 +18,7 @@ EXCLUDED = [
     '/requirements-dev.txt', '/playwright.config.mjs', '/node_modules/',
     '/content/pages.json', '/content/deep-links.json', '/content/editorial/catalog.json', '/content/editorial/modules.json',
     '/content/migration/', '/data/artifacts.json', '/data/editorial-index.json',
+    '/content/research/notion-2026-10-01.json', '/content/research/expansion/selected-media.json',
     '/data/routes.json', '/data/resources.json', '/data/search-index.json', '/data/social-cards.json',
     '/data/asset-variants.json', '/data/tours.json', '/data/stamps.json', '/data/navigation.json',
     '/tools/build_release.py', '/tools/deploy_release.py', '/tools/product_pages.py', '/tests/test_release.py',

@@ -83,9 +83,10 @@ test("Surprise Me excludes the three most recent choices", async ({ page }) => {
 
 test("passport persists and resets through confirmation", async ({ page }) => {
   await page.goto("/");
-  await page.locator('[data-artifact-inspect="family-pc"]').click();
+  const objectId = await page.locator('[data-artifact-inspect]').first().getAttribute('data-artifact-inspect');
+  await page.locator(`[data-artifact-inspect="${objectId}"]`).click();
   await page.reload();
-  await expect(page.locator('[data-artifact-inspect="family-pc"]')).toHaveText(
+  await expect(page.locator(`[data-artifact-inspect="${objectId}"]`)).toHaveText(
     "Inspected ✓"
   );
   await page.locator("[data-passport-trigger]").click();

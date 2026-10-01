@@ -165,3 +165,9 @@
 
 .ar-week-picks{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:16px 0 24px}.ar-week-picks>*{min-width:0}.ar-week-picks .ar-week-event{padding:16px;border:1px solid #34375d;background:#080e20}.ar-week-picks h3{font:700 24px/1.1 var(--ed-label);margin:10px 0}.ar-week-picks p{font-size:15px;line-height:1.45}.stamp-state{font-weight:700;color:#bbc3d7}.is-earned .stamp-state{color:#39d9dd}
 @media(max-width:700px){.ar-week-picks{grid-template-columns:1fr}}
+
+/* Month-precision milestones remain visible without occupying a fabricated day. */
+@media(min-width:521px) {
+  [data-timeline][data-view="calendar"] .ar-event-grid[data-has-month-events="true"] { display: grid; margin-bottom: 1rem; }
+  [data-timeline][data-view="calendar"] .ar-event-grid [data-date-precision="day"] { display: none; }
+}

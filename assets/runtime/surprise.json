@@ -270,6 +270,195 @@
     "target": "/stories/choosing-your-screen-name/"
   },
   {
+    "id": "story-aol-flat-rate",
+    "kind": "story",
+    "title": "When the internet stopped charging by the hour",
+    "teaser": "AOL’s 1996 flat-rate announcement changed the clock on the family computer—and exposed the limits of the network behind it.",
+    "dateLabel": "The 1990s",
+    "room": "Tech story",
+    "target": "/stories/aol-flat-rate/"
+  },
+  {
+    "id": "story-browser-wars-at-home",
+    "kind": "story",
+    "title": "The browser wars reached the family desktop",
+    "teaser": "Navigator and Internet Explorer competed over more than a window: they helped decide how a new web looked and who could build for it.",
+    "dateLabel": "The 1990s",
+    "room": "Tech story",
+    "target": "/stories/browser-wars-at-home/"
+  },
+  {
+    "id": "story-minidisc-small-door",
+    "kind": "story",
+    "title": "MiniDisc put a little door around your music",
+    "teaser": "A protected disc, editable track order and a recording ritual made MiniDisc a distinct alternative to both tape and the portable CD.",
+    "dateLabel": "The 1990s",
+    "room": "Tech story",
+    "target": "/stories/minidisc-small-door/"
+  },
+  {
+    "id": "story-carrying-files-home",
+    "kind": "story",
+    "title": "Before the cloud, you carried the file home",
+    "teaser": "Floppies and Zip disks made the trip between computers part of the work—and compatibility part of every handoff.",
+    "dateLabel": "The 1990s",
+    "room": "Tech story",
+    "target": "/stories/carrying-files-home/"
+  },
+  {
+    "id": "story-webtv-on-the-sofa",
+    "kind": "story",
+    "title": "WebTV asked the sofa to become a computer desk",
+    "teaser": "A television, a phone line and a small box offered a different household doorway to the web in 1996.",
+    "dateLabel": "The 1990s",
+    "room": "Tech story",
+    "target": "/stories/webtv-on-the-sofa/"
+  },
+  {
+    "id": "story-the-demo-disc-evening",
+    "kind": "story",
+    "title": "A demo disc could take over an evening",
+    "teaser": "A magazine-sized sample became a playable collection: short levels, repeated discoveries and games that existed as possibilities.",
+    "dateLabel": "The 1990s",
+    "room": "Games story",
+    "target": "/stories/the-demo-disc-evening/"
+  },
+  {
+    "id": "story-shareware-before-download-stores",
+    "kind": "story",
+    "title": "Shareware made the first episode a doorway",
+    "teaser": "Doom and the PC’s distributed game culture turned a free portion into an invitation to a much larger world.",
+    "dateLabel": "The 1990s",
+    "room": "Games story",
+    "target": "/stories/shareware-before-download-stores/"
+  },
+  {
+    "id": "story-handhelds-and-batteries",
+    "kind": "story",
+    "title": "Portable play still needed a plan",
+    "teaser": "Game Gear, Game Boy and the battery compartment reveal the practical side of taking a game out of the living room.",
+    "dateLabel": "The 1990s",
+    "room": "Games story",
+    "target": "/stories/handhelds-and-batteries/"
+  },
+  {
+    "id": "story-bristol-between-the-beats",
+    "kind": "story",
+    "title": "Bristol left room between the beats",
+    "teaser": "Massive Attack, Portishead and Tricky offer three different ways into a city’s music—and a warning against making one genre name do too much.",
+    "dateLabel": "The 1990s",
+    "room": "Music story",
+    "target": "/stories/bristol-between-the-beats/"
+  },
+  {
+    "id": "story-breakbeats-change-the-clock",
+    "kind": "story",
+    "title": "Breakbeats changed the clock on the dancefloor",
+    "teaser": "Jungle and drum & bass made fast percussion, slower atmosphere and intricate editing part of the same musical space.",
+    "dateLabel": "The 1990s",
+    "room": "Music story",
+    "target": "/stories/breakbeats-change-the-clock/"
+  },
+  {
+    "id": "story-sampling-a-record-collection",
+    "kind": "story",
+    "title": "A record collection could become an instrument",
+    "teaser": "Hip-hop sampling turned listening, selection and arrangement into connected forms of musical work.",
+    "dateLabel": "The 1990s",
+    "room": "Music story",
+    "target": "/stories/sampling-a-record-collection/"
+  },
+  {
+    "id": "story-rnb-had-many-voices",
+    "kind": "story",
+    "title": "90s R&B had room for many kinds of voice",
+    "teaser": "From vocal groups to hip-hop soul and the records gathered under neo-soul, the decade’s R&B story keeps widening.",
+    "dateLabel": "The 1990s",
+    "room": "Music story",
+    "target": "/stories/rnb-had-many-voices/"
+  },
+  {
+    "id": "story-record-store-discovery",
+    "kind": "story",
+    "title": "The record shop had its own search engine",
+    "teaser": "Genres, sleeves, staff knowledge and a limited budget turned buying music into a physical process of discovery.",
+    "dateLabel": "The 1990s",
+    "room": "Music story",
+    "target": "/stories/record-store-discovery/"
+  },
+  {
+    "id": "story-grunge-from-rack-to-runway",
+    "kind": "story",
+    "title": "Grunge changed meaning between the thrift rack and the runway",
+    "teaser": "Flannel, worn boots and layered clothes carried different meanings in a music scene, a shop and a designer collection.",
+    "dateLabel": "The 1990s",
+    "room": "Culture story",
+    "target": "/stories/grunge-from-rack-to-runway/"
+  },
+  {
+    "id": "story-streetwear-the-logo-and-the-voice",
+    "kind": "story",
+    "title": "A logo could say who the clothes were for",
+    "teaser": "FUBU, sportswear and hip-hop fashion made authorship, belonging and visibility part of getting dressed.",
+    "dateLabel": "The 1990s",
+    "room": "Culture story",
+    "target": "/stories/streetwear-the-logo-and-the-voice/"
+  },
+  {
+    "id": "story-skate-rave-and-room-to-move",
+    "kind": "story",
+    "title": "Skate clothes and rave clothes needed room to move",
+    "teaser": "Wide silhouettes, practical shoes and synthetic surfaces connect style to bodies doing things—not just a list of brands.",
+    "dateLabel": "The 1990s",
+    "room": "Culture story",
+    "target": "/stories/skate-rave-and-room-to-move/"
+  },
+  {
+    "id": "story-the-landline-negotiation",
+    "kind": "story",
+    "title": "Calling a friend meant calling a household",
+    "teaser": "The landline made conversation depend on other people’s rooms, routines and willingness to pass the phone.",
+    "dateLabel": "The 1990s",
+    "room": "Culture story",
+    "target": "/stories/the-landline-negotiation/"
+  },
+  {
+    "id": "story-the-photo-lab-gap",
+    "kind": "story",
+    "title": "The photograph came home later",
+    "teaser": "Disposable cameras and photo labs separated taking a picture from knowing what the picture would become.",
+    "dateLabel": "The 1990s",
+    "room": "Culture story",
+    "target": "/stories/the-photo-lab-gap/"
+  },
+  {
+    "id": "story-computer-lab-and-book-fair",
+    "kind": "story",
+    "title": "School had its own routes into the future",
+    "teaser": "The computer lab and the book fair made discovery shared, scheduled and full of physical choices.",
+    "dateLabel": "The 1990s",
+    "room": "Culture story",
+    "target": "/stories/computer-lab-and-book-fair/"
+  },
+  {
+    "id": "story-holiday-toys-that-answered-back",
+    "kind": "story",
+    "title": "The toy aisle began answering back",
+    "teaser": "Tamagotchi and Furby made care, response and personality part of the toy’s appeal, in very different forms.",
+    "dateLabel": "The 1990s",
+    "room": "Culture story",
+    "target": "/stories/holiday-toys-that-answered-back/"
+  },
+  {
+    "id": "story-snick-the-saturday-room",
+    "kind": "story",
+    "title": "SNICK gave Saturday night a different room",
+    "teaser": "Nickelodeon’s evening identity offered older children a television space distinct from both the morning cartoon block and adult prime time.",
+    "dateLabel": "The 1990s",
+    "room": "Movies & TV story",
+    "target": "/stories/snick-the-saturday-room/"
+  },
+  {
     "id": "family-pc",
     "kind": "object",
     "title": "The family computer becomes a portal",
@@ -538,6 +727,294 @@
     "dateLabel": "1998–1999",
     "room": "Object archive",
     "target": "/archive/objects/transparent-n64-controller/"
+  },
+  {
+    "id": "snes",
+    "kind": "object",
+    "title": "Super Nintendo, North American edition",
+    "teaser": "A console with room for a whole library.",
+    "dateLabel": "1991–1999 · era of use",
+    "room": "Object archive",
+    "target": "/archive/objects/snes/"
+  },
+  {
+    "id": "game-gear",
+    "kind": "object",
+    "title": "Sega Game Gear",
+    "teaser": "Color gaming with a battery budget.",
+    "dateLabel": "1990–1999 · era of use",
+    "room": "Object archive",
+    "target": "/archive/objects/game-gear/"
+  },
+  {
+    "id": "saturn",
+    "kind": "object",
+    "title": "Sega Saturn, first US case",
+    "teaser": "Another future arrived on a disc.",
+    "dateLabel": "1995–1999 · era of use",
+    "room": "Object archive",
+    "target": "/archive/objects/saturn/"
+  },
+  {
+    "id": "minidisc",
+    "kind": "object",
+    "title": "Sony MZ-1 and a MiniDisc",
+    "teaser": "A recording tucked inside a protective shell.",
+    "dateLabel": "1992–1999 · era of use",
+    "room": "Object archive",
+    "target": "/archive/objects/minidisc/"
+  },
+  {
+    "id": "palm-pilot",
+    "kind": "object",
+    "title": "PalmPilot Professional",
+    "teaser": "The calendar could leave the desk.",
+    "dateLabel": "1997–1999 · era of use",
+    "room": "Object archive",
+    "target": "/archive/objects/palm-pilot/"
+  },
+  {
+    "id": "nokia-3210",
+    "kind": "object",
+    "title": "Nokia 3210",
+    "teaser": "A pocket phone at the edge of the decade.",
+    "dateLabel": "1999–1999 · era of use",
+    "room": "Object archive",
+    "target": "/archive/objects/nokia-3210/"
+  },
+  {
+    "id": "zip-drive",
+    "kind": "object",
+    "title": "Iomega Zip 100 drive and disk",
+    "teaser": "The project that would not fit on a floppy.",
+    "dateLabel": "1995–1999 · era of use",
+    "room": "Object archive",
+    "target": "/archive/objects/zip-drive/"
+  },
+  {
+    "id": "floppy-disk",
+    "kind": "object",
+    "title": "A 3½-inch floppy disk",
+    "teaser": "A label, a shutter, a little uncertainty.",
+    "dateLabel": "1990–1999 · era of use",
+    "room": "Object archive",
+    "target": "/archive/objects/floppy-disk/"
+  },
+  {
+    "id": "memory-card",
+    "kind": "object",
+    "title": "PlayStation memory card",
+    "teaser": "Progress became something you could carry.",
+    "dateLabel": "1994–1999 · era of use",
+    "room": "Object archive",
+    "target": "/archive/objects/memory-card/"
+  },
+  {
+    "id": "game-shark",
+    "kind": "object",
+    "title": "GameShark for PlayStation",
+    "teaser": "The rulebook had a hardware addendum.",
+    "dateLabel": "1990–1999 · era of use",
+    "room": "Object archive",
+    "target": "/archive/objects/game-shark/"
+  },
+  {
+    "id": "webtv",
+    "kind": "object",
+    "title": "The WebTV launch units",
+    "teaser": "The browser tried another room.",
+    "dateLabel": "1996–1999 · era of use",
+    "room": "Object archive",
+    "target": "/archive/objects/webtv/"
+  },
+  {
+    "id": "quickcam",
+    "kind": "object",
+    "title": "Connectix QuickCam for Macintosh",
+    "teaser": "A small eye beside the screen.",
+    "dateLabel": "1994–1999 · era of use",
+    "room": "Object archive",
+    "target": "/archive/objects/quickcam/"
+  },
+  {
+    "id": "disposable-camera",
+    "kind": "object",
+    "title": "Fujifilm QuickSnap Flash",
+    "teaser": "The picture was taken; the result came later.",
+    "dateLabel": "1990–1999 · era of use",
+    "room": "Object archive",
+    "target": "/archive/objects/disposable-camera/"
+  },
+  {
+    "id": "talkboy",
+    "kind": "object",
+    "title": "Deluxe Talkboy recorder",
+    "teaser": "Playback made a voice into a toy.",
+    "dateLabel": "1993–1999 · era of use",
+    "room": "Object archive",
+    "target": "/archive/objects/talkboy/"
+  },
+  {
+    "id": "beanie-baby",
+    "kind": "object",
+    "title": "A collection of Beanie Baby bears",
+    "teaser": "The tag was part of the object.",
+    "dateLabel": "1993–1999 · era of use",
+    "room": "Object archive",
+    "target": "/archive/objects/beanie-baby/"
+  },
+  {
+    "id": "pogs",
+    "kind": "object",
+    "title": "A game of Pogs",
+    "teaser": "The collection could become the game.",
+    "dateLabel": "1990–1999 · era of use",
+    "room": "Object archive",
+    "target": "/archive/objects/pogs/"
+  },
+  {
+    "id": "super-soaker",
+    "kind": "object",
+    "title": "CPS 2000 water blaster",
+    "teaser": "The backyard became a design problem.",
+    "dateLabel": "1996–1999 · era of use",
+    "room": "Object archive",
+    "target": "/archive/objects/super-soaker/"
+  },
+  {
+    "id": "walkman",
+    "kind": "object",
+    "title": "Sony WM-FX151 cassette Walkman",
+    "teaser": "A personal soundtrack, with a side break.",
+    "dateLabel": "1990–1999 · era of use",
+    "room": "Object archive",
+    "target": "/archive/objects/walkman/"
+  },
+  {
+    "id": "tb-303",
+    "kind": "object",
+    "title": "Roland TB-303 Bass Line",
+    "teaser": "A bass machine with an afterlife.",
+    "dateLabel": "1990–1999 · era of use",
+    "room": "Object archive",
+    "target": "/archive/objects/tb-303/"
+  },
+  {
+    "id": "mpc-2000",
+    "kind": "object",
+    "title": "Akai MPC2000",
+    "teaser": "Pads turned a fragment into a performance.",
+    "dateLabel": "1997–1999 · era of use",
+    "room": "Object archive",
+    "target": "/archive/objects/mpc-2000/"
+  },
+  {
+    "id": "mc-303",
+    "kind": "object",
+    "title": "Roland MC-303 Groovebox",
+    "teaser": "Patterns in a single desktop instrument.",
+    "dateLabel": "1996–1999 · era of use",
+    "room": "Object archive",
+    "target": "/archive/objects/mc-303/"
+  },
+  {
+    "id": "technics-turntable",
+    "kind": "object",
+    "title": "Technics SL-1200MK2",
+    "teaser": "The record player was also an instrument.",
+    "dateLabel": "1990–1999 · era of use",
+    "room": "Object archive",
+    "target": "/archive/objects/technics-turntable/"
+  },
+  {
+    "id": "korg-m1",
+    "kind": "object",
+    "title": "Korg M1 workstation",
+    "teaser": "A keyboard carried more than one sound.",
+    "dateLabel": "1990–1999 · era of use",
+    "room": "Object archive",
+    "target": "/archive/objects/korg-m1/"
+  },
+  {
+    "id": "dat-recorder",
+    "kind": "object",
+    "title": "Sony TCD-D100 DAT recorder",
+    "teaser": "Digital recording still needed a tape.",
+    "dateLabel": "1997–1999 · era of use",
+    "room": "Object archive",
+    "target": "/archive/objects/dat-recorder/"
+  },
+  {
+    "id": "jewel-case",
+    "kind": "object",
+    "title": "The CD jewel case",
+    "teaser": "A small display cabinet for an album.",
+    "dateLabel": "1990–1999 · era of use",
+    "room": "Object archive",
+    "target": "/archive/objects/jewel-case/"
+  },
+  {
+    "id": "dr-martens",
+    "kind": "object",
+    "title": "Worn Dr. Martens 1460 boots",
+    "teaser": "The sole remembered the route.",
+    "dateLabel": "1990–1999 · era of use",
+    "room": "Object archive",
+    "target": "/archive/objects/dr-martens/"
+  },
+  {
+    "id": "vans-shoes",
+    "kind": "object",
+    "title": "Vans Old Skool shoes",
+    "teaser": "The shoe had a job before the outfit.",
+    "dateLabel": "1990–1999 · era of use",
+    "room": "Object archive",
+    "target": "/archive/objects/vans-shoes/"
+  },
+  {
+    "id": "answering-machine",
+    "kind": "object",
+    "title": "Panasonic cassette answering machine",
+    "teaser": "The household had an audible inbox.",
+    "dateLabel": "1990–1999 · era of use",
+    "room": "Object archive",
+    "target": "/archive/objects/answering-machine/"
+  },
+  {
+    "id": "super-famicom",
+    "kind": "object",
+    "title": "Nintendo Super Famicom",
+    "teaser": "The same generation wore another case.",
+    "dateLabel": "1990–1999 · era of use",
+    "room": "Object archive",
+    "target": "/archive/objects/super-famicom/"
+  },
+  {
+    "id": "digital-camera",
+    "kind": "object",
+    "title": "Casio QV-10",
+    "teaser": "A photograph you could inspect immediately.",
+    "dateLabel": "1995–1999 · era of use",
+    "room": "Object archive",
+    "target": "/archive/objects/digital-camera/"
+  },
+  {
+    "id": "powerbook",
+    "kind": "object",
+    "title": "Apple PowerBook 100",
+    "teaser": "The computer began to travel differently.",
+    "dateLabel": "1991–1999 · era of use",
+    "room": "Object archive",
+    "target": "/archive/objects/powerbook/"
+  },
+  {
+    "id": "newton",
+    "kind": "object",
+    "title": "Apple Newton MessagePad",
+    "teaser": "A note could begin on a pocket screen.",
+    "dateLabel": "1993–1999 · era of use",
+    "room": "Object archive",
+    "target": "/archive/objects/newton/"
   },
   {
     "id": "event-mandela-released",

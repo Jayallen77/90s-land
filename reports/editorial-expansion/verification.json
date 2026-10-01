@@ -1,0 +1,65 @@
+{
+  "reviewedAt": "2026-10-01",
+  "baseline": {
+    "commit": "9338ae59009e2cb9adc4972827c117520a8fc222",
+    "events": 442,
+    "stories": 30,
+    "objects": 30,
+    "routes": 533
+  },
+  "current": {
+    "events": 635,
+    "stories": 51,
+    "objects": 62,
+    "sources": 217,
+    "routes": 779,
+    "indexableRoutes": 777,
+    "shareCards": 245,
+    "runtimeFiles": 1265
+  },
+  "notionResearch": {
+    "dailyEventRecords": 288,
+    "pipelineIdeas": 19,
+    "rawExportsPublic": false
+  },
+  "release": {
+    "editorialAsOf": "2026-10-01",
+    "contentDigest": "016f3c11524d9f1c32947da45d14d1673197eea8dac75bd3d9f8f4929f9ebef1",
+    "httpErrors": [],
+    "privateProbes": 58,
+    "encodingSamples": 12
+  },
+  "checks": {
+    "python": {
+      "passed": 54,
+      "total": 54
+    },
+    "datesAndDiscovery": {
+      "passed": 9,
+      "total": 9
+    },
+    "browser": {
+      "passed": 198,
+      "total": 198,
+      "target": "verified release at http://127.0.0.1:4176"
+    },
+    "responsiveViews": 56,
+    "visualFailures": [],
+    "publicationErrors": [],
+    "lighthouse": {
+      "views": 8,
+      "minimumPerformance": 96,
+      "maximumPerformance": 100,
+      "minimumAccessibility": 100,
+      "minimumBestPractices": 100,
+      "minimumSeo": 100,
+      "maximumCls": 0.0017045600666170506,
+      "errors": []
+    }
+  },
+  "publicationBoundary": {
+    "productionTargetConfirmed": false,
+    "productionDeploymentPerformed": false,
+    "productionDailyScheduleInstalled": false
+  }
+}

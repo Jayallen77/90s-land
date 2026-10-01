@@ -451,6 +451,25 @@
       }
     },
     {
+      "id": "sfc-f-zero",
+      "title": "F-Zero reaches Super Famicom in Japan",
+      "date": "1990-11-21",
+      "category": "games",
+      "theme": "games",
+      "region": "Japan",
+      "summary": "A futuristic racing game turns the launch-era Super Famicom into a demonstration of speed, depth and an unusually exposed track.",
+      "defining": false,
+      "url": "/events/sfc-f-zero/",
+      "image": {
+        "src": "/assets/generated/editorial/super-famicom-480.webp",
+        "alt": "Nintendo Super Famicom. Later object photograph; see the display note for model and era.",
+        "width": 960,
+        "height": 499,
+        "srcset": "/assets/generated/editorial/super-famicom-240.webp 240w, /assets/generated/editorial/super-famicom-480.webp 480w, /assets/generated/editorial/super-famicom-960.webp 960w",
+        "sizes": "(max-width: 600px) 90vw, 720px"
+      }
+    },
+    {
       "id": "super-mario-world-japan",
       "title": "Super Mario World introduces Yoshi",
       "date": "1990-11-21",
@@ -742,6 +761,25 @@
       }
     },
     {
+      "id": "sfc-ganbare-goemon-yukihime-kyushutsu-emaki",
+      "title": "Ganbare Goemon: Yukihime Kyūshutsu Emaki reaches Super Famicom in Japan",
+      "date": "1991-07-19",
+      "category": "games",
+      "theme": "games",
+      "region": "Japan",
+      "summary": "Goemon’s journey mixes an imagined historical Japan with conspicuously modern jokes and attractions.",
+      "defining": false,
+      "url": "/events/sfc-ganbare-goemon-yukihime-kyushutsu-emaki/",
+      "image": {
+        "src": "/assets/generated/editorial/super-famicom-480.webp",
+        "alt": "Nintendo Super Famicom. Later object photograph; see the display note for model and era.",
+        "width": 960,
+        "height": 499,
+        "srcset": "/assets/generated/editorial/super-famicom-240.webp 240w, /assets/generated/editorial/super-famicom-480.webp 480w, /assets/generated/editorial/super-famicom-960.webp 960w",
+        "sizes": "(max-width: 600px) 90vw, 720px"
+      }
+    },
+    {
       "id": "film-hot-shots-1991",
       "title": "Hot Shots! reaches theaters",
       "date": "1991-07-31",
@@ -901,6 +939,25 @@
       }
     },
     {
+      "id": "sfc-super-ghouls-n-ghosts",
+      "title": "Super Ghouls ’n Ghosts reaches Super Famicom in Japan",
+      "date": "1991-10-04",
+      "category": "games",
+      "theme": "games",
+      "region": "Japan",
+      "summary": "Arthur’s fragile armor and demanding jumps make progress a matter of learning a level’s timing.",
+      "defining": false,
+      "url": "/events/sfc-super-ghouls-n-ghosts/",
+      "image": {
+        "src": "/assets/generated/editorial/super-famicom-480.webp",
+        "alt": "Nintendo Super Famicom. Later object photograph; see the display note for model and era.",
+        "width": 960,
+        "height": 499,
+        "srcset": "/assets/generated/editorial/super-famicom-240.webp 240w, /assets/generated/editorial/super-famicom-480.webp 480w, /assets/generated/editorial/super-famicom-960.webp 960w",
+        "sizes": "(max-width: 600px) 90vw, 720px"
+      }
+    },
+    {
       "id": "film-other-people-s-money-1991",
       "title": "Other People's Money reaches theaters",
       "date": "1991-10-18",
@@ -998,6 +1055,25 @@
       }
     },
     {
+      "id": "sfc-super-formation-soccer",
+      "title": "Super Formation Soccer reaches Super Famicom in Japan",
+      "date": "1991-12-13",
+      "category": "games",
+      "theme": "games",
+      "region": "Japan",
+      "summary": "A view from behind the action gives a football match a different feel from a side-on sports game.",
+      "defining": false,
+      "url": "/events/sfc-super-formation-soccer/",
+      "image": {
+        "src": "/assets/generated/editorial/super-famicom-480.webp",
+        "alt": "Nintendo Super Famicom. Later object photograph; see the display note for model and era.",
+        "width": 960,
+        "height": 499,
+        "srcset": "/assets/generated/editorial/super-famicom-240.webp 240w, /assets/generated/editorial/super-famicom-480.webp 480w, /assets/generated/editorial/super-famicom-960.webp 960w",
+        "sizes": "(max-width: 600px) 90vw, 720px"
+      }
+    },
+    {
       "id": "film-father-of-the-bride-1991",
       "title": "Father of the Bride reaches theaters",
       "date": "1991-12-20",
@@ -1080,6 +1156,25 @@
         "alt": "Original illustrated collage of 90s objects.",
         "width": 768,
         "height": 256
+      }
+    },
+    {
+      "id": "sfc-contra-spirits",
+      "title": "Contra Spirits reaches Super Famicom in Japan",
+      "date": "1992-02-28",
+      "category": "games",
+      "theme": "games",
+      "region": "Japan",
+      "summary": "Contra Spirits, known in North America as Contra III, alternates side-view action with overhead stages.",
+      "defining": false,
+      "url": "/events/sfc-contra-spirits/",
+      "image": {
+        "src": "/assets/generated/editorial/super-famicom-480.webp",
+        "alt": "Nintendo Super Famicom. Later object photograph; see the display note for model and era.",
+        "width": 960,
+        "height": 499,
+        "srcset": "/assets/generated/editorial/super-famicom-240.webp 240w, /assets/generated/editorial/super-famicom-480.webp 480w, /assets/generated/editorial/super-famicom-960.webp 960w",
+        "sizes": "(max-width: 600px) 90vw, 720px"
       }
     },
     {
@@ -1647,6 +1742,25 @@
       }
     },
     {
+      "id": "sfc-star-fox",
+      "title": "Star Fox reaches Super Famicom in Japan",
+      "date": "1993-02-21",
+      "category": "games",
+      "theme": "games",
+      "region": "Japan",
+      "summary": "Polygonal spacecraft and landscapes make the Super Famicom experiment with a different visual vocabulary.",
+      "defining": false,
+      "url": "/events/sfc-star-fox/",
+      "image": {
+        "src": "/assets/generated/editorial/super-famicom-480.webp",
+        "alt": "Nintendo Super Famicom. Later object photograph; see the display note for model and era.",
+        "width": 960,
+        "height": 499,
+        "srcset": "/assets/generated/editorial/super-famicom-240.webp 240w, /assets/generated/editorial/super-famicom-480.webp 480w, /assets/generated/editorial/super-famicom-960.webp 960w",
+        "sizes": "(max-width: 600px) 90vw, 720px"
+      }
+    },
+    {
       "id": "film-point-of-no-return-1993",
       "title": "Point of No Return reaches theaters",
       "date": "1993-03-19",
@@ -1862,6 +1976,25 @@
         "alt": "Original illustrated collage of 90s objects.",
         "width": 768,
         "height": 256
+      }
+    },
+    {
+      "id": "sfc-secret-of-mana-seiken-densetsu-2",
+      "title": "Secret of Mana / Seiken Densetsu 2 reaches Super Famicom in Japan",
+      "date": "1993-08-06",
+      "category": "games",
+      "theme": "games",
+      "region": "Japan",
+      "summary": "An action role-playing adventure lets several characters occupy the journey together.",
+      "defining": false,
+      "url": "/events/sfc-secret-of-mana-seiken-densetsu-2/",
+      "image": {
+        "src": "/assets/generated/editorial/super-famicom-480.webp",
+        "alt": "Nintendo Super Famicom. Later object photograph; see the display note for model and era.",
+        "width": 960,
+        "height": 499,
+        "srcset": "/assets/generated/editorial/super-famicom-240.webp 240w, /assets/generated/editorial/super-famicom-480.webp 480w, /assets/generated/editorial/super-famicom-960.webp 960w",
+        "sizes": "(max-width: 600px) 90vw, 720px"
       }
     },
     {
@@ -2085,6 +2218,25 @@
       }
     },
     {
+      "id": "sfc-mega-man-x-rockman-x",
+      "title": "Mega Man X / Rockman X reaches Super Famicom in Japan",
+      "date": "1993-12-17",
+      "category": "games",
+      "theme": "games",
+      "region": "Japan",
+      "summary": "Rockman X introduces a new setting and expanded movement to a familiar action-game lineage.",
+      "defining": false,
+      "url": "/events/sfc-mega-man-x-rockman-x/",
+      "image": {
+        "src": "/assets/generated/editorial/super-famicom-480.webp",
+        "alt": "Nintendo Super Famicom. Later object photograph; see the display note for model and era.",
+        "width": 960,
+        "height": 499,
+        "srcset": "/assets/generated/editorial/super-famicom-240.webp 240w, /assets/generated/editorial/super-famicom-480.webp 480w, /assets/generated/editorial/super-famicom-960.webp 960w",
+        "sizes": "(max-width: 600px) 90vw, 720px"
+      }
+    },
+    {
       "id": "film-desert-winds-1994",
       "title": "Desert Winds reaches theaters",
       "date": "1994-01-01",
@@ -2116,6 +2268,25 @@
         "alt": "Original illustrated collage of 90s objects.",
         "width": 768,
         "height": 256
+      }
+    },
+    {
+      "id": "sfc-fire-emblem-mystery-of-the-emblem",
+      "title": "Fire Emblem: Mystery of the Emblem reaches Super Famicom in Japan",
+      "date": "1994-01-21",
+      "category": "games",
+      "theme": "games",
+      "region": "Japan",
+      "summary": "A campaign of positioned units asks the player to consider the cost of each move.",
+      "defining": false,
+      "url": "/events/sfc-fire-emblem-mystery-of-the-emblem/",
+      "image": {
+        "src": "/assets/generated/editorial/super-famicom-480.webp",
+        "alt": "Nintendo Super Famicom. Later object photograph; see the display note for model and era.",
+        "width": 960,
+        "height": 499,
+        "srcset": "/assets/generated/editorial/super-famicom-240.webp 240w, /assets/generated/editorial/super-famicom-480.webp 480w, /assets/generated/editorial/super-famicom-960.webp 960w",
+        "sizes": "(max-width: 600px) 90vw, 720px"
       }
     },
     {
@@ -2199,6 +2370,25 @@
       }
     },
     {
+      "id": "sfc-super-metroid",
+      "title": "Super Metroid reaches Super Famicom in Japan",
+      "date": "1994-03-19",
+      "category": "games",
+      "theme": "games",
+      "region": "Japan",
+      "summary": "Samus returns to a world whose passages change meaning as her abilities grow.",
+      "defining": false,
+      "url": "/events/sfc-super-metroid/",
+      "image": {
+        "src": "/assets/generated/editorial/super-famicom-480.webp",
+        "alt": "Nintendo Super Famicom. Later object photograph; see the display note for model and era.",
+        "width": 960,
+        "height": 499,
+        "srcset": "/assets/generated/editorial/super-famicom-240.webp 240w, /assets/generated/editorial/super-famicom-480.webp 480w, /assets/generated/editorial/super-famicom-960.webp 960w",
+        "sizes": "(max-width: 600px) 90vw, 720px"
+      }
+    },
+    {
       "id": "film-bitter-moon-1994",
       "title": "Bitter Moon reaches theaters",
       "date": "1994-04-01",
@@ -2213,6 +2403,25 @@
         "alt": "Original illustrated collage of 90s objects.",
         "width": 768,
         "height": 256
+      }
+    },
+    {
+      "id": "sfc-final-fantasy-vi",
+      "title": "Final Fantasy VI reaches Super Famicom in Japan",
+      "date": "1994-04-02",
+      "category": "games",
+      "theme": "games",
+      "region": "Japan",
+      "summary": "An ensemble role-playing story places machinery and magic in the same world.",
+      "defining": false,
+      "url": "/events/sfc-final-fantasy-vi/",
+      "image": {
+        "src": "/assets/generated/editorial/super-famicom-480.webp",
+        "alt": "Nintendo Super Famicom. Later object photograph; see the display note for model and era.",
+        "width": 960,
+        "height": 499,
+        "srcset": "/assets/generated/editorial/super-famicom-240.webp 240w, /assets/generated/editorial/super-famicom-480.webp 480w, /assets/generated/editorial/super-famicom-960.webp 960w",
+        "sizes": "(max-width: 600px) 90vw, 720px"
       }
     },
     {
@@ -2322,6 +2531,25 @@
         "alt": "Original illustrated collage of 90s objects.",
         "width": 768,
         "height": 256
+      }
+    },
+    {
+      "id": "sfc-super-street-fighter-ii-the-new-challengers",
+      "title": "Super Street Fighter II: The New Challengers reaches Super Famicom in Japan",
+      "date": "1994-06-25",
+      "category": "games",
+      "theme": "games",
+      "region": "Japan",
+      "summary": "A console version of the expanded arcade fighter brings a larger character roster into the living room.",
+      "defining": false,
+      "url": "/events/sfc-super-street-fighter-ii-the-new-challengers/",
+      "image": {
+        "src": "/assets/generated/editorial/super-famicom-480.webp",
+        "alt": "Nintendo Super Famicom. Later object photograph; see the display note for model and era.",
+        "width": 960,
+        "height": 499,
+        "srcset": "/assets/generated/editorial/super-famicom-240.webp 240w, /assets/generated/editorial/super-famicom-480.webp 480w, /assets/generated/editorial/super-famicom-960.webp 960w",
+        "sizes": "(max-width: 600px) 90vw, 720px"
       }
     },
     {
@@ -2506,6 +2734,25 @@
         "alt": "Original illustrated collage of 90s objects.",
         "width": 768,
         "height": 256
+      }
+    },
+    {
+      "id": "sfc-donkey-kong-country-super-donkey-kong",
+      "title": "Donkey Kong Country / Super Donkey Kong reaches Super Famicom in Japan",
+      "date": "1994-11-26",
+      "category": "games",
+      "theme": "games",
+      "region": "Japan",
+      "summary": "Rendered character art gives a cartridge-console platform game a new surface, while switching between Donkey and Diddy affects how a player moves through its hazards.",
+      "defining": false,
+      "url": "/events/sfc-donkey-kong-country-super-donkey-kong/",
+      "image": {
+        "src": "/assets/generated/editorial/super-famicom-480.webp",
+        "alt": "Nintendo Super Famicom. Later object photograph; see the display note for model and era.",
+        "width": 960,
+        "height": 499,
+        "srcset": "/assets/generated/editorial/super-famicom-240.webp 240w, /assets/generated/editorial/super-famicom-480.webp 480w, /assets/generated/editorial/super-famicom-960.webp 960w",
+        "sizes": "(max-width: 600px) 90vw, 720px"
       }
     },
     {
@@ -2829,6 +3076,25 @@
       }
     },
     {
+      "id": "sfc-super-mario-world-2-yoshis-island",
+      "title": "Super Mario World 2: Yoshi’s Island reaches Super Famicom in Japan",
+      "date": "1995-08-05",
+      "category": "games",
+      "theme": "games",
+      "region": "Japan",
+      "summary": "A drawn-paper look offers another answer to the decade’s search for graphical novelty.",
+      "defining": false,
+      "url": "/events/sfc-super-mario-world-2-yoshis-island/",
+      "image": {
+        "src": "/assets/generated/editorial/super-famicom-480.webp",
+        "alt": "Nintendo Super Famicom. Later object photograph; see the display note for model and era.",
+        "width": 960,
+        "height": 499,
+        "srcset": "/assets/generated/editorial/super-famicom-240.webp 240w, /assets/generated/editorial/super-famicom-480.webp 480w, /assets/generated/editorial/super-famicom-960.webp 960w",
+        "sizes": "(max-width: 600px) 90vw, 720px"
+      }
+    },
+    {
       "id": "film-dangerous-minds-1995",
       "title": "Dangerous Minds reaches theaters",
       "date": "1995-08-11",
@@ -2976,6 +3242,25 @@
         "alt": "Original illustrated collage of 90s objects.",
         "width": 768,
         "height": 256
+      }
+    },
+    {
+      "id": "sfc-panel-de-pon",
+      "title": "Panel de Pon reaches Super Famicom in Japan",
+      "date": "1995-10-27",
+      "category": "games",
+      "theme": "games",
+      "region": "Japan",
+      "summary": "Matching panels becomes a game of anticipating the next change rather than waiting for a single lucky arrangement.",
+      "defining": false,
+      "url": "/events/sfc-panel-de-pon/",
+      "image": {
+        "src": "/assets/generated/editorial/super-famicom-480.webp",
+        "alt": "Nintendo Super Famicom. Later object photograph; see the display note for model and era.",
+        "width": 960,
+        "height": 499,
+        "srcset": "/assets/generated/editorial/super-famicom-240.webp 240w, /assets/generated/editorial/super-famicom-480.webp 480w, /assets/generated/editorial/super-famicom-960.webp 960w",
+        "sizes": "(max-width: 600px) 90vw, 720px"
       }
     },
     {
@@ -3581,6 +3866,25 @@
       }
     },
     {
+      "id": "sfc-super-mario-rpg",
+      "title": "Super Mario RPG reaches Super Famicom in Japan",
+      "date": "1996-03-09",
+      "category": "games",
+      "theme": "games",
+      "region": "Japan",
+      "summary": "Mario steps into a role-playing structure with an assembled party and turn-based encounters.",
+      "defining": false,
+      "url": "/events/sfc-super-mario-rpg/",
+      "image": {
+        "src": "/assets/generated/editorial/super-famicom-480.webp",
+        "alt": "Nintendo Super Famicom. Later object photograph; see the display note for model and era.",
+        "width": 960,
+        "height": 499,
+        "srcset": "/assets/generated/editorial/super-famicom-240.webp 240w, /assets/generated/editorial/super-famicom-480.webp 480w, /assets/generated/editorial/super-famicom-960.webp 960w",
+        "sizes": "(max-width: 600px) 90vw, 720px"
+      }
+    },
+    {
       "id": "film-ed-1996",
       "title": "Ed reaches theaters",
       "date": "1996-03-15",
@@ -3629,6 +3933,25 @@
         "alt": "Original illustrated collage of 90s objects.",
         "width": 768,
         "height": 256
+      }
+    },
+    {
+      "id": "sfc-kirby-super-star-kirbys-fun-pak",
+      "title": "Kirby Super Star / Kirby’s Fun Pak reaches Super Famicom in Japan",
+      "date": "1996-03-21",
+      "category": "games",
+      "theme": "games",
+      "region": "Japan",
+      "summary": "A set of different modes turns one cartridge into a small collection of Kirby adventures.",
+      "defining": false,
+      "url": "/events/sfc-kirby-super-star-kirbys-fun-pak/",
+      "image": {
+        "src": "/assets/generated/editorial/super-famicom-480.webp",
+        "alt": "Nintendo Super Famicom. Later object photograph; see the display note for model and era.",
+        "width": 960,
+        "height": 499,
+        "srcset": "/assets/generated/editorial/super-famicom-240.webp 240w, /assets/generated/editorial/super-famicom-480.webp 480w, /assets/generated/editorial/super-famicom-960.webp 960w",
+        "sizes": "(max-width: 600px) 90vw, 720px"
       }
     },
     {
@@ -5087,6 +5410,63 @@
       }
     },
     {
+      "id": "release-fountains",
+      "title": "Fountains of Wayne releases its debut",
+      "date": "1996-10-01",
+      "category": "music",
+      "theme": "music",
+      "region": "Original album release",
+      "summary": "Fountains of Wayne arrives with compact guitar-pop songs on a self-titled debut.",
+      "defining": false,
+      "url": "/events/release-fountains/",
+      "image": {
+        "src": "/assets/generated/editorial/discman-480.webp",
+        "alt": "Open black Sony Discman D121 portable CD player.",
+        "width": 1280,
+        "height": 1427,
+        "srcset": "/assets/generated/editorial/discman-240.webp 240w, /assets/generated/editorial/discman-480.webp 480w, /assets/generated/editorial/discman-960.webp 960w",
+        "sizes": "(max-width: 600px) 90vw, 720px"
+      }
+    },
+    {
+      "id": "release-luther",
+      "title": "Luther Vandross releases Your Secret Love",
+      "date": "1996-10-01",
+      "category": "music",
+      "theme": "music",
+      "region": "Original album release",
+      "summary": "Luther Vandross adds Your Secret Love to a career already associated with close attention to vocal phrasing.",
+      "defining": false,
+      "url": "/events/release-luther/",
+      "image": {
+        "src": "/assets/generated/editorial/discman-480.webp",
+        "alt": "Open black Sony Discman D121 portable CD player.",
+        "width": 1280,
+        "height": 1427,
+        "srcset": "/assets/generated/editorial/discman-240.webp 240w, /assets/generated/editorial/discman-480.webp 480w, /assets/generated/editorial/discman-960.webp 960w",
+        "sizes": "(max-width: 600px) 90vw, 720px"
+      }
+    },
+    {
+      "id": "release-wishkah",
+      "title": "Nirvana releases From the Muddy Banks of the Wishkah",
+      "date": "1996-10-01",
+      "category": "music",
+      "theme": "music",
+      "region": "DGC original release",
+      "summary": "A live collection restores the volume and abrasion of Nirvana onstage after the quieter presentation of MTV Unplugged.",
+      "defining": false,
+      "url": "/events/release-wishkah/",
+      "image": {
+        "src": "/assets/generated/editorial/discman-480.webp",
+        "alt": "Open black Sony Discman D121 portable CD player.",
+        "width": 1280,
+        "height": 1427,
+        "srcset": "/assets/generated/editorial/discman-240.webp 240w, /assets/generated/editorial/discman-480.webp 480w, /assets/generated/editorial/discman-960.webp 960w",
+        "sizes": "(max-width: 600px) 90vw, 720px"
+      }
+    },
+    {
       "id": "film-bound-1996",
       "title": "Bound reaches theaters",
       "date": "1996-10-04",
@@ -5189,6 +5569,25 @@
       }
     },
     {
+      "id": "release-billy-breathes",
+      "title": "Phish releases Billy Breathes",
+      "date": "1996-10-15",
+      "category": "music",
+      "theme": "music",
+      "region": "Original album release",
+      "summary": "Billy Breathes concentrates a band known for open-ended live performance into the sequence of a studio album.",
+      "defining": false,
+      "url": "/events/release-billy-breathes/",
+      "image": {
+        "src": "/assets/generated/editorial/discman-480.webp",
+        "alt": "Open black Sony Discman D121 portable CD player.",
+        "width": 1280,
+        "height": 1427,
+        "srcset": "/assets/generated/editorial/discman-240.webp 240w, /assets/generated/editorial/discman-480.webp 480w, /assets/generated/editorial/discman-960.webp 960w",
+        "sizes": "(max-width: 600px) 90vw, 720px"
+      }
+    },
+    {
       "id": "film-get-on-the-bus-1996",
       "title": "Get on the Bus reaches theaters",
       "date": "1996-10-16",
@@ -5240,6 +5639,25 @@
       }
     },
     {
+      "id": "release-bow-down",
+      "title": "Westside Connection releases Bow Down",
+      "date": "1996-10-22",
+      "category": "music",
+      "theme": "music",
+      "region": "Original album release",
+      "summary": "Ice Cube, Mack 10 and WC bring distinct careers into Westside Connection.",
+      "defining": false,
+      "url": "/events/release-bow-down/",
+      "image": {
+        "src": "/assets/generated/editorial/discman-480.webp",
+        "alt": "Open black Sony Discman D121 portable CD player.",
+        "width": 1280,
+        "height": 1427,
+        "srcset": "/assets/generated/editorial/discman-240.webp 240w, /assets/generated/editorial/discman-480.webp 480w, /assets/generated/editorial/discman-960.webp 960w",
+        "sizes": "(max-width: 600px) 90vw, 720px"
+      }
+    },
+    {
       "id": "film-high-school-high-1996",
       "title": "High School High reaches theaters",
       "date": "1996-10-25",
@@ -5288,6 +5706,25 @@
         "alt": "Original illustrated collage of 90s objects.",
         "width": 768,
         "height": 256
+      }
+    },
+    {
+      "id": "aol-flat-announced",
+      "title": "AOL announces its $19.95 flat-rate plan",
+      "date": "1996-10-29",
+      "category": "tech",
+      "theme": "internet",
+      "region": "United States",
+      "summary": "AOL announces a $19.95 unlimited-use plan, changing the calculation behind spending another hour online.",
+      "defining": false,
+      "url": "/events/aol-flat-announced/",
+      "image": {
+        "src": "/assets/generated/editorial/aol-cd-480.webp",
+        "alt": "Stack of colorful AOL promotional CDs and sleeves.",
+        "width": 960,
+        "height": 720,
+        "srcset": "/assets/generated/editorial/aol-cd-240.webp 240w, /assets/generated/editorial/aol-cd-480.webp 480w, /assets/generated/editorial/aol-cd-960.webp 960w",
+        "sizes": "(max-width: 600px) 90vw, 720px"
       }
     },
     {
@@ -5393,6 +5830,44 @@
       }
     },
     {
+      "id": "release-breathe",
+      "title": "The Prodigy releases Breathe",
+      "date": "1996-11-11",
+      "category": "music",
+      "theme": "music",
+      "region": "United Kingdom",
+      "summary": "Breathe extends the Prodigy’s route between electronic dance production and a forceful rock-facing performance style.",
+      "defining": false,
+      "url": "/events/release-breathe/",
+      "image": {
+        "src": "/assets/generated/editorial/discman-480.webp",
+        "alt": "Open black Sony Discman D121 portable CD player.",
+        "width": 1280,
+        "height": 1427,
+        "srcset": "/assets/generated/editorial/discman-240.webp 240w, /assets/generated/editorial/discman-480.webp 480w, /assets/generated/editorial/discman-960.webp 960w",
+        "sizes": "(max-width: 600px) 90vw, 720px"
+      }
+    },
+    {
+      "id": "release-doggfather",
+      "title": "Snoop Doggy Dogg releases Tha Doggfather",
+      "date": "1996-11-12",
+      "category": "music",
+      "theme": "music",
+      "region": "Original album release",
+      "summary": "Tha Doggfather follows a debut that had helped make West Coast rap central to the early-decade conversation.",
+      "defining": false,
+      "url": "/events/release-doggfather/",
+      "image": {
+        "src": "/assets/generated/editorial/discman-480.webp",
+        "alt": "Open black Sony Discman D121 portable CD player.",
+        "width": 1280,
+        "height": 1427,
+        "srcset": "/assets/generated/editorial/discman-240.webp 240w, /assets/generated/editorial/discman-480.webp 480w, /assets/generated/editorial/discman-960.webp 960w",
+        "sizes": "(max-width: 600px) 90vw, 720px"
+      }
+    },
+    {
       "id": "film-the-english-patient-1996",
       "title": "The English Patient reaches theaters",
       "date": "1996-11-15",
@@ -5490,6 +5965,25 @@
       "defining": true,
       "url": "/events/tamagotchi-japan/",
       "image": null
+    },
+    {
+      "id": "release-aeroplane",
+      "title": "The Smashing Pumpkins releases The Aeroplane Flies High",
+      "date": "1996-11-26",
+      "category": "music",
+      "theme": "music",
+      "region": "Original box-set release",
+      "summary": "A box set gathers the singles and associated recordings from the Mellon Collie period into another object to collect.",
+      "defining": false,
+      "url": "/events/release-aeroplane/",
+      "image": {
+        "src": "/assets/generated/editorial/discman-480.webp",
+        "alt": "Open black Sony Discman D121 portable CD player.",
+        "width": 1280,
+        "height": 1427,
+        "srcset": "/assets/generated/editorial/discman-240.webp 240w, /assets/generated/editorial/discman-480.webp 480w, /assets/generated/editorial/discman-960.webp 960w",
+        "sizes": "(max-width: 600px) 90vw, 720px"
+      }
     },
     {
       "id": "film-101-dalmatians-1996",
@@ -5744,6 +6238,25 @@
         "alt": "Original illustrated collage of 90s objects.",
         "width": 768,
         "height": 256
+      }
+    },
+    {
+      "id": "diablo-original",
+      "title": "Diablo opens the cathedral door",
+      "date": "1996-12-31",
+      "category": "games",
+      "theme": "games",
+      "region": "Original release — publisher retrospective",
+      "summary": "Diablo turns a descent beneath Tristram into a loop of exploration, combat and another piece of loot.",
+      "defining": false,
+      "url": "/events/diablo-original/",
+      "image": {
+        "src": "/assets/generated/editorial/family-pc-480.webp",
+        "alt": "Late-1990s family desktop PC with CRT monitor and beige tower in a shared room.",
+        "width": 832,
+        "height": 624,
+        "srcset": "/assets/generated/editorial/family-pc-240.webp 240w, /assets/generated/editorial/family-pc-480.webp 480w, /assets/generated/editorial/family-pc-832.webp 832w",
+        "sizes": "(max-width: 600px) 90vw, 720px"
       }
     },
     {
@@ -6302,6 +6815,25 @@
         "alt": "Original illustrated collage of 90s objects.",
         "width": 768,
         "height": 256
+      }
+    },
+    {
+      "id": "starcraft-original",
+      "title": "StarCraft puts the battlefield on the desktop",
+      "date": "1998-03-31",
+      "category": "games",
+      "theme": "games",
+      "region": "Original release — publisher retrospective",
+      "summary": "StarCraft becomes one of the decade’s enduring meeting points between a PC strategy game and competitive play.",
+      "defining": false,
+      "url": "/events/starcraft-original/",
+      "image": {
+        "src": "/assets/generated/editorial/family-pc-480.webp",
+        "alt": "Late-1990s family desktop PC with CRT monitor and beige tower in a shared room.",
+        "width": 832,
+        "height": 624,
+        "srcset": "/assets/generated/editorial/family-pc-240.webp 240w, /assets/generated/editorial/family-pc-480.webp 480w, /assets/generated/editorial/family-pc-832.webp 832w",
+        "sizes": "(max-width: 600px) 90vw, 720px"
       }
     },
     {

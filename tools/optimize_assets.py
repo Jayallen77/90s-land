@@ -28,7 +28,7 @@ def main():
         for name in stale: print(name)
         return bool(stale)
     from PIL import Image
-    from fontTools.ttLib import TTFont
+    previous = json.loads(MANIFEST.read_text()) if MANIFEST.exists() else {'files':{}}
     manifest = {'version': 1, 'imageOptions': {'format': 'WebP', 'quality': 80, 'method': 6},
                 'images': {}, 'files': {}}
     def record(path):
@@ -55,9 +55,12 @@ def main():
     for name in FONTS:
         source = ROOT/f'assets/fonts/{name}.ttf'
         target = source.with_suffix('.woff2')
-        font = TTFont(source, recalcTimestamp=False)
-        font.flavor = 'woff2'
-        font.save(target)
+        unchanged = all(path.exists() and previous['files'].get(str(path.relative_to(ROOT))) == digest(path) for path in (source,target))
+        if not unchanged:
+            from fontTools.ttLib import TTFont
+            font = TTFont(source, recalcTimestamp=False)
+            font.flavor = 'woff2'
+            font.save(target)
         record(source); record(target)
     MANIFEST.write_text(json.dumps(manifest,indent=2)+'\n')
     print(f'Created variants for {len(manifest["images"])} images and {len(FONTS)} fonts')

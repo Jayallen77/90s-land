@@ -11,7 +11,7 @@ ROOT=Path(__file__).resolve().parents[1]
 
 def assess(data):
  errors=[]
- events=data['events'];stories=data['stories'];months=Counter(e['date'][:7] for e in events)
+ events=data['events'];stories=data['stories'];months=Counter(e['date'][:7] for e in events if len(e['date'])>=7)
  if len(events)<300:errors.append('At least 300 events required')
  for year in range(1990,2000):
   for month in range(1,13):
@@ -20,7 +20,7 @@ def assess(data):
  weeks=[]
  for i in range(53):
   start=date(1996,1,1)+timedelta(days=7*i);end=start+timedelta(days=6)
-  count=sum(str(start)<=e['date']<=str(end) for e in events)
+  count=sum(e.get('datePrecision')=='day' and str(start)<=e['date']<=str(end) for e in events)
   weeks.append({'start':str(start),'end':str(end),'events':count})
   if count<3:errors.append(f'Underfilled week: {start} ({count})')
  categories=Counter(s['category'] for s in stories)
@@ -33,7 +33,7 @@ def assess(data):
  if len({(e['title'],e['date'],e['region']) for e in events})!=len(events):errors.append('Duplicate event identity')
  source_ids={s['id'] for s in data['sources']}
  for e in events:
-  if e.get('datePrecision')!='day' or not e.get('sourceIds') or not set(e['sourceIds'])<=source_ids or not e.get('dateNote') or not e.get('verifiedAt'):errors.append('Unreviewed event: '+e['id'])
+  if e.get('datePrecision') not in ('day','month','year') or not e.get('sourceIds') or not set(e['sourceIds'])<=source_ids or not e.get('dateNote') or not e.get('verifiedAt'):errors.append('Unreviewed event: '+e['id'])
  return {'events':len(events),'eventsByCategory':dict(Counter(e['category'] for e in events)),'stories':len(stories),'storiesByCategory':dict(categories),'months':dict(sorted(months.items())),'weeks1996':weeks,'errors':errors}
 
 def main():

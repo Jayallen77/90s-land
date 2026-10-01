@@ -398,6 +398,550 @@
         "width": 960,
         "height": 918
       }
+    ],
+    "/assets/media/expansion/snes.jpg": [
+      {
+        "src": "/assets/generated/editorial/snes-240.webp",
+        "width": 240,
+        "height": 177
+      },
+      {
+        "src": "/assets/generated/editorial/snes-480.webp",
+        "width": 480,
+        "height": 354
+      },
+      {
+        "src": "/assets/generated/editorial/snes-960.webp",
+        "width": 960,
+        "height": 707
+      }
+    ],
+    "/assets/media/expansion/game-gear.jpg": [
+      {
+        "src": "/assets/generated/editorial/game-gear-240.webp",
+        "width": 240,
+        "height": 161
+      },
+      {
+        "src": "/assets/generated/editorial/game-gear-480.webp",
+        "width": 480,
+        "height": 322
+      },
+      {
+        "src": "/assets/generated/editorial/game-gear-960.webp",
+        "width": 960,
+        "height": 643
+      }
+    ],
+    "/assets/media/expansion/saturn.jpg": [
+      {
+        "src": "/assets/generated/editorial/saturn-240.webp",
+        "width": 240,
+        "height": 133
+      },
+      {
+        "src": "/assets/generated/editorial/saturn-480.webp",
+        "width": 480,
+        "height": 266
+      },
+      {
+        "src": "/assets/generated/editorial/saturn-960.webp",
+        "width": 960,
+        "height": 531
+      }
+    ],
+    "/assets/media/expansion/minidisc.jpg": [
+      {
+        "src": "/assets/generated/editorial/minidisc-240.webp",
+        "width": 240,
+        "height": 174
+      },
+      {
+        "src": "/assets/generated/editorial/minidisc-480.webp",
+        "width": 480,
+        "height": 348
+      },
+      {
+        "src": "/assets/generated/editorial/minidisc-960.webp",
+        "width": 960,
+        "height": 695
+      }
+    ],
+    "/assets/media/expansion/palm-pilot.jpg": [
+      {
+        "src": "/assets/generated/editorial/palm-pilot-240.webp",
+        "width": 240,
+        "height": 299
+      },
+      {
+        "src": "/assets/generated/editorial/palm-pilot-480.webp",
+        "width": 480,
+        "height": 598
+      },
+      {
+        "src": "/assets/generated/editorial/palm-pilot-960.webp",
+        "width": 960,
+        "height": 1195
+      }
+    ],
+    "/assets/media/expansion/nokia-3210.jpg": [
+      {
+        "src": "/assets/generated/editorial/nokia-3210-240.webp",
+        "width": 240,
+        "height": 590
+      },
+      {
+        "src": "/assets/generated/editorial/nokia-3210-480.webp",
+        "width": 480,
+        "height": 1180
+      },
+      {
+        "src": "/assets/generated/editorial/nokia-3210-960.webp",
+        "width": 960,
+        "height": 2360
+      }
+    ],
+    "/assets/media/expansion/zip-drive.jpg": [
+      {
+        "src": "/assets/generated/editorial/zip-drive-240.webp",
+        "width": 240,
+        "height": 160
+      },
+      {
+        "src": "/assets/generated/editorial/zip-drive-480.webp",
+        "width": 480,
+        "height": 320
+      },
+      {
+        "src": "/assets/generated/editorial/zip-drive-960.webp",
+        "width": 960,
+        "height": 640
+      }
+    ],
+    "/assets/media/expansion/floppy-disk.jpg": [
+      {
+        "src": "/assets/generated/editorial/floppy-disk-240.webp",
+        "width": 240,
+        "height": 247
+      },
+      {
+        "src": "/assets/generated/editorial/floppy-disk-480.webp",
+        "width": 480,
+        "height": 494
+      },
+      {
+        "src": "/assets/generated/editorial/floppy-disk-815.webp",
+        "width": 815,
+        "height": 839
+      }
+    ],
+    "/assets/media/expansion/memory-card.jpg": [
+      {
+        "src": "/assets/generated/editorial/memory-card-240.webp",
+        "width": 240,
+        "height": 182
+      },
+      {
+        "src": "/assets/generated/editorial/memory-card-480.webp",
+        "width": 480,
+        "height": 363
+      },
+      {
+        "src": "/assets/generated/editorial/memory-card-960.webp",
+        "width": 960,
+        "height": 726
+      }
+    ],
+    "/assets/media/expansion/game-shark.jpg": [
+      {
+        "src": "/assets/generated/editorial/game-shark-240.webp",
+        "width": 240,
+        "height": 180
+      },
+      {
+        "src": "/assets/generated/editorial/game-shark-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "/assets/generated/editorial/game-shark-640.webp",
+        "width": 640,
+        "height": 480
+      }
+    ],
+    "/assets/media/expansion/webtv.jpg": [
+      {
+        "src": "/assets/generated/editorial/webtv-240.webp",
+        "width": 240,
+        "height": 135
+      },
+      {
+        "src": "/assets/generated/editorial/webtv-480.webp",
+        "width": 480,
+        "height": 270
+      },
+      {
+        "src": "/assets/generated/editorial/webtv-960.webp",
+        "width": 960,
+        "height": 540
+      }
+    ],
+    "/assets/media/expansion/quickcam.jpg": [
+      {
+        "src": "/assets/generated/editorial/quickcam-240.webp",
+        "width": 240,
+        "height": 160
+      },
+      {
+        "src": "/assets/generated/editorial/quickcam-480.webp",
+        "width": 480,
+        "height": 320
+      },
+      {
+        "src": "/assets/generated/editorial/quickcam-960.webp",
+        "width": 960,
+        "height": 640
+      }
+    ],
+    "/assets/media/expansion/disposable-camera.jpg": [
+      {
+        "src": "/assets/generated/editorial/disposable-camera-240.webp",
+        "width": 240,
+        "height": 159
+      },
+      {
+        "src": "/assets/generated/editorial/disposable-camera-480.webp",
+        "width": 480,
+        "height": 318
+      },
+      {
+        "src": "/assets/generated/editorial/disposable-camera-960.webp",
+        "width": 960,
+        "height": 637
+      }
+    ],
+    "/assets/media/expansion/talkboy.jpg": [
+      {
+        "src": "/assets/generated/editorial/talkboy-240.webp",
+        "width": 240,
+        "height": 160
+      },
+      {
+        "src": "/assets/generated/editorial/talkboy-480.webp",
+        "width": 480,
+        "height": 320
+      },
+      {
+        "src": "/assets/generated/editorial/talkboy-960.webp",
+        "width": 960,
+        "height": 640
+      }
+    ],
+    "/assets/media/expansion/beanie-baby.jpg": [
+      {
+        "src": "/assets/generated/editorial/beanie-baby-240.webp",
+        "width": 240,
+        "height": 320
+      },
+      {
+        "src": "/assets/generated/editorial/beanie-baby-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "src": "/assets/generated/editorial/beanie-baby-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "/assets/media/expansion/pogs.jpg": [
+      {
+        "src": "/assets/generated/editorial/pogs-240.webp",
+        "width": 240,
+        "height": 271
+      },
+      {
+        "src": "/assets/generated/editorial/pogs-480.webp",
+        "width": 480,
+        "height": 542
+      },
+      {
+        "src": "/assets/generated/editorial/pogs-830.webp",
+        "width": 830,
+        "height": 938
+      }
+    ],
+    "/assets/media/expansion/super-soaker.jpg": [
+      {
+        "src": "/assets/generated/editorial/super-soaker-240.webp",
+        "width": 240,
+        "height": 538
+      },
+      {
+        "src": "/assets/generated/editorial/super-soaker-480.webp",
+        "width": 480,
+        "height": 1076
+      },
+      {
+        "src": "/assets/generated/editorial/super-soaker-714.webp",
+        "width": 714,
+        "height": 1600
+      }
+    ],
+    "/assets/media/expansion/walkman.jpg": [
+      {
+        "src": "/assets/generated/editorial/walkman-240.webp",
+        "width": 240,
+        "height": 308
+      },
+      {
+        "src": "/assets/generated/editorial/walkman-480.webp",
+        "width": 480,
+        "height": 615
+      },
+      {
+        "src": "/assets/generated/editorial/walkman-960.webp",
+        "width": 960,
+        "height": 1230
+      }
+    ],
+    "/assets/media/expansion/tb-303.jpg": [
+      {
+        "src": "/assets/generated/editorial/tb-303-240.webp",
+        "width": 240,
+        "height": 180
+      },
+      {
+        "src": "/assets/generated/editorial/tb-303-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "/assets/generated/editorial/tb-303-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ],
+    "/assets/media/expansion/mpc-2000.jpg": [
+      {
+        "src": "/assets/generated/editorial/mpc-2000-240.webp",
+        "width": 240,
+        "height": 179
+      },
+      {
+        "src": "/assets/generated/editorial/mpc-2000-480.webp",
+        "width": 480,
+        "height": 358
+      },
+      {
+        "src": "/assets/generated/editorial/mpc-2000-960.webp",
+        "width": 960,
+        "height": 716
+      }
+    ],
+    "/assets/media/expansion/mc-303.jpg": [
+      {
+        "src": "/assets/generated/editorial/mc-303-240.webp",
+        "width": 240,
+        "height": 166
+      },
+      {
+        "src": "/assets/generated/editorial/mc-303-480.webp",
+        "width": 480,
+        "height": 332
+      },
+      {
+        "src": "/assets/generated/editorial/mc-303-960.webp",
+        "width": 960,
+        "height": 665
+      }
+    ],
+    "/assets/media/expansion/technics-turntable.jpg": [
+      {
+        "src": "/assets/generated/editorial/technics-turntable-240.webp",
+        "width": 240,
+        "height": 152
+      },
+      {
+        "src": "/assets/generated/editorial/technics-turntable-480.webp",
+        "width": 480,
+        "height": 304
+      },
+      {
+        "src": "/assets/generated/editorial/technics-turntable-960.webp",
+        "width": 960,
+        "height": 609
+      }
+    ],
+    "/assets/media/expansion/korg-m1.jpg": [
+      {
+        "src": "/assets/generated/editorial/korg-m1-240.webp",
+        "width": 240,
+        "height": 87
+      },
+      {
+        "src": "/assets/generated/editorial/korg-m1-480.webp",
+        "width": 480,
+        "height": 174
+      },
+      {
+        "src": "/assets/generated/editorial/korg-m1-960.webp",
+        "width": 960,
+        "height": 348
+      }
+    ],
+    "/assets/media/expansion/dat-recorder.jpg": [
+      {
+        "src": "/assets/generated/editorial/dat-recorder-240.webp",
+        "width": 240,
+        "height": 246
+      },
+      {
+        "src": "/assets/generated/editorial/dat-recorder-480.webp",
+        "width": 480,
+        "height": 491
+      },
+      {
+        "src": "/assets/generated/editorial/dat-recorder-960.webp",
+        "width": 960,
+        "height": 982
+      }
+    ],
+    "/assets/media/expansion/jewel-case.jpg": [
+      {
+        "src": "/assets/generated/editorial/jewel-case-240.webp",
+        "width": 240,
+        "height": 191
+      },
+      {
+        "src": "/assets/generated/editorial/jewel-case-480.webp",
+        "width": 480,
+        "height": 382
+      },
+      {
+        "src": "/assets/generated/editorial/jewel-case-960.webp",
+        "width": 960,
+        "height": 764
+      }
+    ],
+    "/assets/media/expansion/dr-martens.jpg": [
+      {
+        "src": "/assets/generated/editorial/dr-martens-240.webp",
+        "width": 240,
+        "height": 236
+      },
+      {
+        "src": "/assets/generated/editorial/dr-martens-480.webp",
+        "width": 480,
+        "height": 471
+      },
+      {
+        "src": "/assets/generated/editorial/dr-martens-500.webp",
+        "width": 500,
+        "height": 491
+      }
+    ],
+    "/assets/media/expansion/vans-shoes.jpg": [
+      {
+        "src": "/assets/generated/editorial/vans-shoes-240.webp",
+        "width": 240,
+        "height": 220
+      },
+      {
+        "src": "/assets/generated/editorial/vans-shoes-480.webp",
+        "width": 480,
+        "height": 440
+      },
+      {
+        "src": "/assets/generated/editorial/vans-shoes-545.webp",
+        "width": 545,
+        "height": 500
+      }
+    ],
+    "/assets/media/expansion/answering-machine.jpg": [
+      {
+        "src": "/assets/generated/editorial/answering-machine-240.webp",
+        "width": 240,
+        "height": 324
+      },
+      {
+        "src": "/assets/generated/editorial/answering-machine-480.webp",
+        "width": 480,
+        "height": 647
+      },
+      {
+        "src": "/assets/generated/editorial/answering-machine-960.webp",
+        "width": 960,
+        "height": 1294
+      }
+    ],
+    "/assets/media/expansion/super-famicom.jpg": [
+      {
+        "src": "/assets/generated/editorial/super-famicom-240.webp",
+        "width": 240,
+        "height": 125
+      },
+      {
+        "src": "/assets/generated/editorial/super-famicom-480.webp",
+        "width": 480,
+        "height": 250
+      },
+      {
+        "src": "/assets/generated/editorial/super-famicom-960.webp",
+        "width": 960,
+        "height": 499
+      }
+    ],
+    "/assets/media/expansion/digital-camera.jpg": [
+      {
+        "src": "/assets/generated/editorial/digital-camera-240.webp",
+        "width": 240,
+        "height": 174
+      },
+      {
+        "src": "/assets/generated/editorial/digital-camera-480.webp",
+        "width": 480,
+        "height": 349
+      },
+      {
+        "src": "/assets/generated/editorial/digital-camera-960.webp",
+        "width": 960,
+        "height": 698
+      }
+    ],
+    "/assets/media/expansion/powerbook.jpg": [
+      {
+        "src": "/assets/generated/editorial/powerbook-240.webp",
+        "width": 240,
+        "height": 222
+      },
+      {
+        "src": "/assets/generated/editorial/powerbook-480.webp",
+        "width": 480,
+        "height": 444
+      },
+      {
+        "src": "/assets/generated/editorial/powerbook-960.webp",
+        "width": 960,
+        "height": 888
+      }
+    ],
+    "/assets/media/expansion/newton.jpg": [
+      {
+        "src": "/assets/generated/editorial/newton-240.webp",
+        "width": 240,
+        "height": 333
+      },
+      {
+        "src": "/assets/generated/editorial/newton-480.webp",
+        "width": 480,
+        "height": 666
+      },
+      {
+        "src": "/assets/generated/editorial/newton-960.webp",
+        "width": 960,
+        "height": 1332
+      }
     ]
   },
   "files": {
@@ -494,6 +1038,134 @@
     "assets/generated/editorial/transparent-n64-controller-240.webp": "2715b5164f3bfed40f036e31026955133457b7cba2123ef68b2350a3f88a951d",
     "assets/generated/editorial/transparent-n64-controller-480.webp": "2508513dea2aafcad0fa60ba9cabfd3e822ac20bca95ef9450648976f7ab44b6",
     "assets/generated/editorial/transparent-n64-controller-960.webp": "cd6f50ac2d2af585085b1c06a236f08b7f33a3fe32fa033a273c8e288d0c09e4",
+    "assets/media/expansion/snes.jpg": "52c06bc68b3a3fc66cd01c04908c3fa1985daa9b8705333f7e5ec2c58cc41c6c",
+    "assets/generated/editorial/snes-240.webp": "5bf388235a72ed79769923e7aa600ea418b001e907ab10df095f60824324d9fd",
+    "assets/generated/editorial/snes-480.webp": "1fae8478f4fd2c08603ddc2b5b1e7ee6526f3eccaf2ce4054ad4006a0b261402",
+    "assets/generated/editorial/snes-960.webp": "bcb1d3e9c290b62faeb03167233850a822fcd650655dc05310e162cbbdc3aa09",
+    "assets/media/expansion/game-gear.jpg": "54edd9b96f7c15f39b6cf26035bdbc8d135b919da2f5dbf14c8e29d9e9eee6a9",
+    "assets/generated/editorial/game-gear-240.webp": "1a7a5b10ab3c9f6dcbbf6a55ae597c997883696386d9df029cd3a59b0db28a6c",
+    "assets/generated/editorial/game-gear-480.webp": "ce25bffeb6896b34facbe67c5f91fec16bdbe5bee66cf33e9b1079c50b6b957e",
+    "assets/generated/editorial/game-gear-960.webp": "d17d7a24f73d025c86465b1ab7d1099e8b2f32c370d33bcf0a75981022aa6a47",
+    "assets/media/expansion/saturn.jpg": "36671093ffac8b43f44e1ddcb6ae21c91aedd5e5df99d519b8d70ae6e736e880",
+    "assets/generated/editorial/saturn-240.webp": "d5bf2fc72163644553a8b2aa6cf9f37384b2ed8445c46b3f56bb3a85df5ad722",
+    "assets/generated/editorial/saturn-480.webp": "358902d50b8baf8535d227c217cff73e9466ac22a2faade271cc2b317b0d7ff8",
+    "assets/generated/editorial/saturn-960.webp": "195b3f456a8c490707d16392b84b6cbc2439fa61902b83712a4866ffc3ae24a6",
+    "assets/media/expansion/minidisc.jpg": "2a0964c5ba1eb2b73bbb7a42f1e205c626baa6a061ca5034a4d9d1852d69f87f",
+    "assets/generated/editorial/minidisc-240.webp": "b0cf42ea3c253e57156f3b5e8908c4dae6757731f84b667afbea6c1f645e4fd9",
+    "assets/generated/editorial/minidisc-480.webp": "15092f48100acab3b9449ae6be50bdbb18651eefdc53fc961a32b1537cb73c0f",
+    "assets/generated/editorial/minidisc-960.webp": "d3cb7fef824c9b190612cf36dc5d88440bed256cf1326d0d886c87dfae0521a2",
+    "assets/media/expansion/palm-pilot.jpg": "14e89fc1b4d2689cfdafe30c99f077a8f46c9884a01ee1457e49471720ea3cee",
+    "assets/generated/editorial/palm-pilot-240.webp": "2cee05d71b6ded8c6c07fb5ad50d52ad32c56839f6eacc6ddfe8cc536c205089",
+    "assets/generated/editorial/palm-pilot-480.webp": "449ed153ddc1f02ee4920dff620c3a34e01f7c2fc14cd87157b7264139c7429b",
+    "assets/generated/editorial/palm-pilot-960.webp": "293de297e1504b0556f9c8297e0fb87f46d0f580928abc456240a49c248e568f",
+    "assets/media/expansion/nokia-3210.jpg": "e5fc575c065521edad7765f3e5f699ee52687934315a3abc6f375618b033d284",
+    "assets/generated/editorial/nokia-3210-240.webp": "e1d36c13e37dc32ceb548ac926b882fe9d6f246cf8444ea888ad5188d6e18f31",
+    "assets/generated/editorial/nokia-3210-480.webp": "1e9e0c712d9fb8a3099930cc319474bf7022e43b7767949f0b7f075dd33912a5",
+    "assets/generated/editorial/nokia-3210-960.webp": "56382839b67b1491edee10d9cb889223fa767da396da64d979349666bf69b5d9",
+    "assets/media/expansion/zip-drive.jpg": "fa0445020d05ed7dc3df9fa8c100909a9ac454fba44591b9bfce599090131649",
+    "assets/generated/editorial/zip-drive-240.webp": "d50919d468b9d862126cd8fec6596ff2731fe5f931646f7d8b13751d68a6371a",
+    "assets/generated/editorial/zip-drive-480.webp": "3d5daac80f66ac4e40308ad7a37d7e6fdda9209187d7a2e5195a46148cbce87f",
+    "assets/generated/editorial/zip-drive-960.webp": "d77084ed7e2f1152898876c517f2a60e90c721ea1b4d7c745a202d3340cb9807",
+    "assets/media/expansion/floppy-disk.jpg": "5e8f8b2a81a1bfa19568ea73fab20440b200e54d3d340967de176efd87c25909",
+    "assets/generated/editorial/floppy-disk-240.webp": "95a362656196cb6e040b8f71d4af62593c07061fc2a984bda6a778229fa25487",
+    "assets/generated/editorial/floppy-disk-480.webp": "416286e71d98aa40cfbbf3c1836f763a46247daa78ba51b55566c60da13f0558",
+    "assets/generated/editorial/floppy-disk-815.webp": "3d5064bddd30c69238baf0fdfa36e67e9e993e97e08a2b84b3101812f017902f",
+    "assets/media/expansion/memory-card.jpg": "69d834580cc538e8d029ae75963b1cdd3e3194cdcfb6d9e1cbbc0fdd5584df85",
+    "assets/generated/editorial/memory-card-240.webp": "acbbcd0dc85c009a44bee0584cbc07beb791396bdd121003add8461f3559f7cc",
+    "assets/generated/editorial/memory-card-480.webp": "375e17c462411deb78ad92871bc3f319249be63ab5e5e61386dc7f6ee738dff3",
+    "assets/generated/editorial/memory-card-960.webp": "d8e6f514316223f2576f19993ffa21323c25b398d036a52cdcced01edd2a9b60",
+    "assets/media/expansion/game-shark.jpg": "3e591f8c9711d19e66278ac90df7a1f68e652488ba0549372d89022c0406aabb",
+    "assets/generated/editorial/game-shark-240.webp": "8949eb46496ca4164d84e845df15d8c156e8dd13cb6ffe994e0b0fc3585f4e58",
+    "assets/generated/editorial/game-shark-480.webp": "855a98ce06403b8b82db6e6805476edfe1559fd6c34e332d087c96c6bba993fc",
+    "assets/generated/editorial/game-shark-640.webp": "6cbff0f515eed7c52a11b98c5558a1a1116b7a11954302ade2935722b940b2d2",
+    "assets/media/expansion/webtv.jpg": "0e5a6b69d7d7217f9171a21cc557f3cc6d5fc634120007916e29ec85ed151e0d",
+    "assets/generated/editorial/webtv-240.webp": "21a0548446634e7a83ca469ff8716a385c2489a870f0def16319657a46ac96f1",
+    "assets/generated/editorial/webtv-480.webp": "ed2f2bf6294c91551a25c70caa82e9e3b5aa27164cce2bc24ecaee327c6027fa",
+    "assets/generated/editorial/webtv-960.webp": "7360f8e1c1afd9273ecf88ce2a4b866e5f9cdf8f55f008bd4a0393a1e369651b",
+    "assets/media/expansion/quickcam.jpg": "8e85e75c76babb6366c4a70511b5435afa102453e22dd8b3a86e8f2f935f30a3",
+    "assets/generated/editorial/quickcam-240.webp": "2332a405d519acdedb26720ba4b6882bc4f4eebbdee022a32c732093fc353afd",
+    "assets/generated/editorial/quickcam-480.webp": "147003e691e0ae8dc6c960d2414e1cfbdde98c03cd18bd6a30cb9b6898f29d97",
+    "assets/generated/editorial/quickcam-960.webp": "ec373036b86f4d36a92a8409f9fcabc8d522367848b9ee6eb97a1344c89aac67",
+    "assets/media/expansion/disposable-camera.jpg": "ffc8b2b57683ef43f2a60e45e187c7721824370b58be0375afed6e0854cdf362",
+    "assets/generated/editorial/disposable-camera-240.webp": "db7ed3772deb65f8f5ca0d9bc39c469fde27e716864e6591aedb5c33c9d04167",
+    "assets/generated/editorial/disposable-camera-480.webp": "759f1f80b967d9e9128bdd4a5c7d3a0c53cb28a82d978aade88a30a2c45d1993",
+    "assets/generated/editorial/disposable-camera-960.webp": "4f9ebfdc59eba2867fbdbc84868859dbf12306774f4bbb2b72c701c97d15d31e",
+    "assets/media/expansion/talkboy.jpg": "3d2438a0209e458cc4f0cdb6a387bebecf68c1058b685995523af131fbe8e99e",
+    "assets/generated/editorial/talkboy-240.webp": "c906b9b856d1cb655d6b4d74360a4acd022a3d9b461809616b17e8eb128ebc1e",
+    "assets/generated/editorial/talkboy-480.webp": "d74e20d3f35f037a3cf49ec984b740a39de077c23ff5002c0fb33785311bab37",
+    "assets/generated/editorial/talkboy-960.webp": "aad1505f1c8f1541d1866793373158db9adc3c5636b65da1db457f6794c2e633",
+    "assets/media/expansion/beanie-baby.jpg": "52e0f294f0951b7e5fccc479234e66c486c2158a17fe46c6115a0930981790ab",
+    "assets/generated/editorial/beanie-baby-240.webp": "db979cf2ede260247347171405642b228d8c9ccfceae5010ae1fcc6f4c51d0f7",
+    "assets/generated/editorial/beanie-baby-480.webp": "fb5926cdc2631e78a20e895bc44378fcb8c84540d6736bcbfaad5a5c2d609994",
+    "assets/generated/editorial/beanie-baby-960.webp": "049cc0d350f8ea9e13d540b3a831b7455af800f4be51ddaa778adaff566b67bf",
+    "assets/media/expansion/pogs.jpg": "e42c7542a5d7b797455996706f423c98d29850611ee618b493d92638bd6d414d",
+    "assets/generated/editorial/pogs-240.webp": "fc94b53b77ff3b1c0ec3f410d52679fbf452fcd2afe7af9005505d1fc4c1ff56",
+    "assets/generated/editorial/pogs-480.webp": "b8b0e53f2fe97ec6c204d84b503356b4dc62a66a42e279e0917ec3f5a51ed93c",
+    "assets/generated/editorial/pogs-830.webp": "bc98544a5950a58f57bd0f7d20b92e53acd5e9b0cad296970c6f3d1b16b27b8c",
+    "assets/media/expansion/super-soaker.jpg": "262e62e8e2bcfe50ec54fef4da45e34616d44aa21f48f1999179ca274f6ac996",
+    "assets/generated/editorial/super-soaker-240.webp": "309a88b80e90853f66a874a0b6f184fe0864702b34885679e9f627034544a9b9",
+    "assets/generated/editorial/super-soaker-480.webp": "13c267380b2c9817575214591e081dd741cd51e515b7221413eab015483e0972",
+    "assets/generated/editorial/super-soaker-714.webp": "42f57abbbc8df386e68ed24683b19fb8b81e633d3b2ddf960fbe8ac9146d4049",
+    "assets/media/expansion/walkman.jpg": "288fa6cf90dbb6eacd28b8f4c41ec8096ae2f458a83eee0651dd2e2622c67480",
+    "assets/generated/editorial/walkman-240.webp": "93eb2810636a478dd90aa5cb8876a729f58d9031b2973986ce4da17b31bfcef5",
+    "assets/generated/editorial/walkman-480.webp": "6b8b1c99726cc127c6cc3b15ac558377daf5d49ac2468b05447aacc51d95c233",
+    "assets/generated/editorial/walkman-960.webp": "11777dc2eaefa72316ed23ebb0dc9e5692e67511c10c4b5be82195d636e274f3",
+    "assets/media/expansion/tb-303.jpg": "fa8950da3d58f8c092e3a68172c774297dffd255a7fc662a6d16b9b25f6c4b3e",
+    "assets/generated/editorial/tb-303-240.webp": "3eb4f209e54d704a3e554e210ca3bff036b1ece4c208eea0319d5f2dee938534",
+    "assets/generated/editorial/tb-303-480.webp": "7d4b0fb24feb0e740ce0d10e2f9a6127675a301de3a5a93bce48545c51b99066",
+    "assets/generated/editorial/tb-303-960.webp": "747db2bd8569723a1cecc9db444258b8f4c3236fe68cc27ad0d743f8c1f03e09",
+    "assets/media/expansion/mpc-2000.jpg": "234ba6893ae9c9b9197f7e58da50bce5e541a24f0c30236b0d2d76159b563dd6",
+    "assets/generated/editorial/mpc-2000-240.webp": "6415a3593c710dceb526352ff88834972b2d6a3c865ebd0a1d6d843c49cb2897",
+    "assets/generated/editorial/mpc-2000-480.webp": "42550312a15e13ba63f5a31e86b9333a5bfa37a4a06f4a26347ac12ce9dc4745",
+    "assets/generated/editorial/mpc-2000-960.webp": "4572027e2e9b0dc4ee9c0c7af9e3cce7306a5e47aa331cdb4e7dba301ddbd72d",
+    "assets/media/expansion/mc-303.jpg": "d1208df464da3860b463963b384b310d3a914991ce21fdaffddef307cd39ef7f",
+    "assets/generated/editorial/mc-303-240.webp": "e18ace625a1e5954ecbaaa15c5119d3b0385f4a92f67f206f2b8b8d56a932c8a",
+    "assets/generated/editorial/mc-303-480.webp": "85b1a5218d73979b8ad47bc465a94bc4ea640a1986830c5e43e046adf5d7065c",
+    "assets/generated/editorial/mc-303-960.webp": "b341a70ceb8019c8c8a048e6056eeaf72342ab5253d734caf68916567c695ca1",
+    "assets/media/expansion/technics-turntable.jpg": "df44bda86f7b540b45e21a272b6c38624688283b99383e553fa596d132f34584",
+    "assets/generated/editorial/technics-turntable-240.webp": "d3ab843a8bd96b79b571349288e1ce7ff88985bace81c7db85feca9297f770af",
+    "assets/generated/editorial/technics-turntable-480.webp": "bcf8d2e21756d4c68a962c43b1324ac27c4e19b80ffd356c7b297f167885805c",
+    "assets/generated/editorial/technics-turntable-960.webp": "e93ecac6c271e633fbb55cdad5377553ebb68d5e39a6904dc572ecbbc2cddb49",
+    "assets/media/expansion/korg-m1.jpg": "dce6cd6789b366d5a2a3b2666a5984832d0085349e994b8413de1a61ab096367",
+    "assets/generated/editorial/korg-m1-240.webp": "cdd84960bc2e647d341db9f88b4062c7f9b7ec3d50f5217c6a3d58a337de95d2",
+    "assets/generated/editorial/korg-m1-480.webp": "d7b6a05485c8c03dcef77e8dd40f7f437dcc1af16e11a96a3f06c8f1ce0c6754",
+    "assets/generated/editorial/korg-m1-960.webp": "0734399d6780bb1bff16dad57a8d24f53664d1b9f78e21c58786205b0a2827ac",
+    "assets/media/expansion/dat-recorder.jpg": "0d8e991a0a6c6c37ce927fbcffd18b052a4a7f3c061ac1edc43efcdb78442671",
+    "assets/generated/editorial/dat-recorder-240.webp": "ac89671013fd44dfded5f94fc0912c664e74a2c382021fd84cd7ef07b0d6ae81",
+    "assets/generated/editorial/dat-recorder-480.webp": "42938babf0d71076d8e55a59e003fa2617cb13d53c60a3b67b07b30b4b93c680",
+    "assets/generated/editorial/dat-recorder-960.webp": "75fe29a58bf797a10267af4eada008ba9bc19bc9e2893684714e21835a243426",
+    "assets/media/expansion/jewel-case.jpg": "b0c6a30f2a6ae61634a96d67a8ee858533206cb071a833d5b4b3b29c2e31a74c",
+    "assets/generated/editorial/jewel-case-240.webp": "be10f88c6c52b2bec0c08b32b21622fa94aa951f6ce0177c547bfd977a8fa3cc",
+    "assets/generated/editorial/jewel-case-480.webp": "aa1886c28f6bcd5a36fd6ca3cc5b171c895e8e07420a87e42fbc0527386b517e",
+    "assets/generated/editorial/jewel-case-960.webp": "3905baa5aca9633c392149eb292c09cfad55d566ccf173e445c846118d42d31b",
+    "assets/media/expansion/dr-martens.jpg": "0c7ee5125046117852da34c99bec5c5c4a19b02457df085ed4249809a25eafc1",
+    "assets/generated/editorial/dr-martens-240.webp": "eea65753a64a5983d3d23bba37134381faa99343d888194149642a1e0d334634",
+    "assets/generated/editorial/dr-martens-480.webp": "bd5f02882c96cb58e0c89f0828ce69e92775b74e93c601bfe3be2245d0c7a686",
+    "assets/generated/editorial/dr-martens-500.webp": "a9f8270b93adc600bc0a0dd5d398fbb98d17800e83c48e5d6fd2d52eb3f30570",
+    "assets/media/expansion/vans-shoes.jpg": "eb39a1091dc8087af841d57a99bcc7d5b24c205cafc8651e2eeed8e00671acf6",
+    "assets/generated/editorial/vans-shoes-240.webp": "88e0bb1db479932048aa592eff06fd1a60bf131444ec63519642d6ea8aa2dbde",
+    "assets/generated/editorial/vans-shoes-480.webp": "b52448f64561d6b3907776923c9db231c39b8a5d29425cdc3cac54a37a12204b",
+    "assets/generated/editorial/vans-shoes-545.webp": "8146d701a8d1ca502fc76cb40656817653837f55b8bdf0799af0fed0c17d07cb",
+    "assets/media/expansion/answering-machine.jpg": "2ac8f41bece61993906e49b0044bfb8b88545e35100e2a621a8188cdbe22d948",
+    "assets/generated/editorial/answering-machine-240.webp": "0a2c8ae735da32b05185aa5a4ff2b87ac87555d38820d663b88987a91285c834",
+    "assets/generated/editorial/answering-machine-480.webp": "6ef8996eddb62a7d39d10c60b8ac65162f864e97fe6144f348321be6d1f7e585",
+    "assets/generated/editorial/answering-machine-960.webp": "3e1bcc4a666cffe133507fd6a0435060f841851f1036f9e3c75afac1e3319878",
+    "assets/media/expansion/super-famicom.jpg": "5130c6031c2c826f5a2756fc3f353dcff9eb86a27abfa72454af7fb77bb5e03d",
+    "assets/generated/editorial/super-famicom-240.webp": "d32c345959fdc11001a7771a9ff07c7116d320311253dac327bce327d39a2da0",
+    "assets/generated/editorial/super-famicom-480.webp": "1adca51a9b2096195534e942e490d61bc701570f446ac11a34c68bf09f6ae1c9",
+    "assets/generated/editorial/super-famicom-960.webp": "5cebb4c2a94f22b27c7996628963535bfa487d8a00f1294d0ec9d592446b77ad",
+    "assets/media/expansion/digital-camera.jpg": "17b125439c84f7c97f9bd0ac414bc7666dc5418916b739f9ad5d93ff99de2863",
+    "assets/generated/editorial/digital-camera-240.webp": "44315709a023727592199d218483e3703e9f9c2fdd0c8b9b6d6a14309d78f003",
+    "assets/generated/editorial/digital-camera-480.webp": "e1f5b22908d7ae61f875a219bed683cac61684487bc167ae686a946183e984ee",
+    "assets/generated/editorial/digital-camera-960.webp": "a88495628fcf1da9e7719377eacf8d8032c0cf4d5a4a31f492ffc0be8bea5758",
+    "assets/media/expansion/powerbook.jpg": "ce685bc2abb91dbdfff4db2a0e2cbe9eb412a1247cced6c75a7045282a9ffa30",
+    "assets/generated/editorial/powerbook-240.webp": "2b34f932185ea534f9ca11ee481885eaf58ce365ff7c2aad8d21fa7332b9119e",
+    "assets/generated/editorial/powerbook-480.webp": "e01fd84b05703e824b108ce4b4bbfbac18c226c70094c4b4a2361ea1c47a95fc",
+    "assets/generated/editorial/powerbook-960.webp": "5633ab6a3b5902e32e6f290c814131f037defeaa904f91e3a762122f214bbe36",
+    "assets/media/expansion/newton.jpg": "2926ef02087b3d2185ebbf1c89ce1e8706ce9633503aa4191ddcb2daf63b8add",
+    "assets/generated/editorial/newton-240.webp": "0a9c83e5eef7f748805cd8753e1b116dab71f26351af418b90ffb3081da0036f",
+    "assets/generated/editorial/newton-480.webp": "c06091c4458473924e08323798178aaa32008abdb188484856b3939f4d7e6ec2",
+    "assets/generated/editorial/newton-960.webp": "6906f42ccf2a8877c75fd007dfb5605d99ed23a91899f1e7c25571c79249b633",
     "assets/fonts/Jersey10-Regular.ttf": "db9cbd091617048a145d249daa2b815fe7083be6ab66ac26626e21a4e01c3e82",
     "assets/fonts/Jersey10-Regular.woff2": "db9b73d03e2f41e9140072dcbe1df006f92d578613c03cbc719be61bf8dc7e1f",
     "assets/fonts/Barlow-Regular.ttf": "95aa02c7c43096e0dd44d787ba6216864a67157e402adab59b35572e0c1577ea",

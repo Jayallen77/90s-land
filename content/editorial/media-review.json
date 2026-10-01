@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-27",
+  "checkedAt": "2026-10-01",
   "items": [
     {
       "id": "family-pc",
@@ -337,6 +337,326 @@
       "checkedAt": "2026-09-27",
       "method": "Original generated asset; locally resized WebP variants",
       "note": "Illustrative collage, not documentary photography."
+    },
+    {
+      "id": "snes",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nintendo-Super-NES-Console-FL.jpg",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "credit": "Evan-Amos",
+      "checkedAt": "2026-10-01",
+      "method": "Commons imageinfo extmetadata plus local contact-sheet/model inspection",
+      "adaptation": "Local JPEG conversion and responsive WebP derivatives; object is photographed later, not presented as a period scene."
+    },
+    {
+      "id": "game-gear",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Game-Gear-Handheld.jpg",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "credit": "Evan-Amos",
+      "checkedAt": "2026-10-01",
+      "method": "Commons imageinfo extmetadata plus local contact-sheet/model inspection",
+      "adaptation": "Local JPEG conversion and responsive WebP derivatives; object is photographed later, not presented as a period scene."
+    },
+    {
+      "id": "saturn",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sega-Saturn-Console-Set-Mk1.png",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "credit": "Evan-Amos",
+      "checkedAt": "2026-10-01",
+      "method": "Commons imageinfo extmetadata plus local contact-sheet/model inspection",
+      "adaptation": "Local JPEG conversion and responsive WebP derivatives; object is photographed later, not presented as a period scene."
+    },
+    {
+      "id": "minidisc",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sony_MZ-1_and_a_disc_20040221.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "credit": "Nixdorf",
+      "checkedAt": "2026-10-01",
+      "method": "Commons imageinfo extmetadata plus local contact-sheet/model inspection",
+      "adaptation": "Local JPEG conversion and responsive WebP derivatives; object is photographed later, not presented as a period scene."
+    },
+    {
+      "id": "palm-pilot",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:PalmPilot_Professional.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "credit": "Letdorf",
+      "checkedAt": "2026-10-01",
+      "method": "Commons imageinfo extmetadata plus local contact-sheet/model inspection",
+      "adaptation": "Local JPEG conversion and responsive WebP derivatives; object is photographed later, not presented as a period scene."
+    },
+    {
+      "id": "nokia-3210",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nokia_3210_3.jpg",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "credit": "Michael Brandtner",
+      "checkedAt": "2026-10-01",
+      "method": "Commons imageinfo extmetadata plus local contact-sheet/model inspection",
+      "adaptation": "Local JPEG conversion and responsive WebP derivatives; object is photographed later, not presented as a period scene."
+    },
+    {
+      "id": "zip-drive",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Iomega_Zip_100_drive_with_a_disk.jpg",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "credit": "Yuri Litvinenko / 30pin",
+      "checkedAt": "2026-10-01",
+      "method": "Commons imageinfo extmetadata plus local contact-sheet/model inspection",
+      "adaptation": "Local JPEG conversion and responsive WebP derivatives; object is photographed later, not presented as a period scene."
+    },
+    {
+      "id": "floppy-disk",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Samsung_3.5_inch_floppy_disk_20110519.jpg",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "credit": "Peter Astbury",
+      "checkedAt": "2026-10-01",
+      "method": "Commons imageinfo extmetadata plus local contact-sheet/model inspection",
+      "adaptation": "Local JPEG conversion and responsive WebP derivatives; object is photographed later, not presented as a period scene."
+    },
+    {
+      "id": "memory-card",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:PSX-Memory-Card.jpg",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "credit": "Evan-Amos",
+      "checkedAt": "2026-10-01",
+      "method": "Commons imageinfo extmetadata plus local contact-sheet/model inspection",
+      "adaptation": "Local JPEG conversion and responsive WebP derivatives; object is photographed later, not presented as a period scene."
+    },
+    {
+      "id": "game-shark",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Game_Shark_PlayStation_1.JPG",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "credit": "Binhow2010",
+      "checkedAt": "2026-10-01",
+      "method": "Commons imageinfo extmetadata plus local contact-sheet/model inspection",
+      "adaptation": "Local JPEG conversion and responsive WebP derivatives; object is photographed later, not presented as a period scene."
+    },
+    {
+      "id": "webtv",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:WebTV_Launch_Units.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Halen Martini",
+      "checkedAt": "2026-10-01",
+      "method": "Commons imageinfo extmetadata plus local contact-sheet/model inspection",
+      "adaptation": "Local JPEG conversion and responsive WebP derivatives; object is photographed later, not presented as a period scene."
+    },
+    {
+      "id": "quickcam",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Connectix_QuickCam_For_Mac_(5005161510).jpg",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "credit": "rfdigitalwpg",
+      "checkedAt": "2026-10-01",
+      "method": "Commons imageinfo extmetadata plus local contact-sheet/model inspection",
+      "adaptation": "Local JPEG conversion and responsive WebP derivatives; object is photographed later, not presented as a period scene."
+    },
+    {
+      "id": "disposable-camera",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fujifilm_QuickSnap_Flash.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Jud McCranie",
+      "checkedAt": "2026-10-01",
+      "method": "Commons imageinfo extmetadata plus local contact-sheet/model inspection",
+      "adaptation": "Local JPEG conversion and responsive WebP derivatives; object is photographed later, not presented as a period scene."
+    },
+    {
+      "id": "talkboy",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Deluxe_Talkboy_on_table.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Y2kcrazyjoker4",
+      "checkedAt": "2026-10-01",
+      "method": "Commons imageinfo extmetadata plus local contact-sheet/model inspection",
+      "adaptation": "Local JPEG conversion and responsive WebP derivatives; object is photographed later, not presented as a period scene."
+    },
+    {
+      "id": "beanie-baby",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mom%27s_Beanies_(9120344523).jpg",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "credit": "daryl_mitchell from Saskatoon, Saskatchewan, Canada",
+      "checkedAt": "2026-10-01",
+      "method": "Commons imageinfo extmetadata plus local contact-sheet/model inspection",
+      "adaptation": "Local JPEG conversion and responsive WebP derivatives; object is photographed later, not presented as a period scene."
+    },
+    {
+      "id": "pogs",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kids_playing_pogs.jpeg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "credit": "Jewel457",
+      "checkedAt": "2026-10-01",
+      "method": "Commons imageinfo extmetadata plus local contact-sheet/model inspection",
+      "adaptation": "Local JPEG conversion and responsive WebP derivatives; object is photographed later, not presented as a period scene."
+    },
+    {
+      "id": "super-soaker",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cps2000front.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "credit": "",
+      "checkedAt": "2026-10-01",
+      "method": "Commons imageinfo extmetadata plus local contact-sheet/model inspection",
+      "adaptation": "Local JPEG conversion and responsive WebP derivatives; object is photographed later, not presented as a period scene."
+    },
+    {
+      "id": "walkman",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sony_Walkman_WM-FX151_Personal_Cassette_Tape_Portable_Stereo_Radio_FM_AM_Tuner.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "YoloBoscaiolo",
+      "checkedAt": "2026-10-01",
+      "method": "Commons imageinfo extmetadata plus local contact-sheet/model inspection",
+      "adaptation": "Local JPEG conversion and responsive WebP derivatives; object is photographed later, not presented as a period scene."
+    },
+    {
+      "id": "tb-303",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Roland_TB-303_Bass_Line_Computer_Controlled.jpg",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "credit": "eternal jamzzzz",
+      "checkedAt": "2026-10-01",
+      "method": "Commons imageinfo extmetadata plus local contact-sheet/model inspection",
+      "adaptation": "Local JPEG conversion and responsive WebP derivatives; object is photographed later, not presented as a period scene."
+    },
+    {
+      "id": "mpc-2000",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Akai_MPC2000.jpg",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "credit": "Original uploader was Alkivar",
+      "checkedAt": "2026-10-01",
+      "method": "Commons imageinfo extmetadata plus local contact-sheet/model inspection",
+      "adaptation": "Local JPEG conversion and responsive WebP derivatives; object is photographed later, not presented as a period scene."
+    },
+    {
+      "id": "mc-303",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Roland_MC-303.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "credit": "Leuo",
+      "checkedAt": "2026-10-01",
+      "method": "Commons imageinfo extmetadata plus local contact-sheet/model inspection",
+      "adaptation": "Local JPEG conversion and responsive WebP derivatives; object is photographed later, not presented as a period scene."
+    },
+    {
+      "id": "technics-turntable",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Technics_SL-1200MK2-2.jpg",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "credit": "derivative work: 32bitmaschine ( talk ) Technics_SL-1200MK2.jpg : Dydric",
+      "checkedAt": "2026-10-01",
+      "method": "Commons imageinfo extmetadata plus local contact-sheet/model inspection",
+      "adaptation": "Local JPEG conversion and responsive WebP derivatives; object is photographed later, not presented as a period scene."
+    },
+    {
+      "id": "korg-m1",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Korg_M1.jpg",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "credit": "Warren B.",
+      "checkedAt": "2026-10-01",
+      "method": "Commons imageinfo extmetadata plus local contact-sheet/model inspection",
+      "adaptation": "Local JPEG conversion and responsive WebP derivatives; object is photographed later, not presented as a period scene."
+    },
+    {
+      "id": "dat-recorder",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sony_TCD-D100_DAT-Recorder_Walkman.jpg",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "credit": "Pittigrilli",
+      "checkedAt": "2026-10-01",
+      "method": "Commons imageinfo extmetadata plus local contact-sheet/model inspection",
+      "adaptation": "Local JPEG conversion and responsive WebP derivatives; object is photographed later, not presented as a period scene."
+    },
+    {
+      "id": "jewel-case",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:CD_Jewel_Case_(Front).jpg",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "credit": "DiscoA340",
+      "checkedAt": "2026-10-01",
+      "method": "Commons imageinfo extmetadata plus local contact-sheet/model inspection",
+      "adaptation": "Local JPEG conversion and responsive WebP derivatives; object is photographed later, not presented as a period scene."
+    },
+    {
+      "id": "dr-martens",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Doctors_1460_Black_Worn.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "credit": "IlPasseggero",
+      "checkedAt": "2026-10-01",
+      "method": "Commons imageinfo extmetadata plus local contact-sheet/model inspection",
+      "adaptation": "Local JPEG conversion and responsive WebP derivatives; object is photographed later, not presented as a period scene."
+    },
+    {
+      "id": "vans-shoes",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vans_Old_Skool_Nautical_Blue.gif",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Karldmartini",
+      "checkedAt": "2026-10-01",
+      "method": "Commons imageinfo extmetadata plus local contact-sheet/model inspection",
+      "adaptation": "Local JPEG conversion and responsive WebP derivatives; object is photographed later, not presented as a period scene."
+    },
+    {
+      "id": "answering-machine",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Panasonic_Answering_Machine_KX-T1423_-_view_on_outgoing_and_recording_cassettes.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Pittigrilli",
+      "checkedAt": "2026-10-01",
+      "method": "Commons imageinfo extmetadata plus local contact-sheet/model inspection",
+      "adaptation": "Local JPEG conversion and responsive WebP derivatives; object is photographed later, not presented as a period scene."
+    },
+    {
+      "id": "super-famicom",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nintendo-Super-Famicom-Set-FL.jpg",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "credit": "Evan-Amos",
+      "checkedAt": "2026-10-01",
+      "method": "Commons imageinfo extmetadata plus local contact-sheet/model inspection",
+      "adaptation": "Local JPEG conversion and responsive WebP derivatives; object is photographed later, not presented as a period scene."
+    },
+    {
+      "id": "digital-camera",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Casio_QV-10_CP%2B_2011.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "credit": "Morio",
+      "checkedAt": "2026-10-01",
+      "method": "Commons imageinfo extmetadata plus local contact-sheet/model inspection",
+      "adaptation": "Local JPEG conversion and responsive WebP derivatives; object is photographed later, not presented as a period scene."
+    },
+    {
+      "id": "powerbook",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Powerbook_100_pose.jpg",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "credit": "Danamania",
+      "checkedAt": "2026-10-01",
+      "method": "Commons imageinfo extmetadata plus local contact-sheet/model inspection",
+      "adaptation": "Local JPEG conversion and responsive WebP derivatives; object is photographed later, not presented as a period scene."
+    },
+    {
+      "id": "newton",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Apple_Newton_MessagePad_H1000_in_NMAH.jpg",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "credit": "National Museum of American History",
+      "checkedAt": "2026-10-01",
+      "method": "Commons imageinfo extmetadata plus local contact-sheet/model inspection",
+      "adaptation": "Local JPEG conversion and responsive WebP derivatives; object is photographed later, not presented as a period scene."
     }
   ]
 }

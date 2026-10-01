@@ -14,6 +14,7 @@ import sys
 import tarfile
 import tempfile
 from html.parser import HTMLParser
+from datetime import date
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
 
@@ -258,14 +259,37 @@ def locked(path):
             fcntl.flock(handle, fcntl.LOCK_UN)
 
 
-def write_package(root, directory):
+def current_week_pages(root, as_of=None):
+    """Refresh time-based HTML inside the package without editing the checkout.
+
+    Catalog generation remains reproducible. Each release supplies a current
+    Denver civil date to the existing renderer, so crawlers receive this week.
+    """
+    if not (root/'content/editorial/catalog.json').is_file(): return {}
+    import archive_content
+    import render_site
+    original = archive_content.CATALOG['buildAsOf']
+    archive_content.CATALOG['buildAsOf'] = (as_of or archive_content.civil_today()).isoformat()
+    try:
+        outputs = render_site.build_outputs()
+        return {Path(name): outputs[root/name] for name in ('index.html','this-week/index.html')}
+    finally:
+        archive_content.CATALOG['buildAsOf'] = original
+
+
+def write_package(root, directory, as_of=None):
     web = directory / 'public'
     web.mkdir()
     paths = collect_files(root)
+    if (root/'content/editorial/catalog.json').is_file():
+        import archive_content
+        as_of = as_of or archive_content.civil_today()
+    refreshed = current_week_pages(root, as_of)
     for relative in sorted(paths):
         target = web / relative
         target.parent.mkdir(parents=True, exist_ok=True)
-        shutil.copyfile(regular_file(root, relative), target)
+        if relative in refreshed: target.write_text(refreshed[relative],encoding='utf-8')
+        else: shutil.copyfile(regular_file(root, relative), target)
         if target.suffix in TEXT_TYPES and target.stat().st_size > 1024:
             # GzipFile fixes the OS header byte across Python versions/platforms.
             with target.with_name(target.name + '.gz').open('wb') as output:
@@ -276,6 +300,7 @@ def write_package(root, directory):
     routes = [r['path'] for r in json.loads((root / 'data/routes.json').read_text())]
     manifest = {'schemaVersion': 3, 'contentDigest': digest(files), 'routes': len(routes),
                 'routePaths': sorted(routes), 'runtimeFiles': len(paths), 'files': files}
+    if as_of: manifest['editorialAsOf'] = as_of.isoformat()
     (directory / 'release-manifest.json').write_text(json.dumps(manifest, indent=2) + '\n', encoding='utf-8')
     archive = directory / '90s-land.tar.gz'
     with archive.open('wb') as output:
@@ -293,7 +318,7 @@ def write_package(root, directory):
     return manifest
 
 
-def build(root, directory):
+def build(root, directory, as_of=None):
     root = Path(root).resolve()
     directory = Path(os.path.abspath(directory))
     if directory.is_symlink():
@@ -309,7 +334,7 @@ def build(root, directory):
         with tempfile.TemporaryDirectory(prefix='.90s-build-', dir=directory.parent) as work:
             staging = Path(work) / 'next'
             staging.mkdir()
-            manifest = write_package(root, staging)
+            manifest = write_package(root, staging, as_of)
             previous = Path(work) / 'previous'
             try:
                 if directory.exists():
@@ -326,6 +351,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--output', type=Path, default=DEFAULT_OUTPUT)
     parser.add_argument('--check', action='store_true', help='Verify an existing package without rebuilding')
+    parser.add_argument('--as-of', type=date.fromisoformat, help='Denver civil date for reproducible time-based HTML; defaults to today')
     args = parser.parse_args()
     if args.check:
         manifest = verify(args.output)
@@ -334,7 +360,7 @@ def main():
         # Fail on stale authoring outputs rather than silently publishing a mixed revision.
         for script in ('optimize_assets.py', 'build_share_cards.py', 'render_site.py'):
             subprocess.run([sys.executable, '-B', str(ROOT / 'tools' / script), '--check'], check=True)
-        manifest = build(ROOT, args.output)
+        manifest = build(ROOT, args.output, args.as_of)
     print(json.dumps({'output': str(args.output.absolute() / 'public'),
                       **{k: v for k, v in manifest.items() if k not in ('files', 'routePaths')}}, indent=2))
 

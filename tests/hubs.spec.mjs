@@ -1,12 +1,16 @@
 import {test,expect} from '@playwright/test';
 import AxeBuilder from '@axe-core/playwright';
 import catalog from '../content/editorial/catalog.json' with {type:'json'};
+import fs from 'node:fs';
+const features=[...fs.readFileSync(new URL('../content/editorial/features.md',import.meta.url),'utf8').matchAll(/<!-- story: (.*?) -->/g)].map(m=>JSON.parse(m[1]));
+const storyCount=category=>[...catalog.stories,...features].filter(s=>!category||s.category===category).length;
+const hubCategory=path=>({'/zones/games/':'games','/zones/music/':'music','/zones/tv-movies/':'movies-tv','/zones/tech-toys/':'tech','/zones/culture/':'culture'}[path]);
 const hubs=['/zones/games/','/zones/music/','/zones/tv-movies/','/zones/tech-toys/','/zones/culture/'];
 for(const path of hubs){
  test(`complete hub, every advertised topic has content: ${path}`,async({page})=>{
   await page.goto(path);
   await expect(page.locator('h1')).toHaveCount(1);
-  await expect(page.locator('[data-hub-story]')).toHaveCount(6);
+  await expect(page.locator('[data-hub-story]')).toHaveCount(storyCount(hubCategory(path)));
   await page.locator('.ed-hero>img').evaluate(img=>img.decode());
   const links=await page.locator('[data-hub-filter="topic"], [data-hub-filter="genre"]').evaluateAll(as=>as.map(a=>a.getAttribute('href')));
   for(const href of links){
@@ -49,14 +53,14 @@ test('Culture is a real hub with the original specialist collections intact',asy
 test('story library categories survive reload and recover from invalid values',async({page})=>{
  await page.goto('/stories/');
  const stories=page.locator('[data-hub-story]:visible');
- await expect(stories).toHaveCount(30);
+ await expect(stories).toHaveCount(storyCount());
  for(const category of ['music','movies-tv','games','tech','culture']){
   await page.locator(`[data-hub-filter="category"][data-value="${category}"]`).click();
-  await expect(stories).toHaveCount(6);
+  await expect(stories).toHaveCount(storyCount(category));
   await expect(stories.first()).toHaveAttribute('data-category',category);
  }
- await page.reload();await expect(stories).toHaveCount(6);
- await page.goto('/stories/?category=unknown');await expect(stories).toHaveCount(30);
+ await page.reload();await expect(stories).toHaveCount(storyCount('culture'));
+ await page.goto('/stories/?category=unknown');await expect(stories).toHaveCount(storyCount());
  const result=await new AxeBuilder({page}).analyze();expect(result.violations).toEqual([]);
 });
 
@@ -64,7 +68,7 @@ test('category view-all links open matching stories and dated events',async({pag
  await page.goto('/zones/music/');
  await page.locator('#section-stories').getByRole('link',{name:'VIEW ALL'}).click();
  await expect(page).toHaveURL(/stories\/\?category=music/);
- await expect(page.locator('[data-hub-story]:visible')).toHaveCount(6);
+ await expect(page.locator('[data-hub-story]:visible')).toHaveCount(storyCount('music'));
  await page.goto('/events/?category=games');
  await expect(page.locator('[data-hub-event]:visible')).toHaveCount(Math.min(18,catalog.events.filter(event=>event.category==='games').length));
  for(const card of await page.locator('[data-hub-event]:visible').all()) await expect(card).toHaveAttribute('data-category','games');

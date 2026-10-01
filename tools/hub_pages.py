@@ -7,9 +7,9 @@ import archive_pages as ar
 MODULES=json.loads((model.ROOT/'content/editorial/modules.json').read_text())
 HUBS={
  '/zones/games/':('games','games','GAME ON','THE 90s GAME ERA','16-bit adventures. 3D worlds. Arcade legends. Pick a platform, find a story, and make room for player two.','the-console-war-couch'),
- '/zones/music/':('music','music','TURN IT UP','THE DECADE ON REPEAT','Rewind the tape with a pencil. Check the CD for scratches. Find the records and listening habits behind your favorite songs.','from-mixtape-to-file'),
+ '/zones/music/':('music','music','TURN IT UP','THE DECADE ON REPEAT','Rewind the tape with a pencil. Check the CD for scratches. Find the records and listening habits behind your favorite songs.','bristol-between-the-beats'),
  '/zones/tv-movies/':('movies-tv','movies','PRESS PLAY','ONE MORE MOVIE NIGHT','The new release is out, but someone got the last copy. Choose a video-store story or catch up with the shows everyone discussed the next morning.','friday-at-the-video-store'),
- '/zones/tech-toys/':('tech','tech','YOU’RE ONLINE','MEET AT THE FAMILY COMPUTER','Someone needs the phone line. Save your game, finish the download, and take a closer look at the machines on the desk.','the-family-computer'),
+ '/zones/tech-toys/':('tech','tech','YOU’RE ONLINE','MEET AT THE FAMILY COMPUTER','Someone needs the phone line. Save your game, finish the download, and take a closer look at the machines on the desk.','browser-wars-at-home'),
  '/zones/culture/':('culture','culture','AS IF!','MEET YOU BY THE FOUNTAIN','Browse the mall, choose a screen name, or find the tiny pet that kept interrupting class. There’s more to the decade than a release calendar.','meet-me-at-the-mall')}
 TOPICS={
  'music':[('All stories','all'),('Grunge & rock','grunge'),('Hip-hop & R&B','hip-hop'),('Teen pop','teen-pop'),('Rave & electronic','rave'),('Mixtapes & MP3','mixtapes'),('CD listening','cd')],
@@ -48,7 +48,7 @@ def object_tile(id,title=None):
 
 def hub(route):
  cat,art,title,subtitle,summary,feature=HUBS[route['path']]
- stories=[s for s in model.STORIES if s['category']==cat]
+ stories=sorted([s for s in model.STORIES if s['category']==cat],key=lambda s:s.get('publishedAt',''),reverse=True)
  top=hero(art,title,subtitle,summary, '#game-archive' if cat=='games' else '#section-stories', 'Explore the era' if cat=='games' else 'Explore the stories')
  top+=rail(GENRES,'genre','game-archive','Game genres') if cat=='games' else rail(TOPICS[cat],'topic','section-stories',model.CATEGORIES[cat]+' topics')
  feature_panel=panel('Featured story',story_tile(story(feature)))
@@ -58,7 +58,7 @@ def hub(route):
   picks=[s for s in stories if s['id']!=feature][:5]
   links=''.join(f'<a class="hub-spotlight" href="{model.story_url(s)}"><span>{ed.icon("arrow")}</span><span><strong>{ed.esc(s["title"])}</strong><small>{ed.esc(s["summary"])}</small></span></a>' for s in picks)
   middle=panel({'games':'Five ways into the era','tech':'The next big thing','culture':'Everyday touchstones'}[cat],links,'bolt')
- objects={'games':['playstation-hardware','family-pc','arcade-cabinet','game-boy-color'],'music':['cassette','discman','cdr-spindle','crt-television'],'movies-tv':['blockbuster-store','vhs-tape','crt-television','cdr-spindle'],'tech':['family-pc','pager','windows-95-start','bondi-imac'],'culture':['game-boy-color','cassette','pager','crt-television']}[cat]
+ objects={'games':['playstation-hardware','memory-card','snes','game-gear'],'music':['minidisc','technics-turntable','mpc-2000','discman'],'movies-tv':['blockbuster-store','vhs-tape','crt-television','jewel-case'],'tech':['zip-drive','palm-pilot','digital-camera','newton'],'culture':['talkboy','disposable-camera','answering-machine','dr-martens']}[cat]
  if cat=='games':
   browse=''.join(ed.tile(t,f'?platform={v}#game-archive',a,sub) for t,v,a,sub in [('Console games','consoles','playstation-hardware','From cartridges to discs.'),('PC games','pc','family-pc','The desk becomes an arena.'),('Arcade games','arcade','arcade-cabinet','Quarter up. You’re next.'),('Handheld games','handhelds','game-boy-color','A world in your pocket.')])
  else: browse=''.join(object_tile(id) for id in objects)
@@ -67,13 +67,15 @@ def hub(route):
  top+=f'<div class="hub-lead-grid">{feature_panel}{middle}{browse_panel}{panel("At a glance",f"<div class=hub-facts>{facts}</div>","bolt")}</div>'
  top+=f'<section id="section-stories" class="hub-section" data-hub-collection="stories">{ed.heading("Deep dives","book",f"/stories/?category={cat}")}<p class="hub-status ar-js-only" data-hub-status="stories" role="status">{len(stories)} stories</p><div class="hub-story-grid">'+''.join(f'<div data-hub-story data-topics="{ed.esc(" ".join(s.get("topics",[])))}">{story_tile(s)}</div>' for s in stories)+'</div><p class="ar-empty" data-hub-empty="stories" hidden>No stories match this topic. <a href="?topic=all#section-stories">Show all stories →</a></p></section>'
  if cat=='games':top+=game_archive()
+ if cat=='music':
+  top+=panel('Ten years on the record-store shelf','<p>Original album years, from hip-hop and R&B to industrial, trip-hop, punk and electronic music. These selections keep year-level evidence separate from exact release days.</p><nav class="ed-decade" aria-label="Albums by year">'+''.join(f'<a href="/timeline/{y}/#year-context">{y}</a>' for y in range(1990,2000))+'</nav>','music')
  if events:
   # Distinct genres and years take precedence over an arbitrary recency ranking.
   if cat=='movies-tv':
    featured_ids=['twin-peaks-premiere','rugrats-premiere','film-jurassic-park-1993','friends-premiere','film-toy-story-1995','sopranos-premiere']
   elif cat=='culture':featured_ids=['mall-of-america-opens','euro-disney-opens','rugby-world-cup-1995-final','tamagotchi-japan','wnba-first-game','womens-world-cup-1999-final']
   elif cat=='music':featured_ids=['violator-uk','nevermind','wu-tang-debut','wannabe-uk','lauryn-hill-miseducation','britney-debut-album']
-  elif cat=='games':featured_ids=['super-mario-world-japan','sonic-western-release','doom-shareware','playstation-japan','nintendo-64-us','dreamcast-us']
+  elif cat=='games':featured_ids=['super-mario-world-japan','sonic-western-release','doom-shareware','playstation-japan','nintendo-64-us','diablo-original','starcraft-original','dreamcast-us']
   else:featured_ids=['windows-30-launch','cern-opens-web','windows-95-launch','hotmail-launch','imac-arrives','google-incorporated']
   picks=[model.EVENT_BY_ID[id] for id in featured_ids]
   top+=f'<section class="hub-section">{ed.heading("On the release calendar" if cat in ("music","movies-tv") else "Moments on the timeline","calendar",f"/events/?category={cat}")}<div class="hub-event-grid">'+''.join(ar.event_card(e) for e in picks)+'</div></section>'

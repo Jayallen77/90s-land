@@ -5,15 +5,15 @@ import {weekPicks} from '../js/discovery.js';
 import catalog from '../assets/runtime/week.json' with {type:'json'};
 import {eventsInWeek} from '../js/date-utils.js';
 
-test('default week rolls over in New York while a selected week stays put',async({page})=>{
-  await page.clock.install({time:new Date('2026-09-30T03:59:30Z')});
+test('default week rolls over in Denver while a selected week stays put',async({page})=>{
+  await page.clock.install({time:new Date('2026-09-30T05:59:30Z')});
   await page.goto('/this-week/');
   await expect(page.locator('[data-week-date]')).toHaveValue('1996-09-29');
   await page.clock.runFor(60000);
   await expect(page.locator('[data-week-date]')).toHaveValue('1996-09-30');
   await page.locator('[data-week-date]').fill('1998-08-15');
   await page.locator('[data-week-date]').dispatchEvent('change');
-  await page.clock.setSystemTime(new Date('2026-10-08T04:01:00Z'));
+  await page.clock.setSystemTime(new Date('2026-10-08T06:01:00Z'));
   await page.clock.runFor(60000);
   await expect(page.locator('[data-week-date]')).toHaveValue('1998-08-15');
   await page.locator('[data-week-today]').click();

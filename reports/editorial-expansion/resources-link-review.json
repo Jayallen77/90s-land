@@ -1,0 +1,463 @@
+{
+  "checkedAt": "2026-10-01",
+  "method": "Public HEAD requests; denied or timed-out checks are inconclusive, not dead-link evidence.",
+  "results": [
+    {
+      "id": "wayback-machine",
+      "url": "https://web.archive.org/",
+      "status": 200,
+      "finalUrl": "https://web.archive.org/"
+    },
+    {
+      "id": "internet-archive",
+      "url": "https://archive.org/",
+      "status": 200,
+      "finalUrl": "https://archive.org/"
+    },
+    {
+      "id": "theoldnet",
+      "url": "https://theoldnet.com/",
+      "status": 200,
+      "finalUrl": "https://theoldnet.com/"
+    },
+    {
+      "id": "oldweb-today",
+      "url": "https://oldweb.today/",
+      "status": 200,
+      "finalUrl": "https://oldweb.today/"
+    },
+    {
+      "id": "protoweb",
+      "url": "https://protoweb.org/",
+      "status": 200,
+      "finalUrl": "https://protoweb.org/"
+    },
+    {
+      "id": "camerons-world",
+      "url": "https://www.cameronsworld.net/",
+      "status": 200,
+      "finalUrl": "https://www.cameronsworld.net/"
+    },
+    {
+      "id": "neocities-browse",
+      "url": "https://neocities.org/browse",
+      "status": 200,
+      "finalUrl": "https://neocities.org/browse"
+    },
+    {
+      "id": "gifcities",
+      "url": "https://gifcities.org/",
+      "status": 200,
+      "finalUrl": "https://gifcities.org/"
+    },
+    {
+      "id": "one-terabyte-of-kilobyte-age",
+      "url": "https://oneterabyteofkilobyteage.tumblr.com/",
+      "status": 200,
+      "finalUrl": "https://oneterabyteofkilobyteage.tumblr.com/"
+    },
+    {
+      "id": "the-geocities-gallery",
+      "url": "https://geocities.restorativland.org/",
+      "status": 200,
+      "finalUrl": "https://geocities.restorativland.org/"
+    },
+    {
+      "id": "oocities",
+      "url": "https://www.oocities.org/",
+      "status": 200,
+      "finalUrl": "https://www.oocities.org/"
+    },
+    {
+      "id": "404pagefound",
+      "url": "https://www.404pagefound.com/",
+      "status": 200,
+      "finalUrl": "https://www.404pagefound.com/"
+    },
+    {
+      "id": "wiby",
+      "url": "https://wiby.me/",
+      "status": 200,
+      "finalUrl": "https://wiby.me/"
+    },
+    {
+      "id": "web-design-museum",
+      "url": "https://www.webdesignmuseum.org/",
+      "status": 200,
+      "finalUrl": "https://www.webdesignmuseum.org/"
+    },
+    {
+      "id": "version-museum",
+      "url": "https://www.versionmuseum.com/",
+      "status": 200,
+      "finalUrl": "https://www.versionmuseum.com/"
+    },
+    {
+      "id": "webmuseum",
+      "url": "https://www.ibiblio.org/wm/",
+      "status": 200,
+      "finalUrl": "https://www.ibiblio.org/wm/"
+    },
+    {
+      "id": "archive-team",
+      "url": "https://wiki.archiveteam.org/",
+      "status": 200,
+      "finalUrl": "https://wiki.archiveteam.org/"
+    },
+    {
+      "id": "textfiles-com",
+      "url": "https://textfiles.com/",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "id": "bbslist-textfiles-com",
+      "url": "https://bbslist.textfiles.com/",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "id": "cd-textfiles-com",
+      "url": "https://cd.textfiles.com/",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "id": "noclip-website",
+      "url": "https://noclip.website/",
+      "status": 200,
+      "finalUrl": "https://noclip.website/"
+    },
+    {
+      "id": "flashpoint-archive",
+      "url": "https://flashpointarchive.org/",
+      "status": 200,
+      "finalUrl": "https://flashpointarchive.org/"
+    },
+    {
+      "id": "internet-archive-software-library",
+      "url": "https://archive.org/details/software",
+      "status": 200,
+      "finalUrl": "https://archive.org/details/software"
+    },
+    {
+      "id": "internet-arcade",
+      "url": "https://archive.org/details/internetarcade",
+      "status": 200,
+      "finalUrl": "https://archive.org/details/internetarcade"
+    },
+    {
+      "id": "the-emularity-emulation-station",
+      "url": "https://archive.org/details/emulation",
+      "status": 200,
+      "finalUrl": "https://archive.org/details/emulation"
+    },
+    {
+      "id": "ms-dos-games-on-the-internet-archive",
+      "url": "https://archive.org/details/softwarelibrary_msdos_games",
+      "status": 200,
+      "finalUrl": "https://archive.org/details/softwarelibrary_msdos_games"
+    },
+    {
+      "id": "the-vintage-software-collection",
+      "url": "https://archive.org/details/vintagesoftware",
+      "status": 200,
+      "finalUrl": "https://archive.org/details/vintagesoftware"
+    },
+    {
+      "id": "winworld",
+      "url": "https://winworldpc.com/",
+      "status": 200,
+      "finalUrl": "https://winworldpc.com/home"
+    },
+    {
+      "id": "macintosh-garden",
+      "url": "https://macintoshgarden.org/",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+    },
+    {
+      "id": "macintosh-repository",
+      "url": "https://www.macintoshrepository.org/",
+      "status": 200,
+      "finalUrl": "https://www.macintoshrepository.org/"
+    },
+    {
+      "id": "oldversion",
+      "url": "https://oldversion.com/",
+      "status": 200,
+      "finalUrl": "https://www.oldversion.com/"
+    },
+    {
+      "id": "dos-games-archive",
+      "url": "https://www.dosgamesarchive.com/",
+      "status": 200,
+      "finalUrl": "https://www.dosgamesarchive.com/"
+    },
+    {
+      "id": "classicreload",
+      "url": "https://classicreload.com/",
+      "status": 200,
+      "finalUrl": "https://classicreload.com/"
+    },
+    {
+      "id": "my-abandonware",
+      "url": "https://www.myabandonware.com/",
+      "status": 200,
+      "finalUrl": "https://www.myabandonware.com/"
+    },
+    {
+      "id": "scummvm",
+      "url": "https://www.scummvm.org/",
+      "status": 200,
+      "finalUrl": "https://www.scummvm.org/"
+    },
+    {
+      "id": "dosbox",
+      "url": "https://www.dosbox.com/",
+      "status": 200,
+      "finalUrl": "https://www.dosbox.com/"
+    },
+    {
+      "id": "mame",
+      "url": "https://www.mamedev.org/",
+      "status": 200,
+      "finalUrl": "https://www.mamedev.org/"
+    },
+    {
+      "id": "retroarch",
+      "url": "https://www.retroarch.com/",
+      "status": 200,
+      "finalUrl": "https://www.retroarch.com/"
+    },
+    {
+      "id": "openemu",
+      "url": "https://openemu.org/",
+      "status": 200,
+      "finalUrl": "https://openemu.org/"
+    },
+    {
+      "id": "emulatorjs",
+      "url": "https://emulatorjs.org/",
+      "status": 200,
+      "finalUrl": "https://emulatorjs.org/"
+    },
+    {
+      "id": "ruffle",
+      "url": "https://ruffle.rs/",
+      "status": 200,
+      "finalUrl": "https://ruffle.rs/"
+    },
+    {
+      "id": "vgmaps",
+      "url": "https://www.vgmaps.com/",
+      "status": 200,
+      "finalUrl": "https://www.vgmaps.com/"
+    },
+    {
+      "id": "mobygames",
+      "url": "https://www.mobygames.com/",
+      "status": 403
+    },
+    {
+      "id": "video-game-history-foundation-digital-archive",
+      "url": "https://archive.gamehistory.org/",
+      "status": 200,
+      "finalUrl": "https://archive.gamehistory.org/"
+    },
+    {
+      "id": "video-game-history-foundation-library-catalog",
+      "url": "https://library.gamehistory.org/",
+      "status": 200,
+      "finalUrl": "https://library.gamehistory.org/"
+    },
+    {
+      "id": "retromags",
+      "url": "https://www.retromags.com/",
+      "status": 200,
+      "finalUrl": "https://www.retromags.com/"
+    },
+    {
+      "id": "emuvr",
+      "url": "https://www.emuvr.net/",
+      "status": 200,
+      "finalUrl": "https://www.emuvr.net/wiki/Main_Page"
+    },
+    {
+      "id": "my-90s-tv",
+      "url": "https://90s.myretrotvs.com/",
+      "status": 200,
+      "finalUrl": "https://90s.myretrotvs.com/"
+    },
+    {
+      "id": "retrojunk",
+      "url": "https://www.retrojunk.com/",
+      "status": 405
+    },
+    {
+      "id": "tv-ark",
+      "url": "https://tvark.org/",
+      "status": 200,
+      "finalUrl": "https://tvark.org/"
+    },
+    {
+      "id": "tv-brain",
+      "url": "https://www.tvbrain.info/",
+      "status": 200,
+      "finalUrl": "https://www.tvbrain.info/"
+    },
+    {
+      "id": "fuzzymemories",
+      "url": "https://fuzzymemories.tv/",
+      "status": 200,
+      "finalUrl": "https://fuzzymemories.tv/"
+    },
+    {
+      "id": "paley-archive",
+      "url": "https://www.paleycenter.org/collection-2",
+      "status": 200,
+      "finalUrl": "https://www.paleycenter.org/collection-2"
+    },
+    {
+      "id": "american-archive-of-public-broadcasting",
+      "url": "https://americanarchive.org/",
+      "status": 200,
+      "finalUrl": "https://americanarchive.org/"
+    },
+    {
+      "id": "internet-archive-tv-news-archive",
+      "url": "https://archive.org/details/tv",
+      "status": 200,
+      "finalUrl": "https://archive.org/details/tv"
+    },
+    {
+      "id": "kids-shows-on-vhs",
+      "url": "https://archive.org/details/vhskids",
+      "status": 200,
+      "finalUrl": "https://archive.org/details/vhskids"
+    },
+    {
+      "id": "space-jam-1996",
+      "url": "https://www.spacejam.com/1996/",
+      "status": 200,
+      "finalUrl": "https://www.spacejam.com/1996/"
+    },
+    {
+      "id": "discogs",
+      "url": "https://www.discogs.com/",
+      "status": 200,
+      "finalUrl": "https://www.discogs.com/"
+    },
+    {
+      "id": "musicbrainz",
+      "url": "https://musicbrainz.org/",
+      "status": 200,
+      "finalUrl": "https://musicbrainz.org/"
+    },
+    {
+      "id": "radiooooo",
+      "url": "https://radiooooo.com/",
+      "status": 200,
+      "finalUrl": "https://app.radiooooo.com/"
+    },
+    {
+      "id": "live-music-archive",
+      "url": "https://archive.org/details/etree",
+      "status": 200,
+      "finalUrl": "https://archive.org/details/etree"
+    },
+    {
+      "id": "netlabel-archive",
+      "url": "https://netlabelarchive.org/",
+      "status": 200,
+      "finalUrl": "https://netlabelarchive.org/"
+    },
+    {
+      "id": "computer-history-museum-collections",
+      "url": "https://computerhistory.org/collections/",
+      "status": 200,
+      "finalUrl": "https://computerhistory.org/collections/"
+    },
+    {
+      "id": "chm-software-history-center",
+      "url": "https://computerhistory.org/software-history-center/",
+      "status": 200,
+      "finalUrl": "https://computerhistory.org/software-history-center/"
+    },
+    {
+      "id": "chm-oral-histories",
+      "url": "https://computerhistory.org/oral-histories/",
+      "status": 200,
+      "finalUrl": "https://computerhistory.org/oral-histories/"
+    },
+    {
+      "id": "software-heritage",
+      "url": "https://www.softwareheritage.org/",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+    },
+    {
+      "id": "vogons",
+      "url": "https://www.vogons.org/",
+      "status": 200,
+      "finalUrl": "https://www.vogons.org/"
+    },
+    {
+      "id": "atariage",
+      "url": "https://www.atariage.com/",
+      "status": 200,
+      "finalUrl": "https://www.atariage.com/"
+    },
+    {
+      "id": "doomworld",
+      "url": "https://www.doomworld.com/",
+      "status": 403
+    },
+    {
+      "id": "r-90s",
+      "url": "https://www.reddit.com/r/90s/",
+      "status": 200,
+      "finalUrl": "https://www.reddit.com/r/90s/"
+    },
+    {
+      "id": "r-nostalgia",
+      "url": "https://www.reddit.com/r/nostalgia/",
+      "status": 200,
+      "finalUrl": "https://www.reddit.com/r/nostalgia/"
+    },
+    {
+      "id": "r-retrogaming",
+      "url": "https://www.reddit.com/r/retrogaming/",
+      "status": 200,
+      "finalUrl": "https://www.reddit.com/r/retrogaming/"
+    },
+    {
+      "id": "r-oldinternet",
+      "url": "https://www.reddit.com/r/oldinternet/",
+      "status": 200,
+      "finalUrl": "https://www.reddit.com/r/oldinternet/"
+    },
+    {
+      "id": "ebay-nostalgia-toy-box",
+      "url": "https://www.ebay.com/b/Nostalgia-Toy-Box-Collectors-Hobbyists-Toys-Hobbies/220/bn_80737684",
+      "status": 200,
+      "finalUrl": "https://www.ebay.com/splashui/challenge?ap=1&appName=orch&ru=https%3A%2F%2Fwww.ebay.com%2Fb%2FNostalgia-Toy-Box-Collectors-Hobbyists-Toys-Hobbies%2F220%2Fbn_80737684&iid=9e3d84fa-db4c-45f6-940a-e78ba9fa4a17&iim=cNzUuNS&iia=QFzAuMjvs&iiz=FfLQuMzc*Mrt"
+    },
+    {
+      "id": "etsy-vintage-marketplace",
+      "url": "https://www.etsy.com/market/vintage_marketplace",
+      "status": 403
+    },
+    {
+      "id": "shopgoodwill",
+      "url": "https://shopgoodwill.com/",
+      "status": 200,
+      "finalUrl": "https://shopgoodwill.com/"
+    },
+    {
+      "id": "mercari",
+      "url": "https://www.mercari.com/",
+      "status": 403
+    },
+    {
+      "id": "reverb",
+      "url": "https://reverb.com/",
+      "status": 403
+    }
+  ]
+}

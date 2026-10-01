@@ -41,10 +41,11 @@ def required(record, fields, label, errors):
             errors.append(f"{label}: {key} must be {expected.__name__}")
 
 
-def validate_catalogs(root: Path = ROOT) -> list[str]:
+def validate_catalogs(root: Path = ROOT, routes=None) -> list[str]:
     """Growth is allowed; baseline identities and existing relationships survive."""
     errors = []
     catalogs = {name: load_array(root / "data" / f"{name}.json", errors) for name in ("routes", "artifacts", "resources", "tours", "stamps")}
+    if routes is not None: catalogs['routes'] = routes
     ids = {name: unique(records, name, errors) for name, records in catalogs.items()}
     route_paths = unique(catalogs["routes"], "routes", errors, "path")
     schemas = {

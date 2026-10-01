@@ -8,6 +8,8 @@ playwright-report/
 reports/lighthouse/*.json
 !reports/lighthouse/summary.json
 /dist/
+# Private research exports and full reference captures stay local.
+/content/research/
 # Local credentials, Python environments, and temporary release work are never committed.
 .env
 .env.*
