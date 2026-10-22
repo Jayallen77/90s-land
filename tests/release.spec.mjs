@@ -1,4 +1,4 @@
-import {test,expect} from '@playwright/test';
+import {test,expect} from './browser-fixtures.mjs';
 import AxeBuilder from '@axe-core/playwright';
 
 const surfaces=['/','/timeline/','/timeline/1996/?month=06&view=calendar','/zones/games/','/zones/music/','/zones/tv-movies/','/zones/tech-toys/','/zones/culture/','/this-week/','/stories/','/stories/the-console-war-couch/','/archive/objects/n64-controller/','/search/?q=1996','/tours/before-the-feed/','/zones/fashion/','/zones/internet-culture/','/zones/transparent-tech/'];

@@ -1,4 +1,4 @@
-import {test,expect} from '@playwright/test';
+import {test,expect} from './browser-fixtures.mjs';
 import AxeBuilder from '@axe-core/playwright';
 import pool from '../assets/runtime/surprise.json' with {type:'json'};
 import {weekPicks} from '../js/discovery.js';

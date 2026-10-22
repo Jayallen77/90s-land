@@ -1,4 +1,4 @@
-import { test, expect } from '@playwright/test';
+import { test, expect } from './browser-fixtures.mjs';
 import catalog from '../content/editorial/catalog.json' with { type: 'json' };
 
 test('dated highlights switch between grid and list', async ({ page }) => {

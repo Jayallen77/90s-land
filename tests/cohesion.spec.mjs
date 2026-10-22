@@ -1,5 +1,5 @@
 import fs from 'node:fs';
-import {test,expect} from '@playwright/test';
+import {test,expect} from './browser-fixtures.mjs';
 import AxeBuilder from '@axe-core/playwright';
 const routes=['/events/?category=culture','/zones/fashion/','/zones/transparent-tech/','/webring/','/guestbook/','/credits/','/sitemap/','/surprise/','/404.html'];
 for(const route of routes){

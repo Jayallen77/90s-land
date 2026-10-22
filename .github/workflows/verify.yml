@@ -14,6 +14,10 @@ jobs:
   verify:
     runs-on: ubuntu-latest
     timeout-minutes: 35
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [1, 2, 3, 4]
     env:
       LAUNCH_QA_DIR: dist/ci/screenshots
       PLAYWRIGHT_BASE_URL: http://127.0.0.1:4174
@@ -63,6 +67,6 @@ jobs:
               raise SystemExit('Release preview did not start')
           PY
           pnpm release:audit
-          pnpm test
+          pnpm test --fully-parallel --workers=1 --shard=${{ matrix.shard }}/4
           git diff --exit-code
           git diff --cached --exit-code

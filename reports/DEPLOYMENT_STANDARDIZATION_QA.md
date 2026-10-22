@@ -57,13 +57,23 @@ tests, strict packaging, the HTTP audit and the browser suite. It has read-only
 repository permissions and no production credentials or deployment operation.
 Hosted execution is separate from the local results below.
 
+The first hosted run passed source checks, packaging and HTTP delivery, then
+found nine browser-test startup races on the slower Linux runner (189 passed).
+The shared browser fixture now waits for existing Passport, timeline, hub and
+Search readiness signals after navigation before tests interact or leave the
+page. No website code or assertions were changed. All twelve affected cases,
+including the directory's five widths, passed locally with that fixture.
+The hosted suite is split across four isolated runners, with one browser worker
+per runner, so the complete route matrix remains covered without serializing
+every route sweep onto one hosted machine.
+
 ## Verification results
 
 | Check | Result |
 | --- | --- |
 | Python generator/content/release tests | 57 passed, including three new deployment-source regressions |
 | Date and discovery tests | 9 passed |
-| Complete packaged browser suite | 198 passed in 6.2 minutes |
+| Complete packaged browser suite | 198 passed in 8.2 minutes with the final readiness fixture |
 | Authoring/media checks | Generated HTML, asset integrity, sharing cards and dimensions current |
 | Content extraction, validation and coverage | Passed; frozen historical sources preserved |
 | Editorial and curation checks | No errors |

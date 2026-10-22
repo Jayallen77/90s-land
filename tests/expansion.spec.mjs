@@ -1,4 +1,4 @@
-import {test,expect} from '@playwright/test';
+import {test,expect} from './browser-fixtures.mjs';
 import fs from 'node:fs';
 import {historicalDate,weekBounds,formatDate,eventsInWeek} from '../js/date-utils.js';
 import catalog from '../content/editorial/catalog.json' with {type:'json'};

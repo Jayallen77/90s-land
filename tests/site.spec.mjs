@@ -1,4 +1,4 @@
-import { expect, test } from "@playwright/test";
+import { expect, test } from "./browser-fixtures.mjs";
 import AxeBuilder from "@axe-core/playwright";
 import routes from "../data/routes.json" with { type: "json" };
 import artifacts from "../data/artifacts.json" with { type: "json" };

@@ -1,4 +1,4 @@
-import {test, expect} from '@playwright/test';
+import {test, expect} from './browser-fixtures.mjs';
 import AxeBuilder from '@axe-core/playwright';
 import curation from '../content/editorial/curation.json' with {type:'json'};
 import catalog from '../content/editorial/catalog.json' with {type:'json'};
