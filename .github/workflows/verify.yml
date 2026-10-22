@@ -1,0 +1,68 @@
+name: Verify production build
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    env:
+      LAUNCH_QA_DIR: dist/ci/screenshots
+      PLAYWRIGHT_BASE_URL: http://127.0.0.1:4174
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.13'
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '26'
+      - name: Install pinned development dependencies
+        run: |
+          python3 -m pip install -r requirements-dev.txt
+          npm install --global pnpm@11.9.0
+          pnpm install --frozen-lockfile
+          pnpm exec playwright install --with-deps chromium
+      - name: Check authoring sources and content
+        run: |
+          pnpm author:check
+          pnpm editorial:check
+          pnpm content:check
+          pnpm test:content
+          pnpm test:dates
+          pnpm run audit
+          pnpm launch:audit
+      - name: Build from the clean Git snapshot
+        run: |
+          pnpm build:production
+          pnpm build:check
+      - name: Verify packaged HTTP delivery and browser behavior
+        shell: bash
+        run: |
+          python3 -B tools/serve_release.py --port 4174 > dist/ci-preview.log 2>&1 &
+          preview_pid=$!
+          trap 'kill "$preview_pid"' EXIT
+          python3 - <<'PY'
+          import time
+          from urllib.request import urlopen
+          for attempt in range(100):
+              try:
+                  with urlopen('http://127.0.0.1:4174/', timeout=1):
+                      break
+              except OSError:
+                  time.sleep(0.2)
+          else:
+              raise SystemExit('Release preview did not start')
+          PY
+          pnpm release:audit
+          pnpm test
+          git diff --exit-code
+          git diff --cached --exit-code

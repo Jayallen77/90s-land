@@ -1,5 +1,13 @@
 # Production deployment and rollback
 
+**For the current GitHub-main workflow and exact Hermes instructions, start with
+[DEPLOYMENT.md](../DEPLOYMENT.md).** It supersedes the generic VPS placeholders
+below. The existing Caddy document root is
+`/home/justin/sites/90s-land-releases/current`; the active release contents and
+layout must still be verified by Hermes before the first deployment. This
+document describes the package format and compatible helper, not permission to
+migrate the existing release system.
+
 The Git checkout is an authoring/build workspace, **never the public web root**.
 Generated HTML is committed alongside sources for review and source-only previews.
 A Git pull alone does not create a production release. `dist/` is intentionally
@@ -42,11 +50,13 @@ and request a separately authorized hosting correction. These scripts do not
 read, edit, reload, restart, or otherwise configure Caddy; they cannot protect a
 repository that a server is independently configured to expose.
 
-No VPS path or current Caddy configuration has been assumed or verified by this
-repository audit. Confirm them with the operator. The checkout and release store
-must be siblings or in separate locations, never inside one another. Use a
-dedicated deployment directory accessible to Caddy (commonly under `/srv` or
-`/var/www`); do not assume Caddy can traverse a user's home directory.
+Justin supplied the existing Caddy root as
+`/home/justin/sites/90s-land-releases/current`. The active release contents,
+release layout and source checkout have not been inspected on the VPS; Hermes
+must verify them using `DEPLOYMENT.md`. The checkout and release store
+must be siblings or in separate locations, never inside one another. Keep the
+existing dedicated release store and established Caddy read/traversal permissions;
+do not relocate it or change ownership as part of deployment.
 
 ## What crosses the public boundary
 
@@ -97,7 +107,7 @@ the default HTML current for crawlers and visitors without JavaScript. The brows
 also recalculates the date while a page is open, but that does not refresh a stored
 HTML file. After the operator confirms the deployment host and release store,
 schedule the existing build/publish commands daily on that host. No remote scheduler
-or production path is assumed by this checkout.
+is installed by this checkout.
 
 ## Local checks before merging
 
@@ -129,82 +139,23 @@ or proof of a particular VPS configuration. The HTTP audit checks every route,
 private-path probes, identity/gzip bodies against the manifest, and compression
 headers. Its default report is ignored `dist/deployment-http.json`.
 
-## Exact VPS procedure after the reviewed change is merged
+## Deployment and rollback
 
-Run as the existing deployment user. Set the **confirmed absolute paths**, the
-operator-approved GitHub revision, and the existing public origin first. Placeholders
-below are deliberately not guessed server paths. The deploy user must be able to
-write `SITE_ROOT`; Caddy needs read/traversal access. Do not use sudo or recursive
-ownership changes to work around an unknown permission setup.
+Follow [DEPLOYMENT.md](../DEPLOYMENT.md) for the exact current Hermes procedure.
+It captures the fetched `origin/main` SHA automatically, requires a clean source
+snapshot, builds and verifies the public bundle, records the previous active
+release, and uses the existing publisher for an atomic switch. No manual revision
+numbers, release tags or server reconfiguration are required.
 
-Precondition: confirm that the existing Caddy document root is exactly
-`SITE_ROOT/current`, with the serving behavior below. If it differs, stop; this
-procedure intentionally does not change server configuration. The helper also
-refuses an existing `current` directory or a symlink outside its managed release
-store. Initial migration from a different layout is a separate operator task.
+The first deployment requires checking the active production release for work
+absent from GitHub. The included publisher is appropriate only when the existing
+release layout satisfies its managed-release contract. Preserve a different
+existing layout rather than migrating it during deployment.
 
-```sh
-set -eu
-SITE_REPO='/absolute/path/to/private/90s-land-checkout'
-SITE_ROOT='/absolute/path/to/dedicated/90s-land-releases'
-SITE_REVISION='FULL_APPROVED_COMMIT_SHA'
-SITE_ORIGIN='https://90s.land'
-
-cd "$SITE_REPO"
-test -z "$(git status --porcelain)"
-test "$(git branch --show-current)" = main
-test "$(git remote get-url origin)" = 'https://github.com/Jayallen77/90s-land.git'
-git pull --ff-only origin main
-test "$(git rev-parse HEAD)" = "$SITE_REVISION"
-python3 -c 'import sys; assert sys.version_info >= (3, 10), "Python 3.10+ required"'
-python3 -B tools/build_release.py
-python3 -B tools/build_release.py --check
-
-# Record the previous release for rollback (empty only on first publication).
-SITE_PREVIOUS=''
-if test -L "$SITE_ROOT/current"; then
-  SITE_PREVIOUS=$(python3 -c 'import pathlib,sys; print(pathlib.Path(sys.argv[1]).resolve().parent)' "$SITE_ROOT/current")
-fi
-
-# Validate/copy the package; switch current atomically only after validation.
-python3 -B tools/deploy_release.py --site-root "$SITE_ROOT"
-python3 -B tools/check_release_http.py \
-  --base-url "$SITE_ORIGIN" \
-  --output dist/deployment-http.json
-```
-
-The script prints the content digest, current pointer, release path, and previous
-release. Save that output, `SITE_REVISION`, `SITE_PREVIOUS`, and the HTTP audit in
-the operator's private deployment record. The manifest stays beside each release.
-No service reload is needed for the content-only symlink switch under the existing
-serving configuration. Re-running the same release is safe; it verifies and reuses
-that release. Prior releases are retained; no cleanup or backup deletion is automatic.
-
-After the HTTP audit, check Home, the June 1996 calendar, This Week date navigation,
-Surprise Me, a story, search, mobile navigation, and an old deep link in a browser.
-Check a fresh session and a session with existing Passport/tour progress. If an
-HTTP or browser check fails, use the saved previous release and investigate.
-A Git pull that moves beyond `SITE_REVISION` stops before build/publish; obtain a
-reviewed revision rather than resetting or force-pushing history.
-
-## Rollback
-
-Use the same publisher with the previously recorded **release directory** (the
-parent of its `public/` directory). It verifies that package and switches the
-pointer atomically. Do not rebuild old content from the current checkout.
-
-```sh
-test -n "$SITE_PREVIOUS"
-python3 -B tools/deploy_release.py --site-root "$SITE_ROOT" --release "$SITE_PREVIOUS"
-python3 -B tools/check_release_http.py \
-  --release "$SITE_PREVIOUS" \
-  --base-url "$SITE_ORIGIN" \
-  --output dist/rollback-http.json
-```
-
-There is no database migration. Passport/tour storage keys and schema stay the
-same. Keep the failed and previous releases for diagnosis; do not clear visitors'
-local storage, delete old releases, or rewrite GitHub history to roll back files.
+Rollback uses the recorded previous complete release with the established
+publisher, followed by the HTTP audit against that same package. Do not rebuild
+old content from the latest checkout, rewrite Git history, delete prior releases,
+or clear visitors' Passport/tour storage. There is no database migration.
 
 ## Existing Caddy serving requirements (verification only)
 

@@ -24,10 +24,11 @@
     "screenshots:final": "node tools/capture_phase5.mjs",
     "build": "python3 -B tools/build_release.py",
     "build:check": "python3 -B tools/build_release.py --check",
+    "build:production": "python3 -B tools/build_release.py --require-clean",
     "release:publish": "python3 -B tools/deploy_release.py",
     "release:audit": "python3 -B tools/check_release_http.py",
     "screenshots:redesign": "node tools/capture_redesign.mjs",
-    "launch:audit": "python3 tools/check_launch.py"
+    "launch:audit": "python3 tools/check_launch.py --output dist/publication.json"
   },
   "devDependencies": {
     "@axe-core/playwright": "4.12.1",

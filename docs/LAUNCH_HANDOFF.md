@@ -1,5 +1,9 @@
 # 90s.land v1.0 launch handoff
 
+**Historical Phase 3 handoff. For current production deployments, follow
+[DEPLOYMENT.md](../DEPLOYMENT.md) and GitHub `main`.** The counts, dates and
+time-zone behavior below describe that earlier release, not the current site.
+
 Phase 3’s committed source is ready for the existing deployment workflow after
 the production target and document root have been confirmed. GitHub `main` is
 the source delivery destination. A push or pull does not activate the website.

@@ -164,6 +164,24 @@ def collect_files(root):
     return included
 
 
+def check_deployment_source(root):
+    """Require a clean Git snapshot with every public dependency in its index."""
+    root = Path(root).resolve()
+
+    def git(*args):
+        return subprocess.check_output(['git', '-C', str(root), *args])
+
+    if Path(os.fsdecode(git('rev-parse', '--show-toplevel')).strip()).resolve() != root:
+        raise ValueError('Deployment source must be the Git checkout root')
+    if git('status', '--porcelain=v1', '-z', '--untracked-files=all'):
+        raise ValueError('Deployment source must be clean; preserve and commit local work first')
+    tracked = set(os.fsdecode(git('ls-files', '--cached', '-z')).split('\0'))
+    missing = sorted(str(path) for path in collect_files(root) if str(path) not in tracked)
+    if missing:
+        raise ValueError('Public dependencies are not tracked by Git: ' + ', '.join(missing))
+    return git('rev-parse', 'HEAD').decode('ascii').strip()
+
+
 def sha(path):
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
@@ -348,11 +366,18 @@ def build(root, directory, as_of=None):
 
 
 def main():
+    if sys.version_info < (3, 10):
+        raise SystemExit('Release packaging requires Python 3.10 or newer')
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--output', type=Path, default=DEFAULT_OUTPUT)
     parser.add_argument('--check', action='store_true', help='Verify an existing package without rebuilding')
     parser.add_argument('--as-of', type=date.fromisoformat, help='Denver civil date for reproducible time-based HTML; defaults to today')
+    parser.add_argument('--require-clean', action='store_true',
+                        help='Require a clean Git checkout and tracked public dependencies before and after building')
     args = parser.parse_args()
+    if args.check and args.require_clean:
+        parser.error('--require-clean applies to a new build; --check only verifies an existing package')
+    source_commit = check_deployment_source(ROOT) if args.require_clean else None
     if args.check:
         manifest = verify(args.output)
     else:
@@ -361,7 +386,10 @@ def main():
         for script in ('optimize_assets.py', 'build_share_cards.py', 'render_site.py'):
             subprocess.run([sys.executable, '-B', str(ROOT / 'tools' / script), '--check'], check=True)
         manifest = build(ROOT, args.output, args.as_of)
+    if args.require_clean and check_deployment_source(ROOT) != source_commit:
+        raise ValueError('Git HEAD changed during the build; do not publish this package')
     print(json.dumps({'output': str(args.output.absolute() / 'public'),
+                      **({'sourceCommit': source_commit} if source_commit else {}),
                       **{k: v for k, v in manifest.items() if k not in ('files', 'routePaths')}}, indent=2))
 
 

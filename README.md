@@ -115,18 +115,28 @@ site design.
 
 ## Deployment
 
+GitHub **`main`** is the production source. Follow [DEPLOYMENT.md](DEPLOYMENT.md)
+for the authoritative Codex → GitHub → Hermes workflow, the existing Caddy path,
+first-deployment production reconciliation, verification and rollback.
+
 **The public production output is `dist/release/public/`. Never serve the Git
 checkout.** After pulling a reviewed commit, run `python3 -B tools/build_release.py`
 (or `pnpm build`). Packaging requires only Python 3.10+; it verifies committed
 generated output and creates a repeatable, public-only package. `dist/` is ignored,
 so a Git pull alone is not a deployment.
 
+For deployment from a clean committed snapshot, use
+`python3 -B tools/build_release.py --require-clean` (or `pnpm build:production`).
+This also rejects untracked public dependencies and checks that Git does not
+change during packaging. The GitHub verification workflow tests `main`; Hermes
+deploys only after Justin requests it and those checks pass.
+
 `python3 -B tools/deploy_release.py --site-root /CONFIRMED/RELEASE/STORE` publishes
 verified files outside the checkout and atomically switches `current` to the
 release's `public/` directory. Caddy must already serve that `current` path.
 The helper preserves prior releases and does not change server configuration.
 
-See [the deployment and rollback runbook](docs/RELEASE.md) for exact VPS commands,
+See [the Hermes deployment and rollback runbook](DEPLOYMENT.md) for exact VPS commands,
 required serving behavior, verification, and rollback. Manifests and archives stay
 outside the public root. GitHub publication and VPS deployment are separate
 operations; perform each only when Justin authorizes it. The deployment scripts

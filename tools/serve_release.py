@@ -17,6 +17,9 @@ def gzip_accepted(header):
     return values.get('gzip',values.get('*',0))>0
 
 class Handler(SimpleHTTPRequestHandler):
+    # Reuse browser connections during full-route QA instead of opening a new
+    # TCP connection for every image, stylesheet and module on every page.
+    protocol_version = 'HTTP/1.1'
     def handle(self):
         try:super().handle()
         except (BrokenPipeError,ConnectionResetError):pass  # A browser can cancel lazy requests.
@@ -40,13 +43,19 @@ class Handler(SimpleHTTPRequestHandler):
         self.end_headers();return response
     def log_message(self,*args):pass
 
+
+class PreviewServer(ThreadingHTTPServer):
+    # Chromium can request many dependencies together; the default backlog is 5.
+    request_queue_size = 128
+
+
 if __name__=='__main__':
     parser=argparse.ArgumentParser();parser.add_argument('--root',type=Path,default=Path(__file__).resolve().parents[1]/'dist/release/public');parser.add_argument('--port',type=int,default=4174);args=parser.parse_args()
     from build_release import verify
     root=args.root.resolve()
     if root.name != 'public':raise ValueError('Preview root must be a verified release public/ directory')
     verify(root.parent)
-    server=ThreadingHTTPServer(('127.0.0.1',args.port),partial(Handler,directory=str(args.root.resolve())))
+    server=PreviewServer(('127.0.0.1',args.port),partial(Handler,directory=str(args.root.resolve())))
     print(f'Release preview: http://127.0.0.1:{args.port}',flush=True)
     try:server.serve_forever()
     except KeyboardInterrupt:pass

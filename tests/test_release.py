@@ -1,13 +1,14 @@
 import json
 from pathlib import Path
 import sys
+import subprocess
 import tempfile
 import unittest
 from unittest.mock import patch
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'tools'))
-from build_release import build, collect_files, dependencies, sha, verify
+from build_release import build, check_deployment_source, collect_files, dependencies, sha, verify
 from deploy_release import publish
 from serve_release import gzip_accepted
 from discovery import surprise_pool
@@ -160,6 +161,47 @@ class ReleaseTests(unittest.TestCase):
         self.assertTrue(gzip_accepted('br, gzip'))
         self.assertFalse(gzip_accepted('gzip;q=0, *;q=1'))
         self.assertFalse(gzip_accepted('br'))
+
+
+class DeploymentSourceTests(unittest.TestCase):
+    def setUp(self):
+        self.temp = tempfile.TemporaryDirectory()
+        self.addCleanup(self.temp.cleanup)
+        self.root = Path(self.temp.name).resolve()
+        fixture(self.root)
+        self.git('init', '-q')
+
+    def git(self, *args):
+        return subprocess.check_output(['git', '-C', str(self.root), *args], stderr=subprocess.STDOUT)
+
+    def commit(self):
+        self.git('add', '.')
+        self.git('-c', 'user.name=Release Test', '-c', 'user.email=release@example.invalid',
+                 'commit', '-qm', 'fixture')
+
+    def test_clean_checkout_returns_its_commit(self):
+        self.commit()
+        self.assertEqual(check_deployment_source(self.root), self.git('rev-parse', 'HEAD').decode().strip())
+
+    def test_modified_staged_and_untracked_work_is_refused(self):
+        self.commit()
+        (self.root / 'index.html').write_text('<p>local work</p>')
+        with self.assertRaisesRegex(ValueError, 'must be clean'):
+            check_deployment_source(self.root)
+        self.git('add', 'index.html')
+        with self.assertRaisesRegex(ValueError, 'must be clean'):
+            check_deployment_source(self.root)
+        self.commit()
+        (self.root / 'notes.txt').write_text('preserve me')
+        with self.assertRaisesRegex(ValueError, 'must be clean'):
+            check_deployment_source(self.root)
+
+    def test_ignored_public_dependency_is_refused_even_with_clean_status(self):
+        (self.root / '.gitignore').write_text('/assets/generated/og-card.png\n')
+        self.commit()
+        self.assertEqual(self.git('status', '--porcelain'), b'')
+        with self.assertRaisesRegex(ValueError, 'not tracked by Git: assets/generated/og-card.png'):
+            check_deployment_source(self.root)
 
 
 class PublishTests(unittest.TestCase):
