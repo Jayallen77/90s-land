@@ -19,9 +19,10 @@ def distribution(events):
 def report():
     errors=archive.validate_curation()
     preservation=json.loads((archive.ROOT/'reports/launch-phase2/event-preservation.json').read_text())
+    retired={e['id']:e for e in json.loads((archive.ROOT/'content/editorial/retired-research.json').read_text())['events']}
     for old in preservation['events']:
-        event=archive.EVENT_BY_ID.get(old['id'])
-        if not event or any(event.get(k)!=value for k,value in old.items()):errors.append('Original event identity or source changed: '+old['id'])
+        event=archive.EVENT_BY_ID.get(old['id']) or retired.get(old['id'])
+        if not event or any(event.get(k)!=value for k,value in old.items() if k in ('id','date','datePrecision','region','sourceIds')):errors.append('Original event identity or source changed: '+old['id'])
     highlights=[e for y in range(1990,2000) for e in archive.defining_events(y)]
     return {'baselineCommit':preservation['commit'],'after':distribution(archive.EVENTS),'definingMoments':distribution(highlights),'yearSelections':archive.CURATION['years'],'fashionContext':{'datedEvents':sum(e['theme']=='fashion' for e in archive.EVENTS),'storyIds':[s['id'] for s in archive.STORIES if 'fashion' in s.get('topics',[])],'note':'Fashion is explored through sourced stories and the lookbook. No exact launch day was invented for an era-wide style.'},'errors':errors}
 

@@ -13,12 +13,15 @@ CATEGORIES = {'music':'Music', 'movies-tv':'Movies & TV', 'games':'Games', 'tech
 THEMES = {'music':'Music', 'movies':'Movies', 'television':'Television', 'games':'Games', 'technology':'Technology', 'internet':'Internet', 'culture':'Culture', 'fashion':'Fashion', 'news':'World news', 'sports':'Sports', 'toys':'Toys & products'}
 HEROES = {'home', 'timeline', 'games', 'music', 'movies', 'tech', 'culture'}
 CATALOG = json.loads((ROOT/'content/editorial/catalog.json').read_text())
+PUBLICATION = json.loads((ROOT/'content/editorial/publication.json').read_text())
+STORY_MEDIA = json.loads((ROOT/'content/editorial/story-media.json').read_text()) if (ROOT/'content/editorial/story-media.json').exists() else {}
 BASE_STORY_IDS = {s['id'] for s in CATALOG['stories']}
 
 def load_features(path):
     """Long-form prose stays in one readable Markdown source, with explicit metadata."""
     records=[]
-    for match in re.finditer(r'<!-- story: (.*?) -->\s*(.*?)(?=<!-- story: |\Z)',path.read_text(),re.S):
+    texts = [path.read_text()] + ([p.read_text() for p in sorted((path.parent/'stories').glob('*.md'))] if path.name == 'features.md' else [])
+    for match in re.finditer(r'<!-- story: (.*?) -->\s*(.*?)(?=<!-- story: |\Z)', '\n'.join(texts),re.S):
         item=json.loads(match[1]);sections=[]
         for section in re.split(r'^## ',match[2],flags=re.M)[1:]:
             heading,body=section.split('\n',1)
@@ -29,10 +32,15 @@ def load_features(path):
     return records
 
 CATALOG['stories'] += load_features(ROOT/'content/editorial/features.md')
+def merged_story_id(id):
+    destination = PUBLICATION['storyMerges'].get(id)
+    return destination.split('/')[2] if destination and destination.startswith('/stories/') else (None if destination else id)
+
+for event in CATALOG['events']:
+    event['storyIds'] = list(dict.fromkeys(id for old in event['storyIds'] if (id := merged_story_id(old))))
 # Event connections are explicitly assigned in the catalog; keep both directions in sync.
 for feature in CATALOG['stories']:
-    if feature['id'] not in BASE_STORY_IDS:
-        feature['eventIds']=[e['id'] for e in CATALOG['events'] if feature['id'] in e['storyIds']]
+    feature['eventIds']=[e['id'] for e in CATALOG['events'] if feature['id'] in e['storyIds']]
 ARTIFACTS = json.loads((ROOT/'data/artifacts.json').read_text())
 EVENTS = sorted(CATALOG['events'], key=lambda e: (e['date'], e['id']))
 STORIES = CATALOG['stories']
@@ -87,7 +95,9 @@ def validate_curation(curation=None, catalog=None):
     return errors
 
 
-def event_url(item): return f'/events/{item["slug"]}/'
+def event_url(item):
+    month = '?month='+item['date'][5:7] if len(item['date']) >= 7 else ''
+    return f'/timeline/{item["date"][:4]}/{month}#event-{item["id"]}'
 def story_url(item): return f'/stories/{item["slug"]}/'
 def object_url(item): return f'/archive/objects/{item["slug"]}/'
 
@@ -127,12 +137,15 @@ def all_routes():
     add('stories','highlights','/stories/','Stories from the 90s','Read the stories behind the dates, objects, and everyday rituals.',['stories'])
     add('object-archive','highlights','/archive/objects/','The object archive',f'{len(ARTIFACTS)} objects, interfaces, and recreations from the 1990s.',['objects','archive'])
     add('zones-culture','zones','/zones/culture/','Culture: meet you at the mall','Style, toys, sports, screen names, and the everyday rituals that made the decade yours.',['culture','fashion','toys','sports','internet'])
-    for e in EVENTS:
-        add('event-'+e['id'],'events',event_url(e),e['title'],e['summary'],[e['date'], e['category'], e['region']],e['objectIds'])
     for s in STORIES:
         add('story-'+s['id'],'stories',story_url(s),s['title'],s['summary'],[s['category']],s['objectIds'])
     for a in ARTIFACTS:
         add('object-'+a['id'],'objects',object_url(a),a['title'],a['curatorNote'],a['tags'],[a['id']])
+    for path, destination in PUBLICATION['redirects'].items():
+        add('redirect-'+path.strip('/').replace('/','-'),'redirects',path,
+            'Moved: '+path.strip('/').split('/')[-1].replace('-',' '),
+            'The entry '+path+' has been consolidated into '+destination,[],())
+        routes[-1]['destination'] = destination
     return routes
 
 
@@ -155,7 +168,7 @@ def validate(catalog=None):
             prefix = item['id']
             require(bool(re.fullmatch('[a-z0-9]+(?:-[a-z0-9]+)*', item['slug'])), f'Invalid slug: {prefix}')
             require(item['category'] in CATEGORIES, f'Unknown category: {prefix}')
-            require(item.get('status') == 'published', f'Unpublished item in public catalog: {prefix}')
+            require(item.get('status') == ('timeline-only' if group == 'events' else 'published'), f'Unpublished item in public catalog: {prefix}')
             require(bool(item.get('title','').strip()) and bool(item.get('summary','').strip()), f'Missing title or summary: {prefix}')
             require(bool(item.get('sourceIds')), f'Missing source: {prefix}')
             require(set(item.get('sourceIds', [])) <= ids['sources'], f'Unknown source: {prefix}')
@@ -201,11 +214,4 @@ def browser_index():
 
 
 def event_image(event):
-    from media_variants import image_record
-    key = event.get('art')
-    if key in HEROES:
-        return {'src':f'/assets/editorial/{key}-hero-768.webp', 'alt':'Original illustrated collage of 90s objects.', 'width':768, 'height':256}
-    artifact = next((a for a in ARTIFACTS if a['id']==key),None)
-    if artifact and artifact['media']['kind']=='image':
-        return image_record({k:artifact['media'][k] for k in ('src','alt','width','height')})
     return None

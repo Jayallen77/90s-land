@@ -24,6 +24,16 @@ export function initializeArchiveTimeline() {
     if (!Number.isInteger(month) || month < 1 || month > 12) month = Number(historicalDate().slice(5,7));
     const view = ['grid','list','calendar'].includes(params.get('view')) ? params.get('view') : 'grid';
     state = {month, view, category:validOption(category, params.get('category')), region:validOption(region, params.get('region')), page:Math.max(1, Number(params.get('page')) || 1)};
+    const entry = document.getElementById(location.hash.slice(1));
+    if (entry?.matches('.ar-event[data-date]')) {
+      state.category = 'all'; state.region = 'all'; state.view = 'grid';
+      const entryMonth = Number(entry.dataset.date.slice(5,7));
+      if (entryMonth) {
+        state.month = entryMonth;
+        const cards = [...root.querySelectorAll(`[data-month-panel="${entryMonth}"] .ar-event`)];
+        state.page = Math.floor(cards.indexOf(entry)/PAGE_SIZE)+1;
+      }
+    }
   }
   function url(next = state, targetYear = year) {
     const params = new URLSearchParams({month:String(next.month).padStart(2,'0')});
@@ -92,9 +102,13 @@ export function initializeArchiveTimeline() {
   root.querySelectorAll('[data-archive-view]').forEach(b => b.addEventListener('click', () => update({view:b.dataset.archiveView})));
   root.querySelector('[data-event-prev]').addEventListener('click', () => update({page:state.page-1}));
   root.querySelector('[data-event-next]').addEventListener('click', () => update({page:state.page+1}));
-  window.addEventListener('popstate', () => { read(); render(); });
-  window.addEventListener('hashchange', () => { read(); render(); });
-  read(); render();
+  const revealEntry = () => {
+    const entry = document.getElementById(location.hash.slice(1));
+    if (entry?.matches('.ar-event')) requestAnimationFrame(() => entry.scrollIntoView({block:'start'}));
+  };
+  window.addEventListener('popstate', () => { read(); render(); revealEntry(); });
+  window.addEventListener('hashchange', () => { read(); render(); revealEntry(); });
+  read(); render(); revealEntry();
 }
 
 function element(tag, className, text) {

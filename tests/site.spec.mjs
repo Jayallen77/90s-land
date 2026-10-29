@@ -1,8 +1,10 @@
 import { expect, test } from "./browser-fixtures.mjs";
 import AxeBuilder from "@axe-core/playwright";
-import routes from "../data/routes.json" with { type: "json" };
+import allRoutes from "../data/routes.json" with { type: "json" };
+const routes=allRoutes.filter(route=>route.type!=='redirects');
 import artifacts from "../data/artifacts.json" with { type: "json" };
 import resources from "../data/resources.json" with { type: "json" };
+import catalog from "../content/editorial/catalog.json" with { type: "json" };
 
 const viewports = [
   { name: "mobile", width: 390, height: 844 },
@@ -152,12 +154,12 @@ test("tour deep links, recreation, resume, and completion work", async ({ page }
 test("search counts stay synchronized with the catalog", async ({ page }) => {
   await page.goto("/search/");
   const searchableRoutes = routes.filter(
-    (route) => !["/", "/search/", "/sitemap/", "/credits/"].includes(route.path) && route.type !== "objects"
+    (route) => !["/", "/search/", "/sitemap/", "/credits/"].includes(route.path) && !["objects","redirects"].includes(route.type)
   );
   await expect(page.locator('[data-site-filter="objects"] span')).toHaveText(String(artifacts.length));
   await expect(page.locator('#searchSummaryObjects')).toBeEmpty();
   await expect(page.locator('[data-site-filter="all"] span')).toHaveText(
-    String(searchableRoutes.length + artifacts.length + resources.length)
+    String(searchableRoutes.length + artifacts.length + resources.length + catalog.events.length)
   );
 });
 

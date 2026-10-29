@@ -29,7 +29,7 @@ test('weekly picks and related year links update without dropping any calendar e
     const actual=eventsInWeek(catalog.events,date), picks=weekPicks(actual);
     const selected=page.locator('[data-week-highlights] a');
     await expect(selected).toHaveCount(picks.length);
-    expect(await selected.evaluateAll(links=>links.map(link=>new URL(link.href).pathname))).toEqual(picks.map(e=>e.url));
+    expect(await selected.evaluateAll(links=>links.map(link=>link.getAttribute('href')))).toEqual(picks.map(e=>e.url));
     await expect(page.locator('[data-week-days] .ar-week-event')).toHaveCount(actual.length);
     await expect(page.locator('[data-week-connections] a').first()).toHaveAttribute('href',`/timeline/${date.slice(0,4)}/`);
   }
@@ -46,7 +46,7 @@ test('all six shuffle kinds can be opened and quick repeated clicks keep one cur
     const href=await page.locator('[data-surprise-open]').getAttribute('href');
     expect(pool.some(item=>item.kind===kind && item.target===href)).toBe(true);
     await page.locator('[data-surprise-open]').click();
-    await expect(page).toHaveURL(new RegExp(href));
+    await expect(page).toHaveURL(new URL(href,page.url()).href);
     await page.locator('[data-passport-trigger]').first().click();
     await expect(page.locator('[data-passport-stamp="random-memory"] [data-passport-stamp-state]')).toHaveText('Earned ✓');
     await page.unroute('**/assets/runtime/surprise.json');

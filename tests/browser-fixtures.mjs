@@ -1,4 +1,5 @@
 import { test as base } from '@playwright/test';
+import publication from '../content/editorial/publication.json' with {type:'json'};
 export { expect } from '@playwright/test';
 
 // The document load event precedes app.js's dynamic enhancement imports.
@@ -25,6 +26,8 @@ export const test = base.extend({
       const navigate = page[method].bind(page);
       page[method] = async (...args) => {
         const response = await navigate(...args);
+        const target=method==='goto' && publication.redirects[new URL(args[0],'http://localhost').pathname];
+        if(target){const destination=new URL(target,'http://localhost');await page.waitForURL(url=>url.pathname===destination.pathname && url.hash===destination.hash,{waitUntil:'load'});}
         await waitForEnhancements(page);
         return response;
       };

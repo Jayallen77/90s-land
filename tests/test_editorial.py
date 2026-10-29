@@ -43,7 +43,9 @@ class EditorialPreservationTests(unittest.TestCase):
 
     def test_game_and_tamagotchi_images_do_not_misrepresent_subject(self):
         import archive_content, hub_pages
-        self.assertIsNone(next(s for s in archive_content.STORIES if s['id']=='the-toy-that-needed-you')['art'])
+        image=archive_content.STORY_MEDIA['holiday-toys-that-answered-back']
+        self.assertIn('Tamagotchi',image['alt'])
+        self.assertNotIn('talkboy',image['src'])
         doc = Document(hub_pages.game_archive())
         self.assertEqual(len(doc.nodes(lambda n:n.tag=='img')),0)
 

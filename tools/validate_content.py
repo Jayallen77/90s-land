@@ -88,7 +88,7 @@ def validate_catalogs(root: Path = ROOT, routes=None) -> list[str]:
             errors.append(f"{label}: unsupported media kind")
         if set(item["relatedArtifacts"]) - ids["artifacts"]:
             errors.append(f"{label}: unknown related artifact")
-        if set(item["relatedRoutes"]) - route_paths:
+        if {urlsplit(url).path for url in item["relatedRoutes"]} - route_paths:
             errors.append(f"{label}: unknown related route")
         if urlsplit(item["target"]).path not in route_paths:
             errors.append(f"{label}: unknown target route")

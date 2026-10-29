@@ -1,0 +1,17 @@
+{
+  "stories": 35,
+  "storiesByCategory": {
+    "tech": 8,
+    "games": 8,
+    "music": 9,
+    "movies-tv": 4,
+    "culture": 6
+  },
+  "timelineEntries": 295,
+  "objects": 62,
+  "activePages": 128,
+  "compatibilityPages": 311,
+  "retiredPages": 340,
+  "uniqueLeadImages": 35,
+  "errors": []
+}

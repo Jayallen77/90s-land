@@ -1,7 +1,8 @@
 import {test, expect} from './browser-fixtures.mjs';
 import AxeBuilder from '@axe-core/playwright';
 import catalog from '../content/editorial/catalog.json' with {type:'json'};
-import routes from '../data/routes.json' with {type:'json'};
+import allRoutes from '../data/routes.json' with {type:'json'};
+const routes=allRoutes.filter(route=>route.type!=='redirects');
 import {weekBounds, shiftDays, eventsInWeek} from '../js/date-utils.js';
 
 // Exercise the real controls and rendered visibility against the source catalog.

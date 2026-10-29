@@ -86,10 +86,16 @@ def main() -> int:
     internal_links = 0
     external_links = 0
     fragments = 0
+    variants=json.loads((ROOT/'data/asset-variants.json').read_text())['images']
+    originals={variant['src']:original for original,items in variants.items() for variant in items}
     for route_path, parsed in docs.items():
         duplicates = [item for item, count in Counter(parsed.ids).items() if count > 1]
         if duplicates:
             errors.append(f"duplicate ids in {route_path}: {', '.join(duplicates)}")
+        photographs=Counter(originals.get(image.get('src'),image.get('src')) for image in parsed.images)
+        for src,count in photographs.items():
+            if src and src.startswith('/assets/media/') and count>1:
+                errors.append(f'repeated photograph in {route_path}: {src}')
         if len(parsed.canonicals) != 1:
             errors.append(f"canonical count in {route_path}: {len(parsed.canonicals)}")
         meta_keys = {item.get("property") or item.get("name") for item in parsed.metas}

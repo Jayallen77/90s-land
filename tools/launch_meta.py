@@ -34,15 +34,18 @@ def metadata(route):
     if route['path'] == '/this-week/':
         description = 'Explore the equivalent Monday–Sunday week 30 years ago: sourced events from the 1990s, a few defining moments, and the full day-by-day calendar.'
     return {'title':f'{title} — 90s.land', 'description':description,
-            'canonical':SITE_URL+route['path'], 'indexable':route['path'] not in NOINDEX}
+            'canonical':SITE_URL+route.get('destination',route['path']), 'indexable':route['path'] not in NOINDEX and route.get('type') != 'redirects'}
 
 
 def card_routes():
     """Specific cards for all principal pages and curated historical events."""
-    return [r for r in archive.all_routes() if r['type'] != 'events' or r['id'].removeprefix('event-') in archive.DEFINING_IDS]
+    return [r for r in archive.all_routes() if r['type'] != 'redirects']
 
 
 def card_route(route):
+    if route.get('type') == 'redirects':
+        from urllib.parse import urlsplit
+        return urlsplit(route['destination']).path
     if route.get('type') == 'events' and route['id'].removeprefix('event-') not in archive.DEFINING_IDS:
         year = archive.EVENT_BY_ID[route['id'].removeprefix('event-')]['date'][:4]
         return '/timeline/'+year+'/'
@@ -72,7 +75,10 @@ def social_spec(route):
     elif kind == 'tours': title = 'Before the Feed'; label = 'SIX STOPS THROUGH THE PERSONAL WEB'; art = 'family-pc'
     elif route.get('artifactIds'): art = route['artifactIds'][0]
     visual = None
-    if art in archive.HEROES:
+    if kind == 'stories' and s['id'] in archive.STORY_MEDIA:
+        m = archive.STORY_MEDIA[s['id']]
+        visual = {'src':m['src'],'credit':m['credit'],'license':m['license'],'label':'STORY PHOTOGRAPH'}
+    elif art in archive.HEROES:
         visual = {'src':f'/assets/editorial/{art}-hero-1440.webp', 'credit':'Original AI-generated editorial illustration · OpenAI', 'license':'Original artwork', 'label':'EDITORIAL ILLUSTRATION'}
     elif art in objects and objects[art]['media']['kind'] == 'image':
         media = objects[art]['media']; visual = {'src':media['src'], 'credit':media['credit'], 'license':media['license'], 'label':'OBJECT FROM THE COLLECTION'}
@@ -91,6 +97,6 @@ def structured_navigation(route, parent):
         items = [('Home','/')]
         label, href = parent
         if href not in ('/',route['path']): items.append((label,href))
-        items.append((route['title'],route['path']))
+        items.append((route['title'],route.get('destination',route['path'])))
         data = {'@context':'https://schema.org', '@type':'BreadcrumbList', 'itemListElement':[{'@type':'ListItem','position':i,'name':label,'item':SITE_URL+href} for i,(label,href) in enumerate(items,1)]}
     return '<script type="application/ld+json">'+json.dumps(data,ensure_ascii=False).replace('<','\\u003c')+'</script>'

@@ -32,7 +32,7 @@
           "mosaic-browser"
         ],
         "curatorText": "The first website offered text and links. Mosaic put pictures inside the page. Compare the plain document with the gray browser window and imagine choosing the next blue link.",
-        "detail": "These are collection recreations, not a claim that everybody began browsing at once. The dated CERN entry explains one decision that helped the Web spread.",
+        "detail": "The early CERN page and the Mosaic screenshot are sourced images. The dated CERN entry explains a decision that helped the web spread; the interactive homepage later in the tour is a separately labeled recreation.",
         "exhibitHref": "/timeline/1993/#artifact-mosaic-browser",
         "exhibitLabel": "Inspect Mosaic in the 1993 capsule",
         "storyId": "a-web-you-could-make",
@@ -67,7 +67,7 @@
         "detail": "Inspect the labels, then try the guestbook preview. The preview is temporary; it is not a public message board.",
         "exhibitHref": "/zones/internet-culture/#artifact-webring-bar",
         "exhibitLabel": "Inspect the social-web objects",
-        "storyId": "choosing-your-screen-name",
+        "storyId": "a-web-you-could-make",
         "eventId": null
       },
       {
@@ -82,7 +82,7 @@
         "detail": "The pager and away message solve different versions of the same question: can somebody reach you right now?",
         "exhibitHref": "/zones/internet-culture/#artifact-aim-away-message",
         "exhibitLabel": "Read the AIM identity exhibit",
-        "storyId": "a-computer-in-your-pocket",
+        "storyId": "a-web-you-could-make",
         "eventId": null
       },
       {

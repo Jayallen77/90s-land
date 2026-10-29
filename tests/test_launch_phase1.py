@@ -18,7 +18,7 @@ class LaunchPhase1Tests(unittest.TestCase):
             r'\b(?:this (?:page|room|section|site) (?:should|now)|this rebuild|'
             r'stronger route|stronger year capsule|works better|becomes easier to browse|'
             r'proof that the site|monthly charts can come later|we should|can come later|'
-            r'this implementation|this version|the redesign|the rebuild|TODO|FIXME|'
+            r'this implementation|this version of (?:the )?(?:site|page)|the redesign|the rebuild|TODO|FIXME|'
             r'lorem ipsum|coming soon|placeholder|codex prompt)\b', re.I)
         for path, source in render_site.build_outputs().items():
             if path.suffix == '.html':

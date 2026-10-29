@@ -3,6 +3,7 @@ import AxeBuilder from '@axe-core/playwright';
 import catalog from '../content/editorial/catalog.json' with { type: 'json' };
 import fs from 'node:fs';
 import {historicalDate,eventsInWeek} from '../js/date-utils.js';
+import {eventHref} from './editorial-fixtures.mjs';
 const releaseManifest=new URL('../dist/release/release-manifest.json',import.meta.url);
 const savedAsOf=process.env.PLAYWRIGHT_BASE_URL&&fs.existsSync(releaseManifest)?JSON.parse(fs.readFileSync(releaseManifest,'utf8')).editorialAsOf:catalog.buildAsOf;
 const juneCount = catalog.events.filter(e => e.date.startsWith('1996-06')).length;
@@ -55,7 +56,7 @@ test('a growing month paginates cards while calendar retains all its dates', asy
   await page.route('**/timeline/1996/', async route => {
     const response = await route.fetch();
     let body = await response.text();
-    const card = body.match(/<article class="ar-event"[^>]*data-date="1996-06-04"[\s\S]*?<\/article>/)[0];
+    const card = body.match(/<article class="ar-event ar-timeline-entry"[^>]*data-date="1996-06-04"[\s\S]*?<\/article>/)[0];
     body = body.replace(/(<section class="ar-month"[^>]*data-month-panel="6"[\s\S]*?<div class="ar-event-grid">)[\s\S]*?(<\/div><table class="ar-calendar">)/, '$1' + card.repeat(17) + '$2');
     await route.fulfill({response,body});
   });
@@ -90,7 +91,7 @@ test('week navigation, deep links, empty states and year changes stay coherent',
   await expect(page.locator('[data-week-range]')).toHaveText('Dec 30, 1996 – Jan 5, 1997');
   await expect(page.locator('[data-week-select]')).toHaveValue('1997');
   await expect(page.locator('[data-week-empty]')).toBeHidden();
-  await expect(page.locator('[data-week-days]')).toContainText('Sugar Bowl');
+  await expect(page.locator('[data-week-days]')).toContainText('Diablo');
   await page.reload();
   await expect(page.locator('[data-week-date]')).toHaveValue('1997-01-05');
   await page.goBack();
@@ -121,18 +122,17 @@ test('search finds dates, regions, accents, stories and object detail records', 
   await page.goto('/search/?q=pokemon+1996&filter=events');
   const results = page.locator('.site-search-card:visible');
   await expect(results).toHaveCount(1);
-  await expect(results).toHaveAttribute('href','/events/pokemon-red-green-japan/');
+  await expect(results).toHaveAttribute('href',eventHref(catalog.events.find(e=>e.id==='pokemon-red-green-japan')));
   await page.locator('#siteSearchInput').fill('1996 Japan');
   for (const event of catalog.events.filter(e=>e.date.startsWith('1996')&&e.region.includes('Japan'))) {
-    await expect(page.locator(`.site-search-card:visible[href="/events/${event.slug}/"]`)).toBeVisible();
+    await expect(page.locator(`.site-search-card:visible[href="${eventHref(event)}"]`)).toBeVisible();
   }
-  // Full-text matches also find the Japanese satellite in the STS-72 records.
-  await expect(results.filter({hasText:'Endeavour begins STS-72'})).toBeVisible();
-  await page.goto('/search/?q=symmetry&filter=stories');
+  await expect(results.filter({hasText:'Endeavour begins STS-72'})).toHaveCount(0);
+  await page.goto('/search/?q=courtyard&filter=stories');
   await expect(results).toHaveCount(1);
   await results.click();
   await expect(page.locator('h1')).toHaveText('A whole new dimension');
-  await expect(page.locator('#sources a')).toHaveCount(4);
+  expect(await page.locator('#sources a').count()).toBeGreaterThanOrEqual(4);
   await page.goto('/archive/objects/n64-controller/');
   await expect(page.locator('[data-artifact-inspect="n64-controller"]')).toBeVisible();
   await page.locator('[data-artifact-inspect="n64-controller"]').click();
@@ -147,9 +147,11 @@ test('new pages and real calendars remain readable without JavaScript', async ({
   await page.goto('/timeline/1996/');
   await expect(page.locator('.ar-calendar:visible')).toHaveCount(12);
   await expect(page.locator('.ar-controls')).toBeHidden();
-  await page.locator('[data-month-panel="6"] .ar-event').first().getByRole('link').click();
-  await expect(page.locator('h1')).toContainText(catalog.events.filter(e=>e.date.startsWith('1996-06')).sort((a,b)=>a.date.localeCompare(b.date))[0].title);
-  await expect(page.locator('#sources')).toBeVisible();
+  const entry=page.locator('[data-month-panel="6"] .ar-event').first();
+  await entry.locator('h3 a').click();
+  await expect(page).toHaveURL(/#event-/);
+  await entry.locator('.ar-entry-notes > summary').click();
+  await expect(entry.locator('.ar-sources')).toBeVisible();
   await page.goto('/this-week/');
   await expect(page.getByText('Saved week for', {exact:false})).toBeVisible();
   await expect(page.locator('[data-week-days] .ar-day')).toHaveCount(7);

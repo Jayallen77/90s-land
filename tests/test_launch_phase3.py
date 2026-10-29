@@ -2,6 +2,7 @@ import json
 from pathlib import Path
 import sys
 import unittest
+from urllib.parse import urlsplit
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'tools'))
 import archive_content as archive
@@ -19,7 +20,7 @@ class LaunchPolishTests(unittest.TestCase):
         self.assertEqual({r['id'] for r in rows if r['kind']=='object'},{a['id'] for a in archive.ARTIFACTS if a['randomEligible'] and a['status']!='needs-source'})
         self.assertEqual(len({r['id'] for r in rows}),len(rows))
         self.assertEqual({r['kind'] for r in rows},set(discovery.KINDS))
-        self.assertTrue(all(r['target'] in paths and r['teaser'] for r in rows))
+        self.assertTrue(all(urlsplit(r['target']).path in paths and r['teaser'] for r in rows))
         self.assertEqual({r['id'].removeprefix('event-') for r in rows if r['kind']=='event'},archive.DEFINING_IDS)
         self.assertTrue(all(r['target'] not in {'/credits/','/search/','/guestbook/','/sitemap/','/surprise/'} for r in rows))
     def test_absolute_share_assets_cross_the_public_boundary(self):

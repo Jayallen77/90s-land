@@ -10,6 +10,14 @@ MANIFEST = ROOT / 'data/asset-variants.json'
 FONTS = ['Jersey10-Regular', 'Barlow-Regular', 'Barlow-Bold',
          'BarlowCondensed-SemiBold', 'BarlowCondensed-Bold']
 
+def image_inventory():
+    records = {}
+    for obj in json.loads((ROOT/'data/artifacts.json').read_text()):
+        if obj['media']['kind'] == 'image': records[obj['media']['src']] = obj
+    for id, media in json.loads((ROOT/'content/editorial/story-media.json').read_text()).items():
+        records.setdefault(media['src'], {'id':'story-'+id, 'media':media})
+    return list(records.values())
+
 def digest(path):
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
@@ -22,7 +30,7 @@ def main():
         files = manifest['files']
         stale = [name for name, expected in files.items()
                  if not (ROOT/name).is_file() or digest(ROOT/name) != expected]
-        expected_sources={a['media']['src'] for a in json.loads((ROOT/'data/artifacts.json').read_text()) if a['media']['kind']=='image'}
+        expected_sources={a['media']['src'] for a in image_inventory()}
         if expected_sources != set(manifest['images']): stale.append('Artifact image inventory changed')
         print(f'Optimized asset integrity: {len(files)} files; {len(stale)} stale')
         for name in stale: print(name)
@@ -35,7 +43,7 @@ def main():
         manifest['files'][str(path.relative_to(ROOT))] = digest(path)
     out = ROOT/'assets/generated/editorial'
     out.mkdir(parents=True, exist_ok=True)
-    for artifact in json.loads((ROOT/'data/artifacts.json').read_text()):
+    for artifact in image_inventory():
         media = artifact['media']
         if media['kind'] != 'image': continue
         source = ROOT/media['src'].lstrip('/')

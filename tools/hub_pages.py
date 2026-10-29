@@ -24,13 +24,18 @@ def hero(art,title,subtitle,summary,href='#section-stories',cta='Explore the sto
  return f'<section class="ed-hero hub-hero hub-hero-{art}">{ed.media(art,hero=True)}<div class="ed-hero-copy"><h1>{title}</h1><h2>{ed.esc(subtitle)}</h2><p>{ed.esc(summary)}</p><a class="ed-cta" href="{href}">{ed.esc(cta)} {ed.icon("arrow")}</a></div></section>'
 
 
-def rail(items,key,anchor,label):
- return f'<nav class="ed-topic-rail hub-rail" aria-label="{label}">'+''.join(f'<a href="?{key}={value}#{anchor}" data-hub-filter="{key}" data-value="{value}"'+(' aria-current="true"' if value=='all' else '')+f'>{ed.esc(title)}</a>' for title,value in items)+'</nav>'
+def rail(items,key,anchor,label,destinations=None):
+ destinations=destinations or {}
+ links=[]
+ for title,value in items:
+  if value in destinations:links.append(f'<a href="{destinations[value]}">{ed.esc(title)}</a>')
+  else:links.append(f'<a href="?{key}={value}#{anchor}" data-hub-filter="{key}" data-value="{value}"'+(' aria-current="true"' if value=='all' else '')+f'>{ed.esc(title)}</a>')
+ return f'<nav class="ed-topic-rail hub-rail" aria-label="{label}">'+''.join(links)+'</nav>'
 
 
-def story(id):return next(s for s in model.STORIES if s['id']==id)
+def story(id):return next(s for s in model.STORIES if s['id']==model.merged_story_id(id))
 def story_tile(s):
- return f'<a class="ed-tile" href="{model.story_url(s)}"><div class="ed-tile-art">{ar.art(s["art"],s["title"])}</div><div class="ed-tile-copy"><span class="ed-badge">STORY</span><h3>{ed.esc(s["title"])}</h3><p>{ed.esc(s["summary"])}</p></div></a>'
+ return f'<a class="ed-tile" href="{model.story_url(s)}"><div class="ed-tile-art">{ed.story_image(s)}</div><div class="ed-tile-copy"><span class="ed-badge">STORY</span><h3>{ed.esc(s["title"])}</h3><p>{ed.esc(s["summary"])}</p></div></a>'
 
 def panel(title,body,glyph='star',href=None):return f'<section class="ed-panel hub-panel">{ed.heading(title,glyph,href)}{body}</section>'
 
@@ -49,23 +54,27 @@ def object_tile(id,title=None):
 def hub(route):
  cat,art,title,subtitle,summary,feature=HUBS[route['path']]
  stories=sorted([s for s in model.STORIES if s['category']==cat],key=lambda s:s.get('publishedAt',''),reverse=True)
+ remaining=[s for s in stories if s['id']!=feature]
+ destinations={'sports':'#sports-moments'} if cat=='culture' else {}
+ for _,topic in TOPICS.get(cat,[]):
+  if topic!='all' and not any(topic in s.get('topics',[]) for s in remaining) and topic in story(feature).get('topics',[]):destinations[topic]='#featured-story'
  top=hero(art,title,subtitle,summary, '#game-archive' if cat=='games' else '#section-stories', 'Explore the era' if cat=='games' else 'Explore the stories')
- top+=rail(GENRES,'genre','game-archive','Game genres') if cat=='games' else rail(TOPICS[cat],'topic','section-stories',model.CATEGORIES[cat]+' topics')
- feature_panel=panel('Featured story',story_tile(story(feature)))
+ top+=rail(GENRES,'genre','game-archive','Game genres') if cat=='games' else rail(TOPICS[cat],'topic','section-stories',model.CATEGORIES[cat]+' topics',destinations)
+ feature_panel=panel('Featured story',story_tile(story(feature))).replace('<section ', '<section id="featured-story" ',1)
  events=[e for e in model.EVENTS if e['category']==cat]
  if cat in MODULES['charts']:middle=chart(cat)
  else:
   picks=[s for s in stories if s['id']!=feature][:5]
   links=''.join(f'<a class="hub-spotlight" href="{model.story_url(s)}"><span>{ed.icon("arrow")}</span><span><strong>{ed.esc(s["title"])}</strong><small>{ed.esc(s["summary"])}</small></span></a>' for s in picks)
   middle=panel({'games':'Five ways into the era','tech':'The next big thing','culture':'Everyday touchstones'}[cat],links,'bolt')
- objects={'games':['playstation-hardware','memory-card','snes','game-gear'],'music':['minidisc','technics-turntable','mpc-2000','discman'],'movies-tv':['blockbuster-store','vhs-tape','crt-television','jewel-case'],'tech':['zip-drive','palm-pilot','digital-camera','newton'],'culture':['talkboy','disposable-camera','answering-machine','dr-martens']}[cat]
+ objects={'games':['playstation-hardware','memory-card','snes','game-gear'],'music':['technics-turntable','tb-303','korg-m1','dat-recorder'],'movies-tv':['vhs-tape','quickcam','talkboy','jewel-case'],'tech':['palm-pilot','quickcam','powerbook','newton'],'culture':['beanie-baby','pogs','super-soaker','walkman']}[cat]
  if cat=='games':
   browse=''.join(ed.tile(t,f'?platform={v}#game-archive',a,sub) for t,v,a,sub in [('Console games','consoles','playstation-hardware','From cartridges to discs.'),('PC games','pc','family-pc','The desk becomes an arena.'),('Arcade games','arcade','arcade-cabinet','Quarter up. You’re next.'),('Handheld games','handhelds','game-boy-color','A world in your pocket.')])
  else: browse=''.join(object_tile(id) for id in objects)
  browse_panel=panel('Browse by platform' if cat=='games' else 'From the collection','<div class="ed-two-up hub-objects">'+browse+'</div>','folder')
  facts=f'<a href="#section-stories"><strong>{len(stories):02}</strong><span>Complete stories<br /><small>Objects, scenes & everyday rituals</small></span></a><a href="/events/?category={cat}"><strong>{len(events)}</strong><span>Dated entries<br /><small>Regional notes & source links</small></span></a><a href="/timeline/"><strong>10</strong><span>Years to explore<br /><small>1990 through 1999</small></span></a><a href="/credits/"><strong>↗</strong><span>Know the source<br /><small>Photo credits & original art</small></span></a>'
  top+=f'<div class="hub-lead-grid">{feature_panel}{middle}{browse_panel}{panel("At a glance",f"<div class=hub-facts>{facts}</div>","bolt")}</div>'
- top+=f'<section id="section-stories" class="hub-section" data-hub-collection="stories">{ed.heading("Deep dives","book",f"/stories/?category={cat}")}<p class="hub-status ar-js-only" data-hub-status="stories" role="status">{len(stories)} stories</p><div class="hub-story-grid">'+''.join(f'<div data-hub-story data-topics="{ed.esc(" ".join(s.get("topics",[])))}">{story_tile(s)}</div>' for s in stories)+'</div><p class="ar-empty" data-hub-empty="stories" hidden>No stories match this topic. <a href="?topic=all#section-stories">Show all stories →</a></p></section>'
+ top+=f'<section id="section-stories" class="hub-section" data-hub-collection="stories">{ed.heading("More stories","book",f"/stories/?category={cat}")}<p class="hub-status ar-js-only" data-hub-status="stories" role="status">{len(remaining)} stories beyond the feature above</p><div class="hub-story-grid">'+''.join(f'<div data-hub-story data-topics="{ed.esc(" ".join(s.get("topics",[])))}">{story_tile(s)}</div>' for s in remaining)+'</div><p class="ar-empty" data-hub-empty="stories" hidden>No stories match this topic. <a href="?topic=all#section-stories">Show all stories →</a></p></section>'
  if cat=='games':top+=game_archive()
  if cat=='music':
   top+=panel('Ten years on the record-store shelf','<p>Original album years, from hip-hop and R&B to industrial, trip-hop, punk and electronic music. These selections keep year-level evidence separate from exact release days.</p><nav class="ed-decade" aria-label="Albums by year">'+''.join(f'<a href="/timeline/{y}/#year-context">{y}</a>' for y in range(1990,2000))+'</nav>','music')
@@ -80,6 +89,12 @@ def hub(route):
   picks=[model.EVENT_BY_ID[id] for id in featured_ids]
   top+=f'<section class="hub-section">{ed.heading("On the release calendar" if cat in ("music","movies-tv") else "Moments on the timeline","calendar",f"/events/?category={cat}")}<div class="hub-event-grid">'+''.join(ar.event_card(e) for e in picks)+'</div></section>'
  if cat in ('tech','culture'):
+  if cat=='tech':
+   devices=[ed.ARTIFACTS[id] for id in ['pager','palm-pilot','nokia-3210']]
+   top+='<section class="hub-section" id="pocket-tech">'+ed.heading('Before one phone did everything','tech')+'<p>A pager could tell you somebody wanted a response. A PalmPilot could carry a calendar and contacts. A mobile handset could move a call away from the household line. These were different jobs with different controls, connections, and limits, rather than three interchangeable versions of the same future device.</p><p>The important question was what could leave the desk. An organizer still worked with a desktop copy of information; a pager could require finding another telephone to reply; a handset depended on its service and available power. Their overlapping uses explain why the pocket could become crowded before any one device seemed able to replace the others.</p><nav class="ar-detail-links" aria-label="Pocket technology objects">'+''.join(f'<a href="{model.object_url(a)}">{ed.esc(a["title"])} →</a>' for a in devices)+'</nav></section>'
+  else:
+   sports=[e for e in model.EVENTS if e['theme']=='sports']
+   top+='<section class="hub-section" id="sports-moments">'+ed.heading('When the game became a shared moment','star')+'<p>Sport gave the decade dates that traveled far beyond the scoreboard: the Bulls’ first NBA title, South Africa’s Rugby World Cup, Muhammad Ali at the Atlanta opening ceremony, the WNBA’s first game, and the 1999 Women’s World Cup final. A result, a photograph, and a broadcast could carry different parts of the same occasion into everyday conversation.</p><p>An opening ceremony, a final, and the beginning of a professional league are different kinds of milestones. Their dates give each occasion a place in the decade, while the sources keep the actual people, teams, and regional context visible.</p><ul>'+''.join(f'<li><a href="{model.event_url(e)}">{ed.esc(e["title"])}</a> · {ed.esc(model.date_label(e["date"]))}</li>' for e in sports)+'</ul></section>'
   links=[('Internet Culture','/zones/internet-culture/','culture','Personal pages, handles & guestbooks.'),('Fashion','/zones/fashion/','culture','Clothes, references & self-expression.'),('Transparent tech','/zones/transparent-tech/','tech','The future had a translucent shell.')]
   top+=panel('Related collections','<div class="ed-three-up">'+''.join(ed.tile(t,h,a,sub) for t,h,a,sub in links)+'</div>','folder')
  return f'<main id="main-content" class="ed-main hub-main" data-hub="{cat}">{top}</main>'
@@ -109,5 +124,5 @@ def timeline_index(route):
    artwork = ed.media(key)
    label = 'COLLECTION OBJECT · '+ed.ARTIFACTS[key]['title']
   cards.append(f'<a id="year-{y}" data-timeline-room="timeline-{y}" href="/timeline/{y}/" class="hub-year"><div class="timeline-card-artwork">{artwork}<span class="timeline-artwork-label">{ed.esc(label)}</span></div><span>{y}</span><strong>{captions[y-1990]}</strong><small>{count} events · 12 months</small><small class="visited-door-label" data-visited-door-label>Not visited</small></a>')
- top+=f'<section class="hub-section" id="decade-years">{ed.heading("Choose a year","calendar")}<div class="hub-year-grid">'+''.join(cards)+f'</div></section><div class="hub-timeline-bottom">{panel("This week, 30 years ago",ed.tile("Same decade. Different day.","/this-week/","home","Browse a historical Monday–Sunday week."),"calendar")}{panel("Behind the dates","<div class=ed-three-up>"+"".join(story_tile(story(id)) for id in ["from-mixtape-to-file","a-whole-new-dimension","choosing-your-screen-name"])+"</div>","book","/stories/")}</div>'
+ top+=f'<section class="hub-section" id="decade-years">{ed.heading("Choose a year","calendar")}<div class="hub-year-grid">'+''.join(cards)+f'</div></section><div class="hub-timeline-bottom">{panel("This week, 30 years ago",ed.tile("Same decade. Different day.","/this-week/","home","Browse a historical Monday–Sunday week."),"calendar")}{panel("Behind the dates","<div class=ed-three-up>"+"".join(story_tile(story(id)) for id in ["from-mixtape-to-file","the-demo-disc-evening","the-photo-lab-gap"])+"</div>","book","/stories/")}</div>'
  return f'<main id="main-content" class="ed-main hub-main">{top}</main>'

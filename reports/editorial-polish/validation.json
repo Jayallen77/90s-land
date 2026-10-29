@@ -1,0 +1,33 @@
+{
+  "checkedAt": "2026-10-29",
+  "pythonTests": {
+    "passed": 63
+  },
+  "dateAndDiscoveryTests": {
+    "passed": 9
+  },
+  "browserTests": {
+    "passed": 154,
+    "failed": 0,
+    "seconds": 168,
+    "widths": [
+      320,
+      390,
+      768,
+      1280,
+      1440
+    ]
+  },
+  "activePagesReviewedAt390And1440": 128,
+  "screenshots": 256,
+  "originalURLsAccountedFor": 779,
+  "staticAuditErrors": 0,
+  "authoringChecks": "passed",
+  "contentChecks": "passed",
+  "editorialChecks": "passed",
+  "curationChecks": "passed",
+  "sharingChecks": "passed",
+  "optimizedAssetFilesVerified": 290,
+  "productionRoutes": 439,
+  "productionRuntimeFiles": 852
+}

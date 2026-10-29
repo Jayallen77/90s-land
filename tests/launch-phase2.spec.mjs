@@ -2,6 +2,7 @@ import {test, expect} from './browser-fixtures.mjs';
 import AxeBuilder from '@axe-core/playwright';
 import curation from '../content/editorial/curation.json' with {type:'json'};
 import catalog from '../content/editorial/catalog.json' with {type:'json'};
+import {eventHref} from './editorial-fixtures.mjs';
 
 test('homepage exposes years, collections, search, objects and experiences', async ({page}) => {
   await page.goto('/');
@@ -21,7 +22,7 @@ test('homepage exposes years, collections, search, objects and experiences', asy
   await page.locator('.ed-home-search input').fill('Friends');
   await page.locator('.ed-home-search button').click();
   await expect(page).toHaveURL(/\/search\/\?q=Friends/);
-  await expect(page.locator('.site-search-card:visible').first()).toHaveAttribute('href','/events/friends-premiere/');
+  await expect(page.locator('.site-search-card:visible').first()).toHaveAttribute('href',eventHref(catalog.events.find(e=>e.id==='friends-premiere')));
 });
 
 for (const capsule of curation.years) {
@@ -37,7 +38,7 @@ for (const capsule of curation.years) {
     await expect(moments.first()).toBeVisible();
     for (const id of capsule.eventIds) {
       const event = catalog.events.find(event=>event.id===id);
-      await expect(page.locator(`[data-defining-event="${id}"]`)).toHaveAttribute('href',`/events/${event.slug}/`);
+      await expect(page.locator(`[data-defining-event="${id}"]`)).toHaveAttribute('href',eventHref(event));
     }
   });
 }
@@ -48,7 +49,7 @@ test('search ranks titles, matches accents and punctuation, and counts each cont
   await page.locator('#siteSearchInput').fill('Pokémon—1996');
   await page.locator('[data-site-filter="events"]').click();
   await expect(page.locator('.site-search-card:visible')).toHaveCount(1);
-  await expect(page.locator('.site-search-card:visible')).toHaveAttribute('href','/events/pokemon-red-green-japan/');
+  await expect(page.locator('.site-search-card:visible')).toHaveAttribute('href',eventHref(catalog.events.find(e=>e.id==='pokemon-red-green-japan')));
   await expect(page.locator('[data-site-filter="events"] span')).toHaveText('1');
   await page.locator('#siteSearchInput').fill('n64');
   await expect(page.locator('[data-site-filter="objects"] span')).not.toHaveText('0');
@@ -61,19 +62,20 @@ test('search ranks titles, matches accents and punctuation, and counts each cont
 
 test('N64 and the PC tour offer relevant onward paths', async ({page}) => {
   await page.goto('/events/nintendo-64-us/');
-  await expect(page.locator('.ed-context-path a[href="/zones/games/"]')).toBeVisible();
-  await expect(page.locator('.ed-context-path a[href="/timeline/1996/#defining-moments"]')).toBeVisible();
+  await expect(page).toHaveURL(/timeline\/1996\/\?month=09#event-nintendo-64-us/);
+  const entry=page.locator('#event-nintendo-64-us');
+  await entry.locator('.ar-entry-notes > summary').click();
+  await entry.getByRole('link',{name:'Read: A whole new dimension →'}).click();
   await expect(page.locator('.ar-related[href="/archive/objects/n64-controller/"]')).toBeVisible();
-  await expect(page.locator('.ar-story-card[href="/stories/a-whole-new-dimension/"]')).toBeVisible();
   await page.goto('/tours/before-the-feed/');
   const stop = page.locator('[data-tour-stop]:visible');
   await expect(stop.locator('a[href="/stories/the-family-computer/"]')).toBeVisible();
-  await expect(stop.locator('a[href="/events/windows-95-launch/"]')).toBeVisible();
+  await expect(stop.locator(`a[href="${eventHref(catalog.events.find(e=>e.id==='windows-95-launch'))}"]`)).toBeVisible();
 });
 
 test('object connections stay selective with access to the complete related dates', async ({page}) => {
   await page.goto('/archive/objects/vhs-tape/');
-  await expect(page.locator('.ar-related[href^="/events/"]')).toHaveCount(3);
+  await expect(page.locator('.ar-related[href^="/timeline/"]')).toHaveCount(3);
   await page.getByRole('link',{name:'More dates connected to this object →'}).click();
   await expect(page.locator('#siteSearchCount')).not.toHaveText('Showing 0 matches.');
   await expect(page.locator('.site-search-card:visible').first()).toHaveAttribute('data-search-category','events');

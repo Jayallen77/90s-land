@@ -100,7 +100,8 @@ def render_head(route: dict) -> str:
   <link rel="icon" type="image/svg+xml" href="/assets/editorial/palm-sunset.svg" />
   <link rel="apple-touch-icon" sizes="192x192" href="/assets/icons/icon-192.png" />
   <link rel="manifest" href="/manifest.webmanifest" />
-  {launch_meta.structured_navigation(route, editorial.parent_section(route))}"""
+  {launch_meta.structured_navigation(route, editorial.parent_section(route))}
+  {('<meta http-equiv="refresh" content="0;url='+esc(route['destination'])+'" />') if route.get('type') == 'redirects' else ''}"""
 
 
 def render_shared_ui() -> str:
@@ -228,7 +229,7 @@ def render_media(artifact: dict, eager: bool = False) -> str:
 
 
 def render_artifact_card(
-    artifact: dict, compact: bool = False, dom_id: str | None = None
+    artifact: dict, compact: bool = False, dom_id: str | None = None, show_media: bool = True
 ) -> str:
     media = artifact["media"]
     credit = esc(media["credit"])
@@ -247,7 +248,7 @@ def render_artifact_card(
         </details>"""
     card_id = dom_id or f'artifact-{artifact["slug"]}'
     return f"""      <article class="artifact-ticket" id="{esc(card_id)}" data-artifact-id="{esc(artifact["id"])}">
-        <div class="artifact-ticket-media">{render_media(artifact)}</div>
+{('        <div class="artifact-ticket-media">'+render_media(artifact)+'</div>') if show_media else ''}
         <div class="artifact-ticket-copy">
           <p class="artifact-label">{esc(artifact["label"])} · {esc(artifact["dateRange"]["label"])}</p>
           <h3>{esc(artifact["title"])}</h3>
@@ -264,7 +265,7 @@ def render_artifact_shelf(route: dict) -> str:
     items = [ARTIFACT_BY_ID[item] for item in route.get("artifactIds", []) if item in ARTIFACT_BY_ID]
     if not items:
         return ""
-    cards = "\n".join(render_artifact_card(item) for item in items)
+    cards = "\n".join(render_artifact_card(item, show_media=item['media'].get('src') not in route.get('_usedMedia',[])) for item in items)
     year = int(route['path'].strip('/').split('/')[-1]) if route['type']=='years' else None
     title = f'Objects around {year}' if year else 'Objects of the era'
     context = f'\n        <p>{esc(archive.YEARS[year]["objectNote"])}</p>' if year and archive.YEARS[year].get('objectNote') else ''
@@ -310,7 +311,7 @@ def search_records():
     records = []
     excluded_paths = {"/", "/search/", "/sitemap/", "/credits/"}
     for route in ROUTES:
-        if route["path"] in excluded_paths or route["type"] in {"events", "stories", "objects"}:
+        if route["path"] in excluded_paths or route["type"] in {"events", "stories", "objects", "redirects"}:
             continue
         records.append(
             {
@@ -541,7 +542,7 @@ def render_surprise_main() -> str:
 def render_credits_main() -> str:
     credits = []
     seen = set()
-    for item in ARTIFACTS:
+    for item in ARTIFACTS + [{'title':next(s['title'] for s in archive.STORIES if s['id']==id),'media':m} for id,m in archive.STORY_MEDIA.items()]:
         media = item["media"]
         key = (media.get("src"), media.get("sourceUrl"), media["credit"])
         if key in seen:
@@ -636,7 +637,10 @@ def render_404() -> str:
 def build_outputs() -> dict[Path, str]:
     outputs = {}
     for route in ROUTES:
-        if route["type"] == "years":
+        if route['type'] == 'redirects':
+            main = '<main id="main-content" class="ed-main"><section class="ar-heading"><p class="ar-kicker">A BETTER PLACE FOR THIS MEMORY</p><h1>This entry has moved.</h1><p>Its useful material is now part of a fuller story or timeline.</p><p><a class="ed-cta" href="'+esc(route['destination'])+'">Continue to the updated entry →</a></p></section></main>'
+            outputs[route_to_file(route['path'])] = page_document(route,main)
+        elif route["type"] == "years":
             outputs[route_to_file(route["path"])] = page_document(route, archive_pages.timeline(route), "editorial-body editorial-timeline")
         elif route["path"] == "/this-week/":
             outputs[route_to_file(route["path"])] = page_document(route, archive_pages.weekly(), "editorial-body")
@@ -724,6 +728,12 @@ def main() -> int:
 
     outputs = build_outputs()
     changed = []
+    for route in archive.PUBLICATION['retiredRoutes']:
+        path = route_to_file(route)
+        if path.exists():
+            changed.append(path)
+            if not args.check:
+                path.unlink()
     for path, expected in outputs.items():
         current = path.read_text() if path.exists() else None
         if current != expected:

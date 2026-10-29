@@ -2,8 +2,8 @@ import {test,expect} from './browser-fixtures.mjs';
 import fs from 'node:fs';
 import {historicalDate,weekBounds,formatDate,eventsInWeek} from '../js/date-utils.js';
 import catalog from '../content/editorial/catalog.json' with {type:'json'};
-const features=[...fs.readFileSync(new URL('../content/editorial/features.md',import.meta.url),'utf8').matchAll(/<!-- story: (.*?) -->/g)].map(m=>JSON.parse(m[1]));
-const objects=JSON.parse(fs.readFileSync(new URL('../data/artifacts.json',import.meta.url),'utf8')).filter(a=>a.media.reviewedAt==='2026-10-01');
+import {features,eventHref} from './editorial-fixtures.mjs';
+const objects=JSON.parse(fs.readFileSync(new URL('../data/artifacts.json',import.meta.url),'utf8'));
 
 test('month-level events remain discoverable in calendar view without inventing a day',async({page})=>{
   await page.goto('/timeline/1995/?month=03&view=calendar&category=tech');
@@ -27,6 +27,7 @@ test('every new feature and object renders readable content, valid images and in
     await expect(page.locator('#sources')).toBeVisible();
     await page.locator('main img').evaluateAll(imgs=>Promise.all(imgs.map(img=>{img.loading='eager';return img.decode();})));
     expect(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),`${width}: ${path}`).toBe(false);
+    if(process.env.POLISH_QA_DIR)await page.screenshot({path:`${process.env.POLISH_QA_DIR}/${path.replaceAll('/','_')}-${width}.png`,fullPage:true});
    }
   }
   expect(errors).toEqual([]);
@@ -49,8 +50,8 @@ test('every new album record has a complete visible title on mobile and desktop'
  for(const width of [390,1440]){
   await page.setViewportSize({width,height:900});
   for(const album of albums){
-   const response=await page.goto(`/events/${album.slug}/`);expect(response.status()).toBe(200);
-   await expect(page.locator('h1')).toHaveText(album.title);
+   const response=await page.goto(eventHref(album));if(response)expect(response.status()).toBe(200);
+   await expect(page.locator(`#event-${album.id} h3`)).toHaveText(album.title);
    expect(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),`${width}: ${album.id}`).toBe(false);
   }
  }

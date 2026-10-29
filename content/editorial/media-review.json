@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-01",
+  "checkedAt": "2026-10-29",
   "items": [
     {
       "id": "family-pc",
@@ -7,9 +7,9 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "credit": "Oompje",
-      "checkedAt": "2026-09-27",
-      "method": "Wikimedia Commons imageinfo extmetadata",
-      "adaptation": "Locally resized; crops are applied by layout CSS."
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; layout crops are not separate images."
     },
     {
       "id": "windows-3",
@@ -17,9 +17,9 @@
       "license": "Public domain",
       "licenseUrl": "",
       "credit": "OS: Microsoft Corporation Screenshot: PantheraLeo1359531 😺 ( talk )",
-      "checkedAt": "2026-09-27",
-      "method": "Wikimedia Commons imageinfo extmetadata",
-      "adaptation": "Locally resized; crops are applied by layout CSS."
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; layout crops are not separate images."
     },
     {
       "id": "first-website",
@@ -27,9 +27,9 @@
       "license": "Public domain",
       "licenseUrl": "",
       "credit": "Cern/Tim Berners-Lee",
-      "checkedAt": "2026-09-27",
-      "method": "Wikimedia Commons imageinfo extmetadata",
-      "adaptation": "Locally resized; crops are applied by layout CSS."
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; layout crops are not separate images."
     },
     {
       "id": "mosaic-browser",
@@ -37,9 +37,9 @@
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "credit": "Charles Severance",
-      "checkedAt": "2026-09-27",
-      "method": "Wikimedia Commons imageinfo extmetadata",
-      "adaptation": "Locally resized; crops are applied by layout CSS."
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; layout crops are not separate images."
     },
     {
       "id": "aol-cd",
@@ -47,19 +47,19 @@
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "credit": "Jeran Renz ( talk )",
-      "checkedAt": "2026-09-27",
-      "method": "Wikimedia Commons imageinfo extmetadata",
-      "adaptation": "Locally resized; crops are applied by layout CSS."
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; layout crops are not separate images."
     },
     {
       "id": "windows-95-start",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Windows95-4.0.302-Desktop,_start_button.png",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Start_button_Windows_4.00.337.png",
       "license": "Public domain",
-      "licenseUrl": "",
-      "credit": "OS: Microsoft Corporation Files: BetaWiki-Beitragende",
-      "checkedAt": "2026-09-27",
-      "method": "Wikimedia Commons imageinfo extmetadata",
-      "adaptation": "Locally resized; crops are applied by layout CSS."
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Copyright_tags#Public_domain",
+      "credit": "OS: Microsoft Corporation Dateien: BetaWiki-Beitragende",
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; layout crops are not separate images."
     },
     {
       "id": "pager",
@@ -67,9 +67,9 @@
       "license": "Public domain",
       "licenseUrl": "",
       "credit": "Andrepinto40 at Portuguese Wikipedia",
-      "checkedAt": "2026-09-27",
-      "method": "Wikimedia Commons imageinfo extmetadata",
-      "adaptation": "Locally resized; crops are applied by layout CSS."
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; layout crops are not separate images."
     },
     {
       "id": "cassette",
@@ -77,9 +77,9 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "credit": "Andrey Korzun",
-      "checkedAt": "2026-09-27",
-      "method": "Wikimedia Commons imageinfo extmetadata",
-      "adaptation": "Locally resized; crops are applied by layout CSS."
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; layout crops are not separate images."
     },
     {
       "id": "discman",
@@ -87,9 +87,9 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "credit": "Morn at English Wikipedia",
-      "checkedAt": "2026-09-27",
-      "method": "Wikimedia Commons imageinfo extmetadata",
-      "adaptation": "Locally resized; crops are applied by layout CSS."
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; layout crops are not separate images."
     },
     {
       "id": "cdr-spindle",
@@ -97,9 +97,9 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "credit": "Nin-TD",
-      "checkedAt": "2026-09-27",
-      "method": "Wikimedia Commons imageinfo extmetadata",
-      "adaptation": "Locally resized; crops are applied by layout CSS."
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; layout crops are not separate images."
     },
     {
       "id": "vhs-tape",
@@ -107,9 +107,9 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "credit": "LoMit",
-      "checkedAt": "2026-09-27",
-      "method": "Wikimedia Commons imageinfo extmetadata",
-      "adaptation": "Locally resized; crops are applied by layout CSS."
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; layout crops are not separate images."
     },
     {
       "id": "crt-television",
@@ -117,9 +117,9 @@
       "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
       "credit": "ProtoKiwi",
-      "checkedAt": "2026-09-27",
-      "method": "Wikimedia Commons imageinfo extmetadata",
-      "adaptation": "Locally resized; crops are applied by layout CSS."
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; layout crops are not separate images."
     },
     {
       "id": "blockbuster-store",
@@ -127,9 +127,9 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "credit": "Jon Konrath from Oakland, USA",
-      "checkedAt": "2026-09-27",
-      "method": "Wikimedia Commons imageinfo extmetadata",
-      "adaptation": "Locally resized; crops are applied by layout CSS."
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; layout crops are not separate images."
     },
     {
       "id": "arcade-cabinet",
@@ -137,19 +137,19 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "credit": "Halcyanide",
-      "checkedAt": "2026-09-27",
-      "method": "Wikimedia Commons imageinfo extmetadata",
-      "adaptation": "Locally resized; crops are applied by layout CSS."
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; layout crops are not separate images."
     },
     {
       "id": "genesis-controller",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sega-Genesis-Mk2-6button.jpg",
-      "license": "CC BY-SA 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-      "credit": "Evan-Amos",
-      "checkedAt": "2026-09-27",
-      "method": "Wikimedia Commons imageinfo extmetadata",
-      "adaptation": "Locally resized; crops are applied by layout CSS."
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sega-Mega-Drive-controllers.jpg",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Copyright_tags#Public_domain",
+      "credit": "X201",
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; layout crops are not separate images."
     },
     {
       "id": "n64-controller",
@@ -157,9 +157,9 @@
       "license": "Public domain",
       "licenseUrl": "",
       "credit": "Evan-Amos",
-      "checkedAt": "2026-09-27",
-      "method": "Wikimedia Commons imageinfo extmetadata",
-      "adaptation": "Locally resized; crops are applied by layout CSS."
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; layout crops are not separate images."
     },
     {
       "id": "playstation-hardware",
@@ -167,9 +167,9 @@
       "license": "Public domain",
       "licenseUrl": "",
       "credit": "Evan-Amos",
-      "checkedAt": "2026-09-27",
-      "method": "Wikimedia Commons imageinfo extmetadata",
-      "adaptation": "Locally resized; crops are applied by layout CSS."
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; layout crops are not separate images."
     },
     {
       "id": "bondi-imac",
@@ -177,9 +177,9 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "credit": "Alterations by David Fuchs ; original by Rama , licensed CC-by-SA",
-      "checkedAt": "2026-09-27",
-      "method": "Wikimedia Commons imageinfo extmetadata",
-      "adaptation": "Locally resized; crops are applied by layout CSS."
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; layout crops are not separate images."
     },
     {
       "id": "hubble-launch",
@@ -187,9 +187,9 @@
       "license": "Public domain",
       "licenseUrl": "",
       "credit": "NASA / ESA",
-      "checkedAt": "2026-09-27",
-      "method": "Wikimedia Commons imageinfo extmetadata",
-      "adaptation": "Locally resized; crops are applied by layout CSS."
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; layout crops are not separate images."
     },
     {
       "id": "doom-disks",
@@ -197,9 +197,9 @@
       "license": "CC BY-SA 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
       "credit": "Pelle Wessman from Malmö, Sweden",
-      "checkedAt": "2026-09-27",
-      "method": "Wikimedia Commons imageinfo extmetadata",
-      "adaptation": "Locally resized; crops are applied by layout CSS."
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; layout crops are not separate images."
     },
     {
       "id": "game-boy-color",
@@ -207,9 +207,9 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "credit": "No machine-readable author provided. Zeartul~commonswiki assumed (based on copyright claims).",
-      "checkedAt": "2026-09-27",
-      "method": "Wikimedia Commons imageinfo extmetadata",
-      "adaptation": "Locally resized; crops are applied by layout CSS."
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; layout crops are not separate images."
     },
     {
       "id": "transparent-n64-controller",
@@ -217,70 +217,89 @@
       "license": "Public domain",
       "licenseUrl": "",
       "credit": "mboverload, Wikimedia Commons",
-      "checkedAt": "2026-09-27",
-      "method": "Wikimedia Commons imageinfo extmetadata",
-      "adaptation": "Locally resized; crops are applied by layout CSS."
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; layout crops are not separate images."
     },
     {
       "id": "dreamcast",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dreamcast-Console-Set.jpg",
       "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
       "credit": "Evan-Amos",
-      "checkedAt": "2026-09-27",
-      "method": "Commons file-description page; image visually matched",
-      "adaptation": "Resized from 4540 × 2200 to 1400 × 678."
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; layout crops are not separate images."
     },
     {
       "id": "y2k-office",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:19991231_Year_2000_Problem_Response_Office.jpg",
-      "credit": "Cabinet Public Affairs Office, Government of Japan / Prime Minister’s Office website",
       "license": "CC BY 4.0 (Government of Japan Standard Terms of Use 2.0)",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-      "checkedAt": "2026-09-27",
-      "method": "Commons imageinfo; government source photo visually matched",
-      "adaptation": "Existing local JPEG is 300 × 226; source lists 300 × 225. No content alteration."
+      "credit": "Cabinet Public Affairs Office, Government of Japan / Prime Minister’s Office website",
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; layout crops are not separate images."
     },
     {
       "id": "geocities-homepage",
+      "sourceUrl": null,
       "license": "Original editorial recreation",
-      "credit": "90s.land",
-      "checkedAt": "2026-09-27",
-      "method": "Local authored HTML/CSS; not an archived screenshot"
+      "licenseUrl": "",
+      "credit": "Original HTML/CSS recreation by 90s.land",
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; layout crops are not separate images."
     },
     {
       "id": "visitor-counter",
+      "sourceUrl": null,
       "license": "Original editorial recreation",
-      "credit": "90s.land",
-      "checkedAt": "2026-09-27",
-      "method": "Local authored HTML/CSS; not an archived screenshot"
+      "licenseUrl": "",
+      "credit": "Original HTML/CSS recreation by 90s.land",
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; layout crops are not separate images."
     },
     {
       "id": "guestbook",
+      "sourceUrl": null,
       "license": "Original editorial recreation",
-      "credit": "90s.land",
-      "checkedAt": "2026-09-27",
-      "method": "Local authored HTML/CSS; not an archived screenshot"
+      "licenseUrl": "",
+      "credit": "Original HTML/CSS recreation by 90s.land",
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; layout crops are not separate images."
     },
     {
       "id": "webring-bar",
+      "sourceUrl": null,
       "license": "Original editorial recreation",
-      "credit": "90s.land",
-      "checkedAt": "2026-09-27",
-      "method": "Local authored HTML/CSS; not an archived screenshot"
+      "licenseUrl": "",
+      "credit": "Original HTML/CSS recreation by 90s.land",
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; layout crops are not separate images."
     },
     {
       "id": "aim-away-message",
+      "sourceUrl": null,
       "license": "Original editorial recreation",
-      "credit": "90s.land",
-      "checkedAt": "2026-09-27",
-      "method": "Local authored HTML/CSS; not an archived screenshot"
+      "licenseUrl": "",
+      "credit": "Original HTML/CSS recreation by 90s.land",
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; layout crops are not separate images."
     },
     {
       "id": "yahoo-directory",
+      "sourceUrl": null,
       "license": "Original editorial recreation",
-      "credit": "90s.land",
-      "checkedAt": "2026-09-27",
-      "method": "Local authored HTML/CSS; not an archived screenshot"
+      "licenseUrl": "",
+      "credit": "Original HTML/CSS recreation by 90s.land",
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; layout crops are not separate images."
     },
     {
       "id": "home-hero",
@@ -344,9 +363,9 @@
       "license": "Public domain",
       "licenseUrl": "",
       "credit": "Evan-Amos",
-      "checkedAt": "2026-10-01",
-      "method": "Commons imageinfo extmetadata plus local contact-sheet/model inspection",
-      "adaptation": "Local JPEG conversion and responsive WebP derivatives; object is photographed later, not presented as a period scene."
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; layout crops are not separate images."
     },
     {
       "id": "game-gear",
@@ -354,9 +373,9 @@
       "license": "Public domain",
       "licenseUrl": "",
       "credit": "Evan-Amos",
-      "checkedAt": "2026-10-01",
-      "method": "Commons imageinfo extmetadata plus local contact-sheet/model inspection",
-      "adaptation": "Local JPEG conversion and responsive WebP derivatives; object is photographed later, not presented as a period scene."
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; layout crops are not separate images."
     },
     {
       "id": "saturn",
@@ -364,9 +383,9 @@
       "license": "Public domain",
       "licenseUrl": "",
       "credit": "Evan-Amos",
-      "checkedAt": "2026-10-01",
-      "method": "Commons imageinfo extmetadata plus local contact-sheet/model inspection",
-      "adaptation": "Local JPEG conversion and responsive WebP derivatives; object is photographed later, not presented as a period scene."
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; layout crops are not separate images."
     },
     {
       "id": "minidisc",
@@ -374,9 +393,9 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "credit": "Nixdorf",
-      "checkedAt": "2026-10-01",
-      "method": "Commons imageinfo extmetadata plus local contact-sheet/model inspection",
-      "adaptation": "Local JPEG conversion and responsive WebP derivatives; object is photographed later, not presented as a period scene."
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; layout crops are not separate images."
     },
     {
       "id": "palm-pilot",
@@ -384,9 +403,9 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "credit": "Letdorf",
-      "checkedAt": "2026-10-01",
-      "method": "Commons imageinfo extmetadata plus local contact-sheet/model inspection",
-      "adaptation": "Local JPEG conversion and responsive WebP derivatives; object is photographed later, not presented as a period scene."
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; layout crops are not separate images."
     },
     {
       "id": "nokia-3210",
@@ -394,9 +413,9 @@
       "license": "Public domain",
       "licenseUrl": "",
       "credit": "Michael Brandtner",
-      "checkedAt": "2026-10-01",
-      "method": "Commons imageinfo extmetadata plus local contact-sheet/model inspection",
-      "adaptation": "Local JPEG conversion and responsive WebP derivatives; object is photographed later, not presented as a period scene."
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; layout crops are not separate images."
     },
     {
       "id": "zip-drive",
@@ -404,9 +423,9 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "credit": "Yuri Litvinenko / 30pin",
-      "checkedAt": "2026-10-01",
-      "method": "Commons imageinfo extmetadata plus local contact-sheet/model inspection",
-      "adaptation": "Local JPEG conversion and responsive WebP derivatives; object is photographed later, not presented as a period scene."
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; layout crops are not separate images."
     },
     {
       "id": "floppy-disk",
@@ -414,9 +433,9 @@
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "credit": "Peter Astbury",
-      "checkedAt": "2026-10-01",
-      "method": "Commons imageinfo extmetadata plus local contact-sheet/model inspection",
-      "adaptation": "Local JPEG conversion and responsive WebP derivatives; object is photographed later, not presented as a period scene."
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; layout crops are not separate images."
     },
     {
       "id": "memory-card",
@@ -424,9 +443,9 @@
       "license": "Public domain",
       "licenseUrl": "",
       "credit": "Evan-Amos",
-      "checkedAt": "2026-10-01",
-      "method": "Commons imageinfo extmetadata plus local contact-sheet/model inspection",
-      "adaptation": "Local JPEG conversion and responsive WebP derivatives; object is photographed later, not presented as a period scene."
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; layout crops are not separate images."
     },
     {
       "id": "game-shark",
@@ -434,9 +453,9 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "credit": "Binhow2010",
-      "checkedAt": "2026-10-01",
-      "method": "Commons imageinfo extmetadata plus local contact-sheet/model inspection",
-      "adaptation": "Local JPEG conversion and responsive WebP derivatives; object is photographed later, not presented as a period scene."
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; layout crops are not separate images."
     },
     {
       "id": "webtv",
@@ -444,9 +463,9 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "credit": "Halen Martini",
-      "checkedAt": "2026-10-01",
-      "method": "Commons imageinfo extmetadata plus local contact-sheet/model inspection",
-      "adaptation": "Local JPEG conversion and responsive WebP derivatives; object is photographed later, not presented as a period scene."
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; layout crops are not separate images."
     },
     {
       "id": "quickcam",
@@ -454,9 +473,9 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "credit": "rfdigitalwpg",
-      "checkedAt": "2026-10-01",
-      "method": "Commons imageinfo extmetadata plus local contact-sheet/model inspection",
-      "adaptation": "Local JPEG conversion and responsive WebP derivatives; object is photographed later, not presented as a period scene."
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; layout crops are not separate images."
     },
     {
       "id": "disposable-camera",
@@ -464,9 +483,9 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "credit": "Jud McCranie",
-      "checkedAt": "2026-10-01",
-      "method": "Commons imageinfo extmetadata plus local contact-sheet/model inspection",
-      "adaptation": "Local JPEG conversion and responsive WebP derivatives; object is photographed later, not presented as a period scene."
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; layout crops are not separate images."
     },
     {
       "id": "talkboy",
@@ -474,9 +493,9 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "credit": "Y2kcrazyjoker4",
-      "checkedAt": "2026-10-01",
-      "method": "Commons imageinfo extmetadata plus local contact-sheet/model inspection",
-      "adaptation": "Local JPEG conversion and responsive WebP derivatives; object is photographed later, not presented as a period scene."
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; layout crops are not separate images."
     },
     {
       "id": "beanie-baby",
@@ -484,9 +503,9 @@
       "license": "CC BY-SA 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
       "credit": "daryl_mitchell from Saskatoon, Saskatchewan, Canada",
-      "checkedAt": "2026-10-01",
-      "method": "Commons imageinfo extmetadata plus local contact-sheet/model inspection",
-      "adaptation": "Local JPEG conversion and responsive WebP derivatives; object is photographed later, not presented as a period scene."
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; layout crops are not separate images."
     },
     {
       "id": "pogs",
@@ -494,19 +513,19 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "credit": "Jewel457",
-      "checkedAt": "2026-10-01",
-      "method": "Commons imageinfo extmetadata plus local contact-sheet/model inspection",
-      "adaptation": "Local JPEG conversion and responsive WebP derivatives; object is photographed later, not presented as a period scene."
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; layout crops are not separate images."
     },
     {
       "id": "super-soaker",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cps2000front.jpg",
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-      "credit": "",
-      "checkedAt": "2026-10-01",
-      "method": "Commons imageinfo extmetadata plus local contact-sheet/model inspection",
-      "adaptation": "Local JPEG conversion and responsive WebP derivatives; object is photographed later, not presented as a period scene."
+      "credit": "See linked Commons photographer record",
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; layout crops are not separate images."
     },
     {
       "id": "walkman",
@@ -514,9 +533,9 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "credit": "YoloBoscaiolo",
-      "checkedAt": "2026-10-01",
-      "method": "Commons imageinfo extmetadata plus local contact-sheet/model inspection",
-      "adaptation": "Local JPEG conversion and responsive WebP derivatives; object is photographed later, not presented as a period scene."
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; layout crops are not separate images."
     },
     {
       "id": "tb-303",
@@ -524,9 +543,9 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "credit": "eternal jamzzzz",
-      "checkedAt": "2026-10-01",
-      "method": "Commons imageinfo extmetadata plus local contact-sheet/model inspection",
-      "adaptation": "Local JPEG conversion and responsive WebP derivatives; object is photographed later, not presented as a period scene."
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; layout crops are not separate images."
     },
     {
       "id": "mpc-2000",
@@ -534,9 +553,9 @@
       "license": "Public domain",
       "licenseUrl": "",
       "credit": "Original uploader was Alkivar",
-      "checkedAt": "2026-10-01",
-      "method": "Commons imageinfo extmetadata plus local contact-sheet/model inspection",
-      "adaptation": "Local JPEG conversion and responsive WebP derivatives; object is photographed later, not presented as a period scene."
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; layout crops are not separate images."
     },
     {
       "id": "mc-303",
@@ -544,9 +563,9 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "credit": "Leuo",
-      "checkedAt": "2026-10-01",
-      "method": "Commons imageinfo extmetadata plus local contact-sheet/model inspection",
-      "adaptation": "Local JPEG conversion and responsive WebP derivatives; object is photographed later, not presented as a period scene."
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; layout crops are not separate images."
     },
     {
       "id": "technics-turntable",
@@ -554,9 +573,9 @@
       "license": "CC BY-SA 2.5",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
       "credit": "derivative work: 32bitmaschine ( talk ) Technics_SL-1200MK2.jpg : Dydric",
-      "checkedAt": "2026-10-01",
-      "method": "Commons imageinfo extmetadata plus local contact-sheet/model inspection",
-      "adaptation": "Local JPEG conversion and responsive WebP derivatives; object is photographed later, not presented as a period scene."
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; layout crops are not separate images."
     },
     {
       "id": "korg-m1",
@@ -564,9 +583,9 @@
       "license": "CC BY-SA 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
       "credit": "Warren B.",
-      "checkedAt": "2026-10-01",
-      "method": "Commons imageinfo extmetadata plus local contact-sheet/model inspection",
-      "adaptation": "Local JPEG conversion and responsive WebP derivatives; object is photographed later, not presented as a period scene."
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; layout crops are not separate images."
     },
     {
       "id": "dat-recorder",
@@ -574,9 +593,9 @@
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "credit": "Pittigrilli",
-      "checkedAt": "2026-10-01",
-      "method": "Commons imageinfo extmetadata plus local contact-sheet/model inspection",
-      "adaptation": "Local JPEG conversion and responsive WebP derivatives; object is photographed later, not presented as a period scene."
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; layout crops are not separate images."
     },
     {
       "id": "jewel-case",
@@ -584,9 +603,9 @@
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "credit": "DiscoA340",
-      "checkedAt": "2026-10-01",
-      "method": "Commons imageinfo extmetadata plus local contact-sheet/model inspection",
-      "adaptation": "Local JPEG conversion and responsive WebP derivatives; object is photographed later, not presented as a period scene."
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; layout crops are not separate images."
     },
     {
       "id": "dr-martens",
@@ -594,9 +613,9 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "credit": "IlPasseggero",
-      "checkedAt": "2026-10-01",
-      "method": "Commons imageinfo extmetadata plus local contact-sheet/model inspection",
-      "adaptation": "Local JPEG conversion and responsive WebP derivatives; object is photographed later, not presented as a period scene."
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; layout crops are not separate images."
     },
     {
       "id": "vans-shoes",
@@ -604,9 +623,9 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "credit": "Karldmartini",
-      "checkedAt": "2026-10-01",
-      "method": "Commons imageinfo extmetadata plus local contact-sheet/model inspection",
-      "adaptation": "Local JPEG conversion and responsive WebP derivatives; object is photographed later, not presented as a period scene."
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; layout crops are not separate images."
     },
     {
       "id": "answering-machine",
@@ -614,9 +633,9 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "credit": "Pittigrilli",
-      "checkedAt": "2026-10-01",
-      "method": "Commons imageinfo extmetadata plus local contact-sheet/model inspection",
-      "adaptation": "Local JPEG conversion and responsive WebP derivatives; object is photographed later, not presented as a period scene."
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; layout crops are not separate images."
     },
     {
       "id": "super-famicom",
@@ -624,9 +643,9 @@
       "license": "Public domain",
       "licenseUrl": "",
       "credit": "Evan-Amos",
-      "checkedAt": "2026-10-01",
-      "method": "Commons imageinfo extmetadata plus local contact-sheet/model inspection",
-      "adaptation": "Local JPEG conversion and responsive WebP derivatives; object is photographed later, not presented as a period scene."
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; layout crops are not separate images."
     },
     {
       "id": "digital-camera",
@@ -634,9 +653,9 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "credit": "Morio",
-      "checkedAt": "2026-10-01",
-      "method": "Commons imageinfo extmetadata plus local contact-sheet/model inspection",
-      "adaptation": "Local JPEG conversion and responsive WebP derivatives; object is photographed later, not presented as a period scene."
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; layout crops are not separate images."
     },
     {
       "id": "powerbook",
@@ -644,9 +663,9 @@
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "credit": "Danamania",
-      "checkedAt": "2026-10-01",
-      "method": "Commons imageinfo extmetadata plus local contact-sheet/model inspection",
-      "adaptation": "Local JPEG conversion and responsive WebP derivatives; object is photographed later, not presented as a period scene."
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; layout crops are not separate images."
     },
     {
       "id": "newton",
@@ -654,9 +673,359 @@
       "license": "CC0",
       "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "credit": "National Museum of American History",
-      "checkedAt": "2026-10-01",
-      "method": "Commons imageinfo extmetadata plus local contact-sheet/model inspection",
-      "adaptation": "Local JPEG conversion and responsive WebP derivatives; object is photographed later, not presented as a period scene."
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; layout crops are not separate images."
+    },
+    {
+      "id": "story-a-whole-new-dimension",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:N64-Controller-Gray.jpg",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "credit": "Evan-Amos",
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; original image identity retained."
+    },
+    {
+      "id": "story-the-console-war-couch",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nintendo-Super-NES-Console-FL.jpg",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "credit": "Evan-Amos",
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; original image identity retained."
+    },
+    {
+      "id": "story-fifteen-blocks-of-memory",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:PSX-Memory-Card.jpg",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "credit": "Evan-Amos",
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; original image identity retained."
+    },
+    {
+      "id": "story-the-secret-button-sequence",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sega-Mega-Drive-controllers.jpg",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Copyright_tags#Public_domain",
+      "credit": "X201",
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; original image identity retained."
+    },
+    {
+      "id": "story-shareware-before-download-stores",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Doom_Disks_(2954946319).jpg",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "credit": "Pelle Wessman from Malmö, Sweden",
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; original image identity retained."
+    },
+    {
+      "id": "story-handhelds-and-batteries",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Game-Gear-Handheld.jpg",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "credit": "Evan-Amos",
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; original image identity retained."
+    },
+    {
+      "id": "story-from-mixtape-to-file",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Compact_Cassette_-_Maxell_MX_60.JPG",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Andrey Korzun",
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; original image identity retained."
+    },
+    {
+      "id": "story-a-web-you-could-make",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:W3_First_Website.png",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "credit": "Cern/Tim Berners-Lee",
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; original image identity retained."
+    },
+    {
+      "id": "story-the-family-computer",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mypc11999.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Oompje",
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; original image identity retained."
+    },
+    {
+      "id": "story-you-could-see-through-it",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:IMac_G3_Bondi_Blue,_three-quarters_view.png",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Alterations by David Fuchs ; original by Rama , licensed CC-by-SA",
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; original image identity retained."
+    },
+    {
+      "id": "story-aol-flat-rate",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:AOL_promotional_CDs_in_Canada.jpg",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "credit": "Jeran Renz ( talk )",
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; original image identity retained."
+    },
+    {
+      "id": "story-minidisc-small-door",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sony_MZ-1_and_a_disc_20040221.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "credit": "Nixdorf",
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; original image identity retained."
+    },
+    {
+      "id": "story-carrying-files-home",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Iomega_Zip_100_drive_with_a_disk.jpg",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "credit": "Yuri Litvinenko / 30pin",
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; original image identity retained."
+    },
+    {
+      "id": "story-webtv-on-the-sofa",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:WebTV_Launch_Units.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Halen Martini",
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; original image identity retained."
+    },
+    {
+      "id": "story-grunge-from-rack-to-runway",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Doctors_1460_Black_Worn.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "credit": "IlPasseggero",
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; original image identity retained."
+    },
+    {
+      "id": "story-the-landline-negotiation",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Panasonic_Answering_Machine_KX-T1423_-_view_on_outgoing_and_recording_cassettes.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Pittigrilli",
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; original image identity retained."
+    },
+    {
+      "id": "story-the-photo-lab-gap",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fujifilm_QuickSnap_Flash.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Jud McCranie",
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; original image identity retained."
+    },
+    {
+      "id": "story-friday-at-the-video-store",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anchorage_Blockbuster_video_store_(41894012562).jpg",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "credit": "Jon Konrath from Oakland, USA",
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; original image identity retained."
+    },
+    {
+      "id": "story-same-time-next-week",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:1990s_Television_Set.jpg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "credit": "ProtoKiwi",
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; original image identity retained."
+    },
+    {
+      "id": "story-sampling-a-record-collection",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Akai_MPC2000.jpg",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "credit": "Original uploader was Alkivar",
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; original image identity retained."
+    },
+    {
+      "id": "story-when-grunge-broke-through",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nirvana_around_1992_(high_quality).jpg",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "credit": "P.B. Rage from USA",
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; original image identity retained."
+    },
+    {
+      "id": "story-after-school-on-trl",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:TRL_studios_in_Times_Square_in_2006.jpg",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "credit": "Diogo Almeida",
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; original image identity retained."
+    },
+    {
+      "id": "story-the-flyer-and-the-dancefloor",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ultim8_rave_flyer,_Knighton,_September_25th_1992-%22Its_time_to_come_alive%22_(front).jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "ultim8 raves, knighton",
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; original image identity retained."
+    },
+    {
+      "id": "story-bristol-between-the-beats",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beth_Gibbons_2008.jpg",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "credit": "José Goulão from Lisbon, Portugal",
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; original image identity retained."
+    },
+    {
+      "id": "story-breakbeats-change-the-clock",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Goldie_2003.jpg",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Copyright_tags#Public_domain",
+      "credit": "Photographer not identified; Wikimedia Commons public-domain record",
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; original image identity retained."
+    },
+    {
+      "id": "story-rnb-had-many-voices",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rozonda_Thomas.jpg",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "credit": "The Come Up Show from Canada",
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; original image identity retained."
+    },
+    {
+      "id": "story-record-store-discovery",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_B_145_Bild-F079073-0006,_Bonn,_Sternstra%C3%9Fe,_Schallplattengesch%C3%A4ft.jpg",
+      "license": "CC BY-SA 3.0 de",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+      "credit": "Unknown author Unknown author",
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; original image identity retained."
+    },
+    {
+      "id": "story-meet-me-at-the-mall",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:1990s_El_Con_Mall_directory_map.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "credit": "Chickensire",
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; original image identity retained."
+    },
+    {
+      "id": "story-streetwear-the-logo-and-the-voice",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:DaymondJohn2023b.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Philip Romano",
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; original image identity retained."
+    },
+    {
+      "id": "story-holiday-toys-that-answered-back",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tamagotchi_0124_ubt.jpeg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "credit": "Tomasz Sienicki (tsca)",
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; original image identity retained."
+    },
+    {
+      "id": "story-lan-party-night",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:LAN_party_in_France_in_2003.jpg",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "credit": "Syced",
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; original image identity retained."
+    },
+    {
+      "id": "story-the-demo-disc-evening",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Demo_one.jpg",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Copyright_tags#Public_domain",
+      "credit": "Michael Liddell",
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; original image identity retained."
+    },
+    {
+      "id": "story-browser-wars-at-home",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Netscape_Navigator_1.1_for_Macintosh_Install_Disk.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Kevin van Haaren",
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; original image identity retained."
+    },
+    {
+      "id": "story-horror-knew-the-rules",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cosplay_of_Ghostface.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Castorice",
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; original image identity retained."
+    },
+    {
+      "id": "story-summer-at-the-multiplex",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Strong_Highlight_II_35mm_Film_Projectors_20250624_01.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Steven Sun",
+      "checkedAt": "2026-10-29",
+      "method": "Source metadata and local visual subject inspection",
+      "adaptation": "Responsive resizing; original image identity retained."
     }
   ]
 }

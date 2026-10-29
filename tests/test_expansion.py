@@ -37,7 +37,7 @@ class ExpansionTests(unittest.TestCase):
         output=archive_pages.weekly(date(1990,1,1))
         self.assertIn('<section data-week-nearby>',output)
         self.assertIn('Outside the selected week.',output)
-        self.assertIn('/events/',output.split('data-nearby-events>')[1].split('</section>')[0])
+        self.assertIn('/timeline/',output.split('data-nearby-events>')[1].split('</section>')[0])
 
     def test_populated_week_contains_no_false_empty_copy(self):
         self.assertNotIn('No events in the archive for this week.',archive_pages.weekly(date(1996,10,1)))
@@ -50,13 +50,13 @@ class ExpansionTests(unittest.TestCase):
             with self.subTest(story=story['id']):
                 self.assertGreaterEqual(sum(len(p.split()) for section in story['sections'] for p in section['paragraphs']),400)
                 self.assertTrue(story['sourceIds'])
-                self.assertTrue(story['relatedStoryIds'])
-        additions=[a for a in model.ARTIFACTS if a['media'].get('reviewedAt')=='2026-10-01']
+                self.assertIn(story['id'],model.STORY_MEDIA)
+        additions=[a for a in model.ARTIFACTS if a.get('reviewedAt')=='2026-10-29' and a['media']['kind']=='image']
         self.assertGreaterEqual(len(additions),30)
         for obj in additions:
             self.assertTrue((ROOT/obj['media']['src'].lstrip('/')).is_file())
             self.assertTrue(obj['sourceIds'])
-            self.assertGreater(len(obj['whyItMattered'].split()),45)
+            self.assertGreater(len((obj['whyItMattered']+' '+' '.join(p for sec in obj['sections'] for p in sec['paragraphs'])).split()),120)
 
     def test_denver_civil_day_matches_browser_boundary(self):
         self.assertEqual(model.civil_today(datetime(2026,9,28,5,tzinfo=timezone.utc)),date(2026,9,27))

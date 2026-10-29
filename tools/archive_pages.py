@@ -22,12 +22,16 @@ def art(key, label='90s archive'):
     return ed.graphic(label, 'FROM THE COLLECTION', 'calendar')
 
 
-def event_card(e):
-    return f'''<article class="ar-event" data-event data-date-precision="{e['datePrecision']}" data-category="{e['category']}" data-region="{esc(e['region'])}" data-date="{e['date']}"><a href="{model.event_url(e)}"><div class="ar-card-art">{art(e['art'], e['title'])}</div><div class="ar-card-copy"><p class="ar-meta"><time datetime="{e['date']}">{stamp(e['date'])}</time> · {esc(e['region'])}</p><h3>{esc(e['title'])}</h3><p>{esc(e['summary'])}</p><span class="ed-badge">{model.event_label(e)}</span></div></a></article>'''
+def event_card(e, *, anchor=False):
+    entry_id=f' id="event-{e["id"]}"' if anchor else ''
+    return f'''<article class="ar-event ar-timeline-entry"{entry_id} data-event data-date-precision="{e['datePrecision']}" data-category="{e['category']}" data-region="{esc(e['region'])}" data-date="{e['date']}"><div class="ar-card-copy"><p class="ar-meta"><time datetime="{e['date']}">{stamp(e['date'])}</time> · {esc(e['region'])}</p><h3><a href="{model.event_url(e)}">{esc(e['title'])}</a></h3><p>{esc(e['summary'])}</p><span class="ed-badge">{model.event_label(e)}</span><details class="ar-entry-notes"><summary>Sources & context</summary><p>{esc(e['dateNote'])}</p>{sources(e['sourceIds']).replace(' id="sources"', '')}{''.join(f'<p><a href="{model.story_url(s)}">Read: {esc(s["title"])} →</a></p>' for s in model.STORIES if s['id'] in e['storyIds'])}</details></div></article>'''
 
 
-def story_card(s):
-    return f'<a class="ar-story-card" href="{model.story_url(s)}"><div class="ar-card-art">{art(s["art"], s["title"])}</div><div class="ar-card-copy"><span class="ed-badge">{CAT[s["category"]]} · STORY</span><h3>{esc(s["title"])}</h3><p>{esc(s["summary"])}</p></div></a>'
+def story_card(s, used_media=None):
+    src=model.STORY_MEDIA[s['id']]['src']
+    image=f'<div class="ar-card-art">{ed.story_image(s)}</div>' if used_media is None or src not in used_media else ''
+    if used_media is not None:used_media.add(src)
+    return f'<a class="ar-story-card" href="{model.story_url(s)}">{image}<div class="ar-card-copy"><span class="ed-badge">{CAT[s["category"]]} · STORY</span><h3>{esc(s["title"])}</h3><p>{esc(s["summary"])}</p></div></a>'
 
 
 def heading(kicker, title, summary):
@@ -79,11 +83,11 @@ def timeline(route):
     months = []
     for month in range(1,13):
         events = [e for e in year_events if len(e['date']) >= 7 and int(e['date'][5:7]) == month]
-        months.append(f'''<section class="ar-month" data-month-panel="{month}" id="events-{year}-{month:02}"><div class="ar-month-title"><h2>{ed.icon('calendar')} {calendar.month_name[month].upper()} {year}</h2></div><div class="ar-event-grid">{''.join(event_card(e) for e in events)}</div>{calendar_table(year,month,events)}<h3 class="ar-mobile-agenda">Dates this month</h3><p class="ar-empty" data-month-empty{'' if not events else ' hidden'}>{'No entries recorded for this month yet.' if not events else ''}</p></section>''')
+        months.append(f'''<section class="ar-month" data-month-panel="{month}" id="events-{year}-{month:02}"><div class="ar-month-title"><h2>{ed.icon('calendar')} {calendar.month_name[month].upper()} {year}</h2></div><div class="ar-event-grid">{''.join(event_card(e,anchor=True) for e in events)}</div>{calendar_table(year,month,events)}<h3 class="ar-mobile-agenda">Dates this month</h3><p class="ar-empty" data-month-empty{'' if not events else ' hidden'}>{'No entries recorded for this month yet.' if not events else ''}</p></section>''')
     aside = f'''<aside class="ar-sidebar"><section class="ed-panel ar-panel">{ed.heading('In the archive','bolt')}<p class="ar-large-number">{len(year_events)}</p><p>Sourced entries for {year}; exact days appear in the calendar.</p><p class="ar-muted">{esc(model.CATALOG['coverageNote'])}</p><a class="ed-text-link" href="/this-week/">THIS WEEK, 30 YEARS AGO →</a></section><section class="ed-panel ar-panel"><h2>Know the date</h2><p>A US opening, a Japanese game launch, and a worldwide broadcast can fall on different calendars. Each entry keeps its region and source note.</p><a href="/search/?q={year}&amp;filter=events">Search the year →</a></section></aside>'''
     undated = [e for e in year_events if len(e['date']) == 4]
-    context = f'<section class="hub-section" id="year-context" data-year-context>{ed.heading("Also in "+str(year),"book")}<p class="hub-intro">The year is supported by the source; an exact release day is not established here.</p><div class="ar-index-grid">'+''.join(event_card(e) for e in undated)+'</div></section>' if undated else ''
-    content = hero+intro+year_highlights(year)+f'<section class="hub-section" id="chronology">{ed.heading("The full calendar","calendar")}{rail}<div class="ar-layout"><section data-timeline data-year="{year}" data-default-month="{selected}" data-view="grid">{controls}<div class="ar-paging ar-js-only"><a data-prev-month href="?month={max(1,selected-1):02}">← Previous month</a><p data-timeline-status role="status"></p><a data-next-month href="?month={min(12,selected+1):02}">Next month →</a></div>'+''.join(months)+f'<nav class="ar-paging ar-js-only" aria-label="Event pages" data-event-paging hidden><button type="button" data-event-prev>← Previous</button><span data-event-page></span><button type="button" data-event-next>Next →</button></nav><p class="ar-muted">Dates are regional where labeled. Images illustrate the era; source notes appear on each event.</p></section>{aside}</div></section>'+context+'<div id="year-objects"><!-- object-shelf --></div>'+year_connections(year)+decade(year)
+    context = f'<section class="hub-section" id="year-context" data-year-context>{ed.heading("Also in "+str(year),"book")}<p class="hub-intro">The year is supported by the source; an exact release day is not established here.</p><div class="ar-index-grid">'+''.join(event_card(e,anchor=True) for e in undated)+'</div></section>' if undated else ''
+    content = hero+intro+year_highlights(year)+f'<section class="hub-section" id="chronology">{ed.heading("The full calendar","calendar")}{rail}<div class="ar-layout"><section data-timeline data-year="{year}" data-default-month="{selected}" data-view="grid">{controls}<div class="ar-paging ar-js-only"><a data-prev-month href="?month={max(1,selected-1):02}">← Previous month</a><p data-timeline-status role="status"></p><a data-next-month href="?month={min(12,selected+1):02}">Next month →</a></div>'+''.join(months)+f'<nav class="ar-paging ar-js-only" aria-label="Event pages" data-event-paging hidden><button type="button" data-event-prev>← Previous</button><span data-event-page></span><button type="button" data-event-next>Next →</button></nav><p class="ar-muted">Dates retain their supported precision and region. Open Sources &amp; context on an entry for its evidence and related reading.</p></section>{aside}</div></section>'+context+'<div id="year-objects"><!-- object-shelf --></div>'+year_connections(year)+decade(year)
     return f'<main id="main-content" class="ed-main ar-main">{content}</main>'
 
 
@@ -109,17 +113,18 @@ def weekly(day=None):
 
 
 def sources(ids):
-    rows = ''.join(f'<li><a href="{esc(model.SOURCES[id]["url"])}">{esc(model.SOURCES[id]["publisher"])} — {esc(model.SOURCES[id]["title"])} ↗</a><p>{esc(model.SOURCES[id]["scope"])}</p><small>Checked {model.SOURCES[id]["checkedAt"]}</small></li>' for id in ids)
-    return f'<section class="ar-sources" id="sources"><h2>Sources & date notes</h2><ol>{rows}</ol></section>'
+    rows = ''.join(f'<li><a href="{esc(model.SOURCES[id]["url"])}">{esc(model.SOURCES[id]["title"])} ↗</a><small>{esc(model.SOURCES[id]["publisher"])}</small><details><summary>About this source</summary><p>{esc(model.SOURCES[id]["scope"])}</p></details></li>' for id in ids)
+    return f'<section class="ar-sources" id="sources"><h2>Sources</h2><ol>{rows}</ol></section>'
 
 
-def related(objects, events=(), stories=()):
+def related(objects, events=(), stories=(), exclude_media=()):
     selected = [next(a for a in model.ARTIFACTS if a['id']==id) for id in objects][:3]
     event_picks=model.selected_events([e for e in model.EVENTS if e['id'] in events],3)
     by_id={s['id']:s for s in model.STORIES}
     story_picks=[by_id[id] for id in dict.fromkeys(stories) if id in by_id][:2]
+    used_media=set(exclude_media)
     if not (selected or events or stories): return '<aside class="ar-sidebar"><section class="ed-panel ar-panel"><h2>Keep exploring</h2><a href="/timeline/">Browse the decade →</a><p><a href="/stories/">Read the stories →</a></p></section></aside>'
-    return '<aside class="ar-sidebar"><section class="ed-panel ar-panel"><h2>Keep exploring</h2>'+''.join(story_card(s) for s in story_picks)+''.join(f'<a class="ar-related" href="{model.object_url(a)}"><span class="ar-meta">OBJECT · {esc(a["dateRange"]["label"])}</span><h3>{esc(a["title"])}</h3></a>' for a in selected)+''.join(f'<a class="ar-related" href="{model.event_url(e)}"><span class="ar-meta">{stamp(e["date"])} · {model.event_label(e)}</span><h3>{esc(e["title"])}</h3></a>' for e in event_picks)+'</section></aside>'
+    return '<aside class="ar-sidebar"><section class="ed-panel ar-panel"><h2>Keep exploring</h2>'+''.join(story_card(s,used_media) for s in story_picks)+''.join(f'<a class="ar-related" href="{model.object_url(a)}"><span class="ar-meta">OBJECT · {esc(a["dateRange"]["label"])}</span><h3>{esc(a["title"])}</h3></a>' for a in selected)+''.join(f'<a class="ar-related" href="{model.event_url(e)}"><span class="ar-meta">{stamp(e["date"])} · {model.event_label(e)}</span><h3>{esc(e["title"])}</h3></a>' for e in event_picks)+'</section></aside>'
 
 
 def collection_path(category):
@@ -159,9 +164,9 @@ def detail(route, render_media):
     if type == 'stories':
         s = next(s for s in model.STORIES if model.story_url(s)==route['path'])
         body = heading(CAT[s['category']]+' · FROM THE ARCHIVE',s['title'],s['summary'])
-        body += f'<div class="ar-detail-art">{art(s["art"], s["title"])}</div>'
+        body += ed.story_figure(s)
         body += ''.join(f'<section><h2>{esc(section["heading"])}</h2>'+''.join(f'<p>{esc(p)}</p>' for p in section['paragraphs'])+'</section>' for section in s['sections'])
-        body += sources(s['sourceIds'])+'<p class="ar-muted">Original editorial interpretation by 90s.land. Images are illustrative; <a href="/credits/">artwork credits</a> and related object labels identify their sources.</p>'
+        body += sources(s['sourceIds'])
         body+=contextual_path(s['category'],s['objectIds'])
         return wrap_detail(route,body,related(s['objectIds'],s['eventIds'],s.get('relatedStoryIds',[])),s['publishedAt'])
     a = next(a for a in model.ARTIFACTS if model.object_url(a)==route['path'])
@@ -169,7 +174,7 @@ def detail(route, render_media):
     credit = f'<a href="{esc(m["sourceUrl"])}">{esc(m["credit"])} ↗</a>' if m.get('sourceUrl') else esc(m['credit'])
     license_label = f'<a href="{esc(m["licenseUrl"])}">{esc(m["license"])}</a>' if m.get('licenseUrl') else esc(m['license'])
     body = heading('OBJECT FILE · '+a['dateRange']['label'],a['title'],a['curatorNote'])
-    body += f'<figure class="ar-object-art">{render_media(a)}<figcaption>{credit} · {license_label}</figcaption></figure><h2>The object’s story</h2><p>{esc(a["whyItMattered"])}</p>'
+    body += f'<figure class="ar-object-art">{render_media(a)}<figcaption>{esc(m.get("caption", ""))} {credit} · {license_label}</figcaption></figure><h2>The object’s story</h2><p>{esc(a["whyItMattered"])}</p>'
     body += ''.join(f'<section><h2>{esc(section["heading"])}</h2>'+''.join(f'<p>{esc(p)}</p>' for p in section['paragraphs'])+'</section>' for section in a.get('sections',[]))
     if a.get('sourceIds'): body += sources(a['sourceIds'])
     if m['kind']=='recreation': body += '<p class="ar-date-note">Original interface recreation. This is an interpretation of the era, not an archived live website.</p>'
@@ -180,7 +185,7 @@ def detail(route, render_media):
     room_category={'tv-movies':'movies-tv','tech-toys':'tech','transparent-tech':'tech','internet-culture':'tech'}.get(a['room'],a['room'])
     body+=contextual_path(room_category,[a['id']])
     if len(events)>3:body+=f'<p><a href="/search/?q={a["slug"]}&amp;filter=events">More dates connected to this object →</a></p>'
-    return wrap_detail(route,body,related(others,events,stories))
+    return wrap_detail(route,body,related(others,events,stories,[m['src']] if m.get('src') else []))
 
 
 def wrap_detail(route, body, aside, published=None):

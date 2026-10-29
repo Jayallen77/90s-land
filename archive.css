@@ -171,3 +171,14 @@
   [data-timeline][data-view="calendar"] .ar-event-grid[data-has-month-events="true"] { display: grid; margin-bottom: 1rem; }
   [data-timeline][data-view="calendar"] .ar-event-grid [data-date-precision="day"] { display: none; }
 }
+
+/* Curated entries retain the existing card system without decorative artwork. */
+.ar-timeline-entry {scroll-margin-top: 1.5rem;}
+.ar-timeline-entry h3 a {color:inherit;text-decoration:none;}
+.ar-entry-notes {margin-top:1rem;}
+.ar-entry-notes summary {cursor:pointer;color:var(--cyan,#39d9dd);font-size:.9rem;}
+.ar-entry-notes .ar-sources {border:0;padding:0;margin:1rem 0;}
+.story-figure {margin:1.5rem 0;}
+.story-figure figcaption {padding:.75rem;font-size:.85rem;line-height:1.5;color:var(--muted,#bbc3d7);}
+.story-figure img {max-height:560px;object-fit:contain;width:100%;}
+.story-figure figcaption a,.ar-object-art figcaption a {text-decoration:underline;text-underline-offset:.15em;}

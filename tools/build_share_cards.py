@@ -94,7 +94,7 @@ def main():
     else:
         MANIFEST.write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
         keep={ROOT/c['src'].lstrip('/') for c in cards.values()}
-        for obsolete in (ROOT/'assets/generated/share').glob('*.jpg'):
+        for obsolete in {ROOT/c['src'].lstrip('/') for c in old['cards'].values()}:
             if obsolete not in keep:obsolete.unlink()
     print(json.dumps({'cards':len(cards),'generated':generated,'errors':errors},indent=2))
     return bool(errors)

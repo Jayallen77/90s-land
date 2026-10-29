@@ -90,6 +90,19 @@ def media(key, *, hero=False):
     return f'<img src="{esc(item["src"])}" alt="{esc(item["alt"])}" width="{item["width"]}" height="{item["height"]}" sizes="(max-width: 600px) 45vw, (max-width: 1000px) 33vw, 360px" loading="lazy" decoding="async" />'
 
 
+def story_image(story):
+    from archive_content import STORY_MEDIA
+    item = STORY_MEDIA[story['id']]
+    x,y=item.get('focalPoint',[50,50])
+    return f'<img src="{esc(item["src"])}" alt="{esc(item["alt"])}" width="{item["width"]}" height="{item["height"]}" style="object-position:{float(x):g}% {float(y):g}%" loading="lazy" decoding="async" />'
+
+
+def story_figure(story):
+    from archive_content import STORY_MEDIA
+    item = STORY_MEDIA[story['id']]
+    return f'<figure class="ar-detail-art story-figure">{story_image(story)}<figcaption>{esc(item["caption"])} <a href="{esc(item["sourceUrl"])}">{esc(item["credit"])}</a> · <a href="{esc(item["licenseUrl"])}">{esc(item["license"])}</a></figcaption></figure>'
+
+
 def hero(kind):
     copy = {
         'home': ('THE 90s<br /> LIVE ON', '', 'Pick a year. Find a familiar object.<br /> Follow a story you nearly forgot.<br /> Your next rabbit hole starts here.', 'Explore the decade', '#browse-decade'),
@@ -105,7 +118,10 @@ def heading(title, glyph='star', href=None, extra=''):
 
 
 def tile(title, href, art, subtitle='', badge='', cls=''):
-    return f'<a class="ed-tile {cls}" href="{esc(href)}"><div class="ed-tile-art">{media(art)}</div><div class="ed-tile-copy">'+(f'<span class="ed-badge">{esc(badge)}</span>' if badge else '')+f'<h3>{esc(title)}</h3>'+(f'<p>{esc(subtitle)}</p>' if subtitle else '')+'</div></a>'
+    import archive_content as archive
+    story = next((s for s in archive.STORIES if archive.story_url(s) == href), None)
+    image = story_image(story) if story else media(art)
+    return f'<a class="ed-tile {cls}" href="{esc(href)}"><div class="ed-tile-art">{image}</div><div class="ed-tile-copy">'+(f'<span class="ed-badge">{esc(badge)}</span>' if badge else '')+f'<h3>{esc(title)}</h3>'+(f'<p>{esc(subtitle)}</p>' if subtitle else '')+'</div></a>'
 
 
 def week_feature():
@@ -119,7 +135,7 @@ def week_feature():
     title = pick['title'] if pick else 'Open the historical week →'
     href = archive.event_url(pick) if pick else '/this-week/'
     label = f'{start.strftime("%b %-d, %Y")} – {end.strftime("%b %-d, %Y")}'
-    return f'''<section class="ed-panel ed-week" id="this-week"><div class="ed-week-art">{media(pick['art'] if pick and pick.get('art') and (pick['art'] not in ARTIFACTS or ARTIFACTS[pick['art']]['media']['kind']=='image') else 'home')}</div><div class="ed-week-copy"><h2>{icon('calendar')} <span>THIS WEEK IN<strong>{day.year}</strong></span></h2><p class="ed-date">{label}</p><p data-home-week-copy>{esc(summary)}</p><a class="ed-cta" href="/this-week/">Explore this week {icon('arrow')}</a></div><div class="ed-week-note"><a href="{href}">{esc(title)} →</a></div></section>'''
+    return f'''<section class="ed-panel ed-week" id="this-week"><div class="ed-week-art">{media(pick['art'] if pick and pick.get('art') and (pick['art'] not in ARTIFACTS or ARTIFACTS[pick['art']]['media']['kind']=='image') else 'timeline')}</div><div class="ed-week-copy"><h2>{icon('calendar')} <span>THIS WEEK IN<strong>{day.year}</strong></span></h2><p class="ed-date">{label}</p><p data-home-week-copy>{esc(summary)}</p><a class="ed-cta" href="/this-week/">Explore this week {icon('arrow')}</a></div><div class="ed-week-note"><a href="{href}">{esc(title)} →</a></div></section>'''
 
 
 def home():
@@ -151,7 +167,7 @@ def parent_section(route):
     if path in ('/zones/fashion/', '/zones/internet-culture/'): return SECTION_ROUTES['culture']
     if path == '/zones/transparent-tech/': return SECTION_ROUTES['tech']
     for item in model.STORIES + model.EVENTS:
-        if path in (model.story_url(item), model.event_url(item)):
+        if path == (model.event_url(item) if 'date' in item else model.story_url(item)):
             return SECTION_ROUTES.get(item['category'], ('Timeline', '/timeline/'))
     if route.get('type') == 'objects': return ('Objects', '/archive/objects/')
     return ('Home', '/')
