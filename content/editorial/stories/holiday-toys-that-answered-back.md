@@ -1,35 +1,36 @@
-<!-- story: {"id": "holiday-toys-that-answered-back", "title": "The toy aisle began answering back", "category": "culture", "summary": "Tamagotchi and Furby made care, response and personality part of the toy’s appeal, in very different forms.", "art": "talkboy", "sourceIds": ["tamagotchi", "tamagotchi-museum", "new-chm-1998"], "objectIds": ["talkboy", "beanie-baby"], "topics": ["collecting", "mall", "portable", "toys"], "relatedStoryIds": ["handhelds-and-batteries", "meet-me-at-the-mall"], "publishedAt": "2026-10-01", "updatedAt": "2026-10-29"} -->
+<!-- story: {"id": "holiday-toys-that-answered-back", "title": "The toy aisle began answering back", "category": "culture", "summary": "Tamagotchi and Furby made care, response and personality part of the toy’s appeal, in very different forms.", "art": "talkboy", "sourceIds": ["tamagotchi", "tamagotchi-museum", "new-chm-1998", "sprint-furby-manual", "sprint-original-tamagotchi", "sprint-tamagotchi-gen2"], "objectIds": [], "topics": ["collecting", "mall", "portable", "toys"], "relatedStoryIds": [], "publishedAt": "2026-10-01", "updatedAt": "2026-11-05"} -->
 
-## A tiny pet could interrupt the day
+## One wanted care. The other wanted your attention.
 
-A Tamagotchi could ask for attention while its owner was occupied with something else. A small sound and a changing LCD turned an object on a keychain into a continuing responsibility. The activity was simple enough to explain through three buttons and persistent enough to become part of a daily routine.
+A Tamagotchi could ask for something while you were busy. A Furby could respond when you touched it, moved it or made a noise. Both made a toy feel less like an object waiting patiently on a shelf. Their tricks were different enough to deserve a proper comparison.
 
-Bandai’s original Tamagotchi launched in Japan in November 1996. Its appeal depended less on visual realism than on a repeated relationship between the display and the person watching it. The pet’s condition changed, the owner responded, and the next interruption gave another reason to check.
+Here the subjects are the **original Tamagotchi programs associated with the 1996 Japanese and 1997 international launch era**, and **original-generation Furby**, introduced in 1998. The Furby instructions consulted are a 1999 printing. Later generations add different screens, sensors, games and control systems; their features should not travel backward into these toys.
 
-## Caring became a portable task
+## Two ways to make an electronic pet
 
-The small case made the toy easy to carry without making the task easy to forget. The owner needed to read limited signals and decide what kind of response was required. A device that looked modest beside a games console could still claim an impressive amount of attention.
+| What you do | Original Tamagotchi programs | Original-generation Furby |
+| --- | --- | --- |
+| Find out what it needs | Read a small LCD and select care/status icons with buttons. | Hear speech and watch movement; respond through physical interaction. |
+| Feed it | Choose the food function on screen. | Press the mouth/tongue switch to simulate feeding. |
+| Play | Gen 1 uses a direction-guessing game; Gen 2 uses a higher/lower number game. | Touch and sensor sequences prompt games and responses described in the manual. |
+| Carry it | A keychain-sized screen pet. | A larger electromechanical companion powered by four AA batteries. |
 
-The Strong National Museum of Play notes that early Tamagotchi versions could not simply be paused. That limitation helps explain why the toy’s schedule could collide with the owner’s. A virtual creature did not know that a lesson, a meal, or another activity had begun.
+Bandai’s current Original rereleases explicitly preserve the two old programs, making the difference between their games easy to check. Their modern shell designs and battery specification are not evidence for every original 1997 shell.
 
-The relationship also made comparison social. Friends could show the state of their pets, discuss what had happened, and learn from one another’s attempts. The little screen supported a conversation larger than the information it displayed.
+## Tamagotchi: a small menu of responsibilities
 
-## Furby put the performance on the outside
+Food, health, cleaning, light and discipline made care into a sequence of decisions. The three-button interface kept the options small enough to fit around a tiny moving creature. A beep was only the interruption; reading the display and choosing a response was the activity.
 
-Furby’s arrival in 1998 offered a different kind of responsive toy. It had a visible body, moving features, sounds, and a character that performed in the room. Instead of looking into a tiny display, its owner watched an object appear to respond from the outside.
+The interesting limit is that the pet cannot understand why you are unavailable. Its little world continues on its own terms. That mismatch between your timetable and its needs gives a screen with very few pixels an unexpectedly strong presence.
 
-That performance invited interpretation. A sound or movement could seem like a reaction to the person nearby, even when it resulted from the toy’s programmed behavior. The gap between knowing that it was a machine and still treating it socially supplied much of the interest.
+A direction game and a number game may sound like a minor distinction. On a device this small, it changes the thing you actually do together. “The old Tamagotchi” is still too broad when identifying a specific program.
 
-The two toys are useful companions because their differences are obvious. Tamagotchi condensed an ongoing task into a screen and buttons. Furby gave response a face, a voice, and a body that could sit among other things on a shelf.
+## Furby: the room becomes the controller
 
-## The toy aisle offered other relationships too
+Tiger’s original-generation manual identifies sensors for touch, light, sound and orientation. Pet the back, tickle the tummy, cover the light sensor or turn the toy upside down and you offer different inputs. Motor noise belongs to the mechanism; it is not a fault just because the character is meant to appear alive.
 
-Beanie Babies encouraged collecting and attention to labels, condition, and individual designs. Pogs made a collection available for exchange and play. Talkboy turned recording and replaying a voice into entertainment. Familiar names do not make those activities identical.
+The language trick is another carefully arranged performance. The toy progresses from more Furbish toward more English as play continues. That is programmed development, not an open-ended ability to learn and repeat anything a child says. The manual supplies a dictionary and instructions because the owner is learning the toy’s system, too.
 
-The packaging and the shop display helped explain what a toy might do. A demonstration could make a response visible, while seeing other people want the same object could add another kind of attraction. Holiday attention concentrated around particular products without making every household’s experience the same.
+Tiger’s 1999 manual gives the original-generation toy a particular naming routine: tickle the tummy three times, waiting for speech and movement to finish between each action, then pet its back. The result is a programmed introduction with a name the owner can write down. It makes the toy’s individual identity part of learning its controls.
 
-## What made the response feel personal
-
-A toy that asks for care changes the usual relationship between an owner and a possession. It seems to have needs. A toy that moves and makes sounds can appear to have a temperament. In each case, a modest set of signals becomes meaningful through the person interpreting it.
-
-The Tamagotchi photographed here makes the interaction visible, with its image date identified in the caption. Its smallness is part of the story: a few buttons and a limited picture were enough to make an ordinary pocket contain something that seemed to be waiting for its owner.
+Neither toy needed an internet account to feel demanding. A menu, a few sensors and a well-timed response were enough to suggest company. The fun lies in seeing how much personality each design wrung from its particular limits.

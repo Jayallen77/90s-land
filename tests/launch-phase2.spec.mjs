@@ -75,7 +75,8 @@ test('N64 and the PC tour offer relevant onward paths', async ({page}) => {
 
 test('object connections stay selective with access to the complete related dates', async ({page}) => {
   await page.goto('/archive/objects/vhs-tape/');
-  await expect(page.locator('.ar-related[href^="/timeline/"]')).toHaveCount(3);
+  await expect(page.locator('.ar-related[href="/stories/same-time-next-week/"]')).toContainText('broadcast appointment');
+  await expect(page.locator('.ar-related[href="/stories/friday-at-the-video-store/"]')).toContainText('checkout and return');
   await page.getByRole('link',{name:'More dates connected to this object →'}).click();
   await expect(page.locator('#siteSearchCount')).not.toHaveText('Showing 0 matches.');
   await expect(page.locator('.site-search-card:visible').first()).toHaveAttribute('data-search-category','events');

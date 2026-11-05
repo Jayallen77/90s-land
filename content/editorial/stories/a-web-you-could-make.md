@@ -1,4 +1,4 @@
-<!-- story: {"id": "a-web-you-could-make", "title": "A web you could make your own", "category": "tech", "summary": "Blue links, a blank page, and the invitation to make a little corner of the Web.", "art": "first-website", "sourceIds": ["cern-web", "chm-net"], "objectIds": ["first-website", "mosaic-browser", "geocities-homepage", "webring-bar", "guestbook"], "publishedAt": "2026-09-27", "topics": ["browsers", "identity", "online"], "updatedAt": "2026-10-29", "relatedStoryIds": ["browser-wars-at-home", "aol-flat-rate"]} -->
+<!-- story: {"id": "a-web-you-could-make", "title": "A web you could make your own", "category": "tech", "summary": "Blue links, a blank page, and the invitation to make a little corner of the Web.", "art": "first-website", "sourceIds": ["cern-web", "chm-net"], "objectIds": ["geocities-homepage", "visitor-counter", "guestbook", "webring-bar", "aim-away-message"], "publishedAt": "2026-09-27", "topics": ["browsers", "identity", "online"], "updatedAt": "2026-11-05", "relatedStoryIds": []} -->
 
 ## A link could lead somewhere personal
 
@@ -14,22 +14,18 @@ The work had visible seams. An image could be missing because its filename was w
 
 The result did not need to look professional to be distinctive. A collection of carefully chosen links could be the most useful part. A fan’s enthusiasm supplied an organizing principle that a general directory might never have attempted.
 
-## Small devices made a visit visible
+## Build one tiny corner of the web
 
-A visitor counter turned an otherwise quiet page into a place with a measurable audience. Its digits suggested that someone else had arrived before you, even when they offered little information about who those people were. A guestbook allowed a reader to leave a more specific trace: a handle, a greeting, and sometimes a link to a page of their own.
+The invented “Mix Tape Planet” in the [homepage exhibit](/archive/objects/geocities-homepage/) starts with a heading, favorite recordings and a few links. Try adding stars, switching on the construction notice and hiding the counter. The same contents suddenly make a different first impression.
 
-Webrings made discovery part of the page’s furniture. Previous, next, and random links connected sites around a shared interest. A visitor could keep traveling without returning to a central search page after every stop. The route expressed somebody’s idea of a neighborhood.
+This is a museum demonstration, so its decorations change locally and the fictional owner is not a recovered person. The distinction lets you experiment without confusing a new page with somebody’s historical archive.
 
-These systems could be modest and imperfect. Links broke, messages attracted spam, and a page could stop changing without announcing that its owner had left. The appeal came from the connection between a visible place and a person who had chosen what to put there.
+## Three small ways to say somebody was here
 
-## The screen name was another small room
+| Exhibit | What it demonstrates | Try it |
+| --- | --- | --- |
+| Visitor counter | A visit becomes a displayed number, without explaining who came. | [Increment the simulated counter](/archive/objects/visitor-counter/). |
+| Guestbook | A visitor can leave a handle and a message beside other entries. | [Preview a message locally](/archive/objects/guestbook/). |
+| Webring | Neighboring personal sites can send readers around a shared interest. | [Move around an invented ring](/archive/objects/webring-bar/). |
 
-Instant messaging added a different kind of presence. An AIM buddy list could show who appeared to be around, while an away message gave absence its own style. A lyric, an inside joke, or an explanation of where someone had gone could do more social work than a formal biography.
-
-The identity was often made at a shared computer. Choosing a handle did not mean acquiring a private machine or a personal internet connection. It meant creating a recognizable name inside an arrangement that might still depend on a household schedule and a phone line.
-
-## Following the person behind the page
-
-The handmade web rewarded curiosity about someone else’s selection. Its pleasure was not only finding the information you needed. It was discovering that a stranger had organized a small part of the world in a way you would never have thought to search for.
-
-A favorite link could become the beginning of an evening. A guestbook signature could become the next destination. The page’s most distinctive feature was often the evidence of another person’s taste, left there for anyone willing to follow it.
+None of those devices is the page’s subject by itself. Their charm is the company they keep: a carefully chosen link, a peculiar background, a sentence its owner wanted strangers to read. A personal web could be untidy and still have an unusually clear point of view.

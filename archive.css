@@ -182,3 +182,24 @@
 .story-figure figcaption {padding:.75rem;font-size:.85rem;line-height:1.5;color:var(--muted,#bbc3d7);}
 .story-figure img {max-height:560px;object-fit:contain;width:100%;}
 .story-figure figcaption a,.ar-object-art figcaption a {text-decoration:underline;text-underline-offset:.15em;}
+
+.article-table{overflow-x:auto;max-width:100%;margin:24px 0;border:1px solid #34375d;border-radius:4px;scrollbar-color:#7b52b0 #10172c}.article-table table{border-collapse:collapse;width:100%;font-size:16px;line-height:1.5}.article-table caption{text-align:left;padding:12px 14px;color:#ffd24a;font-weight:bold;background:#10172c}.article-table th,.article-table td{padding:12px 14px;border-bottom:1px solid #34375d;text-align:left;vertical-align:top;min-width:100px}.article-table th{color:#74e4e8;background:#111b30}.article-list{font-size:18px;line-height:1.65;padding-left:24px;max-width:75ch}.article-list li{margin:12px 0}.ar-article .article-note{padding:16px 20px;background:#131c30;border-left:3px solid #ffd24a}.ar-article code{color:#ffe184;white-space:normal;overflow-wrap:anywhere}.ar-article section a{text-decoration:underline}.article-table:focus-visible{outline:3px solid #39d9dd;outline-offset:3px}
+@media(max-width:520px){.article-table table{font-size:14px}.article-table th,.article-table td{padding:10px;min-width:90px}.article-list{font-size:17px}}
+.ar-year-reading{margin:16px 0 28px}.ar-year-reading .ar-related h3{margin:6px 0;font:700 24px/1.15 'Barlow Condensed',Arial,sans-serif}.ar-year-reading .ar-related p{font-size:15px;color:#bbc3d7}.ar-empty-toggle{display:flex;gap:10px;align-items:center;margin:14px 0;font-size:14px}.ar-empty-toggle input{width:18px;height:18px}.no-js .ar-day-empty{display:none}
+.ar-article .web-exhibit .web-window{color:#fff}
+.ar-article .web-exhibit summary,.ar-article .web-exhibit strong{color:#211137}
+.article-figure{margin:28px 0;padding:0}.article-figure img{display:block;width:100%;height:auto;max-height:760px;object-fit:contain;background:#120823}.article-figure figcaption{font-size:14px;line-height:1.6;padding:12px 0;color:var(--muted,#c7b9d5)}
+.ar-article .web-exhibit .has-stars strong,.web-exhibit .has-stars strong{color:#fff}
+.web-exhibit .has-stars a{color:#fff0a8}
+.ar-article .web-exhibit .has-stars .homepage-title{color:#ffe184}
+.ar-article .web-exhibit a{color:#3c1874}
+.ar-article .web-exhibit .has-stars a{color:#fff0a8}
+/* Keep the invented interfaces legible inside every card and collection shell. */
+.ed-main .web-exhibit p,.ed-main .web-exhibit .web-title,.ed-main .web-exhibit strong{color:#211137}
+.ed-main .web-exhibit p.web-window{color:#fff}
+.ed-main .web-exhibit a{color:#3c1874}
+.ed-main .web-exhibit .homepage-preview.has-stars p,.ed-main .web-exhibit .has-stars strong{color:#fff}
+.ed-main .web-exhibit .has-stars .homepage-title{color:#ffe184}
+.ed-main .web-exhibit .has-stars a{color:#fff0a8}
+.ed-main .web-compact .homepage-preview{min-height:0;padding:6px;border-width:1px}
+.ed-main .artifact-ticket-copy{background:#101626}

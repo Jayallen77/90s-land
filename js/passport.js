@@ -1,5 +1,5 @@
 import { announce } from "./announce.js";
-import { closeDialog, openDialog } from "./navigation.js?v=launch-phase3";
+import { closeDialog, openDialog } from "./navigation.js?v=deeper-20261105";
 import {
   localStore,
   PASSPORT_KEY,
@@ -108,7 +108,7 @@ function render() {
       button.dataset.artifactInspect,
     );
     button.classList.toggle("is-inspected", inspected);
-    button.textContent = inspected ? "Inspected ✓" : "Inspect + stamp";
+    button.textContent = inspected ? "Collected ✓" : "Collect stamp";
   });
 
   const progress = state.tourProgress["before-the-feed"];

@@ -13,6 +13,10 @@ import launch_meta
 ROOT = archive.ROOT
 
 
+def audit_copy(text):
+    """Quoted wording on historical artifacts is not unfinished museum UI."""
+    return re.sub(r'[“"]coming soon[”"]','quoted historical label',text,flags=re.I)
+
 class Page(HTMLParser):
     def __init__(self):
         super().__init__(convert_charrefs=True)
@@ -71,7 +75,7 @@ def assess():
         if path=='/':require('WebSite' in types,'Home: missing site name schema')
         elif path!='/404.html':require('BreadcrumbList' in types,path+': missing breadcrumbs')
         # Match visible text, not authoring comments, form placeholders or source URLs.
-        copy=' '.join(page.text)
+        copy=audit_copy(' '.join(page.text))
         require(not re.search(r'\b(?:TODO|FIXME|lorem ipsum|coming soon|insert (?:title|text)|test text)\b',copy,re.I),path+': unfinished public copy')
         titles.append(page.title);descriptions.append(value('description'))
         rows.append({'path':path,'title':page.title,'description':value('description'),'canonical':meta['canonical'],'indexable':meta['indexable'],'shareImage':card['src'],'schemas':sorted(types)})

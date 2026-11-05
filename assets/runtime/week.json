@@ -1632,5 +1632,267 @@
       "url": "/timeline/1999/?month=12#event-y2k-rollover-night",
       "image": null
     }
-  ]
+  ],
+  "reading": {
+    "1990": [
+      {
+        "title": "The console wars were fought on the couch",
+        "url": "/stories/the-console-war-couch/",
+        "summary": "Your friend had a Genesis. You had a different cartridge. The argument started there.",
+        "kind": "Story"
+      },
+      {
+        "title": "The family computer had a room of its own",
+        "url": "/stories/the-family-computer/",
+        "summary": "One desk, one phone line, and somebody asking how much longer you’ll be.",
+        "kind": "Story"
+      },
+      {
+        "title": "Windows 3.0 Program Manager",
+        "url": "/archive/objects/windows-3/",
+        "summary": "Colorful icons made the family PC feel less like office machinery and more like something worth exploring.",
+        "kind": "Object"
+      },
+      {
+        "title": "Hubble launch",
+        "url": "/archive/objects/hubble-launch/",
+        "summary": "Discovery carries Hubble out of Florida and into orbit.",
+        "kind": "Object"
+      }
+    ],
+    "1991": [
+      {
+        "title": "When grunge broke through",
+        "url": "/stories/when-grunge-broke-through/",
+        "summary": "Nevermind, In Utero, and a record-shop shelf that suddenly sounded different.",
+        "kind": "Story"
+      },
+      {
+        "title": "A web you could make your own",
+        "url": "/stories/a-web-you-could-make/",
+        "summary": "Blue links, a blank page, and the invitation to make a little corner of the Web.",
+        "kind": "Story"
+      },
+      {
+        "title": "The first World Wide Web site",
+        "url": "/archive/objects/first-website/",
+        "summary": "The first site looks almost modest: text, blue links, and an explanation of what the web is supposed to be.",
+        "kind": "Object"
+      },
+      {
+        "title": "Mixtape cassette",
+        "url": "/archive/objects/cassette/",
+        "summary": "Pause-button edits and handwritten track lists made every tape a small act of authorship.",
+        "kind": "Object"
+      }
+    ],
+    "1992": [
+      {
+        "title": "When television had a schedule",
+        "url": "/stories/same-time-next-week/",
+        "summary": "Cartoon mornings, SNICK, weekly episodes, and the VHS recordings that let a household rearrange the broadcast day.",
+        "kind": "Story"
+      },
+      {
+        "title": "MiniDisc put a little door around your music",
+        "url": "/stories/minidisc-small-door/",
+        "summary": "A protected disc, editable track order and a recording ritual made MiniDisc a distinct alternative to both tape and the portable CD.",
+        "kind": "Story"
+      },
+      {
+        "title": "Sony MZ-1 and a MiniDisc",
+        "url": "/archive/objects/minidisc/",
+        "summary": "A recording tucked inside a protective shell.",
+        "kind": "Object"
+      },
+      {
+        "title": "Nintendo Super Famicom",
+        "url": "/archive/objects/super-famicom/",
+        "summary": "The same generation wore another case.",
+        "kind": "Object"
+      }
+    ],
+    "1993": [
+      {
+        "title": "Shareware made the first episode a doorway",
+        "url": "/stories/shareware-before-download-stores/",
+        "summary": "Doom and the PC’s distributed game culture turned a free portion into an invitation to a much larger world.",
+        "kind": "Story"
+      },
+      {
+        "title": "When grunge broke through",
+        "url": "/stories/when-grunge-broke-through/",
+        "summary": "Nevermind, In Utero, and a record-shop shelf that suddenly sounded different.",
+        "kind": "Story"
+      },
+      {
+        "title": "Doom shareware disks",
+        "url": "/archive/objects/doom-disks/",
+        "summary": "A disk could bring a new game to a computer that usually held homework.",
+        "kind": "Object"
+      },
+      {
+        "title": "Sega Mega Drive / Genesis controllers",
+        "url": "/archive/objects/genesis-controller/",
+        "summary": "The pad carried fighting-game technique, sports-game trash talk, and console loyalty.",
+        "kind": "Object"
+      }
+    ],
+    "1994": [
+      {
+        "title": "90s R&B had room for many kinds of voice",
+        "url": "/stories/rnb-had-many-voices/",
+        "summary": "TLC, Mary J. Blige and Erykah Badu: a listening guide to the voices, grooves and contrasts inside 90s R&B.",
+        "kind": "Story"
+      },
+      {
+        "title": "Before the cloud, you carried the file home",
+        "url": "/stories/carrying-files-home/",
+        "summary": "Floppies and Zip disks made the trip between computers part of the work—and compatibility part of every handoff.",
+        "kind": "Story"
+      },
+      {
+        "title": "Iomega Zip 100 drive and disk",
+        "url": "/archive/objects/zip-drive/",
+        "summary": "The project that would not fit on a floppy.",
+        "kind": "Object"
+      },
+      {
+        "title": "Original PlayStation hardware",
+        "url": "/archive/objects/playstation-hardware/",
+        "summary": "Put the disc in. Keep the memory card somewhere you can find it.",
+        "kind": "Object"
+      }
+    ],
+    "1995": [
+      {
+        "title": "Bristol left room between the beats",
+        "url": "/stories/bristol-between-the-beats/",
+        "summary": "Massive Attack, Portishead and Tricky offer three different ways into a city’s music—and a warning against making one genre name do too much.",
+        "kind": "Story"
+      },
+      {
+        "title": "The photograph came home later",
+        "url": "/stories/the-photo-lab-gap/",
+        "summary": "Disposable cameras and photo labs separated taking a picture from knowing what the picture would become.",
+        "kind": "Story"
+      },
+      {
+        "title": "Windows 95 Start button",
+        "url": "/archive/objects/windows-95-start/",
+        "summary": "Want to open a program? Start here. Want to shut down? Start here too.",
+        "kind": "Object"
+      },
+      {
+        "title": "Casio QV-10",
+        "url": "/archive/objects/digital-camera/",
+        "summary": "A photograph you could inspect immediately.",
+        "kind": "Object"
+      }
+    ],
+    "1996": [
+      {
+        "title": "When the internet stopped charging by the hour",
+        "url": "/stories/aol-flat-rate/",
+        "summary": "AOL’s 1996 flat-rate announcement changed the clock on the family computer—and exposed the limits of the network behind it.",
+        "kind": "Story"
+      },
+      {
+        "title": "The browser wars reached the family desktop",
+        "url": "/stories/browser-wars-at-home/",
+        "summary": "Navigator and Internet Explorer competed over more than a window: they helped decide how a new web looked and who could build for it.",
+        "kind": "Story"
+      },
+      {
+        "title": "Gray Nintendo 64 controller",
+        "url": "/archive/objects/n64-controller/",
+        "summary": "Its odd shape and analog stick announced that 3D games would need a different kind of touch.",
+        "kind": "Object"
+      },
+      {
+        "title": "The WebTV launch units",
+        "url": "/archive/objects/webtv/",
+        "summary": "The browser tried another room.",
+        "kind": "Object"
+      }
+    ],
+    "1997": [
+      {
+        "title": "A record collection could become an instrument",
+        "url": "/stories/sampling-a-record-collection/",
+        "summary": "Hip-hop sampling turned listening, selection and arrangement into connected forms of musical work.",
+        "kind": "Story"
+      },
+      {
+        "title": "90s R&B had room for many kinds of voice",
+        "url": "/stories/rnb-had-many-voices/",
+        "summary": "TLC, Mary J. Blige and Erykah Badu: a listening guide to the voices, grooves and contrasts inside 90s R&B.",
+        "kind": "Story"
+      },
+      {
+        "title": "Akai MPC2000",
+        "url": "/archive/objects/mpc-2000/",
+        "summary": "Pads turned a fragment into a performance.",
+        "kind": "Object"
+      },
+      {
+        "title": "PalmPilot Professional",
+        "url": "/archive/objects/palm-pilot/",
+        "summary": "The calendar could leave the desk.",
+        "kind": "Object"
+      }
+    ],
+    "1998": [
+      {
+        "title": "After school, before the countdown",
+        "url": "/stories/after-school-on-trl/",
+        "summary": "Get home in time for the countdown. Your favorite video might have moved up.",
+        "kind": "Story"
+      },
+      {
+        "title": "The toy aisle began answering back",
+        "url": "/stories/holiday-toys-that-answered-back/",
+        "summary": "Tamagotchi and Furby made care, response and personality part of the toy’s appeal, in very different forms.",
+        "kind": "Story"
+      },
+      {
+        "title": "Bondi blue iMac G3",
+        "url": "/archive/objects/bondi-imac/",
+        "summary": "A blue shell on the desk, with the hardware partly visible inside.",
+        "kind": "Object"
+      },
+      {
+        "title": "Atomic Purple Game Boy Color",
+        "url": "/archive/objects/game-boy-color/",
+        "summary": "Clear purple plastic lets you inspect the board before switching the handheld on.",
+        "kind": "Object"
+      }
+    ],
+    "1999": [
+      {
+        "title": "Horror knew the rules",
+        "url": "/stories/horror-knew-the-rules/",
+        "summary": "Scream let the audience recognize the rules while the characters tried to survive them.",
+        "kind": "Story"
+      },
+      {
+        "title": "Portable play still needed a plan",
+        "url": "/stories/handhelds-and-batteries/",
+        "summary": "Game Gear, Game Boy and the battery compartment reveal the practical side of taking a game out of the living room.",
+        "kind": "Story"
+      },
+      {
+        "title": "Sega Dreamcast",
+        "url": "/archive/objects/dreamcast/",
+        "summary": "The little VMU had a screen of its own. Keep it with the controller.",
+        "kind": "Object"
+      },
+      {
+        "title": "Nokia 3210",
+        "url": "/archive/objects/nokia-3210/",
+        "summary": "A pocket phone at the edge of the decade.",
+        "kind": "Object"
+      }
+    ]
+  }
 }

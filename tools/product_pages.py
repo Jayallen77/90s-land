@@ -31,7 +31,9 @@ COLLECTIONS = {
 
 
 def collection(route, builder):
-    c = COLLECTIONS[route['path']]
+    c = dict(COLLECTIONS[route['path']])
+    edition=ed.EDITION['collections'][route['path']]
+    c.update(intro=edition['intro'],stories=edition['stories'])
     ids = list(dict.fromkeys(model.merged_story_id(key) for key in c['stories']))
     stories = [s for key in ids for s in model.STORIES if s['id'] == key]
     hero = f'<header class="collection-hero"><div><p class="ar-kicker">{c["kicker"]}</p><h1>{esc(c["headline"])}</h1><p>{esc(c["intro"])}</p><a class="ed-cta" href="#collection-stories">Follow the stories →</a></div><div class="collection-art">{ed.media(c["art"],hero=True)}</div></header>'

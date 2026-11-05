@@ -1,4 +1,5 @@
 import { createPagination } from './pagination.js';
+import {normalizeSearch as normalize, matchesWords, searchRank} from './search-matching.js';
 const VALID_FILTERS = new Set([
   "all",
   "events",
@@ -12,7 +13,6 @@ const VALID_FILTERS = new Set([
   "explore",
 ]);
 
-const normalize = value => value.normalize("NFKD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^\p{L}\p{N}]+/gu, " ").trim();
 
 export function initializeSearch() {
   const input = document.querySelector("#siteSearchInput");
@@ -63,10 +63,9 @@ export function initializeSearch() {
 
   function render({ writeUrl = true, historyMode = "replace" } = {}) {
     const words = normalize(input.value.trim()).split(/\s+/).filter(Boolean);
-    const queryMatches=indexed.filter(item => words.every(word => item.text.includes(word)));
+    const queryMatches=indexed.filter(item => matchesWords(item.text,words));
     const queryTotals=queryMatches.reduce((result,{card})=>{const key=card.dataset.searchCategory;result[key]=(result[key]||0)+1;return result;},{});
-    const query=words.join(' ');
-    const rank=item=>!query ? 0 : item.title===query ? 3 : words.every(word=>item.title.includes(word)) ? 2 : 1;
+    const rank=item=>searchRank(item.title,words);
     const matches=queryMatches.filter(({card})=>filter==='all'||card.dataset.searchCategory===filter).sort((a,b)=>rank(b)-rank(a)||a.index-b.index);
     const visible=matches.length;
     cards.forEach(card=>{card.hidden=true;});

@@ -1,33 +1,36 @@
-<!-- story: {"id": "fifteen-blocks-of-memory", "title": "Fifteen blocks of somebody’s life", "category": "games", "summary": "The disc held the game. The memory card held your summer.", "art": "playstation-hardware", "objectIds": ["playstation-hardware"], "sourceIds": ["ps-memory", "playstation-history", "polish-ps-history"], "topics": ["consoles", "rpg"], "publishedAt": "2026-09-27", "updatedAt": "2026-10-29", "relatedStoryIds": ["the-demo-disc-evening", "carrying-files-home"]} -->
+<!-- story: {"id": "fifteen-blocks-of-memory", "title": "Fifteen blocks of somebody’s life", "category": "games", "summary": "The disc held the game. The memory card held your summer.", "art": "playstation-hardware", "objectIds": ["memory-card", "playstation-hardware"], "sourceIds": ["ps-memory", "playstation-history", "polish-ps-history", "sprint-gt-manual", "sprint-ff7-package"], "topics": ["consoles", "rpg"], "publishedAt": "2026-09-27", "updatedAt": "2026-11-05", "relatedStoryIds": ["the-demo-disc-evening", "carrying-files-home"]} -->
 
-## The little gray thing that held the adventure
+## The disc held the game. This held your place.
 
-A PlayStation game disc could be borrowed, replaced, or bought secondhand. Its saved progress was another matter. The small memory card beneath the controller port held the version of the game that belonged to you: a season in progress, a cleared level, or the point before a long journey became difficult.
+You could replace a scratched game. Replacing the particular evening stored on its memory card was harder. A save might mean the last town before a boss, a carefully tuned car, or the moment before somebody else wanted the television. The little gray accessory carried the part of the game that a shop could not sell you again.
 
-Sony’s original PlayStation memory card divided its usable save space into 15 blocks. Games did not all ask for the same number. A card that seemed roomy after a few small saves could suddenly feel crowded when a new game needed several blocks of its own. The storage limit was visible, understandable, and capable of starting a household argument.
+An original PlayStation card offers **15 usable blocks**. That is a storage budget, not a promise of 15 games. A game can occupy several blocks, and one title can create several saves. Sony’s manual distinguishes the original card from the later PlayStation 2 format; they are not interchangeable save containers.
 
-## Saving was something you did on purpose
+## Two games, two appetites
 
-The card did not make every game save automatically. Each title supplied its own rules: a menu option, a designated place, or an opportunity after a section was complete. Reaching that point could determine whether it was sensible to stop for dinner.
+| Identified release | Space for game data | What the number means |
+| --- | --- | --- |
+| Final Fantasy VII, North American PlayStation release SCUS-94163 | 1 block per save | Multiple saved positions consume additional blocks. Three game discs do not mean three blocks per position. |
+| Gran Turismo, original European English PlayStation manual | 5 blocks for the game-data file | Options, Quick Arcade and Gran Turismo mode data share that file. Only one game-data file fits per card under the game’s rules. |
 
-This gave the save a physical context. The card had to be present, the correct slot had to be used, and the player needed to follow the game’s instructions. A disc could be in the machine while the useful progress was still in somebody else’s bag. Taking the game to a friend’s house did not necessarily mean taking your place in it.
+Gran Turismo’s manual treats replays separately. A saved race replay is not included in that five-block budget simply because it came from the same game. This is why “how many games fit?” is the wrong first question. Ask what each file contains.
 
-## Fifteen blocks became a small filing system
+## Read this imaginary card
 
-The console’s memory-card screen made stored data tangible through icons and names. Copying or deleting a save was closer to arranging a tiny collection than browsing an invisible disk. Some icons were distinctive enough to identify a game before reading its label.
+{{figure:memory-blocks}}
 
-The difficult choice was often emotional rather than technical. A completed game still represented time. An unfinished game suggested that you might return. A sibling’s save occupied space without giving you permission to erase it. Buying another card solved the capacity problem, but only if another card was available.
+This worked example reserves five blocks for Gran Turismo game data, three for three separate Final Fantasy VII positions, and leaves seven free. It demonstrates the arithmetic, rather than reproducing a particular owner’s card or Sony’s actual icon artwork. Add a replay or another game and the remaining space changes.
 
-The accessory therefore acquired its own household etiquette. Ask before deleting. Keep track of whose card it is. Do not assume that the oldest save is the least important. These were informal rules around a manufactured limit, and different homes negotiated them differently.
+The console’s card manager turned those decisions into small icons and names. The destructive command was wonderfully plain: delete. The difficult part was deciding whether the old save was finished business or an adventure somebody still intended to resume.
 
-## The adventure could travel separately
+## Saving was a verb
 
-Carrying a card offered a neat separation between the software and the player’s history. A friend with another copy of the compatible game might be able to load your save. A difficult section could become something to demonstrate in person rather than describe on the phone.
+In Final Fantasy VII, the Save command depends on where you are: designated save points and the world map make stopping possible. The card cannot invent a save opportunity where the game has not provided one. In Gran Turismo, protecting a career means paying attention to the game’s own file operations and available space.
 
-The arrangement was especially noticeable beside cartridge games that stored progress inside the cartridge itself. Lending one of those could also mean lending the saved state. With a PlayStation disc and a separate card, the two objects had different jobs and could take different journeys.
+That distinction separates an original save from an emulator’s save state, which captures a running machine at an arbitrary moment. The memory card stores what the game decides to write. Turning off the television does not magically preserve the last five minutes.
 
-## A small object with an unusually personal value
+## Take the small thing with you
 
-The card’s importance was easy to underestimate from its appearance. It had no screen and offered little entertainment by itself. Its value depended on what another machine could read from it, and what that information represented to the person who had made it.
+Borrowing a disc and carrying your progress were two different errands. At a friend’s compatible PlayStation, your own card could bring your saved history into another copy of the game. Region and software compatibility still mattered; a file’s existence did not guarantee that every edition would load it.
 
-That is why the memory card deserves its own photograph. A picture of the console explains where it plugged in; the card explains what could leave the console and still feel irreplaceable. Fifteen blocks were a technical specification. Deciding what deserved to stay made them part of somebody’s life.
+The [memory-card object file](/archive/objects/memory-card/) shows the connector and the accessory itself. The console explains where it lived. The card explains why you checked your pocket before leaving the house—and why deleting somebody else’s save was a decision that required an actual conversation.

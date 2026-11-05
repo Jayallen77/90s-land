@@ -943,6 +943,23 @@
         "height": 1332
       }
     ],
+    "/assets/media/stories/doom-commands-diagram.png": [
+      {
+        "src": "/assets/generated/editorial/story-the-secret-button-sequence-240.webp",
+        "width": 240,
+        "height": 150
+      },
+      {
+        "src": "/assets/generated/editorial/story-the-secret-button-sequence-480.webp",
+        "width": 480,
+        "height": 300
+      },
+      {
+        "src": "/assets/generated/editorial/story-the-secret-button-sequence-960.webp",
+        "width": 960,
+        "height": 600
+      }
+    ],
     "/assets/media/stories/when-grunge-broke-through.webp": [
       {
         "src": "/assets/generated/editorial/story-when-grunge-broke-through-240.webp",
@@ -960,21 +977,21 @@
         "height": 600
       }
     ],
-    "/assets/media/stories/after-school-on-trl.webp": [
+    "/assets/media/stories/trl-countdown-diagram.png": [
       {
         "src": "/assets/generated/editorial/story-after-school-on-trl-240.webp",
         "width": 240,
-        "height": 180
+        "height": 150
       },
       {
         "src": "/assets/generated/editorial/story-after-school-on-trl-480.webp",
         "width": 480,
-        "height": 360
+        "height": 300
       },
       {
         "src": "/assets/generated/editorial/story-after-school-on-trl-960.webp",
         "width": 960,
-        "height": 720
+        "height": 600
       }
     ],
     "/assets/media/stories/the-flyer-and-the-dancefloor.webp": [
@@ -994,135 +1011,140 @@
         "height": 1444
       }
     ],
-    "/assets/media/stories/bristol-between-the-beats.webp": [
+    "/assets/media/stories/bristol-listening-diagram.png": [
       {
         "src": "/assets/generated/editorial/story-bristol-between-the-beats-240.webp",
         "width": 240,
-        "height": 167
+        "height": 150
       },
       {
         "src": "/assets/generated/editorial/story-bristol-between-the-beats-480.webp",
         "width": 480,
-        "height": 334
+        "height": 300
       },
       {
         "src": "/assets/generated/editorial/story-bristol-between-the-beats-960.webp",
         "width": 960,
-        "height": 667
+        "height": 600
       }
     ],
-    "/assets/media/stories/breakbeats-change-the-clock.webp": [
+    "/assets/media/stories/break-slices-diagram.png": [
       {
         "src": "/assets/generated/editorial/story-breakbeats-change-the-clock-240.webp",
         "width": 240,
-        "height": 470
+        "height": 150
       },
       {
-        "src": "/assets/generated/editorial/story-breakbeats-change-the-clock-320.webp",
-        "width": 320,
-        "height": 627
+        "src": "/assets/generated/editorial/story-breakbeats-change-the-clock-480.webp",
+        "width": 480,
+        "height": 300
+      },
+      {
+        "src": "/assets/generated/editorial/story-breakbeats-change-the-clock-960.webp",
+        "width": 960,
+        "height": 600
       }
     ],
-    "/assets/media/stories/rnb-had-many-voices.webp": [
+    "/assets/media/stories/rnb-voices-diagram.png": [
       {
         "src": "/assets/generated/editorial/story-rnb-had-many-voices-240.webp",
         "width": 240,
-        "height": 317
+        "height": 150
       },
       {
         "src": "/assets/generated/editorial/story-rnb-had-many-voices-480.webp",
         "width": 480,
-        "height": 633
+        "height": 300
       },
       {
-        "src": "/assets/generated/editorial/story-rnb-had-many-voices-557.webp",
-        "width": 557,
-        "height": 735
+        "src": "/assets/generated/editorial/story-rnb-had-many-voices-960.webp",
+        "width": 960,
+        "height": 600
       }
     ],
-    "/assets/media/stories/record-store-discovery.webp": [
+    "/assets/media/stories/record-shop-choice-diagram.png": [
       {
         "src": "/assets/generated/editorial/story-record-store-discovery-240.webp",
         "width": 240,
-        "height": 149
+        "height": 150
       },
       {
         "src": "/assets/generated/editorial/story-record-store-discovery-480.webp",
         "width": 480,
-        "height": 298
+        "height": 300
       },
       {
-        "src": "/assets/generated/editorial/story-record-store-discovery-800.webp",
-        "width": 800,
-        "height": 497
+        "src": "/assets/generated/editorial/story-record-store-discovery-960.webp",
+        "width": 960,
+        "height": 600
       }
     ],
-    "/assets/media/stories/meet-me-at-the-mall.webp": [
+    "/assets/media/stories/mall-route-diagram.png": [
       {
         "src": "/assets/generated/editorial/story-meet-me-at-the-mall-240.webp",
         "width": 240,
-        "height": 180
+        "height": 150
       },
       {
         "src": "/assets/generated/editorial/story-meet-me-at-the-mall-480.webp",
         "width": 480,
-        "height": 360
+        "height": 300
       },
       {
         "src": "/assets/generated/editorial/story-meet-me-at-the-mall-960.webp",
         "width": 960,
-        "height": 720
+        "height": 600
       }
     ],
-    "/assets/media/stories/streetwear-the-logo-and-the-voice.webp": [
+    "/assets/media/stories/fubu-garment-diagram.png": [
       {
         "src": "/assets/generated/editorial/story-streetwear-the-logo-and-the-voice-240.webp",
         "width": 240,
-        "height": 360
+        "height": 150
       },
       {
         "src": "/assets/generated/editorial/story-streetwear-the-logo-and-the-voice-480.webp",
         "width": 480,
-        "height": 720
+        "height": 300
       },
       {
         "src": "/assets/generated/editorial/story-streetwear-the-logo-and-the-voice-960.webp",
         "width": 960,
-        "height": 1440
+        "height": 600
       }
     ],
-    "/assets/media/stories/holiday-toys-that-answered-back.webp": [
+    "/assets/media/stories/responsive-toys-diagram.png": [
       {
         "src": "/assets/generated/editorial/story-holiday-toys-that-answered-back-240.webp",
         "width": 240,
-        "height": 185
+        "height": 150
       },
       {
         "src": "/assets/generated/editorial/story-holiday-toys-that-answered-back-480.webp",
         "width": 480,
-        "height": 370
+        "height": 300
       },
       {
-        "src": "/assets/generated/editorial/story-holiday-toys-that-answered-back-900.webp",
-        "width": 900,
-        "height": 694
+        "src": "/assets/generated/editorial/story-holiday-toys-that-answered-back-960.webp",
+        "width": 960,
+        "height": 600
       }
     ],
-    "/assets/media/stories/lan-party-night.webp": [
+    "/assets/media/stories/lan-network-diagram.png": [
       {
         "src": "/assets/generated/editorial/story-lan-party-night-240.webp",
         "width": 240,
-        "height": 180
+        "height": 150
       },
       {
         "src": "/assets/generated/editorial/story-lan-party-night-480.webp",
         "width": 480,
-        "height": 360
+        "height": 300
       },
       {
         "src": "/assets/generated/editorial/story-lan-party-night-960.webp",
         "width": 960,
-        "height": 720
+        "height": 600
       }
     ],
     "/assets/media/stories/the-demo-disc-evening.webp": [
@@ -1159,38 +1181,89 @@
         "height": 987
       }
     ],
-    "/assets/media/stories/horror-knew-the-rules.webp": [
+    "/assets/media/stories/horror-information-diagram.png": [
       {
         "src": "/assets/generated/editorial/story-horror-knew-the-rules-240.webp",
         "width": 240,
-        "height": 180
+        "height": 150
       },
       {
         "src": "/assets/generated/editorial/story-horror-knew-the-rules-480.webp",
         "width": 480,
-        "height": 360
+        "height": 300
       },
       {
         "src": "/assets/generated/editorial/story-horror-knew-the-rules-960.webp",
         "width": 960,
-        "height": 720
+        "height": 600
       }
     ],
-    "/assets/media/stories/summer-at-the-multiplex.webp": [
+    "/assets/media/stories/summer-calendar-diagram.png": [
       {
         "src": "/assets/generated/editorial/story-summer-at-the-multiplex-240.webp",
         "width": 240,
-        "height": 320
+        "height": 150
       },
       {
         "src": "/assets/generated/editorial/story-summer-at-the-multiplex-480.webp",
         "width": 480,
-        "height": 640
+        "height": 300
       },
       {
         "src": "/assets/generated/editorial/story-summer-at-the-multiplex-960.webp",
         "width": 960,
-        "height": 1280
+        "height": 600
+      }
+    ],
+    "/assets/media/stories/memory-blocks-diagram.png": [
+      {
+        "src": "/assets/generated/editorial/figure-memory-blocks-240.webp",
+        "width": 240,
+        "height": 150
+      },
+      {
+        "src": "/assets/generated/editorial/figure-memory-blocks-480.webp",
+        "width": 480,
+        "height": 300
+      },
+      {
+        "src": "/assets/generated/editorial/figure-memory-blocks-960.webp",
+        "width": 960,
+        "height": 600
+      }
+    ],
+    "/assets/media/stories/ultim8-reverse.webp": [
+      {
+        "src": "/assets/generated/editorial/figure-ultim8-reverse-240.webp",
+        "width": 240,
+        "height": 332
+      },
+      {
+        "src": "/assets/generated/editorial/figure-ultim8-reverse-480.webp",
+        "width": 480,
+        "height": 664
+      },
+      {
+        "src": "/assets/generated/editorial/figure-ultim8-reverse-960.webp",
+        "width": 960,
+        "height": 1328
+      }
+    ],
+    "/assets/media/stories/meet-me-at-the-mall.webp": [
+      {
+        "src": "/assets/generated/editorial/figure-mall-source-map-240.webp",
+        "width": 240,
+        "height": 180
+      },
+      {
+        "src": "/assets/generated/editorial/figure-mall-source-map-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "src": "/assets/generated/editorial/figure-mall-source-map-960.webp",
+        "width": 960,
+        "height": 720
       }
     ]
   },
@@ -1309,8 +1382,8 @@
     "assets/generated/editorial/palm-pilot-480.webp": "449ed153ddc1f02ee4920dff620c3a34e01f7c2fc14cd87157b7264139c7429b",
     "assets/generated/editorial/palm-pilot-960.webp": "293de297e1504b0556f9c8297e0fb87f46d0f580928abc456240a49c248e568f",
     "assets/media/expansion/nokia-3210.jpg": "e5fc575c065521edad7765f3e5f699ee52687934315a3abc6f375618b033d284",
-    "assets/generated/editorial/nokia-3210-240.webp": "e1d36c13e37dc32ceb548ac926b882fe9d6f246cf8444ea888ad5188d6e18f31",
-    "assets/generated/editorial/nokia-3210-480.webp": "1e9e0c712d9fb8a3099930cc319474bf7022e43b7767949f0b7f075dd33912a5",
+    "assets/generated/editorial/nokia-3210-240.webp": "f5135de6c6b14b58ece80ee450a6d4984045e5ec4df11fc1d8f15ff1f79cf414",
+    "assets/generated/editorial/nokia-3210-480.webp": "67065c2a4a54e508c521d64522adf2d1e9bf014ccc576a1fd2a862ee71246798",
     "assets/generated/editorial/nokia-3210-960.webp": "56382839b67b1491edee10d9cb889223fa767da396da64d979349666bf69b5d9",
     "assets/media/expansion/zip-drive.jpg": "fa0445020d05ed7dc3df9fa8c100909a9ac454fba44591b9bfce599090131649",
     "assets/generated/editorial/zip-drive-240.webp": "d50919d468b9d862126cd8fec6596ff2731fe5f931646f7d8b13751d68a6371a",
@@ -1353,8 +1426,8 @@
     "assets/generated/editorial/pogs-480.webp": "b8b0e53f2fe97ec6c204d84b503356b4dc62a66a42e279e0917ec3f5a51ed93c",
     "assets/generated/editorial/pogs-830.webp": "bc98544a5950a58f57bd0f7d20b92e53acd5e9b0cad296970c6f3d1b16b27b8c",
     "assets/media/expansion/super-soaker.jpg": "262e62e8e2bcfe50ec54fef4da45e34616d44aa21f48f1999179ca274f6ac996",
-    "assets/generated/editorial/super-soaker-240.webp": "309a88b80e90853f66a874a0b6f184fe0864702b34885679e9f627034544a9b9",
-    "assets/generated/editorial/super-soaker-480.webp": "13c267380b2c9817575214591e081dd741cd51e515b7221413eab015483e0972",
+    "assets/generated/editorial/super-soaker-240.webp": "86a27643c58d91052fb6244e31348f4c1e35c4af1f8096634f86b5f1fef66e01",
+    "assets/generated/editorial/super-soaker-480.webp": "37521dbc1979750e6cc59eef4f5918a3e2fd8cf7d0a6cde25a2ace642c2bdfac",
     "assets/generated/editorial/super-soaker-714.webp": "42f57abbbc8df386e68ed24683b19fb8b81e633d3b2ddf960fbe8ac9146d4049",
     "assets/media/expansion/walkman.jpg": "288fa6cf90dbb6eacd28b8f4c41ec8096ae2f458a83eee0651dd2e2622c67480",
     "assets/generated/editorial/walkman-240.webp": "93eb2810636a478dd90aa5cb8876a729f58d9031b2973986ce4da17b31bfcef5",
@@ -1416,49 +1489,54 @@
     "assets/generated/editorial/newton-240.webp": "0a9c83e5eef7f748805cd8753e1b116dab71f26351af418b90ffb3081da0036f",
     "assets/generated/editorial/newton-480.webp": "c06091c4458473924e08323798178aaa32008abdb188484856b3939f4d7e6ec2",
     "assets/generated/editorial/newton-960.webp": "6906f42ccf2a8877c75fd007dfb5605d99ed23a91899f1e7c25571c79249b633",
+    "assets/media/stories/doom-commands-diagram.png": "467c901d62d422ad9bfd3b92cd1f23c2c8fc5e0510d803fe11fa377dbbd60b26",
+    "assets/generated/editorial/story-the-secret-button-sequence-240.webp": "0c4519f55c9d6ac767fd3e9ada45729b5591790cc186e2c8853c638db094ea08",
+    "assets/generated/editorial/story-the-secret-button-sequence-480.webp": "9d95b45a39d6a65475eed0419e96a169fb5d06634d86d500e7ecf5008092cd84",
+    "assets/generated/editorial/story-the-secret-button-sequence-960.webp": "900113b87159b296d4372b093050c6687a729e8ce42763e5f59f861464795f34",
     "assets/media/stories/when-grunge-broke-through.webp": "c740b94365520e8e55fbf4aa6b916aee8aca7618e5a13aadff7317023fc4f361",
     "assets/generated/editorial/story-when-grunge-broke-through-240.webp": "9befae66278ae8e54a5f664719537e70a118de28149709fbc51b25484aeaf0f6",
     "assets/generated/editorial/story-when-grunge-broke-through-480.webp": "1523f43daa540b7bfcc5aeefc9ba6c5646e98f46c14c8ebdbc6adf9a81e37e28",
     "assets/generated/editorial/story-when-grunge-broke-through-552.webp": "803f62f89e0bee7a4909381fa913eca559763556466a1b6a2ec591d05c086aac",
-    "assets/media/stories/after-school-on-trl.webp": "229ff7576be413af11a79bd06043cb53127b1ac88704b261a9eebbadca7173d5",
-    "assets/generated/editorial/story-after-school-on-trl-240.webp": "398792abc8d125c91d57425a2150157396c5a625443746cd18aa95c45ec88000",
-    "assets/generated/editorial/story-after-school-on-trl-480.webp": "bc85f75f8b58678c114573922de59c3173d7e8162dcff9eedfe825a7b244d096",
-    "assets/generated/editorial/story-after-school-on-trl-960.webp": "bd2601b0be7b89921351c4244b4b7ca4e90f99caeb83081591533ce6b75b6136",
+    "assets/media/stories/trl-countdown-diagram.png": "1401576642e70df9b1f38b14d7aa14e162670f79f69df5db39459fd15a657411",
+    "assets/generated/editorial/story-after-school-on-trl-240.webp": "28c524144af86fa4e099eec064b55e05309eb501d201878d32080e26930e2d7b",
+    "assets/generated/editorial/story-after-school-on-trl-480.webp": "2dab4b729be3b5feb8e5d1818b16b61336be0ca6541553f321372a3eac61941f",
+    "assets/generated/editorial/story-after-school-on-trl-960.webp": "1ef3cba81408190d4107135d88fabc394ea4e9a0b18090591cd77f616a0d77a8",
     "assets/media/stories/the-flyer-and-the-dancefloor.webp": "ef8ba2d8e7260a323b4fb51c83124da7689e682a0e26f4d0b81b9cc3e231f6c3",
     "assets/generated/editorial/story-the-flyer-and-the-dancefloor-240.webp": "5b866395c8b5d79cee0ff4e0d22e8ba56fee11823d0a53c870c8809ce02ccea1",
     "assets/generated/editorial/story-the-flyer-and-the-dancefloor-480.webp": "804ab70c6bb0bc14481af7b1da592e0ed34c4360495e40b3afc4870c17ac7593",
     "assets/generated/editorial/story-the-flyer-and-the-dancefloor-960.webp": "c1a1327276664fde6782647cb3ef494aba2125ffa19d061951d4cdbbe3a5c90a",
-    "assets/media/stories/bristol-between-the-beats.webp": "35c55e14224f77876c783067f1dc65e3f79f98fb0c57d5d3028ae5269bdaa456",
-    "assets/generated/editorial/story-bristol-between-the-beats-240.webp": "fb3dadac379289935442e0cf5c804ab3324e22421c849c702d5de04548d07fcc",
-    "assets/generated/editorial/story-bristol-between-the-beats-480.webp": "8077451b3aeccef457db0539d40420fb82a5869a75aa20109009f40f64524848",
-    "assets/generated/editorial/story-bristol-between-the-beats-960.webp": "50630673c100f37cf1aa1486f3bbd566a72a4f22c0f22da41f45ec74fd39e874",
-    "assets/media/stories/breakbeats-change-the-clock.webp": "ea31c142852c613a9cb6660086519082f855a5d4d769a78cacdc131b3239c4c2",
-    "assets/generated/editorial/story-breakbeats-change-the-clock-240.webp": "0a24d7dc12201869824ad0d63025eb259de1f0889af4dc3126d7a7b8fbd9af3a",
-    "assets/generated/editorial/story-breakbeats-change-the-clock-320.webp": "47c55919c24f70878ad0fb0781d7542cee8cd20c9eb55a82e53a600a7ee2561b",
-    "assets/media/stories/rnb-had-many-voices.webp": "a31cd0efee84ed5c083144abd8c4748a27f2281fdfe092646c97d917905c15c1",
-    "assets/generated/editorial/story-rnb-had-many-voices-240.webp": "ccc1f09ca27f3d45b6a4d0b72495d456df680a56d04ee4f25dee2af03056c25d",
-    "assets/generated/editorial/story-rnb-had-many-voices-480.webp": "01a0c76b4c4f4df3435fa154b350458c963c3485d188aeb4ffaa8e478adb4afb",
-    "assets/generated/editorial/story-rnb-had-many-voices-557.webp": "f393440b9ea84a3ea73d9067a0d3f3510c3ef6ddcee9eab6fe5a5d8c6ee1c4e6",
-    "assets/media/stories/record-store-discovery.webp": "5b3236cd3264d80fffc42aa849d236053664acd13e3e9e68799479e8c8709107",
-    "assets/generated/editorial/story-record-store-discovery-240.webp": "dffe0fe523f4fb1a5cb68aa75cbbe68c93e96da188f2dd20a055141ae9c71762",
-    "assets/generated/editorial/story-record-store-discovery-480.webp": "f266855ff5a6001ddf19b366e2853b2ea4ce2ef55bfa01361afcb10156d51ccc",
-    "assets/generated/editorial/story-record-store-discovery-800.webp": "b97eba7ea80120afc092c2baf7c65e04d04b26e4836a260c5629fcd6557b52f6",
-    "assets/media/stories/meet-me-at-the-mall.webp": "aab1998b3e0a3d0b9dc000d93b332a1d7d31356f29c68ebd686da94f06ed928f",
-    "assets/generated/editorial/story-meet-me-at-the-mall-240.webp": "912e4e85243f4847fbf29c91401bd8d0c66687ab9f7792390a5c8b69756678e7",
-    "assets/generated/editorial/story-meet-me-at-the-mall-480.webp": "3e070be5efb573a0ffac5e73b41178966750c9f627863a56c236cc2a3b553c8a",
-    "assets/generated/editorial/story-meet-me-at-the-mall-960.webp": "3dfdaf9ad24159cb5303e502c6c53891788bedcd0a456ee16d19b898e1b6d737",
-    "assets/media/stories/streetwear-the-logo-and-the-voice.webp": "dd569e94984f3c0a3d490a46a707fa18940bd916cfb4c98ff823525dd6776067",
-    "assets/generated/editorial/story-streetwear-the-logo-and-the-voice-240.webp": "00d7175b682d416151a2e3510f0c1e0d38d7892260ec5548fa17d5c6f2239478",
-    "assets/generated/editorial/story-streetwear-the-logo-and-the-voice-480.webp": "a843a176ae13a2be12d636e10103453a3918ff52caf2ac56c0271a1752def831",
-    "assets/generated/editorial/story-streetwear-the-logo-and-the-voice-960.webp": "a8c7cfcdfd123b7f2537f5be0147f0deafe11955c76700841a09dd8d26820c7c",
-    "assets/media/stories/holiday-toys-that-answered-back.webp": "7e94bc321761b0203f3c858aa60cdfced056506ea008e2a81f8db054cf7cadc5",
-    "assets/generated/editorial/story-holiday-toys-that-answered-back-240.webp": "38873230219734bb5aa43d958b23b9daef806b475c46d81a4dfb1e652a660a11",
-    "assets/generated/editorial/story-holiday-toys-that-answered-back-480.webp": "c4d8094888fd7aa2c246dcb9abf341c904e577a413c4e52229177fbcc36fa5a3",
-    "assets/generated/editorial/story-holiday-toys-that-answered-back-900.webp": "1ba69e76b2c16695ea5c5452cb312593770cda5be937b8e1dc6893432d9dfa44",
-    "assets/media/stories/lan-party-night.webp": "1bbf98a4054eb6e35bcae2bd6559a2423d76dae13fb8f78af6edde0fcba6fe36",
-    "assets/generated/editorial/story-lan-party-night-240.webp": "3601a80b14da84ba519f2a3675b40fe6f9bdb558a8e5fd049a691ac1d785ab94",
-    "assets/generated/editorial/story-lan-party-night-480.webp": "ef31a557d5a7dc8d926bd44f4567a64f4359a4ddc42fc5ab7feeecdb791b83cf",
-    "assets/generated/editorial/story-lan-party-night-960.webp": "c5f04416854f2f4c3edf7833ff5609bc844359303b6469eadd1d985e9578c580",
+    "assets/media/stories/bristol-listening-diagram.png": "499dd4dd950cdb0b0df567f97b26e9eff96156d07201f96d80bc50aa4bca7963",
+    "assets/generated/editorial/story-bristol-between-the-beats-240.webp": "6d09ab6000b22984ad67f8cb226361cdfbab24e7b45e5003ad7cf4bfb249d5d3",
+    "assets/generated/editorial/story-bristol-between-the-beats-480.webp": "d8bf2b83d6f64d3fb1e336392a44db58bfd279d8a11b309bf13af318597851b7",
+    "assets/generated/editorial/story-bristol-between-the-beats-960.webp": "d36c0b0a909a52552344b8b85cc54555bdda19b285a6543edef38a109ccb7e4d",
+    "assets/media/stories/break-slices-diagram.png": "c4e81df002f935b837ca79fcedb08822d65d0b0b1bcd6c2eecdad249a8cc8fb3",
+    "assets/generated/editorial/story-breakbeats-change-the-clock-240.webp": "d4355cdab4e0c680f5126d5f4a05fa319cf3f78055862e5722f8125dc8b673cf",
+    "assets/generated/editorial/story-breakbeats-change-the-clock-480.webp": "9126bc11229eb1da4334dc802e7facf3de5bc419251d747d008e108eeefa40d8",
+    "assets/generated/editorial/story-breakbeats-change-the-clock-960.webp": "986d5e564cd3097b6f59505557fe0c7b7625ad77df95a22fac4f9968529e40e7",
+    "assets/media/stories/rnb-voices-diagram.png": "34e523487f5b6f46d5578b8517055388c2c0a17ecdf02d0a803215d6dac2b30a",
+    "assets/generated/editorial/story-rnb-had-many-voices-240.webp": "136d50020eb07622ccfed926529a112cf96c11b123e40fab43e3c38d3c58fefa",
+    "assets/generated/editorial/story-rnb-had-many-voices-480.webp": "66726dd452f390d7a25268684c8cede699565c8fdb871321dbc8d51b7ae6a0fb",
+    "assets/generated/editorial/story-rnb-had-many-voices-960.webp": "1270ac86d8a1ec4be80f05addd96f2cfc1f98bb49fc2d4509d67fc43f6883d16",
+    "assets/media/stories/record-shop-choice-diagram.png": "b0b548e460275a2cf238f1dc3b2fc9a5ae5be6181424811b5b6547eabcc6e75b",
+    "assets/generated/editorial/story-record-store-discovery-240.webp": "30d661985f26282c73b090b6cf55d03662830b1d3447e0057bec4db92162d47e",
+    "assets/generated/editorial/story-record-store-discovery-480.webp": "0f3c06df21a8819dc48aa3ecc0d0775d9f4d1566e9d67c9d93fb7fea4845c505",
+    "assets/generated/editorial/story-record-store-discovery-960.webp": "f6fd45cf3f7807f9e765ae2cf171c56f30bd188e2c1dac5cb04d403acf89340f",
+    "assets/media/stories/mall-route-diagram.png": "8208fe7777e1764d1f70a11d2b51b5cc5d3079aa13737c17982ccc024f3e05e0",
+    "assets/generated/editorial/story-meet-me-at-the-mall-240.webp": "d226f00927c85967251d827d6cce2c0caae9b595526610b8fbb1bb050e706bf3",
+    "assets/generated/editorial/story-meet-me-at-the-mall-480.webp": "eef9d9af44db32caa7fb15c186114a01419d6e917962a896ab783eef19077bb3",
+    "assets/generated/editorial/story-meet-me-at-the-mall-960.webp": "1243cf2ded20510894fd84050fc71bbf03f61e4bca562f38c2873b17fad247d0",
+    "assets/media/stories/fubu-garment-diagram.png": "d2c96b038f0b9aaeff8749027740ee704925873dae274ffbef15283cd48a9617",
+    "assets/generated/editorial/story-streetwear-the-logo-and-the-voice-240.webp": "f2971e5e510d43fbfe164ccb750e9ea569093605b52eb6372a75fc7b486ec42d",
+    "assets/generated/editorial/story-streetwear-the-logo-and-the-voice-480.webp": "310fc4b45ccbba92fe411abe5ee14c17be83c1b3c9928d871aa8571b6e131775",
+    "assets/generated/editorial/story-streetwear-the-logo-and-the-voice-960.webp": "b722985b9fe45ed3d658955ff705df12cb60c122b970c1c67562442ef744c528",
+    "assets/media/stories/responsive-toys-diagram.png": "c976deb239cf7b73073e475184dd4442a0bdbec80adf7c50e76b64efaffd3324",
+    "assets/generated/editorial/story-holiday-toys-that-answered-back-240.webp": "047056e37f532a99617bec0d249ac5077da194bcb8b3d8e8a5da3969b6d166c8",
+    "assets/generated/editorial/story-holiday-toys-that-answered-back-480.webp": "a96893a31d90acc6971721dc8561c872db82ca7db7c7ddd888d9992f94fbccf9",
+    "assets/generated/editorial/story-holiday-toys-that-answered-back-960.webp": "14845fa40d03b8b5415974beeb26bb7dc18353c61b2695aeaa6cd11cf144aec1",
+    "assets/media/stories/lan-network-diagram.png": "7f56e5ef4f12932c527cf60b9c4c3c6e9d196c0a6050047228d4b53b3de29313",
+    "assets/generated/editorial/story-lan-party-night-240.webp": "ed0277db53a432dc87b7636440c58221c1823f0ec48a4d1a3bcf7327bf187bba",
+    "assets/generated/editorial/story-lan-party-night-480.webp": "2a2e9cd8a80101724e56d6c2a4af718512020a81385c61468d008a4999aff53a",
+    "assets/generated/editorial/story-lan-party-night-960.webp": "316884f4c2ed6a19ff22ccdcfdf0b0a9e638aba54a9d30ddc500c2bd4e116ba2",
     "assets/media/stories/the-demo-disc-evening.webp": "d88674667c3e8857b2a92dda60e1e4d64ee4f53838be65a65fd77d7e72f1e70f",
     "assets/generated/editorial/story-the-demo-disc-evening-240.webp": "a6b51a122d21c9aaf39b3cd652932da8b933f3bcf015688cc8f9a83e3fc6d9df",
     "assets/generated/editorial/story-the-demo-disc-evening-480.webp": "36fd307039919ff8c250a0acee707d977b72fe1d63fe56603466e92fd34ae30b",
@@ -1467,14 +1545,26 @@
     "assets/generated/editorial/story-browser-wars-at-home-240.webp": "51d59ecb465284610a79f9722582921feccb31ee0744bf00f9f483791171d183",
     "assets/generated/editorial/story-browser-wars-at-home-480.webp": "1490bd570fcb2f2eddf56e4c63e4ba9669f80eec0e5e5a1c6b26c3acc59d2f38",
     "assets/generated/editorial/story-browser-wars-at-home-960.webp": "f7a25b7ceac60a691e8d925b5f2df5a6a86e98370dc52f0f79a0f5100ff0b1a8",
-    "assets/media/stories/horror-knew-the-rules.webp": "49c8319203873348096a90fc7c348b390507667f3a42f969ff9e512f750b228e",
-    "assets/generated/editorial/story-horror-knew-the-rules-240.webp": "a5c7413789afbddfff07f16affd682a2b1b505791c670f049d567031125bb010",
-    "assets/generated/editorial/story-horror-knew-the-rules-480.webp": "d0caad75688e72eaf208c22030757cb7588db14329f37cb4ff3b0523a1500c55",
-    "assets/generated/editorial/story-horror-knew-the-rules-960.webp": "b06ac307186f5d2d610427f8fef58c65234141ac423d5754232f9a8a4765434d",
-    "assets/media/stories/summer-at-the-multiplex.webp": "a7c33c5f2af9fb985c518d5600606896fb17bd1672a7b9ceab05a25a3cca7a87",
-    "assets/generated/editorial/story-summer-at-the-multiplex-240.webp": "e8f42b7319ac596be1a9adc49828e0531aac99d506001d4e2e7c79841d140147",
-    "assets/generated/editorial/story-summer-at-the-multiplex-480.webp": "23d8e5a22294ae3044f99b0943d2707a2f011bd923b77e355cbfa650db68f558",
-    "assets/generated/editorial/story-summer-at-the-multiplex-960.webp": "1c865a032861eff0fccf892c08ee1cd0d0a260baf0497cf86b09142b5027054a",
+    "assets/media/stories/horror-information-diagram.png": "f278ab09a01f47961e01547c4325ef2f3cbe7209ee860ee5d1104b6611398d4c",
+    "assets/generated/editorial/story-horror-knew-the-rules-240.webp": "ef0ed21fb48844fd925807af51ebe7098a65084209484d90e53926e2476653dc",
+    "assets/generated/editorial/story-horror-knew-the-rules-480.webp": "9dd98d3d4b500c2cee346a62857f9e1415bda00585a2fe9efc07dbdd3fdd4c66",
+    "assets/generated/editorial/story-horror-knew-the-rules-960.webp": "b3af354a04a47b8c83b22b9fdebdf3570b181cdba6a64e01d343e56d658e3de7",
+    "assets/media/stories/summer-calendar-diagram.png": "7505cd3cda2dc494d9e4fe9a46399b9ff0e9bcd5046af1bb4a9fa35704a64041",
+    "assets/generated/editorial/story-summer-at-the-multiplex-240.webp": "9d56d0aa59225e269fbee7ab8d1d5f010a086abf32e196651f67485aaa550ca8",
+    "assets/generated/editorial/story-summer-at-the-multiplex-480.webp": "76b5857a391fd4cbe461b5a718924b8915b78853d4bf2c7529ee0aebc33c8d87",
+    "assets/generated/editorial/story-summer-at-the-multiplex-960.webp": "787b7aa0787c785847610847f35ee6710f6fb219104c89dbcedd2446775524cc",
+    "assets/media/stories/memory-blocks-diagram.png": "d916ecadd027839d7d08d8c9be9d04e0210e9c72503c123e92ceb71e3a7699f7",
+    "assets/generated/editorial/figure-memory-blocks-240.webp": "4945a0b1237d4d121d6b25c7ee69580671209193ae1ad136e19bf7150a5603f5",
+    "assets/generated/editorial/figure-memory-blocks-480.webp": "10a46e5a7800e8ebf1d9f17c4731aa781de2dc5a06c4ea9d1e8cfc9138f13d37",
+    "assets/generated/editorial/figure-memory-blocks-960.webp": "17deef6c4e170e2b3e9c509305b23eda45a24dcf2329880e8077fdd3479ab0d7",
+    "assets/media/stories/ultim8-reverse.webp": "e73d7546d96df30a580a89378d31193b4f956788f2cadc090652cf232a8bb81a",
+    "assets/generated/editorial/figure-ultim8-reverse-240.webp": "8ae85bb4831a694b5c2508a025c48c661cbeab88b68e60fe01c33d477e1fd3ec",
+    "assets/generated/editorial/figure-ultim8-reverse-480.webp": "5aa9c01f1143d64f353ca3bf8e23379ac87d872e7a52a6be4e0dc69e8e1233f3",
+    "assets/generated/editorial/figure-ultim8-reverse-960.webp": "bd5163ed46186807ea982a6510ae74a33bf5df0a02d4c40cbdf96ade8051a9f6",
+    "assets/media/stories/meet-me-at-the-mall.webp": "aab1998b3e0a3d0b9dc000d93b332a1d7d31356f29c68ebd686da94f06ed928f",
+    "assets/generated/editorial/figure-mall-source-map-240.webp": "912e4e85243f4847fbf29c91401bd8d0c66687ab9f7792390a5c8b69756678e7",
+    "assets/generated/editorial/figure-mall-source-map-480.webp": "3e070be5efb573a0ffac5e73b41178966750c9f627863a56c236cc2a3b553c8a",
+    "assets/generated/editorial/figure-mall-source-map-960.webp": "3dfdaf9ad24159cb5303e502c6c53891788bedcd0a456ee16d19b898e1b6d737",
     "assets/fonts/Jersey10-Regular.ttf": "db9cbd091617048a145d249daa2b815fe7083be6ab66ac26626e21a4e01c3e82",
     "assets/fonts/Jersey10-Regular.woff2": "db9b73d03e2f41e9140072dcbe1df006f92d578613c03cbc719be61bf8dc7e1f",
     "assets/fonts/Barlow-Regular.ttf": "95aa02c7c43096e0dd44d787ba6216864a67157e402adab59b35572e0c1577ea",

@@ -60,7 +60,11 @@ class ReleaseTests(unittest.TestCase):
             self.assertEqual(row['teaser'], original['curatorNote'])
             self.assertEqual(row['target'], '/archive/objects/'+original['slug']+'/')
         week = json.loads((self.path / 'public/assets/runtime/week.json').read_text())
-        self.assertEqual(set(week), {'events'})
+        self.assertEqual(set(week), {'events','reading'})
+        self.assertEqual(set(week['reading']),{str(y) for y in range(1990,2000)})
+        for rows in week['reading'].values():
+            for row in rows:
+                self.assertEqual(set(row),{'title','url','summary','kind'})
         self.assertEqual(week['events'], json.loads((ROOT / 'data/editorial-index.json').read_text())['events'])
 
     def test_modified_release_asset_is_rejected(self):

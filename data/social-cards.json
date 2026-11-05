@@ -464,17 +464,17 @@
       }
     },
     "/stories/after-school-on-trl/": {
-      "src": "/assets/generated/share/story-after-school-on-trl-14a39308c663.jpg",
+      "src": "/assets/generated/share/story-after-school-on-trl-56e0f43a3d70.jpg",
       "width": 1200,
       "height": 630,
-      "alt": "90s.land sharing card: After school, before the countdown. Story photograph.",
-      "inputDigest": "14a39308c663ec99b4663a9fc89e567c6dfb3b3f9f8f64b08517e8f95a0653d7",
-      "sha256": "1528c429dc67ffc07bd36afd1cf6ade4535df3a109c853887175ccc832362d43",
+      "alt": "90s.land sharing card: After school, before the countdown. Explanatory diagram.",
+      "inputDigest": "56e0f43a3d70c2b6e1249bb7578a8a287711ecbff395c9787157264bd95dbe72",
+      "sha256": "a2c297c166bee3f169f255febc4047dca166cee69c28329d6c77b48cd19d4357",
       "visual": {
-        "src": "/assets/media/stories/after-school-on-trl.webp",
-        "credit": "Diogo Almeida",
-        "license": "CC BY-SA 2.5",
-        "label": "STORY PHOTOGRAPH"
+        "src": "/assets/media/stories/trl-countdown-diagram.png",
+        "credit": "90s.land",
+        "license": "Original 90s.land artwork",
+        "label": "EXPLANATORY DIAGRAM"
       }
     },
     "/stories/aol-flat-rate/": {
@@ -492,31 +492,31 @@
       }
     },
     "/stories/breakbeats-change-the-clock/": {
-      "src": "/assets/generated/share/story-breakbeats-change-the-clock-4a47a050b018.jpg",
+      "src": "/assets/generated/share/story-breakbeats-change-the-clock-b7a21cf7cfd2.jpg",
       "width": 1200,
       "height": 630,
-      "alt": "90s.land sharing card: Breakbeats changed the clock on the dancefloor. Story photograph.",
-      "inputDigest": "4a47a050b0188737720ce292fd59b537702cde92fa030a5c1139ac245fcc07de",
-      "sha256": "f2649c2d37c2ac2f7440863dc7ef99e38c1cfc09e2ff1a9fa0ec9138900fc9ee",
+      "alt": "90s.land sharing card: Breakbeats changed the clock on the dancefloor. Explanatory diagram.",
+      "inputDigest": "b7a21cf7cfd22dc7b5c0768d6d469f8b8b095af92482974b4c82c55b520ba5b7",
+      "sha256": "81c083463cf856c4629962282508395000ab0e6c831b2721fc5a9483600cef1b",
       "visual": {
-        "src": "/assets/media/stories/breakbeats-change-the-clock.webp",
-        "credit": "Photographer not identified; Wikimedia Commons public-domain record",
-        "license": "Public domain",
-        "label": "STORY PHOTOGRAPH"
+        "src": "/assets/media/stories/break-slices-diagram.png",
+        "credit": "90s.land",
+        "license": "Original 90s.land artwork",
+        "label": "EXPLANATORY DIAGRAM"
       }
     },
     "/stories/bristol-between-the-beats/": {
-      "src": "/assets/generated/share/story-bristol-between-the-beats-6fdccdb2ed3b.jpg",
+      "src": "/assets/generated/share/story-bristol-between-the-beats-75e3c1f83659.jpg",
       "width": 1200,
       "height": 630,
-      "alt": "90s.land sharing card: Bristol left room between the beats. Story photograph.",
-      "inputDigest": "6fdccdb2ed3b59ce85be951ee1bcaaf46185d6f4830f97c3836e9560031b51da",
-      "sha256": "1624de71972738b3255ece731eedc2bde1dfb480acd0614ed07a2d845e1941a9",
+      "alt": "90s.land sharing card: Bristol left room between the beats. Explanatory diagram.",
+      "inputDigest": "75e3c1f836592166fc92fe6309b1cfa2984fc94b6a7fbab64092f673ae625bff",
+      "sha256": "a7cc940802162b814eb3d9f694080afd534211f99f4322be81d7321b672029ce",
       "visual": {
-        "src": "/assets/media/stories/bristol-between-the-beats.webp",
-        "credit": "José Goulão from Lisbon, Portugal",
-        "license": "CC BY-SA 2.0",
-        "label": "STORY PHOTOGRAPH"
+        "src": "/assets/media/stories/bristol-listening-diagram.png",
+        "credit": "90s.land",
+        "license": "Original 90s.land artwork",
+        "label": "EXPLANATORY DIAGRAM"
       }
     },
     "/stories/browser-wars-at-home/": {
@@ -618,59 +618,59 @@
       }
     },
     "/stories/holiday-toys-that-answered-back/": {
-      "src": "/assets/generated/share/story-holiday-toys-that-answered-back-14c38f4bead7.jpg",
+      "src": "/assets/generated/share/story-holiday-toys-that-answered-back-5cf73abaa494.jpg",
       "width": 1200,
       "height": 630,
-      "alt": "90s.land sharing card: The toy aisle began answering back. Story photograph.",
-      "inputDigest": "14c38f4bead71ec051858216333fa6c059bdbeca1a497df283caddf5f563ff98",
-      "sha256": "42de1bbfcf767d08a2d55348977c71f658cbd59f05bdf89a4ed13b2e91390f6d",
+      "alt": "90s.land sharing card: The toy aisle began answering back. Explanatory diagram.",
+      "inputDigest": "5cf73abaa49425a7e0b86e734b0f7f4fefeff1b556c38a956fd4bde306699561",
+      "sha256": "2f7fb8cdbdae984768ab65264ed0eabbc44155f83e977d9b91f2c0047ce5c473",
       "visual": {
-        "src": "/assets/media/stories/holiday-toys-that-answered-back.webp",
-        "credit": "Tomasz Sienicki (tsca)",
-        "license": "CC BY-SA 3.0",
-        "label": "STORY PHOTOGRAPH"
+        "src": "/assets/media/stories/responsive-toys-diagram.png",
+        "credit": "90s.land",
+        "license": "Original 90s.land artwork",
+        "label": "EXPLANATORY DIAGRAM"
       }
     },
     "/stories/horror-knew-the-rules/": {
-      "src": "/assets/generated/share/story-horror-knew-the-rules-f010538e674c.jpg",
+      "src": "/assets/generated/share/story-horror-knew-the-rules-54bd7a76674e.jpg",
       "width": 1200,
       "height": 630,
-      "alt": "90s.land sharing card: Horror knew the rules. Story photograph.",
-      "inputDigest": "f010538e674c2cc84a3d14976c55b7b30d45160bd41b1936802afd17567d1e84",
-      "sha256": "50abb59517ec8240e04d3dbf5bbfc5295d529673d40e3793061f60888088ee5b",
+      "alt": "90s.land sharing card: Horror knew the rules. Explanatory diagram.",
+      "inputDigest": "54bd7a76674ed543fb5cc003f640ffb3b541046a83fe56f8cd239f1d3238680c",
+      "sha256": "0bd3cf044c09fd0cf263f7f9e2ad3324b8f5dbaa8857d3b64822a50a45a64040",
       "visual": {
-        "src": "/assets/media/stories/horror-knew-the-rules.webp",
-        "credit": "Castorice",
-        "license": "CC BY-SA 4.0",
-        "label": "STORY PHOTOGRAPH"
+        "src": "/assets/media/stories/horror-information-diagram.png",
+        "credit": "90s.land",
+        "license": "Original 90s.land artwork",
+        "label": "EXPLANATORY DIAGRAM"
       }
     },
     "/stories/lan-party-night/": {
-      "src": "/assets/generated/share/story-lan-party-night-e90ac5cb4415.jpg",
+      "src": "/assets/generated/share/story-lan-party-night-9f72b462d901.jpg",
       "width": 1200,
       "height": 630,
-      "alt": "90s.land sharing card: A LAN party started before the first match. Story photograph.",
-      "inputDigest": "e90ac5cb4415e438f10e55393a5010a0e2eb7629130c92bc2b9c6c408fb83329",
-      "sha256": "5385682ff532973db5e3707f3e049c1f68d36a258e5150dd4654384a67ee443c",
+      "alt": "90s.land sharing card: A LAN party started before the first match. Explanatory diagram.",
+      "inputDigest": "9f72b462d901fb0edefadbcd16b1dc6989590c396b5bbf8300c9b65bc079948a",
+      "sha256": "dc167c51ab89828745752db8eb1fca7111b3e4e0bc843ef769f9bf270b832817",
       "visual": {
-        "src": "/assets/media/stories/lan-party-night.webp",
-        "credit": "Syced",
-        "license": "CC0",
-        "label": "STORY PHOTOGRAPH"
+        "src": "/assets/media/stories/lan-network-diagram.png",
+        "credit": "90s.land",
+        "license": "Original 90s.land artwork",
+        "label": "EXPLANATORY DIAGRAM"
       }
     },
     "/stories/meet-me-at-the-mall/": {
-      "src": "/assets/generated/share/story-meet-me-at-the-mall-ff7fd7a5fd3e.jpg",
+      "src": "/assets/generated/share/story-meet-me-at-the-mall-c10aaadf41ee.jpg",
       "width": 1200,
       "height": 630,
-      "alt": "90s.land sharing card: Meet me at the mall. Story photograph.",
-      "inputDigest": "ff7fd7a5fd3e5eb09095705a70fbc4d08a185bdd94226050e47919386bd5afa2",
-      "sha256": "2f6e0317255c180f99bb82a60592219a6dafdb5e40422d2edf9d8c5507b6611a",
+      "alt": "90s.land sharing card: Meet me at the mall. Explanatory diagram.",
+      "inputDigest": "c10aaadf41ee6c332c4884e5124998badc7baa62d7b4915dd947f30c03711be8",
+      "sha256": "08cf606b9fd92959b124e6835697db0382bd84cb12fbcda491fa1707c6496aad",
       "visual": {
-        "src": "/assets/media/stories/meet-me-at-the-mall.webp",
-        "credit": "Chickensire",
-        "license": "CC BY-SA 3.0",
-        "label": "STORY PHOTOGRAPH"
+        "src": "/assets/media/stories/mall-route-diagram.png",
+        "credit": "90s.land",
+        "license": "Original 90s.land artwork",
+        "label": "EXPLANATORY DIAGRAM"
       }
     },
     "/stories/minidisc-small-door/": {
@@ -688,31 +688,31 @@
       }
     },
     "/stories/record-store-discovery/": {
-      "src": "/assets/generated/share/story-record-store-discovery-0c13b94ff4bb.jpg",
+      "src": "/assets/generated/share/story-record-store-discovery-0455ffe81691.jpg",
       "width": 1200,
       "height": 630,
-      "alt": "90s.land sharing card: The record shop had its own search engine. Story photograph.",
-      "inputDigest": "0c13b94ff4bbfb391543f47ae94488a261edbeddca5f587aef37b7e98513c0d4",
-      "sha256": "b59b98fd9071d9f1499e3ed5826dc78189b2c61cfa37860d1cdab93caf330b14",
+      "alt": "90s.land sharing card: The record shop had its own search engine. Explanatory diagram.",
+      "inputDigest": "0455ffe8169113f145218c10f688f5a254be3bbb8313ece4657d02f0da649e93",
+      "sha256": "4cb72b5c849234fb01ac0224fe52a5d43e5bb10392ff6067e33fb05612c8490e",
       "visual": {
-        "src": "/assets/media/stories/record-store-discovery.webp",
-        "credit": "Unknown author Unknown author",
-        "license": "CC BY-SA 3.0 de",
-        "label": "STORY PHOTOGRAPH"
+        "src": "/assets/media/stories/record-shop-choice-diagram.png",
+        "credit": "90s.land",
+        "license": "Original 90s.land artwork",
+        "label": "EXPLANATORY DIAGRAM"
       }
     },
     "/stories/rnb-had-many-voices/": {
-      "src": "/assets/generated/share/story-rnb-had-many-voices-7d2ab98311cb.jpg",
+      "src": "/assets/generated/share/story-rnb-had-many-voices-e7791998c94f.jpg",
       "width": 1200,
       "height": 630,
-      "alt": "90s.land sharing card: 90s R&B had room for many kinds of voice. Story photograph.",
-      "inputDigest": "7d2ab98311cb218189487d8b87fbffb706dbe7010c57e8a146cd6037f972bd07",
-      "sha256": "dc0bf562534a69cfd095f55531ff90d5143fbd5894117a6f057d96d0a8873e28",
+      "alt": "90s.land sharing card: 90s R&B had room for many kinds of voice. Explanatory diagram.",
+      "inputDigest": "e7791998c94f1d75a66dcb2208b8cd348203d842a20b98995e97f3cc46d7eb60",
+      "sha256": "2a024ec5fa93daddff0a4938dbea8ff3ab7a2121311bc8772d03f8d8ecc2423f",
       "visual": {
-        "src": "/assets/media/stories/rnb-had-many-voices.webp",
-        "credit": "The Come Up Show from Canada",
-        "license": "CC BY 2.0",
-        "label": "STORY PHOTOGRAPH"
+        "src": "/assets/media/stories/rnb-voices-diagram.png",
+        "credit": "90s.land",
+        "license": "Original 90s.land artwork",
+        "label": "EXPLANATORY DIAGRAM"
       }
     },
     "/stories/same-time-next-week/": {
@@ -758,31 +758,31 @@
       }
     },
     "/stories/streetwear-the-logo-and-the-voice/": {
-      "src": "/assets/generated/share/story-streetwear-the-logo-and-the-voice-f966f2d93574.jpg",
+      "src": "/assets/generated/share/story-streetwear-the-logo-and-the-voice-3f024f462c71.jpg",
       "width": 1200,
       "height": 630,
-      "alt": "90s.land sharing card: A logo could say who the clothes were for. Story photograph.",
-      "inputDigest": "f966f2d9357488f43087d73bca0fbf5b4a812b766e4f813e5cb6a1822cb01ac3",
-      "sha256": "184a9a23d1147d1ba0cb4f76ff4ad56e0051f7424708335388ca7d7902e9cfd7",
+      "alt": "90s.land sharing card: A logo could say who the clothes were for. Explanatory diagram.",
+      "inputDigest": "3f024f462c715afd37494be9f7a150a6246a274347ba879893355912f45e8187",
+      "sha256": "0bb20c31731321eac9084465fc25162a6633e405f48b4f4e72e52ac833e8a999",
       "visual": {
-        "src": "/assets/media/stories/streetwear-the-logo-and-the-voice.webp",
-        "credit": "Philip Romano",
-        "license": "CC BY-SA 4.0",
-        "label": "STORY PHOTOGRAPH"
+        "src": "/assets/media/stories/fubu-garment-diagram.png",
+        "credit": "90s.land",
+        "license": "Original 90s.land artwork",
+        "label": "EXPLANATORY DIAGRAM"
       }
     },
     "/stories/summer-at-the-multiplex/": {
-      "src": "/assets/generated/share/story-summer-at-the-multiplex-182bc49081b0.jpg",
+      "src": "/assets/generated/share/story-summer-at-the-multiplex-57e2242f853f.jpg",
       "width": 1200,
       "height": 630,
-      "alt": "90s.land sharing card: Summer at the multiplex. Story photograph.",
-      "inputDigest": "182bc49081b0610b85a24081959b9c0b3319346abbc255b008c24ae866e5c65d",
-      "sha256": "47254c93feb124994555a33ce3659f1bcde063fecdcf1551776934d985f0e9a5",
+      "alt": "90s.land sharing card: Summer at the multiplex. Explanatory diagram.",
+      "inputDigest": "57e2242f853f102c75fb5442d8ee1bccb0c96808f0fb83e7bb6f6bcb5628810f",
+      "sha256": "2ea97f1ceeb8ecd7aed870cab4c3562e1426ed89f2362a34ec8bdda1b2eaa61b",
       "visual": {
-        "src": "/assets/media/stories/summer-at-the-multiplex.webp",
-        "credit": "Steven Sun",
-        "license": "CC BY-SA 4.0",
-        "label": "STORY PHOTOGRAPH"
+        "src": "/assets/media/stories/summer-calendar-diagram.png",
+        "credit": "90s.land",
+        "license": "Original 90s.land artwork",
+        "label": "EXPLANATORY DIAGRAM"
       }
     },
     "/stories/the-console-war-couch/": {
@@ -870,17 +870,17 @@
       }
     },
     "/stories/the-secret-button-sequence/": {
-      "src": "/assets/generated/share/story-the-secret-button-sequence-68e96d60f104.jpg",
+      "src": "/assets/generated/share/story-the-secret-button-sequence-fdb80577de9b.jpg",
       "width": 1200,
       "height": 630,
-      "alt": "90s.land sharing card: The secret button sequence. Story photograph.",
-      "inputDigest": "68e96d60f10479a3d948b493710daf966008e9007a1f837cdc6c36743a10bf3d",
-      "sha256": "e6ec7af4e9ab2812552797154e07e0a3c85f13fb3a5edd25d005c95ba9489122",
+      "alt": "90s.land sharing card: The secret button sequence. Explanatory diagram.",
+      "inputDigest": "fdb80577de9bc28eb21e7b081a1a6faacccc4ccb8e16568e70335a542fc2cdfb",
+      "sha256": "1be5f8478a88e91d0a288a3e16aacc3f4b6f80f34a8382413a35bcd002daf1c5",
       "visual": {
-        "src": "/assets/media/stories/correction-genesis.webp",
-        "credit": "X201",
-        "license": "Public domain",
-        "label": "STORY PHOTOGRAPH"
+        "src": "/assets/media/stories/doom-commands-diagram.png",
+        "credit": "90s.land",
+        "license": "Original 90s.land artwork",
+        "label": "EXPLANATORY DIAGRAM"
       }
     },
     "/stories/webtv-on-the-sofa/": {
@@ -1010,12 +1010,12 @@
       }
     },
     "/archive/objects/guestbook/": {
-      "src": "/assets/generated/share/object-guestbook-1793caf97510.jpg",
+      "src": "/assets/generated/share/object-guestbook-a3ad4e6f2877.jpg",
       "width": 1200,
       "height": 630,
-      "alt": "90s.land sharing card: Guestbook with six handles and one typo. Original graphic.",
-      "inputDigest": "1793caf97510093fed2f97fe97ff267ffc33027b4cd3ccf8d7c57118aba4be05",
-      "sha256": "2d1e012bb263bc4427d88faa7238afe9f739975dfc5923bf668d4c7e8d7d9a08",
+      "alt": "90s.land sharing card: Guestbook: handles and hellos. Original graphic.",
+      "inputDigest": "a3ad4e6f2877d7f877003bb02693b9a6103b7d2d44f6720735552623c879980b",
+      "sha256": "5aea8fac8b5161bdd6e8c26211d23a4a2f4f2f5de6f7e6e37d7a81e5f80eb79a",
       "visual": {
         "src": null,
         "credit": "90s.land · original graphic",

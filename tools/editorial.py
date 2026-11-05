@@ -9,11 +9,17 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 CORE = {'/': 'home'}
 ARTIFACTS = {a['id']: a for a in json.loads((ROOT / 'data/artifacts.json').read_text())}
+EDITION = json.loads((ROOT/'content/editorial/edition.json').read_text())
 NAVIGATION = json.loads((ROOT / 'data/navigation.json').read_text())
 
 
 def esc(value):
     return html.escape(str(value), quote=True)
+
+
+def site_url(value):
+    """Own-site sources stay navigable in a complete local preview."""
+    return value.removeprefix('https://90s.land') if value.startswith('https://90s.land/') else value
 
 
 def icon(name):
@@ -80,6 +86,9 @@ def shell_footer():
 
 
 def media(key, *, hero=False):
+    if key in ARTIFACTS and ARTIFACTS[key]['media']['kind']=='recreation':
+        from exhibits import render
+        return render(key)
     if key in ('home','timeline','games','music','movies','tech','culture'):
         alt = {'home':'Original illustrated collage of a CRT television, VHS tapes, sneaker and game hardware.','timeline':'Original illustrated collage of 1996-era game consoles, sports car, basketball and music.','games':'Original illustrated collage of a CRT platform game, console, handheld and arcade cabinet.','music':'Original AI-generated still-life collage of cassettes, CDs, headphones and music equipment.','movies':'Original AI-generated still-life collage of VHS tapes, a CRT, popcorn and movie-night objects.','tech':'Original AI-generated still-life collage of a translucent computer, a beige PC, discs and portable electronics.','culture':'Original AI-generated still-life collage of mall-era shopping, sneakers, toys and personal accessories.'}[key]
         return f'<img src="/assets/editorial/{key}-hero-1440.webp" srcset="/assets/editorial/{key}-hero-768.webp 768w, /assets/editorial/{key}-hero-1440.webp 1440w, /assets/editorial/{key}-hero-2172.webp 2172w" sizes="'+('(max-width: 1440px) 100vw, 1440px' if hero else '(max-width: 600px) 90vw, 420px')+f'" alt="{alt}" width="2172" height="724" loading="'+('eager' if hero else 'lazy')+'" decoding="async"'+(' fetchpriority="high"' if hero else '')+' />'
@@ -100,7 +109,8 @@ def story_image(story):
 def story_figure(story):
     from archive_content import STORY_MEDIA
     item = STORY_MEDIA[story['id']]
-    return f'<figure class="ar-detail-art story-figure">{story_image(story)}<figcaption>{esc(item["caption"])} <a href="{esc(item["sourceUrl"])}">{esc(item["credit"])}</a> · <a href="{esc(item["licenseUrl"])}">{esc(item["license"])}</a></figcaption></figure>'
+    large=f'<a href="{esc(item["vectorSrc"])}">View large →</a>' if item.get('vectorSrc') else ''
+    return f'<figure class="ar-detail-art story-figure">{story_image(story)}<figcaption>{esc(item["caption"])} <a href="{esc(site_url(item["sourceUrl"]))}">{esc(item["credit"])}</a> · <a href="{esc(site_url(item["licenseUrl"]))}">{esc(item["license"])}</a> {large}</figcaption></figure>'
 
 
 def hero(kind):
@@ -131,9 +141,10 @@ def week_feature():
     start, end = archive.week_bounds(day)
     picks = archive.selected_events([e for e in archive.EVENTS if archive.is_day(e) and start.isoformat() <= e['date'] <= end.isoformat()], movie_limit=2)
     pick = picks[0] if picks else None
-    summary = pick['summary'] if pick else 'Turn back the clock. Explore the week’s dates, the decade’s stories, and the objects you remember.'
-    title = pick['title'] if pick else 'Open the historical week →'
-    href = archive.event_url(pick) if pick else '/this-week/'
+    fallback=__import__('reading').year_reading(day.year)[0]
+    summary = pick['summary'] if pick else 'From the year’s collection: '+fallback['summary']
+    title = pick['title'] if pick else fallback['title']
+    href = archive.event_url(pick) if pick else fallback['url']
     label = f'{start.strftime("%b %-d, %Y")} – {end.strftime("%b %-d, %Y")}'
     return f'''<section class="ed-panel ed-week" id="this-week"><div class="ed-week-art">{media(pick['art'] if pick and pick.get('art') and (pick['art'] not in ARTIFACTS or ARTIFACTS[pick['art']]['media']['kind']=='image') else 'timeline')}</div><div class="ed-week-copy"><h2>{icon('calendar')} <span>THIS WEEK IN<strong>{day.year}</strong></span></h2><p class="ed-date">{label}</p><p data-home-week-copy>{esc(summary)}</p><a class="ed-cta" href="/this-week/">Explore this week {icon('arrow')}</a></div><div class="ed-week-note"><a href="{href}">{esc(title)} →</a></div></section>'''
 
@@ -141,14 +152,21 @@ def week_feature():
 def home():
     categories = [('Music','music','/zones/music/'),('Movies & TV','movies','/zones/tv-movies/'),('Games','games','/zones/games/'),('Tech','tech','/zones/tech-toys/'),('Culture','culture','/zones/culture/'),('Fashion','fashion','/zones/fashion/')]
     category_html = ''.join(f'<a class="ed-category ed-color-{i}" href="{href}">{icon(key)}<strong>{title}</strong></a>' for i,(title,key,href) in enumerate(categories))
-    picks = [('Bristol, between the beats','/stories/bristol-between-the-beats/','technics-turntable'),('The demo-disc evening','/stories/the-demo-disc-evening/','playstation-hardware'),('MiniDisc’s small door','/stories/minidisc-small-door/','minidisc'),('Calling the whole household','/stories/the-landline-negotiation/','answering-machine'),('Grunge: rack to runway','/stories/grunge-from-rack-to-runway/','dr-martens'),('The photo-lab gap','/stories/the-photo-lab-gap/','disposable-camera')]
+    from archive_content import STORIES, historical_date, CATALOG
+    from datetime import date
+    from reading import year_reading
+    by_id={s['id']:s for s in STORIES}
+    fallback_urls={r['url'] for r in year_reading(historical_date(date.fromisoformat(CATALOG['buildAsOf'])).year)}
+    picks=[(by_id[id]['title'],'/stories/'+id+'/',by_id[id].get('art')) for id in EDITION['picks'] if '/stories/'+id+'/' not in fallback_urls and id!=EDITION['feature']][:6]
+    featured=by_id[EDITION['feature']]
+    issue=f'<section class="ed-panel ed-edition"><p class="ar-kicker">THIS EDITION</p><h2>{esc(EDITION["title"])}</h2><p>{esc(EDITION["intro"])}</p></section>'
     from archive_content import YEARS
     years='<section class="ed-home-decade" id="browse-decade">'+heading('Browse the decade','calendar')+'<nav class="ed-decade" aria-label="Browse a year">'+''.join(f'<a href="/timeline/{y}/" aria-label="{y}: {esc(YEARS[y]["caption"])}">{y}</a>' for y in range(1990,2000))+'</nav></section>'
     finder='<form class="ed-home-search" action="/search/" role="search"><label for="home-search">Something on your mind?</label><input id="home-search" name="q" type="search" placeholder="Try N64, Friends, or 1998" /><button type="submit" class="button">Search the museum →</button></form>'
-    experiences=f'''<section class="hub-section ed-experiences" id="take-an-experience">{heading('Take an experience','bolt')}<div class="ed-three-up"><article class="ed-panel"><p class="ar-kicker">GUIDED TOUR · 10 MINUTES</p><h3>Before the Feed</h3><p>A shared PC, a handmade homepage, a carefully chosen screen name. Follow six stops through the personal web.</p><a class="ed-cta" href="/tours/before-the-feed/">Start the tour →</a></article><article class="ed-panel"><p class="ar-kicker">ONE UNEXPECTED CONNECTION</p><h3>Surprise Me</h3><p>Let the museum pick your next memory. A story, a defining moment, or a little corner of the early Web.</p><a class="ed-cta" href="/surprise/">Find a surprise →</a></article><article class="ed-panel"><p class="ar-kicker">YOUR COLLECTION</p><h3>Museum Passport</h3><p>Inspect objects, visit collections, and collect stamps. Your progress stays on this device.</p><button type="button" class="ed-cta" data-home-passport hidden>Open Passport →</button><noscript><p><a href="/archive/objects/">Browse objects</a>. Enable JavaScript to collect stamps.</p></noscript></article></div></section>'''
-    return hero('home')+years+f'''<div class="ed-home-grid">
+    experiences=f'''<section class="hub-section ed-experiences" id="take-an-experience">{heading('Take an experience','bolt')}<div class="ed-three-up"><article class="ed-panel"><p class="ar-kicker">GUIDED TOUR · 10 MINUTES</p><h3>Before the Feed</h3><p>A shared PC, a handmade homepage, a carefully chosen screen name. Follow six stops through the personal web.</p><a class="ed-cta" href="/tours/before-the-feed/">Start the tour →</a></article><article class="ed-panel"><p class="ar-kicker">ONE UNEXPECTED CONNECTION</p><h3>Surprise Me</h3><p>Let the museum pick your next memory. A story, a defining moment, or a little corner of the early Web.</p><a class="ed-cta" href="/surprise/">Find a surprise →</a></article><article class="ed-panel"><p class="ar-kicker">YOUR COLLECTION</p><h3>Museum Passport</h3><p>Open object files, visit collections, and collect stamps. Your progress stays on this device.</p><button type="button" class="ed-cta" data-home-passport hidden>Open Passport →</button><noscript><p><a href="/archive/objects/">Browse objects</a>. Enable JavaScript to collect stamps.</p></noscript></article></div></section>'''
+    return hero('home')+issue+years+f'''<div class="ed-home-grid">
       {week_feature()}
-      <section class="ed-panel ed-feature">{heading('Featured')}{tile('A web you could make your own','/stories/a-web-you-could-make/','mosaic-browser','A public idea. A more personal kind of internet.','STORY')}</section>
+      <section class="ed-panel ed-feature">{heading('Featured')}{tile(featured['title'],'/stories/'+featured['id']+'/',featured.get('art'),featured['summary'],'STORY')}</section>
       <section class="ed-panel">{heading('Explore a collection','folder')}<div class="ed-categories">{category_html}</div><a class="ed-text-link" href="/zones/internet-culture/">Internet Culture →</a></section>
     </div>{finder}<section class="ed-picks">{heading('On heavy rotation','bolt','/stories/', '<span class="ed-selection-note">EDITOR PICKS</span>')}<div class="ed-six-up">{''.join(tile(t,h,a) for t,h,a in picks)}</div></section><!-- object-shelf -->{experiences}'''
 

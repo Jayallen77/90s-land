@@ -89,7 +89,7 @@ test("passport persists and resets through confirmation", async ({ page }) => {
   await page.locator(`[data-artifact-inspect="${objectId}"]`).click();
   await page.reload();
   await expect(page.locator(`[data-artifact-inspect="${objectId}"]`)).toHaveText(
-    "Inspected ✓"
+    "Collected ✓"
   );
   await page.locator("[data-passport-trigger]").click();
   await expect(page.locator("[data-passport-artifacts]")).toHaveText("1");

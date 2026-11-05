@@ -182,14 +182,11 @@ def render_shared_ui() -> str:
   </dialog>"""
 
 
-def render_media(artifact: dict, eager: bool = False) -> str:
+def render_media(artifact: dict, eager: bool = False, interactive: bool = False) -> str:
     media = artifact["media"]
     if media["kind"] == "recreation":
-        return (
-            f'<div class="artifact-recreation recreation-{esc(artifact["id"])}" '
-            f'role="img" aria-label="{esc(media["alt"])}">'
-            f'<span>{esc(media["label"])}</span></div>'
-        )
+        from exhibits import render
+        return render(artifact['id'],interactive)
     loading = "eager" if eager else "lazy"
     priority = ' fetchpriority="high"' if eager else ""
     responsive_name = {
@@ -235,7 +232,7 @@ def render_artifact_card(
     credit = esc(media["credit"])
     if media.get("sourceUrl"):
         credit_markup = (
-            f'<a href="{esc(media["sourceUrl"])}" target="_blank" '
+            f'<a href="{esc(editorial.site_url(media["sourceUrl"]))}" target="_blank" '
             f'rel="noopener noreferrer">{credit} ↗</a>'
         )
     else:
@@ -254,7 +251,7 @@ def render_artifact_card(
           <h3>{esc(artifact["title"])}</h3>
 {details}
           <div class="artifact-actions">
-            <button class="button inspect-button" type="button" data-artifact-inspect="{esc(artifact["id"])}">Inspect + stamp</button>
+            <button class="button inspect-button" type="button" data-artifact-inspect="{esc(artifact["id"])}">Collect stamp</button>
             <a href="{archive.object_url(artifact)}">Object details →</a>
           </div>
         </div>
@@ -425,21 +422,9 @@ def render_search_sections() -> tuple[str, str]:
     return controls, results
 
 
-def render_homepage_builder() -> str:
-    return """        <div class="homepage-builder" data-homepage-builder>
-          <div class="homepage-preview" aria-live="polite" data-homepage-preview>
-            <p class="homepage-title">WELCOME TO MY PAGE!!!</p>
-            <p>Music, games, aliens, and links I think are cool.</p>
-            <p class="homepage-under-construction" hidden data-builder-layer="construction">UNDER CONSTRUCTION</p>
-            <p class="homepage-counter" hidden data-builder-layer="counter">visitor no. 000247</p>
-          </div>
-          <div class="builder-controls" aria-label="Homepage recreation controls">
-            <button type="button" aria-pressed="false" data-homepage-toggle="stars">Add tiled stars</button>
-            <button type="button" aria-pressed="false" data-homepage-toggle="construction">Add construction badge</button>
-            <button type="button" aria-pressed="false" data-homepage-toggle="counter">Add visitor counter</button>
-            <button type="button" data-homepage-reset>Reset page</button>
-          </div>
-        </div>"""
+def render_homepage_builder():
+    from exhibits import render
+    return render('geocities-homepage',interactive=True)
 
 
 def render_tour_main(tour: dict) -> str:
@@ -542,14 +527,14 @@ def render_surprise_main() -> str:
 def render_credits_main() -> str:
     credits = []
     seen = set()
-    for item in ARTIFACTS + [{'title':next(s['title'] for s in archive.STORIES if s['id']==id),'media':m} for id,m in archive.STORY_MEDIA.items()]:
+    for item in ARTIFACTS + [{'title':next(s['title'] for s in archive.STORIES if s['id']==id),'media':m} for id,m in archive.STORY_MEDIA.items()] + [{'title':'Supporting figure: '+id,'media':m} for id,m in json.loads((ROOT/'content/editorial/figures.json').read_text()).items()]:
         media = item["media"]
         key = (media.get("src"), media.get("sourceUrl"), media["credit"])
         if key in seen:
             continue
         seen.add(key)
         if media.get("sourceUrl"):
-            source = f'<a href="{esc(media["sourceUrl"])}" target="_blank" rel="noopener noreferrer">source ↗</a>'
+            source = f'<a href="{esc(editorial.site_url(media["sourceUrl"]))}" target="_blank" rel="noopener noreferrer">source ↗</a>'
         else:
             source = "original recreation"
         license_label = esc(media['license'])
@@ -566,9 +551,11 @@ def render_credits_main() -> str:
     <section class="panel credits-panel">
       <h2>Artifact media</h2>
       <ul class="credits-list">{''.join(credits)}</ul>
+      <h2 id="original-diagrams">Original explanatory diagrams</h2><p>The story diagrams are original 90s.land artwork created for these articles. They show comparisons, worked examples and source-based relationships; they are not period photographs or historical screenshots. Their captions identify examples and reconstructions. Artwork is used by 90s.land with all rights reserved. Historical evidence appears in the linked article sources. Vector versions are linked beside the diagrams for a closer view.</p>
       <h2>Type</h2>
       <p>The editorial interface uses locally hosted Jersey 10, Barlow, and Barlow Condensed from the <a href="https://github.com/google/fonts">Google Fonts repository</a>. Their SIL Open Font Licenses are included: <a href="/assets/fonts/OFL-jersey10.txt">Jersey 10</a>, <a href="/assets/fonts/OFL-barlow.txt">Barlow</a>, and <a href="/assets/fonts/OFL-barlowcondensed.txt">Barlow Condensed</a>.</p>
       <p>The content-specific sharing cards use the same Jersey 10 and Barlow family as the museum. The earlier museum-case graphic uses Press Start 2P and Space Mono under their <a href="/assets/fonts/OFL-Press-Start-2P.txt">Press Start 2P</a> and <a href="/assets/fonts/OFL-Space-Mono.txt">Space Mono</a> licenses. Those earlier fonts are part of that image, not the page interface.</p>
+      <h2>Editorial collection</h2><p>35 stories, 62 object files, 295 timeline records and 101 defining moments. The six interactive web exhibits use invented content and local previews. They do not publish messages or create accounts.</p>
       <h2>Editorial status</h2>
       <p><strong>Verified</strong> artifacts use a source trail. <strong>Editorial</strong> objects are clearly labeled original recreations. Items marked <strong>needs source</strong> are excluded from Surprise Me and guided tours.</p>
       <h2>Image adaptations</h2><p>Photographs are locally resized and may be cropped by the page layout. Sharing cards combine reviewed collection imagery or labeled editorial illustrations with original museum typography; each card names the creator and license. Credits above link to the original file records; Creative Commons ShareAlike terms continue to apply to adapted images. Original interface recreations are labeled separately. The Y2K office photograph is credited to the Government of Japan, Prime Minister’s Office website, under its Standard Terms of Use 2.0, compatible with CC BY 4.0.</p>
@@ -595,10 +582,10 @@ def page_document(route: dict, main: str, body_class: str = "") -> str:
   <link rel="preload" href="/assets/fonts/Barlow-Regular.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/assets/fonts/BarlowCondensed-Bold.woff2" as="font" type="font/woff2" crossorigin />
 {search_font}{region("head", render_head(route))}
-  <link rel="stylesheet" href="/styles.css?v=launch-phase3" />
-  <link rel="stylesheet" href="/editorial.css?v=launch-phase3" />
-  <link rel="stylesheet" href="/archive.css?v=launch-phase3" />
-  <link rel="stylesheet" href="/hub.css?v=launch-phase3" />
+  <link rel="stylesheet" href="/styles.css?v=deeper-20261105" />
+  <link rel="stylesheet" href="/editorial.css?v=deeper-20261105" />
+  <link rel="stylesheet" href="/archive.css?v=deeper-20261105" />
+  <link rel="stylesheet" href="/hub.css?v=deeper-20261105" />
 </head>
 <body{body_attr} data-route="{esc(route["path"])}" data-room="{esc(route_room(route))}">
   <a class="skip-link" href="#main-content">Skip to museum content</a>
@@ -608,7 +595,7 @@ def page_document(route: dict, main: str, body_class: str = "") -> str:
 {editorial.shell_footer()}
 {editorial.directory()}
 {region("shared-ui", render_shared_ui())}
-  <script type="module" src="/js/app.js?v=launch-phase3"></script>
+  <script type="module" src="/js/app.js?v=deeper-20261105"></script>
 </body>
 </html>
 """
@@ -704,7 +691,7 @@ def build_outputs() -> dict[Path, str]:
     # Only the fields needed by browser interactions cross the public boundary.
     # Authoring catalogs (including review/source metadata) remain in data/.
     outputs[ROOT / "assets/runtime/week.json"] = json.dumps(
-        {"events": archive.browser_index()["events"]}, ensure_ascii=False, indent=2
+        {"events": archive.browser_index()["events"], "reading": {str(y):__import__('reading').year_reading(y) for y in range(1990,2000)}}, ensure_ascii=False, indent=2
     ) + "\n"
     outputs[ROOT / "assets/runtime/surprise.json"] = json.dumps(discovery.surprise_pool(), ensure_ascii=False, indent=2) + "\n"
     outputs[ROOT / "data/search-index.json"] = json.dumps(search_records(), ensure_ascii=False, indent=2) + "\n"

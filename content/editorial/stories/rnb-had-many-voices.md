@@ -1,35 +1,37 @@
-<!-- story: {"id": "rnb-had-many-voices", "title": "90s R&B had room for many kinds of voice", "category": "music", "summary": "From vocal groups to hip-hop soul and the records gathered under neo-soul, the decade’s R&B story keeps widening.", "art": "discman", "sourceIds": ["new-albums-1990", "new-albums-1991", "new-albums-1992", "new-albums-1995", "new-albums-1997", "new-albums-1999"], "objectIds": ["discman", "cassette", "jewel-case"], "topics": ["cd", "hip-hop", "r-and-b", "rnb", "teen-pop"], "relatedStoryIds": ["after-school-on-trl", "sampling-a-record-collection"], "publishedAt": "2026-10-01", "updatedAt": "2026-10-29"} -->
+<!-- story: {"id": "rnb-had-many-voices", "title": "90s R&B had room for many kinds of voice", "category": "music", "summary": "TLC, Mary J. Blige and Erykah Badu: a listening guide to the voices, grooves and contrasts inside 90s R&B.", "art": "discman", "sourceIds": ["new-albums-1990", "new-albums-1991", "new-albums-1992", "new-albums-1995", "new-albums-1997", "new-albums-1999", "sprint-mary-life", "sprint-tlc", "sprint-badu"], "objectIds": ["cassette", "discman", "jewel-case"], "topics": ["cd", "hip-hop", "r-and-b", "rnb", "teen-pop"], "relatedStoryIds": ["sampling-a-record-collection", "after-school-on-trl"], "publishedAt": "2026-10-01", "updatedAt": "2026-11-05"} -->
 
-## More than one voice could lead the song
+## Start with the voices, not the label
 
-A vocal group can arrange attention in ways a single lead cannot. One person begins a phrase, another supplies an answer, and a harmony changes the apparent size of the chorus. In 1990s R&B, those decisions helped make the recording itself feel like a conversation.
+A chorus can announce a group before you have learned its members’ names. Then a different voice steps forward, a lower phrase answers it, or a rap changes the pace. That is a better way into 1990s R&B than imagining one smooth soundtrack stretched across ten years.
 
-Boyz II Men’s Cooleyhighharmony, released in 1991, offers one entrance. En Vogue’s Funky Divas and TLC’s CrazySexyCool, released in 1992 and 1994, offer others. Their shared place on a record-store shelf did not mean they used the same balance of vocal technique, rhythm, personality, and performance.
+The decade made room for vocal-group precision, hip-hop’s rhythmic weight, intimate soul singing and combinations that refused to remain in a tidy bin. The most useful introduction is a short listening guide. These selections are starting points, not a ranking or a claim that one artist invented an entire style.
 
-## The arrangement carried the character
+## TLC: listen for the change in texture
 
-A close harmony can make a group sound coordinated without erasing the individual voices inside it. A change in who takes the foreground can create drama without changing the basic accompaniment. A spoken passage or a sharply delivered response can interrupt the smooth surface of a song in a particularly memorable way.
+On CrazySexyCool (1994), try “Creep,” then “Waterfalls.” T-Boz’s low, grainy presence is a different pleasure from a big high note. Chilli’s contrasting tone and Left Eye’s rap give the group more than one way to carry an idea. In “Waterfalls,” pay attention when the rap arrives: the record’s delivery changes while its larger musical world stays recognizable.
 
-Those details help explain why remembering a chorus can also mean remembering the handoff that leads into it. The attraction is not always a single spectacular note. It can be the moment when a familiar backing voice moves forward, or when the rest of the group gives the lead a different kind of space.
+A group name on a cassette spine can hide that division of labor. Hearing the members as individuals makes the ensemble more impressive. The voices do not need to become interchangeable to belong in the same song.
 
-Music videos made those relationships visible. Clothing, movement, and the way performers occupied the frame could help a viewer distinguish the personalities already audible on the record.
+## Mary J. Blige: a familiar loop, an unsettled lead
 
-## Hip-hop was inside the conversation
+Put on “My Life” from the 1994 album of the same name. The accompaniment draws on Roy Ayers Ubiquity’s “Everybody Loves the Sunshine,” but Blige’s performance does not simply reproduce its mood. Listen to the weight she puts on the ends of phrases and the air around the lead.
 
-Mary J. Blige’s What’s the 411?, released in 1992, belongs to a period when the relationship between R&B singing and hip-hop’s rhythmic and cultural world became especially prominent. A singer could sound at home over a track whose texture suggested a different kind of performance from an older pop ballad.
+Then hear “Be Happy.” Its Curtis Mayfield-derived bass material keeps moving while the singing asks for something more difficult than a carefree night out. “Hip-hop soul” is useful here because the loop and the vocal are doing recognizable, complementary work. It describes an interaction you can actually hear.
 
-The connection worked in several directions. Rap records could make the arrival of a sung hook their most recognizable moment. A group such as Salt-N-Pepa could combine rhythmic delivery, a strong public image, and memorable vocal material without fitting neatly inside a story about one genre replacing another.
+[The sampling feature](/stories/sampling-a-record-collection/) follows those source recordings directly. You do not need to know the older records to enjoy the songs; knowing them reveals another set of choices.
 
-The interesting question is what happens during the handoff. Does the chorus smooth out the verse, answer it, interrupt it, or give it another emotional interpretation? The shared radio landscape offered many different answers.
+## Erykah Badu: let the phrase take its time
 
-## The decade kept widening
+Baduizm (1997) invites a different kind of attention. Start with “On & On.” Listen for the conversational ease of the lead and the space between phrases. The groove gives the singer room to sit inside it rather than rush toward the next obvious climax.
 
-D’Angelo’s Brown Sugar in 1995, Erykah Badu’s Baduizm in 1997, and the other records gathered around the term neo-soul added further ways to connect older musical traditions with contemporary recording. The label can be a useful entrance, provided it does not make a varied set of voices sound like a single formula.
+The “neo-soul” label placed artists in a shared conversation about older soul, live-feeling grooves and contemporary songwriting. It should not flatten their differences. Badu, D’Angelo and Maxwell do not become the same performer because a shop files them near one another.
 
-Earlier group harmonies did not disappear when another approach became visible. Different kinds of records continued to coexist, and a listener could move between them within the same afternoon.
+## Make a comparison you can repeat
 
-## Start with two records, then keep going
+| Recording | Follow this element | Ask yourself |
+| --- | --- | --- |
+| TLC, “Waterfalls” | The transition into Left Eye’s rap | How does a new delivery change the song’s emphasis? |
+| Mary J. Blige, “My Life” | The lead against the recurring accompaniment | Where does repetition give the singer freedom? |
+| Erykah Badu, “On & On” | The placement and spacing of phrases | What happens when the vocal does not hurry? |
 
-A rewarding comparison does not require a ranking. Choose two albums from the same year and listen to how their voices sit against the rhythm. Then compare a group with a solo performer, or an intimate recording with a song built for a crowded chorus.
-
-The breadth is the story. The decade’s R&B had room for polished ensembles, conversational voices, dramatic performances, and unruly personalities. Its recordings become more interesting when those differences stay audible, rather than disappearing behind a convenient list of familiar names.
+These are editorial listening prompts, not technical transcriptions. Use the released recordings as the exhibit. A genre history should leave you wanting to hear a particular voice again, not merely remember that several important albums existed.

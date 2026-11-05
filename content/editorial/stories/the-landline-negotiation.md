@@ -1,12 +1,10 @@
-<!-- story: {"id": "the-landline-negotiation", "title": "Calling a friend meant calling a household", "category": "culture", "summary": "The landline made conversation depend on other people’s rooms, routines and willingness to pass the phone.", "art": "answering-machine", "sourceIds": ["chm-net", "new-aol-flat"], "objectIds": ["answering-machine", "pager", "family-pc", "nokia-3210"], "topics": ["mall", "online", "portable"], "relatedStoryIds": ["aol-flat-rate", "the-family-computer"], "publishedAt": "2026-10-01", "updatedAt": "2026-10-29"} -->
+<!-- story: {"id": "the-landline-negotiation", "title": "Calling a friend meant calling a household", "category": "culture", "summary": "The landline made conversation depend on other people’s rooms, routines and willingness to pass the phone.", "art": "answering-machine", "sourceIds": ["chm-net", "new-aol-flat"], "objectIds": ["answering-machine", "pager", "family-pc"], "topics": ["mall", "online", "portable"], "relatedStoryIds": ["aol-flat-rate"], "publishedAt": "2026-10-01", "updatedAt": "2026-11-05"} -->
 
 ## Calling a friend meant reaching a household
 
 The first person to answer might be a parent. Before speaking to the friend you intended to call, you needed to introduce yourself, ask whether they were there, and wait while somebody looked for them. A telephone number pointed toward a place before it pointed toward one particular person.
 
 That small sequence gave a call a social setting. A voice from the kitchen could announce who was wanted. An extension in another room could make privacy uncertain. The conversation began inside somebody else’s household routine before it became the exchange the caller had planned.
-
-## The room decided how private it felt
 
 A cord placed limits on where the handset could go. A kitchen phone made a conversation available to anyone nearby; a longer lead might make a hallway or corner usable. A cordless handset changed the movement without making the entire household disappear.
 
@@ -22,16 +20,18 @@ The model pictured here uses cassette media. Listening, replaying, and preservin
 
 The greeting itself could become a performance. A practical announcement, a joke, or several family members attempting a shared message supplied a public version of a household that callers might hear repeatedly.
 
-## The computer wanted the line too
+## Three interruptions, three different mechanisms
 
-Dial-up internet gave the telephone connection another job. The computer’s modem used the line to reach an online service or internet provider. In a home with a single line, going online could make ordinary calling unavailable while the session continued.
+| What happens | The mechanism | What the household notices |
+| --- | --- | --- |
+| Somebody picks up another extension | Two instruments can share the same line. | The conversation gains an unintended listener or an extra voice. |
+| Call waiting signals an incoming call | A subscribed network service alerts the occupied line. | The person already talking has a decision to make; modem sessions may also be disturbed. |
+| An answering machine takes the call | The machine plays its outgoing message and records the caller. | The caller talks to a recording before anybody returns home. |
 
-That created another form of negotiation. A download wanted time; somebody else expected a call. Flat-rate internet pricing could reduce attention to the online clock while leaving this physical conflict entirely in place. The cost of a minute and the availability of a telephone were different problems.
+These are separate functions, not features every phone automatically provided. A second handset does not create a second independent line.
 
-Pagers and mobile phones loosened other parts of the arrangement. A pager could signal that someone wanted a response without supplying the same kind of two-way voice conversation. A mobile phone could move the call away from the fixed household location, depending on access, coverage, and cost.
+## The modem makes the old question louder
 
-## A familiar number held a small social map
+Going online through dial-up uses the line for a data call. On a single-line household connection, the familiar demand to finish a call becomes a demand to finish a session. A long download has no special claim on somebody waiting to make an ordinary call.
 
-Knowing a friend’s number could also mean knowing the people likely to answer, the time it was acceptable to call, and the way to ask for them. The relationship included the route to the conversation.
-
-The landline’s memorable quality was not only its cord or sound. It made availability, privacy, and interruption things people negotiated through shared rooms. A call was an event that entered a household, and the household helped decide what happened next.
+The [answering machine](/archive/objects/answering-machine/) has its own small choreography: record a greeting, listen to messages, decide what to keep. A [pager](/archive/objects/pager/) moves the alert into a pocket but may still send its owner looking for a telephone. Reachability changes one object at a time.

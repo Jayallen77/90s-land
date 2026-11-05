@@ -598,11 +598,11 @@
       "tech"
     ],
     "artifactIds": [
-      "first-website",
-      "mosaic-browser",
       "geocities-homepage",
+      "visitor-counter",
+      "guestbook",
       "webring-bar",
-      "guestbook"
+      "aim-away-message"
     ],
     "randomEligible": false
   },
@@ -634,7 +634,7 @@
     ],
     "artifactIds": [
       "crt-television",
-      "discman"
+      "family-pc"
     ],
     "randomEligible": false
   },
@@ -665,9 +665,8 @@
     ],
     "artifactIds": [
       "mpc-2000",
-      "technics-turntable",
       "dat-recorder",
-      "cassette"
+      "technics-turntable"
     ],
     "randomEligible": false
   },
@@ -683,8 +682,7 @@
     "artifactIds": [
       "technics-turntable",
       "cassette",
-      "discman",
-      "mpc-2000"
+      "discman"
     ],
     "randomEligible": false
   },
@@ -699,9 +697,8 @@
     ],
     "artifactIds": [
       "mosaic-browser",
-      "first-website",
-      "windows-95-start",
-      "family-pc"
+      "family-pc",
+      "geocities-homepage"
     ],
     "randomEligible": false
   },
@@ -732,6 +729,7 @@
       "games"
     ],
     "artifactIds": [
+      "memory-card",
       "playstation-hardware"
     ],
     "randomEligible": false
@@ -763,8 +761,9 @@
     ],
     "artifactIds": [
       "cassette",
-      "cdr-spindle",
-      "discman"
+      "walkman",
+      "discman",
+      "cdr-spindle"
     ],
     "randomEligible": false
   },
@@ -779,9 +778,7 @@
     ],
     "artifactIds": [
       "dr-martens",
-      "vans-shoes",
-      "cassette",
-      "discman"
+      "vans-shoes"
     ],
     "randomEligible": false
   },
@@ -796,9 +793,7 @@
     ],
     "artifactIds": [
       "game-gear",
-      "game-boy-color",
-      "snes",
-      "walkman"
+      "game-boy-color"
     ],
     "randomEligible": false
   },
@@ -811,10 +806,7 @@
     "tags": [
       "culture"
     ],
-    "artifactIds": [
-      "talkboy",
-      "beanie-baby"
-    ],
+    "artifactIds": [],
     "randomEligible": false
   },
   {
@@ -843,8 +835,7 @@
     ],
     "artifactIds": [
       "family-pc",
-      "doom-disks",
-      "cdr-spindle"
+      "doom-disks"
     ],
     "randomEligible": false
   },
@@ -858,8 +849,7 @@
       "culture"
     ],
     "artifactIds": [
-      "arcade-cabinet",
-      "blockbuster-store"
+      "arcade-cabinet"
     ],
     "randomEligible": false
   },
@@ -875,8 +865,7 @@
     "artifactIds": [
       "minidisc",
       "cassette",
-      "discman",
-      "walkman"
+      "discman"
     ],
     "randomEligible": false
   },
@@ -901,13 +890,13 @@
     "type": "stories",
     "path": "/stories/rnb-had-many-voices/",
     "title": "90s R&B had room for many kinds of voice",
-    "summary": "From vocal groups to hip-hop soul and the records gathered under neo-soul, the decade’s R&B story keeps widening.",
+    "summary": "TLC, Mary J. Blige and Erykah Badu: a listening guide to the voices, grooves and contrasts inside 90s R&B.",
     "tags": [
       "music"
     ],
     "artifactIds": [
-      "discman",
       "cassette",
+      "discman",
       "jewel-case"
     ],
     "randomEligible": false
@@ -938,9 +927,7 @@
     ],
     "artifactIds": [
       "mpc-2000",
-      "technics-turntable",
-      "cassette",
-      "jewel-case"
+      "technics-turntable"
     ],
     "randomEligible": false
   },
@@ -970,9 +957,7 @@
     "tags": [
       "culture"
     ],
-    "artifactIds": [
-      "vans-shoes"
-    ],
+    "artifactIds": [],
     "randomEligible": false
   },
   {
@@ -1000,9 +985,10 @@
       "games"
     ],
     "artifactIds": [
+      "snes",
       "genesis-controller",
-      "playstation-hardware",
-      "n64-controller"
+      "n64-controller",
+      "playstation-hardware"
     ],
     "randomEligible": false
   },
@@ -1018,8 +1004,7 @@
     "artifactIds": [
       "playstation-hardware",
       "memory-card",
-      "jewel-case",
-      "crt-television"
+      "jewel-case"
     ],
     "randomEligible": false
   },
@@ -1035,7 +1020,8 @@
     "artifactIds": [
       "family-pc",
       "windows-3",
-      "cdr-spindle"
+      "windows-95-start",
+      "floppy-disk"
     ],
     "randomEligible": false
   },
@@ -1049,8 +1035,8 @@
       "music"
     ],
     "artifactIds": [
-      "cassette",
-      "discman"
+      "technics-turntable",
+      "dat-recorder"
     ],
     "randomEligible": false
   },
@@ -1066,8 +1052,7 @@
     "artifactIds": [
       "answering-machine",
       "pager",
-      "family-pc",
-      "nokia-3210"
+      "family-pc"
     ],
     "randomEligible": false
   },
@@ -1098,8 +1083,9 @@
       "games"
     ],
     "artifactIds": [
-      "genesis-controller",
-      "doom-disks"
+      "game-shark",
+      "doom-disks",
+      "genesis-controller"
     ],
     "randomEligible": false
   },
@@ -1115,7 +1101,6 @@
     "artifactIds": [
       "webtv",
       "crt-television",
-      "family-pc",
       "answering-machine"
     ],
     "randomEligible": false
@@ -1147,7 +1132,8 @@
     "artifactIds": [
       "bondi-imac",
       "game-boy-color",
-      "transparent-n64-controller"
+      "transparent-n64-controller",
+      "floppy-disk"
     ],
     "randomEligible": false
   },
@@ -1251,7 +1237,7 @@
     "id": "object-guestbook",
     "type": "objects",
     "path": "/archive/objects/guestbook/",
-    "title": "Guestbook with six handles and one typo",
+    "title": "Guestbook: handles and hellos",
     "summary": "Names, timestamps, and one misspelling could make a personal page feel occupied.",
     "tags": [
       "guestbook",

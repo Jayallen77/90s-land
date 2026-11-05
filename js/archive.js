@@ -1,5 +1,5 @@
 import { MIN_DATE, MAX_DATE, inDecade, clampDecade, shiftDays, changeYear, historicalDate, weekBounds, eventsInWeek, formatDate, parseDate } from './date-utils.js';
-import { weekPicks } from './discovery.js?v=launch-phase3';
+import { weekPicks } from './discovery.js?v=deeper-20261105';
 
 const CATEGORIES = {music:'Music', 'movies-tv':'Movies & TV', games:'Games', tech:'Tech', culture:'Culture', news:'World news'};
 const PAGE_SIZE = 12;
@@ -175,9 +175,10 @@ export async function initializeWeek() {
     home.querySelector('.ed-date').textContent = `${formatDate(start)} – ${formatDate(end)}`;
     home.querySelector('.ed-cta').href = '/this-week/';
     const picks = weekPicks(eventsInWeek(catalog.events,today));
+    const fallback=catalog.reading?.[today.slice(0,4)]?.[0];
     const copy = home.querySelector('[data-home-week-copy]');
     const note = home.querySelector('.ed-week-note');
-    if (copy) copy.textContent = picks[0]?.summary || 'Turn back the clock. Explore the week’s dates, the decade’s stories, and the objects you remember.';
+    if (copy) copy.textContent = picks[0]?.summary || (fallback ? `From the year’s collection: ${fallback.summary}` : 'Explore stories and objects from the selected year.');
     const art = home.querySelector('.ed-week-art');
     if (picks[0]?.image && art) {
       const image = element('img');
@@ -185,8 +186,8 @@ export async function initializeWeek() {
       art.replaceChildren(image);
     }
     note.replaceChildren();
-    const link = element('a','',picks[0]?.title || 'Open the historical week →');
-    link.href = picks[0]?.url || '/this-week/'; note.append(link);
+    const link = element('a','',picks[0]?.title || fallback?.title || 'Open the historical week →');
+    link.href = picks[0]?.url || fallback?.url || '/this-week/'; note.append(link);
   }
   renderHome();
   let refreshWeek = () => {};
@@ -214,6 +215,14 @@ export async function initializeWeek() {
     input.value = date; year.value = date.slice(0,4);
     root.querySelector('[data-week-count]').textContent = `${events.length} sourced ${events.length===1 ? 'entry' : 'entries'}`;
     root.querySelector('[data-week-days]').replaceChildren(renderWeekDays(start,events));
+    root.querySelectorAll('.ar-day-empty').forEach(day=>{day.hidden=!root.querySelector('[data-show-empty-days]').checked;});
+    const reading=root.querySelector('[data-week-reading]');
+    reading.hidden=events.length>=3;
+    reading.querySelector('[data-reading-title]').textContent=`From the ${date.slice(0,4)} collection`;
+    reading.querySelector('[data-reading-links]').replaceChildren(...(catalog.reading?.[date.slice(0,4)]||[]).map(item=>{
+      const a=element('a','ar-related');a.href=item.url;
+      a.append(element('span','ar-meta',item.kind),element('h3','',item.title),element('p','',item.summary));return a;
+    }));
     const picks = weekPicks(events);
     renderWeekLead(root.querySelector('[data-week-lead]'),picks[0]);
     root.querySelector('[data-week-picks]').replaceChildren(...picks.slice(1).map(e => eventLink(e,true)));
@@ -241,6 +250,7 @@ export async function initializeWeek() {
   }
   function select(value) { if (inDecade(value)) { date=value; custom=true; render(true); } }
   input.addEventListener('change', () => { if (inDecade(input.value)) select(input.value); else input.value=date; });
+  root.querySelector('[data-show-empty-days]').addEventListener('change',()=>{root.querySelectorAll('.ar-day-empty').forEach(day=>{day.hidden=!root.querySelector('[data-show-empty-days]').checked;});});
   year.addEventListener('change', () => select(changeYear(date,Number(year.value))));
   root.querySelector('[data-week-prev]').addEventListener('click', () => select(clampDecade(shiftDays(date,-7))));
   root.querySelector('[data-week-next]').addEventListener('click', () => select(clampDecade(shiftDays(date,7))));

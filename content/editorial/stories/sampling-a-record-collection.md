@@ -1,35 +1,33 @@
-<!-- story: {"id": "sampling-a-record-collection", "title": "A record collection could become an instrument", "category": "music", "summary": "Hip-hop sampling turned listening, selection and arrangement into connected forms of musical work.", "art": "mpc-2000", "sourceIds": ["phase2-wu-tang-debut", "new-albums-1991", "new-albums-1994", "new-albums-1996", "polish-mpc-contemporary"], "objectIds": ["mpc-2000", "technics-turntable", "cassette", "jewel-case"], "topics": ["hip-hop", "mixtapes", "rave"], "relatedStoryIds": ["record-store-discovery", "rnb-had-many-voices"], "publishedAt": "2026-10-01", "updatedAt": "2026-10-29"} -->
+<!-- story: {"id": "sampling-a-record-collection", "title": "A record collection could become an instrument", "category": "music", "summary": "Hip-hop sampling turned listening, selection and arrangement into connected forms of musical work.", "art": "mpc-2000", "sourceIds": ["phase2-wu-tang-debut", "new-albums-1991", "new-albums-1994", "new-albums-1996", "polish-mpc-contemporary", "sprint-pete-rock", "sprint-mary-life"], "objectIds": ["mpc-2000", "technics-turntable"], "topics": ["hip-hop", "mixtapes", "rave"], "relatedStoryIds": ["breakbeats-change-the-clock", "record-store-discovery"], "publishedAt": "2026-10-01", "updatedAt": "2026-11-05"} -->
 
-## The record shelf became a set of possibilities
+## Recognize the sound, then follow it home
 
-A sampled sound can arrive with a history and acquire another one. A horn phrase, a drum passage, or a short vocal fragment is lifted into a new arrangement, where its repetition and surroundings change what it does. Recognizing the source can be enjoyable, but identification alone does not explain the new record’s effect.
+A good sample can make the older record sound newly familiar. Hear the horn in Pete Rock & C.L. Smooth’s “They Reminisce Over You (T.R.O.Y.),” then play Tom Scott’s “Today.” Suddenly a passage inside one recording becomes the doorway to another. The pleasure is bigger than solving a quiz. You hear what a producer chose to bring forward.
 
-Hip-hop made this relationship between listening and making especially visible. A record collection could supply more than influences. It could become material, provided someone heard a useful moment, captured it, and found a way to make it work beside other sounds.
+Sampling means working with recorded sound. That can be a drum hit, a sung syllable, a phrase or the texture around a performance. A new musician playing an older composition is doing something different: an interpolation can recall the writing without taking that particular recorded performance.
 
-## Choosing was already part of making
+## Two routes through the record collection
 
-The work began before a sampler’s buttons were pressed. Looking through records, learning an opening, or noticing a few seconds inside a longer performance could all create possibilities for a new arrangement. The collector’s attention and the producer’s attention overlapped without becoming exactly the same activity.
+| Source recording | 1990s recording | A listening task |
+| --- | --- | --- |
+| Tom Scott with the California Dreamers, “Today” | Pete Rock & C.L. Smooth, “They Reminisce Over You (T.R.O.Y.)” (1992) | Follow the horn phrase: a moment in the source becomes a recurring point of return. |
+| Roy Ayers Ubiquity, “Everybody Loves the Sunshine” | Mary J. Blige, “My Life” (1994) | Compare the source’s luminous keyboard atmosphere with the space made for Blige’s lead vocal. |
+| Curtis Mayfield, “You’re So Good to Me” | Mary J. Blige, “Be Happy” (1994) | Listen for the bass material carrying the new song forward. |
 
-A familiar record could contain an overlooked detail. An unfamiliar one might offer a texture that became more recognizable in its new setting than it had been in the original. The value of the search depended on the listener’s ideas as well as on the object found.
+Pete Rock describes discovering Scott’s record in his Bullseye interview. The My Life album notes identify the Ayers and Mayfield relationships. These are documented connections, rather than guesses made because two songs feel alike.
 
-That makes the physical collection relevant. Sleeves, labels, credits, and neighboring records could provide clues about performers and musical connections. The shop and the shelf helped organize a search whose destination was not fully known in advance.
+## The important decision comes after recognition
 
-## A sampler made the decisions playable
+Imagine selecting a phrase and repeating it. Where does it begin? Does the breath before the note stay? Does the last sound spill over the next repetition? A tiny edit can make a loop settle comfortably or pull against the beat. Layer a voice over it and the same fragment starts doing another job.
 
-The Akai MPC2000 in the photograph is a 1997 model from a broader history of sampling equipment. Its pads and controls make the relationship between stored sound and performance tangible. A musician can trigger a fragment, try a different placement, and hear how a sequence changes.
+In “T.R.O.Y.,” C.L. Smooth’s narrative gives the repeating horn a new emotional setting. In “My Life,” Blige can lean into a phrase and leave the accompaniment turning underneath her. Those are listening observations, not claims that a particular pad or preset manufactured the feeling.
 
-The equipment is not an explanation of every recording associated with the decade. Different producers used different machines and methods. Its usefulness here is more specific: it shows how a recorded sound could become something available to arrange, rather than a complete track that could only be played from beginning to end.
+A source list explains the connection. Listening explains why the connection matters. Start with the source, switch to the later track, then go back once more. The old recording has details outside the sampled passage that the new song cannot show you.
 
-Timing remained a creative choice. A fragment could reinforce a rhythm, interrupt it, or suggest another pulse underneath. The same sound might feel settled in one position and unstable in another.
+The next enjoyable purchase might be the record behind the record you already love. Liner credits and producer interviews can turn one album into a listening trail: a jazz arrangement, a soul bass line, a different singer’s phrasing. The act of finding the source does not diminish the later song. It makes the producer’s selection audible.
 
-## Several records offer several ways to hear it
+## The sampler on this page came later
 
-A Tribe Called Quest’s The Low End Theory, released in 1991, and Wu-Tang Clan’s Enter the Wu-Tang (36 Chambers), released in 1993, provide different routes into the period’s sound. Nas’s Illmatic and DJ Shadow’s Endtroducing….. offer further comparisons across the middle of the decade.
+The pictured [Akai MPC2000](/archive/objects/mpc-2000/) arrived in 1997. It combines sampling and sequencing with a bank of playable pads, making it useful for explaining the relationship between captured sound and an arranged beat. It was **not** the machine behind the earlier 1992 and 1994 recordings in the table.
 
-The purpose of putting them together is not to pretend that their production can be described by one machine or one recipe. It is to hear how a selection of recorded material can support different voices, spaces, and kinds of momentum.
-
-## The seam can be part of the pleasure
-
-Sometimes the interest lies in hearing the grain of an older recording inside a newer one. Sometimes the arrangement makes the joining feel almost invisible. Both involve choices about what remains recognizable and what changes its role.
-
-Sampling also carries questions about authorship, permission, and the people whose work remains audible inside another recording. Those questions belong beside the musical curiosity, rather than replacing it. A record collection becomes an instrument through attention: somebody hears a possible future in a sound that already has a past.
+Keeping the chronology straight makes the equipment more interesting. Producers worked with different samplers, memory limits, studios and collaborators. A recognizable box should not become a shortcut that erases those differences.

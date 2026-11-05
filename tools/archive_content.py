@@ -3,6 +3,7 @@ from __future__ import annotations
 import calendar
 import json
 import re
+import article_blocks
 from datetime import datetime
 from zoneinfo import ZoneInfo
 from datetime import date, timedelta
@@ -25,7 +26,7 @@ def load_features(path):
         item=json.loads(match[1]);sections=[]
         for section in re.split(r'^## ',match[2],flags=re.M)[1:]:
             heading,body=section.split('\n',1)
-            sections.append({'heading':heading.strip(),'paragraphs':[p.strip() for p in body.strip().split('\n\n') if p.strip()]})
+            sections.append({'heading':heading.strip(),'paragraphs':[p.strip() for p in body.strip().split('\n\n') if p.strip()], 'blocks':article_blocks.parse(body)})
         item.setdefault('publishedAt','2026-10-01')
         item.update(slug=item['id'],status='published',sections=sections,eventIds=[])
         records.append(item)

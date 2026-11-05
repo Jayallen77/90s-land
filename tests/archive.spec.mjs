@@ -136,7 +136,7 @@ test('search finds dates, regions, accents, stories and object detail records', 
   await page.goto('/archive/objects/n64-controller/');
   await expect(page.locator('[data-artifact-inspect="n64-controller"]')).toBeVisible();
   await page.locator('[data-artifact-inspect="n64-controller"]').click();
-  await expect(page.locator('[data-artifact-inspect="n64-controller"]')).toHaveText('Inspected ✓');
+  await expect(page.locator('[data-artifact-inspect="n64-controller"]')).toHaveText('Collected ✓');
   await page.locator('[data-passport-trigger]').click();
   await expect(page.locator('[data-passport-artifacts]')).toHaveText('1');
 });

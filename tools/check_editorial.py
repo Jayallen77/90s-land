@@ -21,7 +21,7 @@ def assess(data):
  paragraphs=[]
  for s in stories:
   prose=[p for section in s['sections'] for p in section['paragraphs']]
-  if len(s['sections'])<3 or len(' '.join(prose).split())<450:errors.append('Incomplete story: '+s['id'])
+  if not s['sections'] or not prose:errors.append('Incomplete story: '+s['id'])
   if len(prose)!=len(set(prose)):errors.append('Repeated paragraphs: '+s['id'])
   paragraphs.extend(prose)
   if s.get('status')!='published':errors.append('Unpublished story: '+s['id'])

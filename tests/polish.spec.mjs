@@ -31,10 +31,11 @@ test('deep timeline links reveal their entry despite conflicting filters and cal
 
 test('a featured story appears once and consolidated sections are reachable from topics',async({page})=>{
  await page.goto('/zones/culture/');
- await expect(page.locator('#featured-story a[href="/stories/meet-me-at-the-mall/"]')).toHaveCount(1);
- await expect(page.locator('.hub-story-grid a[href="/stories/meet-me-at-the-mall/"]')).toHaveCount(0);
+ await expect(page.locator('#featured-story a[href="/stories/streetwear-the-logo-and-the-voice/"]')).toHaveCount(1);
+ await expect(page.locator('.hub-story-grid a[href="/stories/streetwear-the-logo-and-the-voice/"]')).toHaveCount(0);
  await page.getByRole('link',{name:'Catalogs',exact:true}).click();
- await expect(page).toHaveURL(/#featured-story$/);
+ await expect(page).toHaveURL(/topic=catalogs#section-stories$/);
+ await expect(page.locator('.hub-story-grid a[href="/stories/meet-me-at-the-mall/"]')).toBeVisible();
  await page.getByRole('link',{name:'Sports',exact:true}).click();
  await expect(page).toHaveURL(/#sports-moments$/);
  await expect(page.locator('#sports-moments')).toContainText('WNBA');
@@ -51,7 +52,9 @@ test('every story shares its own lead image and object references do not repeat 
   await expect(page.locator('meta[property="og:image"]')).toHaveAttribute('content',/\/assets\/generated\/share\/story-/);
  }
  await page.goto('/archive/objects/n64-controller/');
- await expect(page.locator('main img')).toHaveCount(2); // Object photo + a different related story.
+ await expect(page.locator('.ar-object-art img')).toHaveCount(1);
+ const src=await page.locator('.ar-object-art img').getAttribute('src');
+ await expect(page.locator(`main img[src="${src}"]`)).toHaveCount(1);
 });
 
 for(const width of [390,1440])test(`${width}px: every collection, year, and utility page is readable`,async({page})=>{

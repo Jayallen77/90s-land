@@ -9,6 +9,7 @@ sys.path.insert(0, str(ROOT / 'tools'))
 import archive_content as archive
 import archive_pages
 import render_site
+from check_launch import audit_copy
 from content_model import Document, plain_text
 
 
@@ -23,7 +24,7 @@ class LaunchPhase1Tests(unittest.TestCase):
         for path, source in render_site.build_outputs().items():
             if path.suffix == '.html':
                 with self.subTest(page=str(path.relative_to(ROOT))):
-                    self.assertIsNone(pattern.search(plain_text(source)))
+                    self.assertIsNone(pattern.search(audit_copy(plain_text(source))))
 
     def test_static_month_empty_states_follow_catalog_counts(self):
         for year in range(1990, 2000):

@@ -1,4 +1,4 @@
-<!-- story: {"id": "bristol-between-the-beats", "title": "Bristol left room between the beats", "category": "music", "summary": "Massive Attack, Portishead and Tricky offer three different ways into a city’s music—and a warning against making one genre name do too much.", "art": "technics-turntable", "sourceIds": ["new-albums-1991", "new-albums-1994", "new-albums-1995", "new-albums-1998", "polish-portishead"], "objectIds": ["technics-turntable", "cassette", "discman", "mpc-2000"], "topics": ["cd", "mixtapes", "rave", "trip-hop"], "relatedStoryIds": ["breakbeats-change-the-clock", "sampling-a-record-collection"], "publishedAt": "2026-10-01", "updatedAt": "2026-10-29"} -->
+<!-- story: {"id": "bristol-between-the-beats", "title": "Bristol left room between the beats", "category": "music", "summary": "Massive Attack, Portishead and Tricky offer three different ways into a city’s music—and a warning against making one genre name do too much.", "art": "technics-turntable", "sourceIds": ["new-albums-1991", "new-albums-1994", "new-albums-1995", "new-albums-1998", "polish-portishead", "sprint-blue-lines", "sprint-dummy", "sprint-tricky"], "objectIds": ["technics-turntable", "cassette", "discman"], "topics": ["cd", "mixtapes", "rave", "trip-hop"], "relatedStoryIds": ["from-mixtape-to-file", "sampling-a-record-collection"], "publishedAt": "2026-10-01", "updatedAt": "2026-11-05"} -->
 
 ## Three albums, three different rooms
 
@@ -20,16 +20,18 @@ Portishead’s Dummy uses another scale. Beth Gibbons’ voice can make the surr
 
 The recording’s grain is part of its presence. A sound can seem worn, distant, or interrupted without becoming incidental background. The production makes attention move between the vocal and the material around it, allowing the same fragment to carry different emotional weight as a song unfolds.
 
-The photograph of Gibbons identifies a later live performance. It belongs to the continuing life of the musician, rather than pretending to document the album’s recording sessions.
-
 ## Maxinquaye refuses to settle
 
 Tricky’s Maxinquaye makes closeness feel less stable again. Voices and textures can seem to lean into one another until the boundary between an intimate sound and an uneasy one becomes difficult to hold. Repetition supplies a structure while the performances disturb its apparent certainty.
 
 Calling all three records trip-hop can help somebody find them on a shelf. It becomes less useful if it encourages the expectation that they will produce the same mood. The similarities provide an entrance; the differences supply the reason to keep listening.
 
-## The story continues after the debut
+## Put three particular tracks beside one another
 
-Massive Attack’s Protection and Mezzanine, released in 1994 and 1998, change the comparison. Portishead’s second album in 1997 does the same. Following a group beyond a famous beginning makes room for its own revisions, rather than freezing it inside the moment that first became familiar.
+| Album | Start here | Listen for |
+| --- | --- | --- |
+| Blue Lines (1991) | “Unfinished Sympathy” | Shara Nelson’s lead against the scale of the strings; then compare the different voices elsewhere on the album. |
+| Dummy (1994) | “Roads” | The exposed opening keyboard and Gibbons’ entrance; notice how long the arrangement lets a phrase hang. |
+| Maxinquaye (1995) | “Black Steel” | Martina Topley-Bird’s voice against the driving guitar arrangement: a useful correction to the idea that every track is a sleepy beat. |
 
-The records traveled through the ordinary equipment and places of the decade: tapes, CDs, shops, radio, and headphones. Their particular sounds did not separate them from that world. They gave it another use. A quiet room, a bus journey, and a club-informed record collection could all become different ways to hear what Bristol had helped make possible.
+These are listening prompts, not interchangeable examples of one preset atmosphere. Try “Sour Times” after “Roads,” then Tricky’s “Overcome” after “Black Steel.” The contrast exists inside each album as well as between the three. A shelf label gets you to the right neighborhood; the records still have different rooms.

@@ -1,0 +1,72 @@
+{
+  "title": "The little things did the work",
+  "intro": "A scrap of paper could change the game. A memory card could hold a summer. This edition follows the small decisions behind the big memories: what to save, what to sample, what to play next.",
+  "feature": "the-secret-button-sequence",
+  "picks": [
+    "fifteen-blocks-of-memory",
+    "rnb-had-many-voices",
+    "same-time-next-week",
+    "streetwear-the-logo-and-the-voice",
+    "the-demo-disc-evening",
+    "from-mixtape-to-file",
+    "the-photo-lab-gap",
+    "bristol-between-the-beats"
+  ],
+  "collections": {
+    "/zones/games/": {
+      "title": "Know the shortcut. Keep the save.",
+      "intro": "Actual codes, identified demo discs and a 15-block budget. Start with what the player can do, then look at the hardware that makes it possible.",
+      "feature": "the-secret-button-sequence"
+    },
+    "/zones/music/": {
+      "title": "Hear the choice inside the record",
+      "intro": "Follow a sample home, isolate a voice and try a timed mix. These guides begin with named recordings and leave you with something specific to hear again.",
+      "feature": "rnb-had-many-voices"
+    },
+    "/zones/tv-movies/": {
+      "title": "Make an appointment with the screen",
+      "intro": "A dated SNICK lineup, a summer release calendar and a rental that still needs returning. Follow the film or show beyond the moment you press play.",
+      "feature": "same-time-next-week"
+    },
+    "/zones/tech-toys/": {
+      "title": "The machine has a particular job",
+      "intro": "Compare two 1996 browsers, edit on the original MiniDisc recorder and check that the file opens at the other desk. The versions are part of the story.",
+      "feature": "browser-wars-at-home"
+    },
+    "/zones/culture/": {
+      "title": "Read the label. Follow the route.",
+      "intro": "FUBU’s founders, an actual mall directory and two different electronic pets. Ordinary choices become more interesting when the names and objects stay visible.",
+      "feature": "streetwear-the-logo-and-the-voice"
+    },
+    "/zones/fashion/": {
+      "title": "The garment carries a reference",
+      "intro": "Start with FUBU’s authorship, compare the grunge runway, then put the clothes back into shops and music. A logo can begin the explanation without finishing it.",
+      "stories": [
+        "streetwear-the-logo-and-the-voice",
+        "grunge-from-rack-to-runway",
+        "meet-me-at-the-mall",
+        "the-flyer-and-the-dancefloor"
+      ]
+    },
+    "/zones/internet-culture/": {
+      "title": "Make a page. Leave a trace.",
+      "intro": "Build the invented homepage, follow its ring and preview a greeting. Then compare the browser, connection and shared desk that made visiting possible.",
+      "stories": [
+        "a-web-you-could-make",
+        "browser-wars-at-home",
+        "aol-flat-rate",
+        "webtv-on-the-sofa"
+      ]
+    },
+    "/zones/transparent-tech/": {
+      "title": "A new shell, a new routine",
+      "intro": "The Bondi blue iMac changes the room and the file handoff. Compare its case with an Atomic Purple handheld and the same controller seen through a different shell.",
+      "stories": [
+        "you-could-see-through-it",
+        "carrying-files-home",
+        "handhelds-and-batteries",
+        "the-family-computer"
+      ]
+    }
+  }
+}

@@ -1,18 +1,10 @@
-<!-- story: {"id": "carrying-files-home", "title": "Before the cloud, you carried the file home", "category": "tech", "summary": "Floppies and Zip disks made the trip between computers part of the work—and compatibility part of every handoff.", "art": "zip-drive", "sourceIds": ["new-chm-1994", "new-chm-1997"], "objectIds": ["zip-drive", "floppy-disk", "cdr-spindle", "family-pc"], "topics": ["pc", "portable", "software"], "relatedStoryIds": ["the-family-computer", "fifteen-blocks-of-memory"], "publishedAt": "2026-10-01", "updatedAt": "2026-10-29"} -->
+<!-- story: {"id": "carrying-files-home", "title": "Before the cloud, you carried the file home", "category": "tech", "summary": "Floppies and Zip disks made the trip between computers part of the work—and compatibility part of every handoff.", "art": "zip-drive", "sourceIds": ["new-chm-1994", "new-chm-1997", "sprint-zip"], "objectIds": ["zip-drive", "floppy-disk", "cdr-spindle", "family-pc"], "topics": ["pc", "portable", "software"], "relatedStoryIds": ["you-could-see-through-it"], "publishedAt": "2026-10-01", "updatedAt": "2026-11-05"} -->
 
 ## Save was not the last instruction
 
 A finished assignment could still need a journey. It had to leave the computer on which it was made, survive the trip, and open on the machine at the other end. The file was digital, but completing the handoff depended on remembering a physical object.
 
 A 3½-inch floppy disk made that object easy to recognize. The rigid shell, sliding metal shutter, and writable label turned storage into something that could sit beside a notebook. A common high-density disk held 1.44 MB, which was plenty for some documents and quickly inadequate for other kinds of work.
-
-## Capacity changed the shape of the task
-
-A text document, a collection of pictures, and an audio recording placed very different demands on removable storage. A disk that carried one project comfortably could fail to hold another. Choosing what to copy became part of finishing the work, rather than something that happened automatically afterward.
-
-Labels were practical aids. A filename might mean very little before the disk was inserted, while a handwritten title could explain what was inside. Revised versions created another problem: which disk held the final copy, and was the file with “final” in its name actually the newest one?
-
-The small object also concentrated the risk of forgetting. A successful save did not help if the disk stayed beside the home computer while its owner went to school. The routine included checking the drive, checking the bag, and hoping that the destination machine would cooperate.
 
 ## Zip offered a larger container
 
@@ -22,14 +14,21 @@ The extra capacity did not solve compatibility. A Zip disk was useful only where
 
 That made collaboration partly a conversation about hardware. The same file could be easy to move between two well-equipped desks and awkward to deliver somewhere else. A better storage medium at home did not automatically become a better delivery medium everywhere.
 
-## CDs brought a different kind of preparation
+## The assignment that fits, until it does not
+
+Consider an invented school project: a 900 KB text document, then an exported version with several large pictures. On a common high-density PC 3½-inch floppy labeled 1.44 MB, the first file has room; a 3 MB picture-heavy version does not. Splitting an archive is possible only if the destination has the software to put it back together.
+
+An original **100 MB Zip** cartridge changes the size problem, provided both ends have a compatible Zip drive. Its similar outline does not make it a floppy you can push into an ordinary diskette slot. A CD-R adds another workflow: write a disc, finalize it appropriately and check the reader at the destination.
 
 CD-R offered another way to carry files as computer drives and recording equipment became available. Writing a disc required software and a deliberate recording step. An ordinary recordable CD was not simply a larger floppy that could be changed in exactly the same way.
 
 The distinctions were easy to learn through inconvenience. A recipient needed a compatible drive, the files needed to be arranged correctly, and the person making the disc wanted confidence that the recording had finished successfully. The label was still useful after all the work on screen was complete.
 
-## A file could have a place in the room
+## Before you put it in the bag
 
-Removable media gave digital work visible locations. A document might be on the disk in the desk drawer, the Zip cartridge in a bag, or the CD beside the printer. Those locations could be reassuring and troublesome at the same time.
+- Open the copied file from the removable medium, not just the original on the hard drive.
+- Check the receiving program’s file-format support. A disk can fit perfectly while the document still refuses to open.
+- Include the pictures the document depends on, or make a self-contained export where appropriate.
+- Keep a second copy until the handoff has worked.
 
-The objects show a period when moving information often meant moving a container. The file’s journey crossed not only software formats but pockets, classrooms, offices, and another person’s desk. Remembering the work sometimes means remembering the exact disk that carried it home.
+This is an illustrative transfer checklist rather than a claim about a particular classroom. The [Zip drive](/archive/objects/zip-drive/) solves one problem—how much you can carry—while leaving the old compatibility question waiting at the other desk.

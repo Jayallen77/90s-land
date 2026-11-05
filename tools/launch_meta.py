@@ -77,7 +77,7 @@ def social_spec(route):
     visual = None
     if kind == 'stories' and s['id'] in archive.STORY_MEDIA:
         m = archive.STORY_MEDIA[s['id']]
-        visual = {'src':m['src'],'credit':m['credit'],'license':m['license'],'label':'STORY PHOTOGRAPH'}
+        visual = {'src':m['src'],'credit':m['credit'],'license':m['license'],'label':'EXPLANATORY DIAGRAM' if m.get('visualType')=='explanatory-diagram' else 'STORY PHOTOGRAPH'}
     elif art in archive.HEROES:
         visual = {'src':f'/assets/editorial/{art}-hero-1440.webp', 'credit':'Original AI-generated editorial illustration · OpenAI', 'license':'Original artwork', 'label':'EDITORIAL ILLUSTRATION'}
     elif art in objects and objects[art]['media']['kind'] == 'image':

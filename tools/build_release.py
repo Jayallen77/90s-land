@@ -27,7 +27,7 @@ ROUTE_PREFIXES = {'archive', 'credits', 'events', 'guestbook', 'search', 'sitema
                   'stories', 'surprise', 'this-week', 'timeline', 'tours', 'webring', 'zones'}
 JS_FILES = {f'js/{name}.js' for name in (
     'announce', 'app', 'archive', 'date-utils', 'editorial', 'guestbook', 'hubs',
-    'navigation', 'pagination', 'passport', 'resources', 'search', 'storage', 'surprise', 'tour', 'discovery')}
+    'navigation', 'pagination', 'passport', 'resources', 'search', 'storage', 'surprise', 'tour', 'discovery', 'exhibits', 'search-matching')}
 RUNTIME_FILES = {'assets/runtime/week.json', 'assets/runtime/surprise.json'}
 MEDIA_TYPES = {'.png', '.jpg', '.jpeg', '.webp', '.avif', '.svg', '.gif', '.ico'}
 FONT_LICENSES = {'OFL-Press-Start-2P.txt', 'OFL-Space-Mono.txt', 'OFL-barlow.txt',
@@ -202,10 +202,13 @@ def verify_runtime_data(web, schema=3):
         data = json.loads(week.read_text())
         fields = {'id', 'title', 'date', 'category', 'region', 'summary', 'url', 'image'} | ({'theme','defining'} if schema>=3 else set())
         image_fields = {'src', 'alt', 'width', 'height', 'srcset', 'sizes'}
-        if set(data) != {'events'} or any(set(event) != fields or
+        if set(data) not in ({'events'}, {'events','reading'}) or any(set(event) != fields or
                 (event['image'] is not None and not set(event['image']).issubset(image_fields))
                 for event in data['events']):
             raise ValueError('Unexpected fields in public week data')
+        if 'reading' in data:
+            if set(data['reading']) != {str(y) for y in range(1990,2000)} or any(set(row) != {'title','url','summary','kind'} for rows in data['reading'].values() for row in rows):
+                raise ValueError('Unexpected fields in public reading data')
 
 
 def verify(directory):

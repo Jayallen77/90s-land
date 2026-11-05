@@ -48,8 +48,8 @@
         ],
         "curatorText": "Choose a background. Add a title that is probably too big. A personal homepage gave its maker small decisions to make visible; GeoCities supplied neighborhoods in which those pages could sit.",
         "detail": "Try the homepage exhibit, then follow the directory object to see how a person might find a page like yours.",
-        "exhibitHref": "/zones/internet-culture/#artifact-geocities-homepage",
-        "exhibitLabel": "Enter the handmade-web room",
+        "exhibitHref": "/archive/objects/geocities-homepage/",
+        "exhibitLabel": "Decorate the homepage exhibit",
         "interaction": "homepage-builder",
         "storyId": "a-web-you-could-make",
         "eventId": null
@@ -64,9 +64,9 @@
           "webring-bar"
         ],
         "curatorText": "The counter went up by one. A visitor wrote hello in the guestbook. The Webring bar offered a next stop chosen by another site owner. Each object left a different trace of a visit.",
-        "detail": "Inspect the labels, then try the guestbook preview. The preview is temporary; it is not a public message board.",
-        "exhibitHref": "/zones/internet-culture/#artifact-webring-bar",
-        "exhibitLabel": "Inspect the social-web objects",
+        "detail": "Try the guestbook, simulated counter and ring from their object files. Each demonstrates a different trace of a visit.",
+        "exhibitHref": "/archive/objects/webring-bar/",
+        "exhibitLabel": "Try the webring exhibit",
         "storyId": "a-web-you-could-make",
         "eventId": null
       },
@@ -80,8 +80,8 @@
         ],
         "curatorText": "The name you wanted was taken. Add a number, choose an away message, and decide whether that lyric is too dramatic. A buddy list could turn the shared PC into a place your friends recognized.",
         "detail": "The pager and away message solve different versions of the same question: can somebody reach you right now?",
-        "exhibitHref": "/zones/internet-culture/#artifact-aim-away-message",
-        "exhibitLabel": "Read the AIM identity exhibit",
+        "exhibitHref": "/archive/objects/aim-away-message/",
+        "exhibitLabel": "Write an away-message preview",
         "storyId": "a-web-you-could-make",
         "eventId": null
       },

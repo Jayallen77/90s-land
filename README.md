@@ -61,6 +61,7 @@ old page layouts or duplicate prose.
 - [Phase 1 report and review queue](reports/PHASE_1_MIGRATION.md)
 - [Import schemas and preservation contract](docs/CONTENT_MIGRATION.md)
 - [Approved decisions and remaining phases](docs/REBUILD_HANDOFF.md)
+- [Deeper stories and finished exhibits: implementation and QA](reports/deeper-sprint/README.md)
 - [Phase 2 design system](docs/design/PHASE_2.md)
 - [Phase 2 verification](reports/PHASE_2_QA.md)
 - [Phase 3 authoring and behavior](docs/PHASE_3.md)

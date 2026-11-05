@@ -46,31 +46,36 @@ def chart(category):
  return panel(ch['title'],f'<p class="hub-period">{ed.esc(ch["period"])}</p><ol class="hub-chart">{rows}</ol><p class="hub-source"><a href="{ed.esc(ch["sourceUrl"])}">{ed.esc(ch["sourceLabel"])} ↗</a></p><p class="hub-footnote">{ed.esc(ch["note"])}</p>','trophy')
 
 
-def object_tile(id,title=None):
+def object_tile(id,title=None,used_media=()):
  a=ed.ARTIFACTS[id]
+ if a['media'].get('src') in used_media:
+  return f'<a class="ed-tile" href="{model.object_url(a)}"><div class="ed-tile-copy"><span class="ed-badge">OBJECT FILE</span><h3>{ed.esc(title or a["title"])}</h3><p>{ed.esc(a["curatorNote"])}</p></div></a>'
  return ed.tile(title or a['title'],model.object_url(a),id,a['label'])
 
 
 def hub(route):
  cat,art,title,subtitle,summary,feature=HUBS[route['path']]
+ edition=ed.EDITION['collections'][route['path']];feature=edition['feature']
  stories=sorted([s for s in model.STORIES if s['category']==cat],key=lambda s:s.get('publishedAt',''),reverse=True)
  remaining=[s for s in stories if s['id']!=feature]
  destinations={'sports':'#sports-moments'} if cat=='culture' else {}
  for _,topic in TOPICS.get(cat,[]):
   if topic!='all' and not any(topic in s.get('topics',[]) for s in remaining) and topic in story(feature).get('topics',[]):destinations[topic]='#featured-story'
  top=hero(art,title,subtitle,summary, '#game-archive' if cat=='games' else '#section-stories', 'Explore the era' if cat=='games' else 'Explore the stories')
+ top+=f'<section class="ed-panel ed-edition"><h2>{ed.esc(edition["title"])}</h2><p>{ed.esc(edition["intro"])}</p></section>'
  top+=rail(GENRES,'genre','game-archive','Game genres') if cat=='games' else rail(TOPICS[cat],'topic','section-stories',model.CATEGORIES[cat]+' topics',destinations)
  feature_panel=panel('Featured story',story_tile(story(feature))).replace('<section ', '<section id="featured-story" ',1)
  events=[e for e in model.EVENTS if e['category']==cat]
  if cat in MODULES['charts']:middle=chart(cat)
  else:
-  picks=[s for s in stories if s['id']!=feature][:5]
-  links=''.join(f'<a class="hub-spotlight" href="{model.story_url(s)}"><span>{ed.icon("arrow")}</span><span><strong>{ed.esc(s["title"])}</strong><small>{ed.esc(s["summary"])}</small></span></a>' for s in picks)
-  middle=panel({'games':'Five ways into the era','tech':'The next big thing','culture':'Everyday touchstones'}[cat],links,'bolt')
- objects={'games':['playstation-hardware','memory-card','snes','game-gear'],'music':['technics-turntable','tb-303','korg-m1','dat-recorder'],'movies-tv':['vhs-tape','quickcam','talkboy','jewel-case'],'tech':['palm-pilot','quickcam','powerbook','newton'],'culture':['beanie-baby','pogs','super-soaker','walkman']}[cat]
+  ids={'games':['memory-card','game-shark','n64-controller'],'tech':['zip-drive','discman','minidisc'],'culture':['dr-martens','vans-shoes','guestbook']}[cat]
+  picks=[ed.ARTIFACTS[id] for id in ids]
+  links=''.join(f'<a class="hub-spotlight" href="{model.object_url(a)}"><span>{ed.icon("arrow")}</span><span><strong>{ed.esc(a["title"])}</strong><small>{ed.esc(a["curatorNote"])}</small></span></a>' for a in picks)
+  middle=panel('Open the object file',links,'bolt')
+ objects={'games':['playstation-hardware','memory-card','snes','game-gear'],'music':['technics-turntable','tb-303','korg-m1','dat-recorder'],'movies-tv':['vhs-tape','crt-television','blockbuster-store','answering-machine'],'tech':['palm-pilot','quickcam','powerbook','newton'],'culture':['beanie-baby','pogs','super-soaker','walkman']}[cat]
  if cat=='games':
   browse=''.join(ed.tile(t,f'?platform={v}#game-archive',a,sub) for t,v,a,sub in [('Console games','consoles','playstation-hardware','From cartridges to discs.'),('PC games','pc','family-pc','The desk becomes an arena.'),('Arcade games','arcade','arcade-cabinet','Quarter up. You’re next.'),('Handheld games','handhelds','game-boy-color','A world in your pocket.')])
- else: browse=''.join(object_tile(id) for id in objects)
+ else: browse=''.join(object_tile(id,used_media={model.STORY_MEDIA[s['id']]['src'] for s in stories}) for id in objects)
  browse_panel=panel('Browse by platform' if cat=='games' else 'From the collection','<div class="ed-two-up hub-objects">'+browse+'</div>','folder')
  facts=f'<a href="#section-stories"><strong>{len(stories):02}</strong><span>Complete stories<br /><small>Objects, scenes & everyday rituals</small></span></a><a href="/events/?category={cat}"><strong>{len(events)}</strong><span>Dated entries<br /><small>Regional notes & source links</small></span></a><a href="/timeline/"><strong>10</strong><span>Years to explore<br /><small>1990 through 1999</small></span></a><a href="/credits/"><strong>↗</strong><span>Know the source<br /><small>Photo credits & original art</small></span></a>'
  top+=f'<div class="hub-lead-grid">{feature_panel}{middle}{browse_panel}{panel("At a glance",f"<div class=hub-facts>{facts}</div>","bolt")}</div>'

@@ -1,9 +1,9 @@
 import { announce } from "./announce.js";
 
 export function initializeGuestbook() {
-  const form = document.querySelector("[data-guestbook-form]");
-  const preview = document.querySelector("[data-guestbook-preview]");
-  if (!form || !preview) return;
+  document.querySelectorAll('[data-guestbook-form]').forEach(form=>{
+  const preview = form.querySelector('[data-guestbook-preview]') || form.parentElement.querySelector('[data-guestbook-preview]');
+  if (!preview) return;
 
   form.addEventListener("submit", (event) => {
     event.preventDefault();
@@ -20,5 +20,6 @@ export function initializeGuestbook() {
     preview.append(heading, copy);
     preview.hidden = false;
     announce("Guestbook preview updated. Nothing was saved or sent.");
+  });
   });
 }

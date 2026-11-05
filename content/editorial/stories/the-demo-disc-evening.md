@@ -1,31 +1,38 @@
-<!-- story: {"id": "the-demo-disc-evening", "title": "A demo disc could take over an evening", "category": "games", "summary": "A magazine-sized sample became a playable collection: short levels, repeated discoveries and games that existed as possibilities.", "art": "playstation-hardware", "sourceIds": ["new-sony-history", "polish-ps-underground", "polish-ps-history"], "objectIds": ["playstation-hardware", "memory-card", "jewel-case", "crt-television"], "topics": ["action", "consoles", "racing"], "relatedStoryIds": ["the-console-war-couch", "fifteen-blocks-of-memory"], "publishedAt": "2026-10-01", "updatedAt": "2026-10-29"} -->
+<!-- story: {"id": "the-demo-disc-evening", "title": "A demo disc could take over an evening", "category": "games", "summary": "A magazine-sized sample became a playable collection: short levels, repeated discoveries and games that existed as possibilities.", "art": "playstation-hardware", "sourceIds": ["new-sony-history", "polish-ps-underground", "polish-ps-history", "sprint-underground-contents", "sprint-jampack"], "objectIds": ["playstation-hardware", "memory-card", "jewel-case"], "topics": ["action", "consoles", "racing"], "relatedStoryIds": ["fifteen-blocks-of-memory"], "publishedAt": "2026-10-01", "updatedAt": "2026-11-05"} -->
 
-## Several beginnings on one disc
+## A whole evening hiding in a sample
 
-A demo disc could provide an evening’s entertainment without containing a complete game. One racing course, a short platform level, and a small selection of fighters were enough to become familiar. The limits were obvious, but they did not prevent a player from returning to the same sample until its corners felt like home.
+A demo could end just as you learned how to play it. That sounds like a bad deal until you remember the other bargain: several unfamiliar games, already in the house, on a disc you could restart as often as you liked. The menu became a collection of small appointments. One more race. One more attempt. Then somebody else could choose.
 
-On the original PlayStation, CDs supplied a practical way to bundle those introductions. Different discs reached different markets through consoles, magazines, shops, and promotions. Sony’s PlayStation Underground became one American example: a disc-based video magazine and demo series that mixed playable material with information about the machine’s growing world.
+The editions matter. “That PlayStation demo” can mean a European console pack-in, a magazine cover disc or an American subscription issue. Their titles and contents changed. Here are two identified discs from **PlayStation Underground issue 1.1**, a US two-disc set from 1997, carrying SCUS-94161 and mastering identifiers PSRM-006590 and PSRM-006600.
 
-## The sample became a game in its own right
+## Open the magazine disc
 
-A short demo encouraged a peculiar kind of mastery. You could improve a time on the only available course, search the edge of a level for something missed, or replay the beginning of a story whose continuation remained out of reach. The absence of the full game made the available part more important.
+Disc one behaved like a magazine you operated with a controller. Its Vault included Twisted Metal 2, Cool Boarders, Jet Moto and NFL GameDay material. Tech Q+A sat beside a David Jaffe interview, behind-the-scenes features and a Code Book. The editorial mixture is the point: playing and being sold the next game occupied neighboring menu items.
 
-That experience could survive the eventual purchase. The opening might be instantly familiar while everything after the demo’s stopping point felt new. A game could have two beginnings: the first encounter in a magazine sample, then the later moment when the limit finally disappeared.
+The Download Station offered developer-created Carnage Heart data to copy to a memory card. “Download” here meant transferring data **from a physical disc to local storage**, not fetching a file from the internet. That small distinction tells you a great deal about the hardware’s world.
 
-Not all demos represented their finished games in the same way. A sample might select an especially striking section, restrict the available options, or reflect work still in progress. Its job was to introduce and persuade, which made it a particular kind of encounter rather than a miniature guarantee of the whole product.
+## Then change discs
 
-## A magazine could continue on the television
+| Issue 1.1, disc two menu | Identified contents | How to read it |
+| --- | --- | --- |
+| In Stores Now | Carnage Heart; Tomb Raider; MechWarrior 2; Spider; Rage Racer | Samples of games being sold, gathered under one menu heading. |
+| “Coming Soon” | Oddworld: Abe’s Oddysee; The Lost World: Jurassic Park | The Lost World entry is a video preview, not a playable demo. |
 
-A cover-mounted disc gave printed coverage another dimension. Screenshots showed a possibility; putting the disc in the console let the player test its movement, sound, and pacing. Reading and playing could alternate during the same evening.
+The preserved packaging and menu screens are the evidence for this contents list. They are more useful than treating every game advertised in an issue as playable. [Inspect the menus](https://www.game-rave.com/?p=18569) and you can see the publisher teaching its audience how to move between the magazine, the games and the sales pitch.
 
-The relationship also worked in reverse. A playable surprise might send someone back to the magazine to find out what the title was, when it was expected, or why a control behaved that way. The publication became a small system of explanations, menus, and experiments.
+## Another edition, another menu
 
-Sony’s original PlayStation library makes the variety easy to imagine: the racing of Ridge Racer and wipEout, the movement of Tomb Raider, and the musical performance of PaRappa the Rapper offered very different promises. The photograph on this page identifies its particular disc; it should not be mistaken for a claim that every named game appeared on that edition.
+The **1998 PlayStation Underground Jampack**, SCUS-94287 / PSRM-010560, is a separate compilation. Its packaging advertises eight playable demos, including Gran Turismo, Tekken 3, Tomba!, Jersey Devil, Blasto, Hot Shots Golf, Duke Nukem: Time to Kill and Test Drive 5. The same preserved record distinguishes video material from those playable samples. This is why the issue identifier belongs beside the remembered game: “Underground” names a family of discs, not one fixed menu.
 
-## The games you never bought
+## A small game could become the favorite
 
-A demo could remain the entire relationship with a title. Price, availability, changing interests, or another birthday choice might prevent the next step. The sample still belonged to the player’s memory, sometimes more vividly than a complete game played only once.
+The limited area changed how you approached a title. Instead of pushing onward, you could repeat a course until the first corner felt automatic, or hand over the pad and watch someone discover an entrance you had missed. A sampler’s restriction could become a useful excuse to pay attention.
 
-This is the distinctive pleasure of the format. It was a shelf of possibilities small enough to explore in one sitting. The menu invited another choice, and trying something did not require making it the only game for the evening.
+It also exposed differences quickly. Rage Racer asked for a different rhythm from Tomb Raider. Carnage Heart’s machines and systems made a different invitation again. A household did not need to agree on one full-price purchase before discovering those contrasts.
 
-The disc also belonged to a period when access had a physical shape. A scratched surface or a missing magazine insert could remove that particular doorway. Holding it now brings back more than a promotion: it recalls the anticipation of finding out what would start when the next icon was selected.
+## Keep the sleeve with the disc
+
+Sony’s later retrospective describes Underground’s blend of video magazine and game samples, but it cannot establish the contents of every regional Demo One. The identifiers keep those histories from collapsing into one imaginary compilation.
+
+Pair this story with the [memory card](/archive/objects/memory-card/): even a disc full of promotional material could ask for some of those precious blocks. The software was temporary. The decision about what to keep was yours.

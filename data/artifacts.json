@@ -11,7 +11,7 @@
     "room": "tech-toys",
     "label": "shared-room portal",
     "curatorNote": "Someone needs the phone line. Finish the download before you give up the chair.",
-    "whyItMattered": "The photograph shows an actual late-1990s desktop computer in a home in Rotterdam. A CRT monitor, keyboard, and separate case occupy a fixed place in the room. This is a particular household setup, rather than a claim that every family used the same model or had the same access to a computer.",
+    "whyItMattered": "A desktop PC makes a fixed place in the home into several different workplaces. The Rotterdam setup photographed in 1999 puts a CRT monitor, keyboard and separate case at one desk. Writing, playing a game and going online use the same chair, even when the people doing them have different ideas about whose turn comes next.",
     "media": {
       "kind": "image",
       "src": "/assets/media/tech-toys/family-pc-rotterdam-1999.jpg",
@@ -36,7 +36,8 @@
     ],
     "relatedArtifacts": [],
     "relatedRoutes": [
-      "/zones/tech-toys/"
+      "/stories/the-family-computer/",
+      "/stories/lan-party-night/"
     ],
     "target": "/zones/tech-toys/#artifact-family-pc",
     "interaction": null,
@@ -49,19 +50,13 @@
     ],
     "sections": [
       {
-        "heading": "A desk with several jobs",
+        "heading": "Before passing over the chair",
         "paragraphs": [
-          "The arrangement explains how one machine could become shared equipment. Homework, games, printing, and going online all needed the same chair and screen. A person waiting for a turn could see that the computer was already in use, while someone helping with a problem could stand beside it and point directly at the display."
-        ]
-      },
-      {
-        "heading": "What to notice",
-        "paragraphs": [
-          "Look at how much space surrounds the picture itself. The monitor’s case and the keyboard are part of the work surface, and the cables connect the desk to equipment elsewhere. The machine’s location mattered: using it required going to this room, making time at this desk, and leaving whatever work or entertainment was happening somewhere else."
+          "Save the document, finish the print job and leave the next user a usable desktop. The hard drive can hold several people’s work without making their files easy to distinguish. A dial-up session may claim the household phone line as well as the machine. The limitation is unusually social: the computer can offer several activities while only one person can comfortably operate this keyboard at a time."
         ]
       }
     ],
-    "reviewedAt": "2026-10-29",
+    "reviewedAt": "2026-11-05",
     "sourceIds": [
       "polish-object-family-pc",
       "chm-net"
@@ -79,7 +74,7 @@
     "room": "timeline",
     "label": "clickable beige future",
     "curatorNote": "Colorful icons made the family PC feel less like office machinery and more like something worth exploring.",
-    "whyItMattered": "Windows 3.0, released in 1990, offered a graphical environment in which programs could be organized through Program Manager. Instead of beginning every task by typing a command, a user could find a group, recognize an icon, and open the application associated with it. The screenshot records the look of that environment, not the appearance of every computer sold in the year.",
+    "whyItMattered": "Windows 3.0, released in 1990, organizes applications through Program Manager. Groups contain icons; opening an icon launches the associated program. The screen here was captured in a later virtual-machine session, preserving an identified software environment rather than claiming to be a photograph made in 1990.",
     "media": {
       "kind": "image",
       "src": "/assets/media/timeline-1990/windows-3-0-program-manager.png",
@@ -102,9 +97,12 @@
       1990,
       1992
     ],
-    "relatedArtifacts": [],
+    "relatedArtifacts": [
+      "windows-95-start"
+    ],
     "relatedRoutes": [
-      "/timeline/1990/"
+      "/stories/the-family-computer/",
+      "/archive/objects/windows-95-start/"
     ],
     "target": "/timeline/1990/#artifact-windows-3",
     "interaction": null,
@@ -117,19 +115,13 @@
     ],
     "sections": [
       {
-        "heading": "Programs arranged in groups",
+        "heading": "Find the group, then the program",
         "paragraphs": [
-          "The separate windows made organization visible. Applications belonged to groups that could be opened and moved, while the surrounding gray interface supplied a frame for the work. Knowing where a program had been placed became part of learning a particular computer."
-        ]
-      },
-      {
-        "heading": "Before the Start menu",
-        "paragraphs": [
-          "This interface helps explain why Windows 95’s Start menu later felt like a noticeable change. Program Manager supplied another answer to the same practical problem: how to give someone a clear route into the software installed on a machine. The icons were small, but the habit of locating and launching programs through them became an ordinary part of using a shared PC."
+          "An application icon answers a practical question: where do I begin this task? File Manager handles a different question, where the saved work lives. Program groups and disk folders should not be confused. Windows 95’s later Start menu reorganized that entrance, so its taskbar does not belong in this earlier interface."
         ]
       }
     ],
-    "reviewedAt": "2026-10-29",
+    "reviewedAt": "2026-11-05",
     "sourceIds": [
       "polish-object-windows-3",
       "microsoft-1992"
@@ -147,7 +139,7 @@
     "room": "internet-culture",
     "label": "lab notes become a place",
     "curatorNote": "The first site looks almost modest: text, blue links, and an explanation of what the web is supposed to be.",
-    "whyItMattered": "The first World Wide Web site belonged to CERN and explained the project itself: what the web was, how it worked, and where to find more information. Its restrained appearance is useful evidence of the idea beneath the later visual styles. Text and links were enough to make a document point beyond itself.",
+    "whyItMattered": "CERN’s first World Wide Web site explains the web itself and points readers toward more information. Text and links do the essential work. A heading can introduce a subject while a linked word becomes an invitation to leave this document for another.",
     "media": {
       "kind": "image",
       "src": "/assets/media/timeline-1991/w3-first-website.png",
@@ -169,9 +161,12 @@
     "relatedYears": [
       1991
     ],
-    "relatedArtifacts": [],
+    "relatedArtifacts": [
+      "mosaic-browser"
+    ],
     "relatedRoutes": [
-      "/timeline/1991/"
+      "/stories/a-web-you-could-make/",
+      "/archive/objects/mosaic-browser/"
     ],
     "target": "/timeline/1991/#artifact-first-website",
     "interaction": null,
@@ -184,19 +179,13 @@
     ],
     "sections": [
       {
-        "heading": "A page explaining a new medium",
+        "heading": "Read the link as part of the sentence",
         "paragraphs": [
-          "The web’s development at CERN began before its wider public adoption. CERN’s decision in 1993 to make its Web software freely available was another important step, distinct from the earlier creation of the first server and site. The image identifies the early site; it is not a screenshot of the whole internet at one moment."
-        ]
-      },
-      {
-        "heading": "A small interface with a large reach",
-        "paragraphs": [
-          "A reader did not need every destination to be stored inside the page being read. A link could lead to another document maintained elsewhere. That separation between a page and its possible next destinations made the apparently plain layout powerful. A personal homepage, a scientific reference, and a later commercial site could all use the same basic gesture of following a link."
+          "Following a hyperlink makes an address useful without requiring the reader to type it. Returning to the earlier document turns the visit into a trail. This reference is about the web’s beginning and its continued accessibility; it is not an example of the later commercial homepage, with advertising, guestbook and visitor counter all presumed to be present."
         ]
       }
     ],
-    "reviewedAt": "2026-10-29",
+    "reviewedAt": "2026-11-05",
     "sourceIds": [
       "polish-object-first-website",
       "cern-web"
@@ -214,7 +203,7 @@
     "room": "internet-culture",
     "label": "the web gets a visual front door",
     "curatorNote": "Blue links, pictures inside the page, and a gray frame around the whole thing.",
-    "whyItMattered": "NCSA Mosaic was an influential early graphical web browser. The screenshot gives the web a familiar application frame: menus, controls, a scrollable document, and an address or location within a larger network. A person could explore linked information while still recognizing the basic furniture of desktop software.",
+    "whyItMattered": "NCSA Mosaic gives linked documents a graphical desktop frame: menus, navigation controls and a scrollable page. Its importance is partly in that familiarity. Browsing becomes an application you can operate, alongside other programs on a computer, rather than a description of a network you have to imagine.",
     "media": {
       "kind": "image",
       "src": "/assets/media/timeline-1993/ncsa-mosaic-browser-screenshot.png",
@@ -236,9 +225,12 @@
     "relatedYears": [
       1993
     ],
-    "relatedArtifacts": [],
+    "relatedArtifacts": [
+      "first-website"
+    ],
     "relatedRoutes": [
-      "/timeline/1993/"
+      "/stories/browser-wars-at-home/",
+      "/archive/objects/first-website/"
     ],
     "target": "/timeline/1993/#artifact-mosaic-browser",
     "interaction": null,
@@ -251,19 +243,13 @@
     ],
     "sections": [
       {
-        "heading": "A window onto the web",
+        "heading": "A window into another document",
         "paragraphs": [
-          "The displayed NCSA page is a particular document inside the browser, not a universal startup screen. Its logo and links show the relationship between an application and the information it retrieved. Changing the page did not necessarily change the program around it."
-        ]
-      },
-      {
-        "heading": "What the frame explains",
-        "paragraphs": [
-          "The browser provided repeated actions across otherwise different sites. A visitor could return, move forward, or request another location without every page designing those operations from scratch. That consistency made exploration easier to learn. It also made the browser an increasingly consequential piece of software, connecting this object to the later competition between Netscape Navigator and Internet Explorer. The image is evidence of an early browser environment, rather than a picture of every later version named in that story."
+          "Back, a new link and the page’s scroll position create several ways to move. A browser is still interpreting material supplied elsewhere, so an attractive interface cannot guarantee that every destination works or looks the same. This Mosaic view belongs to an earlier browser generation than the Navigator 3 and Internet Explorer 3 comparison in the browser-wars feature."
         ]
       }
     ],
-    "reviewedAt": "2026-10-29",
+    "reviewedAt": "2026-11-05",
     "sourceIds": [
       "polish-object-mosaic-browser",
       "chm-net"
@@ -281,7 +267,7 @@
     "room": "internet-culture",
     "label": "one person's corner of the web",
     "curatorNote": "Tiled stars, a loud title, and an under-construction badge made the page feel visibly owned.",
-    "whyItMattered": "This exhibit is an original HTML/CSS recreation by 90s.land. It illustrates the personal-homepage vocabulary associated with the early web: a title, strong background choices, a collection of interests, and visible signs that the page is still being made. It is not a recovered GeoCities page or an account belonging to a historical user.",
+    "whyItMattered": "An invented personal homepage, “Mix Tape Planet,” puts favorite recordings, links and a short introduction in one bright corner of the web. It demonstrates the author’s choices: what deserves space, which colors feel right and where a reader should go next.",
     "media": {
       "kind": "recreation",
       "label": "GEOCITIES_HOME.HTML",
@@ -289,8 +275,8 @@
       "credit": "Original HTML/CSS recreation by 90s.land",
       "sourceUrl": null,
       "license": "Original editorial recreation",
-      "caption": "CSS recreation of a bright handmade homepage with tiled stars and an under-construction badge.",
-      "reviewedAt": "2026-10-29",
+      "caption": "Original recreation: an invented homepage with local decoration controls.",
+      "reviewedAt": "2026-11-05",
       "depictedSubject": "Handmade GeoCities homepage",
       "usageTerms": "Original editorial recreation",
       "eraNote": "1994–1998",
@@ -300,9 +286,12 @@
       1994,
       1998
     ],
-    "relatedArtifacts": [],
+    "relatedArtifacts": [
+      "webring-bar"
+    ],
     "relatedRoutes": [
-      "/zones/internet-culture/"
+      "/stories/a-web-you-could-make/",
+      "/archive/objects/webring-bar/"
     ],
     "target": "/zones/internet-culture/#artifact-geocities-homepage",
     "interaction": "homepage-builder",
@@ -315,19 +304,13 @@
     ],
     "sections": [
       {
-        "heading": "A handmade front door",
+        "heading": "Decorate the page in front of you",
         "paragraphs": [
-          "The choices are part of the explanation. A page maker could express enthusiasm through layout and decoration as well as through prose. A list of favorite links offered visitors a route into the maker’s interests without needing an elaborate publishing system."
-        ]
-      },
-      {
-        "heading": "Reading the recreation",
-        "paragraphs": [
-          "Notice how the page behaves like a place with an owner. Its welcome and chosen references suggest a person inviting the visitor to look around. The recreation preserves that design idea while keeping its invented material separate from actual archived sites and their original authors."
+          "Use the decoration controls to add stars, switch the construction notice or show and hide the counter. Reset restores the starting arrangement. The changes happen in this page; they do not publish a website or create an account. Its fictional owner and content belong to an original museum recreation. The separate counter, guestbook and webring exhibits explain the small devices that can surround a homepage."
         ]
       }
     ],
-    "reviewedAt": "2026-10-29",
+    "reviewedAt": "2026-11-05",
     "sourceIds": [
       "polish-object-geocities-homepage"
     ]
@@ -344,7 +327,7 @@
     "room": "internet-culture",
     "label": "proof somebody came by",
     "curatorNote": "You checked the number again. It had gone up by one.",
-    "whyItMattered": "This is an original interface recreation, not a live measurement of 90s.land’s audience. The six-digit display illustrates a common personal-web device: a counter that made traffic appear as a visible number on the page.",
+    "whyItMattered": "Six digits turn an invisible page visit into a visible number. A counter can make a small site feel inhabited while revealing very little about who came or what they read. The display begins at 000247 in this original recreation.",
     "media": {
       "kind": "recreation",
       "label": "000247",
@@ -352,8 +335,8 @@
       "credit": "Original HTML/CSS recreation by 90s.land",
       "sourceUrl": null,
       "license": "Original editorial recreation",
-      "caption": "CSS recreation of a segmented six-digit visitor counter reading 000247.",
-      "reviewedAt": "2026-10-29",
+      "caption": "Original recreation: a six-digit counter with a simulated visit increment.",
+      "reviewedAt": "2026-11-05",
       "depictedSubject": "Six-digit visitor counter",
       "usageTerms": "Original editorial recreation",
       "eraNote": "1994–1999",
@@ -363,9 +346,13 @@
       1994,
       1999
     ],
-    "relatedArtifacts": [],
+    "relatedArtifacts": [
+      "guestbook",
+      "geocities-homepage"
+    ],
     "relatedRoutes": [
-      "/zones/internet-culture/"
+      "/archive/objects/guestbook/",
+      "/archive/objects/geocities-homepage/"
     ],
     "target": "/zones/internet-culture/#artifact-visitor-counter",
     "interaction": null,
@@ -378,19 +365,13 @@
     ],
     "sections": [
       {
-        "heading": "A visit turned into digits",
+        "heading": "One simulated visit at a time",
         "paragraphs": [
-          "The number could suggest activity even when a visitor had no other evidence that anyone else had arrived. Its apparent precision was part of the appeal. The display did not, by itself, explain how visits were counted, whether repeats were included, or who the audience was."
-        ]
-      },
-      {
-        "heading": "A tiny public signal",
-        "paragraphs": [
-          "Placed beside a welcome message or a guestbook, a counter made an otherwise quiet page feel occupied. Its visual role is the subject of this recreation. The invented digits belong to the exhibit and should not be read as a historical traffic record or a claim about unique visitors."
+          "“Preview another visit” adds one to this local demonstration; Reset restores the starting number. Reloading starts it over. It is not traffic analytics and does not count visitors to 90s.land. That limitation mirrors a useful historical question: a rising number can be pleasing without being a reliable picture of people, repeat visits or attention."
         ]
       }
     ],
-    "reviewedAt": "2026-10-29",
+    "reviewedAt": "2026-11-05",
     "sourceIds": [
       "polish-object-visitor-counter"
     ]
@@ -398,7 +379,7 @@
   {
     "id": "guestbook",
     "slug": "guestbook",
-    "title": "Guestbook with six handles and one typo",
+    "title": "Guestbook: handles and hellos",
     "dateRange": {
       "startYear": 1994,
       "endYear": 1999,
@@ -407,7 +388,7 @@
     "room": "internet-culture",
     "label": "homepage proof of life",
     "curatorNote": "Names, timestamps, and one misspelling could make a personal page feel occupied.",
-    "whyItMattered": "This guestbook is an original recreation with invented handles and messages. It illustrates how a personal site could make a visit visible through a small public greeting. A reader became briefly recognizable as somebody who had stopped by, rather than remaining only an unseen page request.",
+    "whyItMattered": "A guestbook places a visitor’s handle and greeting beside the page’s own contents. The invented example entries demonstrate a small social exchange: someone has arrived, found something worth mentioning and left a trace the owner can read later.",
     "media": {
       "kind": "recreation",
       "label": "SIGN_GUESTBOOK.HTML",
@@ -415,8 +396,8 @@
       "credit": "Original HTML/CSS recreation by 90s.land",
       "sourceUrl": null,
       "license": "Original editorial recreation",
-      "caption": "CSS recreation of a small guestbook entry list with screen names and timestamps.",
-      "reviewedAt": "2026-10-29",
+      "caption": "Original recreation: two invented entries and a local message preview.",
+      "reviewedAt": "2026-11-05",
       "depictedSubject": "Guestbook with six handles and one typo",
       "usageTerms": "Original editorial recreation",
       "eraNote": "1994–1999",
@@ -426,9 +407,12 @@
       1994,
       1999
     ],
-    "relatedArtifacts": [],
+    "relatedArtifacts": [
+      "visitor-counter"
+    ],
     "relatedRoutes": [
-      "/zones/internet-culture/"
+      "/archive/objects/visitor-counter/",
+      "/stories/a-web-you-could-make/"
     ],
     "target": "/zones/internet-culture/#artifact-guestbook",
     "interaction": null,
@@ -441,19 +425,13 @@
     ],
     "sections": [
       {
-        "heading": "Leaving a trace on a page",
+        "heading": "Add your own preview",
         "paragraphs": [
-          "The entries show the form’s modest scale: a name, a short message, and sometimes a route back to the visitor’s own page. A typo could remain part of that trace, making the communication feel informal and particular."
-        ]
-      },
-      {
-        "heading": "What the exhibit does",
-        "paragraphs": [
-          "The separate guestbook preview lets a visitor try the form without creating a public record. It does not send or save the entry. The distinction keeps the historical design idea available to explore while being clear about the actual behavior of this site."
+          "Enter a handle and message, then preview the result beneath the examples. It stays local to this page and is not submitted or published. Text is displayed as text, including anything that looks like HTML. A guestbook adds conversation to a homepage, but the demonstration does not pretend to be a historical archive or a live public discussion."
         ]
       }
     ],
-    "reviewedAt": "2026-10-29",
+    "reviewedAt": "2026-11-05",
     "sourceIds": [
       "polish-object-guestbook"
     ]
@@ -470,7 +448,7 @@
     "room": "internet-culture",
     "label": "human-made discovery path",
     "curatorNote": "A small navigation strip let one strange site vouch for the next.",
-    "whyItMattered": "This is an original recreation of a webring navigation bar. Previous, random, and next links illustrate a system in which sites connected themselves around a shared interest. The bar offered a route through the group without requiring the visitor to return to a search engine after every page.",
+    "whyItMattered": "A webring makes several personal sites into neighbors around a shared interest. The familiar previous, next and random controls offer a route through that group, with no need to return to a search form after every page.",
     "media": {
       "kind": "recreation",
       "label": "← PREV · RANDOM · NEXT →",
@@ -478,8 +456,8 @@
       "credit": "Original HTML/CSS recreation by 90s.land",
       "sourceUrl": null,
       "license": "Original editorial recreation",
-      "caption": "CSS recreation of a classic Webring navigation bar.",
-      "reviewedAt": "2026-10-29",
+      "caption": "Original recreation: three invented sites with previous, next and random navigation.",
+      "reviewedAt": "2026-11-05",
       "depictedSubject": "Previous / random / next Webring bar",
       "usageTerms": "Original editorial recreation",
       "eraNote": "1995–1999",
@@ -489,9 +467,13 @@
       1995,
       1999
     ],
-    "relatedArtifacts": [],
+    "relatedArtifacts": [
+      "yahoo-directory",
+      "geocities-homepage"
+    ],
     "relatedRoutes": [
-      "/zones/internet-culture/"
+      "/archive/objects/yahoo-directory/",
+      "/archive/objects/geocities-homepage/"
     ],
     "target": "/zones/internet-culture/#artifact-webring-bar",
     "interaction": null,
@@ -504,19 +486,13 @@
     ],
     "sections": [
       {
-        "heading": "Three links could create a neighborhood",
+        "heading": "Follow the little ring",
         "paragraphs": [
-          "The simplicity mattered. Each member could keep its own appearance and content while supplying a recognizable way to continue. A ring’s organizing idea might be a hobby, a musical interest, or another shared reference rather than a single publisher’s brand."
-        ]
-      },
-      {
-        "heading": "The route was part of the page",
-        "paragraphs": [
-          "The exhibit preserves the navigation vocabulary, not a functioning historical ring with original members. Its value is showing how a small interface could make independent pages seem related. The next destination became part of the invitation made by the current one."
+          "Three invented destinations demonstrate how the order works. Next advances, Previous goes back, and Random picks another member. Each example also offers an actual museum link for continued reading. The invented ring stays inside this exhibit; it does not claim membership in a surviving historical network. A broken member would interrupt a real ring, which is one reason the shared navigation needed care."
         ]
       }
     ],
-    "reviewedAt": "2026-10-29",
+    "reviewedAt": "2026-11-05",
     "sourceIds": [
       "polish-object-webring-bar"
     ]
@@ -533,7 +509,7 @@
     "room": "internet-culture",
     "label": "screen-name identity object",
     "curatorNote": "Choose a lyric carefully. Your buddy list is going to read it.",
-    "whyItMattered": "This original recreation illustrates an AIM away message. Its text and handle are invented for the exhibit. The design represents a small social function: a person could be unavailable while still leaving something for friends to read.",
+    "whyItMattered": "An away message lets an absent person leave a small piece of writing for friends. A buddy list gives the message context: familiar handles, visible status and the expectation that somebody might become available again.",
     "media": {
       "kind": "recreation",
       "label": "xXstargrrl97Xx is away",
@@ -541,8 +517,8 @@
       "credit": "Original HTML/CSS recreation by 90s.land",
       "sourceUrl": null,
       "license": "Original editorial recreation",
-      "caption": "CSS recreation of an AIM-style buddy and away-message window.",
-      "reviewedAt": "2026-10-29",
+      "caption": "Original recreation: an invented buddy list with an editable away-message preview.",
+      "reviewedAt": "2026-11-05",
       "depictedSubject": "AIM away message",
       "usageTerms": "Original editorial recreation",
       "eraNote": "1997–1999",
@@ -555,7 +531,8 @@
     ],
     "relatedArtifacts": [],
     "relatedRoutes": [
-      "/zones/internet-culture/"
+      "/stories/a-web-you-could-make/",
+      "/stories/the-family-computer/"
     ],
     "target": "/zones/internet-culture/#artifact-aim-away-message",
     "interaction": null,
@@ -568,19 +545,13 @@
     ],
     "sections": [
       {
-        "heading": "Giving absence a voice",
+        "heading": "Make the absence sound like you",
         "paragraphs": [
-          "An explanation, a joke, or a chosen line could make absence feel personal. The message supplied information about the owner without requiring a new conversation, and it could be changed to match the moment. It was a tiny piece of writing inside a larger system of visible presence."
-        ]
-      },
-      {
-        "heading": "A personal corner of shared equipment",
-        "paragraphs": [
-          "The identity could belong to one person even when the computer was used by several people. That contrast links the exhibit to the family-PC story. A screen name and message created a recognizable social place inside a household arrangement that might still depend on taking turns at the same desk."
+          "Edit the away message and use its preview button to change the invented buddy-list display. The text remains in this local demonstration, with no messaging account or network connection. This is an original AIM-style recreation. Its useful trick is social rather than technical: unavailability can still have a voice, a joke or a promise to return."
         ]
       }
     ],
-    "reviewedAt": "2026-10-29",
+    "reviewedAt": "2026-11-05",
     "sourceIds": [
       "polish-object-aim-away-message"
     ]
@@ -597,7 +568,7 @@
     "room": "internet-culture",
     "label": "the web sorted by people",
     "curatorNote": "Categories and subcategories made the expanding web feel browsable by subject.",
-    "whyItMattered": "This is an original recreation of an early directory-style interface, rather than an archived Yahoo page. Its grouped links illustrate a way of finding information through selected categories and smaller collections within them.",
+    "whyItMattered": "A human-curated directory divides the web into subjects and smaller destinations. Browsing a category is a different action from asking a search engine to infer an answer from a few words. The categories make the curator’s choices visible.",
     "media": {
       "kind": "recreation",
       "label": "YAHOO! DIRECTORY",
@@ -605,8 +576,8 @@
       "credit": "Original HTML/CSS recreation by 90s.land",
       "sourceUrl": null,
       "license": "Original editorial recreation",
-      "caption": "CSS recreation of a purple directory page with human-curated categories.",
-      "reviewedAt": "2026-10-29",
+      "caption": "Original recreation: category browsing through selected museum destinations.",
+      "reviewedAt": "2026-11-05",
       "depictedSubject": "Hand-built Yahoo directory",
       "usageTerms": "Original editorial recreation",
       "eraNote": "1994–1998",
@@ -616,9 +587,12 @@
       1994,
       1998
     ],
-    "relatedArtifacts": [],
+    "relatedArtifacts": [
+      "webring-bar"
+    ],
     "relatedRoutes": [
-      "/zones/internet-culture/"
+      "/archive/objects/webring-bar/",
+      "/stories/browser-wars-at-home/"
     ],
     "target": "/zones/internet-culture/#artifact-yahoo-directory",
     "interaction": null,
@@ -631,19 +605,13 @@
     ],
     "sections": [
       {
-        "heading": "A route made from categories",
+        "heading": "Choose a subject, then a branch",
         "paragraphs": [
-          "A directory made an explicit proposal about where something belonged. A visitor could move from a broad subject toward a narrower one, using the arrangement itself as guidance. The system depended on decisions about names, boundaries, and which sites deserved inclusion."
-        ]
-      },
-      {
-        "heading": "Browsing before the answer",
-        "paragraphs": [
-          "This approach allowed a person to explore a topic without knowing the exact wording of a search. Neighboring categories could produce a useful detour. The recreation shows that organizing principle while keeping its invented contents distinct from Yahoo’s historical listings and the people who maintained them."
+          "Open Music, Games or The Web, then follow a subcategory link into an actual museum story or object. Native disclosure controls also work with the keyboard and without JavaScript. This original directory-style recreation uses selected 90s.land destinations; it is not an archived Yahoo page or a reconstruction of Yahoo’s complete historical hierarchy."
         ]
       }
     ],
-    "reviewedAt": "2026-10-29",
+    "reviewedAt": "2026-11-05",
     "sourceIds": [
       "polish-object-yahoo-directory"
     ]
@@ -660,7 +628,7 @@
     "room": "tech-toys",
     "label": "the internet arrives in the mailbox",
     "curatorNote": "Bright trial discs promised free hours and a setup wizard while quietly taking over the family phone line.",
-    "whyItMattered": "An AOL promotional disc carried software and an offer into an ordinary household. The printed promise of trial time made an unfamiliar online service look like something that could be picked up, installed, and tried. The actual account and dial-up connection still had to be arranged after the disc reached the computer.",
+    "whyItMattered": "An AOL promotional disc carries service software and a trial offer into the house. Running the installer is only the beginning: an account, a suitable access number and a working modem connection still stand between the disc and an online session.",
     "media": {
       "kind": "image",
       "src": "/assets/media/tech-toys/aol-promotional-cds.jpg",
@@ -683,9 +651,12 @@
       1995,
       1999
     ],
-    "relatedArtifacts": [],
+    "relatedArtifacts": [
+      "family-pc"
+    ],
     "relatedRoutes": [
-      "/zones/tech-toys/"
+      "/stories/aol-flat-rate/",
+      "/archive/objects/family-pc/"
     ],
     "target": "/zones/tech-toys/#artifact-aol-cd",
     "interaction": null,
@@ -698,19 +669,13 @@
     ],
     "sections": [
       {
-        "heading": "A service packaged as an object",
+        "heading": "Read the particular offer",
         "paragraphs": [
-          "The disc did not contain the internet. Its software helped provide a route into AOL’s service, where mail, chat, and other material gave a newcomer recognizable activities. The difference between the physical installer and the changing online destinations is part of the object’s interest."
-        ]
-      },
-      {
-        "heading": "Reading the offer",
-        "paragraphs": [
-          "Look at the edition, version, and trial language rather than treating every AOL disc as interchangeable. Promotional collections can include several generations, and the photograph’s caption identifies what is actually shown. A disc’s later survival does not establish that all the offers on a mixed collection were available during the 1990s. The important historical gesture is the distribution of a doorway, packaged for someone who had not entered yet."
+          "The photograph gathers several promotional generations, including later editions. It cannot document one uniform 1990s allowance. The flat-rate feature instead identifies the October 1996 announcement and December effective date from a contemporary report. Keep the printed terms, the software edition and the telephone call separate: each can change the cost or experience of getting connected."
         ]
       }
     ],
-    "reviewedAt": "2026-10-29",
+    "reviewedAt": "2026-11-05",
     "sourceIds": [
       "polish-object-aol-cd",
       "new-aol-flat",
@@ -729,7 +694,7 @@
     "room": "timeline",
     "label": "the future gets a start point",
     "curatorNote": "Want to open a program? Start here. Want to shut down? Start here too.",
-    "whyItMattered": "Windows 95 introduced the Start menu and taskbar as recognizable routes through the desktop. Start gathered access to installed programs and system functions into one place, helping a user answer the practical question of what to do next after the computer had finished starting.",
+    "whyItMattered": "Windows 95’s Start control gathers routes to programs and system functions at the edge of the desktop. It gives a newly started computer an obvious next action. The reference image is specifically from prerelease build 4.00.337, so it should not be mistaken for proof that every retail installation looked identical.",
     "media": {
       "kind": "image",
       "src": "/assets/media/stories/correction-start.webp",
@@ -751,9 +716,12 @@
     "relatedYears": [
       1995
     ],
-    "relatedArtifacts": [],
+    "relatedArtifacts": [
+      "windows-3"
+    ],
     "relatedRoutes": [
-      "/timeline/1995/"
+      "/archive/objects/windows-3/",
+      "/stories/the-family-computer/"
     ],
     "target": "/timeline/1995/#artifact-windows-95-start",
     "interaction": null,
@@ -766,20 +734,13 @@
     ],
     "sections": [
       {
-        "heading": "A small control with a large job",
+        "heading": "One entrance, many tasks",
         "paragraphs": [
-          "The button’s importance came from repetition. Finding a program, opening a setting, and beginning the shutdown process could all become familiar movements. The desktop’s organization was learned through small actions performed often enough to feel ordinary."
-        ]
-      },
-      {
-        "heading": "Read the display label",
-        "paragraphs": [
-          "The exhibit’s image or recreation is labeled according to what it actually depicts; launch artwork should not be mistaken for a working Start-menu screenshot. The software feature itself belongs to Microsoft’s August 1995 release. Its cultural value is the connection between a technical interface decision and an everyday habit: a word and a small rectangle became an expected place to begin using the machine.",
-          "In everyday use, shutting down the computer meant returning to the same button used to begin work, a small piece of interface logic that users had to learn."
+          "Open the menu, choose a program and return to the taskbar when another window needs attention. The Start menu locates applications; files still require their own organization. Compare Program Manager in the Windows 3.0 exhibit to see the change in the entrance without pretending that the older system had no way to arrange programs."
         ]
       }
     ],
-    "reviewedAt": "2026-10-29",
+    "reviewedAt": "2026-11-05",
     "sourceIds": [
       "polish-object-windows-95-start",
       "windows-95"
@@ -797,7 +758,7 @@
     "room": "tech-toys",
     "label": "pocket-status beep",
     "curatorNote": "The pager goes off. Finding a phone is your next problem.",
-    "whyItMattered": "An alphanumeric pager could receive a short message without offering the same kind of conversation as a telephone. Its small display and a few controls made the arrival of information visible on an object that could be carried away from a desk or household line.",
+    "whyItMattered": "The TELTRIM-branded alphanumeric pager in the reference photograph receives short messages on a compact display. Its visible badge does not establish a Motorola model. An alert can reach the wearer away from a desk without supplying the full two-way conversation of a telephone.",
     "media": {
       "kind": "image",
       "src": "/assets/media/tech-toys/motorola-pager-teletrim.jpg",
@@ -820,9 +781,12 @@
       1992,
       1998
     ],
-    "relatedArtifacts": [],
+    "relatedArtifacts": [
+      "nokia-3210"
+    ],
     "relatedRoutes": [
-      "/zones/tech-toys/"
+      "/stories/the-landline-negotiation/",
+      "/archive/objects/nokia-3210/"
     ],
     "target": "/zones/tech-toys/#artifact-pager",
     "interaction": null,
@@ -835,19 +799,19 @@
     ],
     "sections": [
       {
-        "heading": "A message that asked for a response",
+        "heading": "A message can start another errand",
         "paragraphs": [
-          "The pictured unit’s case and display identify the actual reference object. Network names and branding can vary, so the label should not turn a visible service badge into an unsupported claim about a particular manufacturer or model. Its function is the useful starting point: a signal could reach the person carrying it."
+          "Read the display, identify who or what needs attention, then decide whether to find a phone and call back. The pager moves the notification into a pocket; the next action may still belong to another machine. A number-only page and an alphanumeric message offer different amounts of context, so the kind of pager matters when describing what somebody could read."
         ]
       },
       {
-        "heading": "The next step happened somewhere else",
+        "heading": "The reply can be another errand",
         "paragraphs": [
-          "A message often created another task. The owner might need to find a phone, return a call, or act on the information received. Portability therefore changed availability without providing all the capabilities later associated with a smartphone. The pager could make someone easier to reach while still leaving the reply dependent on equipment, time, and a suitable place to make contact."
+          "This exhibit does not infer a two-way reply function from the shape of the case. Service coverage and the sender’s method also matter to delivery. A pager is a useful bridge between a household number and a personal mobile phone: it makes one person reachable while leaving much of the communication infrastructure elsewhere."
         ]
       }
     ],
-    "reviewedAt": "2026-10-29",
+    "reviewedAt": "2026-11-05",
     "sourceIds": [
       "polish-object-pager",
       "chm-palm"
@@ -865,7 +829,7 @@
     "room": "music",
     "label": "hand-built sequence",
     "curatorNote": "Pause-button edits and handwritten track lists made every tape a small act of authorship.",
-    "whyItMattered": "The compact cassette holds magnetic tape inside a protective shell. The two reels and their exposed openings make its movement easy to understand: the tape must pass the machine’s heads while the recording plays or is made. Reaching a later song usually means moving through the tape in between.",
+    "whyItMattered": "A compact cassette encloses magnetic tape on two reels. Playback moves that tape past a head; recording writes a new signal along it. The shell and label turn a length of sound into a portable object with two named sides.",
     "media": {
       "kind": "image",
       "src": "/assets/media/music/compact-cassette-maxell.jpg",
@@ -889,9 +853,12 @@
       1991,
       1997
     ],
-    "relatedArtifacts": [],
+    "relatedArtifacts": [
+      "walkman"
+    ],
     "relatedRoutes": [
-      "/zones/music/"
+      "/stories/from-mixtape-to-file/",
+      "/archive/objects/walkman/"
     ],
     "target": "/zones/music/#artifact-cassette",
     "interaction": null,
@@ -904,19 +871,13 @@
     ],
     "sections": [
       {
-        "heading": "A recording you could label",
+        "heading": "The order has a direction",
         "paragraphs": [
-          "A blank cassette could become a personal collection through recording and labeling. The available time on each side shaped the sequence, while the label gave the finished object a name that did not come from the manufacturer. A commercially made container became a message from its owner."
-        ]
-      },
-      {
-        "heading": "The medium made the routine",
-        "paragraphs": [
-          "Rewinding, changing sides, and finding the beginning were part of listening. A portable player gave those actions another setting, while a home deck could make the recording itself an activity. The photographed cassette is a reference for that system, rather than evidence of a particular person’s mixtape. Its empty or ordinary label is useful precisely because it leaves visible the place where somebody could add a selection, a title, and a reason to listen."
+          "Reaching a later song usually means moving through the tape before it. A handwritten insert helps identify the sequence, while a fast-forward button only changes how quickly you travel. Recording over a passage replaces its earlier sound. The mixtape feature makes the constraint concrete with a six-track example and a visible running-time budget."
         ]
       }
     ],
-    "reviewedAt": "2026-10-29",
+    "reviewedAt": "2026-11-05",
     "sourceIds": [
       "polish-object-cassette",
       "sony-audio"
@@ -934,7 +895,7 @@
     "room": "music",
     "label": "portable CD ritual",
     "curatorNote": "Pick a track, close the lid, and try not to bump the player on the walk home.",
-    "whyItMattered": "A portable CD player puts the disc mechanism, controls, and headphone connection inside an object that can travel. The Sony Discman shown here has its lid closed; the exterior, rather than an exposed disc, is the actual subject of the photograph. Opening it would be the practical first step in choosing what to play.",
+    "whyItMattered": "The pictured Sony D-121 is a portable compact-disc player. Its clamshell protects a full-size disc while transport controls let the listener select tracks, pause and stop without moving through tape first. It is a playback machine: a stack of favorite CDs becomes portable through the player, headphones and a suitable source of power.",
     "media": {
       "kind": "image",
       "src": "/assets/media/music/discman-d121.jpg",
@@ -958,9 +919,12 @@
       1997,
       1999
     ],
-    "relatedArtifacts": [],
+    "relatedArtifacts": [
+      "jewel-case"
+    ],
     "relatedRoutes": [
-      "/zones/music/"
+      "/stories/from-mixtape-to-file/",
+      "/archive/objects/jewel-case/"
     ],
     "target": "/zones/music/#artifact-discman",
     "interaction": null,
@@ -973,22 +937,23 @@
     ],
     "sections": [
       {
-        "heading": "An album with a lid",
+        "heading": "Open, choose, close, play",
         "paragraphs": [
-          "Track selection offered a different experience from winding through a cassette. A listener could move directly to a numbered song, while the disc and its case supplied a fixed album and a booklet that could be read separately from the machine."
+          "Release the lid, place a compatible audio CD on the spindle, close the compartment and choose a track. Track selection gives the recording an index you can use immediately. Headphones make it possible to carry that choice into a shared space. The model number matters when checking power accessories or special functions; “Discman” is a family name, not a specification shared by every Sony player."
         ]
       },
       {
-        "heading": "Movement became an engineering problem",
+        "heading": "The player has to understand the disc",
         "paragraphs": [
-          "A compact disc is read optically while it spins. Disturbance could interrupt early portable playback, making anti-skip systems and careful handling meaningful parts of the product’s development. Portability still involved batteries, headphones, and a choice about which discs to carry. The player made a collection mobile without making it weightless: a new listening routine had to fit into a bag, a journey, and the available power."
+          "A CD-R containing computer files is not automatically an audio CD, and an MP3 file does not become playable merely because it is stored on a round disc. Portable players also differ in their handling of movement. Do not assign a later model’s skip-protection system to this earlier unit. Its own manual supplies the useful details."
         ]
       }
     ],
-    "reviewedAt": "2026-10-29",
+    "reviewedAt": "2026-11-05",
     "sourceIds": [
       "polish-object-discman",
-      "sony-digital"
+      "sony-digital",
+      "sprint-d121"
     ]
   },
   {
@@ -1003,7 +968,7 @@
     "room": "music",
     "label": "burn-your-own future",
     "curatorNote": "The rainbow discs waited to become a summer mix, a backup, or a folder of badly labeled MP3s.",
-    "whyItMattered": "A spindle of CD-Rs represents a supply of recordable optical discs rather than a finished music collection. A compatible writer and suitable software could put files or audio onto a disc, turning an apparently interchangeable blank into a particular copy with a particular purpose.",
+    "whyItMattered": "A spindle of CD-Rs is a supply of blank recordable discs. A compatible writer and appropriate software can turn one into an audio compilation or a data disc. Those are different formats even when their finished objects look almost identical.",
     "media": {
       "kind": "image",
       "src": "/assets/media/music/cd-r-spindle.jpg",
@@ -1029,7 +994,8 @@
     ],
     "relatedArtifacts": [],
     "relatedRoutes": [
-      "/zones/music/"
+      "/stories/carrying-files-home/",
+      "/stories/from-mixtape-to-file/"
     ],
     "target": "/zones/music/#artifact-cdr-spindle",
     "interaction": null,
@@ -1042,19 +1008,13 @@
     ],
     "sections": [
       {
-        "heading": "Blank space ready for a decision",
+        "heading": "Decide what the receiving machine expects",
         "paragraphs": [
-          "The distinction between CD-R and rewritable media matters. An ordinary recordable disc was not a larger floppy that could be endlessly erased and reused in the same way. Recording was a deliberate operation, and successful completion needed to be checked before the copy was handed to someone else."
-        ]
-      },
-      {
-        "heading": "The label completed the object",
-        "paragraphs": [
-          "A disc’s reflective surface reveals little about its contents before it is read. A handwritten title, a case insert, or a separate note could therefore become essential. The spindle kept the supply compact, but finished discs still needed organization. An assignment, a backup, and a music compilation could look almost identical until the owner supplied enough information to tell them apart."
+          "A conventional audio-CD player needs the appropriate audio-disc structure; an MP3 file in a data folder is not the same thing. A computer needs a compatible reader and file format. CD-R is write-once media, unlike an erasable CD-RW. Label the result and test it in the intended device before treating the transfer as finished."
         ]
       }
     ],
-    "reviewedAt": "2026-10-29",
+    "reviewedAt": "2026-11-05",
     "sourceIds": [
       "polish-object-cdr-spindle",
       "sony-audio"
@@ -1072,7 +1032,7 @@
     "room": "tv-movies",
     "label": "the whole night on one tape",
     "curatorNote": "The label says DO NOT TAPE OVER. Someone in the house means it.",
-    "whyItMattered": "A VHS cassette contains magnetic tape on two reels. The windows make the amount wound onto each reel visible, while the shell protects the recording surface from ordinary handling. A compatible player draws the tape through its mechanism to read or record the signal.",
+    "whyItMattered": "A VHS cassette carries magnetic videotape on two reels. Its front flap and shell protect the material during ordinary handling; a compatible deck draws the tape through a mechanism to read or record it. The label is the fastest way to know what should be inside.",
     "media": {
       "kind": "image",
       "src": "/assets/media/tv-movies/vhs-videocassette-front.jpg",
@@ -1098,7 +1058,8 @@
     ],
     "relatedArtifacts": [],
     "relatedRoutes": [
-      "/zones/tv-movies/"
+      "/stories/same-time-next-week/",
+      "/stories/friday-at-the-video-store/"
     ],
     "target": "/zones/tv-movies/#artifact-vhs-tape",
     "interaction": null,
@@ -1111,19 +1072,13 @@
     ],
     "sections": [
       {
-        "heading": "The film lived on a ribbon",
+        "heading": "Rewind is not erase",
         "paragraphs": [
-          "The same format could carry a purchased film, a rental, or a household recording. Those objects had different histories even when their cases looked similar. A label could identify a favorite program or warn that the contents should not be recorded over."
-        ]
-      },
-      {
-        "heading": "Watching involved movement",
-        "paragraphs": [
-          "Rewinding and fast-forwarding were physical operations, not simply changes to a position on a progress bar. Finding a moment could take time, and repeated viewing left the tape at a particular place. That material routine connected a television program to a cassette that occupied space in the room. The photograph shows the format itself; it should not be mistaken for the packaging or release edition of every film mentioned elsewhere in the collection."
+          "Rewinding moves the tape back toward its beginning. Recording over it changes its contents. A record-protect tab can help distinguish something to keep from a reusable blank, but it does not explain a missing or inaccurate label. Regional television standards and playback equipment also affect compatibility. A cassette is a container with a history, not a guarantee that any VCR will show its recording correctly."
         ]
       }
     ],
-    "reviewedAt": "2026-10-29",
+    "reviewedAt": "2026-11-05",
     "sourceIds": [
       "polish-object-vhs-tape",
       "polish-viacom-1997"
@@ -1141,7 +1096,7 @@
     "room": "tv-movies",
     "label": "shared-screen gravity",
     "curatorNote": "The episode starts at eight. Get the good spot on the sofa.",
-    "whyItMattered": "A cathode-ray-tube television made the screen part of a substantial cabinet. The curved glass and the depth behind it affected where the set could stand, how it was moved, and how furniture gathered around it. A television was a location inside the room as well as an image.",
+    "whyItMattered": "A cathode-ray-tube television produces its image inside a deep glass-and-cabinet assembly. The screen’s weight and depth affect furniture, moving and where people sit. This reference represents a living-room set rather than an identified universal specification for 1990s televisions.",
     "media": {
       "kind": "image",
       "src": "/assets/media/tv-movies/1990s-television-set.jpg",
@@ -1166,7 +1121,8 @@
     ],
     "relatedArtifacts": [],
     "relatedRoutes": [
-      "/zones/tv-movies/"
+      "/stories/same-time-next-week/",
+      "/stories/webtv-on-the-sofa/"
     ],
     "target": "/zones/tv-movies/#artifact-crt-television",
     "interaction": null,
@@ -1179,19 +1135,13 @@
     ],
     "sections": [
       {
-        "heading": "A screen that occupied the room",
+        "heading": "The source has to reach the screen",
         "paragraphs": [
-          "The photograph shows one actual setup and a particular program on its screen. That displayed image does not identify the many other shows discussed in the television stories. The object is useful as a reference for the shared equipment, not as a production still from each program."
-        ]
-      },
-      {
-        "heading": "Several activities wanted the same picture",
-        "paragraphs": [
-          "Broadcasts, a VHS player, and a games console could all depend on access to the set and its connections. Changing the activity might mean changing an input or rearranging cables, while changing the viewer could mean negotiating with other people already in the room. The television’s cultural importance included that concentration of attention: different schedules and interests met at one piece of household furniture."
+          "Broadcast reception, a VCR and a game console can use different inputs or connection arrangements. Choosing the right channel or input is part of seeing the desired picture. The scheduled-television story follows the other constraint: the program can start while the household is still negotiating who gets to watch it."
         ]
       }
     ],
-    "reviewedAt": "2026-10-29",
+    "reviewedAt": "2026-11-05",
     "sourceIds": [
       "polish-object-crt-television",
       "polish-snick"
@@ -1209,7 +1159,7 @@
     "room": "tv-movies",
     "label": "Friday-night starting gun",
     "curatorNote": "Every copy of the new release is gone. Time to walk the shelves again.",
-    "whyItMattered": "A rental-store interior makes several parts of home viewing visible at once. Covers identify the films, sections organize the search, and repeated copies show which titles the shop expects many people to want. Availability can change independently of the size of the display: the familiar box does not always mean a copy is still waiting.",
+    "whyItMattered": "A rental store turns films into a browsable physical inventory. Covers attract attention, sections guide the search and repeated copies anticipate demand. The interior photograph documents a particular Blockbuster location, not every branch’s layout or a complete 1990s stock list.",
     "media": {
       "kind": "image",
       "src": "/assets/media/tv-movies/blockbuster-storefront.jpg",
@@ -1234,7 +1184,8 @@
     ],
     "relatedArtifacts": [],
     "relatedRoutes": [
-      "/zones/tv-movies/"
+      "/stories/friday-at-the-video-store/",
+      "/stories/horror-knew-the-rules/"
     ],
     "target": "/zones/tv-movies/#artifact-blockbuster-store",
     "interaction": null,
@@ -1247,19 +1198,13 @@
     ],
     "sections": [
       {
-        "heading": "A choice arranged on shelves",
+        "heading": "Availability is another kind of recommendation",
         "paragraphs": [
-          "This is a later photograph of an actual Blockbuster store, not a recreated 1990s scene. Its value is in the material arrangement of browsing and rental, with the image’s own source kept distinct from the historical dates of the films."
-        ]
-      },
-      {
-        "heading": "The trip belonged to the film night",
-        "paragraphs": [
-          "Choosing could involve friends, competing suggestions, a remembered trailer, or a cover that made an unfamiliar title look interesting. The rented object then traveled to a home and eventually needed to return. The store organized more than the initial transaction. It supplied the evening’s opening debate, a temporary limit on possession, and a reason to go back after the film had ended."
+          "The cover can remain visible when the rentable copies are already out. A visitor must choose something the group wants and the shop can supply. Checkout creates a loan with a due time. The film’s ending does not end that obligation; the copy still needs to make the return journey. The Friday feature follows that larger evening."
         ]
       }
     ],
-    "reviewedAt": "2026-10-29",
+    "reviewedAt": "2026-11-05",
     "sourceIds": [
       "polish-object-blockbuster-store",
       "polish-viacom-1997"
@@ -1277,7 +1222,7 @@
     "room": "games",
     "label": "public confidence test",
     "curatorNote": "Leave a quarter on the cabinet. Somebody else is playing your next game.",
-    "whyItMattered": "An arcade cabinet joins a display, controls, and a game inside a dedicated piece of furniture. The pictured cabinet’s artwork and screen identify a particular machine; the photograph is not a generic image of every arcade title in the collection. Its upright shape makes play a visible activity in a shared space.",
+    "whyItMattered": "This Marble Madness cabinet joins a dedicated game, screen and trackball controls inside one piece of furniture. The design begins before the 1990s, while continued play belongs to the longer life of arcade machines. Its control surface is specific to the game’s movement problem.",
     "media": {
       "kind": "image",
       "src": "/assets/media/games/marble-madness-arcade-cabinet.jpg",
@@ -1303,7 +1248,8 @@
     ],
     "relatedArtifacts": [],
     "relatedRoutes": [
-      "/zones/games/"
+      "/stories/meet-me-at-the-mall/",
+      "/stories/the-console-war-couch/"
     ],
     "target": "/zones/games/#artifact-arcade-cabinet",
     "interaction": null,
@@ -1316,19 +1262,13 @@
     ],
     "sections": [
       {
-        "heading": "The screen came with its own station",
+        "heading": "The ball under your hand is part of the game",
         "paragraphs": [
-          "The control panel places the player at a set distance from the display. A person waiting nearby can watch the current attempt, learn from it, or judge when their own turn might begin. The machine supplies a small stage as well as a set of rules."
-        ]
-      },
-      {
-        "heading": "A game with an audience",
-        "paragraphs": [
-          "Arcade play could make skill public. A successful sequence, a high score, or an unexpectedly quick defeat was available to the people standing close enough to see. The physical setting therefore changed the experience of the software. A title that might be played alone at home could become an encounter with a room, a queue, and the pressure of knowing that somebody else was watching the next move."
+          "Rolling a physical trackball guides the on-screen marble. It offers a different relationship between hand motion and game motion from a directional pad. The cabinet also makes play visible to anyone standing nearby. A photograph cannot establish the condition of its internal hardware or prove which version is running today; it preserves the identified form of the machine."
         ]
       }
     ],
-    "reviewedAt": "2026-10-29",
+    "reviewedAt": "2026-11-05",
     "sourceIds": [
       "polish-object-arcade-cabinet"
     ]
@@ -1345,7 +1285,7 @@
     "room": "games",
     "label": "couch-war muscle memory",
     "curatorNote": "The pad carried fighting-game technique, sports-game trash talk, and console loyalty.",
-    "whyItMattered": "The reference photograph compares Sega’s original three-button Mega Drive/Genesis controller with the later six-button design. The additional X, Y, and Z face buttons make the change visible immediately, while the familiar directional cross remains on the left.",
+    "whyItMattered": "Two Sega controllers make the comparison here: the original Mega Drive/Genesis three-button pad above and the later six-button version below. Both put a directional cross under the left thumb. The later pad adds X, Y and Z to A, B and C, giving compatible games more face-button inputs without requiring an entirely new console.",
     "media": {
       "kind": "image",
       "src": "/assets/media/stories/correction-genesis.webp",
@@ -1372,7 +1312,8 @@
     ],
     "relatedArtifacts": [],
     "relatedRoutes": [
-      "/zones/games/"
+      "/stories/the-secret-button-sequence/",
+      "/stories/the-console-war-couch/"
     ],
     "target": "/zones/games/#artifact-genesis-controller",
     "interaction": null,
@@ -1385,20 +1326,19 @@
     ],
     "sections": [
       {
-        "heading": "More buttons under the same thumb",
+        "heading": "Six buttons change the conversation",
         "paragraphs": [
-          "More buttons could make the pad better suited to games that offered several separate actions, especially fighting games. The familiar directional cross remained on the left, while the right thumb acquired more choices within a compact area."
+          "A fighting game can assign several attacks to separate buttons rather than asking a three-button pad to cover them through another arrangement. Street Fighter II: Special Champion Edition is an obvious reason to care about the difference. The six-button pad also includes a Mode control, but its purpose and use depend on the game; it should not be mistaken for another universally assigned attack."
         ]
       },
       {
-        "heading": "Hardware made the argument practical",
+        "heading": "Game support comes first",
         "paragraphs": [
-          "A controller translates a software action into a movement that can be repeated without looking away from the screen. Button placement therefore shapes how a game feels, even when the rules are unchanged. Comparing these pads gives the console-rivalry story a physical scale: the debate was not only about advertising or processors, but about the object a player actually held through another round.",
-          "The difference was easy to feel in games with many commands: a fighting game could assign separate attacks to individual face buttons, changing what the right thumb could reach without a button combination."
+          "More buttons do not make every game use more commands. A title designed around the earlier pad may play much the same way, and compatibility instructions belong to the particular software. Keep the two physical layouts visible when describing a remembered code: an X instruction cannot be entered on a face that only has A, B and C."
         ]
       }
     ],
-    "reviewedAt": "2026-10-29",
+    "reviewedAt": "2026-11-05",
     "sourceIds": [
       "polish-object-genesis-controller",
       "new-sega-gamegear"
@@ -1416,7 +1356,7 @@
     "room": "games",
     "label": "three-prong multiplayer sculpture",
     "curatorNote": "Its odd shape and analog stick announced that 3D games would need a different kind of touch.",
-    "whyItMattered": "The original Nintendo 64 controller offers three handles, a central control stick, a directional cross, and several differently positioned buttons. Its unusual shape makes sense as a choice between grips rather than an instruction to hold every part at once. The controller asks its user to decide which controls the game actually needs.",
+    "whyItMattered": "Nintendo’s original N64 controller offers three grips, a central control stick, a directional cross and buttons in several locations. The three handles propose alternative hand positions; they do not ask for a third hand. Different games make different parts of the pad important.",
     "media": {
       "kind": "image",
       "src": "/assets/media/games/n64-controller-gray.jpg",
@@ -1439,9 +1379,12 @@
       1996,
       1999
     ],
-    "relatedArtifacts": [],
+    "relatedArtifacts": [
+      "transparent-n64-controller"
+    ],
     "relatedRoutes": [
-      "/zones/games/"
+      "/stories/a-whole-new-dimension/",
+      "/archive/objects/transparent-n64-controller/"
     ],
     "target": "/zones/games/#artifact-n64-controller",
     "interaction": null,
@@ -1455,22 +1398,17 @@
     ],
     "sections": [
       {
-        "heading": "Three grips, two hands",
+        "heading": "Let the game choose the grip",
         "paragraphs": [
-          "The central stick became especially meaningful with three-dimensional movement. Super Mario 64 made small changes in direction and pressure part of learning to move around its spaces. The controller’s physical arrangement and the game’s design explained one another through play."
-        ]
-      },
-      {
-        "heading": "Look beyond the front",
-        "paragraphs": [
-          "The trigger and rear accessory connection also belong to the object’s story. The hand has to reach more than the colorful buttons visible in a front photograph. Accessories such as the Rumble Pak and Controller Pak supplied additional functions through that connection. This reference shows the original design, keeping it distinct from modern wireless reproductions that resemble it while using different connections and power systems."
+          "Super Mario 64 uses the stick for movement and C buttons for camera control, with the Z trigger accessible behind the middle grip. Other software can prioritize another arrangement. The cord still leads to a shared console and screen. The new-dimension feature explains why learning the viewpoint could be as important as learning the jump."
         ]
       }
     ],
-    "reviewedAt": "2026-10-29",
+    "reviewedAt": "2026-11-05",
     "sourceIds": [
       "polish-object-n64-controller",
-      "polish-n64"
+      "polish-n64",
+      "sprint-mario-manual"
     ]
   },
   {
@@ -1485,7 +1423,7 @@
     "room": "games",
     "label": "the console grows up",
     "curatorNote": "Put the disc in. Keep the memory card somewhere you can find it.",
-    "whyItMattered": "Sony’s original PlayStation has a top-loading disc lid, two controller ports, and separate slots for memory cards. These openings reveal different jobs: the disc supplies the game, the controller supplies the player’s actions, and the card can preserve progress after the machine is switched off.",
+    "whyItMattered": "Sony’s original PlayStation separates three jobs across the front and lid: the disc contains software, the controller supplies input and a memory card holds compatible saved data. Two controller ports support local play when the game offers it.",
     "media": {
       "kind": "image",
       "src": "/assets/media/timeline-1995/playstation-controller.jpg",
@@ -1512,7 +1450,8 @@
     ],
     "relatedArtifacts": [],
     "relatedRoutes": [
-      "/timeline/1995/"
+      "/stories/fifteen-blocks-of-memory/",
+      "/stories/the-demo-disc-evening/"
     ],
     "target": "/timeline/1994/#artifact-playstation-hardware",
     "interaction": null,
@@ -1525,19 +1464,13 @@
     ],
     "sections": [
       {
-        "heading": "A console organized around discs",
+        "heading": "The game and the progress can take different trips",
         "paragraphs": [
-          "The console launched in Japan in December 1994 and reached North America in September 1995. Those different dates help locate the hardware without turning a magazine preview, an imported machine, and a local shop purchase into the same event."
-        ]
-      },
-      {
-        "heading": "The accessories changed the household routine",
-        "paragraphs": [
-          "A disc-based library made cases and printed booklets part of the collection, while a memory card could travel independently of a game. Additional multiplayer equipment could extend the number of participants in compatible software. The photograph shows the machine and controller as manufactured objects, but their everyday use also depended on a television, suitable connections, somewhere to keep the discs, and a room willing to make space for another player."
+          "A borrowed disc does not automatically bring a saved career with it. Check the correct card, slot and game version. The original pad’s directional controls also belong to an earlier design than later analog-stick PlayStation controllers. The hardware family kept evolving, so a familiar gray console is a starting point for identification rather than a complete history of every model."
         ]
       }
     ],
-    "reviewedAt": "2026-10-29",
+    "reviewedAt": "2026-11-05",
     "sourceIds": [
       "polish-object-playstation-hardware",
       "polish-ps-history"
@@ -1555,7 +1488,7 @@
     "room": "transparent-tech",
     "label": "the computer becomes room decor",
     "curatorNote": "A blue shell on the desk, with the hardware partly visible inside.",
-    "whyItMattered": "Apple’s original iMac combined computer and CRT display inside a curved Bondi blue enclosure. Its translucent shell made the equipment visually distinctive while the integrated shape reduced the usual separation between a monitor and a tower. The handle at the top belonged to a substantial desktop object, not a lightweight portable.",
+    "whyItMattered": "The original 1998 iMac combines a CRT display and computer in a curved Bondi blue enclosure. The translucent case, handle and integrated form make the desktop into one conspicuous object. Bondi blue identifies this first edition, distinct from the later multi-color range.",
     "media": {
       "kind": "image",
       "src": "/assets/media/transparent-tech/imac-g3-bondi-blue.png",
@@ -1580,7 +1513,8 @@
     ],
     "relatedArtifacts": [],
     "relatedRoutes": [
-      "/zones/transparent-tech/"
+      "/stories/you-could-see-through-it/",
+      "/stories/carrying-files-home/"
     ],
     "target": "/zones/transparent-tech/#artifact-bondi-imac",
     "interaction": null,
@@ -1593,19 +1527,13 @@
     ],
     "sections": [
       {
-        "heading": "One curved object on the desk",
+        "heading": "The ports change the handoff",
         "paragraphs": [
-          "Apple announced the iMac in May 1998, with retail availability following in August. The machine’s introduction and its arrival in shops are separate points in the calendar. Its colorful appearance accompanied practical choices about connections and removable media."
-        ]
-      },
-      {
-        "heading": "The connections were part of the proposal",
-        "paragraphs": [
-          "USB was central to the design, while a built-in floppy drive was absent. Those decisions could make a new setup feel simpler and create work for someone with older disks or peripherals. The object therefore represents more than a fashion for translucent plastic. Its shell, integrated form, and available connections made a coordinated argument about what a household computer should look like and what its owner should expect to attach."
+          "The original specifications include a CD-ROM drive and USB, with no built-in floppy drive. That changes what a visitor can plug in or bring on a diskette. The case can look inviting while requiring a new practical routine. Its handle belongs to a substantial desktop machine, not a claim that the computer is as casually portable as a small laptop."
         ]
       }
     ],
-    "reviewedAt": "2026-10-29",
+    "reviewedAt": "2026-11-05",
     "sourceIds": [
       "polish-object-bondi-imac",
       "imac-specs",
@@ -1624,7 +1552,7 @@
     "room": "games",
     "label": "a modem inside the console",
     "curatorNote": "The little VMU had a screen of its own. Keep it with the controller.",
-    "whyItMattered": "Sega’s Dreamcast combined an optical-disc console with a controller designed to accept accessories. Its Visual Memory Unit could make saved data visible on a small display inside the controller, giving the accessory a more conspicuous presence than a plain storage card. The console and its surrounding objects shared the work of making play feel personal.",
+    "whyItMattered": "Sega’s Dreamcast places optical-disc games beside a controller with accessory slots. The pictured VMU adds a small screen to saved-data storage and sits visibly in the controller. A memory accessory becomes part of what a player can look at while holding the controls.",
     "media": {
       "kind": "image",
       "src": "/assets/media/timeline-1999/dreamcast-console.jpg",
@@ -1646,9 +1574,12 @@
     "relatedYears": [
       1999
     ],
-    "relatedArtifacts": [],
+    "relatedArtifacts": [
+      "memory-card"
+    ],
     "relatedRoutes": [
-      "/timeline/1999/"
+      "/timeline/1999/#defining-moments",
+      "/archive/objects/memory-card/"
     ],
     "target": "/timeline/1999/#artifact-dreamcast",
     "interaction": null,
@@ -1661,19 +1592,13 @@
     ],
     "sections": [
       {
-        "heading": "A console with another screen nearby",
+        "heading": "Check the game’s use of the accessory",
         "paragraphs": [
-          "The North American launch on September 9, 1999 gave the machine a memorable calendar identity. Japan’s earlier launch and other regional arrivals belong to different dates. The American slogan’s neat sequence should not be used as the release day for every market."
-        ]
-      },
-      {
-        "heading": "Read the surrounding equipment",
-        "paragraphs": [
-          "A Dreamcast setup involved the machine, controller, game discs, memory, television, and the available connections. Its network ambitions also made the route beyond the living room part of the hardware’s identity. Looking at the console as a group of connected objects explains more than isolating its case: the new experience depended on what could be inserted, held, saved, and reached through it."
+          "A VMU can store data, while particular games may use its display or other functions. Those uses are software-specific. The console’s modem also does not make every game an online game. Dreamcast’s Japanese 1998 and later regional launches belong to different dates, so the year on an international memory should be checked against the market concerned."
         ]
       }
     ],
-    "reviewedAt": "2026-10-29",
+    "reviewedAt": "2026-11-05",
     "sourceIds": [
       "polish-object-dreamcast",
       "dreamcast-us"
@@ -1691,7 +1616,7 @@
     "room": "timeline",
     "label": "the countdown becomes infrastructure",
     "curatorNote": "Rows of screens and response teams turned a date change into nightly-news suspense.",
-    "whyItMattered": "This photograph records a Japanese government response setting around the year-2000 transition. It shows people and a room organized for monitoring and coordination. Its specific national and institutional context matters; it is not evidence that every country used the same arrangements or experienced the same results.",
+    "whyItMattered": "Japan’s Year 2000 response office, photographed with Prime Minister Keizō Obuchi on December 31, 1999, shows people organized around monitoring and coordination. The setting makes an information-system problem visible as a room, a timetable and assigned responsibility.",
     "media": {
       "kind": "image",
       "src": "/assets/media/timeline-1999/y2k-response-office.jpg",
@@ -1715,7 +1640,7 @@
     ],
     "relatedArtifacts": [],
     "relatedRoutes": [
-      "/timeline/1999/"
+      "/timeline/1999/#defining-moments"
     ],
     "target": "/timeline/1999/#artifact-y2k-office",
     "interaction": null,
@@ -1728,19 +1653,13 @@
     ],
     "sections": [
       {
-        "heading": "The countdown was somebody’s working night",
+        "heading": "Two digits can carry an old assumption",
         "paragraphs": [
-          "The Y2K concern involved systems that represented years in ways that might become ambiguous or fail when the calendar changed. Preparation could include identifying affected equipment, testing, making corrections, and arranging a response if something went wrong. The public countdown therefore accompanied a large amount of work that was less visible than the celebrations."
-        ]
-      },
-      {
-        "heading": "What the room preserves",
-        "paragraphs": [
-          "Tables, documents, and the assembled participants make the institutional labor tangible. The image shifts attention from a speculative disaster picture toward an actual organized response. It belongs beside the dated rollover entry as evidence of people preparing to watch the transition, rather than as a claim that the feared outcomes happened everywhere or that successful preparation was unnecessary."
+          "Some systems represented a year with two digits, creating ambiguity when 99 became 00. Finding and correcting those assumptions required testing particular systems, not a single universal patch. This photograph records one government’s preparations. It does not establish every country’s arrangements or the outcome of every computer’s date change."
         ]
       }
     ],
-    "reviewedAt": "2026-10-29",
+    "reviewedAt": "2026-11-05",
     "sourceIds": [
       "polish-object-y2k-office",
       "phase2-y2k-rollover-night"
@@ -1758,7 +1677,7 @@
     "room": "timeline",
     "label": "the future as a launch plume",
     "curatorNote": "Discovery carries Hubble out of Florida and into orbit.",
-    "whyItMattered": "Hubble traveled into space aboard Discovery in April 1990. The launch and the telescope’s deployment occurred on consecutive days, so they are related events without being interchangeable timestamps. The photograph captures the shuttle’s departure rather than an image made by the telescope after it began work.",
+    "whyItMattered": "Discovery carried the Hubble Space Telescope into orbit on STS-31 in April 1990. Launch and telescope deployment are separate milestones: the shuttle lifted off on April 24, and Hubble was deployed on April 25. This image shows departure from Earth, not a view made by the telescope.",
     "media": {
       "kind": "image",
       "src": "/assets/media/timeline-1990/hubble-launch.jpg",
@@ -1782,7 +1701,7 @@
     ],
     "relatedArtifacts": [],
     "relatedRoutes": [
-      "/timeline/1990/"
+      "/timeline/1990/#event-hubble-launches"
     ],
     "target": "/timeline/1990/#artifact-hubble-launch",
     "interaction": null,
@@ -1795,19 +1714,13 @@
     ],
     "sections": [
       {
-        "heading": "A telescope began with a shuttle journey",
+        "heading": "The mission continues after the plume",
         "paragraphs": [
-          "That distinction gives the object a useful place in the timeline. A scientific instrument’s public history includes design, transport, deployment, later servicing, and the observations associated with it. The dramatic launch image records one necessary stage in that longer process."
-        ]
-      },
-      {
-        "heading": "The picture behind the pictures",
-        "paragraphs": [
-          "The shuttle, launch structure, and exhaust make the scale of the transport visible. A later Hubble image of a distant object can seem detached from the equipment and coordinated effort that made the observation possible. Placing the launch beside the telescope’s subsequent history reconnects the familiar astronomical pictures to an actual machine and a specific journey away from Earth. NASA’s chronology supplies the dates; the image supplies the physical occasion."
+          "A successful launch places the equipment on its route to work; it does not finish a space observatory. Hubble’s optical problem and later servicing are another part of its history. Keeping the stages separate helps the timeline describe what happened on a particular day without compressing an entire scientific project into one launch photograph."
         ]
       }
     ],
-    "reviewedAt": "2026-10-29",
+    "reviewedAt": "2026-11-05",
     "sourceIds": [
       "polish-object-hubble-launch",
       "nasa-hubble"
@@ -1825,7 +1738,7 @@
     "room": "games",
     "label": "hand-to-hand software menace",
     "curatorNote": "A disk could bring a new game to a computer that usually held homework.",
-    "whyItMattered": "These labeled floppy disks show one way Doom’s software could be carried between people and machines. The game’s shareware release in December 1993 offered an opening portion that could circulate under its distribution terms, with further material available through a paid version. A small disk could therefore introduce a player to a much larger game.",
+    "whyItMattered": "Doom’s shareware opening could travel as files on floppy disks before a boxed purchase. A diskette turns distribution into a physical handoff: the recipient still needs compatible hardware, setup and a working copy. The labeled collection here documents a medium, rather than establishing that every disk is the first December 1993 edition.",
     "media": {
       "kind": "image",
       "src": "/assets/media/timeline-1993/doom-disks.jpg",
@@ -1849,7 +1762,8 @@
     ],
     "relatedArtifacts": [],
     "relatedRoutes": [
-      "/timeline/1993/"
+      "/stories/shareware-before-download-stores/",
+      "/stories/the-secret-button-sequence/"
     ],
     "target": "/timeline/1993/#artifact-doom-disks",
     "interaction": null,
@@ -1862,22 +1776,17 @@
     ],
     "sections": [
       {
-        "heading": "A digital game with a physical route",
+        "heading": "The free episode has a boundary",
         "paragraphs": [
-          "The labels matter because the object is not self-explanatory before it reaches a drive. A title, disk number, or version identifies what the owner is about to insert. Installation and understanding the contents were part of the experience, rather than invisible preparation performed elsewhere."
-        ]
-      },
-      {
-        "heading": "The knowledge traveled too",
-        "paragraphs": [
-          "A person giving someone the software could also explain how to start it, change controls, or solve a configuration problem. The physical copy and the practical advice often belonged to the same exchange. These disks make that distribution culture visible: the recording was digital, but its journey still involved a pocket, another computer, and a person who knew what to do next."
+          "The original shareware supplies Knee-Deep in the Dead. The registered game adds more episodes, and later editions change the package again. Read the edition and distribution terms before treating every Doom data file as shareware. The accompanying story follows the journey from delivery and setup to deciding whether to buy the rest."
         ]
       }
     ],
-    "reviewedAt": "2026-10-29",
+    "reviewedAt": "2026-11-05",
     "sourceIds": [
       "polish-object-doom-disks",
-      "phase2-doom-shareware"
+      "phase2-doom-shareware",
+      "sprint-doom-modes"
     ]
   },
   {
@@ -1892,7 +1801,7 @@
     "room": "transparent-tech",
     "label": "the backpack gets a clear shell",
     "curatorNote": "Clear purple plastic lets you inspect the board before switching the handheld on.",
-    "whyItMattered": "Nintendo introduced Game Boy Color in 1998. The handheld retained the recognizable arrangement of a screen above the controls, while color became part of both the display’s possibilities and the machine’s exterior identity. The pictured Atomic Purple shell also lets portions of the equipment inside remain visible.",
+    "whyItMattered": "Nintendo’s Game Boy Color, introduced in 1998, adds color to the handheld’s display possibilities while retaining the screen-above-controls arrangement. This reference is the Atomic Purple version, whose translucent shell makes part of the internal structure visible.",
     "media": {
       "kind": "image",
       "src": "/assets/media/transparent-tech/game-boy-color-purple.jpg",
@@ -1917,7 +1826,8 @@
     ],
     "relatedArtifacts": [],
     "relatedRoutes": [
-      "/zones/transparent-tech/"
+      "/stories/handhelds-and-batteries/",
+      "/stories/you-could-see-through-it/"
     ],
     "target": "/zones/transparent-tech/#artifact-game-boy-color",
     "interaction": null,
@@ -1930,19 +1840,13 @@
     ],
     "sections": [
       {
-        "heading": "Color in a familiar portable shape",
+        "heading": "Find the light as well as the cartridge",
         "paragraphs": [
-          "A translucent case does not make the machine an open technical manual. It offers a glimpse of boards, supports, and openings while keeping the device assembled for ordinary use. Looking through the shell became another pleasure available before a cartridge was even inserted."
-        ]
-      },
-      {
-        "heading": "Portable still meant preparation",
-        "paragraphs": [
-          "The system depended on power, a cartridge, and conditions in which the small screen could be read. Choosing a color was one part of owning it; choosing what to play and what to pack remained another. The object joins two late-decade stories at once: the continuing appeal of a personal handheld screen and the use of visible, colorful plastic to make electronics feel distinctive in the owner’s hands."
+          "The original display has no built-in illumination, and the machine uses two AA batteries. Compatible Game Boy software and Color-specific games have different capabilities; check the cartridge rather than assuming every title uses the same palette. The handheld feature compares it with an identified Game Gear, where the backlit color screen makes a different bargain with portable power."
         ]
       }
     ],
-    "reviewedAt": "2026-10-29",
+    "reviewedAt": "2026-11-05",
     "sourceIds": [
       "polish-object-game-boy-color",
       "nintendo-world"
@@ -1960,7 +1864,7 @@
     "room": "transparent-tech",
     "label": "multiplayer gear becomes collectible",
     "curatorNote": "You can see the board through the purple shell. The buttons still need learning.",
-    "whyItMattered": "This transparent purple Nintendo 64 controller keeps the original design’s distinctive grips, central stick, directional cross, and colored buttons. Its translucent shell changes how the same functions are presented, exposing parts of the internal structure without changing the basic act of holding the controller.",
+    "whyItMattered": "A transparent purple N64 controller keeps the original three-grip form while changing how the shell presents the electronics inside. The central stick, directional cross and button positions remain the important parts of holding and operating it.",
     "media": {
       "kind": "image",
       "src": "/assets/media/transparent-tech/n64-controller-purple.jpg",
@@ -1983,9 +1887,12 @@
       1998,
       1999
     ],
-    "relatedArtifacts": [],
+    "relatedArtifacts": [
+      "n64-controller"
+    ],
     "relatedRoutes": [
-      "/zones/transparent-tech/"
+      "/archive/objects/n64-controller/",
+      "/stories/you-could-see-through-it/"
     ],
     "target": "/zones/transparent-tech/#artifact-transparent-n64-controller",
     "interaction": null,
@@ -1998,19 +1905,13 @@
     ],
     "sections": [
       {
-        "heading": "A familiar pad made visible inside",
+        "heading": "Color changes the surface, not the assignment",
         "paragraphs": [
-          "The color makes the accessory recognizable in a shared setup. Several players might use the same type of pad while still having a clear preference for one particular object. A visible choice could create a small sense of ownership around equipment used with a household console."
-        ]
-      },
-      {
-        "heading": "The shell was part of the experience",
-        "paragraphs": [
-          "The view inside offered an approachable kind of technological curiosity. Screws, supports, and components became part of the surface, even for a user who did not know their technical names. The controller belongs beside the Bondi blue iMac and Atomic Purple Game Boy Color as another application of that design idea, while keeping its own function clear: it was an object held through repeated decisions, reactions, and movements during play."
+          "A translucent shell does not create different commands for a game. Its appeal includes the glimpse of internal construction and the identity of a chosen color. Compare the gray controller to separate the design’s control arrangement from the variant’s finish. The transparent-tech story follows that distinction from a handheld object to a computer large enough to shape a room."
         ]
       }
     ],
-    "reviewedAt": "2026-10-29",
+    "reviewedAt": "2026-11-05",
     "sourceIds": [
       "polish-object-transparent-n64-controller",
       "polish-n64"
@@ -2028,18 +1929,12 @@
     "room": "games",
     "label": "A console with room for a whole library.",
     "curatorNote": "A console with room for a whole library.",
-    "whyItMattered": "The Super Nintendo pictured here is the North American design, with an angular gray case and purple controls. It should be distinguished from the differently styled Japanese Super Famicom even though the machines belong to the same hardware family. The casing helps identify which version of the object is actually being shown.",
+    "whyItMattered": "The North American Super Nintendo wears an angular gray case with purple controls. It belongs to the same hardware family as Japan’s differently styled Super Famicom, but the casing, regional launch and software packaging have their own identities.",
     "sections": [
       {
-        "heading": "The North American shape of a console",
+        "heading": "Keep the cartridge and the market together",
         "paragraphs": [
-          "The top cartridge opening makes the relationship between game and machine visible. Changing software means removing one substantial object and inserting another. A collection of games therefore needs its own space, labels, and a way to keep cartridges identifiable when they are away from their boxes."
-        ]
-      },
-      {
-        "heading": "A library shaped household choices",
-        "paragraphs": [
-          "Super Mario World and other titles gave the machine particular attractions, while the incompatibility of a rival system’s cartridges made a purchasing decision consequential. A controller and television connection completed the basic setup, but friends, rentals, and borrowed games could extend its practical library. The console’s history lived partly in the equipment and partly in the network of people who could bring another cartridge over."
+          "The shape of the cartridge slot is one visible part of regional compatibility. A familiar game name does not guarantee that an imported cartridge works in a particular unmodified machine. Super Mario World is an identified route into the library. The console-war feature follows how owning one machine made a friend’s incompatible game into a reason to visit."
         ]
       }
     ],
@@ -2079,13 +1974,11 @@
       1999
     ],
     "relatedArtifacts": [
-      "playstation-hardware",
-      "memory-card",
-      "jewel-case"
+      "super-famicom"
     ],
     "relatedRoutes": [
-      "/stories/the-demo-disc-evening/",
-      "/zones/games/"
+      "/stories/the-console-war-couch/",
+      "/archive/objects/super-famicom/"
     ],
     "target": "/zones/games/",
     "interaction": null,
@@ -2097,7 +1990,7 @@
       "consoles",
       "action"
     ],
-    "reviewedAt": "2026-10-29"
+    "reviewedAt": "2026-11-05"
   },
   {
     "id": "game-gear",
@@ -2111,18 +2004,18 @@
     "room": "games",
     "label": "Color gaming with a battery budget.",
     "curatorNote": "Color gaming with a battery budget.",
-    "whyItMattered": "Sega introduced Game Gear in Japan in 1990. Its horizontal body places the controls on either side of a color display, making the screen’s width part of the object’s overall shape. The handheld offered a different physical and visual proposition from Nintendo’s original monochrome Game Boy.",
+    "whyItMattered": "Sega’s Game Gear, introduced in Japan in 1990, places a backlit color LCD between two sets of controls. Its wide body gives the screen, directional pad and action buttons their own space. This is a dedicated cartridge handheld, with a separate software library from the Genesis/Mega Drive despite familiar Sega names appearing on both.",
     "sections": [
       {
-        "heading": "A color screen that traveled",
+        "heading": "The color screen comes with a packing list",
         "paragraphs": [
-          "Its six-AA battery requirement makes power a visible part of the design. The portable machine needed a supporting supply, and a trip could end the game without ending the journey. A mains adapter offered another arrangement at home, preserving a personal screen while tying the machine to an outlet."
+          "The US packaging specifies six AA batteries for ordinary portable play, with optional power accessories sold separately. Fit the matching cartridge, set the volume and screen brightness, then choose where to hold it. A lit display offers a different bargain from an unlit handheld: you can see its own light, but the machine must supply the energy for it."
         ]
       },
       {
-        "heading": "Read the back as well as the front",
+        "heading": "Pack the power",
         "paragraphs": [
-          "The battery compartments, cartridge connection, and other openings explain what has to accompany the display. The system can leave the living room without becoming independent of practical preparation. That balance is central to the handheld’s story: color, a private picture, and a bag-sized form made a persuasive offer, while weight, power, and the choice of cartridges helped determine what owning and carrying it actually felt like."
+          "Spare batteries and accessories make the travel kit larger than the console alone. Do not assign one fixed battery-life figure to every cell type and brightness setting. Compare it with the 1998 Game Boy Color as two identified machines, rather than treating every Game Boy generation as the same monochrome opponent."
         ]
       }
     ],
@@ -2131,7 +2024,8 @@
       "new-sega-gamegear",
       "new-photo-game-gear",
       "nintendo-world",
-      "nintendo-us"
+      "nintendo-us",
+      "sprint-gamegear-box"
     ],
     "media": {
       "kind": "image",
@@ -2164,12 +2058,11 @@
       1999
     ],
     "relatedArtifacts": [
-      "game-boy-color",
-      "snes"
+      "game-boy-color"
     ],
     "relatedRoutes": [
       "/stories/handhelds-and-batteries/",
-      "/zones/games/"
+      "/archive/objects/game-boy-color/"
     ],
     "target": "/zones/games/",
     "interaction": null,
@@ -2181,7 +2074,7 @@
       "handhelds",
       "consoles"
     ],
-    "reviewedAt": "2026-10-29"
+    "reviewedAt": "2026-11-05"
   },
   {
     "id": "saturn",
@@ -2195,18 +2088,12 @@
     "room": "games",
     "label": "Another future arrived on a disc.",
     "curatorNote": "Another future arrived on a disc.",
-    "whyItMattered": "The pictured Sega Saturn is an early case design shown with its controller. Its lid and optical-disc format identify another stage in Sega’s home-console history, distinct from the cartridge-based Mega Drive and Genesis. The form of the software changed what needed to be stored, handled, and kept beside the machine.",
+    "whyItMattered": "The early US Sega Saturn case pairs a top-loading optical-disc console with its own controller. The software arrives on a different medium from the Mega Drive/Genesis cartridge, while the familiar company name invites comparison with the earlier library.",
     "sections": [
       {
-        "heading": "A disc console with a particular regional history",
+        "heading": "The name on the console does not make a cartridge fit",
         "paragraphs": [
-          "Saturn reached Japan in 1994, with other markets following in 1995. Regional dates matter because anticipation, an import, and an ordinary local purchase could belong to different moments. The photograph’s model identification should not turn those separate arrivals into a universal release day."
-        ]
-      },
-      {
-        "heading": "The machine was the start of a collection",
-        "paragraphs": [
-          "A console’s value depended on its available games, controllers, and the people able to share them. A disc’s case and booklet supplied information outside the screen, while the hardware needed a television and suitable connections before any of it became playable. Saturn is useful beside PlayStation and Nintendo 64 because the neighboring objects show several different proposals for what the next home gaming setup should contain."
+          "A disc needs the appropriate Saturn game and region, and saved progress needs the storage arrangement the title expects. The controller and its buttons make another change in the equipment beneath the television. The machine belongs to Sega’s mid-1990s home-console history, distinct from both Game Gear’s portable library and Dreamcast’s later launch."
         ]
       }
     ],
@@ -2242,13 +2129,11 @@
       1999
     ],
     "relatedArtifacts": [
-      "playstation-hardware",
-      "memory-card",
-      "jewel-case"
+      "dreamcast"
     ],
     "relatedRoutes": [
-      "/stories/the-demo-disc-evening/",
-      "/zones/games/"
+      "/stories/the-console-war-couch/",
+      "/archive/objects/dreamcast/"
     ],
     "target": "/zones/games/",
     "interaction": null,
@@ -2260,7 +2145,7 @@
       "consoles",
       "action"
     ],
-    "reviewedAt": "2026-10-29"
+    "reviewedAt": "2026-11-05"
   },
   {
     "id": "minidisc",
@@ -2274,18 +2159,18 @@
     "room": "music",
     "label": "A recording tucked inside a protective shell.",
     "curatorNote": "A recording tucked inside a protective shell.",
-    "whyItMattered": "Sony’s MZ-1 belongs to the first commercial MiniDisc hardware introduced in 1992. The photograph shows the recorder beside a disc, allowing the size of the protected medium and the machine’s controls to be read together. The cartridge gives the recording a shell that can be labeled and handled without exposing the whole surface.",
+    "whyItMattered": "Sony’s MZ-1 and a MiniDisc show the first commercial generation of the format, introduced in 1992. A shuttered cartridge protects the small optical disc. The recorder combines capture, track access and editing, so the finished order does not have to remain the order in which the music arrived. It is an early recording device, not a later USB file-transfer model.",
     "sections": [
       {
-        "heading": "A recording behind a shutter",
+        "heading": "The edit switch has a real job",
         "paragraphs": [
-          "MiniDisc combined digital recording with direct track access and editing functions. Its relationship to a cassette was therefore different from simply shrinking a CD: a personal recording could be arranged and revised through dedicated hardware rather than remaining only in its original recording order."
+          "The original instructions provide Combine, Divide, Swap, Erase, Erase All and Label operations. A long recording can acquire a boundary; two neighboring selections can become one; tracks can exchange positions. These actions revise how the recorded material is organized. Labels give the little display something more informative than an anonymous track number. The story follows an illustrative recording and edit sequence on this model."
         ]
       },
       {
-        "heading": "Small controls, deliberate work",
+        "heading": "Finish the write operation",
         "paragraphs": [
-          "Buttons and a display gave naming and editing a physical interface. The task could be satisfying without being effortless, particularly when entering text through limited controls. The object preserves that balance of convenience and patience. A recording could travel inside a compact case, yet making the finished collection still involved listening, choosing an order, and using the recorder carefully enough to make the result match the intention."
+          "Making the recording still takes real time, and ATRAC compression is part of fitting the sound onto the format. The disc’s table of contents must be written successfully for changes to be complete. A protective shell helps you handle the medium; it does not remove the need to finish the machine’s recording and editing operations."
         ]
       }
     ],
@@ -2293,7 +2178,8 @@
       "polish-object-minidisc",
       "sony-digital",
       "new-photo-minidisc",
-      "sony-audio"
+      "sony-audio",
+      "sprint-mz1-manual"
     ],
     "media": {
       "kind": "image",
@@ -2323,13 +2209,10 @@
       1998,
       1999
     ],
-    "relatedArtifacts": [
-      "cassette",
-      "discman"
-    ],
+    "relatedArtifacts": [],
     "relatedRoutes": [
       "/stories/minidisc-small-door/",
-      "/zones/music/"
+      "/stories/from-mixtape-to-file/"
     ],
     "target": "/zones/music/",
     "interaction": null,
@@ -2341,7 +2224,7 @@
       "portable",
       "cd"
     ],
-    "reviewedAt": "2026-10-29"
+    "reviewedAt": "2026-11-05"
   },
   {
     "id": "palm-pilot",
@@ -2355,18 +2238,18 @@
     "room": "tech-toys",
     "label": "The calendar could leave the desk.",
     "curatorNote": "The calendar could leave the desk.",
-    "whyItMattered": "The PalmPilot Professional puts a small display, application controls, and a stylus interface into a pocketable organizer. Its purpose was directed rather than unlimited: calendars, contacts, notes, and related information could travel in a device built around those daily tasks. The model pictured here belongs to the late-1990s Palm family.",
+    "whyItMattered": "The PalmPilot Professional is a 1997 handheld organizer built around appointments, contacts, tasks and notes. A stylus selects on-screen controls, while the dedicated writing area accepts Graffiti strokes. The device offers a compact set of useful jobs rather than trying to reproduce a desktop’s entire collection of windows inside a pocket.",
     "sections": [
       {
-        "heading": "The organizer could leave the desk",
+        "heading": "Write the alphabet its way",
         "paragraphs": [
-          "Handwriting input through Graffiti offered a learned relationship between the stylus and the machine. A user supplied recognizable strokes rather than simply expecting every form of ordinary handwriting to be understood. Familiarity with the input method could make the modest interface feel efficient."
+          "Graffiti uses a prescribed set of strokes, so entering text involves learning a small handwriting system. Application buttons and the screen provide quick routes back into daily information. A cradle and desktop software make HotSync a separate action: the handheld and computer reconcile supported information when you connect them, rather than continuously sharing a cloud account."
         ]
       },
       {
-        "heading": "The desktop remained nearby",
+        "heading": "Make the HotSync connection",
         "paragraphs": [
-          "Synchronization connected the organizer to information kept on a computer. Portability therefore worked as a partnership between devices, not a complete replacement of the desk. This makes PalmPilot a useful companion to the pager and Nokia handset: the objects loosened different limits on availability and information, while their distinct screens, controls, and connections show why they should not all be treated as early versions of one identical smartphone."
+          "The original handbook treats synchronization and backup as practical responsibilities. Losing power or resetting the device is not the same thing as having a permanently synchronized online copy. This model is an organizer, not an integrated mobile telephone. Its strength is the short, focused visit: check an appointment, look up a number, put it away."
         ]
       }
     ],
@@ -2376,7 +2259,8 @@
       "chm-1996",
       "new-photo-palm-pilot",
       "new-chm-1994",
-      "new-chm-1997"
+      "new-chm-1997",
+      "sprint-palm-manual"
     ],
     "media": {
       "kind": "image",
@@ -2402,13 +2286,12 @@
       1999
     ],
     "relatedArtifacts": [
-      "zip-drive",
-      "floppy-disk",
-      "cdr-spindle"
+      "newton",
+      "powerbook"
     ],
     "relatedRoutes": [
-      "/stories/carrying-files-home/",
-      "/zones/tech-toys/"
+      "/archive/objects/newton/",
+      "/archive/objects/powerbook/"
     ],
     "target": "/zones/tech-toys/",
     "interaction": null,
@@ -2420,7 +2303,7 @@
       "pc",
       "software"
     ],
-    "reviewedAt": "2026-10-29"
+    "reviewedAt": "2026-11-05"
   },
   {
     "id": "nokia-3210",
@@ -2434,18 +2317,12 @@
     "room": "tech-toys",
     "label": "A pocket phone at the edge of the decade.",
     "curatorNote": "A pocket phone at the edge of the decade.",
-    "whyItMattered": "Nokia’s 3210 belongs to the end of the 1990s, when a handset could make voice calls and text messages part of a more personal routine. Its numeric keypad, small screen, and compact case give those activities a visible scale. The user is holding a phone rather than visiting a fixed telephone in a household room.",
+    "whyItMattered": "The Nokia 3210 is a 1999 handset with a numeric keypad and compact screen. Calls and text messages can reach an individual carrying the phone, rather than only a household at a fixed location. The internal antenna helps define its clean exterior shape.",
     "sections": [
       {
-        "heading": "A telephone number could travel",
+        "heading": "The keypad does more than dial",
         "paragraphs": [
-          "Text entry on a numeric keypad required another set of habits. Letters shared keys, and composing a message meant working within the device’s input method and display. Shortness was partly a practical feature of the equipment, not simply a stylistic preference."
-        ]
-      },
-      {
-        "heading": "Several limits changed at once",
-        "paragraphs": [
-          "A mobile handset could separate a call from the family landline, but coverage, service, credit or billing, and the device’s battery still shaped its use. The object is useful as a particular late-decade telephone, not as a photograph of every mobile internet system being developed elsewhere. Its strongest historical connection is to the changing relationship between a person, a number, and the places where a conversation could begin."
+          "Text entry shares numbered keys with letters, so composing a message involves a different rhythm from a full keyboard. Service, network support and available credit or subscription still shape reachability. The handset’s familiar outline should not imply a camera, a modern app platform or the features of later Nokia models."
         ]
       }
     ],
@@ -2477,13 +2354,11 @@
       1999
     ],
     "relatedArtifacts": [
-      "answering-machine",
-      "pager",
-      "family-pc"
+      "pager"
     ],
     "relatedRoutes": [
       "/stories/the-landline-negotiation/",
-      "/zones/tech-toys/"
+      "/archive/objects/pager/"
     ],
     "target": "/zones/tech-toys/",
     "interaction": null,
@@ -2495,7 +2370,7 @@
       "mall",
       "online"
     ],
-    "reviewedAt": "2026-10-29"
+    "reviewedAt": "2026-11-05"
   },
   {
     "id": "zip-drive",
@@ -2509,18 +2384,18 @@
     "room": "tech-toys",
     "label": "The project that would not fit on a floppy.",
     "curatorNote": "The project that would not fit on a floppy.",
-    "whyItMattered": "The original Iomega Zip 100 system offered a removable disk with 100 MB of capacity. Introduced in 1994, it supplied much more room than a common high-density floppy, but the cartridge was not a substitute that could simply be inserted into an ordinary floppy drive. The system required compatible Zip equipment.",
+    "whyItMattered": "Iomega’s original Zip 100 drive uses a dedicated removable magnetic cartridge holding 100 MB. Introduced in 1994, the system offers much more space than an ordinary high-density floppy while retaining a medium you can label, remove and carry to another machine. The drive and the disk are two necessary halves of the object.",
     "sections": [
       {
-        "heading": "A larger disk needed another drive",
+        "heading": "Make sure the other desk has a drive",
         "paragraphs": [
-          "The photograph places drive and disk together, making that relationship clear. A useful storage object at one desk could be awkward at another if the destination computer lacked the matching hardware. More capacity solved one problem without automatically solving the handoff."
+          "Copy a file to the mounted Zip disk, confirm that the copy opens, finish disk activity and eject through the supported system or drive procedure. An external drive also needs the correct connection and software support. Similar-sized cartridges do not make every removable-storage system interchangeable. The “100” identifies the original capacity being discussed here."
         ]
       },
       {
-        "heading": "Compatibility was part of collaboration",
+        "heading": "Check the other drive",
         "paragraphs": [
-          "Larger images, design work, and collections of files could give the extra space a practical purpose. The owner still needed to know which copy was current, label the disk, and verify that it could be read. Zip therefore records a particular stage in moving digital work: a file could outgrow one familiar container before a universally convenient replacement had become available everywhere it needed to go."
+          "The storage budget can solve the problem of a file too large for a floppy while leaving the destination unable to read it. An ordinary diskette slot cannot accept a Zip cartridge, and later capacities have their own compatibility rules. The file-carrying feature follows that distinction all the way to the receiving computer."
         ]
       }
     ],
@@ -2528,7 +2403,8 @@
       "polish-object-zip-drive",
       "new-photo-zip-drive",
       "new-chm-1994",
-      "new-chm-1997"
+      "new-chm-1997",
+      "sprint-zip"
     ],
     "media": {
       "kind": "image",
@@ -2556,12 +2432,11 @@
       1999
     ],
     "relatedArtifacts": [
-      "floppy-disk",
-      "cdr-spindle"
+      "floppy-disk"
     ],
     "relatedRoutes": [
       "/stories/carrying-files-home/",
-      "/zones/tech-toys/"
+      "/archive/objects/floppy-disk/"
     ],
     "target": "/zones/tech-toys/",
     "interaction": null,
@@ -2573,7 +2448,7 @@
       "pc",
       "software"
     ],
-    "reviewedAt": "2026-10-29"
+    "reviewedAt": "2026-11-05"
   },
   {
     "id": "floppy-disk",
@@ -2587,18 +2462,12 @@
     "room": "tech-toys",
     "label": "A label, a shutter, a little uncertainty.",
     "curatorNote": "A label, a shutter, a little uncertainty.",
-    "whyItMattered": "The 3½-inch floppy places magnetic recording material inside a rigid square shell. Its metal shutter and write-protect mechanism reveal practical concerns about protecting the surface and controlling whether the contents can be changed. A common high-density version held 1.44 MB, although capacity and compatibility depended on the disk and drive involved.",
+    "whyItMattered": "A 3½-inch floppy protects magnetic media inside a rigid shell. The metal shutter and write-protect control show how much of the design concerns handling and preserving the recording surface. A common high-density PC version carries 1.44 MB, with format and capacity depending on the disk and drive.",
     "sections": [
       {
-        "heading": "A file with a writable label",
+        "heading": "The other computer has to understand the contents",
         "paragraphs": [
-          "The blank label is an important part of the interface. Before the computer reads the disk, handwriting can identify a project, a person, or a version. Without that information, several physically similar disks can become difficult to distinguish."
-        ]
-      },
-      {
-        "heading": "The journey was physical",
-        "paragraphs": [
-          "A document could be saved successfully and still fail to arrive because the disk remained in a desk drawer. A destination machine also needed a working compatible drive and software able to interpret the file. The object connects digital work to bags, classrooms, offices, and another person’s equipment. Its small size made that journey manageable while leaving enough material presence for the copy to be labeled, lent, misplaced, or carefully kept."
+          "A disk can fit the drive while its file format remains unreadable to the application. Copying is therefore only half a transfer. Test the file from the removable disk, finish activity before removing it and keep the original until the handoff works. The file-carrying feature separates capacity, physical compatibility and document compatibility."
         ]
       }
     ],
@@ -2639,12 +2508,11 @@
       1999
     ],
     "relatedArtifacts": [
-      "zip-drive",
-      "cdr-spindle"
+      "zip-drive"
     ],
     "relatedRoutes": [
       "/stories/carrying-files-home/",
-      "/zones/tech-toys/"
+      "/archive/objects/zip-drive/"
     ],
     "target": "/zones/tech-toys/",
     "interaction": null,
@@ -2656,7 +2524,7 @@
       "pc",
       "software"
     ],
-    "reviewedAt": "2026-10-29"
+    "reviewedAt": "2026-11-05"
   },
   {
     "id": "memory-card",
@@ -2670,18 +2538,18 @@
     "room": "games",
     "label": "Progress became something you could carry.",
     "curatorNote": "Progress became something you could carry.",
-    "whyItMattered": "An original PlayStation memory card provided 15 usable blocks for game saves. Different titles could require different amounts of that space, making capacity something a player could encounter directly through a small collection of icons and stored progress. The card was separate from both the game disc and the console that read it.",
+    "whyItMattered": "The original PlayStation memory card turns saved progress into something you can carry separately from a game disc. Its 15 usable blocks hold data written by compatible PlayStation games. The card’s plain case conceals a surprisingly personal collection: a career, a saved party, a difficult section finally reached. It does not store the whole game or capture every moment of a running console.",
     "sections": [
       {
-        "heading": "Fifteen blocks with somebody’s history inside",
+        "heading": "Read the budget before deleting",
         "paragraphs": [
-          "That separation gave it a different kind of value from the software. A disc might be borrowed or replaced while the card held the particular journey already made through the game. The two objects could travel together or take different routes."
+          "A Final Fantasy VII save in the identified North American release uses one block; the original European Gran Turismo manual assigns five blocks to its game-data file. Replays are separate. Check the game’s own save screen and the console’s card manager before deciding what fits. Copying a file to another compatible card and deleting it are different operations, even when their icons sit close together. The memory-card feature includes an annotated 15-block example."
         ]
       },
       {
-        "heading": "Deleting was a decision about time",
+        "heading": "A card cannot invent a save point",
         "paragraphs": [
-          "Freeing space could mean choosing between a completed adventure and an unfinished one, or asking a sibling whether an old save still mattered. The technical limit became a household rule. A card could carry that saved progress independently of the disc: an ordinary-looking accessory with a different personal value from the game’s packaging or the console beside the television."
+          "The game chooses when and what to save. A card cannot replace reaching a save point, and an existing file does not guarantee compatibility with another regional edition. Keep the correct card with the correct version. The physical accessory could travel easily; the history inside it was much harder to reconstruct."
         ]
       }
     ],
@@ -2690,7 +2558,9 @@
       "polish-ps-history",
       "ps-memory",
       "new-photo-memory-card",
-      "new-sony-history"
+      "new-sony-history",
+      "sprint-ff7-package",
+      "sprint-gt-manual"
     ],
     "media": {
       "kind": "image",
@@ -2718,13 +2588,10 @@
       1998,
       1999
     ],
-    "relatedArtifacts": [
-      "playstation-hardware",
-      "jewel-case"
-    ],
+    "relatedArtifacts": [],
     "relatedRoutes": [
-      "/stories/the-demo-disc-evening/",
-      "/zones/games/"
+      "/stories/fifteen-blocks-of-memory/",
+      "/stories/the-demo-disc-evening/"
     ],
     "target": "/zones/games/",
     "interaction": null,
@@ -2736,7 +2603,7 @@
       "consoles",
       "action"
     ],
-    "reviewedAt": "2026-10-29"
+    "reviewedAt": "2026-11-05"
   },
   {
     "id": "game-shark",
@@ -2750,25 +2617,27 @@
     "room": "games",
     "label": "The rulebook had a hardware addendum.",
     "curatorNote": "The rulebook had a hardware addendum.",
-    "whyItMattered": "A GameShark offered a hardware route into altering compatible games. Rather than relying only on a hidden button sequence built into the title, the accessory could apply codes that changed values used during play. Its physical form and connection therefore belong to a different system from a password written on paper.",
+    "whyItMattered": "This PlayStation GameShark is the cartridge-style accessory associated with the console’s rear parallel expansion connector. It belongs to a different system from a secret sequence the game recognizes on its own. GameShark codes target values used by compatible software, turning a cartridge, a menu and a list of addresses into an additional layer between player and game.",
     "sections": [
       {
-        "heading": "An accessory that changed the software’s behavior",
+        "heading": "A code has an address",
         "paragraphs": [
-          "The exact capabilities depended on the hardware revision, console, game, and code. A device carrying the familiar brand name should not be assumed to work identically with every machine or title discussed in a broad history of cheats."
+          "Choose the matching game entry and enable the intended code before starting the compatible disc. The desired effect might concern a quantity such as health or inventory, but the code must identify the right value in that particular release. A game title alone is insufficient when revisions or regions arrange their data differently. The device makes code selection visible as a separate step before play."
         ]
       },
       {
-        "heading": "What the alteration was for",
+        "heading": "The connector is part of compatibility",
         "paragraphs": [
-          "A change could make a difficult section easier to reach or turn a completed game into an experiment. It could also disrupt the intended challenge. The object is interesting because it makes the wish to investigate or revise a game tangible. Players were not only accepting the supplied rules; some wanted another relationship with software they already owned, using additional equipment and knowledge to discover what might change."
+          "The photographed hardware needs the matching console connector; later PlayStation cases do not all provide it. Disc-based cheat products are another design. The built-in Doom commands in the cheat-code story demonstrate the contrast: those are instructions recognized by the program itself, whereas this accessory changes what the running program uses."
         ]
       }
     ],
     "sourceIds": [
       "polish-object-game-shark",
       "new-photo-game-shark",
-      "new-sony-history"
+      "new-sony-history",
+      "polish-gameshark-manual",
+      "sprint-doom-code"
     ],
     "media": {
       "kind": "image",
@@ -2801,13 +2670,11 @@
       1999
     ],
     "relatedArtifacts": [
-      "playstation-hardware",
-      "memory-card",
-      "jewel-case"
+      "playstation-hardware"
     ],
     "relatedRoutes": [
-      "/stories/the-demo-disc-evening/",
-      "/zones/games/"
+      "/stories/the-secret-button-sequence/",
+      "/archive/objects/playstation-hardware/"
     ],
     "target": "/zones/games/",
     "interaction": null,
@@ -2819,7 +2686,7 @@
       "consoles",
       "action"
     ],
-    "reviewedAt": "2026-10-29"
+    "reviewedAt": "2026-11-05"
   },
   {
     "id": "webtv",
@@ -2833,18 +2700,18 @@
     "room": "tech-toys",
     "label": "The browser tried another room.",
     "curatorNote": "The browser tried another room.",
-    "whyItMattered": "The original WebTV proposal used a set-top device and a household television to provide online access. The pictured launch units make that appliance approach visible: the customer did not begin with the familiar combination of computer tower, monitor, and desk. A screen already used for entertainment became the starting point.",
+    "whyItMattered": "These launch-era WebTV units represent the appliance route to online browsing and email: a set-top box, a compatible television and a telephone connection. Sony and Philips supplied early hardware designs. The screen already occupied the living room; the new equipment offered to give that familiar screen another job.",
     "sections": [
       {
-        "heading": "The web entered through the television",
+        "heading": "The remote becomes a web control",
         "paragraphs": [
-          "The service’s 1996 American introduction belongs to a period when several companies were testing how ordinary households might want to get online. Using the television offered familiarity while creating its own requirements for readable text, navigation, and entering information."
+          "Move focus between links and select one instead of pointing with a desktop mouse. For extended text, an optional keyboard makes a different kind of interaction possible. The service and modem handle the online connection while the television supplies a display designed for viewing from farther away. Microsoft’s September 1996 announcement describes the proposition in its own contemporary terms."
         ]
       },
       {
-        "heading": "The room remained shared",
+        "heading": "The display has requirements",
         "paragraphs": [
-          "A telephone connection still carried the dial-up session, and another person could still want either the phone line or the television. Changing the display did not remove those negotiations. The boxes preserve an alternative future in concrete form: a remote, keyboard, and sofa could be part of reaching the web, while the service and device supplied a more directed experience than an open-ended personal computer."
+          "The box does not turn the television into a general-purpose Windows PC. Page design, screen resolution and the input device constrain the experience, while dial-up still occupies a telephone line. The W3C contribution from WebTV explains why a page designed for a computer could need different treatment on this sort of device."
         ]
       }
     ],
@@ -2853,7 +2720,8 @@
       "polish-webtv",
       "new-photo-webtv",
       "new-webtv-report",
-      "chm-net"
+      "chm-net",
+      "polish-webtv-w3c"
     ],
     "media": {
       "kind": "image",
@@ -2880,12 +2748,11 @@
       1999
     ],
     "relatedArtifacts": [
-      "crt-television",
-      "family-pc"
+      "crt-television"
     ],
     "relatedRoutes": [
       "/stories/webtv-on-the-sofa/",
-      "/zones/tech-toys/"
+      "/archive/objects/crt-television/"
     ],
     "target": "/zones/tech-toys/",
     "interaction": null,
@@ -2897,7 +2764,7 @@
       "online",
       "design"
     ],
-    "reviewedAt": "2026-10-29"
+    "reviewedAt": "2026-11-05"
   },
   {
     "id": "quickcam",
@@ -2911,18 +2778,12 @@
     "room": "tech-toys",
     "label": "A small eye beside the screen.",
     "curatorNote": "A small eye beside the screen.",
-    "whyItMattered": "The original Connectix QuickCam for Macintosh gave a desktop computer another kind of input: a small camera that could capture a view of the person or room in front of it. The photographed ball-shaped device makes the camera’s separate physical presence clear, rather than hiding it inside a monitor’s frame.",
+    "whyItMattered": "The original Connectix QuickCam for Macintosh brings a separate camera to the desktop. Its small ball-shaped housing points toward a person or room, while the computer supplies the software, display and storage around the captured image.",
     "sections": [
       {
-        "heading": "A camera pointed back at the computer user",
+        "heading": "A camera is only one part of a conversation",
         "paragraphs": [
-          "Positioning mattered. The camera needed a view, an appropriate connection to the computer, and software to receive its images. The desk acquired another object to arrange, and the room itself could become part of what the machine recorded."
-        ]
-      },
-      {
-        "heading": "A different direction for the screen",
-        "paragraphs": [
-          "A computer was often a place to read, write, or look at material made elsewhere. A connected camera made it easier for the immediate surroundings to enter that world. This object belongs to the development of ordinary computer-based imaging without needing to stand in for every later video-call service. Its distinctive contribution is visible in the setup: the user could become the subject of an image while remaining at the same desk."
+          "Capturing a view does not by itself create a video call. Suitable software, a compatible connection and, for remote use, a working network are separate requirements. This model belongs to the early Macintosh peripheral context, not the later assumption that a webcam is already hidden in every laptop’s display frame."
         ]
       }
     ],
@@ -2959,13 +2820,11 @@
       1999
     ],
     "relatedArtifacts": [
-      "family-pc",
-      "floppy-disk",
-      "jewel-case"
+      "family-pc"
     ],
     "relatedRoutes": [
-      "/stories/the-family-computer/",
-      "/zones/tech-toys/"
+      "/archive/objects/family-pc/",
+      "/stories/the-photo-lab-gap/"
     ],
     "target": "/zones/tech-toys/",
     "interaction": null,
@@ -2977,7 +2836,7 @@
       "catalogs",
       "pc"
     ],
-    "reviewedAt": "2026-10-29"
+    "reviewedAt": "2026-11-05"
   },
   {
     "id": "disposable-camera",
@@ -2991,18 +2850,12 @@
     "room": "culture",
     "label": "The picture was taken; the result came later.",
     "curatorNote": "The picture was taken; the result came later.",
-    "whyItMattered": "Fujifilm’s QuickSnap family made picture-taking available through a self-contained lens-fitted film unit. The flash model pictured here combines the camera, film, and simple controls inside an object that could be bought for a particular occasion. It is one identified version of a larger product family, not the packaging for every QuickSnap variation.",
+    "whyItMattered": "Fujifilm’s QuickSnap Flash packages film, a lens and simple exposure controls into a self-contained unit. The flash-equipped version gives the photographer a compact way to take pictures without first assembling a camera kit. The pictured packaging is one version of the product family.",
     "sections": [
       {
-        "heading": "A photograph without a preview",
+        "heading": "The last exposure starts another stage",
         "paragraphs": [
-          "The shutter click confirmed an attempt rather than its quality. The photographer still needed to consider light, distance, and framing without inspecting a finished image on the camera. A limited set of exposures gave the day’s pictures a visible boundary."
-        ]
-      },
-      {
-        "heading": "The object continued to the lab",
-        "paragraphs": [
-          "Processing completed a journey that had begun when the picture was taken. The resulting prints could reveal a successful portrait, a missed moment, or something unexpected in the background. This camera therefore belongs to a system larger than its case: the event, the exposed film, the processing counter, and the later envelope all helped determine when a photograph became something its owner could actually see and share."
+          "After the available frames are used, the unit goes through an appropriate processing service to reveal the photographs. The shutter offers no immediate screen review. That delayed feedback is the central contrast with the Casio QV-10 in the photo-lab story: one simplifies capture, while the other lets you see a result soon enough to consider trying again."
         ]
       }
     ],
@@ -3043,12 +2896,11 @@
       1999
     ],
     "relatedArtifacts": [
-      "digital-camera",
-      "floppy-disk"
+      "digital-camera"
     ],
     "relatedRoutes": [
       "/stories/the-photo-lab-gap/",
-      "/zones/culture/"
+      "/archive/objects/digital-camera/"
     ],
     "target": "/zones/culture/",
     "interaction": null,
@@ -3060,7 +2912,7 @@
       "mall",
       "portable"
     ],
-    "reviewedAt": "2026-10-29"
+    "reviewedAt": "2026-11-05"
   },
   {
     "id": "talkboy",
@@ -3074,18 +2926,18 @@
     "room": "culture",
     "label": "Playback made a voice into a toy.",
     "curatorNote": "Playback made a voice into a toy.",
-    "whyItMattered": "The Deluxe Talkboy is a handheld cassette recorder designed around recording and replaying sound. Its small microphone, tape controls, and portable form make speech into material that can be captured, repeated, and altered in playback. An ordinary sentence can become entertaining when it returns in an unfamiliar voice or at an unexpected speed.",
+    "whyItMattered": "The Deluxe Talkboy is a portable cassette recorder with a built-in microphone and playback controls. It turns speech into something that can leave its original moment: record a sentence, rewind, play it back, then hear how a different playback speed changes the performance. The photograph identifies a real retail recorder, distinct from a film prop or later Talkgirl design.",
     "sections": [
       {
-        "heading": "A voice could become something to play with",
+        "heading": "Make the recording before the joke",
         "paragraphs": [
-          "The cassette is important to the interaction. A recording occupies tape, the controls move through it, and keeping a sound means deciding not to record over that part. Playing with the machine combines a performance in the room with later attention to what the tape contains."
+          "The cassette moves through a recording mechanism, so capturing and replaying are separate operations. A clean start and an intelligible microphone position can matter more than a complicated plan. Slower playback lengthens the recorded sound and lowers its pitch; faster playback does the reverse. This is tape-speed manipulation, not an intelligent voice imitation system."
         ]
       },
       {
-        "heading": "A toy with a different kind of response",
+        "heading": "The tape has to contain it",
         "paragraphs": [
-          "Unlike a virtual pet, the recorder does not need care or appear to maintain a life of its own. Its appeal comes from what the owner supplies. That distinction keeps the toy’s actual function clear while placing it beside other responsive objects of the period: one asks for attention, another moves and speaks, while Talkboy gives a person’s own voice another life through playback."
+          "The toy cannot summon a line that was never recorded. Finding a phrase means moving through the tape, and recording over a passage replaces what was there. Its appeal lies in that small, immediate loop between performance and replay: an ordinary voice becomes a piece of material you can operate."
         ]
       }
     ],
@@ -3123,10 +2975,10 @@
       1999
     ],
     "relatedArtifacts": [
-      "beanie-baby"
+      "cassette"
     ],
     "relatedRoutes": [
-      "/stories/holiday-toys-that-answered-back/",
+      "/archive/objects/cassette/",
       "/zones/culture/"
     ],
     "target": "/zones/culture/",
@@ -3139,7 +2991,7 @@
       "toys",
       "mall"
     ],
-    "reviewedAt": "2026-10-29"
+    "reviewedAt": "2026-11-05"
   },
   {
     "id": "beanie-baby",
@@ -3153,18 +3005,12 @@
     "room": "culture",
     "label": "The tag was part of the object.",
     "curatorNote": "The tag was part of the object.",
-    "whyItMattered": "A Beanie Baby combines a small soft toy with an identity supplied through its design and attached tags. Shape, name, and condition can all matter to a collector. The pictured group is a particular collection of bears, rather than evidence that every design belonged to the same release or had the same value.",
+    "whyItMattered": "A Beanie Baby is a small soft toy with an identity carried through its design, name and tags. The bears in this group are individual collectibles, not evidence that every Beanie Baby belonged to one release or commanded the same price.",
     "sections": [
       {
-        "heading": "The label was part of the object",
+        "heading": "The tag changes how you handle the toy",
         "paragraphs": [
-          "The toy could be handled as a companion or preserved as an item in a collection. Those uses place different demands on the same object. Keeping a tag intact and keeping the toy close enough to play with are compatible for some owners and a source of tension for others."
-        ]
-      },
-      {
-        "heading": "A collection made differences visible",
-        "paragraphs": [
-          "Several related designs invite comparison. Color, fabric, and the small details on a label can distinguish objects that initially look similar. That attention helps explain the appeal without turning the entry into a claim about investment value. The cultural story is the relationship between an ordinary soft toy, a named identity, and the people deciding which small differences deserved to be noticed and kept."
+          "Playing, collecting and preserving condition create different priorities. A tag can supply information a loose toy cannot, while a photograph alone cannot establish authenticity, production variation or market value. The ordinary softness of the object sits beside a collector’s interest in particulars. Those two ways of caring for it need not lead to the same decisions."
         ]
       }
     ],
@@ -3202,10 +3048,10 @@
       1999
     ],
     "relatedArtifacts": [
-      "talkboy"
+      "pogs"
     ],
     "relatedRoutes": [
-      "/stories/holiday-toys-that-answered-back/",
+      "/archive/objects/pogs/",
       "/zones/culture/"
     ],
     "target": "/zones/culture/",
@@ -3218,7 +3064,7 @@
       "toys",
       "mall"
     ],
-    "reviewedAt": "2026-10-29"
+    "reviewedAt": "2026-11-05"
   },
   {
     "id": "pogs",
@@ -3232,18 +3078,12 @@
     "room": "culture",
     "label": "The collection could become the game.",
     "curatorNote": "The collection could become the game.",
-    "whyItMattered": "Pogs turn printed circular pieces into objects that can be collected, exchanged, arranged, and played with. The photograph shows an actual game in progress, with the pieces placed on the ground and attention concentrated on a small shared area. The setting is as important as an isolated product image.",
+    "whyItMattered": "Pogs make printed circular pieces into a collection you can trade and a game you can play. The pictured group shows attention gathered around a small playing area. Designs and duplicates matter differently depending on whether the next activity is sorting, swapping or competing.",
     "sections": [
       {
-        "heading": "A small stack could become a game",
+        "heading": "Agree on the rules before the stack falls",
         "paragraphs": [
-          "The printed surface gives each piece something to distinguish it from the stack, while play gives those pieces a different role from simply being kept. A collection can therefore be both a set of images and a supply of material for an activity."
-        ]
-      },
-      {
-        "heading": "Rules traveled between people",
-        "paragraphs": [
-          "The precise arrangement and stakes could vary between groups. A familiar-looking stack did not guarantee that every player had agreed to the same rules. That made explanation and negotiation part of beginning a game. The object’s modest size helped it travel into informal spaces, where a pocket-sized collection could briefly reorganize a patch of floor, a break between other activities, and the attention of the people gathered around it."
+          "Players stack caps and use a heavier slammer to scatter them, with the result interpreted under the agreed rules. Playing for keeps changes the stakes; local rules can differ. A favorite design is therefore both a little graphic object and something its owner may choose not to put into a risky round."
         ]
       }
     ],
@@ -3284,12 +3124,11 @@
       1999
     ],
     "relatedArtifacts": [
-      "talkboy",
       "beanie-baby"
     ],
     "relatedRoutes": [
-      "/stories/holiday-toys-that-answered-back/",
-      "/zones/culture/"
+      "/archive/objects/beanie-baby/",
+      "/stories/meet-me-at-the-mall/"
     ],
     "target": "/zones/culture/",
     "interaction": null,
@@ -3301,7 +3140,7 @@
       "toys",
       "mall"
     ],
-    "reviewedAt": "2026-10-29"
+    "reviewedAt": "2026-11-05"
   },
   {
     "id": "super-soaker",
@@ -3315,18 +3154,18 @@
     "room": "culture",
     "label": "The backyard became a design problem.",
     "curatorNote": "The backyard became a design problem.",
-    "whyItMattered": "The CPS 2000 water blaster pictured here belongs to a design in which filling and pressurizing the equipment matter before the next stream is fired. Its reservoir, pump, grip, and nozzle make the practical sequence visible. The user is carrying not only a toy shape but a supply that will eventually need replenishing.",
+    "whyItMattered": "The pictured Larami Super Soaker is the CPS 2000, a 1996 model whose reservoir, pump and pressure chamber divide the work of a water blaster. “CPS” refers to the constant-pressure design family. Stored water and a prepared firing charge are related but separate: a full reservoir is the supply, while pumping prepares the next stream.",
     "sections": [
       {
-        "heading": "Water became a system of preparation",
+        "heading": "Fill, pump, release, repeat",
         "paragraphs": [
-          "The bright case makes the object recognizable at a distance, while its size affects how it is held and carried. An empty reservoir and a ready one can produce very different experiences even though the exterior is unchanged."
+          "The pump transfers water into the elastic pressure chamber. Pulling the trigger releases the pressurized water through the nozzle. The reservoir’s visible size and the handle give the object a substantial carrying presence before it does anything spectacular. This model is a specific mechanism, rather than an image standing in for every Super Soaker ever made."
         ]
       },
       {
-        "heading": "The game included the refill",
+        "heading": "The charge runs out",
         "paragraphs": [
-          "A water fight depends on places to fill, routes to run, and the willingness of other people to participate. The machine’s useful period of operation is only part of that activity. Pumping, refilling, and deciding when to move become part of the rhythm. The object is interesting as equipment for a shared outdoor game, where a technical arrangement of pressure and water turns directly into choices made by the person holding it."
+          "A strong stream uses a finite prepared charge, and the reservoir eventually needs refilling. The name does not establish an unlimited supply or a universal range. Later models and revisions use their own capacities and behavior. The interesting design is the sequence of work: preparing pressure first, then spending it in a brief release."
         ]
       }
     ],
@@ -3334,7 +3173,8 @@
       "polish-object-super-soaker",
       "new-photo-super-soaker",
       "tamagotchi",
-      "tamagotchi-museum"
+      "tamagotchi-museum",
+      "sprint-larami-bladder"
     ],
     "media": {
       "kind": "image",
@@ -3360,12 +3200,8 @@
       1998,
       1999
     ],
-    "relatedArtifacts": [
-      "talkboy",
-      "beanie-baby"
-    ],
+    "relatedArtifacts": [],
     "relatedRoutes": [
-      "/stories/holiday-toys-that-answered-back/",
       "/zones/culture/"
     ],
     "target": "/zones/culture/",
@@ -3378,7 +3214,7 @@
       "toys",
       "mall"
     ],
-    "reviewedAt": "2026-10-29"
+    "reviewedAt": "2026-11-05"
   },
   {
     "id": "walkman",
@@ -3392,24 +3228,25 @@
     "room": "music",
     "label": "A personal soundtrack, with a side break.",
     "curatorNote": "A personal soundtrack, with a side break.",
-    "whyItMattered": "The Sony WM-FX151 shown here puts cassette playback inside a portable unit with its own controls and headphone connection. Its lid protects the tape compartment, while buttons give the listener physical access to play, stop, and movement through the recording. The printed model name identifies this particular reference object.",
+    "whyItMattered": "Sony’s WM-FX151 combines cassette playback with radio reception in a portable Walkman. The cassette compartment accepts a recording whose sequence is already on moving magnetic tape. The radio offers a different kind of choice: select a station and let somebody else decide what comes next. The same headphone connection makes both private listening experiences.",
     "sections": [
       {
-        "heading": "A cassette player could leave the stereo behind",
+        "heading": "Find the song without a track list",
         "paragraphs": [
-          "A cassette still carries its sequence on tape. Finding a song can require winding, listening, and trying again. The player changes where that routine happens without making it disappear. The same album or homemade compilation can move from a room into a bus seat, a pavement, or a quiet corner."
+          "Play, stop, fast-forward and rewind turn searching into a physical action. A handwritten cassette insert can tell you which song comes after another, but it cannot make the mechanism jump directly to it. The counter, where provided on a player, is not a universal clock. Tape position and the sound coming through the headphones supply the practical feedback."
         ]
       },
       {
-        "heading": "The supporting objects mattered",
+        "heading": "Make the tape somewhere else",
         "paragraphs": [
-          "Headphones, batteries, and the chosen cassette complete the practical arrangement. Carrying another tape offers a different selection but also adds another object to keep safe. The player’s appeal is therefore both technical and personal: it makes sound portable while leaving the owner responsible for choosing what will accompany the journey and making sure the equipment can keep playing."
+          "This identified player is not a cassette recorder, a MiniDisc machine or a digital-file Walkman. Recording the mix happens elsewhere before you put the tape inside. A favorite sequence can travel in your pocket, while changing its order still means working with the tape at a recording deck."
         ]
       }
     ],
     "sourceIds": [
       "polish-object-walkman",
-      "new-photo-walkman"
+      "new-photo-walkman",
+      "sprint-wmfx151"
     ],
     "media": {
       "kind": "image",
@@ -3442,13 +3279,11 @@
       1999
     ],
     "relatedArtifacts": [
-      "jewel-case",
-      "cassette",
       "discman"
     ],
     "relatedRoutes": [
-      "/stories/record-store-discovery/",
-      "/zones/music/"
+      "/stories/from-mixtape-to-file/",
+      "/archive/objects/discman/"
     ],
     "target": "/zones/music/",
     "interaction": null,
@@ -3460,7 +3295,7 @@
       "cd",
       "mixtapes"
     ],
-    "reviewedAt": "2026-10-29"
+    "reviewedAt": "2026-11-05"
   },
   {
     "id": "tb-303",
@@ -3474,24 +3309,25 @@
     "room": "music",
     "label": "A bass machine with an afterlife.",
     "curatorNote": "A bass machine with an afterlife.",
-    "whyItMattered": "Roland’s TB-303 Bass Line predates the 1990s, but its later cultural life made it closely associated with electronic dance music. The compact unit combines a programmed sequence with controls that shape its synthesized bass sound. Repetition can remain recognizable while changes to the sound make the same pattern feel increasingly different.",
+    "whyItMattered": "Roland’s original TB-303 Bass Line dates to 1982. Its 1990s presence is a history of continued and transformed use, rather than a new product launch. A programmed bass pattern passes through a sound-shaping section whose Cutoff, Resonance, Envelope Modulation, Decay and Accent controls are printed directly on the panel.",
     "sections": [
       {
-        "heading": "A small machine with a very recognizable voice",
+        "heading": "The same notes can keep changing",
         "paragraphs": [
-          "The row of controls is worth reading as an invitation to act over time. A musician can return to a pattern and change its tone, emphasis, or movement rather than replacing every note. The physical control and the repeating sound become closely connected."
+          "The owner’s manual separates pitch information from timing and includes accent and slide as part of pattern programming. During playback, changing a filter control can make a repeating line sound markedly different without changing the underlying pitches. Accent affects selected notes; slide changes the connection between them. Those details make a pattern feel less like a row of identical keyboard presses."
         ]
       },
       {
-        "heading": "Older equipment can acquire another purpose",
+        "heading": "Program a particular sound",
         "paragraphs": [
-          "The object’s relevance to the decade does not depend on pretending that it was invented then. A machine can move into a new musical setting and become associated with uses beyond its original sales pitch. That distinction makes the TB-303 a useful example of creative reuse: musicians and audiences help decide what an instrument means, and those meanings can develop long after the product’s introduction."
+          "The 303 is not a sampler that plays back any recording you load into it. Its synthesis and sequencer make a particular kind of instrument. Later TB-03, TB-3 and software products have their own interfaces and added features. This file concerns the original hardware, whose compact panel helped musicians turn a repeated bass line into a moving performance."
         ]
       }
     ],
     "sourceIds": [
       "polish-object-tb-303",
-      "new-photo-tb-303"
+      "new-photo-tb-303",
+      "sprint-tb303"
     ],
     "media": {
       "kind": "image",
@@ -3524,13 +3360,11 @@
       1999
     ],
     "relatedArtifacts": [
-      "mpc-2000",
-      "technics-turntable",
-      "dat-recorder"
+      "mc-303"
     ],
     "relatedRoutes": [
       "/stories/breakbeats-change-the-clock/",
-      "/zones/music/"
+      "/archive/objects/mc-303/"
     ],
     "target": "/zones/music/",
     "interaction": null,
@@ -3542,7 +3376,7 @@
       "rave",
       "drum-and-bass"
     ],
-    "reviewedAt": "2026-10-29"
+    "reviewedAt": "2026-11-05"
   },
   {
     "id": "mpc-2000",
@@ -3556,18 +3390,18 @@
     "room": "music",
     "label": "Pads turned a fragment into a performance.",
     "curatorNote": "Pads turned a fragment into a performance.",
-    "whyItMattered": "Akai’s MPC2000 combines sampling and sequencing with a grid of pads that can trigger sounds. The photographed model dates to 1997, placing it inside a longer history of related machines rather than at the beginning of all sampled music. Its controls make the connection between recording, arrangement, and physical performance visible.",
+    "whyItMattered": "Akai’s MPC2000 is a 1997 sampler and sequencer with sixteen performance pads. Sampling captures sound; assigning it to pads makes it playable; sequencing records when those sounds should occur. The photographed machine brings those jobs into one surface, with a display and physical controls for turning selected fragments into an arrangement.",
     "sections": [
       {
-        "heading": "Stored sound became something to perform",
+        "heading": "From a sound to a sequence",
         "paragraphs": [
-          "A sample can be an isolated sound or a fragment taken from a longer recording. Making it available on a pad changes how it can be tried beside other material. The musician can test a rhythm, revise timing, and hear a different arrangement without needing the source recording to play from beginning to end each time."
+          "An illustrative session starts by recording or loading a sound, choosing its useful start and end, assigning it to a pad and recording a pattern of pad events. The sequence contains timing and performance information; the sample contains the recorded sound. Changing one can alter the result without changing the other. That distinction is the useful idea behind the grid."
         ]
       },
       {
-        "heading": "The machine did not make the choices",
+        "heading": "Keep 1997 in view",
         "paragraphs": [
-          "Selection, listening, and judgment remain central. The same equipment can support very different results because the useful work includes deciding what to capture and where to place it. This is why the MPC belongs beside both a record collection and a production story: the stored sounds supply possibilities, while someone’s decisions turn those possibilities into a track."
+          "A 1997 instrument cannot have produced every famous sampled record from earlier in the decade. The sampling story deliberately separates this explanatory object from its 1992 and 1994 recording examples. Memory, storage and the particular available sounds also constrain a session. Sixteen pads are an invitation to perform choices, not a guarantee of an unlimited library."
         ]
       }
     ],
@@ -3600,13 +3434,10 @@
       1998,
       1999
     ],
-    "relatedArtifacts": [
-      "technics-turntable",
-      "cassette"
-    ],
+    "relatedArtifacts": [],
     "relatedRoutes": [
       "/stories/sampling-a-record-collection/",
-      "/zones/music/"
+      "/stories/breakbeats-change-the-clock/"
     ],
     "target": "/zones/music/",
     "interaction": null,
@@ -3618,7 +3449,7 @@
       "hip-hop",
       "mixtapes"
     ],
-    "reviewedAt": "2026-10-29"
+    "reviewedAt": "2026-11-05"
   },
   {
     "id": "mc-303",
@@ -3632,18 +3463,12 @@
     "room": "music",
     "label": "Patterns in a single desktop instrument.",
     "curatorNote": "Patterns in a single desktop instrument.",
-    "whyItMattered": "Roland’s MC-303 Groovebox brought sound generation and sequencing into a self-contained machine associated with the middle of the 1990s. Its controls and display offer a way to build and manipulate repeating musical material without beginning with a full computer workstation. The object makes a particular proposal about how electronic music can be assembled and performed.",
+    "whyItMattered": "Roland’s MC-303 Groovebox combines onboard sounds with pattern-based sequencing in a 1990s desktop instrument. The panel invites a musician to arrange repeating parts and change their sound or balance during playback. It offers a self-contained route into a groove.",
     "sections": [
       {
-        "heading": "Several musical jobs in one box",
+        "heading": "A familiar number does not mean the same instrument",
         "paragraphs": [
-          "Patterns provide a framework that can be revisited, while controls change what happens inside or around them. The arrangement encourages attention to repetition, transitions, and the relationship between a stable sequence and a sound that continues to move."
-        ]
-      },
-      {
-        "heading": "The body shaped the method",
-        "paragraphs": [
-          "A dedicated box places its available actions within a limited physical surface. That can make certain operations immediate and others dependent on menus or learned combinations. The constraint belongs to the musical experience. The Groovebox is useful beside the TB-303 and an MPC because the three objects offer different relationships between stored material, synthesized sound, timing, and the person making decisions while the pattern plays."
+          "The MC-303 is distinct from the older TB-303 Bass Line. Their sound generation and functions differ despite the shared digits. Nor is this machine an unrestricted audio sampler. Use the name on the panel and the original documentation when describing what can be loaded, recorded or changed. The physical controls are useful because they put several musical decisions within reach at once."
         ]
       }
     ],
@@ -3676,13 +3501,12 @@
       1999
     ],
     "relatedArtifacts": [
-      "mpc-2000",
-      "technics-turntable",
-      "dat-recorder"
+      "tb-303",
+      "mpc-2000"
     ],
     "relatedRoutes": [
-      "/stories/breakbeats-change-the-clock/",
-      "/zones/music/"
+      "/archive/objects/tb-303/",
+      "/archive/objects/mpc-2000/"
     ],
     "target": "/zones/music/",
     "interaction": null,
@@ -3694,7 +3518,7 @@
       "rave",
       "drum-and-bass"
     ],
-    "reviewedAt": "2026-10-29"
+    "reviewedAt": "2026-11-05"
   },
   {
     "id": "technics-turntable",
@@ -3708,18 +3532,12 @@
     "room": "music",
     "label": "The record player was also an instrument.",
     "curatorNote": "The record player was also an instrument.",
-    "whyItMattered": "The Technics SL-1200MK2 is a direct-drive turntable whose platter, tonearm, and pitch control became important physical reference points in DJ practice. Its design predates the 1990s; its presence here records an era of use rather than a claim that the model was newly introduced during the decade.",
+    "whyItMattered": "The Technics SL-1200MK2 is a direct-drive turntable introduced before the 1990s and widely used through the decade. Its platter, tonearm, cueing control and pitch slider divide the work of choosing, starting and adjusting a record.",
     "sections": [
       {
-        "heading": "A record player could be held in motion",
+        "heading": "A record has a speed and a place to begin",
         "paragraphs": [
-          "The controls make speed something a person can adjust deliberately. A record’s position and movement can become part of preparing a transition or performing with recorded material. The player is more than a device that starts at the beginning and waits until the side ends."
-        ]
-      },
-      {
-        "heading": "The object beside the object",
-        "paragraphs": [
-          "A turntable needs a record, a cartridge and stylus, and a route through amplification to be heard. In a DJ setup, neighboring equipment and another recording extend what can happen. Looking at the machine therefore opens a larger arrangement of listening and timing. The physical precision matters because the decisions are made through hands, ears, and repeated attention to sound that is already moving."
+          "The stylus reads a groove while platter speed affects playback. A pitch adjustment can help align tempos in a DJ transition, but listening and cueing still belong to the performer. The turntable does not identify which passage will make a good sample or choose the next record. Its long useful life is part of this exhibit’s era, not a claim of a new 1990s launch."
         ]
       }
     ],
@@ -3758,13 +3576,10 @@
       1998,
       1999
     ],
-    "relatedArtifacts": [
-      "mpc-2000",
-      "cassette"
-    ],
+    "relatedArtifacts": [],
     "relatedRoutes": [
       "/stories/sampling-a-record-collection/",
-      "/zones/music/"
+      "/stories/the-flyer-and-the-dancefloor/"
     ],
     "target": "/zones/music/",
     "interaction": null,
@@ -3776,7 +3591,7 @@
       "hip-hop",
       "mixtapes"
     ],
-    "reviewedAt": "2026-10-29"
+    "reviewedAt": "2026-11-05"
   },
   {
     "id": "korg-m1",
@@ -3790,24 +3605,25 @@
     "room": "music",
     "label": "A keyboard carried more than one sound.",
     "curatorNote": "A keyboard carried more than one sound.",
-    "whyItMattered": "Korg’s M1 belongs to the workstation tradition: a keyboard built around a range of sounds and tools for organizing musical material. Its relevance to the 1990s includes the way recognizable instrumental colors could travel through different kinds of records. The instrument’s history begins before the decade, while its use continued into it.",
+    "whyItMattered": "Korg’s M1, introduced in 1988, places a keyboard, PCM-based sound generation, effects and an eight-track sequencer in a workstation. Its relevance to the 1990s comes from continued use and familiar sounds, not a launch inside the decade. A player can work with several parts from one instrument instead of treating the keyboard only as a single voice in a larger studio.",
     "sections": [
       {
-        "heading": "A keyboard with more of the studio inside",
+        "heading": "Play a sound, then build around it",
         "paragraphs": [
-          "The keyboard gives the sounds a familiar performance surface. Keys can make the same stored instrument behave differently through the timing and arrangement supplied by the player. Selecting a sound is therefore the beginning of a musical decision rather than its completion."
+          "Choose a program, play a part and consider how it behaves in combination with others. A bright attack can register through a busy rhythm; a sustained texture fills a different role. The onboard sequencer provides a place to organize musical events while the sound engine supplies the voices. That combination is the practical meaning of “workstation” here."
         ]
       },
       {
-        "heading": "Recognizable does not mean identical",
+        "heading": "Work with the supplied palette",
         "paragraphs": [
-          "A patch can become a shared reference without making every track that uses it the same. Rhythm, harmony, register, and the other sounds in the recording change its role. The M1 is useful as a concrete instrument behind an apparently abstract musical texture: a particular keyboard, a choice made from its available sounds, and a performer deciding how that choice should enter the track."
+          "The original M1 is not an open-ended audio sampler. Its supplied waveforms and compatible expansions define a particular palette. Korg’s current software recreation adds a modern environment and expanded resources; those should not be silently assigned to the 1988 keyboard. Naming a preset in a record also needs evidence beyond recognizing a vaguely similar piano or organ."
         ]
       }
     ],
     "sourceIds": [
       "polish-object-korg-m1",
-      "new-photo-korg-m1"
+      "new-photo-korg-m1",
+      "sprint-m1"
     ],
     "media": {
       "kind": "image",
@@ -3840,12 +3656,10 @@
       1999
     ],
     "relatedArtifacts": [
-      "mpc-2000",
-      "technics-turntable",
-      "dat-recorder"
+      "mpc-2000"
     ],
     "relatedRoutes": [
-      "/stories/breakbeats-change-the-clock/",
+      "/archive/objects/mpc-2000/",
       "/zones/music/"
     ],
     "target": "/zones/music/",
@@ -3858,7 +3672,7 @@
       "rave",
       "drum-and-bass"
     ],
-    "reviewedAt": "2026-10-29"
+    "reviewedAt": "2026-11-05"
   },
   {
     "id": "dat-recorder",
@@ -3872,18 +3686,12 @@
     "room": "music",
     "label": "Digital recording still needed a tape.",
     "curatorNote": "Digital recording still needed a tape.",
-    "whyItMattered": "Sony’s TCD-D100 records digital audio on DAT, a tape format distinct from the ordinary compact cassette. The small cassette and recorder make an apparently abstract distinction physical: digital sound could still depend on a moving tape and a dedicated mechanism, rather than living only as a file on a computer.",
+    "whyItMattered": "Sony’s TCD-D100 records digital audio on DAT, a format with its own small cassette and mechanism. It makes an easily missed distinction physical: digital recording does not necessarily mean an immediately browsable file on a computer.",
     "sections": [
       {
-        "heading": "Digital audio inside another small cassette",
+        "heading": "The tape still has to travel",
         "paragraphs": [
-          "The controls, display, and connections give recording a deliberate sequence. Levels, available tape, and the chosen source all matter before the finished sound can be replayed. The small size makes the machine portable without removing the need to prepare it carefully."
-        ]
-      },
-      {
-        "heading": "A different place in the collection",
-        "paragraphs": [
-          "DAT belongs beside cassette and MiniDisc as another answer to carrying and making recordings, not as an interchangeable version of either medium. Each system uses its own equipment and organizes access differently. The object’s interest lies in that alternative: a compact recording setup could capture a digital signal while retaining the physical habits of inserting a cassette, watching a counter, and keeping the resulting tape identifiable."
+          "Capture requires a suitable source and recording setup, and reaching material later involves the tape’s transport and indexing functions. A DAT cassette does not play in a compact-cassette Walkman. The medium can carry a performance away from the recording site while leaving playback dependent on compatible, functioning equipment."
         ]
       }
     ],
@@ -3915,13 +3723,12 @@
       1999
     ],
     "relatedArtifacts": [
-      "jewel-case",
       "cassette",
-      "discman"
+      "minidisc"
     ],
     "relatedRoutes": [
-      "/stories/record-store-discovery/",
-      "/zones/music/"
+      "/archive/objects/cassette/",
+      "/archive/objects/minidisc/"
     ],
     "target": "/zones/music/",
     "interaction": null,
@@ -3933,7 +3740,7 @@
       "cd",
       "mixtapes"
     ],
-    "reviewedAt": "2026-10-29"
+    "reviewedAt": "2026-11-05"
   },
   {
     "id": "jewel-case",
@@ -3947,18 +3754,12 @@
     "room": "music",
     "label": "A small display cabinet for an album.",
     "curatorNote": "A small display cabinet for an album.",
-    "whyItMattered": "A CD jewel case protects a disc and gives its printed material a small frame. The clear front can display a booklet, the tray holds the recording, and the spine lets a shelf remain readable when the cases are stacked upright. The empty case pictured here makes those separate jobs easier to see.",
+    "whyItMattered": "A CD jewel case gives a disc, booklet and spine one small frame. The clear front displays artwork; the tray secures the disc; the spine keeps a shelf readable when the cases are lined up. The empty reference makes the separate pieces easy to inspect.",
     "sections": [
       {
-        "heading": "The package had an inside",
+        "heading": "The booklet can be another route into the music",
         "paragraphs": [
-          "The booklet could contain photographs, lyrics, credits, or another part of an album’s visual identity. Reading it could extend a listening session beyond the sound itself. The case therefore stored information and an image of the record alongside the disc."
-        ]
-      },
-      {
-        "heading": "Small damage could change the object",
-        "paragraphs": [
-          "A cracked front or broken hinge could make a frequently used album look different while leaving its recording playable. Cases could be replaced or mismatched, and a disc could travel separately from its booklet. Those ordinary changes explain why the container deserves attention. It made a recording into a shelf object with a visible name, a readable inside, and a place in a person’s physical arrangement of music."
+          "Track titles, credits and catalogue details can help identify an edition or a sample relationship, but not every booklet supplies the same information. A replaced case does not necessarily change the disc inside. The record-store feature follows the practical question: what can the package tell you before you have heard the whole album?"
         ]
       }
     ],
@@ -3996,13 +3797,10 @@
       1998,
       1999
     ],
-    "relatedArtifacts": [
-      "cassette",
-      "discman"
-    ],
+    "relatedArtifacts": [],
     "relatedRoutes": [
       "/stories/record-store-discovery/",
-      "/zones/music/"
+      "/stories/from-mixtape-to-file/"
     ],
     "target": "/zones/music/",
     "interaction": null,
@@ -4014,7 +3812,7 @@
       "cd",
       "mixtapes"
     ],
-    "reviewedAt": "2026-10-29"
+    "reviewedAt": "2026-11-05"
   },
   {
     "id": "dr-martens",
@@ -4028,18 +3826,12 @@
     "room": "culture",
     "label": "The sole remembered the route.",
     "curatorNote": "The sole remembered the route.",
-    "whyItMattered": "The Dr. Martens 1460 design dates to 1960, well before the 1990s. Its lace-up form, substantial sole, and recognizable stitching became associated with several different groups and musical settings over time. This pair belongs in the collection as a reference for a design used during the decade, not as a claim that one scene invented it.",
+    "whyItMattered": "The Dr. Martens 1460 boot dates to 1960, with eight-eyelet lacing, a substantial sole and recognizable stitching. Its presence in 1990s clothing belongs to a longer history of working, musical and subcultural use. The worn pair shows a design rather than one universal owner’s biography.",
     "sections": [
       {
-        "heading": "A work boot with several cultural lives",
+        "heading": "Wear gives a standard design an individual surface",
         "paragraphs": [
-          "The worn surface is useful information. A boot changes through contact with a foot, weather, pavements, and repeated movement. That lived condition differs from a newly styled image of the same silhouette, even when a photograph makes both immediately recognizable."
-        ]
-      },
-      {
-        "heading": "A garment moved between settings",
-        "paragraphs": [
-          "Workwear, music, personal preference, and commercial fashion can give the same object different meanings. The boots’ place in grunge imagery is one part of that longer movement. Looking closely at their construction and wear keeps the design attached to an actual use: an object somebody has to lace, walk in, maintain, and decide to put on again."
+          "Creases, polish and scuffs accumulate differently from a manufactured fashion effect. The grunge-fashion feature compares ordinary garments with their runway reinterpretation, while keeping the boot’s earlier history visible. A later photograph cannot by itself date when this particular pair was bought or establish which scene its wearer belonged to."
         ]
       }
     ],
@@ -4079,13 +3871,10 @@
       1998,
       1999
     ],
-    "relatedArtifacts": [
-      "vans-shoes",
-      "cassette"
-    ],
+    "relatedArtifacts": [],
     "relatedRoutes": [
       "/stories/grunge-from-rack-to-runway/",
-      "/zones/culture/"
+      "/stories/when-grunge-broke-through/"
     ],
     "target": "/zones/culture/",
     "interaction": null,
@@ -4097,7 +3886,7 @@
       "fashion",
       "grunge"
     ],
-    "reviewedAt": "2026-10-29"
+    "reviewedAt": "2026-11-05"
   },
   {
     "id": "vans-shoes",
@@ -4111,18 +3900,12 @@
     "room": "culture",
     "label": "The shoe had a job before the outfit.",
     "curatorNote": "The shoe had a job before the outfit.",
-    "whyItMattered": "The Vans Old Skool design gives the collection a physical route into skate-associated clothing. Its low profile, laces, side stripe, and sole are visible features of an actual shoe, rather than a substitute illustration for every brand named in a broader streetwear story. The blue pair shown here is a later reference photograph.",
+    "whyItMattered": "The Vans Old Skool design has a low profile, laces, side stripe and a sole associated with skate use. This blue pair is a later reference for the design, with its photograph’s date kept separate from the era discussed. It is a shoe with a specific identity.",
     "sections": [
       {
-        "heading": "A shoe meets the ground before the photograph",
+        "heading": "Let the actual brand carry its own history",
         "paragraphs": [
-          "A practical shoe and a recognizable fashion image can be the same object. The way it grips, bends, and wears matters to use, while its outline can remain familiar when separated from that activity in an advertisement or outfit photograph."
-        ]
-      },
-      {
-        "heading": "Keep the setting specific",
-        "paragraphs": [
-          "Skate clothing, hip-hop sportswear, and club clothing shared some visual forms while retaining distinct histories. The same pair of shoes could move from a practical setting into an outfit chosen for its appearance. Looking at the actual construction helps keep both meanings in view: the recognizable stripe and outline belong to something a person also has to lace, walk in, and wear against the ground."
+          "Its shape and materials can help explain skate-associated clothing, but it is a poor substitute for FUBU garments or every other streetwear label. Those have their own makers and contexts. An outfit can combine several references; one photographed object should not be asked to document all of them."
         ]
       }
     ],
@@ -4162,13 +3945,9 @@
       1998,
       1999
     ],
-    "relatedArtifacts": [
-      "dr-martens",
-      "cassette"
-    ],
+    "relatedArtifacts": [],
     "relatedRoutes": [
-      "/stories/the-flyer-and-the-dancefloor/",
-      "/zones/culture/"
+      "/zones/fashion/"
     ],
     "target": "/zones/culture/",
     "interaction": null,
@@ -4180,7 +3959,7 @@
       "fashion",
       "rave"
     ],
-    "reviewedAt": "2026-10-29"
+    "reviewedAt": "2026-11-05"
   },
   {
     "id": "answering-machine",
@@ -4194,18 +3973,12 @@
     "room": "culture",
     "label": "The household had an audible inbox.",
     "curatorNote": "The household had an audible inbox.",
-    "whyItMattered": "The Panasonic cassette answering machine pictured here separates the outgoing greeting from the recorded messages it receives. Its visible cassettes and controls make absence into a small audio system: the caller hears one recording, then supplies another for somebody to play later.",
+    "whyItMattered": "This Panasonic cassette answering machine separates an outgoing greeting from incoming recordings. The caller hears one piece of tape and supplies another message for the household to play later. A telephone conversation can therefore begin while nobody is home.",
     "sections": [
       {
-        "heading": "The empty house could answer",
+        "heading": "Make room for the next message",
         "paragraphs": [
-          "The machine gives a telephone line a memory outside the conversation itself. A caller can leave a number, a request, or a message that the intended listener will encounter at another time. The recording remains dependent on the available tape and the owner’s decision about what to keep or erase."
-        ]
-      },
-      {
-        "heading": "Coming home included listening",
-        "paragraphs": [
-          "A light or counter could announce that something had arrived. Replaying the messages became part of discovering what happened while nobody answered the phone. The object therefore belongs to a household routine as much as to communications technology. Its particular combination of a public greeting and private recordings shows how the same shared number could serve several people while making another person’s voice briefly present inside the room."
+          "Record a useful greeting, check what has arrived and decide which incoming messages to keep. A full or incorrectly set machine can fail at the job despite the phone number being correct. The visible transport controls make listening, rewinding and erasing distinct actions. The landline feature places those small operations inside the larger negotiation over a shared line."
         ]
       }
     ],
@@ -4245,13 +4018,10 @@
       1998,
       1999
     ],
-    "relatedArtifacts": [
-      "pager",
-      "family-pc"
-    ],
+    "relatedArtifacts": [],
     "relatedRoutes": [
       "/stories/the-landline-negotiation/",
-      "/zones/culture/"
+      "/stories/aol-flat-rate/"
     ],
     "target": "/zones/culture/",
     "interaction": null,
@@ -4263,7 +4033,7 @@
       "mall",
       "online"
     ],
-    "reviewedAt": "2026-10-29"
+    "reviewedAt": "2026-11-05"
   },
   {
     "id": "super-famicom",
@@ -4277,18 +4047,12 @@
     "room": "games",
     "label": "The same generation wore another case.",
     "curatorNote": "The same generation wore another case.",
-    "whyItMattered": "Nintendo’s Super Famicom launched in Japan in 1990. Its rounded case and four colored face buttons distinguish this reference from the differently styled North American Super NES. The relationship between the systems does not make their casings, launch dates, or regional software histories interchangeable.",
+    "whyItMattered": "Nintendo’s Super Famicom launched in Japan in 1990. Its rounded gray case and controller with four colored face buttons identify a different exterior from the North American Super NES. Shared ancestry does not make the two regional objects visually identical.",
     "sections": [
       {
-        "heading": "The Japanese member of the family",
+        "heading": "The region is part of the object file",
         "paragraphs": [
-          "A cartridge sits in the top of the machine, while wired controllers put the player’s hands at a distance from the television equipment. The arrangement makes changing games a physical act, and it gives the cartridges a separate life in storage, borrowing, and collecting."
-        ]
-      },
-      {
-        "heading": "The regional label carries information",
-        "paragraphs": [
-          "A Japanese release date can establish when a particular game entered this market without establishing its North American or European availability. That distinction is especially useful for familiar titles with different names or launch calendars. The object belongs beside the dated game entries as an explanation of their hardware setting, while the actual software and its regional history remain more specific than a single photograph of the console can show."
+          "A game’s cartridge shape, local release and compatibility belong with its title. A photograph of a Japanese machine should not silently stand in for a North American launch-day setup. The console feature uses the hardware family to explain game-library choices while leaving the particular case and market visible."
         ]
       }
     ],
@@ -4329,13 +4093,11 @@
       1999
     ],
     "relatedArtifacts": [
-      "game-gear",
-      "game-boy-color",
       "snes"
     ],
     "relatedRoutes": [
-      "/stories/handhelds-and-batteries/",
-      "/zones/games/"
+      "/archive/objects/snes/",
+      "/stories/the-console-war-couch/"
     ],
     "target": "/zones/games/",
     "interaction": null,
@@ -4347,7 +4109,7 @@
       "handhelds",
       "consoles"
     ],
-    "reviewedAt": "2026-10-29"
+    "reviewedAt": "2026-11-05"
   },
   {
     "id": "digital-camera",
@@ -4361,18 +4123,18 @@
     "room": "tech-toys",
     "label": "A photograph you could inspect immediately.",
     "curatorNote": "A photograph you could inspect immediately.",
-    "whyItMattered": "Casio introduced the QV-10 in 1995, with an LCD that allowed pictures to be inspected on the camera. That changed the sequence between an attempted photograph and information about its result. A person could decide whether to try again while the subject and light were still available.",
+    "whyItMattered": "Casio’s QV-10, released in 1995, puts a color LCD on a consumer digital camera. The important change is feedback: a person can inspect a captured picture before the subject and lighting have entirely disappeared. Its swiveling lens section and separate screen make the relationship between framing and viewing unusually visible.",
     "sections": [
       {
-        "heading": "A photograph could answer immediately",
+        "heading": "See the result while there is time to try again",
         "paragraphs": [
-          "The body’s lens and display make the relationship between looking outward and reviewing the captured image visible. The camera remains a separate object, with its own controls and a further route required to move the images onto another machine or display."
+          "Make an exposure, review it on the screen and decide whether another attempt would help. That loop differs from finishing a film and handing it to a processor before seeing the result. Moving the images to another device remains a separate step using the camera’s supported connection and software. The screen supplies information sooner; it does not automatically print or preserve every image elsewhere."
         ]
       },
       {
-        "heading": "The interval became a choice",
+        "heading": "The image still needs a transfer",
         "paragraphs": [
-          "Immediate review did not make every part of digital photography effortless, and film continued to be useful to many people. Its distinctive contribution was narrower and significant: taking a picture no longer had to begin a wait for processing before the photographer could see anything. Beside the QuickSnap, the QV-10 records two overlapping systems with different relationships to anticipation, repetition, and deciding which image deserved another attempt."
+          "This early LCD and image system should not be measured by the capabilities of a current phone. It is not a camera with wireless cloud backup. Casio’s own historical account identifies the 1995 model and the review-screen idea, keeping it distinct from other early digital cameras that used different displays, media and transfer methods."
         ]
       }
     ],
@@ -4381,7 +4143,8 @@
       "new-casio-history",
       "new-photo-digital-camera",
       "new-fujifilm-history",
-      "new-chm-1994"
+      "new-chm-1994",
+      "sprint-qv10"
     ],
     "media": {
       "kind": "image",
@@ -4409,12 +4172,11 @@
       1999
     ],
     "relatedArtifacts": [
-      "disposable-camera",
-      "floppy-disk"
+      "disposable-camera"
     ],
     "relatedRoutes": [
       "/stories/the-photo-lab-gap/",
-      "/zones/tech-toys/"
+      "/archive/objects/disposable-camera/"
     ],
     "target": "/zones/tech-toys/",
     "interaction": null,
@@ -4426,7 +4188,7 @@
       "mall",
       "portable"
     ],
-    "reviewedAt": "2026-10-29"
+    "reviewedAt": "2026-11-05"
   },
   {
     "id": "powerbook",
@@ -4440,18 +4202,12 @@
     "room": "tech-toys",
     "label": "The computer began to travel differently.",
     "curatorNote": "The computer began to travel differently.",
-    "whyItMattered": "Apple’s PowerBook 100 belongs to the early-1990s development of portable computing. Its hinged display and integrated keyboard turn the desktop’s separate surfaces into an object that can close and travel. The pointing device occupies a defined place within that compact arrangement rather than requiring an independent mouse area beside the machine.",
+    "whyItMattered": "Apple’s PowerBook 100, introduced in 1991, gathers display, keyboard and a centrally placed trackball into a computer that closes for travel. The palm-rest area and pointing device make a different arrangement from balancing a desktop mouse beside a keyboard.",
     "sections": [
       {
-        "heading": "The computer folded around its work surface",
+        "heading": "Closing the lid is only part of becoming portable",
         "paragraphs": [
-          "The fold changes where work can happen without making the computer free of practical requirements. Power, storage, compatible software, and a suitable surface still shape the experience. Portability makes another place possible; it does not make every place equally convenient."
-        ]
-      },
-      {
-        "heading": "Compare the furniture",
-        "paragraphs": [
-          "A desktop setup spreads monitor, keyboard, and case across a room. The PowerBook gathers more of that relationship inside one body, while its opened shape still explains where the hands and eyes are expected to go. The object offers a useful contrast with both the family PC and the pocket organizer: moving a computer can mean reducing its furniture, reducing its task, or making different compromises about how the two belong together."
+          "Power, storage, compatible software and connections still determine what work can travel. An integrated pointing device removes one separate surface requirement without turning the machine into a modern wireless laptop. The object records an early-1990s approach to carrying a useful desk inside a hinged case."
         ]
       }
     ],
@@ -4491,13 +4247,11 @@
       1999
     ],
     "relatedArtifacts": [
-      "zip-drive",
-      "floppy-disk",
-      "cdr-spindle"
+      "palm-pilot"
     ],
     "relatedRoutes": [
-      "/stories/carrying-files-home/",
-      "/zones/tech-toys/"
+      "/archive/objects/palm-pilot/",
+      "/stories/the-family-computer/"
     ],
     "target": "/zones/tech-toys/",
     "interaction": null,
@@ -4509,7 +4263,7 @@
       "pc",
       "software"
     ],
-    "reviewedAt": "2026-10-29"
+    "reviewedAt": "2026-11-05"
   },
   {
     "id": "newton",
@@ -4523,18 +4277,18 @@
     "room": "tech-toys",
     "label": "A note could begin on a pocket screen.",
     "curatorNote": "A note could begin on a pocket screen.",
-    "whyItMattered": "Apple’s original Newton MessagePad used a handheld form and stylus input to organize personal information. The pictured H1000 model belongs to the beginning of that product family in the early 1990s. Its screen, controls, and pen-based interaction make a different proposal from either a desktop keyboard or a conventional telephone keypad.",
+    "whyItMattered": "Apple’s H1000 Newton MessagePad belongs to the original 1993 generation. Its large handheld screen and stylus make notes and personal organization possible without a conventional keyboard. The pictured museum object identifies that early model; later MessagePads changed the hardware and software, so the whole family should not be described as one device.",
     "sections": [
       {
-        "heading": "A computer shaped around a pen",
+        "heading": "The pen is an input method",
         "paragraphs": [
-          "The central task is not simply displaying smaller versions of everything a computer might do. Notes, contacts, schedules, and the act of writing directly onto a surface give the object a more directed relationship to daily information. Learning how the device interprets input becomes part of using it effectively."
+          "A user can write, select controls and work with organizer information through the pen-based interface. Handwriting recognition adds an interpretation step between a written mark and editable text. The useful question is whether the recognized result is correct, not merely whether the device noticed the pen. Reviewing and correcting the result belongs to using the system."
         ]
       },
       {
-        "heading": "Portability had several possible forms",
+        "heading": "Check what the pen became",
         "paragraphs": [
-          "Placed beside PalmPilot, a pager, and a mobile handset, the MessagePad reveals a period of distinct experiments rather than a tidy sequence of identical ancestors. Each device makes some activity easier to carry and leaves other work elsewhere. Newton’s particular interest is the attempt to make a small electronic notebook into a responsive working object, with the pen and screen defining the experience together."
+          "A pen does not remove the constraints of a small computer. Recognition, software compatibility, power and the size of the object still shape what can be done comfortably. Comparing it with the PalmPilot makes the design problem visible: how much of a desk should a handheld attempt to carry, and how much should it deliberately leave behind?"
         ]
       }
     ],
@@ -4572,13 +4326,12 @@
       1999
     ],
     "relatedArtifacts": [
-      "zip-drive",
-      "floppy-disk",
-      "cdr-spindle"
+      "palm-pilot",
+      "powerbook"
     ],
     "relatedRoutes": [
-      "/stories/carrying-files-home/",
-      "/zones/tech-toys/"
+      "/archive/objects/palm-pilot/",
+      "/archive/objects/powerbook/"
     ],
     "target": "/zones/tech-toys/",
     "interaction": null,
@@ -4590,6 +4343,6 @@
       "pc",
       "software"
     ],
-    "reviewedAt": "2026-10-29"
+    "reviewedAt": "2026-11-05"
   }
 ]

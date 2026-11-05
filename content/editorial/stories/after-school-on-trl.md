@@ -1,35 +1,40 @@
-<!-- story: {"id": "after-school-on-trl", "title": "After school, before the countdown", "category": "music", "summary": "Get home in time for the countdown. Your favorite video might have moved up.", "art": "crt-television", "objectIds": ["crt-television", "discman"], "sourceIds": ["trl-retrospective"], "topics": ["pop", "teen-pop"], "publishedAt": "2026-09-27", "updatedAt": "2026-10-29", "relatedStoryIds": ["rnb-had-many-voices", "same-time-next-week"]} -->
+<!-- story: {"id": "after-school-on-trl", "title": "After school, before the countdown", "category": "music", "summary": "Get home in time for the countdown. Your favorite video might have moved up.", "art": "crt-television", "objectIds": ["crt-television", "family-pc"], "sourceIds": ["trl-retrospective", "sprint-trl-recap"], "topics": ["pop", "teen-pop"], "publishedAt": "2026-09-27", "updatedAt": "2026-11-05", "relatedStoryIds": ["rnb-had-many-voices", "same-time-next-week"]} -->
 
-## The afternoon had a countdown
+## The countdown gave you a reason to wait
 
-The useful thing about a countdown was that you could arrive before the answer. A favorite video might already have appeared, or it might still be waiting near the top. The order gave a familiar song another reason to be interesting, and it supplied a result to argue about the next day.
+Number ten was only the start of the argument. On Total Request Live, a video arrived with a position attached: higher, lower, new today, back again. A favorite song became something you could root for, and somebody else’s favorite occupied the place you wanted it to lose.
 
-MTV’s Total Request Live began in 1998. Its Times Square setting, audience participation, interviews, and music videos made late-decade pop feel like a recurring public event. A television in a bedroom could connect an ordinary afternoon to a crowd gathered on a particular New York street.
+MTV launched TRL in September 1998, combining a request countdown with live television from Times Square. Carson Daly, the studio crowd, celebrity visits and the people outside the window made the program feel like a gathering around a chart. The countdown supplied the daily structure.
 
-## The pavement was part of the picture
+## One day, with the source left visible
 
-The studio’s relationship to Times Square made proximity visible. Fans outside could become part of the broadcast’s atmosphere, while a visiting artist brought another reason to watch that day’s edition. The show could turn a promotional appearance into something that seemed to be happening right now.
+The following is **September 14, 1998**, as recorded in ATRL’s fan-maintained recap archive. The surviving page was reposted in 2020. It is a useful documented reconstruction of the show’s first countdown, rather than an official MTV voting ledger or proof of exact vote totals.
 
-For viewers elsewhere, the attraction did not depend on actually traveling to the city. The location supplied a recognizable place in which the afternoon’s excitement could gather. Signs, windows, people waiting, and reactions to an arrival gave the music a setting beyond the video itself.
+| Position | Artist | Video |
+| --- | --- | --- |
+| 1 | Backstreet Boys | I’ll Never Break Your Heart |
+| 2 | ’N Sync | Tearin’ Up My Heart |
+| 3 | Aaliyah featuring Timbaland | Are You That Somebody? |
+| 4 | Aerosmith | I Don’t Want to Miss a Thing |
+| 5 | Will Smith | Just the Two of Us |
+| 6 | Marilyn Manson | The Dope Show |
+| 7 | Usher | My Way |
+| 8 | Goo Goo Dolls | Iris |
+| 9 | Monica | The First Night |
+| 10 | Monster Magnet | Space Lord |
 
-The photograph on this page shows the real studio location at a later date. It identifies the place associated with the show, while the story’s focus remains its beginnings at the end of the 1990s.
+Read from ten toward one and the musical collisions become obvious. Hard rock, a film-associated power ballad, R&B and boy-band choreography all belong to the same appointment. A remembered “teen-pop show” turns out to have a less orderly first-day menu.
 
-## Pop came with a visual world
+## A video is more than the song
 
-Britney Spears, Backstreet Boys, and *NSYNC brought more than recordings to the screen. Dance routines, clothes, close-ups, and the structure of a video helped make a song memorable. Learning the chorus and recognizing the image could happen together.
+Compare the coordinated performance of “Tearin’ Up My Heart” with the choreography and rhythmic detail of “Are You That Somebody?” Then look at the scale of Aerosmith’s Armageddon-associated video. The countdown gave these very different presentations a common frame: a rank, an introduction and the possibility of moving tomorrow.
 
-Rock, hip-hop, and other styles also competed for attention. The program’s particular mix should not be mistaken for a complete account of what everyone listened to. Its interest lies in the conversation it assembled: artists with different audiences sharing a recurring format and a visible contest for position.
+That frame changed what a fan could talk about. A chorus might be the reason to request a video, but a look, a dance move or a recurring appearance gave the request a visible identity. The artist had to register quickly inside a busy television program.
 
-The countdown added suspense to material that might otherwise have been familiar through repetition. Seeing a video again could still feel consequential because its place had changed. The format made comparison an activity.
+## The audience had several entrances
 
-## A request was a kind of participation
+Viewer requests by telephone and online made participation part of the show’s promise. Watching from home, trying to influence the list and showing up in Times Square were different levels of involvement. The noise outside the window gave distant viewers a picture of the enthusiasm the ranking claimed to measure.
 
-Audience voting gave viewers a task beyond watching. Supporting a favorite could become part of belonging to a group, whether that group existed at school, online, or around the television. The result provided a public sign that other people were paying attention too.
+A place on TRL was not the same measure as record sales or radio airplay. A fan recap is not a chart methodology document, either. Keeping those distinctions intact makes the daily contest more enjoyable: you can see what this particular television format was good at gathering.
 
-A request countdown measures a particular kind of involvement. It is different from an annual chart based on sales or airplay. Understanding the distinction does not make the suspense less enjoyable; it explains what the competition was actually asking its audience to do.
-
-## The school day had an extra meeting place
-
-Scheduled television gave the conversation a shared reference point. You could miss an appearance, catch only part of an interview, or know that somebody else had seen what happened. The show’s place in the afternoon helped music circulate through everyday talk.
-
-TRL’s late-1990s appeal came from that combination of repetition and occasion. The songs could already belong to a person’s collection, yet today’s order and today’s guest made another broadcast feel worth catching. The countdown turned a routine into a small event with an ending everybody wanted to know.
+Aaliyah’s place in this snapshot is a good route into the [R&B listening guide](/stories/rnb-had-many-voices/), while the [scheduled-television story](/stories/same-time-next-week/) explains the larger habit of arranging an afternoon around a broadcast. TRL gave a new reason to practice that habit: come back tomorrow and see whether your side had moved.

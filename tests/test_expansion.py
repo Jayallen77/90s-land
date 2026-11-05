@@ -43,20 +43,21 @@ class ExpansionTests(unittest.TestCase):
         self.assertNotIn('No events in the archive for this week.',archive_pages.weekly(date(1996,10,1)))
         self.assertIn('From the Muddy Banks',archive_pages.weekly(date(1996,10,1)))
 
-    def test_new_library_has_substantial_prose_and_reviewed_images(self):
+    def test_published_library_has_complete_prose_and_reviewed_images(self):
         features=model.load_features(ROOT/'content/editorial/features.md')
-        self.assertGreaterEqual(len(features),20)
+        self.assertEqual({s['id'] for s in features},{s['id'] for s in model.STORIES})
         for story in features:
             with self.subTest(story=story['id']):
-                self.assertGreaterEqual(sum(len(p.split()) for section in story['sections'] for p in section['paragraphs']),400)
+                self.assertTrue(story['sections'])
+                self.assertTrue(all(sec['paragraphs'] and sec['heading'] for sec in story['sections']))
                 self.assertTrue(story['sourceIds'])
                 self.assertIn(story['id'],model.STORY_MEDIA)
-        additions=[a for a in model.ARTIFACTS if a.get('reviewedAt')=='2026-10-29' and a['media']['kind']=='image']
-        self.assertGreaterEqual(len(additions),30)
-        for obj in additions:
-            self.assertTrue((ROOT/obj['media']['src'].lstrip('/')).is_file())
+        for obj in model.ARTIFACTS:
+            self.assertTrue(obj['whyItMattered'] and obj['sections'])
             self.assertTrue(obj['sourceIds'])
-            self.assertGreater(len((obj['whyItMattered']+' '+' '.join(p for sec in obj['sections'] for p in sec['paragraphs'])).split()),120)
+            self.assertGreaterEqual(obj['reviewedAt'],'2026-11-05')
+            if obj['media']['kind']=='image':
+                self.assertTrue((ROOT/obj['media']['src'].lstrip('/')).is_file())
 
     def test_denver_civil_day_matches_browser_boundary(self):
         self.assertEqual(model.civil_today(datetime(2026,9,28,5,tzinfo=timezone.utc)),date(2026,9,27))

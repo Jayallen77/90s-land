@@ -16,6 +16,8 @@ def image_inventory():
         if obj['media']['kind'] == 'image': records[obj['media']['src']] = obj
     for id, media in json.loads((ROOT/'content/editorial/story-media.json').read_text()).items():
         records.setdefault(media['src'], {'id':'story-'+id, 'media':media})
+    for id,media in json.loads((ROOT/'content/editorial/figures.json').read_text()).items():
+        records.setdefault(media['src'],{'id':'figure-'+id,'media':media})
     return list(records.values())
 
 def digest(path):

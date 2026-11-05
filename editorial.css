@@ -272,3 +272,4 @@ body:before{background-image:radial-gradient(#d8d9ff 0.6px,transparent 1px),radi
 .js #siteSearchCount{min-height:1.55em}
 .resource-directory[aria-labelledby="searchResultsTitle"]{min-height:360px}
 .ed-categories + .ed-text-link{display:inline-flex;align-items:center;min-height:44px;margin-top:8px}
+.ed-edition{margin:24px 0;padding:20px 24px}.ed-edition h2{margin:4px 0 8px;font-size:clamp(25px,4vw,38px)}.ed-edition p{max-width:950px;margin-bottom:0}

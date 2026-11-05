@@ -1,35 +1,40 @@
-<!-- story: {"id": "from-mixtape-to-file", "title": "From mixtape to file", "category": "music", "summary": "Choose the first song carefully. Someone has to live with the order you put these tracks in.", "art": "cassette", "objectIds": ["cassette", "cdr-spindle", "discman"], "sourceIds": ["sony-audio", "sony-digital"], "topics": ["cd", "mixtapes", "mp3", "portable"], "publishedAt": "2026-09-27", "updatedAt": "2026-10-29", "relatedStoryIds": ["minidisc-small-door", "record-store-discovery"]} -->
+<!-- story: {"id": "from-mixtape-to-file", "title": "From mixtape to file", "category": "music", "summary": "Choose the first song carefully. Someone has to live with the order you put these tracks in.", "art": "cassette", "objectIds": ["cassette", "walkman", "discman", "cdr-spindle"], "sourceIds": ["sony-audio", "sony-digital", "sprint-blue-lines", "sprint-dummy", "sprint-tricky", "sprint-mary-life"], "topics": ["cd", "mixtapes", "mp3", "portable"], "publishedAt": "2026-09-27", "updatedAt": "2026-11-05", "relatedStoryIds": ["bristol-between-the-beats"]} -->
 
-## Side A started with a decision
+## A good opening track made a promise
 
-The first track on a mixtape did more than begin the recording. It explained what kind of journey the listener was about to take. A fast opening could make the next song feel slower; a familiar chorus could make an unfamiliar record easier to introduce. The tape was a small collection with an argument about order.
+Press Record too late and the first beat was gone. Stop too slowly and the next song arrived uninvited. Making a tape meant caring about the tiny stretch between tracks as well as the tracks themselves. A sequence existed in time before it existed as a list.
 
-Making it required time. A cassette had to move through the machine while the source played, and the person recording needed to think about the space left on the side. A song that did not quite fit could turn an otherwise careful sequence into an abrupt ending. The physical limit was part of the composition.
+That is the enjoyable constraint: the receiver hears your opening choice first, then discovers how you meant the next one to follow. A mixtape can be an introduction, a private radio show or a rather elaborate way of saying “listen to this part.” It does not need to pretend to be the definitive soundtrack to a decade.
 
-## The pause button had a job
+## An illustrative side, with the arithmetic shown
 
-A home recording might draw from records, another tape, CDs, or the radio. Each source offered a different kind of control. A CD made it easier to choose a track directly; catching a song from a broadcast depended on being ready and accepting that a presenter might speak over the beginning or end.
+Here is an original listening sequence of 1990s recordings, short enough for one nominal 30-minute side of a C60 cassette. **The reference timings come from the linked digital editions**, including the identified later mixes or remasters. This is a present-day reconstruction, not a recovered historical tape or a claim that those reissues existed in 1995.
 
-There were small acts of preparation: setting levels where the equipment allowed it, checking the tape, and deciding when to pause. Recording was an activity in the room, rather than a background instruction that would finish while the owner went somewhere else.
+| Order | Recording and reference edition | Time | Elapsed |
+| --- | --- | --- | --- |
+| 1 | Massive Attack, “Unfinished Sympathy” — Blue Lines, 2012 mix/master | 5:08 | 5:08 |
+| 2 | Portishead, “Sour Times” — Dummy | 4:12 | 9:20 |
+| 3 | Tricky featuring Martina Topley-Bird, “Hell Is Round The Corner” — 2023 Abbey Road remaster | 3:47 | 13:07 |
+| 4 | Mary J. Blige, “My Life” — My Life | 4:17 | 17:24 |
+| 5 | Portishead, “Roads” — Dummy | 5:03 | 22:27 |
+| 6 | Mary J. Blige, “Be Happy” — My Life | 5:49 | 28:16 |
 
-The handwritten label gave the result a second voice. It could be practical, private, romantic, funny, or barely legible. A blank manufactured cassette became a gift or recommendation when somebody gave it a name.
+That leaves **1:44 before the nominal 30-minute limit**, before adding your chosen gaps. Real tape lengths and recorders vary; the margin is more sensible than planning a last note at exactly 30:00. The sequence moves from an expansive opening into tighter, darker spaces, then gives the final vocal room to finish. That ordering is an editorial choice you can disagree with.
 
-## A CD changed the movement
+## Tape: the transition is part of the job
 
-Portable CD players carried a different promise. An album could accompany a journey, and pressing a track button could skip directly to a chosen song. There was no need to wind through the tape to find the beginning.
+On a cassette deck you assemble the side by recording sources in order. Pause can help control gaps; the counter helps you find a section again, but it is not a universal minutes-and-seconds display. The handwritten insert becomes the index that the tape itself cannot show.
 
-The convenience had conditions. Early portable players could skip when disturbed, making movement an engineering problem as well as a listener’s irritation. Anti-skip systems helped later machines, but the relationship between the disc, the lid, the batteries, and the bag remained physical. Choosing what to carry still meant selecting objects before leaving.
+Changing track two after recording the whole side is a nuisance. That cost encourages commitment, or another fresh attempt. The [Walkman](/archive/objects/walkman/) makes the finished sequence portable; it does not make editing the sequence easier.
 
-A CD booklet offered another form of company. Credits, artwork, and lyrics could turn an album into something to read while it played. The jewel case held information as well as a recording.
+## CD: choose before you burn
 
-## The sequence became a list of files
+A CD-R changes the preparation. A computer can arrange tracks before writing an audio disc, and compatible players can select an individual track directly. But an audio CD-R still has a finite running time, and the playback machine has to accept the medium and format you made.
 
-Computer-based music made the collection visible in another form: filenames, folders, and player software. MP3 compressed audio into files small enough to make new kinds of storage and transfer practical. The change was gradual and uneven, overlapping with people still recording tapes and buying CDs.
+The [Discman](/archive/objects/discman/) shows the other half of that exchange: a portable CD player, a lid, playback controls and a physical disc. A folder of MP3 files burned to a disc is not automatically an audio CD that every 1990s player can read.
 
-A collection on a computer required its own work. Files needed names that made sense, storage needed space, and different versions of a track could become difficult to distinguish. A playlist made order easier to revise, but choosing the next song was still a decision about how it would follow the last one.
+## Files: the sequence becomes easy to revise
 
-## The gift outlasted the container
+With files, changing the order can be nearly effortless. Titles and durations become part of the visible interface, and one collection can support several sequences. The mechanics change; the editorial question survives. What should somebody hear first, and what do you want the next song to do to it?
 
-The formats encouraged different habits. Tape invited a largely fixed sequence; CD offered direct access; a folder could be rearranged without touching a recording surface. None removed the personal part of selection.
-
-The lasting gesture was the invitation to listen in a particular order. It might travel on a cassette with a folded paper insert, a burned disc with handwriting around the center, or a list of files given meaningful names. The equipment changed how the sequence was made. The desire to say “start with this one” remained remarkably familiar.
+Try the six-track side, then replace one selection while preserving the time budget. You will discover the old problem quickly enough: having good songs is the beginning. Making them belong beside one another is the interesting work.

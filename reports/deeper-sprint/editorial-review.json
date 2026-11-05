@@ -1,0 +1,391 @@
+{
+  "stories": 35,
+  "objects": 62,
+  "storySectionCounts": {
+    "4": 21,
+    "5": 4,
+    "3": 9,
+    "6": 1
+  },
+  "storyWordCounts": {
+    "a-web-you-could-make": 460,
+    "a-whole-new-dimension": 678,
+    "after-school-on-trl": 535,
+    "aol-flat-rate": 379,
+    "breakbeats-change-the-clock": 545,
+    "bristol-between-the-beats": 529,
+    "browser-wars-at-home": 536,
+    "carrying-files-home": 522,
+    "fifteen-blocks-of-memory": 518,
+    "friday-at-the-video-store": 421,
+    "from-mixtape-to-file": 592,
+    "grunge-from-rack-to-runway": 531,
+    "handhelds-and-batteries": 471,
+    "holiday-toys-that-answered-back": 567,
+    "horror-knew-the-rules": 428,
+    "lan-party-night": 355,
+    "meet-me-at-the-mall": 540,
+    "minidisc-small-door": 551,
+    "record-store-discovery": 419,
+    "rnb-had-many-voices": 520,
+    "same-time-next-week": 578,
+    "sampling-a-record-collection": 525,
+    "shareware-before-download-stores": 444,
+    "streetwear-the-logo-and-the-voice": 547,
+    "summer-at-the-multiplex": 492,
+    "the-console-war-couch": 454,
+    "the-demo-disc-evening": 565,
+    "the-family-computer": 508,
+    "the-flyer-and-the-dancefloor": 294,
+    "the-landline-negotiation": 555,
+    "the-photo-lab-gap": 560,
+    "the-secret-button-sequence": 520,
+    "webtv-on-the-sofa": 414,
+    "when-grunge-broke-through": 347,
+    "you-could-see-through-it": 437
+  },
+  "newSources": [
+    {
+      "id": "sprint-doom-code",
+      "title": "The original Doom cheat handler",
+      "publisher": "id Software",
+      "url": "https://github.com/id-Software/DOOM/blob/master/linuxdoom-1.10/st_stuff.c",
+      "scope": "Developer-released source identifies the classic cheat sequences, their effects and the single-player/non-Nightmare restriction. Linux source released in 1997, not instructions for modern console ports.",
+      "checkedAt": "2026-11-05",
+      "type": "primary"
+    },
+    {
+      "id": "sprint-gt-manual",
+      "title": "Gran Turismo: English software manual, pp. 14–15",
+      "publisher": "Sony Computer Entertainment Europe",
+      "url": "https://db.hfsplay.fr/files/2021/01/16/gran_turismo_english_Klgw8V8.pdf",
+      "scope": "Original manual: game data occupies five blocks, replay data a separate file; one game-data file per card. Archived scan.",
+      "checkedAt": "2026-11-05",
+      "type": "primary"
+    },
+    {
+      "id": "sprint-ff7-package",
+      "title": "Final Fantasy VII: original packaging and variants",
+      "publisher": "Sony Computer Entertainment America; scans catalogued by Game-Rave",
+      "url": "https://www.game-rave.com/?p=11428",
+      "scope": "SCUS-94163 packaging identifies one memory-card block per save. The packaging is primary evidence; collector commentary is secondary.",
+      "checkedAt": "2026-11-05",
+      "type": "primary"
+    },
+    {
+      "id": "sprint-underground-contents",
+      "title": "PlayStation Underground 1.1: disc menus and packaging",
+      "publisher": "Sony Computer Entertainment America; preserved by Game-Rave",
+      "url": "https://www.game-rave.com/?p=18569",
+      "scope": "Primary menu/packaging scans for the 1997 US two-disc set SCUS-94161, PSRM-006590/006600. Shows Vault, Download Station and disc-two playable/video contents.",
+      "checkedAt": "2026-11-05",
+      "type": "primary"
+    },
+    {
+      "id": "sprint-pete-rock",
+      "title": "Pete Rock on finding “Today”",
+      "publisher": "Bullseye with Jesse Thorn / Maximum Fun",
+      "url": "https://maximumfun.org/wp-content/uploads/2024/08/Bullseye-Ep.-8.13.24-Common-and-Pete-Rock.pdf",
+      "scope": "Producer interview transcript: Tom Scott’s Today and the making of They Reminisce Over You. Does not identify the pictured MPC2000 as its production equipment.",
+      "checkedAt": "2026-11-05",
+      "type": "primary"
+    },
+    {
+      "id": "sprint-mary-life",
+      "title": "My Life: recordings and artist commentary",
+      "publisher": "Mary J. Blige / Apple Music",
+      "url": "https://100best.music.apple.com/tm/album/84",
+      "scope": "Album track sequence and durations; Roy Ayers source for My Life and Curtis Mayfield source for Be Happy. Listening commentary here is original.",
+      "checkedAt": "2026-11-05",
+      "type": "primary"
+    },
+    {
+      "id": "sprint-shy-interview",
+      "title": "In the beginning, there was Shy FX",
+      "publisher": "Shy FX interviewed by Ian McQuaid, TRENCH",
+      "url": "https://trenchtrenchtrench.com/features/shy-fx-interview",
+      "scope": "Producer’s account of making Original Nuttah with UK Apache, Amen editing and the tension between complexity and dancefloor groove.",
+      "checkedAt": "2026-11-05",
+      "type": "primary"
+    },
+    {
+      "id": "sprint-amen-interview",
+      "title": "The musicians behind the Amen break",
+      "publisher": "NPR / Alabama Public Radio",
+      "url": "https://www.apr.org/arts-life/2017-08-07/funk-band-behind-amen-break-drum-riff-receives-long-overdue-notoriety",
+      "scope": "Interview with Winstons bandleader Richard Spencer about Amen, Brother and the sampled drum break.",
+      "checkedAt": "2026-11-05",
+      "type": "primary"
+    },
+    {
+      "id": "sprint-fabio",
+      "title": "Fabio selects drum & bass records",
+      "publisher": "Fabio interviewed by Manchester’s Finest",
+      "url": "https://www.manchestersfinest.com/music/jungle-legend-fabio-on-the-greatest-drum-bass-tunes-of-all-time/",
+      "scope": "Participant listening commentary explicitly identifies the Amen break in Original Nuttah; interview rather than a generic genre history.",
+      "checkedAt": "2026-11-05",
+      "type": "primary"
+    },
+    {
+      "id": "sprint-blue-lines",
+      "title": "Blue Lines: identified 2012 mix/master",
+      "publisher": "Virgin Records / Apple Music",
+      "url": "https://music.apple.com/us/album/blue-lines-2012-mix-master/715864097",
+      "scope": "Official distributed album tracklist, performer credits and durations. Reissue timings are used explicitly; no day-level 1991 release claim is inferred.",
+      "checkedAt": "2026-11-05",
+      "type": "primary"
+    },
+    {
+      "id": "sprint-dummy",
+      "title": "Dummy: album and track timings",
+      "publisher": "Go! Discs / Island Records / Apple Music",
+      "url": "https://music.apple.com/us/album/dummy/1440653096",
+      "scope": "Distributed album recordings, track sequence and timings, including Sour Times 4:12 and Roads 5:03. Storefront date fields are not used as release dates.",
+      "checkedAt": "2026-11-05",
+      "type": "primary"
+    },
+    {
+      "id": "sprint-tricky",
+      "title": "Maxinquaye: Reincarnated, disc one",
+      "publisher": "Island Records / Apple Music",
+      "url": "https://music.apple.com/us/album/maxinquaye-reincarnated/1703849801",
+      "scope": "2023 Abbey Road remaster of the 1995 album. Identifies Martina Topley-Bird and Hell Is Round The Corner at 3:47. Used as an explicitly modern reference version.",
+      "checkedAt": "2026-11-05",
+      "type": "primary"
+    },
+    {
+      "id": "sprint-tlc",
+      "title": "CrazySexyCool and TLC recordings",
+      "publisher": "TLC / Apple Music",
+      "url": "https://music.apple.com/us/artist/tlc/17360",
+      "scope": "Artist catalogue and recordings establish named 1994 and 1999 album examples. Vocal descriptions are original listening notes.",
+      "checkedAt": "2026-11-05",
+      "type": "primary"
+    },
+    {
+      "id": "sprint-trl-recap",
+      "title": "September 1998 daily TRL recaps",
+      "publisher": "ATRL fan archive",
+      "url": "https://atrl.net/forums/topic/295520-september-1998/",
+      "scope": "Retrospective fan-maintained transcript archive, reposted in 2020, supplies September 14, 1998 top ten. Not an official MTV voting record; provenance is stated in the story.",
+      "checkedAt": "2026-11-05",
+      "type": "secondary"
+    },
+    {
+      "id": "sprint-css-1996",
+      "title": "CSS support in MS IE 3.0, updated September 1, 1996",
+      "publisher": "W3C / Håkon Wium Lie",
+      "url": "https://www.w3.org/Style/CSS/msie/",
+      "scope": "Contemporary CSS demonstrations and implementation limitations: missing padding, border properties and em units. Windows-era IE3 comparison; not modern browser behavior.",
+      "checkedAt": "2026-11-05",
+      "type": "primary"
+    },
+    {
+      "id": "sprint-css-history",
+      "title": "The CSS saga",
+      "publisher": "Håkon Wium Lie and Bert Bos / W3C",
+      "url": "https://www.w3.org/Style/LieBos2e/history/",
+      "scope": "CSS authors trace IE3 support in 1996 and Navigator 4 support later. Navigator 3 is not presented as a CSS browser.",
+      "checkedAt": "2026-11-05",
+      "type": "primary"
+    },
+    {
+      "id": "sprint-ie-win31",
+      "title": "Internet Explorer 3.0 for Windows 3.1 announcement",
+      "publisher": "Microsoft, December 9, 1996",
+      "url": "https://news.microsoft.com/source/1996/12/09/microsoft-unveils-microsoft-internet-explorer-3-0-for-windows-3-1/",
+      "scope": "Platform-specific announcement lists frames and scripting support. Used to distinguish the December Windows 3.1 release from August’s Windows 95 version.",
+      "checkedAt": "2026-11-05",
+      "type": "primary"
+    },
+    {
+      "id": "sprint-furby-manual",
+      "title": "Electronic Furby instruction manual, 708000001IWT1-07",
+      "publisher": "Tiger Electronics, 1999 printing; preserved by The Old Robots",
+      "url": "https://www.theoldrobots.com/book33/Furby.pdf",
+      "scope": "Original-generation manual: four AA batteries, touch/light/sound/orientation sensors, feeding switch, progressive language behavior and interaction with other Furbys. Not a 2005, 2012 or 2023 model.",
+      "checkedAt": "2026-11-05",
+      "type": "primary"
+    },
+    {
+      "id": "sprint-original-tamagotchi",
+      "title": "Original Tamagotchi: Generation 1 programming",
+      "publisher": "Bandai",
+      "url": "https://tamagotchi-official.com/us/series/original/item/01_259/",
+      "scope": "Current rerelease explicitly preserves 1997 programming: care icons, food, health, lights, game and discipline. Contemporary shell and battery specification are not assigned to the 1997 hardware.",
+      "checkedAt": "2026-11-05",
+      "type": "primary"
+    },
+    {
+      "id": "sprint-tamagotchi-gen2",
+      "title": "Original Tamagotchi: Generation 2 programming",
+      "publisher": "Bandai",
+      "url": "https://tamagotchi-official.com/br/series/original/item/01_268/",
+      "scope": "Bandai describes the retained Gen 2 number-comparison game, distinguishing it from the Gen 1 direction-guessing game. Current rerelease, not a period product photograph.",
+      "checkedAt": "2026-11-05",
+      "type": "primary"
+    },
+    {
+      "id": "sprint-snick-schedule",
+      "title": "Nickelodeon announces Saturday-night lineup",
+      "publisher": "Broadcasting, July 13, 1992",
+      "url": "https://www.worldradiohistory.com/Archive-All-BC/Broadcasting-Magazine/BC-1992/BC-1992-07-13.pdf",
+      "scope": "Contemporary announcement of 8–10 p.m. SNICK schedule. Read alongside the opening-day coverage and existing historical schedule source; regional cable carriage can vary.",
+      "checkedAt": "2026-11-05",
+      "type": "primary"
+    },
+    {
+      "id": "sprint-badu",
+      "title": "Baduizm: original album and singles",
+      "publisher": "Universal Music Group / uDiscover Music",
+      "url": "https://shop.udiscovermusic.com/products/erykah-badu-baduizm-2lp",
+      "scope": "Label catalogue establishes Baduizm as a 1997 album with On & On and Next Lifetime. Listening analysis is original.",
+      "checkedAt": "2026-11-05",
+      "type": "primary"
+    },
+    {
+      "id": "sprint-mz1-manual",
+      "title": "MZ-1 operating instructions",
+      "publisher": "Sony, original manual preserved by MiniDisc.org",
+      "url": "https://www.minidisc.org/manuals/sony_mz1_manual.pdf",
+      "scope": "Original model’s recording inputs and edit operations: Combine, Divide, Swap, Erase, Erase All and Label. MZ-1 is a real-time recorder; later Net MD/MDLP features are not assigned to it.",
+      "checkedAt": "2026-11-05",
+      "type": "primary"
+    },
+    {
+      "id": "sprint-gamegear-box",
+      "title": "Game Gear: US box and manual",
+      "publisher": "Sega; preserved by SMS Power",
+      "url": "https://www.smspower.org/Scans/SegaGameGear-Hardware-US-A-BoxBack",
+      "scope": "Period packaging specifies six AA batteries and optional power accessories. Not an estimate of battery life.",
+      "checkedAt": "2026-11-05",
+      "type": "primary"
+    },
+    {
+      "id": "sprint-mario-manual",
+      "title": "Super Mario 64 instruction booklet",
+      "publisher": "Nintendo; archived transcription",
+      "url": "https://www.world-of-nintendo.com/manuals/nintendo_64/super_mario_64.shtml",
+      "scope": "Original Nintendo 64 instructions distinguish control-stick movement from C-button camera controls and explain Lakitu. Not the DS remake.",
+      "checkedAt": "2026-11-05",
+      "type": "primary"
+    },
+    {
+      "id": "sprint-qv10",
+      "title": "Casio QV-10 historical designation",
+      "publisher": "Casio",
+      "url": "https://arch.casio.com/news/2012/0913_qv10/",
+      "scope": "Maker identifies the QV-10 as a 1995 consumer digital camera with a color LCD for reviewing captured images. Does not date every pictured later camera.",
+      "checkedAt": "2026-11-05",
+      "type": "primary"
+    },
+    {
+      "id": "sprint-zip",
+      "title": "The original 100 MB Zip system",
+      "publisher": "Computer History Museum",
+      "url": "https://www.computerhistory.org/storageengine/minicomputers-stimulate-floppy-disk-sales/",
+      "scope": "Museum technical history and manufacturer history establish the original Zip capacity and its separate drive/cartridge format.",
+      "checkedAt": "2026-11-05",
+      "type": "institutional"
+    },
+    {
+      "id": "sprint-flyer-back",
+      "title": "Ultim8, September 25, 1992: reverse of flyer",
+      "publisher": "Ultim8 / TUR Promotions; scan by Upthebuffer",
+      "url": "https://commons.wikimedia.org/wiki/File:Ultim8_rave_flyer,_Knighton,_September_25th_1992-%22Its_time_to_come_alive%22_(back).jpg",
+      "scope": "Primary printed invitation identifies Knighton Community Centre, the date, 8.30–1.30, £6 admission, Donovan Bad Boy Smith, Atomix, Chancey, Fizz and M.C. KRE-8. Bottom panel explicitly advertises future names.",
+      "checkedAt": "2026-11-05",
+      "type": "primary"
+    },
+    {
+      "id": "sprint-mall-map",
+      "title": "El Con Mall: surviving directory",
+      "publisher": "Photograph by Jscarreiro / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:1990s_El_Con_Mall_directory_map.jpg",
+      "scope": "Primary map identifies anchors, AMC El Con Six and The Pavilion Food Court. Described as a 1990s map by uploader, photographed in 2009; no exact printing year inferred.",
+      "checkedAt": "2026-11-05",
+      "type": "primary"
+    },
+    {
+      "id": "sprint-doom-modes",
+      "title": "Doom game modes in the developer source",
+      "publisher": "id Software",
+      "url": "https://github.com/id-Software/DOOM/blob/master/linuxdoom-1.10/doomdef.h",
+      "scope": "Developer’s definitions distinguish shareware’s first episode from the three-episode registered game. Original PC editions; later Ultimate Doom has additional content.",
+      "checkedAt": "2026-11-05",
+      "type": "primary"
+    },
+    {
+      "id": "sprint-tb303",
+      "title": "TB-303 Bass Line owner’s manual",
+      "publisher": "Roland",
+      "url": "https://cdn.roland.com/assets/media/pdf/TB-303_OM.pdf",
+      "scope": "Original instrument’s pitch/time programming, accent, slide and tone controls. Not the TB-03, TB-3 or software emulation.",
+      "checkedAt": "2026-11-05",
+      "type": "primary"
+    },
+    {
+      "id": "sprint-m1",
+      "title": "M1 synthesizer/workstation",
+      "publisher": "Korg",
+      "url": "https://www.korg.com/de/products/synthesizers/m1/",
+      "scope": "Maker describes the original 1988 keyboard, PCM-based synthesis, effects and eight-track sequencer. Software reissue expansions are not assigned to original hardware.",
+      "checkedAt": "2026-11-05",
+      "type": "primary"
+    },
+    {
+      "id": "sprint-palm-manual",
+      "title": "PalmPilot Professional handbook",
+      "publisher": "3Com, 1997; preserved by ManualsLib",
+      "url": "https://www.manualslib.com/manual/303168/3com-Palmpilot-Professional.html",
+      "scope": "Original handbook documents Graffiti character input, organizer applications, cradle/HotSync and backup restoration. Not an integrated mobile phone.",
+      "checkedAt": "2026-11-05",
+      "type": "primary"
+    },
+    {
+      "id": "sprint-d121",
+      "title": "D-121 operating instructions",
+      "publisher": "Sony, 1993 manual preserved by iFixit",
+      "url": "https://www.ifixit.com/Document/puVCMKXOMBNgXQKG/Sony-Discman-D-121-D-121CK-Compact-Disc-Player-Operating-Instructions.pdf",
+      "scope": "Model-specific portable CD-player instructions; playback controls and compatible power arrangements. No universal battery-life or skip-protection claim.",
+      "checkedAt": "2026-11-05",
+      "type": "primary"
+    },
+    {
+      "id": "sprint-wmfx151",
+      "title": "WM-FX151 operating instructions",
+      "publisher": "Sony",
+      "url": "https://www.sony.co.nz/electronics/support/portable-music-players-walkman-cassette-players/wm-fx151/manuals",
+      "scope": "Identified cassette Walkman and radio model. Playback controls, tape direction and power are described without adding recording or later digital transfer features.",
+      "checkedAt": "2026-11-05",
+      "type": "primary"
+    },
+    {
+      "id": "sprint-jampack",
+      "title": "PlayStation Underground Jampack: 1998 packaging and contents",
+      "publisher": "Sony Computer Entertainment America; preserved by Game-Rave",
+      "url": "https://www.game-rave.com/?p=15432",
+      "scope": "Primary sleeve and disc evidence identifies SCUS-94287 / PSRM-010560. Eight advertised playable demos include Gran Turismo, Tekken 3 and Tomba!; video previews and imports have separate listings.",
+      "checkedAt": "2026-11-05",
+      "type": "primary"
+    },
+    {
+      "id": "sprint-large-professor",
+      "title": "Large Professor on digging for records",
+      "publisher": "Large Professor interviewed by Chairman Mao / Red Bull Music Academy",
+      "url": "https://daily.redbullmusicacademy.com/2015/02/large-professor-interview/",
+      "scope": "Producer describes buying records in the Village and Bleecker Records near House of Oldies, plus the Tom Scott record. Interview evidence for a specific independent-shop route.",
+      "checkedAt": "2026-11-05",
+      "type": "primary"
+    },
+    {
+      "id": "sprint-larami-bladder",
+      "title": "Bladder water-gun mechanism",
+      "publisher": "Larami patent US5799827A",
+      "url": "https://patents.google.com/patent/US5799827A/en",
+      "scope": "Primary technical disclosure of a pump, reservoir and expandable elastic bladder. Supports the mechanism family, not an exact performance or range claim for an individual retail specimen.",
+      "checkedAt": "2026-11-05",
+      "type": "primary"
+    }
+  ]
+}

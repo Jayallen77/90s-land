@@ -12,6 +12,8 @@ from urllib.request import Request, urlopen
 from build_release import DEFAULT_OUTPUT, ROOT, verify
 
 EXCLUDED = [
+    '/content/editorial/connections.json', '/content/editorial/edition.json', '/content/editorial/figures.json',
+    '/content/editorial/weekly-reading.json', '/reports/deeper-sprint/page-qa.json', '/tools/review_deeper_sprint.mjs',
     '/does-not-exist/', '/.git/config', '/.git/HEAD', '/.git/index', '/.git/objects/',
     '/%2egit/config', '/.env', '/.env.production', '/.gitignore', '/.codex/config.toml',
     '/.agents/', '/AGENTS.md', '/README.md', '/package.json', '/pnpm-lock.yaml',

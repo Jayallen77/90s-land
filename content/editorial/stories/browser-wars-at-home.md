@@ -1,35 +1,35 @@
-<!-- story: {"id": "browser-wars-at-home", "title": "The browser wars reached the family desktop", "category": "tech", "summary": "Navigator and Internet Explorer competed over more than a window: they helped decide how a new web looked and who could build for it.", "art": "mosaic-browser", "sourceIds": ["chm-net", "new-chm-1995", "cern-web"], "objectIds": ["mosaic-browser", "first-website", "windows-95-start", "family-pc"], "topics": ["browsers", "online", "software"], "relatedStoryIds": ["a-web-you-could-make", "webtv-on-the-sofa"], "publishedAt": "2026-10-01", "updatedAt": "2026-10-29"} -->
+<!-- story: {"id": "browser-wars-at-home", "title": "The browser wars reached the family desktop", "category": "tech", "summary": "Navigator and Internet Explorer competed over more than a window: they helped decide how a new web looked and who could build for it.", "art": "mosaic-browser", "sourceIds": ["chm-net", "new-chm-1995", "cern-web", "sprint-css-1996", "sprint-css-history", "sprint-ie-win31"], "objectIds": ["mosaic-browser", "family-pc", "geocities-homepage"], "topics": ["browsers", "online", "software"], "relatedStoryIds": ["aol-flat-rate"], "publishedAt": "2026-10-01", "updatedAt": "2026-11-05"} -->
 
-## The web arrived inside a window
+## The same address, two different afternoons
 
-A browser looked like an application among the other applications on a family computer. Its importance became clear only after it started opening everything else: a university page, a shop, a fan site, a search result, or somebody’s personal collection of links. The window was becoming a place where more of computing happened.
+A page could look finished on one computer and untidy on another. The address was correct. The modem was working. The missing ingredient was the browser’s interpretation of the page. That made “best viewed with…” a practical warning as well as a badge of allegiance.
 
-NCSA Mosaic helped make the web visually approachable in the early 1990s. Netscape Navigator then became one of its most recognizable commercial browsers, while Microsoft’s Internet Explorer entered the contest during the middle of the decade. The competition reached ordinary users as installation choices, changing icons, and advice about which program made a particular page work.
+Compare **Netscape Navigator 3 and Internet Explorer 3 on Windows 95 in 1996**. They shared the essential idea: follow links, enter an address, go back, save a useful destination. Their support for newer presentation features was much less uniform. A version number on the title bar could explain why a friend saw a different result.
 
-## The installer was part of the experience
+## A page, stripped to the useful difference
 
-A browser could arrive on a disk, a CD, through another software package, or by download. Obtaining a newer version required attention and sometimes patience. The installer pictured here belongs to a particular Netscape version; it records a moment when even the doorway to the web could be a physical object.
+| Test on an ordinary HTML page | Navigator 3 | Internet Explorer 3 for Windows 95 |
+| --- | --- | --- |
+| Heading, paragraph and ordinary hyperlink | The basic document remains readable. | The basic document remains readable. |
+| Add a CSS1 style sheet for colors and typography | No CSS implementation; those declarations do not supply the presentation. | Early, incomplete CSS support can change the presentation. |
+| Depend on CSS padding or borders for layout | The unsupported style sheet cannot supply them. | W3C’s contemporary report lists these properties as missing here, too. |
 
-The choice was not always made by the person doing the browsing. A parent, school technician, computer shop, or internet provider might have set up the machine. The browser that appeared when a link was clicked could simply be the one already there.
+This is a functional comparison, not a claim to reproduce either browser pixel for pixel. The W3C’s September 1996 test page is a particularly good artifact because it celebrates IE3’s progress and lists the holes in the implementation on the same page.
 
-That made familiarity powerful. A person learned where the back button lived, how bookmarks worked, and what the address field was for. Changing browsers meant relearning small gestures as well as comparing features.
+The lesson is wonderfully concrete: “supports style sheets” did not mean “supports every rule in this style sheet.” A color could work while the spacing did not. Looking almost right could be more confusing than ignoring the new feature altogether.
 
-## Page makers felt the competition too
+## The version has a platform attached
 
-A website could look different in different browsers. Support for layout, scripts, and particular features changed over successive versions. A visitor might encounter a badge recommending one browser, or find that a page depended on something their installed software did not understand.
+Microsoft’s **Windows 3.1** edition of Internet Explorer 3 was announced in December 1996. That is a separate platform release, not permission to assign every Windows 95 capability to every IE3 installation. Macintosh and Unix versions also belong to their own histories.
 
-For someone building a homepage, this was a practical limitation. A clever effect could work on the maker’s computer and fail somewhere else. The freedom to publish a page did not guarantee that every visitor would receive the same result.
+Netscape’s CSS story moves forward with Navigator 4. Folding its later capabilities into Navigator 3 produces an impressive browser that never existed. A useful comparison keeps the version, platform and feature together.
 
-The World Wide Web Consortium, founded in 1994, supplied an institutional setting for developing shared web standards. Those efforts belonged to a larger question underneath the browser rivalry: could a web page remain something people could reach through different machines and programs?
+## Installation made the choice tangible
 
-## The browser did not own every part of getting online
+Choosing another browser meant acquiring software, running an installer and deciding what to use for the next session. A disc could save download time; downloading meant reserving the connection while the package arrived. Bookmarks and preferences were another small collection to carry between installations.
 
-Dial-up access, the operating system, the browser, and a website were separate pieces of the journey, even when a single package made them appear closely connected. A browser could be ready to use while the telephone connection was unavailable. A successful connection could still lead to a broken site.
+The desktop icon was the visible invitation. Inside, Back and Forward made a trail you could reverse, while saved destinations turned unfamiliar addresses into a personal route through the web. The software’s corporate contest became part of an ordinary decision: which icon do you open?
 
-Learning to distinguish the pieces was part of becoming comfortable online. A failed page did not automatically mean the whole computer had stopped working. A bookmark was not the page itself, and changing the program did not move a website to another address.
+The [GeoCities-style exhibit](/archive/objects/geocities-homepage/) lets you build an invented little homepage with a background, a counter and a construction notice. Its controls demonstrate authorship, not a 1996 rendering engine. The [Mosaic object file](/archive/objects/mosaic-browser/) goes further back to an earlier browser.
 
-## Competition became a household habit
-
-The browser wars are often remembered through companies and market share. At home, they appeared as smaller decisions: install this version, keep that bookmark, try the other program, or wait until the download finished.
-
-Those habits helped turn the web from a destination reached through special software into an expected part of using a computer. The modest application window was carrying a much larger argument about how the new medium would be built, viewed, and controlled.
+Keep those roles distinct and the browser wars become easier to see. One history concerns companies distributing software. Another concerns the person trying to make a page readable on the machine at the other end of the link. The second problem was often the one that interrupted the afternoon.

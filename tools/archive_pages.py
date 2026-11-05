@@ -5,6 +5,9 @@ import json
 from datetime import date, timedelta
 import editorial as ed
 import archive_content as model
+import article_blocks
+import reading
+import connections
 
 esc = ed.esc
 CAT = model.CATEGORIES
@@ -109,11 +112,13 @@ def weekly(day=None):
     picks = model.selected_events(in_week, movie_limit=2)
     nearest = sorted([e for e in model.EVENTS if model.is_day(e) and not start.isoformat() <= e["date"] <= end.isoformat()], key=lambda e:(abs((date.fromisoformat(e["date"])-day).days),e["date"],e["id"]))[:3]
     nearest.sort(key=lambda e:(e["date"],e["id"]))
-    return f'''<main id="main-content" class="ed-main ar-main" data-weekly><header class="ar-week-hero"><p class="ar-kicker">SAME DECADE. DIFFERENT DAY.</p><h1>This week in <span data-week-year>{day.year}</span></h1><p class="ar-week-range" data-week-range>{range_label}</p><p>Releases, milestones, and little time machines. One historical week at a time.</p></header><div class="ar-controls ar-js-only"><button type="button" data-week-prev>← Previous week</button><label>Pick a date<input type="date" data-week-date min="1990-01-01" max="1999-12-31" value="{day.isoformat()}" /></label><label>Year<select data-week-select>{''.join(f'<option{(" selected" if y==day.year else "")}>{y}</option>' for y in range(1990,2000))}</select></label><button type="button" data-week-next>Next week →</button><button type="button" data-week-today>30 years ago</button></div><p class="ar-muted" data-week-explainer>Monday–Sunday, containing the date 30 years before today in America/Denver.</p><p class="ar-nojs-only">Saved week for {model.CATALOG['buildAsOf']}. Enable JavaScript to change weeks, or <a href="/timeline/">browse every year and month</a>.</p><div class="ar-layout"><section><section data-week-highlights{'' if picks else ' hidden'}><h2 class="ar-section-title">A FEW MOMENTS TO START WITH</h2><div class="ar-week-lead" data-week-lead>{event_card(picks[0]).replace("<h3>","<h2>").replace("</h3>","</h2>") if picks else ""}</div><div class="ar-week-picks" data-week-picks>{"".join(event_card(e) for e in picks[1:])}</div></section><h2 class="ar-section-title">ON THE CALENDAR <span role="status" data-week-count>{len(in_week)} sourced {"entry" if len(in_week)==1 else "entries"}</span></h2><div data-week-days>{week_days(start, in_week)}</div><p class="ar-empty" data-week-empty{'' if not in_week else ' hidden'}>{'No events in the archive for this week. Explore nearby dates below or browse the month.' if not in_week else ''}</p><a class="ed-text-link" data-week-month href="/timeline/{day.year}/?month={day.month:02}#events-{day.year}-{day.month:02}">OPEN THE MONTH →</a><section data-week-nearby{' hidden' if len(in_week)>=3 else ''}><h2 class="ar-section-title">NEARBY DATES</h2><p class="ar-muted">Outside the selected week.</p><div data-nearby-events>{"".join(event_card(e) for e in nearest) if len(in_week)<3 else ""}</div></section></section><aside class="ar-sidebar"><section class="ed-panel ar-panel">{ed.heading('Stories from the decade','book')}{''.join(story_card(s) for s in related_stories(in_week)[:3])}</section><section class="ed-panel ar-panel"><h2>Follow your curiosity</h2><nav class="ar-detail-links" data-week-connections aria-label="Explore this week’s year and collections"><a href="/timeline/{day.year}/">Explore {day.year} →</a></nav><p>Browse the objects behind the dates, from familiar hardware to handmade interfaces.</p><a href="/archive/objects/">Explore the object collection →</a></section></aside></div></main>'''
+    story_links = ''.join(story_card(s) for s in related_stories(in_week)[:3])
+    story_panel = f'<section class="ed-panel ar-panel">{ed.heading("Stories from the decade","book")}{story_links}</section>' if story_links else ''
+    return f'''<main id="main-content" class="ed-main ar-main" data-weekly><header class="ar-week-hero"><p class="ar-kicker">SAME DECADE. DIFFERENT DAY.</p><h1>This week in <span data-week-year>{day.year}</span></h1><p class="ar-week-range" data-week-range>{range_label}</p><p>Releases, milestones, and little time machines. One historical week at a time.</p></header><div class="ar-controls ar-js-only"><button type="button" data-week-prev>← Previous week</button><label>Pick a date<input type="date" data-week-date min="1990-01-01" max="1999-12-31" value="{day.isoformat()}" /></label><label>Year<select data-week-select>{''.join(f'<option{(" selected" if y==day.year else "")}>{y}</option>' for y in range(1990,2000))}</select></label><button type="button" data-week-next>Next week →</button><button type="button" data-week-today>30 years ago</button></div><p class="ar-muted" data-week-explainer>Monday–Sunday, containing the date 30 years before today in America/Denver.</p><p class="ar-nojs-only">Saved week for {model.CATALOG['buildAsOf']}. Enable JavaScript to change weeks, or <a href="/timeline/">browse every year and month</a>.</p><div class="ar-layout"><section><section data-week-highlights{'' if picks else ' hidden'}><h2 class="ar-section-title">A FEW MOMENTS TO START WITH</h2><div class="ar-week-lead" data-week-lead>{event_card(picks[0]).replace("<h3>","<h2>").replace("</h3>","</h2>") if picks else ""}</div><div class="ar-week-picks" data-week-picks>{"".join(event_card(e) for e in picks[1:])}</div></section>{reading.markup(day.year,len(in_week)<3)}<h2 class="ar-section-title">ON THE CALENDAR <span role="status" data-week-count>{len(in_week)} sourced {"entry" if len(in_week)==1 else "entries"}</span></h2><label class="ar-js-only ar-empty-toggle"><input type="checkbox" data-show-empty-days /> Show days without entries</label><div data-week-days>{week_days(start, in_week)}</div><p class="ar-empty" data-week-empty{'' if not in_week else ' hidden'}>{'No events in the archive for this week. Explore nearby dates below or browse the month.' if not in_week else ''}</p><a class="ed-text-link" data-week-month href="/timeline/{day.year}/?month={day.month:02}#events-{day.year}-{day.month:02}">OPEN THE MONTH →</a><section data-week-nearby{' hidden' if len(in_week)>=3 else ''}><h2 class="ar-section-title">NEARBY DATES</h2><p class="ar-muted">Outside the selected week.</p><div data-nearby-events>{"".join(event_card(e) for e in nearest) if len(in_week)<3 else ""}</div></section></section><aside class="ar-sidebar">{story_panel}<section class="ed-panel ar-panel"><h2>Follow your curiosity</h2><nav class="ar-detail-links" data-week-connections aria-label="Explore this week’s year and collections"><a href="/timeline/{day.year}/">Explore {day.year} →</a></nav><p>Browse the objects behind the dates, from familiar hardware to handmade interfaces.</p><a href="/archive/objects/">Explore the object collection →</a></section></aside></div></main>'''
 
 
 def sources(ids):
-    rows = ''.join(f'<li><a href="{esc(model.SOURCES[id]["url"])}">{esc(model.SOURCES[id]["title"])} ↗</a><small>{esc(model.SOURCES[id]["publisher"])}</small><details><summary>About this source</summary><p>{esc(model.SOURCES[id]["scope"])}</p></details></li>' for id in ids)
+    rows = ''.join(f'<li><a href="{esc(ed.site_url(model.SOURCES[id]["url"]))}">{esc(model.SOURCES[id]["title"])} ↗</a><small>{esc(model.SOURCES[id]["publisher"])}</small><details><summary>About this source</summary><p>{esc(model.SOURCES[id]["scope"])}</p></details></li>' for id in ids)
     return f'<section class="ar-sources" id="sources"><h2>Sources</h2><ol>{rows}</ol></section>'
 
 
@@ -165,27 +170,27 @@ def detail(route, render_media):
         s = next(s for s in model.STORIES if model.story_url(s)==route['path'])
         body = heading(CAT[s['category']]+' · FROM THE ARCHIVE',s['title'],s['summary'])
         body += ed.story_figure(s)
-        body += ''.join(f'<section><h2>{esc(section["heading"])}</h2>'+''.join(f'<p>{esc(p)}</p>' for p in section['paragraphs'])+'</section>' for section in s['sections'])
+        body += ''.join(f'<section><h2>{esc(section["heading"])}</h2>'+article_blocks.render(section.get('blocks',article_blocks.parse('\n\n'.join(section['paragraphs']))),section['heading'])+'</section>' for section in s['sections'])
         body += sources(s['sourceIds'])
         body+=contextual_path(s['category'],s['objectIds'])
-        return wrap_detail(route,body,related(s['objectIds'],s['eventIds'],s.get('relatedStoryIds',[])),s['publishedAt'])
+        return wrap_detail(route,body,connections.sidebar(route['path']),s['publishedAt'])
     a = next(a for a in model.ARTIFACTS if model.object_url(a)==route['path'])
     m = a['media']
     credit = f'<a href="{esc(m["sourceUrl"])}">{esc(m["credit"])} ↗</a>' if m.get('sourceUrl') else esc(m['credit'])
     license_label = f'<a href="{esc(m["licenseUrl"])}">{esc(m["license"])}</a>' if m.get('licenseUrl') else esc(m['license'])
     body = heading('OBJECT FILE · '+a['dateRange']['label'],a['title'],a['curatorNote'])
-    body += f'<figure class="ar-object-art">{render_media(a)}<figcaption>{esc(m.get("caption", ""))} {credit} · {license_label}</figcaption></figure><h2>The object’s story</h2><p>{esc(a["whyItMattered"])}</p>'
-    body += ''.join(f'<section><h2>{esc(section["heading"])}</h2>'+''.join(f'<p>{esc(p)}</p>' for p in section['paragraphs'])+'</section>' for section in a.get('sections',[]))
+    body += f'<figure class="ar-object-art">{render_media(a,interactive=True)}<figcaption>{esc(m.get("caption", ""))} {credit} · {license_label}</figcaption></figure><h2>The object’s story</h2><p>{esc(a["whyItMattered"])}</p>'
+    body += ''.join(f'<section><h2>{esc(section["heading"])}</h2>'+article_blocks.render(article_blocks.parse('\n\n'.join(section['paragraphs'])),section['heading'])+'</section>' for section in a.get('sections',[]))
     if a.get('sourceIds'): body += sources(a['sourceIds'])
     if m['kind']=='recreation': body += '<p class="ar-date-note">Original interface recreation. This is an interpretation of the era, not an archived live website.</p>'
-    body += f'<div class="ar-detail-links"><button type="button" class="button ar-js-only" data-artifact-inspect="{a["id"]}">Inspect + stamp</button><a href="{esc(a["target"])}">Explore this collection →</a></div><h2>Across the decade</h2><p>'+ ' · '.join(f'<a href="/timeline/{y}/">{y}</a>' for y in a['relatedYears'])+'</p>'
+    body += f'<div class="ar-detail-links"><button type="button" class="button ar-js-only" data-artifact-inspect="{a["id"]}">Collect stamp</button><a href="{esc(a["target"])}">Explore this collection →</a></div><h2>Across the decade</h2><p>'+ ' · '.join(f'<a href="/timeline/{y}/">{y}</a>' for y in a['relatedYears'])+'</p>'
     events = [e['id'] for e in model.EVENTS if a['id'] in e['objectIds']]
     stories = list(dict.fromkeys([s['id'] for s in model.STORIES if model.story_url(s) in a['relatedRoutes']]+[s['id'] for s in model.STORIES if a['id'] in s['objectIds']]))
     others = a['relatedArtifacts'] or [o['id'] for o in model.ARTIFACTS if o['room']==a['room'] and o['id']!=a['id']][:3]
     room_category={'tv-movies':'movies-tv','tech-toys':'tech','transparent-tech':'tech','internet-culture':'tech'}.get(a['room'],a['room'])
     body+=contextual_path(room_category,[a['id']])
     if len(events)>3:body+=f'<p><a href="/search/?q={a["slug"]}&amp;filter=events">More dates connected to this object →</a></p>'
-    return wrap_detail(route,body,related(others,events,stories,[m['src']] if m.get('src') else []))
+    return wrap_detail(route,body,connections.sidebar(route['path']))
 
 
 def wrap_detail(route, body, aside, published=None):

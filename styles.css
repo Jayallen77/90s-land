@@ -13,3 +13,29 @@
 .ed-main .credits-panel a{text-decoration:underline;text-underline-offset:3px}
 
 .skip-link:not(:focus){clip-path:inset(50%);width:1px;height:1px;overflow:hidden;padding:0;white-space:nowrap}.stamp-mark .ed-icon{width:32px;height:32px}
+
+/* Original web exhibits: compact previews share the same visible interfaces. */
+.web-exhibit{min-width:0;width:100%;padding:18px;border:5px ridge #c9c9c9;background:#fff9df;color:#211137;font:15px/1.5 Arial,sans-serif;text-align:left;overflow-wrap:anywhere}
+.web-exhibit .web-demo-label{display:block;font:700 10px/1.3 Arial,sans-serif;letter-spacing:.1em;color:#4b3566;margin-bottom:8px}
+.web-exhibit .web-window{margin:0 0 14px;padding:5px 8px;background:#3b2467;color:white;font-weight:bold}
+.web-exhibit .web-title,.web-exhibit .homepage-title{font:700 21px/1.2 Georgia,serif;margin:10px 0;color:#43246b}
+.web-exhibit .web-columns{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.web-exhibit .web-entry{padding:10px 0;border-bottom:1px dotted #9278a8}
+.web-exhibit small{display:block;color:#594168}.web-exhibit a{color:#3c1874;text-decoration:underline}
+.web-exhibit p,.ar-article .web-exhibit p{font:15px/1.5 Arial,sans-serif;color:inherit;margin:10px 0}
+.web-exhibit .web-counter{display:block;width:max-content;max-width:100%;background:#100e12;color:#ff8686;padding:8px 12px;font:bold 32px/1.3 monospace;letter-spacing:.13em;border:3px inset #888}
+.web-exhibit .web-form{margin-top:15px;border-top:1px solid #9a87b0;padding-top:12px}
+.web-exhibit label{display:block;font-weight:bold;margin:10px 0}.web-exhibit input,.web-exhibit textarea{display:block;max-width:100%;width:100%;padding:9px;margin-top:5px;color:#161129;background:white;border:2px inset #aaa;font:16px Arial,sans-serif}
+.web-exhibit textarea{min-height:80px}.web-exhibit .web-away{padding:12px;border:2px inset #b1b5bb;background:white}
+.web-exhibit .web-category{border-bottom:1px solid #b7a3c9;padding:8px 0}.web-exhibit summary{cursor:pointer;font-weight:bold;color:#401871}
+.web-exhibit .builder-controls button{background:#dedce5;color:#211137;border:2px outset #ccc;font:14px Arial,sans-serif;min-height:40px}
+.web-exhibit .builder-controls button[aria-pressed=true]{background:#d8c4f0;border-style:inset}.web-exhibit .homepage-preview{padding:12px;color:#211137;background:#fff9df;border:1px solid #b7a3c9}
+.web-exhibit .homepage-preview.has-stars{color:#fff;background:radial-gradient(circle,#b392dd 1px,transparent 1px) 0 0/15px 15px,#230a48}.web-exhibit .has-stars .homepage-title{color:#ffe184}
+.web-exhibit .web-ring-strip{text-align:center;border:2px outset #ab9bbd;background:#e9dcf9;padding:8px}.web-exhibit ul{padding-left:20px}
+.web-exhibit.web-compact{height:100%;max-height:250px;padding:10px;overflow:hidden;border-width:3px;pointer-events:none;font-size:12px}.web-compact .web-window{font-size:11px;margin-bottom:5px}.web-compact .web-title,.web-compact .homepage-title{font-size:15px}.web-compact p,.ar-article .web-compact p{font-size:12px;margin:5px 0}.web-compact .web-columns{gap:6px}.web-compact .web-category{padding:3px 0}
+.web-exhibit :focus-visible{outline:3px solid #b60074;outline-offset:3px}
+@media(max-width:520px){.web-exhibit{padding:12px}.web-exhibit .web-columns{grid-template-columns:1fr}.web-compact .web-columns{grid-template-columns:1fr 1fr}}
+/* Exhibit colors override article typography without changing the museum shell. */
+.web-exhibit .web-window { color:#fff; }
+.web-exhibit summary { color:#35205e; }
+.web-exhibit .web-title,.web-exhibit strong { color:#211137; }
