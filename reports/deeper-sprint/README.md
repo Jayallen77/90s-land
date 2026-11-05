@@ -23,7 +23,7 @@ The catalog adds 38 source records. Source scope and uncertainty remain visible 
 
 ## Exhibits and discovery
 
-All six existing interface exhibits are now complete: a decoratable invented homepage, simulated six-digit counter, example guestbook with local preview, three-member invented webring, editable AIM-style away-message preview, and browsable directory. Full versions live on object pages; compact versions appear on cards. The tour and collection reuse the same exhibit components. Controls work with keyboard and touch. Stamp-only buttons say “Collect stamp.” Guestbook and away-message previews do not submit or persist messages.
+All six existing interface exhibits are now complete: a decoratable invented homepage, simulated six-digit counter, example guestbook with local preview, three-member invented webring, editable AIM-style away-message preview, and browsable directory. Full versions live on object pages; compact versions appear on cards. The tour and collection reuse the same exhibit components. Controls work with keyboard and touch. Script-dependent buttons stay disabled until their handlers are attached. A delayed-module regression checks the fast-tap initialization race exposed by the first GitHub run. Stamp-only buttons say “Collect stamp.” Guestbook and away-message previews do not submit or persist messages.
 
 Search normalizes R&B/rnb/rhythm and blues, N64/Nintendo 64, PS1/PSX/PlayStation, SNES/Super Nintendo, hip-hop and CD-R. Matching uses meaningful tokens and subject weighting. The reviewed R&B query returns 18 relevant results with the R&B feature first, rather than 476 letter-fragment matches.
 
@@ -47,8 +47,8 @@ Thirteen original SVG/PNG diagrams were created overall: twelve leads and a supp
 | Packaged route HTTP audit | 439/439 passed |
 | Sharing-preview HTTP audit | 128/128 passed |
 | Static internal-link audit | 23,351 links and 2,994 fragments; zero errors |
-| Full browser suite | 158 passed |
-| Final search, exhibit and sparse-week regression | 4 passed |
+| Full browser suite | 159 passed |
+| Final search, exhibit and sparse-week regression | 5 passed, including delayed-module initialization |
 | Python content/renderer/release tests | 67 passed |
 | Node date/discovery/search tests | 12 passed |
 | Authoring, content, curation, preservation, media and metadata checks | Passed |

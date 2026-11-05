@@ -28,6 +28,8 @@ def render(id, interactive=False):
         for title,links in [('Music',[('Mixtapes','/stories/from-mixtape-to-file/'),('Bristol records','/stories/bristol-between-the-beats/')]),('Computers & Internet',[('Personal homepages','/stories/a-web-you-could-make/'),('Browsers','/stories/browser-wars-at-home/')]),('Games',[('Console games','/zones/games/'),('Portable play','/stories/handhelds-and-batteries/')])]:
             rows=''.join(f'<li>'+ (f'<a href="{url}">{escape(label)}</a>' if interactive else escape(label))+'</li>' for label,url in links)
             body+=(f'<details class="web-category"><summary>{escape(title)}</summary><ul>{rows}</ul></details>' if interactive else f'<div class="web-category"><strong>{escape(title)}</strong><ul>{rows}</ul></div>')
+    # Async modules enable controls only after their event handlers are attached.
+    if interactive:controls=controls.replace('<button ', '<button disabled data-exhibit-control ')
     if not interactive:body=body.replace(' data-homepage-preview','')
     attributes=' data-homepage-builder' if id=='geocities-homepage' and interactive else ''
     return f'<div class="web-exhibit web-{id}'+(' web-compact' if not interactive else '')+f'" data-web-exhibit="{id}"{attributes}><span class="web-demo-label">ORIGINAL RECREATION</span>{body}{controls}</div>'

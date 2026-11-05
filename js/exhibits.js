@@ -14,5 +14,8 @@ export function initializeExhibits(){
   root.querySelectorAll('[data-ring-step]').forEach(button=>button.addEventListener('click',()=>{index=(index+Number(button.dataset.ringStep)+ring.length)%ring.length;renderRing();}));
   root.querySelector('[data-ring-random]')?.addEventListener('click',()=>{index=(index+1+Math.floor(Math.random()*(ring.length-1)))%ring.length;renderRing();});
   root.querySelector('[data-away-form]')?.addEventListener('submit',event=>{event.preventDefault();const value=new FormData(event.currentTarget).get('away');root.querySelector('[data-away-preview]').textContent=String(value).trim();root.querySelector('[data-away-status]').textContent='Preview updated. No message was sent.';});
+  if(['visitor-counter','webring-bar','aim-away-message'].includes(root.dataset.webExhibit)){
+   root.querySelectorAll('[data-exhibit-control]').forEach(button=>{button.disabled=false;});
+  }
  });
 }

@@ -152,5 +152,6 @@ export function initializeHomepageBuilder() {
         announce("Homepage recreation reset.");
       }
     });
+    builder.querySelectorAll('[data-exhibit-control]').forEach(button=>{button.disabled=false;});
   });
 }

@@ -53,6 +53,26 @@ for(const width of [390,1440])test(`${width}px: all six original exhibits work w
  await accessible(page);
 });
 
+
+test('homepage controls wait for their delayed module before accepting input',async({page})=>{
+ let release;
+ const moduleReady=new Promise(resolve=>{release=resolve;});
+ let intercepted;
+ const requestSeen=new Promise(resolve=>{intercepted=resolve;});
+ await page.route('**/js/tour.js*',async route=>{intercepted();await moduleReady;await route.continue();});
+ await page.setViewportSize({width:1440,height:900});
+ try{
+  await page.goto('/archive/objects/geocities-homepage/',{waitUntil:'domcontentloaded'});
+  await requestSeen;
+  const stars=page.getByRole('button',{name:'Add tiled stars',exact:true});
+  await expect(stars).toBeDisabled();
+  release();
+  await expect(stars).toBeEnabled();
+  await stars.tap();
+  await expect(page.locator('[data-homepage-preview]')).toHaveClass(/has-stars/);
+ }finally{release();}
+});
+
 test('sparse-week reading is labeled separately and empty days can be revealed',async({page})=>{
  await page.goto('/this-week/?date=1996-11-05');
  await expect(page.locator('[data-week-count]')).toHaveText('0 sourced entries');

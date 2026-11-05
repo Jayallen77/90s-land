@@ -21,5 +21,6 @@ export function initializeGuestbook() {
     preview.hidden = false;
     announce("Guestbook preview updated. Nothing was saved or sent.");
   });
+  form.querySelectorAll('[data-exhibit-control]').forEach(button=>{button.disabled=false;});
   });
 }
