@@ -408,12 +408,12 @@
       }
     },
     "/archive/objects/": {
-      "src": "/assets/generated/share/object-archive-feb93f0a6306.jpg",
+      "src": "/assets/generated/share/object-archive-d66f76f31501.jpg",
       "width": 1200,
       "height": 630,
       "alt": "90s.land sharing card: The object archive. Original graphic.",
-      "inputDigest": "feb93f0a630642a619d960d26ffc09bb4ac40fa30eef68a37fb2afc180d117a5",
-      "sha256": "74e3955c148022a5591071e39fc7fd42db0ff8c223787fb1e2e1a5292fd0e7ab",
+      "inputDigest": "d66f76f31501165b4571d4ecfbfea0bdd938def89b152e22f7960f2853437115",
+      "sha256": "8419d96c982ea602a85e9baf671f4dfd6e6022716037eb6c5821cf814aa479e4",
       "visual": {
         "src": null,
         "credit": "90s.land · original graphic",
@@ -561,6 +561,20 @@
         "label": "STORY PHOTOGRAPH"
       }
     },
+    "/stories/french-house-in-the-filter/": {
+      "src": "/assets/generated/share/story-french-house-in-the-filter-8a69b777fd47.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: French house: let the loop change around you. Story photograph.",
+      "inputDigest": "8a69b777fd4719e6e706481c79c3e3d56feba25b63768fb0d5034d5f8706d2fa",
+      "sha256": "c5ceb04e5981badf05e088a431117f71bdd2e41c6b249ad28cae821c31360c1b",
+      "visual": {
+        "src": "/assets/media/connected/tr-909.webp",
+        "credit": "Emhoo; edit by Metoc",
+        "license": "CC BY-SA 3.0",
+        "label": "STORY PHOTOGRAPH"
+      }
+    },
     "/stories/friday-at-the-video-store/": {
       "src": "/assets/generated/share/story-friday-at-the-video-store-8bd4716703fb.jpg",
       "width": 1200,
@@ -618,17 +632,17 @@
       }
     },
     "/stories/holiday-toys-that-answered-back/": {
-      "src": "/assets/generated/share/story-holiday-toys-that-answered-back-5cf73abaa494.jpg",
+      "src": "/assets/generated/share/story-holiday-toys-that-answered-back-2ac03d644e43.jpg",
       "width": 1200,
       "height": 630,
-      "alt": "90s.land sharing card: The toy aisle began answering back. Explanatory diagram.",
-      "inputDigest": "5cf73abaa49425a7e0b86e734b0f7f4fefeff1b556c38a956fd4bde306699561",
-      "sha256": "2f7fb8cdbdae984768ab65264ed0eabbc44155f83e977d9b91f2c0047ce5c473",
+      "alt": "90s.land sharing card: The toy aisle began answering back. Story photograph.",
+      "inputDigest": "2ac03d644e4363cee5442a319a63c640e4b81dd7297e3ff3aa29b9db4526e76c",
+      "sha256": "c0151a1018fbabe9a89ea495f01e90b036a4bbb1a27af6241dbd04a9059cda59",
       "visual": {
-        "src": "/assets/media/stories/responsive-toys-diagram.png",
-        "credit": "90s.land",
-        "license": "Original 90s.land artwork",
-        "label": "EXPLANATORY DIAGRAM"
+        "src": "/assets/media/connected/tamagotchi-1997.webp",
+        "credit": "Museum Rotterdam",
+        "license": "CC BY-SA 3.0",
+        "label": "STORY PHOTOGRAPH"
       }
     },
     "/stories/horror-knew-the-rules/": {
@@ -684,6 +698,34 @@
         "src": "/assets/media/expansion/minidisc.jpg",
         "credit": "Nixdorf",
         "license": "CC BY-SA 3.0",
+        "label": "STORY PHOTOGRAPH"
+      }
+    },
+    "/stories/one-more-challenger/": {
+      "src": "/assets/generated/share/story-one-more-challenger-5f9cf0934ce6.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: One more challenger at the arcade. Story photograph.",
+      "inputDigest": "5f9cf0934ce6f15275f5d82edaaf6c9d24d4d7e56ef6abcf601c796fcc270196",
+      "sha256": "b2dc4444592ce3cea9baebfc1c153b5e2aebad9a1585739d52d93024e73387a8",
+      "visual": {
+        "src": "/assets/media/connected/street-fighter-ii.webp",
+        "credit": "John Turner",
+        "license": "CC BY 2.0",
+        "label": "STORY PHOTOGRAPH"
+      }
+    },
+    "/stories/pokemon-needed-a-friend/": {
+      "src": "/assets/generated/share/story-pokemon-needed-a-friend-5b9e383933ef.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Pokémon needed a friend and a cable. Story photograph.",
+      "inputDigest": "5b9e383933ef397e0fd91c55715654d6024a02ff875f6f0a0f47633247e73412",
+      "sha256": "1d14af9303731de8bf4bb30aa521c32def528084551567a42253de7663caa3b3",
+      "visual": {
+        "src": "/assets/media/connected/game-link-cable.webp",
+        "credit": "Evan-Amos",
+        "license": "Public domain",
         "label": "STORY PHOTOGRAPH"
       }
     },
@@ -785,6 +827,20 @@
         "label": "EXPLANATORY DIAGRAM"
       }
     },
+    "/stories/texting-on-twelve-keys/": {
+      "src": "/assets/generated/share/story-texting-on-twelve-keys-db8e09240087.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: When texting meant learning the keypad. Story photograph.",
+      "inputDigest": "db8e0924008788cbae049e02357c85693d994b2162a4daf7250cd07b1924a1b2",
+      "sha256": "6bda64c619a2b3ccb82aa1fe8e68db942e4f25ba7f2c91ded7e7519dbb3ca2d4",
+      "visual": {
+        "src": "/assets/media/expansion/nokia-3210.jpg",
+        "credit": "Michael Brandtner",
+        "license": "Public domain",
+        "label": "STORY PHOTOGRAPH"
+      }
+    },
     "/stories/the-console-war-couch/": {
       "src": "/assets/generated/share/story-the-console-war-couch-d08411e1a592.jpg",
       "width": 1200,
@@ -881,6 +937,34 @@
         "credit": "90s.land",
         "license": "Original 90s.land artwork",
         "label": "EXPLANATORY DIAGRAM"
+      }
+    },
+    "/stories/the-team-behind-the-1999-final/": {
+      "src": "/assets/generated/share/story-the-team-behind-the-1999-final-ed51a4f55fc0.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: The team behind the 1999 World Cup final. Story photograph.",
+      "inputDigest": "ed51a4f55fc00a35a3dc66acf0d5e34dda2589d4e235f3f4d1ea3cedfd81ca18",
+      "sha256": "3eee0fcb49df67547fca04ee3fd0f63a15807aa053916779050ce6aef62e99fd",
+      "visual": {
+        "src": "/assets/media/connected/world-cup-1999.webp",
+        "credit": "Ralph Alswang / White House Photograph Office / National Archives",
+        "license": "Public domain (US federal government)",
+        "label": "STORY PHOTOGRAPH"
+      }
+    },
+    "/stories/thirty-two-megabytes/": {
+      "src": "/assets/generated/share/story-thirty-two-megabytes-92ee7f77c537.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Thirty-two megabytes for the bus ride. Story photograph.",
+      "inputDigest": "92ee7f77c5372a873d8be103a1d81d5d24e1c2ca1b0b242bafaff3fffb23ff3b",
+      "sha256": "ed149a63a1c293ebf0a01dd1e1886ad00b4b22c10d6818d2bd71ce0f2e1eca9d",
+      "visual": {
+        "src": "/assets/media/connected/rio-pmp300.webp",
+        "credit": "rfdigitalwpg",
+        "license": "CC BY 2.0",
+        "label": "STORY PHOTOGRAPH"
       }
     },
     "/stories/webtv-on-the-sofa/": {
@@ -1790,6 +1874,76 @@
         "src": "/assets/media/expansion/newton.jpg",
         "credit": "National Museum of American History",
         "license": "CC0",
+        "label": "OBJECT FROM THE COLLECTION"
+      }
+    },
+    "/archive/objects/tamagotchi-1997/": {
+      "src": "/assets/generated/share/object-tamagotchi-1997-220cdde8c03f.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: A 1997 Tamagotchi. Object from the collection.",
+      "inputDigest": "220cdde8c03f09e899635bfb8276287e7eb55e7a6a00d429ef85bd648965f21b",
+      "sha256": "7c5fb60bf2a5439cda6a3089ccbef263fa3ea9ed87057af683d62eb1964cba03",
+      "visual": {
+        "src": "/assets/media/connected/tamagotchi-1997.webp",
+        "credit": "Museum Rotterdam",
+        "license": "CC BY-SA 3.0",
+        "label": "OBJECT FROM THE COLLECTION"
+      }
+    },
+    "/archive/objects/game-boy-pocket/": {
+      "src": "/assets/generated/share/object-game-boy-pocket-2d288871c8a8.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Game Boy Pocket: smaller, still monochrome. Object from the collection.",
+      "inputDigest": "2d288871c8a83d882d50075dd427e44201baf9421929679e14f26c9536e3b667",
+      "sha256": "8ea783e5baf848bdf35eb49b185cf8bd37d91aeb1d5c5fc4f62af9e038a1b71d",
+      "visual": {
+        "src": "/assets/media/connected/game-boy-pocket.webp",
+        "credit": "Evan-Amos",
+        "license": "Public domain",
+        "label": "OBJECT FROM THE COLLECTION"
+      }
+    },
+    "/archive/objects/game-link-cable/": {
+      "src": "/assets/generated/share/object-game-link-cable-71716b784204.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Game Boy link cable: the other player is nearby. Object from the collection.",
+      "inputDigest": "71716b7842040932c3dd2a92201a063be487c804c598165398d5875ea654ea6b",
+      "sha256": "4f9dad93802283bf25d9f2cc0df87e606816fe43035e30c7dd42320c747c00f5",
+      "visual": {
+        "src": "/assets/media/connected/game-link-cable.webp",
+        "credit": "Evan-Amos",
+        "license": "Public domain",
+        "label": "OBJECT FROM THE COLLECTION"
+      }
+    },
+    "/archive/objects/rio-pmp300/": {
+      "src": "/assets/generated/share/object-rio-pmp300-0886ce62aab0.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: Rio PMP300: a playlist in 32 megabytes. Object from the collection.",
+      "inputDigest": "0886ce62aab0d6ca964fd7b57d7bf4bb577fcb008cfef9354ab9d157e58baf0d",
+      "sha256": "317539750d58a27f94892d1fba8d41368bca83c713c5f32fd0bbab35e5f9bc7f",
+      "visual": {
+        "src": "/assets/media/connected/rio-pmp300.webp",
+        "credit": "rfdigitalwpg",
+        "license": "CC BY 2.0",
+        "label": "OBJECT FROM THE COLLECTION"
+      }
+    },
+    "/archive/objects/tr-909/": {
+      "src": "/assets/generated/share/object-tr-909-a058fa06f684.jpg",
+      "width": 1200,
+      "height": 630,
+      "alt": "90s.land sharing card: TR-909: an older machine in a newer club. Object from the collection.",
+      "inputDigest": "a058fa06f6845e5527862ea80db55733ca87beb8219dc3e7bc8b112bea2d65fb",
+      "sha256": "8150523116bab21290288f6134ead1022acc741779b81ead4166e72239e3f820",
+      "visual": {
+        "src": "/assets/media/connected/tr-909.webp",
+        "credit": "Emhoo; edit by Metoc",
+        "license": "CC BY-SA 3.0",
         "label": "OBJECT FROM THE COLLECTION"
       }
     }

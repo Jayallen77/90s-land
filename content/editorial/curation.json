@@ -50,7 +50,7 @@
       "storyIds": [
         "when-grunge-broke-through",
         "same-time-next-week",
-        "the-console-war-couch",
+        "one-more-challenger",
         "a-web-you-could-make",
         "meet-me-at-the-mall"
       ],
@@ -81,7 +81,7 @@
       "storyIds": [
         "rnb-had-many-voices",
         "same-time-next-week",
-        "the-console-war-couch",
+        "one-more-challenger",
         "the-family-computer",
         "meet-me-at-the-mall"
       ],
@@ -211,7 +211,7 @@
         "n64-controller",
         "playstation-hardware",
         "vhs-tape",
-        "discman"
+        "game-boy-pocket"
       ]
     },
     {
@@ -231,7 +231,7 @@
         "lion-king-broadway"
       ],
       "storyIds": [
-        "the-flyer-and-the-dancefloor",
+        "french-house-in-the-filter",
         "same-time-next-week",
         "fifteen-blocks-of-memory",
         "a-web-you-could-make",
@@ -240,7 +240,7 @@
       "objectIds": [
         "aim-away-message",
         "cdr-spindle",
-        "discman",
+        "tamagotchi-1997",
         "playstation-hardware"
       ]
     },
@@ -261,17 +261,17 @@
         "ocarina-time-japan"
       ],
       "storyIds": [
-        "rnb-had-many-voices",
+        "french-house-in-the-filter",
         "summer-at-the-multiplex",
-        "a-whole-new-dimension",
-        "a-web-you-could-make",
+        "pokemon-needed-a-friend",
+        "thirty-two-megabytes",
         "the-landline-negotiation"
       ],
       "objectIds": [
         "bondi-imac",
         "game-boy-color",
         "yahoo-directory",
-        "n64-controller"
+        "rio-pmp300"
       ]
     },
     {
@@ -291,17 +291,17 @@
         "y2k-rollover-night"
       ],
       "storyIds": [
-        "after-school-on-trl",
+        "french-house-in-the-filter",
         "same-time-next-week",
-        "the-console-war-couch",
-        "the-family-computer",
-        "holiday-toys-that-answered-back"
+        "pokemon-needed-a-friend",
+        "texting-on-twelve-keys",
+        "the-team-behind-the-1999-final"
       ],
       "objectIds": [
         "dreamcast",
         "y2k-office",
         "family-pc",
-        "cdr-spindle"
+        "nokia-3210"
       ]
     }
   ]

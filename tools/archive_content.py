@@ -51,6 +51,14 @@ YEARS = {y['year']: y for y in CURATION['years']}
 EVENT_BY_ID = {e['id']:e for e in EVENTS}
 DEFINING_IDS = {id for y in YEARS.values() for id in y['eventIds']}
 
+def introduced_ids(kind):
+    """Explicit additions leave the historical URL ledger intact."""
+    additions=json.loads((ROOT/'content/editorial/additions.json').read_text())
+    return [id for release in additions['releases'] for id in release[kind+'Ids']]
+
+def introduced_routes():
+    return {'/stories/'+id+'/' for id in introduced_ids('story')} | {'/archive/objects/'+id+'/' for id in introduced_ids('object')}
+
 
 def defining_events(year):
     return [EVENT_BY_ID[id] for id in YEARS[year]['eventIds']]

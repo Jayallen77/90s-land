@@ -4344,5 +4344,361 @@
       "software"
     ],
     "reviewedAt": "2026-11-05"
+  },
+  {
+    "id": "tamagotchi-1997",
+    "slug": "tamagotchi-1997",
+    "title": "A 1997 Tamagotchi",
+    "dateRange": {
+      "startYear": 1997,
+      "endYear": 1999,
+      "label": "1997–1999 · era of use"
+    },
+    "room": "culture",
+    "label": "a pet with three buttons",
+    "curatorNote": "A small screen can still interrupt your afternoon.",
+    "whyItMattered": "Museum Rotterdam dates this transparent yellow Tamagotchi to 1997. The catalog records “Bandai 1997 Thailand” on its back, giving this particular object a firmer identity than a generic photograph of an egg-shaped toy. The metal chain makes it portable; three front buttons let the owner navigate a set of care functions on its LCD.",
+    "media": {
+      "kind": "image",
+      "src": "/assets/media/connected/tamagotchi-1997.webp",
+      "width": 1600,
+      "height": 1263,
+      "alt": "Transparent yellow Tamagotchi with a small LCD, three white buttons and a metal chain.",
+      "caption": "Museum Rotterdam object 78041, catalogued as 1997 and marked “Bandai 1997 Thailand.” The shell does not establish which care-game program it contains.",
+      "credit": "Museum Rotterdam",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gele_tamagotchi,_objectnr_78041.JPG",
+      "sourceIdentity": "https://commons.wikimedia.org/wiki/File:Gele_tamagotchi,_objectnr_78041.JPG",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "usageTerms": "CC BY-SA 3.0; original source preserved, resized and encoded as WebP without cropping.",
+      "reviewedAt": "2026-11-06",
+      "depictedSubject": "Transparent yellow Tamagotchi with a small LCD, three white buttons and a metal chain.",
+      "eraNote": "Museum Rotterdam object 78041, catalogued as 1997 and marked “Bandai 1997 Thailand.” The shell does not establish which care-game program it contains.",
+      "sha256": "b90f24d3fc967c4b4ac20443db476e9015ae389e0d22b2aa747dee790d176213",
+      "originalSha256": "093dd5697df16d972fa06e573249d2e211a4d57fde8730189e379d9397c06bca"
+    },
+    "relatedYears": [
+      1997,
+      1998,
+      1999
+    ],
+    "relatedArtifacts": [],
+    "relatedRoutes": [],
+    "target": "/zones/culture/",
+    "interaction": null,
+    "status": "verified",
+    "randomEligible": true,
+    "tags": [
+      "toys",
+      "tamagotchi",
+      "portable",
+      "transparent"
+    ],
+    "sections": [
+      {
+        "heading": "The care is the game",
+        "paragraphs": [
+          "Checking a creature’s status, feeding it, cleaning up and answering its calls create a routine. This is a self-contained electronic toy with a clock, rather than an app receiving updates from a server. The appeal depends on small changes that reward returning to the screen. The limitation is equally direct: the toy’s timetable can collide with school, sleep or whatever the owner meant to do next."
+        ]
+      },
+      {
+        "heading": "Identify the program separately",
+        "paragraphs": [
+          "A shell color is not enough to identify the software generation inside. Bandai’s original programs include different games: direction guessing in Gen 1 and a higher/lower number game in Gen 2. The museum’s object markings establish a 1997 example without proving which program runs in it. Compare those controls with the touch and sound sensors of original Furby in the accompanying feature."
+        ]
+      }
+    ],
+    "reviewedAt": "2026-11-06",
+    "sourceIds": [
+      "connected-photo-tamagotchi-1997",
+      "sprint-original-tamagotchi",
+      "sprint-tamagotchi-gen2"
+    ]
+  },
+  {
+    "id": "game-boy-pocket",
+    "slug": "game-boy-pocket",
+    "title": "Game Boy Pocket: smaller, still monochrome",
+    "dateRange": {
+      "startYear": 1996,
+      "endYear": 1999,
+      "label": "1996–1999 · era of use"
+    },
+    "room": "games",
+    "label": "two AAA cells and a cartridge",
+    "curatorNote": "A smaller case changed the bag. It did not add a light.",
+    "whyItMattered": "The Game Boy Pocket is Nintendo’s smaller monochrome Game Boy revision, introduced in Japan in 1996 and in the UK in 1997. The silver example here is an early case without a power-indicator LED. Its MGB-001 hardware still takes Game Boy cartridges; the screen is not a backlit color display. Two AAA cells replace the original Game Boy’s four AA batteries.",
+    "media": {
+      "kind": "image",
+      "src": "/assets/media/connected/game-boy-pocket.webp",
+      "width": 1342,
+      "height": 1600,
+      "alt": "Silver Nintendo Game Boy Pocket, with black controls and a monochrome screen.",
+      "caption": "Early silver Game Boy Pocket, photographed in 2014. This case has no power-indicator LED; later Pocket cases differ.",
+      "credit": "Evan-Amos",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Game-Boy-Pocket-FL.jpg",
+      "sourceIdentity": "https://commons.wikimedia.org/wiki/File:Game-Boy-Pocket-FL.jpg",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "usageTerms": "Public domain; original source preserved, resized and encoded as WebP without cropping.",
+      "reviewedAt": "2026-11-06",
+      "depictedSubject": "Silver Nintendo Game Boy Pocket, with black controls and a monochrome screen.",
+      "eraNote": "Early silver Game Boy Pocket, photographed in 2014. This case has no power-indicator LED; later Pocket cases differ.",
+      "sha256": "913113a4a184875e272695a160bdc860338933d7d2cce064c1c10de265d8d715",
+      "originalSha256": "75ae13e84923e37da556ebf7333c90d01222cb2e341e931e3357774439c39892"
+    },
+    "relatedYears": [
+      1996,
+      1997,
+      1998,
+      1999
+    ],
+    "relatedArtifacts": [],
+    "relatedRoutes": [],
+    "target": "/zones/games/",
+    "interaction": null,
+    "status": "verified",
+    "randomEligible": true,
+    "tags": [
+      "game boy",
+      "pocket",
+      "handheld",
+      "nintendo",
+      "portable"
+    ],
+    "sections": [
+      {
+        "heading": "What fits in the pocket",
+        "paragraphs": [
+          "The power switch, D-pad, A and B buttons, Start and Select keep the familiar arrangement. A smaller body does not turn a long adventure into a shorter one: the cartridge still holds the game and its saved progress. Picking a seat with useful light remains part of portable play. A photograph of an inactive screen cannot demonstrate its contrast or prove battery life."
+        ]
+      },
+      {
+        "heading": "A second player needs more equipment",
+        "paragraphs": [
+          "The smaller link socket matters when connecting to an original Game Boy. Nintendo sold universal cable arrangements to bridge different socket sizes; games must also support the connection. Pokémon needs another compatible cartridge and player, not just two powered-on systems. Follow the cable entry for that practical distinction rather than assuming every Nintendo link lead works with every handheld generation."
+        ]
+      }
+    ],
+    "reviewedAt": "2026-11-06",
+    "sourceIds": [
+      "connected-game-boy",
+      "connected-link-cable",
+      "connected-photo-game-boy-pocket",
+      "connected-nintendo-annual"
+    ]
+  },
+  {
+    "id": "game-link-cable",
+    "slug": "game-link-cable",
+    "title": "Game Boy link cable: the other player is nearby",
+    "dateRange": {
+      "startYear": 1998,
+      "endYear": 1999,
+      "label": "Late 1990s · era of use"
+    },
+    "room": "games",
+    "label": "two consoles, one connection",
+    "curatorNote": "Before choosing Trade Center, find the right plugs.",
+    "whyItMattered": "This dual-connector cable links compatible Game Boy hardware through the handhelds’ communication sockets. Its photographed plugs include the larger original Game Boy shape and the smaller Pocket/Color shape. It is a later reference photograph of an accessory design used with the decade’s handhelds; an exact part number is not identified here. Nintendo’s universal-cable documentation explains the mixed-size connections.",
+    "media": {
+      "kind": "image",
+      "src": "/assets/media/connected/game-link-cable.webp",
+      "width": 1600,
+      "height": 1043,
+      "alt": "Game Boy link cable with a small connector at one end and two differently sized connectors at the other.",
+      "caption": "Later reference photograph, made in 2017, of a dual-connector Game Boy link cable. The larger and smaller plugs serve different Game Boy socket designs; an exact accessory model number is not asserted.",
+      "credit": "Evan-Amos",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nintendo-Game-Boy-Link-Cable-Dual.jpg",
+      "sourceIdentity": "https://commons.wikimedia.org/wiki/File:Nintendo-Game-Boy-Link-Cable-Dual.jpg",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "usageTerms": "Public domain; original source preserved, resized and encoded as WebP without cropping.",
+      "reviewedAt": "2026-11-06",
+      "depictedSubject": "Game Boy link cable with a small connector at one end and two differently sized connectors at the other.",
+      "eraNote": "Later reference photograph, made in 2017, of a dual-connector Game Boy link cable. The larger and smaller plugs serve different Game Boy socket designs; an exact accessory model number is not asserted.",
+      "sha256": "e9265cc942275821549d4c269fd76216c4711a50d144ba495d19f09400d0391c",
+      "originalSha256": "2d197bf2362f7389723afbcaa724473cce2a857f67ddaa1c963a423901475239"
+    },
+    "relatedYears": [
+      1998,
+      1999
+    ],
+    "relatedArtifacts": [],
+    "relatedRoutes": [],
+    "target": "/zones/games/",
+    "interaction": null,
+    "status": "verified",
+    "randomEligible": true,
+    "tags": [
+      "pokemon",
+      "game boy",
+      "link cable",
+      "multiplayer"
+    ],
+    "sections": [
+      {
+        "heading": "The cable is only one requirement",
+        "paragraphs": [
+          "A compatible game runs on each system. The cable carries the exchange; it does not give the second machine its own copy of the cartridge or make unrelated games multiplayer. In the English Red and Blue manual, both players enter a Pokémon Center’s Cable Club, save, then choose the Trade Center or Colosseum. The trade and battle interfaces do different jobs."
+        ]
+      },
+      {
+        "heading": "Do not pull the plug mid-trade",
+        "paragraphs": [
+          "The manual warns players to leave the cable connected until a trade has finished. That makes the physical link part of looking after a saved collection. Later Game Boy Advance games and Nintendo wireless systems introduce other compatibility rules; the common word “link” is not permission to interchange every cable. This object belongs to a particular workflow: two machines, compatible software, nearby people and a completed exchange."
+        ]
+      }
+    ],
+    "reviewedAt": "2026-11-06",
+    "sourceIds": [
+      "connected-link-cable",
+      "connected-pokemon-manual",
+      "connected-photo-game-link-cable"
+    ]
+  },
+  {
+    "id": "rio-pmp300",
+    "slug": "rio-pmp300",
+    "title": "Rio PMP300: a playlist in 32 megabytes",
+    "dateRange": {
+      "startYear": 1998,
+      "endYear": 1999,
+      "label": "1998–1999 · era of use"
+    },
+    "room": "tech-toys",
+    "label": "flash memory, finite choices",
+    "curatorNote": "Choose the tracks at the computer. Carry that choice out the door.",
+    "whyItMattered": "Diamond Multimedia’s Rio PMP300 arrived in 1998. The Computer History Museum identifies 32 MB of flash memory in the standard model. Unlike a portable CD player, it reads encoded audio files from solid-state storage rather than spinning an audio disc. The photographed units show the front and back of the identified player; a later 64 MB edition also existed.",
+    "media": {
+      "kind": "image",
+      "src": "/assets/media/connected/rio-pmp300.webp",
+      "width": 1600,
+      "height": 1066,
+      "alt": "Front and back of black Diamond Rio PMP300 digital music players.",
+      "caption": "Diamond Rio PMP300 front and back, photographed in 2011. The 1998 standard model had 32 MB; the photograph alone does not establish the storage fitted to these units.",
+      "credit": "rfdigitalwpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Diamond_Rio_PMP300_1.jpg",
+      "sourceIdentity": "https://commons.wikimedia.org/wiki/File:Diamond_Rio_PMP300_1.jpg",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "usageTerms": "CC BY 2.0; original source preserved, resized and encoded as WebP without cropping.",
+      "reviewedAt": "2026-11-06",
+      "depictedSubject": "Front and back of black Diamond Rio PMP300 digital music players.",
+      "eraNote": "Diamond Rio PMP300 front and back, photographed in 2011. The 1998 standard model had 32 MB; the photograph alone does not establish the storage fitted to these units.",
+      "sha256": "ce2e5fbf620630597422691595bef0fb6429356ffa2fd9daf74aaf6ae4307945",
+      "originalSha256": "1eb8f03c52699c0192a835db2d551b74648080010e13f3c16cc8a49fe85e1a31"
+    },
+    "relatedYears": [
+      1998,
+      1999
+    ],
+    "relatedArtifacts": [],
+    "relatedRoutes": [],
+    "target": "/zones/tech-toys/",
+    "interaction": null,
+    "status": "verified",
+    "randomEligible": true,
+    "tags": [
+      "mp3",
+      "rio",
+      "portable",
+      "music",
+      "32mb"
+    ],
+    "sections": [
+      {
+        "heading": "The transfer starts at the PC",
+        "paragraphs": [
+          "The original manufacturer instructions show Rio Manager software, a parallel-port adapter and a separate data cable. This is a desk-to-player transfer arrangement from before the familiar USB mass-storage routine. The manual cited here is the 64 MB edition: it documents that connection process, while the standard model’s capacity is established separately."
+        ]
+      },
+      {
+        "heading": "An hour is an encoding choice",
+        "paragraphs": [
+          "A megabyte count cannot tell you the running time without a bitrate. At a constant 128 kilobits per second, 32 decimal MB holds at most 33 minutes 20 seconds of audio payload before file headers and device overhead. At 64 kbps the arithmetic doubles the time, with a different quality tradeoff. The story’s calculator lets you change those assumptions. Flash storage removes disc skipping; it does not remove the need to choose which songs travel."
+        ]
+      }
+    ],
+    "reviewedAt": "2026-11-06",
+    "sourceIds": [
+      "connected-rio",
+      "connected-rio-manual",
+      "connected-mp3-paper",
+      "connected-photo-rio-pmp300"
+    ]
+  },
+  {
+    "id": "tr-909",
+    "slug": "tr-909",
+    "title": "TR-909: an older machine in a newer club",
+    "dateRange": {
+      "startYear": 1983,
+      "endYear": 1999,
+      "label": "1983 design · 1990s use"
+    },
+    "room": "music",
+    "label": "sixteen steps, many decisions",
+    "curatorNote": "Follow one row of lights. Listen for what changes around it.",
+    "whyItMattered": "Roland introduced the TR-909 Rhythm Composer in 1983. Its importance to 1990s house and techno comes from continued use of an earlier instrument. The machine combines analogue drum synthesis with sampled hi-hats and cymbals, plus a sequencer and MIDI connections. This is the original model, not Roland’s much later miniature TR-09.",
+    "media": {
+      "kind": "image",
+      "src": "/assets/media/connected/tr-909.webp",
+      "width": 901,
+      "height": 533,
+      "alt": "Roland TR-909 Rhythm Composer with sixteen step buttons below its sound controls.",
+      "caption": "Reference photograph of the 1983 TR-909 design used into the 1990s. The source image was edited and color-adjusted by Metoc. It is not identified as any featured artist’s personal instrument.",
+      "credit": "Emhoo; edit by Metoc",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Roland_TR-909.jpg",
+      "sourceIdentity": "https://commons.wikimedia.org/wiki/File:Roland_TR-909.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "usageTerms": "CC BY-SA 3.0; original source preserved, resized and encoded as WebP without cropping.",
+      "reviewedAt": "2026-11-06",
+      "depictedSubject": "Roland TR-909 Rhythm Composer with sixteen step buttons below its sound controls.",
+      "eraNote": "Reference photograph of the 1983 TR-909 design used into the 1990s. The source image was edited and color-adjusted by Metoc. It is not identified as any featured artist’s personal instrument.",
+      "sha256": "5c2486268ea18516fc9d6c6dbd49875eb53f8610a1c37a80f29c59b25b1ba86c",
+      "originalSha256": "d3bc5d214102fd3864bdcd27d7bf0920ababe061d4237c30ae542dcc78294720"
+    },
+    "relatedYears": [
+      1996,
+      1997,
+      1998,
+      1999
+    ],
+    "relatedArtifacts": [],
+    "relatedRoutes": [],
+    "target": "/zones/music/",
+    "interaction": null,
+    "status": "verified",
+    "randomEligible": true,
+    "tags": [
+      "drum machine",
+      "house",
+      "techno",
+      "roland",
+      "tr909"
+    ],
+    "sections": [
+      {
+        "heading": "Build a pattern, then alter it",
+        "paragraphs": [
+          "Sixteen step buttons make a pattern visible. Individual sound controls shape the drum voices, while timing functions such as shuffle and flam change how a sequence feels. Programming repeated hits is only the starting point: sound, spacing and interaction with the rest of a track determine whether a loop moves. It is a rhythm instrument, not a sampler that records an arbitrary piece of another song."
+        ]
+      },
+      {
+        "heading": "An older design finds a new setting",
+        "paragraphs": [
+          "Designer Tadao Kikumoto recalls learning of renewed interest in the early 1990s. Alan Braxe gives a concrete later example: TR-909 drums sit beside a Chaka Khan sample and Korg Trident bass in Stardust’s 1998 Music Sounds Better With You. Follow the French-house guide to hear those different jobs. The reference photograph shows this model’s controls; the unit is not identified as the one from that session."
+        ]
+      }
+    ],
+    "reviewedAt": "2026-11-06",
+    "sourceIds": [
+      "connected-909",
+      "connected-kikumoto",
+      "connected-photo-tr-909",
+      "connected-braxe"
+    ]
   }
 ]

@@ -8,6 +8,8 @@ export function normalizeSearch(value) {
     .replace(/\b(?:super\s+nintendo|super\s+nes)\b/g,'snes')
     .replace(/\bhip[ -]+hop\b/g,'hiphop')
     .replace(/\bcd[ -]+r\b/g,'cdr')
+    .replace(/\b(?:sms|text messages?|text messaging)\b/g,'texting')
+    .replace(/\btr[ -]?909\b/g,'tr909')
     .replace(/[^\p{L}\p{N}]+/gu,' ').trim();
 }
 

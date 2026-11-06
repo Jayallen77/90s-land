@@ -1,4 +1,4 @@
-<!-- story: {"id": "handhelds-and-batteries", "title": "Portable play still needed a plan", "category": "games", "summary": "Game Gear, Game Boy and the battery compartment reveal the practical side of taking a game out of the living room.", "art": "game-gear", "sourceIds": ["nintendo-world", "nintendo-us", "new-sega-gamegear", "sprint-gamegear-box"], "objectIds": ["game-gear", "game-boy-color"], "topics": ["consoles", "handhelds", "platformers"], "relatedStoryIds": [], "publishedAt": "2026-10-01", "updatedAt": "2026-11-05"} -->
+<!-- story: {"id": "handhelds-and-batteries", "title": "Portable play still needed a plan", "category": "games", "summary": "Game Gear, Game Boy and the battery compartment reveal the practical side of taking a game out of the living room.", "art": "game-gear", "sourceIds": ["nintendo-world", "nintendo-us", "new-sega-gamegear", "sprint-gamegear-box", "connected-game-boy", "connected-link-cable", "connected-nintendo-annual"], "objectIds": ["game-gear", "game-boy-color", "game-boy-pocket", "game-link-cable"], "topics": ["consoles", "handhelds", "platformers"], "relatedStoryIds": ["pokemon-needed-a-friend"], "publishedAt": "2026-10-01", "updatedAt": "2026-11-06"} -->
 
 ## Portable did not mean effortless
 
@@ -14,14 +14,19 @@ Tetris made repetition feel different from a journey through a long adventure. L
 
 Game Boy Color, introduced in 1998, added color to Nintendo’s portable line without making the earlier history vanish. Old and new hardware overlapped. The appearance of another model in a shop did not mean every player immediately changed systems.
 
-## Two machines, two kinds of compromise
+## Three machines, three kinds of compromise
 
 | Identified system | Screen and power | What that means away from home |
 | --- | --- | --- |
+| Nintendo Game Boy Pocket | Monochrome LCD without a built-in light; two AAA batteries. | A smaller Nintendo handheld still depends on useful ambient light. |
 | Sega Game Gear | Backlit color LCD; six AA batteries for ordinary portable operation. | A bright color picture comes with a substantial battery commitment. |
 | Nintendo Game Boy Color | Color LCD without a built-in light; two AA batteries. | Finding useful light is part of finding somewhere to play. |
 
 The Game Boy Color is the 1998 machine, not the original 1989 monochrome Game Boy or the later Game Boy Advance. The Game Gear’s US box specifies its six batteries and optional power accessories. Battery life varies with the cells and use, so a single promised number would be a poor comparison.
+
+{{figure:pocket-hardware}}
+
+The silver [Game Boy Pocket](/archive/objects/game-boy-pocket/) is a third option, not a Game Boy Color with the color turned off. It reached Japan in 1996 and the UK in 1997. This early photographed case lacks the power-indicator LED found on later revisions. For a shared Pokémon session, the link socket is another detail to check: the original Game Boy and Pocket use different connector sizes. The [trading guide](/stories/pokemon-needed-a-friend/) follows that requirement all the way to the original Cable Club.
 
 ## Pack for the actual game
 

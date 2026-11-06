@@ -2762,6 +2762,222 @@
       "scope": "Primary technical disclosure of a pump, reservoir and expandable elastic bladder. Supports the mechanism family, not an exact performance or range claim for an individual retail specimen.",
       "checkedAt": "2026-11-05",
       "type": "primary"
+    },
+    {
+      "id": "connected-pokemon-manual",
+      "title": "Pokémon Red and Blue instruction booklet",
+      "publisher": "Nintendo / GAME FREAK",
+      "url": "https://pkproject.net/juegos/manual/manual-GB-Pokemon-Rojo-Azul-EN.pdf",
+      "scope": "Original English Nintendo booklet, preserved scan. Printed pp. 30–31 explain collecting and evolution; pp. 36–39 show the Cable Club, Trade Center and Colosseum. The scan is evidence for the original interface, not later wireless games.",
+      "checkedAt": "2026-11-06"
+    },
+    {
+      "id": "connected-pokemon-blue",
+      "title": "Pokémon Blue product information",
+      "publisher": "The Pokémon Company International",
+      "url": "https://press.pokemon.com/en-NZ/products/Pokemon-Blue",
+      "scope": "Publisher product record gives the North American September 28, 1998 release. Regional dates differ.",
+      "checkedAt": "2026-11-06"
+    },
+    {
+      "id": "connected-link-cable",
+      "title": "Game Boy Color accessories",
+      "publisher": "Nintendo",
+      "url": "https://www.nintendo.com/en-gb/Hardware/Nintendo-History/Game-Boy-Color/Game-Boy-Color-Accessories/Game-Boy-Color-Accessories-915840.html",
+      "scope": "Manufacturer describes Pokémon exchange, compatible games, a cartridge for each player, and universal-cable connections between original Game Boy and Pocket/Color hardware.",
+      "checkedAt": "2026-11-06"
+    },
+    {
+      "id": "connected-game-boy",
+      "title": "Game Boy history",
+      "publisher": "Nintendo UK",
+      "url": "https://www.nintendo.com/en-gb/Hardware/Nintendo-History/Game-Boy/Game-Boy-627031.html",
+      "scope": "Manufacturer history identifies the smaller monochrome Game Boy Pocket, two AAA cells versus the original four AA, and its 1997 UK arrival. The Japanese model appeared in 1996.",
+      "checkedAt": "2026-11-06"
+    },
+    {
+      "id": "connected-sf2",
+      "title": "Street Fighter II: The World Warrior",
+      "publisher": "Capcom",
+      "url": "https://captown.capcom.com/en/classic_games/23",
+      "scope": "Publisher archive identifies the 1991 arcade game and the following year’s Super NES version. The manual linked below documents attacks; the museum photograph displays Champion Edition, not an original World Warrior title screen.",
+      "checkedAt": "2026-11-06"
+    },
+    {
+      "id": "connected-sf2-manual",
+      "title": "Street Fighter II Super NES instruction manual",
+      "publisher": "Capcom",
+      "url": "https://captown.capcom.com/uploads/game/manual/23/SF2_en_G.be3a67c7-ad2f-47f6-9619-6ae47a163188.pdf",
+      "scope": "Original publisher booklet: punch/kick strengths and Ryu’s quarter-circle-forward plus Punch fireball input. Read relative directions according to the character’s facing. Publisher-hosted PDF was search-index accessible but direct retrieval returned 403 during this review.",
+      "checkedAt": "2026-11-06"
+    },
+    {
+      "id": "connected-french-house",
+      "title": "Listening guide: French house",
+      "publisher": "Roland / Stefan Wyeth",
+      "url": "https://articles.roland.com/listening-guide-french-house/",
+      "scope": "Named recordings and release years for Daft Punk’s Around the World (1997), Stardust’s Music Sounds Better With You (1998), and Cassius’s Feeling for You (1999). Our listening notes are original editorial interpretation; this is not a claim that every record used the pictured machine.",
+      "checkedAt": "2026-11-06"
+    },
+    {
+      "id": "connected-homework",
+      "title": "How Daft Punk’s Homework changed dance music",
+      "publisher": "Mixmag / original interviewer",
+      "url": "https://mixmag.net/feature/no-rules-how-daft-punks-homework-changed-dance-music-forever",
+      "scope": "2017 account by the interviewer who met Daft Punk in 1997, with the original conversation and the record’s Chicago/Detroit influences. Used for context, without reproducing quotations.",
+      "checkedAt": "2026-11-06"
+    },
+    {
+      "id": "connected-909",
+      "title": "Roland TR-909 history",
+      "publisher": "Roland",
+      "url": "https://www.roland.com/uk/promos/roland_tr-909/",
+      "scope": "Manufacturer identifies the 1983 instrument, its analogue/sampled sound architecture, MIDI, sequencer and later dance-music use. The historical instrument is distinct from the modern TR-09.",
+      "checkedAt": "2026-11-06"
+    },
+    {
+      "id": "connected-kikumoto",
+      "title": "An exclusive conversation with Tadao Kikumoto",
+      "publisher": "Roland",
+      "url": "https://articles.roland.com/tadao-kikumoto-exclusive-conversation/",
+      "scope": "Interview with the instrument designer about the TR-909 and learning of its renewed popularity in the early 1990s.",
+      "checkedAt": "2026-11-06"
+    },
+    {
+      "id": "connected-rio",
+      "title": "Rio PMP300, 1998",
+      "publisher": "Computer History Museum",
+      "url": "https://www.computerhistory.org/revolution/memory-storage/8/256/1007",
+      "scope": "Collection record identifies Diamond Multimedia’s 1998 player and standard 32 MB flash storage. Its approximate one-hour claim depends on encoding bitrate. The museum’s copyrighted photograph is not used.",
+      "checkedAt": "2026-11-06"
+    },
+    {
+      "id": "connected-rio-manual",
+      "title": "Rio PMP300 64MB user manual",
+      "publisher": "Diamond Multimedia / preserved at ManualsLib",
+      "url": "https://www.manualslib.com/manual/314529/Rio-Pmp300-64mb.html?page=9",
+      "scope": "Original manufacturer instructions show the parallel-port adapter, data cable and Rio Manager transfer workflow. This is the 64 MB edition; the 32 MB specification in our article comes from the Computer History Museum, not this manual.",
+      "checkedAt": "2026-11-06"
+    },
+    {
+      "id": "connected-mp3",
+      "title": "Thirty years of the .mp3 extension",
+      "publisher": "Fraunhofer IIS",
+      "url": "https://www.iis.fraunhofer.de/en/magazin/panorama/2025/30-years-of-mp3.html",
+      "scope": "Research institute’s history of perceptual audio coding and the July 1995 .mp3 naming decision. Supports the distinction between the format and later consumer players.",
+      "checkedAt": "2026-11-06"
+    },
+    {
+      "id": "connected-mp3-paper",
+      "title": "MP3 and AAC explained",
+      "publisher": "Karlheinz Brandenburg / Fraunhofer IIS",
+      "url": "https://www.iis.fraunhofer.de/content/dam/iis/de/doc/ame/conference/AES-17-Conference_mp3-and-AAC-explained_AES17.pdf",
+      "scope": "1999 technical paper on perceptual audio coding and quality/bitrate tradeoffs. Storage examples on 90s.land are original arithmetic using decimal bytes and constant bitrate, excluding headers and device overhead.",
+      "checkedAt": "2026-11-06"
+    },
+    {
+      "id": "connected-nokia-manual",
+      "title": "Nokia 3210 user’s guide, issue 2 (9352002)",
+      "publisher": "Nokia / preserved scan",
+      "url": "https://www.instructionsmanuals.com/sites/default/files/2019-05/Nokia-3210-en.pdf",
+      "scope": "Original 1999 guide, printed pp. 37–41: 160-character text messages, traditional entry, predictive input, language/dictionary limits, alternate words and adding unknown words. This is the original GSM handset, not the 2024 remake.",
+      "checkedAt": "2026-11-06"
+    },
+    {
+      "id": "connected-first-sms",
+      "title": "25 years since the first text message",
+      "publisher": "Vodafone",
+      "url": "https://www.vodafone.com/news/newsroom/technology/25-anniversary-text-message",
+      "scope": "Operator’s account of Neil Papworth sending the first SMS from a computer to Richard Jarvis on December 3, 1992. The early event is distinguished from later everyday handset texting.",
+      "checkedAt": "2026-11-06"
+    },
+    {
+      "id": "connected-uswnt",
+      "title": "World champions and game changers",
+      "publisher": "US Soccer",
+      "url": "https://www.ussoccer.com/stories/2024/07/world-champions-and-game-changers",
+      "scope": "Federation’s 25th-anniversary account: July 10, 1999 final, 0–0 after extra time, US 5–4 shootout win, attendance 90,185, Lilly’s clearance, Scurry’s save and Chastain’s deciding kick.",
+      "checkedAt": "2026-11-06"
+    },
+    {
+      "id": "connected-fifa-finals",
+      "title": "Highlights, heroines and stats from the first seven finals",
+      "publisher": "FIFA",
+      "url": "https://inside.fifa.com/en/tournaments/womens/womensworldcup/france2019/news/highlights-heroines-and-stats-from-the-first-seven-finals",
+      "scope": "Tournament organiser’s retrospective corroborates the 1999 final’s score, attendance and decisive interventions. Historical attendance is not presented as a current record.",
+      "checkedAt": "2026-11-06"
+    },
+    {
+      "id": "connected-photo-tamagotchi-1997",
+      "title": "Museum Rotterdam object 78041, catalogued as 1997 and marked “Bandai 1997 Thailand",
+      "publisher": "Museum Rotterdam",
+      "url": "https://commons.wikimedia.org/wiki/File:Gele_tamagotchi,_objectnr_78041.JPG",
+      "scope": "Identified object/scene and image rights: Museum Rotterdam object 78041, catalogued as 1997 and marked “Bandai 1997 Thailand.” The shell does not establish which care-game program it contains. CC BY-SA 3.0; original source preserved, resized and encoded as WebP without cropping.",
+      "checkedAt": "2026-11-06"
+    },
+    {
+      "id": "connected-photo-game-boy-pocket",
+      "title": "Early silver Game Boy Pocket, photographed in 2014",
+      "publisher": "Evan-Amos",
+      "url": "https://commons.wikimedia.org/wiki/File:Game-Boy-Pocket-FL.jpg",
+      "scope": "Identified object/scene and image rights: Early silver Game Boy Pocket, photographed in 2014. This case has no power-indicator LED; later Pocket cases differ. Public domain; original source preserved, resized and encoded as WebP without cropping.",
+      "checkedAt": "2026-11-06"
+    },
+    {
+      "id": "connected-photo-game-link-cable",
+      "title": "Later reference photograph, made in 2017, of a dual-connector Game Boy link cable",
+      "publisher": "Evan-Amos",
+      "url": "https://commons.wikimedia.org/wiki/File:Nintendo-Game-Boy-Link-Cable-Dual.jpg",
+      "scope": "Identified object/scene and image rights: Later reference photograph, made in 2017, of a dual-connector Game Boy link cable. The larger and smaller plugs serve different Game Boy socket designs; an exact accessory model number is not asserted. Public domain; original source preserved, resized and encoded as WebP without cropping.",
+      "checkedAt": "2026-11-06"
+    },
+    {
+      "id": "connected-photo-rio-pmp300",
+      "title": "Diamond Rio PMP300 front and back, photographed in 2011",
+      "publisher": "rfdigitalwpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Diamond_Rio_PMP300_1.jpg",
+      "scope": "Identified object/scene and image rights: Diamond Rio PMP300 front and back, photographed in 2011. The 1998 standard model had 32 MB; the photograph alone does not establish the storage fitted to these units. CC BY 2.0; original source preserved, resized and encoded as WebP without cropping.",
+      "checkedAt": "2026-11-06"
+    },
+    {
+      "id": "connected-photo-tr-909",
+      "title": "Reference photograph of the 1983 TR-909 design used into the 1990s",
+      "publisher": "Emhoo; edit by Metoc",
+      "url": "https://commons.wikimedia.org/wiki/File:Roland_TR-909.jpg",
+      "scope": "Identified object/scene and image rights: Reference photograph of the 1983 TR-909 design used into the 1990s. The source image was edited and color-adjusted by Metoc. It is not identified as any featured artist’s personal instrument. CC BY-SA 3.0; original source preserved, resized and encoded as WebP without cropping.",
+      "checkedAt": "2026-11-06"
+    },
+    {
+      "id": "connected-photo-street-fighter-ii",
+      "title": "Street Fighter II cabinet at Bradford’s National Media Museum, photographed in 2014",
+      "publisher": "John Turner",
+      "url": "https://commons.wikimedia.org/wiki/File:Street_Fighter_II_arcade_machine.jpg",
+      "scope": "Identified object/scene and image rights: Street Fighter II cabinet at Bradford’s National Media Museum, photographed in 2014. The screen shows Champion Edition; this is not labelled as an untouched 1991 World Warrior cabinet. CC BY 2.0; original source preserved, resized and encoded as WebP without cropping.",
+      "checkedAt": "2026-11-06"
+    },
+    {
+      "id": "connected-photo-world-cup-1999",
+      "title": "The US women’s team at the White House on July 19, 1999, nine days after the final",
+      "publisher": "Ralph Alswang / White House Photograph Office / National Archives",
+      "url": "https://commons.wikimedia.org/wiki/File:The_U._S._A._Women%27s_Soccer_Team_presents_President_Clinton_a_%22CLINTON_99%22_soccer_shirt_-_DPLA_-_23f4de7d4c003aa7fbe63c6845daaac5.jpg",
+      "scope": "Identified object/scene and image rights: The US women’s team at the White House on July 19, 1999, nine days after the final. Photograph by Ralph Alswang, preserved by the National Archives; this is a post-tournament reception. Public domain (US federal government); original source preserved, resized and encoded as WebP without cropping.",
+      "checkedAt": "2026-11-06"
+    },
+    {
+      "id": "connected-nintendo-annual",
+      "title": "Nintendo Annual Report 2006: history of Nintendo",
+      "publisher": "Nintendo",
+      "url": "https://www.nintendo.co.jp/kessan/annual0603e.pdf",
+      "scope": "History section, printed p. 12, places the Game Boy Pocket introduction in 1996. Read alongside Nintendo UK’s separate regional 1997 history.",
+      "checkedAt": "2026-11-06"
+    },
+    {
+      "id": "connected-braxe",
+      "title": "Alan Braxe interview and video studio tour",
+      "publisher": "Future Music / MusicRadar, Chris Barker",
+      "url": "https://www.musicradar.com/news/tech/alan-braxe-interview-and-video-studio-tour-566211",
+      "scope": "First-person producer interview, published October 26, 2012 from an earlier studio visit. Braxe identifies the Chaka Khan Fate sample, E-mu SP-1200, TR-909 drums, Korg Trident bass and Benjamin Diamond vocal used for Music Sounds Better With You. Supports that specific record, not every French-house production.",
+      "checkedAt": "2026-11-06"
     }
   ],
   "events": [

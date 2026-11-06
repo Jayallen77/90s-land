@@ -125,6 +125,10 @@
   ],
   "/stories/from-mixtape-to-file/": [
     {
+      "url": "/stories/thirty-two-megabytes/",
+      "reason": "Put the sequence into a 32 MB budget and try different bitrates."
+    },
+    {
       "url": "/archive/objects/walkman/",
       "reason": "Put the finished tape in the identified portable player."
     },
@@ -153,6 +157,10 @@
   ],
   "/stories/handhelds-and-batteries/": [
     {
+      "url": "/archive/objects/game-boy-pocket/",
+      "reason": "Compare the early silver Pocket with the two color handhelds in the table."
+    },
+    {
       "url": "/archive/objects/game-gear/",
       "reason": "Six AA batteries and a backlit screen make the bargain physical."
     },
@@ -162,6 +170,10 @@
     }
   ],
   "/stories/holiday-toys-that-answered-back/": [
+    {
+      "url": "/archive/objects/tamagotchi-1997/",
+      "reason": "Inspect the documented 1997 toy behind the new lead photograph."
+    },
     {
       "url": "/zones/culture/",
       "reason": "Compare these electronic companions with other toys and collecting objects in the culture collection."
@@ -259,6 +271,10 @@
   ],
   "/stories/sampling-a-record-collection/": [
     {
+      "url": "/stories/french-house-in-the-filter/",
+      "reason": "Listen to the arrangement after a repeating fragment has been chosen."
+    },
+    {
       "url": "/archive/objects/mpc-2000/",
       "reason": "Separate the 1997 explanatory instrument from earlier hit recordings."
     },
@@ -306,6 +322,10 @@
     }
   ],
   "/stories/the-console-war-couch/": [
+    {
+      "url": "/stories/one-more-challenger/",
+      "reason": "See how the six-button arcade layout makes the controller comparison concrete."
+    },
     {
       "url": "/archive/objects/genesis-controller/",
       "reason": "Three buttons and six buttons offer different tools to the same library."
@@ -358,6 +378,10 @@
     }
   ],
   "/stories/the-landline-negotiation/": [
+    {
+      "url": "/stories/texting-on-twelve-keys/",
+      "reason": "Try composing the reply on a handset instead of borrowing the household line."
+    },
     {
       "url": "/archive/objects/answering-machine/",
       "reason": "An outgoing greeting and incoming messages use separate recordings."
@@ -579,6 +603,10 @@
   ],
   "/archive/objects/discman/": [
     {
+      "url": "/stories/thirty-two-megabytes/",
+      "reason": "Compare the spinning disc with a 1998 player’s small flash-memory budget."
+    },
+    {
       "url": "/stories/from-mixtape-to-file/",
       "reason": "Compare the CD’s track index with a cassette’s running order."
     },
@@ -629,6 +657,10 @@
   ],
   "/archive/objects/arcade-cabinet/": [
     {
+      "url": "/stories/one-more-challenger/",
+      "reason": "Read the controls and shared-player space of an identified fighting-game cabinet."
+    },
+    {
       "url": "/stories/meet-me-at-the-mall/",
       "reason": "A game can become one stop in a larger browsing route."
     },
@@ -638,6 +670,10 @@
     }
   ],
   "/archive/objects/genesis-controller/": [
+    {
+      "url": "/stories/one-more-challenger/",
+      "reason": "See the arcade vocabulary that gives a six-button home pad a practical purpose."
+    },
     {
       "url": "/stories/the-secret-button-sequence/",
       "reason": "Exact button instructions need the matching pad."
@@ -711,6 +747,10 @@
   ],
   "/archive/objects/game-boy-color/": [
     {
+      "url": "/stories/pokemon-needed-a-friend/",
+      "reason": "Use the original Cable Club guide to plan a compatible two-player meeting."
+    },
+    {
       "url": "/stories/handhelds-and-batteries/",
       "reason": "Compare two identified screen-and-power bargains."
     },
@@ -780,6 +820,10 @@
     }
   ],
   "/archive/objects/nokia-3210/": [
+    {
+      "url": "/stories/texting-on-twelve-keys/",
+      "reason": "Compare traditional taps with predictive letter keys using this handset’s period guide."
+    },
     {
       "url": "/stories/the-landline-negotiation/",
       "reason": "Compare reaching a person with reaching a household."
@@ -917,6 +961,10 @@
   ],
   "/archive/objects/mpc-2000/": [
     {
+      "url": "/archive/objects/tr-909/",
+      "reason": "Separate sampling from the sound generation and step sequencing of a drum machine."
+    },
+    {
       "url": "/stories/sampling-a-record-collection/",
       "reason": "Keep the 1997 explanatory machine separate from earlier songs."
     },
@@ -1039,6 +1087,136 @@
     {
       "url": "/archive/objects/powerbook/",
       "reason": "A keyboard and trackball offer another portable input arrangement."
+    }
+  ],
+  "/stories/pokemon-needed-a-friend/": [
+    {
+      "url": "/archive/objects/game-link-cable/",
+      "reason": "Check the different plug sizes before planning the original Cable Club exchange."
+    },
+    {
+      "url": "/archive/objects/game-boy-pocket/",
+      "reason": "See the smaller monochrome handheld and its particular power and link requirements."
+    },
+    {
+      "url": "/stories/handhelds-and-batteries/",
+      "reason": "Pack the game, useful light and the right batteries before meeting another player."
+    }
+  ],
+  "/stories/one-more-challenger/": [
+    {
+      "url": "/stories/the-console-war-couch/",
+      "reason": "Compare six arcade buttons with the controls waiting on a home console."
+    },
+    {
+      "url": "/archive/objects/genesis-controller/",
+      "reason": "See how a six-button home pad puts punch and kick strengths within reach."
+    },
+    {
+      "url": "/stories/the-secret-button-sequence/",
+      "reason": "Separate a normal fighting-game command from a code that changes the rules."
+    }
+  ],
+  "/stories/french-house-in-the-filter/": [
+    {
+      "url": "/archive/objects/tr-909/",
+      "reason": "Read the step sequencer and distinguish rhythm programming from sampling."
+    },
+    {
+      "url": "/stories/sampling-a-record-collection/",
+      "reason": "Follow documented source-to-record relationships before listening to the arrangement."
+    },
+    {
+      "url": "/stories/the-flyer-and-the-dancefloor/",
+      "reason": "Put the listening route beside the places and printed invitations that gathered dancers."
+    }
+  ],
+  "/stories/thirty-two-megabytes/": [
+    {
+      "url": "/archive/objects/rio-pmp300/",
+      "reason": "Inspect the identified 1998 player and its desk-to-pocket transfer workflow."
+    },
+    {
+      "url": "/stories/from-mixtape-to-file/",
+      "reason": "Try the timed mix, then decide how much of the sequence fits your storage budget."
+    },
+    {
+      "url": "/archive/objects/discman/",
+      "reason": "Compare replacing an audio disc with reloading a flash player at the PC."
+    }
+  ],
+  "/stories/texting-on-twelve-keys/": [
+    {
+      "url": "/archive/objects/nokia-3210/",
+      "reason": "See the original handset whose shared letter keys shape the worked example."
+    },
+    {
+      "url": "/stories/the-landline-negotiation/",
+      "reason": "Start with the shared household number to understand what a personal handset changes."
+    },
+    {
+      "url": "/archive/objects/pager/",
+      "reason": "Compare receiving an alert with composing a reply on the same device."
+    }
+  ],
+  "/stories/the-team-behind-the-1999-final/": [
+    {
+      "url": "/timeline/1999/#defining-moments",
+      "reason": "Place the final alongside the year’s other sourced cultural moments."
+    }
+  ],
+  "/archive/objects/tamagotchi-1997/": [
+    {
+      "url": "/stories/holiday-toys-that-answered-back/",
+      "reason": "Compare a screen pet’s care menu with the original Furby’s physical sensors."
+    },
+    {
+      "url": "/stories/handhelds-and-batteries/",
+      "reason": "Compare the practical demands of other objects carried away from home."
+    }
+  ],
+  "/archive/objects/game-boy-pocket/": [
+    {
+      "url": "/stories/pokemon-needed-a-friend/",
+      "reason": "Take this handheld through the original two-player trading workflow."
+    },
+    {
+      "url": "/archive/objects/game-link-cable/",
+      "reason": "Check how a smaller link socket connects to an older Game Boy."
+    },
+    {
+      "url": "/stories/handhelds-and-batteries/",
+      "reason": "Compare monochrome portability with Game Gear and Game Boy Color."
+    }
+  ],
+  "/archive/objects/game-link-cable/": [
+    {
+      "url": "/stories/pokemon-needed-a-friend/",
+      "reason": "Follow the actual Trade Center prompts, rather than assuming the cable is enough."
+    },
+    {
+      "url": "/archive/objects/game-boy-pocket/",
+      "reason": "See one of the handheld socket designs the connector arrangement accommodates."
+    }
+  ],
+  "/archive/objects/rio-pmp300/": [
+    {
+      "url": "/stories/thirty-two-megabytes/",
+      "reason": "Change bitrate and track length in the storage calculator."
+    },
+    {
+      "url": "/stories/from-mixtape-to-file/",
+      "reason": "Compare a file playlist with the sequencing work of cassette and CD-R."
+    }
+  ],
+  "/archive/objects/tr-909/": [
+    {
+      "url": "/stories/french-house-in-the-filter/",
+      "reason": "Listen for changes around a repeating rhythm in three named records."
+    },
+    {
+      "url": "/archive/objects/mpc-2000/",
+      "reason": "Compare a rhythm composer with a machine that can record and sequence samples."
     }
   ]
 }

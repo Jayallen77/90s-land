@@ -26,7 +26,12 @@ def parse(text):
     for chunk in re.split(r'\n\s*\n',text.strip()):
         lines=chunk.strip().splitlines()
         figure=re.fullmatch(r'\{\{figure:([a-z0-9-]+)\}\}',chunk.strip())
+        tool=re.fullmatch(r'\{\{tool:([a-z0-9-]+)\}\}',chunk.strip())
         if figure:blocks.append({'type':'figure','id':figure[1]})
+        elif tool:
+            from reading_tools import IDS
+            if tool[1] not in IDS:raise ValueError('Unknown reading tool: '+tool[1])
+            blocks.append({'type':'tool','id':tool[1]})
         elif len(lines)>1 and lines[0].startswith('|') and re.fullmatch(r'[\s|:\-]+',lines[1]):
             cells=lambda line:[c.strip() for c in line.strip().strip('|').split('|')]
             blocks.append({'type':'table','headers':cells(lines[0]),'rows':[cells(line) for line in lines[2:]]})
@@ -40,7 +45,10 @@ def render(blocks,heading):
     result=[]
     for block in blocks:
         kind=block['type']
-        if kind=='figure':
+        if kind=='tool':
+            from reading_tools import render as render_tool
+            result.append(render_tool(block['id']))
+        elif kind=='figure':
             figures=json.loads((Path(__file__).resolve().parents[1]/'content/editorial/figures.json').read_text())
             f=figures[block['id']]
             src=escape(f['src'],quote=True);large=escape(f.get('vectorSrc',f['src']),quote=True)

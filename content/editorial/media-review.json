@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-29",
+  "checkedAt": "2026-11-06",
   "items": [
     {
       "id": "family-pc",
@@ -1026,6 +1026,56 @@
       "checkedAt": "2026-10-29",
       "method": "Source metadata and local visual subject inspection",
       "adaptation": "Responsive resizing; original image identity retained."
+    },
+    {
+      "id": "tamagotchi-1997",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gele_tamagotchi,_objectnr_78041.JPG",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "credit": "Museum Rotterdam",
+      "checkedAt": "2026-11-06",
+      "method": "Original source metadata, license and local visual subject review",
+      "adaptation": "CC BY-SA 3.0; original source preserved, resized and encoded as WebP without cropping."
+    },
+    {
+      "id": "game-boy-pocket",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Game-Boy-Pocket-FL.jpg",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "credit": "Evan-Amos",
+      "checkedAt": "2026-11-06",
+      "method": "Original source metadata, license and local visual subject review",
+      "adaptation": "Public domain; original source preserved, resized and encoded as WebP without cropping."
+    },
+    {
+      "id": "game-link-cable",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nintendo-Game-Boy-Link-Cable-Dual.jpg",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "credit": "Evan-Amos",
+      "checkedAt": "2026-11-06",
+      "method": "Original source metadata, license and local visual subject review",
+      "adaptation": "Public domain; original source preserved, resized and encoded as WebP without cropping."
+    },
+    {
+      "id": "rio-pmp300",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Diamond_Rio_PMP300_1.jpg",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "credit": "rfdigitalwpg",
+      "checkedAt": "2026-11-06",
+      "method": "Original source metadata, license and local visual subject review",
+      "adaptation": "CC BY 2.0; original source preserved, resized and encoded as WebP without cropping."
+    },
+    {
+      "id": "tr-909",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Roland_TR-909.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "credit": "Emhoo; edit by Metoc",
+      "checkedAt": "2026-11-06",
+      "method": "Original source metadata, license and local visual subject review",
+      "adaptation": "CC BY-SA 3.0; original source preserved, resized and encoded as WebP without cropping."
     }
   ]
 }

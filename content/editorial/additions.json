@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "releases": [
+    {
+      "id": "20261106-bring-a-friend",
+      "introducedAt": "2026-11-06",
+      "storyIds": [
+        "pokemon-needed-a-friend",
+        "one-more-challenger",
+        "french-house-in-the-filter",
+        "thirty-two-megabytes",
+        "texting-on-twelve-keys",
+        "the-team-behind-the-1999-final"
+      ],
+      "objectIds": [
+        "tamagotchi-1997",
+        "game-boy-pocket",
+        "game-link-cable",
+        "rio-pmp300",
+        "tr-909"
+      ]
+    }
+  ]
+}

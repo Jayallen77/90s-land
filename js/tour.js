@@ -1,5 +1,5 @@
 import { announce } from "./announce.js";
-import { awardStamp, getPassport, saveTourProgress } from "./passport.js?v=deeper-20261105";
+import { awardStamp, getPassport, saveTourProgress } from "./passport.js?v=connected-20261106";
 
 const TOUR_ID = "before-the-feed";
 

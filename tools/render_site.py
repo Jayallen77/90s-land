@@ -582,10 +582,10 @@ def page_document(route: dict, main: str, body_class: str = "") -> str:
   <link rel="preload" href="/assets/fonts/Barlow-Regular.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/assets/fonts/BarlowCondensed-Bold.woff2" as="font" type="font/woff2" crossorigin />
 {search_font}{region("head", render_head(route))}
-  <link rel="stylesheet" href="/styles.css?v=deeper-20261105" />
-  <link rel="stylesheet" href="/editorial.css?v=deeper-20261105" />
-  <link rel="stylesheet" href="/archive.css?v=deeper-20261105" />
-  <link rel="stylesheet" href="/hub.css?v=deeper-20261105" />
+  <link rel="stylesheet" href="/styles.css?v=connected-20261106" />
+  <link rel="stylesheet" href="/editorial.css?v=connected-20261106" />
+  <link rel="stylesheet" href="/archive.css?v=connected-20261106" />
+  <link rel="stylesheet" href="/hub.css?v=connected-20261106" />
 </head>
 <body{body_attr} data-route="{esc(route["path"])}" data-room="{esc(route_room(route))}">
   <a class="skip-link" href="#main-content">Skip to museum content</a>
@@ -595,7 +595,7 @@ def page_document(route: dict, main: str, body_class: str = "") -> str:
 {editorial.shell_footer()}
 {editorial.directory()}
 {region("shared-ui", render_shared_ui())}
-  <script type="module" src="/js/app.js?v=deeper-20261105"></script>
+  <script type="module" src="/js/app.js?v=connected-20261106"></script>
 </body>
 </html>
 """

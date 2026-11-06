@@ -41,7 +41,9 @@ def assess(media=None, publication=None):
     routes=model.all_routes();active={r['path'] for r in routes if r['type']!='redirects'}
     if active & (retired | redirects.keys()):errors.append('Publication lifecycle overlaps')
     if retired & redirects.keys():errors.append('Retired route is also a redirect')
-    if original != active | set(redirects) | retired:errors.append('Original URLs are not completely accounted for')
+    introduced=model.introduced_routes()
+    if introduced & original or not introduced<=active:errors.append('Invalid introduced URL registry')
+    if original != (active-introduced) | set(redirects) | retired:errors.append('Original URLs are not completely accounted for')
     for path,target in redirects.items():
         parts=urlsplit(target)
         if parts.scheme or parts.netloc or parts.path not in active:errors.append('Invalid redirect destination: '+path)

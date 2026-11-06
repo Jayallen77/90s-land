@@ -1,5 +1,5 @@
 import { announce } from "./announce.js";
-import { closeDialog, openDialog } from "./navigation.js?v=deeper-20261105";
+import { closeDialog, openDialog } from "./navigation.js?v=connected-20261106";
 import {
   localStore,
   PASSPORT_KEY,

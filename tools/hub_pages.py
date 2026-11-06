@@ -60,7 +60,7 @@ def hub(route):
  remaining=[s for s in stories if s['id']!=feature]
  destinations={'sports':'#sports-moments'} if cat=='culture' else {}
  for _,topic in TOPICS.get(cat,[]):
-  if topic!='all' and not any(topic in s.get('topics',[]) for s in remaining) and topic in story(feature).get('topics',[]):destinations[topic]='#featured-story'
+  if topic!='all' and topic not in destinations and not any(topic in s.get('topics',[]) for s in remaining) and topic in story(feature).get('topics',[]):destinations[topic]='#featured-story'
  top=hero(art,title,subtitle,summary, '#game-archive' if cat=='games' else '#section-stories', 'Explore the era' if cat=='games' else 'Explore the stories')
  top+=f'<section class="ed-panel ed-edition"><h2>{ed.esc(edition["title"])}</h2><p>{ed.esc(edition["intro"])}</p></section>'
  top+=rail(GENRES,'genre','game-archive','Game genres') if cat=='games' else rail(TOPICS[cat],'topic','section-stories',model.CATEGORIES[cat]+' topics',destinations)

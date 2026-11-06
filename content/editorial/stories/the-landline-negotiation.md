@@ -1,4 +1,4 @@
-<!-- story: {"id": "the-landline-negotiation", "title": "Calling a friend meant calling a household", "category": "culture", "summary": "The landline made conversation depend on other people’s rooms, routines and willingness to pass the phone.", "art": "answering-machine", "sourceIds": ["chm-net", "new-aol-flat"], "objectIds": ["answering-machine", "pager", "family-pc"], "topics": ["mall", "online", "portable"], "relatedStoryIds": ["aol-flat-rate"], "publishedAt": "2026-10-01", "updatedAt": "2026-11-05"} -->
+<!-- story: {"id": "the-landline-negotiation", "title": "Calling a friend meant calling a household", "category": "culture", "summary": "The landline made conversation depend on other people’s rooms, routines and willingness to pass the phone.", "art": "answering-machine", "sourceIds": ["chm-net", "new-aol-flat", "connected-nokia-manual"], "objectIds": ["answering-machine", "pager", "family-pc", "nokia-3210"], "topics": ["mall", "online", "portable"], "relatedStoryIds": ["aol-flat-rate", "texting-on-twelve-keys"], "publishedAt": "2026-10-01", "updatedAt": "2026-11-06"} -->
 
 ## Calling a friend meant reaching a household
 
@@ -35,3 +35,9 @@ These are separate functions, not features every phone automatically provided. A
 Going online through dial-up uses the line for a data call. On a single-line household connection, the familiar demand to finish a call becomes a demand to finish a session. A long download has no special claim on somebody waiting to make an ordinary call.
 
 The [answering machine](/archive/objects/answering-machine/) has its own small choreography: record a greeting, listen to messages, decide what to keep. A [pager](/archive/objects/pager/) moves the alert into a pocket but may still send its owner looking for a telephone. Reachability changes one object at a time.
+
+## A message can leave the household behind
+
+The original Nokia 3210’s 1999 guide describes composing short text messages on the handset itself, with repeated taps or predictive entry. That changes the return journey: the person receiving a message can compose a reply on the same portable object, subject to a suitable network and service. A pager alert and a two-way text are different kinds of reachability.
+
+Try writing a meeting place and time in the [keypad feature](/stories/texting-on-twelve-keys/). It makes the practical shift visible without assuming every household had abandoned its shared telephone by 1999. The landline, answering machine, pager and mobile could overlap in one person’s week.

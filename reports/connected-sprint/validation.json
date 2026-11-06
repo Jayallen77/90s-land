@@ -1,0 +1,69 @@
+{
+  "checkedAt": "2026-11-06",
+  "baselineCommit": "2eae656e8a92f5b9fa7f5229fa6ae4e5e2900bc7",
+  "stories": 41,
+  "objects": 67,
+  "activePages": 139,
+  "servedRoutes": 450,
+  "distinctStoryLeads": 41,
+  "timelineRecords": 295,
+  "definingMoments": 101,
+  "pythonTests": {
+    "passed": 71,
+    "failed": 0
+  },
+  "nodeTests": {
+    "passed": 14,
+    "failed": 0
+  },
+  "browserTests": {
+    "total": 166,
+    "fullRunPassed": 165,
+    "fullRunFailed": 1,
+    "correctedFailure": "Culture Sports topic must retain its explicit #sports-moments destination.",
+    "targetedRegressionPassed": 1,
+    "outstandingFailures": 0,
+    "note": "GitHub CI performs the complete suite again on the published commit."
+  },
+  "pageReview": {
+    "renders": 278,
+    "issuePages": 0,
+    "viewports": [
+      390,
+      1440
+    ]
+  },
+  "dialogRegressions": {
+    "passed": 7,
+    "failed": 0
+  },
+  "staticAudit": {
+    "routes": 450,
+    "internalLinks": 23968,
+    "externalLinks": 1590,
+    "fragmentLinks": 3018,
+    "artifacts": 67,
+    "resources": 78,
+    "featuredResourceReferences": 12,
+    "errors": 0
+  },
+  "httpAudit": {
+    "passedRoutes": 450,
+    "passedShareCards": 139,
+    "errors": []
+  },
+  "package": {
+    "contentDigest": "de17920107529eb979371bc1d0f54f4a4ac038096ffac0302becbc53cb0081bb",
+    "routes": 450,
+    "runtimeFiles": 927,
+    "editorialAsOf": "2026-11-06"
+  },
+  "preview": "http://127.0.0.1:4176/",
+  "previewOutput": "/private/tmp/90s-land-review-20261106/release/public",
+  "limitations": [
+    "Read-only live crawl covered 128 pages before additions. Historical fact checking focused on new and edited copy.",
+    "A final two-width Culture recheck followed the one-line destination fix; all other reviewed public pages are unchanged.",
+    "Desktop dist output produced numbered duplicate directories outside the build process; the final local build and preview use a stable temporary directory. No system sync settings were changed.",
+    "Clean-snapshot production verification follows the commit; its output records the source commit."
+  ]
+}

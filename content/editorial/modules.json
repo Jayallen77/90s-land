@@ -153,22 +153,22 @@
       "genre": "fighting",
       "platform": "arcade",
       "art": "arcade-cabinet",
-      "storyId": "the-secret-button-sequence",
-      "summary": "Character matchups and head-to-head competition at the cabinet.",
-      "sourceUrl": "https://www.museumofplay.org/games/street-fighter-ii/",
-      "sourceLabel": "Publisher / museum record",
-      "checkedAt": "2026-09-27"
+      "storyId": "one-more-challenger",
+      "summary": "Read six attack buttons, try Ryu’s fireball input and compare arcade play with the trip home.",
+      "sourceUrl": "https://captown.capcom.com/en/classic_games/23",
+      "sourceLabel": "Capcom archive",
+      "checkedAt": "2026-11-06"
     },
     {
-      "title": "Pokémon Red & Green",
+      "title": "Pokémon Red & Blue",
       "genre": "rpg",
       "platform": "handhelds",
-      "art": "game-boy-color",
-      "storyId": "holiday-toys-that-answered-back",
-      "summary": "The original Japanese pair arrived on Game Boy in 1996. The pictured Color hardware came later.",
-      "sourceUrl": "https://press.pokemon.com/es-MX/releases/THE-POKEMON-COMPANY-INTERNATIONAL-UNVEILS-POKEMON-TOGETHER-BRAND-CAMPA",
-      "sourceLabel": "Publisher / museum record",
-      "checkedAt": "2026-09-27"
+      "art": "game-link-cable",
+      "storyId": "pokemon-needed-a-friend",
+      "summary": "The 1998 English pair makes another player’s cartridge part of the collection. Follow the original Cable Club workflow.",
+      "sourceUrl": "https://press.pokemon.com/en-NZ/products/Pokemon-Blue",
+      "sourceLabel": "The Pokémon Company",
+      "checkedAt": "2026-11-06"
     },
     {
       "title": "Super Mario Land 2",

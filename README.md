@@ -22,6 +22,9 @@ Generated public HTML is committed; edit its sources and run the renderer.
   `content/editorial/story-media.json` identifies each story's distinct, reviewed
   lead image. `publication.json` accounts for every original URL as an active page,
   compatibility redirect, or retired page; archived research never enters runtime.
+  `additions.json` registers deliberately introduced story/object URLs separately
+  from that frozen historical ledger. `edition.json` curates this issue's feature,
+  story selections and homepage object shelf.
   Month-only and year-only events remain in the archive without invented
   calendar days. Packaging refreshes Home and This Week for the Denver civil date.
 - `content/editorial/modules.json` owns sourced chart snapshots and the curated
@@ -43,6 +46,10 @@ Generated public HTML is committed; edit its sources and run the renderer.
 - `js/date-utils.js` provides civil-date arithmetic. `js/archive.js` progressively
   enhances the static calendar and weekly page. `js/hubs.js` provides URL-based
   category, topic, game genre, and platform filters.
+- `tools/reading_tools.py` and `js/reading-tools.js` provide progressively enhanced
+  MP3-storage and keypad worked examples. Static answers remain readable without
+  JavaScript; controls enable only after their listeners are ready. Shared-module
+  import versions must agree so Passport and dialog state have one identity.
 
 ```sh
 python3 tools/render_site.py
@@ -62,6 +69,7 @@ old page layouts or duplicate prose.
 - [Import schemas and preservation contract](docs/CONTENT_MIGRATION.md)
 - [Approved decisions and remaining phases](docs/REBUILD_HANDOFF.md)
 - [Deeper stories and finished exhibits: implementation and QA](reports/deeper-sprint/README.md)
+- [Bring a friend: content, photographs and reading tools](reports/connected-sprint/README.md)
 - [Phase 2 design system](docs/design/PHASE_2.md)
 - [Phase 2 verification](reports/PHASE_2_QA.md)
 - [Phase 3 authoring and behavior](docs/PHASE_3.md)

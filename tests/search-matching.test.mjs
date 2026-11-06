@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import {normalizeSearch,matchesWords,searchRank} from '../js/search-matching.js';
 
 test('reader aliases preserve the intended subject',()=>{
- for(const pair of [['R&B','rnb'],['R and B','rnb'],['Nintendo 64','N64'],['PS1','PlayStation'],['PSX','PlayStation 1'],['Super NES','SNES'],['Pokémon','Pokemon']])assert.equal(normalizeSearch(pair[0]),normalizeSearch(pair[1]));
+ for(const pair of [['R&B','rnb'],['R and B','rnb'],['Nintendo 64','N64'],['PS1','PlayStation'],['PSX','PlayStation 1'],['Super NES','SNES'],['Pokémon','Pokemon'],['SMS','texting'],['text messages','texting'],['TR-909','TR909']])assert.equal(normalizeSearch(pair[0]),normalizeSearch(pair[1]));
 });
 test('short queries do not match arbitrary substrings',()=>{
  assert.equal(matchesWords(normalizeSearch('Try a classic guestbook preview'),normalizeSearch('R&B').split(' ')),false);

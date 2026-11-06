@@ -1,7 +1,7 @@
 import { announce } from "./announce.js";
-import { openDialog } from "./navigation.js?v=deeper-20261105";
-import { awardStamp } from "./passport.js?v=deeper-20261105";
-import { chooseMemory } from './discovery.js?v=deeper-20261105';
+import { openDialog } from "./navigation.js?v=connected-20261106";
+import { awardStamp } from "./passport.js?v=connected-20261106";
+import { chooseMemory } from './discovery.js?v=connected-20261106';
 import {
   readJson,
   sessionStore,

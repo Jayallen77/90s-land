@@ -943,6 +943,91 @@
         "height": 1332
       }
     ],
+    "/assets/media/connected/tamagotchi-1997.webp": [
+      {
+        "src": "/assets/generated/editorial/tamagotchi-1997-240.webp",
+        "width": 240,
+        "height": 189
+      },
+      {
+        "src": "/assets/generated/editorial/tamagotchi-1997-480.webp",
+        "width": 480,
+        "height": 379
+      },
+      {
+        "src": "/assets/generated/editorial/tamagotchi-1997-960.webp",
+        "width": 960,
+        "height": 758
+      }
+    ],
+    "/assets/media/connected/game-boy-pocket.webp": [
+      {
+        "src": "/assets/generated/editorial/game-boy-pocket-240.webp",
+        "width": 240,
+        "height": 286
+      },
+      {
+        "src": "/assets/generated/editorial/game-boy-pocket-480.webp",
+        "width": 480,
+        "height": 572
+      },
+      {
+        "src": "/assets/generated/editorial/game-boy-pocket-960.webp",
+        "width": 960,
+        "height": 1145
+      }
+    ],
+    "/assets/media/connected/game-link-cable.webp": [
+      {
+        "src": "/assets/generated/editorial/game-link-cable-240.webp",
+        "width": 240,
+        "height": 156
+      },
+      {
+        "src": "/assets/generated/editorial/game-link-cable-480.webp",
+        "width": 480,
+        "height": 313
+      },
+      {
+        "src": "/assets/generated/editorial/game-link-cable-960.webp",
+        "width": 960,
+        "height": 626
+      }
+    ],
+    "/assets/media/connected/rio-pmp300.webp": [
+      {
+        "src": "/assets/generated/editorial/rio-pmp300-240.webp",
+        "width": 240,
+        "height": 160
+      },
+      {
+        "src": "/assets/generated/editorial/rio-pmp300-480.webp",
+        "width": 480,
+        "height": 320
+      },
+      {
+        "src": "/assets/generated/editorial/rio-pmp300-960.webp",
+        "width": 960,
+        "height": 640
+      }
+    ],
+    "/assets/media/connected/tr-909.webp": [
+      {
+        "src": "/assets/generated/editorial/tr-909-240.webp",
+        "width": 240,
+        "height": 142
+      },
+      {
+        "src": "/assets/generated/editorial/tr-909-480.webp",
+        "width": 480,
+        "height": 284
+      },
+      {
+        "src": "/assets/generated/editorial/tr-909-901.webp",
+        "width": 901,
+        "height": 533
+      }
+    ],
     "/assets/media/stories/doom-commands-diagram.png": [
       {
         "src": "/assets/generated/editorial/story-the-secret-button-sequence-240.webp",
@@ -1113,23 +1198,6 @@
         "height": 600
       }
     ],
-    "/assets/media/stories/responsive-toys-diagram.png": [
-      {
-        "src": "/assets/generated/editorial/story-holiday-toys-that-answered-back-240.webp",
-        "width": 240,
-        "height": 150
-      },
-      {
-        "src": "/assets/generated/editorial/story-holiday-toys-that-answered-back-480.webp",
-        "width": 480,
-        "height": 300
-      },
-      {
-        "src": "/assets/generated/editorial/story-holiday-toys-that-answered-back-960.webp",
-        "width": 960,
-        "height": 600
-      }
-    ],
     "/assets/media/stories/lan-network-diagram.png": [
       {
         "src": "/assets/generated/editorial/story-lan-party-night-240.webp",
@@ -1215,6 +1283,40 @@
         "height": 600
       }
     ],
+    "/assets/media/connected/street-fighter-ii.webp": [
+      {
+        "src": "/assets/generated/editorial/story-one-more-challenger-240.webp",
+        "width": 240,
+        "height": 320
+      },
+      {
+        "src": "/assets/generated/editorial/story-one-more-challenger-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "src": "/assets/generated/editorial/story-one-more-challenger-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "/assets/media/connected/world-cup-1999.webp": [
+      {
+        "src": "/assets/generated/editorial/story-the-team-behind-the-1999-final-240.webp",
+        "width": 240,
+        "height": 159
+      },
+      {
+        "src": "/assets/generated/editorial/story-the-team-behind-the-1999-final-480.webp",
+        "width": 480,
+        "height": 319
+      },
+      {
+        "src": "/assets/generated/editorial/story-the-team-behind-the-1999-final-960.webp",
+        "width": 960,
+        "height": 638
+      }
+    ],
     "/assets/media/stories/memory-blocks-diagram.png": [
       {
         "src": "/assets/generated/editorial/figure-memory-blocks-240.webp",
@@ -1264,6 +1366,23 @@
         "src": "/assets/generated/editorial/figure-mall-source-map-960.webp",
         "width": 960,
         "height": 720
+      }
+    ],
+    "/assets/media/stories/responsive-toys-diagram.png": [
+      {
+        "src": "/assets/generated/editorial/figure-responsive-toys-240.webp",
+        "width": 240,
+        "height": 150
+      },
+      {
+        "src": "/assets/generated/editorial/figure-responsive-toys-480.webp",
+        "width": 480,
+        "height": 300
+      },
+      {
+        "src": "/assets/generated/editorial/figure-responsive-toys-960.webp",
+        "width": 960,
+        "height": 600
       }
     ]
   },
@@ -1489,6 +1608,26 @@
     "assets/generated/editorial/newton-240.webp": "0a9c83e5eef7f748805cd8753e1b116dab71f26351af418b90ffb3081da0036f",
     "assets/generated/editorial/newton-480.webp": "c06091c4458473924e08323798178aaa32008abdb188484856b3939f4d7e6ec2",
     "assets/generated/editorial/newton-960.webp": "6906f42ccf2a8877c75fd007dfb5605d99ed23a91899f1e7c25571c79249b633",
+    "assets/media/connected/tamagotchi-1997.webp": "b90f24d3fc967c4b4ac20443db476e9015ae389e0d22b2aa747dee790d176213",
+    "assets/generated/editorial/tamagotchi-1997-240.webp": "3dcbfe62c2c71702a54064051b3cce3e2a3fdb1e6f34562f04232a2ebd4d5a0f",
+    "assets/generated/editorial/tamagotchi-1997-480.webp": "8802aac90806cee3de07e2aba87182ae0f7386699a4370b61c6cb39a972c79fe",
+    "assets/generated/editorial/tamagotchi-1997-960.webp": "0037b06905b42966e24ef20cbef793da935e9b9ea014defc6b6c8eb5ca53325f",
+    "assets/media/connected/game-boy-pocket.webp": "913113a4a184875e272695a160bdc860338933d7d2cce064c1c10de265d8d715",
+    "assets/generated/editorial/game-boy-pocket-240.webp": "29d416efa9fbb2e7315c492f8fc1317c70d13af53950739b523d1b1b123117e9",
+    "assets/generated/editorial/game-boy-pocket-480.webp": "a490b37642087f110941df72202d07550a365fafd1f1e5d642bb1dac6952dc4a",
+    "assets/generated/editorial/game-boy-pocket-960.webp": "3326a8e6d8cf52040575b0664ca8dd9bbe2bcdbc84e7d8750e020645f5a39e16",
+    "assets/media/connected/game-link-cable.webp": "e9265cc942275821549d4c269fd76216c4711a50d144ba495d19f09400d0391c",
+    "assets/generated/editorial/game-link-cable-240.webp": "fbe096559d827dcb8cb13087db3bd16beb4efc20c4261237996281ad241ac336",
+    "assets/generated/editorial/game-link-cable-480.webp": "4ab1c8f5f06700f2606208d19143c8c34535b37a552d94392e8fad4e98e5fd73",
+    "assets/generated/editorial/game-link-cable-960.webp": "843197793cf2c366bff8eff42405396e279d8267a6365bd7234e0709857fbca3",
+    "assets/media/connected/rio-pmp300.webp": "ce2e5fbf620630597422691595bef0fb6429356ffa2fd9daf74aaf6ae4307945",
+    "assets/generated/editorial/rio-pmp300-240.webp": "3758bae365dbdc6902cf54eb734222a9b0a016650dfc2a880a559d0941094504",
+    "assets/generated/editorial/rio-pmp300-480.webp": "11827ac3408c4eed5c677420fd1ab6ff4c12b22296fe6327e683053737030a05",
+    "assets/generated/editorial/rio-pmp300-960.webp": "a2473b203c24dc18ae7795f33b5e6472ba34ddca10fd798608abb4a8528c893a",
+    "assets/media/connected/tr-909.webp": "5c2486268ea18516fc9d6c6dbd49875eb53f8610a1c37a80f29c59b25b1ba86c",
+    "assets/generated/editorial/tr-909-240.webp": "f0c5c2caab766c5aebbda344851915d1ec9aad63f4ba56b222be36ac9201c012",
+    "assets/generated/editorial/tr-909-480.webp": "d6fc451ab2263e0de140c8b5fb66d3b367b5fb49e7e924636cb5eced99dc8f5b",
+    "assets/generated/editorial/tr-909-901.webp": "8fca531c3532ec9db48fc846950c044e2602a8d26cdbd80506a954e2f2c58c26",
     "assets/media/stories/doom-commands-diagram.png": "467c901d62d422ad9bfd3b92cd1f23c2c8fc5e0510d803fe11fa377dbbd60b26",
     "assets/generated/editorial/story-the-secret-button-sequence-240.webp": "0c4519f55c9d6ac767fd3e9ada45729b5591790cc186e2c8853c638db094ea08",
     "assets/generated/editorial/story-the-secret-button-sequence-480.webp": "9d95b45a39d6a65475eed0419e96a169fb5d06634d86d500e7ecf5008092cd84",
@@ -1529,10 +1668,6 @@
     "assets/generated/editorial/story-streetwear-the-logo-and-the-voice-240.webp": "f2971e5e510d43fbfe164ccb750e9ea569093605b52eb6372a75fc7b486ec42d",
     "assets/generated/editorial/story-streetwear-the-logo-and-the-voice-480.webp": "310fc4b45ccbba92fe411abe5ee14c17be83c1b3c9928d871aa8571b6e131775",
     "assets/generated/editorial/story-streetwear-the-logo-and-the-voice-960.webp": "b722985b9fe45ed3d658955ff705df12cb60c122b970c1c67562442ef744c528",
-    "assets/media/stories/responsive-toys-diagram.png": "c976deb239cf7b73073e475184dd4442a0bdbec80adf7c50e76b64efaffd3324",
-    "assets/generated/editorial/story-holiday-toys-that-answered-back-240.webp": "047056e37f532a99617bec0d249ac5077da194bcb8b3d8e8a5da3969b6d166c8",
-    "assets/generated/editorial/story-holiday-toys-that-answered-back-480.webp": "a96893a31d90acc6971721dc8561c872db82ca7db7c7ddd888d9992f94fbccf9",
-    "assets/generated/editorial/story-holiday-toys-that-answered-back-960.webp": "14845fa40d03b8b5415974beeb26bb7dc18353c61b2695aeaa6cd11cf144aec1",
     "assets/media/stories/lan-network-diagram.png": "7f56e5ef4f12932c527cf60b9c4c3c6e9d196c0a6050047228d4b53b3de29313",
     "assets/generated/editorial/story-lan-party-night-240.webp": "ed0277db53a432dc87b7636440c58221c1823f0ec48a4d1a3bcf7327bf187bba",
     "assets/generated/editorial/story-lan-party-night-480.webp": "2a2e9cd8a80101724e56d6c2a4af718512020a81385c61468d008a4999aff53a",
@@ -1553,6 +1688,14 @@
     "assets/generated/editorial/story-summer-at-the-multiplex-240.webp": "9d56d0aa59225e269fbee7ab8d1d5f010a086abf32e196651f67485aaa550ca8",
     "assets/generated/editorial/story-summer-at-the-multiplex-480.webp": "76b5857a391fd4cbe461b5a718924b8915b78853d4bf2c7529ee0aebc33c8d87",
     "assets/generated/editorial/story-summer-at-the-multiplex-960.webp": "787b7aa0787c785847610847f35ee6710f6fb219104c89dbcedd2446775524cc",
+    "assets/media/connected/street-fighter-ii.webp": "e2cbae74f4868cb66a3cefc4025c02b866adbf3a7bea278c3ebec1d912c02061",
+    "assets/generated/editorial/story-one-more-challenger-240.webp": "c1c63e69105f8f5df1d8a746be5a26521c4abfdbbd9b17eaa4e82fd9d5547227",
+    "assets/generated/editorial/story-one-more-challenger-480.webp": "bfb4d22e8df0132551061aeec89e47115e7b66aa8053c61b42a406fd191edd2d",
+    "assets/generated/editorial/story-one-more-challenger-960.webp": "56d430790e798741a69d8e95c13730f6241f027fb170df74accd9f6f81c2f18e",
+    "assets/media/connected/world-cup-1999.webp": "d185ff148fda82eac0f825ee68fb86182f0360840178ab0e1d00a6b9fa89655d",
+    "assets/generated/editorial/story-the-team-behind-the-1999-final-240.webp": "3e3d068bc9bb21ead0b820a6302c1a8d65d5b6381cf0b125e9157fb2d3d29121",
+    "assets/generated/editorial/story-the-team-behind-the-1999-final-480.webp": "4650e0c18e2dfd3b3173ac3c0bb7dbb35ee24106461632c0f4ea5916a328c40b",
+    "assets/generated/editorial/story-the-team-behind-the-1999-final-960.webp": "edf3f2e2773e356348e67ae25d907f5c3bc56b9ce7e590a10169b2b9be6729f8",
     "assets/media/stories/memory-blocks-diagram.png": "d916ecadd027839d7d08d8c9be9d04e0210e9c72503c123e92ceb71e3a7699f7",
     "assets/generated/editorial/figure-memory-blocks-240.webp": "4945a0b1237d4d121d6b25c7ee69580671209193ae1ad136e19bf7150a5603f5",
     "assets/generated/editorial/figure-memory-blocks-480.webp": "10a46e5a7800e8ebf1d9f17c4731aa781de2dc5a06c4ea9d1e8cfc9138f13d37",
@@ -1565,6 +1708,10 @@
     "assets/generated/editorial/figure-mall-source-map-240.webp": "912e4e85243f4847fbf29c91401bd8d0c66687ab9f7792390a5c8b69756678e7",
     "assets/generated/editorial/figure-mall-source-map-480.webp": "3e070be5efb573a0ffac5e73b41178966750c9f627863a56c236cc2a3b553c8a",
     "assets/generated/editorial/figure-mall-source-map-960.webp": "3dfdaf9ad24159cb5303e502c6c53891788bedcd0a456ee16d19b898e1b6d737",
+    "assets/media/stories/responsive-toys-diagram.png": "c976deb239cf7b73073e475184dd4442a0bdbec80adf7c50e76b64efaffd3324",
+    "assets/generated/editorial/figure-responsive-toys-240.webp": "047056e37f532a99617bec0d249ac5077da194bcb8b3d8e8a5da3969b6d166c8",
+    "assets/generated/editorial/figure-responsive-toys-480.webp": "a96893a31d90acc6971721dc8561c872db82ca7db7c7ddd888d9992f94fbccf9",
+    "assets/generated/editorial/figure-responsive-toys-960.webp": "14845fa40d03b8b5415974beeb26bb7dc18353c61b2695aeaa6cd11cf144aec1",
     "assets/fonts/Jersey10-Regular.ttf": "db9cbd091617048a145d249daa2b815fe7083be6ab66ac26626e21a4e01c3e82",
     "assets/fonts/Jersey10-Regular.woff2": "db9b73d03e2f41e9140072dcbe1df006f92d578613c03cbc719be61bf8dc7e1f",
     "assets/fonts/Barlow-Regular.ttf": "95aa02c7c43096e0dd44d787ba6216864a67157e402adab59b35572e0c1577ea",

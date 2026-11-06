@@ -1,5 +1,5 @@
 import { MIN_DATE, MAX_DATE, inDecade, clampDecade, shiftDays, changeYear, historicalDate, weekBounds, eventsInWeek, formatDate, parseDate } from './date-utils.js';
-import { weekPicks } from './discovery.js?v=deeper-20261105';
+import { weekPicks } from './discovery.js?v=connected-20261106';
 
 const CATEGORIES = {music:'Music', 'movies-tv':'Movies & TV', games:'Games', tech:'Tech', culture:'Culture', news:'World news'};
 const PAGE_SIZE = 12;

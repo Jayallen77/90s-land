@@ -1,46 +1,46 @@
 {
-  "title": "The little things did the work",
-  "intro": "A scrap of paper could change the game. A memory card could hold a summer. This edition follows the small decisions behind the big memories: what to save, what to sample, what to play next.",
-  "feature": "the-secret-button-sequence",
+  "title": "Bring a friend",
+  "intro": "Trade a Pokémon. Take the other side of the cabinet. Send a message, share a record, watch a team keep the next moment alive. This edition follows the things we did together—and the small machines that made them possible.",
+  "feature": "pokemon-needed-a-friend",
   "picks": [
-    "fifteen-blocks-of-memory",
-    "rnb-had-many-voices",
-    "same-time-next-week",
-    "streetwear-the-logo-and-the-voice",
-    "the-demo-disc-evening",
+    "one-more-challenger",
+    "french-house-in-the-filter",
+    "thirty-two-megabytes",
+    "texting-on-twelve-keys",
+    "the-team-behind-the-1999-final",
+    "holiday-toys-that-answered-back",
     "from-mixtape-to-file",
-    "the-photo-lab-gap",
-    "bristol-between-the-beats"
+    "same-time-next-week"
   ],
   "collections": {
     "/zones/games/": {
-      "title": "Know the shortcut. Keep the save.",
-      "intro": "Actual codes, identified demo discs and a 15-block budget. Start with what the player can do, then look at the hardware that makes it possible.",
-      "feature": "the-secret-button-sequence"
+      "title": "The other player changes the game",
+      "intro": "Trade through the original Cable Club, learn the arcade’s six-button language, then compare the machines on the couch. The next move belongs to somebody else.",
+      "feature": "pokemon-needed-a-friend"
     },
     "/zones/music/": {
-      "title": "Hear the choice inside the record",
-      "intro": "Follow a sample home, isolate a voice and try a timed mix. These guides begin with named recordings and leave you with something specific to hear again.",
-      "feature": "rnb-had-many-voices"
+      "title": "A loop. A sequence. A reason to listen again.",
+      "intro": "Try a three-record French-house route, follow a sample to its source and build a timed side. These guides give the next listen a particular job.",
+      "feature": "french-house-in-the-filter"
     },
     "/zones/tv-movies/": {
-      "title": "Make an appointment with the screen",
-      "intro": "A dated SNICK lineup, a summer release calendar and a rental that still needs returning. Follow the film or show beyond the moment you press play.",
-      "feature": "same-time-next-week"
+      "title": "An evening takes some arranging",
+      "intro": "Choose a rental, check the broadcast schedule and find out what a summer release calendar actually promises. A screen is only one part of making an evening happen.",
+      "feature": "friday-at-the-video-store"
     },
     "/zones/tech-toys/": {
-      "title": "The machine has a particular job",
-      "intro": "Compare two 1996 browsers, edit on the original MiniDisc recorder and check that the file opens at the other desk. The versions are part of the story.",
-      "feature": "browser-wars-at-home"
+      "title": "Make the small machine do the work",
+      "intro": "Budget an MP3 player’s 32 MB, compare two ways to type HELLO and trace a file between computers. Try the limits as well as reading about them.",
+      "feature": "thirty-two-megabytes"
     },
     "/zones/culture/": {
-      "title": "Read the label. Follow the route.",
-      "intro": "FUBU’s founders, an actual mall directory and two different electronic pets. Ordinary choices become more interesting when the names and objects stay visible.",
-      "feature": "streetwear-the-logo-and-the-voice"
+      "title": "Give the familiar picture its full story",
+      "intro": "Follow the team behind the 1999 final, identify an actual 1997 electronic pet and read the authorship behind a garment. The details make the memory more interesting.",
+      "feature": "the-team-behind-the-1999-final"
     },
     "/zones/fashion/": {
       "title": "The garment carries a reference",
-      "intro": "Start with FUBU’s authorship, compare the grunge runway, then put the clothes back into shops and music. A logo can begin the explanation without finishing it.",
+      "intro": "Trace FUBU’s authorship, the grunge runway and the route through a real mall. Read the garment before treating its logo as the whole story.",
       "stories": [
         "streetwear-the-logo-and-the-voice",
         "grunge-from-rack-to-runway",
@@ -50,7 +50,7 @@
     },
     "/zones/internet-culture/": {
       "title": "Make a page. Leave a trace.",
-      "intro": "Build the invented homepage, follow its ring and preview a greeting. Then compare the browser, connection and shared desk that made visiting possible.",
+      "intro": "Make a homepage, join the invented webring and leave a local guestbook preview. Then follow the browser, shared desk and connection behind the visit.",
       "stories": [
         "a-web-you-could-make",
         "browser-wars-at-home",
@@ -60,7 +60,7 @@
     },
     "/zones/transparent-tech/": {
       "title": "A new shell, a new routine",
-      "intro": "The Bondi blue iMac changes the room and the file handoff. Compare its case with an Atomic Purple handheld and the same controller seen through a different shell.",
+      "intro": "Look through a shell, then ask what changed in use. Compare the iMac’s file handoff, a handheld’s power requirements and the objects carried between rooms.",
       "stories": [
         "you-could-see-through-it",
         "carrying-files-home",
@@ -68,5 +68,11 @@
         "the-family-computer"
       ]
     }
-  }
+  },
+  "objectIds": [
+    "game-boy-pocket",
+    "genesis-controller",
+    "technics-turntable",
+    "answering-machine"
+  ]
 }

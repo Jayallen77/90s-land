@@ -352,5 +352,28 @@
     "eraNote": "Original functional comparison of original Tamagotchi care programs and original-generation Furby sensor interaction. Shapes are schematic, not a model-identification photograph.",
     "reviewedAt": "2026-11-05",
     "sha256": "c976deb239cf7b73073e475184dd4442a0bdbec80adf7c50e76b64efaffd3324"
+  },
+  "pocket-hardware": {
+    "kind": "image",
+    "src": "/assets/media/connected/game-boy-pocket.webp",
+    "width": 1342,
+    "height": 1600,
+    "alt": "Silver Nintendo Game Boy Pocket, with black controls and a monochrome screen.",
+    "caption": "Early silver Game Boy Pocket, photographed in 2014. This case has no power-indicator LED; later Pocket cases differ.",
+    "credit": "Evan-Amos",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Game-Boy-Pocket-FL.jpg",
+    "sourceIdentity": "https://commons.wikimedia.org/wiki/File:Game-Boy-Pocket-FL.jpg",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "usageTerms": "Public domain; original source preserved, resized and encoded as WebP without cropping.",
+    "reviewedAt": "2026-11-06",
+    "depictedSubject": "Silver Nintendo Game Boy Pocket, with black controls and a monochrome screen.",
+    "eraNote": "Early silver Game Boy Pocket, photographed in 2014. This case has no power-indicator LED; later Pocket cases differ.",
+    "sha256": "913113a4a184875e272695a160bdc860338933d7d2cce064c1c10de265d8d715",
+    "originalSha256": "75ae13e84923e37da556ebf7333c90d01222cb2e341e931e3357774439c39892",
+    "sourceIds": [
+      "connected-photo-game-boy-pocket",
+      "connected-game-boy"
+    ]
   }
 }

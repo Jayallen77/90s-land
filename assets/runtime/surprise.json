@@ -81,6 +81,15 @@
     "target": "/stories/fifteen-blocks-of-memory/"
   },
   {
+    "id": "story-french-house-in-the-filter",
+    "kind": "story",
+    "title": "French house: let the loop change around you",
+    "teaser": "Three records from 1997–1999 make repetition feel like movement. A listening route through Daft Punk, Stardust and Cassius.",
+    "dateLabel": "The 1990s",
+    "room": "Music story",
+    "target": "/stories/french-house-in-the-filter/"
+  },
+  {
     "id": "story-friday-at-the-video-store",
     "kind": "story",
     "title": "Friday night at the video store",
@@ -162,6 +171,24 @@
     "target": "/stories/minidisc-small-door/"
   },
   {
+    "id": "story-one-more-challenger",
+    "kind": "story",
+    "title": "One more challenger at the arcade",
+    "teaser": "Street Fighter II made the space beside the cabinet part of the game. Read the six buttons, try a fireball, then compare the trip home.",
+    "dateLabel": "The 1990s",
+    "room": "Games story",
+    "target": "/stories/one-more-challenger/"
+  },
+  {
+    "id": "story-pokemon-needed-a-friend",
+    "kind": "story",
+    "title": "Pokémon needed a friend and a cable",
+    "teaser": "Red and Blue turned a private cartridge into a reason to meet someone else. Here is what the original trade actually involved.",
+    "dateLabel": "The 1990s",
+    "room": "Games story",
+    "target": "/stories/pokemon-needed-a-friend/"
+  },
+  {
     "id": "story-record-store-discovery",
     "kind": "story",
     "title": "The record shop had its own search engine",
@@ -225,6 +252,15 @@
     "target": "/stories/summer-at-the-multiplex/"
   },
   {
+    "id": "story-texting-on-twelve-keys",
+    "kind": "story",
+    "title": "When texting meant learning the keypad",
+    "teaser": "A 1999 Nokia 3210 could send a message without a full keyboard. Compare repeated taps with predictive entry, one small word at a time.",
+    "dateLabel": "The 1990s",
+    "room": "Tech story",
+    "target": "/stories/texting-on-twelve-keys/"
+  },
+  {
     "id": "story-the-console-war-couch",
     "kind": "story",
     "title": "The console wars were fought on the couch",
@@ -286,6 +322,24 @@
     "dateLabel": "The 1990s",
     "room": "Games story",
     "target": "/stories/the-secret-button-sequence/"
+  },
+  {
+    "id": "story-the-team-behind-the-1999-final",
+    "kind": "story",
+    "title": "The team behind the 1999 World Cup final",
+    "teaser": "The last penalty made the famous image. Lilly’s clearance, Scurry’s save and two hours against China explain how the United States reached it.",
+    "dateLabel": "The 1990s",
+    "room": "Culture story",
+    "target": "/stories/the-team-behind-the-1999-final/"
+  },
+  {
+    "id": "story-thirty-two-megabytes",
+    "kind": "story",
+    "title": "Thirty-two megabytes for the bus ride",
+    "teaser": "The 1998 Rio PMP300 traded the spinning disc for flash memory. Its small capacity made the playlist a decision you finished at the PC.",
+    "dateLabel": "The 1990s",
+    "room": "Tech story",
+    "target": "/stories/thirty-two-megabytes/"
   },
   {
     "id": "story-webtv-on-the-sofa",
@@ -871,6 +925,51 @@
     "dateLabel": "1993–1999 · era of use",
     "room": "Object archive",
     "target": "/archive/objects/newton/"
+  },
+  {
+    "id": "tamagotchi-1997",
+    "kind": "object",
+    "title": "A 1997 Tamagotchi",
+    "teaser": "A small screen can still interrupt your afternoon.",
+    "dateLabel": "1997–1999 · era of use",
+    "room": "Object archive",
+    "target": "/archive/objects/tamagotchi-1997/"
+  },
+  {
+    "id": "game-boy-pocket",
+    "kind": "object",
+    "title": "Game Boy Pocket: smaller, still monochrome",
+    "teaser": "A smaller case changed the bag. It did not add a light.",
+    "dateLabel": "1996–1999 · era of use",
+    "room": "Object archive",
+    "target": "/archive/objects/game-boy-pocket/"
+  },
+  {
+    "id": "game-link-cable",
+    "kind": "object",
+    "title": "Game Boy link cable: the other player is nearby",
+    "teaser": "Before choosing Trade Center, find the right plugs.",
+    "dateLabel": "Late 1990s · era of use",
+    "room": "Object archive",
+    "target": "/archive/objects/game-link-cable/"
+  },
+  {
+    "id": "rio-pmp300",
+    "kind": "object",
+    "title": "Rio PMP300: a playlist in 32 megabytes",
+    "teaser": "Choose the tracks at the computer. Carry that choice out the door.",
+    "dateLabel": "1998–1999 · era of use",
+    "room": "Object archive",
+    "target": "/archive/objects/rio-pmp300/"
+  },
+  {
+    "id": "tr-909",
+    "kind": "object",
+    "title": "TR-909: an older machine in a newer club",
+    "teaser": "Follow one row of lights. Listen for what changes around it.",
+    "dateLabel": "1983 design · 1990s use",
+    "room": "Object archive",
+    "target": "/archive/objects/tr-909/"
   },
   {
     "id": "event-mandela-released",

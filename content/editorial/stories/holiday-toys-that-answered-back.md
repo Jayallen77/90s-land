@@ -1,10 +1,14 @@
-<!-- story: {"id": "holiday-toys-that-answered-back", "title": "The toy aisle began answering back", "category": "culture", "summary": "Tamagotchi and Furby made care, response and personality part of the toy’s appeal, in very different forms.", "art": "talkboy", "sourceIds": ["tamagotchi", "tamagotchi-museum", "new-chm-1998", "sprint-furby-manual", "sprint-original-tamagotchi", "sprint-tamagotchi-gen2"], "objectIds": [], "topics": ["collecting", "mall", "portable", "toys"], "relatedStoryIds": [], "publishedAt": "2026-10-01", "updatedAt": "2026-11-05"} -->
+<!-- story: {"id": "holiday-toys-that-answered-back", "title": "The toy aisle began answering back", "category": "culture", "summary": "Tamagotchi and Furby made care, response and personality part of the toy’s appeal, in very different forms.", "art": "talkboy", "sourceIds": ["tamagotchi", "tamagotchi-museum", "new-chm-1998", "sprint-furby-manual", "sprint-original-tamagotchi", "sprint-tamagotchi-gen2", "connected-photo-tamagotchi-1997"], "objectIds": ["tamagotchi-1997"], "topics": ["collecting", "mall", "portable", "toys"], "relatedStoryIds": [], "publishedAt": "2026-10-01", "updatedAt": "2026-11-06"} -->
 
 ## One wanted care. The other wanted your attention.
 
 A Tamagotchi could ask for something while you were busy. A Furby could respond when you touched it, moved it or made a noise. Both made a toy feel less like an object waiting patiently on a shelf. Their tricks were different enough to deserve a proper comparison.
 
 Here the subjects are the **original Tamagotchi programs associated with the 1996 Japanese and 1997 international launch era**, and **original-generation Furby**, introduced in 1998. The Furby instructions consulted are a 1999 printing. Later generations add different screens, sensors, games and control systems; their features should not travel backward into these toys.
+
+## The yellow egg has an address
+
+The lead photograph is Museum Rotterdam’s object 78041: a transparent yellow Tamagotchi catalogued as 1997, with “Bandai 1997 Thailand” recorded on the back. It gives the story a particular toy to examine. The three white buttons, chain and LCD are visible; the shell alone does not prove whether its software is Gen 1 or Gen 2. The [object file](/archive/objects/tamagotchi-1997/) keeps that identification separate from the program comparison below.
 
 ## Two ways to make an electronic pet
 
@@ -16,6 +20,8 @@ Here the subjects are the **original Tamagotchi programs associated with the 199
 | Carry it | A keychain-sized screen pet. | A larger electromechanical companion powered by four AA batteries. |
 
 Bandai’s current Original rereleases explicitly preserve the two old programs, making the difference between their games easy to check. Their modern shell designs and battery specification are not evidence for every original 1997 shell.
+
+{{figure:responsive-toys}}
 
 ## Tamagotchi: a small menu of responsibilities
 

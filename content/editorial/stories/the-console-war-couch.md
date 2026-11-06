@@ -1,4 +1,4 @@
-<!-- story: {"id": "the-console-war-couch", "title": "The console wars were fought on the couch", "category": "games", "summary": "Your friend had a Genesis. You had a different cartridge. The argument started there.", "art": "games", "objectIds": ["snes", "genesis-controller", "n64-controller", "playstation-hardware"], "sourceIds": ["playstation-history", "nintendo-us", "polish-n64", "polish-ps-history", "new-sega-gamegear", "nintendo-world"], "topics": ["consoles", "fighting", "handhelds", "history", "racing"], "publishedAt": "2026-09-27", "updatedAt": "2026-11-05", "relatedStoryIds": ["a-whole-new-dimension"]} -->
+<!-- story: {"id": "the-console-war-couch", "title": "The console wars were fought on the couch", "category": "games", "summary": "Your friend had a Genesis. You had a different cartridge. The argument started there.", "art": "games", "objectIds": ["snes", "genesis-controller", "n64-controller", "playstation-hardware"], "sourceIds": ["playstation-history", "nintendo-us", "polish-n64", "polish-ps-history", "new-sega-gamegear", "nintendo-world", "connected-sf2", "connected-sf2-manual"], "topics": ["consoles", "fighting", "handhelds", "history", "racing"], "publishedAt": "2026-09-27", "updatedAt": "2026-11-06", "relatedStoryIds": ["a-whole-new-dimension", "one-more-challenger"]} -->
 
 ## The machine your friend had
 
@@ -21,6 +21,12 @@ The PlayStation’s North American arrival in 1995 shifted the furniture again. 
 | A multiplayer invitation changes the room | Mario Kart 64 on Nintendo 64 | Four controller ports make a particular sort of local gathering straightforward. |
 
 The examples cross several years. They are not a single launch-day comparison, and a later machine’s features should not be credited to an earlier one.
+
+## Bring the arcade’s vocabulary home
+
+Street Fighter II gives this controller argument a specific shape. The arcade controls arrange light, medium and heavy punches in one row, with corresponding kicks in another. A Super NES pad distributes its six action buttons across the face and shoulders. The command still has to reach the game through the player’s hands, so a familiar move may need practice on a different layout.
+
+The [arcade guide](/stories/one-more-challenger/) shows the six-button grid and Ryu’s quarter-circle-forward fireball input, with facing direction made explicit. It is a normal move, not a cheat. The interesting comparison is what the player must do on each controller, rather than assuming a shared title makes every version physically identical.
 
 ## Agree on the turn before the match
 

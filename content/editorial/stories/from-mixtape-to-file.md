@@ -1,4 +1,4 @@
-<!-- story: {"id": "from-mixtape-to-file", "title": "From mixtape to file", "category": "music", "summary": "Choose the first song carefully. Someone has to live with the order you put these tracks in.", "art": "cassette", "objectIds": ["cassette", "walkman", "discman", "cdr-spindle"], "sourceIds": ["sony-audio", "sony-digital", "sprint-blue-lines", "sprint-dummy", "sprint-tricky", "sprint-mary-life"], "topics": ["cd", "mixtapes", "mp3", "portable"], "publishedAt": "2026-09-27", "updatedAt": "2026-11-05", "relatedStoryIds": ["bristol-between-the-beats"]} -->
+<!-- story: {"id": "from-mixtape-to-file", "title": "From mixtape to file", "category": "music", "summary": "Choose the first song carefully. Someone has to live with the order you put these tracks in.", "art": "cassette", "objectIds": ["cassette", "walkman", "discman", "cdr-spindle", "rio-pmp300"], "sourceIds": ["sony-audio", "sony-digital", "sprint-blue-lines", "sprint-dummy", "sprint-tricky", "sprint-mary-life", "connected-rio", "connected-mp3-paper"], "topics": ["cd", "mixtapes", "mp3", "portable"], "publishedAt": "2026-09-27", "updatedAt": "2026-11-06", "relatedStoryIds": ["bristol-between-the-beats", "thirty-two-megabytes"]} -->
 
 ## A good opening track made a promise
 
@@ -32,6 +32,12 @@ Changing track two after recording the whole side is a nuisance. That cost encou
 A CD-R changes the preparation. A computer can arrange tracks before writing an audio disc, and compatible players can select an individual track directly. But an audio CD-R still has a finite running time, and the playback machine has to accept the medium and format you made.
 
 The [Discman](/archive/objects/discman/) shows the other half of that exchange: a portable CD player, a lid, playback controls and a physical disc. A folder of MP3 files burned to a disc is not automatically an audio CD that every 1990s player can read.
+
+## Files have a different budget
+
+A four-minute stereo PCM recording at CD’s 44.1 kHz, 16-bit settings contains 42.336 decimal MB of audio data. At a constant 128 kbps, a four-minute MP3 contains 3.84 MB of audio payload. That smaller representation changes what a flash player can carry; it also introduces an encoding choice whose quality deserves a listen. These are payload calculations, excluding file headers and storage overhead.
+
+The standard 1998 Rio PMP300 offers a concrete limit: 32 MB. The [Rio feature and calculator](/stories/thirty-two-megabytes/) let you vary bitrate and track length, then count the complete tracks that fit. File order is easy to revise; the device still cannot take a limitless library out the door.
 
 ## Files: the sequence becomes easy to revise
 

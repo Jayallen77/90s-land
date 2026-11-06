@@ -1,4 +1,4 @@
-<!-- story: {"id": "sampling-a-record-collection", "title": "A record collection could become an instrument", "category": "music", "summary": "Hip-hop sampling turned listening, selection and arrangement into connected forms of musical work.", "art": "mpc-2000", "sourceIds": ["phase2-wu-tang-debut", "new-albums-1991", "new-albums-1994", "new-albums-1996", "polish-mpc-contemporary", "sprint-pete-rock", "sprint-mary-life"], "objectIds": ["mpc-2000", "technics-turntable"], "topics": ["hip-hop", "mixtapes", "rave"], "relatedStoryIds": ["breakbeats-change-the-clock", "record-store-discovery"], "publishedAt": "2026-10-01", "updatedAt": "2026-11-05"} -->
+<!-- story: {"id": "sampling-a-record-collection", "title": "A record collection could become an instrument", "category": "music", "summary": "Hip-hop sampling turned listening, selection and arrangement into connected forms of musical work.", "art": "mpc-2000", "sourceIds": ["phase2-wu-tang-debut", "new-albums-1991", "new-albums-1994", "new-albums-1996", "polish-mpc-contemporary", "sprint-pete-rock", "sprint-mary-life", "connected-french-house", "connected-909"], "objectIds": ["mpc-2000", "technics-turntable", "tr-909"], "topics": ["hip-hop", "mixtapes", "rave"], "relatedStoryIds": ["breakbeats-change-the-clock", "record-store-discovery", "french-house-in-the-filter"], "publishedAt": "2026-10-01", "updatedAt": "2026-11-06"} -->
 
 ## Recognize the sound, then follow it home
 
@@ -31,3 +31,9 @@ The next enjoyable purchase might be the record behind the record you already lo
 The pictured [Akai MPC2000](/archive/objects/mpc-2000/) arrived in 1997. It combines sampling and sequencing with a bank of playable pads, making it useful for explaining the relationship between captured sound and an arranged beat. It was **not** the machine behind the earlier 1992 and 1994 recordings in the table.
 
 Keeping the chronology straight makes the equipment more interesting. Producers worked with different samplers, memory limits, studios and collaborators. A recognizable box should not become a shortcut that erases those differences.
+
+## Hear what happens after the fragment is chosen
+
+Identifying a source is one kind of listening. Following the arrangement is another: notice when a loop becomes brighter, when the drums leave room around it, and when its return begins to feel inevitable. A short fragment can support a long record because repetition gives small changes something stable to work against.
+
+The [French-house listening route](/stories/french-house-in-the-filter/) puts Daft Punk, Stardust and Cassius beside that question. It also separates a drum machine’s programmed pattern from a sampler’s recorded fragment. These are different jobs in a production; finding one in a studio photograph does not establish the entire chain that made a record.

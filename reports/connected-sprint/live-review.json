@@ -1,0 +1,777 @@
+{
+  "checkedAt": "2026-11-06",
+  "base": "https://90s.land",
+  "activePages": 128,
+  "passed": 128,
+  "note": "Read-only live crawl before implementation; all then-active pages returned 200 with one h1. Raw HTML hashes did not match the checkout; this is not evidence of a production regression. New content is verified separately in the packaged local preview. Historical claim checking is scoped to new and edited copy, not a new fact audit of every retained sentence.",
+  "pages": [
+    {
+      "path": "/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 694
+    },
+    {
+      "path": "/credits/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 1419
+    },
+    {
+      "path": "/guestbook/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 81
+    },
+    {
+      "path": "/search/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 11551
+    },
+    {
+      "path": "/sitemap/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 2329
+    },
+    {
+      "path": "/surprise/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 145
+    },
+    {
+      "path": "/timeline/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 332
+    },
+    {
+      "path": "/webring/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 3928
+    },
+    {
+      "path": "/timeline/1990/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 3802
+    },
+    {
+      "path": "/timeline/1991/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 4120
+    },
+    {
+      "path": "/timeline/1992/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 4079
+    },
+    {
+      "path": "/timeline/1993/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 4449
+    },
+    {
+      "path": "/timeline/1994/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 4334
+    },
+    {
+      "path": "/timeline/1995/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 4196
+    },
+    {
+      "path": "/timeline/1996/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 5228
+    },
+    {
+      "path": "/timeline/1997/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 3754
+    },
+    {
+      "path": "/timeline/1998/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 3879
+    },
+    {
+      "path": "/timeline/1999/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 4054
+    },
+    {
+      "path": "/tours/before-the-feed/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 1070
+    },
+    {
+      "path": "/zones/fashion/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 438
+    },
+    {
+      "path": "/zones/games/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 1696
+    },
+    {
+      "path": "/zones/internet-culture/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 991
+    },
+    {
+      "path": "/zones/music/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 1273
+    },
+    {
+      "path": "/zones/tech-toys/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 1318
+    },
+    {
+      "path": "/zones/transparent-tech/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 496
+    },
+    {
+      "path": "/zones/tv-movies/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 1073
+    },
+    {
+      "path": "/this-week/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 595
+    },
+    {
+      "path": "/events/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 24216
+    },
+    {
+      "path": "/stories/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 964
+    },
+    {
+      "path": "/archive/objects/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 1232
+    },
+    {
+      "path": "/zones/culture/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 986
+    },
+    {
+      "path": "/stories/a-web-you-could-make/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 650
+    },
+    {
+      "path": "/stories/a-whole-new-dimension/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 952
+    },
+    {
+      "path": "/stories/after-school-on-trl/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 700
+    },
+    {
+      "path": "/stories/aol-flat-rate/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 612
+    },
+    {
+      "path": "/stories/breakbeats-change-the-clock/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 876
+    },
+    {
+      "path": "/stories/bristol-between-the-beats/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 918
+    },
+    {
+      "path": "/stories/browser-wars-at-home/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 865
+    },
+    {
+      "path": "/stories/carrying-files-home/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 769
+    },
+    {
+      "path": "/stories/fifteen-blocks-of-memory/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 825
+    },
+    {
+      "path": "/stories/friday-at-the-video-store/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 582
+    },
+    {
+      "path": "/stories/from-mixtape-to-file/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 892
+    },
+    {
+      "path": "/stories/grunge-from-rack-to-runway/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 765
+    },
+    {
+      "path": "/stories/handhelds-and-batteries/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 673
+    },
+    {
+      "path": "/stories/holiday-toys-that-answered-back/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 856
+    },
+    {
+      "path": "/stories/horror-knew-the-rules/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 594
+    },
+    {
+      "path": "/stories/lan-party-night/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 654
+    },
+    {
+      "path": "/stories/meet-me-at-the-mall/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 813
+    },
+    {
+      "path": "/stories/minidisc-small-door/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 750
+    },
+    {
+      "path": "/stories/record-store-discovery/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 740
+    },
+    {
+      "path": "/stories/rnb-had-many-voices/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 956
+    },
+    {
+      "path": "/stories/same-time-next-week/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 836
+    },
+    {
+      "path": "/stories/sampling-a-record-collection/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 861
+    },
+    {
+      "path": "/stories/shareware-before-download-stores/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 698
+    },
+    {
+      "path": "/stories/streetwear-the-logo-and-the-voice/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 738
+    },
+    {
+      "path": "/stories/summer-at-the-multiplex/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 686
+    },
+    {
+      "path": "/stories/the-console-war-couch/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 719
+    },
+    {
+      "path": "/stories/the-demo-disc-evening/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 862
+    },
+    {
+      "path": "/stories/the-family-computer/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 736
+    },
+    {
+      "path": "/stories/the-flyer-and-the-dancefloor/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 581
+    },
+    {
+      "path": "/stories/the-landline-negotiation/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 757
+    },
+    {
+      "path": "/stories/the-photo-lab-gap/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 798
+    },
+    {
+      "path": "/stories/the-secret-button-sequence/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 730
+    },
+    {
+      "path": "/stories/webtv-on-the-sofa/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 660
+    },
+    {
+      "path": "/stories/when-grunge-broke-through/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 513
+    },
+    {
+      "path": "/stories/you-could-see-through-it/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 646
+    },
+    {
+      "path": "/archive/objects/family-pc/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 334
+    },
+    {
+      "path": "/archive/objects/windows-3/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 270
+    },
+    {
+      "path": "/archive/objects/first-website/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 296
+    },
+    {
+      "path": "/archive/objects/mosaic-browser/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 290
+    },
+    {
+      "path": "/archive/objects/geocities-homepage/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 329
+    },
+    {
+      "path": "/archive/objects/visitor-counter/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 267
+    },
+    {
+      "path": "/archive/objects/guestbook/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 300
+    },
+    {
+      "path": "/archive/objects/webring-bar/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 317
+    },
+    {
+      "path": "/archive/objects/aim-away-message/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 303
+    },
+    {
+      "path": "/archive/objects/yahoo-directory/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 267
+    },
+    {
+      "path": "/archive/objects/aol-cd/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 338
+    },
+    {
+      "path": "/archive/objects/windows-95-start/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 273
+    },
+    {
+      "path": "/archive/objects/pager/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 338
+    },
+    {
+      "path": "/archive/objects/cassette/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 260
+    },
+    {
+      "path": "/archive/objects/discman/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 381
+    },
+    {
+      "path": "/archive/objects/cdr-spindle/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 268
+    },
+    {
+      "path": "/archive/objects/vhs-tape/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 286
+    },
+    {
+      "path": "/archive/objects/crt-television/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 264
+    },
+    {
+      "path": "/archive/objects/blockbuster-store/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 279
+    },
+    {
+      "path": "/archive/objects/arcade-cabinet/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 252
+    },
+    {
+      "path": "/archive/objects/genesis-controller/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 358
+    },
+    {
+      "path": "/archive/objects/n64-controller/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 304
+    },
+    {
+      "path": "/archive/objects/playstation-hardware/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 281
+    },
+    {
+      "path": "/archive/objects/bondi-imac/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 311
+    },
+    {
+      "path": "/archive/objects/dreamcast/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 256
+    },
+    {
+      "path": "/archive/objects/y2k-office/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 269
+    },
+    {
+      "path": "/archive/objects/hubble-launch/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 234
+    },
+    {
+      "path": "/archive/objects/doom-disks/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 299
+    },
+    {
+      "path": "/archive/objects/game-boy-color/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 265
+    },
+    {
+      "path": "/archive/objects/transparent-n64-controller/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 265
+    },
+    {
+      "path": "/archive/objects/snes/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 323
+    },
+    {
+      "path": "/archive/objects/game-gear/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 441
+    },
+    {
+      "path": "/archive/objects/saturn/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 314
+    },
+    {
+      "path": "/archive/objects/minidisc/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 459
+    },
+    {
+      "path": "/archive/objects/palm-pilot/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 455
+    },
+    {
+      "path": "/archive/objects/nokia-3210/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 320
+    },
+    {
+      "path": "/archive/objects/zip-drive/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 444
+    },
+    {
+      "path": "/archive/objects/floppy-disk/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 350
+    },
+    {
+      "path": "/archive/objects/memory-card/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 525
+    },
+    {
+      "path": "/archive/objects/game-shark/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 443
+    },
+    {
+      "path": "/archive/objects/webtv/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 450
+    },
+    {
+      "path": "/archive/objects/quickcam/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 322
+    },
+    {
+      "path": "/archive/objects/disposable-camera/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 329
+    },
+    {
+      "path": "/archive/objects/talkboy/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 389
+    },
+    {
+      "path": "/archive/objects/beanie-baby/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 335
+    },
+    {
+      "path": "/archive/objects/pogs/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 329
+    },
+    {
+      "path": "/archive/objects/super-soaker/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 410
+    },
+    {
+      "path": "/archive/objects/walkman/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 384
+    },
+    {
+      "path": "/archive/objects/tb-303/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 385
+    },
+    {
+      "path": "/archive/objects/mpc-2000/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 392
+    },
+    {
+      "path": "/archive/objects/mc-303/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 274
+    },
+    {
+      "path": "/archive/objects/technics-turntable/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 317
+    },
+    {
+      "path": "/archive/objects/korg-m1/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 380
+    },
+    {
+      "path": "/archive/objects/dat-recorder/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 250
+    },
+    {
+      "path": "/archive/objects/jewel-case/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 291
+    },
+    {
+      "path": "/archive/objects/dr-martens/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 338
+    },
+    {
+      "path": "/archive/objects/vans-shoes/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 332
+    },
+    {
+      "path": "/archive/objects/answering-machine/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 360
+    },
+    {
+      "path": "/archive/objects/super-famicom/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 319
+    },
+    {
+      "path": "/archive/objects/digital-camera/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 460
+    },
+    {
+      "path": "/archive/objects/powerbook/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 324
+    },
+    {
+      "path": "/archive/objects/newton/",
+      "status": 200,
+      "h1": 1,
+      "mainWords": 403
+    }
+  ]
+}

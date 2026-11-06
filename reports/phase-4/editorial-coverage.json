@@ -8,13 +8,13 @@
     "games": 42,
     "culture": 19
   },
-  "stories": 35,
+  "stories": 41,
   "storiesByCategory": {
-    "tech": 8,
-    "games": 8,
-    "music": 9,
+    "tech": 10,
+    "games": 10,
+    "music": 10,
     "movies-tv": 4,
-    "culture": 6
+    "culture": 7
   },
   "months": {
     "1990-02": 1,
@@ -367,6 +367,6 @@
     }
   ],
   "errors": [],
-  "reviewedMedia": 104,
+  "reviewedMedia": 109,
   "gameShelfEntries": 12
 }

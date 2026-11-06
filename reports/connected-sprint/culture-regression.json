@@ -1,0 +1,32 @@
+{
+  "base": "http://127.0.0.1:4176",
+  "activePages": 1,
+  "viewports": [
+    390,
+    1440
+  ],
+  "renders": 2,
+  "issuePages": 0,
+  "results": [
+    {
+      "path": "/zones/culture/",
+      "width": 390,
+      "status": 200,
+      "title": "90s Culture: Toys, Sports & Everyday Life — 90s.land",
+      "screenshot": "390/zones--culture.jpg",
+      "height": 4024,
+      "issues": [],
+      "violations": []
+    },
+    {
+      "path": "/zones/culture/",
+      "width": 1440,
+      "status": 200,
+      "title": "90s Culture: Toys, Sports & Everyday Life — 90s.land",
+      "screenshot": "1440/zones--culture.jpg",
+      "height": 2433,
+      "issues": [],
+      "violations": []
+    }
+  ]
+}

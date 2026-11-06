@@ -85,7 +85,7 @@ def finish_main(route, main, shelf):
     main = re.sub(r'(<main\b[^>]*>)',lambda m:m[0]+ed.breadcrumb(route),main,count=1)
     if route.get('type') in ('years','zones') or path == '/':
         shelf_route = dict(route)
-        if path == '/': shelf_route['artifactIds'] = ['memory-card','digital-camera','talkboy','saturn']
+        if path == '/': shelf_route['artifactIds'] = ed.EDITION['objectIds']
         # Preserve object anchors while avoiding repeated pictures on one page.
         shelf_route['_usedMedia'] = [m['src'] for m in [a['media'] for a in model.ARTIFACTS]+list(model.STORY_MEDIA.values()) if m.get('src') and m['src'] in main]
         if '<!-- object-shelf -->' in main:main=main.replace('<!-- object-shelf -->',shelf(shelf_route))

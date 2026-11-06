@@ -564,7 +564,7 @@
     "type": "highlights",
     "path": "/archive/objects/",
     "title": "The object archive",
-    "summary": "62 objects, interfaces, and recreations from the 1990s.",
+    "summary": "67 objects, interfaces, and recreations from the 1990s.",
     "tags": [
       "objects",
       "archive"
@@ -735,6 +735,21 @@
     "randomEligible": false
   },
   {
+    "id": "story-french-house-in-the-filter",
+    "type": "stories",
+    "path": "/stories/french-house-in-the-filter/",
+    "title": "French house: let the loop change around you",
+    "summary": "Three records from 1997–1999 make repetition feel like movement. A listening route through Daft Punk, Stardust and Cassius.",
+    "tags": [
+      "music"
+    ],
+    "artifactIds": [
+      "tr-909",
+      "mpc-2000"
+    ],
+    "randomEligible": false
+  },
+  {
     "id": "story-friday-at-the-video-store",
     "type": "stories",
     "path": "/stories/friday-at-the-video-store/",
@@ -763,7 +778,8 @@
       "cassette",
       "walkman",
       "discman",
-      "cdr-spindle"
+      "cdr-spindle",
+      "rio-pmp300"
     ],
     "randomEligible": false
   },
@@ -793,7 +809,9 @@
     ],
     "artifactIds": [
       "game-gear",
-      "game-boy-color"
+      "game-boy-color",
+      "game-boy-pocket",
+      "game-link-cable"
     ],
     "randomEligible": false
   },
@@ -806,7 +824,9 @@
     "tags": [
       "culture"
     ],
-    "artifactIds": [],
+    "artifactIds": [
+      "tamagotchi-1997"
+    ],
     "randomEligible": false
   },
   {
@@ -870,6 +890,37 @@
     "randomEligible": false
   },
   {
+    "id": "story-one-more-challenger",
+    "type": "stories",
+    "path": "/stories/one-more-challenger/",
+    "title": "One more challenger at the arcade",
+    "summary": "Street Fighter II made the space beside the cabinet part of the game. Read the six buttons, try a fireball, then compare the trip home.",
+    "tags": [
+      "games"
+    ],
+    "artifactIds": [
+      "snes",
+      "genesis-controller"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "story-pokemon-needed-a-friend",
+    "type": "stories",
+    "path": "/stories/pokemon-needed-a-friend/",
+    "title": "Pokémon needed a friend and a cable",
+    "summary": "Red and Blue turned a private cartridge into a reason to meet someone else. Here is what the original trade actually involved.",
+    "tags": [
+      "games"
+    ],
+    "artifactIds": [
+      "game-link-cable",
+      "game-boy-pocket",
+      "game-boy-color"
+    ],
+    "randomEligible": false
+  },
+  {
     "id": "story-record-store-discovery",
     "type": "stories",
     "path": "/stories/record-store-discovery/",
@@ -927,7 +978,8 @@
     ],
     "artifactIds": [
       "mpc-2000",
-      "technics-turntable"
+      "technics-turntable",
+      "tr-909"
     ],
     "randomEligible": false
   },
@@ -972,6 +1024,21 @@
     "artifactIds": [
       "vhs-tape",
       "crt-television"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "story-texting-on-twelve-keys",
+    "type": "stories",
+    "path": "/stories/texting-on-twelve-keys/",
+    "title": "When texting meant learning the keypad",
+    "summary": "A 1999 Nokia 3210 could send a message without a full keyboard. Compare repeated taps with predictive entry, one small word at a time.",
+    "tags": [
+      "tech"
+    ],
+    "artifactIds": [
+      "nokia-3210",
+      "pager"
     ],
     "randomEligible": false
   },
@@ -1052,7 +1119,8 @@
     "artifactIds": [
       "answering-machine",
       "pager",
-      "family-pc"
+      "family-pc",
+      "nokia-3210"
     ],
     "randomEligible": false
   },
@@ -1086,6 +1154,34 @@
       "game-shark",
       "doom-disks",
       "genesis-controller"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "story-the-team-behind-the-1999-final",
+    "type": "stories",
+    "path": "/stories/the-team-behind-the-1999-final/",
+    "title": "The team behind the 1999 World Cup final",
+    "summary": "The last penalty made the famous image. Lilly’s clearance, Scurry’s save and two hours against China explain how the United States reached it.",
+    "tags": [
+      "culture"
+    ],
+    "artifactIds": [],
+    "randomEligible": false
+  },
+  {
+    "id": "story-thirty-two-megabytes",
+    "type": "stories",
+    "path": "/stories/thirty-two-megabytes/",
+    "title": "Thirty-two megabytes for the bus ride",
+    "summary": "The 1998 Rio PMP300 traded the spinning disc for flash memory. Its small capacity made the playlist a decision you finished at the PC.",
+    "tags": [
+      "tech"
+    ],
+    "artifactIds": [
+      "rio-pmp300",
+      "discman",
+      "cdr-spindle"
     ],
     "randomEligible": false
   },
@@ -2159,6 +2255,94 @@
     ],
     "artifactIds": [
       "newton"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "object-tamagotchi-1997",
+    "type": "objects",
+    "path": "/archive/objects/tamagotchi-1997/",
+    "title": "A 1997 Tamagotchi",
+    "summary": "A small screen can still interrupt your afternoon.",
+    "tags": [
+      "toys",
+      "tamagotchi",
+      "portable",
+      "transparent"
+    ],
+    "artifactIds": [
+      "tamagotchi-1997"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "object-game-boy-pocket",
+    "type": "objects",
+    "path": "/archive/objects/game-boy-pocket/",
+    "title": "Game Boy Pocket: smaller, still monochrome",
+    "summary": "A smaller case changed the bag. It did not add a light.",
+    "tags": [
+      "game boy",
+      "pocket",
+      "handheld",
+      "nintendo",
+      "portable"
+    ],
+    "artifactIds": [
+      "game-boy-pocket"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "object-game-link-cable",
+    "type": "objects",
+    "path": "/archive/objects/game-link-cable/",
+    "title": "Game Boy link cable: the other player is nearby",
+    "summary": "Before choosing Trade Center, find the right plugs.",
+    "tags": [
+      "pokemon",
+      "game boy",
+      "link cable",
+      "multiplayer"
+    ],
+    "artifactIds": [
+      "game-link-cable"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "object-rio-pmp300",
+    "type": "objects",
+    "path": "/archive/objects/rio-pmp300/",
+    "title": "Rio PMP300: a playlist in 32 megabytes",
+    "summary": "Choose the tracks at the computer. Carry that choice out the door.",
+    "tags": [
+      "mp3",
+      "rio",
+      "portable",
+      "music",
+      "32mb"
+    ],
+    "artifactIds": [
+      "rio-pmp300"
+    ],
+    "randomEligible": false
+  },
+  {
+    "id": "object-tr-909",
+    "type": "objects",
+    "path": "/archive/objects/tr-909/",
+    "title": "TR-909: an older machine in a newer club",
+    "summary": "Follow one row of lights. Listen for what changes around it.",
+    "tags": [
+      "drum machine",
+      "house",
+      "techno",
+      "roland",
+      "tr909"
+    ],
+    "artifactIds": [
+      "tr-909"
     ],
     "randomEligible": false
   },

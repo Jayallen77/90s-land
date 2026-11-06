@@ -141,7 +141,7 @@ def week_feature():
     start, end = archive.week_bounds(day)
     picks = archive.selected_events([e for e in archive.EVENTS if archive.is_day(e) and start.isoformat() <= e['date'] <= end.isoformat()], movie_limit=2)
     pick = picks[0] if picks else None
-    fallback=__import__('reading').year_reading(day.year)[0]
+    fallback=next(r for r in __import__('reading').year_reading(day.year) if r['url']!='/stories/'+EDITION['feature']+'/')
     summary = pick['summary'] if pick else 'From the year’s collection: '+fallback['summary']
     title = pick['title'] if pick else fallback['title']
     href = archive.event_url(pick) if pick else fallback['url']
